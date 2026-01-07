@@ -46,6 +46,7 @@ jobs:
           fi
 
       - name: Create Pull Request
+        id: cpr
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
@@ -58,10 +59,16 @@ jobs:
 
             ### Changes
             - Updated UI translation files (cloud.*.json) for all locales
-            - Run `python scripts/validate.py` to verify
 
             ---
-            _This PR was automatically created by the sync workflow._
+            _This PR was automatically created and will be auto-merged._
           branch: sync/cloud-keys
           commit-message: "sync: update keys from flyto-cloud"
           labels: sync, automated
+
+      - name: Auto-merge PR
+        if: steps.cpr.outputs.pull-request-number
+        run: |
+          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.FLYTO_CLOUD_TOKEN }}
