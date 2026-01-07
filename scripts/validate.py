@@ -74,7 +74,8 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     translations = data['translations']
 
     # Validate each translation
-    key_pattern = re.compile(r'^(modules|common)\.[a-z_]+\.[a-z_]+(\.[a-z_]+)*$')
+    # modules.category.name.field or common.field
+    key_pattern = re.compile(r'^(modules\.[a-z_]+\.[a-z_]+(\.[a-z_]+)*|common\.[a-z_]+(\.[a-z_]+)*)$')
 
     for key, value in translations.items():
         # Check key format
