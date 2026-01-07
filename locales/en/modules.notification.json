@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "notification",
+  "version": "1.0.0",
+  "translations": {
+    "modules.notification.discord.send_message.description": "Send message to Discord via webhook",
+    "modules.notification.discord.send_message.label": "Send Discord Message",
+    "modules.notification.email.send.description": "Send email via SMTP",
+    "modules.notification.email.send.label": "Send Email",
+    "modules.notification.slack.send_message.description": "Send message to Slack via webhook",
+    "modules.notification.slack.send_message.label": "Send Slack Message",
+    "modules.notification.telegram.send_message.description": "Send message via Telegram Bot API",
+    "modules.notification.telegram.send_message.label": "Send Telegram Message"
+  }
+}

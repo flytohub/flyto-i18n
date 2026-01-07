@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "excel",
+  "version": "1.0.0",
+  "translations": {
+    "modules.excel.read.description": "Read data from Excel files (xlsx, xls)",
+    "modules.excel.read.label": "Read Excel",
+    "modules.excel.write.description": "Write data to Excel files (xlsx)",
+    "modules.excel.write.label": "Write Excel"
+  }
+}

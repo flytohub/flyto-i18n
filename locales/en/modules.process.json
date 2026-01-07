@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "process",
+  "version": "1.0.0",
+  "translations": {
+    "modules.process.list.description": "List all running background processes",
+    "modules.process.list.label": "List Processes",
+    "modules.process.start.description": "Start a background process (server, service, etc.)",
+    "modules.process.start.label": "Start Background Process",
+    "modules.process.stop.description": "Stop a running background process",
+    "modules.process.stop.label": "Stop Process"
+  }
+}

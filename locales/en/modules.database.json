@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "database",
+  "version": "1.0.0",
+  "translations": {
+    "modules.database.insert.description": "Insert data into database tables",
+    "modules.database.insert.label": "Database Insert",
+    "modules.database.query.description": "Execute SQL queries on PostgreSQL, MySQL, or SQLite databases",
+    "modules.database.query.label": "Database Query",
+    "modules.database.update.description": "Update data in database tables",
+    "modules.database.update.label": "Database Update"
+  }
+}

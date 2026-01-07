@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "array",
+  "version": "1.0.0",
+  "translations": {
+    "modules.array.chunk.description": "Split array into chunks of specified size",
+    "modules.array.chunk.label": "Array Chunk",
+    "modules.array.difference.description": "Find elements in first array not in others",
+    "modules.array.difference.label": "Array Difference",
+    "modules.array.filter.description": "Filter array elements by condition",
+    "modules.array.filter.label": "Filter Array",
+    "modules.array.flatten.description": "Flatten nested arrays into single array",
+    "modules.array.flatten.label": "Array Flatten",
+    "modules.array.intersection.description": "Find common elements between arrays",
+    "modules.array.intersection.label": "Array Intersection",
+    "modules.array.join.description": "Join array elements into string",
+    "modules.array.join.label": "Array Join",
+    "modules.array.map.description": "Transform each element in an array",
+    "modules.array.map.label": "Array Map",
+    "modules.array.reduce.description": "Reduce array to single value",
+    "modules.array.reduce.label": "Array Reduce",
+    "modules.array.sort.description": "Sort array elements in ascending or descending order",
+    "modules.array.sort.label": "Sort Array",
+    "modules.array.unique.description": "Remove duplicate values from array",
+    "modules.array.unique.label": "Array Unique"
+  }
+}

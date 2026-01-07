@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "word",
+  "version": "1.0.0",
+  "translations": {
+    "modules.word.parse.description": "Extract text and content from Word documents (.docx)",
+    "modules.word.parse.label": "Parse Word Document",
+    "modules.word.to_pdf.description": "Convert Word documents (.docx) to PDF files",
+    "modules.word.to_pdf.label": "Word to PDF"
+  }
+}

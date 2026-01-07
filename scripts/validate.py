@@ -75,7 +75,8 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
 
     # Validate each translation
     # modules.category.name.field or common.field
-    key_pattern = re.compile(r'^(modules\.[a-z_]+\.[a-z_]+(\.[a-z_]+)*|common\.[a-z_]+(\.[a-z_]+)*)$')
+    # Allow alphanumeric with underscores in segments (e.g., md5, branch_1, aws_s3)
+    key_pattern = re.compile(r'^(modules\.[a-z][a-z0-9_]*\.[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)*|common\.[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)*)$')
 
     for key, value in translations.items():
         # Check key format

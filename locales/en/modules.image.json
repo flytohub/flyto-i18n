@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "image",
+  "version": "1.0.0",
+  "translations": {
+    "modules.image.compress.description": "Compress images to reduce file size while maintaining quality",
+    "modules.image.compress.label": "Compress Image",
+    "modules.image.convert.description": "Convert image to different format (PNG, JPEG, WEBP, etc.)",
+    "modules.image.convert.label": "Convert Image",
+    "modules.image.download.description": "Download image from URL to local file",
+    "modules.image.download.label": "Download Image",
+    "modules.image.qrcode_generate.description": "Generate QR codes from text, URLs, or data",
+    "modules.image.qrcode_generate.label": "Generate QR Code",
+    "modules.image.resize.description": "Resize images to specified dimensions with various algorithms",
+    "modules.image.resize.label": "Resize Image"
+  }
+}

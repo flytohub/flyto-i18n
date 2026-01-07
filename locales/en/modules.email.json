@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "email",
+  "version": "1.0.0",
+  "translations": {
+    "modules.email.read.description": "Read emails from IMAP server",
+    "modules.email.read.label": "Read Email",
+    "modules.email.send.description": "Send email via SMTP server",
+    "modules.email.send.label": "Send Email"
+  }
+}

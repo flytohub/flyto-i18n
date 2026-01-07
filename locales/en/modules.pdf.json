@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "pdf",
+  "version": "1.0.0",
+  "translations": {
+    "modules.pdf.fill_form.description": "Fill PDF form fields with data and optionally insert images",
+    "modules.pdf.fill_form.label": "Fill PDF Form",
+    "modules.pdf.generate.description": "Generate PDF files from HTML content or text",
+    "modules.pdf.generate.label": "Generate PDF",
+    "modules.pdf.parse.description": "Extract text and metadata from PDF files",
+    "modules.pdf.parse.label": "Parse PDF",
+    "modules.pdf.to_word.description": "Convert PDF files to Word documents (.docx)",
+    "modules.pdf.to_word.label": "PDF to Word"
+  }
+}

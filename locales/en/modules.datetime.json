@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "datetime",
+  "version": "1.0.0",
+  "translations": {
+    "modules.datetime.add.description": "Add time to datetime",
+    "modules.datetime.add.label": "Add Time",
+    "modules.datetime.format.description": "Format datetime to string",
+    "modules.datetime.format.label": "Format DateTime",
+    "modules.datetime.parse.description": "Parse string to datetime",
+    "modules.datetime.parse.label": "Parse DateTime",
+    "modules.datetime.subtract.description": "Subtract time from datetime",
+    "modules.datetime.subtract.label": "Subtract Time"
+  }
+}

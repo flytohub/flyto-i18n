@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "vision",
+  "version": "1.0.0",
+  "translations": {
+    "modules.vision.analyze.description": "Analyze images using OpenAI Vision API (GPT-4V)",
+    "modules.vision.analyze.label": "Analyze Image with AI",
+    "modules.vision.compare.description": "Compare two images and identify visual differences",
+    "modules.vision.compare.label": "Compare Images"
+  }
+}

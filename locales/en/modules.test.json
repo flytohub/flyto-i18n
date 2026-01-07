@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "test",
+  "version": "1.0.0",
+  "translations": {
+    "modules.test.assert_contains.description": "Assert that a collection contains a value",
+    "modules.test.assert_contains.label": "Assert Contains",
+    "modules.test.assert_equal.description": "Assert that two values are equal",
+    "modules.test.assert_equal.label": "Assert Equal",
+    "modules.test.assert_greater_than.description": "Assert that a value is greater than another",
+    "modules.test.assert_greater_than.label": "Assert Greater Than",
+    "modules.test.assert_length.description": "Assert that a collection has expected length",
+    "modules.test.assert_length.label": "Assert Length",
+    "modules.test.assert_not_null.description": "Assert that a value is not null or undefined",
+    "modules.test.assert_not_null.label": "Assert Not Null",
+    "modules.test.assert_true.description": "Assert that a condition is true",
+    "modules.test.assert_true.label": "Assert True"
+  }
+}

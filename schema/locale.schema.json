@@ -34,7 +34,7 @@
         "minLength": 1
       },
       "propertyNames": {
-        "pattern": "^(modules\\.[a-z_]+\\.[a-z_]+(\\.[a-z_]+)*|common\\.[a-z_]+(\\.[a-z_]+)*)$"
+        "pattern": "^(modules\\.[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*|common\\.[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*)$"
       }
     }
   },

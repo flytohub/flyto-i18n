@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "string",
+  "version": "1.0.0",
+  "translations": {
+    "modules.string.lowercase.description": "Convert a string to lowercase",
+    "modules.string.lowercase.label": "String Lowercase",
+    "modules.string.replace.description": "Replace occurrences of a substring in a string",
+    "modules.string.replace.label": "String Replace",
+    "modules.string.reverse.description": "Reverse the characters in a string",
+    "modules.string.reverse.label": "String Reverse",
+    "modules.string.titlecase.description": "Convert string to title case",
+    "modules.string.titlecase.label": "Title Case String",
+    "modules.string.trim.description": "Remove whitespace from both ends of a string",
+    "modules.string.trim.label": "String Trim",
+    "modules.string.uppercase.description": "Convert a string to uppercase",
+    "modules.string.uppercase.label": "String Uppercase"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "shell",
+  "version": "1.0.0",
+  "translations": {
+    "modules.shell.exec.description": "Execute a shell command and capture output",
+    "modules.shell.exec.label": "Execute Shell Command"
+  }
+}

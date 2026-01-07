@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "http",
+  "version": "1.0.0",
+  "translations": {
+    "modules.http.request.description": "Send HTTP request and receive response",
+    "modules.http.request.label": "HTTP Request",
+    "modules.http.response_assert.description": "Assert and validate HTTP response properties",
+    "modules.http.response_assert.label": "Assert HTTP Response"
+  }
+}

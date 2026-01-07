@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "training",
+  "version": "1.0.0",
+  "translations": {
+    "modules.training.practice.analyze.description": "Analyze website structure for practice",
+    "modules.training.practice.analyze.label": "Practice Analyze",
+    "modules.training.practice.execute.description": "Execute practice session",
+    "modules.training.practice.execute.label": "Practice Execute",
+    "modules.training.practice.infer_schema.description": "Infer data schema from website",
+    "modules.training.practice.infer_schema.label": "Practice Infer Schema",
+    "modules.training.practice.stats.description": "Get practice statistics",
+    "modules.training.practice.stats.label": "Practice Stats"
+  }
+}

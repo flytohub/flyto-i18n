@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "file",
+  "version": "1.0.0",
+  "translations": {
+    "modules.file.copy.description": "Copy a file to another location",
+    "modules.file.copy.label": "Copy File",
+    "modules.file.delete.description": "Delete a file from the filesystem",
+    "modules.file.delete.label": "Delete File",
+    "modules.file.exists.description": "Check if a file or directory exists",
+    "modules.file.exists.label": "Check File Exists",
+    "modules.file.move.description": "Move or rename a file",
+    "modules.file.move.label": "Move File",
+    "modules.file.read.description": "Read content from a file",
+    "modules.file.read.label": "Read File",
+    "modules.file.write.description": "Write content to a file",
+    "modules.file.write.label": "Write File"
+  }
+}

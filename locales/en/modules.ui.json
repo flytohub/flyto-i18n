@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "ui",
+  "version": "1.0.0",
+  "translations": {
+    "modules.ui.evaluate.description": "Comprehensive UI quality evaluation with multi-dimensional scoring",
+    "modules.ui.evaluate.label": "Evaluate UI Quality",
+    "modules.ui.evaluate.params.api_key.description": "OpenAI API key (defaults to OPENAI_API_KEY env var)",
+    "modules.ui.evaluate.params.api_key.label": "OpenAI API Key",
+    "modules.ui.evaluate.params.app_type.description": "Screenshot path or URL to evaluate",
+    "modules.ui.evaluate.params.app_type.label": "Screenshot",
+    "modules.ui.evaluate.params.brand_guidelines.description": "Brief brand guidelines to check against",
+    "modules.ui.evaluate.params.brand_guidelines.label": "Target Audience",
+    "modules.ui.evaluate.params.evaluation_criteria.description": "Specific criteria to evaluate (defaults to all)",
+    "modules.ui.evaluate.params.evaluation_criteria.label": "Page Type",
+    "modules.ui.evaluate.params.min_score.description": "Minimum overall score to pass (0-100)",
+    "modules.ui.evaluate.params.min_score.label": "Minimum Pass Score",
+    "modules.ui.evaluate.params.page_type.description": "Type of page being evaluated",
+    "modules.ui.evaluate.params.page_type.label": "Page Type",
+    "modules.ui.evaluate.params.screenshot.description": "Screenshot path or URL to evaluate",
+    "modules.ui.evaluate.params.screenshot.label": "Screenshot",
+    "modules.ui.evaluate.params.target_audience.description": "Description of target users",
+    "modules.ui.evaluate.params.target_audience.label": "Typography"
+  }
+}
