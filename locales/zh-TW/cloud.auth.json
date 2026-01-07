@@ -98,6 +98,7 @@
     "cloud.login.offlineMode": "離線模式",
     "cloud.login.offlineModeDesc": "無需網路連線，在本地工作",
     "cloud.login.offlineModeFailed": "進入離線模式失敗",
+    "cloud.login.offlineModeNotEnabled": "離線模式未啟用。請聯繫管理員。",
     "cloud.login.or": "或",
     "cloud.login.passwordLabel": "密碼",
     "cloud.login.passwordMinError": "密碼至少需要 6 個字元",
