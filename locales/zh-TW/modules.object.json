@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "",
+    "modules.object.keys.label": "",
+    "modules.object.keys.output.count.description": "",
+    "modules.object.keys.output.keys.description": "",
+    "modules.object.merge.description": "",
+    "modules.object.merge.label": "",
+    "modules.object.merge.output.result.description": "",
+    "modules.object.omit.description": "",
+    "modules.object.omit.label": "",
+    "modules.object.omit.output.result.description": "",
+    "modules.object.pick.description": "",
+    "modules.object.pick.label": "",
+    "modules.object.pick.output.result.description": "",
+    "modules.object.values.description": "",
+    "modules.object.values.label": "",
+    "modules.object.values.output.count.description": "",
+    "modules.object.values.output.values.description": ""
+  }
+}
