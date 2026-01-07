@@ -19,6 +19,31 @@ PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 DIST_DIR = PROJECT_ROOT / 'dist'
 
+# Language metadata - add new languages here when adding locales
+LANGUAGE_META = {
+    'en': {'name': 'English', 'native': 'English', 'region': 'US'},
+    'zh-TW': {'name': 'Traditional Chinese', 'native': '繁體中文', 'region': 'TW'},
+    'zh-CN': {'name': 'Simplified Chinese', 'native': '简体中文', 'region': 'CN'},
+    'ja': {'name': 'Japanese', 'native': '日本語', 'region': 'JP'},
+    'ko': {'name': 'Korean', 'native': '한국어', 'region': 'KR'},
+    'es': {'name': 'Spanish', 'native': 'Español', 'region': 'ES'},
+    'fr': {'name': 'French', 'native': 'Français', 'region': 'FR'},
+    'de': {'name': 'German', 'native': 'Deutsch', 'region': 'DE'},
+    'pt': {'name': 'Portuguese', 'native': 'Português', 'region': 'BR'},
+    'it': {'name': 'Italian', 'native': 'Italiano', 'region': 'IT'},
+    'ru': {'name': 'Russian', 'native': 'Русский', 'region': 'RU'},
+    'th': {'name': 'Thai', 'native': 'ไทย', 'region': 'TH'},
+    'vi': {'name': 'Vietnamese', 'native': 'Tiếng Việt', 'region': 'VN'},
+    'ar': {'name': 'Arabic', 'native': 'العربية', 'region': 'SA'},
+    'hi': {'name': 'Hindi', 'native': 'हिन्दी', 'region': 'IN'},
+    'id': {'name': 'Indonesian', 'native': 'Bahasa Indonesia', 'region': 'ID'},
+    'ms': {'name': 'Malay', 'native': 'Bahasa Melayu', 'region': 'MY'},
+    'nl': {'name': 'Dutch', 'native': 'Nederlands', 'region': 'NL'},
+    'pl': {'name': 'Polish', 'native': 'Polski', 'region': 'PL'},
+    'tr': {'name': 'Turkish', 'native': 'Türkçe', 'region': 'TR'},
+    'uk': {'name': 'Ukrainian', 'native': 'Українська', 'region': 'UA'},
+}
+
 
 def build_locale(locale: str) -> dict:
     """Build merged translations for a locale."""
@@ -38,8 +63,14 @@ def build_locale(locale: str) -> dict:
             merged.update(data['translations'])
             files_count += 1
 
+    # Get language metadata
+    meta = LANGUAGE_META.get(locale, {'name': locale, 'native': locale, 'region': locale[:2].upper()})
+
     return {
         'locale': locale,
+        'name': meta['name'],
+        'native': meta['native'],
+        'region': meta['region'],
         'version': datetime.now().strftime('%Y%m%d%H%M%S'),
         'files_merged': files_count,
         'total_keys': len(merged),
@@ -60,7 +91,13 @@ def build_manifest(locales_data: dict) -> dict:
         translated = sum(1 for v in data.get('translations', {}).values() if v)
         total = data.get('total_keys', 0)
 
+        # Get language metadata
+        meta = LANGUAGE_META.get(locale, {'name': locale, 'native': locale, 'region': locale[:2].upper()})
+
         manifest['locales'][locale] = {
+            'name': meta['name'],
+            'native': meta['native'],
+            'region': meta['region'],
             'total_keys': total,
             'translated_keys': translated,
             'completion': round(translated / total * 100, 1) if total > 0 else 0,
