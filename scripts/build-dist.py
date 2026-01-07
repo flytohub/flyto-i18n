@@ -7,8 +7,9 @@ Usage:
 
 This script:
 1. Merges all locale files (modules.*, cloud.*) into single files
-2. Outputs to dist/{locale}.json for efficient CDN loading
-3. Generates manifest.json with locale metadata
+2. Converts flat keys to nested format for vue-i18n compatibility
+3. Outputs to dist/{locale}.json for efficient CDN loading
+4. Generates manifest.json with locale metadata
 """
 
 import json
@@ -45,6 +46,43 @@ LANGUAGE_META = {
 }
 
 
+def flat_to_nested(flat_dict: dict) -> dict:
+    """
+    Convert flat keys to nested object for vue-i18n compatibility.
+
+    "cloud.myTemplates.title" → { myTemplates: { title: "..." } }
+    "modules.browser.click.label" → { modules: { browser: { click: { label: "..." } } } }
+
+    Strips "cloud." prefix so t('myTemplates.title') works directly.
+    """
+    result = {}
+
+    for key, value in flat_dict.items():
+        # Strip "cloud." prefix for cloud keys
+        normalized_key = key[6:] if key.startswith('cloud.') else key
+
+        # Split key and build nested structure
+        parts = normalized_key.split('.')
+        current = result
+
+        for part in parts[:-1]:
+            if part not in current:
+                current[part] = {}
+            elif not isinstance(current[part], dict):
+                # Handle conflict: existing value is not a dict
+                current[part] = {'_value': current[part]}
+            current = current[part]
+
+        # Set the final value
+        final_key = parts[-1]
+        if final_key in current and isinstance(current[final_key], dict):
+            current[final_key]['_value'] = value
+        else:
+            current[final_key] = value
+
+    return result
+
+
 def build_locale(locale: str) -> dict:
     """Build merged translations for a locale."""
     locale_dir = LOCALES_DIR / locale
@@ -52,7 +90,7 @@ def build_locale(locale: str) -> dict:
     if not locale_dir.exists():
         return {}
 
-    merged = {}
+    flat_merged = {}
     files_count = 0
 
     for json_file in sorted(locale_dir.glob('*.json')):
@@ -60,8 +98,11 @@ def build_locale(locale: str) -> dict:
             data = json.load(f)
 
         if 'translations' in data:
-            merged.update(data['translations'])
+            flat_merged.update(data['translations'])
             files_count += 1
+
+    # Convert to nested format
+    nested = flat_to_nested(flat_merged)
 
     # Get language metadata
     meta = LANGUAGE_META.get(locale, {'name': locale, 'native': locale, 'region': locale[:2].upper()})
@@ -73,12 +114,12 @@ def build_locale(locale: str) -> dict:
         'region': meta['region'],
         'version': datetime.now().strftime('%Y%m%d%H%M%S'),
         'files_merged': files_count,
-        'total_keys': len(merged),
-        'translations': merged
+        'total_keys': len(flat_merged),
+        'translations': nested
     }
 
 
-def build_manifest(locales_data: dict) -> dict:
+def build_manifest(locales_data: dict, flat_counts: dict) -> dict:
     """Build manifest with locale metadata."""
     manifest = {
         'version': datetime.now().strftime('%Y%m%d%H%M%S'),
@@ -87,9 +128,9 @@ def build_manifest(locales_data: dict) -> dict:
     }
 
     for locale, data in locales_data.items():
-        # Count translated (non-empty) keys
-        translated = sum(1 for v in data.get('translations', {}).values() if v)
         total = data.get('total_keys', 0)
+        # Use flat count for accurate translated count
+        translated = flat_counts.get(locale, 0)
 
         # Get language metadata
         meta = LANGUAGE_META.get(locale, {'name': locale, 'native': locale, 'region': locale[:2].upper()})
@@ -107,6 +148,20 @@ def build_manifest(locales_data: dict) -> dict:
     return manifest
 
 
+def count_translated(locale: str) -> int:
+    """Count non-empty translations for a locale."""
+    locale_dir = LOCALES_DIR / locale
+    count = 0
+
+    for json_file in locale_dir.glob('*.json'):
+        with open(json_file, encoding='utf-8') as f:
+            data = json.load(f)
+        if 'translations' in data:
+            count += sum(1 for v in data['translations'].values() if v)
+
+    return count
+
+
 def main():
     print("Building dist/ for CDN distribution")
     print()
@@ -114,6 +169,7 @@ def main():
     DIST_DIR.mkdir(parents=True, exist_ok=True)
 
     locales_data = {}
+    flat_counts = {}
 
     # Process each locale
     for locale_dir in sorted(LOCALES_DIR.iterdir()):
@@ -125,6 +181,7 @@ def main():
 
         data = build_locale(locale)
         locales_data[locale] = data
+        flat_counts[locale] = count_translated(locale)
 
         # Write merged file
         output_file = DIST_DIR / f"{locale}.json"
@@ -134,7 +191,7 @@ def main():
         print(f"  → dist/{locale}.json ({data['total_keys']} keys, {data['files_merged']} files)")
 
     # Write manifest
-    manifest = build_manifest(locales_data)
+    manifest = build_manifest(locales_data, flat_counts)
     manifest_file = DIST_DIR / 'manifest.json'
     with open(manifest_file, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
