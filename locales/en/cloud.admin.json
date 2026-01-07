@@ -165,6 +165,7 @@
     "cloud.admin.languages.default": "Default",
     "cloud.admin.languages.defaultLanguage": "Default Language",
     "cloud.admin.languages.fullyTranslated": "Fully Translated",
+    "cloud.admin.languages.keys": "keys",
     "cloud.admin.languages.loadFailed": "Failed to load languages",
     "cloud.admin.languages.noLanguages": "No languages configured",
     "cloud.admin.languages.subtitle": "Manage supported languages and translations",
