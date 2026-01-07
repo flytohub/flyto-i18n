@@ -98,6 +98,7 @@
     "cloud.login.offlineMode": "Offline Mode",
     "cloud.login.offlineModeDesc": "Work locally without internet connection",
     "cloud.login.offlineModeFailed": "Failed to enter offline mode",
+    "cloud.login.offlineModeNotEnabled": "Offline mode is not enabled. Please contact an administrator.",
     "cloud.login.or": "or",
     "cloud.login.passwordLabel": "Password",
     "cloud.login.passwordMinError": "Password must be at least 6 characters",
