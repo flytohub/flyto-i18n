@@ -71,6 +71,7 @@
     "cloud.common.created": "Created",
     "cloud.common.darkMode": "Dark Mode",
     "cloud.common.delete": "Delete",
+    "cloud.common.deleting": "Deleting...",
     "cloud.common.description": "Description",
     "cloud.common.disabled": "Disabled",
     "cloud.common.dismiss": "Dismiss",
