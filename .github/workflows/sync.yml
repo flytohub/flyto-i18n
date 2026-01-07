@@ -1,0 +1,66 @@
+name: Sync from Core
+
+on:
+  repository_dispatch:
+    types: [sync-from-core]
+  workflow_dispatch:
+    inputs:
+      core_ref:
+        description: 'flyto-core commit ref'
+        required: false
+        default: 'main'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout flyto-i18n
+        uses: actions/checkout@v4
+
+      - name: Checkout flyto-core
+        uses: actions/checkout@v4
+        with:
+          repository: flytohub/flyto-core
+          path: flyto-core
+          ref: ${{ github.event.client_payload.ref || inputs.core_ref || 'main' }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync keys from core
+        run: |
+          python scripts/sync-from-core.py --core-path ./flyto-core
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git diff --stat
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: "sync: update keys from flyto-core"
+          body: |
+            ## Auto-synced i18n keys from flyto-core
+
+            Triggered by: `${{ github.event.client_payload.ref || inputs.core_ref || 'manual' }}`
+
+            ### Changes
+            - Updated English base locale files with new/modified keys
+            - Run `python scripts/validate.py` to verify
+
+            ---
+            _This PR was automatically created by the sync workflow._
+          branch: sync/core-keys
+          commit-message: "sync: update keys from flyto-core"
+          labels: sync, automated
