@@ -23,7 +23,7 @@ jobs:
           repository: flytohub/flyto-core
           path: flyto-core
           ref: ${{ github.event.client_payload.ref || inputs.core_ref || 'main' }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.FLYTO_CORE_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
