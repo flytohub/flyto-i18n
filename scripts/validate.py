@@ -76,7 +76,8 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     # Validate each translation
     # modules.category.name.field or common.field or schema.field.name
     # Allow alphanumeric with underscores and hyphens in segments (e.g., md5, branch_1, aws_s3, image-classification)
-    key_pattern = re.compile(r'^(modules\.[a-z][a-z0-9_-]*\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*|common\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*|schema\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*)$')
+    # Also allow special fields like __event__, __set_context, loop.item, loop.index
+    key_pattern = re.compile(r'^(modules\.[a-z][a-z0-9_-]*\.[a-z][a-z0-9_-]*(\.[a-zA-Z_][a-zA-Z0-9_.-]*)*|common\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*|schema\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*)$')
 
     for key, value in translations.items():
         # Check key format
