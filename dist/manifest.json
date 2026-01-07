@@ -1,9 +1,18 @@
 {
-  "version": "0.1.0",
-  "locales": [
-    "en"
-  ],
-  "files": [
-    "en.json"
-  ]
+  "version": "20260107112444",
+  "generated_at": "2026-01-07T11:24:44.138397",
+  "locales": {
+    "en": {
+      "total_keys": 5968,
+      "translated_keys": 5968,
+      "completion": 100.0,
+      "files_merged": 68
+    },
+    "zh-TW": {
+      "total_keys": 5968,
+      "translated_keys": 4325,
+      "completion": 72.5,
+      "files_merged": 68
+    }
+  }
 }
