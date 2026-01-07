@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.creatorProfile",
+  "version": "1.0.0",
+  "translations": {
+    "cloud.creatorProfile.backToMarketplace": "返回商城",
+    "cloud.creatorProfile.chatError": "無法開始聊天",
+    "cloud.creatorProfile.creatorTemplates": "創作者的模板",
+    "cloud.creatorProfile.editProfile": "編輯個人資料",
+    "cloud.creatorProfile.follow": "追蹤",
+    "cloud.creatorProfile.followError": "更新追蹤狀態失敗",
+    "cloud.creatorProfile.followers": "粉絲",
+    "cloud.creatorProfile.following": "追蹤中",
+    "cloud.creatorProfile.free": "免費",
+    "cloud.creatorProfile.loadFollowersError": "載入粉絲列表失敗",
+    "cloud.creatorProfile.loadFollowingError": "載入追蹤列表失敗",
+    "cloud.creatorProfile.loadMore": "載入更多",
+    "cloud.creatorProfile.noDescription": "無說明",
+    "cloud.creatorProfile.noFollowers": "尚無粉絲",
+    "cloud.creatorProfile.noFollowing": "尚未追蹤任何人",
+    "cloud.creatorProfile.noTemplates": "尚未發布任何模板",
+    "cloud.creatorProfile.notFound": "找不到創作者",
+    "cloud.creatorProfile.notFoundDesc": "您要找的創作者不存在或已被移除。",
+    "cloud.creatorProfile.templates": "模板",
+    "cloud.creatorProfile.unfollow": "取消追蹤",
+    "cloud.creatorProfile.verifiedCreator": "認證創作者"
+  }
+}

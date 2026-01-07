@@ -74,10 +74,12 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     translations = data['translations']
 
     # Validate each translation
-    # modules.category.name.field or common.field or schema.field.name
-    # Allow alphanumeric with underscores and hyphens in segments (e.g., md5, branch_1, aws_s3, image-classification)
-    # Also allow special fields like __event__, __set_context, loop.item, loop.index
-    key_pattern = re.compile(r'^(modules\.[a-z][a-z0-9_-]*\.[a-z][a-z0-9_-]*(\.[a-zA-Z_][a-zA-Z0-9_.-]*)*|common\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*|schema\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*)$')
+    # Key formats:
+    # - modules.category.name.field (from flyto-core)
+    # - cloud.category.path.to.key (from flyto-cloud UI, allows numeric segments like 24h, 30d)
+    # - common.field or schema.field.name
+    # Allow alphanumeric with underscores and hyphens, special fields like __event__
+    key_pattern = re.compile(r'^(modules\.[a-z][a-z0-9_-]*\.[a-z][a-z0-9_-]*(\.[a-zA-Z_][a-zA-Z0-9_.-]*)*|cloud\.[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*|common\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*|schema\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*)$')
 
     for key, value in translations.items():
         # Check key format
@@ -117,9 +119,13 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
                 'message': "Potential script injection detected"
             })
 
-    # Check if keys exist in base (skip for 'en')
+    # Check if keys exist in base (skip for 'en' and 'cloud.*' keys)
+    # Cloud keys come from flyto-cloud which may have different content per locale
     if data.get('locale') != 'en' and base_keys:
         for key in translations.keys():
+            # Skip check for cloud.* keys (UI translations may differ by locale)
+            if key.startswith('cloud.'):
+                continue
             if key not in base_keys:
                 errors.append({
                     'file': str(file_path),

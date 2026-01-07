@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.creatorProfile",
+  "version": "1.0.0",
+  "translations": {
+    "cloud.creatorProfile.backToMarketplace": "Back to Marketplace",
+    "cloud.creatorProfile.chatError": "Failed to start chat",
+    "cloud.creatorProfile.creatorTemplates": "Creator's Templates",
+    "cloud.creatorProfile.editProfile": "Edit Profile",
+    "cloud.creatorProfile.follow": "Follow",
+    "cloud.creatorProfile.followError": "Failed to update follow status",
+    "cloud.creatorProfile.followers": "Followers",
+    "cloud.creatorProfile.following": "Following",
+    "cloud.creatorProfile.free": "Free",
+    "cloud.creatorProfile.loadFollowersError": "Failed to load followers",
+    "cloud.creatorProfile.loadFollowingError": "Failed to load following",
+    "cloud.creatorProfile.loadMore": "Load More",
+    "cloud.creatorProfile.noDescription": "No description",
+    "cloud.creatorProfile.noFollowers": "No followers yet",
+    "cloud.creatorProfile.noFollowing": "Not following anyone",
+    "cloud.creatorProfile.noTemplates": "No templates published yet",
+    "cloud.creatorProfile.notFound": "Creator Not Found",
+    "cloud.creatorProfile.notFoundDesc": "The creator you're looking for doesn't exist or has been removed.",
+    "cloud.creatorProfile.templates": "Templates",
+    "cloud.creatorProfile.unfollow": "Unfollow",
+    "cloud.creatorProfile.verifiedCreator": "Verified Creator"
+  }
+}
