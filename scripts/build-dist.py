@@ -54,31 +54,41 @@ def flat_to_nested(flat_dict: dict) -> dict:
     "modules.browser.click.label" → { modules: { browser: { click: { label: "..." } } } }
 
     Strips "cloud." prefix so t('myTemplates.title') works directly.
+
+    Handles key conflicts:
+    - If both "a.b" and "a.b.c" exist, "a.b" is replaced by dict containing "c"
+    - Longer/more specific keys always win
     """
     result = {}
 
-    for key, value in flat_dict.items():
+    # Sort keys by length descending - longer keys first
+    # This ensures children are set before parents try to overwrite
+    sorted_keys = sorted(flat_dict.keys(), key=len, reverse=True)
+
+    for key in sorted_keys:
+        value = flat_dict[key]
+
         # Strip "cloud." prefix for cloud keys
         normalized_key = key[6:] if key.startswith('cloud.') else key
 
-        # Split key and build nested structure
         parts = normalized_key.split('.')
         current = result
 
+        # Navigate/create path to parent
         for part in parts[:-1]:
             if part not in current:
                 current[part] = {}
             elif not isinstance(current[part], dict):
-                # Handle conflict: existing value is not a dict
-                current[part] = {'_value': current[part]}
+                # Conflict: shorter key was string, but we need dict for longer key
+                # Replace with dict (longer key wins)
+                current[part] = {}
             current = current[part]
 
-        # Set the final value
+        # Set final value only if not already a dict (children exist)
         final_key = parts[-1]
-        if final_key in current and isinstance(current[final_key], dict):
-            current[final_key]['_value'] = value
-        else:
+        if final_key not in current:
             current[final_key] = value
+        # If already exists as dict, skip (children win over parent string)
 
     return result
 
