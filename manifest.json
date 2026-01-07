@@ -1,0 +1,27 @@
+{
+  "name": "flyto-i18n",
+  "version": "0.1.0",
+  "description": "Internationalization language packs for flyto-core",
+  "source_version": "flyto-core@2.0.0",
+  "repository": "https://github.com/flytohub/flyto-i18n",
+  "locales": {
+    "en": {
+      "name": "English",
+      "native_name": "English",
+      "coverage": 100,
+      "status": "official",
+      "maintainers": ["@flytohub"]
+    }
+  },
+  "categories": [
+    "browser",
+    "flow",
+    "data",
+    "api",
+    "database",
+    "file",
+    "ai",
+    "communication",
+    "utility"
+  ]
+}

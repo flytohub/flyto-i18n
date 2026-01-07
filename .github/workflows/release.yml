@@ -1,0 +1,43 @@
+name: Release Language Pack
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate before release
+        run: |
+          python scripts/validate.py --strict
+
+      - name: Package locales
+        run: |
+          mkdir -p dist
+          # Package each locale separately
+          for locale_dir in locales/*/; do
+            locale=$(basename "$locale_dir")
+            if [ -d "$locale_dir" ]; then
+              zip -r "dist/flyto-i18n-${locale}-${{ github.ref_name }}.zip" "locales/$locale" manifest.json
+            fi
+          done
+          # Package all locales together
+          zip -r "dist/flyto-i18n-all-${{ github.ref_name }}.zip" locales manifest.json
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/*.zip
+          generate_release_notes: true

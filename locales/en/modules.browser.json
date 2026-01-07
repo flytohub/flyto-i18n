@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "browser",
+  "version": "1.0.0",
+  "translations": {
+    "modules.browser.click.label": "Click Element",
+    "modules.browser.click.description": "Click on a specified element on the page",
+    "modules.browser.click.params.selector.label": "Selector",
+    "modules.browser.click.params.selector.description": "CSS selector or XPath for the element to click",
+    "modules.browser.click.output.success.description": "Whether the click was successful",
+    "modules.browser.navigate.label": "Navigate",
+    "modules.browser.navigate.description": "Navigate to a URL in the browser",
+    "modules.browser.navigate.params.url.label": "URL",
+    "modules.browser.navigate.params.url.description": "The URL to navigate to",
+    "modules.browser.navigate.output.success.description": "Whether navigation was successful",
+    "modules.browser.screenshot.label": "Take Screenshot",
+    "modules.browser.screenshot.description": "Capture a screenshot of the current page",
+    "modules.browser.screenshot.output.image.description": "Base64 encoded screenshot image",
+    "modules.browser.wait.label": "Wait",
+    "modules.browser.wait.description": "Wait for a condition or specified time",
+    "modules.browser.wait.params.timeout.label": "Timeout",
+    "modules.browser.wait.params.timeout.description": "Maximum time to wait in milliseconds",
+    "modules.browser.extract.label": "Extract Data",
+    "modules.browser.extract.description": "Extract data from page elements",
+    "modules.browser.extract.output.data.description": "Extracted data from the page"
+  }
+}
