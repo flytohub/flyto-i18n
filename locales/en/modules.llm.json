@@ -6,6 +6,11 @@
   "translations": {
     "modules.llm.agent.description": "Autonomous AI agent with multi-port connections (model, memory, tools)",
     "modules.llm.agent.label": "AI Agent",
+    "modules.llm.agent.output.ok.description": "Whether the agent completed successfully",
+    "modules.llm.agent.output.result.description": "Whether the agent completed successfully",
+    "modules.llm.agent.output.steps.description": "Whether the agent completed successfully",
+    "modules.llm.agent.output.tokens_used.description": "List of steps the agent took",
+    "modules.llm.agent.output.tool_calls.description": "The final result from the agent",
     "modules.llm.agent.params.context": "Available Tools",
     "modules.llm.agent.params.context.description": "List of module IDs (alternative to connecting tool nodes)",
     "modules.llm.agent.params.join_separator": "Join Separator",
@@ -33,7 +38,18 @@
     "modules.llm.agent.ports.tools": "Memory",
     "modules.llm.chat.description": "Interact with LLM APIs for intelligent operations",
     "modules.llm.chat.label": "LLM Chat",
+    "modules.llm.chat.output.finish_reason.description": "Model used",
+    "modules.llm.chat.output.model.description": "The LLM response text",
+    "modules.llm.chat.output.ok.description": "Whether the request succeeded",
+    "modules.llm.chat.output.parsed.description": "Whether the request succeeded",
+    "modules.llm.chat.output.response.description": "Whether the request succeeded",
+    "modules.llm.chat.output.tokens_used.description": "Parsed response (if JSON format requested)",
     "modules.llm.code_fix.description": "Automatically generate code fixes based on issues",
-    "modules.llm.code_fix.label": "AI Code Fix"
+    "modules.llm.code_fix.label": "AI Code Fix",
+    "modules.llm.code_fix.output.applied.description": "Whether operation succeeded",
+    "modules.llm.code_fix.output.failed.description": "List of generated fixes",
+    "modules.llm.code_fix.output.fixes.description": "Whether operation succeeded",
+    "modules.llm.code_fix.output.ok.description": "Whether operation succeeded",
+    "modules.llm.code_fix.output.summary.description": "List of applied fixes (if fix_mode is apply)"
   }
 }

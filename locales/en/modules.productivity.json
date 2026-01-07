@@ -16,6 +16,8 @@
     "modules.productivity.airtable.create.params.table_name.label": "Base ID",
     "modules.productivity.airtable.read.description": "Read records from Airtable table",
     "modules.productivity.airtable.read.label": "Airtable Read Records",
+    "modules.productivity.airtable.read.output.count.description": "The records",
+    "modules.productivity.airtable.read.output.records.description": "Maximum number of records to return",
     "modules.productivity.airtable.read.params.api_key.description": "Airtable API key (or use AIRTABLE_API_KEY env)",
     "modules.productivity.airtable.read.params.api_key.label": "API Key",
     "modules.productivity.airtable.read.params.base_id.description": "Airtable API key (or use AIRTABLE_API_KEY env)",

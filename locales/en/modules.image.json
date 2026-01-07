@@ -6,13 +6,31 @@
   "translations": {
     "modules.image.compress.description": "Compress images to reduce file size while maintaining quality",
     "modules.image.compress.label": "Compress Image",
+    "modules.image.compress.output.compressed_size_bytes.description": "Original file size in bytes",
+    "modules.image.compress.output.compression_ratio.description": "Compressed file size in bytes",
+    "modules.image.compress.output.original_size_bytes.description": "Path to the compressed image",
+    "modules.image.compress.output.output_path.description": "Path to the compressed image",
     "modules.image.convert.description": "Convert image to different format (PNG, JPEG, WEBP, etc.)",
     "modules.image.convert.label": "Convert Image",
+    "modules.image.convert.output.dimensions.description": "File size in bytes",
+    "modules.image.convert.output.format.description": "Path to the converted image",
+    "modules.image.convert.output.path.description": "Path to the converted image",
+    "modules.image.convert.output.size.description": "Path to the converted image",
     "modules.image.download.description": "Download image from URL to local file",
     "modules.image.download.label": "Download Image",
+    "modules.image.download.output.content_type.description": "Local file path of downloaded image",
+    "modules.image.download.output.filename.description": "File size in bytes",
+    "modules.image.download.output.path.description": "Local file path of downloaded image",
+    "modules.image.download.output.size.description": "Local file path of downloaded image",
     "modules.image.qrcode_generate.description": "Generate QR codes from text, URLs, or data",
     "modules.image.qrcode_generate.label": "Generate QR Code",
+    "modules.image.qrcode_generate.output.dimensions.description": "Size of the output file in bytes",
+    "modules.image.qrcode_generate.output.file_size.description": "Path to the generated QR code image",
+    "modules.image.qrcode_generate.output.output_path.description": "Path to the generated QR code image",
     "modules.image.resize.description": "Resize images to specified dimensions with various algorithms",
-    "modules.image.resize.label": "Resize Image"
+    "modules.image.resize.label": "Resize Image",
+    "modules.image.resize.output.new_size.description": "Path to the resized image",
+    "modules.image.resize.output.original_size.description": "Path to the resized image",
+    "modules.image.resize.output.output_path.description": "Path to the resized image"
   }
 }

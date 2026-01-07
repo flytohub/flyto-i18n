@@ -6,6 +6,11 @@
   "translations": {
     "modules.payment.stripe.create_payment.description": "Create a payment intent with Stripe",
     "modules.payment.stripe.create_payment.label": "Stripe Create Payment",
+    "modules.payment.stripe.create_payment.output.amount.description": "Stripe customer ID (optional)",
+    "modules.payment.stripe.create_payment.output.client_secret.description": "Currency code",
+    "modules.payment.stripe.create_payment.output.currency.description": "Unique identifier",
+    "modules.payment.stripe.create_payment.output.id.description": "Stripe customer ID (optional)",
+    "modules.payment.stripe.create_payment.output.status.description": "Payment amount",
     "modules.payment.stripe.create_payment.params.amount.description": "Stripe secret key (or use STRIPE_API_KEY env)",
     "modules.payment.stripe.create_payment.params.amount.label": "API Key",
     "modules.payment.stripe.create_payment.params.api_key.description": "Stripe secret key (or use STRIPE_API_KEY env)",

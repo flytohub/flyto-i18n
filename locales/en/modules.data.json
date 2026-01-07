@@ -6,15 +6,32 @@
   "translations": {
     "modules.data.csv.read.description": "Read and parse CSV file into array of objects",
     "modules.data.csv.read.label": "Read CSV File",
+    "modules.data.csv.read.output.columns.description": "Array of row objects",
+    "modules.data.csv.read.output.data.description": "Operation status",
+    "modules.data.csv.read.output.rows.description": "Operation status",
+    "modules.data.csv.read.output.status.description": "Operation status",
     "modules.data.csv.write.description": "Write array of objects to CSV file",
     "modules.data.csv.write.label": "Write CSV File",
+    "modules.data.csv.write.output.file_path.description": "Operation status",
+    "modules.data.csv.write.output.rows_written.description": "Operation status",
+    "modules.data.csv.write.output.status.description": "Operation status",
     "modules.data.json.parse.description": "Parse JSON string into object",
     "modules.data.json.parse.label": "Parse JSON",
+    "modules.data.json.parse.output.data.description": "Operation status",
+    "modules.data.json.parse.output.status.description": "Operation status",
     "modules.data.json.stringify.description": "Convert object to JSON string",
     "modules.data.json.stringify.label": "JSON Stringify",
+    "modules.data.json.stringify.output.json.description": "Operation status",
+    "modules.data.json.stringify.output.status.description": "Operation status",
     "modules.data.json_to_csv.description": "Convert JSON data or files to CSV format",
     "modules.data.json_to_csv.label": "JSON to CSV",
+    "modules.data.json_to_csv.output.column_count.description": "Path to the generated CSV file",
+    "modules.data.json_to_csv.output.columns.description": "Number of rows written",
+    "modules.data.json_to_csv.output.output_path.description": "Path to the generated CSV file",
+    "modules.data.json_to_csv.output.row_count.description": "Path to the generated CSV file",
     "modules.data.text.template.description": "Fill text template with variables",
-    "modules.data.text.template.label": "Text Template"
+    "modules.data.text.template.label": "Text Template",
+    "modules.data.text.template.output.result.description": "Operation status",
+    "modules.data.text.template.output.status.description": "Operation status"
   }
 }

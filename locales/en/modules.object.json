@@ -6,13 +6,20 @@
   "translations": {
     "modules.object.keys.description": "Get all keys from an object",
     "modules.object.keys.label": "Object Keys",
+    "modules.object.keys.output.count.description": "List of object keys",
+    "modules.object.keys.output.keys.description": "List of object keys",
     "modules.object.merge.description": "Merge multiple objects into one",
     "modules.object.merge.label": "Object Merge",
+    "modules.object.merge.output.result.description": "Merged object",
     "modules.object.omit.description": "Omit specific keys from an object",
     "modules.object.omit.label": "Object Omit",
+    "modules.object.omit.output.result.description": "Object without omitted keys",
     "modules.object.pick.description": "Pick specific keys from an object",
     "modules.object.pick.label": "Object Pick",
+    "modules.object.pick.output.result.description": "Object with only picked keys",
     "modules.object.values.description": "Get all values from an object",
-    "modules.object.values.label": "Object Values"
+    "modules.object.values.label": "Object Values",
+    "modules.object.values.output.count.description": "List of object values",
+    "modules.object.values.output.values.description": "List of object values"
   }
 }
