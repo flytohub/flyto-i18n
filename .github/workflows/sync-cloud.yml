@@ -34,6 +34,10 @@ jobs:
         run: |
           python scripts/sync-from-cloud.py --cloud-path ./flyto-cloud
 
+      - name: Build dist for CDN
+        run: |
+          python scripts/build-dist.py
+
       - name: Check for changes
         id: changes
         run: |
@@ -59,6 +63,7 @@ jobs:
 
             ### Changes
             - Updated UI translation files (cloud.*.json) for all locales
+            - Rebuilt dist/ for CDN distribution
 
             ---
             _This PR was automatically created and will be auto-merged._
