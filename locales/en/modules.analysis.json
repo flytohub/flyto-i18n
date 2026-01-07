@@ -4,17 +4,17 @@
   "category": "analysis",
   "version": "1.0.0",
   "translations": {
-    "modules.analysis.html.forms.description": "Extract form data from HTML",
-    "modules.analysis.html.forms.label": "Extract Forms",
-    "modules.analysis.html.metadata.description": "Extract metadata from HTML",
-    "modules.analysis.html.metadata.label": "Extract Metadata",
-    "modules.analysis.html.patterns.description": "Find repeating data patterns in HTML",
-    "modules.analysis.html.patterns.label": "Find Patterns",
-    "modules.analysis.html.readability.description": "Analyze content readability",
-    "modules.analysis.html.readability.label": "HTML Readability",
+    "modules.analysis.html.analyze_readability.description": "Analyze content readability",
+    "modules.analysis.html.analyze_readability.label": "HTML Readability",
+    "modules.analysis.html.extract_forms.description": "Extract form data from HTML",
+    "modules.analysis.html.extract_forms.label": "Extract Forms",
+    "modules.analysis.html.extract_metadata.description": "Extract metadata from HTML",
+    "modules.analysis.html.extract_metadata.label": "Extract Metadata",
+    "modules.analysis.html.extract_tables.description": "Extract table data from HTML",
+    "modules.analysis.html.extract_tables.label": "Extract Tables",
+    "modules.analysis.html.find_patterns.description": "Find repeating data patterns in HTML",
+    "modules.analysis.html.find_patterns.label": "Find Patterns",
     "modules.analysis.html.structure.description": "Analyze HTML DOM structure",
-    "modules.analysis.html.structure.label": "HTML Structure",
-    "modules.analysis.html.tables.description": "Extract table data from HTML",
-    "modules.analysis.html.tables.label": "Extract Tables"
+    "modules.analysis.html.structure.label": "HTML Structure"
   }
 }

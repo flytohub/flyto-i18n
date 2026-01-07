@@ -24,6 +24,8 @@
     "modules.utility.hash.md5.params.encoding.label": "Text",
     "modules.utility.hash.md5.params.text.description": "Text to hash",
     "modules.utility.hash.md5.params.text.label": "Text",
+    "modules.utility.not.description": "Logical negation operation",
+    "modules.utility.not.label": "Not",
     "modules.utility.random.number.description": "Generate random number in range",
     "modules.utility.random.number.label": "Random Number",
     "modules.utility.random.number.params.decimals.description": "Maximum value (inclusive)",

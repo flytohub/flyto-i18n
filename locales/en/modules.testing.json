@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "testing",
+  "version": "1.0.0",
+  "translations": {
+    "modules.testing.e2e.run_steps.description": "Execute end-to-end test steps sequentially",
+    "modules.testing.e2e.run_steps.label": "Run E2E Steps",
+    "modules.testing.gate.evaluate.description": "Evaluate quality metrics against defined thresholds",
+    "modules.testing.gate.evaluate.label": "Quality Gate",
+    "modules.testing.http.run_suite.description": "Execute HTTP API test suite",
+    "modules.testing.http.run_suite.label": "Run HTTP Tests",
+    "modules.testing.lint.run.description": "Run linting checks on source code",
+    "modules.testing.lint.run.label": "Run Linter",
+    "modules.testing.report.generate.description": "Generate test execution report",
+    "modules.testing.report.generate.label": "Generate Report",
+    "modules.testing.scenario.run.description": "Execute scenario-based test (BDD style)",
+    "modules.testing.scenario.run.label": "Run Scenario",
+    "modules.testing.security.scan.description": "Scan for security vulnerabilities",
+    "modules.testing.security.scan.label": "Security Scan",
+    "modules.testing.suite.run.description": "Execute a collection of tests",
+    "modules.testing.suite.run.label": "Run Test Suite",
+    "modules.testing.unit.run.description": "Execute unit tests",
+    "modules.testing.unit.run.label": "Run Unit Tests",
+    "modules.testing.visual.compare.description": "Compare visual outputs for differences",
+    "modules.testing.visual.compare.label": "Visual Compare"
+  }
+}

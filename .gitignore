@@ -1,5 +1,5 @@
-# Distribution
-dist/
+# Distribution (dist/ is NOT ignored - needed for CDN)
+# dist/
 build/
 
 # Python

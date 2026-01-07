@@ -10,6 +10,8 @@
     "modules.string.replace.label": "String Replace",
     "modules.string.reverse.description": "Reverse the characters in a string",
     "modules.string.reverse.label": "String Reverse",
+    "modules.string.split.description": "Split a string into an array using a delimiter",
+    "modules.string.split.label": "Split String",
     "modules.string.titlecase.description": "Convert string to title case",
     "modules.string.titlecase.label": "Title Case String",
     "modules.string.trim.description": "Remove whitespace from both ends of a string",
