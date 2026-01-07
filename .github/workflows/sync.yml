@@ -49,6 +49,7 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.FLYTO_CORE_TOKEN }}
           title: "sync: update keys from flyto-core"
           body: |
             ## Auto-synced i18n keys from flyto-core
