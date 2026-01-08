@@ -26,7 +26,7 @@
     "modules.utility.delay.params.duration_seconds.label": "Duration (seconds)",
     "modules.utility.hash.md5.description": "Calculate MD5 hash of text",
     "modules.utility.hash.md5.label": "MD5 Hash",
-    "modules.utility.hash.md5.output.hash.description": "Calculate MD5 hash of text",
+    "modules.utility.hash.md5.output.hash.description": "Text encoding",
     "modules.utility.hash.md5.output.status.description": "Text encoding",
     "modules.utility.hash.md5.params.encoding.description": "Text to hash",
     "modules.utility.hash.md5.params.encoding.label": "Text",
