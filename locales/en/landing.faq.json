@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "",
+    "landing.faq.cta.subtitle": "",
+    "landing.faq.cta.title": "",
+    "landing.faq.cta.viewDocs": "",
+    "landing.faq.general.subtitle": "",
+    "landing.faq.general.title": "",
+    "landing.faq.gettingStarted.subtitle": "",
+    "landing.faq.gettingStarted.title": "",
+    "landing.faq.hero.title": "",
+    "landing.faq.licensing.subtitle": "",
+    "landing.faq.licensing.title": ""
+  }
+}

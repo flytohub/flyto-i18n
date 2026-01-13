@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "",
+    "landing.contact.cards.emailUs": "",
+    "landing.contact.cards.github": "",
+    "landing.contact.cta.downloadNow": "",
+    "landing.contact.cta.subtitle": "",
+    "landing.contact.cta.title": "",
+    "landing.contact.form.subtitle": "",
+    "landing.contact.form.title": "",
+    "landing.contact.hero.subtitle": "",
+    "landing.contact.hero.title": "",
+    "landing.contact.quickLinks.subtitle": "",
+    "landing.contact.quickLinks.title": ""
+  }
+}

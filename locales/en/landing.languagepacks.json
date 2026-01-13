@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "",
+    "landing.languagepacks.available.subtitle": "",
+    "landing.languagepacks.available.title": "",
+    "landing.languagepacks.hero.description": "",
+    "landing.languagepacks.hero.title": "",
+    "landing.languagepacks.howto.step1": "",
+    "landing.languagepacks.howto.step2": "",
+    "landing.languagepacks.howto.step3": "",
+    "landing.languagepacks.howto.step4": "",
+    "landing.languagepacks.howto.title": "",
+    "landing.languagepacks.request.btn": "",
+    "landing.languagepacks.request.feature1": "",
+    "landing.languagepacks.request.feature2": "",
+    "landing.languagepacks.request.subtitle": "",
+    "landing.languagepacks.request.title": ""
+  }
+}

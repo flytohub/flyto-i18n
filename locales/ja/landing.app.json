@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "landing.app",
+  "version": "1.0.0",
+  "translations": {
+    "landing.app.hero.detecting": "",
+    "landing.app.hero.detectingInfo": "",
+    "landing.app.hero.downloadFor": "",
+    "landing.app.hero.proNote": "",
+    "landing.app.hero.subtitle": "",
+    "landing.app.hero.title": "",
+    "landing.app.install.step1": "",
+    "landing.app.install.step1Desc": "",
+    "landing.app.install.step2": "",
+    "landing.app.install.step2Desc": "",
+    "landing.app.install.step3": "",
+    "landing.app.install.step3Desc": "",
+    "landing.app.install.step4": "",
+    "landing.app.install.step4Desc": "",
+    "landing.app.install.subtitle": "",
+    "landing.app.install.title": "",
+    "landing.app.platforms.subtitle": "",
+    "landing.app.platforms.title": "",
+    "landing.app.requirements.title": ""
+  }
+}
