@@ -531,6 +531,8 @@
     "admin.translations.translationStyle": "",
     "admin.userSaved": "用戶儲存成功",
     "admin.users.allowedLanguages": "",
+    "admin.users.grantPro": "",
+    "admin.users.proGranted": "",
     "admin.users.roles.admin": "管理員",
     "admin.users.roles.creator": "創作者",
     "admin.users.roles.user": "一般用戶",
