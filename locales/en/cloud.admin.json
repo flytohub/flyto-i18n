@@ -531,6 +531,8 @@
     "admin.translations.translationStyle": "Translation Style",
     "admin.userSaved": "User saved successfully",
     "admin.users.allowedLanguages": "",
+    "admin.users.grantPro": "",
+    "admin.users.proGranted": "",
     "admin.users.roles.admin": "Admin",
     "admin.users.roles.creator": "Creator",
     "admin.users.roles.user": "User",
