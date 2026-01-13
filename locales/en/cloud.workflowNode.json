@@ -4,7 +4,7 @@
   "category": "cloud.workflowNode",
   "version": "1.0.0",
   "translations": {
-    "workflowNode.categories.default": "",
-    "workflowNode.defaultNodeLabel": ""
+    "workflowNode.categories.default": "Module",
+    "workflowNode.defaultNodeLabel": "Node"
   }
 }

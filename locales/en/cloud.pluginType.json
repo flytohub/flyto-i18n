@@ -4,10 +4,10 @@
   "category": "cloud.pluginType",
   "version": "1.0.0",
   "translations": {
-    "pluginType.audio": "",
-    "pluginType.embedding": "",
-    "pluginType.languageModel": "",
-    "pluginType.multimodal": "",
-    "pluginType.vision": ""
+    "pluginType.audio": "Audio",
+    "pluginType.embedding": "Embedding",
+    "pluginType.languageModel": "Language Model",
+    "pluginType.multimodal": "Multimodal",
+    "pluginType.vision": "Vision"
   }
 }

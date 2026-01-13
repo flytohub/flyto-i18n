@@ -4,15 +4,15 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.fromInput": "",
-    "aiAgent.manual": "",
-    "aiAgent.promptPath": "",
-    "aiAgent.promptPathHint": "",
-    "aiAgent.promptSource": "",
-    "aiAgent.selectVariable": "",
+    "aiAgent.fromInput": "From Input",
+    "aiAgent.manual": "Manual",
+    "aiAgent.promptPath": "Input Path",
+    "aiAgent.promptPathHint": "Expression to get prompt from upstream node",
+    "aiAgent.promptSource": "Prompt Source",
+    "aiAgent.selectVariable": "Select variable",
     "aiAgent.shellInfo": "",
     "aiAgent.shellInfoDesc": "",
-    "aiAgent.task": "",
-    "aiAgent.taskPlaceholder": ""
+    "aiAgent.task": "Task",
+    "aiAgent.taskPlaceholder": "Describe what the agent should accomplish..."
   }
 }

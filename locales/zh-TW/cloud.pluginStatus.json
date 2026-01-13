@@ -4,11 +4,11 @@
   "category": "cloud.pluginStatus",
   "version": "1.0.0",
   "translations": {
-    "pluginStatus.downloading": "",
-    "pluginStatus.installed": "",
-    "pluginStatus.loaded": "",
-    "pluginStatus.loading": "",
-    "pluginStatus.notInstalled": "",
-    "pluginStatus.unloading": ""
+    "pluginStatus.downloading": "下載中",
+    "pluginStatus.installed": "已安裝",
+    "pluginStatus.loaded": "已載入",
+    "pluginStatus.loading": "載入中",
+    "pluginStatus.notInstalled": "未安裝",
+    "pluginStatus.unloading": "卸載中"
   }
 }

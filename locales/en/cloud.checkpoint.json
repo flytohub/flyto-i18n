@@ -4,8 +4,8 @@
   "category": "cloud.checkpoint",
   "version": "1.0.0",
   "translations": {
-    "checkpoint.clickToRemove": "",
-    "checkpoint.disabled": "",
-    "checkpoint.humanCheckpoint": ""
+    "checkpoint.clickToRemove": "Click to remove",
+    "checkpoint.disabled": "Checkpoint disabled",
+    "checkpoint.humanCheckpoint": "Human Checkpoint"
   }
 }

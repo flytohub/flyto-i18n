@@ -4,11 +4,11 @@
   "category": "cloud.workflowCanvas",
   "version": "1.0.0",
   "translations": {
-    "workflowCanvas.deleteDialog.deleteAll": "",
-    "workflowCanvas.deleteDialog.deleteAllDesc": "",
-    "workflowCanvas.deleteDialog.mergeToChild": "",
-    "workflowCanvas.deleteDialog.mergeToChildDesc": "",
-    "workflowCanvas.deleteDialog.message": "",
-    "workflowCanvas.deleteDialog.title": ""
+    "workflowCanvas.deleteDialog.deleteAll": "Delete All",
+    "workflowCanvas.deleteDialog.deleteAllDesc": "Delete this node and all {count} child node(s)",
+    "workflowCanvas.deleteDialog.mergeToChild": "Merge to Child",
+    "workflowCanvas.deleteDialog.mergeToChildDesc": "Delete only this node and connect parent to the first child",
+    "workflowCanvas.deleteDialog.message": "This node has {count} child node(s). What would you like to do?",
+    "workflowCanvas.deleteDialog.title": "Delete Node with Children"
   }
 }

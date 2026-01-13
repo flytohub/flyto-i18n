@@ -4,8 +4,8 @@
   "category": "cloud.debugTab",
   "version": "1.0.0",
   "translations": {
-    "debugTab.context": "",
-    "debugTab.output": "",
-    "debugTab.screenshot": ""
+    "debugTab.context": "Context",
+    "debugTab.output": "Output",
+    "debugTab.screenshot": "Screenshot"
   }
 }

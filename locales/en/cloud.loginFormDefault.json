@@ -4,9 +4,9 @@
   "category": "cloud.loginFormDefault",
   "version": "1.0.0",
   "translations": {
-    "loginFormDefault.forgotPassword": "",
-    "loginFormDefault.loginButton": "",
-    "loginFormDefault.passwordPlaceholder": "",
-    "loginFormDefault.usernamePlaceholder": ""
+    "loginFormDefault.forgotPassword": "Forgot Password?",
+    "loginFormDefault.loginButton": "Login",
+    "loginFormDefault.passwordPlaceholder": "Enter password",
+    "loginFormDefault.usernamePlaceholder": "Enter username"
   }
 }

@@ -4,12 +4,12 @@
   "category": "cloud.expression",
   "version": "1.0.0",
   "translations": {
-    "expression.availableVariables": "",
-    "expression.editExpression": "",
-    "expression.enterExpression": "",
-    "expression.expressionCode": "",
-    "expression.openEditor": "",
-    "expression.placeholder": "",
-    "expression.preview": ""
+    "expression.availableVariables": "Available Variables",
+    "expression.editExpression": "Edit Expression",
+    "expression.enterExpression": "Enter an expression to see preview",
+    "expression.expressionCode": "Expression",
+    "expression.openEditor": "Open expression editor",
+    "expression.placeholder": "${ui.inputs.name}",
+    "expression.preview": "Preview"
   }
 }

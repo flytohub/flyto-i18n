@@ -4,15 +4,15 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.fromInput": "",
-    "aiAgent.manual": "",
-    "aiAgent.promptPath": "",
-    "aiAgent.promptPathHint": "",
-    "aiAgent.promptSource": "",
-    "aiAgent.selectVariable": "",
+    "aiAgent.fromInput": "從輸入取得",
+    "aiAgent.manual": "手動輸入",
+    "aiAgent.promptPath": "輸入路徑",
+    "aiAgent.promptPathHint": "從上游節點取得提示的表達式",
+    "aiAgent.promptSource": "提示來源",
+    "aiAgent.selectVariable": "選擇變數",
     "aiAgent.shellInfo": "",
     "aiAgent.shellInfoDesc": "",
-    "aiAgent.task": "",
-    "aiAgent.taskPlaceholder": ""
+    "aiAgent.task": "任務",
+    "aiAgent.taskPlaceholder": "描述代理應該完成的任務..."
   }
 }

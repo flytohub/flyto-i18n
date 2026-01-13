@@ -4,7 +4,7 @@
   "category": "cloud.bindings",
   "version": "1.0.0",
   "translations": {
-    "bindings.noBinding": "",
-    "bindings.waitingFor": ""
+    "bindings.noBinding": "No binding set",
+    "bindings.waitingFor": "Waiting for: {source}"
   }
 }

@@ -4,14 +4,14 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "",
-    "container.editSubflow": "",
-    "container.exportVariables": "",
-    "container.exportVariablesHint": "",
-    "container.exportVariablesPlaceholder": "",
-    "container.inheritContext": "",
-    "container.inheritContextHint": "",
-    "container.isolatedContextHint": "",
-    "container.nodesInside": ""
+    "container.advancedOptions": "進階選項",
+    "container.editSubflow": "編輯子流程",
+    "container.exportVariables": "匯出變數",
+    "container.exportVariablesHint": "要暴露給父工作流程的變數",
+    "container.exportVariablesPlaceholder": "例如：result, data",
+    "container.inheritContext": "繼承上下文",
+    "container.inheritContextHint": "與父工作流程共享變數",
+    "container.isolatedContextHint": "容器具有自己的隔離上下文",
+    "container.nodesInside": "個節點"
   }
 }

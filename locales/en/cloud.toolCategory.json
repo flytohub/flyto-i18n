@@ -4,13 +4,13 @@
   "category": "cloud.toolCategory",
   "version": "1.0.0",
   "translations": {
-    "toolCategory.apiIntegration": "",
-    "toolCategory.automation": "",
-    "toolCategory.dataTransform": "",
-    "toolCategory.fileOperations": "",
-    "toolCategory.imageProcessing": "",
-    "toolCategory.other": "",
-    "toolCategory.textProcessing": "",
-    "toolCategory.webScraping": ""
+    "toolCategory.apiIntegration": "API Integration",
+    "toolCategory.automation": "Automation",
+    "toolCategory.dataTransform": "Data Transform",
+    "toolCategory.fileOperations": "File Operations",
+    "toolCategory.imageProcessing": "Image Processing",
+    "toolCategory.other": "Other",
+    "toolCategory.textProcessing": "Text Processing",
+    "toolCategory.webScraping": "Web Scraping"
   }
 }

@@ -4,15 +4,15 @@
   "category": "cloud.execution",
   "version": "1.0.0",
   "translations": {
-    "execution.checkpoints.empty": "",
-    "execution.checkpoints.list": "",
-    "execution.checkpoints.recommended": "",
-    "execution.controls.pause": "",
-    "execution.controls.resume": "",
-    "execution.controls.step": "",
-    "execution.resume.failedAt": "",
-    "execution.resume.fromCheckpoint": "",
-    "execution.resume.options": "",
-    "execution.resume.retryFromStart": ""
+    "execution.checkpoints.empty": "沒有可用的檢查點",
+    "execution.checkpoints.list": "檢查點列表",
+    "execution.checkpoints.recommended": "建議",
+    "execution.controls.pause": "暫停",
+    "execution.controls.resume": "繼續",
+    "execution.controls.step": "單步執行",
+    "execution.resume.failedAt": "失敗於",
+    "execution.resume.fromCheckpoint": "從檢查點繼續",
+    "execution.resume.options": "繼續選項",
+    "execution.resume.retryFromStart": "從頭重試"
   }
 }

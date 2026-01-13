@@ -4,16 +4,16 @@
   "category": "cloud.component",
   "version": "1.0.0",
   "translations": {
-    "component.button": "",
-    "component.checkbox": "",
-    "component.divider": "",
-    "component.emailInput": "",
-    "component.input": "",
-    "component.numberInput": "",
-    "component.passwordInput": "",
-    "component.radio": "",
-    "component.select": "",
-    "component.textarea": "",
-    "component.urlInput": ""
+    "component.button": "按鈕",
+    "component.checkbox": "核取方塊",
+    "component.divider": "分隔線",
+    "component.emailInput": "電子郵件輸入",
+    "component.input": "輸入",
+    "component.numberInput": "數字輸入",
+    "component.passwordInput": "密碼輸入",
+    "component.radio": "單選按鈕",
+    "component.select": "選擇",
+    "component.textarea": "文字區域",
+    "component.urlInput": "網址輸入"
   }
 }

@@ -4,11 +4,11 @@
   "category": "cloud.errorStrategy",
   "version": "1.0.0",
   "translations": {
-    "errorStrategy.continue": "",
-    "errorStrategy.continueDesc": "",
-    "errorStrategy.retry": "",
-    "errorStrategy.retryDesc": "",
-    "errorStrategy.stop": "",
-    "errorStrategy.stopDesc": ""
+    "errorStrategy.continue": "繼續",
+    "errorStrategy.continueDesc": "記錄錯誤並繼續下一步",
+    "errorStrategy.retry": "重試",
+    "errorStrategy.retryDesc": "根據重試配置進行重試",
+    "errorStrategy.stop": "停止",
+    "errorStrategy.stopDesc": "停止工作流程並標記為失敗"
   }
 }

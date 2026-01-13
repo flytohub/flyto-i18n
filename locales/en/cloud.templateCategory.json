@@ -4,10 +4,10 @@
   "category": "cloud.templateCategory",
   "version": "1.0.0",
   "translations": {
-    "templateCategory.automation": "",
-    "templateCategory.dataProcessing": "",
-    "templateCategory.productivity": "",
-    "templateCategory.socialMedia": "",
-    "templateCategory.webScraping": ""
+    "templateCategory.automation": "Automation",
+    "templateCategory.dataProcessing": "Data Processing",
+    "templateCategory.productivity": "Productivity",
+    "templateCategory.socialMedia": "Social Media",
+    "templateCategory.webScraping": "Web Scraping"
   }
 }

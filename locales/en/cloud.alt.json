@@ -4,12 +4,12 @@
   "category": "cloud.alt",
   "version": "1.0.0",
   "translations": {
-    "alt.avatar": "",
-    "alt.flytoLogo": "",
-    "alt.preview": "",
-    "alt.result": "",
-    "alt.screenshot": "",
-    "alt.stepScreenshot": "",
-    "alt.templateIcon": ""
+    "alt.avatar": "Avatar",
+    "alt.flytoLogo": "Flyto Logo",
+    "alt.preview": "Preview",
+    "alt.result": "Result",
+    "alt.screenshot": "Screenshot",
+    "alt.stepScreenshot": "Step Screenshot",
+    "alt.templateIcon": "Template icon"
   }
 }

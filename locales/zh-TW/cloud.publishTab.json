@@ -4,7 +4,7 @@
   "category": "cloud.publishTab",
   "version": "1.0.0",
   "translations": {
-    "publishTab.media": "",
-    "publishTab.settings": ""
+    "publishTab.media": "媒體",
+    "publishTab.settings": "設定"
   }
 }

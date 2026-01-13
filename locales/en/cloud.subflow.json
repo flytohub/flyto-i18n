@@ -4,7 +4,7 @@
   "category": "cloud.subflow",
   "version": "1.0.0",
   "translations": {
-    "subflow.navigateRoot": "",
-    "subflow.navigateUp": ""
+    "subflow.navigateRoot": "Go to Root",
+    "subflow.navigateUp": "Go Up"
   }
 }

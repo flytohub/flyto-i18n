@@ -4,14 +4,14 @@
   "category": "cloud.huggingface",
   "version": "1.0.0",
   "translations": {
-    "huggingface.browseMoreModels": "",
-    "huggingface.chooseModel": "",
-    "huggingface.inferenceAPI": "",
-    "huggingface.installedModels": "",
-    "huggingface.localExecution": "",
-    "huggingface.noModelsAvailable": "",
-    "huggingface.notInstalled": "",
-    "huggingface.popularModels": "",
-    "huggingface.selectModel": ""
+    "huggingface.browseMoreModels": "Browse More Models",
+    "huggingface.chooseModel": "Choose Model",
+    "huggingface.inferenceAPI": "Inference API",
+    "huggingface.installedModels": "Installed Models",
+    "huggingface.localExecution": "Local Execution",
+    "huggingface.noModelsAvailable": "No models available",
+    "huggingface.notInstalled": "Not Installed",
+    "huggingface.popularModels": "Popular Models",
+    "huggingface.selectModel": "Select Model"
   }
 }

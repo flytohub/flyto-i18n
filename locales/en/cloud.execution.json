@@ -4,15 +4,15 @@
   "category": "cloud.execution",
   "version": "1.0.0",
   "translations": {
-    "execution.checkpoints.empty": "",
-    "execution.checkpoints.list": "",
-    "execution.checkpoints.recommended": "",
-    "execution.controls.pause": "",
-    "execution.controls.resume": "",
-    "execution.controls.step": "",
-    "execution.resume.failedAt": "",
-    "execution.resume.fromCheckpoint": "",
-    "execution.resume.options": "",
-    "execution.resume.retryFromStart": ""
+    "execution.checkpoints.empty": "No checkpoints available",
+    "execution.checkpoints.list": "Checkpoints",
+    "execution.checkpoints.recommended": "Recommended",
+    "execution.controls.pause": "Pause",
+    "execution.controls.resume": "Resume",
+    "execution.controls.step": "Step",
+    "execution.resume.failedAt": "Failed at",
+    "execution.resume.fromCheckpoint": "Resume from checkpoint",
+    "execution.resume.options": "Resume Options",
+    "execution.resume.retryFromStart": "Retry from start"
   }
 }

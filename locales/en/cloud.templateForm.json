@@ -4,16 +4,16 @@
   "category": "cloud.templateForm",
   "version": "1.0.0",
   "translations": {
-    "templateForm.category": "",
-    "templateForm.changeIcon": "",
-    "templateForm.description": "",
-    "templateForm.descriptionPlaceholder": "",
-    "templateForm.editTemplate": "",
+    "templateForm.category": "Category",
+    "templateForm.changeIcon": "Change Icon",
+    "templateForm.description": "Description",
+    "templateForm.descriptionPlaceholder": "What does this template do? (optional)",
+    "templateForm.editTemplate": "Edit Template",
     "templateForm.iconUploadError": "",
-    "templateForm.namePlaceholder": "",
-    "templateForm.selectCategory": "",
-    "templateForm.templateIcon": "",
-    "templateForm.templateName": "",
-    "templateForm.uploadIcon": ""
+    "templateForm.namePlaceholder": "My Awesome Automation",
+    "templateForm.selectCategory": "Select a category (optional)",
+    "templateForm.templateIcon": "Template Icon",
+    "templateForm.templateName": "Template Name",
+    "templateForm.uploadIcon": "Upload Icon"
   }
 }

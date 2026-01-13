@@ -5,19 +5,19 @@
   "version": "1.0.0",
   "translations": {
     "projects.create": "",
-    "projects.create.title": "",
-    "projects.delete.message": "",
-    "projects.delete.title": "",
-    "projects.description": "",
-    "projects.edit.title": "",
-    "projects.empty.description": "",
-    "projects.empty.title": "",
-    "projects.form.color": "",
-    "projects.form.description": "",
-    "projects.form.name": "",
-    "projects.form.namePlaceholder": "",
-    "projects.members": "",
-    "projects.title": "",
-    "projects.workflows": ""
+    "projects.create.title": "Create Project",
+    "projects.delete.message": "Are you sure you want to delete this project? All workflows in this project will be moved to the default project.",
+    "projects.delete.title": "Delete Project",
+    "projects.description": "Organize your workflows into projects",
+    "projects.edit.title": "Edit Project",
+    "projects.empty.description": "Create your first project to organize workflows",
+    "projects.empty.title": "No Projects Yet",
+    "projects.form.color": "Color",
+    "projects.form.description": "Description",
+    "projects.form.name": "Project Name",
+    "projects.form.namePlaceholder": "My Project",
+    "projects.members": "members",
+    "projects.title": "Projects",
+    "projects.workflows": "workflows"
   }
 }

@@ -4,11 +4,11 @@
   "category": "cloud.pluginStatus",
   "version": "1.0.0",
   "translations": {
-    "pluginStatus.downloading": "",
-    "pluginStatus.installed": "",
-    "pluginStatus.loaded": "",
-    "pluginStatus.loading": "",
-    "pluginStatus.notInstalled": "",
-    "pluginStatus.unloading": ""
+    "pluginStatus.downloading": "Downloading",
+    "pluginStatus.installed": "Installed",
+    "pluginStatus.loaded": "Loaded",
+    "pluginStatus.loading": "Loading",
+    "pluginStatus.notInstalled": "Not Installed",
+    "pluginStatus.unloading": "Unloading"
   }
 }

@@ -4,8 +4,8 @@
   "category": "cloud.debugTab",
   "version": "1.0.0",
   "translations": {
-    "debugTab.context": "",
-    "debugTab.output": "",
-    "debugTab.screenshot": ""
+    "debugTab.context": "上下文",
+    "debugTab.output": "輸出",
+    "debugTab.screenshot": "截圖"
   }
 }

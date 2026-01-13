@@ -4,6 +4,6 @@
   "category": "cloud.message",
   "version": "1.0.0",
   "translations": {
-    "message.replayCompleted": ""
+    "message.replayCompleted": "Replay completed successfully!"
   }
 }

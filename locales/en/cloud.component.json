@@ -4,16 +4,16 @@
   "category": "cloud.component",
   "version": "1.0.0",
   "translations": {
-    "component.button": "",
-    "component.checkbox": "",
-    "component.divider": "",
-    "component.emailInput": "",
-    "component.input": "",
-    "component.numberInput": "",
-    "component.passwordInput": "",
-    "component.radio": "",
-    "component.select": "",
-    "component.textarea": "",
-    "component.urlInput": ""
+    "component.button": "Button",
+    "component.checkbox": "Checkbox",
+    "component.divider": "Divider",
+    "component.emailInput": "Email Input",
+    "component.input": "Input",
+    "component.numberInput": "Number Input",
+    "component.passwordInput": "Password Input",
+    "component.radio": "Radio Button",
+    "component.select": "Select",
+    "component.textarea": "Textarea",
+    "component.urlInput": "URL Input"
   }
 }

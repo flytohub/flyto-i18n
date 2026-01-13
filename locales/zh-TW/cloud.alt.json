@@ -4,12 +4,12 @@
   "category": "cloud.alt",
   "version": "1.0.0",
   "translations": {
-    "alt.avatar": "",
-    "alt.flytoLogo": "",
-    "alt.preview": "",
-    "alt.result": "",
-    "alt.screenshot": "",
-    "alt.stepScreenshot": "",
-    "alt.templateIcon": ""
+    "alt.avatar": "頭像",
+    "alt.flytoLogo": "Flyto 標誌",
+    "alt.preview": "預覽",
+    "alt.result": "結果",
+    "alt.screenshot": "截圖",
+    "alt.stepScreenshot": "步驟截圖",
+    "alt.templateIcon": "模板圖示"
   }
 }

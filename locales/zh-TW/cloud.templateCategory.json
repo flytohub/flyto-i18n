@@ -4,10 +4,10 @@
   "category": "cloud.templateCategory",
   "version": "1.0.0",
   "translations": {
-    "templateCategory.automation": "",
-    "templateCategory.dataProcessing": "",
-    "templateCategory.productivity": "",
-    "templateCategory.socialMedia": "",
-    "templateCategory.webScraping": ""
+    "templateCategory.automation": "自動化",
+    "templateCategory.dataProcessing": "資料處理",
+    "templateCategory.productivity": "生產力",
+    "templateCategory.socialMedia": "社群媒體",
+    "templateCategory.webScraping": "網頁爬蟲"
   }
 }

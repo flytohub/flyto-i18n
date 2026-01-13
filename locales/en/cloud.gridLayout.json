@@ -4,11 +4,11 @@
   "category": "cloud.gridLayout",
   "version": "1.0.0",
   "translations": {
-    "gridLayout.fourColumns": "",
-    "gridLayout.singleColumn": "",
-    "gridLayout.threeColumns": "",
-    "gridLayout.twoColumns11": "",
-    "gridLayout.twoColumns12": "",
-    "gridLayout.twoColumns21": ""
+    "gridLayout.fourColumns": "Four Columns",
+    "gridLayout.singleColumn": "Single Column",
+    "gridLayout.threeColumns": "Three Columns",
+    "gridLayout.twoColumns11": "Two Columns (1:1)",
+    "gridLayout.twoColumns12": "Two Columns (1:2)",
+    "gridLayout.twoColumns21": "Two Columns (2:1)"
   }
 }

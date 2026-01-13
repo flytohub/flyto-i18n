@@ -4,14 +4,14 @@
   "category": "cloud.observability",
   "version": "1.0.0",
   "translations": {
-    "observability.subtitle": "",
-    "observability.tabs.alerts": "",
-    "observability.tabs.metrics": "",
-    "observability.tabs.traces": "",
-    "observability.timeRange.24h": "",
-    "observability.timeRange.30d": "",
-    "observability.timeRange.7d": "",
-    "observability.timeRange.90d": "",
-    "observability.title": ""
+    "observability.subtitle": "監控工作流程執行與效能",
+    "observability.tabs.alerts": "警報",
+    "observability.tabs.metrics": "指標",
+    "observability.tabs.traces": "追蹤",
+    "observability.timeRange.24h": "過去 24 小時",
+    "observability.timeRange.30d": "過去 30 天",
+    "observability.timeRange.7d": "過去 7 天",
+    "observability.timeRange.90d": "過去 90 天",
+    "observability.title": "可觀測性"
   }
 }

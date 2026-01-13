@@ -4,18 +4,18 @@
   "category": "cloud.upgrade",
   "version": "1.0.0",
   "translations": {
-    "upgrade.contactSales": "",
-    "upgrade.debugFeatures": "",
-    "upgrade.enterpriseHint": "",
-    "upgrade.featureLocked": "",
-    "upgrade.features.evidence": "",
-    "upgrade.features.lineage": "",
-    "upgrade.features.replay": "",
-    "upgrade.features.tests": "",
-    "upgrade.features.versions": "",
-    "upgrade.offlineLicense": "",
-    "upgrade.subscription": "",
-    "upgrade.subtitle": "",
-    "upgrade.title": ""
+    "upgrade.contactSales": "Contact Sales",
+    "upgrade.debugFeatures": "Unlock powerful debugging and analysis features to improve your workflow development.",
+    "upgrade.enterpriseHint": "Need enterprise features?",
+    "upgrade.featureLocked": "This feature requires a Pro subscription",
+    "upgrade.features.evidence": "Screenshot & DOM capture for every step",
+    "upgrade.features.lineage": "Data flow tracking and dependency graph",
+    "upgrade.features.replay": "Replay executions with modified inputs",
+    "upgrade.features.tests": "Automated workflow testing suite",
+    "upgrade.features.versions": "Module version locking and control",
+    "upgrade.offlineLicense": "Buy Offline License - $199 one-time",
+    "upgrade.subscription": "Subscribe - $19/month",
+    "upgrade.subtitle": "Get access to advanced debugging tools",
+    "upgrade.title": "Unlock Pro Features"
   }
 }

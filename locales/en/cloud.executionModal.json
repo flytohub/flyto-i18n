@@ -4,18 +4,18 @@
   "category": "cloud.executionModal",
   "version": "1.0.0",
   "translations": {
-    "executionModal.clickToExecute": "",
-    "executionModal.execute": "",
-    "executionModal.executing": "",
-    "executionModal.executionComplete": "",
-    "executionModal.executionFailed": "",
-    "executionModal.noParamsRequired": "",
-    "executionModal.runAgain": "",
-    "executionModal.status.completed": "",
-    "executionModal.status.failed": "",
-    "executionModal.status.ready": "",
-    "executionModal.status.running": "",
-    "executionModal.stop": "",
-    "executionModal.title": ""
+    "executionModal.clickToExecute": "Click Execute to run this workflow",
+    "executionModal.execute": "Execute",
+    "executionModal.executing": "Executing workflow...",
+    "executionModal.executionComplete": "Execution Complete",
+    "executionModal.executionFailed": "Execution Failed",
+    "executionModal.noParamsRequired": "No input parameters required",
+    "executionModal.runAgain": "Run Again",
+    "executionModal.status.completed": "COMPLETED",
+    "executionModal.status.failed": "FAILED",
+    "executionModal.status.ready": "READY",
+    "executionModal.status.running": "RUNNING",
+    "executionModal.stop": "Stop",
+    "executionModal.title": "Execute Workflow"
   }
 }

@@ -4,8 +4,8 @@
   "category": "cloud.checkpoint",
   "version": "1.0.0",
   "translations": {
-    "checkpoint.clickToRemove": "",
-    "checkpoint.disabled": "",
-    "checkpoint.humanCheckpoint": ""
+    "checkpoint.clickToRemove": "點擊以移除",
+    "checkpoint.disabled": "檢查點已停用",
+    "checkpoint.humanCheckpoint": "人工檢查點"
   }
 }

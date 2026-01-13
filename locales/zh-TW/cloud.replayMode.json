@@ -4,8 +4,8 @@
   "category": "cloud.replayMode",
   "version": "1.0.0",
   "translations": {
-    "replayMode.compare": "",
-    "replayMode.history": "",
-    "replayMode.inspect": ""
+    "replayMode.compare": "比較",
+    "replayMode.history": "歷史",
+    "replayMode.inspect": "檢查"
   }
 }

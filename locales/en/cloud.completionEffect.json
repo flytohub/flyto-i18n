@@ -4,7 +4,7 @@
   "category": "cloud.completionEffect",
   "version": "1.0.0",
   "translations": {
-    "completionEffect.defaultMessage": "",
-    "completionEffect.defaultTitle": ""
+    "completionEffect.defaultMessage": "All steps executed successfully",
+    "completionEffect.defaultTitle": "Workflow Complete"
   }
 }

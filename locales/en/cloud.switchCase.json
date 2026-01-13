@@ -4,7 +4,7 @@
   "category": "cloud.switchCase",
   "version": "1.0.0",
   "translations": {
-    "switchCase.case1": "",
-    "switchCase.case2": ""
+    "switchCase.case1": "Case 1",
+    "switchCase.case2": "Case 2"
   }
 }

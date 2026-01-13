@@ -4,19 +4,19 @@
   "category": "cloud.metrics",
   "version": "1.0.0",
   "translations": {
-    "metrics.chart.failed": "",
-    "metrics.chart.noData": "",
-    "metrics.chart.successful": "",
-    "metrics.chart.title": "",
-    "metrics.recentFailures.noData": "",
-    "metrics.recentFailures.title": "",
-    "metrics.stats.avgDuration": "",
-    "metrics.stats.failed": "",
-    "metrics.stats.successRate": "",
-    "metrics.stats.totalExecutions": "",
-    "metrics.topWorkflows.executions": "",
-    "metrics.topWorkflows.noData": "",
-    "metrics.topWorkflows.title": "",
-    "metrics.vsPrevious": ""
+    "metrics.chart.failed": "Failed",
+    "metrics.chart.noData": "No data available",
+    "metrics.chart.successful": "Successful",
+    "metrics.chart.title": "Execution Trend",
+    "metrics.recentFailures.noData": "No recent failures",
+    "metrics.recentFailures.title": "Recent Failures",
+    "metrics.stats.avgDuration": "Avg Duration",
+    "metrics.stats.failed": "Failed",
+    "metrics.stats.successRate": "Success Rate",
+    "metrics.stats.totalExecutions": "Total Executions",
+    "metrics.topWorkflows.executions": "executions",
+    "metrics.topWorkflows.noData": "No workflows executed yet",
+    "metrics.topWorkflows.title": "Top Workflows",
+    "metrics.vsPrevious": "vs previous"
   }
 }

@@ -4,6 +4,6 @@
   "category": "cloud.confirmDialog",
   "version": "1.0.0",
   "translations": {
-    "confirmDialog.areYouSure": ""
+    "confirmDialog.areYouSure": "Are you sure?"
   }
 }

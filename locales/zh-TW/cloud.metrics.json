@@ -4,19 +4,19 @@
   "category": "cloud.metrics",
   "version": "1.0.0",
   "translations": {
-    "metrics.chart.failed": "",
-    "metrics.chart.noData": "",
-    "metrics.chart.successful": "",
-    "metrics.chart.title": "",
-    "metrics.recentFailures.noData": "",
-    "metrics.recentFailures.title": "",
-    "metrics.stats.avgDuration": "",
-    "metrics.stats.failed": "",
-    "metrics.stats.successRate": "",
-    "metrics.stats.totalExecutions": "",
-    "metrics.topWorkflows.executions": "",
-    "metrics.topWorkflows.noData": "",
-    "metrics.topWorkflows.title": "",
-    "metrics.vsPrevious": ""
+    "metrics.chart.failed": "失敗",
+    "metrics.chart.noData": "沒有可用資料",
+    "metrics.chart.successful": "成功",
+    "metrics.chart.title": "執行趨勢",
+    "metrics.recentFailures.noData": "沒有最近的失敗記錄",
+    "metrics.recentFailures.title": "最近失敗",
+    "metrics.stats.avgDuration": "平均時長",
+    "metrics.stats.failed": "失敗",
+    "metrics.stats.successRate": "成功率",
+    "metrics.stats.totalExecutions": "執行總數",
+    "metrics.topWorkflows.executions": "次執行",
+    "metrics.topWorkflows.noData": "尚未執行任何工作流程",
+    "metrics.topWorkflows.title": "熱門工作流程",
+    "metrics.vsPrevious": "相較於前一期間"
   }
 }

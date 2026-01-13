@@ -4,9 +4,9 @@
   "category": "cloud.time",
   "version": "1.0.0",
   "translations": {
-    "time.daysAgo": "",
-    "time.hoursAgo": "",
-    "time.justNow": "",
-    "time.minutesAgo": ""
+    "time.daysAgo": "{n}d ago",
+    "time.hoursAgo": "{n}h ago",
+    "time.justNow": "just now",
+    "time.minutesAgo": "{n}m ago"
   }
 }

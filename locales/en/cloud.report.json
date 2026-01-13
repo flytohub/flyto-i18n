@@ -4,15 +4,15 @@
   "category": "cloud.report",
   "version": "1.0.0",
   "translations": {
-    "report.otherPlaceholder": "",
-    "report.reasons.copyright": "",
-    "report.reasons.harmful": "",
-    "report.reasons.inappropriate": "",
-    "report.reasons.misleading": "",
-    "report.reasons.other": "",
-    "report.reasons.spam": "",
-    "report.selectReason": "",
-    "report.submit": "",
-    "report.title": ""
+    "report.otherPlaceholder": "Please describe the issue...",
+    "report.reasons.copyright": "Copyright or intellectual property violation",
+    "report.reasons.harmful": "Harmful or dangerous content",
+    "report.reasons.inappropriate": "Inappropriate or offensive content",
+    "report.reasons.misleading": "False or misleading information",
+    "report.reasons.other": "Other (please specify)",
+    "report.reasons.spam": "Spam or misleading",
+    "report.selectReason": "Please select a reason for reporting:",
+    "report.submit": "Submit Report",
+    "report.title": "Report Content"
   }
 }

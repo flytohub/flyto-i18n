@@ -4,9 +4,9 @@
   "category": "cloud.variableSelector",
   "version": "1.0.0",
   "translations": {
-    "variableSelector.insert": "",
-    "variableSelector.noVariables": "",
-    "variableSelector.searchPlaceholder": "",
-    "variableSelector.selected": ""
+    "variableSelector.insert": "Insert",
+    "variableSelector.noVariables": "No variables available",
+    "variableSelector.searchPlaceholder": "Search variables...",
+    "variableSelector.selected": "Selected"
   }
 }

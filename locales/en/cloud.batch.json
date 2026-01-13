@@ -4,11 +4,11 @@
   "category": "cloud.batch",
   "version": "1.0.0",
   "translations": {
-    "batch.delete": "",
-    "batch.deleteConfirm.message": "",
-    "batch.deleteConfirm.title": "",
-    "batch.deselectAll": "",
-    "batch.selectAll": "",
-    "batch.selected": ""
+    "batch.delete": "Delete",
+    "batch.deleteConfirm.message": "Are you sure you want to delete {count} templates? This action cannot be undone.",
+    "batch.deleteConfirm.title": "Delete {count} Templates",
+    "batch.deselectAll": "Deselect All",
+    "batch.selectAll": "Select All",
+    "batch.selected": "selected"
   }
 }

@@ -4,7 +4,7 @@
   "category": "cloud.nav",
   "version": "1.0.0",
   "translations": {
-    "nav.marketplace": "",
-    "nav.tools": ""
+    "nav.marketplace": "市集",
+    "nav.tools": "工具"
   }
 }
