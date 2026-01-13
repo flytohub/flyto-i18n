@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "",
+    "errorWorkflow.categories.business_error": "",
+    "errorWorkflow.categories.configuration_error": "",
+    "errorWorkflow.categories.network_error": "",
+    "errorWorkflow.categories.permission_denied": "",
+    "errorWorkflow.categories.rate_limit": "",
+    "errorWorkflow.categories.resource_not_found": "",
+    "errorWorkflow.categories.timeout": "",
+    "errorWorkflow.categories.validation_error": "",
+    "errorWorkflow.errorTrigger.anyWorkflow": "",
+    "errorWorkflow.errorTrigger.categoriesHint": "",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "",
+    "errorWorkflow.errorTrigger.errorCategories": "",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": ""
+  }
+}

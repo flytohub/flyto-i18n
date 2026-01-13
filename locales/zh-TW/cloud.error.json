@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.error",
+  "version": "1.0.0",
+  "translations": {
+    "error.failedToStartReplay": "",
+    "error.fixJsonFirst": "",
+    "error.invalidJsonContext": "",
+    "error.noStepsToValidate": "",
+    "error.replayFailed": ""
+  }
+}

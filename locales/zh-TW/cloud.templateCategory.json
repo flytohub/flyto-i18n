@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.templateCategory",
+  "version": "1.0.0",
+  "translations": {
+    "templateCategory.automation": "",
+    "templateCategory.dataProcessing": "",
+    "templateCategory.productivity": "",
+    "templateCategory.socialMedia": "",
+    "templateCategory.webScraping": ""
+  }
+}

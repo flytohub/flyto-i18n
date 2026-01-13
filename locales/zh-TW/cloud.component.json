@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "",
+    "component.checkbox": "",
+    "component.divider": "",
+    "component.emailInput": "",
+    "component.input": "",
+    "component.numberInput": "",
+    "component.passwordInput": "",
+    "component.radio": "",
+    "component.select": "",
+    "component.textarea": "",
+    "component.urlInput": ""
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.templateForm",
+  "version": "1.0.0",
+  "translations": {
+    "templateForm.category": "",
+    "templateForm.changeIcon": "",
+    "templateForm.description": "",
+    "templateForm.descriptionPlaceholder": "",
+    "templateForm.editTemplate": "",
+    "templateForm.namePlaceholder": "",
+    "templateForm.selectCategory": "",
+    "templateForm.templateIcon": "",
+    "templateForm.templateName": "",
+    "templateForm.uploadIcon": ""
+  }
+}

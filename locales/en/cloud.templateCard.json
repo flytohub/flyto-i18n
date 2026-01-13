@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "",
+    "templateCard.deleted": "",
+    "templateCard.downloadOffline": "",
+    "templateCard.editInfo": "",
+    "templateCard.forkTemplate": "",
+    "templateCard.forked": "",
+    "templateCard.manageKeys": "",
+    "templateCard.privateTooltip": "",
+    "templateCard.publicTooltip": "",
+    "templateCard.publish": "",
+    "templateCard.sourceDeleted": "",
+    "templateCard.sourceUnpublished": "",
+    "templateCard.syncToLatest": "",
+    "templateCard.unpublished": "",
+    "templateCard.update": "",
+    "templateCard.updateAvailable": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "",
+    "container.editSubflow": "",
+    "container.exportVariables": "",
+    "container.exportVariablesHint": "",
+    "container.exportVariablesPlaceholder": "",
+    "container.inheritContext": "",
+    "container.inheritContextHint": "",
+    "container.isolatedContextHint": "",
+    "container.nodesInside": ""
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.validation",
+  "version": "1.0.0",
+  "translations": {
+    "validation.alphanumeric": "",
+    "validation.error": "",
+    "validation.failed": "",
+    "validation.invalidEmail": "",
+    "validation.needsLowercase": "",
+    "validation.needsNumber": "",
+    "validation.needsUppercase": "",
+    "validation.passwordHint": "",
+    "validation.passwordMismatch": "",
+    "validation.required": ""
+  }
+}

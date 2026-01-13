@@ -1,0 +1,108 @@
+name: Sync from Cloud
+
+on:
+  repository_dispatch:
+    types: [sync-from-cloud]
+  workflow_dispatch:
+    inputs:
+      cloud_ref:
+        description: 'flyto-cloud commit ref'
+        required: false
+        default: 'main'
+  # Also trigger when flyto-cloud pushes (via webhook)
+  # schedule:
+  #   - cron: '0 */6 * * *'  # Every 6 hours (optional)
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout flyto-i18n
+        uses: actions/checkout@v4
+
+      - name: Checkout flyto-cloud
+        uses: actions/checkout@v4
+        with:
+          repository: flytohub/flyto-cloud
+          path: flyto-cloud
+          ref: ${{ github.event.client_payload.ref || inputs.cloud_ref || 'main' }}
+          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync keys from cloud
+        run: |
+          python scripts/sync-from-cloud.py --cloud-path ./flyto-cloud
+
+      - name: Build dist for CDN
+        run: |
+          python scripts/build-dist.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git diff --stat
+          fi
+
+      - name: Create Pull Request
+        id: cpr
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          title: "sync: update UI keys from flyto-cloud"
+          body: |
+            ## Auto-synced i18n keys from flyto-cloud
+
+            Triggered by: `${{ github.event.client_payload.ref || inputs.cloud_ref || 'manual' }}`
+
+            ### Changes
+            - Scanned Vue/JS files for `$t('key')` calls
+            - Updated locale files with new/removed keys
+            - Rebuilt dist/ for CDN distribution
+
+            ### Next Steps
+            - [ ] Fill in empty translations for new keys
+            - [ ] Review removed keys
+
+            ---
+            _This PR was automatically created by sync-from-cloud workflow._
+          branch: sync/cloud-keys
+          commit-message: "sync: update UI keys from flyto-cloud"
+          labels: sync, automated, cloud
+
+      - name: Auto-merge PR (if no new empty keys)
+        if: steps.cpr.outputs.pull-request-number
+        run: |
+          # Check if there are new empty translations that need filling
+          NEW_EMPTY=$(git diff --name-only | xargs grep -l '": ""' 2>/dev/null | wc -l || echo "0")
+
+          if [ "$NEW_EMPTY" -eq "0" ]; then
+            echo "No new empty translations, auto-merging..."
+            gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch
+          else
+            echo "Found $NEW_EMPTY files with empty translations, skipping auto-merge"
+            echo "Please review and fill in translations manually"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+
+      - name: Summary
+        run: |
+          echo "## Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Changes detected and PR created" >> $GITHUB_STEP_SUMMARY
+            echo "PR: #${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi

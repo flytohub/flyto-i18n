@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.autoForm",
+  "version": "1.0.0",
+  "translations": {
+    "autoForm.browsePath": "",
+    "autoForm.hideAdvanced": "",
+    "autoForm.hidePassword": "",
+    "autoForm.selectFilePlaceholder": "",
+    "autoForm.selectPlaceholder": "",
+    "autoForm.showAdvanced": "",
+    "autoForm.showPassword": ""
+  }
+}

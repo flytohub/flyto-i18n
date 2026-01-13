@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.workflowCanvas",
+  "version": "1.0.0",
+  "translations": {
+    "workflowCanvas.deleteDialog.deleteAll": "",
+    "workflowCanvas.deleteDialog.mergeToChild": "",
+    "workflowCanvas.deleteDialog.mergeToChildDesc": "",
+    "workflowCanvas.deleteDialog.title": ""
+  }
+}

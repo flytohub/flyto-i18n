@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.batch",
+  "version": "1.0.0",
+  "translations": {
+    "batch.delete": "",
+    "batch.deselectAll": "",
+    "batch.selectAll": "",
+    "batch.selected": ""
+  }
+}

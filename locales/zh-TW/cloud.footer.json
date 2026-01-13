@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.apiDocs": "",
+    "footer.community": "",
+    "footer.contact": "",
+    "footer.cookies": "",
+    "footer.copyright": "",
+    "footer.dashboard": "",
+    "footer.description": "",
+    "footer.developer": "",
+    "footer.examples": "",
+    "footer.github": "",
+    "footer.helpCenter": "",
+    "footer.marketplace": "",
+    "footer.pluginDev": "",
+    "footer.pricing": "",
+    "footer.privacy": "",
+    "footer.product": "",
+    "footer.status": "",
+    "footer.support": "",
+    "footer.terms": "",
+    "footer.workflows": ""
+  }
+}

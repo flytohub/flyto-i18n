@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.moduleCard",
+  "version": "1.0.0",
+  "translations": {
+    "moduleCard.expert": "",
+    "moduleCard.noDescription": ""
+  }
+}

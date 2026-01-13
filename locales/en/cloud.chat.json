@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.chat",
+  "version": "1.0.0",
+  "translations": {
+    "chat.attachFile": "",
+    "chat.error": "",
+    "chat.fileTooLarge": "",
+    "chat.loadFailed": "",
+    "chat.messageUser": "",
+    "chat.messages": "",
+    "chat.noConversations": "",
+    "chat.noMessages": "",
+    "chat.online": "",
+    "chat.searchConversations": "",
+    "chat.selectConversation": "",
+    "chat.selectConversationHint": "",
+    "chat.send": "",
+    "chat.startChat": "",
+    "chat.startChatFailed": "",
+    "chat.startConversation": "",
+    "chat.subtitle": "",
+    "chat.typePlaceholder": "",
+    "chat.uploadFailed": "",
+    "chat.user": "",
+    "chat.viewProfile": ""
+  }
+}

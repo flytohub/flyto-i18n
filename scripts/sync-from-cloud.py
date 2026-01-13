@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-sync-from-cloud.py - Sync i18n keys from flyto-cloud
+sync-from-cloud.py - Sync i18n keys from flyto-cloud Vue files
 
-This script copies UI translations from flyto-cloud to flyto-i18n,
-converting nested JSON structure to flat keys with 'cloud.' prefix.
+This script scans Vue/JS files for $t('key') calls and generates
+corresponding locale JSON files with empty values for translation.
 
 Usage:
     python scripts/sync-from-cloud.py [--cloud-path PATH] [--dry-run]
@@ -15,136 +15,246 @@ Options:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
-from typing import Any, Dict
+from collections import defaultdict
+from typing import Dict, Set, Tuple
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 
+# Frontend source path relative to flyto-cloud
+FRONTEND_SRC = 'src/ui/web/frontend/src'
 
-def flatten_dict(d: Dict[str, Any], parent_key: str = '', sep: str = '.') -> Dict[str, str]:
-    """Flatten nested dictionary to dot-separated keys."""
-    items = []
-    for k, v in d.items():
-        new_key = f"{parent_key}{sep}{k}" if parent_key else k
-        if isinstance(v, dict):
-            items.extend(flatten_dict(v, new_key, sep).items())
+# Regex patterns to extract translation keys
+# Matches: $t('key'), $t("key"), t('key'), t("key")
+T_CALL_PATTERNS = [
+    r'\$t\([\'"]([^\'"]+)[\'"]\)',       # $t('key') or $t("key")
+    r'(?<![.\w])t\([\'"]([^\'"]+)[\'"]\)',  # t('key') but not .t('key') or this.t('key')
+]
+
+# File extensions to scan
+SCAN_EXTENSIONS = ['.vue', '.js', '.ts']
+
+
+def find_source_files(cloud_path: Path) -> list:
+    """Find all Vue and JS files in the frontend source."""
+    frontend_path = cloud_path / FRONTEND_SRC
+    if not frontend_path.exists():
+        print(f"Error: Frontend path not found: {frontend_path}")
+        return []
+
+    files = []
+    for ext in SCAN_EXTENSIONS:
+        files.extend(frontend_path.rglob(f"*{ext}"))
+
+    return sorted(files)
+
+
+def extract_keys_from_file(file_path: Path) -> Set[str]:
+    """Extract all translation keys from a single file."""
+    keys = set()
+
+    try:
+        content = file_path.read_text(encoding='utf-8')
+    except Exception as e:
+        print(f"  Warning: Could not read {file_path}: {e}")
+        return keys
+
+    for pattern in T_CALL_PATTERNS:
+        matches = re.findall(pattern, content)
+        keys.update(matches)
+
+    return keys
+
+
+def extract_all_keys(cloud_path: Path) -> Dict[str, Set[str]]:
+    """Extract all translation keys grouped by category."""
+    files = find_source_files(cloud_path)
+    print(f"Scanning {len(files)} files...")
+
+    all_keys = set()
+    file_count = 0
+
+    for file_path in files:
+        keys = extract_keys_from_file(file_path)
+        if keys:
+            all_keys.update(keys)
+            file_count += 1
+
+    print(f"Found {len(all_keys)} unique keys in {file_count} files")
+
+    # Group keys by category (first segment of the key)
+    categories = defaultdict(set)
+    for key in all_keys:
+        parts = key.split('.')
+        if len(parts) >= 1:
+            category = parts[0]
+            categories[category].add(key)
+
+    return dict(categories)
+
+
+def load_existing_translations(locale_path: Path, category: str) -> Dict[str, str]:
+    """Load existing translations for a category."""
+    file_path = locale_path / f"cloud.{category}.json"
+
+    if not file_path.exists():
+        return {}
+
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('translations', {})
+    except Exception as e:
+        print(f"  Warning: Could not load {file_path}: {e}")
+        return {}
+
+
+def generate_locale_file(
+    category: str,
+    keys: Set[str],
+    locale: str,
+    locale_path: Path,
+    dry_run: bool = False
+) -> Tuple[int, int, int]:
+    """Generate a locale JSON file for a category."""
+
+    # Load existing translations to preserve values
+    existing = load_existing_translations(locale_path, category)
+
+    # Build translations dict - preserve existing, add empty for new
+    translations = {}
+    new_count = 0
+    preserved_count = 0
+
+    for key in sorted(keys):
+        if key in existing and existing[key]:
+            translations[key] = existing[key]
+            preserved_count += 1
         else:
-            items.append((new_key, str(v)))
-    return dict(items)
+            translations[key] = ""
+            new_count += 1
+
+    # Check for removed keys
+    removed_keys = set(existing.keys()) - keys
+    removed_count = len(removed_keys)
+
+    # Build output structure matching flyto-i18n schema
+    output = {
+        "$schema": "../../schema/locale.schema.json",
+        "locale": locale,
+        "category": f"cloud.{category}",
+        "version": "1.0.0",
+        "translations": translations
+    }
+
+    file_path = locale_path / f"cloud.{category}.json"
+
+    change_info = []
+    if new_count:
+        change_info.append(f"+{new_count} new")
+    if removed_count:
+        change_info.append(f"-{removed_count} removed")
+    change_str = f" ({', '.join(change_info)})" if change_info else ""
+
+    if dry_run:
+        print(f"    Would write {file_path.name}: {len(keys)} keys{change_str}")
+    else:
+        locale_path.mkdir(parents=True, exist_ok=True)
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+            f.write('\n')
+        print(f"    Wrote {file_path.name}: {len(keys)} keys{change_str}")
+
+    return len(keys), new_count, removed_count
 
 
-def sync_locale(cloud_path: Path, locale: str, dry_run: bool = False) -> Dict[str, int]:
-    """Sync translations for a specific locale."""
-    cloud_i18n_dir = cloud_path / 'src' / 'ui' / 'web' / 'frontend' / 'src' / 'i18n' / 'locales' / locale
-    target_dir = LOCALES_DIR / locale
+def sync_from_cloud(cloud_path: str, dry_run: bool = False):
+    """Main sync function."""
+    cloud_path = Path(cloud_path).resolve()
 
-    stats = {'files': 0, 'keys': 0, 'new_keys': 0}
-
-    if not cloud_i18n_dir.exists():
-        print(f"  Warning: Cloud locale directory not found: {cloud_i18n_dir}")
-        return stats
-
-    target_dir.mkdir(parents=True, exist_ok=True)
-
-    for json_file in sorted(cloud_i18n_dir.glob('*.json')):
-        category = json_file.stem  # e.g., 'auth', 'dashboard'
-
-        try:
-            with open(json_file, encoding='utf-8') as f:
-                data = json.load(f)
-        except Exception as e:
-            print(f"  Warning: Could not read {json_file}: {e}")
-            continue
-
-        # Flatten nested structure and add 'cloud.' prefix
-        flat_translations = {}
-        for key, value in flatten_dict(data).items():
-            # Add 'cloud.' prefix to distinguish from module translations
-            flat_key = f"cloud.{key}"
-            flat_translations[flat_key] = value
-
-        if not flat_translations:
-            continue
-
-        # Target filename: cloud.{category}.json
-        target_file = target_dir / f"cloud.{category}.json"
-
-        # Load existing keys to calculate diff
-        existing_keys = set()
-        if target_file.exists():
-            try:
-                with open(target_file, encoding='utf-8') as f:
-                    existing_data = json.load(f)
-                    existing_keys = set(existing_data.get('translations', {}).keys())
-            except:
-                pass
-
-        new_keys = set(flat_translations.keys()) - existing_keys
-
-        # Create output structure matching flyto-i18n schema
-        output = {
-            "$schema": "../../schema/locale.schema.json",
-            "locale": locale,
-            "category": f"cloud.{category}",
-            "version": "1.0.0",
-            "translations": dict(sorted(flat_translations.items()))
-        }
-
-        stats['files'] += 1
-        stats['keys'] += len(flat_translations)
-        stats['new_keys'] += len(new_keys)
-
-        change_info = f" (+{len(new_keys)} new)" if new_keys else ""
-
-        if dry_run:
-            print(f"  Would write {target_file.name}: {len(flat_translations)} keys{change_info}")
-        else:
-            with open(target_file, 'w', encoding='utf-8') as f:
-                json.dump(output, f, indent=2, ensure_ascii=False)
-            print(f"  Wrote {target_file.name}: {len(flat_translations)} keys{change_info}")
-
-    return stats
-
-
-def main():
-    parser = argparse.ArgumentParser(description='Sync keys from flyto-cloud')
-    parser.add_argument('--cloud-path', default='../flyto-cloud',
-                        help='Path to flyto-cloud')
-    parser.add_argument('--dry-run', action='store_true',
-                        help='Show changes without writing')
-    args = parser.parse_args()
-
-    cloud_path = Path(args.cloud_path).resolve()
     if not cloud_path.exists():
         print(f"Error: flyto-cloud not found at {cloud_path}")
         sys.exit(1)
 
     print(f"Syncing from flyto-cloud at: {cloud_path}")
-    print(f"Mode: {'DRY RUN' if args.dry_run else 'LIVE'}")
-    print()
+    print(f"Target: {LOCALES_DIR}")
+    print(f"Mode: {'DRY RUN' if dry_run else 'LIVE'}")
+    print("-" * 60)
 
-    total_stats = {'files': 0, 'keys': 0, 'new_keys': 0}
+    # Extract all keys from Vue files
+    categories = extract_all_keys(cloud_path)
 
-    # Sync each locale
-    for locale in ['en', 'zh-TW']:
-        print(f"[{locale}]")
-        stats = sync_locale(cloud_path, locale, args.dry_run)
-        total_stats['files'] += stats['files']
-        total_stats['keys'] += stats['keys']
-        total_stats['new_keys'] += stats['new_keys']
-        print()
+    if not categories:
+        print("No translation keys found!")
+        return
 
-    print("=" * 50)
-    print(f"Summary:")
-    print(f"  Files: {total_stats['files']}")
+    print(f"\nFound {len(categories)} categories:")
+    for cat in sorted(categories.keys()):
+        print(f"  {cat}: {len(categories[cat])} keys")
+
+    print("\n" + "-" * 60)
+
+    # Generate files for each locale
+    locales = ['en', 'zh-TW']
+    total_stats = {
+        'categories': len(categories),
+        'keys': 0,
+        'new': 0,
+        'removed': 0
+    }
+
+    for locale in locales:
+        print(f"\n[{locale}]")
+        locale_path = LOCALES_DIR / locale
+
+        for category in sorted(categories.keys()):
+            keys = categories[category]
+            key_count, new_count, removed_count = generate_locale_file(
+                category, keys, locale, locale_path, dry_run
+            )
+
+            if locale == 'en':  # Only count once
+                total_stats['keys'] += key_count
+                total_stats['new'] += new_count
+                total_stats['removed'] += removed_count
+
+    print("\n" + "=" * 60)
+    print("Summary:")
+    print(f"  Categories: {total_stats['categories']}")
     print(f"  Total keys: {total_stats['keys']}")
-    print(f"  New keys: +{total_stats['new_keys']}")
-    print("=" * 50)
+    print(f"  New keys: +{total_stats['new']}")
+    print(f"  Removed keys: -{total_stats['removed']}")
+    print("=" * 60)
 
-    if args.dry_run:
+    if dry_run:
         print("\nRun without --dry-run to apply changes")
+    else:
+        print("\nNext steps:")
+        print("  1. Fill in empty translations (or use AI translate)")
+        print("  2. Run: python scripts/build-dist.py")
+        print("  3. Commit and push to GitHub")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='Sync translation keys from flyto-cloud Vue files'
+    )
+    parser.add_argument(
+        '--cloud-path',
+        default='../flyto-cloud',
+        help='Path to flyto-cloud repo (default: ../flyto-cloud)'
+    )
+    parser.add_argument(
+        '--dry-run',
+        action='store_true',
+        help='Preview changes without writing files'
+    )
+
+    args = parser.parse_args()
+    sync_from_cloud(args.cloud_path, args.dry_run)
 
 
 if __name__ == '__main__':

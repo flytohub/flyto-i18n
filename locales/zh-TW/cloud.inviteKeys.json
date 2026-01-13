@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.inviteKeys",
+  "version": "1.0.0",
+  "translations": {
+    "inviteKeys.activeKeys": "",
+    "inviteKeys.copyKeyNote": "",
+    "inviteKeys.createNew": "",
+    "inviteKeys.creating": "",
+    "inviteKeys.errors.createFailed": "",
+    "inviteKeys.errors.revokeFailed": "",
+    "inviteKeys.expiresAfter": "",
+    "inviteKeys.generateKey": "",
+    "inviteKeys.keyCreated": "",
+    "inviteKeys.loadingKeys": "",
+    "inviteKeys.never": "",
+    "inviteKeys.neverExpires": "",
+    "inviteKeys.noKeys": "",
+    "inviteKeys.noKeysDesc": "",
+    "inviteKeys.revokeConfirm.message": "",
+    "inviteKeys.revokeConfirm.title": "",
+    "inviteKeys.revokeKey": "",
+    "inviteKeys.revoked": "",
+    "inviteKeys.revoking": "",
+    "inviteKeys.title": "",
+    "inviteKeys.unlimited": "",
+    "inviteKeys.usageLimit": "",
+    "inviteKeys.year": ""
+  }
+}

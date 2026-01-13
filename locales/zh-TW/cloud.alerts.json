@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.alerts",
+  "version": "1.0.0",
+  "translations": {
+    "alerts.allWorkflows": ""
+  }
+}

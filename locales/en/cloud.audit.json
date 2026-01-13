@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.audit",
+  "version": "1.0.0",
+  "translations": {
+    "audit.actions.read": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.valueSource",
+  "version": "1.0.0",
+  "translations": {
+    "valueSource.booleanFalse": "",
+    "valueSource.booleanTrue": "",
+    "valueSource.changeSource": "",
+    "valueSource.defaultPlaceholder": "",
+    "valueSource.expressionHint": "",
+    "valueSource.expressionPlaceholder": "",
+    "valueSource.noPreviousSteps": "",
+    "valueSource.noUIFields": "",
+    "valueSource.selectSourceType": "",
+    "valueSource.selectStepOutput": "",
+    "valueSource.selectUIField": "",
+    "valueSource.sources.expression.description": "",
+    "valueSource.sources.expression.label": "",
+    "valueSource.sources.previousStep.description": "",
+    "valueSource.sources.previousStep.label": "",
+    "valueSource.sources.static.description": "",
+    "valueSource.sources.static.label": "",
+    "valueSource.sources.uiInput.description": "",
+    "valueSource.sources.uiInput.label": ""
+  }
+}

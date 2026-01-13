@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.node",
+  "version": "1.0.0",
+  "translations": {
+    "node.settings.advanced": "",
+    "node.settings.foreach": "",
+    "node.settings.foreachAs": "",
+    "node.settings.foreachPlaceholder": "",
+    "node.settings.initialDelay": "",
+    "node.settings.jitter": "",
+    "node.settings.maxAttempts": "",
+    "node.settings.maxDelay": "",
+    "node.settings.parallel": "",
+    "node.settings.retryEnabled": "",
+    "node.settings.retryStrategy": "",
+    "node.settings.runIf": "",
+    "node.settings.runIfPlaceholder": "",
+    "node.settings.skipIf": "",
+    "node.settings.skipIfPlaceholder": "",
+    "node.settings.strategyExponential": "",
+    "node.settings.strategyFixed": "",
+    "node.settings.strategyLinear": "",
+    "node.settings.timeout": "",
+    "node.settings.timeoutPlaceholder": ""
+  }
+}
