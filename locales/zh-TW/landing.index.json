@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "",
+    "landing.index.counter.recordOnceDesc": "",
+    "landing.index.counter.replayForever": "",
+    "landing.index.counter.replayForeverDesc": "",
+    "landing.index.counter.stayInControl": "",
+    "landing.index.counter.stayInControlDesc": "",
+    "landing.index.hero.description": "",
+    "landing.index.hero.titleEnd": "",
+    "landing.index.hero.titleHighlight": "",
+    "landing.index.why.subtitle": "",
+    "landing.index.why.title": ""
+  }
+}

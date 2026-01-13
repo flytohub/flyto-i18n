@@ -1,7 +1,7 @@
 {
   "name": "flyto-i18n",
-  "version": "0.1.0",
-  "description": "Internationalization language packs for flyto-core",
+  "version": "0.2.0",
+  "description": "Internationalization language packs for flyto ecosystem",
   "source_version": "flyto-core@2.0.0",
   "repository": "https://github.com/flytohub/flyto-i18n",
   "locales": {
@@ -11,6 +11,34 @@
       "coverage": 100,
       "status": "official",
       "maintainers": ["@flytohub"]
+    },
+    "zh-TW": {
+      "name": "Traditional Chinese",
+      "native_name": "繁體中文",
+      "coverage": 0,
+      "status": "in_progress",
+      "maintainers": ["@flytohub"]
+    },
+    "ja": {
+      "name": "Japanese",
+      "native_name": "日本語",
+      "coverage": 0,
+      "status": "planned",
+      "maintainers": []
+    }
+  },
+  "projects": {
+    "modules": {
+      "name": "flyto-core",
+      "description": "Core module translations"
+    },
+    "cloud": {
+      "name": "flyto-cloud",
+      "description": "Cloud UI translations"
+    },
+    "landing": {
+      "name": "flyto-landing-page",
+      "description": "Landing page translations"
     }
   },
   "categories": [

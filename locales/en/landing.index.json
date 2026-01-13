@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "Record Once",
+    "landing.index.counter.recordOnceDesc": "Show Flyto2 how you work. It learns by watching your clicks and keystrokes.",
+    "landing.index.counter.replayForever": "Replay Forever",
+    "landing.index.counter.replayForeverDesc": "Run it again with different data. Batch process hundreds of items.",
+    "landing.index.counter.stayInControl": "Stay in Control",
+    "landing.index.counter.stayInControlDesc": "Pause, verify, and resume anytime. Never worry about runaway automation.",
+    "landing.index.hero.description": "Flyto2 is an automation tool that operates your computer like a human. Open browsers, click buttons, fill forms, upload files. You do it once, Flyto2 repeats it forever.",
+    "landing.index.hero.titleEnd": "What You Show It",
+    "landing.index.hero.titleHighlight": "Automation That Does",
+    "landing.index.why.subtitle": "Many tasks aren't hard, they're just tedious.",
+    "landing.index.why.title": "Why"
+  }
+}

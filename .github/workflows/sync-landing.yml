@@ -1,0 +1,21 @@
+name: Sync to Landing Page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/*/landing.*.json'
+  workflow_dispatch:
+
+jobs:
+  notify-landing:
+    name: Trigger Landing Page Rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger landing-page rebuild
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.LANDING_REPO_TOKEN }}
+          repository: flytohub/flyto-landing-page
+          event-type: i18n-updated
+          client-payload: '{"source": "flyto-i18n", "trigger": "translation-update"}'
