@@ -4,16 +4,16 @@
   "category": "landing.faq",
   "version": "1.0.0",
   "translations": {
-    "landing.faq.cta.contactSupport": "",
-    "landing.faq.cta.subtitle": "",
-    "landing.faq.cta.title": "",
-    "landing.faq.cta.viewDocs": "",
-    "landing.faq.general.subtitle": "",
-    "landing.faq.general.title": "",
-    "landing.faq.gettingStarted.subtitle": "",
-    "landing.faq.gettingStarted.title": "",
-    "landing.faq.hero.title": "",
-    "landing.faq.licensing.subtitle": "",
-    "landing.faq.licensing.title": ""
+    "landing.faq.cta.contactSupport": "Contact Support",
+    "landing.faq.cta.subtitle": "Can't find the answer you're looking for? Our team is here to help.",
+    "landing.faq.cta.title": "Still have questions?",
+    "landing.faq.cta.viewDocs": "View Documentation",
+    "landing.faq.general.subtitle": "Learn the basics about Flyto2",
+    "landing.faq.general.title": "General Questions",
+    "landing.faq.gettingStarted.subtitle": "How to start using Flyto2",
+    "landing.faq.gettingStarted.title": "Getting Started",
+    "landing.faq.hero.title": "Frequently Asked Questions",
+    "landing.faq.licensing.subtitle": "Plans, pricing, and license management",
+    "landing.faq.licensing.title": "Licensing & Pricing"
   }
 }

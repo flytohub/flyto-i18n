@@ -1,14 +1,14 @@
 {
-  "version": "20260113034219",
-  "generated_at": "2026-01-13T03:42:19.124302",
+  "version": "20260113115230",
+  "generated_at": "2026-01-13T11:52:30.892018",
   "locales": {
     "en": {
       "name": "English",
       "native": "English",
       "region": "US",
       "total_keys": 206,
-      "translated_keys": 40,
-      "completion": 19.4,
+      "translated_keys": 206,
+      "completion": 100.0,
       "files_merged": 10
     },
     "ja": {

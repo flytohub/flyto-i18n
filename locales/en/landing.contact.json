@@ -4,17 +4,17 @@
   "category": "landing.contact",
   "version": "1.0.0",
   "translations": {
-    "landing.contact.cards.community": "",
-    "landing.contact.cards.emailUs": "",
-    "landing.contact.cards.github": "",
-    "landing.contact.cta.downloadNow": "",
-    "landing.contact.cta.subtitle": "",
-    "landing.contact.cta.title": "",
-    "landing.contact.form.subtitle": "",
-    "landing.contact.form.title": "",
-    "landing.contact.hero.subtitle": "",
-    "landing.contact.hero.title": "",
-    "landing.contact.quickLinks.subtitle": "",
-    "landing.contact.quickLinks.title": ""
+    "landing.contact.cards.community": "Community",
+    "landing.contact.cards.emailUs": "Email Us",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "Download Now",
+    "landing.contact.cta.subtitle": "Start automating your workflows today",
+    "landing.contact.cta.title": "Ready to get started?",
+    "landing.contact.form.subtitle": "Fill out the form and we'll get back to you",
+    "landing.contact.form.title": "Send us a message",
+    "landing.contact.hero.subtitle": "Have questions? We'd love to hear from you.",
+    "landing.contact.hero.title": "Contact Us",
+    "landing.contact.quickLinks.subtitle": "Find answers to common questions",
+    "landing.contact.quickLinks.title": "Quick Links"
   }
 }
