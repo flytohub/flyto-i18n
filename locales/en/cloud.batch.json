@@ -5,6 +5,8 @@
   "version": "1.0.0",
   "translations": {
     "batch.delete": "",
+    "batch.deleteConfirm.message": "",
+    "batch.deleteConfirm.title": "",
     "batch.deselectAll": "",
     "batch.selectAll": "",
     "batch.selected": ""

@@ -28,10 +28,10 @@ LOCALES_DIR = PROJECT_ROOT / 'locales'
 FRONTEND_SRC = 'src/ui/web/frontend/src'
 
 # Regex patterns to extract translation keys
-# Matches: $t('key'), $t("key"), t('key'), t("key")
+# Matches: $t('key'), $t("key"), t('key'), t("key"), including with additional args
 T_CALL_PATTERNS = [
-    r'\$t\([\'"]([^\'"]+)[\'"]\)',       # $t('key') or $t("key")
-    r'(?<![.\w])t\([\'"]([^\'"]+)[\'"]\)',  # t('key') but not .t('key') or this.t('key')
+    r'\$t\([\'"]([^\'"]+)[\'"]',       # $t('key') or $t("key") - also matches $t('key', args)
+    r'(?<![.\w])t\([\'"]([^\'"]+)[\'"]',  # t('key') but not .t('key') or this.t('key')
 ]
 
 # File extensions to scan

@@ -7,9 +7,12 @@
     "inviteKeys.activeKeys": "",
     "inviteKeys.copyKeyNote": "",
     "inviteKeys.createNew": "",
+    "inviteKeys.created": "",
     "inviteKeys.creating": "",
+    "inviteKeys.days": "",
     "inviteKeys.errors.createFailed": "",
     "inviteKeys.errors.revokeFailed": "",
+    "inviteKeys.expires": "",
     "inviteKeys.expiresAfter": "",
     "inviteKeys.generateKey": "",
     "inviteKeys.keyCreated": "",
@@ -26,6 +29,9 @@
     "inviteKeys.title": "",
     "inviteKeys.unlimited": "",
     "inviteKeys.usageLimit": "",
+    "inviteKeys.usageStats": "",
+    "inviteKeys.usageUnlimited": "",
+    "inviteKeys.uses": "",
     "inviteKeys.year": ""
   }
 }

@@ -13,11 +13,20 @@
     "errorWorkflow.categories.resource_not_found": "",
     "errorWorkflow.categories.timeout": "",
     "errorWorkflow.categories.validation_error": "",
+    "errorWorkflow.description": "",
+    "errorWorkflow.doNothing": "",
     "errorWorkflow.errorTrigger.anyWorkflow": "",
     "errorWorkflow.errorTrigger.categoriesHint": "",
     "errorWorkflow.errorTrigger.contextInfoTitle": "",
     "errorWorkflow.errorTrigger.errorCategories": "",
     "errorWorkflow.errorTrigger.sourceWorkflow": "",
-    "errorWorkflow.errorTrigger.sourceWorkflowHint": ""
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "",
+    "errorWorkflow.errorWorkflowLabel": "",
+    "errorWorkflow.onFailure": "",
+    "errorWorkflow.passContext": "",
+    "errorWorkflow.passContextHint": "",
+    "errorWorkflow.runWorkflow": "",
+    "errorWorkflow.selectWorkflow": "",
+    "errorWorkflow.title": ""
   }
 }

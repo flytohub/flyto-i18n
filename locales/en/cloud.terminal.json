@@ -10,8 +10,10 @@
     "terminal.disableAutoScroll": "",
     "terminal.disconnected": "",
     "terminal.enableAutoScroll": "",
+    "terminal.hideLogs": "",
     "terminal.logsWillAppear": "",
     "terminal.searchPlaceholder": "",
+    "terminal.showLogs": "",
     "terminal.title": "",
     "terminal.waitingForLogs": ""
   }

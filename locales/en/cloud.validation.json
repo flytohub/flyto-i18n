@@ -8,10 +8,12 @@
     "validation.error": "",
     "validation.failed": "",
     "validation.invalidEmail": "",
-    "validation.needsLowercase": "",
-    "validation.needsNumber": "",
-    "validation.needsUppercase": "",
-    "validation.passwordHint": "",
+    "validation.maxLength": "",
+    "validation.minLength": "",
+    "validation.needsLowercase": "Must contain at least one lowercase letter",
+    "validation.needsNumber": "Must contain at least one number",
+    "validation.needsUppercase": "Must contain at least one uppercase letter",
+    "validation.passwordHint": "Min 12 chars, with uppercase, lowercase, and number",
     "validation.passwordMismatch": "",
     "validation.required": ""
   }

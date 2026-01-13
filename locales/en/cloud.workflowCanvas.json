@@ -5,8 +5,10 @@
   "version": "1.0.0",
   "translations": {
     "workflowCanvas.deleteDialog.deleteAll": "",
+    "workflowCanvas.deleteDialog.deleteAllDesc": "",
     "workflowCanvas.deleteDialog.mergeToChild": "",
     "workflowCanvas.deleteDialog.mergeToChildDesc": "",
+    "workflowCanvas.deleteDialog.message": "",
     "workflowCanvas.deleteDialog.title": ""
   }
 }

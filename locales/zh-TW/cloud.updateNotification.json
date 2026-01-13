@@ -9,12 +9,14 @@
     "updateNotification.downloadUpdate": "",
     "updateNotification.downloading": "",
     "updateNotification.newVersionAvailable": "",
+    "updateNotification.percentComplete": "",
     "updateNotification.remindLater": "",
     "updateNotification.restartLater": "",
     "updateNotification.restartNow": "",
     "updateNotification.restartToInstall": "",
     "updateNotification.unknownError": "",
     "updateNotification.updateDownloaded": "",
-    "updateNotification.updateFailed": ""
+    "updateNotification.updateFailed": "",
+    "updateNotification.versionReady": ""
   }
 }

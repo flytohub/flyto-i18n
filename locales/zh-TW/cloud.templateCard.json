@@ -5,20 +5,20 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "",
-    "templateCard.deleted": "",
+    "templateCard.deleted": "已刪除",
     "templateCard.downloadOffline": "",
     "templateCard.editInfo": "",
-    "templateCard.forkTemplate": "",
+    "templateCard.forkTemplate": "Fork 到我的模板",
     "templateCard.forked": "",
     "templateCard.manageKeys": "",
     "templateCard.privateTooltip": "",
     "templateCard.publicTooltip": "",
     "templateCard.publish": "",
-    "templateCard.sourceDeleted": "",
-    "templateCard.sourceUnpublished": "",
-    "templateCard.syncToLatest": "",
-    "templateCard.unpublished": "",
-    "templateCard.update": "",
-    "templateCard.updateAvailable": ""
+    "templateCard.sourceDeleted": "原始模板已被作者刪除",
+    "templateCard.sourceUnpublished": "原始模板已被作者下架",
+    "templateCard.syncToLatest": "同步到最新版本",
+    "templateCard.unpublished": "已下架",
+    "templateCard.update": "更新",
+    "templateCard.updateAvailable": "作者有更新可用"
   }
 }

@@ -4,7 +4,9 @@
   "category": "cloud.moduleCard",
   "version": "1.0.0",
   "translations": {
-    "moduleCard.expert": "",
-    "moduleCard.noDescription": ""
+    "moduleCard.expert": "進階",
+    "moduleCard.inputType": "輸入: {type}",
+    "moduleCard.noDescription": "無說明",
+    "moduleCard.outputType": "輸出: {type}"
   }
 }

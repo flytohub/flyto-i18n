@@ -5,20 +5,20 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "",
-    "templateCard.deleted": "",
+    "templateCard.deleted": "Deleted",
     "templateCard.downloadOffline": "",
     "templateCard.editInfo": "",
-    "templateCard.forkTemplate": "",
+    "templateCard.forkTemplate": "Fork to My Templates",
     "templateCard.forked": "",
     "templateCard.manageKeys": "",
     "templateCard.privateTooltip": "",
     "templateCard.publicTooltip": "",
     "templateCard.publish": "",
-    "templateCard.sourceDeleted": "",
-    "templateCard.sourceUnpublished": "",
-    "templateCard.syncToLatest": "",
-    "templateCard.unpublished": "",
-    "templateCard.update": "",
-    "templateCard.updateAvailable": ""
+    "templateCard.sourceDeleted": "The original template has been deleted by the author",
+    "templateCard.sourceUnpublished": "The original template has been unpublished by the author",
+    "templateCard.syncToLatest": "Sync to Latest",
+    "templateCard.unpublished": "Unpublished",
+    "templateCard.update": "Update",
+    "templateCard.updateAvailable": "Update available from the author"
   }
 }

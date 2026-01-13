@@ -14,13 +14,18 @@
     "dashboardPage.myPurchases.title": "",
     "dashboardPage.myPurchases.totalSpent": "",
     "dashboardPage.quickStart.newTemplate": "",
+    "dashboardPage.recentActivity.daysAgo": "",
+    "dashboardPage.recentActivity.duration": "",
     "dashboardPage.recentActivity.failed": "",
+    "dashboardPage.recentActivity.hoursAgo": "",
     "dashboardPage.recentActivity.justNow": "",
+    "dashboardPage.recentActivity.minutesAgo": "",
     "dashboardPage.recentActivity.noActivity": "",
     "dashboardPage.recentActivity.retry": "",
     "dashboardPage.recentActivity.runTemplateFirst": "",
     "dashboardPage.recentActivity.running": "",
     "dashboardPage.recentActivity.sale": "",
+    "dashboardPage.recentActivity.soldTo": "",
     "dashboardPage.recentActivity.success": "",
     "dashboardPage.recentActivity.title": "",
     "dashboardPage.recentActivity.viewResult": "",
@@ -38,6 +43,7 @@
     "dashboardPage.stats.revenue": "",
     "dashboardPage.stats.sales": "",
     "dashboardPage.subtitle": "",
+    "dashboardPage.welcome": "",
     "dashboardPage.welcomeDefault": ""
   }
 }
