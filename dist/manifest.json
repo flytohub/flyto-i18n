@@ -1,33 +1,33 @@
 {
-  "version": "20260113043316",
-  "generated_at": "2026-01-13T04:33:16.869036",
+  "version": "20260113055549",
+  "generated_at": "2026-01-13T05:55:49.855045",
   "locales": {
     "en": {
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 6633,
+      "total_keys": 7010,
       "translated_keys": 6517,
-      "completion": 98.3,
-      "files_merged": 180
+      "completion": 93.0,
+      "files_merged": 186
     },
     "ja": {
       "name": "Japanese",
       "native": "日本語",
       "region": "JP",
-      "total_keys": 205,
+      "total_keys": 582,
       "translated_keys": 0,
       "completion": 0.0,
-      "files_merged": 9
+      "files_merged": 15
     },
     "zh-TW": {
       "name": "Traditional Chinese",
       "native": "繁體中文",
       "region": "TW",
-      "total_keys": 6632,
+      "total_keys": 7009,
       "translated_keys": 6217,
-      "completion": 93.7,
-      "files_merged": 180
+      "completion": 88.7,
+      "files_merged": 186
     }
   }
 }
