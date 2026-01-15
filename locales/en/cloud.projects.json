@@ -4,7 +4,7 @@
   "category": "cloud.projects",
   "version": "1.0.0",
   "translations": {
-    "projects.create": "",
+    "projects.create": "Create Project",
     "projects.create.title": "Create Project",
     "projects.delete.message": "Are you sure you want to delete this project? All workflows in this project will be moved to the default project.",
     "projects.delete.title": "Delete Project",

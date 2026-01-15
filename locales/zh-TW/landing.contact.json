@@ -4,17 +4,17 @@
   "category": "landing.contact",
   "version": "1.0.0",
   "translations": {
-    "landing.contact.cards.community": "",
-    "landing.contact.cards.emailUs": "",
-    "landing.contact.cards.github": "",
-    "landing.contact.cta.downloadNow": "",
-    "landing.contact.cta.subtitle": "",
-    "landing.contact.cta.title": "",
-    "landing.contact.form.subtitle": "",
-    "landing.contact.form.title": "",
-    "landing.contact.hero.subtitle": "",
-    "landing.contact.hero.title": "",
-    "landing.contact.quickLinks.subtitle": "",
-    "landing.contact.quickLinks.title": ""
+    "landing.contact.cards.community": "社群",
+    "landing.contact.cards.emailUs": "寄送郵件",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "立即下載",
+    "landing.contact.cta.subtitle": "今天就開始自動化您的工作流程",
+    "landing.contact.cta.title": "準備好開始了嗎？",
+    "landing.contact.form.subtitle": "填寫表單，我們會盡快回覆您",
+    "landing.contact.form.title": "傳送訊息給我們",
+    "landing.contact.hero.subtitle": "有任何問題嗎？我們很樂意為您解答。",
+    "landing.contact.hero.title": "聯繫我們",
+    "landing.contact.quickLinks.subtitle": "尋找常見問題的解答",
+    "landing.contact.quickLinks.title": "快速連結"
   }
 }

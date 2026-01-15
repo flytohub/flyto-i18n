@@ -4,16 +4,16 @@
   "category": "landing.index",
   "version": "1.0.0",
   "translations": {
-    "landing.index.counter.recordOnce": "",
-    "landing.index.counter.recordOnceDesc": "",
-    "landing.index.counter.replayForever": "",
-    "landing.index.counter.replayForeverDesc": "",
-    "landing.index.counter.stayInControl": "",
-    "landing.index.counter.stayInControlDesc": "",
-    "landing.index.hero.description": "",
-    "landing.index.hero.titleEnd": "",
-    "landing.index.hero.titleHighlight": "",
-    "landing.index.why.subtitle": "",
-    "landing.index.why.title": ""
+    "landing.index.counter.recordOnce": "錄製一次",
+    "landing.index.counter.recordOnceDesc": "讓 Flyto2 看你操作一次。它會學習你的點擊和輸入動作。",
+    "landing.index.counter.replayForever": "永遠重播",
+    "landing.index.counter.replayForeverDesc": "用不同的資料再次執行。批次處理數百個項目。",
+    "landing.index.counter.stayInControl": "保持掌控",
+    "landing.index.counter.stayInControlDesc": "隨時暫停、確認、繼續。不用擔心自動化失控。",
+    "landing.index.hero.description": "Flyto2 是一款像人類一樣操作電腦的自動化工具。開啟瀏覽器、點擊按鈕、填寫表單、上傳檔案。你做一次，Flyto2 幫你重複執行。",
+    "landing.index.hero.titleEnd": "你所示範的",
+    "landing.index.hero.titleHighlight": "自動化執行",
+    "landing.index.why.subtitle": "很多任務不難，只是很煩。",
+    "landing.index.why.title": "為什麼選擇 Flyto2"
   }
 }

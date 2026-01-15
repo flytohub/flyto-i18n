@@ -4,16 +4,16 @@
   "category": "landing.faq",
   "version": "1.0.0",
   "translations": {
-    "landing.faq.cta.contactSupport": "",
-    "landing.faq.cta.subtitle": "",
-    "landing.faq.cta.title": "",
-    "landing.faq.cta.viewDocs": "",
-    "landing.faq.general.subtitle": "",
-    "landing.faq.general.title": "",
-    "landing.faq.gettingStarted.subtitle": "",
-    "landing.faq.gettingStarted.title": "",
-    "landing.faq.hero.title": "",
-    "landing.faq.licensing.subtitle": "",
-    "landing.faq.licensing.title": ""
+    "landing.faq.cta.contactSupport": "サポートに連絡",
+    "landing.faq.cta.subtitle": "お探しの回答が見つかりませんか？私たちのチームがお手伝いします。",
+    "landing.faq.cta.title": "まだご質問がありますか？",
+    "landing.faq.cta.viewDocs": "ドキュメントを見る",
+    "landing.faq.general.subtitle": "Flyto2の基本について",
+    "landing.faq.general.title": "一般的な質問",
+    "landing.faq.gettingStarted.subtitle": "Flyto2の始め方",
+    "landing.faq.gettingStarted.title": "はじめに",
+    "landing.faq.hero.title": "よくある質問",
+    "landing.faq.licensing.subtitle": "プラン、料金、ライセンス管理について",
+    "landing.faq.licensing.title": "ライセンスと料金"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "cloud.execution",
+  "version": "1.0.0",
+  "translations": {
+    "execution.checkpoints.empty": "チェックポイントがありません",
+    "execution.checkpoints.list": "チェックポイント",
+    "execution.checkpoints.recommended": "おすすめ",
+    "execution.controls.pause": "一時停止",
+    "execution.controls.resume": "再開",
+    "execution.controls.step": "ステップ",
+    "execution.resume.failedAt": "失敗箇所",
+    "execution.resume.fromCheckpoint": "チェックポイントから再開",
+    "execution.resume.options": "再開オプション",
+    "execution.resume.retryFromStart": "最初から再試行"
+  }
+}

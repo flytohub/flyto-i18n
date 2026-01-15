@@ -9,7 +9,7 @@
     "templateForm.description": "Description",
     "templateForm.descriptionPlaceholder": "What does this template do? (optional)",
     "templateForm.editTemplate": "Edit Template",
-    "templateForm.iconUploadError": "",
+    "templateForm.iconUploadError": "Failed to upload icon. Please try again.",
     "templateForm.namePlaceholder": "My Awesome Automation",
     "templateForm.selectCategory": "Select a category (optional)",
     "templateForm.templateIcon": "Template Icon",

@@ -12,7 +12,7 @@
     "versions.diff.title": "變更內容",
     "versions.diff.to": "至",
     "versions.empty": "沒有版本歷史",
-    "versions.rollback": "",
+    "versions.rollback": "回滾",
     "versions.rollback.confirm": "回滾",
     "versions.rollback.description": "回滾至 v{version} 將會建立一個包含該版本內容的新版本。目前版本將保留在歷史記錄中。",
     "versions.rollback.targetVersion": "目標版本",

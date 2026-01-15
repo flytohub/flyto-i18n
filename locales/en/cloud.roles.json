@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "roles.builtin.title": "Built-in Roles",
-    "roles.create": "",
+    "roles.create": "Create Role",
     "roles.create.title": "Create Role",
     "roles.custom.empty": "No custom roles defined",
     "roles.custom.title": "Custom Roles",

@@ -4,7 +4,7 @@
   "category": "cloud.accessibility",
   "version": "1.0.0",
   "translations": {
-    "accessibility.breadcrumb": "導覽路徑",
+    "accessibility.breadcrumb": "路徑導覽",
     "accessibility.clearInput": "清除輸入",
     "accessibility.closeDialog": "關閉對話框",
     "accessibility.closeMenu": "關閉選單",

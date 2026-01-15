@@ -26,7 +26,7 @@
     "payoutSettings.onboardingComplete": "Stripe onboarding completed! Your account is being verified.",
     "payoutSettings.onboardingError": "Failed to start onboarding",
     "payoutSettings.payoutHistory": "Payout History",
-    "payoutSettings.payoutStatus.": "",
+    "payoutSettings.payoutStatus.default": "Status",
     "payoutSettings.pendingBalance": "Pending",
     "payoutSettings.pendingBalanceDesc": "Processing transactions",
     "payoutSettings.pendingVerification": "Verification Pending",

@@ -11,7 +11,7 @@
     "audit.action.logout": "登出",
     "audit.action.read": "讀取",
     "audit.action.update": "更新",
-    "audit.actions.read": "",
+    "audit.actions.read": "讀取",
     "audit.chain.broken": "鏈結已損壞",
     "audit.chain.unknown": "尚未驗證",
     "audit.chain.verified": "鏈結已驗證",

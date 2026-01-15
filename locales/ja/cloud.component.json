@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "ボタン",
+    "component.checkbox": "チェックボックス",
+    "component.divider": "区切り線",
+    "component.emailInput": "メール入力",
+    "component.input": "入力",
+    "component.numberInput": "数値入力",
+    "component.passwordInput": "パスワード入力",
+    "component.radio": "ラジオボタン",
+    "component.select": "セレクト",
+    "component.textarea": "テキストエリア",
+    "component.urlInput": "URL入力"
+  }
+}

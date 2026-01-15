@@ -11,7 +11,7 @@
     "audit.action.logout": "Logout",
     "audit.action.read": "Read",
     "audit.action.update": "Update",
-    "audit.actions.read": "",
+    "audit.actions.read": "Read",
     "audit.chain.broken": "Chain Broken",
     "audit.chain.unknown": "Not Verified",
     "audit.chain.verified": "Chain Verified",

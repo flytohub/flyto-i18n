@@ -15,16 +15,16 @@
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
-      "coverage": 0,
-      "status": "in_progress",
+      "coverage": 100,
+      "status": "official",
       "maintainers": ["@flytohub"]
     },
     "ja": {
       "name": "Japanese",
       "native_name": "日本語",
-      "coverage": 0,
-      "status": "planned",
-      "maintainers": []
+      "coverage": 100,
+      "status": "official",
+      "maintainers": ["@flytohub"]
     }
   },
   "projects": {

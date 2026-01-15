@@ -4,14 +4,14 @@
   "category": "cloud.lineage",
   "version": "1.0.0",
   "translations": {
-    "lineage.decision.alternatives": "",
-    "lineage.decision.evidence": "",
-    "lineage.decision.reason": "",
-    "lineage.loop.clickToCollapse": "",
-    "lineage.steps": "",
-    "lineage.storyline.noSteps": "",
-    "lineage.storyline.noStepsInLane": "",
-    "lineage.storyline.runHint": "",
-    "lineage.storyline.title": ""
+    "lineage.decision.alternatives": "Alternatives",
+    "lineage.decision.evidence": "Evidence",
+    "lineage.decision.reason": "Reason",
+    "lineage.loop.clickToCollapse": "Click to collapse",
+    "lineage.steps": "Steps",
+    "lineage.storyline.noSteps": "No steps to display",
+    "lineage.storyline.noStepsInLane": "No steps in this lane",
+    "lineage.storyline.runHint": "Run the workflow to see execution history",
+    "lineage.storyline.title": "Execution Timeline"
   }
 }

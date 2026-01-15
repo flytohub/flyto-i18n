@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "roles.builtin.title": "內建角色",
-    "roles.create": "",
+    "roles.create": "建立角色",
     "roles.create.title": "建立角色",
     "roles.custom.empty": "尚未定義自訂角色",
     "roles.custom.title": "自訂角色",

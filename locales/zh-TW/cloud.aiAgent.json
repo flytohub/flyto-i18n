@@ -10,8 +10,8 @@
     "aiAgent.promptPathHint": "從上游節點取得提示的表達式",
     "aiAgent.promptSource": "提示來源",
     "aiAgent.selectVariable": "選擇變數",
-    "aiAgent.shellInfo": "",
-    "aiAgent.shellInfoDesc": "",
+    "aiAgent.shellInfo": "Shell 資訊",
+    "aiAgent.shellInfoDesc": "檢視 Shell 環境和執行上下文",
     "aiAgent.task": "任務",
     "aiAgent.taskPlaceholder": "描述代理應該完成的任務..."
   }

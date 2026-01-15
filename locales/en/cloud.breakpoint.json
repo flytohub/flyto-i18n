@@ -11,7 +11,7 @@
     "breakpoint.contextSnapshot": "Context Snapshot",
     "breakpoint.createdAt": "Created At",
     "breakpoint.expires": "Expires",
-    "breakpoint.humanCheckpoint": "",
+    "breakpoint.humanCheckpoint": "Human Checkpoint",
     "breakpoint.noBreakpoint": "No breakpoints set",
     "breakpoint.noPending": "No pending approvals",
     "breakpoint.pendingApprovals": "Pending Approvals",

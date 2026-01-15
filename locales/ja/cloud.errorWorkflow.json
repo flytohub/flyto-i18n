@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "認証エラー",
+    "errorWorkflow.categories.business_error": "ビジネスエラー",
+    "errorWorkflow.categories.configuration_error": "設定エラー",
+    "errorWorkflow.categories.network_error": "ネットワークエラー",
+    "errorWorkflow.categories.permission_denied": "権限拒否",
+    "errorWorkflow.categories.rate_limit": "レート制限",
+    "errorWorkflow.categories.resource_not_found": "見つかりません",
+    "errorWorkflow.categories.timeout": "タイムアウト",
+    "errorWorkflow.categories.validation_error": "バリデーションエラー",
+    "errorWorkflow.description": "このワークフローが失敗したときの動作を設定",
+    "errorWorkflow.doNothing": "何もしない",
+    "errorWorkflow.errorTrigger.anyWorkflow": "任意のワークフロー",
+    "errorWorkflow.errorTrigger.categoriesHint": "空のままにするとすべてのエラータイプをキャッチします",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "受け取るエラーコンテキスト:",
+    "errorWorkflow.errorTrigger.errorCategories": "エラーカテゴリ",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "ソースワークフロー",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "空のままにすると任意のワークフローからのエラーをキャッチします",
+    "errorWorkflow.errorWorkflowLabel": "エラーワークフロー",
+    "errorWorkflow.onFailure": "ワークフロー失敗時",
+    "errorWorkflow.passContext": "エラーコンテキストをエラーワークフローに渡す",
+    "errorWorkflow.passContextHint": "エラーメッセージ、カテゴリ、ソースワークフローデータを含む",
+    "errorWorkflow.runWorkflow": "エラーワークフローを実行",
+    "errorWorkflow.selectWorkflow": "ワークフローを選択...",
+    "errorWorkflow.title": "エラーハンドリング"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "cloud.plugins",
+  "version": "1.0.0",
+  "translations": {
+    "plugins.allCategories": "すべてのカテゴリ",
+    "plugins.allTasks": "すべてのタスク",
+    "plugins.browse": "閲覧",
+    "plugins.browseModels": "モデルを閲覧",
+    "plugins.confirmUninstall": "このモデルをアンインストールしてもよろしいですか？",
+    "plugins.install": "インストール",
+    "plugins.installed": "インストール済み",
+    "plugins.installing": "インストール中",
+    "plugins.load": "ロード",
+    "plugins.loadMore": "もっと見る",
+    "plugins.loadPopular": "人気モデルをロード",
+    "plugins.loadingModels": "人気モデルを読み込み中...",
+    "plugins.noInstalled": "まだモデルがインストールされていません",
+    "plugins.noResults": "モデルが見つかりません",
+    "plugins.searchPlaceholder": "モデルを検索...",
+    "plugins.subtitle": "HuggingFace HubからAIモデルをインストール・管理",
+    "plugins.title": "プラグイン",
+    "plugins.uninstall": "アンインストール",
+    "plugins.unload": "アンロード",
+    "plugins.viewOnHuggingFace": "HuggingFaceで表示"
+  }
+}

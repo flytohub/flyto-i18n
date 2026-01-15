@@ -9,7 +9,7 @@
     "templateForm.description": "說明",
     "templateForm.descriptionPlaceholder": "這個模板是做什麼的？（選填）",
     "templateForm.editTemplate": "編輯模板",
-    "templateForm.iconUploadError": "",
+    "templateForm.iconUploadError": "圖示上傳失敗，請重試。",
     "templateForm.namePlaceholder": "我的超酷自動化",
     "templateForm.selectCategory": "選擇分類（選填）",
     "templateForm.templateIcon": "模板圖示",

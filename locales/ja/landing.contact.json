@@ -4,17 +4,17 @@
   "category": "landing.contact",
   "version": "1.0.0",
   "translations": {
-    "landing.contact.cards.community": "",
-    "landing.contact.cards.emailUs": "",
-    "landing.contact.cards.github": "",
-    "landing.contact.cta.downloadNow": "",
-    "landing.contact.cta.subtitle": "",
-    "landing.contact.cta.title": "",
-    "landing.contact.form.subtitle": "",
-    "landing.contact.form.title": "",
-    "landing.contact.hero.subtitle": "",
-    "landing.contact.hero.title": "",
-    "landing.contact.quickLinks.subtitle": "",
-    "landing.contact.quickLinks.title": ""
+    "landing.contact.cards.community": "コミュニティ",
+    "landing.contact.cards.emailUs": "メールで連絡",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "今すぐダウンロード",
+    "landing.contact.cta.subtitle": "今日からワークフローの自動化を始めましょう",
+    "landing.contact.cta.title": "始める準備はできましたか？",
+    "landing.contact.form.subtitle": "フォームにご記入いただければ、折り返しご連絡いたします",
+    "landing.contact.form.title": "メッセージを送る",
+    "landing.contact.hero.subtitle": "ご質問がありますか？お気軽にお問い合わせください。",
+    "landing.contact.hero.title": "お問い合わせ",
+    "landing.contact.quickLinks.subtitle": "よくある質問への回答を見つける",
+    "landing.contact.quickLinks.title": "クイックリンク"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "オブジェクトからすべてのキーを取得",
+    "modules.object.keys.label": "オブジェクトキー",
+    "modules.object.keys.output.count.description": "オブジェクトキーのリスト",
+    "modules.object.keys.output.keys.description": "オブジェクトキーのリスト",
+    "modules.object.merge.description": "複数のオブジェクトを1つにマージ",
+    "modules.object.merge.label": "オブジェクトマージ",
+    "modules.object.merge.output.result.description": "マージされたオブジェクト",
+    "modules.object.omit.description": "オブジェクトから特定のキーを除外",
+    "modules.object.omit.label": "オブジェクト除外",
+    "modules.object.omit.output.result.description": "除外されたキーを含まないオブジェクト",
+    "modules.object.pick.description": "オブジェクトから特定のキーを選択",
+    "modules.object.pick.label": "オブジェクト選択",
+    "modules.object.pick.output.result.description": "選択されたキーのみを含むオブジェクト",
+    "modules.object.values.description": "オブジェクトからすべての値を取得",
+    "modules.object.values.label": "オブジェクト値",
+    "modules.object.values.output.count.description": "オブジェクト値のリスト",
+    "modules.object.values.output.values.description": "オブジェクト値のリスト"
+  }
+}

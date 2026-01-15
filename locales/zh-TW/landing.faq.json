@@ -4,16 +4,16 @@
   "category": "landing.faq",
   "version": "1.0.0",
   "translations": {
-    "landing.faq.cta.contactSupport": "",
-    "landing.faq.cta.subtitle": "",
-    "landing.faq.cta.title": "",
-    "landing.faq.cta.viewDocs": "",
-    "landing.faq.general.subtitle": "",
-    "landing.faq.general.title": "",
-    "landing.faq.gettingStarted.subtitle": "",
-    "landing.faq.gettingStarted.title": "",
-    "landing.faq.hero.title": "",
-    "landing.faq.licensing.subtitle": "",
-    "landing.faq.licensing.title": ""
+    "landing.faq.cta.contactSupport": "聯繫支援",
+    "landing.faq.cta.subtitle": "找不到您需要的答案？我們的團隊隨時為您提供協助。",
+    "landing.faq.cta.title": "還有其他問題？",
+    "landing.faq.cta.viewDocs": "查看文件",
+    "landing.faq.general.subtitle": "了解 Flyto2 的基礎知識",
+    "landing.faq.general.title": "一般問題",
+    "landing.faq.gettingStarted.subtitle": "如何開始使用 Flyto2",
+    "landing.faq.gettingStarted.title": "快速入門",
+    "landing.faq.hero.title": "常見問題",
+    "landing.faq.licensing.subtitle": "方案、定價和授權管理",
+    "landing.faq.licensing.title": "授權與定價"
   }
 }

@@ -10,8 +10,8 @@
     "aiAgent.promptPathHint": "Expression to get prompt from upstream node",
     "aiAgent.promptSource": "Prompt Source",
     "aiAgent.selectVariable": "Select variable",
-    "aiAgent.shellInfo": "",
-    "aiAgent.shellInfoDesc": "",
+    "aiAgent.shellInfo": "Shell Information",
+    "aiAgent.shellInfoDesc": "View shell environment and execution context",
     "aiAgent.task": "Task",
     "aiAgent.taskPlaceholder": "Describe what the agent should accomplish..."
   }

@@ -12,7 +12,7 @@
     "versions.diff.title": "Changes",
     "versions.diff.to": "to",
     "versions.empty": "No version history",
-    "versions.rollback": "",
+    "versions.rollback": "Rollback",
     "versions.rollback.confirm": "Rollback",
     "versions.rollback.description": "Rolling back to v{version} will create a new version with the content from that version. The current version will remain in history.",
     "versions.rollback.targetVersion": "Target Version",

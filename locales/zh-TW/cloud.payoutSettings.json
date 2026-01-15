@@ -26,7 +26,7 @@
     "payoutSettings.onboardingComplete": "Stripe 入職完成！您的帳戶正在驗證中。",
     "payoutSettings.onboardingError": "啟動入職流程失敗",
     "payoutSettings.payoutHistory": "提款記錄",
-    "payoutSettings.payoutStatus.": "",
+    "payoutSettings.payoutStatus.default": "狀態",
     "payoutSettings.pendingBalance": "待處理",
     "payoutSettings.pendingBalanceDesc": "處理中的交易",
     "payoutSettings.pendingVerification": "驗證中",

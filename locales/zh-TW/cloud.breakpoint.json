@@ -11,7 +11,7 @@
     "breakpoint.contextSnapshot": "上下文快照",
     "breakpoint.createdAt": "建立時間",
     "breakpoint.expires": "到期時間",
-    "breakpoint.humanCheckpoint": "",
+    "breakpoint.humanCheckpoint": "人工檢查點",
     "breakpoint.noBreakpoint": "未設定中斷點",
     "breakpoint.noPending": "沒有待審核項目",
     "breakpoint.pendingApprovals": "待審核",
