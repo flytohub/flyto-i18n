@@ -25,7 +25,6 @@
     "publish.protection.locked": "Locked",
     "publish.protection.lockedDesc": "Users can run but cannot see or modify the workflow",
     "publish.publishSuccess": "Template published successfully!",
-    "publish.publishSuccessWithKey": "Template published! Invite key: {key}",
     "publish.publishTemplate": "Publish Template",
     "publish.publishing": "Publishing...",
     "publish.showInMarketplace.disabledDesc": "Private templates are not listed",

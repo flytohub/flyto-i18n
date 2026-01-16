@@ -25,7 +25,6 @@
     "publish.protection.locked": "鎖定",
     "publish.protection.lockedDesc": "使用者可以執行但無法查看或修改工作流程",
     "publish.publishSuccess": "模板發布成功！",
-    "publish.publishSuccessWithKey": "模板已發布！邀請碼：{key}",
     "publish.publishTemplate": "發布模板",
     "publish.publishing": "發布中...",
     "publish.showInMarketplace.disabledDesc": "私有模板不會被列出",
