@@ -1,6 +1,6 @@
 {
   "name": "flyto-i18n",
-  "version": "0.2.0",
+  "version": "1.6.0",
   "description": "Internationalization language packs for flyto ecosystem",
   "source_version": "flyto-core@2.0.0",
   "repository": "https://github.com/flytohub/flyto-i18n",
