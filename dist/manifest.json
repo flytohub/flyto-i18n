@@ -1,32 +1,68 @@
 {
-  "version": "20260115050738",
-  "generated_at": "2026-01-15T05:07:38.794550",
+  "version": "20260116120928",
+  "generated_at": "2026-01-16T12:09:28.513916",
   "locales": {
     "en": {
       "name": "English",
       "native": "English",
       "region": "US",
       "total_keys": 7023,
-      "translated_keys": 6516,
-      "completion": 92.8,
+      "translated_keys": 7022,
+      "completion": 100.0,
+      "files_merged": 187
+    },
+    "es": {
+      "name": "Spanish",
+      "native": "Español",
+      "region": "ES",
+      "total_keys": 7023,
+      "translated_keys": 7022,
+      "completion": 100.0,
+      "files_merged": 187
+    },
+    "fr": {
+      "name": "French",
+      "native": "Français",
+      "region": "FR",
+      "total_keys": 7023,
+      "translated_keys": 7022,
+      "completion": 100.0,
+      "files_merged": 187
+    },
+    "hi": {
+      "name": "Hindi",
+      "native": "हिन्दी",
+      "region": "IN",
+      "total_keys": 7023,
+      "translated_keys": 7022,
+      "completion": 100.0,
       "files_merged": 187
     },
     "ja": {
       "name": "Japanese",
       "native": "日本語",
       "region": "JP",
-      "total_keys": 582,
-      "translated_keys": 406,
-      "completion": 69.8,
-      "files_merged": 15
+      "total_keys": 6847,
+      "translated_keys": 6846,
+      "completion": 100.0,
+      "files_merged": 187
+    },
+    "ko": {
+      "name": "Korean",
+      "native": "한국어",
+      "region": "KR",
+      "total_keys": 7023,
+      "translated_keys": 7022,
+      "completion": 100.0,
+      "files_merged": 187
     },
     "zh-TW": {
       "name": "Traditional Chinese",
       "native": "繁體中文",
       "region": "TW",
       "total_keys": 7022,
-      "translated_keys": 6622,
-      "completion": 94.3,
+      "translated_keys": 7021,
+      "completion": 100.0,
       "files_merged": 187
     }
   }
