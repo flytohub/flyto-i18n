@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.dashboard",
+  "version": "1.0.0",
+  "translations": {
+    "dashboard.title": "Tableau de bord"
+  }
+}

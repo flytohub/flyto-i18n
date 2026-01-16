@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "landing.app",
+  "version": "1.0.0",
+  "translations": {
+    "landing.app.hero.detecting": "आपका सिस्टम डिटेक्ट हो रहा है...",
+    "landing.app.hero.detectingInfo": "डिटेक्ट हो रहा है...",
+    "landing.app.hero.downloadFor": "अपने सिस्टम के लिए डाउनलोड करें",
+    "landing.app.hero.proNote": "मुफ़्त डाउनलोड। पूर्ण सुविधाओं के लिए Pro लाइसेंस आवश्यक।",
+    "landing.app.hero.subtitle": "अपने ब्राउज़र वर्कफ़्लो को स्वचालित करें। ऑफ़लाइन काम करता है, आपका डेटा निजी रहता है।",
+    "landing.app.hero.title": "Flyto2 डाउनलोड करें",
+    "landing.app.install.step1": "इंस्टॉलर डाउनलोड करें",
+    "landing.app.install.step1Desc": "ऊपर अपने ऑपरेटिंग सिस्टम के लिए संस्करण चुनें",
+    "landing.app.install.step2": "इंस्टॉलर चलाएं",
+    "landing.app.install.step2Desc": "डाउनलोड की गई फ़ाइल पर डबल-क्लिक करें और निर्देशों का पालन करें",
+    "landing.app.install.step3": "Flyto2 लॉन्च करें",
+    "landing.app.install.step3Desc": "ऐप खोलें और अपने वर्कफ़्लो को स्वचालित करना शुरू करें",
+    "landing.app.install.step4": "Pro सक्रिय करें (वैकल्पिक)",
+    "landing.app.install.step4Desc": "सभी सुविधाएं अनलॉक करने के लिए अपनी लाइसेंस फ़ाइल आयात करें",
+    "landing.app.install.subtitle": "कुछ ही मिनटों में शुरू करें",
+    "landing.app.install.title": "इंस्टॉलेशन गाइड",
+    "landing.app.platforms.subtitle": "अपना ऑपरेटिंग सिस्टम और आर्किटेक्चर चुनें",
+    "landing.app.platforms.title": "सभी प्लेटफ़ॉर्म",
+    "landing.app.requirements.title": "सिस्टम आवश्यकताएं"
+  }
+}

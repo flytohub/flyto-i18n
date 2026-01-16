@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.execution",
+  "version": "1.0.0",
+  "translations": {
+    "execution.checkpoints.empty": "Aucun point de controle disponible",
+    "execution.checkpoints.list": "Points de controle",
+    "execution.checkpoints.recommended": "Recommande",
+    "execution.controls.pause": "Pause",
+    "execution.controls.resume": "Reprendre",
+    "execution.controls.step": "Etape",
+    "execution.resume.failedAt": "Echec a",
+    "execution.resume.fromCheckpoint": "Reprendre depuis le point de controle",
+    "execution.resume.options": "Options de reprise",
+    "execution.resume.retryFromStart": "Reessayer depuis le debut"
+  }
+}

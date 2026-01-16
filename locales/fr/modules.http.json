@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "http",
+  "version": "1.0.0",
+  "translations": {
+    "modules.http.request.description": "Envoyer une requete HTTP et recevoir une reponse",
+    "modules.http.request.label": "Requete HTTP",
+    "modules.http.request.output.body.description": "Texte de statut HTTP",
+    "modules.http.request.output.content_length.description": "Content-Type de la reponse",
+    "modules.http.request.output.content_type.description": "URL finale (apres redirections)",
+    "modules.http.request.output.duration_ms.description": "Corps de la reponse (JSON parse ou texte)",
+    "modules.http.request.output.headers.description": "Code de statut HTTP",
+    "modules.http.request.output.ok.description": "Si la requete a reussi (statut 2xx)",
+    "modules.http.request.output.status.description": "Si la requete a reussi (statut 2xx)",
+    "modules.http.request.output.status_text.description": "Si la requete a reussi (statut 2xx)",
+    "modules.http.request.output.url.description": "En-tetes de reponse",
+    "modules.http.response_assert.description": "Affirmer et valider les proprietes de reponse HTTP",
+    "modules.http.response_assert.label": "Affirmer la reponse HTTP",
+    "modules.http.response_assert.output.assertions.description": "Nombre d'affirmations echouees",
+    "modules.http.response_assert.output.errors.description": "Resultats detailles des affirmations",
+    "modules.http.response_assert.output.failed.description": "Si toutes les affirmations ont passe",
+    "modules.http.response_assert.output.ok.description": "Si toutes les affirmations ont passe",
+    "modules.http.response_assert.output.passed.description": "Si toutes les affirmations ont passe",
+    "modules.http.response_assert.output.total.description": "Nombre d'affirmations reussies"
+  }
+}

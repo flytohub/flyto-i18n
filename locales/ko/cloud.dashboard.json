@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.dashboard",
+  "version": "1.0.0",
+  "translations": {
+    "dashboard.title": "대시보드"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "उपलब्ध भाषा पैक लोड हो रहे हैं...",
+    "landing.languagepacks.available.subtitle": "ऑफ़लाइन भाषा पैक डाउनलोड और इंस्टॉल करें",
+    "landing.languagepacks.available.title": "उपलब्ध भाषा पैक",
+    "landing.languagepacks.hero.description": "Flyto2 में ऑफ़लाइन उपयोग के लिए अनुवाद फ़ाइलें डाउनलोड करें",
+    "landing.languagepacks.hero.title": "भाषा पैक",
+    "landing.languagepacks.howto.step1": "भाषा पैक फ़ाइल (.json) डाउनलोड करें",
+    "landing.languagepacks.howto.step2": "Flyto2 एप्लिकेशन खोलें",
+    "landing.languagepacks.howto.step3": "सेटिंग्स → भाषा पर जाएं",
+    "landing.languagepacks.howto.step4": "\"भाषा पैक आयात करें\" पर क्लिक करें और फ़ाइल चुनें",
+    "landing.languagepacks.howto.title": "कैसे इंस्टॉल करें",
+    "landing.languagepacks.request.btn": "भाषा अनुरोध करें",
+    "landing.languagepacks.request.feature1": "समुदाय-संचालित अनुवाद",
+    "landing.languagepacks.request.feature2": "नियमित अपडेट",
+    "landing.languagepacks.request.subtitle": "अपनी भाषा नहीं दिख रही? हमें बताएं!",
+    "landing.languagepacks.request.title": "भाषा अनुरोध करें"
+  }
+}

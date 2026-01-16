@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "Contacter le support",
+    "landing.faq.cta.subtitle": "Vous ne trouvez pas la reponse que vous cherchez ? Notre equipe est la pour vous aider.",
+    "landing.faq.cta.title": "Vous avez encore des questions ?",
+    "landing.faq.cta.viewDocs": "Voir la documentation",
+    "landing.faq.general.subtitle": "Apprenez les bases de Flyto2",
+    "landing.faq.general.title": "Questions generales",
+    "landing.faq.gettingStarted.subtitle": "Comment commencer a utiliser Flyto2",
+    "landing.faq.gettingStarted.title": "Pour commencer",
+    "landing.faq.hero.title": "Foire aux questions",
+    "landing.faq.licensing.subtitle": "Forfaits, tarification et gestion des licences",
+    "landing.faq.licensing.title": "Licences et tarification"
+  }
+}

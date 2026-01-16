@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "커뮤니티",
+    "landing.contact.cards.emailUs": "이메일 보내기",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "지금 다운로드",
+    "landing.contact.cta.subtitle": "오늘 워크플로 자동화를 시작하세요",
+    "landing.contact.cta.title": "시작할 준비가 되셨나요?",
+    "landing.contact.form.subtitle": "양식을 작성하시면 연락드리겠습니다",
+    "landing.contact.form.title": "메시지 보내기",
+    "landing.contact.hero.subtitle": "질문이 있으신가요? 연락 주시면 기쁘겠습니다.",
+    "landing.contact.hero.title": "문의하기",
+    "landing.contact.quickLinks.subtitle": "자주 묻는 질문에 대한 답변 찾기",
+    "landing.contact.quickLinks.title": "빠른 링크"
+  }
+}

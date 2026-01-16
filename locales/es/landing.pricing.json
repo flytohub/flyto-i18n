@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "landing.pricing",
+  "version": "1.0.0",
+  "translations": {
+    "landing.pricing.cta.subtitle": "Comienza con la version gratuita o contactanos para una recomendacion personalizada.",
+    "landing.pricing.cta.talkToSales": "Hablar con ventas",
+    "landing.pricing.cta.title": "No estas seguro de que plan elegir?",
+    "landing.pricing.cta.tryFree": "Probar gratis",
+    "landing.pricing.faq.a1": "Si, puedes actualizar o degradar tu plan en la nube en cualquier momento. Para licencias offline, puedes actualizar pagando la diferencia.",
+    "landing.pricing.faq.a2": "Tus flujos de trabajo continuan funcionando indefinidamente. Solo pierdes acceso a actualizaciones y soporte. Renueva en cualquier momento para obtener las ultimas funciones.",
+    "landing.pricing.faq.a3": "Si, ofrecemos garantia de devolucion de dinero de 30 dias para todos los planes pagos. Sin preguntas.",
+    "landing.pricing.faq.a4": "Absolutamente! El nucleo de codigo abierto tiene licencia MIT. Puedes usarlo para cualquier proposito, incluyendo proyectos comerciales.",
+    "landing.pricing.faq.q1": "Puedo cambiar entre planes?",
+    "landing.pricing.faq.q2": "Que pasa cuando mi licencia offline expira?",
+    "landing.pricing.faq.q3": "Ofrecen reembolsos?",
+    "landing.pricing.faq.q4": "Puedo usar la version gratuita comercialmente?",
+    "landing.pricing.faq.title": "Preguntas frecuentes",
+    "landing.pricing.hero.subtitle": "Comienza gratis, escala a medida que creces. Sin cargos ocultos.",
+    "landing.pricing.hero.title": "Elige tu plan",
+    "landing.pricing.loading": "Cargando...",
+    "landing.pricing.loadingPricing": "Cargando precios...",
+    "landing.pricing.offline.learnMore": "Aprende mas sobre licencias offline",
+    "landing.pricing.offline.step1": "Compra una clave de licencia en linea",
+    "landing.pricing.offline.step2": "Activa en tu maquina (internet requerido una sola vez)",
+    "landing.pricing.offline.step3": "Usa completamente sin conexion durante el periodo de licencia",
+    "landing.pricing.offline.step4": "Renueva en cualquier momento para extender actualizaciones y soporte",
+    "landing.pricing.offline.title": "Como funcionan las licencias offline",
+    "landing.pricing.section.subtitle": "Comienza gratis con codigo abierto, actualiza cuando necesites mas",
+    "landing.pricing.section.title": "Elige tu plan"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "उन्नत विकल्प",
+    "container.editSubflow": "सबफ्लो संपादित करें",
+    "container.exportVariables": "वेरिएबल एक्सपोर्ट करें",
+    "container.exportVariablesHint": "पैरेंट वर्कफ़्लो में एक्सपोज़ करने के लिए वेरिएबल",
+    "container.exportVariablesPlaceholder": "जैसे result, data",
+    "container.inheritContext": "कॉन्टेक्स्ट इनहेरिट करें",
+    "container.inheritContextHint": "पैरेंट वर्कफ़्लो के साथ वेरिएबल शेयर करें",
+    "container.isolatedContextHint": "कंटेनर का अपना आइसोलेटेड कॉन्टेक्स्ट है",
+    "container.nodesInside": "नोड अंदर"
+  }
+}

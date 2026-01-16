@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "सपोर्ट से संपर्क करें",
+    "landing.faq.cta.subtitle": "आप जो जवाब खोज रहे हैं वह नहीं मिला? हमारी टीम मदद के लिए यहां है।",
+    "landing.faq.cta.title": "अभी भी सवाल हैं?",
+    "landing.faq.cta.viewDocs": "दस्तावेज़ीकरण देखें",
+    "landing.faq.general.subtitle": "Flyto2 के बारे में बुनियादी बातें जानें",
+    "landing.faq.general.title": "सामान्य सवाल",
+    "landing.faq.gettingStarted.subtitle": "Flyto2 का उपयोग कैसे शुरू करें",
+    "landing.faq.gettingStarted.title": "शुरू करना",
+    "landing.faq.hero.title": "अक्सर पूछे जाने वाले सवाल",
+    "landing.faq.licensing.subtitle": "योजनाएं, मूल्य और लाइसेंस प्रबंधन",
+    "landing.faq.licensing.title": "लाइसेंसिंग और मूल्य"
+  }
+}

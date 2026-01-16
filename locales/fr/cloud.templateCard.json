@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "Deja enregistre hors ligne",
+    "templateCard.deleted": "Supprime",
+    "templateCard.downloadOffline": "Telecharger hors ligne",
+    "templateCard.editInfo": "Modifier les infos",
+    "templateCard.forkTemplate": "Dupliquer vers mes modeles",
+    "templateCard.forked": "Duplique",
+    "templateCard.manageKeys": "Gerer les cles",
+    "templateCard.privateTooltip": "Prive - Cle d'invitation requise",
+    "templateCard.publicTooltip": "Public",
+    "templateCard.publish": "Publier",
+    "templateCard.sourceDeleted": "Le modele original a ete supprime par l'auteur",
+    "templateCard.sourceUnpublished": "Le modele original a ete depublie par l'auteur",
+    "templateCard.syncToLatest": "Synchroniser avec la derniere version",
+    "templateCard.unpublished": "Depublie",
+    "templateCard.update": "Mettre a jour",
+    "templateCard.updateAvailable": "Mise a jour disponible de l'auteur"
+  }
+}

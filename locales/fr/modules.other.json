@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "other",
+  "version": "1.0.0",
+  "translations": {
+    "schema.field.api_key_header": "Nom de l'en-tete",
+    "schema.field.body": "Corps",
+    "schema.field.body_matches": "Reponse",
+    "schema.field.full_page": "Page entiere",
+    "schema.field.response": "Reponse",
+    "schema.field.screenshot_format": "Page entiere",
+    "schema.field.url": "URL",
+    "schema.field.viewport_height": "Largeur",
+    "schema.field.viewport_width": "Largeur",
+    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+  }
+}

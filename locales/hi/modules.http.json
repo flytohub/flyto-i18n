@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "http",
+  "version": "1.0.0",
+  "translations": {
+    "modules.http.request.description": "HTTP अनुरोध भेजें और प्रतिक्रिया प्राप्त करें",
+    "modules.http.request.label": "HTTP अनुरोध",
+    "modules.http.request.output.body.description": "HTTP स्थिति टेक्स्ट",
+    "modules.http.request.output.content_length.description": "प्रतिक्रिया Content-Type",
+    "modules.http.request.output.content_type.description": "अंतिम URL (रीडायरेक्ट के बाद)",
+    "modules.http.request.output.duration_ms.description": "प्रतिक्रिया बॉडी (पार्स किया गया JSON या टेक्स्ट)",
+    "modules.http.request.output.headers.description": "HTTP स्थिति कोड",
+    "modules.http.request.output.ok.description": "क्या अनुरोध सफल था (2xx स्थिति)",
+    "modules.http.request.output.status.description": "क्या अनुरोध सफल था (2xx स्थिति)",
+    "modules.http.request.output.status_text.description": "क्या अनुरोध सफल था (2xx स्थिति)",
+    "modules.http.request.output.url.description": "प्रतिक्रिया हेडर्स",
+    "modules.http.response_assert.description": "HTTP प्रतिक्रिया गुणों का दावा और सत्यापन करें",
+    "modules.http.response_assert.label": "HTTP प्रतिक्रिया का दावा करें",
+    "modules.http.response_assert.output.assertions.description": "विफल दावों की संख्या",
+    "modules.http.response_assert.output.errors.description": "विस्तृत दावा परिणाम",
+    "modules.http.response_assert.output.failed.description": "क्या सभी दावे पास हुए",
+    "modules.http.response_assert.output.ok.description": "क्या सभी दावे पास हुए",
+    "modules.http.response_assert.output.passed.description": "क्या सभी दावे पास हुए",
+    "modules.http.response_assert.output.total.description": "पास हुए दावों की संख्या"
+  }
+}

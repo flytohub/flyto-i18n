@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "Bouton",
+    "component.checkbox": "Case a cocher",
+    "component.divider": "Separateur",
+    "component.emailInput": "Champ email",
+    "component.input": "Champ de saisie",
+    "component.numberInput": "Champ numerique",
+    "component.passwordInput": "Champ mot de passe",
+    "component.radio": "Bouton radio",
+    "component.select": "Liste deroulante",
+    "component.textarea": "Zone de texte",
+    "component.urlInput": "Champ URL"
+  }
+}

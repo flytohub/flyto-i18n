@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "landing.pricing",
+  "version": "1.0.0",
+  "translations": {
+    "landing.pricing.cta.subtitle": "무료 버전으로 시작하거나 맞춤 추천을 위해 문의하세요.",
+    "landing.pricing.cta.talkToSales": "영업팀 상담",
+    "landing.pricing.cta.title": "어떤 요금제가 맞는지 모르시겠어요?",
+    "landing.pricing.cta.tryFree": "무료 체험",
+    "landing.pricing.faq.a1": "예, 언제든지 클라우드 요금제를 업그레이드하거나 다운그레이드할 수 있습니다. 오프라인 라이선스의 경우 차액을 지불하여 업그레이드할 수 있습니다.",
+    "landing.pricing.faq.a2": "워크플로는 무기한으로 계속 작동합니다. 업데이트와 지원에 대한 접근만 잃게 됩니다. 언제든지 갱신하여 최신 기능을 받으세요.",
+    "landing.pricing.faq.a3": "예, 모든 유료 요금제에 대해 30일 환불 보장을 제공합니다. 질문 없이.",
+    "landing.pricing.faq.a4": "물론입니다! 오픈 소스 코어는 MIT 라이선스입니다. 상업 프로젝트를 포함한 모든 목적으로 사용할 수 있습니다.",
+    "landing.pricing.faq.q1": "요금제를 전환할 수 있나요?",
+    "landing.pricing.faq.q2": "오프라인 라이선스가 만료되면 어떻게 되나요?",
+    "landing.pricing.faq.q3": "환불을 제공하나요?",
+    "landing.pricing.faq.q4": "무료 버전을 상업적으로 사용할 수 있나요?",
+    "landing.pricing.faq.title": "자주 묻는 질문",
+    "landing.pricing.hero.subtitle": "무료로 시작하고, 성장에 따라 확장하세요. 숨겨진 비용이 없습니다.",
+    "landing.pricing.hero.title": "요금제 선택",
+    "landing.pricing.loading": "로딩 중...",
+    "landing.pricing.loadingPricing": "가격 로딩 중...",
+    "landing.pricing.offline.learnMore": "오프라인 라이선스에 대해 자세히 알아보기",
+    "landing.pricing.offline.step1": "온라인에서 라이선스 키 구매",
+    "landing.pricing.offline.step2": "컴퓨터에서 활성화 (일회성 인터넷 필요)",
+    "landing.pricing.offline.step3": "라이선스 기간 동안 완전히 오프라인으로 사용",
+    "landing.pricing.offline.step4": "언제든지 갱신하여 업데이트 및 지원 연장",
+    "landing.pricing.offline.title": "오프라인 라이선스 작동 방식",
+    "landing.pricing.section.subtitle": "오픈 소스로 무료 시작, 더 필요할 때 업그레이드",
+    "landing.pricing.section.title": "요금제 선택"
+  }
+}

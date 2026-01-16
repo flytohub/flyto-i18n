@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "समुदाय",
+    "landing.contact.cards.emailUs": "हमें ईमेल करें",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "अभी डाउनलोड करें",
+    "landing.contact.cta.subtitle": "आज ही अपने वर्कफ़्लो को स्वचालित करना शुरू करें",
+    "landing.contact.cta.title": "शुरू करने के लिए तैयार?",
+    "landing.contact.form.subtitle": "फ़ॉर्म भरें और हम आपसे संपर्क करेंगे",
+    "landing.contact.form.title": "हमें संदेश भेजें",
+    "landing.contact.hero.subtitle": "सवाल हैं? हम आपसे सुनना पसंद करेंगे।",
+    "landing.contact.hero.title": "संपर्क करें",
+    "landing.contact.quickLinks.subtitle": "सामान्य सवालों के जवाब खोजें",
+    "landing.contact.quickLinks.title": "त्वरित लिंक"
+  }
+}

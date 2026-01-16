@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "cloud.execution",
+  "version": "1.0.0",
+  "translations": {
+    "execution.checkpoints.empty": "कोई चेकपॉइंट उपलब्ध नहीं",
+    "execution.checkpoints.list": "चेकपॉइंट",
+    "execution.checkpoints.recommended": "अनुशंसित",
+    "execution.controls.pause": "रोकें",
+    "execution.controls.resume": "फिर शुरू करें",
+    "execution.controls.step": "स्टेप",
+    "execution.resume.failedAt": "विफल हुआ",
+    "execution.resume.fromCheckpoint": "चेकपॉइंट से फिर शुरू करें",
+    "execution.resume.options": "फिर शुरू करने के विकल्प",
+    "execution.resume.retryFromStart": "शुरू से पुनः प्रयास करें"
+  }
+}

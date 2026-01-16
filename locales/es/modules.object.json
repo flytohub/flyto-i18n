@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Obtener todas las claves de un objeto",
+    "modules.object.keys.label": "Claves de objeto",
+    "modules.object.keys.output.count.description": "Lista de claves del objeto",
+    "modules.object.keys.output.keys.description": "Lista de claves del objeto",
+    "modules.object.merge.description": "Combinar multiples objetos en uno",
+    "modules.object.merge.label": "Combinar objetos",
+    "modules.object.merge.output.result.description": "Objeto combinado",
+    "modules.object.omit.description": "Omitir claves especificas de un objeto",
+    "modules.object.omit.label": "Omitir de objeto",
+    "modules.object.omit.output.result.description": "Objeto sin claves omitidas",
+    "modules.object.pick.description": "Seleccionar claves especificas de un objeto",
+    "modules.object.pick.label": "Seleccionar de objeto",
+    "modules.object.pick.output.result.description": "Objeto con solo claves seleccionadas",
+    "modules.object.values.description": "Obtener todos los valores de un objeto",
+    "modules.object.values.label": "Valores de objeto",
+    "modules.object.values.output.count.description": "Lista de valores del objeto",
+    "modules.object.values.output.values.description": "Lista de valores del objeto"
+  }
+}

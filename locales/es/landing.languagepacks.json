@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "Cargando paquetes de idioma disponibles...",
+    "landing.languagepacks.available.subtitle": "Descarga e instala paquetes de idioma sin conexion",
+    "landing.languagepacks.available.title": "Paquetes de idioma disponibles",
+    "landing.languagepacks.hero.description": "Descarga archivos de traduccion para uso sin conexion en Flyto2",
+    "landing.languagepacks.hero.title": "Paquetes de idioma",
+    "landing.languagepacks.howto.step1": "Descarga el archivo del paquete de idioma (.json)",
+    "landing.languagepacks.howto.step2": "Abre la aplicacion Flyto2",
+    "landing.languagepacks.howto.step3": "Ve a Configuracion → Idioma",
+    "landing.languagepacks.howto.step4": "Haz clic en \"Importar paquete de idioma\" y selecciona el archivo",
+    "landing.languagepacks.howto.title": "Como instalar",
+    "landing.languagepacks.request.btn": "Solicitar idioma",
+    "landing.languagepacks.request.feature1": "Traducciones impulsadas por la comunidad",
+    "landing.languagepacks.request.feature2": "Actualizaciones regulares",
+    "landing.languagepacks.request.subtitle": "No ves tu idioma? Haznos saber!",
+    "landing.languagepacks.request.title": "Solicitar un idioma"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "other",
+  "version": "1.0.0",
+  "translations": {
+    "schema.field.api_key_header": "हेडर नाम",
+    "schema.field.body": "बॉडी",
+    "schema.field.body_matches": "प्रतिक्रिया",
+    "schema.field.full_page": "पूर्ण पेज",
+    "schema.field.response": "प्रतिक्रिया",
+    "schema.field.screenshot_format": "पूर्ण पेज",
+    "schema.field.url": "URL",
+    "schema.field.viewport_height": "चौड़ाई",
+    "schema.field.viewport_width": "चौड़ाई",
+    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+  }
+}

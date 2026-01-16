@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "사용 가능한 언어 팩 로딩 중...",
+    "landing.languagepacks.available.subtitle": "오프라인 언어 팩 다운로드 및 설치",
+    "landing.languagepacks.available.title": "사용 가능한 언어 팩",
+    "landing.languagepacks.hero.description": "Flyto2에서 오프라인 사용을 위한 번역 파일 다운로드",
+    "landing.languagepacks.hero.title": "언어 팩",
+    "landing.languagepacks.howto.step1": "언어 팩 파일 다운로드 (.json)",
+    "landing.languagepacks.howto.step2": "Flyto2 애플리케이션 열기",
+    "landing.languagepacks.howto.step3": "설정 → 언어로 이동",
+    "landing.languagepacks.howto.step4": "\"언어 팩 가져오기\"를 클릭하고 파일 선택",
+    "landing.languagepacks.howto.title": "설치 방법",
+    "landing.languagepacks.request.btn": "언어 요청",
+    "landing.languagepacks.request.feature1": "커뮤니티 주도 번역",
+    "landing.languagepacks.request.feature2": "정기 업데이트",
+    "landing.languagepacks.request.subtitle": "원하는 언어가 없나요? 알려주세요!",
+    "landing.languagepacks.request.title": "언어 요청"
+  }
+}

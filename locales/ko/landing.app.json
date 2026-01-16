@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "landing.app",
+  "version": "1.0.0",
+  "translations": {
+    "landing.app.hero.detecting": "시스템 감지 중...",
+    "landing.app.hero.detectingInfo": "감지 중...",
+    "landing.app.hero.downloadFor": "시스템용 다운로드",
+    "landing.app.hero.proNote": "무료로 다운로드. 모든 기능을 사용하려면 Pro 라이선스가 필요합니다.",
+    "landing.app.hero.subtitle": "브라우저 워크플로를 자동화하세요. 오프라인에서 작동하며 데이터가 비공개로 유지됩니다.",
+    "landing.app.hero.title": "Flyto2 다운로드",
+    "landing.app.install.step1": "설치 프로그램 다운로드",
+    "landing.app.install.step1Desc": "위에서 운영 체제에 맞는 버전을 선택하세요",
+    "landing.app.install.step2": "설치 프로그램 실행",
+    "landing.app.install.step2Desc": "다운로드한 파일을 더블클릭하고 안내에 따르세요",
+    "landing.app.install.step3": "Flyto2 실행",
+    "landing.app.install.step3Desc": "앱을 열고 워크플로 자동화를 시작하세요",
+    "landing.app.install.step4": "Pro 활성화 (선택사항)",
+    "landing.app.install.step4Desc": "라이선스 파일을 가져와 모든 기능을 잠금 해제하세요",
+    "landing.app.install.subtitle": "몇 분 만에 시작하세요",
+    "landing.app.install.title": "설치 가이드",
+    "landing.app.platforms.subtitle": "운영 체제와 아키텍처를 선택하세요",
+    "landing.app.platforms.title": "모든 플랫폼",
+    "landing.app.requirements.title": "시스템 요구 사항"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.workflowCanvas",
+  "version": "1.0.0",
+  "translations": {
+    "workflowCanvas.deleteDialog.deleteAll": "모두 삭제",
+    "workflowCanvas.deleteDialog.deleteAllDesc": "이 노드와 모든 {count}개의 하위 노드 삭제",
+    "workflowCanvas.deleteDialog.mergeToChild": "하위로 병합",
+    "workflowCanvas.deleteDialog.mergeToChildDesc": "이 노드만 삭제하고 부모를 첫 번째 하위 노드에 연결",
+    "workflowCanvas.deleteDialog.message": "이 노드에는 {count}개의 하위 노드가 있습니다. 어떻게 하시겠습니까?",
+    "workflowCanvas.deleteDialog.title": "하위 노드가 있는 노드 삭제"
+  }
+}

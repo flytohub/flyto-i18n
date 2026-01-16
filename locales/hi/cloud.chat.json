@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "cloud.chat",
+  "version": "1.0.0",
+  "translations": {
+    "chat.attachFile": "फ़ाइल अटैच करें",
+    "chat.error": "संदेश भेजने में त्रुटि",
+    "chat.fileTooLarge": "फ़ाइल बहुत बड़ी है (अधिकतम 10MB)",
+    "chat.loadFailed": "संदेश लोड करने में विफल",
+    "chat.messageUser": "संदेश",
+    "chat.messages": "संदेश",
+    "chat.noConversations": "अभी कोई बातचीत नहीं",
+    "chat.noMessages": "अभी कोई संदेश नहीं। नमस्ते कहें!",
+    "chat.online": "ऑनलाइन",
+    "chat.searchConversations": "बातचीत खोजें...",
+    "chat.selectConversation": "चैटिंग शुरू करने के लिए बातचीत चुनें",
+    "chat.selectConversationHint": "चैटिंग शुरू करने के लिए बातचीत चुनें",
+    "chat.send": "भेजें",
+    "chat.startChat": "चैट शुरू करें",
+    "chat.startChatFailed": "चैट शुरू करने में विफल",
+    "chat.startConversation": "बातचीत शुरू करें",
+    "chat.typePlaceholder": "संदेश टाइप करें...",
+    "chat.uploadFailed": "फ़ाइल अपलोड करने में विफल",
+    "chat.user": "यूज़र",
+    "chat.viewProfile": "प्रोफाइल देखें"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "एक बार रिकॉर्ड करें",
+    "landing.index.counter.recordOnceDesc": "Flyto2 को दिखाएं कि आप कैसे काम करते हैं। यह आपके क्लिक और कीस्ट्रोक देखकर सीखता है।",
+    "landing.index.counter.replayForever": "हमेशा के लिए रीप्ले करें",
+    "landing.index.counter.replayForeverDesc": "अलग डेटा के साथ फिर से चलाएं। सैकड़ों आइटम बैच प्रोसेस करें।",
+    "landing.index.counter.stayInControl": "नियंत्रण में रहें",
+    "landing.index.counter.stayInControlDesc": "कभी भी रोकें, सत्यापित करें और फिर से शुरू करें। रनअवे ऑटोमेशन की चिंता कभी न करें।",
+    "landing.index.hero.description": "Flyto2 एक ऑटोमेशन टूल है जो आपके कंप्यूटर को इंसान की तरह संचालित करता है। ब्राउज़र खोलें, बटन क्लिक करें, फ़ॉर्म भरें, फ़ाइलें अपलोड करें। आप एक बार करें, Flyto2 हमेशा के लिए दोहराता है।",
+    "landing.index.hero.titleEnd": "जो आप दिखाते हैं",
+    "landing.index.hero.titleHighlight": "ऑटोमेशन जो करता है",
+    "landing.index.why.subtitle": "कई कार्य कठिन नहीं हैं, वे बस थकाऊ हैं।",
+    "landing.index.why.title": "क्यों"
+  }
+}

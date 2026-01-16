@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.chat",
+  "version": "1.0.0",
+  "translations": {
+    "chat.attachFile": "파일 첨부",
+    "chat.error": "메시지 전송 오류",
+    "chat.fileTooLarge": "파일이 너무 큽니다 (최대 10MB)",
+    "chat.loadFailed": "메시지 로드 실패",
+    "chat.messageUser": "메시지",
+    "chat.messages": "메시지",
+    "chat.noConversations": "아직 대화가 없습니다",
+    "chat.noMessages": "아직 메시지가 없습니다. 인사해 보세요!",
+    "chat.online": "온라인",
+    "chat.searchConversations": "대화 검색...",
+    "chat.selectConversation": "채팅을 시작하려면 대화를 선택하세요",
+    "chat.selectConversationHint": "채팅을 시작하려면 대화를 선택하세요",
+    "chat.send": "전송",
+    "chat.startChat": "채팅 시작",
+    "chat.startChatFailed": "채팅 시작 실패",
+    "chat.startConversation": "대화 시작",
+    "chat.typePlaceholder": "메시지를 입력하세요...",
+    "chat.uploadFailed": "파일 업로드 실패",
+    "chat.user": "사용자",
+    "chat.viewProfile": "프로필 보기"
+  }
+}

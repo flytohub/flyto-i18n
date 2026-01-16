@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "Botón",
+    "component.checkbox": "Casilla de verificación",
+    "component.divider": "Divisor",
+    "component.emailInput": "Entrada de correo electrónico",
+    "component.input": "Entrada",
+    "component.numberInput": "Entrada numérica",
+    "component.passwordInput": "Entrada de contraseña",
+    "component.radio": "Botón de opción",
+    "component.select": "Selección",
+    "component.textarea": "Área de texto",
+    "component.urlInput": "Entrada de URL"
+  }
+}

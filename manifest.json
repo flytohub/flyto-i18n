@@ -25,6 +25,34 @@
       "coverage": 100,
       "status": "official",
       "maintainers": ["@flytohub"]
+    },
+    "ko": {
+      "name": "Korean",
+      "native_name": "한국어",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "fr": {
+      "name": "French",
+      "native_name": "Français",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "es": {
+      "name": "Spanish",
+      "native_name": "Español",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "hi": {
+      "name": "Hindi",
+      "native_name": "हिन्दी",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
     }
   },
   "projects": {

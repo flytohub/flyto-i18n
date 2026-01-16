@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.apiDocs": "Documentación de API",
+    "footer.community": "Foro de la comunidad",
+    "footer.contact": "Contáctenos",
+    "footer.cookies": "Configuración de cookies",
+    "footer.copyright": "© 2025 Flyto2. Todos los derechos reservados.",
+    "footer.dashboard": "Panel de control",
+    "footer.description": "Potente editor visual de flujos de trabajo que integra cientos de aplicaciones, haciendo la automatización fácil para todos.",
+    "footer.developer": "Desarrollador",
+    "footer.examples": "Ejemplos",
+    "footer.github": "GitHub",
+    "footer.helpCenter": "Centro de ayuda",
+    "footer.marketplace": "Tienda de aplicaciones",
+    "footer.pluginDev": "Desarrollo de plugins",
+    "footer.pricing": "Precios",
+    "footer.privacy": "Política de privacidad",
+    "footer.product": "Producto",
+    "footer.status": "Página de estado",
+    "footer.support": "Soporte",
+    "footer.terms": "Términos de servicio",
+    "footer.workflows": "Flujos de trabajo"
+  }
+}

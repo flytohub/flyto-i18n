@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "한 번 녹화",
+    "landing.index.counter.recordOnceDesc": "Flyto2에게 작업 방식을 보여주세요. 클릭과 키 입력을 관찰하며 학습합니다.",
+    "landing.index.counter.replayForever": "영원히 재생",
+    "landing.index.counter.replayForeverDesc": "다른 데이터로 다시 실행하세요. 수백 개의 항목을 일괄 처리하세요.",
+    "landing.index.counter.stayInControl": "통제권 유지",
+    "landing.index.counter.stayInControlDesc": "언제든지 일시 정지하고, 확인하고, 재개하세요. 자동화 폭주를 걱정할 필요가 없습니다.",
+    "landing.index.hero.description": "Flyto2는 사람처럼 컴퓨터를 조작하는 자동화 도구입니다. 브라우저 열기, 버튼 클릭, 폼 작성, 파일 업로드. 한 번만 하면 Flyto2가 영원히 반복합니다.",
+    "landing.index.hero.titleEnd": "보여준 것을 수행하는",
+    "landing.index.hero.titleHighlight": "자동화",
+    "landing.index.why.subtitle": "많은 작업이 어렵지 않습니다. 단지 지루할 뿐입니다.",
+    "landing.index.why.title": "왜"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "other",
+  "version": "1.0.0",
+  "translations": {
+    "schema.field.api_key_header": "Nombre de encabezado",
+    "schema.field.body": "Cuerpo",
+    "schema.field.body_matches": "Respuesta",
+    "schema.field.full_page": "Pagina completa",
+    "schema.field.response": "Respuesta",
+    "schema.field.screenshot_format": "Pagina completa",
+    "schema.field.url": "URL",
+    "schema.field.viewport_height": "Ancho",
+    "schema.field.viewport_width": "Ancho",
+    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+  }
+}

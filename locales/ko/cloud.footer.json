@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.apiDocs": "API 문서",
+    "footer.community": "커뮤니티 포럼",
+    "footer.contact": "문의하기",
+    "footer.cookies": "쿠키 설정",
+    "footer.copyright": "© 2025 Flyto2. All rights reserved.",
+    "footer.dashboard": "대시보드",
+    "footer.description": "수백 개의 애플리케이션을 통합하는 강력한 비주얼 워크플로우 편집기로, 누구나 쉽게 자동화할 수 있습니다.",
+    "footer.developer": "개발자",
+    "footer.examples": "예제",
+    "footer.github": "GitHub",
+    "footer.helpCenter": "도움말 센터",
+    "footer.marketplace": "앱 스토어",
+    "footer.pluginDev": "플러그인 개발",
+    "footer.pricing": "가격",
+    "footer.privacy": "개인정보처리방침",
+    "footer.product": "제품",
+    "footer.status": "상태 페이지",
+    "footer.support": "지원",
+    "footer.terms": "서비스 약관",
+    "footer.workflows": "워크플로우"
+  }
+}

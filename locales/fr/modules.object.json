@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Obtenir toutes les cles d'un objet",
+    "modules.object.keys.label": "Cles d'objet",
+    "modules.object.keys.output.count.description": "Liste des cles de l'objet",
+    "modules.object.keys.output.keys.description": "Liste des cles de l'objet",
+    "modules.object.merge.description": "Fusionner plusieurs objets en un seul",
+    "modules.object.merge.label": "Fusionner des objets",
+    "modules.object.merge.output.result.description": "Objet fusionne",
+    "modules.object.omit.description": "Omettre des cles specifiques d'un objet",
+    "modules.object.omit.label": "Omettre de l'objet",
+    "modules.object.omit.output.result.description": "Objet sans les cles omises",
+    "modules.object.pick.description": "Selectionner des cles specifiques d'un objet",
+    "modules.object.pick.label": "Selectionner de l'objet",
+    "modules.object.pick.output.result.description": "Objet avec uniquement les cles selectionnees",
+    "modules.object.values.description": "Obtenir toutes les valeurs d'un objet",
+    "modules.object.values.label": "Valeurs d'objet",
+    "modules.object.values.output.count.description": "Liste des valeurs de l'objet",
+    "modules.object.values.output.values.description": "Liste des valeurs de l'objet"
+  }
+}
