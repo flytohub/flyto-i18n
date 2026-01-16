@@ -1,0 +1,32 @@
+name: Purge jsDelivr CDN Cache
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge CDN cache
+        run: |
+          echo "Purging jsDelivr CDN cache..."
+
+          # Purge manifest files
+          curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/manifest.json"
+          curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/cloud/manifest.json"
+          curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/landing/manifest.json"
+
+          # Purge all locale files
+          for scope in "" "cloud/" "landing/"; do
+            for lang in en zh-TW ja ko fr es hi de pt-BR vi id th tr pl it; do
+              curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/${scope}${lang}.json" &
+            done
+          done
+
+          # Wait for all background jobs
+          wait
+
+          echo "CDN cache purged successfully"
