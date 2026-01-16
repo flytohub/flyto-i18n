@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.workflowCanvas",
+  "version": "1.0.0",
+  "translations": {
+    "workflowCanvas.deleteDialog.deleteAll": "ลบทั้งหมด",
+    "workflowCanvas.deleteDialog.deleteAllDesc": "ลบ node นี้และ child node(s) ทั้งหมด {count} รายการ",
+    "workflowCanvas.deleteDialog.mergeToChild": "รวมกับ Child",
+    "workflowCanvas.deleteDialog.mergeToChildDesc": "ลบเฉพาะ node นี้และเชื่อมต่อ parent กับ child แรก",
+    "workflowCanvas.deleteDialog.message": "Node นี้มี {count} child node(s) คุณต้องการทำอะไร?",
+    "workflowCanvas.deleteDialog.title": "ลบ Node ที่มี Children"
+  }
+}

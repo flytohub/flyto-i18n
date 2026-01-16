@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Lấy tất cả các khóa từ một đối tượng",
+    "modules.object.keys.label": "Khóa đối tượng",
+    "modules.object.keys.output.count.description": "Danh sách các khóa đối tượng",
+    "modules.object.keys.output.keys.description": "Danh sách các khóa đối tượng",
+    "modules.object.merge.description": "Gộp nhiều đối tượng thành một",
+    "modules.object.merge.label": "Gộp đối tượng",
+    "modules.object.merge.output.result.description": "Đối tượng đã gộp",
+    "modules.object.omit.description": "Bỏ qua các khóa cụ thể từ một đối tượng",
+    "modules.object.omit.label": "Bỏ qua đối tượng",
+    "modules.object.omit.output.result.description": "Đối tượng không có các khóa đã bỏ qua",
+    "modules.object.pick.description": "Chọn các khóa cụ thể từ một đối tượng",
+    "modules.object.pick.label": "Chọn đối tượng",
+    "modules.object.pick.output.result.description": "Đối tượng chỉ có các khóa đã chọn",
+    "modules.object.values.description": "Lấy tất cả các giá trị từ một đối tượng",
+    "modules.object.values.label": "Giá trị đối tượng",
+    "modules.object.values.output.count.description": "Danh sách các giá trị đối tượng",
+    "modules.object.values.output.values.description": "Danh sách các giá trị đối tượng"
+  }
+}

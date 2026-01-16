@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.aiAgent",
+  "version": "1.0.0",
+  "translations": {
+    "aiAgent.fromInput": "Da Input",
+    "aiAgent.manual": "Manuale",
+    "aiAgent.promptPath": "Percorso Input",
+    "aiAgent.promptPathHint": "Espressione per ottenere il prompt dal nodo precedente",
+    "aiAgent.promptSource": "Origine Prompt",
+    "aiAgent.selectVariable": "Seleziona variabile",
+    "aiAgent.shellInfo": "Informazioni Shell",
+    "aiAgent.shellInfoDesc": "Visualizza l'ambiente shell e il contesto di esecuzione",
+    "aiAgent.task": "Attivita",
+    "aiAgent.taskPlaceholder": "Descrivi cosa dovrebbe realizzare l'agente..."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "Tombol",
+    "component.checkbox": "Kotak Centang",
+    "component.divider": "Pembagi",
+    "component.emailInput": "Input Email",
+    "component.input": "Input",
+    "component.numberInput": "Input Angka",
+    "component.passwordInput": "Input Kata Sandi",
+    "component.radio": "Tombol Radio",
+    "component.select": "Pilih",
+    "component.textarea": "Area Teks",
+    "component.urlInput": "Input URL"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.execution",
+  "version": "1.0.0",
+  "translations": {
+    "execution.checkpoints.empty": "Không có checkpoint khả dụng",
+    "execution.checkpoints.list": "Checkpoints",
+    "execution.checkpoints.recommended": "Đề xuất",
+    "execution.controls.pause": "Tạm dừng",
+    "execution.controls.resume": "Tiếp tục",
+    "execution.controls.step": "Bước",
+    "execution.resume.failedAt": "Thất bại tại",
+    "execution.resume.fromCheckpoint": "Tiếp tục từ checkpoint",
+    "execution.resume.options": "Tùy chọn tiếp tục",
+    "execution.resume.retryFromStart": "Thử lại từ đầu"
+  }
+}

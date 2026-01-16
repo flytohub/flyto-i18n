@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "ข้อผิดพลาดการยืนยันตัวตน",
+    "errorWorkflow.categories.business_error": "ข้อผิดพลาดทางธุรกิจ",
+    "errorWorkflow.categories.configuration_error": "ข้อผิดพลาดการตั้งค่า",
+    "errorWorkflow.categories.network_error": "ข้อผิดพลาดเครือข่าย",
+    "errorWorkflow.categories.permission_denied": "ไม่มีสิทธิ์",
+    "errorWorkflow.categories.rate_limit": "เกินขีดจำกัด",
+    "errorWorkflow.categories.resource_not_found": "ไม่พบ",
+    "errorWorkflow.categories.timeout": "หมดเวลา",
+    "errorWorkflow.categories.validation_error": "ข้อผิดพลาดการตรวจสอบ",
+    "errorWorkflow.description": "ตั้งค่าสิ่งที่เกิดขึ้นเมื่อ workflow นี้ล้มเหลว",
+    "errorWorkflow.doNothing": "ไม่ทำอะไร",
+    "errorWorkflow.errorTrigger.anyWorkflow": "Workflow ใดก็ได้",
+    "errorWorkflow.errorTrigger.categoriesHint": "เว้นว่างไว้เพื่อจับข้อผิดพลาดทุกประเภท",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "Context ข้อผิดพลาดที่ได้รับ:",
+    "errorWorkflow.errorTrigger.errorCategories": "หมวดหมู่ข้อผิดพลาด",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "Workflow ต้นทาง",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "เว้นว่างไว้เพื่อจับข้อผิดพลาดจาก workflow ใดก็ได้",
+    "errorWorkflow.errorWorkflowLabel": "Error Workflow",
+    "errorWorkflow.onFailure": "เมื่อ Workflow ล้มเหลว",
+    "errorWorkflow.passContext": "ส่ง context ข้อผิดพลาดไปยัง error workflow",
+    "errorWorkflow.passContextHint": "รวมข้อความข้อผิดพลาด หมวดหมู่ และข้อมูล workflow ต้นทาง",
+    "errorWorkflow.runWorkflow": "รัน error workflow",
+    "errorWorkflow.selectWorkflow": "เลือก workflow...",
+    "errorWorkflow.title": "การจัดการข้อผิดพลาด"
+  }
+}

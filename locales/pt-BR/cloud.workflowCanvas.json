@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "cloud.workflowCanvas",
+  "version": "1.0.0",
+  "translations": {
+    "workflowCanvas.deleteDialog.deleteAll": "Excluir Tudo",
+    "workflowCanvas.deleteDialog.deleteAllDesc": "Excluir este no e todos os {count} no(s) filho(s)",
+    "workflowCanvas.deleteDialog.mergeToChild": "Mesclar com Filho",
+    "workflowCanvas.deleteDialog.mergeToChildDesc": "Excluir apenas este no e conectar o pai ao primeiro filho",
+    "workflowCanvas.deleteDialog.message": "Este no tem {count} no(s) filho(s). O que voce gostaria de fazer?",
+    "workflowCanvas.deleteDialog.title": "Excluir No com Filhos"
+  }
+}

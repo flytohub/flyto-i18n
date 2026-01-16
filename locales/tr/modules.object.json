@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Nesneden tüm anahtarları al",
+    "modules.object.keys.label": "Nesne Anahtarları",
+    "modules.object.keys.output.count.description": "Nesne anahtarlarının listesi",
+    "modules.object.keys.output.keys.description": "Nesne anahtarlarının listesi",
+    "modules.object.merge.description": "Birden fazla nesneyi tek bir nesneye birleştir",
+    "modules.object.merge.label": "Nesne Birleştir",
+    "modules.object.merge.output.result.description": "Birleştirilmiş nesne",
+    "modules.object.omit.description": "Nesneden belirli anahtarları çıkar",
+    "modules.object.omit.label": "Nesne Çıkar",
+    "modules.object.omit.output.result.description": "Çıkarılmış anahtarlar olmadan nesne",
+    "modules.object.pick.description": "Nesneden belirli anahtarları seç",
+    "modules.object.pick.label": "Nesne Seç",
+    "modules.object.pick.output.result.description": "Sadece seçilen anahtarları içeren nesne",
+    "modules.object.values.description": "Nesneden tüm değerleri al",
+    "modules.object.values.label": "Nesne Değerleri",
+    "modules.object.values.output.count.description": "Nesne değerlerinin listesi",
+    "modules.object.values.output.values.description": "Nesne değerlerinin listesi"
+  }
+}

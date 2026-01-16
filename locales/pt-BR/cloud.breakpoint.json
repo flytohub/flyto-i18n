@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "cloud.breakpoint",
+  "version": "1.0.0",
+  "translations": {
+    "breakpoint.additionalInput": "Entrada Adicional",
+    "breakpoint.approve": "Aprovar",
+    "breakpoint.comment": "Comentario",
+    "breakpoint.commentPlaceholder": "Adicionar um comentario...",
+    "breakpoint.contextSnapshot": "Snapshot do Contexto",
+    "breakpoint.createdAt": "Criado Em",
+    "breakpoint.expires": "Expira",
+    "breakpoint.humanCheckpoint": "Checkpoint Humano",
+    "breakpoint.noBreakpoint": "Nenhum breakpoint definido",
+    "breakpoint.noPending": "Nenhuma aprovacao pendente",
+    "breakpoint.pendingApprovals": "Aprovacoes Pendentes",
+    "breakpoint.reject": "Rejeitar",
+    "breakpoint.step": "Etapa",
+    "breakpoint.waitingApproval": "Aguardando aprovacao",
+    "breakpoint.workflow": "Workflow"
+  }
+}

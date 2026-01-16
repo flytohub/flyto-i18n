@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "Kesalahan Autentikasi",
+    "errorWorkflow.categories.business_error": "Kesalahan Bisnis",
+    "errorWorkflow.categories.configuration_error": "Kesalahan Konfigurasi",
+    "errorWorkflow.categories.network_error": "Kesalahan Jaringan",
+    "errorWorkflow.categories.permission_denied": "Izin Ditolak",
+    "errorWorkflow.categories.rate_limit": "Batas Rate",
+    "errorWorkflow.categories.resource_not_found": "Tidak Ditemukan",
+    "errorWorkflow.categories.timeout": "Timeout",
+    "errorWorkflow.categories.validation_error": "Kesalahan Validasi",
+    "errorWorkflow.description": "Konfigurasi apa yang terjadi ketika workflow ini gagal",
+    "errorWorkflow.doNothing": "Tidak melakukan apa-apa",
+    "errorWorkflow.errorTrigger.anyWorkflow": "Workflow mana pun",
+    "errorWorkflow.errorTrigger.categoriesHint": "Biarkan kosong untuk menangkap semua jenis kesalahan",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "Konteks kesalahan yang diterima:",
+    "errorWorkflow.errorTrigger.errorCategories": "Kategori Kesalahan",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "Workflow Sumber",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "Biarkan kosong untuk menangkap kesalahan dari workflow mana pun",
+    "errorWorkflow.errorWorkflowLabel": "Workflow Kesalahan",
+    "errorWorkflow.onFailure": "Saat Workflow Gagal",
+    "errorWorkflow.passContext": "Teruskan konteks kesalahan ke workflow kesalahan",
+    "errorWorkflow.passContextHint": "Termasuk pesan kesalahan, kategori, dan data workflow sumber",
+    "errorWorkflow.runWorkflow": "Jalankan workflow kesalahan",
+    "errorWorkflow.selectWorkflow": "Pilih workflow...",
+    "errorWorkflow.title": "Penanganan Kesalahan"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "Zaten çevrimdışı kaydedildi",
+    "templateCard.deleted": "Silindi",
+    "templateCard.downloadOffline": "Çevrimdışı İndir",
+    "templateCard.editInfo": "Bilgileri Düzenle",
+    "templateCard.forkTemplate": "Şablonlarıma Çatalla",
+    "templateCard.forked": "Çatallandı",
+    "templateCard.manageKeys": "Anahtarları Yönet",
+    "templateCard.privateTooltip": "Özel - Davet anahtarı gerekli",
+    "templateCard.publicTooltip": "Herkese Açık",
+    "templateCard.publish": "Yayınla",
+    "templateCard.sourceDeleted": "Orijinal şablon yazar tarafından silindi",
+    "templateCard.sourceUnpublished": "Orijinal şablon yazar tarafından yayından kaldırıldı",
+    "templateCard.syncToLatest": "En Son Sürüme Senkronize Et",
+    "templateCard.unpublished": "Yayından Kaldırıldı",
+    "templateCard.update": "Güncelle",
+    "templateCard.updateAvailable": "Yazardan güncelleme mevcut"
+  }
+}

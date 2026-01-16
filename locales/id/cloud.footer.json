@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.apiDocs": "Dokumentasi API",
+    "footer.community": "Forum Komunitas",
+    "footer.contact": "Hubungi Kami",
+    "footer.cookies": "Pengaturan Cookie",
+    "footer.copyright": "© 2025 Flyto2. Hak cipta dilindungi.",
+    "footer.dashboard": "Dasbor",
+    "footer.description": "Editor workflow visual yang kuat yang mengintegrasikan ratusan aplikasi, membuat otomasi mudah untuk semua orang.",
+    "footer.developer": "Pengembang",
+    "footer.examples": "Contoh",
+    "footer.github": "GitHub",
+    "footer.helpCenter": "Pusat Bantuan",
+    "footer.marketplace": "App Store",
+    "footer.pluginDev": "Pengembangan Plugin",
+    "footer.pricing": "Harga",
+    "footer.privacy": "Kebijakan Privasi",
+    "footer.product": "Produk",
+    "footer.status": "Halaman Status",
+    "footer.support": "Dukungan",
+    "footer.terms": "Ketentuan Layanan",
+    "footer.workflows": "Workflow"
+  }
+}

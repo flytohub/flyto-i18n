@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "Topluluk",
+    "landing.contact.cards.emailUs": "E-posta Gönderin",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "Şimdi İndirin",
+    "landing.contact.cta.subtitle": "İş akışlarınızı bugün otomatikleştirmeye başlayın",
+    "landing.contact.cta.title": "Başlamaya hazır mısınız?",
+    "landing.contact.form.subtitle": "Formu doldurun, size geri döneceğiz",
+    "landing.contact.form.title": "Bize bir mesaj gönderin",
+    "landing.contact.hero.subtitle": "Sorularınız mı var? Sizden haber almak isteriz.",
+    "landing.contact.hero.title": "Bize Ulaşın",
+    "landing.contact.quickLinks.subtitle": "Sık sorulan sorulara yanıtlar bulun",
+    "landing.contact.quickLinks.title": "Hızlı Bağlantılar"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "Registra Una Volta",
+    "landing.index.counter.recordOnceDesc": "Mostra a Flyto2 come lavori. Impara osservando i tuoi click e digitazioni.",
+    "landing.index.counter.replayForever": "Riproduci Per Sempre",
+    "landing.index.counter.replayForeverDesc": "Eseguilo di nuovo con dati diversi. Elabora in batch centinaia di elementi.",
+    "landing.index.counter.stayInControl": "Mantieni il Controllo",
+    "landing.index.counter.stayInControlDesc": "Metti in pausa, verifica e riprendi in qualsiasi momento. Non preoccuparti mai dell'automazione fuori controllo.",
+    "landing.index.hero.description": "Flyto2 e uno strumento di automazione che opera il tuo computer come un umano. Apre browser, clicca pulsanti, compila form, carica file. Tu lo fai una volta, Flyto2 lo ripete per sempre.",
+    "landing.index.hero.titleEnd": "Cio Che Gli Mostri",
+    "landing.index.hero.titleHighlight": "Automazione Che Fa",
+    "landing.index.why.subtitle": "Molte attivita non sono difficili, sono solo noiose.",
+    "landing.index.why.title": "Perche"
+  }
+}

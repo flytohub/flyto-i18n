@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "Gelişmiş Seçenekler",
+    "container.editSubflow": "Alt Akışı Düzenle",
+    "container.exportVariables": "Değişkenleri Dışa Aktar",
+    "container.exportVariablesHint": "Üst iş akışına açılacak değişkenler",
+    "container.exportVariablesPlaceholder": "ör. sonuç, veri",
+    "container.inheritContext": "Bağlamı Devral",
+    "container.inheritContextHint": "Üst iş akışıyla değişkenleri paylaş",
+    "container.isolatedContextHint": "Kapsayıcının kendi izole bağlamı var",
+    "container.nodesInside": "içindeki düğümler"
+  }
+}

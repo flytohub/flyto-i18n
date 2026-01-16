@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "Schaltfläche",
+    "component.checkbox": "Kontrollkästchen",
+    "component.divider": "Trennlinie",
+    "component.emailInput": "E-Mail-Eingabe",
+    "component.input": "Eingabe",
+    "component.numberInput": "Zahleneingabe",
+    "component.passwordInput": "Passworteingabe",
+    "component.radio": "Optionsfeld",
+    "component.select": "Auswahl",
+    "component.textarea": "Textbereich",
+    "component.urlInput": "URL-Eingabe"
+  }
+}

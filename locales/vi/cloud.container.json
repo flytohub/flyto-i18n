@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "Tùy chọn nâng cao",
+    "container.editSubflow": "Sửa Subflow",
+    "container.exportVariables": "Xuất biến",
+    "container.exportVariablesHint": "Các biến để hiển thị cho workflow cha",
+    "container.exportVariablesPlaceholder": "VD: result, data",
+    "container.inheritContext": "Kế thừa ngữ cảnh",
+    "container.inheritContextHint": "Chia sẻ biến với workflow cha",
+    "container.isolatedContextHint": "Container có ngữ cảnh riêng biệt",
+    "container.nodesInside": "node bên trong"
+  }
+}

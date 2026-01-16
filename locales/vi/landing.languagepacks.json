@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "Đang tải các gói ngôn ngữ có sẵn...",
+    "landing.languagepacks.available.subtitle": "Tải xuống và cài đặt gói ngôn ngữ ngoại tuyến",
+    "landing.languagepacks.available.title": "Gói ngôn ngữ có sẵn",
+    "landing.languagepacks.hero.description": "Tải xuống tệp dịch để sử dụng ngoại tuyến trong Flyto2",
+    "landing.languagepacks.hero.title": "Gói ngôn ngữ",
+    "landing.languagepacks.howto.step1": "Tải xuống tệp gói ngôn ngữ (.json)",
+    "landing.languagepacks.howto.step2": "Mở ứng dụng Flyto2",
+    "landing.languagepacks.howto.step3": "Đi đến Cài đặt → Ngôn ngữ",
+    "landing.languagepacks.howto.step4": "Nhấp \"Nhập gói ngôn ngữ\" và chọn tệp",
+    "landing.languagepacks.howto.title": "Cách cài đặt",
+    "landing.languagepacks.request.btn": "Yêu cầu ngôn ngữ",
+    "landing.languagepacks.request.feature1": "Bản dịch do cộng đồng đóng góp",
+    "landing.languagepacks.request.feature2": "Cập nhật thường xuyên",
+    "landing.languagepacks.request.subtitle": "Không thấy ngôn ngữ của bạn? Hãy cho chúng tôi biết!",
+    "landing.languagepacks.request.title": "Yêu cầu ngôn ngữ"
+  }
+}

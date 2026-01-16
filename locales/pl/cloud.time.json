@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.time",
+  "version": "1.0.0",
+  "translations": {
+    "time.daysAgo": "{n} dni temu",
+    "time.hoursAgo": "{n} godz. temu",
+    "time.justNow": "przed chwila",
+    "time.minutesAgo": "{n} min temu"
+  }
+}

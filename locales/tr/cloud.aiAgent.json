@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.aiAgent",
+  "version": "1.0.0",
+  "translations": {
+    "aiAgent.fromInput": "Girişten",
+    "aiAgent.manual": "Manuel",
+    "aiAgent.promptPath": "Giriş Yolu",
+    "aiAgent.promptPathHint": "Önceki düğümden istem almak için ifade",
+    "aiAgent.promptSource": "İstem Kaynağı",
+    "aiAgent.selectVariable": "Değişken seç",
+    "aiAgent.shellInfo": "Kabuk Bilgisi",
+    "aiAgent.shellInfoDesc": "Kabuk ortamını ve çalıştırma bağlamını görüntüle",
+    "aiAgent.task": "Görev",
+    "aiAgent.taskPlaceholder": "Ajanın ne yapması gerektiğini açıklayın..."
+  }
+}

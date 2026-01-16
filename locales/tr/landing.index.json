@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "Bir Kez Kaydet",
+    "landing.index.counter.recordOnceDesc": "Flyto2'ye nasıl çalıştığınızı gösterin. Tıklamalarınızı ve tuş vuruşlarınızı izleyerek öğrenir.",
+    "landing.index.counter.replayForever": "Sonsuza Kadar Tekrarla",
+    "landing.index.counter.replayForeverDesc": "Farklı verilerle tekrar çalıştırın. Yüzlerce öğeyi toplu işleyin.",
+    "landing.index.counter.stayInControl": "Kontrolde Kalın",
+    "landing.index.counter.stayInControlDesc": "İstediğiniz zaman duraklatın, doğrulayın ve devam edin. Kontrolden çıkan otomasyon konusunda asla endişelenmeyin.",
+    "landing.index.hero.description": "Flyto2, bilgisayarınızı bir insan gibi çalıştıran bir otomasyon aracıdır. Tarayıcılar açar, düğmelere tıklar, formları doldurur, dosyaları yükler. Siz bir kez yaparsınız, Flyto2 sonsuza kadar tekrarlar.",
+    "landing.index.hero.titleEnd": "Gösterdiğiniz Şeyi",
+    "landing.index.hero.titleHighlight": "Yapan Otomasyon",
+    "landing.index.why.subtitle": "Birçok görev zor değil, sadece sıkıcı.",
+    "landing.index.why.title": "Neden"
+  }
+}

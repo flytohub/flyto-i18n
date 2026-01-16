@@ -53,6 +53,62 @@
       "coverage": 100,
       "status": "community",
       "maintainers": ["@flytohub"]
+    },
+    "de": {
+      "name": "German",
+      "native_name": "Deutsch",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "pt-BR": {
+      "name": "Portuguese (Brazil)",
+      "native_name": "Português (Brasil)",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "vi": {
+      "name": "Vietnamese",
+      "native_name": "Tiếng Việt",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "id": {
+      "name": "Indonesian",
+      "native_name": "Bahasa Indonesia",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "th": {
+      "name": "Thai",
+      "native_name": "ภาษาไทย",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "tr": {
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "pl": {
+      "name": "Polish",
+      "native_name": "Polski",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
+    },
+    "it": {
+      "name": "Italian",
+      "native_name": "Italiano",
+      "coverage": 100,
+      "status": "community",
+      "maintainers": ["@flytohub"]
     }
   },
   "projects": {

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "other",
+  "version": "1.0.0",
+  "translations": {
+    "schema.field.api_key_header": "ชื่อ Header",
+    "schema.field.body": "เนื้อหา",
+    "schema.field.body_matches": "การตอบกลับ",
+    "schema.field.full_page": "หน้าเต็ม",
+    "schema.field.response": "การตอบกลับ",
+    "schema.field.screenshot_format": "หน้าเต็ม",
+    "schema.field.url": "URL",
+    "schema.field.viewport_height": "ความกว้าง",
+    "schema.field.viewport_width": "ความกว้าง",
+    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+  }
+}

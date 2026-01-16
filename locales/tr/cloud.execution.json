@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.execution",
+  "version": "1.0.0",
+  "translations": {
+    "execution.checkpoints.empty": "Kontrol noktası mevcut değil",
+    "execution.checkpoints.list": "Kontrol Noktaları",
+    "execution.checkpoints.recommended": "Önerilen",
+    "execution.controls.pause": "Duraklat",
+    "execution.controls.resume": "Devam Et",
+    "execution.controls.step": "Adım",
+    "execution.resume.failedAt": "Başarısız olduğu yer",
+    "execution.resume.fromCheckpoint": "Kontrol noktasından devam et",
+    "execution.resume.options": "Devam Seçenekleri",
+    "execution.resume.retryFromStart": "Baştan tekrar dene"
+  }
+}

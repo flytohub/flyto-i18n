@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "Mevcut dil paketleri yükleniyor...",
+    "landing.languagepacks.available.subtitle": "Çevrimdışı dil paketlerini indirin ve kurun",
+    "landing.languagepacks.available.title": "Mevcut Dil Paketleri",
+    "landing.languagepacks.hero.description": "Flyto2'de çevrimdışı kullanım için çeviri dosyalarını indirin",
+    "landing.languagepacks.hero.title": "Dil Paketleri",
+    "landing.languagepacks.howto.step1": "Dil paketi dosyasını (.json) indirin",
+    "landing.languagepacks.howto.step2": "Flyto2 uygulamasını açın",
+    "landing.languagepacks.howto.step3": "Ayarlar → Dil bölümüne gidin",
+    "landing.languagepacks.howto.step4": "\"Dil Paketi İçe Aktar\" düğmesine tıklayın ve dosyayı seçin",
+    "landing.languagepacks.howto.title": "Nasıl Kurulur",
+    "landing.languagepacks.request.btn": "Dil Talep Et",
+    "landing.languagepacks.request.feature1": "Topluluk odaklı çeviriler",
+    "landing.languagepacks.request.feature2": "Düzenli güncellemeler",
+    "landing.languagepacks.request.subtitle": "Dilinizi görmüyor musunuz? Bize bildirin!",
+    "landing.languagepacks.request.title": "Dil Talep Edin"
+  }
+}

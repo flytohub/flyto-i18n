@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Ambil semua kunci dari objek",
+    "modules.object.keys.label": "Kunci Objek",
+    "modules.object.keys.output.count.description": "Daftar kunci objek",
+    "modules.object.keys.output.keys.description": "Daftar kunci objek",
+    "modules.object.merge.description": "Gabungkan beberapa objek menjadi satu",
+    "modules.object.merge.label": "Gabung Objek",
+    "modules.object.merge.output.result.description": "Objek yang digabungkan",
+    "modules.object.omit.description": "Hapus kunci tertentu dari objek",
+    "modules.object.omit.label": "Omit Objek",
+    "modules.object.omit.output.result.description": "Objek tanpa kunci yang dihapus",
+    "modules.object.pick.description": "Pilih kunci tertentu dari objek",
+    "modules.object.pick.label": "Pick Objek",
+    "modules.object.pick.output.result.description": "Objek dengan hanya kunci yang dipilih",
+    "modules.object.values.description": "Ambil semua nilai dari objek",
+    "modules.object.values.label": "Nilai Objek",
+    "modules.object.values.output.count.description": "Daftar nilai objek",
+    "modules.object.values.output.values.description": "Daftar nilai objek"
+  }
+}

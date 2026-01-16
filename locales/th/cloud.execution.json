@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.execution",
+  "version": "1.0.0",
+  "translations": {
+    "execution.checkpoints.empty": "ไม่มี checkpoints ที่พร้อมใช้งาน",
+    "execution.checkpoints.list": "Checkpoints",
+    "execution.checkpoints.recommended": "แนะนำ",
+    "execution.controls.pause": "หยุดชั่วคราว",
+    "execution.controls.resume": "ดำเนินการต่อ",
+    "execution.controls.step": "ขั้นตอน",
+    "execution.resume.failedAt": "ล้มเหลวที่",
+    "execution.resume.fromCheckpoint": "ดำเนินการต่อจาก checkpoint",
+    "execution.resume.options": "ตัวเลือกการดำเนินการต่อ",
+    "execution.resume.retryFromStart": "ลองใหม่ตั้งแต่ต้น"
+  }
+}

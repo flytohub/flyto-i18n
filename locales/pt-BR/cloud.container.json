@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "Opcoes Avancadas",
+    "container.editSubflow": "Editar Subfluxo",
+    "container.exportVariables": "Exportar Variaveis",
+    "container.exportVariablesHint": "Variaveis a expor para o workflow pai",
+    "container.exportVariablesPlaceholder": "Ex: resultado, dados",
+    "container.inheritContext": "Herdar Contexto",
+    "container.inheritContextHint": "Compartilhar variaveis com o workflow pai",
+    "container.isolatedContextHint": "Container tem seu proprio contexto isolado",
+    "container.nodesInside": "nos internos"
+  }
+}

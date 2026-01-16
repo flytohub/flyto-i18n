@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "Lỗi xác thực",
+    "errorWorkflow.categories.business_error": "Lỗi nghiệp vụ",
+    "errorWorkflow.categories.configuration_error": "Lỗi cấu hình",
+    "errorWorkflow.categories.network_error": "Lỗi mạng",
+    "errorWorkflow.categories.permission_denied": "Từ chối quyền truy cập",
+    "errorWorkflow.categories.rate_limit": "Giới hạn tốc độ",
+    "errorWorkflow.categories.resource_not_found": "Không tìm thấy",
+    "errorWorkflow.categories.timeout": "Hết thời gian",
+    "errorWorkflow.categories.validation_error": "Lỗi xác thực dữ liệu",
+    "errorWorkflow.description": "Cấu hình những gì xảy ra khi workflow này thất bại",
+    "errorWorkflow.doNothing": "Không làm gì",
+    "errorWorkflow.errorTrigger.anyWorkflow": "Bất kỳ workflow",
+    "errorWorkflow.errorTrigger.categoriesHint": "Để trống để bắt tất cả loại lỗi",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "Ngữ cảnh lỗi nhận được:",
+    "errorWorkflow.errorTrigger.errorCategories": "Danh mục lỗi",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "Workflow nguồn",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "Để trống để bắt lỗi từ bất kỳ workflow",
+    "errorWorkflow.errorWorkflowLabel": "Workflow xử lý lỗi",
+    "errorWorkflow.onFailure": "Khi Workflow thất bại",
+    "errorWorkflow.passContext": "Truyền ngữ cảnh lỗi đến workflow xử lý lỗi",
+    "errorWorkflow.passContextHint": "Bao gồm thông báo lỗi, danh mục và dữ liệu workflow nguồn",
+    "errorWorkflow.runWorkflow": "Chạy workflow xử lý lỗi",
+    "errorWorkflow.selectWorkflow": "Chọn workflow...",
+    "errorWorkflow.title": "Xử lý lỗi"
+  }
+}

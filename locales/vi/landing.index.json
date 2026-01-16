@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "Ghi một lần",
+    "landing.index.counter.recordOnceDesc": "Cho Flyto2 thấy cách bạn làm việc. Nó học bằng cách xem các nhấp chuột và phím gõ của bạn.",
+    "landing.index.counter.replayForever": "Phát lại mãi mãi",
+    "landing.index.counter.replayForeverDesc": "Chạy lại với dữ liệu khác. Xử lý hàng loạt hàng trăm mục.",
+    "landing.index.counter.stayInControl": "Giữ quyền kiểm soát",
+    "landing.index.counter.stayInControlDesc": "Tạm dừng, xác minh và tiếp tục bất kỳ lúc nào. Không bao giờ lo lắng về tự động hóa chạy ngoài tầm kiểm soát.",
+    "landing.index.hero.description": "Flyto2 là công cụ tự động hóa vận hành máy tính của bạn như con người. Mở trình duyệt, nhấp nút, điền form, tải tệp lên. Bạn làm một lần, Flyto2 lặp lại mãi mãi.",
+    "landing.index.hero.titleEnd": "những gì bạn cho nó thấy",
+    "landing.index.hero.titleHighlight": "Tự động hóa làm",
+    "landing.index.why.subtitle": "Nhiều tác vụ không khó, chúng chỉ tẻ nhạt.",
+    "landing.index.why.title": "Tại sao"
+  }
+}

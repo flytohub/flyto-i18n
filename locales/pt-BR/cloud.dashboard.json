@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "cloud.dashboard",
+  "version": "1.0.0",
+  "translations": {
+    "dashboard.title": "Painel"
+  }
+}

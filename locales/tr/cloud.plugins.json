@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.plugins",
+  "version": "1.0.0",
+  "translations": {
+    "plugins.allCategories": "Tüm Kategoriler",
+    "plugins.allTasks": "Tüm Görevler",
+    "plugins.browse": "Göz At",
+    "plugins.browseModels": "Modellere Göz At",
+    "plugins.confirmUninstall": "Bu modeli kaldırmak istediğinizden emin misiniz?",
+    "plugins.install": "Yükle",
+    "plugins.installed": "Yüklü",
+    "plugins.installing": "Yükleniyor",
+    "plugins.load": "Yükle",
+    "plugins.loadMore": "Daha Fazla Yükle",
+    "plugins.loadPopular": "Popüler Modelleri Yükle",
+    "plugins.loadingModels": "Popüler modeller yükleniyor...",
+    "plugins.noInstalled": "Henüz yüklü model yok",
+    "plugins.noResults": "Model bulunamadı",
+    "plugins.searchPlaceholder": "Model ara...",
+    "plugins.subtitle": "HuggingFace Hub'dan AI modellerini yükleyin ve yönetin",
+    "plugins.title": "Eklentiler",
+    "plugins.uninstall": "Kaldır",
+    "plugins.unload": "Kaldır",
+    "plugins.viewOnHuggingFace": "HuggingFace'te Görüntüle"
+  }
+}

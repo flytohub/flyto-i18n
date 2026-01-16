@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "Cộng đồng",
+    "landing.contact.cards.emailUs": "Email cho chúng tôi",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "Tải xuống ngay",
+    "landing.contact.cta.subtitle": "Bắt đầu tự động hóa workflow của bạn hôm nay",
+    "landing.contact.cta.title": "Sẵn sàng bắt đầu?",
+    "landing.contact.form.subtitle": "Điền form và chúng tôi sẽ liên hệ lại",
+    "landing.contact.form.title": "Gửi tin nhắn cho chúng tôi",
+    "landing.contact.hero.subtitle": "Có câu hỏi? Chúng tôi rất muốn nghe từ bạn.",
+    "landing.contact.hero.title": "Liên hệ chúng tôi",
+    "landing.contact.quickLinks.subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến",
+    "landing.contact.quickLinks.title": "Liên kết nhanh"
+  }
+}

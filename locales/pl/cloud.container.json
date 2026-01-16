@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "Opcje zaawansowane",
+    "container.editSubflow": "Edytuj podprzeplyw",
+    "container.exportVariables": "Eksportuj zmienne",
+    "container.exportVariablesHint": "Zmienne do udostepnienia nadrzednemu przeplywowi",
+    "container.exportVariablesPlaceholder": "np. result, data",
+    "container.inheritContext": "Dziedzicz kontekst",
+    "container.inheritContextHint": "Wspoldziel zmienne z nadrzednym przeplywem",
+    "container.isolatedContextHint": "Kontener ma wlasny izolowany kontekst",
+    "container.nodesInside": "wezlow wewnatrz"
+  }
+}

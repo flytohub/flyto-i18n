@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "Comunidade",
+    "landing.contact.cards.emailUs": "Envie-nos um E-mail",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "Baixar Agora",
+    "landing.contact.cta.subtitle": "Comece a automatizar seus workflows hoje",
+    "landing.contact.cta.title": "Pronto para comecar?",
+    "landing.contact.form.subtitle": "Preencha o formulario e entraremos em contato",
+    "landing.contact.form.title": "Envie-nos uma mensagem",
+    "landing.contact.hero.subtitle": "Tem perguntas? Adorariamos ouvir voce.",
+    "landing.contact.hero.title": "Fale Conosco",
+    "landing.contact.quickLinks.subtitle": "Encontre respostas para perguntas comuns",
+    "landing.contact.quickLinks.title": "Links Rapidos"
+  }
+}

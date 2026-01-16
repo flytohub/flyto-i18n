@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "Ja salvo offline",
+    "templateCard.deleted": "Excluido",
+    "templateCard.downloadOffline": "Baixar Offline",
+    "templateCard.editInfo": "Editar Info",
+    "templateCard.forkTemplate": "Bifurcar para Meus Templates",
+    "templateCard.forked": "Bifurcado",
+    "templateCard.manageKeys": "Gerenciar Chaves",
+    "templateCard.privateTooltip": "Privado - Chave de convite necessaria",
+    "templateCard.publicTooltip": "Publico",
+    "templateCard.publish": "Publicar",
+    "templateCard.sourceDeleted": "O template original foi excluido pelo autor",
+    "templateCard.sourceUnpublished": "O template original foi despublicado pelo autor",
+    "templateCard.syncToLatest": "Sincronizar para o Mais Recente",
+    "templateCard.unpublished": "Despublicado",
+    "templateCard.update": "Atualizar",
+    "templateCard.updateAvailable": "Atualizacao disponivel do autor"
+  }
+}

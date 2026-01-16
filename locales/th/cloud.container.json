@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.container",
+  "version": "1.0.0",
+  "translations": {
+    "container.advancedOptions": "ตัวเลือกขั้นสูง",
+    "container.editSubflow": "แก้ไข Subflow",
+    "container.exportVariables": "ส่งออกตัวแปร",
+    "container.exportVariablesHint": "ตัวแปรที่จะเปิดเผยให้ workflow หลัก",
+    "container.exportVariablesPlaceholder": "เช่น result, data",
+    "container.inheritContext": "สืบทอด Context",
+    "container.inheritContextHint": "แชร์ตัวแปรกับ workflow หลัก",
+    "container.isolatedContextHint": "Container มี context แยกของตัวเอง",
+    "container.nodesInside": "โหนดภายใน"
+  }
+}

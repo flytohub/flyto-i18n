@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.plugins",
+  "version": "1.0.0",
+  "translations": {
+    "plugins.allCategories": "Tất cả danh mục",
+    "plugins.allTasks": "Tất cả tác vụ",
+    "plugins.browse": "Duyệt",
+    "plugins.browseModels": "Duyệt mô hình",
+    "plugins.confirmUninstall": "Bạn có chắc chắn muốn gỡ cài đặt mô hình này?",
+    "plugins.install": "Cài đặt",
+    "plugins.installed": "Đã cài đặt",
+    "plugins.installing": "Đang cài đặt",
+    "plugins.load": "Tải",
+    "plugins.loadMore": "Tải thêm",
+    "plugins.loadPopular": "Tải mô hình phổ biến",
+    "plugins.loadingModels": "Đang tải mô hình phổ biến...",
+    "plugins.noInstalled": "Chưa có mô hình nào được cài đặt",
+    "plugins.noResults": "Không tìm thấy mô hình",
+    "plugins.searchPlaceholder": "Tìm kiếm mô hình...",
+    "plugins.subtitle": "Cài đặt và quản lý mô hình AI từ HuggingFace Hub",
+    "plugins.title": "Plugin",
+    "plugins.uninstall": "Gỡ cài đặt",
+    "plugins.unload": "Gỡ tải",
+    "plugins.viewOnHuggingFace": "Xem trên HuggingFace"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "Đã lưu ngoại tuyến",
+    "templateCard.deleted": "Đã xóa",
+    "templateCard.downloadOffline": "Tải xuống ngoại tuyến",
+    "templateCard.editInfo": "Chỉnh sửa thông tin",
+    "templateCard.forkTemplate": "Fork vào mẫu của tôi",
+    "templateCard.forked": "Đã fork",
+    "templateCard.manageKeys": "Quản lý khóa",
+    "templateCard.privateTooltip": "Riêng tư - Yêu cầu mã mời",
+    "templateCard.publicTooltip": "Công khai",
+    "templateCard.publish": "Xuất bản",
+    "templateCard.sourceDeleted": "Mẫu gốc đã bị xóa bởi tác giả",
+    "templateCard.sourceUnpublished": "Mẫu gốc đã bị hủy xuất bản bởi tác giả",
+    "templateCard.syncToLatest": "Đồng bộ với phiên bản mới nhất",
+    "templateCard.unpublished": "Đã hủy xuất bản",
+    "templateCard.update": "Cập nhật",
+    "templateCard.updateAvailable": "Có bản cập nhật từ tác giả"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.templateCategory",
+  "version": "1.0.0",
+  "translations": {
+    "templateCategory.automation": "Tự động hóa",
+    "templateCategory.dataProcessing": "Xử lý dữ liệu",
+    "templateCategory.productivity": "Năng suất",
+    "templateCategory.socialMedia": "Mạng xã hội",
+    "templateCategory.webScraping": "Thu thập dữ liệu web"
+  }
+}

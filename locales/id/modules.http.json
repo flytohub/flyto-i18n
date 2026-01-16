@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "http",
+  "version": "1.0.0",
+  "translations": {
+    "modules.http.request.description": "Kirim permintaan HTTP dan terima respons",
+    "modules.http.request.label": "Permintaan HTTP",
+    "modules.http.request.output.body.description": "Teks status HTTP",
+    "modules.http.request.output.content_length.description": "Content-Type respons",
+    "modules.http.request.output.content_type.description": "URL akhir (setelah redirect)",
+    "modules.http.request.output.duration_ms.description": "Body respons (JSON yang di-parse atau teks)",
+    "modules.http.request.output.headers.description": "Kode status HTTP",
+    "modules.http.request.output.ok.description": "Apakah permintaan berhasil (status 2xx)",
+    "modules.http.request.output.status.description": "Apakah permintaan berhasil (status 2xx)",
+    "modules.http.request.output.status_text.description": "Apakah permintaan berhasil (status 2xx)",
+    "modules.http.request.output.url.description": "Header respons",
+    "modules.http.response_assert.description": "Assert dan validasi properti respons HTTP",
+    "modules.http.response_assert.label": "Assert Respons HTTP",
+    "modules.http.response_assert.output.assertions.description": "Jumlah asersi yang gagal",
+    "modules.http.response_assert.output.errors.description": "Hasil asersi detail",
+    "modules.http.response_assert.output.failed.description": "Apakah semua asersi lolos",
+    "modules.http.response_assert.output.ok.description": "Apakah semua asersi lolos",
+    "modules.http.response_assert.output.passed.description": "Apakah semua asersi lolos",
+    "modules.http.response_assert.output.total.description": "Jumlah asersi yang lolos"
+  }
+}

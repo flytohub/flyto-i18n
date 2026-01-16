@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "landing.pricing",
+  "version": "1.0.0",
+  "translations": {
+    "landing.pricing.cta.subtitle": "Starten Sie mit der kostenlosen Version oder kontaktieren Sie uns für eine persönliche Empfehlung.",
+    "landing.pricing.cta.talkToSales": "Vertrieb kontaktieren",
+    "landing.pricing.cta.title": "Nicht sicher, welcher Plan?",
+    "landing.pricing.cta.tryFree": "Kostenlos testen",
+    "landing.pricing.faq.a1": "Ja, Sie können Ihren Cloud-Plan jederzeit upgraden oder downgraden. Bei Offline-Lizenzen können Sie durch Zahlung der Differenz upgraden.",
+    "landing.pricing.faq.a2": "Ihre Workflows funktionieren unbegrenzt weiter. Sie verlieren nur den Zugang zu Updates und Support. Erneuern Sie jederzeit, um die neuesten Funktionen zu erhalten.",
+    "landing.pricing.faq.a3": "Ja, wir bieten eine 30-tägige Geld-zurück-Garantie für alle kostenpflichtigen Pläne. Ohne Rückfragen.",
+    "landing.pricing.faq.a4": "Absolut! Der Open-Source-Kern ist MIT-lizenziert. Sie können ihn für jeden Zweck nutzen, einschließlich kommerzieller Projekte.",
+    "landing.pricing.faq.q1": "Kann ich zwischen Plänen wechseln?",
+    "landing.pricing.faq.q2": "Was passiert, wenn meine Offline-Lizenz abläuft?",
+    "landing.pricing.faq.q3": "Bieten Sie Rückerstattungen an?",
+    "landing.pricing.faq.q4": "Kann ich die kostenlose Version kommerziell nutzen?",
+    "landing.pricing.faq.title": "Häufig gestellte Fragen",
+    "landing.pricing.hero.subtitle": "Starten Sie kostenlos, skalieren Sie mit Ihrem Wachstum. Keine versteckten Gebühren.",
+    "landing.pricing.hero.title": "Wählen Sie Ihren Plan",
+    "landing.pricing.loading": "Laden...",
+    "landing.pricing.loadingPricing": "Preise werden geladen...",
+    "landing.pricing.offline.learnMore": "Mehr über Offline-Lizenzierung erfahren",
+    "landing.pricing.offline.step1": "Online einen Lizenzschlüssel kaufen",
+    "landing.pricing.offline.step2": "Auf Ihrem Rechner aktivieren (einmalig Internet erforderlich)",
+    "landing.pricing.offline.step3": "Vollständig offline für den Lizenzzeitraum nutzen",
+    "landing.pricing.offline.step4": "Jederzeit erneuern, um Updates und Support zu verlängern",
+    "landing.pricing.offline.title": "So funktionieren Offline-Lizenzen",
+    "landing.pricing.section.subtitle": "Starten Sie kostenlos mit Open Source, upgraden Sie bei Bedarf",
+    "landing.pricing.section.title": "Wählen Sie Ihren Plan"
+  }
+}

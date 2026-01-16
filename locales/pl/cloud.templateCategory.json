@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.templateCategory",
+  "version": "1.0.0",
+  "translations": {
+    "templateCategory.automation": "Automatyzacja",
+    "templateCategory.dataProcessing": "Przetwarzanie danych",
+    "templateCategory.productivity": "Produktywnosc",
+    "templateCategory.socialMedia": "Media spolecznosciowe",
+    "templateCategory.webScraping": "Web Scraping"
+  }
+}

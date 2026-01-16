@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.aiAgent",
+  "version": "1.0.0",
+  "translations": {
+    "aiAgent.fromInput": "Từ đầu vào",
+    "aiAgent.manual": "Thủ công",
+    "aiAgent.promptPath": "Đường dẫn đầu vào",
+    "aiAgent.promptPathHint": "Biểu thức để lấy prompt từ node phía trước",
+    "aiAgent.promptSource": "Nguồn Prompt",
+    "aiAgent.selectVariable": "Chọn biến",
+    "aiAgent.shellInfo": "Thông tin Shell",
+    "aiAgent.shellInfoDesc": "Xem môi trường shell và ngữ cảnh thực thi",
+    "aiAgent.task": "Nhiệm vụ",
+    "aiAgent.taskPlaceholder": "Mô tả những gì agent cần hoàn thành..."
+  }
+}

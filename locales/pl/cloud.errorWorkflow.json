@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "Blad uwierzytelniania",
+    "errorWorkflow.categories.business_error": "Blad biznesowy",
+    "errorWorkflow.categories.configuration_error": "Blad konfiguracji",
+    "errorWorkflow.categories.network_error": "Blad sieci",
+    "errorWorkflow.categories.permission_denied": "Odmowa dostepu",
+    "errorWorkflow.categories.rate_limit": "Limit zapytan",
+    "errorWorkflow.categories.resource_not_found": "Nie znaleziono",
+    "errorWorkflow.categories.timeout": "Przekroczono czas",
+    "errorWorkflow.categories.validation_error": "Blad walidacji",
+    "errorWorkflow.description": "Skonfiguruj, co sie stanie, gdy ten przeplyw sie nie powiedzie",
+    "errorWorkflow.doNothing": "Nic nie rob",
+    "errorWorkflow.errorTrigger.anyWorkflow": "Dowolny przeplyw",
+    "errorWorkflow.errorTrigger.categoriesHint": "Pozostaw puste, aby przechwytywac wszystkie typy bledow",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "Otrzymany kontekst bledu:",
+    "errorWorkflow.errorTrigger.errorCategories": "Kategorie bledow",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "Przeplyw zrodlowy",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "Pozostaw puste, aby przechwytywac bledy z dowolnego przeplywu",
+    "errorWorkflow.errorWorkflowLabel": "Przeplyw bledow",
+    "errorWorkflow.onFailure": "W przypadku niepowodzenia przeplywu",
+    "errorWorkflow.passContext": "Przekaz kontekst bledu do przeplywu bledow",
+    "errorWorkflow.passContextHint": "Zawiera komunikat bledu, kategorie i dane przeplywu zrodlowego",
+    "errorWorkflow.runWorkflow": "Uruchom przeplyw bledow",
+    "errorWorkflow.selectWorkflow": "Wybierz przeplyw...",
+    "errorWorkflow.title": "Obsluga bledow"
+  }
+}

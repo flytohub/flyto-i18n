@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "common",
+  "version": "1.0.0",
+  "translations": {
+    "common.ports.error": "Đầu ra"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "Liên hệ hỗ trợ",
+    "landing.faq.cta.subtitle": "Không tìm thấy câu trả lời bạn đang tìm? Đội ngũ của chúng tôi sẵn sàng giúp đỡ.",
+    "landing.faq.cta.title": "Vẫn còn câu hỏi?",
+    "landing.faq.cta.viewDocs": "Xem tài liệu",
+    "landing.faq.general.subtitle": "Tìm hiểu kiến thức cơ bản về Flyto2",
+    "landing.faq.general.title": "Câu hỏi chung",
+    "landing.faq.gettingStarted.subtitle": "Cách bắt đầu sử dụng Flyto2",
+    "landing.faq.gettingStarted.title": "Bắt đầu",
+    "landing.faq.hero.title": "Câu hỏi thường gặp",
+    "landing.faq.licensing.subtitle": "Gói, bảng giá và quản lý giấy phép",
+    "landing.faq.licensing.title": "Giấy phép & Bảng giá"
+  }
+}

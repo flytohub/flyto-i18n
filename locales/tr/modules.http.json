@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "http",
+  "version": "1.0.0",
+  "translations": {
+    "modules.http.request.description": "HTTP isteği gönder ve yanıt al",
+    "modules.http.request.label": "HTTP İsteği",
+    "modules.http.request.output.body.description": "HTTP durum metni",
+    "modules.http.request.output.content_length.description": "Yanıt Content-Type",
+    "modules.http.request.output.content_type.description": "Son URL (yönlendirmelerden sonra)",
+    "modules.http.request.output.duration_ms.description": "Yanıt gövdesi (ayrıştırılmış JSON veya metin)",
+    "modules.http.request.output.headers.description": "HTTP durum kodu",
+    "modules.http.request.output.ok.description": "İstek başarılı mı (2xx durum)",
+    "modules.http.request.output.status.description": "İstek başarılı mı (2xx durum)",
+    "modules.http.request.output.status_text.description": "İstek başarılı mı (2xx durum)",
+    "modules.http.request.output.url.description": "Yanıt başlıkları",
+    "modules.http.response_assert.description": "HTTP yanıt özelliklerini doğrula ve onaylama yap",
+    "modules.http.response_assert.label": "HTTP Yanıtı Doğrula",
+    "modules.http.response_assert.output.assertions.description": "Başarısız doğrulama sayısı",
+    "modules.http.response_assert.output.errors.description": "Ayrıntılı doğrulama sonuçları",
+    "modules.http.response_assert.output.failed.description": "Tüm doğrulamalar geçti mi",
+    "modules.http.response_assert.output.ok.description": "Tüm doğrulamalar geçti mi",
+    "modules.http.response_assert.output.passed.description": "Tüm doğrulamalar geçti mi",
+    "modules.http.response_assert.output.total.description": "Başarılı doğrulama sayısı"
+  }
+}

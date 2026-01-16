@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.plugins",
+  "version": "1.0.0",
+  "translations": {
+    "plugins.allCategories": "Tutte le Categorie",
+    "plugins.allTasks": "Tutte le Attivita",
+    "plugins.browse": "Sfoglia",
+    "plugins.browseModels": "Sfoglia Modelli",
+    "plugins.confirmUninstall": "Sei sicuro di voler disinstallare questo modello?",
+    "plugins.install": "Installa",
+    "plugins.installed": "Installato",
+    "plugins.installing": "Installazione",
+    "plugins.load": "Carica",
+    "plugins.loadMore": "Carica Altri",
+    "plugins.loadPopular": "Carica Modelli Popolari",
+    "plugins.loadingModels": "Caricamento modelli popolari...",
+    "plugins.noInstalled": "Nessun modello installato ancora",
+    "plugins.noResults": "Nessun modello trovato",
+    "plugins.searchPlaceholder": "Cerca modelli...",
+    "plugins.subtitle": "Installa e gestisci modelli IA da HuggingFace Hub",
+    "plugins.title": "Plugin",
+    "plugins.uninstall": "Disinstalla",
+    "plugins.unload": "Scarica",
+    "plugins.viewOnHuggingFace": "Visualizza su HuggingFace"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "Nút",
+    "component.checkbox": "Hộp kiểm",
+    "component.divider": "Đường phân cách",
+    "component.emailInput": "Nhập Email",
+    "component.input": "Nhập liệu",
+    "component.numberInput": "Nhập số",
+    "component.passwordInput": "Nhập mật khẩu",
+    "component.radio": "Nút radio",
+    "component.select": "Chọn",
+    "component.textarea": "Vùng văn bản",
+    "component.urlInput": "Nhập URL"
+  }
+}

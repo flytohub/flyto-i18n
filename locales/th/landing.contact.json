@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "ชุมชน",
+    "landing.contact.cards.emailUs": "อีเมลหาเรา",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "ดาวน์โหลดเดี๋ยวนี้",
+    "landing.contact.cta.subtitle": "เริ่มทำให้ workflow ของคุณเป็นอัตโนมัติวันนี้",
+    "landing.contact.cta.title": "พร้อมเริ่มต้นหรือยัง?",
+    "landing.contact.form.subtitle": "กรอกแบบฟอร์มแล้วเราจะติดต่อกลับ",
+    "landing.contact.form.title": "ส่งข้อความถึงเรา",
+    "landing.contact.hero.subtitle": "มีคำถาม? เรายินดีรับฟังจากคุณ",
+    "landing.contact.hero.title": "ติดต่อเรา",
+    "landing.contact.quickLinks.subtitle": "ค้นหาคำตอบสำหรับคำถามที่พบบ่อย",
+    "landing.contact.quickLinks.title": "ลิงก์ด่วน"
+  }
+}

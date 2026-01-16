@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "Gia salvato offline",
+    "templateCard.deleted": "Eliminato",
+    "templateCard.downloadOffline": "Scarica Offline",
+    "templateCard.editInfo": "Modifica Info",
+    "templateCard.forkTemplate": "Fork nei Miei Template",
+    "templateCard.forked": "Forkato",
+    "templateCard.manageKeys": "Gestisci Chiavi",
+    "templateCard.privateTooltip": "Privato - Chiave di invito richiesta",
+    "templateCard.publicTooltip": "Pubblico",
+    "templateCard.publish": "Pubblica",
+    "templateCard.sourceDeleted": "Il template originale e stato eliminato dall'autore",
+    "templateCard.sourceUnpublished": "Il template originale e stato rimosso dalla pubblicazione dall'autore",
+    "templateCard.syncToLatest": "Sincronizza all'Ultima Versione",
+    "templateCard.unpublished": "Non Pubblicato",
+    "templateCard.update": "Aggiorna",
+    "templateCard.updateAvailable": "Aggiornamento disponibile dall'autore"
+  }
+}

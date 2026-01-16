@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.chat",
+  "version": "1.0.0",
+  "translations": {
+    "chat.attachFile": "Đính kèm tệp",
+    "chat.error": "Lỗi khi gửi tin nhắn",
+    "chat.fileTooLarge": "Tệp quá lớn (tối đa 10MB)",
+    "chat.loadFailed": "Tải tin nhắn thất bại",
+    "chat.messageUser": "Tin nhắn",
+    "chat.messages": "Tin nhắn",
+    "chat.noConversations": "Chưa có cuộc trò chuyện",
+    "chat.noMessages": "Chưa có tin nhắn. Hãy chào!",
+    "chat.online": "Trực tuyến",
+    "chat.searchConversations": "Tìm kiếm cuộc trò chuyện...",
+    "chat.selectConversation": "Chọn một cuộc trò chuyện để bắt đầu",
+    "chat.selectConversationHint": "Chọn một cuộc trò chuyện để bắt đầu",
+    "chat.send": "Gửi",
+    "chat.startChat": "Bắt đầu trò chuyện",
+    "chat.startChatFailed": "Bắt đầu trò chuyện thất bại",
+    "chat.startConversation": "Bắt đầu cuộc trò chuyện",
+    "chat.typePlaceholder": "Nhập tin nhắn...",
+    "chat.uploadFailed": "Tải tệp lên thất bại",
+    "chat.user": "Người dùng",
+    "chat.viewProfile": "Xem hồ sơ"
+  }
+}

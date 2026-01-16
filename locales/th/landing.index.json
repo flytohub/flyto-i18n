@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "บันทึกครั้งเดียว",
+    "landing.index.counter.recordOnceDesc": "แสดงให้ Flyto2 ดูว่าคุณทำงานอย่างไร มันเรียนรู้โดยการดูการคลิกและการกดแป้นพิมพ์ของคุณ",
+    "landing.index.counter.replayForever": "เล่นซ้ำตลอดไป",
+    "landing.index.counter.replayForeverDesc": "รันอีกครั้งด้วยข้อมูลที่แตกต่าง ประมวลผล batch หลายร้อยรายการ",
+    "landing.index.counter.stayInControl": "ควบคุมได้เสมอ",
+    "landing.index.counter.stayInControlDesc": "หยุดชั่วคราว ตรวจสอบ และดำเนินการต่อได้ทุกเมื่อ ไม่ต้องกังวลเกี่ยวกับระบบอัตโนมัติที่ควบคุมไม่ได้",
+    "landing.index.hero.description": "Flyto2 เป็นเครื่องมืออัตโนมัติที่ใช้งานคอมพิวเตอร์ของคุณเหมือนมนุษย์ เปิดเบราว์เซอร์ คลิกปุ่ม กรอกฟอร์ม อัปโหลดไฟล์ คุณทำครั้งเดียว Flyto2 ทำซ้ำตลอดไป",
+    "landing.index.hero.titleEnd": "สิ่งที่คุณแสดงให้มันดู",
+    "landing.index.hero.titleHighlight": "ระบบอัตโนมัติที่ทำ",
+    "landing.index.why.subtitle": "งานหลายอย่างไม่ได้ยาก แค่น่าเบื่อ",
+    "landing.index.why.title": "ทำไม"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "Destek ile İletişime Geçin",
+    "landing.faq.cta.subtitle": "Aradığınız cevabı bulamadınız mı? Ekibimiz size yardımcı olmak için burada.",
+    "landing.faq.cta.title": "Hâlâ sorularınız mı var?",
+    "landing.faq.cta.viewDocs": "Dokümantasyonu Görüntüle",
+    "landing.faq.general.subtitle": "Flyto2 hakkında temelleri öğrenin",
+    "landing.faq.general.title": "Genel Sorular",
+    "landing.faq.gettingStarted.subtitle": "Flyto2'yi kullanmaya nasıl başlanır",
+    "landing.faq.gettingStarted.title": "Başlarken",
+    "landing.faq.hero.title": "Sıkça Sorulan Sorular",
+    "landing.faq.licensing.subtitle": "Planlar, fiyatlandırma ve lisans yönetimi",
+    "landing.faq.licensing.title": "Lisanslama ve Fiyatlandırma"
+  }
+}

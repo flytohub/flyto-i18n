@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "Authentifizierungsfehler",
+    "errorWorkflow.categories.business_error": "Geschäftsfehler",
+    "errorWorkflow.categories.configuration_error": "Konfigurationsfehler",
+    "errorWorkflow.categories.network_error": "Netzwerkfehler",
+    "errorWorkflow.categories.permission_denied": "Zugriff verweigert",
+    "errorWorkflow.categories.rate_limit": "Rate-Limit",
+    "errorWorkflow.categories.resource_not_found": "Nicht gefunden",
+    "errorWorkflow.categories.timeout": "Zeitüberschreitung",
+    "errorWorkflow.categories.validation_error": "Validierungsfehler",
+    "errorWorkflow.description": "Konfigurieren Sie, was passiert, wenn dieser Workflow fehlschlägt",
+    "errorWorkflow.doNothing": "Nichts tun",
+    "errorWorkflow.errorTrigger.anyWorkflow": "Beliebiger Workflow",
+    "errorWorkflow.errorTrigger.categoriesHint": "Leer lassen, um alle Fehlertypen abzufangen",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "Empfangener Fehlerkontext:",
+    "errorWorkflow.errorTrigger.errorCategories": "Fehlerkategorien",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "Quell-Workflow",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "Leer lassen, um Fehler von beliebigen Workflows abzufangen",
+    "errorWorkflow.errorWorkflowLabel": "Fehler-Workflow",
+    "errorWorkflow.onFailure": "Bei Workflow-Fehler",
+    "errorWorkflow.passContext": "Fehlerkontext an Fehler-Workflow übergeben",
+    "errorWorkflow.passContextHint": "Beinhaltet Fehlermeldung, Kategorie und Quell-Workflow-Daten",
+    "errorWorkflow.runWorkflow": "Fehler-Workflow ausführen",
+    "errorWorkflow.selectWorkflow": "Workflow auswählen...",
+    "errorWorkflow.title": "Fehlerbehandlung"
+  }
+}

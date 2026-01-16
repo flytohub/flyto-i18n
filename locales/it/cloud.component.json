@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.component",
+  "version": "1.0.0",
+  "translations": {
+    "component.button": "Pulsante",
+    "component.checkbox": "Casella di Controllo",
+    "component.divider": "Divisore",
+    "component.emailInput": "Input Email",
+    "component.input": "Input",
+    "component.numberInput": "Input Numerico",
+    "component.passwordInput": "Input Password",
+    "component.radio": "Pulsante Radio",
+    "component.select": "Selezione",
+    "component.textarea": "Area di Testo",
+    "component.urlInput": "Input URL"
+  }
+}

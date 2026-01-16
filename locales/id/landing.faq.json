@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "Hubungi Dukungan",
+    "landing.faq.cta.subtitle": "Tidak dapat menemukan jawaban yang Anda cari? Tim kami siap membantu.",
+    "landing.faq.cta.title": "Masih punya pertanyaan?",
+    "landing.faq.cta.viewDocs": "Lihat Dokumentasi",
+    "landing.faq.general.subtitle": "Pelajari dasar-dasar tentang Flyto2",
+    "landing.faq.general.title": "Pertanyaan Umum",
+    "landing.faq.gettingStarted.subtitle": "Cara mulai menggunakan Flyto2",
+    "landing.faq.gettingStarted.title": "Memulai",
+    "landing.faq.hero.title": "Pertanyaan yang Sering Diajukan",
+    "landing.faq.licensing.subtitle": "Paket, harga, dan manajemen lisensi",
+    "landing.faq.licensing.title": "Lisensi & Harga"
+  }
+}

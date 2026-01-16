@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.templateCard",
+  "version": "1.0.0",
+  "translations": {
+    "templateCard.alreadyDownloaded": "บันทึกแบบออฟไลน์แล้ว",
+    "templateCard.deleted": "ลบแล้ว",
+    "templateCard.downloadOffline": "ดาวน์โหลดออฟไลน์",
+    "templateCard.editInfo": "แก้ไขข้อมูล",
+    "templateCard.forkTemplate": "Fork ไปยังเทมเพลตของฉัน",
+    "templateCard.forked": "Fork แล้ว",
+    "templateCard.manageKeys": "จัดการคีย์",
+    "templateCard.privateTooltip": "ส่วนตัว - ต้องใช้คีย์เชิญ",
+    "templateCard.publicTooltip": "สาธารณะ",
+    "templateCard.publish": "เผยแพร่",
+    "templateCard.sourceDeleted": "เทมเพลตต้นฉบับถูกลบโดยผู้เขียนแล้ว",
+    "templateCard.sourceUnpublished": "เทมเพลตต้นฉบับถูกยกเลิกการเผยแพร่โดยผู้เขียนแล้ว",
+    "templateCard.syncToLatest": "ซิงค์เป็นเวอร์ชันล่าสุด",
+    "templateCard.unpublished": "ยกเลิกการเผยแพร่แล้ว",
+    "templateCard.update": "อัปเดต",
+    "templateCard.updateAvailable": "มีการอัปเดตจากผู้เขียน"
+  }
+}

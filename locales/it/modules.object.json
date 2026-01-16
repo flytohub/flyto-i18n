@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Ottieni tutte le chiavi da un oggetto",
+    "modules.object.keys.label": "Chiavi Oggetto",
+    "modules.object.keys.output.count.description": "Lista delle chiavi oggetto",
+    "modules.object.keys.output.keys.description": "Lista delle chiavi oggetto",
+    "modules.object.merge.description": "Unisci piu oggetti in uno",
+    "modules.object.merge.label": "Unione Oggetti",
+    "modules.object.merge.output.result.description": "Oggetto unito",
+    "modules.object.omit.description": "Ometti chiavi specifiche da un oggetto",
+    "modules.object.omit.label": "Ometti Chiavi Oggetto",
+    "modules.object.omit.output.result.description": "Oggetto senza chiavi omesse",
+    "modules.object.pick.description": "Seleziona chiavi specifiche da un oggetto",
+    "modules.object.pick.label": "Seleziona Chiavi Oggetto",
+    "modules.object.pick.output.result.description": "Oggetto con solo chiavi selezionate",
+    "modules.object.values.description": "Ottieni tutti i valori da un oggetto",
+    "modules.object.values.label": "Valori Oggetto",
+    "modules.object.values.output.count.description": "Lista dei valori oggetto",
+    "modules.object.values.output.values.description": "Lista dei valori oggetto"
+  }
+}

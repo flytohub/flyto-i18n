@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "landing.languagepacks",
+  "version": "1.0.0",
+  "translations": {
+    "landing.languagepacks.available.loading": "Memuat paket bahasa yang tersedia...",
+    "landing.languagepacks.available.subtitle": "Unduh dan instal paket bahasa offline",
+    "landing.languagepacks.available.title": "Paket Bahasa Tersedia",
+    "landing.languagepacks.hero.description": "Unduh file terjemahan untuk penggunaan offline di Flyto2",
+    "landing.languagepacks.hero.title": "Paket Bahasa",
+    "landing.languagepacks.howto.step1": "Unduh file paket bahasa (.json)",
+    "landing.languagepacks.howto.step2": "Buka aplikasi Flyto2",
+    "landing.languagepacks.howto.step3": "Pergi ke Pengaturan -> Bahasa",
+    "landing.languagepacks.howto.step4": "Klik \"Impor Paket Bahasa\" dan pilih file",
+    "landing.languagepacks.howto.title": "Cara Menginstal",
+    "landing.languagepacks.request.btn": "Minta Bahasa",
+    "landing.languagepacks.request.feature1": "Terjemahan berbasis komunitas",
+    "landing.languagepacks.request.feature2": "Pembaruan berkala",
+    "landing.languagepacks.request.subtitle": "Tidak melihat bahasa Anda? Beri tahu kami!",
+    "landing.languagepacks.request.title": "Minta Bahasa"
+  }
+}

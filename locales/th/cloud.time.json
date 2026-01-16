@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.time",
+  "version": "1.0.0",
+  "translations": {
+    "time.daysAgo": "{n} วันที่แล้ว",
+    "time.hoursAgo": "{n} ชม. ที่แล้ว",
+    "time.justNow": "เมื่อกี้",
+    "time.minutesAgo": "{n} นาที ที่แล้ว"
+  }
+}

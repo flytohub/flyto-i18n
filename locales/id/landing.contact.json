@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "landing.contact",
+  "version": "1.0.0",
+  "translations": {
+    "landing.contact.cards.community": "Komunitas",
+    "landing.contact.cards.emailUs": "Email Kami",
+    "landing.contact.cards.github": "GitHub",
+    "landing.contact.cta.downloadNow": "Unduh Sekarang",
+    "landing.contact.cta.subtitle": "Mulai mengotomatisasi workflow Anda hari ini",
+    "landing.contact.cta.title": "Siap untuk memulai?",
+    "landing.contact.form.subtitle": "Isi form dan kami akan menghubungi Anda kembali",
+    "landing.contact.form.title": "Kirim pesan kepada kami",
+    "landing.contact.hero.subtitle": "Punya pertanyaan? Kami senang mendengar dari Anda.",
+    "landing.contact.hero.title": "Hubungi Kami",
+    "landing.contact.quickLinks.subtitle": "Temukan jawaban untuk pertanyaan umum",
+    "landing.contact.quickLinks.title": "Tautan Cepat"
+  }
+}

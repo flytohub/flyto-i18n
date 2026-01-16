@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.apiDocs": "Tài liệu API",
+    "footer.community": "Diễn đàn cộng đồng",
+    "footer.contact": "Liên hệ",
+    "footer.cookies": "Cài đặt Cookie",
+    "footer.copyright": "© 2025 Flyto2. Bảo lưu mọi quyền.",
+    "footer.dashboard": "Bảng điều khiển",
+    "footer.description": "Trình soạn thảo workflow trực quan mạnh mẽ tích hợp hàng trăm ứng dụng, giúp tự động hóa dễ dàng cho mọi người.",
+    "footer.developer": "Nhà phát triển",
+    "footer.examples": "Ví dụ",
+    "footer.github": "GitHub",
+    "footer.helpCenter": "Trung tâm trợ giúp",
+    "footer.marketplace": "Cửa hàng ứng dụng",
+    "footer.pluginDev": "Phát triển Plugin",
+    "footer.pricing": "Định giá",
+    "footer.privacy": "Chính sách bảo mật",
+    "footer.product": "Sản phẩm",
+    "footer.status": "Trang trạng thái",
+    "footer.support": "Hỗ trợ",
+    "footer.terms": "Điều khoản dịch vụ",
+    "footer.workflows": "Workflows"
+  }
+}

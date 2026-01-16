@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "other",
+  "version": "1.0.0",
+  "translations": {
+    "schema.field.api_key_header": "Nome Header",
+    "schema.field.body": "Corpo",
+    "schema.field.body_matches": "Risposta",
+    "schema.field.full_page": "Pagina Intera",
+    "schema.field.response": "Risposta",
+    "schema.field.screenshot_format": "Pagina Intera",
+    "schema.field.url": "Url",
+    "schema.field.viewport_height": "Larghezza",
+    "schema.field.viewport_width": "Larghezza",
+    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+  }
+}

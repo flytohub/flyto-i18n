@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "landing.index",
+  "version": "1.0.0",
+  "translations": {
+    "landing.index.counter.recordOnce": "Rekam Sekali",
+    "landing.index.counter.recordOnceDesc": "Tunjukkan Flyto2 cara Anda bekerja. Ia belajar dengan mengamati klik dan ketukan Anda.",
+    "landing.index.counter.replayForever": "Putar Ulang Selamanya",
+    "landing.index.counter.replayForeverDesc": "Jalankan lagi dengan data berbeda. Proses batch ratusan item.",
+    "landing.index.counter.stayInControl": "Tetap Terkendali",
+    "landing.index.counter.stayInControlDesc": "Jeda, verifikasi, dan lanjutkan kapan saja. Tidak perlu khawatir tentang otomatisasi yang tidak terkendali.",
+    "landing.index.hero.description": "Flyto2 adalah alat otomatisasi yang mengoperasikan komputer Anda seperti manusia. Buka browser, klik tombol, isi form, unggah file. Anda lakukan sekali, Flyto2 mengulanginya selamanya.",
+    "landing.index.hero.titleEnd": "Apa yang Anda Tunjukkan",
+    "landing.index.hero.titleHighlight": "Otomatisasi yang Melakukan",
+    "landing.index.why.subtitle": "Banyak tugas yang tidak sulit, mereka hanya membosankan.",
+    "landing.index.why.title": "Mengapa"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.errorWorkflow",
+  "version": "1.0.0",
+  "translations": {
+    "errorWorkflow.categories.auth_error": "Errore Autenticazione",
+    "errorWorkflow.categories.business_error": "Errore di Business",
+    "errorWorkflow.categories.configuration_error": "Errore di Configurazione",
+    "errorWorkflow.categories.network_error": "Errore di Rete",
+    "errorWorkflow.categories.permission_denied": "Permesso Negato",
+    "errorWorkflow.categories.rate_limit": "Limite di Frequenza",
+    "errorWorkflow.categories.resource_not_found": "Non Trovato",
+    "errorWorkflow.categories.timeout": "Timeout",
+    "errorWorkflow.categories.validation_error": "Errore di Validazione",
+    "errorWorkflow.description": "Configura cosa succede quando questo workflow fallisce",
+    "errorWorkflow.doNothing": "Non fare nulla",
+    "errorWorkflow.errorTrigger.anyWorkflow": "Qualsiasi workflow",
+    "errorWorkflow.errorTrigger.categoriesHint": "Lascia vuoto per catturare tutti i tipi di errore",
+    "errorWorkflow.errorTrigger.contextInfoTitle": "Contesto errore ricevuto:",
+    "errorWorkflow.errorTrigger.errorCategories": "Categorie di Errore",
+    "errorWorkflow.errorTrigger.sourceWorkflow": "Workflow Sorgente",
+    "errorWorkflow.errorTrigger.sourceWorkflowHint": "Lascia vuoto per catturare errori da qualsiasi workflow",
+    "errorWorkflow.errorWorkflowLabel": "Workflow di Errore",
+    "errorWorkflow.onFailure": "In Caso di Fallimento del Workflow",
+    "errorWorkflow.passContext": "Passa il contesto dell'errore al workflow di errore",
+    "errorWorkflow.passContextHint": "Include messaggio di errore, categoria e dati del workflow sorgente",
+    "errorWorkflow.runWorkflow": "Esegui workflow di errore",
+    "errorWorkflow.selectWorkflow": "Seleziona workflow...",
+    "errorWorkflow.title": "Gestione Errori"
+  }
+}

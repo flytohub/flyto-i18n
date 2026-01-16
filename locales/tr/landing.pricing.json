@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "landing.pricing",
+  "version": "1.0.0",
+  "translations": {
+    "landing.pricing.cta.subtitle": "Ücretsiz sürümle başlayın veya kişiselleştirilmiş bir öneri için bizimle iletişime geçin.",
+    "landing.pricing.cta.talkToSales": "Satış ile Konuşun",
+    "landing.pricing.cta.title": "Hangi planı seçeceğinizden emin değil misiniz?",
+    "landing.pricing.cta.tryFree": "Ücretsiz Deneyin",
+    "landing.pricing.faq.a1": "Evet, bulut planınızı istediğiniz zaman yükseltebilir veya düşürebilirsiniz. Çevrimdışı lisanslar için farkı ödeyerek yükseltebilirsiniz.",
+    "landing.pricing.faq.a2": "İş akışlarınız süresiz olarak çalışmaya devam eder. Yalnızca güncellemelere ve desteğe erişiminizi kaybedersiniz. En son özellikleri almak için istediğiniz zaman yenileyebilirsiniz.",
+    "landing.pricing.faq.a3": "Evet, tüm ücretli planlar için 30 günlük para iade garantisi sunuyoruz. Soru sorulmaz.",
+    "landing.pricing.faq.a4": "Kesinlikle! Açık kaynak çekirdek MIT lisanslıdır. Ticari projeler dahil her amaç için kullanabilirsiniz.",
+    "landing.pricing.faq.q1": "Planlar arasında geçiş yapabilir miyim?",
+    "landing.pricing.faq.q2": "Çevrimdışı lisansımın süresi dolduğunda ne olur?",
+    "landing.pricing.faq.q3": "Geri ödeme sunuyor musunuz?",
+    "landing.pricing.faq.q4": "Ücretsiz sürümü ticari olarak kullanabilir miyim?",
+    "landing.pricing.faq.title": "Sıkça Sorulan Sorular",
+    "landing.pricing.hero.subtitle": "Ücretsiz başlayın, büyüdükçe ölçekleyin. Gizli ücret yok.",
+    "landing.pricing.hero.title": "Planınızı Seçin",
+    "landing.pricing.loading": "Yükleniyor...",
+    "landing.pricing.loadingPricing": "Fiyatlandırma yükleniyor...",
+    "landing.pricing.offline.learnMore": "Çevrimdışı lisanslama hakkında daha fazla bilgi edinin",
+    "landing.pricing.offline.step1": "Çevrimiçi bir lisans anahtarı satın alın",
+    "landing.pricing.offline.step2": "Makinenizde etkinleştirin (tek seferlik internet gerekli)",
+    "landing.pricing.offline.step3": "Lisans süresi boyunca tamamen çevrimdışı kullanın",
+    "landing.pricing.offline.step4": "Güncellemeleri ve desteği uzatmak için istediğiniz zaman yenileyin",
+    "landing.pricing.offline.title": "Çevrimdışı Lisanslar Nasıl Çalışır",
+    "landing.pricing.section.subtitle": "Açık kaynak ile ücretsiz başlayın, daha fazlasına ihtiyaç duyduğunuzda yükseltin",
+    "landing.pricing.section.title": "Planınızı Seçin"
+  }
+}

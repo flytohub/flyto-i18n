@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.plugins",
+  "version": "1.0.0",
+  "translations": {
+    "plugins.allCategories": "Wszystkie kategorie",
+    "plugins.allTasks": "Wszystkie zadania",
+    "plugins.browse": "Przegladaj",
+    "plugins.browseModels": "Przegladaj modele",
+    "plugins.confirmUninstall": "Czy na pewno chcesz odinstalowac ten model?",
+    "plugins.install": "Zainstaluj",
+    "plugins.installed": "Zainstalowany",
+    "plugins.installing": "Instalowanie",
+    "plugins.load": "Zaladuj",
+    "plugins.loadMore": "Wczytaj wiecej",
+    "plugins.loadPopular": "Zaladuj popularne modele",
+    "plugins.loadingModels": "Ladowanie popularnych modeli...",
+    "plugins.noInstalled": "Brak zainstalowanych modeli",
+    "plugins.noResults": "Nie znaleziono modeli",
+    "plugins.searchPlaceholder": "Szukaj modeli...",
+    "plugins.subtitle": "Instaluj i zarzadzaj modelami AI z HuggingFace Hub",
+    "plugins.title": "Wtyczki",
+    "plugins.uninstall": "Odinstaluj",
+    "plugins.unload": "Wyladuj",
+    "plugins.viewOnHuggingFace": "Zobacz na HuggingFace"
+  }
+}

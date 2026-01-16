@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "object",
+  "version": "1.0.0",
+  "translations": {
+    "modules.object.keys.description": "Pobierz wszystkie klucze z obiektu",
+    "modules.object.keys.label": "Klucze obiektu",
+    "modules.object.keys.output.count.description": "Lista kluczy obiektu",
+    "modules.object.keys.output.keys.description": "Lista kluczy obiektu",
+    "modules.object.merge.description": "Polacz wiele obiektow w jeden",
+    "modules.object.merge.label": "Scalenie obiektow",
+    "modules.object.merge.output.result.description": "Scalony obiekt",
+    "modules.object.omit.description": "Pomin okreslone klucze z obiektu",
+    "modules.object.omit.label": "Pominanie w obiekcie",
+    "modules.object.omit.output.result.description": "Obiekt bez pominietych kluczy",
+    "modules.object.pick.description": "Wybierz okreslone klucze z obiektu",
+    "modules.object.pick.label": "Wybor z obiektu",
+    "modules.object.pick.output.result.description": "Obiekt tylko z wybranymi kluczami",
+    "modules.object.values.description": "Pobierz wszystkie wartosci z obiektu",
+    "modules.object.values.label": "Wartosci obiektu",
+    "modules.object.values.output.count.description": "Lista wartosci obiektu",
+    "modules.object.values.output.values.description": "Lista wartosci obiektu"
+  }
+}

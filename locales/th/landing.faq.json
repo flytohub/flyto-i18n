@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "landing.faq",
+  "version": "1.0.0",
+  "translations": {
+    "landing.faq.cta.contactSupport": "ติดต่อฝ่ายสนับสนุน",
+    "landing.faq.cta.subtitle": "ไม่พบคำตอบที่คุณกำลังมองหา? ทีมของเราพร้อมช่วยเหลือ",
+    "landing.faq.cta.title": "ยังมีคำถามอยู่หรือไม่?",
+    "landing.faq.cta.viewDocs": "ดูเอกสาร",
+    "landing.faq.general.subtitle": "เรียนรู้พื้นฐานเกี่ยวกับ Flyto2",
+    "landing.faq.general.title": "คำถามทั่วไป",
+    "landing.faq.gettingStarted.subtitle": "วิธีเริ่มใช้งาน Flyto2",
+    "landing.faq.gettingStarted.title": "เริ่มต้นใช้งาน",
+    "landing.faq.hero.title": "คำถามที่พบบ่อย",
+    "landing.faq.licensing.subtitle": "แผน ราคา และการจัดการใบอนุญาต",
+    "landing.faq.licensing.title": "ใบอนุญาตและราคา"
+  }
+}

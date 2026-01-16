@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.apiDocs": "เอกสาร API",
+    "footer.community": "ฟอรัมชุมชน",
+    "footer.contact": "ติดต่อเรา",
+    "footer.cookies": "การตั้งค่าคุกกี้",
+    "footer.copyright": "© 2025 Flyto2. สงวนลิขสิทธิ์",
+    "footer.dashboard": "แดชบอร์ด",
+    "footer.description": "ตัวแก้ไข workflow แบบ visual ที่มีประสิทธิภาพ รวมแอปพลิเคชันหลายร้อยรายการ ทำให้ automation เป็นเรื่องง่ายสำหรับทุกคน",
+    "footer.developer": "นักพัฒนา",
+    "footer.examples": "ตัวอย่าง",
+    "footer.github": "GitHub",
+    "footer.helpCenter": "ศูนย์ช่วยเหลือ",
+    "footer.marketplace": "App Store",
+    "footer.pluginDev": "การพัฒนา Plugin",
+    "footer.pricing": "ราคา",
+    "footer.privacy": "นโยบายความเป็นส่วนตัว",
+    "footer.product": "ผลิตภัณฑ์",
+    "footer.status": "หน้าสถานะ",
+    "footer.support": "การสนับสนุน",
+    "footer.terms": "ข้อกำหนดการให้บริการ",
+    "footer.workflows": "Workflows"
+  }
+}
