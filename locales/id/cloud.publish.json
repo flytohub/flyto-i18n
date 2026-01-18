@@ -25,7 +25,6 @@
     "publish.protection.locked": "Terkunci",
     "publish.protection.lockedDesc": "Pengguna dapat menjalankan tetapi tidak dapat melihat atau memodifikasi workflow",
     "publish.publishSuccess": "Template berhasil dipublikasikan!",
-    "publish.publishSuccessWithKey": "Template dipublikasikan! Kunci undangan: {key}",
     "publish.publishTemplate": "Publikasikan Template",
     "publish.publishing": "Mempublikasikan...",
     "publish.showInMarketplace.disabledDesc": "Template privat tidak tercantum",

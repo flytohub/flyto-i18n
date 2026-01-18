@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Stripe ऑनबोर्डिंग पूर्ण! आपका खाता सत्यापित हो रहा है।",
     "payoutSettings.onboardingError": "ऑनबोर्डिंग शुरू करने में विफल",
     "payoutSettings.payoutHistory": "भुगतान इतिहास",
-    "payoutSettings.payoutStatus.default": "स्थिति",
     "payoutSettings.pendingBalance": "लंबित",
     "payoutSettings.pendingBalanceDesc": "लेनदेन प्रोसेस हो रहे हैं",
     "payoutSettings.pendingVerification": "सत्यापन लंबित",

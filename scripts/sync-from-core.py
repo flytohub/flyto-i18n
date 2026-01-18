@@ -63,6 +63,10 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
         for match in re.finditer(key_pattern, content):
             key = match.group(1)
 
+            # Skip dynamic keys (f-strings, template literals, function calls)
+            if '{' in key or '(' in key or '$' in key or '`' in key:
+                continue
+
             # Try to find corresponding value
             value = key.split('.')[-1].replace('_', ' ').title()  # Default
 

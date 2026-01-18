@@ -25,7 +25,6 @@
     "publish.protection.locked": "लॉक",
     "publish.protection.lockedDesc": "उपयोगकर्ता चला सकते हैं लेकिन वर्कफ़्लो देख या संशोधित नहीं कर सकते",
     "publish.publishSuccess": "टेम्पलेट सफलतापूर्वक प्रकाशित!",
-    "publish.publishSuccessWithKey": "टेम्पलेट प्रकाशित! आमंत्रण की: {key}",
     "publish.publishTemplate": "टेम्पलेट प्रकाशित करें",
     "publish.publishing": "प्रकाशित हो रहा है...",
     "publish.showInMarketplace.disabledDesc": "निजी टेम्पलेट सूचीबद्ध नहीं होते",

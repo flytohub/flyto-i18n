@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "Informasi Dasar",
-    "publishPage.categories.automation": "Otomasi",
-    "publishPage.categories.ecommerce": "E-commerce",
-    "publishPage.categories.other": "Lainnya",
-    "publishPage.categories.productivity": "Produktivitas",
-    "publishPage.categories.scraping": "Web Scraping",
-    "publishPage.categories.social": "Media Sosial",
     "publishPage.category": "Kategori",
     "publishPage.confirmUnpublish": "Ya, Batalkan Publikasi",
     "publishPage.demoVideo": "Video Demo",

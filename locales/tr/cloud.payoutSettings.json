@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Stripe kurulumu tamamlandı! Hesabınız doğrulanıyor.",
     "payoutSettings.onboardingError": "Kurulum başlatılamadı",
     "payoutSettings.payoutHistory": "Ödeme Geçmişi",
-    "payoutSettings.payoutStatus.default": "Durum",
     "payoutSettings.pendingBalance": "Beklemede",
     "payoutSettings.pendingBalanceDesc": "İşlenen işlemler",
     "payoutSettings.pendingVerification": "Doğrulama Bekleniyor",

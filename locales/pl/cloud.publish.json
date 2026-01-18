@@ -25,7 +25,6 @@
     "publish.protection.locked": "Zablokowany",
     "publish.protection.lockedDesc": "Uzytkownicy moga uruchamiac, ale nie moga zobaczyc ani zmodyfikowac przeplywu",
     "publish.publishSuccess": "Szablon opublikowany pomyslnie!",
-    "publish.publishSuccessWithKey": "Szablon opublikowany! Klucz zaproszenia: {key}",
     "publish.publishTemplate": "Opublikuj szablon",
     "publish.publishing": "Publikowanie...",
     "publish.showInMarketplace.disabledDesc": "Prywatne szablony nie sa wyswietlane",

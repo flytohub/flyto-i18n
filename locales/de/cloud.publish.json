@@ -25,7 +25,6 @@
     "publish.protection.locked": "Gesperrt",
     "publish.protection.lockedDesc": "Benutzer können ausführen, aber den Workflow nicht sehen oder modifizieren",
     "publish.publishSuccess": "Vorlage erfolgreich veröffentlicht!",
-    "publish.publishSuccessWithKey": "Vorlage veröffentlicht! Einladungsschlüssel: {key}",
     "publish.publishTemplate": "Vorlage veröffentlichen",
     "publish.publishing": "Wird veröffentlicht...",
     "publish.showInMarketplace.disabledDesc": "Private Vorlagen werden nicht aufgelistet",

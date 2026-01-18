@@ -25,7 +25,6 @@
     "publish.protection.locked": "ロック",
     "publish.protection.lockedDesc": "ユーザーは実行のみ可能でワークフローの閲覧・変更不可",
     "publish.publishSuccess": "テンプレートを公開しました！",
-    "publish.publishSuccessWithKey": "テンプレートを公開しました！招待キー：{key}",
     "publish.publishTemplate": "テンプレートを公開",
     "publish.publishing": "公開中...",
     "publish.showInMarketplace.disabledDesc": "プライベートテンプレートは一覧に表示されません",

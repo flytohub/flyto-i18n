@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Stripe 온보딩이 완료되었습니다! 계정이 확인 중입니다.",
     "payoutSettings.onboardingError": "온보딩을 시작하지 못했습니다",
     "payoutSettings.payoutHistory": "지급 내역",
-    "payoutSettings.payoutStatus.default": "상태",
     "payoutSettings.pendingBalance": "대기 중",
     "payoutSettings.pendingBalanceDesc": "처리 중인 거래",
     "payoutSettings.pendingVerification": "확인 대기 중",

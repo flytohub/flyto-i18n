@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Integration Stripe terminee ! Votre compte est en cours de verification.",
     "payoutSettings.onboardingError": "Echec du demarrage de l'integration",
     "payoutSettings.payoutHistory": "Historique des versements",
-    "payoutSettings.payoutStatus.default": "Statut",
     "payoutSettings.pendingBalance": "En attente",
     "payoutSettings.pendingBalanceDesc": "Transactions en cours de traitement",
     "payoutSettings.pendingVerification": "Verification en attente",

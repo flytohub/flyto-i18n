@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Stripe-Onboarding abgeschlossen! Ihr Konto wird verifiziert.",
     "payoutSettings.onboardingError": "Onboarding konnte nicht gestartet werden",
     "payoutSettings.payoutHistory": "Auszahlungsverlauf",
-    "payoutSettings.payoutStatus.default": "Status",
     "payoutSettings.pendingBalance": "Ausstehend",
     "payoutSettings.pendingBalanceDesc": "Transaktionen in Bearbeitung",
     "payoutSettings.pendingVerification": "Verifizierung ausstehend",

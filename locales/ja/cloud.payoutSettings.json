@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Stripeオンボーディングが完了しました！アカウントを確認中です。",
     "payoutSettings.onboardingError": "オンボーディングの開始に失敗しました",
     "payoutSettings.payoutHistory": "支払い履歴",
-    "payoutSettings.payoutStatus.default": "ステータス",
     "payoutSettings.pendingBalance": "保留中",
     "payoutSettings.pendingBalanceDesc": "処理中の取引",
     "payoutSettings.pendingVerification": "確認待ち",

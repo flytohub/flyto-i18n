@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "基本情報",
-    "publishPage.categories.automation": "自動化",
-    "publishPage.categories.ecommerce": "Eコマース",
-    "publishPage.categories.other": "その他",
-    "publishPage.categories.productivity": "生産性",
-    "publishPage.categories.scraping": "Webスクレイピング",
-    "publishPage.categories.social": "ソーシャルメディア",
     "publishPage.category": "カテゴリ",
     "publishPage.confirmUnpublish": "はい、公開停止",
     "publishPage.demoVideo": "デモ動画",

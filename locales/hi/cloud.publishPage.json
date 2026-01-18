@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "मूलभूत जानकारी",
-    "publishPage.categories.automation": "ऑटोमेशन",
-    "publishPage.categories.ecommerce": "ई-कॉमर्स",
-    "publishPage.categories.other": "अन्य",
-    "publishPage.categories.productivity": "उत्पादकता",
-    "publishPage.categories.scraping": "वेब स्क्रैपिंग",
-    "publishPage.categories.social": "सोशल मीडिया",
     "publishPage.category": "श्रेणी",
     "publishPage.confirmUnpublish": "हाँ, अनपब्लिश करें",
     "publishPage.demoVideo": "डेमो वीडियो",

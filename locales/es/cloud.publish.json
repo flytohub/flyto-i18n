@@ -25,7 +25,6 @@
     "publish.protection.locked": "Bloqueado",
     "publish.protection.lockedDesc": "Los usuarios pueden ejecutar pero no pueden ver ni modificar el flujo de trabajo",
     "publish.publishSuccess": "Plantilla publicada exitosamente!",
-    "publish.publishSuccessWithKey": "Plantilla publicada! Clave de invitacion: {key}",
     "publish.publishTemplate": "Publicar plantilla",
     "publish.publishing": "Publicando...",
     "publish.showInMarketplace.disabledDesc": "Las plantillas privadas no se listan",

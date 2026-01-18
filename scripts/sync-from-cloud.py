@@ -64,7 +64,14 @@ def extract_keys_from_file(file_path: Path) -> Set[str]:
 
     for pattern in T_CALL_PATTERNS:
         matches = re.findall(pattern, content)
-        keys.update(matches)
+        for key in matches:
+            # Skip dynamic keys (template literals, f-strings, function calls)
+            if '{' in key or '(' in key or '$' in key or '`' in key:
+                continue
+            # Skip keys ending with dot (incomplete keys)
+            if key.endswith('.'):
+                continue
+            keys.add(key)
 
     return keys
 

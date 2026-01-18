@@ -25,7 +25,6 @@
     "publish.protection.locked": "Khóa",
     "publish.protection.lockedDesc": "Người dùng có thể chạy nhưng không thể xem hoặc chỉnh sửa workflow",
     "publish.publishSuccess": "Đã xuất bản mẫu thành công!",
-    "publish.publishSuccessWithKey": "Đã xuất bản mẫu! Mã mời: {key}",
     "publish.publishTemplate": "Xuất bản mẫu",
     "publish.publishing": "Đang xuất bản...",
     "publish.showInMarketplace.disabledDesc": "Mẫu riêng tư không được liệt kê",

@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "ข้อมูลพื้นฐาน",
-    "publishPage.categories.automation": "อัตโนมัติ",
-    "publishPage.categories.ecommerce": "อีคอมเมิร์ซ",
-    "publishPage.categories.other": "อื่นๆ",
-    "publishPage.categories.productivity": "ประสิทธิภาพการทำงาน",
-    "publishPage.categories.scraping": "Web Scraping",
-    "publishPage.categories.social": "โซเชียลมีเดีย",
     "publishPage.category": "หมวดหมู่",
     "publishPage.confirmUnpublish": "ใช่ ยกเลิกการเผยแพร่",
     "publishPage.demoVideo": "วิดีโอสาธิต",

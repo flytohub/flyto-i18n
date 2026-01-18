@@ -25,7 +25,6 @@
     "publish.protection.locked": "Verrouille",
     "publish.protection.lockedDesc": "Les utilisateurs peuvent executer mais ne peuvent pas voir ou modifier le workflow",
     "publish.publishSuccess": "Modele publie avec succes !",
-    "publish.publishSuccessWithKey": "Modele publie ! Cle d'invitation : {key}",
     "publish.publishTemplate": "Publier le modele",
     "publish.publishing": "Publication en cours...",
     "publish.showInMarketplace.disabledDesc": "Les modeles prives ne sont pas listes",

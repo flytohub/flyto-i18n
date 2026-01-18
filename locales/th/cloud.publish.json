@@ -25,7 +25,6 @@
     "publish.protection.locked": "ล็อค",
     "publish.protection.lockedDesc": "ผู้ใช้สามารถรันได้แต่ไม่สามารถดูหรือแก้ไข workflow",
     "publish.publishSuccess": "เผยแพร่เทมเพลตสำเร็จแล้ว!",
-    "publish.publishSuccessWithKey": "เผยแพร่เทมเพลตแล้ว! คีย์เชิญ: {key}",
     "publish.publishTemplate": "เผยแพร่เทมเพลต",
     "publish.publishing": "กำลังเผยแพร่...",
     "publish.showInMarketplace.disabledDesc": "เทมเพลตส่วนตัวไม่แสดงในรายการ",

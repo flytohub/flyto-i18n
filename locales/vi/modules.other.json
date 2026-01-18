@@ -12,7 +12,6 @@
     "schema.field.screenshot_format": "Toàn trang",
     "schema.field.url": "Url",
     "schema.field.viewport_height": "Chiều rộng",
-    "schema.field.viewport_width": "Chiều rộng",
-    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+    "schema.field.viewport_width": "Chiều rộng"
   }
 }

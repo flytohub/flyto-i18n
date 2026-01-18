@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "Thông tin cơ bản",
-    "publishPage.categories.automation": "Tự động hóa",
-    "publishPage.categories.ecommerce": "Thương mại điện tử",
-    "publishPage.categories.other": "Khác",
-    "publishPage.categories.productivity": "Năng suất",
-    "publishPage.categories.scraping": "Thu thập dữ liệu web",
-    "publishPage.categories.social": "Mạng xã hội",
     "publishPage.category": "Danh mục",
     "publishPage.confirmUnpublish": "Có, hủy xuất bản",
     "publishPage.demoVideo": "Video demo",

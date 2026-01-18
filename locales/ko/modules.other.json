@@ -12,7 +12,6 @@
     "schema.field.screenshot_format": "전체 페이지",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "너비",
-    "schema.field.viewport_width": "너비",
-    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+    "schema.field.viewport_width": "너비"
   }
 }

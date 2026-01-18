@@ -12,7 +12,6 @@
     "schema.field.screenshot_format": "Full Page",
     "schema.field.url": "Url",
     "schema.field.viewport_height": "Width",
-    "schema.field.viewport_width": "Width",
-    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+    "schema.field.viewport_width": "Width"
   }
 }

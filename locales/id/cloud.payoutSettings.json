@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Onboarding Stripe selesai! Akun Anda sedang diverifikasi.",
     "payoutSettings.onboardingError": "Gagal memulai onboarding",
     "payoutSettings.payoutHistory": "Riwayat Payout",
-    "payoutSettings.payoutStatus.default": "Status",
     "payoutSettings.pendingBalance": "Tertunda",
     "payoutSettings.pendingBalanceDesc": "Transaksi dalam proses",
     "payoutSettings.pendingVerification": "Menunggu Verifikasi",

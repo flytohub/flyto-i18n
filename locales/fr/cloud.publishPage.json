@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "Informations de base",
-    "publishPage.categories.automation": "Automatisation",
-    "publishPage.categories.ecommerce": "E-commerce",
-    "publishPage.categories.other": "Autre",
-    "publishPage.categories.productivity": "Productivite",
-    "publishPage.categories.scraping": "Web Scraping",
-    "publishPage.categories.social": "Reseaux sociaux",
     "publishPage.category": "Categorie",
     "publishPage.confirmUnpublish": "Oui, depublier",
     "publishPage.demoVideo": "Video de demonstration",

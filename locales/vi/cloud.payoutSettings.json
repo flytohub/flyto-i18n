@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Hoàn tất đăng ký Stripe! Tài khoản của bạn đang được xác minh.",
     "payoutSettings.onboardingError": "Không thể bắt đầu quá trình đăng ký",
     "payoutSettings.payoutHistory": "Lịch sử thanh toán",
-    "payoutSettings.payoutStatus.default": "Trạng thái",
     "payoutSettings.pendingBalance": "Đang chờ",
     "payoutSettings.pendingBalanceDesc": "Đang xử lý giao dịch",
     "payoutSettings.pendingVerification": "Đang chờ xác minh",

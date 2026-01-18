@@ -25,7 +25,6 @@
     "publish.protection.locked": "잠금",
     "publish.protection.lockedDesc": "사용자가 실행할 수 있지만 워크플로를 보거나 수정할 수 없음",
     "publish.publishSuccess": "템플릿이 성공적으로 게시되었습니다!",
-    "publish.publishSuccessWithKey": "템플릿이 게시되었습니다! 초대 키: {key}",
     "publish.publishTemplate": "템플릿 게시",
     "publish.publishing": "게시 중...",
     "publish.showInMarketplace.disabledDesc": "비공개 템플릿은 표시되지 않습니다",

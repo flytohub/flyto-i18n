@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "การลงทะเบียน Stripe เสร็จสิ้น! กำลังตรวจสอบบัญชีของคุณ",
     "payoutSettings.onboardingError": "ไม่สามารถเริ่มการลงทะเบียนได้",
     "payoutSettings.payoutHistory": "ประวัติการจ่ายเงิน",
-    "payoutSettings.payoutStatus.default": "สถานะ",
     "payoutSettings.pendingBalance": "รอดำเนินการ",
     "payoutSettings.pendingBalanceDesc": "กำลังดำเนินการธุรกรรม",
     "payoutSettings.pendingVerification": "รอการยืนยัน",

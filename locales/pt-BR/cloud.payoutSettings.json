@@ -26,7 +26,6 @@
     "payoutSettings.onboardingComplete": "Onboarding do Stripe concluido! Sua conta esta sendo verificada.",
     "payoutSettings.onboardingError": "Falha ao iniciar onboarding",
     "payoutSettings.payoutHistory": "Historico de Pagamentos",
-    "payoutSettings.payoutStatus.default": "Status",
     "payoutSettings.pendingBalance": "Pendente",
     "payoutSettings.pendingBalanceDesc": "Transacoes em processamento",
     "payoutSettings.pendingVerification": "Verificacao Pendente",

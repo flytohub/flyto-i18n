@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "기본 정보",
-    "publishPage.categories.automation": "자동화",
-    "publishPage.categories.ecommerce": "전자상거래",
-    "publishPage.categories.other": "기타",
-    "publishPage.categories.productivity": "생산성",
-    "publishPage.categories.scraping": "웹 스크래핑",
-    "publishPage.categories.social": "소셜 미디어",
     "publishPage.category": "카테고리",
     "publishPage.confirmUnpublish": "예, 게시 취소",
     "publishPage.demoVideo": "데모 동영상",

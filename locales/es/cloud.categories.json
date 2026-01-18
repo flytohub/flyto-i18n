@@ -3,7 +3,5 @@
   "locale": "es",
   "category": "cloud.categories",
   "version": "1.0.0",
-  "translations": {
-    "categories.": ""
-  }
+  "translations": {}
 }

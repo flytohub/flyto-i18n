@@ -25,7 +25,6 @@
     "publish.protection.locked": "Kilitli",
     "publish.protection.lockedDesc": "Kullanıcılar çalıştırabilir ancak iş akışını göremez veya değiştiremez",
     "publish.publishSuccess": "Şablon başarıyla yayınlandı!",
-    "publish.publishSuccessWithKey": "Şablon yayınlandı! Davet anahtarı: {key}",
     "publish.publishTemplate": "Şablonu Yayınla",
     "publish.publishing": "Yayınlanıyor...",
     "publish.showInMarketplace.disabledDesc": "Özel şablonlar listelenmez",

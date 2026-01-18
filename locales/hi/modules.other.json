@@ -12,7 +12,6 @@
     "schema.field.screenshot_format": "पूर्ण पेज",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "चौड़ाई",
-    "schema.field.viewport_width": "चौड़ाई",
-    "{get_expected_i18n_key(module_id, ": "{Get Expected I18N Key(Module Id, "
+    "schema.field.viewport_width": "चौड़ाई"
   }
 }

@@ -5,12 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "publishPage.basicInfo": "Temel Bilgiler",
-    "publishPage.categories.automation": "Otomasyon",
-    "publishPage.categories.ecommerce": "E-ticaret",
-    "publishPage.categories.other": "Diğer",
-    "publishPage.categories.productivity": "Verimlilik",
-    "publishPage.categories.scraping": "Web Kazıma",
-    "publishPage.categories.social": "Sosyal Medya",
     "publishPage.category": "Kategori",
     "publishPage.confirmUnpublish": "Evet, Yayından Kaldır",
     "publishPage.demoVideo": "Demo Videosu",
