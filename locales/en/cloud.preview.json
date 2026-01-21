@@ -4,6 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
+    "preview.askAIFix": "",
     "preview.emptyState.description": "Switch to Dev mode to add workflow steps",
     "preview.emptyState.hint": "No preview available",
     "preview.emptyState.title": "No Workflow Defined",
