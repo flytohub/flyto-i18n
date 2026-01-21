@@ -10,9 +10,15 @@
     "execution.controls.pause": "Pause",
     "execution.controls.resume": "Resume",
     "execution.controls.step": "Step",
+    "execution.resume.autoSuggest": "",
+    "execution.resume.autoSuggestDesc": "",
     "execution.resume.failedAt": "Failed at",
+    "execution.resume.flytoAdvantage": "",
     "execution.resume.fromCheckpoint": "Resume from checkpoint",
     "execution.resume.options": "Resume Options",
-    "execution.resume.retryFromStart": "Retry from start"
+    "execution.resume.quickResume": "",
+    "execution.resume.retryFromStart": "Retry from start",
+    "execution.resume.stepsCompleted": "",
+    "execution.resume.timeSaved": ""
   }
 }
