@@ -19,6 +19,7 @@
     "execution.resume.quickResume": "",
     "execution.resume.retryFromStart": "Retry from start",
     "execution.resume.stepsCompleted": "",
-    "execution.resume.timeSaved": ""
+    "execution.resume.timeSaved": "",
+    "execution.running": ""
   }
 }
