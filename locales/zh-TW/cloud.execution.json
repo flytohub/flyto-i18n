@@ -19,6 +19,7 @@
     "execution.resume.quickResume": "",
     "execution.resume.retryFromStart": "從頭重試",
     "execution.resume.stepsCompleted": "",
-    "execution.resume.timeSaved": ""
+    "execution.resume.timeSaved": "",
+    "execution.running": ""
   }
 }
