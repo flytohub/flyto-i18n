@@ -4,6 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
+    "preview.askAIFix": "",
     "preview.emptyState.description": "切換至開發模式以新增工作流程步驟",
     "preview.emptyState.hint": "沒有可用預覽",
     "preview.emptyState.title": "尚未定義工作流程",

@@ -113,6 +113,8 @@
     "templateBuilder.messages.yamlImportWarnings": "已匯入但有 {count} 個警告。詳情請查看控制台。",
     "templateBuilder.nodeProperties.acceptedFileTypes": "允許的檔案類型",
     "templateBuilder.nodeProperties.allowMultipleFiles": "允許多個檔案",
+    "templateBuilder.nodeProperties.askAI": "",
+    "templateBuilder.nodeProperties.askAIButton": "",
     "templateBuilder.nodeProperties.clickToEdit": "點擊畫布上的節點以編輯其屬性",
     "templateBuilder.nodeProperties.defaultValue": "預設值",
     "templateBuilder.nodeProperties.deleteNode": "刪除節點",

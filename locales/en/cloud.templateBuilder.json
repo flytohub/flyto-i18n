@@ -113,6 +113,8 @@
     "templateBuilder.messages.yamlImportWarnings": "Imported with {count} warning(s). Check console for details.",
     "templateBuilder.nodeProperties.acceptedFileTypes": "Accepted File Types",
     "templateBuilder.nodeProperties.allowMultipleFiles": "Allow multiple files",
+    "templateBuilder.nodeProperties.askAI": "",
+    "templateBuilder.nodeProperties.askAIButton": "",
     "templateBuilder.nodeProperties.clickToEdit": "Click a node on the canvas to edit its properties",
     "templateBuilder.nodeProperties.defaultValue": "Default Value",
     "templateBuilder.nodeProperties.deleteNode": "Delete Node",
