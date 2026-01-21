@@ -10,9 +10,15 @@
     "execution.controls.pause": "暫停",
     "execution.controls.resume": "繼續",
     "execution.controls.step": "單步執行",
+    "execution.resume.autoSuggest": "",
+    "execution.resume.autoSuggestDesc": "",
     "execution.resume.failedAt": "失敗於",
+    "execution.resume.flytoAdvantage": "",
     "execution.resume.fromCheckpoint": "從檢查點繼續",
     "execution.resume.options": "繼續選項",
-    "execution.resume.retryFromStart": "從頭重試"
+    "execution.resume.quickResume": "",
+    "execution.resume.retryFromStart": "從頭重試",
+    "execution.resume.stepsCompleted": "",
+    "execution.resume.timeSaved": ""
   }
 }

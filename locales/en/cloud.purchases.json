@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.purchases",
+  "version": "1.0.0",
+  "translations": {
+    "purchases.all": "",
+    "purchases.browseMarketplace": "",
+    "purchases.completed": "",
+    "purchases.empty": "",
+    "purchases.emptyDescription": "",
+    "purchases.refundAmount": "",
+    "purchases.refundEligible": "",
+    "purchases.refundExpired": "",
+    "purchases.refunded": "",
+    "purchases.refundedOn": "",
+    "purchases.requestRefund": "",
+    "purchases.subtitle": "",
+    "purchases.title": "",
+    "purchases.viewTemplate": ""
+  }
+}
