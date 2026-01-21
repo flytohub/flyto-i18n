@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "Linear",
     "node.settings.timeout": "Timeout",
     "node.settings.timeoutPlaceholder": "e.g. 30000 (30s)",
-    "node.sticky.contentPlaceholder": "",
-    "node.sticky.placeholder": "",
-    "node.sticky.titlePlaceholder": "",
-    "node.trigger.badge": ""
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

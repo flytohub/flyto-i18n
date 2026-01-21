@@ -7,7 +7,7 @@
     "templateBuilder.aiChat.botName": "Flyto AI",
     "templateBuilder.aiChat.clearChat": "Clear chat",
     "templateBuilder.aiChat.close": "Close",
-    "templateBuilder.aiChat.coordinationStarted": "",
+    "templateBuilder.aiChat.coordinationStarted": "Coordination started",
     "templateBuilder.aiChat.errorConnection": "Unable to connect to AI service. Please check your connection.",
     "templateBuilder.aiChat.errorGeneric": "An error occurred. Please try again.",
     "templateBuilder.aiChat.inputPlaceholder": "Ask AI to help with your workflow...",

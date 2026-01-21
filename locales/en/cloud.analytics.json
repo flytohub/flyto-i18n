@@ -4,15 +4,15 @@
   "category": "cloud.analytics",
   "version": "1.0.0",
   "translations": {
-    "analytics.declining": "",
-    "analytics.eventBreakdown": "",
-    "analytics.frictionPoints": "",
-    "analytics.healthScore": "",
-    "analytics.improving": "",
-    "analytics.issues": "",
-    "analytics.noFriction": "",
-    "analytics.overallHealth": "",
-    "analytics.recommendations": "",
-    "analytics.stable": ""
+    "analytics.declining": "Declining",
+    "analytics.eventBreakdown": "Event breakdown",
+    "analytics.frictionPoints": "Friction points",
+    "analytics.healthScore": "Health score",
+    "analytics.improving": "Improving",
+    "analytics.issues": "Issues",
+    "analytics.noFriction": "No friction",
+    "analytics.overallHealth": "Overall health",
+    "analytics.recommendations": "Recommendations",
+    "analytics.stable": "Stable"
   }
 }

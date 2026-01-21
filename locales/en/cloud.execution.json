@@ -10,16 +10,16 @@
     "execution.controls.pause": "Pause",
     "execution.controls.resume": "Resume",
     "execution.controls.step": "Step",
-    "execution.resume.autoSuggest": "",
-    "execution.resume.autoSuggestDesc": "",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Failed at",
-    "execution.resume.flytoAdvantage": "",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "Resume from checkpoint",
     "execution.resume.options": "Resume Options",
-    "execution.resume.quickResume": "",
+    "execution.resume.quickResume": "Quick resume",
     "execution.resume.retryFromStart": "Retry from start",
-    "execution.resume.stepsCompleted": "",
-    "execution.resume.timeSaved": "",
-    "execution.running": ""
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

@@ -7,7 +7,7 @@
     "templateBuilder.aiChat.botName": "Flyto AI",
     "templateBuilder.aiChat.clearChat": "清除對話",
     "templateBuilder.aiChat.close": "關閉",
-    "templateBuilder.aiChat.coordinationStarted": "",
+    "templateBuilder.aiChat.coordinationStarted": "協調已開始",
     "templateBuilder.aiChat.errorConnection": "無法連接 AI 服務，請檢查網路連線。",
     "templateBuilder.aiChat.errorGeneric": "發生錯誤，請重試。",
     "templateBuilder.aiChat.inputPlaceholder": "請 AI 協助您的工作流程...",

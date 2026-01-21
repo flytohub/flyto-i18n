@@ -4,17 +4,17 @@
   "category": "cloud.refund",
   "version": "1.0.0",
   "translations": {
-    "refund.amount": "",
-    "refund.confirm": "",
-    "refund.contactSupport": "",
-    "refund.days": "",
-    "refund.daysRemaining": "",
-    "refund.forksWarning": "",
-    "refund.notEligible": "",
-    "refund.processInfo": "",
-    "refund.template": "",
-    "refund.title": "",
-    "refund.warning": "",
-    "refund.warningDescription": ""
+    "refund.amount": "退款金額",
+    "refund.confirm": "確認退款",
+    "refund.contactSupport": "聯絡支援",
+    "refund.days": "退款天數",
+    "refund.daysRemaining": "剩餘天數",
+    "refund.forksWarning": "分叉警告",
+    "refund.notEligible": "不符合退款資格",
+    "refund.processInfo": "退款流程資訊",
+    "refund.template": "退款範本",
+    "refund.title": "退款",
+    "refund.warning": "退款警告",
+    "refund.warningDescription": "警告描述"
   }
 }

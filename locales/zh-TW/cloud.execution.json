@@ -10,16 +10,16 @@
     "execution.controls.pause": "暫停",
     "execution.controls.resume": "繼續",
     "execution.controls.step": "單步執行",
-    "execution.resume.autoSuggest": "",
-    "execution.resume.autoSuggestDesc": "",
+    "execution.resume.autoSuggest": "自動建議",
+    "execution.resume.autoSuggestDesc": "自動建議描述",
     "execution.resume.failedAt": "失敗於",
-    "execution.resume.flytoAdvantage": "",
+    "execution.resume.flytoAdvantage": "飛往優勢",
     "execution.resume.fromCheckpoint": "從檢查點繼續",
     "execution.resume.options": "繼續選項",
-    "execution.resume.quickResume": "",
+    "execution.resume.quickResume": "快速恢復",
     "execution.resume.retryFromStart": "從頭重試",
-    "execution.resume.stepsCompleted": "",
-    "execution.resume.timeSaved": "",
-    "execution.running": ""
+    "execution.resume.stepsCompleted": "步驟已完成",
+    "execution.resume.timeSaved": "節省時間",
+    "execution.running": "執行中"
   }
 }

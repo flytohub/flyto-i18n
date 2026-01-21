@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "線性",
     "node.settings.timeout": "逾時",
     "node.settings.timeoutPlaceholder": "例如 30000 (30秒)",
-    "node.sticky.contentPlaceholder": "",
-    "node.sticky.placeholder": "",
-    "node.sticky.titlePlaceholder": "",
-    "node.trigger.badge": ""
+    "node.sticky.contentPlaceholder": "輸入內容",
+    "node.sticky.placeholder": "輸入文字",
+    "node.sticky.titlePlaceholder": "輸入標題",
+    "node.trigger.badge": "觸發徽章"
   }
 }
