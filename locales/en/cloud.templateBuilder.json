@@ -94,6 +94,7 @@
     "templateBuilder.messages.executionResumed": "Execution resumed",
     "templateBuilder.messages.executionStopped": "Execution stopped",
     "templateBuilder.messages.importFailed": "Failed to import file: {error}",
+    "templateBuilder.messages.importInProgress": "",
     "templateBuilder.messages.jsonImportSuccess": "JSON imported successfully",
     "templateBuilder.messages.loadModulesFailed": "Failed to load modules",
     "templateBuilder.messages.loadTemplateFailed": "Failed to load template",
