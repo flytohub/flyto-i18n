@@ -94,6 +94,7 @@
     "templateBuilder.messages.executionResumed": "執行已繼續",
     "templateBuilder.messages.executionStopped": "執行已停止",
     "templateBuilder.messages.importFailed": "匯入檔案失敗：{error}",
+    "templateBuilder.messages.importInProgress": "",
     "templateBuilder.messages.jsonImportSuccess": "JSON 匯入成功",
     "templateBuilder.messages.loadModulesFailed": "載入模組失敗",
     "templateBuilder.messages.loadTemplateFailed": "載入模板失敗",
