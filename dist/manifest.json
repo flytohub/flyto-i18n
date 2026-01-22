@@ -1,6 +1,6 @@
 {
-  "version": "20260121125559",
-  "generated_at": "2026-01-21T12:55:59.105635",
+  "version": "20260122061344",
+  "generated_at": "2026-01-22T06:13:44.845809",
   "locales": {
     "de": {
       "name": "German",
@@ -15,10 +15,10 @@
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 7379,
-      "translated_keys": 7337,
+      "total_keys": 7448,
+      "translated_keys": 7406,
       "completion": 99.4,
-      "files_merged": 197
+      "files_merged": 200
     },
     "es": {
       "name": "Spanish",
