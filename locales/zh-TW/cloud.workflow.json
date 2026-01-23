@@ -13,6 +13,9 @@
     "workflow.addNode.subtitle": "選擇要加入工作流程的節點",
     "workflow.addNode.title": "添加節點",
     "workflow.addNode.tryDifferentSearch": "試試其他搜尋詞",
+    "workflow.caseSelector.cancel": "",
+    "workflow.caseSelector.caseLabel": "",
+    "workflow.caseSelector.title": "",
     "workflow.execute": "執行",
     "workflow.expert": "進階",
     "workflow.expertMode": "進階模式",
@@ -33,10 +36,16 @@
     "workflow.selectStarterModule": "選擇起始模組",
     "workflow.selectStarterModuleDesc": "選擇工作流程的第一個模組",
     "workflow.showExpert": "顯示",
+    "workflow.switch.cases": "",
+    "workflow.switch.default": "",
+    "workflow.switch.label": "",
     "workflow.title": "工作流程",
     "workflow.tryDifferentSearch": "試試其他搜尋關鍵字",
     "workflow.unpin": "取消釘選",
     "workflow.unpinData": "取消釘選輸出資料",
-    "workflow.validation.loopHandleRequired": "只有循環節點可以連接到循環入口點"
+    "workflow.validation.incompatibleModules": "",
+    "workflow.validation.loopHandleRequired": "只有循環節點可以連接到循環入口點",
+    "workflow.validation.missingModule": "",
+    "workflow.validation.selfConnection": ""
   }
 }
