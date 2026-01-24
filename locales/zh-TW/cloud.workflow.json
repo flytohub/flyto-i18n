@@ -43,9 +43,13 @@
     "workflow.tryDifferentSearch": "試試其他搜尋關鍵字",
     "workflow.unpin": "取消釘選",
     "workflow.unpinData": "取消釘選輸出資料",
-    "workflow.validation.incompatibleModules": "",
+    "workflow.validation.incompatibleModules": "無法將 {source} 連接到 {target}",
     "workflow.validation.loopHandleRequired": "只有循環節點可以連接到循環入口點",
-    "workflow.validation.missingModule": "",
-    "workflow.validation.selfConnection": ""
+    "workflow.validation.missingModule": "找不到模組",
+    "workflow.validation.selfConnection": "節點不能連接到自己",
+    "workflow.validation.typeMismatch": "{to_module} 需要 {expected}，但收到 {received}",
+    "workflow.validation.maxConnections": "端口 {port} 已達最大連接數",
+    "workflow.validation.invalidPort": "無效的端口：{port}",
+    "workflow.validation.multiOutputRecommended": "建議使用分支或開關節點處理多輸出"
   }
 }
