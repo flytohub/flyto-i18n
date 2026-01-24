@@ -44,12 +44,12 @@
     "workflow.unpin": "Unpin",
     "workflow.unpinData": "Unpin output data",
     "workflow.validation.incompatibleModules": "Cannot connect {source} to {target}",
-    "workflow.validation.loopHandleRequired": "Only loop nodes can connect to loop entry points",
-    "workflow.validation.missingModule": "Module not found",
-    "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
-    "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
     "workflow.validation.invalidPort": "Invalid port: {port}",
-    "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs"
+    "workflow.validation.loopHandleRequired": "Only loop nodes can connect to loop entry points",
+    "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
+    "workflow.validation.missingModule": "Module not found",
+    "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
+    "workflow.validation.selfConnection": "Node cannot connect to itself",
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
   }
 }
