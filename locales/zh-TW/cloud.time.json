@@ -4,9 +4,12 @@
   "category": "cloud.time",
   "version": "1.0.0",
   "translations": {
+    "time.days": "",
     "time.daysAgo": "{n} 天前",
+    "time.hours": "",
     "time.hoursAgo": "{n} 小時前",
     "time.justNow": "剛剛",
+    "time.minutes": "",
     "time.minutesAgo": "{n} 分鐘前"
   }
 }
