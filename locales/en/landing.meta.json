@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 is an enterprise workflow platform that combines UI-driven automation with human oversight. Build workflows with approval steps, validation checkpoints, and full audit trails. Works 100% offline.",
+    "landing.meta.index.ogDescription": "Enterprise workflow platform with UI-driven automation and human oversight. Build workflows with approval steps, validation checkpoints, and full audit trails.",
+    "landing.meta.about.description": "Learn about Flyto2, the enterprise workflow platform built for human-in-the-loop automation. Open source core, offline-first design, built for teams that need control.",
+    "landing.meta.app.description": "Download the Flyto2 visual automation app. Point-and-click interface, no coding needed. Auto-detects your OS. Record workflows in minutes. 100% free to start.",
+    "landing.meta.blog.description": "Insights on enterprise workflow automation, human-in-the-loop design patterns, and why traditional RPA fails. Architecture thoughts from the Flyto2 team.",
+    "landing.meta.buyoffline.description": "Deploy Flyto2 in secure, air-gapped environments. One-time annual payment. No internet required. Your data never leaves your network. Perfect for regulated industries.",
+    "landing.meta.compare.description": "Compare Flyto2 with traditional RPA and API workflow automation tools. See why enterprises choose Flyto2 for human-in-the-loop automation, offline deployment, and approval workflows.",
+    "landing.meta.contact.description": "Have questions? We reply within 24 hours. Contact us for sales inquiries, technical support, enterprise solutions, or partnership opportunities.",
+    "landing.meta.download.description": "pip install flyto - Get started in 30 seconds. Free, open source automation CLI for Windows, macOS & Linux. Python 3.9+. 384 atomic modules included. Works offline.",
+    "landing.meta.faq.description": "How does Flyto2 work? Is it really free? Can it run offline? Get answers to the most common questions about Flyto2's no-code automation platform.",
+    "landing.meta.languagepacks.description": "Download language packs for Flyto2. Support for English, Chinese, Japanese and more. Use Flyto2 in your language, even without internet. Free download.",
+    "landing.meta.philosophy.description": "Why we built Flyto2 differently. Learn our philosophy on human-in-the-loop automation, why workflows must be verifiable, and why human oversight is a feature, not a limitation.",
+    "landing.meta.pricing.description": "Start automating for free, upgrade when you need more. Free plan includes unlimited recordings. Pro adds scheduling, batch processing & priority support. No credit card required.",
+    "landing.meta.product.description": "Discover why traditional RPA fails for complex workflows. Flyto2 combines UI-driven automation with human approval steps, validation checkpoints, and full audit trails. The workflow platform built for enterprise needs.",
+    "landing.meta.usecases.description": "Discover how enterprises use Flyto2 for approval workflows, human-in-the-loop automation, RPA replacement, and AI-assisted operations. Real-world examples with implementation patterns."
+  }
+}

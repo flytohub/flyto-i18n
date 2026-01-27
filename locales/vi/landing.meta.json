@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 là nền tảng quy trình làm việc doanh nghiệp kết hợp tự động hóa điều khiển bằng UI với giám sát con người. Xây dựng quy trình với các bước phê duyệt, điểm kiểm tra xác thực và nhật ký kiểm toán đầy đủ. Hoạt động 100% ngoại tuyến.",
+    "landing.meta.index.ogDescription": "Nền tảng quy trình làm việc doanh nghiệp với tự động hóa điều khiển bằng UI và giám sát con người. Xây dựng quy trình với các bước phê duyệt và điểm kiểm tra xác thực.",
+    "landing.meta.about.description": "Tìm hiểu về Flyto2, nền tảng quy trình làm việc doanh nghiệp được xây dựng cho tự động hóa có người trong vòng lặp. Lõi mã nguồn mở, thiết kế offline-first, được xây dựng cho các nhóm cần kiểm soát.",
+    "landing.meta.app.description": "Tải ứng dụng tự động hóa trực quan Flyto2. Giao diện chỉ và nhấp, không cần lập trình. Tự động phát hiện hệ điều hành. Ghi lại quy trình trong vài phút. 100% miễn phí để bắt đầu.",
+    "landing.meta.blog.description": "Góc nhìn về tự động hóa quy trình làm việc doanh nghiệp, mẫu thiết kế có người trong vòng lặp và tại sao RPA truyền thống thất bại. Suy nghĩ kiến trúc từ đội ngũ Flyto2.",
+    "landing.meta.buyoffline.description": "Triển khai Flyto2 trong môi trường an toàn, cách ly. Thanh toán một lần hàng năm. Không cần internet. Dữ liệu của bạn không bao giờ rời khỏi mạng. Hoàn hảo cho ngành công nghiệp được quản lý.",
+    "landing.meta.compare.description": "So sánh Flyto2 với các công cụ RPA và tự động hóa quy trình API truyền thống. Xem tại sao doanh nghiệp chọn Flyto2 cho tự động hóa có người trong vòng lặp, triển khai ngoại tuyến và quy trình phê duyệt.",
+    "landing.meta.contact.description": "Có câu hỏi? Chúng tôi trả lời trong vòng 24 giờ. Liên hệ với chúng tôi để được tư vấn bán hàng, hỗ trợ kỹ thuật, giải pháp doanh nghiệp hoặc cơ hội hợp tác.",
+    "landing.meta.download.description": "pip install flyto - Bắt đầu trong 30 giây. CLI tự động hóa miễn phí, mã nguồn mở cho Windows, macOS và Linux. Python 3.9+. 384 mô-đun nguyên tử được bao gồm. Hoạt động ngoại tuyến.",
+    "landing.meta.faq.description": "Flyto2 hoạt động như thế nào? Có thực sự miễn phí không? Có thể chạy ngoại tuyến không? Nhận câu trả lời cho các câu hỏi phổ biến nhất về nền tảng tự động hóa no-code của Flyto2.",
+    "landing.meta.languagepacks.description": "Tải gói ngôn ngữ cho Flyto2. Hỗ trợ tiếng Anh, tiếng Trung, tiếng Nhật và nhiều hơn nữa. Sử dụng Flyto2 bằng ngôn ngữ của bạn, ngay cả khi không có internet. Tải miễn phí.",
+    "landing.meta.philosophy.description": "Tại sao chúng tôi xây dựng Flyto2 khác biệt. Tìm hiểu triết lý của chúng tôi về tự động hóa có người trong vòng lặp, tại sao quy trình phải có thể xác minh và tại sao giám sát con người là một tính năng, không phải giới hạn.",
+    "landing.meta.pricing.description": "Bắt đầu tự động hóa miễn phí, nâng cấp khi bạn cần thêm. Gói miễn phí bao gồm ghi không giới hạn. Pro thêm lập lịch, xử lý hàng loạt và hỗ trợ ưu tiên. Không cần thẻ tín dụng.",
+    "landing.meta.product.description": "Khám phá tại sao RPA truyền thống thất bại với quy trình phức tạp. Flyto2 kết hợp tự động hóa điều khiển bằng UI với các bước phê duyệt của con người, điểm kiểm tra xác thực và nhật ký kiểm toán đầy đủ. Nền tảng quy trình được xây dựng cho nhu cầu doanh nghiệp.",
+    "landing.meta.usecases.description": "Khám phá cách doanh nghiệp sử dụng Flyto2 cho quy trình phê duyệt, tự động hóa có người trong vòng lặp, thay thế RPA và hoạt động được hỗ trợ bởi AI. Ví dụ thực tế với mẫu triển khai."
+  }
+}

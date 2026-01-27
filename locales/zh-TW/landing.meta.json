@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 是結合 UI 驅動自動化與人工監督的企業級工作流程平台。建立具有審批步驟、驗證檢查點和完整稽核軌跡的工作流程。100% 離線運作。",
+    "landing.meta.index.ogDescription": "具有 UI 驅動自動化和人工監督的企業級工作流程平台。建立具有審批步驟和驗證檢查點的工作流程。",
+    "landing.meta.about.description": "了解 Flyto2 - 專為人機協作自動化打造的企業級工作流程平台。開源核心、離線優先設計，專為需要控制的團隊打造。",
+    "landing.meta.app.description": "下載 Flyto2 視覺化自動化應用程式。點擊式介面，無需編碼。自動偵測您的作業系統。幾分鐘內錄製工作流程。免費開始使用。",
+    "landing.meta.blog.description": "關於企業工作流程自動化、人機協作設計模式，以及傳統 RPA 為何失敗的見解。來自 Flyto2 團隊的架構思考。",
+    "landing.meta.buyoffline.description": "在安全的隔離環境中部署 Flyto2。年度一次性付款。無需網路。您的資料永不離開網路。適合受監管的產業。",
+    "landing.meta.compare.description": "比較 Flyto2 與傳統 RPA 及 API 工作流程自動化工具。了解企業為何選擇 Flyto2 進行人機協作自動化、離線部署和審批工作流程。",
+    "landing.meta.contact.description": "有問題嗎？我們在 24 小時內回覆。聯繫我們洽詢銷售、技術支援、企業解決方案或合作機會。",
+    "landing.meta.download.description": "pip install flyto - 30 秒內開始。適用於 Windows、macOS 和 Linux 的免費開源自動化 CLI。Python 3.9+。內建 384 個原子模組。離線運作。",
+    "landing.meta.faq.description": "Flyto2 如何運作？真的免費嗎？可以離線運行嗎？獲取關於 Flyto2 無代碼自動化平台最常見問題的解答。",
+    "landing.meta.languagepacks.description": "下載 Flyto2 語言包。支援英文、中文、日文等。即使沒有網路，也可以使用您偏好的語言使用 Flyto2。免費下載。",
+    "landing.meta.philosophy.description": "為什麼我們以不同的方式構建 Flyto2。了解我們關於人機協作自動化的理念、為什麼工作流程必須可驗證，以及為什麼人工監督是一個功能而非限制。",
+    "landing.meta.pricing.description": "免費開始自動化，需要時再升級。免費方案包含無限錄製。Pro 方案增加排程、批次處理和優先支援。無需信用卡。",
+    "landing.meta.product.description": "了解為什麼傳統 RPA 在複雜工作流程中會失敗。Flyto2 結合 UI 驅動自動化與人工審批步驟、驗證檢查點和完整稽核軌跡。為企業需求打造的工作流程平台。",
+    "landing.meta.usecases.description": "了解企業如何使用 Flyto2 進行審批工作流程、人機協作自動化、RPA 替代和 AI 輔助營運。包含實施模式的真實範例。"
+  }
+}

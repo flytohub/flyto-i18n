@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 es una plataforma de flujos de trabajo empresarial que combina automatización impulsada por UI con supervisión humana. Crea flujos de trabajo con pasos de aprobación, puntos de validación y auditorías completas. Funciona 100% sin conexión.",
+    "landing.meta.index.ogDescription": "Plataforma de flujos de trabajo empresarial con automatización impulsada por UI y supervisión humana. Crea flujos de trabajo con pasos de aprobación y puntos de validación.",
+    "landing.meta.about.description": "Conoce Flyto2, la plataforma de flujos de trabajo empresarial construida para automatización con humano en el ciclo. Núcleo de código abierto, diseño offline-first, construido para equipos que necesitan control.",
+    "landing.meta.app.description": "Descarga la aplicación de automatización visual Flyto2. Interfaz de apuntar y hacer clic, sin necesidad de programar. Detecta tu SO automáticamente. Graba flujos de trabajo en minutos. 100% gratis para empezar.",
+    "landing.meta.blog.description": "Perspectivas sobre automatización de flujos de trabajo empresariales, patrones de diseño con humano en el ciclo y por qué falla el RPA tradicional. Pensamientos de arquitectura del equipo Flyto2.",
+    "landing.meta.buyoffline.description": "Despliega Flyto2 en entornos seguros y aislados. Pago único anual. No requiere internet. Tus datos nunca salen de tu red. Perfecto para industrias reguladas.",
+    "landing.meta.compare.description": "Compara Flyto2 con herramientas tradicionales de RPA y automatización de flujos de trabajo API. Descubre por qué las empresas eligen Flyto2 para automatización con humano en el ciclo, despliegue offline y flujos de aprobación.",
+    "landing.meta.contact.description": "¿Tienes preguntas? Respondemos en 24 horas. Contáctanos para consultas de ventas, soporte técnico, soluciones empresariales u oportunidades de colaboración.",
+    "landing.meta.download.description": "pip install flyto - Comienza en 30 segundos. CLI de automatización gratuita y de código abierto para Windows, macOS y Linux. Python 3.9+. 384 módulos atómicos incluidos. Funciona sin conexión.",
+    "landing.meta.faq.description": "¿Cómo funciona Flyto2? ¿Es realmente gratis? ¿Puede funcionar sin conexión? Obtén respuestas a las preguntas más comunes sobre la plataforma de automatización sin código de Flyto2.",
+    "landing.meta.languagepacks.description": "Descarga paquetes de idiomas para Flyto2. Soporte para inglés, chino, japonés y más. Usa Flyto2 en tu idioma, incluso sin internet. Descarga gratuita.",
+    "landing.meta.philosophy.description": "Por qué construimos Flyto2 de manera diferente. Conoce nuestra filosofía sobre automatización con humano en el ciclo, por qué los flujos deben ser verificables y por qué la supervisión humana es una característica, no una limitación.",
+    "landing.meta.pricing.description": "Comienza a automatizar gratis, actualiza cuando necesites más. El plan gratuito incluye grabaciones ilimitadas. Pro añade programación, procesamiento por lotes y soporte prioritario. Sin tarjeta de crédito.",
+    "landing.meta.product.description": "Descubre por qué el RPA tradicional falla en flujos de trabajo complejos. Flyto2 combina automatización impulsada por UI con pasos de aprobación humana, puntos de validación y auditorías completas. La plataforma de flujos construida para necesidades empresariales.",
+    "landing.meta.usecases.description": "Descubre cómo las empresas usan Flyto2 para flujos de aprobación, automatización con humano en el ciclo, reemplazo de RPA y operaciones asistidas por IA. Ejemplos reales con patrones de implementación."
+  }
+}

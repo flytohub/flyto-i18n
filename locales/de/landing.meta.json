@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 ist eine Enterprise-Workflow-Plattform, die UI-gesteuerte Automatisierung mit menschlicher Aufsicht kombiniert. Erstellen Sie Workflows mit Genehmigungsschritten, Validierungsprüfpunkten und vollständigen Audit-Trails. Funktioniert 100% offline.",
+    "landing.meta.index.ogDescription": "Enterprise-Workflow-Plattform mit UI-gesteuerter Automatisierung und menschlicher Aufsicht. Erstellen Sie Workflows mit Genehmigungsschritten und Validierungsprüfpunkten.",
+    "landing.meta.about.description": "Erfahren Sie mehr über Flyto2, die Enterprise-Workflow-Plattform für Human-in-the-Loop-Automatisierung. Open-Source-Kern, Offline-First-Design, entwickelt für Teams, die Kontrolle benötigen.",
+    "landing.meta.app.description": "Laden Sie die Flyto2 Visual Automation App herunter. Point-and-Click-Oberfläche, keine Programmierung erforderlich. Automatische Betriebssystemerkennung. Workflows in Minuten aufzeichnen. 100% kostenlos starten.",
+    "landing.meta.blog.description": "Einblicke in Enterprise-Workflow-Automatisierung, Human-in-the-Loop-Designmuster und warum traditionelle RPA scheitert. Architekturgedanken vom Flyto2-Team.",
+    "landing.meta.buyoffline.description": "Stellen Sie Flyto2 in sicheren, Air-Gapped-Umgebungen bereit. Einmalige Jahreszahlung. Kein Internet erforderlich. Ihre Daten verlassen nie Ihr Netzwerk. Perfekt für regulierte Branchen.",
+    "landing.meta.compare.description": "Vergleichen Sie Flyto2 mit traditionellen RPA- und API-Workflow-Automatisierungstools. Sehen Sie, warum Unternehmen Flyto2 für Human-in-the-Loop-Automatisierung, Offline-Bereitstellung und Genehmigungsworkflows wählen.",
+    "landing.meta.contact.description": "Haben Sie Fragen? Wir antworten innerhalb von 24 Stunden. Kontaktieren Sie uns für Verkaufsanfragen, technischen Support, Enterprise-Lösungen oder Partnerschaftsmöglichkeiten.",
+    "landing.meta.download.description": "pip install flyto - Starten Sie in 30 Sekunden. Kostenlose, Open-Source-Automatisierungs-CLI für Windows, macOS und Linux. Python 3.9+. 384 atomare Module enthalten. Funktioniert offline.",
+    "landing.meta.faq.description": "Wie funktioniert Flyto2? Ist es wirklich kostenlos? Kann es offline laufen? Erhalten Sie Antworten auf die häufigsten Fragen zur No-Code-Automatisierungsplattform von Flyto2.",
+    "landing.meta.languagepacks.description": "Laden Sie Sprachpakete für Flyto2 herunter. Unterstützung für Englisch, Chinesisch, Japanisch und mehr. Nutzen Sie Flyto2 in Ihrer Sprache, auch ohne Internet. Kostenloser Download.",
+    "landing.meta.philosophy.description": "Warum wir Flyto2 anders gebaut haben. Erfahren Sie unsere Philosophie zu Human-in-the-Loop-Automatisierung, warum Workflows verifizierbar sein müssen und warum menschliche Aufsicht ein Feature ist, keine Einschränkung.",
+    "landing.meta.pricing.description": "Starten Sie kostenlos mit der Automatisierung, upgraden Sie bei Bedarf. Der kostenlose Plan umfasst unbegrenzte Aufnahmen. Pro fügt Planung, Stapelverarbeitung und Prioritätssupport hinzu. Keine Kreditkarte erforderlich.",
+    "landing.meta.product.description": "Entdecken Sie, warum traditionelle RPA bei komplexen Workflows scheitert. Flyto2 kombiniert UI-gesteuerte Automatisierung mit menschlichen Genehmigungsschritten, Validierungsprüfpunkten und vollständigen Audit-Trails. Die Workflow-Plattform für Enterprise-Anforderungen.",
+    "landing.meta.usecases.description": "Entdecken Sie, wie Unternehmen Flyto2 für Genehmigungsworkflows, Human-in-the-Loop-Automatisierung, RPA-Ersatz und KI-gestützte Operationen nutzen. Praxisbeispiele mit Implementierungsmustern."
+  }
+}

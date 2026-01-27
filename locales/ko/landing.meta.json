@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2는 UI 기반 자동화와 인간 감독을 결합한 엔터프라이즈 워크플로우 플랫폼입니다. 승인 단계, 검증 체크포인트, 완전한 감사 추적이 포함된 워크플로우를 구축하세요. 100% 오프라인으로 작동합니다.",
+    "landing.meta.index.ogDescription": "UI 기반 자동화와 인간 감독이 포함된 엔터프라이즈 워크플로우 플랫폼. 승인 단계와 검증 체크포인트가 포함된 워크플로우를 구축하세요.",
+    "landing.meta.about.description": "Flyto2에 대해 알아보세요 - 휴먼 인 더 루프 자동화를 위해 구축된 엔터프라이즈 워크플로우 플랫폼. 오픈 소스 코어, 오프라인 우선 설계, 제어가 필요한 팀을 위해 구축되었습니다.",
+    "landing.meta.app.description": "Flyto2 비주얼 자동화 앱을 다운로드하세요. 포인트 앤 클릭 인터페이스, 코딩 불필요. OS 자동 감지. 몇 분 안에 워크플로우를 녹화하세요. 무료로 시작하세요.",
+    "landing.meta.blog.description": "엔터프라이즈 워크플로우 자동화, 휴먼 인 더 루프 디자인 패턴, 기존 RPA가 실패하는 이유에 대한 인사이트. Flyto2 팀의 아키텍처 고찰.",
+    "landing.meta.buyoffline.description": "Flyto2를 보안 에어갭 환경에 배포하세요. 연간 일회 결제. 인터넷 불필요. 데이터가 네트워크 밖으로 나가지 않습니다. 규제 산업에 완벽합니다.",
+    "landing.meta.compare.description": "Flyto2를 기존 RPA 및 API 워크플로우 자동화 도구와 비교하세요. 기업들이 휴먼 인 더 루프 자동화, 오프라인 배포, 승인 워크플로우를 위해 Flyto2를 선택하는 이유를 확인하세요.",
+    "landing.meta.contact.description": "질문이 있으신가요? 24시간 이내에 답변드립니다. 판매 문의, 기술 지원, 엔터프라이즈 솔루션 또는 파트너십 기회에 대해 문의하세요.",
+    "landing.meta.download.description": "pip install flyto - 30초 안에 시작하세요. Windows, macOS, Linux용 무료 오픈 소스 자동화 CLI. Python 3.9+. 384개 아토믹 모듈 포함. 오프라인 작동.",
+    "landing.meta.faq.description": "Flyto2는 어떻게 작동하나요? 정말 무료인가요? 오프라인에서 실행할 수 있나요? Flyto2 노코드 자동화 플랫폼에 대한 자주 묻는 질문의 답변을 얻으세요.",
+    "landing.meta.languagepacks.description": "Flyto2 언어 팩을 다운로드하세요. 영어, 중국어, 일본어 등을 지원합니다. 인터넷 없이도 원하는 언어로 Flyto2를 사용하세요. 무료 다운로드.",
+    "landing.meta.philosophy.description": "우리가 Flyto2를 다르게 구축한 이유. 휴먼 인 더 루프 자동화에 대한 철학, 워크플로우가 검증 가능해야 하는 이유, 인간 감독이 제한이 아닌 기능인 이유를 알아보세요.",
+    "landing.meta.pricing.description": "무료로 자동화를 시작하고 필요할 때 업그레이드하세요. 무료 플랜에는 무제한 녹화가 포함됩니다. Pro는 스케줄링, 배치 처리 및 우선 지원을 추가합니다. 신용카드 불필요.",
+    "landing.meta.product.description": "복잡한 워크플로우에서 기존 RPA가 실패하는 이유를 발견하세요. Flyto2는 UI 기반 자동화와 인간 승인 단계, 검증 체크포인트, 완전한 감사 추적을 결합합니다. 엔터프라이즈 요구를 위해 구축된 워크플로우 플랫폼.",
+    "landing.meta.usecases.description": "기업들이 Flyto2를 승인 워크플로우, 휴먼 인 더 루프 자동화, RPA 대체, AI 지원 운영에 어떻게 사용하는지 알아보세요. 구현 패턴이 포함된 실제 사례."
+  }
+}

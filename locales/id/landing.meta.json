@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 adalah platform alur kerja enterprise yang menggabungkan otomatisasi berbasis UI dengan pengawasan manusia. Bangun alur kerja dengan langkah persetujuan, checkpoint validasi, dan jejak audit lengkap. Bekerja 100% offline.",
+    "landing.meta.index.ogDescription": "Platform alur kerja enterprise dengan otomatisasi berbasis UI dan pengawasan manusia. Bangun alur kerja dengan langkah persetujuan dan checkpoint validasi.",
+    "landing.meta.about.description": "Pelajari tentang Flyto2, platform alur kerja enterprise yang dibangun untuk otomatisasi dengan manusia dalam loop. Inti open source, desain offline-first, dibangun untuk tim yang membutuhkan kontrol.",
+    "landing.meta.app.description": "Unduh aplikasi otomatisasi visual Flyto2. Antarmuka point-and-click, tidak perlu coding. Deteksi otomatis OS Anda. Rekam alur kerja dalam hitungan menit. 100% gratis untuk memulai.",
+    "landing.meta.blog.description": "Wawasan tentang otomatisasi alur kerja enterprise, pola desain dengan manusia dalam loop, dan mengapa RPA tradisional gagal. Pemikiran arsitektur dari tim Flyto2.",
+    "landing.meta.buyoffline.description": "Deploy Flyto2 di lingkungan aman dan terisolasi. Pembayaran tahunan satu kali. Tidak perlu internet. Data Anda tidak pernah meninggalkan jaringan Anda. Sempurna untuk industri yang diregulasi.",
+    "landing.meta.compare.description": "Bandingkan Flyto2 dengan alat RPA tradisional dan otomatisasi alur kerja API. Lihat mengapa perusahaan memilih Flyto2 untuk otomatisasi dengan manusia dalam loop, deployment offline, dan alur kerja persetujuan.",
+    "landing.meta.contact.description": "Punya pertanyaan? Kami membalas dalam 24 jam. Hubungi kami untuk pertanyaan penjualan, dukungan teknis, solusi enterprise, atau peluang kemitraan.",
+    "landing.meta.download.description": "pip install flyto - Mulai dalam 30 detik. CLI otomatisasi gratis dan open source untuk Windows, macOS & Linux. Python 3.9+. 384 modul atomik termasuk. Bekerja offline.",
+    "landing.meta.faq.description": "Bagaimana Flyto2 bekerja? Apakah benar-benar gratis? Bisakah berjalan offline? Dapatkan jawaban untuk pertanyaan paling umum tentang platform otomatisasi no-code Flyto2.",
+    "landing.meta.languagepacks.description": "Unduh paket bahasa untuk Flyto2. Dukungan untuk bahasa Inggris, Cina, Jepang dan lainnya. Gunakan Flyto2 dalam bahasa Anda, bahkan tanpa internet. Unduhan gratis.",
+    "landing.meta.philosophy.description": "Mengapa kami membangun Flyto2 secara berbeda. Pelajari filosofi kami tentang otomatisasi dengan manusia dalam loop, mengapa alur kerja harus dapat diverifikasi, dan mengapa pengawasan manusia adalah fitur, bukan batasan.",
+    "landing.meta.pricing.description": "Mulai otomatisasi gratis, upgrade saat Anda butuh lebih. Paket gratis termasuk rekaman tidak terbatas. Pro menambahkan penjadwalan, pemrosesan batch & dukungan prioritas. Tidak perlu kartu kredit.",
+    "landing.meta.product.description": "Temukan mengapa RPA tradisional gagal untuk alur kerja kompleks. Flyto2 menggabungkan otomatisasi berbasis UI dengan langkah persetujuan manusia, checkpoint validasi, dan jejak audit lengkap. Platform alur kerja yang dibangun untuk kebutuhan enterprise.",
+    "landing.meta.usecases.description": "Temukan bagaimana perusahaan menggunakan Flyto2 untuk alur kerja persetujuan, otomatisasi dengan manusia dalam loop, penggantian RPA, dan operasi yang dibantu AI. Contoh nyata dengan pola implementasi."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 est une plateforme de workflows d'entreprise qui combine l'automatisation pilotée par UI avec la supervision humaine. Créez des workflows avec des étapes d'approbation, des points de validation et des pistes d'audit complètes. Fonctionne 100% hors ligne.",
+    "landing.meta.index.ogDescription": "Plateforme de workflows d'entreprise avec automatisation pilotée par UI et supervision humaine. Créez des workflows avec des étapes d'approbation et des points de validation.",
+    "landing.meta.about.description": "Découvrez Flyto2, la plateforme de workflows d'entreprise conçue pour l'automatisation avec humain dans la boucle. Noyau open source, conception offline-first, conçu pour les équipes qui ont besoin de contrôle.",
+    "landing.meta.app.description": "Téléchargez l'application d'automatisation visuelle Flyto2. Interface pointer-cliquer, aucun codage requis. Détection automatique de votre OS. Enregistrez des workflows en quelques minutes. 100% gratuit pour commencer.",
+    "landing.meta.blog.description": "Perspectives sur l'automatisation des workflows d'entreprise, les modèles de conception avec humain dans la boucle et pourquoi le RPA traditionnel échoue. Réflexions d'architecture de l'équipe Flyto2.",
+    "landing.meta.buyoffline.description": "Déployez Flyto2 dans des environnements sécurisés et isolés. Paiement unique annuel. Aucun internet requis. Vos données ne quittent jamais votre réseau. Parfait pour les industries réglementées.",
+    "landing.meta.compare.description": "Comparez Flyto2 avec les outils traditionnels RPA et d'automatisation de workflows API. Découvrez pourquoi les entreprises choisissent Flyto2 pour l'automatisation avec humain dans la boucle, le déploiement hors ligne et les workflows d'approbation.",
+    "landing.meta.contact.description": "Vous avez des questions? Nous répondons sous 24 heures. Contactez-nous pour les demandes commerciales, le support technique, les solutions entreprise ou les opportunités de partenariat.",
+    "landing.meta.download.description": "pip install flyto - Démarrez en 30 secondes. CLI d'automatisation gratuite et open source pour Windows, macOS et Linux. Python 3.9+. 384 modules atomiques inclus. Fonctionne hors ligne.",
+    "landing.meta.faq.description": "Comment fonctionne Flyto2? Est-ce vraiment gratuit? Peut-il fonctionner hors ligne? Obtenez des réponses aux questions les plus courantes sur la plateforme d'automatisation no-code de Flyto2.",
+    "landing.meta.languagepacks.description": "Téléchargez les packs de langue pour Flyto2. Support pour l'anglais, le chinois, le japonais et plus. Utilisez Flyto2 dans votre langue, même sans internet. Téléchargement gratuit.",
+    "landing.meta.philosophy.description": "Pourquoi nous avons construit Flyto2 différemment. Découvrez notre philosophie sur l'automatisation avec humain dans la boucle, pourquoi les workflows doivent être vérifiables et pourquoi la supervision humaine est une fonctionnalité, pas une limitation.",
+    "landing.meta.pricing.description": "Commencez à automatiser gratuitement, passez à la version supérieure quand vous en avez besoin. Le plan gratuit inclut des enregistrements illimités. Pro ajoute la planification, le traitement par lots et le support prioritaire. Aucune carte de crédit requise.",
+    "landing.meta.product.description": "Découvrez pourquoi le RPA traditionnel échoue pour les workflows complexes. Flyto2 combine l'automatisation pilotée par UI avec des étapes d'approbation humaine, des points de validation et des pistes d'audit complètes. La plateforme de workflows conçue pour les besoins d'entreprise.",
+    "landing.meta.usecases.description": "Découvrez comment les entreprises utilisent Flyto2 pour les workflows d'approbation, l'automatisation avec humain dans la boucle, le remplacement RPA et les opérations assistées par IA. Exemples réels avec des modèles d'implémentation."
+  }
+}

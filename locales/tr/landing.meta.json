@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2, UI odaklı otomasyonu insan gözetimi ile birleştiren kurumsal iş akışı platformudur. Onay adımları, doğrulama kontrol noktaları ve tam denetim izleri ile iş akışları oluşturun. %100 çevrimdışı çalışır.",
+    "landing.meta.index.ogDescription": "UI odaklı otomasyon ve insan gözetimi ile kurumsal iş akışı platformu. Onay adımları ve doğrulama kontrol noktaları ile iş akışları oluşturun.",
+    "landing.meta.about.description": "Flyto2 hakkında bilgi edinin - döngüde insan otomasyonu için oluşturulmuş kurumsal iş akışı platformu. Açık kaynak çekirdeği, çevrimdışı öncelikli tasarım, kontrol gerektiren ekipler için oluşturuldu.",
+    "landing.meta.app.description": "Flyto2 görsel otomasyon uygulamasını indirin. Tıkla-göster arayüzü, kodlama gerektirmez. İşletim sisteminizi otomatik algılar. Dakikalar içinde iş akışlarını kaydedin. Başlamak için %100 ücretsiz.",
+    "landing.meta.blog.description": "Kurumsal iş akışı otomasyonu, döngüde insan tasarım kalıpları ve geleneksel RPA'nın neden başarısız olduğu hakkında içgörüler. Flyto2 ekibinden mimari düşünceler.",
+    "landing.meta.buyoffline.description": "Flyto2'yi güvenli, hava boşluklu ortamlarda dağıtın. Tek seferlik yıllık ödeme. İnternet gerekli değil. Verileriniz asla ağınızdan çıkmaz. Düzenlenmiş endüstriler için mükemmel.",
+    "landing.meta.compare.description": "Flyto2'yi geleneksel RPA ve API iş akışı otomasyon araçlarıyla karşılaştırın. İşletmelerin neden döngüde insan otomasyonu, çevrimdışı dağıtım ve onay iş akışları için Flyto2'yi seçtiğini görün.",
+    "landing.meta.contact.description": "Sorularınız mı var? 24 saat içinde yanıt veriyoruz. Satış sorguları, teknik destek, kurumsal çözümler veya ortaklık fırsatları için bizimle iletişime geçin.",
+    "landing.meta.download.description": "pip install flyto - 30 saniyede başlayın. Windows, macOS ve Linux için ücretsiz, açık kaynak otomasyon CLI'si. Python 3.9+. 384 atomik modül dahil. Çevrimdışı çalışır.",
+    "landing.meta.faq.description": "Flyto2 nasıl çalışır? Gerçekten ücretsiz mi? Çevrimdışı çalışabilir mi? Flyto2'nin kodsuz otomasyon platformu hakkında en sık sorulan soruların yanıtlarını alın.",
+    "landing.meta.languagepacks.description": "Flyto2 için dil paketlerini indirin. İngilizce, Çince, Japonca ve daha fazlası için destek. İnternet olmadan bile kendi dilinizde Flyto2 kullanın. Ücretsiz indirme.",
+    "landing.meta.philosophy.description": "Flyto2'yi neden farklı inşa ettik. Döngüde insan otomasyonu hakkındaki felsefemizi, iş akışlarının neden doğrulanabilir olması gerektiğini ve insan gözetiminin neden bir sınırlama değil bir özellik olduğunu öğrenin.",
+    "landing.meta.pricing.description": "Ücretsiz otomasyona başlayın, ihtiyacınız olduğunda yükseltin. Ücretsiz plan sınırsız kayıt içerir. Pro zamanlama, toplu işleme ve öncelikli destek ekler. Kredi kartı gerekli değil.",
+    "landing.meta.product.description": "Geleneksel RPA'nın karmaşık iş akışları için neden başarısız olduğunu keşfedin. Flyto2, UI odaklı otomasyonu insan onay adımları, doğrulama kontrol noktaları ve tam denetim izleri ile birleştirir. Kurumsal ihtiyaçlar için oluşturulmuş iş akışı platformu.",
+    "landing.meta.usecases.description": "İşletmelerin Flyto2'yi onay iş akışları, döngüde insan otomasyonu, RPA değişimi ve AI destekli operasyonlar için nasıl kullandığını keşfedin. Uygulama kalıpları ile gerçek dünya örnekleri."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "landing.meta",
+  "version": "1.0.0",
+  "translations": {
+    "landing.meta.index.description": "Flyto2 to korporacyjna platforma przepływów pracy, która łączy automatyzację opartą na UI z nadzorem człowieka. Twórz przepływy pracy z krokami zatwierdzania, punktami kontrolnymi walidacji i pełnymi śladami audytu. Działa w 100% offline.",
+    "landing.meta.index.ogDescription": "Korporacyjna platforma przepływów pracy z automatyzacją opartą na UI i nadzorem człowieka. Twórz przepływy pracy z krokami zatwierdzania i punktami kontrolnymi walidacji.",
+    "landing.meta.about.description": "Dowiedz się o Flyto2, korporacyjnej platformie przepływów pracy zbudowanej dla automatyzacji z człowiekiem w pętli. Otwartoźródłowy rdzeń, projektowanie offline-first, zbudowane dla zespołów potrzebujących kontroli.",
+    "landing.meta.app.description": "Pobierz aplikację do wizualnej automatyzacji Flyto2. Interfejs wskaż i kliknij, bez kodowania. Automatyczne wykrywanie systemu operacyjnego. Nagrywaj przepływy pracy w kilka minut. 100% darmowe na start.",
+    "landing.meta.blog.description": "Spostrzeżenia na temat automatyzacji korporacyjnych przepływów pracy, wzorców projektowych z człowiekiem w pętli i dlaczego tradycyjna RPA zawodzi. Przemyślenia architektoniczne od zespołu Flyto2.",
+    "landing.meta.buyoffline.description": "Wdrażaj Flyto2 w bezpiecznych, odizolowanych środowiskach. Jednorazowa roczna płatność. Nie wymaga internetu. Twoje dane nigdy nie opuszczają sieci. Idealne dla branż regulowanych.",
+    "landing.meta.compare.description": "Porównaj Flyto2 z tradycyjnymi narzędziami RPA i automatyzacji przepływów pracy API. Zobacz, dlaczego przedsiębiorstwa wybierają Flyto2 do automatyzacji z człowiekiem w pętli, wdrożeń offline i przepływów zatwierdzania.",
+    "landing.meta.contact.description": "Masz pytania? Odpowiadamy w ciągu 24 godzin. Skontaktuj się z nami w sprawie zapytań sprzedażowych, wsparcia technicznego, rozwiązań korporacyjnych lub możliwości partnerstwa.",
+    "landing.meta.download.description": "pip install flyto - Zacznij w 30 sekund. Darmowe, otwartoźródłowe CLI do automatyzacji dla Windows, macOS i Linux. Python 3.9+. 384 moduły atomowe w zestawie. Działa offline.",
+    "landing.meta.faq.description": "Jak działa Flyto2? Czy jest naprawdę darmowy? Czy może działać offline? Uzyskaj odpowiedzi na najczęściej zadawane pytania o platformę automatyzacji no-code Flyto2.",
+    "landing.meta.languagepacks.description": "Pobierz pakiety językowe dla Flyto2. Wsparcie dla angielskiego, chińskiego, japońskiego i więcej. Używaj Flyto2 w swoim języku, nawet bez internetu. Darmowe pobieranie.",
+    "landing.meta.philosophy.description": "Dlaczego zbudowaliśmy Flyto2 inaczej. Poznaj naszą filozofię automatyzacji z człowiekiem w pętli, dlaczego przepływy pracy muszą być weryfikowalne i dlaczego nadzór człowieka to funkcja, nie ograniczenie.",
+    "landing.meta.pricing.description": "Zacznij automatyzować za darmo, uaktualnij gdy potrzebujesz więcej. Darmowy plan zawiera nieograniczone nagrania. Pro dodaje harmonogramowanie, przetwarzanie wsadowe i priorytetowe wsparcie. Nie wymaga karty kredytowej.",
+    "landing.meta.product.description": "Odkryj, dlaczego tradycyjna RPA zawodzi dla złożonych przepływów pracy. Flyto2 łączy automatyzację opartą na UI z ludzkimi krokami zatwierdzania, punktami kontrolnymi walidacji i pełnymi śladami audytu. Platforma przepływów pracy zbudowana dla potrzeb korporacyjnych.",
+    "landing.meta.usecases.description": "Odkryj, jak przedsiębiorstwa używają Flyto2 do przepływów zatwierdzania, automatyzacji z człowiekiem w pętli, zastępowania RPA i operacji wspomaganych przez AI. Przykłady z życia z wzorcami implementacji."
+  }
+}
