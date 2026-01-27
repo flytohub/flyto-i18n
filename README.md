@@ -56,6 +56,56 @@ translator = Translator(locale='zh-TW')
 label = translator.translate('modules.browser.click.label')  # "點擊元素"
 ```
 
+## Translation Key Format
+
+### Module Keys
+
+```
+modules.{category}.{module_name}.label
+modules.{category}.{module_name}.description
+modules.{category}.{module_name}.params.{param_name}
+modules.{category}.{module_name}.params.{param_name}.description
+modules.{category}.{module_name}.params.{param_name}.options.{value}
+modules.{category}.{module_name}.output.{field}.description
+```
+
+### Examples
+
+```json
+{
+  "modules.flow.trigger.label": "Trigger",
+  "modules.flow.trigger.description": "Start workflow execution",
+  "modules.flow.trigger.params.trigger_type": "Trigger Type",
+  "modules.flow.trigger.params.trigger_type.options.manual": "Manual",
+  "modules.flow.trigger.params.trigger_type.options.webhook": "Webhook",
+  "modules.flow.trigger.params.trigger_type.options.schedule": "Schedule"
+}
+```
+
+### How It Works
+
+flyto-core modules use a simple format for `params_schema`:
+
+```python
+@register_module(
+    module_id='flow.trigger',
+    params_schema={
+        # Array = dropdown options (auto-generates i18n keys)
+        'trigger_type': ['manual', 'webhook', 'schedule'],
+
+        # Other types
+        'timeout': 30,        # number input
+        'enabled': True,      # toggle switch
+        'name': '',           # text input
+    }
+)
+```
+
+The sync script automatically generates i18n keys:
+- `modules.flow.trigger.params.trigger_type` → "Trigger Type"
+- `modules.flow.trigger.params.trigger_type.options.manual` → "Manual"
+- `modules.flow.trigger.params.trigger_type.options.webhook` → "Webhook"
+
 ## Contributing
 
 We welcome translation contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
@@ -67,26 +117,33 @@ We welcome translation contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for
 3. Run validation: `python scripts/validate.py --locale <your-language>`
 4. Submit a Pull Request
 
-### Translation Key Format
-
-```
-modules.{category}.{module_name}.{section}.{field}
-
-Examples:
-- modules.browser.click.label
-- modules.browser.click.description
-- modules.browser.click.params.selector.label
-- modules.browser.click.output.status.description
-```
-
 ## Scripts
 
 | Script | Description |
 |--------|-------------|
-| `scripts/sync-from-core.py` | Sync keys from flyto-core (maintainers only) |
-| `scripts/validate.py` | Validate translation files |
-| `scripts/coverage.py` | Generate coverage report |
-| `scripts/build.py` | Build distribution files |
+| `sync-from-core.py` | Sync keys from flyto-core |
+| `sync-from-cloud.py` | Sync keys from flyto-cloud UI |
+| `validate.py` | Validate translation files |
+| `coverage.py` | Generate coverage report |
+| `build-dist.py` | Build distribution files |
+
+### Syncing from flyto-core
+
+```bash
+# Preview changes
+python scripts/sync-from-core.py --dry-run --no-delete
+
+# Apply changes (preserve cloud UI keys)
+python scripts/sync-from-core.py --no-delete
+
+# Full sync (will delete keys not in core)
+python scripts/sync-from-core.py
+```
+
+Options:
+- `--core-path PATH` - Path to flyto-core (default: `../flyto-core`)
+- `--dry-run` - Show changes without writing
+- `--no-delete` - Preserve keys not found in core (recommended)
 
 ## License
 

@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "Tags Filter",
     "modules.meta.modules.list.params.tags.description": "Filter modules by category (e.g., browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "Category Filter",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "Test module generation capability",
     "modules.meta.modules.test_generator.label": "Test Generator",
     "modules.meta.modules.update_docs.description": "Generate or update MODULES.md documentation from registry",

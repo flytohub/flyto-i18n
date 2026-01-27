@@ -29,6 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Number of rows written",
     "modules.data.json_to_csv.output.output_path.description": "Path to the generated CSV file",
     "modules.data.json_to_csv.output.row_count.description": "Path to the generated CSV file",
+    "modules.data.json_to_csv.params.input_data": "Input Data",
     "modules.data.text.template.description": "Fill text template with variables",
     "modules.data.text.template.label": "Text Template",
     "modules.data.text.template.output.result.description": "Operation status",
