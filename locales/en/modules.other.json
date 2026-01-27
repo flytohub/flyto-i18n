@@ -10,7 +10,7 @@
     "schema.field.full_page": "Full Page",
     "schema.field.response": "Response",
     "schema.field.screenshot_format": "Full Page",
-    "schema.field.url": "Url",
+    "schema.field.url": "Record ID",
     "schema.field.viewport_height": "Width",
     "schema.field.viewport_width": "Width"
   }
