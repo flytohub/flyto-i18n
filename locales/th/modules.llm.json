@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "งานที่ต้องการให้ Agent ทำ ใช้ {{input}} เพื่ออ้างอิงข้อมูลต้นทาง",
     "modules.llm.agent.params.tools": "เครื่องมือที่ใช้ได้",
     "modules.llm.agent.params.tools.description": "รายการรหัสโมดูล (ทางเลือกแทนการเชื่อมต่อโหนดเครื่องมือ)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "อินพุต",
     "modules.llm.agent.ports.memory": "โมเดล",
     "modules.llm.agent.ports.model": "อินพุต",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "รายการการแก้ไขที่สร้าง",
     "modules.llm.code_fix.output.fixes.description": "การดำเนินการสำเร็จหรือไม่",
     "modules.llm.code_fix.output.ok.description": "การดำเนินการสำเร็จหรือไม่",
-    "modules.llm.code_fix.output.summary.description": "รายการการแก้ไขที่ใช้ (หาก fix_mode เป็น apply)"
+    "modules.llm.code_fix.output.summary.description": "รายการการแก้ไขที่ใช้ (หาก fix_mode เป็น apply)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

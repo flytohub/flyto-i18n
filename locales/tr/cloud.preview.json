@@ -4,6 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
+    "preview.askAIFix": "",
     "preview.emptyState.description": "İş akışı adımları eklemek için Geliştirme moduna geçin",
     "preview.emptyState.hint": "Önizleme mevcut değil",
     "preview.emptyState.title": "İş Akışı Tanımlanmadı",

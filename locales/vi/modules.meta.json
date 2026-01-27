@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "Bộ lọc thẻ",
     "modules.meta.modules.list.params.tags.description": "Lọc module theo danh mục (ví dụ: browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "Bộ lọc danh mục",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "Kiểm tra khả năng tạo module",
     "modules.meta.modules.test_generator.label": "Kiểm tra trình tạo",
     "modules.meta.modules.update_docs.description": "Tạo hoặc cập nhật tài liệu MODULES.md từ registry",

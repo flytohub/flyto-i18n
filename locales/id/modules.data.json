@@ -29,6 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Jumlah baris yang ditulis",
     "modules.data.json_to_csv.output.output_path.description": "Path ke file CSV yang dihasilkan",
     "modules.data.json_to_csv.output.row_count.description": "Path ke file CSV yang dihasilkan",
+    "modules.data.json_to_csv.params.input_data": "Input Data",
     "modules.data.text.template.description": "Isi template teks dengan variabel",
     "modules.data.text.template.label": "Template Teks",
     "modules.data.text.template.output.result.description": "Status operasi",

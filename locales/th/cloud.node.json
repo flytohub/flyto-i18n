@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "คงที่",
     "node.settings.strategyLinear": "Linear",
     "node.settings.timeout": "Timeout",
-    "node.settings.timeoutPlaceholder": "เช่น 30000 (30 วินาที)"
+    "node.settings.timeoutPlaceholder": "เช่น 30000 (30 วินาที)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

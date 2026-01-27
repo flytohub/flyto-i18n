@@ -16,6 +16,11 @@
     "modules.integration.salesforce.update_record.label": "Perbarui Rekaman Salesforce",
     "modules.integration.slack.list_channels.description": "Daftar channel di workspace Slack",
     "modules.integration.slack.list_channels.label": "Daftar Channel Slack",
+    "modules.integration.slack.list_channels.params.channels": "Channels",
+    "modules.integration.slack.list_channels.params.channels.options.id": "Id",
+    "modules.integration.slack.list_channels.params.channels.options.is_private": "Is Private",
+    "modules.integration.slack.list_channels.params.channels.options.name": "Name",
+    "modules.integration.slack.list_channels.params.channels.options.num_members": "Num Members",
     "modules.integration.slack.send_message.description": "Kirim pesan ke channel Slack",
     "modules.integration.slack.send_message.label": "Kirim Pesan Slack"
   }

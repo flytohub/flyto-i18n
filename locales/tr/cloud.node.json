@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "Sabit",
     "node.settings.strategyLinear": "Doğrusal",
     "node.settings.timeout": "Zaman Aşımı",
-    "node.settings.timeoutPlaceholder": "ör. 30000 (30s)"
+    "node.settings.timeoutPlaceholder": "ör. 30000 (30s)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

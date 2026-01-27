@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "A tarefa para o agente completar. Use {{input}} para referenciar dados upstream.",
     "modules.llm.agent.params.tools": "Ferramentas Disponiveis",
     "modules.llm.agent.params.tools.description": "Lista de IDs de modulos (alternativa a conectar nos de ferramentas)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "Entrada",
     "modules.llm.agent.ports.memory": "Modelo",
     "modules.llm.agent.ports.model": "Entrada",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "Lista de correcoes geradas",
     "modules.llm.code_fix.output.fixes.description": "Se a operacao teve sucesso",
     "modules.llm.code_fix.output.ok.description": "Se a operacao teve sucesso",
-    "modules.llm.code_fix.output.summary.description": "Lista de correcoes aplicadas (se fix_mode for apply)"
+    "modules.llm.code_fix.output.summary.description": "Lista de correcoes aplicadas (se fix_mode for apply)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

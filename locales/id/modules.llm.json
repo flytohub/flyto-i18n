@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "Tugas untuk diselesaikan agen. Gunakan {{input}} untuk mereferensikan data upstream.",
     "modules.llm.agent.params.tools": "Tools yang Tersedia",
     "modules.llm.agent.params.tools.description": "Daftar ID modul (alternatif untuk menghubungkan node tool)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "Input",
     "modules.llm.agent.ports.memory": "Model",
     "modules.llm.agent.ports.model": "Input",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "Daftar perbaikan yang dihasilkan",
     "modules.llm.code_fix.output.fixes.description": "Apakah operasi berhasil",
     "modules.llm.code_fix.output.ok.description": "Apakah operasi berhasil",
-    "modules.llm.code_fix.output.summary.description": "Daftar perbaikan yang diterapkan (jika fix_mode adalah apply)"
+    "modules.llm.code_fix.output.summary.description": "Daftar perbaikan yang diterapkan (jika fix_mode adalah apply)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "Nhiệm vụ cho agent hoàn thành. Sử dụng {{input}} để tham chiếu dữ liệu upstream.",
     "modules.llm.agent.params.tools": "Công cụ có sẵn",
     "modules.llm.agent.params.tools.description": "Danh sách ID module (thay thế cho kết nối các node công cụ)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "Đầu vào",
     "modules.llm.agent.ports.memory": "Model",
     "modules.llm.agent.ports.model": "Đầu vào",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "Danh sách các sửa lỗi đã tạo",
     "modules.llm.code_fix.output.fixes.description": "Thao tác có thành công không",
     "modules.llm.code_fix.output.ok.description": "Thao tác có thành công không",
-    "modules.llm.code_fix.output.summary.description": "Danh sách các sửa lỗi đã áp dụng (nếu fix_mode là apply)"
+    "modules.llm.code_fix.output.summary.description": "Danh sách các sửa lỗi đã áp dụng (nếu fix_mode là apply)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

@@ -10,9 +10,16 @@
     "execution.controls.pause": "일시 중지",
     "execution.controls.resume": "재개",
     "execution.controls.step": "단계",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "실패 위치",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "체크포인트에서 재개",
     "execution.resume.options": "재개 옵션",
-    "execution.resume.retryFromStart": "처음부터 재시도"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "처음부터 재시도",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

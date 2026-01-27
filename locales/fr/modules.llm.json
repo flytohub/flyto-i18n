@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "La tache pour l'agent a completer. Utilisez {{input}} pour referencer les donnees en amont.",
     "modules.llm.agent.params.tools": "Outils disponibles",
     "modules.llm.agent.params.tools.description": "Liste des IDs de modules (alternative a la connexion de noeuds d'outils)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "Entree",
     "modules.llm.agent.ports.memory": "Modele",
     "modules.llm.agent.ports.model": "Entree",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "Liste des corrections generees",
     "modules.llm.code_fix.output.fixes.description": "Si l'operation a reussi",
     "modules.llm.code_fix.output.ok.description": "Si l'operation a reussi",
-    "modules.llm.code_fix.output.summary.description": "Liste des corrections appliquees (si fix_mode est apply)"
+    "modules.llm.code_fix.output.summary.description": "Liste des corrections appliquees (si fix_mode est apply)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

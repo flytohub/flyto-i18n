@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "Fixe",
     "node.settings.strategyLinear": "Lineaire",
     "node.settings.timeout": "Delai d'expiration",
-    "node.settings.timeoutPlaceholder": "ex: 30000 (30s)"
+    "node.settings.timeoutPlaceholder": "ex: 30000 (30s)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

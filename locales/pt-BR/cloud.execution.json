@@ -10,9 +10,16 @@
     "execution.controls.pause": "Pausar",
     "execution.controls.resume": "Retomar",
     "execution.controls.step": "Etapa",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Falhou em",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "Retomar do checkpoint",
     "execution.resume.options": "Opcoes de Retomada",
-    "execution.resume.retryFromStart": "Tentar novamente do inicio"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "Tentar novamente do inicio",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

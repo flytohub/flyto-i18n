@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "Ajanın tamamlaması gereken görev. Üst akış verisine referans için {{input}} kullanın.",
     "modules.llm.agent.params.tools": "Mevcut Araçlar",
     "modules.llm.agent.params.tools.description": "Modül kimliklerinin listesi (araç düğümlerini bağlamaya alternatif)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "Girdi",
     "modules.llm.agent.ports.memory": "Model",
     "modules.llm.agent.ports.model": "Girdi",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "Oluşturulan düzeltmeler listesi",
     "modules.llm.code_fix.output.fixes.description": "İşlem başarılı mı",
     "modules.llm.code_fix.output.ok.description": "İşlem başarılı mı",
-    "modules.llm.code_fix.output.summary.description": "Uygulanan düzeltmeler listesi (fix_mode apply ise)"
+    "modules.llm.code_fix.output.summary.description": "Uygulanan düzeltmeler listesi (fix_mode apply ise)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

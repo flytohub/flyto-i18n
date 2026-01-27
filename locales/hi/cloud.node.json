@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "स्थिर",
     "node.settings.strategyLinear": "रैखिक",
     "node.settings.timeout": "टाइमआउट",
-    "node.settings.timeoutPlaceholder": "जैसे 30000 (30s)"
+    "node.settings.timeoutPlaceholder": "जैसे 30000 (30s)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

@@ -18,6 +18,10 @@
     "modules.vision.compare.output.ok.description": "क्या तुलना सफल हुई",
     "modules.vision.compare.output.recommendation.description": "तुलना परिणामों का सारांश",
     "modules.vision.compare.output.similarity_score.description": "क्या महत्वपूर्ण अंतर पाए गए",
-    "modules.vision.compare.output.summary.description": "पहचाने गए अंतरों की सूची"
+    "modules.vision.compare.output.summary.description": "पहचाने गए अंतरों की सूची",
+    "modules.vision.compare.params.differences": "Differences",
+    "modules.vision.compare.params.focus_areas": "Focus Areas",
+    "modules.vision.compare.params.focus_areas.options.header": "Header",
+    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
   }
 }

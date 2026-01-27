@@ -10,9 +10,16 @@
     "execution.controls.pause": "หยุดชั่วคราว",
     "execution.controls.resume": "ดำเนินการต่อ",
     "execution.controls.step": "ขั้นตอน",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "ล้มเหลวที่",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "ดำเนินการต่อจาก checkpoint",
     "execution.resume.options": "ตัวเลือกการดำเนินการต่อ",
-    "execution.resume.retryFromStart": "ลองใหม่ตั้งแต่ต้น"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "ลองใหม่ตั้งแต่ต้น",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

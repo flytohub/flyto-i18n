@@ -29,6 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Yazılan satır sayısı",
     "modules.data.json_to_csv.output.output_path.description": "Oluşturulan CSV dosyasının yolu",
     "modules.data.json_to_csv.output.row_count.description": "Oluşturulan CSV dosyasının yolu",
+    "modules.data.json_to_csv.params.input_data": "Input Data",
     "modules.data.text.template.description": "Metin şablonunu değişkenlerle doldur",
     "modules.data.text.template.label": "Metin Şablonu",
     "modules.data.text.template.output.result.description": "İşlem durumu",

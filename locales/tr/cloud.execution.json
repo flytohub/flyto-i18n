@@ -10,9 +10,16 @@
     "execution.controls.pause": "Duraklat",
     "execution.controls.resume": "Devam Et",
     "execution.controls.step": "Adım",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Başarısız olduğu yer",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "Kontrol noktasından devam et",
     "execution.resume.options": "Devam Seçenekleri",
-    "execution.resume.retryFromStart": "Baştan tekrar dene"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "Baştan tekrar dene",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

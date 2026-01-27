@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "एजेंट के लिए पूर्ण करने का कार्य। अपस्ट्रीम डेटा संदर्भित करने के लिए {{input}} उपयोग करें।",
     "modules.llm.agent.params.tools": "उपलब्ध टूल्स",
     "modules.llm.agent.params.tools.description": "मॉड्यूल IDs की सूची (टूल नोड्स कनेक्ट करने का विकल्प)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "इनपुट",
     "modules.llm.agent.ports.memory": "मॉडल",
     "modules.llm.agent.ports.model": "इनपुट",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "जनरेट किए गए फ़िक्स की सूची",
     "modules.llm.code_fix.output.fixes.description": "क्या ऑपरेशन सफल हुआ",
     "modules.llm.code_fix.output.ok.description": "क्या ऑपरेशन सफल हुआ",
-    "modules.llm.code_fix.output.summary.description": "लागू किए गए फ़िक्स की सूची (यदि fix_mode apply है)"
+    "modules.llm.code_fix.output.summary.description": "लागू किए गए फ़िक्स की सूची (यदि fix_mode apply है)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

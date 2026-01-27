@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "Tetap",
     "node.settings.strategyLinear": "Linear",
     "node.settings.timeout": "Timeout",
-    "node.settings.timeoutPlaceholder": "misalnya 30000 (30d)"
+    "node.settings.timeoutPlaceholder": "misalnya 30000 (30d)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

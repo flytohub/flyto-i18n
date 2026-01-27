@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "Filter Tag",
     "modules.meta.modules.list.params.tags.description": "Filter modul berdasarkan kategori (mis., browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "Filter Kategori",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "Uji kemampuan pembuatan modul",
     "modules.meta.modules.test_generator.label": "Uji Generator",
     "modules.meta.modules.update_docs.description": "Hasilkan atau perbarui dokumentasi MODULES.md dari registry",

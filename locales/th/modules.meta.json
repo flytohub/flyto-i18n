@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "ตัวกรองแท็ก",
     "modules.meta.modules.list.params.tags.description": "กรองโมดูลตามหมวดหมู่ (เช่น browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "ตัวกรองหมวดหมู่",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "ทดสอบความสามารถในการสร้างโมดูล",
     "modules.meta.modules.test_generator.label": "ตัวสร้างทดสอบ",
     "modules.meta.modules.update_docs.description": "สร้างหรืออัปเดตเอกสาร MODULES.md จาก registry",

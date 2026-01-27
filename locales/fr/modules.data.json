@@ -29,6 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Nombre de lignes ecrites",
     "modules.data.json_to_csv.output.output_path.description": "Chemin vers le fichier CSV genere",
     "modules.data.json_to_csv.output.row_count.description": "Chemin vers le fichier CSV genere",
+    "modules.data.json_to_csv.params.input_data": "Input Data",
     "modules.data.text.template.description": "Remplir un modele de texte avec des variables",
     "modules.data.text.template.label": "Modele de texte",
     "modules.data.text.template.output.result.description": "Statut de l'operation",

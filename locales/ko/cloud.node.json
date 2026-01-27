@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "고정",
     "node.settings.strategyLinear": "선형",
     "node.settings.timeout": "시간 초과",
-    "node.settings.timeoutPlaceholder": "예: 30000 (30초)"
+    "node.settings.timeoutPlaceholder": "예: 30000 (30초)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

@@ -29,6 +29,10 @@
     "node.settings.strategyFixed": "Cố định",
     "node.settings.strategyLinear": "Tuyến tính",
     "node.settings.timeout": "Hết giờ",
-    "node.settings.timeoutPlaceholder": "VD: 30000 (30s)"
+    "node.settings.timeoutPlaceholder": "VD: 30000 (30s)",
+    "node.sticky.contentPlaceholder": "Enter content",
+    "node.sticky.placeholder": "Enter text",
+    "node.sticky.titlePlaceholder": "Enter title",
+    "node.trigger.badge": "Trigger badge"
   }
 }

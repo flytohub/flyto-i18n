@@ -4,6 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
+    "preview.askAIFix": "",
     "preview.emptyState.description": "Beralih ke mode Dev untuk menambahkan langkah workflow",
     "preview.emptyState.hint": "Tidak ada pratinjau tersedia",
     "preview.emptyState.title": "Tidak Ada Workflow yang Didefinisikan",

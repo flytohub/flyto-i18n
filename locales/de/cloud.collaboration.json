@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "cloud.collaboration",
+  "version": "1.0.0",
+  "translations": {
+    "collaboration.copied": "Copied",
+    "collaboration.copyLink": "Copy link",
+    "collaboration.editing": "Editing",
+    "collaboration.invite": "Invite",
+    "collaboration.live": "Live",
+    "collaboration.moat.description": "Moat description",
+    "collaboration.moat.title": "Moat title",
+    "collaboration.presence.active": "Active",
+    "collaboration.presence.away": "Away",
+    "collaboration.presence.idle": "Idle",
+    "collaboration.presence.offline": "Offline",
+    "collaboration.realtime": "Realtime",
+    "collaboration.session": "Session",
+    "collaboration.title": "Collaboration",
+    "collaboration.viewAll": "View all",
+    "collaboration.you": "You"
+  }
+}

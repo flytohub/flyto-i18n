@@ -31,6 +31,9 @@
     "modules.llm.agent.params.task.description": "Die Aufgabe, die der Agent erledigen soll. Verwenden Sie {{input}}, um auf vorgelagerte Daten zu verweisen.",
     "modules.llm.agent.params.tools": "Verfügbare Tools",
     "modules.llm.agent.params.tools.description": "Liste von Modul-IDs (Alternative zum Verbinden von Tool-Knoten)",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Read",
     "modules.llm.agent.ports.input": "Eingabe",
     "modules.llm.agent.ports.memory": "Modell",
     "modules.llm.agent.ports.model": "Eingabe",
@@ -50,6 +53,8 @@
     "modules.llm.code_fix.output.failed.description": "Liste der generierten Korrekturen",
     "modules.llm.code_fix.output.fixes.description": "Ob die Operation erfolgreich war",
     "modules.llm.code_fix.output.ok.description": "Ob die Operation erfolgreich war",
-    "modules.llm.code_fix.output.summary.description": "Liste der angewandten Korrekturen (wenn fix_mode apply ist)"
+    "modules.llm.code_fix.output.summary.description": "Liste der angewandten Korrekturen (wenn fix_mode apply ist)",
+    "modules.llm.code_fix.params.fixes": "Fixes",
+    "modules.llm.code_fix.params.source_files": "Source Files"
   }
 }

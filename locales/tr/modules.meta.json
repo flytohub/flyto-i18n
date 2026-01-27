@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "Etiket Filtresi",
     "modules.meta.modules.list.params.tags.description": "Modülleri kategoriye göre filtrele (örn: browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "Kategori Filtresi",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "Modül oluşturma yeteneğini test et",
     "modules.meta.modules.test_generator.label": "Oluşturucu Test",
     "modules.meta.modules.update_docs.description": "Kayıt defterinden MODULES.md dokümantasyonunu oluştur veya güncelle",

@@ -10,9 +10,16 @@
     "execution.controls.pause": "Tạm dừng",
     "execution.controls.resume": "Tiếp tục",
     "execution.controls.step": "Bước",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Thất bại tại",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "Tiếp tục từ checkpoint",
     "execution.resume.options": "Tùy chọn tiếp tục",
-    "execution.resume.retryFromStart": "Thử lại từ đầu"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "Thử lại từ đầu",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

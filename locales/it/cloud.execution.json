@@ -10,9 +10,16 @@
     "execution.controls.pause": "Pausa",
     "execution.controls.resume": "Riprendi",
     "execution.controls.step": "Passaggio",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Fallito su",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "Riprendi dal checkpoint",
     "execution.resume.options": "Opzioni di Ripresa",
-    "execution.resume.retryFromStart": "Riprova dall'inizio"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "Riprova dall'inizio",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

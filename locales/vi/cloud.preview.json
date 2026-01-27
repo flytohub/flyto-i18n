@@ -4,6 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
+    "preview.askAIFix": "",
     "preview.emptyState.description": "Chuyển sang chế độ Dev để thêm các bước workflow",
     "preview.emptyState.hint": "Không có bản xem trước",
     "preview.emptyState.title": "Chưa định nghĩa Workflow",

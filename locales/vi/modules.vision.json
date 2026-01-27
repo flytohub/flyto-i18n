@@ -18,6 +18,10 @@
     "modules.vision.compare.output.ok.description": "So sánh có thành công không",
     "modules.vision.compare.output.recommendation.description": "Tóm tắt kết quả so sánh",
     "modules.vision.compare.output.similarity_score.description": "Có tìm thấy sự khác biệt đáng kể không",
-    "modules.vision.compare.output.summary.description": "Danh sách các sự khác biệt được xác định"
+    "modules.vision.compare.output.summary.description": "Danh sách các sự khác biệt được xác định",
+    "modules.vision.compare.params.differences": "Differences",
+    "modules.vision.compare.params.focus_areas": "Focus Areas",
+    "modules.vision.compare.params.focus_areas.options.header": "Header",
+    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
   }
 }

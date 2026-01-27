@@ -18,6 +18,10 @@
     "modules.vision.compare.output.ok.description": "비교 성공 여부",
     "modules.vision.compare.output.recommendation.description": "비교 결과 요약",
     "modules.vision.compare.output.similarity_score.description": "중요한 차이점 발견 여부",
-    "modules.vision.compare.output.summary.description": "식별된 차이점 목록"
+    "modules.vision.compare.output.summary.description": "식별된 차이점 목록",
+    "modules.vision.compare.params.differences": "Differences",
+    "modules.vision.compare.params.focus_areas": "Focus Areas",
+    "modules.vision.compare.params.focus_areas.options.header": "Header",
+    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
   }
 }

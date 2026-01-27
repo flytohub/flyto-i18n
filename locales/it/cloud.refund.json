@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.refund",
+  "version": "1.0.0",
+  "translations": {
+    "refund.amount": "Refund amount",
+    "refund.confirm": "Confirm refund",
+    "refund.contactSupport": "Contact support",
+    "refund.days": "Refund days",
+    "refund.daysRemaining": "Days remaining",
+    "refund.forksWarning": "Forks warning",
+    "refund.notEligible": "Not eligible for refund",
+    "refund.processInfo": "Refund process info",
+    "refund.template": "Refund template",
+    "refund.title": "Refund",
+    "refund.warning": "Refund warning",
+    "refund.warningDescription": "Warning description"
+  }
+}

@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "Filtre de tags",
     "modules.meta.modules.list.params.tags.description": "Filtrer les modules par categorie (ex: browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "Filtre de categorie",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "Tester la capacite de generation de modules",
     "modules.meta.modules.test_generator.label": "Generateur de test",
     "modules.meta.modules.update_docs.description": "Generer ou mettre a jour la documentation MODULES.md depuis le registre",

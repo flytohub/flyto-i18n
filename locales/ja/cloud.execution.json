@@ -10,9 +10,16 @@
     "execution.controls.pause": "一時停止",
     "execution.controls.resume": "再開",
     "execution.controls.step": "ステップ",
+    "execution.resume.autoSuggest": "Auto-suggest",
+    "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "失敗箇所",
+    "execution.resume.flytoAdvantage": "Fly to advantage",
     "execution.resume.fromCheckpoint": "チェックポイントから再開",
     "execution.resume.options": "再開オプション",
-    "execution.resume.retryFromStart": "最初から再試行"
+    "execution.resume.quickResume": "Quick resume",
+    "execution.resume.retryFromStart": "最初から再試行",
+    "execution.resume.stepsCompleted": "Steps completed",
+    "execution.resume.timeSaved": "Time saved",
+    "execution.running": "Running"
   }
 }

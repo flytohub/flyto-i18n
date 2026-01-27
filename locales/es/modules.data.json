@@ -29,6 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Numero de filas escritas",
     "modules.data.json_to_csv.output.output_path.description": "Ruta al archivo CSV generado",
     "modules.data.json_to_csv.output.row_count.description": "Ruta al archivo CSV generado",
+    "modules.data.json_to_csv.params.input_data": "Input Data",
     "modules.data.text.template.description": "Llenar plantilla de texto con variables",
     "modules.data.text.template.label": "Plantilla de texto",
     "modules.data.text.template.output.result.description": "Estado de la operacion",
