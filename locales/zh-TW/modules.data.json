@@ -29,6 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "欄位名稱列表",
     "modules.data.json_to_csv.output.output_path.description": "產生的 CSV 檔案路徑",
     "modules.data.json_to_csv.output.row_count.description": "列數",
+    "modules.data.json_to_csv.params.input_data": "Input Data",
     "modules.data.text.template.description": "用變數填充文字範本",
     "modules.data.text.template.label": "文字範本",
     "modules.data.text.template.output.result.description": "填充後的結果",

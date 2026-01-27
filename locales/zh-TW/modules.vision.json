@@ -18,6 +18,10 @@
     "modules.vision.compare.output.ok.description": "比較是否成功",
     "modules.vision.compare.output.recommendation.description": "比較結果摘要",
     "modules.vision.compare.output.similarity_score.description": "是否發現顯著差異",
-    "modules.vision.compare.output.summary.description": "識別到的差異列表"
+    "modules.vision.compare.output.summary.description": "識別到的差異列表",
+    "modules.vision.compare.params.differences": "Differences",
+    "modules.vision.compare.params.focus_areas": "Focus Areas",
+    "modules.vision.compare.params.focus_areas.options.header": "Header",
+    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
   }
 }

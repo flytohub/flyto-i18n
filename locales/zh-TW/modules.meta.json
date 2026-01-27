@@ -28,6 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "標籤篩選",
     "modules.meta.modules.list.params.tags.description": "依類別篩選模組（例如 browser、data、ai）",
     "modules.meta.modules.list.params.tags.label": "類別篩選",
+    "modules.meta.modules.list.params.type": "Type",
     "modules.meta.modules.test_generator.description": "測試模組產生功能",
     "modules.meta.modules.test_generator.label": "測試產生器",
     "modules.meta.modules.update_docs.description": "從註冊表產生或更新 MODULES.md 文件",
