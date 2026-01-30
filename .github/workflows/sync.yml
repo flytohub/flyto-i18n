@@ -34,6 +34,10 @@ jobs:
         run: |
           python scripts/sync-from-core.py --core-path ./flyto-core
 
+      - name: Sync all locales with English
+        run: |
+          python scripts/sync-locales.py
+
       - name: Build dist for CDN
         run: |
           python scripts/build-dist.py
