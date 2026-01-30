@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "",
+    "preview.askAIFix": "Ask AI to fix",
     "preview.emptyState.description": "Passa alla modalita Dev per aggiungere passaggi al workflow",
     "preview.emptyState.hint": "Nessuna anteprima disponibile",
     "preview.emptyState.title": "Nessun Workflow Definito",

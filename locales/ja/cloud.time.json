@@ -4,12 +4,12 @@
   "category": "cloud.time",
   "version": "1.0.0",
   "translations": {
-    "time.days": "",
+    "time.days": "days",
     "time.daysAgo": "{n}日前",
-    "time.hours": "",
+    "time.hours": "hours",
     "time.hoursAgo": "{n}時間前",
     "time.justNow": "たった今",
-    "time.minutes": "",
+    "time.minutes": "minutes",
     "time.minutesAgo": "{n}分前"
   }
 }

@@ -4,6 +4,7 @@
   "category": "cloud.workflowNode",
   "version": "1.0.0",
   "translations": {
+    "workflowNode.categories.default": "預設",
     "workflowNode.defaultNodeLabel": "節點"
   }
 }

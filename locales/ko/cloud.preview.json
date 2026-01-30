@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "",
+    "preview.askAIFix": "Ask AI to fix",
     "preview.emptyState.description": "워크플로 단계를 추가하려면 개발 모드로 전환하세요",
     "preview.emptyState.hint": "미리보기를 사용할 수 없습니다",
     "preview.emptyState.title": "워크플로가 정의되지 않았습니다",

@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "",
+    "preview.askAIFix": "Ask AI to fix",
     "preview.emptyState.description": "Wechseln Sie in den Dev-Modus, um Workflow-Schritte hinzuzufügen",
     "preview.emptyState.hint": "Keine Vorschau verfügbar",
     "preview.emptyState.title": "Kein Workflow definiert",

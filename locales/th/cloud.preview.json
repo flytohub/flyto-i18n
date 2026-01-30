@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "",
+    "preview.askAIFix": "Ask AI to fix",
     "preview.emptyState.description": "เปลี่ยนเป็นโหมด Dev เพื่อเพิ่มขั้นตอน workflow",
     "preview.emptyState.hint": "ไม่มีตัวอย่าง",
     "preview.emptyState.title": "ไม่มี Workflow ที่กำหนด",

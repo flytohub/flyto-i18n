@@ -5,6 +5,9 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "Attach file",
+    "chat.error": "Error",
+    "chat.fileTooLarge": "File too large",
+    "chat.loadFailed": "Failed to load",
     "chat.messageUser": "Message",
     "chat.messages": "Messages",
     "chat.noConversations": "No conversations yet",
@@ -12,10 +15,14 @@
     "chat.online": "Online",
     "chat.searchConversations": "Search conversations...",
     "chat.selectConversation": "Select a conversation to start chatting",
+    "chat.selectConversationHint": "Select a conversation to start",
     "chat.send": "Send",
     "chat.startChat": "Start Chat",
     "chat.startChatFailed": "Failed to start chat",
+    "chat.startConversation": "Start conversation",
     "chat.typePlaceholder": "Type a message...",
-    "chat.user": "User"
+    "chat.uploadFailed": "Upload failed",
+    "chat.user": "User",
+    "chat.viewProfile": "View profile"
   }
 }

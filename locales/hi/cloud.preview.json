@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "",
+    "preview.askAIFix": "Ask AI to fix",
     "preview.emptyState.description": "वर्कफ़्लो चरण जोड़ने के लिए Dev मोड पर स्विच करें",
     "preview.emptyState.hint": "कोई पूर्वावलोकन उपलब्ध नहीं",
     "preview.emptyState.title": "कोई वर्कफ़्लो परिभाषित नहीं",

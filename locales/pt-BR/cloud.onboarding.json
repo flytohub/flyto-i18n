@@ -4,9 +4,9 @@
   "category": "cloud.onboarding",
   "version": "1.0.0",
   "translations": {
-    "onboarding.finish": "",
-    "onboarding.next": "",
-    "onboarding.previous": "",
-    "onboarding.skip": ""
+    "onboarding.finish": "Finish",
+    "onboarding.next": "Next",
+    "onboarding.previous": "Previous",
+    "onboarding.skip": "Skip"
   }
 }

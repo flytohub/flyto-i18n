@@ -4,8 +4,8 @@
   "category": "cloud.iconPicker",
   "version": "1.0.0",
   "translations": {
-    "iconPicker.iconColor": "",
-    "iconPicker.noResults": "",
-    "iconPicker.searchPlaceholder": ""
+    "iconPicker.iconColor": "圖示顏色",
+    "iconPicker.noResults": "沒有結果",
+    "iconPicker.searchPlaceholder": "搜尋圖示..."
   }
 }

@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "",
+    "preview.askAIFix": "Ask AI to fix",
     "preview.emptyState.description": "開発モードに切り替えてワークフローステップを追加",
     "preview.emptyState.hint": "プレビューはありません",
     "preview.emptyState.title": "ワークフローが定義されていません",

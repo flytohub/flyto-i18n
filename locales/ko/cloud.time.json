@@ -4,12 +4,12 @@
   "category": "cloud.time",
   "version": "1.0.0",
   "translations": {
-    "time.days": "",
+    "time.days": "days",
     "time.daysAgo": "{n}일 전",
-    "time.hours": "",
+    "time.hours": "hours",
     "time.hoursAgo": "{n}시간 전",
     "time.justNow": "방금 전",
-    "time.minutes": "",
+    "time.minutes": "minutes",
     "time.minutesAgo": "{n}분 전"
   }
 }

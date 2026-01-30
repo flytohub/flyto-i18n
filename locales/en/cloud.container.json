@@ -4,6 +4,14 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.editSubflow": "Edit Subflow"
+    "container.advancedOptions": "Advanced Options",
+    "container.editSubflow": "Edit Subflow",
+    "container.exportVariables": "Export Variables",
+    "container.exportVariablesHint": "Variables to export from this container",
+    "container.exportVariablesPlaceholder": "Enter variable names",
+    "container.inheritContext": "Inherit Context",
+    "container.inheritContextHint": "Inherit variables from parent context",
+    "container.isolatedContextHint": "Container runs in isolated context",
+    "container.nodesInside": "Nodes inside"
   }
 }

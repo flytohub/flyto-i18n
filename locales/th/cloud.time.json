@@ -4,12 +4,12 @@
   "category": "cloud.time",
   "version": "1.0.0",
   "translations": {
-    "time.days": "",
+    "time.days": "days",
     "time.daysAgo": "{n} วันที่แล้ว",
-    "time.hours": "",
+    "time.hours": "hours",
     "time.hoursAgo": "{n} ชม. ที่แล้ว",
     "time.justNow": "เมื่อกี้",
-    "time.minutes": "",
+    "time.minutes": "minutes",
     "time.minutesAgo": "{n} นาที ที่แล้ว"
   }
 }
