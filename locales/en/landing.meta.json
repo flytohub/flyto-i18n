@@ -4,20 +4,60 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
+    "landing.meta.index.title": "Flyto2 - Enterprise Workflow Platform with UI & AI | Human-in-the-Loop Automation",
     "landing.meta.index.description": "Flyto2 is an enterprise workflow platform that combines UI-driven automation with human oversight. Build workflows with approval steps, validation checkpoints, and full audit trails. Works 100% offline.",
-    "landing.meta.index.ogDescription": "Enterprise workflow platform with UI-driven automation and human oversight. Build workflows with approval steps, validation checkpoints, and full audit trails.",
-    "landing.meta.about.description": "Learn about Flyto2, the enterprise workflow platform built for human-in-the-loop automation. Open source core, offline-first design, built for teams that need control.",
-    "landing.meta.app.description": "Download the Flyto2 visual automation app. Point-and-click interface, no coding needed. Auto-detects your OS. Record workflows in minutes. 100% free to start.",
-    "landing.meta.blog.description": "Insights on enterprise workflow automation, human-in-the-loop design patterns, and why traditional RPA fails. Architecture thoughts from the Flyto2 team.",
-    "landing.meta.buyoffline.description": "Deploy Flyto2 in secure, air-gapped environments. One-time annual payment. No internet required. Your data never leaves your network. Perfect for regulated industries.",
-    "landing.meta.compare.description": "Compare Flyto2 with traditional RPA and API workflow automation tools. See why enterprises choose Flyto2 for human-in-the-loop automation, offline deployment, and approval workflows.",
-    "landing.meta.contact.description": "Have questions? We reply within 24 hours. Contact us for sales inquiries, technical support, enterprise solutions, or partnership opportunities.",
-    "landing.meta.download.description": "pip install flyto - Get started in 30 seconds. Free, open source automation CLI for Windows, macOS & Linux. Python 3.9+. 384 atomic modules included. Works offline.",
-    "landing.meta.faq.description": "How does Flyto2 work? Is it really free? Can it run offline? Get answers to the most common questions about Flyto2's no-code automation platform.",
-    "landing.meta.languagepacks.description": "Download language packs for Flyto2. Support for English, Chinese, Japanese and more. Use Flyto2 in your language, even without internet. Free download.",
-    "landing.meta.philosophy.description": "Why we built Flyto2 differently. Learn our philosophy on human-in-the-loop automation, why workflows must be verifiable, and why human oversight is a feature, not a limitation.",
-    "landing.meta.pricing.description": "Start automating for free, upgrade when you need more. Free plan includes unlimited recordings. Pro adds scheduling, batch processing & priority support. No credit card required.",
-    "landing.meta.product.description": "Discover why traditional RPA fails for complex workflows. Flyto2 combines UI-driven automation with human approval steps, validation checkpoints, and full audit trails. The workflow platform built for enterprise needs.",
-    "landing.meta.usecases.description": "Discover how enterprises use Flyto2 for approval workflows, human-in-the-loop automation, RPA replacement, and AI-assisted operations. Real-world examples with implementation patterns."
+    "landing.meta.index.keywords": "enterprise workflow platform, UI-driven automation, workflow with human approval, RPA alternative, human-in-the-loop automation, workflow validation, offline workflow automation, business process automation",
+
+    "landing.meta.pricing.title": "Flyto2 Pricing - Free Forever Plan | Pro from $9/month",
+    "landing.meta.pricing.description": "Simple pricing for Flyto2 automation platform. Free forever plan for personal use. Pro plan from $9/month for teams. No hidden fees.",
+    "landing.meta.pricing.keywords": "flyto2 pricing, automation pricing, workflow automation cost, RPA pricing",
+
+    "landing.meta.download.title": "Download Flyto2 - Windows, macOS, Linux | Free Desktop App",
+    "landing.meta.download.description": "Download Flyto2 desktop app for Windows, macOS, and Linux. 100% offline automation tool. No account required to start.",
+    "landing.meta.download.keywords": "flyto2 download, automation software download, desktop automation app, offline automation tool",
+
+    "landing.meta.app.title": "Flyto2 Web App - Access Your Workflows Anywhere",
+    "landing.meta.app.description": "Access Flyto2 web application. Manage your workflows, view execution history, and collaborate with your team from any browser.",
+    "landing.meta.app.keywords": "flyto2 web app, workflow management, automation dashboard, team collaboration",
+
+    "landing.meta.faq.title": "Flyto2 FAQ - Frequently Asked Questions",
+    "landing.meta.faq.description": "Find answers to common questions about Flyto2. Learn about features, pricing, security, and how to get started with workflow automation.",
+    "landing.meta.faq.keywords": "flyto2 FAQ, automation questions, workflow help, flyto2 support",
+
+    "landing.meta.contact.title": "Contact Flyto2 - Get in Touch With Our Team",
+    "landing.meta.contact.description": "Contact the Flyto2 team for support, sales inquiries, or partnership opportunities. We are here to help you automate.",
+    "landing.meta.contact.keywords": "contact flyto2, automation support, sales inquiry, partnership",
+
+    "landing.meta.buyoffline.title": "Buy Flyto2 Offline License - No Internet Required",
+    "landing.meta.buyoffline.description": "Purchase Flyto2 offline license for air-gapped environments. Perpetual license with no internet connection required.",
+    "landing.meta.buyoffline.keywords": "flyto2 offline license, air-gapped automation, perpetual license, offline purchase",
+
+    "landing.meta.languagepacks.title": "Flyto2 Language Packs - Multi-language Support",
+    "landing.meta.languagepacks.description": "Download language packs for Flyto2. Support for Chinese, Japanese, Korean, German, Spanish, French, and more.",
+    "landing.meta.languagepacks.keywords": "flyto2 language pack, multi-language automation, localization, i18n",
+
+    "landing.meta.about.title": "About Flyto2 - Our Mission and Story",
+    "landing.meta.about.description": "Learn about Flyto2 mission to make automation accessible to everyone. Our story, values, and the team behind the product.",
+    "landing.meta.about.keywords": "about flyto2, automation company, our mission, team",
+
+    "landing.meta.product.title": "Flyto2 Product - Features and Capabilities",
+    "landing.meta.product.description": "Explore Flyto2 product features. Visual workflow builder, human-in-the-loop automation, audit trails, and more.",
+    "landing.meta.product.keywords": "flyto2 features, automation capabilities, workflow builder, product overview",
+
+    "landing.meta.philosophy.title": "Flyto2 Philosophy - Human-Centered Automation",
+    "landing.meta.philosophy.description": "Our philosophy on automation. Why we believe in human oversight, transparency, and putting users in control.",
+    "landing.meta.philosophy.keywords": "automation philosophy, human-centered design, ethical automation, transparency",
+
+    "landing.meta.usecases.title": "Flyto2 Use Cases - Real-World Automation Examples",
+    "landing.meta.usecases.description": "Discover how businesses use Flyto2 to automate their workflows. Real examples from finance, HR, operations, and more.",
+    "landing.meta.usecases.keywords": "automation use cases, workflow examples, business automation, RPA examples",
+
+    "landing.meta.compare.title": "Flyto2 vs Competitors - Automation Tool Comparison",
+    "landing.meta.compare.description": "Compare Flyto2 with other automation tools. See how we differ from Zapier, Make, UiPath, and other RPA solutions.",
+    "landing.meta.compare.keywords": "flyto2 comparison, automation comparison, RPA alternatives, zapier alternative",
+
+    "landing.meta.blog.title": "Flyto2 Blog - Automation Tips and Updates",
+    "landing.meta.blog.description": "Read the latest from Flyto2. Automation tips, product updates, industry insights, and best practices.",
+    "landing.meta.blog.keywords": "flyto2 blog, automation tips, product updates, workflow best practices"
   }
 }

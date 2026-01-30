@@ -4,20 +4,20 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.description": "Flyto2は、UIドリブン自動化と人間による監視を組み合わせたエンタープライズワークフロープラットフォームです。承認ステップ、検証チェックポイント、完全な監査証跡を備えたワークフローを構築。100%オフラインで動作します。",
-    "landing.meta.index.ogDescription": "UIドリブン自動化と人間による監視を備えたエンタープライズワークフロープラットフォーム。承認ステップと検証チェックポイントを備えたワークフローを構築。",
-    "landing.meta.about.description": "Flyto2について - ヒューマンインザループ自動化のために構築されたエンタープライズワークフロープラットフォーム。オープンソースコア、オフラインファースト設計、制御が必要なチーム向け。",
-    "landing.meta.app.description": "Flyto2ビジュアル自動化アプリをダウンロード。ポイント&クリックインターフェース、コーディング不要。OS自動検出。数分でワークフローを記録。無料で開始。",
-    "landing.meta.blog.description": "エンタープライズワークフロー自動化、ヒューマンインザループ設計パターン、従来のRPAが失敗する理由についての洞察。Flyto2チームからのアーキテクチャの考察。",
-    "landing.meta.buyoffline.description": "Flyto2をセキュアなエアギャップ環境に導入。年間一括払い。インターネット不要。データはネットワーク外に出ません。規制産業に最適。",
-    "landing.meta.compare.description": "Flyto2と従来のRPAおよびAPIワークフロー自動化ツールを比較。企業がヒューマンインザループ自動化、オフライン展開、承認ワークフローにFlyto2を選ぶ理由。",
-    "landing.meta.contact.description": "ご質問はありますか？24時間以内に返信します。営業のお問い合わせ、技術サポート、エンタープライズソリューション、パートナーシップの機会についてお問い合わせください。",
-    "landing.meta.download.description": "pip install flyto - 30秒で開始。Windows、macOS、Linux用の無料オープンソース自動化CLI。Python 3.9+。384のアトミックモジュール内蔵。オフライン動作。",
-    "landing.meta.faq.description": "Flyto2はどのように動作しますか？本当に無料ですか？オフラインで実行できますか？Flyto2のノーコード自動化プラットフォームについてよくある質問への回答。",
-    "landing.meta.languagepacks.description": "Flyto2の言語パックをダウンロード。英語、中国語、日本語などに対応。インターネットなしでもお好みの言語でFlyto2を使用。無料ダウンロード。",
-    "landing.meta.philosophy.description": "なぜ私たちはFlyto2を違った方法で構築したのか。ヒューマンインザループ自動化、ワークフローが検証可能でなければならない理由、人間の監視が制限ではなく機能である理由についての哲学。",
-    "landing.meta.pricing.description": "無料で自動化を開始、必要に応じてアップグレード。無料プランは無制限の記録を含む。Proはスケジューリング、バッチ処理、優先サポートを追加。クレジットカード不要。",
-    "landing.meta.product.description": "複雑なワークフローで従来のRPAが失敗する理由を発見。Flyto2は、UI駆動自動化と人間の承認ステップ、検証チェックポイント、完全な監査証跡を組み合わせます。エンタープライズ向けワークフロープラットフォーム。",
-    "landing.meta.usecases.description": "企業がFlyto2を承認ワークフロー、ヒューマンインザループ自動化、RPA代替、AI支援オペレーションにどのように使用しているか。実装パターン付きの実世界の例。"
+    "landing.meta.index.title": "Flyto2 - エンタープライズワークフロープラットフォーム | ヒューマンインザループ自動化",
+    "landing.meta.index.description": "Flyto2は、UI駆動の自動化と人間による監視を組み合わせたエンタープライズワークフロープラットフォームです。承認ステップ、検証チェックポイント、完全な監査証跡を備えたワークフローを構築。100%オフラインで動作。",
+    "landing.meta.index.keywords": "エンタープライズワークフロー, UI駆動自動化, 人間承認ワークフロー, RPA代替, ヒューマンインザループ, ワークフロー検証, オフライン自動化, 業務プロセス自動化",
+
+    "landing.meta.pricing.title": "Flyto2 料金プラン - 永久無料プラン | Proは月額$9から",
+    "landing.meta.pricing.description": "Flyto2自動化プラットフォームのシンプルな料金体系。個人利用は永久無料。チーム向けProプランは月額$9から。隠れた料金なし。",
+    "landing.meta.pricing.keywords": "flyto2料金, 自動化価格, ワークフロー自動化コスト, RPA料金",
+
+    "landing.meta.download.title": "Flyto2ダウンロード - Windows、macOS、Linux | 無料デスクトップアプリ",
+    "landing.meta.download.description": "Windows、macOS、Linux用のFlyto2デスクトップアプリをダウンロード。100%オフライン自動化ツール。アカウント不要ですぐに開始。",
+    "landing.meta.download.keywords": "flyto2ダウンロード, 自動化ソフトウェア, デスクトップ自動化アプリ, オフライン自動化ツール",
+
+    "landing.meta.faq.title": "Flyto2 FAQ - よくある質問",
+    "landing.meta.faq.description": "Flyto2に関するよくある質問の回答を見つけてください。機能、料金、セキュリティ、ワークフロー自動化の始め方について。",
+    "landing.meta.faq.keywords": "flyto2 FAQ, 自動化の質問, ワークフローヘルプ, flyto2サポート"
   }
 }
