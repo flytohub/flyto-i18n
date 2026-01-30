@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.usage",
+  "version": "1.0.0",
+  "translations": {
+    "usage.title": "Usage Details",
+    "usage.currentPeriod": "Current Period",
+    "usage.points": "points",
+    "usage.calls": "calls",
+    "usage.byModule": "Usage by Module",
+    "usage.noUsage": "No usage recorded this period.",
+    "usage.managePlan": "Manage Plan",
+    "usage.overLimit": "You have exceeded your monthly limit.",
+    "usage.nearLimit": "You are approaching your monthly limit.",
+    "usage.unlimited": "Unlimited usage included with your plan."
+  }
+}

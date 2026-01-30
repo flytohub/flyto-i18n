@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.usage",
+  "version": "1.0.0",
+  "translations": {
+    "usage.title": "使用量詳情",
+    "usage.currentPeriod": "本期",
+    "usage.points": "點數",
+    "usage.calls": "次呼叫",
+    "usage.byModule": "依模組分類",
+    "usage.noUsage": "本期尚無使用記錄。",
+    "usage.managePlan": "管理方案",
+    "usage.overLimit": "您已超出每月額度上限。",
+    "usage.nearLimit": "您即將達到每月額度上限。",
+    "usage.unlimited": "您的方案包含無限使用量。"
+  }
+}

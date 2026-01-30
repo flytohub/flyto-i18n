@@ -19,6 +19,11 @@
     "templateCard.syncToLatest": "Sync to Latest",
     "templateCard.unpublished": "Unpublished",
     "templateCard.update": "Update",
-    "templateCard.updateAvailable": "Update available from the author"
+    "templateCard.updateAvailable": "Update available from the author",
+    "templateCard.autoUpdate": "Auto-update",
+    "templateCard.autoUpdateOff": "Off",
+    "templateCard.autoUpdatePatch": "Patch (x.x.1)",
+    "templateCard.autoUpdateMinor": "Minor (x.1.x)",
+    "templateCard.autoUpdateAll": "All"
   }
 }

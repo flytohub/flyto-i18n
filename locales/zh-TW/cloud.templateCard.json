@@ -19,6 +19,11 @@
     "templateCard.syncToLatest": "同步到最新版本",
     "templateCard.unpublished": "已下架",
     "templateCard.update": "更新",
-    "templateCard.updateAvailable": "作者有更新可用"
+    "templateCard.updateAvailable": "作者有更新可用",
+    "templateCard.autoUpdate": "自動更新",
+    "templateCard.autoUpdateOff": "關閉",
+    "templateCard.autoUpdatePatch": "Patch (x.x.1)",
+    "templateCard.autoUpdateMinor": "Minor (x.1.x)",
+    "templateCard.autoUpdateAll": "全部"
   }
 }
