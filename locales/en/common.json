@@ -4,6 +4,6 @@
   "category": "common",
   "version": "1.0.0",
   "translations": {
-    "common.ports.error": "Done"
+    "common.ports.error": "Output"
   }
 }
