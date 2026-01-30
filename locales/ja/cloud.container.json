@@ -4,14 +4,6 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "詳細オプション",
-    "container.editSubflow": "サブフローを編集",
-    "container.exportVariables": "変数をエクスポート",
-    "container.exportVariablesHint": "親ワークフローに公開する変数",
-    "container.exportVariablesPlaceholder": "例: result, data",
-    "container.inheritContext": "コンテキストを継承",
-    "container.inheritContextHint": "親ワークフローと変数を共有",
-    "container.isolatedContextHint": "コンテナは独自の分離されたコンテキストを持ちます",
-    "container.nodesInside": "個のノードが内部にあります"
+    "container.editSubflow": "サブフローを編集"
   }
 }

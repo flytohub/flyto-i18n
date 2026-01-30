@@ -5,9 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "Dolacz plik",
-    "chat.error": "Blad wysylania wiadomosci",
-    "chat.fileTooLarge": "Plik jest za duzy (maks. 10MB)",
-    "chat.loadFailed": "Nie udalo sie zaladowac wiadomosci",
     "chat.messageUser": "Wiadomosc",
     "chat.messages": "Wiadomosci",
     "chat.noConversations": "Brak konwersacji",
@@ -15,14 +12,10 @@
     "chat.online": "Online",
     "chat.searchConversations": "Szukaj konwersacji...",
     "chat.selectConversation": "Wybierz konwersacje, aby rozpoczac czat",
-    "chat.selectConversationHint": "Wybierz konwersacje, aby rozpoczac czat",
     "chat.send": "Wyslij",
     "chat.startChat": "Rozpocznij czat",
     "chat.startChatFailed": "Nie udalo sie rozpoczac czatu",
-    "chat.startConversation": "Rozpocznij rozmowe",
     "chat.typePlaceholder": "Wpisz wiadomosc...",
-    "chat.uploadFailed": "Nie udalo sie wyslac pliku",
-    "chat.user": "Uzytkownik",
-    "chat.viewProfile": "Zobacz profil"
+    "chat.user": "Uzytkownik"
   }
 }

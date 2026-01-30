@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "API Docs",
-    "footer.community": "Community",
-    "footer.contact": "Contact",
-    "footer.cookies": "Cookies",
     "footer.copyright": "© 2025 Flyto2. All rights reserved.",
-    "footer.dashboard": "Dashboard",
-    "footer.description": "Powerful visual workflow editor that integrates hundreds of applications, making automation easy for everyone.",
-    "footer.developer": "Developer",
-    "footer.examples": "Examples",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "Help Center",
-    "footer.marketplace": "Marketplace",
-    "footer.pluginDev": "Plugin Development",
-    "footer.pricing": "Pricing",
-    "footer.privacy": "Privacy",
-    "footer.product": "Product",
-    "footer.status": "Status",
-    "footer.support": "Support",
-    "footer.terms": "Terms",
-    "footer.workflows": "Workflows"
+    "footer.description": "Powerful visual workflow editor that integrates hundreds of applications, making automation easy for everyone."
   }
 }

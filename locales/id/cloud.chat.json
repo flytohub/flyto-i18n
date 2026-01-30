@@ -5,9 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "Lampirkan file",
-    "chat.error": "Gagal mengirim pesan",
-    "chat.fileTooLarge": "File terlalu besar (maks 10MB)",
-    "chat.loadFailed": "Gagal memuat pesan",
     "chat.messageUser": "Pesan",
     "chat.messages": "Pesan",
     "chat.noConversations": "Belum ada percakapan",
@@ -15,14 +12,10 @@
     "chat.online": "Online",
     "chat.searchConversations": "Cari percakapan...",
     "chat.selectConversation": "Pilih percakapan untuk mulai mengobrol",
-    "chat.selectConversationHint": "Pilih percakapan untuk mulai mengobrol",
     "chat.send": "Kirim",
     "chat.startChat": "Mulai Chat",
     "chat.startChatFailed": "Gagal memulai chat",
-    "chat.startConversation": "Mulai percakapan",
     "chat.typePlaceholder": "Ketik pesan...",
-    "chat.uploadFailed": "Gagal mengunggah file",
-    "chat.user": "Pengguna",
-    "chat.viewProfile": "Lihat Profil"
+    "chat.user": "Pengguna"
   }
 }

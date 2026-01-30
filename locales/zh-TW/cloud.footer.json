@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "API 文件",
-    "footer.community": "社群",
-    "footer.contact": "聯絡我們",
-    "footer.cookies": "Cookie 政策",
     "footer.copyright": "© 2025 Flyto2. 版權所有。",
-    "footer.dashboard": "儀表板",
-    "footer.description": "強大的視覺化工作流程編輯器,整合數百種應用程式,讓任何人都能輕鬆建立自動化任務。",
-    "footer.developer": "開發者",
-    "footer.examples": "範例",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "說明中心",
-    "footer.marketplace": "市集",
-    "footer.pluginDev": "外掛開發",
-    "footer.pricing": "定價",
-    "footer.privacy": "隱私權政策",
-    "footer.product": "產品",
-    "footer.status": "狀態",
-    "footer.support": "支援",
-    "footer.terms": "服務條款",
-    "footer.workflows": "工作流"
+    "footer.description": "強大的視覺化工作流程編輯器,整合數百種應用程式,讓任何人都能輕鬆建立自動化任務。"
   }
 }

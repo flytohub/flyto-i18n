@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "APIドキュメント",
-    "footer.community": "コミュニティフォーラム",
-    "footer.contact": "お問い合わせ",
-    "footer.cookies": "Cookie設定",
     "footer.copyright": "© 2025 Flyto2. All rights reserved.",
-    "footer.dashboard": "ダッシュボード",
-    "footer.description": "数百のアプリケーションを統合する強力なビジュアルワークフローエディタで、誰でも簡単に自動化を実現できます。",
-    "footer.developer": "開発者",
-    "footer.examples": "サンプル",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "ヘルプセンター",
-    "footer.marketplace": "アプリストア",
-    "footer.pluginDev": "プラグイン開発",
-    "footer.pricing": "料金プラン",
-    "footer.privacy": "プライバシーポリシー",
-    "footer.product": "製品",
-    "footer.status": "ステータスページ",
-    "footer.support": "サポート",
-    "footer.terms": "利用規約",
-    "footer.workflows": "ワークフロー"
+    "footer.description": "数百のアプリケーションを統合する強力なビジュアルワークフローエディタで、誰でも簡単に自動化を実現できます。"
   }
 }

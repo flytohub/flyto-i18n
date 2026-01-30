@@ -5,9 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "Dosya ekle",
-    "chat.error": "Mesaj gönderme hatası",
-    "chat.fileTooLarge": "Dosya çok büyük (maks 10MB)",
-    "chat.loadFailed": "Mesajlar yüklenemedi",
     "chat.messageUser": "Mesaj",
     "chat.messages": "Mesajlar",
     "chat.noConversations": "Henüz konuşma yok",
@@ -15,14 +12,10 @@
     "chat.online": "Çevrimiçi",
     "chat.searchConversations": "Konuşma ara...",
     "chat.selectConversation": "Sohbet başlatmak için bir konuşma seçin",
-    "chat.selectConversationHint": "Sohbet başlatmak için bir konuşma seçin",
     "chat.send": "Gönder",
     "chat.startChat": "Sohbet Başlat",
     "chat.startChatFailed": "Sohbet başlatılamadı",
-    "chat.startConversation": "Bir konuşma başlat",
     "chat.typePlaceholder": "Bir mesaj yazın...",
-    "chat.uploadFailed": "Dosya yüklenemedi",
-    "chat.user": "Kullanıcı",
-    "chat.viewProfile": "Profili Görüntüle"
+    "chat.user": "Kullanıcı"
   }
 }

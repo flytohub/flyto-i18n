@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "Documentazione API",
-    "footer.community": "Forum della Community",
-    "footer.contact": "Contattaci",
-    "footer.cookies": "Impostazioni Cookie",
     "footer.copyright": "© 2025 Flyto2. Tutti i diritti riservati.",
-    "footer.dashboard": "Dashboard",
-    "footer.description": "Potente editor visuale di workflow che integra centinaia di applicazioni, rendendo l'automazione facile per tutti.",
-    "footer.developer": "Sviluppatori",
-    "footer.examples": "Esempi",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "Centro Assistenza",
-    "footer.marketplace": "App Store",
-    "footer.pluginDev": "Sviluppo Plugin",
-    "footer.pricing": "Prezzi",
-    "footer.privacy": "Informativa sulla Privacy",
-    "footer.product": "Prodotto",
-    "footer.status": "Pagina di Stato",
-    "footer.support": "Supporto",
-    "footer.terms": "Termini di Servizio",
-    "footer.workflows": "Workflow"
+    "footer.description": "Potente editor visuale di workflow che integra centinaia di applicazioni, rendendo l'automazione facile per tutti."
   }
 }

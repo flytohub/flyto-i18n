@@ -4,14 +4,6 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "Erweiterte Optionen",
-    "container.editSubflow": "Subflow bearbeiten",
-    "container.exportVariables": "Variablen exportieren",
-    "container.exportVariablesHint": "Variablen, die dem übergeordneten Workflow zur Verfügung gestellt werden",
-    "container.exportVariablesPlaceholder": "z.B. result, data",
-    "container.inheritContext": "Kontext erben",
-    "container.inheritContextHint": "Variablen mit dem übergeordneten Workflow teilen",
-    "container.isolatedContextHint": "Container hat einen eigenen isolierten Kontext",
-    "container.nodesInside": "Knoten enthalten"
+    "container.editSubflow": "Subflow bearbeiten"
   }
 }

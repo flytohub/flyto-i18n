@@ -4,14 +4,6 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "進階選項",
-    "container.editSubflow": "編輯子流程",
-    "container.exportVariables": "匯出變數",
-    "container.exportVariablesHint": "從此容器匯出的變數",
-    "container.exportVariablesPlaceholder": "輸入變數名稱",
-    "container.inheritContext": "繼承上下文",
-    "container.inheritContextHint": "從父層上下文繼承變數",
-    "container.isolatedContextHint": "容器在隔離的上下文中執行",
-    "container.nodesInside": "內部節點"
+    "container.editSubflow": "編輯子流程"
   }
 }

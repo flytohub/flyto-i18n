@@ -4,14 +4,6 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "Options avancees",
-    "container.editSubflow": "Modifier le sous-flux",
-    "container.exportVariables": "Exporter les variables",
-    "container.exportVariablesHint": "Variables a exposer au flux de travail parent",
-    "container.exportVariablesPlaceholder": "ex: result, data",
-    "container.inheritContext": "Heriter du contexte",
-    "container.inheritContextHint": "Partager les variables avec le flux de travail parent",
-    "container.isolatedContextHint": "Le conteneur a son propre contexte isole",
-    "container.nodesInside": "noeuds a l'interieur"
+    "container.editSubflow": "Modifier le sous-flux"
   }
 }

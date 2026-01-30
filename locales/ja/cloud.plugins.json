@@ -7,7 +7,6 @@
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "このモデルをアンインストールしてもよろしいですか？",
-    "plugins.downloading": "ダウンロード中...",
     "plugins.install": "インストール",
     "plugins.installed": "インストール済み",
     "plugins.installedModels": "インストール済みモデル",
@@ -23,7 +22,6 @@
     "plugins.subtitle": "Subtitle",
     "plugins.title": "プラグイン",
     "plugins.trending": "トレンド",
-    "plugins.trendingDesc": "今週の人気プラグイン",
     "plugins.uninstall": "アンインストール",
     "plugins.unload": "アンロード",
     "plugins.viewOnHuggingFace": "HuggingFaceで表示"

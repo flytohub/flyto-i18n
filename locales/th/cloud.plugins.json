@@ -7,7 +7,6 @@
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "คุณแน่ใจหรือไม่ว่าต้องการถอนการติดตั้งโมเดลนี้?",
-    "plugins.downloading": "กำลังดาวน์โหลด...",
     "plugins.install": "ติดตั้ง",
     "plugins.installed": "ติดตั้งแล้ว",
     "plugins.installedModels": "โมเดลที่ติดตั้ง",
@@ -23,7 +22,6 @@
     "plugins.subtitle": "Subtitle",
     "plugins.title": "ปลั๊กอิน",
     "plugins.trending": "มาแรง",
-    "plugins.trendingDesc": "ปลั๊กอินยอดนิยมสัปดาห์นี้",
     "plugins.uninstall": "ถอนการติดตั้ง",
     "plugins.unload": "ยกเลิกการโหลด",
     "plugins.viewOnHuggingFace": "ดูบน HuggingFace"

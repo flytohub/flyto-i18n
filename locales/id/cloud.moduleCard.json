@@ -4,7 +4,6 @@
   "category": "cloud.moduleCard",
   "version": "1.0.0",
   "translations": {
-    "moduleCard.expert": "Ahli",
     "moduleCard.inputType": "Input: {type}",
     "moduleCard.noDescription": "Tidak ada deskripsi",
     "moduleCard.outputType": "Output: {type}"

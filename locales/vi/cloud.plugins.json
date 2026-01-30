@@ -7,7 +7,6 @@
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "Bạn có chắc chắn muốn gỡ cài đặt mô hình này?",
-    "plugins.downloading": "Đang tải xuống...",
     "plugins.install": "Cài đặt",
     "plugins.installed": "Đã cài đặt",
     "plugins.installedModels": "Mô hình đã cài",
@@ -23,7 +22,6 @@
     "plugins.subtitle": "Subtitle",
     "plugins.title": "Plugin",
     "plugins.trending": "Xu hướng",
-    "plugins.trendingDesc": "Plugin phổ biến tuần này",
     "plugins.uninstall": "Gỡ cài đặt",
     "plugins.unload": "Gỡ tải",
     "plugins.viewOnHuggingFace": "Xem trên HuggingFace"

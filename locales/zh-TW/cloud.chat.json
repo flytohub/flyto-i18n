@@ -5,9 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "附加檔案",
-    "chat.error": "錯誤",
-    "chat.fileTooLarge": "檔案太大",
-    "chat.loadFailed": "載入失敗",
     "chat.messageUser": "傳送訊息",
     "chat.messages": "訊息",
     "chat.noConversations": "還沒有對話",
@@ -15,14 +12,10 @@
     "chat.online": "在線",
     "chat.searchConversations": "搜尋對話...",
     "chat.selectConversation": "選擇對話開始聊天",
-    "chat.selectConversationHint": "選擇對話開始",
     "chat.send": "發送",
     "chat.startChat": "開始聊天",
     "chat.startChatFailed": "無法開始聊天",
-    "chat.startConversation": "開始對話",
     "chat.typePlaceholder": "輸入訊息...",
-    "chat.uploadFailed": "上傳失敗",
-    "chat.user": "用戶",
-    "chat.viewProfile": "查看個人資料"
+    "chat.user": "用戶"
   }
 }
