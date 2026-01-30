@@ -7,7 +7,6 @@
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "क्या आप वाकई इस मॉडल को अनइंस्टॉल करना चाहते हैं?",
-    "plugins.downloading": "डाउनलोड हो रहा है...",
     "plugins.install": "इंस्टॉल करें",
     "plugins.installed": "इंस्टॉल किया गया",
     "plugins.installedModels": "इंस्टॉल किए गए मॉडल",
@@ -23,7 +22,6 @@
     "plugins.subtitle": "Subtitle",
     "plugins.title": "प्लगइन",
     "plugins.trending": "ट्रेंडिंग",
-    "plugins.trendingDesc": "इस सप्ताह लोकप्रिय प्लगइन",
     "plugins.uninstall": "अनइंस्टॉल करें",
     "plugins.unload": "अनलोड करें",
     "plugins.viewOnHuggingFace": "HuggingFace पर देखें"

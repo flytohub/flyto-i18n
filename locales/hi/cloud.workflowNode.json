@@ -4,7 +4,6 @@
   "category": "cloud.workflowNode",
   "version": "1.0.0",
   "translations": {
-    "workflowNode.categories.default": "मॉड्यूल",
     "workflowNode.defaultNodeLabel": "नोड"
   }
 }

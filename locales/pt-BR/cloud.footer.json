@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "Documentacao da API",
-    "footer.community": "Forum da Comunidade",
-    "footer.contact": "Fale Conosco",
-    "footer.cookies": "Configuracoes de Cookies",
-    "footer.copyright": "\u00a9 2025 Flyto2. Todos os direitos reservados.",
-    "footer.dashboard": "Painel",
-    "footer.description": "Editor visual de workflow poderoso que integra centenas de aplicativos, tornando a automacao facil para todos.",
-    "footer.developer": "Desenvolvedor",
-    "footer.examples": "Exemplos",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "Central de Ajuda",
-    "footer.marketplace": "Loja de Apps",
-    "footer.pluginDev": "Desenvolvimento de Plugins",
-    "footer.pricing": "Precos",
-    "footer.privacy": "Politica de Privacidade",
-    "footer.product": "Produto",
-    "footer.status": "Pagina de Status",
-    "footer.support": "Suporte",
-    "footer.terms": "Termos de Servico",
-    "footer.workflows": "Workflows"
+    "footer.copyright": "© 2025 Flyto2. Todos os direitos reservados.",
+    "footer.description": "Editor visual de workflow poderoso que integra centenas de aplicativos, tornando a automacao facil para todos."
   }
 }

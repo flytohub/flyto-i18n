@@ -7,7 +7,6 @@
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "Sei sicuro di voler disinstallare questo modello?",
-    "plugins.downloading": "Download in corso...",
     "plugins.install": "Installa",
     "plugins.installed": "Installato",
     "plugins.installedModels": "Modelli Installati",
@@ -23,7 +22,6 @@
     "plugins.subtitle": "Subtitle",
     "plugins.title": "Plugin",
     "plugins.trending": "Di tendenza",
-    "plugins.trendingDesc": "Plugin popolari questa settimana",
     "plugins.uninstall": "Disinstalla",
     "plugins.unload": "Scarica",
     "plugins.viewOnHuggingFace": "Visualizza su HuggingFace"

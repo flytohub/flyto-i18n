@@ -4,14 +4,6 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "고급 옵션",
-    "container.editSubflow": "서브플로우 편집",
-    "container.exportVariables": "변수 내보내기",
-    "container.exportVariablesHint": "상위 워크플로우에 노출할 변수",
-    "container.exportVariablesPlaceholder": "예: result, data",
-    "container.inheritContext": "컨텍스트 상속",
-    "container.inheritContextHint": "상위 워크플로우와 변수 공유",
-    "container.isolatedContextHint": "컨테이너는 자체 격리된 컨텍스트를 가짐",
-    "container.nodesInside": "내부 노드"
+    "container.editSubflow": "서브플로우 편집"
   }
 }

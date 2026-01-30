@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "Dokumentacja API",
-    "footer.community": "Forum spolecznosci",
-    "footer.contact": "Kontakt",
-    "footer.cookies": "Ustawienia plikow cookie",
     "footer.copyright": "(C) 2025 Flyto2. Wszelkie prawa zastrzezone.",
-    "footer.dashboard": "Panel",
-    "footer.description": "Potezny wizualny edytor przeplywow, ktory integruje setki aplikacji, ulatwiajac automatyzacje dla kazdego.",
-    "footer.developer": "Deweloper",
-    "footer.examples": "Przyklady",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "Centrum pomocy",
-    "footer.marketplace": "Sklep z aplikacjami",
-    "footer.pluginDev": "Tworzenie wtyczek",
-    "footer.pricing": "Cennik",
-    "footer.privacy": "Polityka prywatnosci",
-    "footer.product": "Produkt",
-    "footer.status": "Strona statusu",
-    "footer.support": "Wsparcie",
-    "footer.terms": "Regulamin",
-    "footer.workflows": "Przeplywy"
+    "footer.description": "Potezny wizualny edytor przeplywow, ktory integruje setki aplikacji, ulatwiajac automatyzacje dla kazdego."
   }
 }

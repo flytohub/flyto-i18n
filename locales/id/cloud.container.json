@@ -4,14 +4,6 @@
   "category": "cloud.container",
   "version": "1.0.0",
   "translations": {
-    "container.advancedOptions": "Opsi Lanjutan",
-    "container.editSubflow": "Edit Subflow",
-    "container.exportVariables": "Ekspor Variabel",
-    "container.exportVariablesHint": "Variabel untuk diekspos ke workflow induk",
-    "container.exportVariablesPlaceholder": "misalnya result, data",
-    "container.inheritContext": "Warisi Konteks",
-    "container.inheritContextHint": "Bagikan variabel dengan workflow induk",
-    "container.isolatedContextHint": "Container memiliki konteks terisolasi sendiri",
-    "container.nodesInside": "node di dalam"
+    "container.editSubflow": "Edit Subflow"
   }
 }

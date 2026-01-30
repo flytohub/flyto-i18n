@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "API डॉक्यूमेंटेशन",
-    "footer.community": "कम्युनिटी फोरम",
-    "footer.contact": "संपर्क करें",
-    "footer.cookies": "कुकी सेटिंग्स",
     "footer.copyright": "© 2025 Flyto2. सर्वाधिकार सुरक्षित।",
-    "footer.dashboard": "डैशबोर्ड",
-    "footer.description": "शक्तिशाली विज़ुअल वर्कफ़्लो एडिटर जो सैकड़ों एप्लिकेशन को इंटीग्रेट करता है, जिससे ऑटोमेशन सभी के लिए आसान हो जाता है।",
-    "footer.developer": "डेवलपर",
-    "footer.examples": "उदाहरण",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "हेल्प सेंटर",
-    "footer.marketplace": "ऐप स्टोर",
-    "footer.pluginDev": "प्लगइन डेवलपमेंट",
-    "footer.pricing": "मूल्य निर्धारण",
-    "footer.privacy": "गोपनीयता नीति",
-    "footer.product": "प्रोडक्ट",
-    "footer.status": "स्टेटस पेज",
-    "footer.support": "सहायता",
-    "footer.terms": "सेवा की शर्तें",
-    "footer.workflows": "वर्कफ़्लो"
+    "footer.description": "शक्तिशाली विज़ुअल वर्कफ़्लो एडिटर जो सैकड़ों एप्लिकेशन को इंटीग्रेट करता है, जिससे ऑटोमेशन सभी के लिए आसान हो जाता है।"
   }
 }

@@ -7,7 +7,6 @@
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "Apakah Anda yakin ingin menghapus model ini?",
-    "plugins.downloading": "Mengunduh...",
     "plugins.install": "Instal",
     "plugins.installed": "Terinstal",
     "plugins.installedModels": "Model Terinstal",
@@ -23,7 +22,6 @@
     "plugins.subtitle": "Subtitle",
     "plugins.title": "Plugin",
     "plugins.trending": "Trending",
-    "plugins.trendingDesc": "Plugin populer minggu ini",
     "plugins.uninstall": "Hapus",
     "plugins.unload": "Bongkar",
     "plugins.viewOnHuggingFace": "Lihat di HuggingFace"

@@ -5,9 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "ファイルを添付",
-    "chat.error": "メッセージの送信エラー",
-    "chat.fileTooLarge": "ファイルが大きすぎます（最大10MB）",
-    "chat.loadFailed": "メッセージの読み込みに失敗しました",
     "chat.messageUser": "メッセージ",
     "chat.messages": "メッセージ",
     "chat.noConversations": "会話がまだありません",
@@ -15,14 +12,10 @@
     "chat.online": "オンライン",
     "chat.searchConversations": "会話を検索...",
     "chat.selectConversation": "チャットを開始するには会話を選択してください",
-    "chat.selectConversationHint": "チャットを開始するには会話を選択してください",
     "chat.send": "送信",
     "chat.startChat": "チャットを開始",
     "chat.startChatFailed": "チャットの開始に失敗しました",
-    "chat.startConversation": "会話を始める",
     "chat.typePlaceholder": "メッセージを入力...",
-    "chat.uploadFailed": "ファイルのアップロードに失敗しました",
-    "chat.user": "ユーザー",
-    "chat.viewProfile": "プロフィールを見る"
+    "chat.user": "ユーザー"
   }
 }

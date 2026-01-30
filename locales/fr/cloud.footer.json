@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "Documentation API",
-    "footer.community": "Forum communautaire",
-    "footer.contact": "Nous contacter",
-    "footer.cookies": "Parametres des cookies",
     "footer.copyright": "© 2025 Flyto2. Tous droits reserves.",
-    "footer.dashboard": "Tableau de bord",
-    "footer.description": "Editeur visuel de flux de travail puissant qui integre des centaines d'applications, rendant l'automatisation accessible a tous.",
-    "footer.developer": "Developpeur",
-    "footer.examples": "Exemples",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "Centre d'aide",
-    "footer.marketplace": "App Store",
-    "footer.pluginDev": "Developpement de plugins",
-    "footer.pricing": "Tarifs",
-    "footer.privacy": "Politique de confidentialite",
-    "footer.product": "Produit",
-    "footer.status": "Page de statut",
-    "footer.support": "Support",
-    "footer.terms": "Conditions d'utilisation",
-    "footer.workflows": "Flux de travail"
+    "footer.description": "Editeur visuel de flux de travail puissant qui integre des centaines d'applications, rendant l'automatisation accessible a tous."
   }
 }

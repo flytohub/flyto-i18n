@@ -5,9 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "แนบไฟล์",
-    "chat.error": "ข้อผิดพลาดในการส่งข้อความ",
-    "chat.fileTooLarge": "ไฟล์ใหญ่เกินไป (สูงสุด 10MB)",
-    "chat.loadFailed": "ไม่สามารถโหลดข้อความได้",
     "chat.messageUser": "ข้อความ",
     "chat.messages": "ข้อความ",
     "chat.noConversations": "ยังไม่มีการสนทนา",
@@ -15,14 +12,10 @@
     "chat.online": "ออนไลน์",
     "chat.searchConversations": "ค้นหาการสนทนา...",
     "chat.selectConversation": "เลือกการสนทนาเพื่อเริ่มแชท",
-    "chat.selectConversationHint": "เลือกการสนทนาเพื่อเริ่มแชท",
     "chat.send": "ส่ง",
     "chat.startChat": "เริ่มแชท",
     "chat.startChatFailed": "ไม่สามารถเริ่มแชทได้",
-    "chat.startConversation": "เริ่มการสนทนา",
     "chat.typePlaceholder": "พิมพ์ข้อความ...",
-    "chat.uploadFailed": "ไม่สามารถอัปโหลดไฟล์ได้",
-    "chat.user": "ผู้ใช้",
-    "chat.viewProfile": "ดูโปรไฟล์"
+    "chat.user": "ผู้ใช้"
   }
 }

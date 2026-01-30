@@ -4,25 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.apiDocs": "API Dokümantasyonu",
-    "footer.community": "Topluluk Forumu",
-    "footer.contact": "Bize Ulaşın",
-    "footer.cookies": "Çerez Ayarları",
     "footer.copyright": "© 2025 Flyto2. Tüm hakları saklıdır.",
-    "footer.dashboard": "Kontrol Paneli",
-    "footer.description": "Yüzlerce uygulamayı entegre eden, otomasyonu herkes için kolaylaştıran güçlü görsel iş akışı düzenleyicisi.",
-    "footer.developer": "Geliştirici",
-    "footer.examples": "Örnekler",
-    "footer.github": "GitHub",
-    "footer.helpCenter": "Yardım Merkezi",
-    "footer.marketplace": "Uygulama Mağazası",
-    "footer.pluginDev": "Eklenti Geliştirme",
-    "footer.pricing": "Fiyatlandırma",
-    "footer.privacy": "Gizlilik Politikası",
-    "footer.product": "Ürün",
-    "footer.status": "Durum Sayfası",
-    "footer.support": "Destek",
-    "footer.terms": "Kullanım Koşulları",
-    "footer.workflows": "İş Akışları"
+    "footer.description": "Yüzlerce uygulamayı entegre eden, otomasyonu herkes için kolaylaştıran güçlü görsel iş akışı düzenleyicisi."
   }
 }
