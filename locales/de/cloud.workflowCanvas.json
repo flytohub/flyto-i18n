@@ -4,11 +4,21 @@
   "category": "cloud.workflowCanvas",
   "version": "1.0.0",
   "translations": {
+    "workflowCanvas.controls.aiAssistant": "",
+    "workflowCanvas.controls.autoLayout": "",
+    "workflowCanvas.controls.fitView": "",
+    "workflowCanvas.controls.switchToCompactView": "",
+    "workflowCanvas.controls.switchToFullView": "",
+    "workflowCanvas.controls.zoomIn": "",
+    "workflowCanvas.controls.zoomOut": "",
     "workflowCanvas.deleteDialog.deleteAll": "Alle löschen",
     "workflowCanvas.deleteDialog.deleteAllDesc": "Diesen Knoten und alle {count} untergeordneten Knoten löschen",
     "workflowCanvas.deleteDialog.mergeToChild": "Mit Kind zusammenführen",
     "workflowCanvas.deleteDialog.mergeToChildDesc": "Nur diesen Knoten löschen und übergeordneten mit erstem untergeordneten verbinden",
     "workflowCanvas.deleteDialog.message": "Dieser Knoten hat {count} untergeordnete(n) Knoten. Was möchten Sie tun?",
-    "workflowCanvas.deleteDialog.title": "Knoten mit untergeordneten Knoten löschen"
+    "workflowCanvas.deleteDialog.title": "Knoten mit untergeordneten Knoten löschen",
+    "workflowCanvas.reconnect.cancel": "",
+    "workflowCanvas.reconnect.connect": "",
+    "workflowCanvas.reconnect.dontConnect": ""
   }
 }
