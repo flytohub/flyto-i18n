@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "Vorlage bearbeiten",
     "cloud.templateForm.namePlaceholder": "Meine tolle Automatisierung",
     "cloud.templateForm.selectCategory": "Kategorie auswählen (optional)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "Vorlagen-Symbol",
     "cloud.templateForm.templateName": "Vorlagenname",
     "cloud.templateForm.uploadIcon": "Symbol hochladen",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "Name A-Z",
     "cloud.templateToolbar.sortOptions.status": "Nach Status",
     "cloud.templateToolbar.sortOptions.updated": "Zuletzt aktualisiert",
-    "cloud.templateToolbar.viewMode": "Ansichtsmodus"
+    "cloud.templateToolbar.viewMode": "Ansichtsmodus",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

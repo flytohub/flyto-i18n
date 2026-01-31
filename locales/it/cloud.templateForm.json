@@ -12,6 +12,7 @@
     "templateForm.iconUploadError": "Impossibile caricare l'icona. Riprova.",
     "templateForm.namePlaceholder": "La Mia Fantastica Automazione",
     "templateForm.selectCategory": "Seleziona una categoria (opzionale)",
+    "templateForm.templateColor": "",
     "templateForm.templateIcon": "Icona Template",
     "templateForm.templateName": "Nome Template",
     "templateForm.uploadIcon": "Carica Icona"

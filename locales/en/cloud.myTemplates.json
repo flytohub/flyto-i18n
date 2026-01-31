@@ -33,10 +33,10 @@
     "myTemplates.subtitle": "Manage your automation templates",
     "myTemplates.syncFailed": "Failed to sync template",
     "myTemplates.syncSuccess": "Template synced to latest version",
-    "myTemplates.updateSettingsFailed": "Failed to update settings",
-    "myTemplates.updateSettingsSuccess": "Settings updated successfully",
     "myTemplates.tabs.created": "Created by Me",
     "myTemplates.tabs.installed": "Installed",
-    "myTemplates.title": "My Templates"
+    "myTemplates.title": "My Templates",
+    "myTemplates.updateSettingsFailed": "Failed to update settings",
+    "myTemplates.updateSettingsSuccess": "Settings updated successfully"
   }
 }

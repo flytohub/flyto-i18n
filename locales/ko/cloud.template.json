@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "템플릿 편집",
     "cloud.templateForm.namePlaceholder": "나의 멋진 자동화",
     "cloud.templateForm.selectCategory": "카테고리 선택 (선택사항)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "템플릿 아이콘",
     "cloud.templateForm.templateName": "템플릿 이름",
     "cloud.templateForm.uploadIcon": "아이콘 업로드",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "이름 A-Z",
     "cloud.templateToolbar.sortOptions.status": "상태별",
     "cloud.templateToolbar.sortOptions.updated": "최근 업데이트순",
-    "cloud.templateToolbar.viewMode": "보기 모드"
+    "cloud.templateToolbar.viewMode": "보기 모드",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

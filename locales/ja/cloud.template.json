@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "テンプレートを編集",
     "cloud.templateForm.namePlaceholder": "素敵な自動化",
     "cloud.templateForm.selectCategory": "カテゴリを選択（オプション）",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "テンプレートアイコン",
     "cloud.templateForm.templateName": "テンプレート名",
     "cloud.templateForm.uploadIcon": "アイコンをアップロード",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "名前順（A-Z）",
     "cloud.templateToolbar.sortOptions.status": "ステータス順",
     "cloud.templateToolbar.sortOptions.updated": "更新日順",
-    "cloud.templateToolbar.viewMode": "表示モード"
+    "cloud.templateToolbar.viewMode": "表示モード",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

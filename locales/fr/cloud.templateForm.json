@@ -12,6 +12,7 @@
     "templateForm.iconUploadError": "Echec du telechargement de l'icone. Veuillez reessayer.",
     "templateForm.namePlaceholder": "Mon automatisation geniale",
     "templateForm.selectCategory": "Selectionnez une categorie (optionnel)",
+    "templateForm.templateColor": "",
     "templateForm.templateIcon": "Icone du modele",
     "templateForm.templateName": "Nom du modele",
     "templateForm.uploadIcon": "Telecharger une icone"

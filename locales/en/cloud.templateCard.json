@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "Already saved offline",
+    "templateCard.autoUpdate": "Auto-update",
+    "templateCard.autoUpdateAll": "All",
+    "templateCard.autoUpdateMinor": "Minor (x.1.x)",
+    "templateCard.autoUpdateOff": "Off",
+    "templateCard.autoUpdatePatch": "Patch (x.x.1)",
     "templateCard.deleted": "Deleted",
     "templateCard.downloadOffline": "Download Offline",
     "templateCard.editInfo": "Edit Info",
@@ -19,11 +24,6 @@
     "templateCard.syncToLatest": "Sync to Latest",
     "templateCard.unpublished": "Unpublished",
     "templateCard.update": "Update",
-    "templateCard.updateAvailable": "Update available from the author",
-    "templateCard.autoUpdate": "Auto-update",
-    "templateCard.autoUpdateOff": "Off",
-    "templateCard.autoUpdatePatch": "Patch (x.x.1)",
-    "templateCard.autoUpdateMinor": "Minor (x.1.x)",
-    "templateCard.autoUpdateAll": "All"
+    "templateCard.updateAvailable": "Update available from the author"
   }
 }

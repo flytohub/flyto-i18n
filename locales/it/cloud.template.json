@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "Modifica Template",
     "cloud.templateForm.namePlaceholder": "La Mia Fantastica Automazione",
     "cloud.templateForm.selectCategory": "Seleziona una categoria (opzionale)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "Icona Template",
     "cloud.templateForm.templateName": "Nome Template",
     "cloud.templateForm.uploadIcon": "Carica Icona",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "Nome A-Z",
     "cloud.templateToolbar.sortOptions.status": "Per Stato",
     "cloud.templateToolbar.sortOptions.updated": "Aggiornati di Recente",
-    "cloud.templateToolbar.viewMode": "Modalita visualizzazione"
+    "cloud.templateToolbar.viewMode": "Modalita visualizzazione",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

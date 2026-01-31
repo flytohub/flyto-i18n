@@ -33,10 +33,10 @@
     "myTemplates.subtitle": "管理您的自動化模板",
     "myTemplates.syncFailed": "同步模板失敗",
     "myTemplates.syncSuccess": "模板已同步到最新版本",
-    "myTemplates.updateSettingsFailed": "更新設定失敗",
-    "myTemplates.updateSettingsSuccess": "設定更新成功",
     "myTemplates.tabs.created": "我建立的",
     "myTemplates.tabs.installed": "已安裝",
-    "myTemplates.title": "我的模板"
+    "myTemplates.title": "我的模板",
+    "myTemplates.updateSettingsFailed": "更新設定失敗",
+    "myTemplates.updateSettingsSuccess": "設定更新成功"
   }
 }
