@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Template sincronizado para versao mais recente",
     "myTemplates.tabs.created": "Criados por Mim",
     "myTemplates.tabs.installed": "Instalados",
-    "myTemplates.title": "Meus Templates"
+    "myTemplates.title": "Meus Templates",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

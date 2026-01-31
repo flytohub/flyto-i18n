@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "Bereits offline gespeichert",
+    "templateCard.autoUpdate": "",
+    "templateCard.autoUpdateAll": "",
+    "templateCard.autoUpdateMinor": "",
+    "templateCard.autoUpdateOff": "",
+    "templateCard.autoUpdatePatch": "",
     "templateCard.deleted": "Gelöscht",
     "templateCard.downloadOffline": "Offline herunterladen",
     "templateCard.editInfo": "Info bearbeiten",

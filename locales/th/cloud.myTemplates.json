@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Sync เทมเพลตเป็นเวอร์ชันล่าสุดแล้ว",
     "myTemplates.tabs.created": "สร้างโดยฉัน",
     "myTemplates.tabs.installed": "ติดตั้งแล้ว",
-    "myTemplates.title": "เทมเพลตของฉัน"
+    "myTemplates.title": "เทมเพลตของฉัน",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

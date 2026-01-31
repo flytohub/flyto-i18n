@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "テンプレートを最新バージョンに同期しました",
     "myTemplates.tabs.created": "作成したテンプレート",
     "myTemplates.tabs.installed": "インストール済み",
-    "myTemplates.title": "マイテンプレート"
+    "myTemplates.title": "マイテンプレート",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

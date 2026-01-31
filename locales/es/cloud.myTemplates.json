@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Plantilla sincronizada a la última versión",
     "myTemplates.tabs.created": "Creadas por mí",
     "myTemplates.tabs.installed": "Instaladas",
-    "myTemplates.title": "Mis plantillas"
+    "myTemplates.title": "Mis plantillas",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

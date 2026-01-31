@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "Zaten çevrimdışı kaydedildi",
+    "templateCard.autoUpdate": "",
+    "templateCard.autoUpdateAll": "",
+    "templateCard.autoUpdateMinor": "",
+    "templateCard.autoUpdateOff": "",
+    "templateCard.autoUpdatePatch": "",
     "templateCard.deleted": "Silindi",
     "templateCard.downloadOffline": "Çevrimdışı İndir",
     "templateCard.editInfo": "Bilgileri Düzenle",

@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Szablon zsynchronizowany do najnowszej wersji",
     "myTemplates.tabs.created": "Utworzone przeze mnie",
     "myTemplates.tabs.installed": "Zainstalowane",
-    "myTemplates.title": "Moje szablony"
+    "myTemplates.title": "Moje szablony",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "템플릿이 최신 버전으로 동기화되었습니다",
     "myTemplates.tabs.created": "내가 만든 것",
     "myTemplates.tabs.installed": "설치됨",
-    "myTemplates.title": "내 템플릿"
+    "myTemplates.title": "내 템플릿",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

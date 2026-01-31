@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Vorlage auf neueste Version synchronisiert",
     "myTemplates.tabs.created": "Von mir erstellt",
     "myTemplates.tabs.installed": "Installiert",
-    "myTemplates.title": "Meine Vorlagen"
+    "myTemplates.title": "Meine Vorlagen",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

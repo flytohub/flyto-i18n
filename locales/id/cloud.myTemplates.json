@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Template disinkronkan ke versi terbaru",
     "myTemplates.tabs.created": "Dibuat Oleh Saya",
     "myTemplates.tabs.installed": "Terinstal",
-    "myTemplates.title": "Template Saya"
+    "myTemplates.title": "Template Saya",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

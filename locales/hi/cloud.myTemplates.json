@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "टेम्पलेट नवीनतम वर्ज़न में सिंक हुआ",
     "myTemplates.tabs.created": "मेरे द्वारा बनाए गए",
     "myTemplates.tabs.installed": "इंस्टॉल किए गए",
-    "myTemplates.title": "मेरे टेम्पलेट"
+    "myTemplates.title": "मेरे टेम्पलेट",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }
