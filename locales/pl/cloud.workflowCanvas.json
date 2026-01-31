@@ -4,11 +4,21 @@
   "category": "cloud.workflowCanvas",
   "version": "1.0.0",
   "translations": {
+    "workflowCanvas.controls.aiAssistant": "",
+    "workflowCanvas.controls.autoLayout": "",
+    "workflowCanvas.controls.fitView": "",
+    "workflowCanvas.controls.switchToCompactView": "",
+    "workflowCanvas.controls.switchToFullView": "",
+    "workflowCanvas.controls.zoomIn": "",
+    "workflowCanvas.controls.zoomOut": "",
     "workflowCanvas.deleteDialog.deleteAll": "Usun wszystko",
     "workflowCanvas.deleteDialog.deleteAllDesc": "Usun ten wezel i wszystkie {count} wezel(ow) podrzednych",
     "workflowCanvas.deleteDialog.mergeToChild": "Polacz z potomkiem",
     "workflowCanvas.deleteDialog.mergeToChildDesc": "Usun tylko ten wezel i polacz rodzica z pierwszym potomkiem",
     "workflowCanvas.deleteDialog.message": "Ten wezel ma {count} wezel(ow) podrzednych. Co chcialbys zrobic?",
-    "workflowCanvas.deleteDialog.title": "Usun wezel z potomkami"
+    "workflowCanvas.deleteDialog.title": "Usun wezel z potomkami",
+    "workflowCanvas.reconnect.cancel": "",
+    "workflowCanvas.reconnect.connect": "",
+    "workflowCanvas.reconnect.dontConnect": ""
   }
 }
