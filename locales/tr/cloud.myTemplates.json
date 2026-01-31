@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Şablon en son sürüme senkronize edildi",
     "myTemplates.tabs.created": "Oluşturduklarım",
     "myTemplates.tabs.installed": "Yüklü",
-    "myTemplates.title": "Şablonlarım"
+    "myTemplates.title": "Şablonlarım",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

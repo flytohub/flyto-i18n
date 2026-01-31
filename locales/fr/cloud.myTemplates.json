@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Modele synchronise a la derniere version",
     "myTemplates.tabs.created": "Crees par moi",
     "myTemplates.tabs.installed": "Installes",
-    "myTemplates.title": "Mes modeles"
+    "myTemplates.title": "Mes modeles",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }

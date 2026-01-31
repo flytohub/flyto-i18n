@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "บันทึกแบบออฟไลน์แล้ว",
+    "templateCard.autoUpdate": "",
+    "templateCard.autoUpdateAll": "",
+    "templateCard.autoUpdateMinor": "",
+    "templateCard.autoUpdateOff": "",
+    "templateCard.autoUpdatePatch": "",
     "templateCard.deleted": "ลบแล้ว",
     "templateCard.downloadOffline": "ดาวน์โหลดออฟไลน์",
     "templateCard.editInfo": "แก้ไขข้อมูล",

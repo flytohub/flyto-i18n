@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "translations": {
     "templateCard.alreadyDownloaded": "Deja enregistre hors ligne",
+    "templateCard.autoUpdate": "",
+    "templateCard.autoUpdateAll": "",
+    "templateCard.autoUpdateMinor": "",
+    "templateCard.autoUpdateOff": "",
+    "templateCard.autoUpdatePatch": "",
     "templateCard.deleted": "Supprime",
     "templateCard.downloadOffline": "Telecharger hors ligne",
     "templateCard.editInfo": "Modifier les infos",

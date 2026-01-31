@@ -35,6 +35,8 @@
     "myTemplates.syncSuccess": "Đã đồng bộ mẫu với phiên bản mới nhất",
     "myTemplates.tabs.created": "Do tôi tạo",
     "myTemplates.tabs.installed": "Đã cài đặt",
-    "myTemplates.title": "Mẫu của tôi"
+    "myTemplates.title": "Mẫu của tôi",
+    "myTemplates.updateSettingsFailed": "",
+    "myTemplates.updateSettingsSuccess": ""
   }
 }
