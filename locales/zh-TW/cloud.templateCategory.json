@@ -8,6 +8,14 @@
     "templateCategory.dataProcessing": "資料處理",
     "templateCategory.productivity": "生產力",
     "templateCategory.socialMedia": "社群媒體",
-    "templateCategory.webScraping": "網頁爬蟲"
+    "templateCategory.webScraping": "瀏覽器 / 爬蟲",
+    "templateCategory.api": "API 整合",
+    "templateCategory.image": "圖片 / 媒體",
+    "templateCategory.notification": "通知 / 機器人",
+    "templateCategory.ai": "AI 工具",
+    "templateCategory.file": "檔案 / CSV / Excel",
+    "templateCategory.monitoring": "監控",
+    "templateCategory.developer": "開發者工具",
+    "templateCategory.other": "其他"
   }
 }

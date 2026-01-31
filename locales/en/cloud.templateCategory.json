@@ -8,6 +8,14 @@
     "templateCategory.dataProcessing": "Data Processing",
     "templateCategory.productivity": "Productivity",
     "templateCategory.socialMedia": "Social Media",
-    "templateCategory.webScraping": "Web Scraping"
+    "templateCategory.webScraping": "Browser / Scraping",
+    "templateCategory.api": "API Integration",
+    "templateCategory.image": "Image / Media",
+    "templateCategory.notification": "Notification / Bot",
+    "templateCategory.ai": "AI Utility",
+    "templateCategory.file": "File / CSV / Excel",
+    "templateCategory.monitoring": "Monitoring",
+    "templateCategory.developer": "Developer Tools",
+    "templateCategory.other": "Other"
   }
 }
