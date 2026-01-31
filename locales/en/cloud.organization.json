@@ -17,7 +17,7 @@
     "organization.members.invite": "Invite Member",
     "organization.members.removeConfirm": "Are you sure you want to remove this member?",
     "organization.members.title": "Team Members",
-    "organization.roles.admin": "Admin",
+    "organization.roles.admin": "Administrator",
     "organization.roles.member": "Member",
     "organization.roles.viewer": "Viewer",
     "organization.title": "Organization"
