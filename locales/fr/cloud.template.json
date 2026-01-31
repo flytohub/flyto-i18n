@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "Modifier le modele",
     "cloud.templateForm.namePlaceholder": "Mon automatisation geniale",
     "cloud.templateForm.selectCategory": "Selectionnez une categorie (optionnel)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "Icone du modele",
     "cloud.templateForm.templateName": "Nom du modele",
     "cloud.templateForm.uploadIcon": "Telecharger une icone",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "Nom A-Z",
     "cloud.templateToolbar.sortOptions.status": "Par statut",
     "cloud.templateToolbar.sortOptions.updated": "Recemment mis a jour",
-    "cloud.templateToolbar.viewMode": "Mode d'affichage"
+    "cloud.templateToolbar.viewMode": "Mode d'affichage",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

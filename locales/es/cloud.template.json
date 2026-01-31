@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "Editar plantilla",
     "cloud.templateForm.namePlaceholder": "Mi automatizacion increible",
     "cloud.templateForm.selectCategory": "Selecciona una categoria (opcional)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "Icono de plantilla",
     "cloud.templateForm.templateName": "Nombre de la plantilla",
     "cloud.templateForm.uploadIcon": "Subir icono",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "Nombre A-Z",
     "cloud.templateToolbar.sortOptions.status": "Por estado",
     "cloud.templateToolbar.sortOptions.updated": "Actualizados recientemente",
-    "cloud.templateToolbar.viewMode": "Modo de vista"
+    "cloud.templateToolbar.viewMode": "Modo de vista",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

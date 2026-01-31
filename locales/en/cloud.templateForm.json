@@ -12,6 +12,7 @@
     "templateForm.iconUploadError": "Failed to upload icon. Please try again.",
     "templateForm.namePlaceholder": "My Awesome Automation",
     "templateForm.selectCategory": "Select a category (optional)",
+    "templateForm.templateColor": "",
     "templateForm.templateIcon": "Template Icon",
     "templateForm.templateName": "Template Name",
     "templateForm.uploadIcon": "Upload Icon"

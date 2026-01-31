@@ -12,6 +12,7 @@
     "templateForm.iconUploadError": "Error al subir el icono. Por favor intenta de nuevo.",
     "templateForm.namePlaceholder": "Mi automatizacion increible",
     "templateForm.selectCategory": "Selecciona una categoria (opcional)",
+    "templateForm.templateColor": "",
     "templateForm.templateIcon": "Icono de plantilla",
     "templateForm.templateName": "Nombre de la plantilla",
     "templateForm.uploadIcon": "Subir icono"

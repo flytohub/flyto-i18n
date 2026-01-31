@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "टेम्पलेट संपादित करें",
     "cloud.templateForm.namePlaceholder": "मेरा शानदार ऑटोमेशन",
     "cloud.templateForm.selectCategory": "श्रेणी चुनें (वैकल्पिक)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "टेम्पलेट आइकन",
     "cloud.templateForm.templateName": "टेम्पलेट नाम",
     "cloud.templateForm.uploadIcon": "आइकन अपलोड करें",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "नाम A-Z",
     "cloud.templateToolbar.sortOptions.status": "स्थिति के अनुसार",
     "cloud.templateToolbar.sortOptions.updated": "हाल ही में अपडेट किए गए",
-    "cloud.templateToolbar.viewMode": "दृश्य मोड"
+    "cloud.templateToolbar.viewMode": "दृश्य मोड",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }

@@ -12,6 +12,7 @@
     "templateForm.iconUploadError": "Falha ao enviar icone. Por favor, tente novamente.",
     "templateForm.namePlaceholder": "Minha Automacao Incrivel",
     "templateForm.selectCategory": "Selecione uma categoria (opcional)",
+    "templateForm.templateColor": "",
     "templateForm.templateIcon": "Icone do Template",
     "templateForm.templateName": "Nome do Template",
     "templateForm.uploadIcon": "Enviar Icone"

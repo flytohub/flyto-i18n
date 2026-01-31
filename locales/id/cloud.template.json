@@ -467,6 +467,7 @@
     "cloud.templateForm.editTemplate": "Edit Template",
     "cloud.templateForm.namePlaceholder": "Otomatisasi Hebat Saya",
     "cloud.templateForm.selectCategory": "Pilih kategori (opsional)",
+    "cloud.templateForm.templateColor": "",
     "cloud.templateForm.templateIcon": "Ikon Template",
     "cloud.templateForm.templateName": "Nama Template",
     "cloud.templateForm.uploadIcon": "Unggah Ikon",
@@ -522,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "Nama A-Z",
     "cloud.templateToolbar.sortOptions.status": "Berdasarkan Status",
     "cloud.templateToolbar.sortOptions.updated": "Terbaru Diperbarui",
-    "cloud.templateToolbar.viewMode": "Mode tampilan"
+    "cloud.templateToolbar.viewMode": "Mode tampilan",
+    "colorPicker.clickToOpen": "",
+    "colorPicker.custom": "",
+    "colorPicker.popular": "",
+    "colorPicker.presets": ""
   }
 }
