@@ -134,8 +134,6 @@
     "templateBuilder.nodeProperties.nodeId": "ID del nodo",
     "templateBuilder.nodeProperties.onError": "En caso de error",
     "templateBuilder.nodeProperties.onErrorContinue": "Continuar al siguiente paso",
-    "templateBuilder.nodeProperties.onErrorOutput": "Continuar (usando salida de error)",
-    "templateBuilder.nodeProperties.onErrorOutputHint": "Los errores se enviarán al puerto rojo de salida de errores. Conéctalo para manejar errores.",
     "templateBuilder.nodeProperties.onErrorRetry": "Reintentar paso",
     "templateBuilder.nodeProperties.onErrorStop": "Detener flujo de trabajo",
     "templateBuilder.nodeProperties.optionsPerLine": "Opciones (una por linea)",

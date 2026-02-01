@@ -134,8 +134,6 @@
     "templateBuilder.nodeProperties.nodeId": "ID wezla",
     "templateBuilder.nodeProperties.onError": "Przy bledzie",
     "templateBuilder.nodeProperties.onErrorContinue": "Kontynuuj do nastepnego kroku",
-    "templateBuilder.nodeProperties.onErrorOutput": "Kontynuuj (używając wyjścia błędu)",
-    "templateBuilder.nodeProperties.onErrorOutputHint": "Błędy będą kierowane do czerwonego portu wyjścia błędu. Podłącz go, aby obsłużyć błędy.",
     "templateBuilder.nodeProperties.onErrorRetry": "Ponow krok",
     "templateBuilder.nodeProperties.onErrorStop": "Zatrzymaj przeplyw",
     "templateBuilder.nodeProperties.optionsPerLine": "Opcje (jedna na linie)",
