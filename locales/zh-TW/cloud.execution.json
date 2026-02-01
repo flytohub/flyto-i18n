@@ -20,6 +20,9 @@
     "execution.resume.retryFromStart": "從頭重試",
     "execution.resume.stepsCompleted": "步驟已完成",
     "execution.resume.timeSaved": "節省時間",
-    "execution.running": "執行中"
+    "execution.running": "執行中",
+    "execution.timeline": "執行時間軸",
+    "execution.timeline.empty": "沒有執行資料",
+    "execution.retry": "從此節點重試"
   }
 }

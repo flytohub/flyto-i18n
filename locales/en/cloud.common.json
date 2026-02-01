@@ -88,6 +88,8 @@
     "common.settings": "Settings",
     "common.share": "Share",
     "common.showPassword": "Show password",
+    "common.showStack": "Show Stack",
+    "common.hideStack": "Hide Stack",
     "common.showing": "Showing",
     "common.success": "Success",
     "common.timeRange.1h": "Last 1 hour",
