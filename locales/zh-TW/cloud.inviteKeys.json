@@ -44,10 +44,6 @@
     "inviteKeys.usageUnlimited": "{used} / 無限制",
     "inviteKeys.uses": "{count} 次",
     "inviteKeys.usesCount": "使用次數",
-    "inviteKeys.year": "1 年",
-    "inviteKeys.status.active": "有效",
-    "inviteKeys.status.expired": "已過期",
-    "inviteKeys.status.exhausted": "已用完",
-    "inviteKeys.status.revoked": "已撤銷"
+    "inviteKeys.year": "1 年"
   }
 }

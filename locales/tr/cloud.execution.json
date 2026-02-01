@@ -20,6 +20,8 @@
     "execution.resume.retryFromStart": "Baştan tekrar dene",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.running": "Running"
+    "execution.running": "Running",
+    "execution.timeline": "",
+    "execution.timeline.empty": ""
   }
 }

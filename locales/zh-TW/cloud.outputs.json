@@ -4,11 +4,6 @@
   "category": "cloud.outputs",
   "version": "1.0.0",
   "translations": {
-    "outputs.title": "輸出",
-    "nodeOutput.input": "輸入",
-    "nodeOutput.output": "輸出",
-    "nodeOutput.diff": "對比",
-    "nodeOutput.table": "表格",
-    "nodeOutput.text": "文字"
+    "outputs.title": "輸出"
   }
 }
