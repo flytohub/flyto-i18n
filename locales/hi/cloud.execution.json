@@ -20,6 +20,7 @@
     "execution.resume.retryFromStart": "शुरू से पुनः प्रयास करें",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
+    "execution.retry": "",
     "execution.running": "Running",
     "execution.timeline": "",
     "execution.timeline.empty": ""

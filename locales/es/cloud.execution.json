@@ -20,6 +20,7 @@
     "execution.resume.retryFromStart": "Reintentar desde el inicio",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
+    "execution.retry": "",
     "execution.running": "Running",
     "execution.timeline": "",
     "execution.timeline.empty": ""
