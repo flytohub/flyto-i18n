@@ -7,8 +7,6 @@
     "workflowCanvas.controls.aiAssistant": "AI 助手 (向 AI 尋求幫助)",
     "workflowCanvas.controls.autoLayout": "自動排版",
     "workflowCanvas.controls.fitView": "適應視圖",
-    "workflowCanvas.controls.switchToCompactView": "切換至精簡視圖",
-    "workflowCanvas.controls.switchToFullView": "切換至完整視圖",
     "workflowCanvas.controls.zoomIn": "放大",
     "workflowCanvas.controls.zoomOut": "縮小",
     "workflowCanvas.deleteDialog.deleteAll": "全部刪除",
