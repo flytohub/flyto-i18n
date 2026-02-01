@@ -134,6 +134,8 @@
     "templateBuilder.nodeProperties.nodeId": "節點 ID",
     "templateBuilder.nodeProperties.onError": "錯誤處理",
     "templateBuilder.nodeProperties.onErrorContinue": "繼續下一步驟",
+    "templateBuilder.nodeProperties.onErrorOutput": "繼續（使用錯誤輸出）",
+    "templateBuilder.nodeProperties.onErrorOutputHint": "錯誤將路由到紅色錯誤輸出端口。連接它以處理錯誤。",
     "templateBuilder.nodeProperties.onErrorRetry": "重試步驟",
     "templateBuilder.nodeProperties.onErrorStop": "停止工作流程",
     "templateBuilder.nodeProperties.optionsPerLine": "選項 (每行一個)",
