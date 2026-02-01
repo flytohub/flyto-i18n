@@ -7,8 +7,6 @@
     "workflowCanvas.controls.aiAssistant": "",
     "workflowCanvas.controls.autoLayout": "",
     "workflowCanvas.controls.fitView": "",
-    "workflowCanvas.controls.switchToCompactView": "",
-    "workflowCanvas.controls.switchToFullView": "",
     "workflowCanvas.controls.zoomIn": "",
     "workflowCanvas.controls.zoomOut": "",
     "workflowCanvas.deleteDialog.deleteAll": "सभी हटाएं",

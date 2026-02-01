@@ -7,8 +7,6 @@
     "workflowCanvas.controls.aiAssistant": "AI Assistant (Ask AI for help)",
     "workflowCanvas.controls.autoLayout": "Auto Layout",
     "workflowCanvas.controls.fitView": "Fit View",
-    "workflowCanvas.controls.switchToCompactView": "Switch to Compact View",
-    "workflowCanvas.controls.switchToFullView": "Switch to Full View",
     "workflowCanvas.controls.zoomIn": "Zoom In",
     "workflowCanvas.controls.zoomOut": "Zoom Out",
     "workflowCanvas.deleteDialog.deleteAll": "Delete All",
