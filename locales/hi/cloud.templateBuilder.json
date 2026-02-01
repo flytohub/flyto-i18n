@@ -134,8 +134,6 @@
     "templateBuilder.nodeProperties.nodeId": "नोड ID",
     "templateBuilder.nodeProperties.onError": "त्रुटि पर",
     "templateBuilder.nodeProperties.onErrorContinue": "अगले चरण पर जारी रखें",
-    "templateBuilder.nodeProperties.onErrorOutput": "जारी रखें (त्रुटि आउटपुट का उपयोग करके)",
-    "templateBuilder.nodeProperties.onErrorOutputHint": "त्रुटियाँ लाल त्रुटि आउटपुट पोर्ट पर भेजी जाएंगी। त्रुटियों को संभालने के लिए इसे कनेक्ट करें।",
     "templateBuilder.nodeProperties.onErrorRetry": "चरण पुनः प्रयास करें",
     "templateBuilder.nodeProperties.onErrorStop": "वर्कफ़्लो रोकें",
     "templateBuilder.nodeProperties.optionsPerLine": "विकल्प (प्रति पंक्ति एक)",

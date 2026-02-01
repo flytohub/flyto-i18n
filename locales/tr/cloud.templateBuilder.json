@@ -134,8 +134,6 @@
     "templateBuilder.nodeProperties.nodeId": "Düğüm ID",
     "templateBuilder.nodeProperties.onError": "Hata Durumunda",
     "templateBuilder.nodeProperties.onErrorContinue": "Sonraki adıma devam et",
-    "templateBuilder.nodeProperties.onErrorOutput": "Devam et (Hata Çıkışı kullanarak)",
-    "templateBuilder.nodeProperties.onErrorOutputHint": "Hatalar kırmızı hata çıkış portuna yönlendirilecek. Hataları yönetmek için bağlayın.",
     "templateBuilder.nodeProperties.onErrorRetry": "Adımı tekrar dene",
     "templateBuilder.nodeProperties.onErrorStop": "İş akışını durdur",
     "templateBuilder.nodeProperties.optionsPerLine": "Seçenekler (satır başına bir)",

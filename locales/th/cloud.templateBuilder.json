@@ -134,8 +134,6 @@
     "templateBuilder.nodeProperties.nodeId": "ID โหนด",
     "templateBuilder.nodeProperties.onError": "เมื่อเกิดข้อผิดพลาด",
     "templateBuilder.nodeProperties.onErrorContinue": "ดำเนินการขั้นตอนถัดไป",
-    "templateBuilder.nodeProperties.onErrorOutput": "ดำเนินการต่อ (ใช้เอาต์พุตข้อผิดพลาด)",
-    "templateBuilder.nodeProperties.onErrorOutputHint": "ข้อผิดพลาดจะถูกส่งไปยังพอร์ตเอาต์พุตข้อผิดพลาดสีแดง เชื่อมต่อเพื่อจัดการข้อผิดพลาด",
     "templateBuilder.nodeProperties.onErrorRetry": "ลองขั้นตอนอีกครั้ง",
     "templateBuilder.nodeProperties.onErrorStop": "หยุด workflow",
     "templateBuilder.nodeProperties.optionsPerLine": "ตัวเลือก (หนึ่งต่อบรรทัด)",

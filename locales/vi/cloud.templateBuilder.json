@@ -134,8 +134,6 @@
     "templateBuilder.nodeProperties.nodeId": "ID Node",
     "templateBuilder.nodeProperties.onError": "Khi lỗi",
     "templateBuilder.nodeProperties.onErrorContinue": "Tiếp tục bước tiếp theo",
-    "templateBuilder.nodeProperties.onErrorOutput": "Tiếp tục (sử dụng đầu ra lỗi)",
-    "templateBuilder.nodeProperties.onErrorOutputHint": "Lỗi sẽ được chuyển đến cổng đầu ra lỗi màu đỏ. Kết nối để xử lý lỗi.",
     "templateBuilder.nodeProperties.onErrorRetry": "Thử lại bước",
     "templateBuilder.nodeProperties.onErrorStop": "Dừng workflow",
     "templateBuilder.nodeProperties.optionsPerLine": "Tùy chọn (mỗi dòng một)",
