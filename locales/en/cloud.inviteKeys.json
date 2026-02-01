@@ -44,6 +44,10 @@
     "inviteKeys.usageUnlimited": "{used} / unlimited uses",
     "inviteKeys.uses": "{count} uses",
     "inviteKeys.usesCount": "Uses",
-    "inviteKeys.year": "1 year"
+    "inviteKeys.year": "1 year",
+    "inviteKeys.status.active": "Active",
+    "inviteKeys.status.expired": "Expired",
+    "inviteKeys.status.exhausted": "Exhausted",
+    "inviteKeys.status.revoked": "Revoked"
   }
 }
