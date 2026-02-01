@@ -4,11 +4,6 @@
   "category": "cloud.outputs",
   "version": "1.0.0",
   "translations": {
-    "outputs.title": "Outputs",
-    "nodeOutput.input": "Input",
-    "nodeOutput.output": "Output",
-    "nodeOutput.diff": "Diff",
-    "nodeOutput.table": "Table",
-    "nodeOutput.text": "Text"
+    "outputs.title": "Outputs"
   }
 }

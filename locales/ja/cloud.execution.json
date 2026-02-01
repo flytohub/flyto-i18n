@@ -20,6 +20,8 @@
     "execution.resume.retryFromStart": "最初から再試行",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.running": "Running"
+    "execution.running": "Running",
+    "execution.timeline": "",
+    "execution.timeline.empty": ""
   }
 }
