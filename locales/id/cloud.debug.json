@@ -200,6 +200,7 @@
     "debug.tests.title": "Tes Workflow",
     "debug.timeline": "Timeline Eksekusi",
     "debug.toolbar.evidence": "Bukti",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Lineage",
     "debug.toolbar.replay": "Replay",

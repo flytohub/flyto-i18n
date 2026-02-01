@@ -200,6 +200,7 @@
     "debug.tests.title": "Workflow-Tests",
     "debug.timeline": "Ausführungszeitachse",
     "debug.toolbar.evidence": "Beweise",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Herkunft",
     "debug.toolbar.replay": "Wiedergabe",

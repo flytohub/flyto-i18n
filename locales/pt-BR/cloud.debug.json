@@ -200,6 +200,7 @@
     "debug.tests.title": "Testes do Workflow",
     "debug.timeline": "Linha do Tempo de Execucao",
     "debug.toolbar.evidence": "Evidencia",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Linhagem",
     "debug.toolbar.replay": "Replay",

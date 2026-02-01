@@ -200,6 +200,7 @@
     "debug.tests.title": "การทดสอบ Workflow",
     "debug.timeline": "Timeline การดำเนินการ",
     "debug.toolbar.evidence": "หลักฐาน",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Lineage",
     "debug.toolbar.replay": "Replay",

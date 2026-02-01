@@ -200,6 +200,7 @@
     "debug.tests.title": "Testy przeplywu",
     "debug.timeline": "Os czasu wykonania",
     "debug.toolbar.evidence": "Dowody",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Pochodzenie",
     "debug.toolbar.replay": "Odtwarzanie",

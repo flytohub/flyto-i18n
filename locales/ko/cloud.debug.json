@@ -200,6 +200,7 @@
     "debug.tests.title": "워크플로우 테스트",
     "debug.timeline": "실행 타임라인",
     "debug.toolbar.evidence": "증거",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "계보",
     "debug.toolbar.replay": "재생",

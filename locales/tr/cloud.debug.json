@@ -200,6 +200,7 @@
     "debug.tests.title": "İş Akışı Testleri",
     "debug.timeline": "Çalıştırma Zaman Çizelgesi",
     "debug.toolbar.evidence": "Kanıt",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Soy",
     "debug.toolbar.replay": "Tekrar",
