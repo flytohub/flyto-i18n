@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "चाइल्ड के साथ नोड हटाएं",
     "workflowCanvas.reconnect.cancel": "रद्द करें",
     "workflowCanvas.reconnect.connect": "कनेक्ट करें",
-    "workflowCanvas.reconnect.dontConnect": "कनेक्ट न करें"
+    "workflowCanvas.reconnect.dontConnect": "कनेक्ट न करें",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

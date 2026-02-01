@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Supprimer un noeud avec des enfants",
     "workflowCanvas.reconnect.cancel": "Annuler",
     "workflowCanvas.reconnect.connect": "Connecter",
-    "workflowCanvas.reconnect.dontConnect": "Ne pas connecter"
+    "workflowCanvas.reconnect.dontConnect": "Ne pas connecter",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

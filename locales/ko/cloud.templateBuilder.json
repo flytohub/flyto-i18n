@@ -75,6 +75,7 @@
     "templateBuilder.header.saveAsNew": "새로 저장",
     "templateBuilder.header.settings": "설정",
     "templateBuilder.header.stop": "중지",
+    "templateBuilder.header.tidyNodes": "",
     "templateBuilder.header.updateTemplate": "업데이트",
     "templateBuilder.imagePreview.apply": "적용",
     "templateBuilder.imagePreview.changeImage": "이미지 변경",

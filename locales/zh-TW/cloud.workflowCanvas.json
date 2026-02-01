@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "刪除有子節點的節點",
     "workflowCanvas.reconnect.cancel": "取消",
     "workflowCanvas.reconnect.connect": "連接",
-    "workflowCanvas.reconnect.dontConnect": "不連接"
+    "workflowCanvas.reconnect.dontConnect": "不連接",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

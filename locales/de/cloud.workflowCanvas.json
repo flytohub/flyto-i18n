@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Knoten mit untergeordneten Knoten löschen",
     "workflowCanvas.reconnect.cancel": "Abbrechen",
     "workflowCanvas.reconnect.connect": "Verbinden",
-    "workflowCanvas.reconnect.dontConnect": "Nicht verbinden"
+    "workflowCanvas.reconnect.dontConnect": "Nicht verbinden",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

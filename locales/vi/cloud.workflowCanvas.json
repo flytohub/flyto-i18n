@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Xóa Node có node con",
     "workflowCanvas.reconnect.cancel": "Hủy",
     "workflowCanvas.reconnect.connect": "Kết nối",
-    "workflowCanvas.reconnect.dontConnect": "Không kết nối"
+    "workflowCanvas.reconnect.dontConnect": "Không kết nối",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

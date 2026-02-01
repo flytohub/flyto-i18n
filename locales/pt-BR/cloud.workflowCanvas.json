@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Excluir No com Filhos",
     "workflowCanvas.reconnect.cancel": "Cancelar",
     "workflowCanvas.reconnect.connect": "Conectar",
-    "workflowCanvas.reconnect.dontConnect": "Não Conectar"
+    "workflowCanvas.reconnect.dontConnect": "Não Conectar",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }
