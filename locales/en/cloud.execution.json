@@ -20,9 +20,8 @@
     "execution.resume.retryFromStart": "Retry from start",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retry": "",
-    "execution.running": "Running",
     "execution.retry": "Retry from this node",
+    "execution.running": "Running",
     "execution.timeline": "Execution Timeline",
     "execution.timeline.empty": "No execution data"
   }
