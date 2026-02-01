@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "ลบ Node ที่มี Children",
     "workflowCanvas.reconnect.cancel": "ยกเลิก",
     "workflowCanvas.reconnect.connect": "เชื่อมต่อ",
-    "workflowCanvas.reconnect.dontConnect": "ไม่เชื่อมต่อ"
+    "workflowCanvas.reconnect.dontConnect": "ไม่เชื่อมต่อ",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

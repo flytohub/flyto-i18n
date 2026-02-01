@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Alt Düğümlü Düğümü Sil",
     "workflowCanvas.reconnect.cancel": "İptal",
     "workflowCanvas.reconnect.connect": "Bağlan",
-    "workflowCanvas.reconnect.dontConnect": "Bağlanma"
+    "workflowCanvas.reconnect.dontConnect": "Bağlanma",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

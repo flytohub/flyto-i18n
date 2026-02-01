@@ -75,6 +75,7 @@
     "templateBuilder.header.saveAsNew": "Enregistrer comme nouveau",
     "templateBuilder.header.settings": "Parametres",
     "templateBuilder.header.stop": "Arreter",
+    "templateBuilder.header.tidyNodes": "",
     "templateBuilder.header.updateTemplate": "Mettre a jour",
     "templateBuilder.imagePreview.apply": "Appliquer",
     "templateBuilder.imagePreview.changeImage": "Changer l'image",

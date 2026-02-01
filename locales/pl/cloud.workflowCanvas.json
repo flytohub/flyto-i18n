@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Usun wezel z potomkami",
     "workflowCanvas.reconnect.cancel": "Anuluj",
     "workflowCanvas.reconnect.connect": "Połącz",
-    "workflowCanvas.reconnect.dontConnect": "Nie łącz"
+    "workflowCanvas.reconnect.dontConnect": "Nie łącz",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

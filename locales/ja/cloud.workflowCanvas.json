@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "子ノードを持つノードの削除",
     "workflowCanvas.reconnect.cancel": "キャンセル",
     "workflowCanvas.reconnect.connect": "接続",
-    "workflowCanvas.reconnect.dontConnect": "接続しない"
+    "workflowCanvas.reconnect.dontConnect": "接続しない",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

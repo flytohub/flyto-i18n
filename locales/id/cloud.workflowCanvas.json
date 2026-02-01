@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Hapus Node dengan Anak",
     "workflowCanvas.reconnect.cancel": "Batal",
     "workflowCanvas.reconnect.connect": "Hubungkan",
-    "workflowCanvas.reconnect.dontConnect": "Jangan Hubungkan"
+    "workflowCanvas.reconnect.dontConnect": "Jangan Hubungkan",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }

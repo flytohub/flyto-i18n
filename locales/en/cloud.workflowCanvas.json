@@ -17,6 +17,7 @@
     "workflowCanvas.deleteDialog.title": "Delete Node with Children",
     "workflowCanvas.reconnect.cancel": "Cancel",
     "workflowCanvas.reconnect.connect": "Connect",
-    "workflowCanvas.reconnect.dontConnect": "Don't Connect"
+    "workflowCanvas.reconnect.dontConnect": "Don't Connect",
+    "workflowCanvas.stickyNoteCreated": ""
   }
 }
