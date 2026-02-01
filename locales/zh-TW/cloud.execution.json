@@ -22,6 +22,7 @@
     "execution.resume.timeSaved": "節省時間",
     "execution.retry": "",
     "execution.running": "執行中",
+    "execution.retry": "從此節點重試",
     "execution.timeline": "執行時間軸",
     "execution.timeline.empty": "沒有執行資料"
   }

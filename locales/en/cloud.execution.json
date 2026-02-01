@@ -22,6 +22,7 @@
     "execution.resume.timeSaved": "Time saved",
     "execution.retry": "",
     "execution.running": "Running",
+    "execution.retry": "Retry from this node",
     "execution.timeline": "Execution Timeline",
     "execution.timeline.empty": "No execution data"
   }
