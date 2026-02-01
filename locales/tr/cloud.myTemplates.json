@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "Oluşturduklarım",
     "myTemplates.tabs.installed": "Yüklü",
     "myTemplates.title": "Şablonlarım",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "Ayarlar güncellenemedi",
+    "myTemplates.updateSettingsSuccess": "Ayarlar başarıyla güncellendi"
   }
 }

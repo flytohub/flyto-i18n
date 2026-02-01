@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "내가 만든 것",
     "myTemplates.tabs.installed": "설치됨",
     "myTemplates.title": "내 템플릿",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "설정 업데이트 실패",
+    "myTemplates.updateSettingsSuccess": "설정이 성공적으로 업데이트되었습니다"
   }
 }

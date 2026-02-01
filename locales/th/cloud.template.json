@@ -467,7 +467,7 @@
     "cloud.templateForm.editTemplate": "แก้ไขเทมเพลต",
     "cloud.templateForm.namePlaceholder": "ระบบอัตโนมัติสุดเจ๋งของฉัน",
     "cloud.templateForm.selectCategory": "เลือกหมวดหมู่ (ไม่บังคับ)",
-    "cloud.templateForm.templateColor": "",
+    "cloud.templateForm.templateColor": "สีของเทมเพลต",
     "cloud.templateForm.templateIcon": "ไอคอนเทมเพลต",
     "cloud.templateForm.templateName": "ชื่อเทมเพลต",
     "cloud.templateForm.uploadIcon": "อัปโหลดไอคอน",
@@ -524,9 +524,9 @@
     "cloud.templateToolbar.sortOptions.status": "ตามสถานะ",
     "cloud.templateToolbar.sortOptions.updated": "อัปเดตล่าสุด",
     "cloud.templateToolbar.viewMode": "โหมดการดู",
-    "colorPicker.clickToOpen": "",
-    "colorPicker.custom": "",
-    "colorPicker.popular": "",
-    "colorPicker.presets": ""
+    "colorPicker.clickToOpen": "คลิกเพื่อเปิดตัวเลือกสี",
+    "colorPicker.custom": "สีที่กำหนดเอง",
+    "colorPicker.popular": "สีที่นิยม",
+    "colorPicker.presets": "สีที่ตั้งไว้ล่วงหน้า"
   }
 }

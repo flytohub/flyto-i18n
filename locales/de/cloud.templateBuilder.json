@@ -134,6 +134,8 @@
     "templateBuilder.nodeProperties.nodeId": "Knoten-ID",
     "templateBuilder.nodeProperties.onError": "Bei Fehler",
     "templateBuilder.nodeProperties.onErrorContinue": "Mit nächstem Schritt fortfahren",
+    "templateBuilder.nodeProperties.onErrorOutput": "Fortfahren (mit Fehlerausgabe)",
+    "templateBuilder.nodeProperties.onErrorOutputHint": "Fehler werden zum roten Fehlerausgang geleitet. Verbinden Sie es, um Fehler zu behandeln.",
     "templateBuilder.nodeProperties.onErrorRetry": "Schritt wiederholen",
     "templateBuilder.nodeProperties.onErrorStop": "Workflow stoppen",
     "templateBuilder.nodeProperties.optionsPerLine": "Optionen (eine pro Zeile)",

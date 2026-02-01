@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "Do tôi tạo",
     "myTemplates.tabs.installed": "Đã cài đặt",
     "myTemplates.title": "Mẫu của tôi",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "Cập nhật cài đặt thất bại",
+    "myTemplates.updateSettingsSuccess": "Cài đặt đã được cập nhật thành công"
   }
 }

@@ -467,7 +467,7 @@
     "cloud.templateForm.editTemplate": "Chỉnh sửa Template",
     "cloud.templateForm.namePlaceholder": "Tự động hóa tuyệt vời của tôi",
     "cloud.templateForm.selectCategory": "Chọn danh mục (tùy chọn)",
-    "cloud.templateForm.templateColor": "",
+    "cloud.templateForm.templateColor": "Màu mẫu",
     "cloud.templateForm.templateIcon": "Biểu tượng Template",
     "cloud.templateForm.templateName": "Tên Template",
     "cloud.templateForm.uploadIcon": "Tải lên biểu tượng",
@@ -524,9 +524,9 @@
     "cloud.templateToolbar.sortOptions.status": "Theo trạng thái",
     "cloud.templateToolbar.sortOptions.updated": "Cập nhật gần đây",
     "cloud.templateToolbar.viewMode": "Chế độ xem",
-    "colorPicker.clickToOpen": "",
-    "colorPicker.custom": "",
-    "colorPicker.popular": "",
-    "colorPicker.presets": ""
+    "colorPicker.clickToOpen": "Nhấn để mở bộ chọn màu",
+    "colorPicker.custom": "Màu tùy chỉnh",
+    "colorPicker.popular": "Màu phổ biến",
+    "colorPicker.presets": "Màu cài sẵn"
   }
 }

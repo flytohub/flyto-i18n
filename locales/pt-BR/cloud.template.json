@@ -467,7 +467,7 @@
     "cloud.templateForm.editTemplate": "Editar Template",
     "cloud.templateForm.namePlaceholder": "Minha Automacao Incrivel",
     "cloud.templateForm.selectCategory": "Selecione uma categoria (opcional)",
-    "cloud.templateForm.templateColor": "",
+    "cloud.templateForm.templateColor": "Cor do Template",
     "cloud.templateForm.templateIcon": "Icone do Template",
     "cloud.templateForm.templateName": "Nome do Template",
     "cloud.templateForm.uploadIcon": "Enviar Icone",
@@ -524,9 +524,9 @@
     "cloud.templateToolbar.sortOptions.status": "Por Status",
     "cloud.templateToolbar.sortOptions.updated": "Atualizados Recentemente",
     "cloud.templateToolbar.viewMode": "Modo de visualizacao",
-    "colorPicker.clickToOpen": "",
-    "colorPicker.custom": "",
-    "colorPicker.popular": "",
-    "colorPicker.presets": ""
+    "colorPicker.clickToOpen": "Clique para abrir o seletor de cores",
+    "colorPicker.custom": "Cor Personalizada",
+    "colorPicker.popular": "Cores Populares",
+    "colorPicker.presets": "Cores Predefinidas"
   }
 }

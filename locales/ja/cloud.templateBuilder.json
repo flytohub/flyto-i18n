@@ -134,6 +134,8 @@
     "templateBuilder.nodeProperties.nodeId": "ノード ID",
     "templateBuilder.nodeProperties.onError": "エラー時",
     "templateBuilder.nodeProperties.onErrorContinue": "次のステップに進む",
+    "templateBuilder.nodeProperties.onErrorOutput": "続行（エラー出力を使用）",
+    "templateBuilder.nodeProperties.onErrorOutputHint": "エラーは赤いエラー出力ポートに送られます。接続してエラーを処理してください。",
     "templateBuilder.nodeProperties.onErrorRetry": "ステップを再試行",
     "templateBuilder.nodeProperties.onErrorStop": "ワークフローを停止",
     "templateBuilder.nodeProperties.optionsPerLine": "オプション（1行に1つ）",

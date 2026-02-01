@@ -4,13 +4,13 @@
   "category": "template",
   "version": "1.0.0",
   "translations": {
-    "modules.template.invoke.description": "",
-    "modules.template.invoke.label": "",
-    "modules.template.invoke.output.__event__.description": "",
-    "modules.template.invoke.output.execution_time_ms.description": "",
-    "modules.template.invoke.output.result.description": "",
-    "modules.template.invoke.output.template_id.description": "",
-    "modules.template.invoke.ports.input": "",
-    "modules.template.invoke.ports.success": ""
+    "modules.template.invoke.description": "Kitaplığınızdaki bir şablonu iş akışı adımı olarak çalıştırın",
+    "modules.template.invoke.label": "Şablon Çağır",
+    "modules.template.invoke.output.__event__.description": "Kütüphane öğesinin kimliği (satın alma/çatallama/sahip olunan)",
+    "modules.template.invoke.output.execution_time_ms.description": "Şablon yürütme sonucu",
+    "modules.template.invoke.output.result.description": "Maksimum yürütme süresi saniye cinsinden",
+    "modules.template.invoke.output.template_id.description": "Yönlendirme için olay (başarı/hata)",
+    "modules.template.invoke.ports.input": "Şablon Çağır",
+    "modules.template.invoke.ports.success": "Giriş"
   }
 }

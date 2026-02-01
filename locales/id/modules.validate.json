@@ -38,7 +38,7 @@
     "modules.validate.json_schema.output.valid.description": "JSON Schema to validate against",
     "modules.validate.json_schema.params.data.description": "JSON data to validate (string or object)",
     "modules.validate.json_schema.params.data.label": "Data",
-    "modules.validate.json_schema.params.errors": "",
+    "modules.validate.json_schema.params.errors": "Kesalahan",
     "modules.validate.json_schema.params.schema.description": "JSON data to validate (string or object)",
     "modules.validate.json_schema.params.schema.label": "Data",
     "modules.validate.phone.description": "Validate phone number format",

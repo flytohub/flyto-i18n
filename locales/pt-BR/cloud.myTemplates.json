@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "Criados por Mim",
     "myTemplates.tabs.installed": "Instalados",
     "myTemplates.title": "Meus Templates",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "Falha ao atualizar configurações",
+    "myTemplates.updateSettingsSuccess": "Configurações atualizadas com sucesso"
   }
 }

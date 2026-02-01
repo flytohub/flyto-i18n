@@ -4,13 +4,13 @@
   "category": "template",
   "version": "1.0.0",
   "translations": {
-    "modules.template.invoke.description": "",
-    "modules.template.invoke.label": "",
-    "modules.template.invoke.output.__event__.description": "",
-    "modules.template.invoke.output.execution_time_ms.description": "",
-    "modules.template.invoke.output.result.description": "",
-    "modules.template.invoke.output.template_id.description": "",
-    "modules.template.invoke.ports.input": "",
-    "modules.template.invoke.ports.success": ""
+    "modules.template.invoke.description": "Wykonaj szablon z biblioteki jako krok w procesie",
+    "modules.template.invoke.label": "Wywołaj szablon",
+    "modules.template.invoke.output.__event__.description": "ID elementu biblioteki (zakup/rozgałęzienie/posiadany)",
+    "modules.template.invoke.output.execution_time_ms.description": "Wynik wykonania szablonu",
+    "modules.template.invoke.output.result.description": "Maksymalny czas wykonania w sekundach",
+    "modules.template.invoke.output.template_id.description": "Zdarzenie do kierowania (sukces/błąd)",
+    "modules.template.invoke.ports.input": "Wywołaj szablon",
+    "modules.template.invoke.ports.success": "Wejście"
   }
 }

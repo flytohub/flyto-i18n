@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "作成したテンプレート",
     "myTemplates.tabs.installed": "インストール済み",
     "myTemplates.title": "マイテンプレート",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "設定の更新に失敗しました",
+    "myTemplates.updateSettingsSuccess": "設定が正常に更新されました"
   }
 }

@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "Von mir erstellt",
     "myTemplates.tabs.installed": "Installiert",
     "myTemplates.title": "Meine Vorlagen",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "Einstellungen konnten nicht aktualisiert werden",
+    "myTemplates.updateSettingsSuccess": "Einstellungen erfolgreich aktualisiert"
   }
 }

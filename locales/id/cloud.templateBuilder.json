@@ -134,6 +134,8 @@
     "templateBuilder.nodeProperties.nodeId": "ID Node",
     "templateBuilder.nodeProperties.onError": "Saat Error",
     "templateBuilder.nodeProperties.onErrorContinue": "Lanjutkan ke langkah berikutnya",
+    "templateBuilder.nodeProperties.onErrorOutput": "Lanjutkan (menggunakan Keluaran Error)",
+    "templateBuilder.nodeProperties.onErrorOutputHint": "Kesalahan akan diarahkan ke port keluaran error berwarna merah. Sambungkan untuk menangani kesalahan.",
     "templateBuilder.nodeProperties.onErrorRetry": "Coba ulang langkah",
     "templateBuilder.nodeProperties.onErrorStop": "Hentikan workflow",
     "templateBuilder.nodeProperties.optionsPerLine": "Opsi (satu per baris)",

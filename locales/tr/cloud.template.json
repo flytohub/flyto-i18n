@@ -467,7 +467,7 @@
     "cloud.templateForm.editTemplate": "Şablonu Düzenle",
     "cloud.templateForm.namePlaceholder": "Harika Otomasyonum",
     "cloud.templateForm.selectCategory": "Bir kategori seçin (isteğe bağlı)",
-    "cloud.templateForm.templateColor": "",
+    "cloud.templateForm.templateColor": "Şablon Rengi",
     "cloud.templateForm.templateIcon": "Şablon Simgesi",
     "cloud.templateForm.templateName": "Şablon Adı",
     "cloud.templateForm.uploadIcon": "Simge Yükle",
@@ -524,9 +524,9 @@
     "cloud.templateToolbar.sortOptions.status": "Duruma Göre",
     "cloud.templateToolbar.sortOptions.updated": "Son Güncellenen",
     "cloud.templateToolbar.viewMode": "Görünüm modu",
-    "colorPicker.clickToOpen": "",
-    "colorPicker.custom": "",
-    "colorPicker.popular": "",
-    "colorPicker.presets": ""
+    "colorPicker.clickToOpen": "Renk seçiciyi açmak için tıklayın",
+    "colorPicker.custom": "Özel Renk",
+    "colorPicker.popular": "Popüler Renkler",
+    "colorPicker.presets": "Ön Tanımlı Renkler"
   }
 }

@@ -134,6 +134,8 @@
     "templateBuilder.nodeProperties.nodeId": "노드 ID",
     "templateBuilder.nodeProperties.onError": "오류 시",
     "templateBuilder.nodeProperties.onErrorContinue": "다음 단계로 계속",
+    "templateBuilder.nodeProperties.onErrorOutput": "계속 (오류 출력 사용)",
+    "templateBuilder.nodeProperties.onErrorOutputHint": "오류는 빨간색 오류 출력 포트로 라우팅됩니다. 연결하여 오류를 처리하세요.",
     "templateBuilder.nodeProperties.onErrorRetry": "단계 재시도",
     "templateBuilder.nodeProperties.onErrorStop": "워크플로 중지",
     "templateBuilder.nodeProperties.optionsPerLine": "옵션 (한 줄에 하나씩)",

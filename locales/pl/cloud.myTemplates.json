@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "Utworzone przeze mnie",
     "myTemplates.tabs.installed": "Zainstalowane",
     "myTemplates.title": "Moje szablony",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "Nie udało się zaktualizować ustawień",
+    "myTemplates.updateSettingsSuccess": "Ustawienia zostały pomyślnie zaktualizowane"
   }
 }

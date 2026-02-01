@@ -467,7 +467,7 @@
     "cloud.templateForm.editTemplate": "Edytuj szablon",
     "cloud.templateForm.namePlaceholder": "Moja wspaniala automatyzacja",
     "cloud.templateForm.selectCategory": "Wybierz kategorie (opcjonalne)",
-    "cloud.templateForm.templateColor": "",
+    "cloud.templateForm.templateColor": "Kolor szablonu",
     "cloud.templateForm.templateIcon": "Ikona szablonu",
     "cloud.templateForm.templateName": "Nazwa szablonu",
     "cloud.templateForm.uploadIcon": "Przeslij ikone",
@@ -524,9 +524,9 @@
     "cloud.templateToolbar.sortOptions.status": "Wedlug statusu",
     "cloud.templateToolbar.sortOptions.updated": "Ostatnio zaktualizowane",
     "cloud.templateToolbar.viewMode": "Tryb widoku",
-    "colorPicker.clickToOpen": "",
-    "colorPicker.custom": "",
-    "colorPicker.popular": "",
-    "colorPicker.presets": ""
+    "colorPicker.clickToOpen": "Kliknij, aby otworzyć wybór koloru",
+    "colorPicker.custom": "Niestandardowy kolor",
+    "colorPicker.popular": "Popularne kolory",
+    "colorPicker.presets": "Kolory wstępne"
   }
 }

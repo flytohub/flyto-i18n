@@ -4,8 +4,8 @@
   "category": "cloud.colorPicker",
   "version": "1.0.0",
   "translations": {
-    "colorPicker.custom": "",
-    "colorPicker.popular": "",
-    "colorPicker.presets": ""
+    "colorPicker.custom": "Personalizzato",
+    "colorPicker.popular": "Popolare",
+    "colorPicker.presets": "Preimpostazioni"
   }
 }

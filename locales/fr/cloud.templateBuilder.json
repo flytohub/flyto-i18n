@@ -134,6 +134,8 @@
     "templateBuilder.nodeProperties.nodeId": "ID du noeud",
     "templateBuilder.nodeProperties.onError": "En cas d'erreur",
     "templateBuilder.nodeProperties.onErrorContinue": "Continuer a l'etape suivante",
+    "templateBuilder.nodeProperties.onErrorOutput": "Continuer (en utilisant la sortie d'erreur)",
+    "templateBuilder.nodeProperties.onErrorOutputHint": "Les erreurs seront dirigées vers le port de sortie d'erreur rouge. Connectez-le pour gérer les erreurs.",
     "templateBuilder.nodeProperties.onErrorRetry": "Reessayer l'etape",
     "templateBuilder.nodeProperties.onErrorStop": "Arreter le workflow",
     "templateBuilder.nodeProperties.optionsPerLine": "Options (une par ligne)",

@@ -12,7 +12,7 @@
     "templateForm.iconUploadError": "ไม่สามารถอัปโหลดไอคอนได้ กรุณาลองอีกครั้ง",
     "templateForm.namePlaceholder": "ระบบอัตโนมัติสุดเจ๋งของฉัน",
     "templateForm.selectCategory": "เลือกหมวดหมู่ (ไม่บังคับ)",
-    "templateForm.templateColor": "",
+    "templateForm.templateColor": "สีของเทมเพลต",
     "templateForm.templateIcon": "ไอคอนเทมเพลต",
     "templateForm.templateName": "ชื่อเทมเพลต",
     "templateForm.uploadIcon": "อัปโหลดไอคอน"

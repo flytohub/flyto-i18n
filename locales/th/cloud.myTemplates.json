@@ -36,7 +36,7 @@
     "myTemplates.tabs.created": "สร้างโดยฉัน",
     "myTemplates.tabs.installed": "ติดตั้งแล้ว",
     "myTemplates.title": "เทมเพลตของฉัน",
-    "myTemplates.updateSettingsFailed": "",
-    "myTemplates.updateSettingsSuccess": ""
+    "myTemplates.updateSettingsFailed": "อัปเดตการตั้งค่าไม่สำเร็จ",
+    "myTemplates.updateSettingsSuccess": "อัปเดตการตั้งค่าเรียบร้อยแล้ว"
   }
 }

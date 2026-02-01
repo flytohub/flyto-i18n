@@ -12,7 +12,7 @@
     "templateForm.iconUploadError": "Nie udalo sie przeslac ikony. Sprobuj ponownie.",
     "templateForm.namePlaceholder": "Moja wspaniala automatyzacja",
     "templateForm.selectCategory": "Wybierz kategorie (opcjonalne)",
-    "templateForm.templateColor": "",
+    "templateForm.templateColor": "Kolor szablonu",
     "templateForm.templateIcon": "Ikona szablonu",
     "templateForm.templateName": "Nazwa szablonu",
     "templateForm.uploadIcon": "Przeslij ikone"

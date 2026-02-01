@@ -135,8 +135,146 @@ LANGUAGE_CONFIG = {
     'ja': {
         'name': '日本語',
         'style': '自然な日本語、敬語は使わない、簡潔に',
-        'examples': {}
-    }
+        'examples': {
+            'Submit': '送信',
+            'Save': '保存',
+            'Cancel': 'キャンセル',
+            'Delete': '削除',
+            'Edit': '編集',
+            'Settings': '設定',
+        }
+    },
+    'ko': {
+        'name': '한국어',
+        'style': '자연스러운 한국어, 존댓말 사용, 간결하게',
+        'examples': {
+            'Submit': '제출',
+            'Save': '저장',
+            'Cancel': '취소',
+            'Delete': '삭제',
+        }
+    },
+    'de': {
+        'name': 'Deutsch',
+        'style': 'Natürliches Deutsch, informell (Sie-Form), prägnant',
+        'examples': {
+            'Submit': 'Absenden',
+            'Save': 'Speichern',
+            'Cancel': 'Abbrechen',
+            'Delete': 'Löschen',
+            'Settings': 'Einstellungen',
+        }
+    },
+    'fr': {
+        'name': 'Français',
+        'style': 'Français naturel, vouvoiement, concis',
+        'examples': {
+            'Submit': 'Envoyer',
+            'Save': 'Enregistrer',
+            'Cancel': 'Annuler',
+            'Delete': 'Supprimer',
+            'Settings': 'Paramètres',
+        }
+    },
+    'es': {
+        'name': 'Español',
+        'style': 'Español natural, tuteo, conciso',
+        'examples': {
+            'Submit': 'Enviar',
+            'Save': 'Guardar',
+            'Cancel': 'Cancelar',
+            'Delete': 'Eliminar',
+            'Settings': 'Configuración',
+        }
+    },
+    'it': {
+        'name': 'Italiano',
+        'style': 'Italiano naturale, formale (Lei), conciso',
+        'examples': {
+            'Submit': 'Invia',
+            'Save': 'Salva',
+            'Cancel': 'Annulla',
+            'Delete': 'Elimina',
+            'Settings': 'Impostazioni',
+        }
+    },
+    'pt-BR': {
+        'name': 'Português (Brasil)',
+        'style': 'Português brasileiro natural, informal (você), conciso',
+        'examples': {
+            'Submit': 'Enviar',
+            'Save': 'Salvar',
+            'Cancel': 'Cancelar',
+            'Delete': 'Excluir',
+            'Settings': 'Configurações',
+        }
+    },
+    'pl': {
+        'name': 'Polski',
+        'style': 'Naturalny polski, formalny (Pan/Pani), zwięzły',
+        'examples': {
+            'Submit': 'Wyślij',
+            'Save': 'Zapisz',
+            'Cancel': 'Anuluj',
+            'Delete': 'Usuń',
+            'Settings': 'Ustawienia',
+        }
+    },
+    'tr': {
+        'name': 'Türkçe',
+        'style': 'Doğal Türkçe, resmi (siz), kısa ve öz',
+        'examples': {
+            'Submit': 'Gönder',
+            'Save': 'Kaydet',
+            'Cancel': 'İptal',
+            'Delete': 'Sil',
+            'Settings': 'Ayarlar',
+        }
+    },
+    'vi': {
+        'name': 'Tiếng Việt',
+        'style': 'Tiếng Việt tự nhiên, lịch sự, ngắn gọn',
+        'examples': {
+            'Submit': 'Gửi',
+            'Save': 'Lưu',
+            'Cancel': 'Hủy',
+            'Delete': 'Xóa',
+            'Settings': 'Cài đặt',
+        }
+    },
+    'th': {
+        'name': 'ภาษาไทย',
+        'style': 'ภาษาไทยที่เป็นธรรมชาติ สุภาพ กระชับ',
+        'examples': {
+            'Submit': 'ส่ง',
+            'Save': 'บันทึก',
+            'Cancel': 'ยกเลิก',
+            'Delete': 'ลบ',
+            'Settings': 'ตั้งค่า',
+        }
+    },
+    'id': {
+        'name': 'Bahasa Indonesia',
+        'style': 'Bahasa Indonesia alami, formal, ringkas',
+        'examples': {
+            'Submit': 'Kirim',
+            'Save': 'Simpan',
+            'Cancel': 'Batal',
+            'Delete': 'Hapus',
+            'Settings': 'Pengaturan',
+        }
+    },
+    'hi': {
+        'name': 'हिन्दी',
+        'style': 'प्राकृतिक हिंदी, औपचारिक (आप), संक्षिप्त',
+        'examples': {
+            'Submit': 'जमा करें',
+            'Save': 'सहेजें',
+            'Cancel': 'रद्द करें',
+            'Delete': 'हटाएं',
+            'Settings': 'सेटिंग्स',
+        }
+    },
 }
 
 
