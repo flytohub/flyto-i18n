@@ -200,6 +200,7 @@
     "debug.tests.title": "ワークフローテスト",
     "debug.timeline": "実行タイムライン",
     "debug.toolbar.evidence": "エビデンス",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "リネージ",
     "debug.toolbar.replay": "リプレイ",

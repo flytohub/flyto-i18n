@@ -200,6 +200,7 @@
     "debug.tests.title": "Test Workflow",
     "debug.timeline": "Timeline thực thi",
     "debug.toolbar.evidence": "Bằng chứng",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Lineage",
     "debug.toolbar.replay": "Phát lại",

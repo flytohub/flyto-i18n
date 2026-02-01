@@ -200,6 +200,7 @@
     "debug.tests.title": "Tests du flux de travail",
     "debug.timeline": "Chronologie d'execution",
     "debug.toolbar.evidence": "Preuves",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Lignee",
     "debug.toolbar.replay": "Relecture",

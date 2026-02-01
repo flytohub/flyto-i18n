@@ -200,6 +200,7 @@
     "debug.tests.title": "वर्कफ़्लो टेस्ट",
     "debug.timeline": "एक्जीक्यूशन टाइमलाइन",
     "debug.toolbar.evidence": "एविडेंस",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "लिनेज",
     "debug.toolbar.replay": "रिप्ले",

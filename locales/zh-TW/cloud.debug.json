@@ -200,6 +200,7 @@
     "debug.tests.title": "工作流程測試",
     "debug.timeline": "執行時間軸",
     "debug.toolbar.evidence": "證據",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "資料血緣",
     "debug.toolbar.replay": "重播",

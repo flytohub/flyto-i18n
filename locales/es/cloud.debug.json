@@ -200,6 +200,7 @@
     "debug.tests.title": "Pruebas de flujo de trabajo",
     "debug.timeline": "Línea de tiempo de ejecución",
     "debug.toolbar.evidence": "Evidencia",
+    "debug.toolbar.evolution": "",
     "debug.toolbar.history": "",
     "debug.toolbar.lineage": "Linaje",
     "debug.toolbar.replay": "Repetir",
