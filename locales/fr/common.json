@@ -4,6 +4,8 @@
   "category": "common",
   "version": "1.0.0",
   "translations": {
+    "common.params.description.description": "",
+    "common.params.description.label": "",
     "common.ports.error": "Sortie"
   }
 }
