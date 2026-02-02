@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "Lineage",
     "debug.toolbar.replay": "Replay",
     "debug.toolbar.tests": "Test",
+    "debug.toolbar.timeline": "",
     "debug.toolbar.versions": "Versioni",
     "debug.variables": "Variabili",
     "debug.versions.available": "Versioni Disponibili",

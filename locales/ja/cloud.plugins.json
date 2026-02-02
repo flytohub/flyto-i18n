@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "このモデルをアンインストールしてもよろしいですか？",
@@ -13,17 +16,25 @@
     "plugins.installing": "インストール中",
     "plugins.load": "ロード",
     "plugins.loadMore": "もっと見る",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "モデル",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "このカテゴリに結果がありません",
     "plugins.noDescription": "説明がありません",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "モデルを検索...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "プラグイン",
     "plugins.trending": "トレンド",
     "plugins.uninstall": "アンインストール",
-    "plugins.unload": "アンロード",
-    "plugins.viewOnHuggingFace": "HuggingFaceで表示"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "Czy na pewno chcesz odinstalowac ten model?",
@@ -13,17 +16,25 @@
     "plugins.installing": "Instalowanie",
     "plugins.load": "Zaladuj",
     "plugins.loadMore": "Wczytaj wiecej",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "Modele",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "Brak wyników w tej kategorii",
     "plugins.noDescription": "Brak opisu",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "Szukaj modeli...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "Wtyczki",
     "plugins.trending": "Popularne",
     "plugins.uninstall": "Odinstaluj",
-    "plugins.unload": "Wyladuj",
-    "plugins.viewOnHuggingFace": "Zobacz na HuggingFace"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

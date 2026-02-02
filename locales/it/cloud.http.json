@@ -12,6 +12,7 @@
     "http.authType.apiKey": "Chiave API",
     "http.authType.basic": "Autenticazione Base",
     "http.authType.bearer": "Token Bearer",
+    "http.authType.credential": "",
     "http.authType.none": "Nessuna",
     "http.body": "Corpo",
     "http.bodyPlaceholder": "Inserisci il corpo della richiesta...",

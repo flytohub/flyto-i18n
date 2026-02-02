@@ -12,6 +12,7 @@
     "http.authType.apiKey": "API Key",
     "http.authType.basic": "Basic Auth",
     "http.authType.bearer": "Bearer Token",
+    "http.authType.credential": "",
     "http.authType.none": "Không",
     "http.body": "Body",
     "http.bodyPlaceholder": "Nhập nội dung yêu cầu...",

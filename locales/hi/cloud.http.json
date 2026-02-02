@@ -12,6 +12,7 @@
     "http.authType.apiKey": "API की",
     "http.authType.basic": "बेसिक ऑथ",
     "http.authType.bearer": "बेयरर टोकन",
+    "http.authType.credential": "",
     "http.authType.none": "कोई नहीं",
     "http.body": "बॉडी",
     "http.bodyPlaceholder": "रिक्वेस्ट बॉडी दर्ज करें...",

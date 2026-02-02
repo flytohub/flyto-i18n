@@ -6,12 +6,10 @@
   "translations": {
     "errorWorkflow.description": "Konfigurieren Sie, was passiert, wenn dieser Workflow fehlschlägt",
     "errorWorkflow.doNothing": "Nichts tun",
-    "errorWorkflow.errorWorkflowLabel": "Fehler-Workflow",
     "errorWorkflow.onFailure": "Bei Workflow-Fehler",
     "errorWorkflow.passContext": "Fehlerkontext an Fehler-Workflow übergeben",
     "errorWorkflow.passContextHint": "Beinhaltet Fehlermeldung, Kategorie und Quell-Workflow-Daten",
     "errorWorkflow.runWorkflow": "Fehler-Workflow ausführen",
-    "errorWorkflow.selectWorkflow": "Workflow auswählen...",
     "errorWorkflow.title": "Fehlerbehandlung"
   }
 }

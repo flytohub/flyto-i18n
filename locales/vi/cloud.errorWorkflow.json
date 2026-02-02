@@ -6,12 +6,10 @@
   "translations": {
     "errorWorkflow.description": "Cấu hình những gì xảy ra khi workflow này thất bại",
     "errorWorkflow.doNothing": "Không làm gì",
-    "errorWorkflow.errorWorkflowLabel": "Workflow xử lý lỗi",
     "errorWorkflow.onFailure": "Khi Workflow thất bại",
     "errorWorkflow.passContext": "Truyền ngữ cảnh lỗi đến workflow xử lý lỗi",
     "errorWorkflow.passContextHint": "Bao gồm thông báo lỗi, danh mục và dữ liệu workflow nguồn",
     "errorWorkflow.runWorkflow": "Chạy workflow xử lý lỗi",
-    "errorWorkflow.selectWorkflow": "Chọn workflow...",
     "errorWorkflow.title": "Xử lý lỗi"
   }
 }

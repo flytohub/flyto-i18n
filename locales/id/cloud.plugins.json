@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "Apakah Anda yakin ingin menghapus model ini?",
@@ -13,17 +16,25 @@
     "plugins.installing": "Menginstal",
     "plugins.load": "Muat",
     "plugins.loadMore": "Muat Lebih Banyak",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "Model",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "Tidak ada hasil di kategori ini",
     "plugins.noDescription": "Tidak ada deskripsi tersedia",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "Cari model...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "Plugin",
     "plugins.trending": "Trending",
     "plugins.uninstall": "Hapus",
-    "plugins.unload": "Bongkar",
-    "plugins.viewOnHuggingFace": "Lihat di HuggingFace"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

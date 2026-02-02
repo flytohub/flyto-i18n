@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "Bu modeli kaldırmak istediğinizden emin misiniz?",
@@ -13,17 +16,25 @@
     "plugins.installing": "Yükleniyor",
     "plugins.load": "Yükle",
     "plugins.loadMore": "Daha Fazla Yükle",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "Modeller",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "Bu kategoride sonuç yok",
     "plugins.noDescription": "Açıklama mevcut değil",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "Model ara...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "Eklentiler",
     "plugins.trending": "Popüler",
     "plugins.uninstall": "Kaldır",
-    "plugins.unload": "Kaldır",
-    "plugins.viewOnHuggingFace": "HuggingFace'te Görüntüle"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

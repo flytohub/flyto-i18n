@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "क्या आप वाकई इस मॉडल को अनइंस्टॉल करना चाहते हैं?",
@@ -13,17 +16,25 @@
     "plugins.installing": "इंस्टॉल हो रहा है",
     "plugins.load": "लोड करें",
     "plugins.loadMore": "और लोड करें",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "मॉडल",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "इस श्रेणी में कोई परिणाम नहीं",
     "plugins.noDescription": "कोई विवरण उपलब्ध नहीं",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "मॉडल खोजें...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "प्लगइन",
     "plugins.trending": "ट्रेंडिंग",
     "plugins.uninstall": "अनइंस्टॉल करें",
-    "plugins.unload": "अनलोड करें",
-    "plugins.viewOnHuggingFace": "HuggingFace पर देखें"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

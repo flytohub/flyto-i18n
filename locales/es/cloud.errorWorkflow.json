@@ -6,12 +6,10 @@
   "translations": {
     "errorWorkflow.description": "Configure qué sucede cuando este flujo de trabajo falla",
     "errorWorkflow.doNothing": "No hacer nada",
-    "errorWorkflow.errorWorkflowLabel": "Flujo de trabajo de error",
     "errorWorkflow.onFailure": "Al fallar el flujo de trabajo",
     "errorWorkflow.passContext": "Pasar contexto de error al flujo de trabajo de error",
     "errorWorkflow.passContextHint": "Incluye mensaje de error, categoría y datos del flujo de trabajo origen",
     "errorWorkflow.runWorkflow": "Ejecutar flujo de trabajo de error",
-    "errorWorkflow.selectWorkflow": "Seleccionar flujo de trabajo...",
     "errorWorkflow.title": "Manejo de errores"
   }
 }
