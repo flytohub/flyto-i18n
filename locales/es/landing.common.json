@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "Iniciar sesion",
     "landing.common.nav.signOut": "Cerrar sesion",
     "landing.common.nav.useCases": "Casos de uso",
-    "landing.common.nav.viewPricing": "Ver precios"
+    "landing.common.nav.viewPricing": "Ver precios",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "เข้าสู่ระบบ",
     "landing.common.nav.signOut": "ออกจากระบบ",
     "landing.common.nav.useCases": "กรณีการใช้งาน",
-    "landing.common.nav.viewPricing": "ดูราคา"
+    "landing.common.nav.viewPricing": "ดูราคา",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

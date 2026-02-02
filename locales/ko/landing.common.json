@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "로그인",
     "landing.common.nav.signOut": "로그아웃",
     "landing.common.nav.useCases": "사용 사례",
-    "landing.common.nav.viewPricing": "가격 보기"
+    "landing.common.nav.viewPricing": "가격 보기",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "Masuk",
     "landing.common.nav.signOut": "Keluar",
     "landing.common.nav.useCases": "Kasus Penggunaan",
-    "landing.common.nav.viewPricing": "Lihat Harga"
+    "landing.common.nav.viewPricing": "Lihat Harga",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

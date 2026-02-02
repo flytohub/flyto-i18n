@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "साइन इन",
     "landing.common.nav.signOut": "साइन आउट",
     "landing.common.nav.useCases": "उपयोग के मामले",
-    "landing.common.nav.viewPricing": "मूल्य देखें"
+    "landing.common.nav.viewPricing": "मूल्य देखें",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

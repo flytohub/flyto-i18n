@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "Giriş Yap",
     "landing.common.nav.signOut": "Çıkış Yap",
     "landing.common.nav.useCases": "Kullanım Senaryoları",
-    "landing.common.nav.viewPricing": "Fiyatlandırmayı Görüntüle"
+    "landing.common.nav.viewPricing": "Fiyatlandırmayı Görüntüle",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

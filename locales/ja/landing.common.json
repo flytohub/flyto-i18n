@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "ログイン",
     "landing.common.nav.signOut": "ログアウト",
     "landing.common.nav.useCases": "活用事例",
-    "landing.common.nav.viewPricing": "料金を見る"
+    "landing.common.nav.viewPricing": "料金を見る",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

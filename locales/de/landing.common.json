@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "Anmelden",
     "landing.common.nav.signOut": "Abmelden",
     "landing.common.nav.useCases": "Anwendungsfälle",
-    "landing.common.nav.viewPricing": "Preise anzeigen"
+    "landing.common.nav.viewPricing": "Preise anzeigen",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

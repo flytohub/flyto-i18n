@@ -40,6 +40,7 @@
     "landing.common.nav.home": "首頁",
     "landing.common.nav.languagePacks": "語言套件",
     "landing.common.nav.myLicenses": "我的授權",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "理念",
     "landing.common.nav.plansAndPricing": "方案與定價",
     "landing.common.nav.platform": "平台",
@@ -48,6 +49,7 @@
     "landing.common.nav.signIn": "登入",
     "landing.common.nav.signOut": "登出",
     "landing.common.nav.useCases": "應用場景",
-    "landing.common.nav.viewPricing": "查看方案"
+    "landing.common.nav.viewPricing": "查看方案",
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

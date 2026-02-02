@@ -48,6 +48,8 @@
     "landing.common.nav.signIn": "Đăng nhập",
     "landing.common.nav.signOut": "Đăng xuất",
     "landing.common.nav.useCases": "Trường hợp sử dụng",
-    "landing.common.nav.viewPricing": "Xem bảng giá"
+    "landing.common.nav.viewPricing": "Xem bảng giá",
+    "landing.common.nav.wasmModule": "WebAssembly",
+    "landing.common.nav.nodePackage": "Node.js"
   }
 }

@@ -40,6 +40,7 @@
     "landing.common.nav.home": "Home",
     "landing.common.nav.languagePacks": "Language Packs",
     "landing.common.nav.myLicenses": "My Licenses",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Philosophy",
     "landing.common.nav.plansAndPricing": "Plans & Pricing",
     "landing.common.nav.platform": "Platform",
@@ -48,6 +49,7 @@
     "landing.common.nav.signIn": "Sign In",
     "landing.common.nav.signOut": "Sign Out",
     "landing.common.nav.useCases": "Use Cases",
-    "landing.common.nav.viewPricing": "View Pricing"
+    "landing.common.nav.viewPricing": "View Pricing",
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }
