@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "資料血緣",
     "debug.toolbar.replay": "重播",
     "debug.toolbar.tests": "測試",
+    "debug.toolbar.timeline": "時間軸",
     "debug.toolbar.versions": "版本",
     "debug.variables": "變數",
     "debug.versions.available": "可用版本",
