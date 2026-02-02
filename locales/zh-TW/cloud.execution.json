@@ -23,6 +23,15 @@
     "execution.retry": "從此節點重試",
     "execution.running": "執行中",
     "execution.timeline": "執行時間軸",
-    "execution.timeline.empty": "沒有執行資料"
+    "execution.timeline.empty": "沒有執行資料",
+    "execution.errorWorkflow.title": "錯誤處理流程",
+    "execution.errorWorkflow.description": "當此流程失敗時觸發的處理流程",
+    "execution.errorWorkflow.select": "選擇錯誤處理流程",
+    "execution.errorWorkflow.none": "尚未設定錯誤處理流程",
+    "execution.errorWorkflow.triggered": "已觸發錯誤處理流程",
+    "execution.errorWorkflow.clear": "清除錯誤處理流程",
+    "execution.errorWorkflow.sourceExecution": "來源執行",
+    "execution.errorWorkflow.failedStep": "失敗步驟",
+    "execution.errorWorkflow.errorMessage": "錯誤訊息"
   }
 }

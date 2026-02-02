@@ -23,6 +23,15 @@
     "execution.retry": "Retry from this node",
     "execution.running": "Running",
     "execution.timeline": "Execution Timeline",
-    "execution.timeline.empty": "No execution data"
+    "execution.timeline.empty": "No execution data",
+    "execution.errorWorkflow.title": "Error Workflow",
+    "execution.errorWorkflow.description": "Workflow to trigger when this workflow fails",
+    "execution.errorWorkflow.select": "Select Error Workflow",
+    "execution.errorWorkflow.none": "No error workflow configured",
+    "execution.errorWorkflow.triggered": "Error workflow triggered",
+    "execution.errorWorkflow.clear": "Clear error workflow",
+    "execution.errorWorkflow.sourceExecution": "Source Execution",
+    "execution.errorWorkflow.failedStep": "Failed Step",
+    "execution.errorWorkflow.errorMessage": "Error Message"
   }
 }
