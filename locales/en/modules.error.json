@@ -32,7 +32,7 @@
     "modules.error.circuit_breaker.params.track_errors.label": "Fallback Value",
     "modules.error.circuit_breaker.ports.circuit_open": "Success",
     "modules.error.circuit_breaker.ports.fallback": "Protected Action",
-    "modules.error.circuit_breaker.ports.input": "Circuit Breaker",
+    "modules.error.circuit_breaker.ports.input": "Input",
     "modules.error.circuit_breaker.ports.success": "Input",
     "modules.error.fallback.description": "Provide fallback value when operation fails",
     "modules.error.fallback.label": "Fallback",
@@ -56,7 +56,7 @@
     "modules.error.fallback.params.operation.description": "The primary operation to attempt",
     "modules.error.fallback.params.operation.label": "Primary Operation",
     "modules.error.fallback.ports.error_input": "Input",
-    "modules.error.fallback.ports.input": "Fallback",
+    "modules.error.fallback.ports.input": "Input",
     "modules.error.fallback.ports.output": "Error Input",
     "modules.error.fallback.ports.used_fallback": "Primary Operation",
     "modules.error.retry.description": "Wrap operations with configurable retry logic",
@@ -88,7 +88,7 @@
     "modules.error.retry.params.timeout_per_attempt_ms.description": "List of error codes to retry on (empty = retry all)",
     "modules.error.retry.params.timeout_per_attempt_ms.label": "Retry On Error Codes",
     "modules.error.retry.ports.exhausted": "Operation",
-    "modules.error.retry.ports.input": "Retry",
+    "modules.error.retry.ports.input": "Input",
     "modules.error.retry.ports.success": "Input"
   }
 }

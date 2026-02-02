@@ -41,7 +41,7 @@
     "modules.data.pipeline.params.steps": "Steps",
     "modules.data.pipeline.params.steps.description": "Input data to transform (array or object)",
     "modules.data.pipeline.params.steps.label": "Input Data",
-    "modules.data.pipeline.ports.input": "Data Pipeline",
+    "modules.data.pipeline.ports.input": "Input",
     "modules.data.pipeline.ports.output": "Input",
     "modules.data.text.template.description": "Fill text template with variables",
     "modules.data.text.template.label": "Text Template",
