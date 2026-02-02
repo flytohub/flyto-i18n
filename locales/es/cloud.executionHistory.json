@@ -29,6 +29,8 @@
     "executionHistory.statusSuccess": "",
     "executionHistory.steps": "",
     "executionHistory.stop": "",
+    "executionHistory.stopFailed": "",
+    "executionHistory.stopped": "",
     "executionHistory.stopping": "",
     "executionHistory.successRate": "",
     "executionHistory.time1h": "",
