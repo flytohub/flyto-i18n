@@ -6,12 +6,10 @@
   "translations": {
     "errorWorkflow.description": "このワークフローが失敗したときの動作を設定",
     "errorWorkflow.doNothing": "何もしない",
-    "errorWorkflow.errorWorkflowLabel": "エラーワークフロー",
     "errorWorkflow.onFailure": "ワークフロー失敗時",
     "errorWorkflow.passContext": "エラーコンテキストをエラーワークフローに渡す",
     "errorWorkflow.passContextHint": "エラーメッセージ、カテゴリ、ソースワークフローデータを含む",
     "errorWorkflow.runWorkflow": "エラーワークフローを実行",
-    "errorWorkflow.selectWorkflow": "ワークフローを選択...",
     "errorWorkflow.title": "エラーハンドリング"
   }
 }

@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "लिनेज",
     "debug.toolbar.replay": "रिप्ले",
     "debug.toolbar.tests": "टेस्ट",
+    "debug.toolbar.timeline": "",
     "debug.toolbar.versions": "वर्ज़न",
     "debug.variables": "वेरिएबल",
     "debug.versions.available": "उपलब्ध वर्ज़न",

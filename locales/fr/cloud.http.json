@@ -12,6 +12,7 @@
     "http.authType.apiKey": "Cle API",
     "http.authType.basic": "Auth basique",
     "http.authType.bearer": "Token Bearer",
+    "http.authType.credential": "",
     "http.authType.none": "Aucune",
     "http.body": "Corps",
     "http.bodyPlaceholder": "Entrez le corps de la requete...",

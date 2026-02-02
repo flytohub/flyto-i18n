@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "이 모델을 제거하시겠습니까?",
@@ -13,17 +16,25 @@
     "plugins.installing": "설치 중",
     "plugins.load": "로드",
     "plugins.loadMore": "더 보기",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "모델",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "이 카테고리에 결과 없음",
     "plugins.noDescription": "설명 없음",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "모델 검색...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "플러그인",
     "plugins.trending": "인기",
     "plugins.uninstall": "제거",
-    "plugins.unload": "언로드",
-    "plugins.viewOnHuggingFace": "HuggingFace에서 보기"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

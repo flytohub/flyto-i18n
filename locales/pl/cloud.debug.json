@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "Pochodzenie",
     "debug.toolbar.replay": "Odtwarzanie",
     "debug.toolbar.tests": "Testy",
+    "debug.toolbar.timeline": "",
     "debug.toolbar.versions": "Wersje",
     "debug.variables": "Zmienne",
     "debug.versions.available": "Dostepne wersje",

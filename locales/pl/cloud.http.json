@@ -12,6 +12,7 @@
     "http.authType.apiKey": "Klucz API",
     "http.authType.basic": "Basic Auth",
     "http.authType.bearer": "Token Bearer",
+    "http.authType.credential": "",
     "http.authType.none": "Brak",
     "http.body": "Tresc",
     "http.bodyPlaceholder": "Wprowadz tresc zapytania...",

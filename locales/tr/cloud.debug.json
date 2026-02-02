@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "Soy",
     "debug.toolbar.replay": "Tekrar",
     "debug.toolbar.tests": "Testler",
+    "debug.toolbar.timeline": "",
     "debug.toolbar.versions": "Sürümler",
     "debug.variables": "Değişkenler",
     "debug.versions.available": "Mevcut Sürümler",

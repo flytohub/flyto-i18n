@@ -4,6 +4,9 @@
   "category": "cloud.plugins",
   "version": "1.0.0",
   "translations": {
+    "plugins.allCategories": "",
+    "plugins.author": "",
+    "plugins.available": "",
     "plugins.browseModels": "Browse models",
     "plugins.category.all": "All categories",
     "plugins.confirmUninstall": "คุณแน่ใจหรือไม่ว่าต้องการถอนการติดตั้งโมเดลนี้?",
@@ -13,17 +16,25 @@
     "plugins.installing": "กำลังติดตั้ง",
     "plugins.load": "โหลด",
     "plugins.loadMore": "โหลดเพิ่มเติม",
+    "plugins.loading": "",
     "plugins.loadingModels": "Loading models",
+    "plugins.marketplace": "",
     "plugins.models": "โมเดล",
+    "plugins.modules": "",
     "plugins.noCategoryResults": "ไม่มีผลลัพธ์ในหมวดหมู่นี้",
     "plugins.noDescription": "ไม่มีคำอธิบาย",
     "plugins.noInstalled": "No plugins installed",
+    "plugins.noPluginsFound": "",
+    "plugins.permissions": "",
     "plugins.searchPlaceholder": "ค้นหาโมเดล...",
+    "plugins.sortByDownloads": "",
+    "plugins.sortByName": "",
+    "plugins.sortByRating": "",
     "plugins.subtitle": "Subtitle",
     "plugins.title": "ปลั๊กอิน",
     "plugins.trending": "มาแรง",
     "plugins.uninstall": "ถอนการติดตั้ง",
-    "plugins.unload": "ยกเลิกการโหลด",
-    "plugins.viewOnHuggingFace": "ดูบน HuggingFace"
+    "plugins.update": "",
+    "plugins.updateAvailable": ""
   }
 }

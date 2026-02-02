@@ -12,6 +12,7 @@
     "http.authType.apiKey": "API 키",
     "http.authType.basic": "기본 인증",
     "http.authType.bearer": "Bearer 토큰",
+    "http.authType.credential": "",
     "http.authType.none": "없음",
     "http.body": "본문",
     "http.bodyPlaceholder": "요청 본문 입력...",

@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "계보",
     "debug.toolbar.replay": "재생",
     "debug.toolbar.tests": "테스트",
+    "debug.toolbar.timeline": "",
     "debug.toolbar.versions": "버전",
     "debug.variables": "변수",
     "debug.versions.available": "사용 가능한 버전",

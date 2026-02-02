@@ -12,6 +12,7 @@
     "http.authType.apiKey": "API Key",
     "http.authType.basic": "Basic Auth",
     "http.authType.bearer": "Bearer Token",
+    "http.authType.credential": "",
     "http.authType.none": "ไม่มี",
     "http.body": "Body",
     "http.bodyPlaceholder": "ป้อน request body...",

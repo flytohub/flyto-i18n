@@ -205,6 +205,7 @@
     "debug.toolbar.lineage": "Lineage",
     "debug.toolbar.replay": "Phát lại",
     "debug.toolbar.tests": "Test",
+    "debug.toolbar.timeline": "",
     "debug.toolbar.versions": "Phiên bản",
     "debug.variables": "Biến",
     "debug.versions.available": "Phiên bản khả dụng",
