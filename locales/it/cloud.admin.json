@@ -382,6 +382,7 @@
     "admin.modules.override": "Sovrascrivi",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Dashboard",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Chiavi di Invito",
     "admin.nav.landingPage": "",

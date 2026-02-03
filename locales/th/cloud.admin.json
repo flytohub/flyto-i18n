@@ -382,6 +382,7 @@
     "admin.modules.override": "แทนที่",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "แดชบอร์ด",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "รหัสเชิญ",
     "admin.nav.landingPage": "",

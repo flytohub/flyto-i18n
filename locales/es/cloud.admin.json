@@ -382,6 +382,7 @@
     "admin.modules.override": "Sobrescribir",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Panel de control",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Claves de invitación",
     "admin.nav.landingPage": "",

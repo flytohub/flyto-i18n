@@ -382,6 +382,7 @@
     "admin.modules.override": "재정의",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "대시보드",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "초대 키",
     "admin.nav.landingPage": "",

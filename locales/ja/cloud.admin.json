@@ -382,6 +382,7 @@
     "admin.modules.override": "上書き",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "ダッシュボード",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "招待キー",
     "admin.nav.landingPage": "",

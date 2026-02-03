@@ -382,6 +382,7 @@
     "admin.modules.override": "Nadpisz",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Panel",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Klucze zaproszenia",
     "admin.nav.landingPage": "",
