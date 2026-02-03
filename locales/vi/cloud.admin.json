@@ -382,6 +382,7 @@
     "admin.modules.override": "Ghi đè",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Bảng điều khiển",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Khóa mời",
     "admin.nav.landingPage": "",

@@ -382,6 +382,7 @@
     "admin.modules.override": "Ganti",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Dasbor",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Kunci Undangan",
     "admin.nav.landingPage": "",

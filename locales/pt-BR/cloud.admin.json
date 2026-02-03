@@ -382,6 +382,7 @@
     "admin.modules.override": "Substituir",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Painel",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Chaves de Convite",
     "admin.nav.landingPage": "",

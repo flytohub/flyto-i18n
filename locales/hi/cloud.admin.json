@@ -382,6 +382,7 @@
     "admin.modules.override": "ओवरराइड",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "डैशबोर्ड",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "इनवाइट की",
     "admin.nav.landingPage": "",

@@ -382,6 +382,7 @@
     "admin.modules.override": "覆蓋",
     "admin.nav.categories": "類別",
     "admin.nav.dashboard": "儀表板",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "邀請碼",
     "admin.nav.landingPage": "",

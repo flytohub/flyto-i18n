@@ -382,6 +382,7 @@
     "admin.modules.override": "Remplacer",
     "admin.nav.categories": "Categories",
     "admin.nav.dashboard": "Tableau de bord",
+    "admin.nav.featureFlags": "",
     "admin.nav.featureQuotas": "",
     "admin.nav.inviteKeys": "Cles d'invitation",
     "admin.nav.landingPage": "",
