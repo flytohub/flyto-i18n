@@ -24,6 +24,8 @@
     "templateDetail.notFound.browseMarketplace": "Browse Marketplace",
     "templateDetail.notFound.description": "The template you're looking for doesn't exist or has been removed.",
     "templateDetail.notFound.title": "Template Not Found",
+    "templateDetail.protectedWorkflow.description": "",
+    "templateDetail.protectedWorkflow.title": "",
     "templateDetail.reportFailed": "Failed to submit report. Please try again.",
     "templateDetail.reportSuccess": "Report submitted successfully. Thank you for helping us maintain quality.",
     "templateDetail.reportTemplate": "Report Template",

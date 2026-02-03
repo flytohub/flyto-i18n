@@ -24,6 +24,8 @@
     "templateDetail.notFound.browseMarketplace": "Telusuri Marketplace",
     "templateDetail.notFound.description": "Template yang Anda cari tidak ada atau telah dihapus.",
     "templateDetail.notFound.title": "Template Tidak Ditemukan",
+    "templateDetail.protectedWorkflow.description": "",
+    "templateDetail.protectedWorkflow.title": "",
     "templateDetail.reportFailed": "Gagal mengirim laporan. Silakan coba lagi.",
     "templateDetail.reportSuccess": "Laporan berhasil dikirim. Terima kasih telah membantu kami menjaga kualitas.",
     "templateDetail.reportTemplate": "Laporkan Template",

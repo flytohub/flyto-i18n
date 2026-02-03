@@ -24,6 +24,8 @@
     "templateDetail.notFound.browseMarketplace": "瀏覽商城",
     "templateDetail.notFound.description": "您要找的模板不存在或已被移除。",
     "templateDetail.notFound.title": "找不到模板",
+    "templateDetail.protectedWorkflow.description": "",
+    "templateDetail.protectedWorkflow.title": "",
     "templateDetail.reportFailed": "檢舉提交失敗，請稍後再試。",
     "templateDetail.reportSuccess": "檢舉已提交，感謝您協助維護平台品質。",
     "templateDetail.reportTemplate": "檢舉模板",

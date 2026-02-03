@@ -24,6 +24,8 @@
     "templateDetail.notFound.browseMarketplace": "Explorar Marketplace",
     "templateDetail.notFound.description": "La plantilla que buscas no existe o ha sido eliminada.",
     "templateDetail.notFound.title": "Plantilla no encontrada",
+    "templateDetail.protectedWorkflow.description": "",
+    "templateDetail.protectedWorkflow.title": "",
     "templateDetail.reportFailed": "Error al enviar el reporte. Por favor intenta de nuevo.",
     "templateDetail.reportSuccess": "Reporte enviado exitosamente. Gracias por ayudarnos a mantener la calidad.",
     "templateDetail.reportTemplate": "Reportar plantilla",
