@@ -24,6 +24,8 @@
     "templateDetail.notFound.browseMarketplace": "Parcourir la marketplace",
     "templateDetail.notFound.description": "Le modele que vous recherchez n'existe pas ou a ete supprime.",
     "templateDetail.notFound.title": "Modele non trouve",
+    "templateDetail.protectedWorkflow.description": "",
+    "templateDetail.protectedWorkflow.title": "",
     "templateDetail.reportFailed": "Echec de l'envoi du signalement. Veuillez reessayer.",
     "templateDetail.reportSuccess": "Signalement envoye avec succes. Merci de nous aider a maintenir la qualite.",
     "templateDetail.reportTemplate": "Signaler le modele",

@@ -24,6 +24,8 @@
     "templateDetail.notFound.browseMarketplace": "Pazar Yerine Göz At",
     "templateDetail.notFound.description": "Aradığınız şablon mevcut değil veya kaldırılmış.",
     "templateDetail.notFound.title": "Şablon Bulunamadı",
+    "templateDetail.protectedWorkflow.description": "",
+    "templateDetail.protectedWorkflow.title": "",
     "templateDetail.reportFailed": "Rapor gönderilemedi. Lütfen tekrar deneyin.",
     "templateDetail.reportSuccess": "Rapor başarıyla gönderildi. Kaliteyi korumamıza yardımcı olduğunuz için teşekkürler.",
     "templateDetail.reportTemplate": "Şablonu Bildir",
