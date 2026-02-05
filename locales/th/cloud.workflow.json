@@ -51,6 +51,8 @@
     "workflow.pinData": "ปักหมุดข้อมูลผลลัพธ์สำหรับการทดสอบ",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "ปักหมุดข้อมูลแล้ว - จะใช้ผลลัพธ์ที่แคชไว้",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "ค้นหาโมดูล...",
     "workflow.selectModule": "เลือกโมดูล",
     "workflow.selectModuleDesc": "เลือกโมดูลเพื่อเพิ่มลงใน workflow ของคุณ",

@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Seleccionar imagen",
     "templateBuilder.imagePreview.selectImageLabel": "Seleccionar imagen",
     "templateBuilder.imagePreview.uploadFile": "Subir archivo",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Error al crear la plantilla",
     "templateBuilder.messages.executionCancelled": "Ejecucion cancelada",
     "templateBuilder.messages.executionFailed": "Flujo de trabajo fallido: {error}",

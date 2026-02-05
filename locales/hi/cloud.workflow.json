@@ -51,6 +51,8 @@
     "workflow.pinData": "परीक्षण के लिए आउटपुट डेटा पिन करें",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "डेटा पिन किया गया - कैश्ड आउटपुट का उपयोग करेगा",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "मॉड्यूल खोजें...",
     "workflow.selectModule": "मॉड्यूल चुनें",
     "workflow.selectModuleDesc": "अपने वर्कफ़्लो में जोड़ने के लिए मॉड्यूल चुनें",

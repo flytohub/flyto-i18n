@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "छवि चुनें",
     "templateBuilder.imagePreview.selectImageLabel": "छवि चुनें",
     "templateBuilder.imagePreview.uploadFile": "फ़ाइल अपलोड करें",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "टेम्पलेट बनाने में विफल",
     "templateBuilder.messages.executionCancelled": "निष्पादन रद्द",
     "templateBuilder.messages.executionFailed": "वर्कफ़्लो विफल: {error}",

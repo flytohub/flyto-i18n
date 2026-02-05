@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "เลือกรูปภาพ",
     "templateBuilder.imagePreview.selectImageLabel": "เลือกรูปภาพ",
     "templateBuilder.imagePreview.uploadFile": "อัปโหลดไฟล์",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "ไม่สามารถสร้างเทมเพลตได้",
     "templateBuilder.messages.executionCancelled": "ยกเลิกการดำเนินการแล้ว",
     "templateBuilder.messages.executionFailed": "Workflow ล้มเหลว: {error}",

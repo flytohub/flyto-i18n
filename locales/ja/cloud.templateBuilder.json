@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "画像を選択",
     "templateBuilder.imagePreview.selectImageLabel": "画像を選択",
     "templateBuilder.imagePreview.uploadFile": "ファイルをアップロード",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "テンプレートの作成に失敗しました",
     "templateBuilder.messages.executionCancelled": "実行がキャンセルされました",
     "templateBuilder.messages.executionFailed": "ワークフローが失敗しました：{error}",

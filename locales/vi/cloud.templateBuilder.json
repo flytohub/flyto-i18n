@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Chọn hình ảnh",
     "templateBuilder.imagePreview.selectImageLabel": "Chọn hình ảnh",
     "templateBuilder.imagePreview.uploadFile": "Tải lên tệp",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Không thể tạo mẫu",
     "templateBuilder.messages.executionCancelled": "Đã hủy thực thi",
     "templateBuilder.messages.executionFailed": "Workflow thất bại: {error}",

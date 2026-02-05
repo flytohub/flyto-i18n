@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Görsel Seç",
     "templateBuilder.imagePreview.selectImageLabel": "Görsel seç",
     "templateBuilder.imagePreview.uploadFile": "Dosya yükle",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Şablon oluşturulamadı",
     "templateBuilder.messages.executionCancelled": "Yürütme iptal edildi",
     "templateBuilder.messages.executionFailed": "İş akışı başarısız: {error}",

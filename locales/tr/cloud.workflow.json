@@ -51,6 +51,8 @@
     "workflow.pinData": "Test için çıktı verisini sabitle",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Veri sabitlendi - önbelleğe alınmış çıktı kullanılacak",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Modül ara...",
     "workflow.selectModule": "Modül Seç",
     "workflow.selectModuleDesc": "İş akışınıza eklemek için bir modül seçin",

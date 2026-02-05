@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Pilih Gambar",
     "templateBuilder.imagePreview.selectImageLabel": "Pilih gambar",
     "templateBuilder.imagePreview.uploadFile": "Unggah file",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Gagal membuat template",
     "templateBuilder.messages.executionCancelled": "Eksekusi dibatalkan",
     "templateBuilder.messages.executionFailed": "Workflow gagal: {error}",

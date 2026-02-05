@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Selectionner une image",
     "templateBuilder.imagePreview.selectImageLabel": "Selectionner une image",
     "templateBuilder.imagePreview.uploadFile": "Telecharger un fichier",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Echec de la creation du modele",
     "templateBuilder.messages.executionCancelled": "Execution annulee",
     "templateBuilder.messages.executionFailed": "Echec du workflow : {error}",

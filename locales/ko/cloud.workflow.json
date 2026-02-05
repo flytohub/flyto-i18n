@@ -51,6 +51,8 @@
     "workflow.pinData": "테스트용 출력 데이터 고정",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "데이터 고정됨 - 캐시된 출력 사용",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "모듈 검색...",
     "workflow.selectModule": "모듈 선택",
     "workflow.selectModuleDesc": "워크플로에 추가할 모듈을 선택하세요",

@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "이미지 선택",
     "templateBuilder.imagePreview.selectImageLabel": "이미지 선택",
     "templateBuilder.imagePreview.uploadFile": "파일 업로드",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "템플릿 생성 실패",
     "templateBuilder.messages.executionCancelled": "실행 취소됨",
     "templateBuilder.messages.executionFailed": "워크플로 실패: {error}",

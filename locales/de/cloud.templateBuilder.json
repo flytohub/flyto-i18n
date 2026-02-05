@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Bild auswählen",
     "templateBuilder.imagePreview.selectImageLabel": "Bild auswählen",
     "templateBuilder.imagePreview.uploadFile": "Datei hochladen",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Vorlage konnte nicht erstellt werden",
     "templateBuilder.messages.executionCancelled": "Ausführung abgebrochen",
     "templateBuilder.messages.executionFailed": "Workflow fehlgeschlagen: {error}",

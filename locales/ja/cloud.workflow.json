@@ -51,6 +51,8 @@
     "workflow.pinData": "テスト用に出力データをピン留め",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "データがピン留めされました - キャッシュされた出力を使用します",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "モジュールを検索...",
     "workflow.selectModule": "モジュールを選択",
     "workflow.selectModuleDesc": "ワークフローに追加するモジュールを選択",
