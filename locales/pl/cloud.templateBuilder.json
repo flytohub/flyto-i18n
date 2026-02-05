@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Wybierz obraz",
     "templateBuilder.imagePreview.selectImageLabel": "Wybierz obraz",
     "templateBuilder.imagePreview.uploadFile": "Przeslij plik",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Nie udalo sie utworzyc szablonu",
     "templateBuilder.messages.executionCancelled": "Wykonanie anulowane",
     "templateBuilder.messages.executionFailed": "Przeplyw nie powiodl sie: {error}",

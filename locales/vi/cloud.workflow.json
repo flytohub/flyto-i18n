@@ -51,6 +51,8 @@
     "workflow.pinData": "Ghim dữ liệu đầu ra để kiểm tra",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Dữ liệu đã ghim - sẽ sử dụng đầu ra đã lưu",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Tìm kiếm module...",
     "workflow.selectModule": "Chọn Module",
     "workflow.selectModuleDesc": "Chọn một module để thêm vào workflow",

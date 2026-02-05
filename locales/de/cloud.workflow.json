@@ -51,6 +51,8 @@
     "workflow.pinData": "Ausgabedaten zum Testen anheften",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Daten angeheftet - verwendet zwischengespeicherte Ausgabe",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Module suchen...",
     "workflow.selectModule": "Modul auswählen",
     "workflow.selectModuleDesc": "Wählen Sie ein Modul, um es Ihrem Workflow hinzuzufügen",

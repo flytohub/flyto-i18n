@@ -51,6 +51,8 @@
     "workflow.pinData": "Przypnij dane wyjsciowe do testowania",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Dane przypiete - zostanie uzyty zbuforowany wynik",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Szukaj modulow...",
     "workflow.selectModule": "Wybierz modul",
     "workflow.selectModuleDesc": "Wybierz modul, aby dodac do swojego przeplywu",

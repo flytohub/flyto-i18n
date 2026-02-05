@@ -51,6 +51,8 @@
     "workflow.pinData": "釘選輸出資料用於測試",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "資料已釘選 - 將使用快取的輸出",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "搜尋模組...",
     "workflow.selectModule": "選擇模組",
     "workflow.selectModuleDesc": "選擇要添加到工作流程的模組",

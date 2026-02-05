@@ -51,6 +51,8 @@
     "workflow.pinData": "Epingler les donnees de sortie pour les tests",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Donnees epinglees - utilisera la sortie en cache",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Rechercher des modules...",
     "workflow.selectModule": "Selectionner un module",
     "workflow.selectModuleDesc": "Choisissez un module a ajouter a votre workflow",

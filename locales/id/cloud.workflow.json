@@ -51,6 +51,8 @@
     "workflow.pinData": "Pin data output untuk pengujian",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Data di-pin - akan menggunakan output cache",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Cari modul...",
     "workflow.selectModule": "Pilih Modul",
     "workflow.selectModuleDesc": "Pilih modul untuk ditambahkan ke workflow Anda",

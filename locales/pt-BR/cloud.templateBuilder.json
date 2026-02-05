@@ -88,6 +88,8 @@
     "templateBuilder.imagePreview.selectImage": "Selecionar Imagem",
     "templateBuilder.imagePreview.selectImageLabel": "Selecionar imagem",
     "templateBuilder.imagePreview.uploadFile": "Enviar arquivo",
+    "templateBuilder.messages.connectionError": "",
+    "templateBuilder.messages.conversionError": "",
     "templateBuilder.messages.createFailed": "Falha ao criar template",
     "templateBuilder.messages.executionCancelled": "Execucao cancelada",
     "templateBuilder.messages.executionFailed": "Workflow falhou: {error}",

@@ -51,6 +51,8 @@
     "workflow.pinData": "Pin output data for testing",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Data pinned - will use cached output",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Search modules...",
     "workflow.selectModule": "Select Module",
     "workflow.selectModuleDesc": "Choose a module to add to your workflow",

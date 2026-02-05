@@ -51,6 +51,8 @@
     "workflow.pinData": "Fissa dati output per test",
     "workflow.pinRequiresOutput": "",
     "workflow.pinnedData": "Dati fissati - usera output in cache",
+    "workflow.replaceNode.subtitle": "",
+    "workflow.replaceNode.title": "",
     "workflow.searchModules": "Cerca moduli...",
     "workflow.selectModule": "Seleziona Modulo",
     "workflow.selectModuleDesc": "Scegli un modulo da aggiungere al tuo workflow",
