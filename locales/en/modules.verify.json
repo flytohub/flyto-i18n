@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "verify",
+  "version": "1.0.0",
+  "translations": {
+    "modules.verify.capture.description": "Capture computed styles from browser element",
+    "modules.verify.capture.label": "Capture Element Styles",
+    "modules.verify.compare.description": "Compare captured styles with expected values",
+    "modules.verify.compare.label": "Compare Styles",
+    "modules.verify.figma.description": "Fetch design tokens from Figma API (token stays local)",
+    "modules.verify.figma.label": "Fetch Figma Style",
+    "modules.verify.report.description": "Generate verification report in HTML/JSON/Markdown",
+    "modules.verify.report.label": "Generate Report",
+    "modules.verify.ruleset.description": "Load verification rules from YAML file",
+    "modules.verify.ruleset.label": "Load Ruleset",
+    "modules.verify.run.description": "Run full design verification: capture → compare → report",
+    "modules.verify.run.label": "Run Verification",
+    "modules.verify.run.params.selectors": "Selectors",
+    "modules.verify.run.params.violations": "Violations",
+    "modules.verify.run.params.violations.options.actual": "Actual",
+    "modules.verify.run.params.violations.options.compare": "Compare",
+    "modules.verify.run.params.violations.options.error": "Error",
+    "modules.verify.run.params.violations.options.expected": "Expected",
+    "modules.verify.run.params.violations.options.failed": "Failed",
+    "modules.verify.run.params.violations.options.property": "Property",
+    "modules.verify.run.params.violations.options.severity": "Severity",
+    "modules.verify.run.params.violations.options.success": "Success",
+    "modules.verify.spec.description": "Dynamic spec verification - compose any modules via YAML",
+    "modules.verify.spec.label": "Run Spec Verification"
+  }
+}

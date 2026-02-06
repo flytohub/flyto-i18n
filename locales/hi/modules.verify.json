@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "verify",
+  "version": "1.0.0",
+  "translations": {
+    "modules.verify.capture.description": "",
+    "modules.verify.capture.label": "",
+    "modules.verify.compare.description": "",
+    "modules.verify.compare.label": "",
+    "modules.verify.figma.description": "",
+    "modules.verify.figma.label": "",
+    "modules.verify.report.description": "",
+    "modules.verify.report.label": "",
+    "modules.verify.ruleset.description": "",
+    "modules.verify.ruleset.label": "",
+    "modules.verify.run.description": "",
+    "modules.verify.run.label": "",
+    "modules.verify.run.params.selectors": "",
+    "modules.verify.run.params.violations": "",
+    "modules.verify.run.params.violations.options.actual": "",
+    "modules.verify.run.params.violations.options.compare": "",
+    "modules.verify.run.params.violations.options.error": "",
+    "modules.verify.run.params.violations.options.expected": "",
+    "modules.verify.run.params.violations.options.failed": "",
+    "modules.verify.run.params.violations.options.property": "",
+    "modules.verify.run.params.violations.options.severity": "",
+    "modules.verify.run.params.violations.options.success": "",
+    "modules.verify.spec.description": "",
+    "modules.verify.spec.label": ""
+  }
+}
