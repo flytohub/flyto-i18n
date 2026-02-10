@@ -4,10 +4,10 @@
   "category": "cloud.nodeOutput",
   "version": "1.0.0",
   "translations": {
-    "nodeOutput.diff": "",
-    "nodeOutput.input": "",
-    "nodeOutput.output": "",
-    "nodeOutput.table": "",
-    "nodeOutput.text": ""
+    "nodeOutput.diff": "差分",
+    "nodeOutput.input": "入力",
+    "nodeOutput.output": "出力",
+    "nodeOutput.table": "テーブル",
+    "nodeOutput.text": "テキスト"
   }
 }

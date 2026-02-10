@@ -10,11 +10,11 @@
     "execution.controls.pause": "Wstrzymaj",
     "execution.controls.resume": "Wznow",
     "execution.controls.step": "Krok",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "Przepływ pracy do uruchomienia, gdy ten przepływ pracy się nie powiedzie",
+    "execution.errorWorkflow.none": "Brak skonfigurowanego przepływu pracy dla błędów",
+    "execution.errorWorkflow.select": "Wybierz przepływ pracy dla błędów",
+    "execution.errorWorkflow.title": "Przepływ pracy dla błędów",
+    "execution.noExecutionToRetry": "Brak wykonania do ponowienia",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Niepowodzenie w",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "Ponow od poczatku",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "Nie udało się ponowić z węzła",
+    "execution.retryStarted": "Ponowienie rozpoczęte z węzła",
+    "execution.retryingFromNode": "Ponawianie z tego węzła...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "Oś czasu wykonania",
+    "execution.timeline.empty": "Brak danych wykonania"
   }
 }

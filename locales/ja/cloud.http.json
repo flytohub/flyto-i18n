@@ -12,7 +12,7 @@
     "http.authType.apiKey": "APIキー",
     "http.authType.basic": "Basic認証",
     "http.authType.bearer": "Bearerトークン",
-    "http.authType.credential": "",
+    "http.authType.credential": "認証情報",
     "http.authType.none": "なし",
     "http.body": "ボディ",
     "http.bodyPlaceholder": "リクエストボディを入力...",

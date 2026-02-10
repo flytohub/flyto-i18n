@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "İptal",
     "workflowCanvas.reconnect.connect": "Bağlan",
     "workflowCanvas.reconnect.dontConnect": "Bağlanma",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "Yapışkan not oluşturuldu"
   }
 }

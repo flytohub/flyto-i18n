@@ -4,8 +4,8 @@
   "category": "common",
   "version": "1.0.0",
   "translations": {
-    "common.params.description.description": "",
-    "common.params.description.label": "",
+    "common.params.description.description": "Bu hata akışının açıklaması",
+    "common.params.description.label": "Açıklama",
     "common.ports.error": "Çıktı"
   }
 }

@@ -4,11 +4,11 @@
   "category": "cloud.binary",
   "version": "1.0.0",
   "translations": {
-    "binary.download": "",
-    "binary.downloadToOpen": "",
-    "binary.downloadToView": "",
-    "binary.noPreview": "",
-    "binary.pdfPreview": "",
-    "binary.previewError": ""
+    "binary.download": "Baixar",
+    "binary.downloadToOpen": "Baixar para abrir",
+    "binary.downloadToView": "Baixar para ver",
+    "binary.noPreview": "Sem visualização",
+    "binary.pdfPreview": "Visualização em PDF",
+    "binary.previewError": "Erro na visualização"
   }
 }

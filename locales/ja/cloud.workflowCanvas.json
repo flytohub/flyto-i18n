@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "キャンセル",
     "workflowCanvas.reconnect.connect": "接続",
     "workflowCanvas.reconnect.dontConnect": "接続しない",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "付箋が作成されました"
   }
 }

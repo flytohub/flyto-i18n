@@ -4,8 +4,8 @@
   "category": "common",
   "version": "1.0.0",
   "translations": {
-    "common.params.description.description": "",
-    "common.params.description.label": "",
+    "common.params.description.description": "इस त्रुटि कार्यप्रवाह का विवरण",
+    "common.params.description.label": "विवरण",
     "common.ports.error": "आउटपुट"
   }
 }

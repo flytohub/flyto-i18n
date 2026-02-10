@@ -10,11 +10,11 @@
     "execution.controls.pause": "일시 중지",
     "execution.controls.resume": "재개",
     "execution.controls.step": "단계",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "이 워크플로우가 실패할 때 트리거할 워크플로우",
+    "execution.errorWorkflow.none": "오류 워크플로우가 설정되지 않았습니다",
+    "execution.errorWorkflow.select": "오류 워크플로우 선택",
+    "execution.errorWorkflow.title": "오류 워크플로우",
+    "execution.noExecutionToRetry": "재시도할 실행이 없습니다",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "실패 위치",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "처음부터 재시도",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "노드에서 재시도 실패",
+    "execution.retryStarted": "노드에서 재시도 시작",
+    "execution.retryingFromNode": "이 노드에서 재시도 중...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "실행 타임라인",
+    "execution.timeline.empty": "실행 데이터가 없습니다"
   }
 }

@@ -10,11 +10,11 @@
     "execution.controls.pause": "Pause",
     "execution.controls.resume": "Fortsetzen",
     "execution.controls.step": "Schritt",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "Workflow, der ausgelöst wird, wenn dieser Workflow fehlschlägt",
+    "execution.errorWorkflow.none": "Kein Fehler-Workflow konfiguriert",
+    "execution.errorWorkflow.select": "Fehler-Workflow auswählen",
+    "execution.errorWorkflow.title": "Fehler-Workflow",
+    "execution.noExecutionToRetry": "Keine Ausführung zum Wiederholen",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Fehlgeschlagen bei",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "Von Anfang an wiederholen",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "Wiederholen vom Knoten fehlgeschlagen",
+    "execution.retryStarted": "Wiederholung vom Knoten gestartet",
+    "execution.retryingFromNode": "Wiederholung von diesem Knoten...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "Ausführungszeitachse",
+    "execution.timeline.empty": "Keine Ausführungsdaten"
   }
 }

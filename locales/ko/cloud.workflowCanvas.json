@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "취소",
     "workflowCanvas.reconnect.connect": "연결",
     "workflowCanvas.reconnect.dontConnect": "연결 안 함",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "메모가 생성되었습니다"
   }
 }

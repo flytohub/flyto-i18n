@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "Annulla",
     "workflowCanvas.reconnect.connect": "Connetti",
     "workflowCanvas.reconnect.dontConnect": "Non Connettere",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "Nota adesiva creata"
   }
 }

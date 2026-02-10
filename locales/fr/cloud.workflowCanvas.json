@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "Annuler",
     "workflowCanvas.reconnect.connect": "Connecter",
     "workflowCanvas.reconnect.dontConnect": "Ne pas connecter",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "Note autocollante créée"
   }
 }

@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "Hủy",
     "workflowCanvas.reconnect.connect": "Kết nối",
     "workflowCanvas.reconnect.dontConnect": "Không kết nối",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "Ghi chú đã được tạo"
   }
 }

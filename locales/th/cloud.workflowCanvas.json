@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "ยกเลิก",
     "workflowCanvas.reconnect.connect": "เชื่อมต่อ",
     "workflowCanvas.reconnect.dontConnect": "ไม่เชื่อมต่อ",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "สร้างโน้ตสำเร็จ"
   }
 }

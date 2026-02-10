@@ -4,8 +4,8 @@
   "category": "common",
   "version": "1.0.0",
   "translations": {
-    "common.params.description.description": "",
-    "common.params.description.label": "",
+    "common.params.description.description": "Descrizione di questo flusso di errore",
+    "common.params.description.label": "Descrizione",
     "common.ports.error": "Output"
   }
 }

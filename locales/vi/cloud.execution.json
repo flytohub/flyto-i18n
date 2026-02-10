@@ -10,11 +10,11 @@
     "execution.controls.pause": "Tạm dừng",
     "execution.controls.resume": "Tiếp tục",
     "execution.controls.step": "Bước",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "Workflow kích hoạt khi workflow này thất bại",
+    "execution.errorWorkflow.none": "Chưa cấu hình workflow lỗi",
+    "execution.errorWorkflow.select": "Chọn Workflow Lỗi",
+    "execution.errorWorkflow.title": "Workflow Lỗi",
+    "execution.noExecutionToRetry": "Không có lần thực thi nào để thử lại",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Thất bại tại",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "Thử lại từ đầu",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "Thử lại từ node thất bại",
+    "execution.retryStarted": "Bắt đầu thử lại từ node",
+    "execution.retryingFromNode": "Đang thử lại từ node này...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "Dòng thời gian thực thi",
+    "execution.timeline.empty": "Không có dữ liệu thực thi"
   }
 }

@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "Abbrechen",
     "workflowCanvas.reconnect.connect": "Verbinden",
     "workflowCanvas.reconnect.dontConnect": "Nicht verbinden",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "Notizzettel erstellt"
   }
 }

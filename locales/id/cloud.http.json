@@ -12,7 +12,7 @@
     "http.authType.apiKey": "API Key",
     "http.authType.basic": "Basic Auth",
     "http.authType.bearer": "Bearer Token",
-    "http.authType.credential": "",
+    "http.authType.credential": "Kredensial",
     "http.authType.none": "Tidak Ada",
     "http.body": "Body",
     "http.bodyPlaceholder": "Masukkan body permintaan...",

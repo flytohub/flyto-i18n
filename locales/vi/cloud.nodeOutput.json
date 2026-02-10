@@ -4,10 +4,10 @@
   "category": "cloud.nodeOutput",
   "version": "1.0.0",
   "translations": {
-    "nodeOutput.diff": "",
-    "nodeOutput.input": "",
-    "nodeOutput.output": "",
-    "nodeOutput.table": "",
-    "nodeOutput.text": ""
+    "nodeOutput.diff": "Khác biệt",
+    "nodeOutput.input": "Đầu vào",
+    "nodeOutput.output": "Đầu ra",
+    "nodeOutput.table": "Bảng",
+    "nodeOutput.text": "Văn bản"
   }
 }

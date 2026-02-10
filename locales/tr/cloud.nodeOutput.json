@@ -4,10 +4,10 @@
   "category": "cloud.nodeOutput",
   "version": "1.0.0",
   "translations": {
-    "nodeOutput.diff": "",
-    "nodeOutput.input": "",
-    "nodeOutput.output": "",
-    "nodeOutput.table": "",
-    "nodeOutput.text": ""
+    "nodeOutput.diff": "Fark",
+    "nodeOutput.input": "Girdi",
+    "nodeOutput.output": "Çıktı",
+    "nodeOutput.table": "Tablo",
+    "nodeOutput.text": "Metin"
   }
 }

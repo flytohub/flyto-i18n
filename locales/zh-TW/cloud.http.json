@@ -12,7 +12,7 @@
     "http.authType.apiKey": "API Key",
     "http.authType.basic": "基本認證",
     "http.authType.bearer": "Bearer Token",
-    "http.authType.credential": "",
+    "http.authType.credential": "憑證",
     "http.authType.none": "無",
     "http.body": "請求主體",
     "http.bodyPlaceholder": "輸入請求主體內容...",

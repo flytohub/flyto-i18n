@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "Anuluj",
     "workflowCanvas.reconnect.connect": "Połącz",
     "workflowCanvas.reconnect.dontConnect": "Nie łącz",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "Utworzono notatkę samoprzylepną"
   }
 }

@@ -4,8 +4,8 @@
   "category": "common",
   "version": "1.0.0",
   "translations": {
-    "common.params.description.description": "",
-    "common.params.description.label": "",
+    "common.params.description.description": "Opis tego procesu błędu",
+    "common.params.description.label": "Opis",
     "common.ports.error": "Wyjscie"
   }
 }

@@ -10,11 +10,11 @@
     "execution.controls.pause": "Pausar",
     "execution.controls.resume": "Retomar",
     "execution.controls.step": "Etapa",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "Workflow para acionar quando este workflow falhar",
+    "execution.errorWorkflow.none": "Nenhum workflow de erro configurado",
+    "execution.errorWorkflow.select": "Selecionar Workflow de Erro",
+    "execution.errorWorkflow.title": "Workflow de Erro",
+    "execution.noExecutionToRetry": "Nenhuma execução para tentar novamente",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Falhou em",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "Tentar novamente do inicio",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "Falha ao tentar novamente a partir do nó",
+    "execution.retryStarted": "Tentativa reiniciada a partir do nó",
+    "execution.retryingFromNode": "Tentando novamente a partir deste nó...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "Linha do Tempo da Execução",
+    "execution.timeline.empty": "Sem dados de execução"
   }
 }

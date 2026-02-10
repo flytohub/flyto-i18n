@@ -10,11 +10,11 @@
     "execution.controls.pause": "หยุดชั่วคราว",
     "execution.controls.resume": "ดำเนินการต่อ",
     "execution.controls.step": "ขั้นตอน",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "Workflow ที่จะเรียกใช้เมื่อ Workflow นี้ล้มเหลว",
+    "execution.errorWorkflow.none": "ยังไม่ได้ตั้งค่า Workflow สำหรับข้อผิดพลาด",
+    "execution.errorWorkflow.select": "เลือก Workflow สำหรับข้อผิดพลาด",
+    "execution.errorWorkflow.title": "Workflow ข้อผิดพลาด",
+    "execution.noExecutionToRetry": "ไม่มีการทำงานให้ลองใหม่",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "ล้มเหลวที่",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "ลองใหม่ตั้งแต่ต้น",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "การลองใหม่จากโหนดล้มเหลว",
+    "execution.retryStarted": "เริ่มการลองใหม่จากโหนด",
+    "execution.retryingFromNode": "กำลังลองใหม่จากโหนดนี้...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "ไทม์ไลน์การทำงาน",
+    "execution.timeline.empty": "ไม่มีข้อมูลการทำงาน"
   }
 }

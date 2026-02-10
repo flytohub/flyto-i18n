@@ -18,6 +18,6 @@
     "workflowCanvas.reconnect.cancel": "取消",
     "workflowCanvas.reconnect.connect": "連接",
     "workflowCanvas.reconnect.dontConnect": "不連接",
-    "workflowCanvas.stickyNoteCreated": ""
+    "workflowCanvas.stickyNoteCreated": "便利貼已建立"
   }
 }

@@ -10,11 +10,11 @@
     "execution.controls.pause": "Duraklat",
     "execution.controls.resume": "Devam Et",
     "execution.controls.step": "Adım",
-    "execution.errorWorkflow.description": "",
-    "execution.errorWorkflow.none": "",
-    "execution.errorWorkflow.select": "",
-    "execution.errorWorkflow.title": "",
-    "execution.noExecutionToRetry": "",
+    "execution.errorWorkflow.description": "Bu iş akışı başarısız olduğunda tetiklenecek iş akışı",
+    "execution.errorWorkflow.none": "Hata iş akışı yapılandırılmadı",
+    "execution.errorWorkflow.select": "Hata İş Akışını Seç",
+    "execution.errorWorkflow.title": "Hata İş Akışı",
+    "execution.noExecutionToRetry": "Yeniden denenecek yürütme yok",
     "execution.resume.autoSuggest": "Auto-suggest",
     "execution.resume.autoSuggestDesc": "Auto-suggest description",
     "execution.resume.failedAt": "Başarısız olduğu yer",
@@ -25,11 +25,11 @@
     "execution.resume.retryFromStart": "Baştan tekrar dene",
     "execution.resume.stepsCompleted": "Steps completed",
     "execution.resume.timeSaved": "Time saved",
-    "execution.retryFailed": "",
-    "execution.retryStarted": "",
-    "execution.retryingFromNode": "",
+    "execution.retryFailed": "Düğümden yeniden deneme başarısız oldu",
+    "execution.retryStarted": "Düğümden yeniden deneme başlatıldı",
+    "execution.retryingFromNode": "Bu düğümden yeniden deneniyor...",
     "execution.running": "Running",
-    "execution.timeline": "",
-    "execution.timeline.empty": ""
+    "execution.timeline": "Yürütme Zaman Çizelgesi",
+    "execution.timeline.empty": "Yürütme verisi yok"
   }
 }

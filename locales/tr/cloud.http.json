@@ -12,7 +12,7 @@
     "http.authType.apiKey": "API Anahtarı",
     "http.authType.basic": "Temel Kimlik Doğrulama",
     "http.authType.bearer": "Bearer Token",
-    "http.authType.credential": "",
+    "http.authType.credential": "Kimlik bilgisi",
     "http.authType.none": "Yok",
     "http.body": "Gövde",
     "http.bodyPlaceholder": "İstek gövdesini girin...",
