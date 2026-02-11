@@ -4,9 +4,9 @@
   "category": "cloud.enterprise",
   "version": "1.0.0",
   "translations": {
-    "enterprise.actions.notSupported": "不支援此操作",
+    "enterprise.actions.notSupported": "企業後端不支援此操作",
     "enterprise.errors.actionFailed": "操作失敗",
-    "enterprise.errors.loadFailed": "載入失敗",
+    "enterprise.errors.loadFailed": "載入企業資料失敗",
     "enterprise.robotsOnline": "線上機器人",
     "enterprise.subtitle": "企業自動化工具",
     "enterprise.tabs.idp": "文件處理",

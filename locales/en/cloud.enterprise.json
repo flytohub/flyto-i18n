@@ -4,9 +4,9 @@
   "category": "cloud.enterprise",
   "version": "1.0.0",
   "translations": {
-    "enterprise.actions.notSupported": "Action not supported",
+    "enterprise.actions.notSupported": "This action is not supported by the enterprise backend",
     "enterprise.errors.actionFailed": "Action failed",
-    "enterprise.errors.loadFailed": "Failed to load",
+    "enterprise.errors.loadFailed": "Failed to load enterprise data",
     "enterprise.robotsOnline": "Robots Online",
     "enterprise.subtitle": "Enterprise automation tools",
     "enterprise.tabs.idp": "Document Processing",

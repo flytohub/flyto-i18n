@@ -5,17 +5,17 @@
   "version": "1.0.0",
   "translations": {
     "upgrade.contactSales": "聯繫銷售",
-    "upgrade.debugFeatures": "解鎖強大的除錯與分析功能，改善您的工作流程開發體驗。",
-    "upgrade.enterpriseHint": "需要企業版功能？",
+    "upgrade.debugFeatures": "偵錯與開發工具",
+    "upgrade.enterpriseHint": "需要企業功能？",
     "upgrade.featureLocked": "此功能需要專業版訂閱",
-    "upgrade.features.evidence": "每個步驟的截圖與 DOM 快照",
-    "upgrade.features.lineage": "資料流追蹤與相依性圖表",
-    "upgrade.features.replay": "使用修改後的輸入重播執行",
-    "upgrade.features.tests": "自動化工作流程測試套件",
-    "upgrade.features.versions": "模組版本鎖定與控制",
-    "upgrade.offlineLicense": "購買離線授權 - $199 一次性",
-    "upgrade.subscription": "訂閱 - $19/月",
-    "upgrade.subtitle": "取得進階除錯工具的存取權",
-    "upgrade.title": "解鎖專業版功能"
+    "upgrade.features.evidence": "執行證據擷取與檢視",
+    "upgrade.features.lineage": "資料血統追蹤",
+    "upgrade.features.replay": "執行重播",
+    "upgrade.features.tests": "測試執行面板",
+    "upgrade.features.versions": "版本控制",
+    "upgrade.offlineLicense": "離線授權",
+    "upgrade.subscription": "立即訂閱",
+    "upgrade.subtitle": "解鎖進階功能",
+    "upgrade.title": "升級至 Pro"
   }
 }

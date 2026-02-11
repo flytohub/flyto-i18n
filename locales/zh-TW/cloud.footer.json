@@ -4,7 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.copyright": "© 2025 Flyto2. 版權所有。",
+    "footer.copyright": "© {year} Flyto2. 版權所有。",
     "footer.description": "強大的視覺化工作流程編輯器,整合數百種應用程式,讓任何人都能輕鬆建立自動化任務。"
   }
 }

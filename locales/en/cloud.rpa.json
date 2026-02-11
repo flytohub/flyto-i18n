@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "rpa.actions.disconnect": "",
-    "rpa.actions.noAgent": "",
+    "rpa.actions.noAgent": "No online agent available",
     "rpa.actions.record": "",
     "rpa.agents.connect": "",
     "rpa.agents.connectFirst": "",

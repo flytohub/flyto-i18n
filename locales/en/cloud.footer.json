@@ -4,7 +4,7 @@
   "category": "cloud.footer",
   "version": "1.0.0",
   "translations": {
-    "footer.copyright": "© 2025 Flyto2. All rights reserved.",
+    "footer.copyright": "© {year} Flyto2. All rights reserved.",
     "footer.description": "Powerful visual workflow editor that integrates hundreds of applications, making automation easy for everyone."
   }
 }

@@ -43,7 +43,8 @@ def parse_js_object(content: str) -> dict:
     for line in lines:
         # Check if this is a key-value line with single-quoted string value
         # Pattern: key: 'value' or 'key': 'value'
-        kv_match = re.match(r"^(\s*)(['\"]?\w+(?:-\w+)?['\"]?)\s*:\s*'(.*)'(,?)$", line)
+        # Use a greedy match that captures everything between the first ' and last '
+        kv_match = re.match(r"^(\s*)(['\"]?\w+(?:-\w+)?['\"]?)\s*:\s*'((?:[^'\\]|\\.)*)'(,?)$", line)
         if kv_match:
             indent = kv_match.group(1)
             key = kv_match.group(2)
@@ -57,6 +58,8 @@ def parse_js_object(content: str) -> dict:
                 # Convert single-quoted key to double-quoted
                 key = key.replace("'", '"')
 
+            # Convert JS escaped single quotes to plain single quotes
+            value = value.replace("\\'", "'")
             # Escape any double quotes inside the value
             value = value.replace('"', '\\"')
 
@@ -140,15 +143,20 @@ def update_locale_files(locale: str, translations: dict, dry_run: bool = False) 
         changes = 0
 
         for key, value in cat_translations.items():
-            if key in existing:
-                if existing[key] == '' and value:
-                    # Fill empty translation
-                    existing[key] = value
-                    changes += 1
-                elif existing[key] != value and value:
-                    # Update existing (prefer override)
-                    existing[key] = value
-                    changes += 1
+            if not value:
+                continue
+            if key not in existing:
+                # Add new key
+                existing[key] = value
+                changes += 1
+            elif existing[key] == '':
+                # Fill empty translation
+                existing[key] = value
+                changes += 1
+            elif existing[key] != value:
+                # Update existing (prefer override)
+                existing[key] = value
+                changes += 1
 
         if changes > 0:
             file_count += 1

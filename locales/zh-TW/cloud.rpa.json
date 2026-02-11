@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "rpa.actions.disconnect": "中斷連線",
-    "rpa.actions.noAgent": "沒有代理",
+    "rpa.actions.noAgent": "沒有可用的線上 Agent",
     "rpa.actions.record": "錄製",
     "rpa.agents.connect": "連線",
     "rpa.agents.connectFirst": "請先連線",

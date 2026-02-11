@@ -9,11 +9,11 @@
     "validation.failed": "Validation failed",
     "validation.invalidEmail": "Invalid email address",
     "validation.maxLength": "Maximum {max} characters",
-    "validation.minLength": "Minimum {min} characters",
+    "validation.minLength": "Must be at least {min} characters",
     "validation.needsLowercase": "Must contain at least one lowercase letter",
     "validation.needsNumber": "Must contain at least one number",
     "validation.needsUppercase": "Must contain at least one uppercase letter",
-    "validation.passwordHint": "Min 12 chars, with uppercase, lowercase, and number",
+    "validation.passwordHint": "Min 8 chars, with uppercase, lowercase, and number",
     "validation.passwordMismatch": "Passwords do not match",
     "validation.required": "This field is required"
   }

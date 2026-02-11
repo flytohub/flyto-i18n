@@ -4,11 +4,11 @@
   "category": "cloud.binary",
   "version": "1.0.0",
   "translations": {
-    "binary.download": "下載",
-    "binary.downloadToOpen": "下載以開啟",
-    "binary.downloadToView": "下載以查看",
+    "binary.download": "下載檔案",
+    "binary.downloadToOpen": "下載檔案後開啟",
+    "binary.downloadToView": "下載檢視",
     "binary.noPreview": "無法預覽",
-    "binary.pdfPreview": "PDF 預覽",
-    "binary.previewError": "預覽錯誤"
+    "binary.pdfPreview": "PDF 文件",
+    "binary.previewError": "預覽載入失敗"
   }
 }
