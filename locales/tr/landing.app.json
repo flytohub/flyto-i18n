@@ -48,12 +48,15 @@
     "landing.app.platforms.title": "Tüm Platformlar",
     "landing.app.requirements.disk": "500 MB disk alanı",
     "landing.app.requirements.linuxProcessor": "x64 veya ARM64 işlemci",
+    "landing.app.requirements.linuxTitle": "",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Apple Silicon veya Intel işlemci",
+    "landing.app.requirements.macosTitle": "",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) veya daha yeni",
     "landing.app.requirements.ram": "En az 4 GB RAM",
     "landing.app.requirements.title": "Sistem Gereksinimleri",
     "landing.app.requirements.windowsProcessor": "x64 işlemci",
+    "landing.app.requirements.windowsTitle": "",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) veya daha yeni"
   }
 }

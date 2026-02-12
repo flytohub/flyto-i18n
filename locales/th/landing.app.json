@@ -48,12 +48,15 @@
     "landing.app.platforms.title": "ทุกแพลตฟอร์ม",
     "landing.app.requirements.disk": "พื้นที่ดิสก์ 500 MB",
     "landing.app.requirements.linuxProcessor": "โปรเซสเซอร์ x64 หรือ ARM64",
+    "landing.app.requirements.linuxTitle": "",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "โปรเซสเซอร์ Apple Silicon หรือ Intel",
+    "landing.app.requirements.macosTitle": "",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) หรือใหม่กว่า",
     "landing.app.requirements.ram": "RAM ขั้นต่ำ 4 GB",
     "landing.app.requirements.title": "ความต้องการของระบบ",
     "landing.app.requirements.windowsProcessor": "โปรเซสเซอร์ x64",
+    "landing.app.requirements.windowsTitle": "",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) หรือใหม่กว่า"
   }
 }

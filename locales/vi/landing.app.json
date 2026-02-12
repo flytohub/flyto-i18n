@@ -48,12 +48,15 @@
     "landing.app.platforms.title": "Tất cả nền tảng",
     "landing.app.requirements.disk": "500 MB dung lượng đĩa",
     "landing.app.requirements.linuxProcessor": "Bộ xử lý x64 hoặc ARM64",
+    "landing.app.requirements.linuxTitle": "",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Bộ xử lý Apple Silicon hoặc Intel",
+    "landing.app.requirements.macosTitle": "",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) hoặc mới hơn",
     "landing.app.requirements.ram": "Tối thiểu 4 GB RAM",
     "landing.app.requirements.title": "Yêu cầu hệ thống",
     "landing.app.requirements.windowsProcessor": "Bộ xử lý x64",
+    "landing.app.requirements.windowsTitle": "",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) hoặc mới hơn"
   }
 }

@@ -19,6 +19,8 @@
     "landing.about.openSource.viewOnGithub": "Zobacz na GitHub",
     "landing.about.stats.atomicModules.label": "Moduly atomowe",
     "landing.about.stats.atomicModules.number": "384+",
+    "landing.about.stats.enterpriseReady.label": "",
+    "landing.about.stats.enterpriseReady.number": "",
     "landing.about.stats.offlineCapable.label": "Dziala offline",
     "landing.about.stats.offlineCapable.number": "100%",
     "landing.about.stats.openSource.label": "Open Source",

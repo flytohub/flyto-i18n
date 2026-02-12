@@ -4,6 +4,7 @@
   "category": "landing.download",
   "version": "1.0.0",
   "translations": {
+    "landing.download.common.copy": "",
     "landing.download.docker.autoUpdates": "Tự động cập nhật",
     "landing.download.docker.autoUpdatesDesc": "Cập nhật container tự động với hỗ trợ Docker Watchtower.",
     "landing.download.docker.dockerDocs": "Tài liệu Docker",

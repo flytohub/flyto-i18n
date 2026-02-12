@@ -52,7 +52,10 @@
     "landing.app.requirements.macosProcessor": "Apple Silicon or Intel processor",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) or later",
     "landing.app.requirements.ram": "4 GB RAM minimum",
+    "landing.app.requirements.linuxTitle": "Linux",
+    "landing.app.requirements.macosTitle": "macOS",
     "landing.app.requirements.title": "System Requirements",
+    "landing.app.requirements.windowsTitle": "Windows",
     "landing.app.requirements.windowsProcessor": "x64 processor",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) or later"
   }

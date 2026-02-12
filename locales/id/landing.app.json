@@ -48,12 +48,15 @@
     "landing.app.platforms.title": "Semua Platform",
     "landing.app.requirements.disk": "500 MB ruang disk",
     "landing.app.requirements.linuxProcessor": "Prosesor x64 atau ARM64",
+    "landing.app.requirements.linuxTitle": "",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Prosesor Apple Silicon atau Intel",
+    "landing.app.requirements.macosTitle": "",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) atau lebih baru",
     "landing.app.requirements.ram": "4 GB RAM minimum",
     "landing.app.requirements.title": "Persyaratan Sistem",
     "landing.app.requirements.windowsProcessor": "Prosesor x64",
+    "landing.app.requirements.windowsTitle": "",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) atau lebih baru"
   }
 }

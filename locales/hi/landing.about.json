@@ -19,6 +19,8 @@
     "landing.about.openSource.viewOnGithub": "GitHub पर देखें",
     "landing.about.stats.atomicModules.label": "एटॉमिक मॉड्यूल",
     "landing.about.stats.atomicModules.number": "384+",
+    "landing.about.stats.enterpriseReady.label": "",
+    "landing.about.stats.enterpriseReady.number": "",
     "landing.about.stats.offlineCapable.label": "ऑफ़लाइन काम करता है",
     "landing.about.stats.offlineCapable.number": "100%",
     "landing.about.stats.openSource.label": "ओपन सोर्स",
