@@ -48,6 +48,8 @@
     "login.usernameLabel": "Username",
     "login.usernamePlaceholder": "Enter your username",
     "login.weakPassword": "Password is too weak (minimum 6 characters)",
-    "login.welcomeBack": "Welcome Back"
+    "login.welcomeBack": "Welcome Back",
+    "login.orContinueWith": "or continue with",
+    "login.googleLogin": "Continue with Google"
   }
 }
