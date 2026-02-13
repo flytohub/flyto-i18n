@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "नवीनतम में सिंक करें",
     "templateCard.unpublished": "अप्रकाशित",
     "templateCard.update": "अपडेट",
-    "templateCard.updateAvailable": "लेखक से अपडेट उपलब्ध"
+    "templateCard.updateAvailable": "लेखक से अपडेट उपलब्ध",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }

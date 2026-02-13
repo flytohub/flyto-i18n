@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "Sincronizza all'Ultima Versione",
     "templateCard.unpublished": "Non Pubblicato",
     "templateCard.update": "Aggiorna",
-    "templateCard.updateAvailable": "Aggiornamento disponibile dall'autore"
+    "templateCard.updateAvailable": "Aggiornamento disponibile dall'autore",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }

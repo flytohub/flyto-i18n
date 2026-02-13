@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "Đồng bộ với phiên bản mới nhất",
     "templateCard.unpublished": "Đã hủy xuất bản",
     "templateCard.update": "Cập nhật",
-    "templateCard.updateAvailable": "Có bản cập nhật từ tác giả"
+    "templateCard.updateAvailable": "Có bản cập nhật từ tác giả",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }

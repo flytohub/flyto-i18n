@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "Sinkronkan ke Terbaru",
     "templateCard.unpublished": "Tidak Dipublikasikan",
     "templateCard.update": "Perbarui",
-    "templateCard.updateAvailable": "Pembaruan tersedia dari penulis"
+    "templateCard.updateAvailable": "Pembaruan tersedia dari penulis",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }

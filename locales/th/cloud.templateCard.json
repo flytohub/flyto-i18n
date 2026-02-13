@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "ซิงค์เป็นเวอร์ชันล่าสุด",
     "templateCard.unpublished": "ยกเลิกการเผยแพร่แล้ว",
     "templateCard.update": "อัปเดต",
-    "templateCard.updateAvailable": "มีการอัปเดตจากผู้เขียน"
+    "templateCard.updateAvailable": "มีการอัปเดตจากผู้เขียน",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }

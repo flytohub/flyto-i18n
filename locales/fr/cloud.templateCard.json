@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "Synchroniser avec la derniere version",
     "templateCard.unpublished": "Depublie",
     "templateCard.update": "Mettre a jour",
-    "templateCard.updateAvailable": "Mise a jour disponible de l'auteur"
+    "templateCard.updateAvailable": "Mise a jour disponible de l'auteur",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }

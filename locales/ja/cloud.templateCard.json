@@ -24,6 +24,9 @@
     "templateCard.syncToLatest": "最新版に同期",
     "templateCard.unpublished": "公開停止",
     "templateCard.update": "更新",
-    "templateCard.updateAvailable": "作成者からの更新が利用可能"
+    "templateCard.updateAvailable": "作成者からの更新が利用可能",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
+    "templateCard.status.archived": "Archived"
   }
 }
