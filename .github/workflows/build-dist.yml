@@ -40,3 +40,20 @@ jobs:
           git add dist/
           git commit -m "build: auto-rebuild dist from locale changes"
           git push
+
+      - name: Purge jsDelivr cache
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          echo "Purging jsDelivr CDN cache..."
+          for scope in cloud landing; do
+            for locale in $(ls dist/$scope/*.json 2>/dev/null | xargs -I{} basename {} .json); do
+              [ "$locale" = "manifest" ] && continue
+              curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/$scope/$locale.json" > /dev/null
+              echo "  Purged dist/$scope/$locale.json"
+            done
+            curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/$scope/manifest.json" > /dev/null
+            echo "  Purged dist/$scope/manifest.json"
+          done
+          curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/manifest.json" > /dev/null
+          echo "  Purged dist/manifest.json"
+          echo "CDN cache purge complete"
