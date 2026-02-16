@@ -37,6 +37,9 @@
     "myTemplates.tabs.installed": "Installed",
     "myTemplates.title": "My Templates",
     "myTemplates.updateSettingsFailed": "Failed to update settings",
+    "myTemplates.joinCollaboration": "Join Collaboration",
+    "myTemplates.join.subtitle": "Enter the invite code to collaborate in real-time",
+    "myTemplates.join.success": "Joined successfully! Redirecting...",
     "myTemplates.updateSettingsSuccess": "Settings updated successfully"
   }
 }

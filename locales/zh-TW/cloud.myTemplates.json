@@ -37,6 +37,9 @@
     "myTemplates.tabs.installed": "已安裝",
     "myTemplates.title": "我的模板",
     "myTemplates.updateSettingsFailed": "更新設定失敗",
+    "myTemplates.joinCollaboration": "加入協作",
+    "myTemplates.join.subtitle": "輸入邀請碼即時協作編輯",
+    "myTemplates.join.success": "加入成功！正在跳轉...",
     "myTemplates.updateSettingsSuccess": "設定更新成功"
   }
 }

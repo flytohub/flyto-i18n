@@ -15,6 +15,7 @@
     "collaboration.invite.join": "加入",
     "collaboration.invite.joinFailed": "加入失敗，請確認邀請碼後重試。",
     "collaboration.invite.joinSession": "加入協作會話",
+    "collaboration.invite.pendingApproval": "已送出請求！等待擁有者審核。",
     "collaboration.invite.proDescription": "升級至 Pro 版本以啟用即時協作功能，支援無限制的團隊成員。",
     "collaboration.invite.proRequired": "Pro 功能",
     "collaboration.invite.step1Code": "將上方邀請碼分享給團隊成員",

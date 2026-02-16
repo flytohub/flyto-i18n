@@ -15,6 +15,7 @@
     "collaboration.invite.join": "Join",
     "collaboration.invite.joinFailed": "Failed to join. Please check the code and try again.",
     "collaboration.invite.joinSession": "Join a Session",
+    "collaboration.invite.pendingApproval": "Request sent! Waiting for owner approval.",
     "collaboration.invite.proDescription": "Upgrade to Pro to enable real-time collaboration with unlimited team members.",
     "collaboration.invite.proRequired": "Pro Feature",
     "collaboration.invite.step1Code": "Share the invite code above with your team",
