@@ -71,6 +71,7 @@
     "workflow.validation.loopHandleRequired": "เฉพาะ loop nodes เท่านั้นที่สามารถเชื่อมต่อกับจุดเข้า loop",
     "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
     "workflow.validation.missingModule": "Module not found",
+    "workflow.validation.missingNode": "ไม่สามารถเชื่อมต่อ: ขาดโหนด",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
     "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"

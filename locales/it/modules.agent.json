@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Nome modello (es. gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Modello",
     "modules.agent.chain.params.temperature.description": "URL server Ollama (solo per provider ollama)",
-    "modules.agent.chain.params.temperature.label": "URL Ollama"
+    "modules.agent.chain.params.temperature.label": "URL Ollama",
+    "modules.agent.tool_use.description": "Agente AI che può chiamare strumenti/funzioni",
+    "modules.agent.tool_use.label": "Agente Uso Strumenti",
+    "modules.agent.tool_use.output.iterations.description": "Numero di iterazioni completate",
+    "modules.agent.tool_use.output.model.description": "Modello utilizzato",
+    "modules.agent.tool_use.output.result.description": "Risposta finale dell'agente",
+    "modules.agent.tool_use.output.tool_calls.description": "Tutte le chiamate agli strumenti effettuate durante l'esecuzione",
+    "modules.agent.tool_use.params.api_key.description": "Chiave API (predefinita alla variabile d'ambiente)",
+    "modules.agent.tool_use.params.api_key.label": "Chiave API",
+    "modules.agent.tool_use.params.max_iterations.description": "Numero massimo di round di chiamate agli strumenti",
+    "modules.agent.tool_use.params.max_iterations.label": "Iterazioni Max",
+    "modules.agent.tool_use.params.model.description": "Modello da utilizzare",
+    "modules.agent.tool_use.params.model.label": "Modello",
+    "modules.agent.tool_use.params.prompt.description": "L'obiettivo o compito per l'agente",
+    "modules.agent.tool_use.params.prompt.label": "Prompt",
+    "modules.agent.tool_use.params.provider.description": "Fornitore LLM per l'agente",
+    "modules.agent.tool_use.params.provider.label": "Fornitore",
+    "modules.agent.tool_use.params.system_prompt.description": "Prompt di sistema opzionale per guidare l'agente",
+    "modules.agent.tool_use.params.system_prompt.label": "Prompt di Sistema",
+    "modules.agent.tool_use.params.tools.description": "Elenco delle definizioni degli strumenti [{nome, descrizione, parametri}]",
+    "modules.agent.tool_use.params.tools.label": "Strumenti"
   }
 }

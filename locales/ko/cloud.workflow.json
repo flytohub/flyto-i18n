@@ -71,6 +71,7 @@
     "workflow.validation.loopHandleRequired": "루프 노드만 루프 진입점에 연결할 수 있습니다",
     "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
     "workflow.validation.missingModule": "Module not found",
+    "workflow.validation.missingNode": "연결할 수 없습니다: 노드가 없습니다",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
     "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"

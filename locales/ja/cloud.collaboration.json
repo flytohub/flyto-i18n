@@ -15,6 +15,7 @@
     "collaboration.invite.join": "参加",
     "collaboration.invite.joinFailed": "参加に失敗しました。コードを確認してもう一度試してね。",
     "collaboration.invite.joinSession": "セッションに参加",
+    "collaboration.invite.pendingApproval": "リクエスト送信済み！オーナーの承認待ち。",
     "collaboration.invite.proDescription": "Proにアップグレードして、無制限のチームメンバーとリアルタイムコラボレーションを可能にしよう。",
     "collaboration.invite.proRequired": "Pro機能",
     "collaboration.invite.step1Code": "上記の招待コードをチームと共有してね",

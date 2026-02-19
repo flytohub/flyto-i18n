@@ -48,15 +48,15 @@
     "landing.app.platforms.title": "Tutte le Piattaforme",
     "landing.app.requirements.disk": "500 MB di spazio su disco",
     "landing.app.requirements.linuxProcessor": "Processore x64 o ARM64",
-    "landing.app.requirements.linuxTitle": "",
+    "landing.app.requirements.linuxTitle": "Linux",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Processore Apple Silicon o Intel",
-    "landing.app.requirements.macosTitle": "",
+    "landing.app.requirements.macosTitle": "macOS",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) o successivo",
     "landing.app.requirements.ram": "Minimo 4 GB di RAM",
     "landing.app.requirements.title": "Requisiti di Sistema",
     "landing.app.requirements.windowsProcessor": "Processore x64",
-    "landing.app.requirements.windowsTitle": "",
+    "landing.app.requirements.windowsTitle": "Windows",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) o successivo"
   }
 }

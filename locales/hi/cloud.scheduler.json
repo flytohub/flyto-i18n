@@ -20,6 +20,9 @@
     "scheduler.create.workflow": "Workflow",
     "scheduler.disable": "Disable",
     "scheduler.enable": "Enable",
+    "scheduler.events.emailReceived": "ईमेल प्राप्त हुआ",
+    "scheduler.events.fileUploaded": "फ़ाइल अपलोड हो गई",
+    "scheduler.events.webhook": "वेबहुक",
     "scheduler.nextRun": "Next Run",
     "scheduler.priority.high": "High",
     "scheduler.priority.low": "Low",
@@ -33,6 +36,10 @@
     "scheduler.stats.runningJobs": "Running Jobs",
     "scheduler.status.disabled": "Disabled",
     "scheduler.triggerNow": "Trigger Now",
+    "scheduler.types.cron": "क्रोन",
+    "scheduler.types.event": "इवेंट",
+    "scheduler.types.interval": "अंतराल",
+    "scheduler.types.once": "एक बार",
     "scheduler.upcoming.empty": "No upcoming schedules",
     "scheduler.upcoming.title": "Upcoming"
   }

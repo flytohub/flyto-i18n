@@ -20,6 +20,9 @@
     "scheduler.create.workflow": "Workflow",
     "scheduler.disable": "Disable",
     "scheduler.enable": "Enable",
+    "scheduler.events.emailReceived": "이메일 수신",
+    "scheduler.events.fileUploaded": "파일 업로드됨",
+    "scheduler.events.webhook": "웹훅",
     "scheduler.nextRun": "Next Run",
     "scheduler.priority.high": "High",
     "scheduler.priority.low": "Low",
@@ -33,6 +36,10 @@
     "scheduler.stats.runningJobs": "Running Jobs",
     "scheduler.status.disabled": "Disabled",
     "scheduler.triggerNow": "Trigger Now",
+    "scheduler.types.cron": "크론",
+    "scheduler.types.event": "이벤트",
+    "scheduler.types.interval": "간격",
+    "scheduler.types.once": "한번",
     "scheduler.upcoming.empty": "No upcoming schedules",
     "scheduler.upcoming.title": "Upcoming"
   }

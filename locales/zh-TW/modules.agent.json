@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Ollama 伺服器網址（僅限 ollama 提供者）",
     "modules.agent.chain.params.ollama_url.label": "Ollama 網址",
     "modules.agent.chain.params.temperature.description": "創造力等級（0-2）",
-    "modules.agent.chain.params.temperature.label": "溫度"
+    "modules.agent.chain.params.temperature.label": "溫度",
+    "modules.agent.tool_use.description": "可以調用工具/功能的 AI 代理",
+    "modules.agent.tool_use.label": "工具使用代理",
+    "modules.agent.tool_use.output.iterations.description": "已完成的回合數",
+    "modules.agent.tool_use.output.model.description": "使用的模型",
+    "modules.agent.tool_use.output.result.description": "代理的最終回應",
+    "modules.agent.tool_use.output.tool_calls.description": "執行期間所有的工具調用",
+    "modules.agent.tool_use.params.api_key.description": "API 金鑰（可回退到環境變數）",
+    "modules.agent.tool_use.params.api_key.label": "API 金鑰",
+    "modules.agent.tool_use.params.max_iterations.description": "工具調用回合的最大次數",
+    "modules.agent.tool_use.params.max_iterations.label": "最大回合數",
+    "modules.agent.tool_use.params.model.description": "要使用的模型",
+    "modules.agent.tool_use.params.model.label": "模型",
+    "modules.agent.tool_use.params.prompt.description": "代理的目標或任務",
+    "modules.agent.tool_use.params.prompt.label": "提示",
+    "modules.agent.tool_use.params.provider.description": "代理的 LLM 提供者",
+    "modules.agent.tool_use.params.provider.label": "提供者",
+    "modules.agent.tool_use.params.system_prompt.description": "可選的系統提示以引導代理",
+    "modules.agent.tool_use.params.system_prompt.label": "系統提示",
+    "modules.agent.tool_use.params.tools.description": "工具定義列表 [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "工具"
   }
 }

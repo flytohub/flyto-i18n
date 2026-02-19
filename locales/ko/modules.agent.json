@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "모델 이름 (예: gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "모델",
     "modules.agent.chain.params.temperature.description": "Ollama 서버 URL (ollama 제공자 전용)",
-    "modules.agent.chain.params.temperature.label": "Ollama URL"
+    "modules.agent.chain.params.temperature.label": "Ollama URL",
+    "modules.agent.tool_use.description": "도구/기능을 호출할 수 있는 AI 에이전트",
+    "modules.agent.tool_use.label": "도구 사용 에이전트",
+    "modules.agent.tool_use.output.iterations.description": "완료된 반복 횟수",
+    "modules.agent.tool_use.output.model.description": "사용된 모델",
+    "modules.agent.tool_use.output.result.description": "에이전트의 최종 응답",
+    "modules.agent.tool_use.output.tool_calls.description": "실행 중에 수행된 모든 도구 호출",
+    "modules.agent.tool_use.params.api_key.description": "API 키 (환경 변수로 대체 가능)",
+    "modules.agent.tool_use.params.api_key.label": "API 키",
+    "modules.agent.tool_use.params.max_iterations.description": "최대 도구 호출 라운드 수",
+    "modules.agent.tool_use.params.max_iterations.label": "최대 반복",
+    "modules.agent.tool_use.params.model.description": "사용할 모델",
+    "modules.agent.tool_use.params.model.label": "모델",
+    "modules.agent.tool_use.params.prompt.description": "에이전트의 목표 또는 작업",
+    "modules.agent.tool_use.params.prompt.label": "프롬프트",
+    "modules.agent.tool_use.params.provider.description": "에이전트의 LLM 제공자",
+    "modules.agent.tool_use.params.provider.label": "제공자",
+    "modules.agent.tool_use.params.system_prompt.description": "에이전트를 안내하기 위한 선택적 시스템 프롬프트",
+    "modules.agent.tool_use.params.system_prompt.label": "시스템 프롬프트",
+    "modules.agent.tool_use.params.tools.description": "도구 정의 목록 [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "도구"
   }
 }

@@ -15,6 +15,7 @@
     "collaboration.invite.join": "เข้าร่วม",
     "collaboration.invite.joinFailed": "เข้าร่วมไม่สำเร็จ กรุณาตรวจสอบโค้ดและลองใหม่อีกครั้ง",
     "collaboration.invite.joinSession": "เข้าร่วมเซสชัน",
+    "collaboration.invite.pendingApproval": "ส่งคำขอแล้ว! รอการอนุมัติจากเจ้าของ.",
     "collaboration.invite.proDescription": "อัปเกรดเป็น Pro เพื่อเปิดใช้งานการทำงานร่วมกันแบบเรียลไทม์กับสมาชิกทีมได้ไม่จำกัด",
     "collaboration.invite.proRequired": "ฟีเจอร์ Pro",
     "collaboration.invite.step1Code": "แชร์โค้ดเชิญด้านบนกับทีมของคุณ",

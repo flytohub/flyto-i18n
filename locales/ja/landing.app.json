@@ -48,15 +48,15 @@
     "landing.app.platforms.title": "すべてのプラットフォーム",
     "landing.app.requirements.disk": "500 MBのディスク空き容量",
     "landing.app.requirements.linuxProcessor": "x64またはARM64プロセッサ",
-    "landing.app.requirements.linuxTitle": "",
+    "landing.app.requirements.linuxTitle": "Linux",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Apple SiliconまたはIntelプロセッサ",
-    "landing.app.requirements.macosTitle": "",
+    "landing.app.requirements.macosTitle": "macOS",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) 以降",
     "landing.app.requirements.ram": "最低4 GBのRAM",
     "landing.app.requirements.title": "システム要件",
     "landing.app.requirements.windowsProcessor": "x64プロセッサ",
-    "landing.app.requirements.windowsTitle": "",
+    "landing.app.requirements.windowsTitle": "Windows",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 以降"
   }
 }

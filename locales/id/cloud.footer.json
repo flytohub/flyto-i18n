@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "footer.copyright": "© 2025 Flyto2. Hak cipta dilindungi.",
-    "footer.description": "Editor workflow visual yang kuat yang mengintegrasikan ratusan aplikasi, membuat otomasi mudah untuk semua orang."
+    "footer.description": "Editor workflow visual yang kuat yang mengintegrasikan ratusan aplikasi, membuat otomasi mudah untuk semua orang.",
+    "footer.disclaimer": "Semua tugas otomatisasi dijalankan di perangkat pengguna sendiri. Pengguna bertanggung jawab untuk memastikan penggunaan mereka sesuai dengan ketentuan layanan situs web target dan hukum yang berlaku."
   }
 }

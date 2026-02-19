@@ -4,6 +4,7 @@
   "category": "cloud.moduleCard",
   "version": "1.0.0",
   "translations": {
+    "moduleCard.expert": "ผู้เชี่ยวชาญ",
     "moduleCard.inputType": "Input: {type}",
     "moduleCard.noDescription": "ไม่มีคำอธิบาย",
     "moduleCard.outputType": "Output: {type}"

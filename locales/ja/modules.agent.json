@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "モデル名（例: gpt-4, llama2, mistral）",
     "modules.agent.chain.params.ollama_url.label": "モデル",
     "modules.agent.chain.params.temperature.description": "OllamaサーバーURL（ollamaプロバイダーのみ）",
-    "modules.agent.chain.params.temperature.label": "Ollama URL"
+    "modules.agent.chain.params.temperature.label": "Ollama URL",
+    "modules.agent.tool_use.description": "ツールや関数を呼び出せるAIエージェント",
+    "modules.agent.tool_use.label": "ツール使用エージェント",
+    "modules.agent.tool_use.output.iterations.description": "完了したイテレーション数",
+    "modules.agent.tool_use.output.model.description": "使用されたモデル",
+    "modules.agent.tool_use.output.result.description": "エージェントの最終応答",
+    "modules.agent.tool_use.output.tool_calls.description": "実行中に行われたすべてのツール呼び出し",
+    "modules.agent.tool_use.params.api_key.description": "APIキー（環境変数にフォールバック）",
+    "modules.agent.tool_use.params.api_key.label": "APIキー",
+    "modules.agent.tool_use.params.max_iterations.description": "ツール呼び出しラウンドの最大数",
+    "modules.agent.tool_use.params.max_iterations.label": "最大イテレーション",
+    "modules.agent.tool_use.params.model.description": "使用するモデル",
+    "modules.agent.tool_use.params.model.label": "モデル",
+    "modules.agent.tool_use.params.prompt.description": "エージェントの目標やタスク",
+    "modules.agent.tool_use.params.prompt.label": "プロンプト",
+    "modules.agent.tool_use.params.provider.description": "エージェントのLLMプロバイダー",
+    "modules.agent.tool_use.params.provider.label": "プロバイダー",
+    "modules.agent.tool_use.params.system_prompt.description": "エージェントを導くためのオプションのシステムプロンプト",
+    "modules.agent.tool_use.params.system_prompt.label": "システムプロンプト",
+    "modules.agent.tool_use.params.tools.description": "ツール定義のリスト [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "ツール"
   }
 }

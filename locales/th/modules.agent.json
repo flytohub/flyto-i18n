@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "ชื่อโมเดล (เช่น gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "โมเดล",
     "modules.agent.chain.params.temperature.description": "URL เซิร์ฟเวอร์ Ollama (เฉพาะสำหรับผู้ให้บริการ ollama)",
-    "modules.agent.chain.params.temperature.label": "Ollama URL"
+    "modules.agent.chain.params.temperature.label": "Ollama URL",
+    "modules.agent.tool_use.description": "AI Agent ที่สามารถเรียกใช้เครื่องมือ/ฟังก์ชันได้",
+    "modules.agent.tool_use.label": "Agent การใช้เครื่องมือ",
+    "modules.agent.tool_use.output.iterations.description": "จำนวนรอบที่ทำเสร็จแล้ว",
+    "modules.agent.tool_use.output.model.description": "โมเดลที่ใช้",
+    "modules.agent.tool_use.output.result.description": "คำตอบสุดท้ายของเอเจนต์",
+    "modules.agent.tool_use.output.tool_calls.description": "การเรียกใช้เครื่องมือทั้งหมดระหว่างการทำงาน",
+    "modules.agent.tool_use.params.api_key.description": "คีย์ API (ใช้ตัวแปรสภาพแวดล้อมหากไม่มี)",
+    "modules.agent.tool_use.params.api_key.label": "API Key",
+    "modules.agent.tool_use.params.max_iterations.description": "จำนวนรอบการเรียกใช้เครื่องมือสูงสุด",
+    "modules.agent.tool_use.params.max_iterations.label": "จำนวนรอบสูงสุด",
+    "modules.agent.tool_use.params.model.description": "โมเดลที่จะใช้",
+    "modules.agent.tool_use.params.model.label": "โมเดล",
+    "modules.agent.tool_use.params.prompt.description": "เป้าหมายหรือภารกิจสำหรับเอเจนต์",
+    "modules.agent.tool_use.params.prompt.label": "คำถาม",
+    "modules.agent.tool_use.params.provider.description": "ผู้ให้บริการ LLM สำหรับเอเจนต์",
+    "modules.agent.tool_use.params.provider.label": "ผู้ให้บริการ",
+    "modules.agent.tool_use.params.system_prompt.description": "คำถามระบบเสริมเพื่อแนะนำเอเจนต์",
+    "modules.agent.tool_use.params.system_prompt.label": "คำถามระบบ",
+    "modules.agent.tool_use.params.tools.description": "รายการคำจำกัดความของเครื่องมือ [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "เครื่องมือ"
   }
 }

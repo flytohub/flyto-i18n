@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "मॉडल नाम (जैसे, gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "मॉडल",
     "modules.agent.chain.params.temperature.description": "Ollama सर्वर URL (केवल ollama प्रदाता के लिए)",
-    "modules.agent.chain.params.temperature.label": "Ollama URL"
+    "modules.agent.chain.params.temperature.label": "Ollama URL",
+    "modules.agent.tool_use.description": "AI एजेंट जो टूल्स/फंक्शन्स को कॉल कर सकता है",
+    "modules.agent.tool_use.label": "टूल उपयोग एजेंट",
+    "modules.agent.tool_use.output.iterations.description": "पूर्ण किए गए पुनरावृत्तियों की संख्या",
+    "modules.agent.tool_use.output.model.description": "उपयोग किया गया मॉडल",
+    "modules.agent.tool_use.output.result.description": "एजेंट का अंतिम उत्तर",
+    "modules.agent.tool_use.output.tool_calls.description": "निष्पादन के दौरान किए गए सभी टूल कॉल्स",
+    "modules.agent.tool_use.params.api_key.description": "API कुंजी (पर्यावरण चर पर वापस गिरता है)",
+    "modules.agent.tool_use.params.api_key.label": "API कुंजी",
+    "modules.agent.tool_use.params.max_iterations.description": "टूल कॉल राउंड्स की अधिकतम संख्या",
+    "modules.agent.tool_use.params.max_iterations.label": "अधिकतम पुनरावृत्तियाँ",
+    "modules.agent.tool_use.params.model.description": "उपयोग करने के लिए मॉडल",
+    "modules.agent.tool_use.params.model.label": "मॉडल",
+    "modules.agent.tool_use.params.prompt.description": "एजेंट के लिए लक्ष्य या कार्य",
+    "modules.agent.tool_use.params.prompt.label": "प्रॉम्प्ट",
+    "modules.agent.tool_use.params.provider.description": "एजेंट के लिए LLM प्रदाता",
+    "modules.agent.tool_use.params.provider.label": "प्रदाता",
+    "modules.agent.tool_use.params.system_prompt.description": "एजेंट को मार्गदर्शन करने के लिए वैकल्पिक सिस्टम प्रॉम्प्ट",
+    "modules.agent.tool_use.params.system_prompt.label": "सिस्टम प्रॉम्प्ट",
+    "modules.agent.tool_use.params.tools.description": "टूल परिभाषाओं की सूची [{नाम, विवरण, पैरामीटर्स}]",
+    "modules.agent.tool_use.params.tools.label": "टूल्स"
   }
 }

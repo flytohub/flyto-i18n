@@ -15,6 +15,7 @@
     "collaboration.invite.join": "शामिल हों",
     "collaboration.invite.joinFailed": "शामिल होने में विफल। कृपया कोड की जांच करें और पुनः प्रयास करें।",
     "collaboration.invite.joinSession": "एक सत्र में शामिल हों",
+    "collaboration.invite.pendingApproval": "अनुरोध भेजा गया! स्वामी की स्वीकृति की प्रतीक्षा कर रहा है।",
     "collaboration.invite.proDescription": "असीमित टीम सदस्यों के साथ वास्तविक समय सहयोग सक्षम करने के लिए प्रो में अपग्रेड करें।",
     "collaboration.invite.proRequired": "प्रो सुविधा",
     "collaboration.invite.step1Code": "ऊपर दिए गए आमंत्रण कोड को अपनी टीम के साथ साझा करें",

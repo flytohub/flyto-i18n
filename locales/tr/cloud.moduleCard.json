@@ -4,6 +4,7 @@
   "category": "cloud.moduleCard",
   "version": "1.0.0",
   "translations": {
+    "moduleCard.expert": "Uzman",
     "moduleCard.inputType": "Giriş: {type}",
     "moduleCard.noDescription": "Açıklama yok",
     "moduleCard.outputType": "Çıkış: {type}"

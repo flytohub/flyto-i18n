@@ -15,6 +15,7 @@
     "collaboration.invite.join": "Bergabung",
     "collaboration.invite.joinFailed": "Gagal bergabung. Silakan periksa kodenya dan coba lagi.",
     "collaboration.invite.joinSession": "Bergabung dengan Sesi",
+    "collaboration.invite.pendingApproval": "Permintaan terkirim! Menunggu persetujuan pemilik.",
     "collaboration.invite.proDescription": "Tingkatkan ke Pro untuk mengaktifkan kolaborasi real-time dengan anggota tim tanpa batas.",
     "collaboration.invite.proRequired": "Fitur Pro",
     "collaboration.invite.step1Code": "Bagikan kode undangan di atas dengan tim Anda",

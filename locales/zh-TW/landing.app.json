@@ -48,15 +48,15 @@
     "landing.app.platforms.title": "所有平台",
     "landing.app.requirements.disk": "500 MB 磁碟空間",
     "landing.app.requirements.linuxProcessor": "x64 或 ARM64 處理器",
-    "landing.app.requirements.linuxTitle": "",
+    "landing.app.requirements.linuxTitle": "Linux",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Apple Silicon 或 Intel 處理器",
-    "landing.app.requirements.macosTitle": "",
+    "landing.app.requirements.macosTitle": "macOS",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) 或更新版本",
     "landing.app.requirements.ram": "最低 4 GB RAM",
     "landing.app.requirements.title": "系統需求",
     "landing.app.requirements.windowsProcessor": "x64 處理器",
-    "landing.app.requirements.windowsTitle": "",
+    "landing.app.requirements.windowsTitle": "Windows",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 或更新版本"
   }
 }

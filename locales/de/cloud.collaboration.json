@@ -15,6 +15,7 @@
     "collaboration.invite.join": "Beitreten",
     "collaboration.invite.joinFailed": "Beitritt fehlgeschlagen. Bitte überprüfen Sie den Code und versuchen Sie es erneut.",
     "collaboration.invite.joinSession": "An einer Sitzung teilnehmen",
+    "collaboration.invite.pendingApproval": "Anfrage gesendet! Warten auf Genehmigung des Besitzers.",
     "collaboration.invite.proDescription": "Auf Pro upgraden, um Echtzeit-Zusammenarbeit mit unbegrenzten Teammitgliedern zu ermöglichen.",
     "collaboration.invite.proRequired": "Pro-Funktion",
     "collaboration.invite.step1Code": "Teilen Sie den obigen Einladungscode mit Ihrem Team",

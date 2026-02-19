@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Tên model (ví dụ: gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Model",
     "modules.agent.chain.params.temperature.description": "URL máy chủ Ollama (chỉ cho provider ollama)",
-    "modules.agent.chain.params.temperature.label": "URL Ollama"
+    "modules.agent.chain.params.temperature.label": "URL Ollama",
+    "modules.agent.tool_use.description": "AI Agent có thể gọi công cụ/chức năng",
+    "modules.agent.tool_use.label": "Agent Sử Dụng Công Cụ",
+    "modules.agent.tool_use.output.iterations.description": "Số vòng lặp đã hoàn thành",
+    "modules.agent.tool_use.output.model.description": "Mô hình đã sử dụng",
+    "modules.agent.tool_use.output.result.description": "Phản hồi cuối cùng của agent",
+    "modules.agent.tool_use.output.tool_calls.description": "Tất cả các lần gọi công cụ trong quá trình thực thi",
+    "modules.agent.tool_use.params.api_key.description": "Khóa API (sử dụng biến môi trường nếu không có)",
+    "modules.agent.tool_use.params.api_key.label": "Khóa API",
+    "modules.agent.tool_use.params.max_iterations.description": "Số vòng gọi công cụ tối đa",
+    "modules.agent.tool_use.params.max_iterations.label": "Số Vòng Tối Đa",
+    "modules.agent.tool_use.params.model.description": "Mô hình sẽ sử dụng",
+    "modules.agent.tool_use.params.model.label": "Mô Hình",
+    "modules.agent.tool_use.params.prompt.description": "Mục tiêu hoặc nhiệm vụ cho agent",
+    "modules.agent.tool_use.params.prompt.label": "Lời Nhắc",
+    "modules.agent.tool_use.params.provider.description": "Nhà cung cấp LLM cho agent",
+    "modules.agent.tool_use.params.provider.label": "Nhà Cung Cấp",
+    "modules.agent.tool_use.params.system_prompt.description": "Lời nhắc hệ thống tùy chọn để hướng dẫn agent",
+    "modules.agent.tool_use.params.system_prompt.label": "Lời Nhắc Hệ Thống",
+    "modules.agent.tool_use.params.tools.description": "Danh sách định nghĩa công cụ [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "Công Cụ"
   }
 }

@@ -77,6 +77,7 @@
     "common.pagination.to": "~",
     "common.previous": "이전",
     "common.refresh": "새로고침",
+    "common.region": "지역",
     "common.reject": "Reject",
     "common.remove": "제거",
     "common.retry": "재시도",

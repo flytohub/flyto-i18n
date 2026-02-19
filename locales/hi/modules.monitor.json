@@ -1,0 +1,7 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "monitor",
+  "version": "1.0.0",
+  "translations": {}
+}

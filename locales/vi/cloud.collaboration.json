@@ -15,6 +15,7 @@
     "collaboration.invite.join": "Tham gia",
     "collaboration.invite.joinFailed": "Tham gia thất bại. Vui lòng kiểm tra mã và thử lại.",
     "collaboration.invite.joinSession": "Tham gia Phiên làm việc",
+    "collaboration.invite.pendingApproval": "Đã gửi yêu cầu! Đang chờ chủ sở hữu phê duyệt.",
     "collaboration.invite.proDescription": "Nâng cấp lên Pro để cộng tác thời gian thực với số lượng thành viên không giới hạn.",
     "collaboration.invite.proRequired": "Tính năng Pro",
     "collaboration.invite.step1Code": "Chia sẻ mã mời trên với nhóm của bạn",

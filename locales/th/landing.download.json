@@ -4,7 +4,7 @@
   "category": "landing.download",
   "version": "1.0.0",
   "translations": {
-    "landing.download.common.copy": "",
+    "landing.download.common.copy": "คัดลอก",
     "landing.download.docker.autoUpdates": "อัปเดตอัตโนมัติ",
     "landing.download.docker.autoUpdatesDesc": "การอัปเดต container อัตโนมัติพร้อมการสนับสนุน Docker Watchtower",
     "landing.download.docker.dockerDocs": "เอกสาร Docker",

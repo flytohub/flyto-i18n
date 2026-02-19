@@ -15,6 +15,7 @@
     "collaboration.invite.join": "Entrar",
     "collaboration.invite.joinFailed": "Falha ao entrar. Verifique o código e tente novamente.",
     "collaboration.invite.joinSession": "Entrar em uma Sessão",
+    "collaboration.invite.pendingApproval": "Pedido enviado! Aguardando aprovação do proprietário.",
     "collaboration.invite.proDescription": "Faça upgrade para Pro para habilitar a colaboração em tempo real com membros ilimitados da equipe.",
     "collaboration.invite.proRequired": "Recurso Pro",
     "collaboration.invite.step1Code": "Compartilhe o código de convite acima com sua equipe",

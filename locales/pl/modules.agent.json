@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Nazwa modelu (np. gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Model",
     "modules.agent.chain.params.temperature.description": "URL serwera Ollama (tylko dla dostawcy ollama)",
-    "modules.agent.chain.params.temperature.label": "URL Ollama"
+    "modules.agent.chain.params.temperature.label": "URL Ollama",
+    "modules.agent.tool_use.description": "Agent AI, który może korzystać z narzędzi/funkcji",
+    "modules.agent.tool_use.label": "Agent Użycia Narzędzi",
+    "modules.agent.tool_use.output.iterations.description": "Liczba ukończonych iteracji",
+    "modules.agent.tool_use.output.model.description": "Użyty model",
+    "modules.agent.tool_use.output.result.description": "Ostateczna odpowiedź agenta",
+    "modules.agent.tool_use.output.tool_calls.description": "Wszystkie wywołania narzędzi wykonane podczas działania",
+    "modules.agent.tool_use.params.api_key.description": "Klucz API (domyślnie zmienna środowiskowa)",
+    "modules.agent.tool_use.params.api_key.label": "Klucz API",
+    "modules.agent.tool_use.params.max_iterations.description": "Maksymalna liczba rund wywołań narzędzi",
+    "modules.agent.tool_use.params.max_iterations.label": "Maksymalna liczba iteracji",
+    "modules.agent.tool_use.params.model.description": "Model do użycia",
+    "modules.agent.tool_use.params.model.label": "Model",
+    "modules.agent.tool_use.params.prompt.description": "Cel lub zadanie dla agenta",
+    "modules.agent.tool_use.params.prompt.label": "Zadanie",
+    "modules.agent.tool_use.params.provider.description": "Dostawca LLM dla agenta",
+    "modules.agent.tool_use.params.provider.label": "Dostawca",
+    "modules.agent.tool_use.params.system_prompt.description": "Opcjonalna systemowa podpowiedź do kierowania agentem",
+    "modules.agent.tool_use.params.system_prompt.label": "Podpowiedź Systemowa",
+    "modules.agent.tool_use.params.tools.description": "Lista definicji narzędzi [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "Narzędzia"
   }
 }

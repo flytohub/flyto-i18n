@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Nom du modele (ex: gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Modele",
     "modules.agent.chain.params.temperature.description": "URL du serveur Ollama (uniquement pour le fournisseur ollama)",
-    "modules.agent.chain.params.temperature.label": "URL Ollama"
+    "modules.agent.chain.params.temperature.label": "URL Ollama",
+    "modules.agent.tool_use.description": "Agent AI qui peut appeler des outils/fonctions",
+    "modules.agent.tool_use.label": "Agent d'utilisation d'outils",
+    "modules.agent.tool_use.output.iterations.description": "Nombre d'itérations complétées",
+    "modules.agent.tool_use.output.model.description": "Modèle utilisé",
+    "modules.agent.tool_use.output.result.description": "Réponse finale de l'agent",
+    "modules.agent.tool_use.output.tool_calls.description": "Tous les appels d'outils effectués pendant l'exécution",
+    "modules.agent.tool_use.params.api_key.description": "Clé API (repli sur la variable d'environnement)",
+    "modules.agent.tool_use.params.api_key.label": "Clé API",
+    "modules.agent.tool_use.params.max_iterations.description": "Nombre maximum de tours d'appel d'outils",
+    "modules.agent.tool_use.params.max_iterations.label": "Itérations max",
+    "modules.agent.tool_use.params.model.description": "Modèle à utiliser",
+    "modules.agent.tool_use.params.model.label": "Modèle",
+    "modules.agent.tool_use.params.prompt.description": "L'objectif ou la tâche pour l'agent",
+    "modules.agent.tool_use.params.prompt.label": "Prompt",
+    "modules.agent.tool_use.params.provider.description": "Fournisseur LLM pour l'agent",
+    "modules.agent.tool_use.params.provider.label": "Fournisseur",
+    "modules.agent.tool_use.params.system_prompt.description": "Invite système optionnelle pour guider l'agent",
+    "modules.agent.tool_use.params.system_prompt.label": "Invite système",
+    "modules.agent.tool_use.params.tools.description": "Liste des définitions d'outils [{nom, description, paramètres}]",
+    "modules.agent.tool_use.params.tools.label": "Outils"
   }
 }

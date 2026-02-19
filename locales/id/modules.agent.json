@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Nama model (mis., gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Model",
     "modules.agent.chain.params.temperature.description": "URL server Ollama (hanya untuk provider ollama)",
-    "modules.agent.chain.params.temperature.label": "URL Ollama"
+    "modules.agent.chain.params.temperature.label": "URL Ollama",
+    "modules.agent.tool_use.description": "Agen AI yang dapat memanggil alat/fungsi",
+    "modules.agent.tool_use.label": "Agen Penggunaan Alat",
+    "modules.agent.tool_use.output.iterations.description": "Jumlah iterasi yang selesai",
+    "modules.agent.tool_use.output.model.description": "Model yang digunakan",
+    "modules.agent.tool_use.output.result.description": "Respon akhir agen",
+    "modules.agent.tool_use.output.tool_calls.description": "Semua panggilan alat yang dilakukan selama eksekusi",
+    "modules.agent.tool_use.params.api_key.description": "Kunci API (kembali ke variabel lingkungan)",
+    "modules.agent.tool_use.params.api_key.label": "Kunci API",
+    "modules.agent.tool_use.params.max_iterations.description": "Jumlah maksimum putaran panggilan alat",
+    "modules.agent.tool_use.params.max_iterations.label": "Maksimum Iterasi",
+    "modules.agent.tool_use.params.model.description": "Model yang akan digunakan",
+    "modules.agent.tool_use.params.model.label": "Model",
+    "modules.agent.tool_use.params.prompt.description": "Tujuan atau tugas untuk agen",
+    "modules.agent.tool_use.params.prompt.label": "Prompt",
+    "modules.agent.tool_use.params.provider.description": "Penyedia LLM untuk agen",
+    "modules.agent.tool_use.params.provider.label": "Penyedia",
+    "modules.agent.tool_use.params.system_prompt.description": "Prompt sistem opsional untuk membimbing agen",
+    "modules.agent.tool_use.params.system_prompt.label": "Prompt Sistem",
+    "modules.agent.tool_use.params.tools.description": "Daftar definisi alat [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "Alat"
   }
 }

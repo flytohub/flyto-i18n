@@ -71,6 +71,7 @@
     "workflow.validation.loopHandleRequired": "Tylko wezly petli moga laczyc sie z punktami wejscia petli",
     "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
     "workflow.validation.missingModule": "Module not found",
+    "workflow.validation.missingNode": "Nie można połączyć: brakujący węzeł",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
     "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"

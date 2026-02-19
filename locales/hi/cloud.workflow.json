@@ -71,6 +71,7 @@
     "workflow.validation.loopHandleRequired": "केवल लूप नोड लूप एंट्री पॉइंट से कनेक्ट हो सकते हैं",
     "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
     "workflow.validation.missingModule": "Module not found",
+    "workflow.validation.missingNode": "कनेक्ट नहीं कर सकते: नोड गायब है",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
     "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"

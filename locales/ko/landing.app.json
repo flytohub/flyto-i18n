@@ -48,15 +48,15 @@
     "landing.app.platforms.title": "모든 플랫폼",
     "landing.app.requirements.disk": "500 MB 디스크 공간",
     "landing.app.requirements.linuxProcessor": "x64 또는 ARM64 프로세서",
-    "landing.app.requirements.linuxTitle": "",
+    "landing.app.requirements.linuxTitle": "Linux",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Apple Silicon 또는 Intel 프로세서",
-    "landing.app.requirements.macosTitle": "",
+    "landing.app.requirements.macosTitle": "macOS",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) 이상",
     "landing.app.requirements.ram": "최소 4 GB RAM",
     "landing.app.requirements.title": "시스템 요구 사항",
     "landing.app.requirements.windowsProcessor": "x64 프로세서",
-    "landing.app.requirements.windowsTitle": "",
+    "landing.app.requirements.windowsTitle": "Windows",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 이상"
   }
 }

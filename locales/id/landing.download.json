@@ -4,7 +4,7 @@
   "category": "landing.download",
   "version": "1.0.0",
   "translations": {
-    "landing.download.common.copy": "",
+    "landing.download.common.copy": "Salin",
     "landing.download.docker.autoUpdates": "Pembaruan Otomatis",
     "landing.download.docker.autoUpdatesDesc": "Pembaruan container otomatis dengan dukungan Docker Watchtower.",
     "landing.download.docker.dockerDocs": "Dokumentasi Docker",

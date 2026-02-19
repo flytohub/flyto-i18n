@@ -4,7 +4,7 @@
   "category": "landing.download",
   "version": "1.0.0",
   "translations": {
-    "landing.download.common.copy": "",
+    "landing.download.common.copy": "कॉपी करें",
     "landing.download.docker.autoUpdates": "ऑटो अपडेट",
     "landing.download.docker.autoUpdatesDesc": "Docker Watchtower सपोर्ट के साथ स्वचालित कंटेनर अपडेट।",
     "landing.download.docker.dockerDocs": "Docker डॉक्स",

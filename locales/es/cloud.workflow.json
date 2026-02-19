@@ -71,6 +71,7 @@
     "workflow.validation.loopHandleRequired": "Solo los nodos de bucle pueden conectarse a puntos de entrada de bucle",
     "workflow.validation.maxConnections": "Port {port} has reached maximum connections",
     "workflow.validation.missingModule": "Module not found",
+    "workflow.validation.missingNode": "No se puede conectar: falta un nodo",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
     "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"

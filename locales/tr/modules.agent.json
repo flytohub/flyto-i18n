@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Model adı (örn: gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Model",
     "modules.agent.chain.params.temperature.description": "Ollama sunucu URL'si (sadece ollama sağlayıcı için)",
-    "modules.agent.chain.params.temperature.label": "Ollama URL"
+    "modules.agent.chain.params.temperature.label": "Ollama URL",
+    "modules.agent.tool_use.description": "Araçları/işlevleri çağırabilen AI Ajanı",
+    "modules.agent.tool_use.label": "Araç Kullanım Ajanı",
+    "modules.agent.tool_use.output.iterations.description": "Tamamlanan yineleme sayısı",
+    "modules.agent.tool_use.output.model.description": "Kullanılan model",
+    "modules.agent.tool_use.output.result.description": "Ajanın nihai yanıtı",
+    "modules.agent.tool_use.output.tool_calls.description": "Yürütme sırasında yapılan tüm araç çağrıları",
+    "modules.agent.tool_use.params.api_key.description": "API anahtarı (çevre değişkenine geri döner)",
+    "modules.agent.tool_use.params.api_key.label": "API Anahtarı",
+    "modules.agent.tool_use.params.max_iterations.description": "Maksimum araç çağrı turu sayısı",
+    "modules.agent.tool_use.params.max_iterations.label": "Maksimum Yineleme",
+    "modules.agent.tool_use.params.model.description": "Kullanılacak model",
+    "modules.agent.tool_use.params.model.label": "Model",
+    "modules.agent.tool_use.params.prompt.description": "Ajan için hedef veya görev",
+    "modules.agent.tool_use.params.prompt.label": "İstem",
+    "modules.agent.tool_use.params.provider.description": "Ajan için LLM sağlayıcısı",
+    "modules.agent.tool_use.params.provider.label": "Sağlayıcı",
+    "modules.agent.tool_use.params.system_prompt.description": "Ajanı yönlendirmek için isteğe bağlı sistem istemi",
+    "modules.agent.tool_use.params.system_prompt.label": "Sistem İstemi",
+    "modules.agent.tool_use.params.tools.description": "Araç tanımlarının listesi [{isim, açıklama, parametreler}]",
+    "modules.agent.tool_use.params.tools.label": "Araçlar"
   }
 }
