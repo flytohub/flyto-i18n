@@ -20,6 +20,9 @@
     "scheduler.create.workflow": "工作流程",
     "scheduler.disable": "停用",
     "scheduler.enable": "啟用",
+    "scheduler.events.emailReceived": "收到電子郵件",
+    "scheduler.events.fileUploaded": "檔案已上傳",
+    "scheduler.events.webhook": "Webhook",
     "scheduler.nextRun": "下次執行",
     "scheduler.priority.high": "高優先順序",
     "scheduler.priority.low": "低優先順序",
@@ -33,6 +36,10 @@
     "scheduler.stats.runningJobs": "執行中工作",
     "scheduler.status.disabled": "已停用",
     "scheduler.triggerNow": "立即觸發",
+    "scheduler.types.cron": "排程 (Cron)",
+    "scheduler.types.event": "事件觸發",
+    "scheduler.types.interval": "間隔",
+    "scheduler.types.once": "單次",
     "scheduler.upcoming.empty": "沒有即將到來的排程",
     "scheduler.upcoming.title": "即將到來的排程"
   }

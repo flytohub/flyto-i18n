@@ -20,6 +20,9 @@
     "scheduler.create.workflow": "",
     "scheduler.disable": "",
     "scheduler.enable": "",
+    "scheduler.events.emailReceived": "Email Received",
+    "scheduler.events.fileUploaded": "File Uploaded",
+    "scheduler.events.webhook": "Webhook",
     "scheduler.nextRun": "",
     "scheduler.priority.high": "",
     "scheduler.priority.low": "",
@@ -33,6 +36,10 @@
     "scheduler.stats.runningJobs": "",
     "scheduler.status.disabled": "",
     "scheduler.triggerNow": "",
+    "scheduler.types.cron": "Cron",
+    "scheduler.types.event": "Event",
+    "scheduler.types.interval": "Interval",
+    "scheduler.types.once": "One-time",
     "scheduler.upcoming.empty": "",
     "scheduler.upcoming.title": ""
   }
