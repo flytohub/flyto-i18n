@@ -44,6 +44,26 @@
     "modules.agent.chain.params.ollama_url.description": "Model name (e.g., gpt-4, llama2, mistral)",
     "modules.agent.chain.params.ollama_url.label": "Model",
     "modules.agent.chain.params.temperature.description": "Ollama server URL (only for ollama provider)",
-    "modules.agent.chain.params.temperature.label": "Ollama URL"
+    "modules.agent.chain.params.temperature.label": "Ollama URL",
+    "modules.agent.tool_use.description": "AI Agent that can call tools/functions",
+    "modules.agent.tool_use.label": "Tool Use Agent",
+    "modules.agent.tool_use.output.iterations.description": "Number of iterations completed",
+    "modules.agent.tool_use.output.model.description": "Model used",
+    "modules.agent.tool_use.output.result.description": "The agent final response",
+    "modules.agent.tool_use.output.tool_calls.description": "All tool calls made during execution",
+    "modules.agent.tool_use.params.api_key.description": "API key (falls back to environment variable)",
+    "modules.agent.tool_use.params.api_key.label": "API Key",
+    "modules.agent.tool_use.params.max_iterations.description": "Maximum number of tool call rounds",
+    "modules.agent.tool_use.params.max_iterations.label": "Max Iterations",
+    "modules.agent.tool_use.params.model.description": "Model to use",
+    "modules.agent.tool_use.params.model.label": "Model",
+    "modules.agent.tool_use.params.prompt.description": "The goal or task for the agent",
+    "modules.agent.tool_use.params.prompt.label": "Prompt",
+    "modules.agent.tool_use.params.provider.description": "LLM provider for the agent",
+    "modules.agent.tool_use.params.provider.label": "Provider",
+    "modules.agent.tool_use.params.system_prompt.description": "Optional system prompt to guide the agent",
+    "modules.agent.tool_use.params.system_prompt.label": "System Prompt",
+    "modules.agent.tool_use.params.tools.description": "List of tool definitions [{name, description, parameters}]",
+    "modules.agent.tool_use.params.tools.label": "Tools"
   }
 }
