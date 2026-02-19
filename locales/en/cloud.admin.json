@@ -679,6 +679,8 @@
     "admin.subscriptions.cancelled": "Cancelled",
     "admin.subscriptions.details": "Subscription Details",
     "admin.subscriptions.form.duration": "Duration",
+    "admin.subscriptions.form.nDays": "{n} days",
+    "admin.subscriptions.form.oneYear": "1 year",
     "admin.subscriptions.form.plan": "Plan",
     "admin.subscriptions.form.reason": "Reason (optional)",
     "admin.subscriptions.form.reasonPlaceholder": "e.g., Contest winner, Support case #123",

@@ -679,6 +679,8 @@
     "admin.subscriptions.cancelled": "已取消",
     "admin.subscriptions.details": "訂閱詳情",
     "admin.subscriptions.form.duration": "期限",
+    "admin.subscriptions.form.nDays": "{n} 天",
+    "admin.subscriptions.form.oneYear": "1 年",
     "admin.subscriptions.form.plan": "方案",
     "admin.subscriptions.form.reason": "原因（選填）",
     "admin.subscriptions.form.reasonPlaceholder": "例：比賽獲勝者、客服案件 #123",
