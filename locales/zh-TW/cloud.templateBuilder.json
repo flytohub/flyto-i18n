@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "清除對話",
     "templateBuilder.aiChat.close": "關閉",
     "templateBuilder.aiChat.coordinationStarted": "協調已開始",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "解釋模組配置",
     "templateBuilder.aiChat.welcomeFeature3": "建議優化方案",
     "templateBuilder.aiChat.welcomeFeature4": "除錯您的模板",
-    "templateBuilder.aiChat.welcomeMessage": "您好！我是您的 Flyto AI 助手。我可以幫助您：",
+    "templateBuilder.aiChat.welcomeMessage": "您好！我是您的 Flyto2 AI 助手。我可以幫助您：",
     "templateBuilder.aiChat.welcomeQuestion": "今天您想建立什麼？",
     "templateBuilder.alerts.enterTemplateName": "請輸入模板名稱",
     "templateBuilder.alerts.gridSumMustBe12": "欄位寬度總和必須等於 12",

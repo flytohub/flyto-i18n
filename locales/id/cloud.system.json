@@ -100,7 +100,7 @@
     "cloud.offline.copied": "Disalin ke clipboard",
     "cloud.offline.copyFailed": "Gagal menyalin",
     "cloud.offline.copyValue": "Salin Nilai",
-    "cloud.offline.coreNotConfigured": "Flyto Core tidak dikonfigurasi",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core tidak dikonfigurasi",
     "cloud.offline.corePath": "Path Core",
     "cloud.offline.coreSettings": "Pengaturan Core",
     "cloud.offline.coreVersion": "Versi Core",

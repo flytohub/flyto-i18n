@@ -100,7 +100,7 @@
     "cloud.offline.copied": "已複製到剪貼簿",
     "cloud.offline.copyFailed": "複製失敗",
     "cloud.offline.copyValue": "複製值",
-    "cloud.offline.coreNotConfigured": "尚未設定 Flyto Core",
+    "cloud.offline.coreNotConfigured": "尚未設定 Flyto2 Core",
     "cloud.offline.corePath": "Core 路徑",
     "cloud.offline.coreSettings": "Core 設定",
     "cloud.offline.coreVersion": "Core 版本",

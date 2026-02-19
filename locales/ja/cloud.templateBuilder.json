@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "チャットをクリア",
     "templateBuilder.aiChat.close": "閉じる",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "モジュール設定を説明",
     "templateBuilder.aiChat.welcomeFeature3": "最適化を提案",
     "templateBuilder.aiChat.welcomeFeature4": "テンプレートをデバッグ",
-    "templateBuilder.aiChat.welcomeMessage": "こんにちは！Flyto AI アシスタントです。以下のことをお手伝いできます：",
+    "templateBuilder.aiChat.welcomeMessage": "こんにちは！Flyto2 AI アシスタントです。以下のことをお手伝いできます：",
     "templateBuilder.aiChat.welcomeQuestion": "今日は何を作りますか？",
     "templateBuilder.alerts.enterTemplateName": "テンプレート名を入力してください",
     "templateBuilder.alerts.gridSumMustBe12": "カラム幅の合計は12でなければなりません",

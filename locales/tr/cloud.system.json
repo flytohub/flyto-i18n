@@ -100,7 +100,7 @@
     "cloud.offline.copied": "Panoya kopyalandı",
     "cloud.offline.copyFailed": "Kopyalanamadı",
     "cloud.offline.copyValue": "Değeri Kopyala",
-    "cloud.offline.coreNotConfigured": "Flyto Core yapılandırılmadı",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core yapılandırılmadı",
     "cloud.offline.corePath": "Core Yolu",
     "cloud.offline.coreSettings": "Core Ayarları",
     "cloud.offline.coreVersion": "Core Sürümü",

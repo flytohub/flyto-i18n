@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "चैट साफ़ करें",
     "templateBuilder.aiChat.close": "बंद करें",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "मॉड्यूल कॉन्फ़िगरेशन समझाएं",
     "templateBuilder.aiChat.welcomeFeature3": "अनुकूलन सुझाएं",
     "templateBuilder.aiChat.welcomeFeature4": "अपने टेम्पलेट्स डीबग करें",
-    "templateBuilder.aiChat.welcomeMessage": "नमस्ते! मैं आपका Flyto AI असिस्टेंट हूं। मैं आपकी मदद कर सकता हूं:",
+    "templateBuilder.aiChat.welcomeMessage": "नमस्ते! मैं आपका Flyto2 AI असिस्टेंट हूं। मैं आपकी मदद कर सकता हूं:",
     "templateBuilder.aiChat.welcomeQuestion": "आज आप क्या बनाना चाहेंगे?",
     "templateBuilder.alerts.enterTemplateName": "कृपया टेम्पलेट नाम दर्ज करें",
     "templateBuilder.alerts.gridSumMustBe12": "कॉलम चौड़ाई का योग 12 होना चाहिए",

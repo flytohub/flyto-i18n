@@ -12,7 +12,7 @@
     "landing.node.hero.notifyMe": "Notify Me",
     "landing.node.hero.notifySuccess": "You're on the list! We'll email you when it's ready.",
     "landing.node.hero.cliAvailable": "Need automation now?",
-    "landing.node.hero.tryCli": "Try Flyto Core (Python)",
+    "landing.node.hero.tryCli": "Try Flyto2 Core (Python)",
     "landing.node.features.title": "What's Coming",
     "landing.node.features.subtitle": "Native Node.js automation with first-class TypeScript support",
     "landing.node.features.typescript": "TypeScript First",

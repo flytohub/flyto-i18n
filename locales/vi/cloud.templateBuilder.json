@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "Xóa cuộc trò chuyện",
     "templateBuilder.aiChat.close": "Đóng",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "Giải thích cấu hình module",
     "templateBuilder.aiChat.welcomeFeature3": "Đề xuất tối ưu hóa",
     "templateBuilder.aiChat.welcomeFeature4": "Gỡ lỗi mẫu của bạn",
-    "templateBuilder.aiChat.welcomeMessage": "Xin chào! Tôi là trợ lý Flyto AI. Tôi có thể giúp bạn:",
+    "templateBuilder.aiChat.welcomeMessage": "Xin chào! Tôi là trợ lý Flyto2 AI. Tôi có thể giúp bạn:",
     "templateBuilder.aiChat.welcomeQuestion": "Bạn muốn xây dựng gì hôm nay?",
     "templateBuilder.alerts.enterTemplateName": "Vui lòng nhập tên mẫu",
     "templateBuilder.alerts.gridSumMustBe12": "Tổng chiều rộng cột phải bằng 12",

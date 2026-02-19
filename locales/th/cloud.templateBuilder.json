@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "ล้างแชท",
     "templateBuilder.aiChat.close": "ปิด",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "อธิบายการตั้งค่าโมดูล",
     "templateBuilder.aiChat.welcomeFeature3": "แนะนำการปรับปรุง",
     "templateBuilder.aiChat.welcomeFeature4": "ดีบักเทมเพลตของคุณ",
-    "templateBuilder.aiChat.welcomeMessage": "สวัสดี! ฉันคือผู้ช่วย Flyto AI ฉันช่วยคุณได้:",
+    "templateBuilder.aiChat.welcomeMessage": "สวัสดี! ฉันคือผู้ช่วย Flyto2 AI ฉันช่วยคุณได้:",
     "templateBuilder.aiChat.welcomeQuestion": "วันนี้คุณต้องการสร้างอะไร?",
     "templateBuilder.alerts.enterTemplateName": "กรุณากรอกชื่อเทมเพลต",
     "templateBuilder.alerts.gridSumMustBe12": "ผลรวมความกว้างคอลัมน์ต้องเท่ากับ 12",

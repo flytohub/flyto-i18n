@@ -100,7 +100,7 @@
     "cloud.offline.copied": "Copiado al portapapeles",
     "cloud.offline.copyFailed": "Error al copiar",
     "cloud.offline.copyValue": "Copiar valor",
-    "cloud.offline.coreNotConfigured": "Flyto Core no esta configurado",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core no esta configurado",
     "cloud.offline.corePath": "Ruta de Core",
     "cloud.offline.coreSettings": "Configuracion de Core",
     "cloud.offline.coreVersion": "Version de Core",

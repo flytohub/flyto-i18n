@@ -100,7 +100,7 @@
     "cloud.offline.copied": "Đã sao chép vào clipboard",
     "cloud.offline.copyFailed": "Không thể sao chép",
     "cloud.offline.copyValue": "Sao chép giá trị",
-    "cloud.offline.coreNotConfigured": "Flyto Core chưa được cấu hình",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core chưa được cấu hình",
     "cloud.offline.corePath": "Đường dẫn Core",
     "cloud.offline.coreSettings": "Cài đặt Core",
     "cloud.offline.coreVersion": "Phiên bản Core",

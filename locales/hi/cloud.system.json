@@ -100,7 +100,7 @@
     "cloud.offline.copied": "क्लिपबोर्ड पर कॉपी किया गया",
     "cloud.offline.copyFailed": "कॉपी करने में विफल",
     "cloud.offline.copyValue": "मान कॉपी करें",
-    "cloud.offline.coreNotConfigured": "Flyto Core कॉन्फ़िगर नहीं है",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core कॉन्फ़िगर नहीं है",
     "cloud.offline.corePath": "Core पथ",
     "cloud.offline.coreSettings": "Core सेटिंग्स",
     "cloud.offline.coreVersion": "Core संस्करण",

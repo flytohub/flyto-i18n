@@ -12,7 +12,7 @@
     "landing.node.hero.notifyMe": "通知我",
     "landing.node.hero.notifySuccess": "您已加入通知名單！上線時我們會發送郵件通知您。",
     "landing.node.hero.cliAvailable": "需要立即開始自動化？",
-    "landing.node.hero.tryCli": "試用 Flyto Core (Python)",
+    "landing.node.hero.tryCli": "試用 Flyto2 Core (Python)",
     "landing.node.features.title": "即將推出的功能",
     "landing.node.features.subtitle": "原生 Node.js 自動化，具有一流的 TypeScript 支援",
     "landing.node.features.typescript": "TypeScript 優先",

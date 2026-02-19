@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "Sohbeti temizle",
     "templateBuilder.aiChat.close": "Kapat",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "Modül yapılandırmalarını açıkla",
     "templateBuilder.aiChat.welcomeFeature3": "Optimizasyonlar öner",
     "templateBuilder.aiChat.welcomeFeature4": "Şablonlarınızda hata ayıkla",
-    "templateBuilder.aiChat.welcomeMessage": "Merhaba! Ben Flyto AI asistanınızım. Size yardımcı olabilirim:",
+    "templateBuilder.aiChat.welcomeMessage": "Merhaba! Ben Flyto2 AI asistanınızım. Size yardımcı olabilirim:",
     "templateBuilder.aiChat.welcomeQuestion": "Bugün ne yapmak istersiniz?",
     "templateBuilder.alerts.enterTemplateName": "Lütfen şablon adını girin",
     "templateBuilder.alerts.gridSumMustBe12": "Sütun genişliği toplamı 12 olmalıdır",

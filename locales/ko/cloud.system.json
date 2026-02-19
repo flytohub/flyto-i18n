@@ -100,7 +100,7 @@
     "cloud.offline.copied": "클립보드에 복사됨",
     "cloud.offline.copyFailed": "복사에 실패했습니다",
     "cloud.offline.copyValue": "값 복사",
-    "cloud.offline.coreNotConfigured": "Flyto Core가 구성되지 않았습니다",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core가 구성되지 않았습니다",
     "cloud.offline.corePath": "Core 경로",
     "cloud.offline.coreSettings": "Core 설정",
     "cloud.offline.coreVersion": "Core 버전",

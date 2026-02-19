@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "Cancella chat",
     "templateBuilder.aiChat.close": "Chiudi",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "Spiega configurazioni moduli",
     "templateBuilder.aiChat.welcomeFeature3": "Suggerisci ottimizzazioni",
     "templateBuilder.aiChat.welcomeFeature4": "Debug dei tuoi template",
-    "templateBuilder.aiChat.welcomeMessage": "Ciao! Sono il tuo assistente AI Flyto. Posso aiutarti a:",
+    "templateBuilder.aiChat.welcomeMessage": "Ciao! Sono il tuo assistente AI Flyto2. Posso aiutarti a:",
     "templateBuilder.aiChat.welcomeQuestion": "Cosa vorresti costruire oggi?",
     "templateBuilder.alerts.enterTemplateName": "Inserisci il nome del template",
     "templateBuilder.alerts.gridSumMustBe12": "La somma delle larghezze delle colonne deve essere 12",

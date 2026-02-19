@@ -100,7 +100,7 @@
     "cloud.offline.copied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
     "cloud.offline.copyFailed": "ไม่สามารถคัดลอกได้",
     "cloud.offline.copyValue": "คัดลอกค่า",
-    "cloud.offline.coreNotConfigured": "Flyto Core ยังไม่ได้กำหนดค่า",
+    "cloud.offline.coreNotConfigured": "Flyto2 Core ยังไม่ได้กำหนดค่า",
     "cloud.offline.corePath": "พาธ Core",
     "cloud.offline.coreSettings": "การตั้งค่า Core",
     "cloud.offline.coreVersion": "เวอร์ชัน Core",

@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "Hapus chat",
     "templateBuilder.aiChat.close": "Tutup",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "Jelaskan konfigurasi modul",
     "templateBuilder.aiChat.welcomeFeature3": "Sarankan optimasi",
     "templateBuilder.aiChat.welcomeFeature4": "Debug template Anda",
-    "templateBuilder.aiChat.welcomeMessage": "Hai! Saya asisten Flyto AI Anda. Saya dapat membantu Anda:",
+    "templateBuilder.aiChat.welcomeMessage": "Hai! Saya asisten Flyto2 AI Anda. Saya dapat membantu Anda:",
     "templateBuilder.aiChat.welcomeQuestion": "Apa yang ingin Anda buat hari ini?",
     "templateBuilder.alerts.enterTemplateName": "Silakan masukkan nama template",
     "templateBuilder.alerts.gridSumMustBe12": "Jumlah lebar kolom harus sama dengan 12",

@@ -100,7 +100,7 @@
     "cloud.offline.copied": "クリップボードにコピーしました",
     "cloud.offline.copyFailed": "コピーに失敗しました",
     "cloud.offline.copyValue": "値をコピー",
-    "cloud.offline.coreNotConfigured": "Flyto Coreが設定されていません",
+    "cloud.offline.coreNotConfigured": "Flyto2 Coreが設定されていません",
     "cloud.offline.corePath": "Coreパス",
     "cloud.offline.coreSettings": "Core設定",
     "cloud.offline.coreVersion": "Coreバージョン",

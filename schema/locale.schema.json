@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://flyto2.net/schemas/locale.schema.json",
-  "title": "Flyto i18n Locale File",
+  "title": "Flyto2 i18n Locale File",
   "description": "Schema for flyto-i18n translation files",
   "type": "object",
   "required": ["$schema", "locale", "category", "version", "translations"],

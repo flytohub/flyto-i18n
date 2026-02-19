@@ -12,7 +12,7 @@
     "landing.wasm.hero.notifyMe": "通知我",
     "landing.wasm.hero.notifySuccess": "您已加入通知名單！上線時我們會發送郵件通知您。",
     "landing.wasm.hero.cliAvailable": "需要立即開始自動化？",
-    "landing.wasm.hero.tryCli": "試用 Flyto Core (CLI)",
+    "landing.wasm.hero.tryCli": "試用 Flyto2 Core (CLI)",
     "landing.wasm.features.title": "即將推出的功能",
     "landing.wasm.features.subtitle": "由 WebAssembly 驅動的瀏覽器原生自動化",
     "landing.wasm.features.nearNative": "接近原生速度",

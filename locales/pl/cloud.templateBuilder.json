@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "Wyczysc czat",
     "templateBuilder.aiChat.close": "Zamknij",
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.welcomeFeature2": "Wyjasnij konfiguracje modulow",
     "templateBuilder.aiChat.welcomeFeature3": "Sugeruj optymalizacje",
     "templateBuilder.aiChat.welcomeFeature4": "Debuguj swoje szablony",
-    "templateBuilder.aiChat.welcomeMessage": "Czesc! Jestem Twoim asystentem Flyto AI. Moge Ci pomoc:",
+    "templateBuilder.aiChat.welcomeMessage": "Czesc! Jestem Twoim asystentem Flyto2 AI. Moge Ci pomoc:",
     "templateBuilder.aiChat.welcomeQuestion": "Co chcialbys dzisiaj zbudowac?",
     "templateBuilder.alerts.enterTemplateName": "Prosze podac nazwe szablonu",
     "templateBuilder.alerts.gridSumMustBe12": "Suma szerokosci kolumn musi wynosic 12",
