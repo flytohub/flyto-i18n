@@ -14,6 +14,22 @@
     "component.radio": "Botón de opción",
     "component.select": "Selección",
     "component.textarea": "Área de texto",
-    "component.urlInput": "Entrada de URL"
+    "component.urlInput": "Entrada de URL",
+    "component.switch": "Interruptor",
+    "component.date": "Fecha",
+    "component.time": "Hora",
+    "component.datetime": "Fecha y hora",
+    "component.colorPicker": "Selector de color",
+    "component.pathInput": "Entrada de ruta",
+    "component.tagInput": "Entrada de etiquetas",
+    "component.keyValue": "Clave-valor",
+    "component.jsonEditor": "Editor JSON",
+    "component.slider": "Control deslizante",
+    "component.rating": "Calificación",
+    "component.fileUpload": "Carga de archivo",
+    "component.heading": "Encabezado",
+    "component.text": "Texto",
+    "component.textInput": "Entrada de texto",
+    "component.image": "Imagen"
   }
 }

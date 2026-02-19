@@ -14,6 +14,22 @@
     "component.radio": "रेडियो बटन",
     "component.select": "सेलेक्ट",
     "component.textarea": "टेक्स्टएरिया",
-    "component.urlInput": "URL इनपुट"
+    "component.urlInput": "URL इनपुट",
+    "component.switch": "स्विच",
+    "component.date": "तारीख",
+    "component.time": "समय",
+    "component.datetime": "तारीख और समय",
+    "component.colorPicker": "रंग चयनकर्ता",
+    "component.pathInput": "पथ इनपुट",
+    "component.tagInput": "टैग इनपुट",
+    "component.keyValue": "की-वैल्यू",
+    "component.jsonEditor": "JSON एडिटर",
+    "component.slider": "स्लाइडर",
+    "component.rating": "रेटिंग",
+    "component.fileUpload": "फ़ाइल अपलोड",
+    "component.heading": "शीर्षक",
+    "component.text": "टेक्स्ट",
+    "component.textInput": "टेक्स्ट इनपुट",
+    "component.image": "छवि"
   }
 }

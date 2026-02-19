@@ -14,6 +14,22 @@
     "component.radio": "Bouton radio",
     "component.select": "Liste deroulante",
     "component.textarea": "Zone de texte",
-    "component.urlInput": "Champ URL"
+    "component.urlInput": "Champ URL",
+    "component.switch": "Interrupteur",
+    "component.date": "Date",
+    "component.time": "Heure",
+    "component.datetime": "Date et heure",
+    "component.colorPicker": "Sélecteur de couleur",
+    "component.pathInput": "Champ chemin",
+    "component.tagInput": "Champ étiquettes",
+    "component.keyValue": "Clé-valeur",
+    "component.jsonEditor": "Éditeur JSON",
+    "component.slider": "Curseur",
+    "component.rating": "Évaluation",
+    "component.fileUpload": "Téléchargement de fichier",
+    "component.heading": "Titre",
+    "component.text": "Texte",
+    "component.textInput": "Champ texte",
+    "component.image": "Image"
   }
 }

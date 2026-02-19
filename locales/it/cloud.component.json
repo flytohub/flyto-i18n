@@ -14,6 +14,22 @@
     "component.radio": "Pulsante Radio",
     "component.select": "Selezione",
     "component.textarea": "Area di Testo",
-    "component.urlInput": "Input URL"
+    "component.urlInput": "Input URL",
+    "component.switch": "Interruttore",
+    "component.date": "Data",
+    "component.time": "Ora",
+    "component.datetime": "Data e ora",
+    "component.colorPicker": "Selettore colore",
+    "component.pathInput": "Input percorso",
+    "component.tagInput": "Input tag",
+    "component.keyValue": "Chiave-valore",
+    "component.jsonEditor": "Editor JSON",
+    "component.slider": "Cursore",
+    "component.rating": "Valutazione",
+    "component.fileUpload": "Caricamento file",
+    "component.heading": "Intestazione",
+    "component.text": "Testo",
+    "component.textInput": "Input testo",
+    "component.image": "Immagine"
   }
 }

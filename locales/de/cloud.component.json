@@ -14,6 +14,22 @@
     "component.radio": "Optionsfeld",
     "component.select": "Auswahl",
     "component.textarea": "Textbereich",
-    "component.urlInput": "URL-Eingabe"
+    "component.urlInput": "URL-Eingabe",
+    "component.switch": "Schalter",
+    "component.date": "Datum",
+    "component.time": "Uhrzeit",
+    "component.datetime": "Datum & Uhrzeit",
+    "component.colorPicker": "Farbwähler",
+    "component.pathInput": "Pfadeingabe",
+    "component.tagInput": "Tag-Eingabe",
+    "component.keyValue": "Schlüssel-Wert",
+    "component.jsonEditor": "JSON-Editor",
+    "component.slider": "Schieberegler",
+    "component.rating": "Bewertung",
+    "component.fileUpload": "Datei-Upload",
+    "component.heading": "Überschrift",
+    "component.text": "Text",
+    "component.textInput": "Texteingabe",
+    "component.image": "Bild"
   }
 }

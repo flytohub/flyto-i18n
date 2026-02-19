@@ -14,6 +14,22 @@
     "component.radio": "Radyo Düğmesi",
     "component.select": "Seçim",
     "component.textarea": "Metin Alanı",
-    "component.urlInput": "URL Girişi"
+    "component.urlInput": "URL Girişi",
+    "component.switch": "Anahtar",
+    "component.date": "Tarih",
+    "component.time": "Saat",
+    "component.datetime": "Tarih ve Saat",
+    "component.colorPicker": "Renk Seçici",
+    "component.pathInput": "Yol Girişi",
+    "component.tagInput": "Etiket Girişi",
+    "component.keyValue": "Anahtar-Değer",
+    "component.jsonEditor": "JSON Düzenleyici",
+    "component.slider": "Kaydırıcı",
+    "component.rating": "Değerlendirme",
+    "component.fileUpload": "Dosya Yükleme",
+    "component.heading": "Başlık",
+    "component.text": "Metin",
+    "component.textInput": "Metin Girişi",
+    "component.image": "Görsel"
   }
 }

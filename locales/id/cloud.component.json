@@ -14,6 +14,22 @@
     "component.radio": "Tombol Radio",
     "component.select": "Pilih",
     "component.textarea": "Area Teks",
-    "component.urlInput": "Input URL"
+    "component.urlInput": "Input URL",
+    "component.switch": "Sakelar",
+    "component.date": "Tanggal",
+    "component.time": "Waktu",
+    "component.datetime": "Tanggal & Waktu",
+    "component.colorPicker": "Pemilih Warna",
+    "component.pathInput": "Input Jalur",
+    "component.tagInput": "Input Tag",
+    "component.keyValue": "Kunci-Nilai",
+    "component.jsonEditor": "Editor JSON",
+    "component.slider": "Penggeser",
+    "component.rating": "Penilaian",
+    "component.fileUpload": "Unggah File",
+    "component.heading": "Judul",
+    "component.text": "Teks",
+    "component.textInput": "Input Teks",
+    "component.image": "Gambar"
   }
 }
