@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "footer.copyright": "© {year} Flyto2. All rights reserved.",
-    "footer.description": "Powerful visual workflow editor that integrates hundreds of applications, making automation easy for everyone."
+    "footer.description": "Powerful visual workflow editor that integrates hundreds of applications, making automation easy for everyone.",
+    "footer.disclaimer": "All automation tasks run on the user's own device. Users are responsible for ensuring their usage complies with target websites' terms of service and applicable laws."
   }
 }
