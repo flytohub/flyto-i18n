@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "Vấn đề",
+    "newIssue": "Vấn đề mới",
+    "noIssues": "Không tìm thấy vấn đề nào.",
+    "backToList": "Quay lại danh sách",
+    "openedBy": "Mở bởi",
+    "close": "Đóng",
+    "reopen": "Mở lại",
+    "submit": "Gửi",
+    "comments": "Bình luận",
+    "noComments": "Chưa có bình luận nào. Hãy là người đầu tiên!",
+    "commentPlaceholder": "Viết bình luận...",
+    "submitComment": "Bình luận",
+    "loginToComment": "Vui lòng đăng nhập để bình luận.",
+    "titleLabel": "Tiêu đề",
+    "titlePlaceholder": "Mô tả ngắn về vấn đề",
+    "typeLabel": "Loại",
+    "descriptionLabel": "Mô tả",
+    "descriptionPlaceholder": "Mô tả chi tiết vấn đề...",
+    "allTypes": "Tất cả loại",
+    "statusAll": "Tất cả",
+    "status": {
+      "open": "Mở",
+      "in_progress": "Đang xử lý",
+      "closed": "Đã đóng"
+    },
+    "type": {
+      "bug": "Lỗi",
+      "feature": "Tính năng",
+      "question": "Câu hỏi"
+    },
+    "priority": {
+      "low": "Thấp",
+      "medium": "Trung bình",
+      "high": "Cao"
+    },
+    "sort": {
+      "newest": "Mới nhất",
+      "oldest": "Cũ nhất",
+      "most_upvoted": "Nhiều vote nhất",
+      "recently_updated": "Cập nhật gần đây"
+    },
+    "time": {
+      "justNow": "vừa xong",
+      "minutesAgo": "{n} phút trước",
+      "hoursAgo": "{n} giờ trước",
+      "daysAgo": "{n} ngày trước"
+    },
+    "write": "Viết",
+    "preview": "Xem trước",
+    "markdownSupported": "Hỗ trợ Markdown",
+    "previewEmpty": "Không có nội dung xem trước",
+    "uploadImages": "Tải ảnh lên",
+    "dragOrPaste": "Kéo, dán hoặc nhấp để tải lên",
+    "maxImages": "Tối đa {n} ảnh",
+    "uploading": "Đang tải lên...",
+    "priorityLabel": "Mức ưu tiên",
+    "imagePreview": "Xem trước ảnh"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "Zgłoszenia",
+    "newIssue": "Nowe zgłoszenie",
+    "noIssues": "Nie znaleziono zgłoszeń.",
+    "backToList": "Powrót do listy",
+    "openedBy": "Zgłoszone przez",
+    "close": "Zamknij",
+    "reopen": "Otwórz ponownie",
+    "submit": "Wyślij",
+    "comments": "Komentarze",
+    "noComments": "Brak komentarzy. Bądź pierwszy!",
+    "commentPlaceholder": "Napisz komentarz...",
+    "submitComment": "Skomentuj",
+    "loginToComment": "Zaloguj się, aby komentować.",
+    "titleLabel": "Tytuł",
+    "titlePlaceholder": "Krótki opis problemu",
+    "typeLabel": "Typ",
+    "descriptionLabel": "Opis",
+    "descriptionPlaceholder": "Opisz problem szczegółowo...",
+    "allTypes": "Wszystkie typy",
+    "statusAll": "Wszystkie",
+    "status": {
+      "open": "Otwarty",
+      "in_progress": "W trakcie",
+      "closed": "Zamknięty"
+    },
+    "type": {
+      "bug": "Błąd",
+      "feature": "Funkcja",
+      "question": "Pytanie"
+    },
+    "priority": {
+      "low": "Niski",
+      "medium": "Średni",
+      "high": "Wysoki"
+    },
+    "sort": {
+      "newest": "Najnowsze",
+      "oldest": "Najstarsze",
+      "most_upvoted": "Najwięcej głosów",
+      "recently_updated": "Ostatnio zaktualizowane"
+    },
+    "time": {
+      "justNow": "właśnie teraz",
+      "minutesAgo": "{n} min temu",
+      "hoursAgo": "{n} godz. temu",
+      "daysAgo": "{n} dni temu"
+    },
+    "write": "Pisz",
+    "preview": "Podgląd",
+    "markdownSupported": "Markdown obsługiwany",
+    "previewEmpty": "Brak treści do podglądu",
+    "uploadImages": "Prześlij obrazy",
+    "dragOrPaste": "Przeciągnij, wklej lub kliknij, aby przesłać",
+    "maxImages": "Maksymalnie {n} obrazów",
+    "uploading": "Przesyłanie...",
+    "priorityLabel": "Priorytet",
+    "imagePreview": "Podgląd obrazu"
+  }
+}

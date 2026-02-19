@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "समस्याएं",
+    "newIssue": "नई समस्या",
+    "noIssues": "कोई समस्या नहीं मिली।",
+    "backToList": "सूची पर वापस",
+    "openedBy": "द्वारा खोला गया",
+    "close": "बंद करें",
+    "reopen": "फिर से खोलें",
+    "submit": "जमा करें",
+    "comments": "टिप्पणियाँ",
+    "noComments": "अभी तक कोई टिप्पणी नहीं। पहले टिप्पणी करें!",
+    "commentPlaceholder": "टिप्पणी लिखें...",
+    "submitComment": "टिप्पणी",
+    "loginToComment": "टिप्पणी करने के लिए लॉगिन करें।",
+    "titleLabel": "शीर्षक",
+    "titlePlaceholder": "समस्या का संक्षिप्त विवरण",
+    "typeLabel": "प्रकार",
+    "descriptionLabel": "विवरण",
+    "descriptionPlaceholder": "समस्या का विस्तार से वर्णन करें...",
+    "allTypes": "सभी प्रकार",
+    "statusAll": "सभी",
+    "status": {
+      "open": "खुला",
+      "in_progress": "प्रगति में",
+      "closed": "बंद"
+    },
+    "type": {
+      "bug": "बग",
+      "feature": "फीचर",
+      "question": "प्रश्न"
+    },
+    "priority": {
+      "low": "कम",
+      "medium": "मध्यम",
+      "high": "उच्च"
+    },
+    "sort": {
+      "newest": "नवीनतम",
+      "oldest": "सबसे पुराना",
+      "most_upvoted": "सबसे अधिक वोट",
+      "recently_updated": "हाल में अपडेट"
+    },
+    "time": {
+      "justNow": "अभी",
+      "minutesAgo": "{n} मिनट पहले",
+      "hoursAgo": "{n} घंटे पहले",
+      "daysAgo": "{n} दिन पहले"
+    },
+    "write": "लिखें",
+    "preview": "पूर्वावलोकन",
+    "markdownSupported": "Markdown समर्थित",
+    "previewEmpty": "पूर्वावलोकन के लिए कुछ नहीं",
+    "uploadImages": "छवियाँ अपलोड करें",
+    "dragOrPaste": "खींचें, पेस्ट करें या अपलोड करने के लिए क्लिक करें",
+    "maxImages": "अधिकतम {n} छवियाँ",
+    "uploading": "अपलोड हो रहा है...",
+    "priorityLabel": "प्राथमिकता",
+    "imagePreview": "छवि पूर्वावलोकन"
+  }
+}

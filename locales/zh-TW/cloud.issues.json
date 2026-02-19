@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "問題回報",
+    "newIssue": "新增問題",
+    "noIssues": "尚無問題。",
+    "backToList": "返回列表",
+    "openedBy": "提交者",
+    "close": "關閉",
+    "reopen": "重新開啟",
+    "submit": "送出",
+    "comments": "留言",
+    "noComments": "尚無留言，成為第一個留言的人！",
+    "commentPlaceholder": "輸入留言...",
+    "submitComment": "留言",
+    "loginToComment": "請登入以留言。",
+    "titleLabel": "標題",
+    "titlePlaceholder": "簡要描述問題",
+    "typeLabel": "類型",
+    "descriptionLabel": "描述",
+    "descriptionPlaceholder": "詳細描述問題...",
+    "allTypes": "所有類型",
+    "statusAll": "全部",
+    "status": {
+      "open": "開啟",
+      "in_progress": "處理中",
+      "closed": "已關閉"
+    },
+    "type": {
+      "bug": "Bug",
+      "feature": "功能請求",
+      "question": "問題"
+    },
+    "priority": {
+      "low": "低",
+      "medium": "中",
+      "high": "高"
+    },
+    "sort": {
+      "newest": "最新",
+      "oldest": "最舊",
+      "most_upvoted": "最多投票",
+      "recently_updated": "最近更新"
+    },
+    "time": {
+      "justNow": "剛剛",
+      "minutesAgo": "{n} 分鐘前",
+      "hoursAgo": "{n} 小時前",
+      "daysAgo": "{n} 天前"
+    },
+    "write": "撰寫",
+    "preview": "預覽",
+    "markdownSupported": "支援 Markdown",
+    "previewEmpty": "沒有可預覽的內容",
+    "uploadImages": "上傳圖片",
+    "dragOrPaste": "拖曳、貼上或點擊上傳",
+    "maxImages": "最多 {n} 張圖片",
+    "uploading": "上傳中...",
+    "priorityLabel": "優先度",
+    "imagePreview": "圖片預覽"
+  }
+}

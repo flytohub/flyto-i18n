@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "Masalah",
+    "newIssue": "Masalah Baru",
+    "noIssues": "Tidak ada masalah ditemukan.",
+    "backToList": "Kembali ke daftar",
+    "openedBy": "Dibuka oleh",
+    "close": "Tutup",
+    "reopen": "Buka kembali",
+    "submit": "Kirim",
+    "comments": "Komentar",
+    "noComments": "Belum ada komentar. Jadilah yang pertama!",
+    "commentPlaceholder": "Tulis komentar...",
+    "submitComment": "Komentar",
+    "loginToComment": "Silakan masuk untuk berkomentar.",
+    "titleLabel": "Judul",
+    "titlePlaceholder": "Deskripsi singkat masalah",
+    "typeLabel": "Tipe",
+    "descriptionLabel": "Deskripsi",
+    "descriptionPlaceholder": "Jelaskan masalah secara detail...",
+    "allTypes": "Semua tipe",
+    "statusAll": "Semua",
+    "status": {
+      "open": "Terbuka",
+      "in_progress": "Sedang Diproses",
+      "closed": "Ditutup"
+    },
+    "type": {
+      "bug": "Bug",
+      "feature": "Fitur",
+      "question": "Pertanyaan"
+    },
+    "priority": {
+      "low": "Rendah",
+      "medium": "Sedang",
+      "high": "Tinggi"
+    },
+    "sort": {
+      "newest": "Terbaru",
+      "oldest": "Terlama",
+      "most_upvoted": "Terbanyak vote",
+      "recently_updated": "Baru diperbarui"
+    },
+    "time": {
+      "justNow": "baru saja",
+      "minutesAgo": "{n} menit lalu",
+      "hoursAgo": "{n} jam lalu",
+      "daysAgo": "{n} hari lalu"
+    },
+    "write": "Tulis",
+    "preview": "Pratinjau",
+    "markdownSupported": "Mendukung Markdown",
+    "previewEmpty": "Tidak ada yang ditampilkan",
+    "uploadImages": "Unggah Gambar",
+    "dragOrPaste": "Seret, tempel, atau klik untuk mengunggah",
+    "maxImages": "Maksimal {n} gambar",
+    "uploading": "Mengunggah...",
+    "priorityLabel": "Prioritas",
+    "imagePreview": "Pratinjau Gambar"
+  }
+}

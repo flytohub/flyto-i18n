@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "イシュー",
+    "newIssue": "新規イシュー",
+    "noIssues": "イシューが見つかりません。",
+    "backToList": "一覧に戻る",
+    "openedBy": "作成者",
+    "close": "閉じる",
+    "reopen": "再開する",
+    "submit": "送信",
+    "comments": "コメント",
+    "noComments": "コメントはまだありません。最初のコメントを残しましょう！",
+    "commentPlaceholder": "コメントを入力...",
+    "submitComment": "コメント",
+    "loginToComment": "コメントするにはログインしてください。",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "問題の簡潔な説明",
+    "typeLabel": "タイプ",
+    "descriptionLabel": "説明",
+    "descriptionPlaceholder": "問題を詳しく説明してください...",
+    "allTypes": "すべてのタイプ",
+    "statusAll": "すべて",
+    "status": {
+      "open": "オープン",
+      "in_progress": "進行中",
+      "closed": "クローズ"
+    },
+    "type": {
+      "bug": "バグ",
+      "feature": "機能要望",
+      "question": "質問"
+    },
+    "priority": {
+      "low": "低",
+      "medium": "中",
+      "high": "高"
+    },
+    "sort": {
+      "newest": "最新",
+      "oldest": "最古",
+      "most_upvoted": "投票数順",
+      "recently_updated": "最近更新"
+    },
+    "time": {
+      "justNow": "たった今",
+      "minutesAgo": "{n}分前",
+      "hoursAgo": "{n}時間前",
+      "daysAgo": "{n}日前"
+    },
+    "write": "入力",
+    "preview": "プレビュー",
+    "markdownSupported": "Markdown対応",
+    "previewEmpty": "プレビューする内容がありません",
+    "uploadImages": "画像をアップロード",
+    "dragOrPaste": "ドラッグ、貼り付け、またはクリックでアップロード",
+    "maxImages": "最大{n}枚",
+    "uploading": "アップロード中...",
+    "priorityLabel": "優先度",
+    "imagePreview": "画像プレビュー"
+  }
+}

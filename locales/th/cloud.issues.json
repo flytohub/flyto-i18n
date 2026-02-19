@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "ปัญหา",
+    "newIssue": "ปัญหาใหม่",
+    "noIssues": "ไม่พบปัญหา",
+    "backToList": "กลับไปยังรายการ",
+    "openedBy": "เปิดโดย",
+    "close": "ปิด",
+    "reopen": "เปิดอีกครั้ง",
+    "submit": "ส่ง",
+    "comments": "ความคิดเห็น",
+    "noComments": "ยังไม่มีความคิดเห็น เป็นคนแรกที่แสดงความคิดเห็น!",
+    "commentPlaceholder": "เขียนความคิดเห็น...",
+    "submitComment": "แสดงความคิดเห็น",
+    "loginToComment": "กรุณาเข้าสู่ระบบเพื่อแสดงความคิดเห็น",
+    "titleLabel": "หัวข้อ",
+    "titlePlaceholder": "อธิบายปัญหาสั้นๆ",
+    "typeLabel": "ประเภท",
+    "descriptionLabel": "รายละเอียด",
+    "descriptionPlaceholder": "อธิบายปัญหาอย่างละเอียด...",
+    "allTypes": "ทุกประเภท",
+    "statusAll": "ทั้งหมด",
+    "status": {
+      "open": "เปิด",
+      "in_progress": "กำลังดำเนินการ",
+      "closed": "ปิดแล้ว"
+    },
+    "type": {
+      "bug": "บัก",
+      "feature": "ฟีเจอร์",
+      "question": "คำถาม"
+    },
+    "priority": {
+      "low": "ต่ำ",
+      "medium": "ปานกลาง",
+      "high": "สูง"
+    },
+    "sort": {
+      "newest": "ใหม่สุด",
+      "oldest": "เก่าสุด",
+      "most_upvoted": "โหวตมากสุด",
+      "recently_updated": "อัปเดตล่าสุด"
+    },
+    "time": {
+      "justNow": "เมื่อสักครู่",
+      "minutesAgo": "{n} นาทีที่แล้ว",
+      "hoursAgo": "{n} ชั่วโมงที่แล้ว",
+      "daysAgo": "{n} วันที่แล้ว"
+    },
+    "write": "เขียน",
+    "preview": "ดูตัวอย่าง",
+    "markdownSupported": "รองรับ Markdown",
+    "previewEmpty": "ไม่มีเนื้อหาให้ดูตัวอย่าง",
+    "uploadImages": "อัปโหลดรูปภาพ",
+    "dragOrPaste": "ลาก วาง หรือคลิกเพื่ออัปโหลด",
+    "maxImages": "สูงสุด {n} รูป",
+    "uploading": "กำลังอัปโหลด...",
+    "priorityLabel": "ลำดับความสำคัญ",
+    "imagePreview": "ดูตัวอย่างรูปภาพ"
+  }
+}

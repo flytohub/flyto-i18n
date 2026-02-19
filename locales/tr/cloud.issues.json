@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "Sorunlar",
+    "newIssue": "Yeni Sorun",
+    "noIssues": "Sorun bulunamadı.",
+    "backToList": "Listeye dön",
+    "openedBy": "Açan",
+    "close": "Kapat",
+    "reopen": "Yeniden aç",
+    "submit": "Gönder",
+    "comments": "Yorumlar",
+    "noComments": "Henüz yorum yok. İlk yorumu yapın!",
+    "commentPlaceholder": "Yorum yazın...",
+    "submitComment": "Yorum yap",
+    "loginToComment": "Yorum yapmak için giriş yapın.",
+    "titleLabel": "Başlık",
+    "titlePlaceholder": "Sorunun kısa açıklaması",
+    "typeLabel": "Tür",
+    "descriptionLabel": "Açıklama",
+    "descriptionPlaceholder": "Sorunu ayrıntılı açıklayın...",
+    "allTypes": "Tüm türler",
+    "statusAll": "Tümü",
+    "status": {
+      "open": "Açık",
+      "in_progress": "Devam ediyor",
+      "closed": "Kapalı"
+    },
+    "type": {
+      "bug": "Hata",
+      "feature": "Özellik",
+      "question": "Soru"
+    },
+    "priority": {
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek"
+    },
+    "sort": {
+      "newest": "En yeni",
+      "oldest": "En eski",
+      "most_upvoted": "En çok oylanan",
+      "recently_updated": "Son güncellenen"
+    },
+    "time": {
+      "justNow": "az önce",
+      "minutesAgo": "{n} dk önce",
+      "hoursAgo": "{n}s önce",
+      "daysAgo": "{n}g önce"
+    },
+    "write": "Yaz",
+    "preview": "Önizleme",
+    "markdownSupported": "Markdown desteklenir",
+    "previewEmpty": "Önizlenecek bir şey yok",
+    "uploadImages": "Resim yükle",
+    "dragOrPaste": "Sürükle, yapıştır veya yüklemek için tıkla",
+    "maxImages": "En fazla {n} resim",
+    "uploading": "Yükleniyor...",
+    "priorityLabel": "Öncelik",
+    "imagePreview": "Resim önizleme"
+  }
+}

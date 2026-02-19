@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "이슈",
+    "newIssue": "새 이슈",
+    "noIssues": "이슈가 없습니다.",
+    "backToList": "목록으로 돌아가기",
+    "openedBy": "작성자",
+    "close": "닫기",
+    "reopen": "다시 열기",
+    "submit": "제출",
+    "comments": "댓글",
+    "noComments": "아직 댓글이 없습니다. 첫 번째 댓글을 남겨보세요!",
+    "commentPlaceholder": "댓글을 입력하세요...",
+    "submitComment": "댓글",
+    "loginToComment": "댓글을 작성하려면 로그인하세요.",
+    "titleLabel": "제목",
+    "titlePlaceholder": "이슈에 대한 간단한 설명",
+    "typeLabel": "유형",
+    "descriptionLabel": "설명",
+    "descriptionPlaceholder": "이슈를 자세히 설명해주세요...",
+    "allTypes": "모든 유형",
+    "statusAll": "전체",
+    "status": {
+      "open": "열림",
+      "in_progress": "진행 중",
+      "closed": "닫힘"
+    },
+    "type": {
+      "bug": "버그",
+      "feature": "기능 요청",
+      "question": "질문"
+    },
+    "priority": {
+      "low": "낮음",
+      "medium": "보통",
+      "high": "높음"
+    },
+    "sort": {
+      "newest": "최신순",
+      "oldest": "오래된 순",
+      "most_upvoted": "추천순",
+      "recently_updated": "최근 업데이트"
+    },
+    "time": {
+      "justNow": "방금",
+      "minutesAgo": "{n}분 전",
+      "hoursAgo": "{n}시간 전",
+      "daysAgo": "{n}일 전"
+    },
+    "write": "작성",
+    "preview": "미리보기",
+    "markdownSupported": "Markdown 지원",
+    "previewEmpty": "미리볼 내용이 없습니다",
+    "uploadImages": "이미지 업로드",
+    "dragOrPaste": "드래그, 붙여넣기 또는 클릭하여 업로드",
+    "maxImages": "최대 {n}장",
+    "uploading": "업로드 중...",
+    "priorityLabel": "우선순위",
+    "imagePreview": "이미지 미리보기"
+  }
+}

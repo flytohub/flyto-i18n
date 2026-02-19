@@ -1,0 +1,61 @@
+{
+  "issues": {
+    "title": "Issues",
+    "newIssue": "New Issue",
+    "noIssues": "No issues found.",
+    "backToList": "Back to issues",
+    "openedBy": "Opened by",
+    "close": "Close",
+    "reopen": "Reopen",
+    "submit": "Submit",
+    "comments": "Comments",
+    "noComments": "No comments yet. Be the first to comment!",
+    "commentPlaceholder": "Leave a comment...",
+    "submitComment": "Comment",
+    "loginToComment": "Please log in to comment.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Brief description of the issue",
+    "typeLabel": "Type",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Describe the issue in detail...",
+    "allTypes": "All types",
+    "statusAll": "All",
+    "status": {
+      "open": "Open",
+      "in_progress": "In Progress",
+      "closed": "Closed"
+    },
+    "type": {
+      "bug": "Bug",
+      "feature": "Feature",
+      "question": "Question"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "sort": {
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "most_upvoted": "Most upvoted",
+      "recently_updated": "Recently updated"
+    },
+    "time": {
+      "justNow": "just now",
+      "minutesAgo": "{n} min ago",
+      "hoursAgo": "{n}h ago",
+      "daysAgo": "{n}d ago"
+    },
+    "write": "Write",
+    "preview": "Preview",
+    "markdownSupported": "Markdown supported",
+    "previewEmpty": "Nothing to preview",
+    "uploadImages": "Upload Images",
+    "dragOrPaste": "Drag, paste, or click to upload",
+    "maxImages": "Max {n} images",
+    "uploading": "Uploading...",
+    "priorityLabel": "Priority",
+    "imagePreview": "Image Preview"
+  }
+}
