@@ -8,6 +8,13 @@
     "templateCategory.dataProcessing": "データ処理",
     "templateCategory.productivity": "生産性",
     "templateCategory.socialMedia": "ソーシャルメディア",
-    "templateCategory.webScraping": "Webスクレイピング"
+    "templateCategory.webScraping": "Webスクレイピング",
+    "templateCategory.api": "API",
+    "templateCategory.media": "メディア",
+    "templateCategory.notification": "通知",
+    "templateCategory.ai": "AI",
+    "templateCategory.file": "ファイル",
+    "templateCategory.monitoring": "モニタリング",
+    "templateCategory.developer": "開発ツール"
   }
 }

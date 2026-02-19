@@ -8,6 +8,13 @@
     "templateCategory.dataProcessing": "Elaborazione Dati",
     "templateCategory.productivity": "Produttivita",
     "templateCategory.socialMedia": "Social Media",
-    "templateCategory.webScraping": "Web Scraping"
+    "templateCategory.webScraping": "Web Scraping",
+    "templateCategory.api": "API",
+    "templateCategory.media": "Media",
+    "templateCategory.notification": "Notifiche",
+    "templateCategory.ai": "IA",
+    "templateCategory.file": "File",
+    "templateCategory.monitoring": "Monitoraggio",
+    "templateCategory.developer": "Strumenti Dev"
   }
 }

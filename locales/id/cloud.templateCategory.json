@@ -8,6 +8,13 @@
     "templateCategory.dataProcessing": "Pemrosesan Data",
     "templateCategory.productivity": "Produktivitas",
     "templateCategory.socialMedia": "Media Sosial",
-    "templateCategory.webScraping": "Web Scraping"
+    "templateCategory.webScraping": "Web Scraping",
+    "templateCategory.api": "API",
+    "templateCategory.media": "Media",
+    "templateCategory.notification": "Notifikasi",
+    "templateCategory.ai": "AI",
+    "templateCategory.file": "File",
+    "templateCategory.monitoring": "Pemantauan",
+    "templateCategory.developer": "Alat Pengembang"
   }
 }

@@ -8,6 +8,13 @@
     "templateCategory.dataProcessing": "Xử lý dữ liệu",
     "templateCategory.productivity": "Năng suất",
     "templateCategory.socialMedia": "Mạng xã hội",
-    "templateCategory.webScraping": "Thu thập dữ liệu web"
+    "templateCategory.webScraping": "Thu thập dữ liệu web",
+    "templateCategory.api": "API",
+    "templateCategory.media": "Phương tiện",
+    "templateCategory.notification": "Thông báo",
+    "templateCategory.ai": "AI",
+    "templateCategory.file": "Tệp",
+    "templateCategory.monitoring": "Giám sát",
+    "templateCategory.developer": "Công cụ Dev"
   }
 }

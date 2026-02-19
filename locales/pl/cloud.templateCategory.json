@@ -8,6 +8,13 @@
     "templateCategory.dataProcessing": "Przetwarzanie danych",
     "templateCategory.productivity": "Produktywnosc",
     "templateCategory.socialMedia": "Media spolecznosciowe",
-    "templateCategory.webScraping": "Web Scraping"
+    "templateCategory.webScraping": "Web Scraping",
+    "templateCategory.api": "API",
+    "templateCategory.media": "Media",
+    "templateCategory.notification": "Powiadomienia",
+    "templateCategory.ai": "AI",
+    "templateCategory.file": "Pliki",
+    "templateCategory.monitoring": "Monitoring",
+    "templateCategory.developer": "Narzedzia Dev"
   }
 }
