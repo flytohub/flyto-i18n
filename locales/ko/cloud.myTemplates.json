@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "설치됨",
     "myTemplates.title": "내 템플릿",
     "myTemplates.updateSettingsFailed": "설정 업데이트 실패",
-    "myTemplates.updateSettingsSuccess": "설정이 성공적으로 업데이트되었습니다"
+    "myTemplates.updateSettingsSuccess": "설정이 성공적으로 업데이트되었습니다",
+    "myTemplates.addToLibrarySuccess": "템플릿이 라이브러리에 추가되었습니다",
+    "myTemplates.addToLibraryFailed": "템플릿을 라이브러리에 추가하지 못했습니다"
   }
 }

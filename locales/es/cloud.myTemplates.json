@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Instaladas",
     "myTemplates.title": "Mis plantillas",
     "myTemplates.updateSettingsFailed": "No se pudo actualizar la configuración",
-    "myTemplates.updateSettingsSuccess": "Configuración actualizada con éxito"
+    "myTemplates.updateSettingsSuccess": "Configuración actualizada con éxito",
+    "myTemplates.addToLibrarySuccess": "Plantilla añadida a la biblioteca",
+    "myTemplates.addToLibraryFailed": "Error al añadir la plantilla a la biblioteca"
   }
 }

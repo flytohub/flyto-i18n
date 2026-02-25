@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Installes",
     "myTemplates.title": "Mes modeles",
     "myTemplates.updateSettingsFailed": "Échec de la mise à jour des paramètres",
-    "myTemplates.updateSettingsSuccess": "Paramètres mis à jour avec succès"
+    "myTemplates.updateSettingsSuccess": "Paramètres mis à jour avec succès",
+    "myTemplates.addToLibrarySuccess": "Modèle ajouté à la bibliothèque",
+    "myTemplates.addToLibraryFailed": "Échec de l'ajout du modèle à la bibliothèque"
   }
 }

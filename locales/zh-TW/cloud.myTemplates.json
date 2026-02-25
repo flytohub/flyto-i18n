@@ -40,6 +40,8 @@
     "myTemplates.joinCollaboration": "加入協作",
     "myTemplates.join.subtitle": "輸入邀請碼即時協作編輯",
     "myTemplates.join.success": "加入成功！正在跳轉...",
-    "myTemplates.updateSettingsSuccess": "設定更新成功"
+    "myTemplates.updateSettingsSuccess": "設定更新成功",
+    "myTemplates.addToLibrarySuccess": "模板已加入收藏庫",
+    "myTemplates.addToLibraryFailed": "加入收藏庫失敗"
   }
 }

@@ -40,6 +40,8 @@
     "myTemplates.joinCollaboration": "Join Collaboration",
     "myTemplates.join.subtitle": "Enter the invite code to collaborate in real-time",
     "myTemplates.join.success": "Joined successfully! Redirecting...",
-    "myTemplates.updateSettingsSuccess": "Settings updated successfully"
+    "myTemplates.updateSettingsSuccess": "Settings updated successfully",
+    "myTemplates.addToLibrarySuccess": "Template added to library",
+    "myTemplates.addToLibraryFailed": "Failed to add template to library"
   }
 }

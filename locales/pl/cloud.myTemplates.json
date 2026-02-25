@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Zainstalowane",
     "myTemplates.title": "Moje szablony",
     "myTemplates.updateSettingsFailed": "Nie udało się zaktualizować ustawień",
-    "myTemplates.updateSettingsSuccess": "Ustawienia zostały pomyślnie zaktualizowane"
+    "myTemplates.updateSettingsSuccess": "Ustawienia zostały pomyślnie zaktualizowane",
+    "myTemplates.addToLibrarySuccess": "Szablon dodany do biblioteki",
+    "myTemplates.addToLibraryFailed": "Nie udało się dodać szablonu do biblioteki"
   }
 }

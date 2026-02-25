@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "इंस्टॉल किए गए",
     "myTemplates.title": "मेरे टेम्पलेट",
     "myTemplates.updateSettingsFailed": "सेटिंग्स अपडेट करने में विफल",
-    "myTemplates.updateSettingsSuccess": "सेटिंग्स सफलतापूर्वक अपडेट हुईं"
+    "myTemplates.updateSettingsSuccess": "सेटिंग्स सफलतापूर्वक अपडेट हुईं",
+    "myTemplates.addToLibrarySuccess": "टेम्पलेट लाइब्रेरी में जोड़ा गया",
+    "myTemplates.addToLibraryFailed": "टेम्पलेट लाइब्रेरी में जोड़ने में विफल"
   }
 }

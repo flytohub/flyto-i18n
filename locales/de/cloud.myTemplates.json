@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Installiert",
     "myTemplates.title": "Meine Vorlagen",
     "myTemplates.updateSettingsFailed": "Einstellungen konnten nicht aktualisiert werden",
-    "myTemplates.updateSettingsSuccess": "Einstellungen erfolgreich aktualisiert"
+    "myTemplates.updateSettingsSuccess": "Einstellungen erfolgreich aktualisiert",
+    "myTemplates.addToLibrarySuccess": "Vorlage zur Bibliothek hinzugefügt",
+    "myTemplates.addToLibraryFailed": "Vorlage konnte nicht zur Bibliothek hinzugefügt werden"
   }
 }

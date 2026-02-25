@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "インストール済み",
     "myTemplates.title": "マイテンプレート",
     "myTemplates.updateSettingsFailed": "設定の更新に失敗しました",
-    "myTemplates.updateSettingsSuccess": "設定が正常に更新されました"
+    "myTemplates.updateSettingsSuccess": "設定が正常に更新されました",
+    "myTemplates.addToLibrarySuccess": "テンプレートをライブラリに追加しました",
+    "myTemplates.addToLibraryFailed": "テンプレートのライブラリ追加に失敗しました"
   }
 }

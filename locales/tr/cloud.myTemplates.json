@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Yüklü",
     "myTemplates.title": "Şablonlarım",
     "myTemplates.updateSettingsFailed": "Ayarlar güncellenemedi",
-    "myTemplates.updateSettingsSuccess": "Ayarlar başarıyla güncellendi"
+    "myTemplates.updateSettingsSuccess": "Ayarlar başarıyla güncellendi",
+    "myTemplates.addToLibrarySuccess": "Şablon kütüphaneye eklendi",
+    "myTemplates.addToLibraryFailed": "Şablon kütüphaneye eklenemedi"
   }
 }

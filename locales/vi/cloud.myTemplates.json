@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Đã cài đặt",
     "myTemplates.title": "Mẫu của tôi",
     "myTemplates.updateSettingsFailed": "Cập nhật cài đặt thất bại",
-    "myTemplates.updateSettingsSuccess": "Cài đặt đã được cập nhật thành công"
+    "myTemplates.updateSettingsSuccess": "Cài đặt đã được cập nhật thành công",
+    "myTemplates.addToLibrarySuccess": "Đã thêm mẫu vào thư viện",
+    "myTemplates.addToLibraryFailed": "Thêm mẫu vào thư viện thất bại"
   }
 }

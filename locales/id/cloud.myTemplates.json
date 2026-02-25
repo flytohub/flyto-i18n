@@ -40,6 +40,8 @@
     "myTemplates.tabs.installed": "Terinstal",
     "myTemplates.title": "Template Saya",
     "myTemplates.updateSettingsFailed": "Gagal memperbarui pengaturan",
-    "myTemplates.updateSettingsSuccess": "Pengaturan berhasil diperbarui"
+    "myTemplates.updateSettingsSuccess": "Pengaturan berhasil diperbarui",
+    "myTemplates.addToLibrarySuccess": "Template ditambahkan ke perpustakaan",
+    "myTemplates.addToLibraryFailed": "Gagal menambahkan template ke perpustakaan"
   }
 }
