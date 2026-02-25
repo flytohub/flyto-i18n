@@ -116,6 +116,7 @@
     "common.view": "View",
     "common.viewAll": "View all",
     "common.viewDetails": "View Details",
-    "common.yes": "Yes"
+    "common.yes": "Yes",
+    "common.saveToLibrary": "Save to Library"
   }
 }

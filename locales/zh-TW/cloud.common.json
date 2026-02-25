@@ -116,6 +116,7 @@
     "common.view": "查看",
     "common.viewAll": "查看全部",
     "common.viewDetails": "查看詳情",
-    "common.yes": "是"
+    "common.yes": "是",
+    "common.saveToLibrary": "儲存到資料庫"
   }
 }
