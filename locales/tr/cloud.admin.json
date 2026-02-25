@@ -97,6 +97,7 @@
     "admin.issues.commentDeleted": "Comment deleted",
     "admin.issues.commentsCount": "Comments ({n})",
     "admin.issues.commentsLoadFailed": "Failed to load comments",
+    "admin.issues.deleteComment": "Delete Comment",
     "admin.issues.confirmDeleteComment": "Delete this comment?",
     "admin.issues.deleteConfirm": "Are you sure you want to delete \"{title}\"? This action cannot be undone.",
     "admin.issues.deleteTitle": "Delete Issue",
