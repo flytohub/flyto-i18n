@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "Comenzar gratis",
     "landing.common.cta.noCreditCard": "No se requiere tarjeta de credito",
     "landing.common.cta.viewPricing": "Ver precios",
-    "landing.common.cta.worksOffline": "Funciona sin conexion",
     "landing.common.footer.about": "Acerca de",
     "landing.common.footer.allRightsReserved": "Todos los derechos reservados",
     "landing.common.footer.changelog": "Registro de cambios",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "Automatizacion que funciona como tu. Graba una vez, repite para siempre.",
     "landing.common.nav.about": "Acerca de",
     "landing.common.nav.blog": "Blog",
-    "landing.common.nav.buyProLicense": "Comprar licencia Pro",
     "landing.common.nav.compare": "Comparar",
     "landing.common.nav.contact": "Contacto",
     "landing.common.nav.contactUs": "Contactanos",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "Inicio",
     "landing.common.nav.languagePacks": "Paquetes de idioma",
     "landing.common.nav.myLicenses": "Mis licencias",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Filosofia",
     "landing.common.nav.plansAndPricing": "Planes y precios",
     "landing.common.nav.platform": "Plataforma",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "Cerrar sesion",
     "landing.common.nav.useCases": "Casos de uso",
     "landing.common.nav.viewPricing": "Ver precios",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

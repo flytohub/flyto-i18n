@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "Ücretsiz Başlayın",
     "landing.common.cta.noCreditCard": "Kredi kartı gerekli değil",
     "landing.common.cta.viewPricing": "Fiyatlandırmayı Görüntüle",
-    "landing.common.cta.worksOffline": "Çevrimdışı çalışır",
     "landing.common.footer.about": "Hakkında",
     "landing.common.footer.allRightsReserved": "Tüm Hakları Saklıdır",
     "landing.common.footer.changelog": "Değişiklik Günlüğü",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "Sizin gibi çalışan otomasyon. Bir kez kaydedin, sonsuza kadar tekrarlayın.",
     "landing.common.nav.about": "Hakkında",
     "landing.common.nav.blog": "Blog",
-    "landing.common.nav.buyProLicense": "Pro Lisans Satın Al",
     "landing.common.nav.compare": "Karşılaştır",
     "landing.common.nav.contact": "İletişim",
     "landing.common.nav.contactUs": "Bize Ulaşın",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "Ana Sayfa",
     "landing.common.nav.languagePacks": "Dil Paketleri",
     "landing.common.nav.myLicenses": "Lisanslarım",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Felsefe",
     "landing.common.nav.plansAndPricing": "Planlar ve Fiyatlandırma",
     "landing.common.nav.platform": "Platform",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "Çıkış Yap",
     "landing.common.nav.useCases": "Kullanım Senaryoları",
     "landing.common.nav.viewPricing": "Fiyatlandırmayı Görüntüle",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

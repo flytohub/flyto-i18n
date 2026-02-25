@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "Bắt đầu miễn phí",
     "landing.common.cta.noCreditCard": "Không cần thẻ tín dụng",
     "landing.common.cta.viewPricing": "Xem bảng giá",
-    "landing.common.cta.worksOffline": "Hoạt động ngoại tuyến",
     "landing.common.footer.about": "Giới thiệu",
     "landing.common.footer.allRightsReserved": "Bảo lưu mọi quyền",
     "landing.common.footer.changelog": "Nhật ký thay đổi",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "Tự động hóa hoạt động như bạn. Ghi một lần, phát lại mãi mãi.",
     "landing.common.nav.about": "Giới thiệu",
     "landing.common.nav.blog": "Blog",
-    "landing.common.nav.buyProLicense": "Mua giấy phép Pro",
     "landing.common.nav.compare": "So sánh",
     "landing.common.nav.contact": "Liên hệ",
     "landing.common.nav.contactUs": "Liên hệ chúng tôi",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "Trang chủ",
     "landing.common.nav.languagePacks": "Gói ngôn ngữ",
     "landing.common.nav.myLicenses": "Giấy phép của tôi",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Triết lý",
     "landing.common.nav.plansAndPricing": "Gói & Bảng giá",
     "landing.common.nav.platform": "Nền tảng",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "Đăng xuất",
     "landing.common.nav.useCases": "Trường hợp sử dụng",
     "landing.common.nav.viewPricing": "Xem bảng giá",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

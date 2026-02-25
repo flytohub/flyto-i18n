@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "Mulai Gratis",
     "landing.common.cta.noCreditCard": "Tidak perlu kartu kredit",
     "landing.common.cta.viewPricing": "Lihat Harga",
-    "landing.common.cta.worksOffline": "Berfungsi offline",
     "landing.common.footer.about": "Tentang",
     "landing.common.footer.allRightsReserved": "Hak Cipta Dilindungi",
     "landing.common.footer.changelog": "Changelog",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "Otomatisasi yang bekerja seperti Anda. Rekam sekali, putar ulang selamanya.",
     "landing.common.nav.about": "Tentang",
     "landing.common.nav.blog": "Blog",
-    "landing.common.nav.buyProLicense": "Beli Lisensi Pro",
     "landing.common.nav.compare": "Bandingkan",
     "landing.common.nav.contact": "Kontak",
     "landing.common.nav.contactUs": "Hubungi Kami",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "Beranda",
     "landing.common.nav.languagePacks": "Paket Bahasa",
     "landing.common.nav.myLicenses": "Lisensi Saya",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Filosofi",
     "landing.common.nav.plansAndPricing": "Paket & Harga",
     "landing.common.nav.platform": "Platform",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "Keluar",
     "landing.common.nav.useCases": "Kasus Penggunaan",
     "landing.common.nav.viewPricing": "Lihat Harga",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

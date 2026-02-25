@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "เริ่มต้นฟรี",
     "landing.common.cta.noCreditCard": "ไม่ต้องใช้บัตรเครดิต",
     "landing.common.cta.viewPricing": "ดูราคา",
-    "landing.common.cta.worksOffline": "ทำงานออฟไลน์",
     "landing.common.footer.about": "เกี่ยวกับ",
     "landing.common.footer.allRightsReserved": "สงวนลิขสิทธิ์",
     "landing.common.footer.changelog": "บันทึกการเปลี่ยนแปลง",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "ระบบอัตโนมัติที่ทำงานเหมือนคุณ บันทึกครั้งเดียว เล่นซ้ำตลอดไป",
     "landing.common.nav.about": "เกี่ยวกับ",
     "landing.common.nav.blog": "บล็อก",
-    "landing.common.nav.buyProLicense": "ซื้อใบอนุญาต Pro",
     "landing.common.nav.compare": "เปรียบเทียบ",
     "landing.common.nav.contact": "ติดต่อ",
     "landing.common.nav.contactUs": "ติดต่อเรา",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "หน้าแรก",
     "landing.common.nav.languagePacks": "แพ็กภาษา",
     "landing.common.nav.myLicenses": "ใบอนุญาตของฉัน",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "ปรัชญา",
     "landing.common.nav.plansAndPricing": "แผนและราคา",
     "landing.common.nav.platform": "แพลตฟอร์ม",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "ออกจากระบบ",
     "landing.common.nav.useCases": "กรณีการใช้งาน",
     "landing.common.nav.viewPricing": "ดูราคา",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

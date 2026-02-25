@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "무료로 시작하기",
     "landing.common.cta.noCreditCard": "신용카드 불필요",
     "landing.common.cta.viewPricing": "가격 보기",
-    "landing.common.cta.worksOffline": "오프라인 작동",
     "landing.common.footer.about": "소개",
     "landing.common.footer.allRightsReserved": "모든 권리 보유",
     "landing.common.footer.changelog": "변경 로그",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "당신처럼 작동하는 자동화. 한 번 녹화하고 영원히 재생하세요.",
     "landing.common.nav.about": "소개",
     "landing.common.nav.blog": "블로그",
-    "landing.common.nav.buyProLicense": "Pro 라이선스 구매",
     "landing.common.nav.compare": "비교",
     "landing.common.nav.contact": "문의",
     "landing.common.nav.contactUs": "문의하기",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "홈",
     "landing.common.nav.languagePacks": "언어 팩",
     "landing.common.nav.myLicenses": "내 라이선스",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "철학",
     "landing.common.nav.plansAndPricing": "요금제 및 가격",
     "landing.common.nav.platform": "플랫폼",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "로그아웃",
     "landing.common.nav.useCases": "사용 사례",
     "landing.common.nav.viewPricing": "가격 보기",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

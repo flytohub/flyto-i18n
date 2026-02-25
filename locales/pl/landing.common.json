@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "Zacznij za darmo",
     "landing.common.cta.noCreditCard": "Nie wymaga karty kredytowej",
     "landing.common.cta.viewPricing": "Zobacz cennik",
-    "landing.common.cta.worksOffline": "Dziala offline",
     "landing.common.footer.about": "O nas",
     "landing.common.footer.allRightsReserved": "Wszelkie prawa zastrzezone",
     "landing.common.footer.changelog": "Historia zmian",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "Automatyzacja, ktora dziala jak Ty. Nagraj raz, odtwarzaj na zawsze.",
     "landing.common.nav.about": "O nas",
     "landing.common.nav.blog": "Blog",
-    "landing.common.nav.buyProLicense": "Kup licencje Pro",
     "landing.common.nav.compare": "Porownaj",
     "landing.common.nav.contact": "Kontakt",
     "landing.common.nav.contactUs": "Skontaktuj sie z nami",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "Strona glowna",
     "landing.common.nav.languagePacks": "Pakiety jezykowe",
     "landing.common.nav.myLicenses": "Moje licencje",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Filozofia",
     "landing.common.nav.plansAndPricing": "Plany i cennik",
     "landing.common.nav.platform": "Platforma",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "Wyloguj sie",
     "landing.common.nav.useCases": "Przypadki uzycia",
     "landing.common.nav.viewPricing": "Zobacz cennik",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

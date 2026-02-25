@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "Comece Gratis",
     "landing.common.cta.noCreditCard": "Sem necessidade de cartao de credito",
     "landing.common.cta.viewPricing": "Ver Precos",
-    "landing.common.cta.worksOffline": "Funciona offline",
     "landing.common.footer.about": "Sobre",
     "landing.common.footer.allRightsReserved": "Todos os Direitos Reservados",
     "landing.common.footer.changelog": "Changelog",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "Automacao que funciona como voce. Grave uma vez, reproduza para sempre.",
     "landing.common.nav.about": "Sobre",
     "landing.common.nav.blog": "Blog",
-    "landing.common.nav.buyProLicense": "Comprar Licenca Pro",
     "landing.common.nav.compare": "Comparar",
     "landing.common.nav.contact": "Contato",
     "landing.common.nav.contactUs": "Fale Conosco",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "Inicio",
     "landing.common.nav.languagePacks": "Pacotes de Idiomas",
     "landing.common.nav.myLicenses": "Minhas Licencas",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "Filosofia",
     "landing.common.nav.plansAndPricing": "Planos e Precos",
     "landing.common.nav.platform": "Plataforma",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "Sair",
     "landing.common.nav.useCases": "Casos de Uso",
     "landing.common.nav.viewPricing": "Ver Precos",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

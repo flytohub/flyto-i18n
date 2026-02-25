@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "मुफ़्त शुरू करें",
     "landing.common.cta.noCreditCard": "क्रेडिट कार्ड की आवश्यकता नहीं",
     "landing.common.cta.viewPricing": "मूल्य देखें",
-    "landing.common.cta.worksOffline": "ऑफ़लाइन काम करता है",
     "landing.common.footer.about": "के बारे में",
     "landing.common.footer.allRightsReserved": "सर्वाधिकार सुरक्षित",
     "landing.common.footer.changelog": "चेंजलॉग",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "ऑटोमेशन जो आपकी तरह काम करता है। एक बार रिकॉर्ड करें, हमेशा के लिए रीप्ले करें।",
     "landing.common.nav.about": "के बारे में",
     "landing.common.nav.blog": "ब्लॉग",
-    "landing.common.nav.buyProLicense": "Pro लाइसेंस खरीदें",
     "landing.common.nav.compare": "तुलना",
     "landing.common.nav.contact": "संपर्क",
     "landing.common.nav.contactUs": "संपर्क करें",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "होम",
     "landing.common.nav.languagePacks": "भाषा पैक",
     "landing.common.nav.myLicenses": "मेरे लाइसेंस",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "दर्शन",
     "landing.common.nav.plansAndPricing": "योजनाएं और मूल्य",
     "landing.common.nav.platform": "प्लेटफ़ॉर्म",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "साइन आउट",
     "landing.common.nav.useCases": "उपयोग के मामले",
     "landing.common.nav.viewPricing": "मूल्य देखें",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

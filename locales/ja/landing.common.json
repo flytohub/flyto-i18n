@@ -11,7 +11,6 @@
     "landing.common.cta.getStartedFree": "無料で始める",
     "landing.common.cta.noCreditCard": "クレジットカード不要",
     "landing.common.cta.viewPricing": "料金を見る",
-    "landing.common.cta.worksOffline": "オフライン対応",
     "landing.common.footer.about": "会社概要",
     "landing.common.footer.allRightsReserved": "全著作権所有",
     "landing.common.footer.changelog": "更新履歴",
@@ -27,7 +26,6 @@
     "landing.common.footer.tagline": "あなたのように働く自動化。一度録画して、永遠に再生。",
     "landing.common.nav.about": "会社概要",
     "landing.common.nav.blog": "ブログ",
-    "landing.common.nav.buyProLicense": "Proライセンス購入",
     "landing.common.nav.compare": "比較",
     "landing.common.nav.contact": "お問い合わせ",
     "landing.common.nav.contactUs": "お問い合わせ",
@@ -40,6 +38,7 @@
     "landing.common.nav.home": "ホーム",
     "landing.common.nav.languagePacks": "言語パック",
     "landing.common.nav.myLicenses": "マイライセンス",
+    "landing.common.nav.nodePackage": "Node.js",
     "landing.common.nav.philosophy": "理念",
     "landing.common.nav.plansAndPricing": "プラン・料金",
     "landing.common.nav.platform": "プラットフォーム",
@@ -49,7 +48,6 @@
     "landing.common.nav.signOut": "ログアウト",
     "landing.common.nav.useCases": "活用事例",
     "landing.common.nav.viewPricing": "料金を見る",
-    "landing.common.nav.wasmModule": "WebAssembly",
-    "landing.common.nav.nodePackage": "Node.js"
+    "landing.common.nav.wasmModule": "WebAssembly"
   }
 }
