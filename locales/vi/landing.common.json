@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "Câu hỏi thường gặp",
     "landing.common.nav.flytoAccount": "Tài khoản Flyto2",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "Dành cho Nhà phát triển",
     "landing.common.nav.home": "Trang chủ",
     "landing.common.nav.languagePacks": "Gói ngôn ngữ",
     "landing.common.nav.myLicenses": "Giấy phép của tôi",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "Nền tảng",
     "landing.common.nav.pricing": "Bảng giá",
     "landing.common.nav.resources": "Tài nguyên",
+    "landing.common.nav.selectLanguage": "Chọn ngôn ngữ",
     "landing.common.nav.signIn": "Đăng nhập",
     "landing.common.nav.signOut": "Đăng xuất",
+    "landing.common.nav.skipToContent": "Chuyển đến nội dung chính",
     "landing.common.nav.useCases": "Trường hợp sử dụng",
     "landing.common.nav.viewPricing": "Xem bảng giá",
     "landing.common.nav.wasmModule": "WebAssembly"

@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "SSS",
     "landing.common.nav.flytoAccount": "Flyto2 Hesabı",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "Geliştiriciler İçin",
     "landing.common.nav.home": "Ana Sayfa",
     "landing.common.nav.languagePacks": "Dil Paketleri",
     "landing.common.nav.myLicenses": "Lisanslarım",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "Platform",
     "landing.common.nav.pricing": "Fiyatlandırma",
     "landing.common.nav.resources": "Kaynaklar",
+    "landing.common.nav.selectLanguage": "Dil Seçin",
     "landing.common.nav.signIn": "Giriş Yap",
     "landing.common.nav.signOut": "Çıkış Yap",
+    "landing.common.nav.skipToContent": "Ana içeriğe atla",
     "landing.common.nav.useCases": "Kullanım Senaryoları",
     "landing.common.nav.viewPricing": "Fiyatlandırmayı Görüntüle",
     "landing.common.nav.wasmModule": "WebAssembly"

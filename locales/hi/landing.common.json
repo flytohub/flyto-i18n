@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "FAQ",
     "landing.common.nav.flytoAccount": "Flyto2 खाता",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "डेवलपर्स के लिए",
     "landing.common.nav.home": "होम",
     "landing.common.nav.languagePacks": "भाषा पैक",
     "landing.common.nav.myLicenses": "मेरे लाइसेंस",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "प्लेटफ़ॉर्म",
     "landing.common.nav.pricing": "मूल्य",
     "landing.common.nav.resources": "संसाधन",
+    "landing.common.nav.selectLanguage": "भाषा चुनें",
     "landing.common.nav.signIn": "साइन इन",
     "landing.common.nav.signOut": "साइन आउट",
+    "landing.common.nav.skipToContent": "मुख्य सामग्री पर जाएं",
     "landing.common.nav.useCases": "उपयोग के मामले",
     "landing.common.nav.viewPricing": "मूल्य देखें",
     "landing.common.nav.wasmModule": "WebAssembly"

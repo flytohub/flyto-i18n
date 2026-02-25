@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "FAQ",
     "landing.common.nav.flytoAccount": "Flyto2-Konto",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "Für Entwickler",
     "landing.common.nav.home": "Startseite",
     "landing.common.nav.languagePacks": "Sprachpakete",
     "landing.common.nav.myLicenses": "Meine Lizenzen",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "Plattform",
     "landing.common.nav.pricing": "Preise",
     "landing.common.nav.resources": "Ressourcen",
+    "landing.common.nav.selectLanguage": "Sprache auswählen",
     "landing.common.nav.signIn": "Anmelden",
     "landing.common.nav.signOut": "Abmelden",
+    "landing.common.nav.skipToContent": "Zum Hauptinhalt springen",
     "landing.common.nav.useCases": "Anwendungsfälle",
     "landing.common.nav.viewPricing": "Preise anzeigen",
     "landing.common.nav.wasmModule": "WebAssembly"

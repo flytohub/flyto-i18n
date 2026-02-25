@@ -48,6 +48,9 @@
     "landing.common.nav.signOut": "Sign Out",
     "landing.common.nav.useCases": "Use Cases",
     "landing.common.nav.viewPricing": "View Pricing",
+    "landing.common.nav.forDevelopers": "For Developers",
+    "landing.common.nav.selectLanguage": "Select Language",
+    "landing.common.nav.skipToContent": "Skip to main content",
     "landing.common.nav.wasmModule": "WebAssembly"
   }
 }

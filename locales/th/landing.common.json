@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "คำถามที่พบบ่อย",
     "landing.common.nav.flytoAccount": "บัญชี Flyto2",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "สำหรับนักพัฒนา",
     "landing.common.nav.home": "หน้าแรก",
     "landing.common.nav.languagePacks": "แพ็กภาษา",
     "landing.common.nav.myLicenses": "ใบอนุญาตของฉัน",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "แพลตฟอร์ม",
     "landing.common.nav.pricing": "ราคา",
     "landing.common.nav.resources": "ทรัพยากร",
+    "landing.common.nav.selectLanguage": "เลือกภาษา",
     "landing.common.nav.signIn": "เข้าสู่ระบบ",
     "landing.common.nav.signOut": "ออกจากระบบ",
+    "landing.common.nav.skipToContent": "ข้ามไปยังเนื้อหาหลัก",
     "landing.common.nav.useCases": "กรณีการใช้งาน",
     "landing.common.nav.viewPricing": "ดูราคา",
     "landing.common.nav.wasmModule": "WebAssembly"

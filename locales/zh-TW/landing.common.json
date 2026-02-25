@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "常見問題",
     "landing.common.nav.flytoAccount": "Flyto2 帳戶",
     "landing.common.nav.flytoCli": "Flyto2 CLI",
+    "landing.common.nav.forDevelopers": "開發者專區",
     "landing.common.nav.home": "首頁",
     "landing.common.nav.languagePacks": "語言套件",
     "landing.common.nav.myLicenses": "我的授權",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "平台",
     "landing.common.nav.pricing": "方案",
     "landing.common.nav.resources": "資源",
+    "landing.common.nav.selectLanguage": "選擇語言",
     "landing.common.nav.signIn": "登入",
     "landing.common.nav.signOut": "登出",
+    "landing.common.nav.skipToContent": "跳至主要內容",
     "landing.common.nav.useCases": "應用場景",
     "landing.common.nav.viewPricing": "查看方案",
     "landing.common.nav.wasmModule": "WebAssembly"

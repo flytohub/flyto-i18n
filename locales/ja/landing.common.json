@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "よくある質問",
     "landing.common.nav.flytoAccount": "Flyto2アカウント",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "開発者向け",
     "landing.common.nav.home": "ホーム",
     "landing.common.nav.languagePacks": "言語パック",
     "landing.common.nav.myLicenses": "マイライセンス",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "プラットフォーム",
     "landing.common.nav.pricing": "料金",
     "landing.common.nav.resources": "リソース",
+    "landing.common.nav.selectLanguage": "言語を選択",
     "landing.common.nav.signIn": "ログイン",
     "landing.common.nav.signOut": "ログアウト",
+    "landing.common.nav.skipToContent": "メインコンテンツへスキップ",
     "landing.common.nav.useCases": "活用事例",
     "landing.common.nav.viewPricing": "料金を見る",
     "landing.common.nav.wasmModule": "WebAssembly"

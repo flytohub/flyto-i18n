@@ -35,6 +35,7 @@
     "landing.common.nav.faq": "FAQ",
     "landing.common.nav.flytoAccount": "Akun Flyto2",
     "landing.common.nav.flytoCli": "Flyto2 Core (CLI)",
+    "landing.common.nav.forDevelopers": "Untuk Developer",
     "landing.common.nav.home": "Beranda",
     "landing.common.nav.languagePacks": "Paket Bahasa",
     "landing.common.nav.myLicenses": "Lisensi Saya",
@@ -44,8 +45,10 @@
     "landing.common.nav.platform": "Platform",
     "landing.common.nav.pricing": "Harga",
     "landing.common.nav.resources": "Sumber Daya",
+    "landing.common.nav.selectLanguage": "Pilih Bahasa",
     "landing.common.nav.signIn": "Masuk",
     "landing.common.nav.signOut": "Keluar",
+    "landing.common.nav.skipToContent": "Langsung ke konten utama",
     "landing.common.nav.useCases": "Kasus Penggunaan",
     "landing.common.nav.viewPricing": "Lihat Harga",
     "landing.common.nav.wasmModule": "WebAssembly"
