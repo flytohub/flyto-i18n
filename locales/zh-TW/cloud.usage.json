@@ -26,6 +26,14 @@
     "usage.warning.resetDate": "重置日期",
     "usage.warning.upgradePlan": "升級方案",
     "usage.warning.whatHappens": "會發生什麼事",
-    "usage.warning.whatNow": "接下來怎麼辦"
+    "usage.warning.whatNow": "接下來怎麼辦",
+    "usage.quota.title": "功能配額",
+    "usage.quota.subtitle": "本期免費方案使用量",
+    "usage.quota.remaining": "剩餘 {remaining}",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "無限制",
+    "usage.quota.exhausted": "已用完",
+    "usage.quota.disabled": "僅限 Pro",
+    "usage.quota.upgrade": "升級以獲得無限存取"
   }
 }

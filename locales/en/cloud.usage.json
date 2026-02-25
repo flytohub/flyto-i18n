@@ -26,6 +26,14 @@
     "usage.warning.resetDate": "",
     "usage.warning.upgradePlan": "",
     "usage.warning.whatHappens": "",
-    "usage.warning.whatNow": ""
+    "usage.warning.whatNow": "",
+    "usage.quota.title": "Feature Quotas",
+    "usage.quota.subtitle": "Your free plan usage this period",
+    "usage.quota.remaining": "{remaining} left",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Unlimited",
+    "usage.quota.exhausted": "Exhausted",
+    "usage.quota.disabled": "Pro only",
+    "usage.quota.upgrade": "Upgrade for unlimited access"
   }
 }
