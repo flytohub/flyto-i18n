@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "วันที่รีเซ็ต",
     "usage.warning.upgradePlan": "อัปเกรดแผน",
     "usage.warning.whatHappens": "จะเกิดอะไรขึ้น",
-    "usage.warning.whatNow": "ทำอะไรต่อ"
+    "usage.warning.whatNow": "ทำอะไรต่อ",
+    "usage.quota.title": "โควต้าฟีเจอร์",
+    "usage.quota.subtitle": "การใช้งานแผนฟรีของคุณในรอบนี้",
+    "usage.quota.remaining": "เหลือ {remaining}",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "ไม่จำกัด",
+    "usage.quota.exhausted": "ใช้หมดแล้ว",
+    "usage.quota.disabled": "เฉพาะ Pro",
+    "usage.quota.upgrade": "อัปเกรดเพื่อการเข้าถึงไม่จำกัด",
+    "usage.unit.countPerMonth": "ครั้ง / เดือน",
+    "usage.unit.countTotal": "ครั้ง",
+    "usage.unit.days": "วัน"
   }
 }

@@ -34,6 +34,9 @@
     "usage.quota.unlimited": "無限制",
     "usage.quota.exhausted": "已用完",
     "usage.quota.disabled": "僅限 Pro",
-    "usage.quota.upgrade": "升級以獲得無限存取"
+    "usage.quota.upgrade": "升級以獲得無限存取",
+    "usage.unit.countPerMonth": "次 / 月",
+    "usage.unit.countTotal": "次",
+    "usage.unit.days": "天"
   }
 }

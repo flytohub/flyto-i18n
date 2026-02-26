@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Zurücksetzdatum",
     "usage.warning.upgradePlan": "Plan upgraden",
     "usage.warning.whatHappens": "Was passiert jetzt?",
-    "usage.warning.whatNow": "Was nun?"
+    "usage.warning.whatNow": "Was nun?",
+    "usage.quota.title": "Funktionskontingente",
+    "usage.quota.subtitle": "Nutzung Ihres kostenlosen Plans in diesem Zeitraum",
+    "usage.quota.remaining": "{remaining} übrig",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Unbegrenzt",
+    "usage.quota.exhausted": "Aufgebraucht",
+    "usage.quota.disabled": "Nur Pro",
+    "usage.quota.upgrade": "Für unbegrenzten Zugang upgraden",
+    "usage.unit.countPerMonth": "Mal / Monat",
+    "usage.unit.countTotal": "Mal",
+    "usage.unit.days": "Tage"
   }
 }

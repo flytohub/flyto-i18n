@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Data resetu",
     "usage.warning.upgradePlan": "Zaktualizuj plan",
     "usage.warning.whatHappens": "Co się stanie?",
-    "usage.warning.whatNow": "Co teraz?"
+    "usage.warning.whatNow": "Co teraz?",
+    "usage.quota.title": "Limity funkcji",
+    "usage.quota.subtitle": "Wykorzystanie darmowego planu w tym okresie",
+    "usage.quota.remaining": "Pozostało {remaining}",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Bez limitu",
+    "usage.quota.exhausted": "Wyczerpane",
+    "usage.quota.disabled": "Tylko Pro",
+    "usage.quota.upgrade": "Ulepsz do nieograniczonego dostępu",
+    "usage.unit.countPerMonth": "razy / miesiąc",
+    "usage.unit.countTotal": "razy",
+    "usage.unit.days": "dni"
   }
 }

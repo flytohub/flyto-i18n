@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Ngày đặt lại",
     "usage.warning.upgradePlan": "Nâng cấp gói",
     "usage.warning.whatHappens": "Điều gì sẽ xảy ra",
-    "usage.warning.whatNow": "Làm gì tiếp theo"
+    "usage.warning.whatNow": "Làm gì tiếp theo",
+    "usage.quota.title": "Hạn mức tính năng",
+    "usage.quota.subtitle": "Mức sử dụng gói miễn phí kỳ này",
+    "usage.quota.remaining": "Còn {remaining}",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Không giới hạn",
+    "usage.quota.exhausted": "Đã hết",
+    "usage.quota.disabled": "Chỉ Pro",
+    "usage.quota.upgrade": "Nâng cấp để truy cập không giới hạn",
+    "usage.unit.countPerMonth": "lần / tháng",
+    "usage.unit.countTotal": "lần",
+    "usage.unit.days": "ngày"
   }
 }

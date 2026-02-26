@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Fecha de reinicio",
     "usage.warning.upgradePlan": "Mejorar plan",
     "usage.warning.whatHappens": "Qué sucede ahora",
-    "usage.warning.whatNow": "Qué hacer ahora"
+    "usage.warning.whatNow": "Qué hacer ahora",
+    "usage.quota.title": "Cuotas de funciones",
+    "usage.quota.subtitle": "Uso de tu plan gratuito en este período",
+    "usage.quota.remaining": "{remaining} restante(s)",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Ilimitado",
+    "usage.quota.exhausted": "Agotado",
+    "usage.quota.disabled": "Solo Pro",
+    "usage.quota.upgrade": "Actualiza para acceso ilimitado",
+    "usage.unit.countPerMonth": "veces / mes",
+    "usage.unit.countTotal": "veces",
+    "usage.unit.days": "días"
   }
 }

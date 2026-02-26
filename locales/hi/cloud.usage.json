@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "रीसेट की तारीख",
     "usage.warning.upgradePlan": "योजना अपग्रेड करें",
     "usage.warning.whatHappens": "अब क्या होगा",
-    "usage.warning.whatNow": "अब क्या करें"
+    "usage.warning.whatNow": "अब क्या करें",
+    "usage.quota.title": "सुविधा कोटा",
+    "usage.quota.subtitle": "इस अवधि में आपकी मुफ्त योजना का उपयोग",
+    "usage.quota.remaining": "{remaining} शेष",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "असीमित",
+    "usage.quota.exhausted": "समाप्त",
+    "usage.quota.disabled": "केवल Pro",
+    "usage.quota.upgrade": "असीमित पहुंच के लिए अपग्रेड करें",
+    "usage.unit.countPerMonth": "बार / माह",
+    "usage.unit.countTotal": "बार",
+    "usage.unit.days": "दिन"
   }
 }

@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "リセット日",
     "usage.warning.upgradePlan": "プランをアップグレード",
     "usage.warning.whatHappens": "何が起こるか",
-    "usage.warning.whatNow": "次に何をするか"
+    "usage.warning.whatNow": "次に何をするか",
+    "usage.quota.title": "機能クォータ",
+    "usage.quota.subtitle": "今期の無料プラン使用量",
+    "usage.quota.remaining": "残り {remaining}",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "無制限",
+    "usage.quota.exhausted": "使い切りました",
+    "usage.quota.disabled": "Proのみ",
+    "usage.quota.upgrade": "無制限アクセスにアップグレード",
+    "usage.unit.countPerMonth": "回 / 月",
+    "usage.unit.countTotal": "回",
+    "usage.unit.days": "日"
   }
 }

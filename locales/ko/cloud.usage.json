@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "초기화 날짜",
     "usage.warning.upgradePlan": "플랜 업그레이드",
     "usage.warning.whatHappens": "무슨 일이 발생하나요?",
-    "usage.warning.whatNow": "지금 무엇을 해야 하나요?"
+    "usage.warning.whatNow": "지금 무엇을 해야 하나요?",
+    "usage.quota.title": "기능 할당량",
+    "usage.quota.subtitle": "이번 기간 무료 플랜 사용량",
+    "usage.quota.remaining": "{remaining} 남음",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "무제한",
+    "usage.quota.exhausted": "소진됨",
+    "usage.quota.disabled": "Pro 전용",
+    "usage.quota.upgrade": "무제한 액세스로 업그레이드",
+    "usage.unit.countPerMonth": "회 / 월",
+    "usage.unit.countTotal": "회",
+    "usage.unit.days": "일"
   }
 }

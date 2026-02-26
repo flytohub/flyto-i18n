@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Tanggal reset",
     "usage.warning.upgradePlan": "Tingkatkan Paket",
     "usage.warning.whatHappens": "Apa yang terjadi",
-    "usage.warning.whatNow": "Apa yang harus dilakukan sekarang"
+    "usage.warning.whatNow": "Apa yang harus dilakukan sekarang",
+    "usage.quota.title": "Kuota Fitur",
+    "usage.quota.subtitle": "Penggunaan paket gratis Anda periode ini",
+    "usage.quota.remaining": "{remaining} tersisa",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Tidak terbatas",
+    "usage.quota.exhausted": "Habis",
+    "usage.quota.disabled": "Hanya Pro",
+    "usage.quota.upgrade": "Tingkatkan untuk akses tak terbatas",
+    "usage.unit.countPerMonth": "kali / bulan",
+    "usage.unit.countTotal": "kali",
+    "usage.unit.days": "hari"
   }
 }

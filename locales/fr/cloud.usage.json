@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Date de réinitialisation",
     "usage.warning.upgradePlan": "Mettre à niveau le forfait",
     "usage.warning.whatHappens": "Que se passe-t-il ?",
-    "usage.warning.whatNow": "Que faire maintenant ?"
+    "usage.warning.whatNow": "Que faire maintenant ?",
+    "usage.quota.title": "Quotas de fonctionnalités",
+    "usage.quota.subtitle": "Utilisation de votre forfait gratuit cette période",
+    "usage.quota.remaining": "{remaining} restant(s)",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Illimité",
+    "usage.quota.exhausted": "Épuisé",
+    "usage.quota.disabled": "Pro uniquement",
+    "usage.quota.upgrade": "Passez à l'accès illimité",
+    "usage.unit.countPerMonth": "fois / mois",
+    "usage.unit.countTotal": "fois",
+    "usage.unit.days": "jours"
   }
 }

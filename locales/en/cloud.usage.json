@@ -34,6 +34,9 @@
     "usage.quota.unlimited": "Unlimited",
     "usage.quota.exhausted": "Exhausted",
     "usage.quota.disabled": "Pro only",
-    "usage.quota.upgrade": "Upgrade for unlimited access"
+    "usage.quota.upgrade": "Upgrade for unlimited access",
+    "usage.unit.countPerMonth": "times / mo",
+    "usage.unit.countTotal": "times",
+    "usage.unit.days": "days"
   }
 }

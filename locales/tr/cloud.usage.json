@@ -26,6 +26,17 @@
     "usage.warning.resetDate": "Sıfırlanma tarihi",
     "usage.warning.upgradePlan": "Planınızı yükseltin",
     "usage.warning.whatHappens": "Ne olur?",
-    "usage.warning.whatNow": "Şimdi ne yapmalı?"
+    "usage.warning.whatNow": "Şimdi ne yapmalı?",
+    "usage.quota.title": "Özellik Kotaları",
+    "usage.quota.subtitle": "Bu dönem ücretsiz plan kullanımınız",
+    "usage.quota.remaining": "{remaining} kalan",
+    "usage.quota.used": "{current} / {limit}",
+    "usage.quota.unlimited": "Sınırsız",
+    "usage.quota.exhausted": "Tükendi",
+    "usage.quota.disabled": "Sadece Pro",
+    "usage.quota.upgrade": "Sınırsız erişim için yükseltin",
+    "usage.unit.countPerMonth": "kez / ay",
+    "usage.unit.countTotal": "kez",
+    "usage.unit.days": "gün"
   }
 }
