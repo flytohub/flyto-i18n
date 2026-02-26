@@ -9,7 +9,7 @@
     "usage.chart.noData": "",
     "usage.currentPeriod": "Current Period",
     "usage.dashboard.currentUsage": "",
-    "usage.dashboard.resetsOn": "",
+    "usage.dashboard.resetsOn": "Resets {date}",
     "usage.dashboard.title": "",
     "usage.dashboard.topModules": "",
     "usage.dashboard.usageHistory": "",

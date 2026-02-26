@@ -9,7 +9,7 @@
     "usage.chart.noData": "沒有資料",
     "usage.currentPeriod": "本期",
     "usage.dashboard.currentUsage": "目前使用量",
-    "usage.dashboard.resetsOn": "重置日期",
+    "usage.dashboard.resetsOn": "於 {date} 重置",
     "usage.dashboard.title": "使用情況",
     "usage.dashboard.topModules": "熱門模組",
     "usage.dashboard.usageHistory": "使用歷史",
