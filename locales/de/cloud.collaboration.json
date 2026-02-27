@@ -4,8 +4,8 @@
   "category": "cloud.collaboration",
   "version": "1.0.0",
   "translations": {
-    "collaboration.editing": "Editing",
-    "collaboration.invite": "Invite",
+    "collaboration.editing": "Bearbeiten",
+    "collaboration.invite": "Einladen",
     "collaboration.invite.codeHelp": "Teilen Sie diesen Code mit Ihrem Team. Sie können über Menü → Zusammenarbeit beitreten.",
     "collaboration.invite.currentParticipants": "Aktuelle Teilnehmer",
     "collaboration.invite.enterCode": "Einladungscode eingeben...",
@@ -26,15 +26,15 @@
     "collaboration.live": "Live",
     "collaboration.moat.description": "Moat description",
     "collaboration.moat.title": "Moat title",
-    "collaboration.presence.active": "Active",
-    "collaboration.presence.away": "Away",
-    "collaboration.presence.idle": "Idle",
+    "collaboration.presence.active": "Aktiv",
+    "collaboration.presence.away": "Abwesend",
+    "collaboration.presence.idle": "Untätig",
     "collaboration.presence.offline": "Offline",
     "collaboration.realtime": "Realtime",
     "collaboration.remaining": "verbleibend",
-    "collaboration.session": "Session",
+    "collaboration.session": "Sitzung",
     "collaboration.title": "Collaboration",
-    "collaboration.viewAll": "View all",
+    "collaboration.viewAll": "Alle anzeigen",
     "collaboration.you": "You"
   }
 }

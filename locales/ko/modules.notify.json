@@ -4,19 +4,19 @@
   "category": "notify",
   "version": "1.0.0",
   "translations": {
-    "modules.notify.send.description": "Send notification to Telegram, Discord, Slack, LINE, or any webhook URL",
-    "modules.notify.send.label": "Send Notification",
-    "modules.notify.send.output.ok.description": "Telegram chat ID (required for Telegram)",
-    "modules.notify.send.output.platform.description": "Whether notification was sent successfully",
-    "modules.notify.send.output.response.description": "Detected platform (telegram, discord, slack, etc.)",
-    "modules.notify.send.output.status_code.description": "Whether notification was sent successfully",
-    "modules.notify.send.params.chat_id.description": "Optional title (for Discord, Slack, Teams)",
-    "modules.notify.send.params.chat_id.label": "Title",
-    "modules.notify.send.params.message.description": "Notification message content",
-    "modules.notify.send.params.message.label": "Webhook URL",
-    "modules.notify.send.params.title.description": "Notification message content",
-    "modules.notify.send.params.title.label": "Message",
-    "modules.notify.send.params.url.description": "Webhook URL (Telegram, Discord, Slack, or custom)",
-    "modules.notify.send.params.url.label": "Webhook URL"
+    "modules.notify.send.description": "Telegram, Discord, Slack, LINE 또는 웹훅 URL로 알림 보내기",
+    "modules.notify.send.label": "알림 보내기",
+    "modules.notify.send.output.ok.description": "Telegram 채팅 ID (Telegram에 필요)",
+    "modules.notify.send.output.platform.description": "알림이 성공적으로 전송되었는지 여부",
+    "modules.notify.send.output.response.description": "감지된 플랫폼 (telegram, discord, slack 등)",
+    "modules.notify.send.output.status_code.description": "알림이 성공적으로 전송되었는지 여부",
+    "modules.notify.send.params.chat_id.description": "선택적 제목 (Discord, Slack, Teams용)",
+    "modules.notify.send.params.chat_id.label": "제목",
+    "modules.notify.send.params.message.description": "알림 메시지 내용",
+    "modules.notify.send.params.message.label": "웹훅 URL",
+    "modules.notify.send.params.title.description": "알림 메시지 내용",
+    "modules.notify.send.params.title.label": "메시지",
+    "modules.notify.send.params.url.description": "웹훅 URL (Telegram, Discord, Slack 또는 사용자 정의)",
+    "modules.notify.send.params.url.label": "웹훅 URL"
   }
 }

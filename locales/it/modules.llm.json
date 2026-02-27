@@ -27,13 +27,13 @@
     "modules.llm.agent.params.prompt_source.description": "Da dove ottenere il prompt del task",
     "modules.llm.agent.params.system_prompt": "Prompt di Sistema",
     "modules.llm.agent.params.system_prompt.description": "Istruzioni per il comportamento dell'agente",
-    "modules.llm.agent.params.task": "Task",
+    "modules.llm.agent.params.task": "Compito",
     "modules.llm.agent.params.task.description": "Il task da completare per l'agente. Usa {{input}} per riferimento a dati upstream.",
     "modules.llm.agent.params.tools": "Strumenti Disponibili",
     "modules.llm.agent.params.tools.description": "Lista di ID modulo (alternativa alla connessione di nodi strumento)",
-    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
-    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
-    "modules.llm.agent.params.tools.options.file.read": "File.Read",
+    "modules.llm.agent.params.tools.options.array.filter": "Array.Filtro",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "Dati.Csv Parse",
+    "modules.llm.agent.params.tools.options.file.read": "File.Leggi",
     "modules.llm.agent.ports.input": "Input",
     "modules.llm.agent.ports.memory": "Modello",
     "modules.llm.agent.ports.model": "Input",
@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "Se l'operazione e riuscita",
     "modules.llm.code_fix.output.ok.description": "Se l'operazione e riuscita",
     "modules.llm.code_fix.output.summary.description": "Lista delle correzioni applicate (se fix_mode e apply)",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "Correzioni",
+    "modules.llm.code_fix.params.source_files": "File Sorgente"
   }
 }

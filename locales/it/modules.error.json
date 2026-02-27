@@ -32,10 +32,10 @@
     "modules.error.circuit_breaker.params.track_errors.label": "Valore di Fallback",
     "modules.error.circuit_breaker.ports.circuit_open": "Successo",
     "modules.error.circuit_breaker.ports.fallback": "Azione Protetta",
-    "modules.error.circuit_breaker.ports.input": "Input",
-    "modules.error.circuit_breaker.ports.success": "Input",
+    "modules.error.circuit_breaker.ports.input": "Ingresso",
+    "modules.error.circuit_breaker.ports.success": "Ingresso",
     "modules.error.fallback.description": "Fornisce un valore di fallback quando l'operazione fallisce",
-    "modules.error.fallback.label": "Fallback",
+    "modules.error.fallback.label": "Alternativa",
     "modules.error.fallback.output.original_error.description": "Fonte del risultato (primario/valore_fallback/operazione_fallback)",
     "modules.error.fallback.output.result.description": "Registra quando viene utilizzato il fallback",
     "modules.error.fallback.output.source.description": "Se è stato utilizzato il fallback",
@@ -55,8 +55,8 @@
     "modules.error.fallback.params.log_fallback.label": "Includi Info Errore",
     "modules.error.fallback.params.operation.description": "L'operazione primaria da tentare",
     "modules.error.fallback.params.operation.label": "Operazione Principale",
-    "modules.error.fallback.ports.error_input": "Input",
-    "modules.error.fallback.ports.input": "Input",
+    "modules.error.fallback.ports.error_input": "Ingresso",
+    "modules.error.fallback.ports.input": "Ingresso",
     "modules.error.fallback.ports.output": "Errore Input",
     "modules.error.fallback.ports.used_fallback": "Operazione Principale",
     "modules.error.retry.description": "Avvolgere operazioni con logica di ritentativo configurabile",
@@ -88,7 +88,7 @@
     "modules.error.retry.params.timeout_per_attempt_ms.description": "Elenco di codici di errore su cui riprovare (vuoto = riprova tutti)",
     "modules.error.retry.params.timeout_per_attempt_ms.label": "Riprova su Codici di Errore",
     "modules.error.retry.ports.exhausted": "Operazione",
-    "modules.error.retry.ports.input": "Input",
-    "modules.error.retry.ports.success": "Input"
+    "modules.error.retry.ports.input": "Ingresso",
+    "modules.error.retry.ports.success": "Ingresso"
   }
 }

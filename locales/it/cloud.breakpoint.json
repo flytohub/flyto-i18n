@@ -18,6 +18,6 @@
     "breakpoint.reject": "Rifiuta",
     "breakpoint.step": "Passaggio",
     "breakpoint.waitingApproval": "In attesa di approvazione",
-    "breakpoint.workflow": "Workflow"
+    "breakpoint.workflow": "Flusso di lavoro"
   }
 }

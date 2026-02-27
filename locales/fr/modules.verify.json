@@ -27,7 +27,7 @@
     "modules.verify.run.description": "Exécuter la vérification complète du design : capture → comparaison → rapport",
     "modules.verify.run.label": "Exécuter la vérification",
     "modules.verify.run.params.selectors": "Sélecteurs",
-    "modules.verify.run.params.violations": "Violations",
+    "modules.verify.run.params.violations": "Infractions",
     "modules.verify.run.params.violations.options.actual": "Réel",
     "modules.verify.run.params.violations.options.compare": "Comparer",
     "modules.verify.run.params.violations.options.error": "Erreur",

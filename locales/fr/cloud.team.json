@@ -12,9 +12,9 @@
     "team.contributors.title": "Contributeurs",
     "team.dashboard.subtitle": "Apercu de l'activite de votre equipe",
     "team.dashboard.title": "Tableau de bord de l'equipe",
-    "team.stats.executions": "Executions",
+    "team.stats.executions": "Exécutions",
     "team.stats.members": "Membres",
     "team.stats.templates": "Modeles",
-    "team.stats.workflows": "Workflows"
+    "team.stats.workflows": "Flux de travail"
   }
 }

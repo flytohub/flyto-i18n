@@ -5,17 +5,17 @@
   "version": "1.0.0",
   "translations": {
     "enterprise.actions.notSupported": "Action not supported",
-    "enterprise.errors.actionFailed": "Action failed",
+    "enterprise.errors.actionFailed": "Action échouée",
     "enterprise.errors.loadFailed": "Failed to load",
-    "enterprise.robotsOnline": "Robots Online",
-    "enterprise.subtitle": "Enterprise automation tools",
-    "enterprise.tabs.idp": "Document Processing",
-    "enterprise.tabs.mining": "Process Mining",
-    "enterprise.tabs.orchestrator": "Orchestrator",
-    "enterprise.tabs.queues": "Queues",
+    "enterprise.robotsOnline": "Robots en ligne",
+    "enterprise.subtitle": "Outils d'automatisation d'entreprise",
+    "enterprise.tabs.idp": "Traitement de documents",
+    "enterprise.tabs.mining": "Exploration de processus",
+    "enterprise.tabs.orchestrator": "Orchestrateur",
+    "enterprise.tabs.queues": "Files d'attente",
     "enterprise.tabs.rpa": "RPA",
-    "enterprise.tabs.scheduler": "Scheduler",
-    "enterprise.tabs.stateMachine": "State Machine",
-    "enterprise.title": "Enterprise"
+    "enterprise.tabs.scheduler": "Planificateur",
+    "enterprise.tabs.stateMachine": "Machine à états",
+    "enterprise.title": "Entreprise"
   }
 }

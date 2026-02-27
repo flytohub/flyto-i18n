@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "작성된 행 수",
     "modules.data.json_to_csv.output.output_path.description": "생성된 CSV 파일 경로",
     "modules.data.json_to_csv.output.row_count.description": "생성된 CSV 파일 경로",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "입력 데이터",
     "modules.data.pipeline.description": "여러 데이터 변환을 한 번에 연결",
     "modules.data.pipeline.label": "데이터 파이프라인",
     "modules.data.pipeline.output.original_count.description": "변환된 데이터",

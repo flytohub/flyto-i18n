@@ -24,7 +24,7 @@
     "toolRunner.runToSeeResults": "Ejecuta la herramienta para ver los resultados aqui",
     "toolRunner.runTool": "Ejecutar herramienta",
     "toolRunner.running": "Ejecutando...",
-    "toolRunner.simpleMode": "Simple",
+    "toolRunner.simpleMode": "Sencillo",
     "toolRunner.toolNotFound": "Herramienta no encontrada",
     "toolRunner.toolNotFoundError": "Herramienta no encontrada"
   }

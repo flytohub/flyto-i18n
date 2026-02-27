@@ -107,7 +107,7 @@
     "userSettings.userId": "ユーザーID",
     "userSettings.username": "ユーザー名",
     "userSettings.usernameHint": "英字、数字、アンダースコアのみ使用可能",
-    "userSettings.usernamePlaceholder": "your_username",
+    "userSettings.usernamePlaceholder": "あなたのユーザー名",
     "userSettings.verified": "認証済み",
     "userSettings.viewPublicProfile": "公開プロフィールを表示",
     "userSettings.yourApiKey": "あなたのAPIキー"

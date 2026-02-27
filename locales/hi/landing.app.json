@@ -48,15 +48,15 @@
     "landing.app.platforms.title": "सभी प्लेटफ़ॉर्म",
     "landing.app.requirements.disk": "500 MB डिस्क स्पेस",
     "landing.app.requirements.linuxProcessor": "x64 या ARM64 प्रोसेसर",
-    "landing.app.requirements.linuxTitle": "Linux",
+    "landing.app.requirements.linuxTitle": "लिनक्स",
     "landing.app.requirements.linuxVersion": "Ubuntu 20.04+ / Debian 11+",
     "landing.app.requirements.macosProcessor": "Apple Silicon या Intel प्रोसेसर",
-    "landing.app.requirements.macosTitle": "macOS",
+    "landing.app.requirements.macosTitle": "मैकओएस",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) या बाद का",
     "landing.app.requirements.ram": "कम से कम 4 GB RAM",
     "landing.app.requirements.title": "सिस्टम आवश्यकताएं",
     "landing.app.requirements.windowsProcessor": "x64 प्रोसेसर",
-    "landing.app.requirements.windowsTitle": "Windows",
+    "landing.app.requirements.windowsTitle": "विंडोज़",
     "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) या बाद का"
   }
 }

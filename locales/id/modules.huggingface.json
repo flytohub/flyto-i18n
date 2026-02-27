@@ -14,7 +14,7 @@
     "modules.huggingface.image-classification.output.top_label.description": "Hasil klasifikasi",
     "modules.huggingface.image-classification.output.top_score.description": "Hasil klasifikasi",
     "modules.huggingface.speech-to-text.description": "Transkripsi audio ke teks menggunakan model HuggingFace (Whisper, dll.)",
-    "modules.huggingface.speech-to-text.label": "Speech to Text",
+    "modules.huggingface.speech-to-text.label": "Ucapan ke Teks",
     "modules.huggingface.speech-to-text.output.chunks.description": "Teks yang ditranskripsi",
     "modules.huggingface.speech-to-text.output.text.description": "Teks yang ditranskripsi",
     "modules.huggingface.summarization.description": "Hasilkan ringkasan teks panjang menggunakan BART, Pegasus, dll.",

@@ -21,12 +21,12 @@
     "templateCard.publish": "प्रकाशित करें",
     "templateCard.sourceDeleted": "मूल टेम्पलेट लेखक द्वारा हटा दिया गया है",
     "templateCard.sourceUnpublished": "मूल टेम्पलेट लेखक द्वारा अप्रकाशित किया गया है",
+    "templateCard.status.archived": "संग्रहीत",
+    "templateCard.status.draft": "ड्राफ्ट",
+    "templateCard.status.published": "प्रकाशित",
     "templateCard.syncToLatest": "नवीनतम में सिंक करें",
     "templateCard.unpublished": "अप्रकाशित",
     "templateCard.update": "अपडेट",
-    "templateCard.updateAvailable": "लेखक से अपडेट उपलब्ध",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "लेखक से अपडेट उपलब्ध"
   }
 }

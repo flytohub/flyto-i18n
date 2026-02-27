@@ -14,7 +14,7 @@
     "modules.docker.build.params.dockerfile.description": "Percorso al Dockerfile (relativo al contesto di build)",
     "modules.docker.build.params.dockerfile.label": "Dockerfile",
     "modules.docker.build.params.no_cache.description": "Non usare la cache durante la creazione dell'immagine",
-    "modules.docker.build.params.no_cache.label": "No Cache",
+    "modules.docker.build.params.no_cache.label": "Nessuna cache",
     "modules.docker.build.params.path.description": "Percorso alla directory del contesto di build",
     "modules.docker.build.params.path.label": "Contesto di Build",
     "modules.docker.build.params.tag.description": "Nome e opzionalmente tag dell'immagine (es. myapp:latest)",

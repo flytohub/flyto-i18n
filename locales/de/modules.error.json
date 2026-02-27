@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "modules.error.circuit_breaker.description": "Schützen Sie sich vor Kaskadenfehlern mit dem Circuit-Breaker-Muster",
-    "modules.error.circuit_breaker.label": "Circuit Breaker",
+    "modules.error.circuit_breaker.label": "Sicherungsschalter",
     "modules.error.circuit_breaker.output.__event__.description": "Nur diese Fehlercodes zum Schwellenwert zählen (leer = alle)",
     "modules.error.circuit_breaker.output.circuit_opened_at.description": "Zeitstempel des letzten Fehlers",
     "modules.error.circuit_breaker.output.circuit_state.description": "Ergebnis der Aktion oder des Fallbacks",
@@ -76,9 +76,9 @@
     "modules.error.retry.params.max_delay_ms.description": "Anfängliche Verzögerung vor dem ersten Wiederholungsversuch",
     "modules.error.retry.params.max_delay_ms.label": "Anfängliche Verzögerung (ms)",
     "modules.error.retry.params.max_retries.description": "Die Operation, die wiederholt werden soll (Modul-ID und Parameter)",
-    "modules.error.retry.params.max_retries.label": "Operation",
+    "modules.error.retry.params.max_retries.label": "Vorgang",
     "modules.error.retry.params.operation.description": "Die Operation, die wiederholt werden soll (Modul-ID und Parameter)",
-    "modules.error.retry.params.operation.label": "Operation",
+    "modules.error.retry.params.operation.label": "Vorgang",
     "modules.error.retry.params.retry_on": "Wiederholen bei",
     "modules.error.retry.params.retry_on.description": "Zufälliges Jitter zur Verzögerung hinzufügen, um Massenanfragen zu verhindern",
     "modules.error.retry.params.retry_on.label": "Jitter hinzufügen",
@@ -87,7 +87,7 @@
     "modules.error.retry.params.retry_on.options.TIMEOUT_ERROR": "Timeout-Fehler",
     "modules.error.retry.params.timeout_per_attempt_ms.description": "Liste der Fehlercodes, bei denen wiederholt werden soll (leer = alle wiederholen)",
     "modules.error.retry.params.timeout_per_attempt_ms.label": "Wiederholen bei Fehlercodes",
-    "modules.error.retry.ports.exhausted": "Operation",
+    "modules.error.retry.ports.exhausted": "Vorgang",
     "modules.error.retry.ports.input": "Eingabe",
     "modules.error.retry.ports.success": "Eingabe"
   }

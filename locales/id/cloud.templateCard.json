@@ -21,12 +21,12 @@
     "templateCard.publish": "Publikasikan",
     "templateCard.sourceDeleted": "Template asli telah dihapus oleh penulisnya",
     "templateCard.sourceUnpublished": "Template asli telah dibatalkan publikasinya oleh penulisnya",
+    "templateCard.status.archived": "Diarsipkan",
+    "templateCard.status.draft": "Draf",
+    "templateCard.status.published": "Dipublikasikan",
     "templateCard.syncToLatest": "Sinkronkan ke Terbaru",
     "templateCard.unpublished": "Tidak Dipublikasikan",
     "templateCard.update": "Perbarui",
-    "templateCard.updateAvailable": "Pembaruan tersedia dari penulis",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "Pembaruan tersedia dari penulis"
   }
 }

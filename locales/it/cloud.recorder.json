@@ -7,7 +7,7 @@
     "recorder.actionType": "Tipo di Azione",
     "recorder.actions.assert": "Asserzione",
     "recorder.actions.check": "Seleziona/Deseleziona",
-    "recorder.actions.click": "Click",
+    "recorder.actions.click": "Clic",
     "recorder.actions.fill": "Compila/Digita",
     "recorder.actions.hover": "Passa Sopra",
     "recorder.actions.navigate": "Naviga",

@@ -19,9 +19,9 @@
     "modules.vision.compare.output.recommendation.description": "比較結果摘要",
     "modules.vision.compare.output.similarity_score.description": "是否發現顯著差異",
     "modules.vision.compare.output.summary.description": "識別到的差異列表",
-    "modules.vision.compare.params.differences": "Differences",
-    "modules.vision.compare.params.focus_areas": "Focus Areas",
-    "modules.vision.compare.params.focus_areas.options.header": "Header",
-    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
+    "modules.vision.compare.params.differences": "差異",
+    "modules.vision.compare.params.focus_areas": "重點區域",
+    "modules.vision.compare.params.focus_areas.options.header": "標題列",
+    "modules.vision.compare.params.focus_areas.options.main content": "主要內容"
   }
 }

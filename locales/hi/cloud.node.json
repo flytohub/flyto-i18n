@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "रैखिक",
     "node.settings.timeout": "टाइमआउट",
     "node.settings.timeoutPlaceholder": "जैसे 30000 (30s)",
-    "node.sticky.contentPlaceholder": "Enter content",
-    "node.sticky.placeholder": "Enter text",
-    "node.sticky.titlePlaceholder": "Enter title",
-    "node.trigger.badge": "Trigger badge"
+    "node.sticky.contentPlaceholder": "कंटेंट दर्ज करें",
+    "node.sticky.placeholder": "पाठ दर्ज करें",
+    "node.sticky.titlePlaceholder": "शीर्षक दर्ज करें",
+    "node.trigger.badge": "ट्रिगर बैज"
   }
 }

@@ -13,7 +13,7 @@
     "modules.sandbox.execute_js.params.code.description": "Über Node.js auszuführender JavaScript-Code",
     "modules.sandbox.execute_js.params.code.label": "JavaScript-Code",
     "modules.sandbox.execute_js.params.timeout.description": "Ausführungs-Timeout in Sekunden",
-    "modules.sandbox.execute_js.params.timeout.label": "Timeout",
+    "modules.sandbox.execute_js.params.timeout.label": "Zeitüberschreitung",
     "modules.sandbox.execute_python.description": "Python-Code in einem Subprozess mit Timeout ausführen",
     "modules.sandbox.execute_python.label": "Python ausführen",
     "modules.sandbox.execute_python.output.execution_time_ms.description": "Ausführungszeit in Millisekunden",
@@ -25,7 +25,7 @@
     "modules.sandbox.execute_python.params.code.description": "Auszuführender Python-Code",
     "modules.sandbox.execute_python.params.code.label": "Python-Code",
     "modules.sandbox.execute_python.params.timeout.description": "Ausführungs-Timeout in Sekunden",
-    "modules.sandbox.execute_python.params.timeout.label": "Timeout",
+    "modules.sandbox.execute_python.params.timeout.label": "Zeitüberschreitung",
     "modules.sandbox.execute_shell.description": "Shell-Befehl mit Timeout und Umgebungssteuerung ausführen",
     "modules.sandbox.execute_shell.label": "Shell ausführen",
     "modules.sandbox.execute_shell.output.execution_time_ms.description": "Ausführungszeit in Millisekunden",
@@ -37,7 +37,7 @@
     "modules.sandbox.execute_shell.params.env.description": "Zusätzliche Umgebungsvariablen, die gesetzt werden sollen (mit aktueller Umgebung zusammengeführt)",
     "modules.sandbox.execute_shell.params.env.label": "Umgebungsvariablen",
     "modules.sandbox.execute_shell.params.timeout.description": "Ausführungs-Timeout in Sekunden",
-    "modules.sandbox.execute_shell.params.timeout.label": "Timeout",
+    "modules.sandbox.execute_shell.params.timeout.label": "Zeitüberschreitung",
     "modules.sandbox.execute_shell.params.working_dir.description": "Arbeitsverzeichnis für den Befehl",
     "modules.sandbox.execute_shell.params.working_dir.label": "Arbeitsverzeichnis"
   }

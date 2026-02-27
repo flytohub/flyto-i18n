@@ -8,7 +8,7 @@
     "node.settings.conditions": "조건",
     "node.settings.continue": "계속",
     "node.settings.execution": "실행",
-    "node.settings.foreach": "For Each",
+    "node.settings.foreach": "각각에 대해",
     "node.settings.foreachAs": "변수로",
     "node.settings.foreachPlaceholder": "예: ${items}",
     "node.settings.initialDelay": "초기 지연 (ms)",
@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "선형",
     "node.settings.timeout": "시간 초과",
     "node.settings.timeoutPlaceholder": "예: 30000 (30초)",
-    "node.sticky.contentPlaceholder": "Enter content",
-    "node.sticky.placeholder": "Enter text",
-    "node.sticky.titlePlaceholder": "Enter title",
-    "node.trigger.badge": "Trigger badge"
+    "node.sticky.contentPlaceholder": "내용을 입력하세요",
+    "node.sticky.placeholder": "텍스트를 입력하세요",
+    "node.sticky.titlePlaceholder": "제목을 입력하세요",
+    "node.trigger.badge": "배지 트리거"
   }
 }

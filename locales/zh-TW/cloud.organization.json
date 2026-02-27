@@ -9,7 +9,7 @@
     "organization.info.name": "組織名稱",
     "organization.info.title": "組織資訊",
     "organization.invite.email": "電子郵件",
-    "organization.invite.emailPlaceholder": "colleague@example.com",
+    "organization.invite.emailPlaceholder": "請輸入電子郵件",
     "organization.invite.role": "角色",
     "organization.invite.send": "發送邀請",
     "organization.invite.title": "邀請團隊成員",

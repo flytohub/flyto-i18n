@@ -23,7 +23,7 @@
     "traces.spanDetail.error": "Erreur",
     "traces.spanDetail.logs": "Journaux",
     "traces.spanDetail.module": "Module",
-    "traces.spanDetail.operation": "Operation",
+    "traces.spanDetail.operation": "Opération",
     "traces.spanDetail.spanId": "ID de span",
     "traces.spanDetail.startTime": "Heure de debut",
     "traces.spanDetail.status": "Statut",

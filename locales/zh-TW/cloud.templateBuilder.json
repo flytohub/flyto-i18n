@@ -172,7 +172,7 @@
     "templateBuilder.properties.errorMessagePlaceholder": "驗證失敗時顯示的訊息",
     "templateBuilder.properties.helpText": "說明文字",
     "templateBuilder.properties.inputType": "輸入類型",
-    "templateBuilder.properties.inputTypeEmail": "Email",
+    "templateBuilder.properties.inputTypeEmail": "電子郵件",
     "templateBuilder.properties.inputTypeNumber": "數字",
     "templateBuilder.properties.inputTypePassword": "密碼",
     "templateBuilder.properties.inputTypeTel": "電話",

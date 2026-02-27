@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "Linear",
     "node.settings.timeout": "Zeitüberschreitung",
     "node.settings.timeoutPlaceholder": "z.B. 30000 (30s)",
-    "node.sticky.contentPlaceholder": "Enter content",
-    "node.sticky.placeholder": "Enter text",
-    "node.sticky.titlePlaceholder": "Enter title",
-    "node.trigger.badge": "Trigger badge"
+    "node.sticky.contentPlaceholder": "Bitte Inhalt eingeben",
+    "node.sticky.placeholder": "Bitte Text eingeben",
+    "node.sticky.titlePlaceholder": "Bitte Titel eingeben",
+    "node.trigger.badge": "Auslöser-Abzeichen"
   }
 }

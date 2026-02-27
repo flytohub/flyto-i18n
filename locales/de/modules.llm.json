@@ -37,7 +37,7 @@
     "modules.llm.agent.ports.input": "Eingabe",
     "modules.llm.agent.ports.memory": "Modell",
     "modules.llm.agent.ports.model": "Eingabe",
-    "modules.llm.agent.ports.output": "Tools",
+    "modules.llm.agent.ports.output": "Werkzeuge",
     "modules.llm.agent.ports.tools": "Gedächtnis",
     "modules.llm.chat.description": "Mit LLM-APIs für intelligente Operationen interagieren",
     "modules.llm.chat.label": "LLM-Chat",
@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "Ob die Operation erfolgreich war",
     "modules.llm.code_fix.output.ok.description": "Ob die Operation erfolgreich war",
     "modules.llm.code_fix.output.summary.description": "Liste der angewandten Korrekturen (wenn fix_mode apply ist)",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "Korrekturen",
+    "modules.llm.code_fix.params.source_files": "Quelldateien"
   }
 }

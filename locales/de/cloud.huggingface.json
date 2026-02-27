@@ -6,7 +6,7 @@
   "translations": {
     "huggingface.browseMoreModels": "Weitere Modelle durchsuchen",
     "huggingface.chooseModel": "Modell auswählen",
-    "huggingface.inferenceAPI": "Inference API",
+    "huggingface.inferenceAPI": "Inference-API",
     "huggingface.installedModels": "Installierte Modelle",
     "huggingface.localExecution": "Lokale Ausführung",
     "huggingface.noModelsAvailable": "Keine Modelle verfügbar",

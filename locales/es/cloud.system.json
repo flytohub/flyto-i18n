@@ -224,7 +224,7 @@
     "cloud.offline.offlineLevel": "Nivel offline",
     "cloud.offline.offlineMode": "Modo offline",
     "cloud.offline.ok": "OK",
-    "cloud.offline.online": "online",
+    "cloud.offline.online": "en línea",
     "cloud.offline.pasteConfigJson": "Pega configuracion JSON...",
     "cloud.offline.preferred": "Preferido",
     "cloud.offline.reactivateFailed": "Error al reactivar runner",

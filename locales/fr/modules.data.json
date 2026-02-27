@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Nombre de lignes ecrites",
     "modules.data.json_to_csv.output.output_path.description": "Chemin vers le fichier CSV genere",
     "modules.data.json_to_csv.output.row_count.description": "Chemin vers le fichier CSV genere",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "Données d'entrée",
     "modules.data.pipeline.description": "Enchaînez plusieurs transformations de données en une seule étape",
     "modules.data.pipeline.label": "Pipeline de données",
     "modules.data.pipeline.output.original_count.description": "Données transformées",
@@ -94,6 +94,6 @@
     "modules.data.yaml.parse.params.file_path.description": "Chemin du fichier YAML à analyser",
     "modules.data.yaml.parse.params.file_path.label": "Chemin du Fichier",
     "modules.data.yaml.parse.params.multi_document.description": "Analyser le YAML multi-document (séparé par ---)",
-    "modules.data.yaml.parse.params.multi_document.label": "Multi Document"
+    "modules.data.yaml.parse.params.multi_document.label": "Multi-document"
   }
 }

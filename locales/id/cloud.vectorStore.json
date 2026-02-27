@@ -15,7 +15,7 @@
     "vectorStore.filters": "Filter Metadata",
     "vectorStore.metadata": "Metadata",
     "vectorStore.noMetadata": "Tidak ada field metadata",
-    "vectorStore.query": "Query",
+    "vectorStore.query": "Kueri",
     "vectorStore.queryPlaceholder": "Masukkan query pencarian atau gunakan {{variable}}...",
     "vectorStore.refreshCollections": "Muat ulang koleksi",
     "vectorStore.scoreThreshold": "Ambang Skor",

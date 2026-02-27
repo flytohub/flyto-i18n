@@ -23,7 +23,7 @@
     "modules.productivity.airtable.read.params.base_id.description": "API key Airtable (atau gunakan env AIRTABLE_API_KEY)",
     "modules.productivity.airtable.read.params.base_id.label": "API Key",
     "modules.productivity.airtable.read.params.max_records.description": "Nama view yang digunakan (opsional)",
-    "modules.productivity.airtable.read.params.max_records.label": "View",
+    "modules.productivity.airtable.read.params.max_records.label": "Tampilan",
     "modules.productivity.airtable.read.params.table_name.description": "ID base Airtable",
     "modules.productivity.airtable.read.params.table_name.label": "ID Base",
     "modules.productivity.airtable.read.params.view.description": "Nama tabel",

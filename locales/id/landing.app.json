@@ -53,7 +53,7 @@
     "landing.app.requirements.macosProcessor": "Prosesor Apple Silicon atau Intel",
     "landing.app.requirements.macosTitle": "macOS",
     "landing.app.requirements.macosVersion": "macOS 11 (Big Sur) atau lebih baru",
-    "landing.app.requirements.ram": "4 GB RAM minimum",
+    "landing.app.requirements.ram": "Minimal 4 GB RAM",
     "landing.app.requirements.title": "Persyaratan Sistem",
     "landing.app.requirements.windowsProcessor": "Prosesor x64",
     "landing.app.requirements.windowsTitle": "Windows",

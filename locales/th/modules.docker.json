@@ -29,7 +29,7 @@
     "modules.docker.inspect_container.output.network_settings.description": "การตั้งค่าเครือข่าย (IP, พอร์ต, เครือข่าย)",
     "modules.docker.inspect_container.output.state.description": "สถานะของคอนเทนเนอร์ (สถานะ, กำลังทำงาน, pid, รหัสออก, ฯลฯ)",
     "modules.docker.inspect_container.params.container.description": "ID หรือชื่อของ container ที่จะตรวจสอบ",
-    "modules.docker.inspect_container.params.container.label": "Container",
+    "modules.docker.inspect_container.params.container.label": "คอนเทนเนอร์",
     "modules.docker.logs.description": "รับบันทึกจากคอนเทนเนอร์ Docker",
     "modules.docker.logs.label": "รับบันทึกคอนเทนเนอร์",
     "modules.docker.logs.output.lines.description": "จำนวนบรรทัดบันทึกที่คืนค่า",
@@ -77,7 +77,7 @@
     "modules.docker.stop.output.container_id.description": "ID หรือชื่อของ container ที่หยุด",
     "modules.docker.stop.output.stopped.description": "container หยุดสำเร็จหรือไม่",
     "modules.docker.stop.params.container.description": "ID หรือชื่อของ container ที่จะหยุด",
-    "modules.docker.stop.params.container.label": "Container",
+    "modules.docker.stop.params.container.label": "คอนเทนเนอร์",
     "modules.docker.stop.params.timeout.description": "จำนวนวินาทีที่จะรอก่อนหยุด container",
     "modules.docker.stop.params.timeout.label": "หมดเวลา"
   }

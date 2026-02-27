@@ -107,7 +107,7 @@
     "userSettings.userId": "사용자 ID",
     "userSettings.username": "사용자 이름",
     "userSettings.usernameHint": "문자, 숫자, 밑줄만 허용",
-    "userSettings.usernamePlaceholder": "your_username",
+    "userSettings.usernamePlaceholder": "사용자 이름",
     "userSettings.verified": "인증됨",
     "userSettings.viewPublicProfile": "공개 프로필 보기",
     "userSettings.yourApiKey": "내 API 키"

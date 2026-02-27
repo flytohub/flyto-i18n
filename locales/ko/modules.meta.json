@@ -28,7 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "태그 필터",
     "modules.meta.modules.list.params.tags.description": "카테고리별 모듈 필터링 (예: browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "카테고리 필터",
-    "modules.meta.modules.list.params.type": "Type",
+    "modules.meta.modules.list.params.type": "유형",
     "modules.meta.modules.test_generator.description": "모듈 생성 기능 테스트",
     "modules.meta.modules.test_generator.label": "생성기 테스트",
     "modules.meta.modules.update_docs.description": "레지스트리에서 MODULES.md 문서 생성 또는 업데이트",

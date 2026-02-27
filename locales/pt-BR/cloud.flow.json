@@ -33,7 +33,7 @@
     "flow.trigger.event": "Evento",
     "flow.trigger.eventHint": "Escute este evento para acionar o fluxo de trabalho",
     "flow.trigger.eventName": "Nome do Evento",
-    "flow.trigger.eventNamePlaceholder": "user.created",
+    "flow.trigger.eventNamePlaceholder": "usuário.criado",
     "flow.trigger.everyDay": "Diariamente",
     "flow.trigger.everyHour": "A cada hora",
     "flow.trigger.everyMinute": "A cada minuto",

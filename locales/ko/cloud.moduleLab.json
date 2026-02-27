@@ -13,7 +13,7 @@
     "moduleLab.imagePreview": "이미지 미리보기",
     "moduleLab.inputKey": "키",
     "moduleLab.inputKeyHint": "소문자, 숫자 및 밑줄 사용",
-    "moduleLab.inputKeyPlaceholder": "variable_name",
+    "moduleLab.inputKeyPlaceholder": "변수 이름",
     "moduleLab.inputLabel": "레이블",
     "moduleLab.inputLabelPlaceholder": "표시 레이블 입력...",
     "moduleLab.inputRequired": "이 필드는 필수입니다",

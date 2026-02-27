@@ -21,12 +21,12 @@
     "templateCard.publish": "Yayınla",
     "templateCard.sourceDeleted": "Orijinal şablon yazar tarafından silindi",
     "templateCard.sourceUnpublished": "Orijinal şablon yazar tarafından yayından kaldırıldı",
+    "templateCard.status.archived": "Archived",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
     "templateCard.syncToLatest": "En Son Sürüme Senkronize Et",
     "templateCard.unpublished": "Yayından Kaldırıldı",
     "templateCard.update": "Güncelle",
-    "templateCard.updateAvailable": "Yazardan güncelleme mevcut",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "Yazardan güncelleme mevcut"
   }
 }

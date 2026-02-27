@@ -41,7 +41,7 @@
     "modules.utility.random.number.params.decimals.description": "Maximalwert (inklusive)",
     "modules.utility.random.number.params.decimals.label": "Maximum",
     "modules.utility.random.number.params.max.description": "Minimalwert (inklusive)",
-    "modules.utility.random.number.params.max.label": "Minimum",
+    "modules.utility.random.number.params.max.label": "Maximum",
     "modules.utility.random.number.params.min.description": "Minimalwert (inklusive)",
     "modules.utility.random.number.params.min.label": "Minimum",
     "modules.utility.random.string.description": "Zufallsstring oder UUID generieren",

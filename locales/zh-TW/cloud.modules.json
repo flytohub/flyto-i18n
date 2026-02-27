@@ -105,7 +105,7 @@
     "cloud.moduleLab.imagePreview": "圖片預覽",
     "cloud.moduleLab.inputKey": "鍵值",
     "cloud.moduleLab.inputKeyHint": "使用小寫字母、數字和底線",
-    "cloud.moduleLab.inputKeyPlaceholder": "variable_name",
+    "cloud.moduleLab.inputKeyPlaceholder": "變數名稱",
     "cloud.moduleLab.inputLabel": "標籤",
     "cloud.moduleLab.inputLabelPlaceholder": "輸入顯示標籤...",
     "cloud.moduleLab.inputRequired": "此欄位為必填",

@@ -35,7 +35,7 @@
     "http.paramValue": "Nilai Parameter",
     "http.query": "Query",
     "http.queryParams": "Parameter Query",
-    "http.timeout": "Timeout (ms)",
+    "http.timeout": "Batas Waktu (ms)",
     "http.url": "URL",
     "http.value": "Nilai",
     "http.verifySsl": "Verifikasi SSL"

@@ -32,11 +32,11 @@
     "cloud.myTemplates.tabs.created": "Creati da Me",
     "cloud.myTemplates.tabs.installed": "Installati",
     "cloud.myTemplates.title": "I Miei Template",
-    "cloud.portLabel.default": "Default",
+    "cloud.portLabel.default": "Predefinito",
     "cloud.portLabel.eachItem": "Ogni Elemento",
-    "cloud.portLabel.output": "Output",
+    "cloud.portLabel.output": "Uscita",
     "cloud.portLabel.success": "Successo",
     "cloud.portLabel.timeout": "Timeout",
-    "cloud.portLabel.trigger": "Trigger"
+    "cloud.portLabel.trigger": "Attiva"
   }
 }

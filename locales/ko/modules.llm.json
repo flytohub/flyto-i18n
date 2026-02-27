@@ -31,9 +31,9 @@
     "modules.llm.agent.params.task.description": "에이전트가 완료할 작업. 업스트림 데이터를 참조하려면 {{input}}을 사용하세요.",
     "modules.llm.agent.params.tools": "사용 가능한 도구",
     "modules.llm.agent.params.tools.description": "모듈 ID 목록 (도구 노드 연결 대안)",
-    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
-    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
-    "modules.llm.agent.params.tools.options.file.read": "File.Read",
+    "modules.llm.agent.params.tools.options.array.filter": "배열.필터",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "데이터.CSV 파싱",
+    "modules.llm.agent.params.tools.options.file.read": "파일.읽기",
     "modules.llm.agent.ports.input": "입력",
     "modules.llm.agent.ports.memory": "모델",
     "modules.llm.agent.ports.model": "입력",
@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "작업 성공 여부",
     "modules.llm.code_fix.output.ok.description": "작업 성공 여부",
     "modules.llm.code_fix.output.summary.description": "적용된 수정 목록 (fix_mode가 apply인 경우)",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "수정사항",
+    "modules.llm.code_fix.params.source_files": "소스 파일"
   }
 }

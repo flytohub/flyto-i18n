@@ -7,7 +7,7 @@
     "home.aiPlatformBadge": "แพลตฟอร์ม Automation ที่ขับเคลื่อนด้วย AI",
     "home.exploreApps": "สำรวจแอป",
     "home.feature1Desc": "อินเทอร์เฟซลากและวาง สร้าง workflows ที่ซับซ้อนโดยไม่ต้องเขียนโค้ด",
-    "home.feature1Title": "Visual Editor",
+    "home.feature1Title": "โปรแกรมแก้ไขภาพ",
     "home.feature2Desc": "เครื่องมือดำเนินการ async ประสิทธิภาพสูงพร้อมการกำหนดเวลาและ event triggers",
     "home.feature2Title": "การดำเนินการแบบเรียลไทม์",
     "home.feature3Desc": "รวมบริการหลายร้อยรายการ ตั้งแต่ HTTP requests จนถึงการแจ้งเตือน push",
@@ -32,7 +32,7 @@
     "home.statActiveUsers": "ผู้ใช้งาน",
     "home.statExecutions": "การดำเนินการ",
     "home.statSuccessRate": "อัตราสำเร็จ %",
-    "home.statWorkflows": "Workflows",
+    "home.statWorkflows": "เวิร์กโฟลว์",
     "home.whyChoose": "ทำไมเลือก Flyto2?"
   }
 }

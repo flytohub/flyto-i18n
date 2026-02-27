@@ -21,7 +21,7 @@
     "alerts.history.severity": "ระดับความรุนแรง",
     "alerts.history.title": "ประวัติการแจ้งเตือน",
     "alerts.history.triggered": "ถูกกระตุ้น",
-    "alerts.history.workflow": "Workflow",
+    "alerts.history.workflow": "เวิร์กโฟลว์",
     "alerts.modal.conditionType": "ตัวชี้วัด",
     "alerts.modal.cooldown": "ช่วงพัก (นาที)",
     "alerts.modal.cooldownHelp": "เวลาขั้นต่ำระหว่างการแจ้งเตือนซ้ำสำหรับกฎเดียวกัน",

@@ -42,7 +42,7 @@
     "payoutSettings.setupDescription": "템플릿 판매 수익을 받으려면 은행 계좌를 연결하세요. 안전한 결제를 위해 Stripe를 사용합니다.",
     "payoutSettings.setupPayouts": "지급 설정",
     "payoutSettings.statusActive": "활성",
-    "payoutSettings.stripeConnect": "Stripe Connect",
+    "payoutSettings.stripeConnect": "Stripe 연결",
     "payoutSettings.subtitle": "수익 및 결제 설정 관리",
     "payoutSettings.title": "지급 설정",
     "payoutSettings.totalSales": "총 판매액",

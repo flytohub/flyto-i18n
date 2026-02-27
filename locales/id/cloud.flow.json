@@ -18,7 +18,7 @@
     "flow.loop.timesHint": "Jumlah pengulangan (1-1000)",
     "flow.loop.timesPlaceholder": "10",
     "flow.switch.addCase": "Tambah Case",
-    "flow.switch.case": "Case",
+    "flow.switch.case": "Kasus",
     "flow.switch.cases": "Case Switch",
     "flow.switch.default": "Default",
     "flow.switch.defaultInfo": "Nilai yang tidak cocok pergi ke output Default",

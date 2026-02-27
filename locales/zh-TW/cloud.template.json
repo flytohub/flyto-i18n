@@ -252,7 +252,7 @@
     "cloud.templateBuilder.properties.helpText": "說明文字",
     "cloud.templateBuilder.properties.helpTextHint": "給使用者的額外說明",
     "cloud.templateBuilder.properties.inputType": "輸入類型",
-    "cloud.templateBuilder.properties.inputTypeEmail": "Email",
+    "cloud.templateBuilder.properties.inputTypeEmail": "電子郵件",
     "cloud.templateBuilder.properties.inputTypeNumber": "數字",
     "cloud.templateBuilder.properties.inputTypePassword": "密碼",
     "cloud.templateBuilder.properties.inputTypeTel": "電話",
@@ -385,7 +385,7 @@
     "cloud.templateDebugger.header.executing": "執行中...",
     "cloud.templateDebugger.header.stop": "停止",
     "cloud.templateDebugger.logs.continue": "▶ 繼續",
-    "cloud.templateDebugger.logs.duration": "{time}s",
+    "cloud.templateDebugger.logs.duration": "{time}秒",
     "cloud.templateDebugger.logs.executing": "執行中...",
     "cloud.templateDebugger.logs.failed": "失敗",
     "cloud.templateDebugger.logs.notExecuted": "尚未執行",
@@ -471,10 +471,6 @@
     "cloud.templateForm.templateIcon": "模板圖示",
     "cloud.templateForm.templateName": "模板名稱",
     "cloud.templateForm.uploadIcon": "上傳圖示",
-    "colorPicker.clickToOpen": "點擊打開調色盤",
-    "colorPicker.custom": "自訂顏色",
-    "colorPicker.popular": "常用顏色",
-    "colorPicker.presets": "預設顏色",
     "cloud.templateRunner.debug.title": "🔧 JSON 配置",
     "cloud.templateRunner.form.group.advanced": "進階設定",
     "cloud.templateRunner.form.group.basic": "基本設定",
@@ -527,6 +523,10 @@
     "cloud.templateToolbar.sortOptions.name": "名稱 A-Z",
     "cloud.templateToolbar.sortOptions.status": "依狀態",
     "cloud.templateToolbar.sortOptions.updated": "最近更新",
-    "cloud.templateToolbar.viewMode": "檢視模式"
+    "cloud.templateToolbar.viewMode": "檢視模式",
+    "colorPicker.clickToOpen": "點擊打開調色盤",
+    "colorPicker.custom": "自訂顏色",
+    "colorPicker.popular": "常用顏色",
+    "colorPicker.presets": "預設顏色"
   }
 }

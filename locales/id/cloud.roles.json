@@ -12,7 +12,7 @@
     "roles.delete.message": "Apakah Anda yakin ingin menghapus role ini? Pengguna dengan role ini akan ditetapkan ke role anggota default.",
     "roles.delete.title": "Hapus Role",
     "roles.description": "Kelola role dan izin akses",
-    "roles.edit.title": "Edit Role",
+    "roles.edit.title": "Edit Peran",
     "roles.form.description": "Deskripsi",
     "roles.form.name": "Nama Role",
     "roles.form.permissions": "Izin",

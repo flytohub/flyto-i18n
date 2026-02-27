@@ -13,7 +13,7 @@
     "moduleLab.imagePreview": "圖片預覽",
     "moduleLab.inputKey": "鍵值",
     "moduleLab.inputKeyHint": "使用小寫字母、數字和底線",
-    "moduleLab.inputKeyPlaceholder": "variable_name",
+    "moduleLab.inputKeyPlaceholder": "請輸入變數名稱",
     "moduleLab.inputLabel": "標籤",
     "moduleLab.inputLabelPlaceholder": "輸入顯示標籤...",
     "moduleLab.inputRequired": "此欄位為必填",

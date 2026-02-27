@@ -54,16 +54,16 @@
     "modules.format.number.params.thousand_separator.label": "Decimal Places",
     "modules.format.percentage.description": "Format numbers as percentages",
     "modules.format.percentage.label": "Format Percentage",
-    "modules.format.percentage.output.numeric.description": "Formatted percentage string",
-    "modules.format.percentage.output.original.description": "Formatted percentage string",
-    "modules.format.percentage.output.result.description": "Include + sign for positive values",
-    "modules.format.percentage.params.decimal_places.description": "Input is a ratio (0-1) that needs to be multiplied by 100",
-    "modules.format.percentage.params.decimal_places.label": "Is Ratio",
-    "modules.format.percentage.params.include_sign.description": "Number of decimal places",
-    "modules.format.percentage.params.include_sign.label": "Decimal Places",
-    "modules.format.percentage.params.is_ratio.description": "Value to format as percentage",
-    "modules.format.percentage.params.is_ratio.label": "Value",
-    "modules.format.percentage.params.value.description": "Value to format as percentage",
-    "modules.format.percentage.params.value.label": "Value"
+    "modules.format.percentage.output.numeric.description": "Sformatowany ciąg procentowy",
+    "modules.format.percentage.output.original.description": "Sformatowany ciąg procentowy",
+    "modules.format.percentage.output.result.description": "Uwzględnij znak + dla wartości dodatnich",
+    "modules.format.percentage.params.decimal_places.description": "Wejście to współczynnik (0-1), który należy pomnożyć przez 100",
+    "modules.format.percentage.params.decimal_places.label": "Czy to współczynnik",
+    "modules.format.percentage.params.include_sign.description": "Liczba miejsc dziesiętnych",
+    "modules.format.percentage.params.include_sign.label": "Miejsca dziesiętne",
+    "modules.format.percentage.params.is_ratio.description": "Wartość do sformatowania jako procent",
+    "modules.format.percentage.params.is_ratio.label": "Wartość",
+    "modules.format.percentage.params.value.description": "Wartość do sformatowania jako procent",
+    "modules.format.percentage.params.value.label": "Wartość"
   }
 }

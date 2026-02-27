@@ -22,7 +22,7 @@
     "variables.scope": "Ambito",
     "variables.scopes.organization": "Organizzazione",
     "variables.scopes.project": "Progetto",
-    "variables.scopes.workflow": "Workflow",
+    "variables.scopes.workflow": "Flusso di lavoro",
     "variables.subtitle": "Gestisci variabili e credenziali per i tuoi workflow",
     "variables.title": "Variabili",
     "variables.type": "Tipo",

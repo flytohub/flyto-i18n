@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "Apakah operasi berhasil",
     "modules.llm.code_fix.output.ok.description": "Apakah operasi berhasil",
     "modules.llm.code_fix.output.summary.description": "Daftar perbaikan yang diterapkan (jika fix_mode adalah apply)",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "Perbaikan",
+    "modules.llm.code_fix.params.source_files": "File Sumber"
   }
 }

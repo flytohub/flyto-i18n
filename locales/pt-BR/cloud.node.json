@@ -28,11 +28,11 @@
     "node.settings.strategyExponential": "Exponencial",
     "node.settings.strategyFixed": "Fixo",
     "node.settings.strategyLinear": "Linear",
-    "node.settings.timeout": "Timeout",
+    "node.settings.timeout": "Tempo limite",
     "node.settings.timeoutPlaceholder": "Ex: 30000 (30s)",
-    "node.sticky.contentPlaceholder": "Enter content",
-    "node.sticky.placeholder": "Enter text",
-    "node.sticky.titlePlaceholder": "Enter title",
-    "node.trigger.badge": "Trigger badge"
+    "node.sticky.contentPlaceholder": "Digite o conteúdo",
+    "node.sticky.placeholder": "Digite o texto",
+    "node.sticky.titlePlaceholder": "Digite o título",
+    "node.trigger.badge": "Acionar emblema"
   }
 }

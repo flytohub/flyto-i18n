@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Liczba zapisanych wierszy",
     "modules.data.json_to_csv.output.output_path.description": "Sciezka do wygenerowanego pliku CSV",
     "modules.data.json_to_csv.output.row_count.description": "Sciezka do wygenerowanego pliku CSV",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "Dane wejściowe",
     "modules.data.pipeline.description": "Połącz wiele transformacji danych w jednym kroku",
     "modules.data.pipeline.label": "Rurociąg Danych",
     "modules.data.pipeline.output.original_count.description": "Przekształcone dane",

@@ -28,7 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "タグフィルタ",
     "modules.meta.modules.list.params.tags.description": "カテゴリでモジュールをフィルタ（例: browser, data, ai）",
     "modules.meta.modules.list.params.tags.label": "カテゴリフィルタ",
-    "modules.meta.modules.list.params.type": "Type",
+    "modules.meta.modules.list.params.type": "タイプ",
     "modules.meta.modules.test_generator.description": "モジュール生成機能をテスト",
     "modules.meta.modules.test_generator.label": "テストジェネレータ",
     "modules.meta.modules.update_docs.description": "レジストリからMODULES.mdドキュメントを生成または更新",

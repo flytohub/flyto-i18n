@@ -31,9 +31,9 @@
     "modules.llm.agent.params.task.description": "代理要完成的任務。使用 {{input}} 參考上游資料。",
     "modules.llm.agent.params.tools": "可用工具",
     "modules.llm.agent.params.tools.description": "模組 ID 列表（可替代連接工具節點）",
-    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
-    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
-    "modules.llm.agent.params.tools.options.file.read": "File.Read",
+    "modules.llm.agent.params.tools.options.array.filter": "陣列篩選",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "資料.CSV 解析",
+    "modules.llm.agent.params.tools.options.file.read": "檔案讀取",
     "modules.llm.agent.ports.input": "輸入",
     "modules.llm.agent.ports.memory": "記憶",
     "modules.llm.agent.ports.model": "模型",
@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "產生的修復列表",
     "modules.llm.code_fix.output.ok.description": "操作是否成功",
     "modules.llm.code_fix.output.summary.description": "修復摘要",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "修正",
+    "modules.llm.code_fix.params.source_files": "來源檔案"
   }
 }

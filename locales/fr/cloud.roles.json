@@ -15,8 +15,8 @@
     "roles.edit.title": "Modifier le role",
     "roles.form.description": "Description",
     "roles.form.name": "Nom du role",
-    "roles.form.permissions": "Permissions",
-    "roles.permissions": "permissions",
+    "roles.form.permissions": "Autorisations",
+    "roles.permissions": "autorisations",
     "roles.title": "Roles et permissions",
     "roles.users": "utilisateurs"
   }

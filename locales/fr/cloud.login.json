@@ -11,7 +11,7 @@
     "login.confirmPasswordPlaceholder": "Ressaisissez le nouveau mot de passe",
     "login.createAccount": "Creer un compte",
     "login.emailInUse": "Cet email est deja enregistre",
-    "login.emailLabel": "Email",
+    "login.emailLabel": "E-mail",
     "login.emailPlaceholder": "Entrez votre email",
     "login.enterOffline": "Passer en mode hors ligne",
     "login.enteringOffline": "Passage en mode hors ligne...",

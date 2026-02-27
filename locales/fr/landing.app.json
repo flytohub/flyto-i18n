@@ -6,7 +6,7 @@
   "translations": {
     "landing.app.features.browser": "Automatisation du navigateur",
     "landing.app.features.browserDesc": "Enregistrez et rejouez des actions de navigateur. Automatisez les tâches web répétitives.",
-    "landing.app.features.modules": "250+ Modules",
+    "landing.app.features.modules": "250+ modules",
     "landing.app.features.modulesDesc": "Modules intégrés pour le traitement des données, les opérations sur fichiers, les appels API, et plus.",
     "landing.app.features.offline": "100% Hors ligne",
     "landing.app.features.offlineDesc": "Fonctionne entièrement hors ligne. Vos données ne quittent jamais votre ordinateur.",

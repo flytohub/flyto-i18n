@@ -17,7 +17,7 @@
     "modules.queue.dequeue.params.redis_url.description": "Redis-Verbindungs-URL",
     "modules.queue.dequeue.params.redis_url.label": "Redis-URL",
     "modules.queue.dequeue.params.timeout.description": "Timeout in Sekunden (0 = nicht blockierend)",
-    "modules.queue.dequeue.params.timeout.label": "Timeout",
+    "modules.queue.dequeue.params.timeout.label": "Zeitüberschreitung",
     "modules.queue.enqueue.description": "Ein Element in eine In-Memory- oder Redis-Warteschlange einfügen",
     "modules.queue.enqueue.label": "Element einreihen",
     "modules.queue.enqueue.output.position.description": "Position des Elements in der Warteschlange",

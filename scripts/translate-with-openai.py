@@ -363,6 +363,22 @@ def translate_batch(
         return {}
 
 
+def _is_untranslated(existing: str, en_value: str) -> bool:
+    """Check if a translation is just a copy of the English value."""
+    if not existing or not en_value:
+        return False
+    if existing != en_value:
+        return False
+    # Skip short strings and all-caps technical terms (API, JSON, URL, etc.)
+    if len(en_value) <= 3 or en_value.isupper():
+        return False
+    # Skip strings that are purely technical (numbers, symbols, formats)
+    stripped = en_value.strip()
+    if all(c in '0123456789.-+/%$€£¥:' for c in stripped):
+        return False
+    return True
+
+
 def translate_file(
     client: OpenAI,
     en_file: Path,
@@ -370,7 +386,8 @@ def translate_file(
     target_locale: str,
     force: bool = False,
     dry_run: bool = False,
-    model: str = "gpt-4o"
+    model: str = "gpt-4o",
+    untranslated: bool = False,
 ) -> Tuple[int, int]:
     """
     Translate a single file.
@@ -397,6 +414,8 @@ def translate_file(
     for key, en_value in en_translations.items():
         existing = target_translations.get(key, "")
         if force or not existing:
+            to_translate[key] = en_value
+        elif untranslated and _is_untranslated(existing, en_value):
             to_translate[key] = en_value
 
     if not to_translate:
@@ -460,6 +479,8 @@ Examples:
                         help='Translate specific file only (e.g., cloud.ui.json)')
     parser.add_argument('--force', action='store_true',
                         help='Re-translate all keys, including existing translations')
+    parser.add_argument('--untranslated', '-u', action='store_true',
+                        help='Detect and re-translate values identical to English source')
     parser.add_argument('--dry-run', action='store_true',
                         help='Show what would be translated without making changes')
     parser.add_argument('--model', default='gpt-4o',
@@ -484,7 +505,8 @@ Examples:
 
     print(f"Translating to: {args.target}")
     print(f"Model: {args.model}")
-    print(f"Mode: {'DRY RUN' if args.dry_run else ('FORCE' if args.force else 'NORMAL')}")
+    mode = 'DRY RUN' if args.dry_run else ('FORCE' if args.force else ('UNTRANSLATED' if args.untranslated else 'NORMAL'))
+    print(f"Mode: {mode}")
     print()
 
     total_translated = 0
@@ -512,7 +534,8 @@ Examples:
             target_locale=args.target,
             force=args.force,
             dry_run=args.dry_run,
-            model=args.model
+            model=args.model,
+            untranslated=args.untranslated,
         )
 
         if translated == 0 and skipped > 0:

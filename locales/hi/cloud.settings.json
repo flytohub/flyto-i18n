@@ -155,7 +155,7 @@
     "cloud.userSettings.noDevicesRegistered": "अभी तक कोई डिवाइस पंजीकृत नहीं।",
     "cloud.userSettings.noLicenses": "अभी तक कोई लाइसेंस नहीं",
     "cloud.userSettings.noLicensesDesc": "इंटरनेट कनेक्शन के बिना Flyto2 का उपयोग करने के लिए Pro Offline लाइसेंस खरीदें।",
-    "cloud.userSettings.proOffline": "Pro Offline",
+    "cloud.userSettings.proOffline": "प्रो ऑफलाइन",
     "cloud.userSettings.profileInfo": "प्रोफ़ाइल जानकारी",
     "cloud.userSettings.purchased": "खरीदा गया",
     "cloud.userSettings.removeDevice": "डिवाइस हटाएं",
@@ -183,7 +183,7 @@
     "cloud.userSettings.userId": "उपयोगकर्ता ID",
     "cloud.userSettings.username": "उपयोगकर्ता नाम",
     "cloud.userSettings.usernameHint": "केवल अक्षर, संख्याएं और अंडरस्कोर",
-    "cloud.userSettings.usernamePlaceholder": "your_username",
+    "cloud.userSettings.usernamePlaceholder": "आपका_उपयोगकर्ता_नाम",
     "cloud.userSettings.yourApiKey": "आपकी API कुंजी"
   }
 }

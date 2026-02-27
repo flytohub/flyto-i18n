@@ -16,7 +16,7 @@
     "traces.filter.failed": "Falhou",
     "traces.filter.running": "Executando",
     "traces.list.empty": "Nenhum trace encontrado",
-    "traces.list.title": "Traces",
+    "traces.list.title": "Rastreios",
     "traces.search.placeholder": "Pesquisar por ID do trace, nome do workflow...",
     "traces.spanDetail.duration": "Duracao",
     "traces.spanDetail.endTime": "Hora de Termino",

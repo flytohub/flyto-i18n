@@ -19,9 +19,9 @@
     "modules.vision.compare.output.recommendation.description": "Resumen de resultados de comparacion",
     "modules.vision.compare.output.similarity_score.description": "Si se encontraron diferencias significativas",
     "modules.vision.compare.output.summary.description": "Lista de diferencias identificadas",
-    "modules.vision.compare.params.differences": "Differences",
-    "modules.vision.compare.params.focus_areas": "Focus Areas",
-    "modules.vision.compare.params.focus_areas.options.header": "Header",
-    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
+    "modules.vision.compare.params.differences": "Diferencias",
+    "modules.vision.compare.params.focus_areas": "Áreas de enfoque",
+    "modules.vision.compare.params.focus_areas.options.header": "Encabezado",
+    "modules.vision.compare.params.focus_areas.options.main content": "Contenido principal"
   }
 }

@@ -242,7 +242,7 @@
     "cloud.modules.flow.fork.description": "समानांतर निष्पादन ब्रांच में विभाजित करें",
     "cloud.modules.flow.fork.label": "फोर्क",
     "cloud.modules.flow.goto.description": "किसी अन्य चरण पर जाएं",
-    "cloud.modules.flow.goto.label": "Goto",
+    "cloud.modules.flow.goto.label": "जाएँ",
     "cloud.modules.flow.join.description": "कई इनपुट के पूर्ण होने की प्रतीक्षा करें",
     "cloud.modules.flow.join.label": "जॉइन",
     "cloud.modules.flow.loop.description": "निर्दिष्ट संख्या में निष्पादन दोहराएं",

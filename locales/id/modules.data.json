@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Jumlah baris yang ditulis",
     "modules.data.json_to_csv.output.output_path.description": "Path ke file CSV yang dihasilkan",
     "modules.data.json_to_csv.output.row_count.description": "Path ke file CSV yang dihasilkan",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "Data Masukan",
     "modules.data.pipeline.description": "Rangkaikan beberapa transformasi data dalam satu langkah",
     "modules.data.pipeline.label": "Pipa Data",
     "modules.data.pipeline.output.original_count.description": "Data yang telah ditransformasi",

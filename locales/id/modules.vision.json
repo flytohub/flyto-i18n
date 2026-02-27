@@ -19,9 +19,9 @@
     "modules.vision.compare.output.recommendation.description": "Ringkasan hasil perbandingan",
     "modules.vision.compare.output.similarity_score.description": "Apakah perbedaan signifikan ditemukan",
     "modules.vision.compare.output.summary.description": "Daftar perbedaan yang teridentifikasi",
-    "modules.vision.compare.params.differences": "Differences",
-    "modules.vision.compare.params.focus_areas": "Focus Areas",
+    "modules.vision.compare.params.differences": "Perbedaan",
+    "modules.vision.compare.params.focus_areas": "Area Fokus",
     "modules.vision.compare.params.focus_areas.options.header": "Header",
-    "modules.vision.compare.params.focus_areas.options.main content": "Main Content"
+    "modules.vision.compare.params.focus_areas.options.main content": "Konten Utama"
   }
 }

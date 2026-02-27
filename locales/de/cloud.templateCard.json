@@ -21,12 +21,12 @@
     "templateCard.publish": "Veröffentlichen",
     "templateCard.sourceDeleted": "Die Originalvorlage wurde vom Autor gelöscht",
     "templateCard.sourceUnpublished": "Die Originalvorlage wurde vom Autor zurückgezogen",
+    "templateCard.status.archived": "Archiviert",
+    "templateCard.status.draft": "Entwurf",
+    "templateCard.status.published": "Veröffentlicht",
     "templateCard.syncToLatest": "Auf neueste Version synchronisieren",
     "templateCard.unpublished": "Nicht veröffentlicht",
     "templateCard.update": "Aktualisieren",
-    "templateCard.updateAvailable": "Update vom Autor verfügbar",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "Update vom Autor verfügbar"
   }
 }

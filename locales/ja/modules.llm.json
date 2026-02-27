@@ -31,9 +31,9 @@
     "modules.llm.agent.params.task.description": "エージェントが完了するタスク。上流データを参照するには{{input}}を使用。",
     "modules.llm.agent.params.tools": "利用可能なツール",
     "modules.llm.agent.params.tools.description": "モジュールIDのリスト（ツールノード接続の代替）",
-    "modules.llm.agent.params.tools.options.array.filter": "Array.Filter",
-    "modules.llm.agent.params.tools.options.data.csv_parse": "Data.Csv Parse",
-    "modules.llm.agent.params.tools.options.file.read": "File.Read",
+    "modules.llm.agent.params.tools.options.array.filter": "配列.フィルター",
+    "modules.llm.agent.params.tools.options.data.csv_parse": "データ.CSV解析",
+    "modules.llm.agent.params.tools.options.file.read": "ファイル.読み込み",
     "modules.llm.agent.ports.input": "入力",
     "modules.llm.agent.ports.memory": "モデル",
     "modules.llm.agent.ports.model": "入力",
@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "操作が成功したかどうか",
     "modules.llm.code_fix.output.ok.description": "操作が成功したかどうか",
     "modules.llm.code_fix.output.summary.description": "適用された修正のリスト（fix_modeがapplyの場合）",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "修正",
+    "modules.llm.code_fix.params.source_files": "ソースファイル"
   }
 }

@@ -42,7 +42,7 @@
     "modules.network.traceroute.params.timeout.description": "Limit czasu w sekundach dla każdej sondy",
     "modules.network.traceroute.params.timeout.label": "Limit czasu",
     "modules.network.whois.description": "Wykonaj zapytanie WHOIS dla domeny, aby uzyskać informacje o rejestracji",
-    "modules.network.whois.label": "WHOIS Lookup",
+    "modules.network.whois.label": "Sprawdzenie WHOIS",
     "modules.network.whois.output.creation_date.description": "Data utworzenia domeny",
     "modules.network.whois.output.domain.description": "Zapytana domena",
     "modules.network.whois.output.expiration_date.description": "Data wygaśnięcia domeny",

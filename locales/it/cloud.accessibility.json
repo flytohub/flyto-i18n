@@ -4,7 +4,7 @@
   "category": "cloud.accessibility",
   "version": "1.0.0",
   "translations": {
-    "accessibility.breadcrumb": "Breadcrumb",
+    "accessibility.breadcrumb": "Percorso di navigazione",
     "accessibility.clearInput": "Cancella input",
     "accessibility.closeDialog": "Chiudi finestra di dialogo",
     "accessibility.closeMenu": "Chiudi menu",

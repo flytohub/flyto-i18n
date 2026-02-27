@@ -107,7 +107,7 @@
     "userSettings.userId": "用戶 ID",
     "userSettings.username": "用戶名稱",
     "userSettings.usernameHint": "只能使用英文字母、數字和底線",
-    "userSettings.usernamePlaceholder": "your_username",
+    "userSettings.usernamePlaceholder": "請輸入您的使用者名稱",
     "userSettings.verified": "已驗證",
     "userSettings.viewPublicProfile": "查看公開檔案",
     "userSettings.yourApiKey": "您的 API 金鑰"

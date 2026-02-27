@@ -183,7 +183,7 @@
     "cloud.userSettings.userId": "사용자 ID",
     "cloud.userSettings.username": "사용자 이름",
     "cloud.userSettings.usernameHint": "문자, 숫자, 밑줄만 허용",
-    "cloud.userSettings.usernamePlaceholder": "your_username",
+    "cloud.userSettings.usernamePlaceholder": "사용자 이름",
     "cloud.userSettings.yourApiKey": "내 API 키"
   }
 }

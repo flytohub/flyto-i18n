@@ -4,7 +4,7 @@
   "category": "cloud.preview",
   "version": "1.0.0",
   "translations": {
-    "preview.askAIFix": "Ask AI to fix",
+    "preview.askAIFix": "Pedir a la IA que lo arregle",
     "preview.emptyState.description": "Cambia al modo Desarrollo para agregar pasos al flujo de trabajo",
     "preview.emptyState.hint": "Vista previa no disponible",
     "preview.emptyState.title": "Flujo de trabajo no definido",

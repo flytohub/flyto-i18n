@@ -30,7 +30,7 @@
     "http.key": "Cle",
     "http.noHeaders": "Aucun en-tete",
     "http.noParams": "Aucun parametre",
-    "http.options": "Options",
+    "http.options": "Paramètres",
     "http.paramKey": "Cle du parametre",
     "http.paramValue": "Valeur du parametre",
     "http.query": "Requete",

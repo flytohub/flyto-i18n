@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "क्या ऑपरेशन सफल हुआ",
     "modules.llm.code_fix.output.ok.description": "क्या ऑपरेशन सफल हुआ",
     "modules.llm.code_fix.output.summary.description": "लागू किए गए फ़िक्स की सूची (यदि fix_mode apply है)",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "सुधारें",
+    "modules.llm.code_fix.params.source_files": "स्रोत फाइलें"
   }
 }

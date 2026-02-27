@@ -16,7 +16,7 @@
     "modules.pdf.generate.output.output_path.description": "Path ke PDF yang dihasilkan",
     "modules.pdf.generate.output.page_count.description": "Path ke PDF yang dihasilkan",
     "modules.pdf.parse.description": "Ekstrak teks dan metadata dari file PDF",
-    "modules.pdf.parse.label": "Parse PDF",
+    "modules.pdf.parse.label": "Memproses PDF",
     "modules.pdf.parse.output.metadata.description": "Konten teks yang diekstrak",
     "modules.pdf.parse.output.page_count.description": "Konten teks per halaman",
     "modules.pdf.parse.output.pages.description": "Konten teks yang diekstrak",

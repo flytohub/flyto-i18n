@@ -12,7 +12,7 @@
     "modules.payment.stripe.create_payment.output.id.description": "ID pelanggan Stripe (opsional)",
     "modules.payment.stripe.create_payment.output.status.description": "Jumlah pembayaran",
     "modules.payment.stripe.create_payment.params.amount.description": "Kunci rahasia Stripe (atau gunakan env STRIPE_API_KEY)",
-    "modules.payment.stripe.create_payment.params.amount.label": "API Key",
+    "modules.payment.stripe.create_payment.params.amount.label": "Jumlah",
     "modules.payment.stripe.create_payment.params.api_key.description": "Kunci rahasia Stripe (atau gunakan env STRIPE_API_KEY)",
     "modules.payment.stripe.create_payment.params.api_key.label": "API Key",
     "modules.payment.stripe.create_payment.params.currency.description": "Jumlah dalam sen (mis. 1000 untuk $10.00)",
@@ -26,7 +26,7 @@
     "modules.payment.stripe.get_customer.params.api_key.description": "Kunci rahasia Stripe (atau gunakan env STRIPE_API_KEY)",
     "modules.payment.stripe.get_customer.params.api_key.label": "API Key",
     "modules.payment.stripe.get_customer.params.customer_id.description": "Kunci rahasia Stripe (atau gunakan env STRIPE_API_KEY)",
-    "modules.payment.stripe.get_customer.params.customer_id.label": "API Key",
+    "modules.payment.stripe.get_customer.params.customer_id.label": "ID Pelanggan",
     "modules.payment.stripe.list_charges.description": "Daftar tagihan terbaru dari Stripe",
     "modules.payment.stripe.list_charges.label": "Stripe Daftar Tagihan",
     "modules.payment.stripe.list_charges.params.api_key.description": "Kunci rahasia Stripe (atau gunakan env STRIPE_API_KEY)",
@@ -34,6 +34,6 @@
     "modules.payment.stripe.list_charges.params.customer.description": "Filter berdasarkan ID pelanggan (opsional)",
     "modules.payment.stripe.list_charges.params.customer.label": "Batas",
     "modules.payment.stripe.list_charges.params.limit.description": "Kunci rahasia Stripe (atau gunakan env STRIPE_API_KEY)",
-    "modules.payment.stripe.list_charges.params.limit.label": "API Key"
+    "modules.payment.stripe.list_charges.params.limit.label": "Batas"
   }
 }

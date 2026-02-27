@@ -10,11 +10,11 @@
     "llmChain.maxTokens": "Token Maksimum",
     "llmChain.maxTokensHint": "Panjang maksimum respons",
     "llmChain.model": "Model",
-    "llmChain.systemPrompt": "System Prompt",
+    "llmChain.systemPrompt": "Prompt Sistem",
     "llmChain.systemPromptPlaceholder": "Anda adalah asisten yang membantu...",
-    "llmChain.temperature": "Temperature",
+    "llmChain.temperature": "Temperatur",
     "llmChain.temperatureHint": "Lebih tinggi = lebih kreatif, Lebih rendah = lebih fokus",
-    "llmChain.userPrompt": "User Prompt",
+    "llmChain.userPrompt": "Prompt Pengguna",
     "llmChain.userPromptPlaceholder": "Masukkan prompt Anda dengan {{variables}}...",
     "llmChain.variableHelp": "Gunakan {{variable}} untuk mereferensikan data dari langkah sebelumnya"
   }

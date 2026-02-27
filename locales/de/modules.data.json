@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "Anzahl der geschriebenen Zeilen",
     "modules.data.json_to_csv.output.output_path.description": "Pfad zur generierten CSV-Datei",
     "modules.data.json_to_csv.output.row_count.description": "Pfad zur generierten CSV-Datei",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "Eingabedaten",
     "modules.data.pipeline.description": "Mehrere Datenumwandlungen in einem Schritt verketten",
     "modules.data.pipeline.label": "Daten-Pipeline",
     "modules.data.pipeline.output.original_count.description": "Umgewandelte Daten",

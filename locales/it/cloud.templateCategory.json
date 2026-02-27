@@ -4,17 +4,17 @@
   "category": "cloud.templateCategory",
   "version": "1.0.0",
   "translations": {
+    "templateCategory.ai": "IA",
+    "templateCategory.api": "API",
     "templateCategory.automation": "Automazione",
     "templateCategory.dataProcessing": "Elaborazione Dati",
+    "templateCategory.developer": "Strumenti Dev",
+    "templateCategory.file": "File",
+    "templateCategory.media": "Media",
+    "templateCategory.monitoring": "Monitoraggio",
+    "templateCategory.notification": "Notifiche",
     "templateCategory.productivity": "Produttivita",
     "templateCategory.socialMedia": "Social Media",
-    "templateCategory.webScraping": "Web Scraping",
-    "templateCategory.api": "API",
-    "templateCategory.media": "Media",
-    "templateCategory.notification": "Notifiche",
-    "templateCategory.ai": "IA",
-    "templateCategory.file": "File",
-    "templateCategory.monitoring": "Monitoraggio",
-    "templateCategory.developer": "Strumenti Dev"
+    "templateCategory.webScraping": "Web Scraping"
   }
 }

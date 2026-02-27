@@ -4,6 +4,8 @@
   "category": "cloud.myTemplates",
   "version": "1.0.0",
   "translations": {
+    "myTemplates.addToLibraryFailed": "Échec de l'ajout du modèle à la bibliothèque",
+    "myTemplates.addToLibrarySuccess": "Modèle ajouté à la bibliothèque",
     "myTemplates.batchDeleteFailed": "Echec de la suppression de certains modeles",
     "myTemplates.batchDeleteSuccess": "{count} modeles supprimes avec succes",
     "myTemplates.browseMarketplace": "Parcourir la place de marche",
@@ -40,8 +42,6 @@
     "myTemplates.tabs.installed": "Installes",
     "myTemplates.title": "Mes modeles",
     "myTemplates.updateSettingsFailed": "Échec de la mise à jour des paramètres",
-    "myTemplates.updateSettingsSuccess": "Paramètres mis à jour avec succès",
-    "myTemplates.addToLibrarySuccess": "Modèle ajouté à la bibliothèque",
-    "myTemplates.addToLibraryFailed": "Échec de l'ajout du modèle à la bibliothèque"
+    "myTemplates.updateSettingsSuccess": "Paramètres mis à jour avec succès"
   }
 }

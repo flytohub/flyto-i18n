@@ -80,7 +80,7 @@
     "userSettings.noLicensesDesc": "इंटरनेट कनेक्शन के बिना Flyto2 का उपयोग करने के लिए Pro Offline लाइसेंस खरीदें।",
     "userSettings.noName": "कोई नाम सेट नहीं",
     "userSettings.previewTitle": "प्रोफ़ाइल पूर्वावलोकन",
-    "userSettings.proOffline": "Pro Offline",
+    "userSettings.proOffline": "प्रो ऑफलाइन",
     "userSettings.profile": "प्रोफ़ाइल",
     "userSettings.purchased": "खरीदा गया",
     "userSettings.removeDevice": "डिवाइस हटाएं",
@@ -107,7 +107,7 @@
     "userSettings.userId": "उपयोगकर्ता ID",
     "userSettings.username": "उपयोगकर्ता नाम",
     "userSettings.usernameHint": "केवल अक्षर, संख्याएं और अंडरस्कोर",
-    "userSettings.usernamePlaceholder": "your_username",
+    "userSettings.usernamePlaceholder": "आपका_उपयोगकर्ता_नाम",
     "userSettings.verified": "सत्यापित",
     "userSettings.viewPublicProfile": "सार्वजनिक प्रोफ़ाइल देखें",
     "userSettings.yourApiKey": "आपकी API कुंजी"

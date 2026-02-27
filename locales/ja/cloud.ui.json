@@ -36,7 +36,7 @@
     "cloud.node.retry.strategies.linear": "線形",
     "cloud.node.retry.strategy": "バックオフ戦略",
     "cloud.node.settings.advanced": "詳細設定",
-    "cloud.node.settings.foreach": "For Each",
+    "cloud.node.settings.foreach": "各項に対して",
     "cloud.node.settings.foreachAs": "変数名",
     "cloud.node.settings.foreachPlaceholder": "例：${items}",
     "cloud.node.settings.initialDelay": "初期遅延（ms）",

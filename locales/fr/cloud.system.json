@@ -133,7 +133,7 @@
     "cloud.offline.enterOffline": "Passer en mode hors ligne",
     "cloud.offline.enterPassword": "Entrez le mot de passe pour deverrouiller",
     "cloud.offline.enterSuccess": "Mode hors ligne active avec succes",
-    "cloud.offline.executions": "{count} executions",
+    "cloud.offline.executions": "{count} exécutions",
     "cloud.offline.exitOffline": "Quitter le mode hors ligne",
     "cloud.offline.exitSuccess": "Mode hors ligne desactive avec succes",
     "cloud.offline.export": "Exporter",

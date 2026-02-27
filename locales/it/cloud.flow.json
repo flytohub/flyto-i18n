@@ -20,7 +20,7 @@
     "flow.switch.addCase": "Aggiungi Caso",
     "flow.switch.case": "Caso",
     "flow.switch.cases": "Casi Switch",
-    "flow.switch.default": "Default",
+    "flow.switch.default": "Predefinito",
     "flow.switch.defaultInfo": "I valori non corrispondenti vanno all'output Default",
     "flow.switch.expression": "Espressione",
     "flow.switch.expressionHint": "Valore da confrontare con i casi",
@@ -33,7 +33,7 @@
     "flow.trigger.event": "Evento",
     "flow.trigger.eventHint": "Ascolta questo evento per attivare il flusso di lavoro",
     "flow.trigger.eventName": "Nome Evento",
-    "flow.trigger.eventNamePlaceholder": "user.created",
+    "flow.trigger.eventNamePlaceholder": "utente.creato",
     "flow.trigger.everyDay": "Giornaliero",
     "flow.trigger.everyHour": "Ogni ora",
     "flow.trigger.everyMinute": "Ogni minuto",
@@ -49,7 +49,7 @@
     "flow.trigger.webhook": "Webhook",
     "flow.trigger.webhookHint": "Il percorso unico per il tuo endpoint webhook",
     "flow.trigger.webhookPath": "Percorso Webhook",
-    "flow.trigger.webhookPathPlaceholder": "my-workflow",
+    "flow.trigger.webhookPathPlaceholder": "il-mio-flusso-di-lavoro",
     "flow.trigger.webhookUrl": "URL Completo:"
   }
 }

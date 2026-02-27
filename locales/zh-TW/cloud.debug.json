@@ -91,7 +91,7 @@
     "debug.noVariables": "此步驟無變數",
     "debug.nodeDetail": "節點詳情",
     "debug.outputs": "輸出",
-    "debug.overridesPlaceholder": "{ \"key\": \"value\" }",
+    "debug.overridesPlaceholder": "{ \"key\": \"value\" } 的提示文字",
     "debug.prev": "上一步",
     "debug.recompute": "重新計算",
     "debug.recomputeDesc": "從此節點重新執行所有步驟",

@@ -54,7 +54,7 @@
     "modules.llm.code_fix.output.fixes.description": "Si l'operation a reussi",
     "modules.llm.code_fix.output.ok.description": "Si l'operation a reussi",
     "modules.llm.code_fix.output.summary.description": "Liste des corrections appliquees (si fix_mode est apply)",
-    "modules.llm.code_fix.params.fixes": "Fixes",
-    "modules.llm.code_fix.params.source_files": "Source Files"
+    "modules.llm.code_fix.params.fixes": "Corrections",
+    "modules.llm.code_fix.params.source_files": "Fichiers source"
   }
 }

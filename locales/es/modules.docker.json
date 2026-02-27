@@ -41,7 +41,7 @@
     "modules.docker.logs.params.tail.description": "Número de líneas a mostrar desde el final de los registros",
     "modules.docker.logs.params.tail.label": "Líneas finales",
     "modules.docker.logs.params.timestamps.description": "Mostrar timestamps en la salida de registros",
-    "modules.docker.logs.params.timestamps.label": "Timestamps",
+    "modules.docker.logs.params.timestamps.label": "Tiempos",
     "modules.docker.ps.description": "Listar contenedores Docker",
     "modules.docker.ps.label": "Listar contenedores Docker",
     "modules.docker.ps.output.containers.description": "Lista de contenedores con id, nombre, imagen, estado, puertos",

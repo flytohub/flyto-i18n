@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "translations": {
     "node.settings.advanced": "Parametres avances",
-    "node.settings.conditions": "Conditions",
+    "node.settings.conditions": "Paramètres",
     "node.settings.continue": "Continuer",
-    "node.settings.execution": "Execution",
+    "node.settings.execution": "Exécution",
     "node.settings.foreach": "Pour chaque",
     "node.settings.foreachAs": "En tant que variable",
     "node.settings.foreachPlaceholder": "ex: ${items}",
@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "Lineaire",
     "node.settings.timeout": "Delai d'expiration",
     "node.settings.timeoutPlaceholder": "ex: 30000 (30s)",
-    "node.sticky.contentPlaceholder": "Enter content",
-    "node.sticky.placeholder": "Enter text",
-    "node.sticky.titlePlaceholder": "Enter title",
-    "node.trigger.badge": "Trigger badge"
+    "node.sticky.contentPlaceholder": "Veuillez entrer le contenu",
+    "node.sticky.placeholder": "Veuillez entrer le texte",
+    "node.sticky.titlePlaceholder": "Veuillez entrer le titre",
+    "node.trigger.badge": "Déclencher l'insigne"
   }
 }

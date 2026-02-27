@@ -254,7 +254,7 @@
     "cloud.modules.flow.subflow.description": "Ejecutar flujo de trabajo externo como subflujo",
     "cloud.modules.flow.subflow.label": "Subflujo",
     "cloud.modules.flow.switch.description": "Bifurcación múltiple basada en coincidencia de valores",
-    "cloud.modules.flow.switch.label": "Switch",
+    "cloud.modules.flow.switch.label": "Cambiar",
     "cloud.modules.flow.trigger.description": "Punto de entrada del flujo de trabajo",
     "cloud.modules.flow.trigger.label": "Disparador",
     "cloud.modules.foreach": "Para cada",

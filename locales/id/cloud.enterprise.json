@@ -5,17 +5,17 @@
   "version": "1.0.0",
   "translations": {
     "enterprise.actions.notSupported": "Action not supported",
-    "enterprise.errors.actionFailed": "Action failed",
+    "enterprise.errors.actionFailed": "Aksi gagal",
     "enterprise.errors.loadFailed": "Failed to load",
-    "enterprise.robotsOnline": "Robots Online",
-    "enterprise.subtitle": "Enterprise automation tools",
-    "enterprise.tabs.idp": "Document Processing",
-    "enterprise.tabs.mining": "Process Mining",
-    "enterprise.tabs.orchestrator": "Orchestrator",
-    "enterprise.tabs.queues": "Queues",
+    "enterprise.robotsOnline": "Robot Online",
+    "enterprise.subtitle": "Alat otomatisasi perusahaan",
+    "enterprise.tabs.idp": "Pemrosesan Dokumen",
+    "enterprise.tabs.mining": "Penambangan Proses",
+    "enterprise.tabs.orchestrator": "Orkestrator",
+    "enterprise.tabs.queues": "Antrian",
     "enterprise.tabs.rpa": "RPA",
-    "enterprise.tabs.scheduler": "Scheduler",
-    "enterprise.tabs.stateMachine": "State Machine",
-    "enterprise.title": "Enterprise"
+    "enterprise.tabs.scheduler": "Penjadwal",
+    "enterprise.tabs.stateMachine": "Mesin Status",
+    "enterprise.title": "Perusahaan"
   }
 }

@@ -22,7 +22,7 @@
     "variables.scope": "Portee",
     "variables.scopes.organization": "Organisation",
     "variables.scopes.project": "Projet",
-    "variables.scopes.workflow": "Workflow",
+    "variables.scopes.workflow": "Flux de travail",
     "variables.subtitle": "Gerez les variables et identifiants pour vos workflows",
     "variables.title": "Variables",
     "variables.type": "Type",

@@ -37,6 +37,6 @@
     "cloud.portLabel.output": "Ausgabe",
     "cloud.portLabel.success": "Erfolg",
     "cloud.portLabel.timeout": "Zeitüberschreitung",
-    "cloud.portLabel.trigger": "Trigger"
+    "cloud.portLabel.trigger": "Auslöser"
   }
 }

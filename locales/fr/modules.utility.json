@@ -41,7 +41,7 @@
     "modules.utility.random.number.params.decimals.description": "Valeur maximum (inclusive)",
     "modules.utility.random.number.params.decimals.label": "Maximum",
     "modules.utility.random.number.params.max.description": "Valeur minimum (inclusive)",
-    "modules.utility.random.number.params.max.label": "Minimum",
+    "modules.utility.random.number.params.max.label": "Maximum",
     "modules.utility.random.number.params.min.description": "Valeur minimum (inclusive)",
     "modules.utility.random.number.params.min.label": "Minimum",
     "modules.utility.random.string.description": "Generer une chaine aleatoire ou UUID",

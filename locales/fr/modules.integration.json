@@ -16,11 +16,11 @@
     "modules.integration.salesforce.update_record.label": "Mettre a jour l'enregistrement Salesforce",
     "modules.integration.slack.list_channels.description": "Lister les canaux dans l'espace de travail Slack",
     "modules.integration.slack.list_channels.label": "Lister les canaux Slack",
-    "modules.integration.slack.list_channels.params.channels": "Channels",
+    "modules.integration.slack.list_channels.params.channels": "Canaux",
     "modules.integration.slack.list_channels.params.channels.options.id": "Id",
-    "modules.integration.slack.list_channels.params.channels.options.is_private": "Is Private",
-    "modules.integration.slack.list_channels.params.channels.options.name": "Name",
-    "modules.integration.slack.list_channels.params.channels.options.num_members": "Num Members",
+    "modules.integration.slack.list_channels.params.channels.options.is_private": "Est privé",
+    "modules.integration.slack.list_channels.params.channels.options.name": "Nom",
+    "modules.integration.slack.list_channels.params.channels.options.num_members": "Nombre de membres",
     "modules.integration.slack.send_message.description": "Envoyer un message a un canal Slack",
     "modules.integration.slack.send_message.label": "Envoyer un message Slack"
   }

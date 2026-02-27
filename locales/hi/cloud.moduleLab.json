@@ -13,7 +13,7 @@
     "moduleLab.imagePreview": "इमेज प्रीव्यू",
     "moduleLab.inputKey": "की",
     "moduleLab.inputKeyHint": "लोअरकेस अक्षर, नंबर और अंडरस्कोर का उपयोग करें",
-    "moduleLab.inputKeyPlaceholder": "variable_name",
+    "moduleLab.inputKeyPlaceholder": "कृपया variable_name दर्ज करें",
     "moduleLab.inputLabel": "लेबल",
     "moduleLab.inputLabelPlaceholder": "डिस्प्ले लेबल दर्ज करें...",
     "moduleLab.inputRequired": "यह फ़ील्ड आवश्यक है",

@@ -4,6 +4,8 @@
   "category": "cloud.myTemplates",
   "version": "1.0.0",
   "translations": {
+    "myTemplates.addToLibraryFailed": "Error al añadir la plantilla a la biblioteca",
+    "myTemplates.addToLibrarySuccess": "Plantilla añadida a la biblioteca",
     "myTemplates.batchDeleteFailed": "Error al eliminar algunas plantillas",
     "myTemplates.batchDeleteSuccess": "{count} plantillas eliminadas correctamente",
     "myTemplates.browseMarketplace": "Explorar mercado",
@@ -40,8 +42,6 @@
     "myTemplates.tabs.installed": "Instaladas",
     "myTemplates.title": "Mis plantillas",
     "myTemplates.updateSettingsFailed": "No se pudo actualizar la configuración",
-    "myTemplates.updateSettingsSuccess": "Configuración actualizada con éxito",
-    "myTemplates.addToLibrarySuccess": "Plantilla añadida a la biblioteca",
-    "myTemplates.addToLibraryFailed": "Error al añadir la plantilla a la biblioteca"
+    "myTemplates.updateSettingsSuccess": "Configuración actualizada con éxito"
   }
 }

@@ -5,11 +5,11 @@
   "version": "1.0.0",
   "translations": {
     "recorder.actionType": "Aktionstyp",
-    "recorder.actions.assert": "Assertion",
+    "recorder.actions.assert": "Überprüfen",
     "recorder.actions.check": "Aktivieren/Deaktivieren",
     "recorder.actions.click": "Klicken",
     "recorder.actions.fill": "Ausfüllen/Eingeben",
-    "recorder.actions.hover": "Hover",
+    "recorder.actions.hover": "Hovern",
     "recorder.actions.navigate": "Navigieren",
     "recorder.actions.press": "Taste drücken",
     "recorder.actions.screenshot": "Screenshot",

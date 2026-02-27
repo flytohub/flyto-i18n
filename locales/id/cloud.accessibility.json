@@ -4,7 +4,7 @@
   "category": "cloud.accessibility",
   "version": "1.0.0",
   "translations": {
-    "accessibility.breadcrumb": "Breadcrumb",
+    "accessibility.breadcrumb": "Jalur Navigasi",
     "accessibility.clearInput": "Hapus input",
     "accessibility.closeDialog": "Tutup dialog",
     "accessibility.closeMenu": "Tutup menu",

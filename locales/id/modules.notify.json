@@ -4,19 +4,19 @@
   "category": "notify",
   "version": "1.0.0",
   "translations": {
-    "modules.notify.send.description": "Send notification to Telegram, Discord, Slack, LINE, or any webhook URL",
-    "modules.notify.send.label": "Send Notification",
-    "modules.notify.send.output.ok.description": "Telegram chat ID (required for Telegram)",
-    "modules.notify.send.output.platform.description": "Whether notification was sent successfully",
-    "modules.notify.send.output.response.description": "Detected platform (telegram, discord, slack, etc.)",
-    "modules.notify.send.output.status_code.description": "Whether notification was sent successfully",
-    "modules.notify.send.params.chat_id.description": "Optional title (for Discord, Slack, Teams)",
-    "modules.notify.send.params.chat_id.label": "Title",
-    "modules.notify.send.params.message.description": "Notification message content",
-    "modules.notify.send.params.message.label": "Webhook URL",
-    "modules.notify.send.params.title.description": "Notification message content",
-    "modules.notify.send.params.title.label": "Message",
-    "modules.notify.send.params.url.description": "Webhook URL (Telegram, Discord, Slack, or custom)",
-    "modules.notify.send.params.url.label": "Webhook URL"
+    "modules.notify.send.description": "Kirim notifikasi ke Telegram, Discord, Slack, LINE, atau URL webhook lainnya",
+    "modules.notify.send.label": "Kirim Notifikasi",
+    "modules.notify.send.output.ok.description": "ID chat Telegram (diperlukan untuk Telegram)",
+    "modules.notify.send.output.platform.description": "Apakah notifikasi berhasil dikirim",
+    "modules.notify.send.output.response.description": "Platform terdeteksi (telegram, discord, slack, dll.)",
+    "modules.notify.send.output.status_code.description": "Apakah notifikasi berhasil dikirim",
+    "modules.notify.send.params.chat_id.description": "Judul opsional (untuk Discord, Slack, Teams)",
+    "modules.notify.send.params.chat_id.label": "Judul",
+    "modules.notify.send.params.message.description": "Konten pesan notifikasi",
+    "modules.notify.send.params.message.label": "URL Webhook",
+    "modules.notify.send.params.title.description": "Konten pesan notifikasi",
+    "modules.notify.send.params.title.label": "Pesan",
+    "modules.notify.send.params.url.description": "URL Webhook (Telegram, Discord, Slack, atau kustom)",
+    "modules.notify.send.params.url.label": "URL Webhook"
   }
 }

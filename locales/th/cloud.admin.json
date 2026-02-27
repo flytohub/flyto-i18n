@@ -1049,7 +1049,7 @@
     "admin.users.searchPlaceholder": "ค้นหาผู้ใช้...",
     "admin.users.showing": "แสดง {from} ถึง {to} จาก {total}",
     "admin.users.subtitle": "จัดการผู้ใช้แพลตฟอร์ม",
-    "admin.users.tiers.enterprise": "Enterprise",
+    "admin.users.tiers.enterprise": "องค์กร",
     "admin.users.tiers.free": "ฟรี",
     "admin.users.tiers.offline": "ออฟไลน์",
     "admin.users.tiers.pro": "Pro",

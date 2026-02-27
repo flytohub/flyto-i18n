@@ -12,7 +12,7 @@
     "llmChain.model": "Modele",
     "llmChain.systemPrompt": "Invite systeme",
     "llmChain.systemPromptPlaceholder": "Vous etes un assistant utile...",
-    "llmChain.temperature": "Temperature",
+    "llmChain.temperature": "Température",
     "llmChain.temperatureHint": "Plus eleve = plus creatif, Plus bas = plus concentre",
     "llmChain.userPrompt": "Invite utilisateur",
     "llmChain.userPromptPlaceholder": "Entrez votre invite avec {{variables}}...",

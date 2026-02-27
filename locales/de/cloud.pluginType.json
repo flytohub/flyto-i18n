@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "pluginType.audio": "Audio",
-    "pluginType.embedding": "Embedding",
+    "pluginType.embedding": "Einbettung",
     "pluginType.languageModel": "Sprachmodell",
     "pluginType.multimodal": "Multimodal",
     "pluginType.vision": "Vision"

@@ -21,12 +21,12 @@
     "templateCard.publish": "Xuất bản",
     "templateCard.sourceDeleted": "Mẫu gốc đã bị xóa bởi tác giả",
     "templateCard.sourceUnpublished": "Mẫu gốc đã bị hủy xuất bản bởi tác giả",
+    "templateCard.status.archived": "Archived",
+    "templateCard.status.draft": "Draft",
+    "templateCard.status.published": "Published",
     "templateCard.syncToLatest": "Đồng bộ với phiên bản mới nhất",
     "templateCard.unpublished": "Đã hủy xuất bản",
     "templateCard.update": "Cập nhật",
-    "templateCard.updateAvailable": "Có bản cập nhật từ tác giả",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "Có bản cập nhật từ tác giả"
   }
 }

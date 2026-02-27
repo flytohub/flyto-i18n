@@ -34,7 +34,7 @@
     "moduleLab.typeBoolean": "Interruttore",
     "moduleLab.typeFile": "File",
     "moduleLab.typeNumber": "Numero",
-    "moduleLab.typeSelect": "Dropdown",
+    "moduleLab.typeSelect": "Menu a tendina",
     "moduleLab.typeString": "Testo",
     "moduleLab.typeText": "Multi-riga",
     "moduleLab.viewPdf": "Visualizza PDF"

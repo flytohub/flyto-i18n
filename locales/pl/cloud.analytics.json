@@ -4,15 +4,15 @@
   "category": "cloud.analytics",
   "version": "1.0.0",
   "translations": {
-    "analytics.declining": "Declining",
-    "analytics.eventBreakdown": "Event breakdown",
-    "analytics.frictionPoints": "Friction points",
-    "analytics.healthScore": "Health score",
-    "analytics.improving": "Improving",
-    "analytics.issues": "Issues",
-    "analytics.noFriction": "No friction",
-    "analytics.overallHealth": "Overall health",
-    "analytics.recommendations": "Recommendations",
-    "analytics.stable": "Stable"
+    "analytics.declining": "Spadek",
+    "analytics.eventBreakdown": "Podział wydarzeń",
+    "analytics.frictionPoints": "Punkty tarcia",
+    "analytics.healthScore": "Wynik zdrowia",
+    "analytics.improving": "Poprawa",
+    "analytics.issues": "Problemy",
+    "analytics.noFriction": "Brak tarcia",
+    "analytics.overallHealth": "Ogólny stan zdrowia",
+    "analytics.recommendations": "Rekomendacje",
+    "analytics.stable": "Stabilny"
   }
 }

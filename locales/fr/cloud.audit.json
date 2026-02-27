@@ -43,7 +43,7 @@
     "audit.filter.allActions": "Toutes les actions",
     "audit.filter.allResources": "Toutes les ressources",
     "audit.filter.searchPlaceholder": "Rechercher dans les journaux...",
-    "audit.resource.execution": "Execution",
+    "audit.resource.execution": "Exécution",
     "audit.resource.setting": "Parametre",
     "audit.resource.template": "Modele",
     "audit.resource.user": "Utilisateur",

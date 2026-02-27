@@ -7,9 +7,9 @@
     "templateCard.alreadyDownloaded": "已安裝至離線版本",
     "templateCard.autoUpdate": "自動更新",
     "templateCard.autoUpdateAll": "全部",
-    "templateCard.autoUpdateMinor": "Minor (x.1.x)",
+    "templateCard.autoUpdateMinor": "小版本更新 (x.1.x)",
     "templateCard.autoUpdateOff": "關閉",
-    "templateCard.autoUpdatePatch": "Patch (x.x.1)",
+    "templateCard.autoUpdatePatch": "修補更新 (x.x.1)",
     "templateCard.deleted": "已刪除",
     "templateCard.downloadOffline": "下載離線版",
     "templateCard.editInfo": "編輯資訊",
@@ -21,12 +21,12 @@
     "templateCard.publish": "發布",
     "templateCard.sourceDeleted": "原始模板已被作者刪除",
     "templateCard.sourceUnpublished": "原始模板已被作者下架",
+    "templateCard.status.archived": "已封存",
+    "templateCard.status.draft": "草稿",
+    "templateCard.status.published": "已發布",
     "templateCard.syncToLatest": "同步到最新版本",
     "templateCard.unpublished": "已下架",
     "templateCard.update": "更新",
-    "templateCard.updateAvailable": "作者有更新可用",
-    "templateCard.status.draft": "草稿",
-    "templateCard.status.published": "已發布",
-    "templateCard.status.archived": "已封存"
+    "templateCard.updateAvailable": "作者有更新可用"
   }
 }

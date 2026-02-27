@@ -21,12 +21,12 @@
     "templateCard.publish": "公開",
     "templateCard.sourceDeleted": "元のテンプレートは作成者によって削除されました",
     "templateCard.sourceUnpublished": "元のテンプレートは作成者によって公開停止されました",
+    "templateCard.status.archived": "アーカイブ済み",
+    "templateCard.status.draft": "下書き",
+    "templateCard.status.published": "公開済み",
     "templateCard.syncToLatest": "最新版に同期",
     "templateCard.unpublished": "公開停止",
     "templateCard.update": "更新",
-    "templateCard.updateAvailable": "作成者からの更新が利用可能",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "作成者からの更新が利用可能"
   }
 }

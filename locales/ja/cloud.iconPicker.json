@@ -4,8 +4,8 @@
   "category": "cloud.iconPicker",
   "version": "1.0.0",
   "translations": {
-    "iconPicker.iconColor": "Icon Color",
-    "iconPicker.noResults": "No results",
-    "iconPicker.searchPlaceholder": "Search icons..."
+    "iconPicker.iconColor": "アイコンの色",
+    "iconPicker.noResults": "結果なし",
+    "iconPicker.searchPlaceholder": "アイコンを検索..."
   }
 }

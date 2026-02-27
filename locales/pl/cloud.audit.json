@@ -35,7 +35,7 @@
     "audit.detail.timestamp": "Znacznik czasu",
     "audit.detail.title": "Szczegoly logu",
     "audit.detail.traceId": "ID śledzenia",
-    "audit.detail.userAgent": "User Agent",
+    "audit.detail.userAgent": "Agent użytkownika",
     "audit.detail.valueHashes": "Hasze wartości",
     "audit.export.button": "Eksportuj",
     "audit.export.csv": "Eksportuj jako CSV",

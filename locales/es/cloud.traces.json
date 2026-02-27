@@ -7,7 +7,7 @@
     "traces.detail.duration": "Duracion",
     "traces.detail.openNew": "Abrir en nueva pestana",
     "traces.detail.selectPrompt": "Selecciona una traza para ver detalles",
-    "traces.detail.spans": "Spans",
+    "traces.detail.spans": "Intervalos",
     "traces.detail.status": "Estado",
     "traces.detail.title": "Detalle de traza",
     "traces.detail.traceId": "ID de traza",

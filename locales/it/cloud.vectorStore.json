@@ -15,7 +15,7 @@
     "vectorStore.filters": "Filtri Metadati",
     "vectorStore.metadata": "Metadati",
     "vectorStore.noMetadata": "Nessun campo metadati",
-    "vectorStore.query": "Query",
+    "vectorStore.query": "Interroga",
     "vectorStore.queryPlaceholder": "Inserisci query di ricerca o usa {{variabile}}...",
     "vectorStore.refreshCollections": "Aggiorna collezioni",
     "vectorStore.scoreThreshold": "Soglia Punteggio",

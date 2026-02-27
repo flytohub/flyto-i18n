@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "カラム名の配列",
     "modules.data.json_to_csv.output.output_path.description": "生成されたCSVファイルのパス",
     "modules.data.json_to_csv.output.row_count.description": "書き込まれた行数",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "入力データ",
     "modules.data.pipeline.description": "複数のデータ変換を一度にチェーンする",
     "modules.data.pipeline.label": "データパイプライン",
     "modules.data.pipeline.output.original_count.description": "変換されたデータ",

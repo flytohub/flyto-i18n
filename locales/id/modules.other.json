@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "schema.field.api_key_header": "Nama Header",
-    "schema.field.body": "Body",
+    "schema.field.body": "Isi",
     "schema.field.body_matches": "Respons",
     "schema.field.full_page": "Halaman Penuh",
     "schema.field.response": "Respons",

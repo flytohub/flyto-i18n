@@ -21,7 +21,7 @@
     "alerts.history.severity": "Tingkat Keparahan",
     "alerts.history.title": "Riwayat Peringatan",
     "alerts.history.triggered": "Dipicu",
-    "alerts.history.workflow": "Workflow",
+    "alerts.history.workflow": "Alur Kerja",
     "alerts.modal.conditionType": "Metrik",
     "alerts.modal.cooldown": "Cooldown (menit)",
     "alerts.modal.cooldownHelp": "Waktu minimum antara peringatan berulang untuk aturan yang sama",

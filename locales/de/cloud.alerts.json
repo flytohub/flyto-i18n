@@ -21,7 +21,7 @@
     "alerts.history.severity": "Schweregrad",
     "alerts.history.title": "Warnverlauf",
     "alerts.history.triggered": "Ausgelöst",
-    "alerts.history.workflow": "Workflow",
+    "alerts.history.workflow": "Arbeitsablauf",
     "alerts.modal.conditionType": "Metrik",
     "alerts.modal.cooldown": "Abklingzeit (Minuten)",
     "alerts.modal.cooldownHelp": "Mindestzeit zwischen wiederholten Warnungen für dieselbe Regel",

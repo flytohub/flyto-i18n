@@ -4,17 +4,17 @@
   "category": "cloud.templateCategory",
   "version": "1.0.0",
   "translations": {
+    "templateCategory.ai": "AI",
+    "templateCategory.api": "API",
     "templateCategory.automation": "Automatyzacja",
     "templateCategory.dataProcessing": "Przetwarzanie danych",
+    "templateCategory.developer": "Narzedzia Dev",
+    "templateCategory.file": "Pliki",
+    "templateCategory.media": "Media",
+    "templateCategory.monitoring": "Monitorowanie",
+    "templateCategory.notification": "Powiadomienia",
     "templateCategory.productivity": "Produktywnosc",
     "templateCategory.socialMedia": "Media spolecznosciowe",
-    "templateCategory.webScraping": "Web Scraping",
-    "templateCategory.api": "API",
-    "templateCategory.media": "Media",
-    "templateCategory.notification": "Powiadomienia",
-    "templateCategory.ai": "AI",
-    "templateCategory.file": "Pliki",
-    "templateCategory.monitoring": "Monitoring",
-    "templateCategory.developer": "Narzedzia Dev"
+    "templateCategory.webScraping": "Web Scraping"
   }
 }

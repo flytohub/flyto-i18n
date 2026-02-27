@@ -30,9 +30,9 @@
     "node.settings.strategyLinear": "線形",
     "node.settings.timeout": "タイムアウト",
     "node.settings.timeoutPlaceholder": "例: 30000（30秒）",
-    "node.sticky.contentPlaceholder": "Enter content",
-    "node.sticky.placeholder": "Enter text",
-    "node.sticky.titlePlaceholder": "Enter title",
-    "node.trigger.badge": "Trigger badge"
+    "node.sticky.contentPlaceholder": "内容を入力",
+    "node.sticky.placeholder": "テキストを入力",
+    "node.sticky.titlePlaceholder": "タイトルを入力",
+    "node.trigger.badge": "トリガーバッジ"
   }
 }

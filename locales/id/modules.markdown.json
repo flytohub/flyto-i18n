@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "modules.markdown.parse_frontmatter.description": "Ekstrak frontmatter YAML dari konten Markdown",
-    "modules.markdown.parse_frontmatter.label": "Parse Frontmatter",
+    "modules.markdown.parse_frontmatter.label": "Mengurai Frontmatter",
     "modules.markdown.parse_frontmatter.output.content.description": "Konten Markdown tanpa frontmatter",
     "modules.markdown.parse_frontmatter.output.frontmatter.description": "Frontmatter yang telah di-parse sebagai kamus",
     "modules.markdown.parse_frontmatter.params.text.description": "Konten Markdown dengan frontmatter",

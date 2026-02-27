@@ -13,7 +13,7 @@
     "moduleLab.imagePreview": "Bildvorschau",
     "moduleLab.inputKey": "Schlüssel",
     "moduleLab.inputKeyHint": "Verwenden Sie Kleinbuchstaben, Zahlen und Unterstriche",
-    "moduleLab.inputKeyPlaceholder": "variable_name",
+    "moduleLab.inputKeyPlaceholder": "Variablenname",
     "moduleLab.inputLabel": "Bezeichnung",
     "moduleLab.inputLabelPlaceholder": "Anzeigebezeichnung eingeben...",
     "moduleLab.inputRequired": "Dieses Feld ist erforderlich",

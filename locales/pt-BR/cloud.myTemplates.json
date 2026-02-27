@@ -4,6 +4,8 @@
   "category": "cloud.myTemplates",
   "version": "1.0.0",
   "translations": {
+    "myTemplates.addToLibraryFailed": "Falha ao adicionar template à biblioteca",
+    "myTemplates.addToLibrarySuccess": "Template adicionado à biblioteca",
     "myTemplates.batchDeleteFailed": "Falha ao excluir alguns templates",
     "myTemplates.batchDeleteSuccess": "{count} templates excluidos com sucesso",
     "myTemplates.browseMarketplace": "Explorar Marketplace",
@@ -40,8 +42,6 @@
     "myTemplates.tabs.installed": "Instalados",
     "myTemplates.title": "Meus Templates",
     "myTemplates.updateSettingsFailed": "Falha ao atualizar configurações",
-    "myTemplates.updateSettingsSuccess": "Configurações atualizadas com sucesso",
-    "myTemplates.addToLibrarySuccess": "Template adicionado à biblioteca",
-    "myTemplates.addToLibraryFailed": "Falha ao adicionar template à biblioteca"
+    "myTemplates.updateSettingsSuccess": "Configurações atualizadas com sucesso"
   }
 }

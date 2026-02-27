@@ -12,7 +12,7 @@
     "modules.testing.e2e.run_steps.output.results.description": "Numero di test passati",
     "modules.testing.e2e.run_steps.params.steps.description": "Array di definizioni passaggi test",
     "modules.testing.gate.evaluate.description": "Valuta metriche qualita rispetto a soglie definite",
-    "modules.testing.gate.evaluate.label": "Quality Gate",
+    "modules.testing.gate.evaluate.label": "Porta di Qualità",
     "modules.testing.gate.evaluate.output.ok.description": "Valori soglia per ogni metrica",
     "modules.testing.gate.evaluate.output.passed.description": "Se l'operazione e riuscita",
     "modules.testing.gate.evaluate.output.results.description": "Se l'operazione e riuscita",

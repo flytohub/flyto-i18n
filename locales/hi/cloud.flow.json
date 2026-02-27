@@ -33,7 +33,7 @@
     "flow.trigger.event": "इवेंट",
     "flow.trigger.eventHint": "वर्कफ़्लो को ट्रिगर करने के लिए इस इवेंट को सुनें",
     "flow.trigger.eventName": "इवेंट का नाम",
-    "flow.trigger.eventNamePlaceholder": "user.created",
+    "flow.trigger.eventNamePlaceholder": "उपयोगकर्ता.बनाया",
     "flow.trigger.everyDay": "दैनिक",
     "flow.trigger.everyHour": "हर घंटे",
     "flow.trigger.everyMinute": "हर मिनट",
@@ -49,7 +49,7 @@
     "flow.trigger.webhook": "वेबहुक",
     "flow.trigger.webhookHint": "आपके वेबहुक एंडपॉइंट के लिए अद्वितीय पथ",
     "flow.trigger.webhookPath": "वेबहुक पथ",
-    "flow.trigger.webhookPathPlaceholder": "my-workflow",
+    "flow.trigger.webhookPathPlaceholder": "मेरा-वर्कफ़्लो",
     "flow.trigger.webhookUrl": "पूर्ण URL:"
   }
 }

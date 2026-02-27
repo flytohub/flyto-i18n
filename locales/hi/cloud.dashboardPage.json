@@ -15,7 +15,7 @@
     "dashboardPage.myPurchases.totalSpent": "कुल खर्च",
     "dashboardPage.quickStart.newTemplate": "नया टेम्पलेट",
     "dashboardPage.recentActivity.daysAgo": "{count} दिन पहले",
-    "dashboardPage.recentActivity.duration": "{time}s",
+    "dashboardPage.recentActivity.duration": "{time}सेकंड",
     "dashboardPage.recentActivity.failed": "विफल",
     "dashboardPage.recentActivity.hoursAgo": "{count} घंटे पहले",
     "dashboardPage.recentActivity.justNow": "अभी-अभी",

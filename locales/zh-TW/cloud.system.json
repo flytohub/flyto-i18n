@@ -250,7 +250,7 @@
     "cloud.offline.switchToOnline": "切換至線上",
     "cloud.offline.synced": "已同步",
     "cloud.offline.tagsHint": "以逗號分隔的標籤列表",
-    "cloud.offline.tagsPlaceholder": "production, linux, docker",
+    "cloud.offline.tagsPlaceholder": "生產, linux, docker",
     "cloud.offline.tampered": "已篡改",
     "cloud.offline.templateExportFailed": "匯出模板失敗",
     "cloud.offline.templateImportFailed": "匯入模板失敗",

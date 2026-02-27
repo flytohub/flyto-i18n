@@ -32,7 +32,7 @@
     "recorder.elementSelector.id": "ID",
     "recorder.elementSelector.manualPlaceholder": "Ou entrez un selecteur manuellement...",
     "recorder.elementSelector.reliabilityScore": "Score de fiabilite : {score}%",
-    "recorder.elementSelector.role": "Role",
+    "recorder.elementSelector.role": "Rôle",
     "recorder.elementSelector.strategy": "Strategie",
     "recorder.elementSelector.strategyAuto": "Auto (Meilleure correspondance)",
     "recorder.elementSelector.strategyClass": "Classe",

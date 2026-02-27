@@ -28,7 +28,7 @@
     "modules.meta.modules.list.params.include_params.label": "टैग्स फ़िल्टर",
     "modules.meta.modules.list.params.tags.description": "श्रेणी द्वारा मॉड्यूल फ़िल्टर करें (जैसे, browser, data, ai)",
     "modules.meta.modules.list.params.tags.label": "श्रेणी फ़िल्टर",
-    "modules.meta.modules.list.params.type": "Type",
+    "modules.meta.modules.list.params.type": "प्रकार",
     "modules.meta.modules.test_generator.description": "मॉड्यूल जनरेशन क्षमता का परीक्षण करें",
     "modules.meta.modules.test_generator.label": "टेस्ट जनरेटर",
     "modules.meta.modules.update_docs.description": "रजिस्ट्री से MODULES.md डॉक्यूमेंटेशन जनरेट या अपडेट करें",

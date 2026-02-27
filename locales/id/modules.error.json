@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "modules.error.circuit_breaker.description": "Melindungi dari kegagalan berantai dengan pola circuit breaker",
-    "modules.error.circuit_breaker.label": "Circuit Breaker",
+    "modules.error.circuit_breaker.label": "Pemutus Sirkuit",
     "modules.error.circuit_breaker.output.__event__.description": "Hanya hitung kode kesalahan ini terhadap ambang batas (kosong = semua)",
     "modules.error.circuit_breaker.output.circuit_opened_at.description": "Waktu terakhir kegagalan",
     "modules.error.circuit_breaker.output.circuit_state.description": "Hasil dari tindakan atau fallback",
@@ -35,7 +35,7 @@
     "modules.error.circuit_breaker.ports.input": "Input",
     "modules.error.circuit_breaker.ports.success": "Input",
     "modules.error.fallback.description": "Menyediakan nilai fallback ketika operasi gagal",
-    "modules.error.fallback.label": "Fallback",
+    "modules.error.fallback.label": "Cadangan",
     "modules.error.fallback.output.original_error.description": "Sumber hasil (utama/nilai_fallback/operasi_fallback)",
     "modules.error.fallback.output.result.description": "Log ketika fallback digunakan",
     "modules.error.fallback.output.source.description": "Apakah fallback digunakan",

@@ -248,7 +248,7 @@
     "modules.browser.snapshot.params.selector.description": "ตัวเลือก CSS เพื่อจับภาพองค์ประกอบเฉพาะ",
     "modules.browser.snapshot.params.selector.label": "ตัวเลือก",
     "modules.browser.storage.description": "เข้าถึง localStorage และ sessionStorage",
-    "modules.browser.storage.label": "Browser Storage",
+    "modules.browser.storage.label": "พื้นที่เก็บข้อมูลของเบราว์เซอร์",
     "modules.browser.storage.output.keys.description": "สถานะการดำเนินการ (สำเร็จ/ข้อผิดพลาด)",
     "modules.browser.storage.output.length.description": "ค่าที่ส่งคืน",
     "modules.browser.storage.output.status.description": "สถานะการดำเนินการ (สำเร็จ/ข้อผิดพลาด)",

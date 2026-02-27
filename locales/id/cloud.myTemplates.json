@@ -4,6 +4,8 @@
   "category": "cloud.myTemplates",
   "version": "1.0.0",
   "translations": {
+    "myTemplates.addToLibraryFailed": "Gagal menambahkan template ke perpustakaan",
+    "myTemplates.addToLibrarySuccess": "Template ditambahkan ke perpustakaan",
     "myTemplates.batchDeleteFailed": "Gagal menghapus beberapa template",
     "myTemplates.batchDeleteSuccess": "{count} template berhasil dihapus",
     "myTemplates.browseMarketplace": "Jelajahi Marketplace",
@@ -40,8 +42,6 @@
     "myTemplates.tabs.installed": "Terinstal",
     "myTemplates.title": "Template Saya",
     "myTemplates.updateSettingsFailed": "Gagal memperbarui pengaturan",
-    "myTemplates.updateSettingsSuccess": "Pengaturan berhasil diperbarui",
-    "myTemplates.addToLibrarySuccess": "Template ditambahkan ke perpustakaan",
-    "myTemplates.addToLibraryFailed": "Gagal menambahkan template ke perpustakaan"
+    "myTemplates.updateSettingsSuccess": "Pengaturan berhasil diperbarui"
   }
 }

@@ -29,7 +29,7 @@
     "inviteKeys.noExpiration": "Pas d'expiration",
     "inviteKeys.noKeys": "Aucune cle d'invitation pour le moment",
     "inviteKeys.noKeysDesc": "Creez-en une ci-dessus pour partager l'acces",
-    "inviteKeys.note": "Note",
+    "inviteKeys.note": "Remarque",
     "inviteKeys.notePlaceholder": "Ajouter une note...",
     "inviteKeys.revoke": "Révoquer",
     "inviteKeys.revokeConfirm.message": "Cette cle ne fonctionnera plus. Les utilisateurs qui l'ont deja utilisee conserveront leur acces.",

@@ -21,12 +21,12 @@
     "templateCard.publish": "Publier",
     "templateCard.sourceDeleted": "Le modele original a ete supprime par l'auteur",
     "templateCard.sourceUnpublished": "Le modele original a ete depublie par l'auteur",
+    "templateCard.status.archived": "Archivé",
+    "templateCard.status.draft": "Brouillon",
+    "templateCard.status.published": "Publié",
     "templateCard.syncToLatest": "Synchroniser avec la derniere version",
     "templateCard.unpublished": "Depublie",
     "templateCard.update": "Mettre a jour",
-    "templateCard.updateAvailable": "Mise a jour disponible de l'auteur",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "Mise a jour disponible de l'auteur"
   }
 }

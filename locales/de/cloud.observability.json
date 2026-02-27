@@ -7,11 +7,11 @@
     "observability.subtitle": "Workflow-Ausführungen und Leistung überwachen",
     "observability.tabs.alerts": "Warnungen",
     "observability.tabs.metrics": "Metriken",
-    "observability.tabs.traces": "Traces",
+    "observability.tabs.traces": "Spuren",
     "observability.timeRange.24h": "Letzte 24 Stunden",
     "observability.timeRange.30d": "Letzte 30 Tage",
     "observability.timeRange.7d": "Letzte 7 Tage",
     "observability.timeRange.90d": "Letzte 90 Tage",
-    "observability.title": "Observability"
+    "observability.title": "Beobachtbarkeit"
   }
 }

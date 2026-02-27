@@ -4,12 +4,12 @@
   "category": "cloud.time",
   "version": "1.0.0",
   "translations": {
-    "time.days": "days",
+    "time.days": "giorni",
     "time.daysAgo": "{n}g fa",
-    "time.hours": "hours",
+    "time.hours": "ore",
     "time.hoursAgo": "{n}h fa",
     "time.justNow": "proprio ora",
-    "time.minutes": "minutes",
+    "time.minutes": "minuti",
     "time.minutesAgo": "{n}m fa"
   }
 }

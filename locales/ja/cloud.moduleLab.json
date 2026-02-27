@@ -13,7 +13,7 @@
     "moduleLab.imagePreview": "画像プレビュー",
     "moduleLab.inputKey": "キー",
     "moduleLab.inputKeyHint": "小文字、数字、アンダースコアを使用",
-    "moduleLab.inputKeyPlaceholder": "variable_name",
+    "moduleLab.inputKeyPlaceholder": "変数名",
     "moduleLab.inputLabel": "ラベル",
     "moduleLab.inputLabelPlaceholder": "表示ラベルを入力...",
     "moduleLab.inputRequired": "この項目は必須です",

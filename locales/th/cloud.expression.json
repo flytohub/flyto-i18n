@@ -7,7 +7,7 @@
     "expression.availableVariables": "ตัวแปรที่มี",
     "expression.editExpression": "แก้ไข Expression",
     "expression.enterExpression": "ป้อน expression เพื่อดูตัวอย่าง",
-    "expression.expressionCode": "Expression",
+    "expression.expressionCode": "การแสดงออก",
     "expression.openEditor": "เปิดตัวแก้ไข expression",
     "expression.placeholder": "${ui.inputs.name}",
     "expression.preview": "ตัวอย่าง"

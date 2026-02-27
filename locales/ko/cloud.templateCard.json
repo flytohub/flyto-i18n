@@ -21,12 +21,12 @@
     "templateCard.publish": "게시",
     "templateCard.sourceDeleted": "원본 템플릿이 작성자에 의해 삭제되었습니다",
     "templateCard.sourceUnpublished": "원본 템플릿이 작성자에 의해 게시 취소되었습니다",
+    "templateCard.status.archived": "보관됨",
+    "templateCard.status.draft": "초안",
+    "templateCard.status.published": "발행됨",
     "templateCard.syncToLatest": "최신으로 동기화",
     "templateCard.unpublished": "게시 취소됨",
     "templateCard.update": "업데이트",
-    "templateCard.updateAvailable": "작성자로부터 업데이트 가능",
-    "templateCard.status.draft": "Draft",
-    "templateCard.status.published": "Published",
-    "templateCard.status.archived": "Archived"
+    "templateCard.updateAvailable": "작성자로부터 업데이트 가능"
   }
 }

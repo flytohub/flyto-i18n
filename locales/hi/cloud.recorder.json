@@ -40,7 +40,7 @@
     "recorder.elementSelector.strategyDataCy": "data-cy",
     "recorder.elementSelector.strategyDataTestid": "data-testid",
     "recorder.elementSelector.strategyId": "ID",
-    "recorder.elementSelector.strategyRole": "ARIA Role",
+    "recorder.elementSelector.strategyRole": "ARIA भूमिका",
     "recorder.elementSelector.strategyText": "टेक्स्ट कंटेंट",
     "recorder.elementSelector.strategyXpath": "XPath",
     "recorder.elementSelector.tag": "टैग",

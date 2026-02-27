@@ -107,7 +107,7 @@
     "userSettings.userId": "รหัสผู้ใช้",
     "userSettings.username": "ชื่อผู้ใช้",
     "userSettings.usernameHint": "ใช้ได้เฉพาะตัวอักษร ตัวเลข และขีดล่าง",
-    "userSettings.usernamePlaceholder": "your_username",
+    "userSettings.usernamePlaceholder": "ชื่อผู้ใช้ของคุณ",
     "userSettings.verified": "ยืนยันแล้ว",
     "userSettings.viewPublicProfile": "ดูโปรไฟล์สาธารณะ",
     "userSettings.yourApiKey": "API Key ของคุณ"

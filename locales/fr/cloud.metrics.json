@@ -14,7 +14,7 @@
     "metrics.stats.failed": "Echecs",
     "metrics.stats.successRate": "Taux de reussite",
     "metrics.stats.totalExecutions": "Total des executions",
-    "metrics.topWorkflows.executions": "executions",
+    "metrics.topWorkflows.executions": "exécutions",
     "metrics.topWorkflows.noData": "Aucun flux de travail execute pour le moment",
     "metrics.topWorkflows.title": "Top des flux de travail",
     "metrics.vsPrevious": "vs precedent"

@@ -29,7 +29,7 @@
     "modules.graphql.query.params.headers.description": "Header HTTP tambahan untuk dikirim dengan permintaan",
     "modules.graphql.query.params.headers.label": "Header",
     "modules.graphql.query.params.query.description": "String query GraphQL",
-    "modules.graphql.query.params.query.label": "Query",
+    "modules.graphql.query.params.query.label": "Kueri",
     "modules.graphql.query.params.url.description": "URL endpoint GraphQL",
     "modules.graphql.query.params.url.label": "URL Endpoint",
     "modules.graphql.query.params.variables.description": "Variabel query GraphQL sebagai pasangan kunci-nilai",

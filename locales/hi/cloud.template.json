@@ -385,7 +385,7 @@
     "cloud.templateDebugger.header.executing": "निष्पादित हो रहा है...",
     "cloud.templateDebugger.header.stop": "रोकें",
     "cloud.templateDebugger.logs.continue": "जारी रखें",
-    "cloud.templateDebugger.logs.duration": "{time}s",
+    "cloud.templateDebugger.logs.duration": "{time} सेकंड",
     "cloud.templateDebugger.logs.executing": "निष्पादित हो रहा है...",
     "cloud.templateDebugger.logs.failed": "विफल",
     "cloud.templateDebugger.logs.notExecuted": "अभी तक निष्पादित नहीं",

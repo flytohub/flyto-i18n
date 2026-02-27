@@ -105,7 +105,7 @@
     "cloud.moduleLab.imagePreview": "画像プレビュー",
     "cloud.moduleLab.inputKey": "キー",
     "cloud.moduleLab.inputKeyHint": "小文字、数字、アンダースコアを使用",
-    "cloud.moduleLab.inputKeyPlaceholder": "variable_name",
+    "cloud.moduleLab.inputKeyPlaceholder": "変数名",
     "cloud.moduleLab.inputLabel": "ラベル",
     "cloud.moduleLab.inputLabelPlaceholder": "表示ラベルを入力...",
     "cloud.moduleLab.inputRequired": "このフィールドは必須です",

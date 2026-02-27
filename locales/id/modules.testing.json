@@ -12,7 +12,7 @@
     "modules.testing.e2e.run_steps.output.results.description": "Jumlah tes yang lolos",
     "modules.testing.e2e.run_steps.params.steps.description": "Array definisi langkah tes",
     "modules.testing.gate.evaluate.description": "Evaluasi metrik kualitas terhadap threshold yang ditentukan",
-    "modules.testing.gate.evaluate.label": "Quality Gate",
+    "modules.testing.gate.evaluate.label": "Gerbang Kualitas",
     "modules.testing.gate.evaluate.output.ok.description": "Nilai threshold untuk setiap metrik",
     "modules.testing.gate.evaluate.output.passed.description": "Apakah operasi berhasil",
     "modules.testing.gate.evaluate.output.results.description": "Apakah operasi berhasil",

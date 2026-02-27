@@ -23,11 +23,11 @@
     "modules.db.postgresql.query.output.row_count.description": "객체 형태의 결과 행 배열",
     "modules.db.postgresql.query.output.rows.description": "객체 형태의 결과 행 배열",
     "modules.db.redis.get.description": "Redis 캐시에서 값 가져오기",
-    "modules.db.redis.get.label": "Redis Get",
+    "modules.db.redis.get.label": "Redis 가져오기",
     "modules.db.redis.get.output.exists.description": "반환된 값",
     "modules.db.redis.get.output.key.description": "반환된 값",
     "modules.db.redis.get.output.value.description": "반환된 값",
     "modules.db.redis.set.description": "Redis 캐시에 값 설정",
-    "modules.db.redis.set.label": "Redis Set"
+    "modules.db.redis.set.label": "Redis 설정"
   }
 }

@@ -28,7 +28,7 @@
     "modules.verify.run.label": "Ejecutar Verificación",
     "modules.verify.run.params.selectors": "Selectores",
     "modules.verify.run.params.violations": "Violaciones",
-    "modules.verify.run.params.violations.options.actual": "Actual",
+    "modules.verify.run.params.violations.options.actual": "Real",
     "modules.verify.run.params.violations.options.compare": "Comparar",
     "modules.verify.run.params.violations.options.error": "Error",
     "modules.verify.run.params.violations.options.expected": "Esperado",

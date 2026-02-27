@@ -29,7 +29,7 @@
     "modules.data.json_to_csv.output.columns.description": "欄位名稱列表",
     "modules.data.json_to_csv.output.output_path.description": "產生的 CSV 檔案路徑",
     "modules.data.json_to_csv.output.row_count.description": "列數",
-    "modules.data.json_to_csv.params.input_data": "Input Data",
+    "modules.data.json_to_csv.params.input_data": "輸入資料",
     "modules.data.pipeline.description": "在單一步驟中串聯多個資料轉換",
     "modules.data.pipeline.label": "資料管道",
     "modules.data.pipeline.output.original_count.description": "已轉換的資料",

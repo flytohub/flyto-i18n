@@ -183,7 +183,7 @@
     "cloud.userSettings.userId": "用戶 ID",
     "cloud.userSettings.username": "用戶名稱",
     "cloud.userSettings.usernameHint": "只能使用英文字母、數字和底線",
-    "cloud.userSettings.usernamePlaceholder": "your_username",
+    "cloud.userSettings.usernamePlaceholder": "請輸入使用者名稱",
     "cloud.userSettings.yourApiKey": "您的 API 金鑰"
   }
 }

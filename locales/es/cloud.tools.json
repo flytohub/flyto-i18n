@@ -27,7 +27,7 @@
     "cloud.toolCategory.imageProcessing": "Procesamiento de imagenes",
     "cloud.toolCategory.other": "Otro",
     "cloud.toolCategory.textProcessing": "Procesamiento de texto",
-    "cloud.toolCategory.webScraping": "Web Scraping",
+    "cloud.toolCategory.webScraping": "Extracción web",
     "cloud.toolLibrary.allTools": "Todos",
     "cloud.toolLibrary.createFirstTool": "Crea tu primera herramienta",
     "cloud.toolLibrary.createTool": "Crear herramienta",
@@ -65,7 +65,7 @@
     "cloud.toolRunner.running": "Ejecutando...",
     "cloud.toolRunner.selectFile": "Seleccionar archivo",
     "cloud.toolRunner.selectOption": "Selecciona una opcion",
-    "cloud.toolRunner.simpleMode": "Simple",
+    "cloud.toolRunner.simpleMode": "Sencillo",
     "cloud.toolRunner.steps": "pasos",
     "cloud.toolRunner.toolNotFound": "Herramienta no encontrada",
     "cloud.toolRunner.toolNotFoundError": "Herramienta no encontrada"

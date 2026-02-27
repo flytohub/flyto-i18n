@@ -183,7 +183,7 @@
     "cloud.userSettings.userId": "ユーザーID",
     "cloud.userSettings.username": "ユーザー名",
     "cloud.userSettings.usernameHint": "英数字とアンダースコアのみ",
-    "cloud.userSettings.usernamePlaceholder": "your_username",
+    "cloud.userSettings.usernamePlaceholder": "あなたのユーザー名",
     "cloud.userSettings.yourApiKey": "あなたのAPIキー"
   }
 }

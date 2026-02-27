@@ -53,7 +53,7 @@
     "cloud.node.settings.strategyExponential": "Exponentiell",
     "cloud.node.settings.strategyFixed": "Fest",
     "cloud.node.settings.strategyLinear": "Linear",
-    "cloud.node.settings.timeout": "Timeout",
+    "cloud.node.settings.timeout": "Zeitüberschreitung",
     "cloud.node.settings.timeoutPlaceholder": "z.B. 30000 (30s)",
     "cloud.subflow.navigateRoot": "Zur Wurzel",
     "cloud.subflow.navigateUp": "Nach oben",

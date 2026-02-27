@@ -11,6 +11,6 @@
     "modules.template.invoke.output.result.description": "Tempo massimo di esecuzione in secondi",
     "modules.template.invoke.output.template_id.description": "Evento per il routing (successo/errore)",
     "modules.template.invoke.ports.input": "Invoca Modello",
-    "modules.template.invoke.ports.success": "Input"
+    "modules.template.invoke.ports.success": "Ingresso"
   }
 }

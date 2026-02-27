@@ -4,19 +4,19 @@
   "category": "notify",
   "version": "1.0.0",
   "translations": {
-    "modules.notify.send.description": "Send notification to Telegram, Discord, Slack, LINE, or any webhook URL",
-    "modules.notify.send.label": "Send Notification",
-    "modules.notify.send.output.ok.description": "Telegram chat ID (required for Telegram)",
-    "modules.notify.send.output.platform.description": "Whether notification was sent successfully",
-    "modules.notify.send.output.response.description": "Detected platform (telegram, discord, slack, etc.)",
-    "modules.notify.send.output.status_code.description": "Whether notification was sent successfully",
-    "modules.notify.send.params.chat_id.description": "Optional title (for Discord, Slack, Teams)",
-    "modules.notify.send.params.chat_id.label": "Title",
-    "modules.notify.send.params.message.description": "Notification message content",
-    "modules.notify.send.params.message.label": "Webhook URL",
-    "modules.notify.send.params.title.description": "Notification message content",
-    "modules.notify.send.params.title.label": "Message",
-    "modules.notify.send.params.url.description": "Webhook URL (Telegram, Discord, Slack, or custom)",
-    "modules.notify.send.params.url.label": "Webhook URL"
+    "modules.notify.send.description": "Benachrichtigung an Telegram, Discord, Slack, LINE oder eine beliebige Webhook-URL senden",
+    "modules.notify.send.label": "Benachrichtigung senden",
+    "modules.notify.send.output.ok.description": "Telegram-Chat-ID (erforderlich für Telegram)",
+    "modules.notify.send.output.platform.description": "Ob die Benachrichtigung erfolgreich gesendet wurde",
+    "modules.notify.send.output.response.description": "Erkannte Plattform (Telegram, Discord, Slack, etc.)",
+    "modules.notify.send.output.status_code.description": "Ob die Benachrichtigung erfolgreich gesendet wurde",
+    "modules.notify.send.params.chat_id.description": "Optionaler Titel (für Discord, Slack, Teams)",
+    "modules.notify.send.params.chat_id.label": "Titel",
+    "modules.notify.send.params.message.description": "Inhalt der Benachrichtigungsnachricht",
+    "modules.notify.send.params.message.label": "Webhook-URL",
+    "modules.notify.send.params.title.description": "Inhalt der Benachrichtigungsnachricht",
+    "modules.notify.send.params.title.label": "Nachricht",
+    "modules.notify.send.params.url.description": "Webhook-URL (Telegram, Discord, Slack oder benutzerdefiniert)",
+    "modules.notify.send.params.url.label": "Webhook-URL"
   }
 }
