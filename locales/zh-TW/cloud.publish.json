@@ -4,6 +4,7 @@
   "category": "cloud.publish",
   "version": "1.0.0",
   "translations": {
+    "publish.errors.invalidCallPrice": "請設定有效的每次執行 credits 費用",
     "publish.errors.invalidPrice": "請輸入有效的價格",
     "publish.errors.publishFailed": "發布模板失敗",
     "publish.inviteKey.createOnPublish": "發布時建立邀請碼",
@@ -16,6 +17,10 @@
     "publish.pricing.label": "定價",
     "publish.pricing.paid": "付費",
     "publish.pricing.paidDesc": "使用者需付費存取",
+    "publish.pricing.perCall": "按次計費",
+    "publish.pricing.perCallDesc": "每次執行收取 credits",
+    "publish.pricing.creditsPerCall": "每次執行 credits",
+    "publish.pricing.perCallRevenue": "每次執行",
     "publish.pricing.platformFee": "平台費用 ({percent}%)",
     "publish.pricing.price": "價格",
     "publish.pricing.youReceive": "您將收到",

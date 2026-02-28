@@ -47,6 +47,9 @@
     "marketplace.templates": "Templates",
     "marketplace.templatesFound": "{count} templates found",
     "marketplace.title": "Marketplace",
-    "marketplace.verified": "Verified"
+    "marketplace.verified": "Verified",
+    "marketplace.perCall": "Pay Per Call",
+    "marketplace.perCallBadge": "{credits} credits/run",
+    "marketplace.executePerCall": "Run"
   }
 }

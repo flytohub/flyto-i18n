@@ -47,6 +47,9 @@
     "marketplace.templates": "模板",
     "marketplace.templatesFound": "找到 {count} 個模板",
     "marketplace.title": "市場",
-    "marketplace.verified": "已驗證"
+    "marketplace.verified": "已驗證",
+    "marketplace.perCall": "按次計費",
+    "marketplace.perCallBadge": "{credits} credits/次",
+    "marketplace.executePerCall": "執行"
   }
 }

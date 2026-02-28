@@ -4,6 +4,7 @@
   "category": "cloud.publish",
   "version": "1.0.0",
   "translations": {
+    "publish.errors.invalidCallPrice": "Please set a valid credits per call price",
     "publish.errors.invalidPrice": "Please enter a valid price",
     "publish.errors.publishFailed": "Failed to publish template",
     "publish.inviteKey.createOnPublish": "Create invite key on publish",
@@ -16,6 +17,10 @@
     "publish.pricing.label": "Pricing",
     "publish.pricing.paid": "Paid",
     "publish.pricing.paidDesc": "Users pay to access",
+    "publish.pricing.perCall": "Pay Per Call",
+    "publish.pricing.perCallDesc": "Charge credits per execution",
+    "publish.pricing.creditsPerCall": "Credits per execution",
+    "publish.pricing.perCallRevenue": "Per execution",
     "publish.pricing.platformFee": "Platform fee ({percent}%)",
     "publish.pricing.price": "Price",
     "publish.pricing.youReceive": "You receive",
