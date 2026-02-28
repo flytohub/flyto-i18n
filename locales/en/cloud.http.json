@@ -13,6 +13,7 @@
     "http.authType.basic": "Basic Auth",
     "http.authType.bearer": "Bearer Token",
     "http.authType.credential": "",
+    "http.authType.label": "Auth Type",
     "http.authType.none": "None",
     "http.body": "Body",
     "http.bodyPlaceholder": "Enter request body...",
@@ -38,6 +39,11 @@
     "http.timeout": "Timeout (ms)",
     "http.url": "URL",
     "http.value": "Value",
+    "http.token": "Token",
+    "http.username": "Username",
+    "http.password": "Password",
+    "http.headerName": "Header Name",
+    "http.apiKey": "API Key",
     "http.verifySsl": "Verify SSL"
   }
 }
