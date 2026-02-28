@@ -27,6 +27,7 @@
     "categories.object": "Nesne",
     "categories.other": "Diğer",
     "categories.string": "Dize",
+    "categories.connector": "API Bağlayıcı",
     "categories.utility": "Araç"
   }
 }

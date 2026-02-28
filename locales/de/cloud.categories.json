@@ -27,6 +27,7 @@
     "categories.object": "Objekt",
     "categories.other": "Sonstiges",
     "categories.string": "Zeichenkette",
+    "categories.connector": "API-Connector",
     "categories.utility": "Dienstprogramm"
   }
 }

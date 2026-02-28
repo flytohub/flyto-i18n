@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "Verbindung nicht möglich: Knoten fehlt",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.saveAsTemplate": "Als Vorlage speichern",
+    "workflow.saveAsTemplateDesc": "Diese Knotenkonfiguration als wiederverwendbare Vorlage teilen",
+    "workflow.duplicateNode": "Duplizieren"
   }
 }

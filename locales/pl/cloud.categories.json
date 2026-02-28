@@ -27,6 +27,7 @@
     "categories.object": "Obiekt",
     "categories.other": "Inne",
     "categories.string": "Ciąg znaków",
+    "categories.connector": "Konektor API",
     "categories.utility": "Narzędzie"
   }
 }

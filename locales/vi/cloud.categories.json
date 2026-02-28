@@ -27,6 +27,7 @@
     "categories.object": "Đối tượng",
     "categories.other": "Khác",
     "categories.string": "Chuỗi",
+    "categories.connector": "API Connector",
     "categories.utility": "Tiện ích"
   }
 }

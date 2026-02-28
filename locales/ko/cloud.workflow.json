@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "연결할 수 없습니다: 노드가 없습니다",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.saveAsTemplate": "템플릿으로 저장",
+    "workflow.saveAsTemplateDesc": "이 노드 구성을 재사용 가능한 템플릿으로 공유",
+    "workflow.duplicateNode": "복제"
   }
 }

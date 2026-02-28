@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "無法連線：找不到節點",
     "workflow.validation.multiOutputRecommended": "單一輸出節點分岔連線可能不安全",
     "workflow.validation.selfConnection": "節點不能連到自己",
-    "workflow.validation.typeMismatch": "{source} 的輸出類型與 {target} 不相容"
+    "workflow.validation.typeMismatch": "{source} 的輸出類型與 {target} 不相容",
+    "workflow.saveAsTemplate": "儲存為模板",
+    "workflow.saveAsTemplateDesc": "將此節點設定分享為可重用模板",
+    "workflow.duplicateNode": "複製節點"
   }
 }

@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "Unable to connect: missing node",
     "workflow.validation.multiOutputRecommended": "Multiple outputs from a single-output node may be unsafe",
     "workflow.validation.selfConnection": "A node cannot connect to itself",
-    "workflow.validation.typeMismatch": "Output type of {source} is not compatible with {target}"
+    "workflow.validation.typeMismatch": "Output type of {source} is not compatible with {target}",
+    "workflow.saveAsTemplate": "Save as Template",
+    "workflow.saveAsTemplateDesc": "Share this node configuration as a reusable template",
+    "workflow.duplicateNode": "Duplicate"
   }
 }

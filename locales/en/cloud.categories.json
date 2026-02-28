@@ -27,6 +27,7 @@
     "categories.object": "Object",
     "categories.other": "Other",
     "categories.string": "String",
+    "categories.connector": "API Connector",
     "categories.utility": "Utility"
   }
 }

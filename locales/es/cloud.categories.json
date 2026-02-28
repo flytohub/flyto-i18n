@@ -27,6 +27,7 @@
     "categories.object": "Objeto",
     "categories.other": "Otro",
     "categories.string": "Cadena",
+    "categories.connector": "Conector API",
     "categories.utility": "Utilidad"
   }
 }

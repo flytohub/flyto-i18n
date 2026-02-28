@@ -27,6 +27,7 @@
     "categories.object": "객체",
     "categories.other": "기타",
     "categories.string": "문자열",
+    "categories.connector": "API 커넥터",
     "categories.utility": "유틸리티"
   }
 }

@@ -27,6 +27,7 @@
     "categories.object": "オブジェクト",
     "categories.other": "その他",
     "categories.string": "文字列",
+    "categories.connector": "APIコネクタ",
     "categories.utility": "ユーティリティ"
   }
 }

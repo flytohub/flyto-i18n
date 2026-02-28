@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "接続できません：ノードがありません",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.saveAsTemplate": "テンプレートとして保存",
+    "workflow.saveAsTemplateDesc": "このノード設定を再利用可能なテンプレートとして共有",
+    "workflow.duplicateNode": "複製"
   }
 }

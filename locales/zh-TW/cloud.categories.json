@@ -27,6 +27,7 @@
     "categories.object": "物件",
     "categories.other": "其他",
     "categories.string": "字串",
+    "categories.connector": "API 連接器",
     "categories.utility": "工具"
   }
 }

@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "No se puede conectar: falta un nodo",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.saveAsTemplate": "Guardar como plantilla",
+    "workflow.saveAsTemplateDesc": "Compartir esta configuración de nodo como plantilla reutilizable",
+    "workflow.duplicateNode": "Duplicar"
   }
 }

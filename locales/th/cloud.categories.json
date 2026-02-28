@@ -27,6 +27,7 @@
     "categories.object": "ออบเจ็กต์",
     "categories.other": "อื่นๆ",
     "categories.string": "สตริง",
+    "categories.connector": "API Connector",
     "categories.utility": "เครื่องมือ"
   }
 }

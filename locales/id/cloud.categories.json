@@ -27,6 +27,7 @@
     "categories.object": "Objek",
     "categories.other": "Lainnya",
     "categories.string": "String",
+    "categories.connector": "API Connector",
     "categories.utility": "Utilitas"
   }
 }
