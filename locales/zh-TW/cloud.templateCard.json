@@ -15,6 +15,8 @@
     "templateCard.editInfo": "編輯資訊",
     "templateCard.forkTemplate": "Fork 到我的模板",
     "templateCard.forked": "已分叉",
+    "templateCard.installed": "已安裝",
+    "templateCard.purchased": "已購買",
     "templateCard.manageKeys": "管理邀請碼",
     "templateCard.privateTooltip": "私有 - 需要邀請碼",
     "templateCard.publicTooltip": "公開",

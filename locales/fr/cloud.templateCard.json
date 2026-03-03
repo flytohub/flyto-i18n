@@ -15,6 +15,8 @@
     "templateCard.editInfo": "Modifier les infos",
     "templateCard.forkTemplate": "Dupliquer vers mes modeles",
     "templateCard.forked": "Duplique",
+    "templateCard.installed": "Installé",
+    "templateCard.purchased": "Acheté",
     "templateCard.manageKeys": "Gerer les cles",
     "templateCard.privateTooltip": "Prive - Cle d'invitation requise",
     "templateCard.publicTooltip": "Public",
