@@ -50,6 +50,7 @@
     "marketplace.verified": "Verified",
     "marketplace.perCall": "Pay Per Call",
     "marketplace.perCallBadge": "{credits} credits/run",
-    "marketplace.executePerCall": "Run"
+    "marketplace.executePerCall": "Run",
+    "marketplace.updateListing": "Update"
   }
 }

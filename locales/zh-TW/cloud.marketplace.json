@@ -50,6 +50,7 @@
     "marketplace.verified": "已驗證",
     "marketplace.perCall": "按次計費",
     "marketplace.perCallBadge": "{credits} credits/次",
-    "marketplace.executePerCall": "執行"
+    "marketplace.executePerCall": "執行",
+    "marketplace.updateListing": "更新"
   }
 }
