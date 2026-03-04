@@ -1,0 +1,67 @@
+{
+  "templateCollaboration": {
+    "tabs": {
+      "overview": "總覽",
+      "pullRequests": "合併請求",
+      "issues": "問題",
+      "history": "歷史"
+    },
+    "pullRequests": {
+      "title": "合併請求",
+      "create": "建立合併請求",
+      "titleLabel": "標題",
+      "titlePlaceholder": "描述你的修改...",
+      "descriptionLabel": "說明",
+      "descriptionPlaceholder": "解釋你修改了什麼以及原因...",
+      "submitPR": "提交合併請求",
+      "openedBy": "由 {name} 建立",
+      "diffSummary": "變更摘要",
+      "stepsAdded": "新增",
+      "stepsRemoved": "移除",
+      "stepsModified": "修改",
+      "merge": "合併",
+      "approve": "核准",
+      "reject": "駁回",
+      "close": "關閉",
+      "mergeSuccess": "合併請求已成功合併",
+      "approved": "合併請求已核准",
+      "rejected": "合併請求已駁回",
+      "closed": "合併請求已關閉",
+      "noOpenPRs": "目前沒有合併請求",
+      "reviewComment": "審核意見",
+      "statusOpen": "開啟",
+      "statusMerged": "已合併",
+      "statusRejected": "已駁回",
+      "statusClosed": "已關閉"
+    },
+    "templateIssues": {
+      "title": "問題",
+      "create": "回報問題",
+      "titleLabel": "標題",
+      "titlePlaceholder": "簡短描述問題...",
+      "typeLabel": "類型",
+      "descriptionLabel": "說明",
+      "descriptionPlaceholder": "詳細描述問題...",
+      "submitIssue": "提交問題",
+      "reportIssue": "回報問題",
+      "noIssues": "目前沒有問題回報",
+      "created": "問題已成功建立",
+      "closeIssue": "關閉問題",
+      "issueClosed": "問題已關閉",
+      "comments": "留言",
+      "addComment": "寫一則留言...",
+      "send": "送出"
+    },
+    "contributors": {
+      "title": "貢獻者",
+      "mergedPRs": "已合併 PR",
+      "noContributors": "目前沒有貢獻者"
+    },
+    "commitHistory": {
+      "title": "歷史",
+      "noHistory": "目前沒有版本歷史",
+      "noSummary": "無說明",
+      "unknownAuthor": "未知"
+    }
+  }
+}

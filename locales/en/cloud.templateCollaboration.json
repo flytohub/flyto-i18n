@@ -1,0 +1,67 @@
+{
+  "templateCollaboration": {
+    "tabs": {
+      "overview": "Overview",
+      "pullRequests": "Pull Requests",
+      "issues": "Issues",
+      "history": "History"
+    },
+    "pullRequests": {
+      "title": "Pull Requests",
+      "create": "New Pull Request",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Describe your changes...",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Explain what you changed and why...",
+      "submitPR": "Submit Pull Request",
+      "openedBy": "opened by {name}",
+      "diffSummary": "Changes Summary",
+      "stepsAdded": "added",
+      "stepsRemoved": "removed",
+      "stepsModified": "modified",
+      "merge": "Merge",
+      "approve": "Approve",
+      "reject": "Reject",
+      "close": "Close",
+      "mergeSuccess": "Pull request merged successfully",
+      "approved": "Pull request approved",
+      "rejected": "Pull request rejected",
+      "closed": "Pull request closed",
+      "noOpenPRs": "No pull requests yet",
+      "reviewComment": "Review Comment",
+      "statusOpen": "Open",
+      "statusMerged": "Merged",
+      "statusRejected": "Rejected",
+      "statusClosed": "Closed"
+    },
+    "templateIssues": {
+      "title": "Issues",
+      "create": "New Issue",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Brief description of the issue...",
+      "typeLabel": "Type",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Describe the issue in detail...",
+      "submitIssue": "Submit Issue",
+      "reportIssue": "Report Issue",
+      "noIssues": "No issues yet",
+      "created": "Issue created successfully",
+      "closeIssue": "Close Issue",
+      "issueClosed": "Issue closed",
+      "comments": "Comments",
+      "addComment": "Write a comment...",
+      "send": "Send"
+    },
+    "contributors": {
+      "title": "Contributors",
+      "mergedPRs": "merged PRs",
+      "noContributors": "No contributors yet"
+    },
+    "commitHistory": {
+      "title": "History",
+      "noHistory": "No version history yet",
+      "noSummary": "No description",
+      "unknownAuthor": "Unknown"
+    }
+  }
+}
