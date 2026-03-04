@@ -27,6 +27,7 @@
       "approved": "合併請求已核准",
       "rejected": "合併請求已駁回",
       "closed": "合併請求已關閉",
+      "created": "合併請求已成功建立",
       "noOpenPRs": "目前沒有合併請求",
       "reviewComment": "審核意見",
       "statusOpen": "開啟",

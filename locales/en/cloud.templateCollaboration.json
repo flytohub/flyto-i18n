@@ -27,6 +27,7 @@
       "approved": "Pull request approved",
       "rejected": "Pull request rejected",
       "closed": "Pull request closed",
+      "created": "Pull request created successfully",
       "noOpenPRs": "No pull requests yet",
       "reviewComment": "Review Comment",
       "statusOpen": "Open",
