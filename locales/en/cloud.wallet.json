@@ -21,6 +21,7 @@
     "wallet.insufficientCredits": "Insufficient credits",
     "wallet.needMore": "You need {amount} more credits",
     "wallet.topupNow": "Top Up Now",
-    "wallet.confirmAndExecute": "Confirm & Execute"
+    "wallet.confirmAndExecute": "Confirm & Execute",
+    "wallet.lowBalanceWarning": "Your credits are running low. Top up to keep running workflows."
   }
 }

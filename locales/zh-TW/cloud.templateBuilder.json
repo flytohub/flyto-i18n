@@ -200,6 +200,8 @@
     "templateBuilder.protectedWorkflow.title": "受保護的工作流程",
     "templateBuilder.schemaParams.advancedOptions": "進階選項",
     "templateBuilder.schemaParams.noSchema": "沒有可用的參數設定",
+    "templateBuilder.schemaParams.templateVariables": "模板變數",
+    "templateBuilder.schemaParams.templateVariablesHint": "從參數中自動偵測",
     "templateBuilder.section.addComponentsFromLeft": "然後從左側添加元件",
     "templateBuilder.section.clickToSelect": "點擊選擇欄位",
     "templateBuilder.section.deleteSection": "刪除區塊",

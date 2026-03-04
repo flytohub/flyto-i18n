@@ -200,6 +200,8 @@
     "templateBuilder.protectedWorkflow.title": "",
     "templateBuilder.schemaParams.advancedOptions": "Advanced Options",
     "templateBuilder.schemaParams.noSchema": "No parameter configuration available",
+    "templateBuilder.schemaParams.templateVariables": "Template Variables",
+    "templateBuilder.schemaParams.templateVariablesHint": "Auto-detected from parameters",
     "templateBuilder.section.addComponentsFromLeft": "Then add components from left",
     "templateBuilder.section.clickToSelect": "Click to select column",
     "templateBuilder.section.deleteSection": "Delete Section",
