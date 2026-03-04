@@ -50,7 +50,14 @@
       "issueClosed": "問題已關閉",
       "comments": "留言",
       "addComment": "寫一則留言...",
-      "send": "送出"
+      "send": "送出",
+      "typeBug": "Bug",
+      "typeFeature": "功能請求",
+      "typeQuestion": "問題"
+    },
+    "filters": {
+      "all": "全部",
+      "allTypes": "所有類型"
     },
     "contributors": {
       "title": "貢獻者",

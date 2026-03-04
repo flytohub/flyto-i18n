@@ -50,7 +50,14 @@
       "issueClosed": "Issue closed",
       "comments": "Comments",
       "addComment": "Write a comment...",
-      "send": "Send"
+      "send": "Send",
+      "typeBug": "Bug",
+      "typeFeature": "Feature",
+      "typeQuestion": "Question"
+    },
+    "filters": {
+      "all": "All",
+      "allTypes": "All Types"
     },
     "contributors": {
       "title": "Contributors",
