@@ -117,6 +117,7 @@
     "common.view": "보기",
     "common.viewAll": "모두 보기",
     "common.viewDetails": "상세 보기",
-    "common.yes": "예"
+    "common.yes": "예",
+    "common.submitting": "제출 중..."
   }
 }

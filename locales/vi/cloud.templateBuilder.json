@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "Quay lại",
     "templateBuilder.toolbar.saveTemplate": "Lưu mẫu",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID mẫu (tiếng Anh)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Tên mẫu"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Tên mẫu",
+    "templateBuilder.schemaParams.templateVariables": "Biến template",
+    "templateBuilder.schemaParams.templateVariablesHint": "Tự động phát hiện từ tham số"
   }
 }

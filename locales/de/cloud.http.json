@@ -38,6 +38,12 @@
     "http.timeout": "Zeitüberschreitung (ms)",
     "http.url": "URL",
     "http.value": "Wert",
-    "http.verifySsl": "SSL verifizieren"
+    "http.verifySsl": "SSL verifizieren",
+    "http.authType.label": "Auth-Typ",
+    "http.token": "Token",
+    "http.username": "Benutzername",
+    "http.password": "Passwort",
+    "http.headerName": "Header-Name",
+    "http.apiKey": "API-Schlüssel"
   }
 }

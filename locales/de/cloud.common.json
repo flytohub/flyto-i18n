@@ -117,6 +117,7 @@
     "common.view": "Ansehen",
     "common.viewAll": "Alle ansehen",
     "common.viewDetails": "Details anzeigen",
-    "common.yes": "Ja"
+    "common.yes": "Ja",
+    "common.submitting": "Wird gesendet..."
   }
 }

@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "Nie można połączyć: brakujący węzeł",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.duplicateNode": "Duplikuj",
+    "workflow.saveAsTemplate": "Zapisz jako szablon",
+    "workflow.saveAsTemplateDesc": "Udostępnij konfigurację tego węzła jako szablon do ponownego użycia"
   }
 }

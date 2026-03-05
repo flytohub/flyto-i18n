@@ -38,6 +38,12 @@
     "http.timeout": "Timeout (ms)",
     "http.url": "URL",
     "http.value": "Value",
-    "http.verifySsl": "ตรวจสอบ SSL"
+    "http.verifySsl": "ตรวจสอบ SSL",
+    "http.authType.label": "ประเภทการยืนยันตัวตน",
+    "http.token": "โทเคน",
+    "http.username": "ชื่อผู้ใช้",
+    "http.password": "รหัสผ่าน",
+    "http.headerName": "ชื่อ Header",
+    "http.apiKey": "API Key"
   }
 }

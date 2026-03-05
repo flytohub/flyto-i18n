@@ -38,6 +38,12 @@
     "http.timeout": "시간 초과 (ms)",
     "http.url": "URL",
     "http.value": "값",
-    "http.verifySsl": "SSL 확인"
+    "http.verifySsl": "SSL 확인",
+    "http.authType.label": "인증 유형",
+    "http.token": "토큰",
+    "http.username": "사용자 이름",
+    "http.password": "비밀번호",
+    "http.headerName": "헤더 이름",
+    "http.apiKey": "API 키"
   }
 }

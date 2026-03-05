@@ -38,6 +38,12 @@
     "http.timeout": "Zaman Aşımı (ms)",
     "http.url": "URL",
     "http.value": "Değer",
-    "http.verifySsl": "SSL Doğrula"
+    "http.verifySsl": "SSL Doğrula",
+    "http.authType.label": "Kimlik doğrulama türü",
+    "http.token": "Token",
+    "http.username": "Kullanıcı adı",
+    "http.password": "Şifre",
+    "http.headerName": "Header adı",
+    "http.apiKey": "API Anahtarı"
   }
 }

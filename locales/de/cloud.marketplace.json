@@ -47,6 +47,10 @@
     "marketplace.templates": "Vorlagen",
     "marketplace.templatesFound": "{count} Vorlagen gefunden",
     "marketplace.title": "Marktplatz",
-    "marketplace.verified": "Verifiziert"
+    "marketplace.verified": "Verifiziert",
+    "marketplace.perCall": "Pro Aufruf bezahlen",
+    "marketplace.perCallBadge": "{credits} Credits/Aufruf",
+    "marketplace.executePerCall": "Ausführen",
+    "marketplace.updateListing": "Aktualisieren"
   }
 }

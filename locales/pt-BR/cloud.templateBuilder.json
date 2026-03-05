@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "Voltar",
     "templateBuilder.toolbar.saveTemplate": "Salvar Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID do Template (Ingles)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nome do Template"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nome do Template",
+    "templateBuilder.schemaParams.templateVariables": "Variáveis do template",
+    "templateBuilder.schemaParams.templateVariablesHint": "Detectadas automaticamente dos parâmetros"
   }
 }

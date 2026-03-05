@@ -117,6 +117,7 @@
     "common.view": "View",
     "common.viewAll": "View all",
     "common.viewDetails": "Detayları Görüntüle",
-    "common.yes": "Evet"
+    "common.yes": "Evet",
+    "common.submitting": "Gönderiliyor..."
   }
 }

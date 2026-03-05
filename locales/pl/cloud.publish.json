@@ -58,6 +58,11 @@
     "publish.visibility.private": "Prywatny",
     "publish.visibility.privateDesc": "Dostepny tylko przez klucz zaproszenia",
     "publish.visibility.public": "Publiczny",
-    "publish.visibility.publicDesc": "Widoczny w marketplace, kazdy moze znalezc i zainstalowac"
+    "publish.visibility.publicDesc": "Widoczny w marketplace, kazdy moze znalezc i zainstalowac",
+    "publish.errors.invalidCallPrice": "Ustaw prawidłową cenę kredytów za wywołanie",
+    "publish.pricing.perCall": "Płatność za wywołanie",
+    "publish.pricing.perCallDesc": "Naliczaj kredyty za każde uruchomienie",
+    "publish.pricing.creditsPerCall": "Kredyty za uruchomienie",
+    "publish.pricing.perCallRevenue": "Za uruchomienie"
   }
 }

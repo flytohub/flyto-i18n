@@ -117,6 +117,7 @@
     "common.view": "Voir",
     "common.viewAll": "Voir tout",
     "common.viewDetails": "Voir les details",
-    "common.yes": "Oui"
+    "common.yes": "Oui",
+    "common.submitting": "Envoi en cours..."
   }
 }

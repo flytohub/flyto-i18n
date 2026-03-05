@@ -38,6 +38,12 @@
     "http.timeout": "タイムアウト（ミリ秒）",
     "http.url": "URL",
     "http.value": "値",
-    "http.verifySsl": "SSL検証"
+    "http.verifySsl": "SSL検証",
+    "http.authType.label": "認証タイプ",
+    "http.token": "トークン",
+    "http.username": "ユーザー名",
+    "http.password": "パスワード",
+    "http.headerName": "ヘッダー名",
+    "http.apiKey": "APIキー"
   }
 }

@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "Kembali",
     "templateBuilder.toolbar.saveTemplate": "Simpan Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID Template (Inggris)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nama Template"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nama Template",
+    "templateBuilder.schemaParams.templateVariables": "Variabel Template",
+    "templateBuilder.schemaParams.templateVariablesHint": "Terdeteksi otomatis dari parameter"
   }
 }

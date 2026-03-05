@@ -47,6 +47,10 @@
     "marketplace.templates": "テンプレート",
     "marketplace.templatesFound": "{count}件のテンプレートが見つかりました",
     "marketplace.title": "マーケットプレイス",
-    "marketplace.verified": "認証済み"
+    "marketplace.verified": "認証済み",
+    "marketplace.perCall": "従量課金",
+    "marketplace.perCallBadge": "{credits} クレジット/回",
+    "marketplace.executePerCall": "実行",
+    "marketplace.updateListing": "更新"
   }
 }

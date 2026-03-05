@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "ความต้องการของระบบ",
     "landing.app.requirements.windowsProcessor": "โปรเซสเซอร์ x64",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) หรือใหม่กว่า"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) หรือใหม่กว่า",
+    "landing.app.demo.title": "แค่ 3.2 วินาทีทำได้ขนาดนี้",
+    "landing.app.demo.subtitle": "สแกร็ป Hacker News จริง — ทุกขั้นตอนจับเวลาและติดตาม",
+    "landing.app.demo.result": "ดึงข้อมูล 30 รายการ",
+    "landing.app.demo.total": "รวม: 3.2 วิ | 6/6 สำเร็จ",
+    "landing.app.demo.replay": "เล่นซ้ำ"
   }
 }

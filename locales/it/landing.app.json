@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "Requisiti di Sistema",
     "landing.app.requirements.windowsProcessor": "Processore x64",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) o successivo"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) o successivo",
+    "landing.app.demo.title": "Ecco cosa succede in 3,2 secondi",
+    "landing.app.demo.subtitle": "Scraping reale su Hacker News — ogni passaggio misurato e tracciato",
+    "landing.app.demo.result": "30 elementi estratti",
+    "landing.app.demo.total": "Totale: 3,2s | 6/6 completati",
+    "landing.app.demo.replay": "Replay"
   }
 }

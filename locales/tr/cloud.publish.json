@@ -58,6 +58,11 @@
     "publish.visibility.private": "Özel",
     "publish.visibility.privateDesc": "Sadece davet anahtarıyla erişilebilir",
     "publish.visibility.public": "Herkese Açık",
-    "publish.visibility.publicDesc": "Pazar yerinde görünür, herkes bulup yükleyebilir"
+    "publish.visibility.publicDesc": "Pazar yerinde görünür, herkes bulup yükleyebilir",
+    "publish.errors.invalidCallPrice": "Geçerli bir çağrı başına kredi fiyatı belirleyin",
+    "publish.pricing.perCall": "Çağrı başına ödeme",
+    "publish.pricing.perCallDesc": "Her çalıştırmada kredi tahsil et",
+    "publish.pricing.creditsPerCall": "Çalıştırma başına kredi",
+    "publish.pricing.perCallRevenue": "Çalıştırma başına"
   }
 }

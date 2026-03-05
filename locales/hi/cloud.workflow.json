@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "कनेक्ट नहीं कर सकते: नोड गायब है",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.duplicateNode": "डुप्लिकेट",
+    "workflow.saveAsTemplate": "टेम्पलेट के रूप में सहेजें",
+    "workflow.saveAsTemplateDesc": "इस नोड की सेटिंग को दोबारा इस्तेमाल करने योग्य टेम्पलेट के रूप में शेयर करें"
   }
 }

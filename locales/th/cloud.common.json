@@ -117,6 +117,7 @@
     "common.view": "View",
     "common.viewAll": "View all",
     "common.viewDetails": "ดูรายละเอียด",
-    "common.yes": "ใช่"
+    "common.yes": "ใช่",
+    "common.submitting": "กำลังส่ง..."
   }
 }

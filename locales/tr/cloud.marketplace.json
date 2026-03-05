@@ -47,6 +47,10 @@
     "marketplace.templates": "Şablonlar",
     "marketplace.templatesFound": "{count} şablon bulundu",
     "marketplace.title": "Mağaza",
-    "marketplace.verified": "Doğrulanmış"
+    "marketplace.verified": "Doğrulanmış",
+    "marketplace.perCall": "Çağrı başına ödeme",
+    "marketplace.perCallBadge": "{credits} kredi/çalıştırma",
+    "marketplace.executePerCall": "Çalıştır",
+    "marketplace.updateListing": "Güncelle"
   }
 }

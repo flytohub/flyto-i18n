@@ -58,6 +58,11 @@
     "publish.visibility.private": "プライベート",
     "publish.visibility.privateDesc": "招待キーでのみアクセス可能",
     "publish.visibility.public": "パブリック",
-    "publish.visibility.publicDesc": "マーケットプレイスで公開、誰でも検索・インストール可能"
+    "publish.visibility.publicDesc": "マーケットプレイスで公開、誰でも検索・インストール可能",
+    "publish.errors.invalidCallPrice": "有効な従量課金の価格を設定してください",
+    "publish.pricing.perCall": "従量課金",
+    "publish.pricing.perCallDesc": "実行ごとにクレジットを課金",
+    "publish.pricing.creditsPerCall": "1回あたりのクレジット",
+    "publish.pricing.perCallRevenue": "1回あたりの収益"
   }
 }

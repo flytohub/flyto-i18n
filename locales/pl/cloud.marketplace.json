@@ -47,6 +47,10 @@
     "marketplace.templates": "Szablony",
     "marketplace.templatesFound": "Znaleziono {count} szablonow",
     "marketplace.title": "Rynek",
-    "marketplace.verified": "Zweryfikowany"
+    "marketplace.verified": "Zweryfikowany",
+    "marketplace.perCall": "Płatność za wywołanie",
+    "marketplace.perCallBadge": "{credits} kredytów/uruchomienie",
+    "marketplace.executePerCall": "Uruchom",
+    "marketplace.updateListing": "Zaktualizuj"
   }
 }

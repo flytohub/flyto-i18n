@@ -58,6 +58,11 @@
     "publish.visibility.private": "Privat",
     "publish.visibility.privateDesc": "Nur über Einladungsschlüssel zugänglich",
     "publish.visibility.public": "Öffentlich",
-    "publish.visibility.publicDesc": "Im Marktplatz sichtbar, jeder kann finden und installieren"
+    "publish.visibility.publicDesc": "Im Marktplatz sichtbar, jeder kann finden und installieren",
+    "publish.errors.invalidCallPrice": "Bitte einen gültigen Preis pro Aufruf angeben",
+    "publish.pricing.perCall": "Pro Aufruf bezahlen",
+    "publish.pricing.perCallDesc": "Credits pro Ausführung berechnen",
+    "publish.pricing.creditsPerCall": "Credits pro Ausführung",
+    "publish.pricing.perCallRevenue": "Pro Ausführung"
   }
 }

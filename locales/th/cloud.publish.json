@@ -58,6 +58,11 @@
     "publish.visibility.private": "ส่วนตัว",
     "publish.visibility.privateDesc": "เข้าถึงได้เฉพาะผ่านคีย์เชิญ",
     "publish.visibility.public": "สาธารณะ",
-    "publish.visibility.publicDesc": "แสดงใน marketplace ทุกคนสามารถค้นหาและติดตั้งได้"
+    "publish.visibility.publicDesc": "แสดงใน marketplace ทุกคนสามารถค้นหาและติดตั้งได้",
+    "publish.errors.invalidCallPrice": "กรุณาตั้งราคาเครดิตต่อครั้งที่ถูกต้อง",
+    "publish.pricing.perCall": "จ่ายตามการใช้งาน",
+    "publish.pricing.perCallDesc": "เก็บเครดิตทุกครั้งที่รัน",
+    "publish.pricing.creditsPerCall": "เครดิตต่อครั้ง",
+    "publish.pricing.perCallRevenue": "ต่อครั้ง"
   }
 }

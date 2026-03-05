@@ -117,6 +117,7 @@
     "common.view": "表示",
     "common.viewAll": "すべて表示",
     "common.viewDetails": "詳細を見る",
-    "common.yes": "はい"
+    "common.yes": "はい",
+    "common.submitting": "送信中..."
   }
 }

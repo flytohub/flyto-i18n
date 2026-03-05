@@ -58,6 +58,11 @@
     "publish.visibility.private": "비공개",
     "publish.visibility.privateDesc": "초대 키를 통해서만 접근 가능",
     "publish.visibility.public": "공개",
-    "publish.visibility.publicDesc": "마켓플레이스에 표시되며 누구나 찾아서 설치 가능"
+    "publish.visibility.publicDesc": "마켓플레이스에 표시되며 누구나 찾아서 설치 가능",
+    "publish.errors.invalidCallPrice": "유효한 호출당 크레딧 가격을 설정해주세요",
+    "publish.pricing.perCall": "호출당 과금",
+    "publish.pricing.perCallDesc": "실행할 때마다 크레딧 과금",
+    "publish.pricing.creditsPerCall": "1회 실행당 크레딧",
+    "publish.pricing.perCallRevenue": "1회 실행당 수익"
   }
 }

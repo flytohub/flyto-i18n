@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "Geri",
     "templateBuilder.toolbar.saveTemplate": "Şablonu Kaydet",
     "templateBuilder.toolbar.templateIdPlaceholder": "Şablon ID (İngilizce)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Şablon Adı"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Şablon Adı",
+    "templateBuilder.schemaParams.templateVariables": "Şablon değişkenleri",
+    "templateBuilder.schemaParams.templateVariablesHint": "Parametrelerden otomatik algılandı"
   }
 }

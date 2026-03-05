@@ -47,6 +47,10 @@
     "marketplace.templates": "Template",
     "marketplace.templatesFound": "{count} template ditemukan",
     "marketplace.title": "Marketplace",
-    "marketplace.verified": "Terverifikasi"
+    "marketplace.verified": "Terverifikasi",
+    "marketplace.perCall": "Bayar Per Eksekusi",
+    "marketplace.perCallBadge": "{credits} kredit/run",
+    "marketplace.executePerCall": "Jalankan",
+    "marketplace.updateListing": "Perbarui"
   }
 }

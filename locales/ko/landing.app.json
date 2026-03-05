@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "시스템 요구 사항",
     "landing.app.requirements.windowsProcessor": "x64 프로세서",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 이상"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 이상",
+    "landing.app.demo.title": "3.2초면 이만큼",
+    "landing.app.demo.subtitle": "Hacker News 실제 스크래핑 — 모든 단계 시간 측정 및 추적",
+    "landing.app.demo.result": "30개 항목 추출",
+    "landing.app.demo.total": "총: 3.2초 | 6/6 완료",
+    "landing.app.demo.replay": "다시 보기"
   }
 }

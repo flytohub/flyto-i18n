@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "वापस",
     "templateBuilder.toolbar.saveTemplate": "टेम्पलेट सहेजें",
     "templateBuilder.toolbar.templateIdPlaceholder": "टेम्पलेट ID (अंग्रेज़ी)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "टेम्पलेट नाम"
+    "templateBuilder.toolbar.templateNamePlaceholder": "टेम्पलेट नाम",
+    "templateBuilder.schemaParams.templateVariables": "टेम्पलेट वेरिएबल",
+    "templateBuilder.schemaParams.templateVariablesHint": "पैरामीटर से ऑटो-डिटेक्ट"
   }
 }

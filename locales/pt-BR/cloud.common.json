@@ -117,6 +117,7 @@
     "common.view": "View",
     "common.viewAll": "View all",
     "common.viewDetails": "Ver Detalhes",
-    "common.yes": "Sim"
+    "common.yes": "Sim",
+    "common.submitting": "Enviando..."
   }
 }

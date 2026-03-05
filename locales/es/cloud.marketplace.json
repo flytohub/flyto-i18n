@@ -47,6 +47,10 @@
     "marketplace.templates": "Plantillas",
     "marketplace.templatesFound": "{count} plantillas encontradas",
     "marketplace.title": "Mercado",
-    "marketplace.verified": "Verificado"
+    "marketplace.verified": "Verificado",
+    "marketplace.perCall": "Pago por ejecución",
+    "marketplace.perCallBadge": "{credits} créditos/ejecución",
+    "marketplace.executePerCall": "Ejecutar",
+    "marketplace.updateListing": "Actualizar"
   }
 }

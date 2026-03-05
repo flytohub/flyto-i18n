@@ -117,6 +117,7 @@
     "common.view": "Visualizza",
     "common.viewAll": "Visualizza tutto",
     "common.viewDetails": "Visualizza Dettagli",
-    "common.yes": "Si"
+    "common.yes": "Si",
+    "common.submitting": "Invio in corso..."
   }
 }

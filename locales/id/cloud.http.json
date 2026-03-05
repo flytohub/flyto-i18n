@@ -38,6 +38,12 @@
     "http.timeout": "Batas Waktu (ms)",
     "http.url": "URL",
     "http.value": "Nilai",
-    "http.verifySsl": "Verifikasi SSL"
+    "http.verifySsl": "Verifikasi SSL",
+    "http.authType.label": "Tipe Auth",
+    "http.token": "Token",
+    "http.username": "Username",
+    "http.password": "Password",
+    "http.headerName": "Nama Header",
+    "http.apiKey": "API Key"
   }
 }

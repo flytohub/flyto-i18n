@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "सिस्टम आवश्यकताएं",
     "landing.app.requirements.windowsProcessor": "x64 प्रोसेसर",
     "landing.app.requirements.windowsTitle": "विंडोज़",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) या बाद का"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) या बाद का",
+    "landing.app.demo.title": "3.2 सेकंड में यह होता है",
+    "landing.app.demo.subtitle": "Hacker News पर असली स्क्रैपिंग — हर स्टेप टाइम और ट्रैक किया गया",
+    "landing.app.demo.result": "30 आइटम निकाले",
+    "landing.app.demo.total": "कुल: 3.2s | 6/6 पास",
+    "landing.app.demo.replay": "दोबारा चलाएँ"
   }
 }

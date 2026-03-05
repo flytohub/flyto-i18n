@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "กลับ",
     "templateBuilder.toolbar.saveTemplate": "บันทึกเทมเพลต",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID เทมเพลต (ภาษาอังกฤษ)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "ชื่อเทมเพลต"
+    "templateBuilder.toolbar.templateNamePlaceholder": "ชื่อเทมเพลต",
+    "templateBuilder.schemaParams.templateVariables": "ตัวแปรเทมเพลต",
+    "templateBuilder.schemaParams.templateVariablesHint": "ตรวจจับอัตโนมัติจากพารามิเตอร์"
   }
 }

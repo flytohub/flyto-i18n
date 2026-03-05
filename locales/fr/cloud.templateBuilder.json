@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "Retour",
     "templateBuilder.toolbar.saveTemplate": "Enregistrer le modele",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID du modele (anglais)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nom du modele"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nom du modele",
+    "templateBuilder.schemaParams.templateVariables": "Variables du template",
+    "templateBuilder.schemaParams.templateVariablesHint": "Détectées automatiquement depuis les paramètres"
   }
 }

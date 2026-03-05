@@ -47,6 +47,10 @@
     "marketplace.templates": "Mẫu",
     "marketplace.templatesFound": "Tìm thấy {count} mẫu",
     "marketplace.title": "Marketplace",
-    "marketplace.verified": "Đã xác minh"
+    "marketplace.verified": "Đã xác minh",
+    "marketplace.perCall": "Trả theo lượt",
+    "marketplace.perCallBadge": "{credits} credit/lượt",
+    "marketplace.executePerCall": "Chạy",
+    "marketplace.updateListing": "Cập nhật"
   }
 }

@@ -117,6 +117,7 @@
     "common.view": "Lihat",
     "common.viewAll": "Lihat semua",
     "common.viewDetails": "Lihat Detail",
-    "common.yes": "Ya"
+    "common.yes": "Ya",
+    "common.submitting": "Mengirim..."
   }
 }

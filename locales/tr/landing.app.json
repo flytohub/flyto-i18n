@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "Sistem Gereksinimleri",
     "landing.app.requirements.windowsProcessor": "x64 işlemci",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) veya daha yeni"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) veya daha yeni",
+    "landing.app.demo.title": "3,2 saniyede neler oluyor",
+    "landing.app.demo.subtitle": "Hacker News'de gerçek scraping — her adım ölçüldü ve takip edildi",
+    "landing.app.demo.result": "30 öğe çıkarıldı",
+    "landing.app.demo.total": "Toplam: 3,2s | 6/6 başarılı",
+    "landing.app.demo.replay": "Tekrar oynat"
   }
 }

@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "Yêu cầu hệ thống",
     "landing.app.requirements.windowsProcessor": "Bộ xử lý x64",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) hoặc mới hơn"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) hoặc mới hơn",
+    "landing.app.demo.title": "3,2 giây làm được gì",
+    "landing.app.demo.subtitle": "Scraping thực tế trên Hacker News — mỗi bước đều đo thời gian và theo dõi",
+    "landing.app.demo.result": "Trích xuất 30 mục",
+    "landing.app.demo.total": "Tổng: 3,2s | 6/6 hoàn thành",
+    "landing.app.demo.replay": "Phát lại"
   }
 }

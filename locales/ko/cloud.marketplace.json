@@ -47,6 +47,10 @@
     "marketplace.templates": "템플릿",
     "marketplace.templatesFound": "{count}개 템플릿 발견",
     "marketplace.title": "마켓플레이스",
-    "marketplace.verified": "인증됨"
+    "marketplace.verified": "인증됨",
+    "marketplace.perCall": "호출당 과금",
+    "marketplace.perCallBadge": "{credits} 크레딧/회",
+    "marketplace.executePerCall": "실행",
+    "marketplace.updateListing": "업데이트"
   }
 }

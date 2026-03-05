@@ -117,6 +117,7 @@
     "common.view": "View",
     "common.viewAll": "View all",
     "common.viewDetails": "Xem chi tiết",
-    "common.yes": "Có"
+    "common.yes": "Có",
+    "common.submitting": "Đang gửi..."
   }
 }

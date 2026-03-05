@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "Wstecz",
     "templateBuilder.toolbar.saveTemplate": "Zapisz szablon",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID szablonu (angielskie)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nazwa szablonu"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nazwa szablonu",
+    "templateBuilder.schemaParams.templateVariables": "Zmienne szablonu",
+    "templateBuilder.schemaParams.templateVariablesHint": "Wykryte automatycznie z parametrów"
   }
 }

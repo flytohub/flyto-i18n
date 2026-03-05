@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "Không thể kết nối: thiếu nút",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.duplicateNode": "Nhân bản",
+    "workflow.saveAsTemplate": "Lưu thành template",
+    "workflow.saveAsTemplateDesc": "Chia sẻ cấu hình node này dưới dạng template có thể tái sử dụng"
   }
 }

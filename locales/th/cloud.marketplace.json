@@ -47,6 +47,10 @@
     "marketplace.templates": "เทมเพลต",
     "marketplace.templatesFound": "พบ {count} เทมเพลต",
     "marketplace.title": "Marketplace",
-    "marketplace.verified": "ยืนยันแล้ว"
+    "marketplace.verified": "ยืนยันแล้ว",
+    "marketplace.perCall": "จ่ายตามการใช้งาน",
+    "marketplace.perCallBadge": "{credits} เครดิต/ครั้ง",
+    "marketplace.executePerCall": "รัน",
+    "marketplace.updateListing": "อัปเดต"
   }
 }

@@ -58,6 +58,11 @@
     "publish.visibility.private": "निजी",
     "publish.visibility.privateDesc": "केवल आमंत्रण की द्वारा पहुंच योग्य",
     "publish.visibility.public": "सार्वजनिक",
-    "publish.visibility.publicDesc": "मार्केटप्लेस में दृश्यमान, कोई भी खोज और इंस्टॉल कर सकता है"
+    "publish.visibility.publicDesc": "मार्केटप्लेस में दृश्यमान, कोई भी खोज और इंस्टॉल कर सकता है",
+    "publish.errors.invalidCallPrice": "कृपया प्रति कॉल क्रेडिट की सही कीमत सेट करें",
+    "publish.pricing.perCall": "प्रति कॉल भुगतान",
+    "publish.pricing.perCallDesc": "हर बार चलाने पर क्रेडिट चार्ज करें",
+    "publish.pricing.creditsPerCall": "प्रति रन क्रेडिट",
+    "publish.pricing.perCallRevenue": "प्रति रन"
   }
 }

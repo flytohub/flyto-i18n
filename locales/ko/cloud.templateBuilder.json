@@ -237,6 +237,8 @@
     "templateBuilder.toolbar.back": "뒤로",
     "templateBuilder.toolbar.saveTemplate": "템플릿 저장",
     "templateBuilder.toolbar.templateIdPlaceholder": "템플릿 ID (영문)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "템플릿 이름"
+    "templateBuilder.toolbar.templateNamePlaceholder": "템플릿 이름",
+    "templateBuilder.schemaParams.templateVariables": "템플릿 변수",
+    "templateBuilder.schemaParams.templateVariablesHint": "파라미터에서 자동 감지"
   }
 }

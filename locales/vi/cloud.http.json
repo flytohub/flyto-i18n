@@ -38,6 +38,12 @@
     "http.timeout": "Hết giờ (ms)",
     "http.url": "URL",
     "http.value": "Giá trị",
-    "http.verifySsl": "Xác minh SSL"
+    "http.verifySsl": "Xác minh SSL",
+    "http.authType.label": "Loại xác thực",
+    "http.token": "Token",
+    "http.username": "Tên đăng nhập",
+    "http.password": "Mật khẩu",
+    "http.headerName": "Tên header",
+    "http.apiKey": "API Key"
   }
 }

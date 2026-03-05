@@ -117,6 +117,7 @@
     "common.view": "देखें",
     "common.viewAll": "सभी देखें",
     "common.viewDetails": "विवरण देखें",
-    "common.yes": "हां"
+    "common.yes": "हां",
+    "common.submitting": "सबमिट हो रहा है..."
   }
 }

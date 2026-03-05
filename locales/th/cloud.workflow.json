@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "ไม่สามารถเชื่อมต่อ: ขาดโหนด",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.duplicateNode": "ทำซ้ำ",
+    "workflow.saveAsTemplate": "บันทึกเป็นเทมเพลต",
+    "workflow.saveAsTemplateDesc": "แชร์การตั้งค่า node นี้เป็นเทมเพลตที่ใช้ซ้ำได้"
   }
 }

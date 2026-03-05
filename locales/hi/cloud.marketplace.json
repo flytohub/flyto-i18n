@@ -47,6 +47,10 @@
     "marketplace.templates": "टेम्पलेट",
     "marketplace.templatesFound": "{count} टेम्पलेट मिले",
     "marketplace.title": "मार्केटप्लेस",
-    "marketplace.verified": "सत्यापित"
+    "marketplace.verified": "सत्यापित",
+    "marketplace.perCall": "प्रति कॉल भुगतान",
+    "marketplace.perCallBadge": "{credits} क्रेडिट/रन",
+    "marketplace.executePerCall": "चलाएँ",
+    "marketplace.updateListing": "अपडेट करें"
   }
 }

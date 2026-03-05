@@ -58,6 +58,11 @@
     "publish.visibility.private": "Riêng tư",
     "publish.visibility.privateDesc": "Chỉ có thể truy cập qua mã mời",
     "publish.visibility.public": "Công khai",
-    "publish.visibility.publicDesc": "Hiển thị trên marketplace, bất kỳ ai cũng có thể tìm và cài đặt"
+    "publish.visibility.publicDesc": "Hiển thị trên marketplace, bất kỳ ai cũng có thể tìm và cài đặt",
+    "publish.errors.invalidCallPrice": "Vui lòng đặt giá credit hợp lệ cho mỗi lượt chạy",
+    "publish.pricing.perCall": "Trả theo lượt",
+    "publish.pricing.perCallDesc": "Thu credit mỗi lần chạy",
+    "publish.pricing.creditsPerCall": "Credit mỗi lượt",
+    "publish.pricing.perCallRevenue": "Mỗi lượt chạy"
   }
 }

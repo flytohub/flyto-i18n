@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "システム要件",
     "landing.app.requirements.windowsProcessor": "x64プロセッサ",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 以降"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) 以降",
+    "landing.app.demo.title": "3.2秒でできること",
+    "landing.app.demo.subtitle": "Hacker Newsでの実際のスクレイピング — すべてのステップを計測・追跡",
+    "landing.app.demo.result": "30件を抽出",
+    "landing.app.demo.total": "合計: 3.2秒 | 6/6 完了",
+    "landing.app.demo.replay": "リプレイ"
   }
 }

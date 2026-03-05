@@ -38,6 +38,12 @@
     "http.timeout": "टाइमआउट (ms)",
     "http.url": "URL",
     "http.value": "वैल्यू",
-    "http.verifySsl": "SSL सत्यापित करें"
+    "http.verifySsl": "SSL सत्यापित करें",
+    "http.authType.label": "Auth प्रकार",
+    "http.token": "टोकन",
+    "http.username": "यूज़रनेम",
+    "http.password": "पासवर्ड",
+    "http.headerName": "हेडर नाम",
+    "http.apiKey": "API कुंजी"
   }
 }

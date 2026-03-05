@@ -74,6 +74,9 @@
     "workflow.validation.missingNode": "Tidak dapat terhubung: node hilang",
     "workflow.validation.multiOutputRecommended": "Consider using Branch or Switch for multiple outputs",
     "workflow.validation.selfConnection": "Node cannot connect to itself",
-    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}"
+    "workflow.validation.typeMismatch": "{to_module} expects {expected}, but received {received}",
+    "workflow.duplicateNode": "Duplikat",
+    "workflow.saveAsTemplate": "Simpan sebagai Template",
+    "workflow.saveAsTemplateDesc": "Bagikan konfigurasi node ini sebagai template yang bisa dipakai ulang"
   }
 }

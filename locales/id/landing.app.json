@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "Persyaratan Sistem",
     "landing.app.requirements.windowsProcessor": "Prosesor x64",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) atau lebih baru"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) atau lebih baru",
+    "landing.app.demo.title": "Ini yang terjadi dalam 3,2 detik",
+    "landing.app.demo.subtitle": "Scraping nyata di Hacker News — setiap langkah diukur dan dilacak",
+    "landing.app.demo.result": "30 item diekstrak",
+    "landing.app.demo.total": "Total: 3,2d | 6/6 selesai",
+    "landing.app.demo.replay": "Putar Ulang"
   }
 }

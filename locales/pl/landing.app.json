@@ -57,6 +57,11 @@
     "landing.app.requirements.title": "Wymagania systemowe",
     "landing.app.requirements.windowsProcessor": "Procesor x64",
     "landing.app.requirements.windowsTitle": "Windows",
-    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) lub nowszy"
+    "landing.app.requirements.windowsVersion": "Windows 10 (64-bit) lub nowszy",
+    "landing.app.demo.title": "Tyle dzieje się w 3,2 sekundy",
+    "landing.app.demo.subtitle": "Prawdziwy scraping Hacker News — każdy krok zmierzony i śledzony",
+    "landing.app.demo.result": "30 elementów wyodrębniono",
+    "landing.app.demo.total": "Łącznie: 3,2s | 6/6 zaliczonych",
+    "landing.app.demo.replay": "Odtwórz ponownie"
   }
 }

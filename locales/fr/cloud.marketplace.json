@@ -47,6 +47,10 @@
     "marketplace.templates": "Modeles",
     "marketplace.templatesFound": "{count} modeles trouves",
     "marketplace.title": "Place de marche",
-    "marketplace.verified": "Verifie"
+    "marketplace.verified": "Verifie",
+    "marketplace.perCall": "Paiement à l'appel",
+    "marketplace.perCallBadge": "{credits} crédits/appel",
+    "marketplace.executePerCall": "Exécuter",
+    "marketplace.updateListing": "Mettre à jour"
   }
 }
