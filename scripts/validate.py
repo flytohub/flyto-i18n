@@ -79,11 +79,15 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     # - cloud.category.path.to.key (from flyto-cloud UI, allows numeric segments like 24h, 30d)
     # - common.field or schema.field.name
     # Allow alphanumeric with underscores and hyphens, special fields like __event__
-    key_pattern = re.compile(r'^(modules\.[a-z][a-z0-9_-]*\.[a-z][a-z0-9_-]*(\.[a-zA-Z_][a-zA-Z0-9_.-]*)*|cloud\.[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*|common\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*|schema\.[a-z][a-z0-9_-]*(\.[a-z][a-z0-9_-]*)*)$')
+    # Key format: dotted segments like "category.subcategory.field"
+    # Each segment: starts with letter/digit, followed by alphanumeric/underscore/hyphen
+    # After ".options." allow free-form text (module option values used as keys)
+    key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)+$')
+    options_key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*\.options\..+$')
 
     for key, value in translations.items():
-        # Check key format
-        if not key_pattern.match(key):
+        # Check key format (options keys allow free-form text after .options.)
+        if not key_pattern.match(key) and not options_key_pattern.match(key):
             errors.append({
                 'file': str(file_path),
                 'type': 'invalid_key',
@@ -123,8 +127,8 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     # Cloud keys come from flyto-cloud which may have different content per locale
     if data.get('locale') != 'en' and base_keys:
         for key in translations.keys():
-            # Skip check for cloud.* keys (UI translations may differ by locale)
-            if key.startswith('cloud.'):
+            # Skip check for cloud.*/landing.* keys (UI translations may differ by locale)
+            if key.startswith('cloud.') or key.startswith('landing.'):
                 continue
             if key not in base_keys:
                 errors.append({
