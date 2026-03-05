@@ -31,6 +31,14 @@
     "packages.desc.playwright": "Browser automation framework",
     "packages.desc.chromium": "Headless browser for web automation",
     "packages.desc.pyngrok": "Public URL tunnel for webhook callbacks",
-    "packages.desc.proModules": "Premium workflow modules (commercial)"
+    "packages.desc.proModules": "Premium workflow modules (commercial)",
+    "packages.installSuccess": "{name} installed successfully",
+    "packages.installFailed": "Failed to install {name}",
+    "packages.updateSuccess": "{name} updated successfully",
+    "packages.updateFailed": "Failed to update {name}",
+    "packages.removeSuccess": "{name} removed successfully",
+    "packages.removeFailed": "Failed to remove {name}",
+    "packages.updateAllSuccess": "{count} packages updated successfully",
+    "packages.updateAllPartial": "{succeeded} updated, {failed} failed"
   }
 }

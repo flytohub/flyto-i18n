@@ -31,6 +31,14 @@
     "packages.desc.playwright": "瀏覽器自動化框架",
     "packages.desc.chromium": "無頭瀏覽器，用於網頁自動化",
     "packages.desc.pyngrok": "公開 URL 通道，用於 Webhook 回呼",
-    "packages.desc.proModules": "進階工作流程模組（商業版）"
+    "packages.desc.proModules": "進階工作流程模組（商業版）",
+    "packages.installSuccess": "{name} 安裝成功",
+    "packages.installFailed": "{name} 安裝失敗",
+    "packages.updateSuccess": "{name} 更新成功",
+    "packages.updateFailed": "{name} 更新失敗",
+    "packages.removeSuccess": "{name} 已移除",
+    "packages.removeFailed": "{name} 移除失敗",
+    "packages.updateAllSuccess": "已成功更新 {count} 個套件",
+    "packages.updateAllPartial": "{succeeded} 個更新成功，{failed} 個失敗"
   }
 }
