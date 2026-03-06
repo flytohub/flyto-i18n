@@ -76,17 +76,29 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
             # Try to find corresponding value
             value = key.split('.')[-1].replace('_', ' ').title()  # Default
 
-            # Look for actual value near this key
-            start = max(0, match.start() - 500)
+            # Look for actual value near this key — find the CLOSEST match
+            # to avoid shifted labels when multiple fields are within the window.
+            key_pos = match.start()
+            start = max(0, key_pos - 500)
             end = min(len(content), match.end() + 500)
             context = content[start:end]
 
+            best_value = None
+            best_distance = float('inf')
+
             for val_pattern, val_type in value_patterns:
                 if val_type == field_type:
-                    val_match = re.search(val_pattern, context)
-                    if val_match:
-                        value = val_match.group(1)
-                        break
+                    for val_match in re.finditer(val_pattern, context):
+                        # Calculate distance from value match to key match
+                        # val_match positions are relative to context start
+                        val_abs_pos = start + val_match.start()
+                        distance = abs(val_abs_pos - key_pos)
+                        if distance < best_distance:
+                            best_distance = distance
+                            best_value = val_match.group(1)
+
+            if best_value is not None:
+                value = best_value
 
             keys.append({
                 'key': key,
