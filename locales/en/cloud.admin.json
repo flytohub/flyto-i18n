@@ -847,6 +847,7 @@
     "admin.telemetry.insights.analysisFailed": "Analysis failed: {error}",
     "admin.telemetry.insights.analysisInProgress": "Analysis in progress...",
     "admin.telemetry.insights.analyzing": "Analyzing...",
+    "admin.telemetry.insights.anthropicApiKey": "Anthropic API Key",
     "admin.telemetry.insights.anomalyDetection": "Anomaly Detection",
     "admin.telemetry.insights.anomaliesDetected": "Anomalies Detected",
     "admin.telemetry.insights.autoRootCause": "Auto Root Cause Analysis",
