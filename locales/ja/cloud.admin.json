@@ -849,6 +849,7 @@
     "admin.telemetry.insights.analyzing": "",
     "admin.telemetry.insights.anomaliesDetected": "",
     "admin.telemetry.insights.anomalyDetection": "",
+    "admin.telemetry.insights.anthropicApiKey": "",
     "admin.telemetry.insights.autoRootCause": "",
     "admin.telemetry.insights.dailyDigest": "",
     "admin.telemetry.insights.discordWebhookUrl": "",
