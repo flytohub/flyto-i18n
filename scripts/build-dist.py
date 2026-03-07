@@ -29,6 +29,7 @@ DIST_DIR = PROJECT_ROOT / 'dist'
 SCOPES = {
     'cloud': ['cloud.', 'modules.', 'common.'],
     'landing': ['landing.', 'common.'],
+    'app': ['app.', 'cloud.template.', 'common.'],
 }
 
 # Language metadata - add new languages here when adding locales
