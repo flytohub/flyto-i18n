@@ -71,7 +71,7 @@
     "app.pinnedToQuickActions": "An Schnellaktionen angeheftet",
     "app.removeFromLibrary": "Aus Bibliothek entfernen",
     "app.removeTemplate": "Vorlage entfernen",
-    "app.removeTemplateConfirm": "„{name}" aus Ihrer Bibliothek entfernen?",
+    "app.removeTemplateConfirm": "\u201E{name}\u201C aus Ihrer Bibliothek entfernen?",
     "app.remove": "Entfernen",
     "app.failedToRemove": "Entfernen fehlgeschlagen",
     "app.biometricLock": "Biometrische Sperre",

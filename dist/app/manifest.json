@@ -1,22 +1,22 @@
 {
-  "version": "20260308115811",
-  "generated_at": "2026-03-08T11:58:11.632404",
+  "version": "20260309002348",
+  "generated_at": "2026-03-09T00:23:48.542669",
   "locales": {
     "de": {
       "name": "German",
       "native": "Deutsch",
       "region": "DE",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "en": {
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 724,
-      "translated_keys": 724,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
       "files_merged": 3
     },
@@ -24,116 +24,116 @@
       "name": "Spanish",
       "native": "Español",
       "region": "ES",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "fr": {
       "name": "French",
       "native": "Français",
       "region": "FR",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "hi": {
       "name": "Hindi",
       "native": "हिन्दी",
       "region": "IN",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "id": {
       "name": "Indonesian",
       "native": "Bahasa Indonesia",
       "region": "ID",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "it": {
       "name": "Italian",
       "native": "Italiano",
       "region": "IT",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "ja": {
       "name": "Japanese",
       "native": "日本語",
       "region": "JP",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "ko": {
       "name": "Korean",
       "native": "한국어",
       "region": "KR",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "pl": {
       "name": "Polish",
       "native": "Polski",
       "region": "PL",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "pt-BR": {
       "name": "Portuguese (Brazil)",
       "native": "Português (Brasil)",
       "region": "BR",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "th": {
       "name": "Thai",
       "native": "ไทย",
       "region": "TH",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "tr": {
       "name": "Turkish",
       "native": "Türkçe",
       "region": "TR",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "vi": {
       "name": "Vietnamese",
       "native": "Tiếng Việt",
       "region": "VN",
-      "total_keys": 527,
-      "translated_keys": 527,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
-      "files_merged": 2
+      "files_merged": 3
     },
     "zh-TW": {
       "name": "Traditional Chinese",
       "native": "繁體中文",
       "region": "TW",
-      "total_keys": 724,
-      "translated_keys": 724,
+      "total_keys": 738,
+      "translated_keys": 738,
       "completion": 100.0,
       "files_merged": 3
     }
