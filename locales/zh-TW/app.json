@@ -162,6 +162,22 @@
     "app.recentActivity": "近期活動",
     "app.connectingToBrowser": "正在連接瀏覽器...",
     "app.failedToConnect": "連線失敗",
+    "app.deviceUnreachable": "無法連線至裝置（不在同一區域網路）",
+    "app.checkingDevice": "正在檢查裝置...",
+    "app.reconnecting": "重新連線中",
+    "app.connectionTimeout": "連線逾時",
+    "app.connectionLost": "連線中斷",
+    "app.waitingForFrames": "等待畫面資料...",
+    "app.deviceNotResponding": "裝置無回應",
+    "app.deviceWentOffline": "裝置已離線",
+    "app.remoteViewWaiting": "等待遠端截圖...",
+    "app.remoteView": "遠端檢視（透過雲端）",
+    "app.remoteWake": "遠端喚醒",
+    "app.remoteWakeDesc": "允許從此 App 喚醒桌面裝置",
+    "app.wakeDevice": "喚醒裝置",
+    "app.wakeSent": "已發送喚醒指令",
+    "app.wakeFailed": "喚醒指令發送失敗",
+    "app.deviceTrulyOffline": "裝置已離線，請手動啟動 Flyto 桌面版",
     "app.live": "即時",
     "app.topupFailed": "儲值失敗",
     "app.installFailed": "安裝失敗",
@@ -180,6 +196,7 @@
     "app.issuesDetected": "偵測到 {count} 個問題",
     "app.successRate": "成功率",
     "app.recentTemplates": "最近執行",
-    "app.noRecentTemplates": "執行模板後會顯示在這裡"
+    "app.noRecentTemplates": "執行模板後會顯示在這裡",
+    "app.retry": "重試"
   }
 }

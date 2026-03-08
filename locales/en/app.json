@@ -162,6 +162,22 @@
     "app.recentActivity": "Recent Activity",
     "app.connectingToBrowser": "Connecting to browser...",
     "app.failedToConnect": "Failed to connect",
+    "app.deviceUnreachable": "Device unreachable on local network",
+    "app.checkingDevice": "Checking device...",
+    "app.reconnecting": "Reconnecting",
+    "app.connectionTimeout": "Connection timed out",
+    "app.connectionLost": "Connection lost",
+    "app.waitingForFrames": "Waiting for screen data...",
+    "app.deviceNotResponding": "Device not responding",
+    "app.deviceWentOffline": "Device went offline",
+    "app.remoteViewWaiting": "Waiting for remote screenshot...",
+    "app.remoteView": "Remote View (via Cloud)",
+    "app.remoteWake": "Remote Wake",
+    "app.remoteWakeDesc": "Allow waking desktop device from this app",
+    "app.wakeDevice": "Wake Device",
+    "app.wakeSent": "Wake command sent to device",
+    "app.wakeFailed": "Failed to send wake command",
+    "app.deviceTrulyOffline": "Device is offline. Please start Flyto Desktop manually.",
     "app.live": "Live",
     "app.topupFailed": "Topup failed",
     "app.installFailed": "Install failed",
@@ -180,6 +196,7 @@
     "app.issuesDetected": "{count} issues detected",
     "app.successRate": "Success Rate",
     "app.recentTemplates": "Recent Templates",
-    "app.noRecentTemplates": "Run a template to see it here"
+    "app.noRecentTemplates": "Run a template to see it here",
+    "app.retry": "Retry"
   }
 }
