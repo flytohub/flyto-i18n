@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "販売",
     "dashboardPage.subtitle": "今日は何をしますか？",
     "dashboardPage.welcome": "おかえりなさい、{name}さん！",
-    "dashboardPage.welcomeDefault": "おかえりなさい！"
+    "dashboardPage.welcomeDefault": "おかえりなさい！",
+    "dashboardPage.devices.title": "デバイス",
+    "dashboardPage.devices.allOffline": "すべてオフライン",
+    "dashboardPage.devices.noDevices": "登録されたデバイスはありません",
+    "dashboardPage.devices.noDevicesHint": "デスクトップアプリを開くとデバイスが自動登録されます",
+    "dashboardPage.devices.recentJobs": "最近の実行",
+    "dashboardPage.devices.noJobs": "実行履歴はまだありません"
   }
 }

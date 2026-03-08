@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "twoja_nazwa_uzytkownika",
     "userSettings.verified": "Zweryfikowany",
     "userSettings.viewPublicProfile": "Zobacz publiczny profil",
-    "userSettings.yourApiKey": "Twoj klucz API"
+    "userSettings.yourApiKey": "Twoj klucz API",
+    "userSettings.devices": "Urzadzenia",
+    "userSettings.myDevices": "Moje urzadzenia",
+    "userSettings.noDevices": "Brak zarejestrowanych urzadzen",
+    "userSettings.noDevicesHint": "Otworz aplikacje desktopowa, aby automatycznie zarejestrowac swoje urzadzenie",
+    "userSettings.remoteWake": "Zdalne budzenie",
+    "userSettings.remoteWakeHint": "Gdy zdalne budzenie jest wlaczone, mozesz uruchomic to urzadzenie zdalnie z aplikacji mobilnej, nawet gdy aplikacja desktopowa jest zamknieta.",
+    "userSettings.remoteWakeOn": "Zdalne budzenie wlaczone",
+    "userSettings.remoteWakeOff": "Zdalne budzenie wylaczone",
+    "userSettings.remoteWakeFailed": "Nie udalo sie zaktualizowac zdalnego budzenia",
+    "userSettings.aiAssistant": "Asystent AI"
   }
 }

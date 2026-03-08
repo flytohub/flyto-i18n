@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "請輸入您的使用者名稱",
     "userSettings.verified": "已驗證",
     "userSettings.viewPublicProfile": "查看公開檔案",
-    "userSettings.yourApiKey": "您的 API 金鑰"
+    "userSettings.yourApiKey": "您的 API 金鑰",
+    "userSettings.devices": "裝置",
+    "userSettings.myDevices": "我的裝置",
+    "userSettings.noDevices": "尚無已註冊的裝置",
+    "userSettings.noDevicesHint": "開啟桌面應用程式即可自動註冊裝置",
+    "userSettings.remoteWake": "遠端喚醒",
+    "userSettings.remoteWakeHint": "啟用遠端喚醒後，即使桌面應用程式已關閉，也能從手機 App 遠端啟動此裝置。",
+    "userSettings.remoteWakeOn": "遠端喚醒已啟用",
+    "userSettings.remoteWakeOff": "遠端喚醒已停用",
+    "userSettings.remoteWakeFailed": "更新遠端喚醒失敗",
+    "userSettings.aiAssistant": "AI 助理"
   }
 }

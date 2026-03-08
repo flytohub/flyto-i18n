@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "username_anda",
     "userSettings.verified": "Terverifikasi",
     "userSettings.viewPublicProfile": "Lihat Profil Publik",
-    "userSettings.yourApiKey": "API Key Anda"
+    "userSettings.yourApiKey": "API Key Anda",
+    "userSettings.devices": "Perangkat",
+    "userSettings.myDevices": "Perangkat Saya",
+    "userSettings.noDevices": "Tidak ada perangkat terdaftar",
+    "userSettings.noDevicesHint": "Buka aplikasi desktop untuk mendaftarkan perangkat Anda secara otomatis",
+    "userSettings.remoteWake": "Bangun Jarak Jauh",
+    "userSettings.remoteWakeHint": "Saat Bangun Jarak Jauh diaktifkan, Anda dapat menghidupkan perangkat ini dari jarak jauh melalui aplikasi seluler meskipun aplikasi desktop ditutup.",
+    "userSettings.remoteWakeOn": "Bangun Jarak Jauh diaktifkan",
+    "userSettings.remoteWakeOff": "Bangun Jarak Jauh dinonaktifkan",
+    "userSettings.remoteWakeFailed": "Gagal memperbarui Bangun Jarak Jauh",
+    "userSettings.aiAssistant": "Asisten AI"
   }
 }

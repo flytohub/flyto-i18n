@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "ihr_benutzername",
     "userSettings.verified": "Verifiziert",
     "userSettings.viewPublicProfile": "Öffentliches Profil anzeigen",
-    "userSettings.yourApiKey": "Ihr API-Schlüssel"
+    "userSettings.yourApiKey": "Ihr API-Schlüssel",
+    "userSettings.devices": "Geräte",
+    "userSettings.myDevices": "Meine Geräte",
+    "userSettings.noDevices": "Keine Geräte registriert",
+    "userSettings.noDevicesHint": "Öffnen Sie die Desktop-App, um Ihr Gerät automatisch zu registrieren",
+    "userSettings.remoteWake": "Remote-Aufwecken",
+    "userSettings.remoteWakeHint": "Wenn Remote-Aufwecken aktiviert ist, können Sie dieses Gerät über die mobile App aus der Ferne starten, auch wenn die Desktop-App geschlossen ist.",
+    "userSettings.remoteWakeOn": "Remote-Aufwecken aktiviert",
+    "userSettings.remoteWakeOff": "Remote-Aufwecken deaktiviert",
+    "userSettings.remoteWakeFailed": "Remote-Aufwecken konnte nicht aktualisiert werden",
+    "userSettings.aiAssistant": "KI-Assistent"
   }
 }

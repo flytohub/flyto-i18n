@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "tu_nombre_usuario",
     "userSettings.verified": "Verificado",
     "userSettings.viewPublicProfile": "Ver perfil publico",
-    "userSettings.yourApiKey": "Tu clave API"
+    "userSettings.yourApiKey": "Tu clave API",
+    "userSettings.devices": "Dispositivos",
+    "userSettings.myDevices": "Mis dispositivos",
+    "userSettings.noDevices": "No hay dispositivos registrados",
+    "userSettings.noDevicesHint": "Abre la aplicacion de escritorio para registrar tu dispositivo automaticamente",
+    "userSettings.remoteWake": "Activacion remota",
+    "userSettings.remoteWakeHint": "Cuando la activacion remota esta habilitada, puedes iniciar este dispositivo de forma remota desde la aplicacion movil incluso cuando la aplicacion de escritorio esta cerrada.",
+    "userSettings.remoteWakeOn": "Activacion remota habilitada",
+    "userSettings.remoteWakeOff": "Activacion remota deshabilitada",
+    "userSettings.remoteWakeFailed": "Error al actualizar la activacion remota",
+    "userSettings.aiAssistant": "Asistente de IA"
   }
 }

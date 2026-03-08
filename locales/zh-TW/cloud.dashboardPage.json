@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "銷售",
     "dashboardPage.subtitle": "今天想做什麼？",
     "dashboardPage.welcome": "歡迎回來，{name}！",
-    "dashboardPage.welcomeDefault": "歡迎回來！"
+    "dashboardPage.welcomeDefault": "歡迎回來！",
+    "dashboardPage.devices.title": "裝置",
+    "dashboardPage.devices.allOffline": "全部離線",
+    "dashboardPage.devices.noDevices": "尚無已註冊的裝置",
+    "dashboardPage.devices.noDevicesHint": "開啟桌面應用程式即可自動註冊裝置",
+    "dashboardPage.devices.recentJobs": "最近執行",
+    "dashboardPage.devices.noJobs": "尚無執行記錄"
   }
 }

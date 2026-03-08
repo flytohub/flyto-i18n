@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "Sprzedaz",
     "dashboardPage.subtitle": "Co chcialbys dzisiaj zrobic?",
     "dashboardPage.welcome": "Witaj ponownie, {name}!",
-    "dashboardPage.welcomeDefault": "Witaj ponownie!"
+    "dashboardPage.welcomeDefault": "Witaj ponownie!",
+    "dashboardPage.devices.title": "Urzadzenia",
+    "dashboardPage.devices.allOffline": "Wszystkie offline",
+    "dashboardPage.devices.noDevices": "Brak zarejestrowanych urzadzen",
+    "dashboardPage.devices.noDevicesHint": "Otworz aplikacje desktopowa, aby automatycznie zarejestrowac swoje urzadzenie",
+    "dashboardPage.devices.recentJobs": "Ostatnie zadania",
+    "dashboardPage.devices.noJobs": "Brak zadan wykonania"
   }
 }

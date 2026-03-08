@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "tuo_nome_utente",
     "userSettings.verified": "Verificato",
     "userSettings.viewPublicProfile": "Visualizza Profilo Pubblico",
-    "userSettings.yourApiKey": "La Tua Chiave API"
+    "userSettings.yourApiKey": "La Tua Chiave API",
+    "userSettings.devices": "Dispositivi",
+    "userSettings.myDevices": "I Miei Dispositivi",
+    "userSettings.noDevices": "Nessun dispositivo registrato",
+    "userSettings.noDevicesHint": "Apri l'app desktop per registrare automaticamente il tuo dispositivo",
+    "userSettings.remoteWake": "Riattivazione Remota",
+    "userSettings.remoteWakeHint": "Quando la Riattivazione Remota e attiva, puoi avviare questo dispositivo da remoto dall'app mobile anche quando l'app desktop e chiusa.",
+    "userSettings.remoteWakeOn": "Riattivazione Remota attivata",
+    "userSettings.remoteWakeOff": "Riattivazione Remota disattivata",
+    "userSettings.remoteWakeFailed": "Impossibile aggiornare la Riattivazione Remota",
+    "userSettings.aiAssistant": "Assistente AI"
   }
 }

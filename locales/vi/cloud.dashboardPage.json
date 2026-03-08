@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "Bán hàng",
     "dashboardPage.subtitle": "Hôm nay bạn muốn làm gì?",
     "dashboardPage.welcome": "Chào mừng trở lại, {name}!",
-    "dashboardPage.welcomeDefault": "Chào mừng trở lại!"
+    "dashboardPage.welcomeDefault": "Chào mừng trở lại!",
+    "dashboardPage.devices.title": "Thiết bị",
+    "dashboardPage.devices.allOffline": "Tất cả ngoại tuyến",
+    "dashboardPage.devices.noDevices": "Chưa có thiết bị nào được đăng ký",
+    "dashboardPage.devices.noDevicesHint": "Mở ứng dụng máy tính để tự động đăng ký thiết bị của bạn",
+    "dashboardPage.devices.recentJobs": "Công việc gần đây",
+    "dashboardPage.devices.noJobs": "Chưa có công việc thực thi nào"
   }
 }

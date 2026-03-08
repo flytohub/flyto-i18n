@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "Satışlar",
     "dashboardPage.subtitle": "Bugün ne yapmak istersiniz?",
     "dashboardPage.welcome": "Tekrar hoş geldin, {name}!",
-    "dashboardPage.welcomeDefault": "Tekrar hoş geldiniz!"
+    "dashboardPage.welcomeDefault": "Tekrar hoş geldiniz!",
+    "dashboardPage.devices.title": "Cihazlar",
+    "dashboardPage.devices.allOffline": "Tümü çevrimdışı",
+    "dashboardPage.devices.noDevices": "Kayıtlı cihaz yok",
+    "dashboardPage.devices.noDevicesHint": "Cihazınızı otomatik olarak kaydetmek için masaüstü uygulamasını açın",
+    "dashboardPage.devices.recentJobs": "Son İşler",
+    "dashboardPage.devices.noJobs": "Henüz yürütme işi yok"
   }
 }

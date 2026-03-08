@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "बिक्री",
     "dashboardPage.subtitle": "आज आप क्या करना चाहेंगे?",
     "dashboardPage.welcome": "वापस स्वागत है, {name}!",
-    "dashboardPage.welcomeDefault": "वापस स्वागत है!"
+    "dashboardPage.welcomeDefault": "वापस स्वागत है!",
+    "dashboardPage.devices.title": "डिवाइस",
+    "dashboardPage.devices.allOffline": "सभी ऑफलाइन",
+    "dashboardPage.devices.noDevices": "कोई डिवाइस पंजीकृत नहीं",
+    "dashboardPage.devices.noDevicesHint": "अपने डिवाइस को स्वचालित रूप से पंजीकृत करने के लिए डेस्कटॉप ऐप खोलें",
+    "dashboardPage.devices.recentJobs": "हालिया कार्य",
+    "dashboardPage.devices.noJobs": "अभी तक कोई निष्पादन कार्य नहीं"
   }
 }

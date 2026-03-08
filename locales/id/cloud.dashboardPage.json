@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "Penjualan",
     "dashboardPage.subtitle": "Apa yang ingin Anda lakukan hari ini?",
     "dashboardPage.welcome": "Selamat datang kembali, {name}!",
-    "dashboardPage.welcomeDefault": "Selamat datang kembali!"
+    "dashboardPage.welcomeDefault": "Selamat datang kembali!",
+    "dashboardPage.devices.title": "Perangkat",
+    "dashboardPage.devices.allOffline": "Semua offline",
+    "dashboardPage.devices.noDevices": "Tidak ada perangkat terdaftar",
+    "dashboardPage.devices.noDevicesHint": "Buka aplikasi desktop untuk mendaftarkan perangkat Anda secara otomatis",
+    "dashboardPage.devices.recentJobs": "Pekerjaan Terbaru",
+    "dashboardPage.devices.noJobs": "Belum ada pekerjaan eksekusi"
   }
 }

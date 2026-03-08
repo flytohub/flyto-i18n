@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "Ventas",
     "dashboardPage.subtitle": "¿Qué le gustaría hacer hoy?",
     "dashboardPage.welcome": "¡Bienvenido de nuevo, {name}!",
-    "dashboardPage.welcomeDefault": "¡Bienvenido de nuevo!"
+    "dashboardPage.welcomeDefault": "¡Bienvenido de nuevo!",
+    "dashboardPage.devices.title": "Dispositivos",
+    "dashboardPage.devices.allOffline": "Todos sin conexión",
+    "dashboardPage.devices.noDevices": "No hay dispositivos registrados",
+    "dashboardPage.devices.noDevicesHint": "Abra la aplicación de escritorio para registrar su dispositivo automáticamente",
+    "dashboardPage.devices.recentJobs": "Trabajos recientes",
+    "dashboardPage.devices.noJobs": "Aún no hay trabajos de ejecución"
   }
 }

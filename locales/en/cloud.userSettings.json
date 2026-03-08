@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "your_username",
     "userSettings.verified": "Verified",
     "userSettings.viewPublicProfile": "View Public Profile",
-    "userSettings.yourApiKey": "Your API Key"
+    "userSettings.yourApiKey": "Your API Key",
+    "userSettings.devices": "Devices",
+    "userSettings.myDevices": "My Devices",
+    "userSettings.noDevices": "No devices registered",
+    "userSettings.noDevicesHint": "Open the desktop app to auto-register your device",
+    "userSettings.remoteWake": "Remote Wake",
+    "userSettings.remoteWakeHint": "When Remote Wake is enabled, you can start this device remotely from the mobile app even when the desktop app is closed.",
+    "userSettings.remoteWakeOn": "Remote Wake enabled",
+    "userSettings.remoteWakeOff": "Remote Wake disabled",
+    "userSettings.remoteWakeFailed": "Failed to update Remote Wake",
+    "userSettings.aiAssistant": "AI Assistant"
   }
 }

@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "ยอดขาย",
     "dashboardPage.subtitle": "วันนี้คุณต้องการทำอะไร?",
     "dashboardPage.welcome": "ยินดีต้อนรับกลับ, {name}!",
-    "dashboardPage.welcomeDefault": "ยินดีต้อนรับกลับ!"
+    "dashboardPage.welcomeDefault": "ยินดีต้อนรับกลับ!",
+    "dashboardPage.devices.title": "อุปกรณ์",
+    "dashboardPage.devices.allOffline": "ออฟไลน์ทั้งหมด",
+    "dashboardPage.devices.noDevices": "ไม่มีอุปกรณ์ที่ลงทะเบียน",
+    "dashboardPage.devices.noDevicesHint": "เปิดแอปเดสก์ท็อปเพื่อลงทะเบียนอุปกรณ์ของคุณอัตโนมัติ",
+    "dashboardPage.devices.recentJobs": "งานล่าสุด",
+    "dashboardPage.devices.noJobs": "ยังไม่มีงานที่ดำเนินการ"
   }
 }

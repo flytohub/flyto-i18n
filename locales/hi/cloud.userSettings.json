@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "आपका_उपयोगकर्ता_नाम",
     "userSettings.verified": "सत्यापित",
     "userSettings.viewPublicProfile": "सार्वजनिक प्रोफ़ाइल देखें",
-    "userSettings.yourApiKey": "आपकी API कुंजी"
+    "userSettings.yourApiKey": "आपकी API कुंजी",
+    "userSettings.devices": "डिवाइस",
+    "userSettings.myDevices": "मेरे डिवाइस",
+    "userSettings.noDevices": "कोई डिवाइस पंजीकृत नहीं",
+    "userSettings.noDevicesHint": "अपने डिवाइस को स्वचालित रूप से पंजीकृत करने के लिए डेस्कटॉप ऐप खोलें",
+    "userSettings.remoteWake": "रिमोट वेक",
+    "userSettings.remoteWakeHint": "जब रिमोट वेक सक्षम होता है, तो आप डेस्कटॉप ऐप बंद होने पर भी मोबाइल ऐप से इस डिवाइस को दूरस्थ रूप से शुरू कर सकते हैं।",
+    "userSettings.remoteWakeOn": "रिमोट वेक सक्षम",
+    "userSettings.remoteWakeOff": "रिमोट वेक अक्षम",
+    "userSettings.remoteWakeFailed": "रिमोट वेक अपडेट करने में विफल",
+    "userSettings.aiAssistant": "AI सहायक"
   }
 }

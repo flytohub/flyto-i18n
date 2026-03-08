@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "ชื่อผู้ใช้ของคุณ",
     "userSettings.verified": "ยืนยันแล้ว",
     "userSettings.viewPublicProfile": "ดูโปรไฟล์สาธารณะ",
-    "userSettings.yourApiKey": "API Key ของคุณ"
+    "userSettings.yourApiKey": "API Key ของคุณ",
+    "userSettings.devices": "อุปกรณ์",
+    "userSettings.myDevices": "อุปกรณ์ของฉัน",
+    "userSettings.noDevices": "ไม่มีอุปกรณ์ที่ลงทะเบียน",
+    "userSettings.noDevicesHint": "เปิดแอปเดสก์ท็อปเพื่อลงทะเบียนอุปกรณ์ของคุณโดยอัตโนมัติ",
+    "userSettings.remoteWake": "ปลุกระยะไกล",
+    "userSettings.remoteWakeHint": "เมื่อเปิดใช้งานปลุกระยะไกล คุณสามารถเริ่มอุปกรณ์นี้จากระยะไกลผ่านแอปมือถือได้แม้ว่าแอปเดสก์ท็อปจะปิดอยู่",
+    "userSettings.remoteWakeOn": "เปิดใช้งานปลุกระยะไกลแล้ว",
+    "userSettings.remoteWakeOff": "ปิดใช้งานปลุกระยะไกลแล้ว",
+    "userSettings.remoteWakeFailed": "ไม่สามารถอัปเดตปลุกระยะไกลได้",
+    "userSettings.aiAssistant": "ผู้ช่วย AI"
   }
 }

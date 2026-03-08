@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "kullanici_adiniz",
     "userSettings.verified": "Doğrulandı",
     "userSettings.viewPublicProfile": "Herkese Açık Profili Görüntüle",
-    "userSettings.yourApiKey": "API Anahtarınız"
+    "userSettings.yourApiKey": "API Anahtarınız",
+    "userSettings.devices": "Cihazlar",
+    "userSettings.myDevices": "Cihazlarım",
+    "userSettings.noDevices": "Kayıtlı cihaz yok",
+    "userSettings.noDevicesHint": "Cihazınızı otomatik olarak kaydetmek için masaüstü uygulamasını açın",
+    "userSettings.remoteWake": "Uzaktan Uyandırma",
+    "userSettings.remoteWakeHint": "Uzaktan Uyandırma etkinleştirildiğinde, masaüstü uygulaması kapalı olsa bile bu cihazı mobil uygulamadan uzaktan başlatabilirsiniz.",
+    "userSettings.remoteWakeOn": "Uzaktan Uyandırma etkin",
+    "userSettings.remoteWakeOff": "Uzaktan Uyandırma devre dışı",
+    "userSettings.remoteWakeFailed": "Uzaktan Uyandırma güncellenemedi",
+    "userSettings.aiAssistant": "Yapay Zeka Asistanı"
   }
 }

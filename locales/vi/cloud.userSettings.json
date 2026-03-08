@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "ten_nguoi_dung",
     "userSettings.verified": "Đã xác minh",
     "userSettings.viewPublicProfile": "Xem hồ sơ công khai",
-    "userSettings.yourApiKey": "API Key của bạn"
+    "userSettings.yourApiKey": "API Key của bạn",
+    "userSettings.devices": "Thiết bị",
+    "userSettings.myDevices": "Thiết bị của tôi",
+    "userSettings.noDevices": "Không có thiết bị nào được đăng ký",
+    "userSettings.noDevicesHint": "Mở ứng dụng máy tính để tự động đăng ký thiết bị của bạn",
+    "userSettings.remoteWake": "Đánh thức từ xa",
+    "userSettings.remoteWakeHint": "Khi Đánh thức từ xa được bật, bạn có thể khởi động thiết bị này từ xa qua ứng dụng di động ngay cả khi ứng dụng máy tính đã đóng.",
+    "userSettings.remoteWakeOn": "Đánh thức từ xa đã bật",
+    "userSettings.remoteWakeOff": "Đánh thức từ xa đã tắt",
+    "userSettings.remoteWakeFailed": "Không thể cập nhật Đánh thức từ xa",
+    "userSettings.aiAssistant": "Trợ lý AI"
   }
 }

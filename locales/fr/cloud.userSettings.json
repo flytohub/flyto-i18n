@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "votre_nom_utilisateur",
     "userSettings.verified": "Verifie",
     "userSettings.viewPublicProfile": "Voir le profil public",
-    "userSettings.yourApiKey": "Votre cle API"
+    "userSettings.yourApiKey": "Votre cle API",
+    "userSettings.devices": "Appareils",
+    "userSettings.myDevices": "Mes appareils",
+    "userSettings.noDevices": "Aucun appareil enregistre",
+    "userSettings.noDevicesHint": "Ouvrez l'application de bureau pour enregistrer automatiquement votre appareil",
+    "userSettings.remoteWake": "Reveil a distance",
+    "userSettings.remoteWakeHint": "Lorsque le reveil a distance est active, vous pouvez demarrer cet appareil a distance depuis l'application mobile meme lorsque l'application de bureau est fermee.",
+    "userSettings.remoteWakeOn": "Reveil a distance active",
+    "userSettings.remoteWakeOff": "Reveil a distance desactive",
+    "userSettings.remoteWakeFailed": "Echec de la mise a jour du reveil a distance",
+    "userSettings.aiAssistant": "Assistant IA"
   }
 }

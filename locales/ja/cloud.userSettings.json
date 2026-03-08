@@ -110,6 +110,16 @@
     "userSettings.usernamePlaceholder": "あなたのユーザー名",
     "userSettings.verified": "認証済み",
     "userSettings.viewPublicProfile": "公開プロフィールを表示",
-    "userSettings.yourApiKey": "あなたのAPIキー"
+    "userSettings.yourApiKey": "あなたのAPIキー",
+    "userSettings.devices": "デバイス",
+    "userSettings.myDevices": "マイデバイス",
+    "userSettings.noDevices": "登録されたデバイスはありません",
+    "userSettings.noDevicesHint": "デスクトップアプリを開いてデバイスを自動登録してください",
+    "userSettings.remoteWake": "リモートウェイク",
+    "userSettings.remoteWakeHint": "リモートウェイクを有効にすると、デスクトップアプリが閉じていても、モバイルアプリからこのデバイスをリモートで起動できます。",
+    "userSettings.remoteWakeOn": "リモートウェイクが有効",
+    "userSettings.remoteWakeOff": "リモートウェイクが無効",
+    "userSettings.remoteWakeFailed": "リモートウェイクの更新に失敗しました",
+    "userSettings.aiAssistant": "AIアシスタント"
   }
 }

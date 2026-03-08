@@ -44,6 +44,12 @@
     "dashboardPage.stats.sales": "판매",
     "dashboardPage.subtitle": "오늘 무엇을 하시겠습니까?",
     "dashboardPage.welcome": "돌아오신 것을 환영합니다, {name}님!",
-    "dashboardPage.welcomeDefault": "돌아오신 것을 환영합니다!"
+    "dashboardPage.welcomeDefault": "돌아오신 것을 환영합니다!",
+    "dashboardPage.devices.title": "기기",
+    "dashboardPage.devices.allOffline": "모두 오프라인",
+    "dashboardPage.devices.noDevices": "등록된 기기가 없습니다",
+    "dashboardPage.devices.noDevicesHint": "데스크톱 앱을 열면 기기가 자동으로 등록됩니다",
+    "dashboardPage.devices.recentJobs": "최근 실행",
+    "dashboardPage.devices.noJobs": "아직 실행 기록이 없습니다"
   }
 }
