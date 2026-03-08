@@ -197,6 +197,20 @@
     "app.successRate": "Success Rate",
     "app.recentTemplates": "Recent Templates",
     "app.noRecentTemplates": "Run a template to see it here",
-    "app.retry": "Retry"
+    "app.retry": "Retry",
+    "app.loginWithEmail": "Sign in with email",
+    "app.remoteWakeNotConfigured": "Remote wake not configured",
+    "app.remoteWakeReady": "Ready — daemon online",
+    "app.daemonOffline": "Wake daemon is offline. Please start your desktop app first.",
+    "app.daemonOfflineShort": "Daemon offline",
+    "app.schedules": "Schedules",
+    "app.history": "History",
+    "auth.email": "Email",
+    "auth.emailPlaceholder": "you@example.com",
+    "auth.password": "Password",
+    "auth.passwordPlaceholder": "Enter your password",
+    "auth.enterPassword": "Please enter your password",
+    "auth.login": "Sign In",
+    "auth.forgotPassword.emailRequired": "Please enter your email"
   }
 }

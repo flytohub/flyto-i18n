@@ -197,6 +197,20 @@
     "app.successRate": "成功率",
     "app.recentTemplates": "最近執行",
     "app.noRecentTemplates": "執行模板後會顯示在這裡",
-    "app.retry": "重試"
+    "app.retry": "重試",
+    "app.loginWithEmail": "使用電子郵件登入",
+    "app.remoteWakeNotConfigured": "遠端喚醒尚未設定",
+    "app.remoteWakeReady": "就緒 — 守護程式在線",
+    "app.daemonOffline": "喚醒守護程式離線，請先啟動桌面應用",
+    "app.daemonOfflineShort": "守護程式離線",
+    "app.schedules": "排程",
+    "app.history": "歷史紀錄",
+    "auth.email": "電子郵件",
+    "auth.emailPlaceholder": "you@example.com",
+    "auth.password": "密碼",
+    "auth.passwordPlaceholder": "輸入密碼",
+    "auth.enterPassword": "請輸入密碼",
+    "auth.login": "登入",
+    "auth.forgotPassword.emailRequired": "請輸入電子郵件"
   }
 }
