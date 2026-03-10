@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "找不到模板",
     "cloud.myTemplates.empty.noTemplates": "尚無模板",
     "cloud.myTemplates.empty.tryDifferent": "請嘗試不同的搜尋",
+    "cloud.myTemplates.importYaml": "匯入 YAML",
     "cloud.myTemplates.loadFailed": "載入模板失敗",
     "cloud.myTemplates.newTemplate": "新建模板",
     "cloud.myTemplates.stats.drafts": "草稿",
