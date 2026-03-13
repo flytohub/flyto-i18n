@@ -17,6 +17,13 @@
     "templateFolders.moveSuccess": "Moved successfully",
     "templateFolders.maxDepth": "Maximum folder depth reached",
     "templateFolders.root": "Root",
-    "templateFolders.emptyFolder": "This folder is empty"
+    "templateFolders.emptyFolder": "This folder is empty",
+    "templateFolders.defaultFolder": "Default",
+    "templateFolders.manageFolders": "Manage Folders",
+    "templateFolders.move": "Move",
+    "templateFolders.selectColor": "Select Color",
+    "templateFolders.templateCount": "{count} templates",
+    "templateFolders.created": "Created",
+    "templateFolders.installed": "Installed"
   }
 }

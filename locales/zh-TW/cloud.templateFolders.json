@@ -17,6 +17,13 @@
     "templateFolders.moveSuccess": "移動成功",
     "templateFolders.maxDepth": "已達資料夾最大層數",
     "templateFolders.root": "根目錄",
-    "templateFolders.emptyFolder": "此資料夾是空的"
+    "templateFolders.emptyFolder": "此資料夾是空的",
+    "templateFolders.defaultFolder": "預設資料夾",
+    "templateFolders.manageFolders": "管理資料夾",
+    "templateFolders.move": "移動",
+    "templateFolders.selectColor": "選擇顏色",
+    "templateFolders.templateCount": "{count} 個模板",
+    "templateFolders.created": "建立",
+    "templateFolders.installed": "安裝"
   }
 }
