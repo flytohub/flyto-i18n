@@ -11,6 +11,8 @@
     "createModal.creating": "Creating...",
     "createModal.description.label": "Description",
     "createModal.description.placeholder": "What does this template do? (optional)",
+    "createModal.folder.label": "Folder",
+    "createModal.folder.placeholder": "Default (no folder)",
     "createModal.errors.createFailed": "Failed to create template",
     "createModal.errors.fileTooLarge": "Image must be smaller than 2MB",
     "createModal.errors.invalidFileType": "Please select an image file",
