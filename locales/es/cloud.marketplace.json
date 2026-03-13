@@ -51,6 +51,10 @@
     "marketplace.perCall": "Pago por ejecución",
     "marketplace.perCallBadge": "{credits} créditos/ejecución",
     "marketplace.executePerCall": "Ejecutar",
-    "marketplace.updateListing": "Actualizar"
+    "marketplace.updateListing": "Actualizar",
+    "marketplace.removeConfirmTitle": "Remove from Library",
+    "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
+    "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+    "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
   }
 }

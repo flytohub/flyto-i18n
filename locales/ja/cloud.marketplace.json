@@ -51,6 +51,10 @@
     "marketplace.perCall": "従量課金",
     "marketplace.perCallBadge": "{credits} クレジット/回",
     "marketplace.executePerCall": "実行",
-    "marketplace.updateListing": "更新"
+    "marketplace.updateListing": "更新",
+    "marketplace.removeConfirmTitle": "Remove from Library",
+    "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
+    "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+    "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
   }
 }

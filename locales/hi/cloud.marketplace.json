@@ -51,6 +51,10 @@
     "marketplace.perCall": "प्रति कॉल भुगतान",
     "marketplace.perCallBadge": "{credits} क्रेडिट/रन",
     "marketplace.executePerCall": "चलाएँ",
-    "marketplace.updateListing": "अपडेट करें"
+    "marketplace.updateListing": "अपडेट करें",
+    "marketplace.removeConfirmTitle": "Remove from Library",
+    "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
+    "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+    "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
   }
 }
