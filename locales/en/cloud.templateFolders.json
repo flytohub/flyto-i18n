@@ -24,6 +24,8 @@
     "templateFolders.selectColor": "Select Color",
     "templateFolders.templateCount": "{count} templates",
     "templateFolders.created": "Created",
-    "templateFolders.installed": "Installed"
+    "templateFolders.installed": "Installed",
+    "templateFolders.noFolders": "No folders yet",
+    "templateFolders.templates": "templates"
   }
 }

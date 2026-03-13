@@ -24,6 +24,8 @@
     "templateFolders.selectColor": "選擇顏色",
     "templateFolders.templateCount": "{count} 個模板",
     "templateFolders.created": "建立",
-    "templateFolders.installed": "安裝"
+    "templateFolders.installed": "安裝",
+    "templateFolders.noFolders": "尚無資料夾",
+    "templateFolders.templates": "個模板"
   }
 }
