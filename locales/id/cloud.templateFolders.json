@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Folder Baru",
+    "templateFolders.folderName": "Nama Folder",
+    "templateFolders.rename": "Ubah Nama",
+    "templateFolders.delete": "Hapus Folder",
+    "templateFolders.moveToFolder": "Pindahkan ke Folder",
+    "templateFolders.moveToRoot": "Pindahkan ke Root",
+    "templateFolders.deleteConfirmTitle": "Hapus Folder",
+    "templateFolders.deleteConfirmMessage": "Folder ini akan dihapus. Semua konten akan dipindahkan ke folder induk.",
+    "templateFolders.createSuccess": "Folder berhasil dibuat",
+    "templateFolders.deleteSuccess": "Folder berhasil dihapus",
+    "templateFolders.moveSuccess": "Berhasil dipindahkan",
+    "templateFolders.maxDepth": "Kedalaman folder maksimum tercapai",
+    "templateFolders.root": "Root",
+    "templateFolders.emptyFolder": "Folder ini kosong"
+  }
+}

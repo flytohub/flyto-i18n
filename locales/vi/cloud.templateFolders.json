@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Thư mục mới",
+    "templateFolders.folderName": "Tên thư mục",
+    "templateFolders.rename": "Đổi tên",
+    "templateFolders.delete": "Xóa thư mục",
+    "templateFolders.moveToFolder": "Di chuyển đến thư mục",
+    "templateFolders.moveToRoot": "Di chuyển về gốc",
+    "templateFolders.deleteConfirmTitle": "Xóa thư mục",
+    "templateFolders.deleteConfirmMessage": "Thư mục này sẽ bị xóa. Tất cả nội dung sẽ được chuyển đến thư mục cha.",
+    "templateFolders.createSuccess": "Đã tạo thư mục",
+    "templateFolders.deleteSuccess": "Đã xóa thư mục",
+    "templateFolders.moveSuccess": "Di chuyển thành công",
+    "templateFolders.maxDepth": "Đã đạt độ sâu thư mục tối đa",
+    "templateFolders.root": "Gốc",
+    "templateFolders.emptyFolder": "Thư mục này trống"
+  }
+}

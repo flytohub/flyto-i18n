@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pt-BR",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Nova pasta",
+    "templateFolders.folderName": "Nome da pasta",
+    "templateFolders.rename": "Renomear",
+    "templateFolders.delete": "Excluir pasta",
+    "templateFolders.moveToFolder": "Mover para pasta",
+    "templateFolders.moveToRoot": "Mover para a raiz",
+    "templateFolders.deleteConfirmTitle": "Excluir pasta",
+    "templateFolders.deleteConfirmMessage": "Esta pasta será excluída. Todo o conteúdo será movido para a pasta superior.",
+    "templateFolders.createSuccess": "Pasta criada",
+    "templateFolders.deleteSuccess": "Pasta excluída",
+    "templateFolders.moveSuccess": "Movido com sucesso",
+    "templateFolders.maxDepth": "Profundidade máxima de pastas atingida",
+    "templateFolders.root": "Raiz",
+    "templateFolders.emptyFolder": "Esta pasta está vazia"
+  }
+}

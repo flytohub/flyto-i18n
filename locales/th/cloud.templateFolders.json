@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "โฟลเดอร์ใหม่",
+    "templateFolders.folderName": "ชื่อโฟลเดอร์",
+    "templateFolders.rename": "เปลี่ยนชื่อ",
+    "templateFolders.delete": "ลบโฟลเดอร์",
+    "templateFolders.moveToFolder": "ย้ายไปยังโฟลเดอร์",
+    "templateFolders.moveToRoot": "ย้ายไปยังรูท",
+    "templateFolders.deleteConfirmTitle": "ลบโฟลเดอร์",
+    "templateFolders.deleteConfirmMessage": "โฟลเดอร์นี้จะถูกลบ เนื้อหาทั้งหมดจะถูกย้ายไปยังโฟลเดอร์หลัก",
+    "templateFolders.createSuccess": "สร้างโฟลเดอร์แล้ว",
+    "templateFolders.deleteSuccess": "ลบโฟลเดอร์แล้ว",
+    "templateFolders.moveSuccess": "ย้ายสำเร็จ",
+    "templateFolders.maxDepth": "ถึงความลึกสูงสุดของโฟลเดอร์แล้ว",
+    "templateFolders.root": "รูท",
+    "templateFolders.emptyFolder": "โฟลเดอร์นี้ว่างเปล่า"
+  }
+}

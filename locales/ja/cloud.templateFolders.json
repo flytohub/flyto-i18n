@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "新しいフォルダ",
+    "templateFolders.folderName": "フォルダ名",
+    "templateFolders.rename": "名前を変更",
+    "templateFolders.delete": "フォルダを削除",
+    "templateFolders.moveToFolder": "フォルダに移動",
+    "templateFolders.moveToRoot": "ルートに移動",
+    "templateFolders.deleteConfirmTitle": "フォルダを削除",
+    "templateFolders.deleteConfirmMessage": "このフォルダは削除されます。すべてのコンテンツは親フォルダに移動されます。",
+    "templateFolders.createSuccess": "フォルダを作成しました",
+    "templateFolders.deleteSuccess": "フォルダを削除しました",
+    "templateFolders.moveSuccess": "移動しました",
+    "templateFolders.maxDepth": "フォルダの最大階層に達しました",
+    "templateFolders.root": "ルート",
+    "templateFolders.emptyFolder": "このフォルダは空です"
+  }
+}

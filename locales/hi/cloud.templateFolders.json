@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "नया फ़ोल्डर",
+    "templateFolders.folderName": "फ़ोल्डर का नाम",
+    "templateFolders.rename": "नाम बदलें",
+    "templateFolders.delete": "फ़ोल्डर हटाएं",
+    "templateFolders.moveToFolder": "फ़ोल्डर में ले जाएं",
+    "templateFolders.moveToRoot": "रूट में ले जाएं",
+    "templateFolders.deleteConfirmTitle": "फ़ोल्डर हटाएं",
+    "templateFolders.deleteConfirmMessage": "यह फ़ोल्डर हटा दिया जाएगा। सभी सामग्री मूल फ़ोल्डर में स्थानांतरित कर दी जाएगी।",
+    "templateFolders.createSuccess": "फ़ोल्डर बनाया गया",
+    "templateFolders.deleteSuccess": "फ़ोल्डर हटाया गया",
+    "templateFolders.moveSuccess": "सफलतापूर्वक स्थानांतरित किया गया",
+    "templateFolders.maxDepth": "फ़ोल्डर की अधिकतम गहराई तक पहुँच गया",
+    "templateFolders.root": "रूट",
+    "templateFolders.emptyFolder": "यह फ़ोल्डर खाली है"
+  }
+}

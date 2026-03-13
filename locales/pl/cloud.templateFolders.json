@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Nowy folder",
+    "templateFolders.folderName": "Nazwa folderu",
+    "templateFolders.rename": "Zmień nazwę",
+    "templateFolders.delete": "Usuń folder",
+    "templateFolders.moveToFolder": "Przenieś do folderu",
+    "templateFolders.moveToRoot": "Przenieś do katalogu głównego",
+    "templateFolders.deleteConfirmTitle": "Usuń folder",
+    "templateFolders.deleteConfirmMessage": "Ten folder zostanie usunięty. Cała zawartość zostanie przeniesiona do folderu nadrzędnego.",
+    "templateFolders.createSuccess": "Folder utworzony",
+    "templateFolders.deleteSuccess": "Folder usunięty",
+    "templateFolders.moveSuccess": "Przeniesiono pomyślnie",
+    "templateFolders.maxDepth": "Osiągnięto maksymalną głębokość folderów",
+    "templateFolders.root": "Katalog główny",
+    "templateFolders.emptyFolder": "Ten folder jest pusty"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-TW",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "新增資料夾",
+    "templateFolders.folderName": "資料夾名稱",
+    "templateFolders.rename": "重新命名",
+    "templateFolders.delete": "刪除資料夾",
+    "templateFolders.moveToFolder": "移動到資料夾",
+    "templateFolders.moveToRoot": "移動到根目錄",
+    "templateFolders.deleteConfirmTitle": "刪除資料夾",
+    "templateFolders.deleteConfirmMessage": "此資料夾將被刪除。所有內容將移至上層資料夾。",
+    "templateFolders.createSuccess": "資料夾已建立",
+    "templateFolders.deleteSuccess": "資料夾已刪除",
+    "templateFolders.moveSuccess": "移動成功",
+    "templateFolders.maxDepth": "已達資料夾最大層數",
+    "templateFolders.root": "根目錄",
+    "templateFolders.emptyFolder": "此資料夾是空的"
+  }
+}

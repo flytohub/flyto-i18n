@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Neuer Ordner",
+    "templateFolders.folderName": "Ordnername",
+    "templateFolders.rename": "Umbenennen",
+    "templateFolders.delete": "Ordner löschen",
+    "templateFolders.moveToFolder": "In Ordner verschieben",
+    "templateFolders.moveToRoot": "Zum Stammverzeichnis verschieben",
+    "templateFolders.deleteConfirmTitle": "Ordner löschen",
+    "templateFolders.deleteConfirmMessage": "Dieser Ordner wird gelöscht. Alle Inhalte werden in den übergeordneten Ordner verschoben.",
+    "templateFolders.createSuccess": "Ordner erstellt",
+    "templateFolders.deleteSuccess": "Ordner gelöscht",
+    "templateFolders.moveSuccess": "Erfolgreich verschoben",
+    "templateFolders.maxDepth": "Maximale Ordnertiefe erreicht",
+    "templateFolders.root": "Stammverzeichnis",
+    "templateFolders.emptyFolder": "Dieser Ordner ist leer"
+  }
+}

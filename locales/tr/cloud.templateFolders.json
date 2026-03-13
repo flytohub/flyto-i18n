@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Yeni Klasör",
+    "templateFolders.folderName": "Klasör Adı",
+    "templateFolders.rename": "Yeniden Adlandır",
+    "templateFolders.delete": "Klasörü Sil",
+    "templateFolders.moveToFolder": "Klasöre Taşı",
+    "templateFolders.moveToRoot": "Köke Taşı",
+    "templateFolders.deleteConfirmTitle": "Klasörü Sil",
+    "templateFolders.deleteConfirmMessage": "Bu klasör silinecek. Tüm içerik üst klasöre taşınacak.",
+    "templateFolders.createSuccess": "Klasör oluşturuldu",
+    "templateFolders.deleteSuccess": "Klasör silindi",
+    "templateFolders.moveSuccess": "Başarıyla taşındı",
+    "templateFolders.maxDepth": "Maksimum klasör derinliğine ulaşıldı",
+    "templateFolders.root": "Kök",
+    "templateFolders.emptyFolder": "Bu klasör boş"
+  }
+}

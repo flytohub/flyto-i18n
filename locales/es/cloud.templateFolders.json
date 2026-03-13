@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Nueva carpeta",
+    "templateFolders.folderName": "Nombre de la carpeta",
+    "templateFolders.rename": "Renombrar",
+    "templateFolders.delete": "Eliminar carpeta",
+    "templateFolders.moveToFolder": "Mover a carpeta",
+    "templateFolders.moveToRoot": "Mover a la raíz",
+    "templateFolders.deleteConfirmTitle": "Eliminar carpeta",
+    "templateFolders.deleteConfirmMessage": "Esta carpeta será eliminada. Todo el contenido se moverá a la carpeta superior.",
+    "templateFolders.createSuccess": "Carpeta creada",
+    "templateFolders.deleteSuccess": "Carpeta eliminada",
+    "templateFolders.moveSuccess": "Movido correctamente",
+    "templateFolders.maxDepth": "Se alcanzó la profundidad máxima de carpetas",
+    "templateFolders.root": "Raíz",
+    "templateFolders.emptyFolder": "Esta carpeta está vacía"
+  }
+}

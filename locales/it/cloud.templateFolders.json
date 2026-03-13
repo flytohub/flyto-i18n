@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.templateFolders",
+  "version": "1.0.0",
+  "translations": {
+    "templateFolders.newFolder": "Nuova cartella",
+    "templateFolders.folderName": "Nome della cartella",
+    "templateFolders.rename": "Rinomina",
+    "templateFolders.delete": "Elimina cartella",
+    "templateFolders.moveToFolder": "Sposta nella cartella",
+    "templateFolders.moveToRoot": "Sposta nella radice",
+    "templateFolders.deleteConfirmTitle": "Elimina cartella",
+    "templateFolders.deleteConfirmMessage": "Questa cartella verrà eliminata. Tutti i contenuti verranno spostati nella cartella superiore.",
+    "templateFolders.createSuccess": "Cartella creata",
+    "templateFolders.deleteSuccess": "Cartella eliminata",
+    "templateFolders.moveSuccess": "Spostato con successo",
+    "templateFolders.maxDepth": "Profondità massima delle cartelle raggiunta",
+    "templateFolders.root": "Radice",
+    "templateFolders.emptyFolder": "Questa cartella è vuota"
+  }
+}
