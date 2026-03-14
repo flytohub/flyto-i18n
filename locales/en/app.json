@@ -211,6 +211,25 @@
     "auth.passwordPlaceholder": "Enter your password",
     "auth.enterPassword": "Please enter your password",
     "auth.login": "Sign In",
-    "auth.forgotPassword.emailRequired": "Please enter your email"
+    "auth.forgotPassword.emailRequired": "Please enter your email",
+    "app.all": "All",
+    "app.defaultFolder": "Default",
+    "app.general": "General",
+    "app.aboutAndLegal": "About & Legal",
+    "app.privacyPolicy": "Privacy Policy",
+    "app.termsOfService": "Terms of Service",
+    "app.support": "Support",
+    "app.website": "Website",
+    "app.exportData": "Export My Data",
+    "app.exportDataDesc": "Download a copy of your account data",
+    "app.exportingData": "Exporting your data...",
+    "app.exportEmailSent": "Export link sent to your email",
+    "app.exportFailed": "Data export failed",
+    "app.deleteAccount": "Delete Account",
+    "app.deleteAccountConfirm": "This will permanently delete your account and all associated data. This action cannot be undone.",
+    "app.deleteAccountFailed": "Account deletion failed. Please try again or contact support.",
+    "app.requiredFields": "Required fields missing",
+    "app.operationFailed": "Operation failed",
+    "app.cancelFailed": "Failed to cancel"
   }
 }

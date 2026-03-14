@@ -211,6 +211,25 @@
     "auth.passwordPlaceholder": "輸入密碼",
     "auth.enterPassword": "請輸入密碼",
     "auth.login": "登入",
-    "auth.forgotPassword.emailRequired": "請輸入電子郵件"
+    "auth.forgotPassword.emailRequired": "請輸入電子郵件",
+    "app.all": "全部",
+    "app.defaultFolder": "預設",
+    "app.general": "一般",
+    "app.aboutAndLegal": "關於與法律",
+    "app.privacyPolicy": "隱私權政策",
+    "app.termsOfService": "服務條款",
+    "app.support": "支援",
+    "app.website": "官方網站",
+    "app.exportData": "匯出我的資料",
+    "app.exportDataDesc": "下載你帳號資料的副本",
+    "app.exportingData": "正在匯出資料...",
+    "app.exportEmailSent": "匯出連結已寄到你的信箱",
+    "app.exportFailed": "資料匯出失敗",
+    "app.deleteAccount": "刪除帳號",
+    "app.deleteAccountConfirm": "這將永久刪除你的帳號和所有相關資料。此操作無法復原。",
+    "app.deleteAccountFailed": "帳號刪除失敗，請重試或聯繫客服。",
+    "app.requiredFields": "必填欄位未填",
+    "app.operationFailed": "操作失敗",
+    "app.cancelFailed": "取消失敗"
   }
 }
