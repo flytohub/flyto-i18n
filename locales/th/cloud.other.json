@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "ไม่พบเทมเพลต",
     "cloud.myTemplates.empty.noTemplates": "ยังไม่มีเทมเพลต",
     "cloud.myTemplates.empty.tryDifferent": "ลองค้นหาคำอื่น",
+    "cloud.myTemplates.importYaml": "",
     "cloud.myTemplates.loadFailed": "ไม่สามารถโหลดเทมเพลตได้",
     "cloud.myTemplates.newTemplate": "เทมเพลตใหม่",
     "cloud.myTemplates.stats.drafts": "ฉบับร่าง",

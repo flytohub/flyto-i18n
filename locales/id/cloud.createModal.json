@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "Gagal membuat template",
     "createModal.errors.fileTooLarge": "Gambar harus lebih kecil dari 2MB",
     "createModal.errors.invalidFileType": "Silakan pilih file gambar",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "Ubah Ikon",
     "createModal.icon.hint": "PNG, JPG, GIF hingga 2MB",
     "createModal.icon.label": "Ikon Template",

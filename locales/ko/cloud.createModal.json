@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "템플릿 생성 실패",
     "createModal.errors.fileTooLarge": "이미지는 2MB 미만이어야 합니다",
     "createModal.errors.invalidFileType": "이미지 파일을 선택하세요",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "아이콘 변경",
     "createModal.icon.hint": "PNG, JPG, GIF 최대 2MB",
     "createModal.icon.label": "템플릿 아이콘",

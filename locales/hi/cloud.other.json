@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "कोई टेम्पलेट नहीं मिला",
     "cloud.myTemplates.empty.noTemplates": "अभी तक कोई टेम्पलेट नहीं",
     "cloud.myTemplates.empty.tryDifferent": "अलग खोज आज़माएं",
+    "cloud.myTemplates.importYaml": "",
     "cloud.myTemplates.loadFailed": "टेम्पलेट लोड करने में विफल",
     "cloud.myTemplates.newTemplate": "नया टेम्पलेट",
     "cloud.myTemplates.stats.drafts": "ड्राफ्ट",

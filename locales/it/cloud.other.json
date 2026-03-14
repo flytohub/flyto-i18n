@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Nessun template trovato",
     "cloud.myTemplates.empty.noTemplates": "Nessun template ancora",
     "cloud.myTemplates.empty.tryDifferent": "Prova una ricerca diversa",
+    "cloud.myTemplates.importYaml": "",
     "cloud.myTemplates.loadFailed": "Impossibile caricare i template",
     "cloud.myTemplates.newTemplate": "Nuovo Template",
     "cloud.myTemplates.stats.drafts": "Bozze",

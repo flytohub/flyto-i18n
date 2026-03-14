@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Keine Vorlagen gefunden",
     "cloud.myTemplates.empty.noTemplates": "Noch keine Vorlagen",
     "cloud.myTemplates.empty.tryDifferent": "Versuchen Sie eine andere Suche",
+    "cloud.myTemplates.importYaml": "",
     "cloud.myTemplates.loadFailed": "Vorlagen konnten nicht geladen werden",
     "cloud.myTemplates.newTemplate": "Neue Vorlage",
     "cloud.myTemplates.stats.drafts": "Entwürfe",

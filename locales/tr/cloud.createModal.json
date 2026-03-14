@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "Şablon oluşturulamadı",
     "createModal.errors.fileTooLarge": "Görsel 2MB'dan küçük olmalıdır",
     "createModal.errors.invalidFileType": "Lütfen bir görsel dosyası seçin",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "Simgeyi Değiştir",
     "createModal.icon.hint": "PNG, JPG, GIF 2MB'a kadar",
     "createModal.icon.label": "Şablon Simgesi",

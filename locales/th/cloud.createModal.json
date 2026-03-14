@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "ไม่สามารถสร้างเทมเพลตได้",
     "createModal.errors.fileTooLarge": "รูปภาพต้องมีขนาดเล็กกว่า 2MB",
     "createModal.errors.invalidFileType": "กรุณาเลือกไฟล์รูปภาพ",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "เปลี่ยนไอคอน",
     "createModal.icon.hint": "PNG, JPG, GIF ไม่เกิน 2MB",
     "createModal.icon.label": "ไอคอนเทมเพลต",

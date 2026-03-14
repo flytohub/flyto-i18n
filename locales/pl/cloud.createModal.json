@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "Nie udalo sie utworzyc szablonu",
     "createModal.errors.fileTooLarge": "Obraz musi byc mniejszy niz 2MB",
     "createModal.errors.invalidFileType": "Wybierz plik obrazu",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "Zmien ikone",
     "createModal.icon.hint": "PNG, JPG, GIF do 2MB",
     "createModal.icon.label": "Ikona szablonu",

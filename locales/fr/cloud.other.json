@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Aucun modele trouve",
     "cloud.myTemplates.empty.noTemplates": "Aucun modele pour le moment",
     "cloud.myTemplates.empty.tryDifferent": "Essayez une recherche differente",
+    "cloud.myTemplates.importYaml": "",
     "cloud.myTemplates.loadFailed": "Echec du chargement des modeles",
     "cloud.myTemplates.newTemplate": "Nouveau modele",
     "cloud.myTemplates.stats.drafts": "Brouillons",

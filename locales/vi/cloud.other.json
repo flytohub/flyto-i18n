@@ -22,6 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Không tìm thấy mẫu",
     "cloud.myTemplates.empty.noTemplates": "Chưa có mẫu",
     "cloud.myTemplates.empty.tryDifferent": "Thử tìm kiếm khác",
+    "cloud.myTemplates.importYaml": "",
     "cloud.myTemplates.loadFailed": "Không thể tải mẫu",
     "cloud.myTemplates.newTemplate": "Mẫu mới",
     "cloud.myTemplates.stats.drafts": "Bản nháp",

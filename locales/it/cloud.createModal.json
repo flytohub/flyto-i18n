@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "Impossibile creare il template",
     "createModal.errors.fileTooLarge": "L'immagine deve essere inferiore a 2MB",
     "createModal.errors.invalidFileType": "Seleziona un file immagine",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "Cambia Icona",
     "createModal.icon.hint": "PNG, JPG, GIF fino a 2MB",
     "createModal.icon.label": "Icona Template",

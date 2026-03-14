@@ -14,6 +14,8 @@
     "createModal.errors.createFailed": "Vorlage konnte nicht erstellt werden",
     "createModal.errors.fileTooLarge": "Bild muss kleiner als 2MB sein",
     "createModal.errors.invalidFileType": "Bitte wählen Sie eine Bilddatei",
+    "createModal.folder.label": "",
+    "createModal.folder.placeholder": "",
     "createModal.icon.change": "Symbol ändern",
     "createModal.icon.hint": "PNG, JPG, GIF bis zu 2MB",
     "createModal.icon.label": "Vorlagensymbol",
