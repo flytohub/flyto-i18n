@@ -6,58 +6,58 @@
   "translations": {
     "landing.meta.index.title": "Flyto2 - Turn Repetitive Computer Tasks into Simple Automation",
     "landing.meta.index.description": "Flyto2 helps you automate repetitive browser tasks without coding. Record your actions once, replay them forever. Pause, check, and resume anytime. Works offline.",
-    "landing.meta.index.keywords": "browser automation, no-code automation, automate repetitive tasks, record and replay, workflow automation, offline automation tool",
+    "landing.meta.index.keywords": "瀏覽器自動化, 免費自動化工具, 不用寫程式 自動化, 重複工作 自動化 方法, 表單自動填寫 工具, 網頁操作 自動化 免費, 資料輸入 自動化, flyto2 瀏覽器自動化, 如何自動化重複的電腦工作, 錄製並重播瀏覽器操作, 不需要寫程式的自動化工具, 離線也能用的自動化軟體, 網頁爬蟲 不用寫程式, 初學者 無程式碼自動化工具",
 
     "landing.meta.pricing.title": "Flyto2 Pricing - Free Forever Plan | Pro from $9/month",
     "landing.meta.pricing.description": "Simple pricing for Flyto2. Free forever plan for personal use. Pro plan from $9/month for teams. No hidden fees.",
-    "landing.meta.pricing.keywords": "flyto2 pricing, automation pricing, workflow automation cost, free automation tool",
+    "landing.meta.pricing.keywords": "flyto2 價格, 自動化工具 免費 不需信用卡, 自動化工具 方案 價格比較, 免費的瀏覽器自動化軟體, flyto2 是免費的嗎, 工作流程自動化 費用多少, 小團隊 便宜的自動化工具, 免費自動化工具 個人使用, 付費自動化平台的免費替代方案, 新創公司 最便宜的自動化工具, RPA 免費 個人用, 自動化軟體 訂閱 價格比較, 無程式碼自動化 免費方案",
 
     "landing.meta.download.title": "Download Flyto2 - Windows, macOS, Linux | Free Desktop App",
     "landing.meta.download.description": "Download Flyto2 desktop app for Windows, macOS, and Linux. Works offline. No account required to start.",
-    "landing.meta.download.keywords": "flyto2 download, automation software download, desktop automation app, offline automation tool",
+    "landing.meta.download.keywords": "flyto2 下載, 免費自動化工具 桌面版下載, 瀏覽器自動化 Windows Mac Linux, 不需帳號 安裝自動化軟體, 離線自動化軟體 免費下載, flyto2 怎麼安裝, 全平台 自動化應用程式, 無程式碼自動化 桌面版 免費下載, 不需網路的自動化工具, 跨平台 桌面自動化 安裝, 開發者用 自動化 CLI 工具, pip 安裝 瀏覽器自動化, 開源自動化引擎 下載",
 
     "landing.meta.app.title": "Flyto2 App - Automate in Seconds, See Every Step",
     "landing.meta.app.description": "Flyto2 desktop app. Automate browser tasks in seconds with screenshots at every step. Runs locally, your data never leaves.",
-    "landing.meta.app.keywords": "flyto2 app, desktop automation, browser automation, offline tool",
+    "landing.meta.app.keywords": "flyto2 應用程式, 桌面自動化 應用 免費, 桌面版 瀏覽器自動化, 如何自動化電腦上的重複工作, 離線執行瀏覽器自動化, 錄製並重播的桌面自動化應用, 無程式碼 瀏覽器自動化 桌面工具, 桌面版 表單自動填寫, Windows Mac 最好的自動化應用, 免費離線自動化網頁工具, flyto2 桌面應用功能, 不用網路的自動化應用, 非工程師用的自動化工具",
 
     "landing.meta.faq.title": "Flyto2 FAQ - Frequently Asked Questions",
     "landing.meta.faq.description": "Find answers to common questions about Flyto2. Learn about features, pricing, security, and how to get started.",
-    "landing.meta.faq.keywords": "flyto2 FAQ, automation questions, getting started, flyto2 help",
+    "landing.meta.faq.keywords": "flyto2 常見問題, 不用寫程式 可以自動化瀏覽器嗎, flyto2 是免費的嗎, 怎麼錄製和重播瀏覽器操作, flyto2 離線也能用嗎, 瀏覽器自動化 怎麼開始, 表單填寫 怎麼自動化, flyto2 能自動化什麼, 桌面自動化排程方法, 無程式碼自動化工具 常見問題, 非技術用戶的自動化工具, flyto2 入門指南, 自動化 初學者指南",
 
     "landing.meta.contact.title": "Contact Flyto2 - Get in Touch With Our Team",
     "landing.meta.contact.description": "Contact the Flyto2 team for support, sales inquiries, or partnership opportunities.",
-    "landing.meta.contact.keywords": "contact flyto2, support, sales inquiry, partnership",
+    "landing.meta.contact.keywords": "聯絡 flyto2, 瀏覽器自動化工具 客服, 自動化工具 客戶支援 聯絡方式, 企業自動化 業務諮詢, flyto2 支援團隊 怎麼聯絡, flyto2 技術支援, 客製化自動化方案 諮詢, 企業團隊用 自動化工具, flyto2 回報問題, flyto2 銷售與授權問題, flyto2 申請 Demo, 自動化軟體 合作夥伴",
 
     "landing.meta.buyoffline.title": "Buy Flyto2 Offline License - No Internet Required",
     "landing.meta.buyoffline.description": "Purchase a Flyto2 offline license. One-time payment, works without internet, your data stays on your computer.",
-    "landing.meta.buyoffline.keywords": "flyto2 offline license, one-time purchase, no internet needed, offline automation",
+    "landing.meta.buyoffline.keywords": "flyto2 離線授權, 自動化工具 一次付費 買斷, 不需要網路的自動化軟體, 離線桌面自動化 不用訂閱, 永久授權 自動化軟體 購買, 不需雲端 離線自動化工具, 沒有月費的自動化工具, 桌面完全離線自動化, 企業 離線自動化授權 購買, flyto2 不用網路可以用嗎, 機密資料用 離線自動化, 買斷型自動化軟體 推薦",
 
     "landing.meta.languagepacks.title": "Flyto2 Language Packs - Multi-language Support",
     "landing.meta.languagepacks.description": "Download language packs for Flyto2. Support for Chinese, Japanese, Korean, German, Spanish, French, and more.",
-    "landing.meta.languagepacks.keywords": "flyto2 language pack, multi-language, localization, translation",
+    "landing.meta.languagepacks.keywords": "flyto2 語言包, 中文自動化工具, 多語言 自動化軟體 下載, flyto2 繁體中文 日文 韓文 翻譯, 非英語用戶的自動化工具, flyto2 怎麼切換語言, 自動化工具 語言檔案 下載, flyto2 多語言支援 在地化, 支援多國語言的自動化工具, 多語言自動化軟體, 社群翻譯 自動化工具, 開源自動化 在地化檔案, flyto2 語言設定",
 
     "landing.meta.about.title": "About Flyto2 - Our Mission and Story",
     "landing.meta.about.description": "Learn about Flyto2's mission to make automation accessible to everyone. Open source, transparent, people-first.",
-    "landing.meta.about.keywords": "about flyto2, our mission, open source automation, team",
+    "landing.meta.about.keywords": "關於 flyto2, flyto2 自動化工具 開發者, 開源自動化專案 使命, flyto2 團隊與公司背景, 為什麼打造透明的自動化工具, 用戶優先的自動化工具, 開源 無程式碼 自動化社群, flyto2 故事與創辦團隊",
 
     "landing.meta.product.title": "Flyto2 Product - Features You Can Trust",
     "landing.meta.product.description": "Explore Flyto2 features. Pause and check anytime, go back and fix mistakes, full record of every step. Works offline.",
-    "landing.meta.product.keywords": "flyto2 features, automation tool, workflow builder, product overview",
+    "landing.meta.product.keywords": "flyto2 功能, 可暫停與繼續的自動化工具, 記錄每一步的工作流程建立器, 可信賴且可驗證的自動化工具, 有逐步截圖的自動化工具, 桌面版 無程式碼 工作流程建立器, 可以回頭修正錯誤的自動化, flyto2 產品概覽與功能",
 
     "landing.meta.philosophy.title": "Flyto2 Philosophy - Automation You Can Control",
     "landing.meta.philosophy.description": "Why we built Flyto2 differently. Staying in control isn't a limitation — it's the whole point.",
-    "landing.meta.philosophy.keywords": "automation philosophy, transparent automation, user control, open source",
+    "landing.meta.philosophy.keywords": "自動化理念, 為什麼自動化要透明可控, 用戶可以驗證的自動化, 完全透明的開源自動化, 敏感工作最好的自動化方式, 為人工監督設計的自動化工具, 我們為什麼用不同的方式做自動化",
 
     "landing.meta.usecases.title": "Flyto2 Use Cases - Real-World Automation Examples",
     "landing.meta.usecases.description": "See how teams use Flyto2 to automate workflows that need human judgment and a full record of every action.",
-    "landing.meta.usecases.keywords": "automation use cases, workflow examples, business automation, real examples",
+    "landing.meta.usecases.keywords": "自動化 使用案例, 真實的工作流程自動化範例, 團隊如何自動化重複的商業工作, 資料輸入與表單填寫 自動化範例, 合規與稽核 自動化追蹤, 中小企業 自動化 使用案例, 帶驗證的網頁爬蟲 自動化方法, 需要人工判斷的自動化範例",
 
     "landing.meta.compare.title": "Flyto2 - How It's Different from Other Tools",
     "landing.meta.compare.description": "See where Flyto2 fits and where it doesn't. Honest comparison with other automation approaches.",
-    "landing.meta.compare.keywords": "flyto2 comparison, automation comparison, alternative tools, which tool to choose",
+    "landing.meta.compare.keywords": "flyto2 比較, flyto2 與其他自動化工具比較, 自動化工具 替代方案 比較, 該選哪個自動化工具, flyto2 vs Selenium vs Playwright 比較, 無程式碼自動化平台 誠實比較, 離線自動化工具 vs 只有雲端的工具",
 
     "landing.meta.blog.title": "Flyto2 Blog - Tips and Updates",
     "landing.meta.blog.description": "Read the latest from Flyto2. Automation tips, product updates, and practical guides.",
-    "landing.meta.blog.keywords": "flyto2 blog, automation tips, product updates, guides"
+    "landing.meta.blog.keywords": "flyto2 部落格, 自動化技巧與最佳實踐, flyto2 產品更新 變更紀錄, 瀏覽器自動化 實用指南, 如何自動化常見的電腦工作, 初學者 自動化教學, flyto2 自動化工具 最新消息"
   }
 }
