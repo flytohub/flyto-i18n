@@ -7,6 +7,8 @@
     "landing.languagepacks.available.loading": "Carregando pacotes de idiomas disponiveis...",
     "landing.languagepacks.available.subtitle": "Baixe e instale pacotes de idiomas offline",
     "landing.languagepacks.available.title": "Pacotes de Idiomas Disponiveis",
+    "landing.languagepacks.help.desc": "O Flyto2 é traduzido pela comunidade. Se quiser ajudar a melhorar traduções ou adicionar um novo idioma, visite nosso repositório no GitHub.",
+    "landing.languagepacks.help.title": "Ajude a Traduzir",
     "landing.languagepacks.hero.description": "Baixe arquivos de traducao para uso offline no Flyto2",
     "landing.languagepacks.hero.title": "Pacotes de Idiomas",
     "landing.languagepacks.howto.step1": "Baixe o arquivo do pacote de idioma (.json)",
@@ -18,6 +20,8 @@
     "landing.languagepacks.request.feature1": "Traducoes impulsionadas pela comunidade",
     "landing.languagepacks.request.feature2": "Atualizacoes regulares",
     "landing.languagepacks.request.subtitle": "Nao encontrou seu idioma? Nos avise!",
-    "landing.languagepacks.request.title": "Solicitar um Idioma"
+    "landing.languagepacks.request.title": "Solicitar um Idioma",
+    "landing.languagepacks.what.desc": "Pacotes de idioma traduzem toda a interface do Flyto2 para o seu idioma. Menus, botões, mensagens e textos de ajuda — tudo muda para o seu idioma preferido.",
+    "landing.languagepacks.what.title": "O Que São Pacotes de Idioma?"
   }
 }

@@ -7,17 +7,21 @@
     "landing.languagepacks.available.loading": "Verfügbare Sprachpakete werden geladen...",
     "landing.languagepacks.available.subtitle": "Offline-Sprachpakete herunterladen und installieren",
     "landing.languagepacks.available.title": "Verfügbare Sprachpakete",
+    "landing.languagepacks.help.desc": "Flyto2 wird von der Community übersetzt. Wenn du helfen möchtest, Übersetzungen zu verbessern oder eine neue Sprache hinzuzufügen, besuche unser GitHub-Repository.",
+    "landing.languagepacks.help.title": "Hilf uns beim Übersetzen",
     "landing.languagepacks.hero.description": "Übersetzungsdateien für die Offline-Nutzung in Flyto2 herunterladen",
     "landing.languagepacks.hero.title": "Sprachpakete",
     "landing.languagepacks.howto.step1": "Sprachpaket-Datei (.json) herunterladen",
     "landing.languagepacks.howto.step2": "Flyto2-Anwendung öffnen",
     "landing.languagepacks.howto.step3": "Zu Einstellungen → Sprache gehen",
     "landing.languagepacks.howto.step4": "Auf \"Sprachpaket importieren\" klicken und die Datei auswählen",
-    "landing.languagepacks.howto.title": "Installationsanleitung",
+    "landing.languagepacks.howto.title": "So installierst du es",
     "landing.languagepacks.request.btn": "Sprache anfragen",
     "landing.languagepacks.request.feature1": "Community-gesteuerte Übersetzungen",
     "landing.languagepacks.request.feature2": "Regelmäßige Updates",
     "landing.languagepacks.request.subtitle": "Ihre Sprache nicht dabei? Lassen Sie es uns wissen!",
-    "landing.languagepacks.request.title": "Sprache anfragen"
+    "landing.languagepacks.request.title": "Sprache anfragen",
+    "landing.languagepacks.what.desc": "Sprachpakete übersetzen die gesamte Flyto2-Oberfläche in deine Sprache. Menüs, Buttons, Nachrichten und Hilfetexte — alles wird in deine bevorzugte Sprache umgestellt.",
+    "landing.languagepacks.what.title": "Was sind Sprachpakete?"
   }
 }

@@ -7,6 +7,8 @@
     "landing.languagepacks.available.loading": "Memuat paket bahasa yang tersedia...",
     "landing.languagepacks.available.subtitle": "Unduh dan instal paket bahasa offline",
     "landing.languagepacks.available.title": "Paket Bahasa Tersedia",
+    "landing.languagepacks.help.desc": "Flyto2 diterjemahkan oleh komunitas. Kalau kamu mau bantu memperbaiki terjemahan atau menambah bahasa baru, kunjungi repository GitHub kami.",
+    "landing.languagepacks.help.title": "Bantu Kami Menerjemahkan",
     "landing.languagepacks.hero.description": "Unduh file terjemahan untuk penggunaan offline di Flyto2",
     "landing.languagepacks.hero.title": "Paket Bahasa",
     "landing.languagepacks.howto.step1": "Unduh file paket bahasa (.json)",
@@ -18,6 +20,8 @@
     "landing.languagepacks.request.feature1": "Terjemahan berbasis komunitas",
     "landing.languagepacks.request.feature2": "Pembaruan berkala",
     "landing.languagepacks.request.subtitle": "Tidak melihat bahasa Anda? Beri tahu kami!",
-    "landing.languagepacks.request.title": "Minta Bahasa"
+    "landing.languagepacks.request.title": "Minta Bahasa",
+    "landing.languagepacks.what.desc": "Paket bahasa menerjemahkan seluruh antarmuka Flyto2 ke bahasamu. Menu, tombol, pesan, dan teks bantuan — semuanya berubah ke bahasa pilihanmu.",
+    "landing.languagepacks.what.title": "Apa Itu Paket Bahasa?"
   }
 }

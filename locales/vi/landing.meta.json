@@ -4,9 +4,16 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Biến công việc lặp đi lặp lại thành tự động hóa đơn giản",
+    "landing.meta.index.title": "Flyto2 - Tự động hóa công việc lặp lại dễ dàng",
     "landing.meta.index.description": "Flyto2 giúp bạn tự động hóa công việc lặp lại trên trình duyệt mà không cần lập trình. Ghi lại một lần, chạy lại mãi mãi. Tạm dừng, kiểm tra và tiếp tục bất cứ lúc nào. Chạy không cần mạng.",
     "landing.meta.index.keywords": "tự động hóa trình duyệt, tự động hóa không cần lập trình, cách tự động hóa công việc lặp lại trên máy tính, điền form tự động miễn phí, ghi và phát lại thao tác trình duyệt, công cụ tự động hóa không cần viết code, tự động hóa nhập liệu, flyto2 tự động hóa trình duyệt, làm sao tự động hóa công việc lặp lại trên PC, web scraping không cần code, công cụ tự động hóa offline chạy trên máy, ứng dụng ghi và phát lại tự động, tự động hóa no-code cho người mới bắt đầu, công cụ tự động hóa workflow miễn phí tốt nhất",
+
+    "landing.meta.dev.title": "Flyto2 cho Lập trình viên - Review Code AI & Phân tích",
+    "landing.meta.dev.description": "Công cụ lập trình viên hỗ trợ AI. Thay đổi code an toàn với lịch sử review đầy đủ. Trí tuệ code cho mọi công cụ AI.",
+    "landing.meta.node.title": "Flyto2 Node.js - Tự động hóa bằng JavaScript",
+    "landing.meta.node.description": "Tự động hóa tác vụ trình duyệt và workflow bằng JavaScript và TypeScript. Cài qua npm, chạy offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Tự động hóa trong trình duyệt",
+    "landing.meta.wasm.description": "Chạy tự động hóa Flyto2 trực tiếp trong trình duyệt. Không cần cài đặt. Sử dụng WebAssembly.",
 
     "landing.meta.pricing.title": "Bảng giá Flyto2 - Miễn phí mãi mãi | Pro từ $9/tháng",
     "landing.meta.pricing.description": "Bảng giá đơn giản cho Flyto2. Gói miễn phí vĩnh viễn cho cá nhân. Gói Pro từ $9/tháng cho đội nhóm. Không phí ẩn.",
@@ -52,7 +59,7 @@
     "landing.meta.usecases.description": "Xem các đội nhóm dùng Flyto2 để tự động hóa quy trình cần sự phán đoán của con người và ghi chép đầy đủ.",
     "landing.meta.usecases.keywords": "ví dụ sử dụng tự động hóa, ví dụ thực tế tự động hóa workflow, các đội tự động hóa công việc kinh doanh lặp lại như thế nào, ví dụ tự động hóa nhập liệu và điền form, tự động hóa cho tuân thủ và theo dõi kiểm toán, ví dụ sử dụng tự động hóa tốt nhất cho doanh nghiệp nhỏ, cách tự động hóa web scraping có xác minh, ví dụ tự động hóa cần phán đoán của con người",
 
-    "landing.meta.compare.title": "Flyto2 - Khác biệt như thế nào so với công cụ khác",
+    "landing.meta.compare.title": "Flyto2 - Khác biệt so với công cụ khác",
     "landing.meta.compare.description": "Xem Flyto2 phù hợp ở đâu và không phù hợp ở đâu. So sánh trung thực với các cách tiếp cận tự động hóa khác.",
     "landing.meta.compare.keywords": "so sánh flyto2, flyto2 so với các công cụ tự động hóa khác như thế nào, so sánh các lựa chọn thay thế công cụ tự động hóa, nên chọn công cụ tự động hóa nào, flyto2 vs Selenium vs Playwright so sánh, so sánh trung thực các nền tảng tự động hóa no-code, công cụ tự động hóa offline vs chỉ có cloud",
 

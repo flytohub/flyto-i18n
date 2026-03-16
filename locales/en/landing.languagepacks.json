@@ -7,6 +7,8 @@
     "landing.languagepacks.available.loading": "Loading available language packs...",
     "landing.languagepacks.available.subtitle": "Download and install offline language packs",
     "landing.languagepacks.available.title": "Available Language Packs",
+    "landing.languagepacks.help.desc": "Flyto2 is translated by the community. If you'd like to help improve translations or add a new language, visit our GitHub repository.",
+    "landing.languagepacks.help.title": "Help Us Translate",
     "landing.languagepacks.hero.description": "Download translation files for offline use in Flyto2",
     "landing.languagepacks.hero.title": "Language Packs",
     "landing.languagepacks.howto.step1": "Download the language pack file (.json)",
@@ -18,6 +20,8 @@
     "landing.languagepacks.request.feature1": "Community-driven translations",
     "landing.languagepacks.request.feature2": "Regular updates",
     "landing.languagepacks.request.subtitle": "Don't see your language? Let us know!",
-    "landing.languagepacks.request.title": "Request a Language"
+    "landing.languagepacks.request.title": "Request a Language",
+    "landing.languagepacks.what.desc": "Language packs translate the entire Flyto2 interface into your language. Menus, buttons, messages, and help text — everything changes to your preferred language.",
+    "landing.languagepacks.what.title": "What Are Language Packs?"
   }
 }

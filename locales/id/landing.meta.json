@@ -4,9 +4,16 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Ubah Pekerjaan Komputer yang Berulang Jadi Otomatisasi Simpel",
+    "landing.meta.index.title": "Flyto2 - Otomatisasi Pekerjaan Berulang dengan Mudah",
     "landing.meta.index.description": "Flyto2 membantu Anda mengotomatisasi tugas browser berulang tanpa coding. Rekam sekali, putar ulang selamanya. Jeda, cek, dan lanjutkan kapan saja. Bisa offline.",
     "landing.meta.index.keywords": "otomatisasi browser, otomatisasi tanpa coding, cara mengotomatisasi pekerjaan berulang di komputer, isi formulir otomatis gratis, rekam dan putar ulang aksi browser, alat otomatisasi tanpa pemrograman, otomatisasi input data, flyto2 otomatisasi browser, cara otomatisasi tugas berulang di PC, web scraping tanpa kode, alat otomatisasi offline yang jalan lokal, aplikasi rekam dan replay otomatisasi, otomatisasi no-code untuk pemula, alat otomatisasi workflow gratis terbaik",
+
+    "landing.meta.dev.title": "Flyto2 untuk Developer - Review Kode AI & Analisis",
+    "landing.meta.dev.description": "Alat developer bertenaga AI. Perubahan kode aman dengan riwayat review lengkap. Kecerdasan kode untuk semua alat AI.",
+    "landing.meta.node.title": "Flyto2 Node.js - Otomatisasi dengan JavaScript",
+    "landing.meta.node.description": "Otomatisasi tugas browser dan workflow dengan JavaScript dan TypeScript. Instal via npm, bisa offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Otomatisasi di Browser",
+    "landing.meta.wasm.description": "Jalankan otomatisasi Flyto2 langsung di browser. Tanpa instalasi. Didukung WebAssembly.",
 
     "landing.meta.pricing.title": "Harga Flyto2 - Gratis Selamanya | Pro mulai $9/bulan",
     "landing.meta.pricing.description": "Harga sederhana untuk Flyto2. Paket gratis selamanya untuk penggunaan pribadi. Paket Pro mulai $9/bulan untuk tim. Tanpa biaya tersembunyi.",

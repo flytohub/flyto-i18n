@@ -4,9 +4,16 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Turn Repetitive Computer Tasks into Simple Automation",
+    "landing.meta.index.title": "Flyto2 - Automate Repetitive Computer Tasks Easily",
     "landing.meta.index.description": "Flyto2 helps you automate repetitive browser tasks without coding. Record your actions once, replay them forever. Pause, check, and resume anytime. Works offline.",
     "landing.meta.index.keywords": "browser automation, no-code automation, how to automate repetitive computer tasks, record and replay browser actions automatically, best free workflow automation tool, automate form filling and data entry without coding, offline automation tool that runs locally, flyto2 browser automation, automate web scraping without writing code, can I automate tasks without programming, best way to automate web browsing tasks, free tool to record and repeat browser actions, pause and resume automation at any step, desktop automation app for non-developers",
+
+    "landing.meta.dev.title": "Flyto2 for Developers - AI Code Review & Analysis",
+    "landing.meta.dev.description": "AI-powered developer tools. Safe code changes with full review trails. Code intelligence for any AI tool.",
+    "landing.meta.node.title": "Flyto2 for Node.js - Automate with JavaScript",
+    "landing.meta.node.description": "Automate browser tasks and workflows with JavaScript and TypeScript. Install via npm, works offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Automate in the Browser",
+    "landing.meta.wasm.description": "Run Flyto2 automation directly in the browser. No installation needed. WebAssembly powered.",
 
     "landing.meta.pricing.title": "Flyto2 Pricing - Free Forever Plan | Pro from $9/month",
     "landing.meta.pricing.description": "Simple pricing for Flyto2. Free forever plan for personal use. Pro plan from $9/month for teams. No hidden fees.",

@@ -7,6 +7,8 @@
     "landing.languagepacks.available.loading": "利用可能な言語パックを読み込み中...",
     "landing.languagepacks.available.subtitle": "オフライン言語パックをダウンロードしてインストール",
     "landing.languagepacks.available.title": "利用可能な言語パック",
+    "landing.languagepacks.help.desc": "Flyto2はコミュニティによって翻訳されています。翻訳の改善や新しい言語の追加を手伝いたい方は、GitHubリポジトリをご覧ください。",
+    "landing.languagepacks.help.title": "翻訳を手伝ってください",
     "landing.languagepacks.hero.description": "Flyto2でオフライン使用するための翻訳ファイルをダウンロード",
     "landing.languagepacks.hero.title": "言語パック",
     "landing.languagepacks.howto.step1": "言語パックファイル（.json）をダウンロード",
@@ -18,6 +20,8 @@
     "landing.languagepacks.request.feature1": "コミュニティ主導の翻訳",
     "landing.languagepacks.request.feature2": "定期的な更新",
     "landing.languagepacks.request.subtitle": "お探しの言語がありませんか？お知らせください！",
-    "landing.languagepacks.request.title": "言語をリクエスト"
+    "landing.languagepacks.request.title": "言語をリクエスト",
+    "landing.languagepacks.what.desc": "言語パックはFlyto2のインターフェース全体をあなたの言語に翻訳します。メニュー、ボタン、メッセージ、ヘルプテキスト——すべてがあなたの好みの言語に変わります。",
+    "landing.languagepacks.what.title": "言語パックとは？"
   }
 }

@@ -7,6 +7,14 @@
     "landing.meta.index.title": "Flyto2 - パソコンの繰り返し作業をかんたんに自動化",
     "landing.meta.index.description": "Flyto2はプログラミング不要でブラウザの繰り返し作業を自動化できるツールです。一度やって見せれば、あとはずっと繰り返します。途中で止めて確認もOK。ネットなしでも使えます。",
     "landing.meta.index.keywords": "ブラウザ自動化, ノーコード自動化, 繰り返し作業 自動化 方法, フォーム入力 自動化 無料, ブラウザ操作 自動化 無料, プログラミング不要 自動化ツール, データ入力 自動化 ツール, Webスクレイピング コード不要, flyto2 ブラウザ自動化, 記録して再生するだけで自動化できるツール, パソコン 繰り返し作業 楽にする方法, オフラインで使える自動化ソフト, 初心者向け ノーコード自動化ツール, ブラウザ操作を録画して繰り返す方法",
+
+    "landing.meta.dev.title": "Flyto2 開発者向け - AIコードレビュー＆分析",
+    "landing.meta.dev.description": "AI搭載の開発者ツール。レビュー履歴付きで安全にコード変更。あらゆるAIツールで使えるコードインテリジェンス。",
+    "landing.meta.node.title": "Flyto2 Node.js - JavaScriptで自動化",
+    "landing.meta.node.description": "JavaScriptとTypeScriptでブラウザタスクとワークフローを自動化。npmでインストール、オフライン対応。",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - ブラウザで自動化",
+    "landing.meta.wasm.description": "ブラウザ上で直接Flyto2の自動化を実行。インストール不要。WebAssembly搭載。",
+
     "landing.meta.pricing.title": "Flyto2 料金プラン - 無料プランあり | Proは月額$9から",
     "landing.meta.pricing.description": "Flyto2のシンプルな料金体系。個人利用は永久無料。チーム向けProプランは月額$9から。隠れた費用はありません。",
     "landing.meta.pricing.keywords": "flyto2 料金, 自動化ツール 無料 クレジットカード不要, ワークフロー自動化 費用 比較, 無料で使える自動化ソフト, flyto2は無料で使えるか, 自動化ツール 料金プラン 比較, 小規模チーム向け 安い自動化ツール, 無料の自動化ツール 個人利用, 有料自動化ツールの無料代替, スタートアップ向け 格安自動化, RPA 無料 個人向け, 自動化ソフト サブスク 料金比較, ノーコード自動化 無料プラン",

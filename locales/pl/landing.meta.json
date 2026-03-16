@@ -7,6 +7,14 @@
     "landing.meta.index.title": "Flyto2 - Zamień Powtarzalne Zadania w Prostą Automatyzację",
     "landing.meta.index.description": "Flyto2 pomaga automatyzować powtarzalne zadania w przeglądarce bez programowania. Nagraj swoje akcje raz, powtarzaj na zawsze. Wstrzymuj, sprawdzaj i wznawiaj w dowolnym momencie. Działa offline.",
     "landing.meta.index.keywords": "automatyzacja przeglądarki, automatyzacja bez kodowania, jak zautomatyzować powtarzalne zadania na komputerze, automatyczne wypełnianie formularzy darmowe, nagrywanie i odtwarzanie akcji przeglądarki, narzędzie automatyzacji bez programowania, automatyzacja wprowadzania danych, flyto2 automatyzacja przeglądarki, jak zautomatyzować czynności na komputerze, web scraping bez kodu, narzędzie automatyzacji offline działające lokalnie, aplikacja do nagrywania i odtwarzania automatyzacji, automatyzacja no-code dla początkujących, najlepsze darmowe narzędzie automatyzacji workflow",
+
+    "landing.meta.dev.title": "Flyto2 dla Programistów - Przegląd Kodu AI",
+    "landing.meta.dev.description": "Narzędzia programistyczne z AI. Bezpieczne zmiany w kodzie z pełną historią przeglądów. Inteligencja kodu dla każdego narzędzia AI.",
+    "landing.meta.node.title": "Flyto2 Node.js - Automatyzuj w JavaScript",
+    "landing.meta.node.description": "Automatyzuj zadania przeglądarki i workflow za pomocą JavaScript i TypeScript. Instalacja przez npm, działa offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Automatyzuj w przeglądarce",
+    "landing.meta.wasm.description": "Uruchom automatyzację Flyto2 bezpośrednio w przeglądarce. Bez instalacji. Napędzane przez WebAssembly.",
+
     "landing.meta.pricing.title": "Flyto2 Cennik - Darmowy Plan Na Zawsze | Pro od $9/mies.",
     "landing.meta.pricing.description": "Prosty cennik Flyto2. Darmowy plan na zawsze do użytku osobistego. Plan Pro od $9/mies. dla zespołów. Bez ukrytych opłat.",
     "landing.meta.pricing.keywords": "flyto2 cennik, darmowe narzędzie automatyzacji bez karty kredytowej, porównanie planów cenowych automatyzacji, darmowe oprogramowanie automatyzacji przeglądarki do użytku osobistego, ile kosztuje automatyzacja workflow, najlepsze darmowe narzędzie automatyzacji no-code, tania automatyzacja dla małych zespołów, czy flyto2 jest za darmo na zawsze, darmowa alternatywa dla płatnych platform automatyzacji, narzędzie automatyzacji bez limitu za darmo, porównanie cen oprogramowania automatyzacji, najtańsze narzędzie automatyzacji dla startupów, RPA za darmo do użytku osobistego",
@@ -37,7 +45,7 @@
     "landing.meta.philosophy.title": "Flyto2 Filozofia - Automatyzacja Pod Twoją Kontrolą",
     "landing.meta.philosophy.description": "Dlaczego zbudowaliśmy Flyto2 inaczej. Zachowanie kontroli to nie ograniczenie — to cały sens.",
     "landing.meta.philosophy.keywords": "filozofia automatyzacji, dlaczego automatyzacja powinna być przejrzysta i kontrolowalna, automatyzacja kontrolowana przez użytkownika którą można zweryfikować, automatyzacja open source z pełną widocznością, najlepsze podejście do automatyzacji wrażliwych zadań, narzędzie automatyzacji zaprojektowane dla ludzkiego nadzoru, dlaczego zbudowaliśmy automatyzację inaczej niż inni",
-    "landing.meta.usecases.title": "Flyto2 Przypadki Użycia - Realne Przykłady Automatyzacji",
+    "landing.meta.usecases.title": "Flyto2 - Realne Przykłady Automatyzacji",
     "landing.meta.usecases.description": "Zobacz, jak zespoły używają Flyto2 do automatyzacji procesów wymagających ludzkiego osądu i pełnego zapisu każdej akcji.",
     "landing.meta.usecases.keywords": "przypadki użycia automatyzacji, realne przykłady automatyzacji workflow, jak zespoły automatyzują powtarzalne zadania biznesowe, automatyzacja wprowadzania danych i formularzy przykłady, automatyzacja dla zgodności i ścieżek audytu, najlepsze przypadki użycia automatyzacji dla małych firm, jak zautomatyzować web scraping z weryfikacją, przykłady automatyzacji wymagające ludzkiego osądu",
     "landing.meta.compare.title": "Flyto2 - Czym Różni się od Innych Narzędzi",

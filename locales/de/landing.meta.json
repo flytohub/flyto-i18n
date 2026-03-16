@@ -4,9 +4,16 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Wiederkehrende Computeraufgaben einfach automatisieren",
+    "landing.meta.index.title": "Flyto2 - Wiederkehrende Aufgaben einfach automatisieren",
     "landing.meta.index.description": "Flyto2 hilft Ihnen, wiederkehrende Browser-Aufgaben ohne Programmierkenntnisse zu automatisieren. Einmal aufnehmen, immer wieder abspielen. Jederzeit anhalten, prüfen und weitermachen. Funktioniert offline.",
     "landing.meta.index.keywords": "Browser Automatisierung, Automatisierung ohne Programmierung, wiederholende Aufgaben automatisieren Anleitung, Formular automatisch ausfüllen kostenlos, Browseraktionen aufzeichnen und wiederholen, kostenlose Automatisierung ohne Programmieren, Dateneingabe automatisieren Tool, flyto2 Browser-Automatisierung, wie kann ich wiederkehrende PC-Aufgaben automatisieren, Web-Scraping ohne Code, Offline-Automatisierungstool das lokal läuft, Aufnehmen und Abspielen Automatisierung App, Automatisierung für Anfänger ohne Programmierkenntnisse, bestes kostenloses Workflow-Automatisierungstool",
+
+    "landing.meta.dev.title": "Flyto2 für Entwickler - KI-Code-Review & Analyse",
+    "landing.meta.dev.description": "KI-gestützte Entwicklertools. Sichere Code-Änderungen mit vollständiger Review-Historie. Code-Intelligenz für jedes KI-Tool.",
+    "landing.meta.node.title": "Flyto2 für Node.js - Mit JavaScript automatisieren",
+    "landing.meta.node.description": "Automatisieren Sie Browser-Aufgaben und Workflows mit JavaScript und TypeScript. Installation über npm, funktioniert offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Im Browser automatisieren",
+    "landing.meta.wasm.description": "Flyto2-Automatisierung direkt im Browser ausführen. Keine Installation nötig. WebAssembly-basiert.",
 
     "landing.meta.pricing.title": "Flyto2 Preise - Dauerhaft kostenlos | Pro ab 9$/Monat",
     "landing.meta.pricing.description": "Einfache Preise für Flyto2. Dauerhaft kostenlos für den persönlichen Gebrauch. Pro ab 9$/Monat für Teams. Keine versteckten Kosten.",
@@ -44,11 +51,11 @@
     "landing.meta.product.description": "Entdecken Sie die Funktionen von Flyto2. Jederzeit anhalten und prüfen, zurückgehen und Fehler beheben, lückenlose Aufzeichnung jedes Schritts. Funktioniert offline.",
     "landing.meta.product.keywords": "Flyto2 Funktionen, Automatisierungstool mit Pause und Fortsetzen, Workflow-Builder der jeden Schritt aufzeichnet, vertrauenswürdiges und überprüfbares Automatisierungstool, Automatisierungstool mit Schritt-für-Schritt-Screenshots, No-Code-Workflow-Builder für Desktop, Automatisierung bei der man Fehler rückgängig machen kann, flyto2 Produktübersicht und Funktionen",
 
-    "landing.meta.philosophy.title": "Flyto2 Philosophie - Automatisierung, die Sie kontrollieren können",
+    "landing.meta.philosophy.title": "Flyto2 Philosophie - Automatisierung unter Ihrer Kontrolle",
     "landing.meta.philosophy.description": "Warum wir Flyto2 anders gebaut haben. Die Kontrolle zu behalten ist keine Einschränkung — es ist der ganze Sinn.",
     "landing.meta.philosophy.keywords": "Automatisierung Philosophie, warum Automatisierung transparent und kontrollierbar sein sollte, vom Nutzer kontrollierte Automatisierung die man überprüfen kann, Open-Source-Automatisierung mit voller Transparenz, bester Automatisierungsansatz für sensible Aufgaben, Automatisierungstool für menschliche Aufsicht, warum wir Automatisierung anders gebaut haben",
 
-    "landing.meta.usecases.title": "Flyto2 Anwendungsfälle - Praxisbeispiele für Automatisierung",
+    "landing.meta.usecases.title": "Flyto2 Anwendungsfälle - Praxisbeispiele",
     "landing.meta.usecases.description": "Sehen Sie, wie Teams Flyto2 nutzen, um Abläufe zu automatisieren, die menschliches Urteil und eine lückenlose Aufzeichnung brauchen.",
     "landing.meta.usecases.keywords": "Automatisierung Anwendungsfälle, reale Workflow-Automatisierung Beispiele, wie Teams wiederkehrende Geschäftsaufgaben automatisieren, Dateneingabe und Formulare automatisieren Beispiele, Automatisierung für Compliance und Audit-Trails, beste Automatisierung für kleine Unternehmen, Web-Scraping mit Überprüfung automatisieren, Automatisierungsbeispiele die menschliches Urteil brauchen",
 

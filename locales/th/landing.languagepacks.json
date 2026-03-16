@@ -7,6 +7,8 @@
     "landing.languagepacks.available.loading": "กำลังโหลดแพ็กภาษาที่มี...",
     "landing.languagepacks.available.subtitle": "ดาวน์โหลดและติดตั้งแพ็กภาษาออฟไลน์",
     "landing.languagepacks.available.title": "แพ็กภาษาที่มี",
+    "landing.languagepacks.help.desc": "Flyto2 ถูกแปลโดยชุมชน ถ้าคุณอยากช่วยปรับปรุงการแปลหรือเพิ่มภาษาใหม่ ไปเยี่ยมชม GitHub repository ของเรา",
+    "landing.languagepacks.help.title": "ช่วยเราแปล",
     "landing.languagepacks.hero.description": "ดาวน์โหลดไฟล์แปลสำหรับใช้ออฟไลน์ใน Flyto2",
     "landing.languagepacks.hero.title": "แพ็กภาษา",
     "landing.languagepacks.howto.step1": "ดาวน์โหลดไฟล์แพ็กภาษา (.json)",
@@ -18,6 +20,8 @@
     "landing.languagepacks.request.feature1": "การแปลที่ขับเคลื่อนโดยชุมชน",
     "landing.languagepacks.request.feature2": "อัปเดตเป็นประจำ",
     "landing.languagepacks.request.subtitle": "ไม่เห็นภาษาของคุณ? แจ้งให้เราทราบ!",
-    "landing.languagepacks.request.title": "ขอภาษา"
+    "landing.languagepacks.request.title": "ขอภาษา",
+    "landing.languagepacks.what.desc": "แพ็กภาษาแปลอินเทอร์เฟซทั้งหมดของ Flyto2 เป็นภาษาของคุณ เมนู ปุ่ม ข้อความ และข้อความช่วยเหลือ — ทุกอย่างเปลี่ยนเป็นภาษาที่คุณต้องการ",
+    "landing.languagepacks.what.title": "แพ็กภาษาคืออะไร?"
   }
 }

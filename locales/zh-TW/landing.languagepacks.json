@@ -7,6 +7,8 @@
     "landing.languagepacks.available.loading": "正在載入可用的語言套件...",
     "landing.languagepacks.available.subtitle": "下載並安裝離線語言套件",
     "landing.languagepacks.available.title": "可用的語言套件",
+    "landing.languagepacks.help.desc": "Flyto2 由社群翻譯。如果你想幫忙改善翻譯或新增語言，歡迎到我們的 GitHub 儲存庫。",
+    "landing.languagepacks.help.title": "幫助我們翻譯",
     "landing.languagepacks.hero.description": "下載 Flyto2 離線使用的翻譯檔案",
     "landing.languagepacks.hero.title": "語言套件",
     "landing.languagepacks.howto.step1": "下載語言套件檔案 (.json)",
@@ -18,6 +20,8 @@
     "landing.languagepacks.request.feature1": "社群驅動的翻譯",
     "landing.languagepacks.request.feature2": "定期更新",
     "landing.languagepacks.request.subtitle": "找不到您的語言？讓我們知道！",
-    "landing.languagepacks.request.title": "請求新增語言"
+    "landing.languagepacks.request.title": "請求新增語言",
+    "landing.languagepacks.what.desc": "語言套件會將整個 Flyto2 介面翻譯成你的語言。選單、按鈕、訊息和說明文字——全部都會變成你偏好的語言。",
+    "landing.languagepacks.what.title": "什麼是語言套件？"
   }
 }

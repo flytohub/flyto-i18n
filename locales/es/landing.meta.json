@@ -4,15 +4,22 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Convierte tareas repetitivas en automatización simple",
+    "landing.meta.index.title": "Flyto2 - Automatiza tareas repetitivas fácilmente",
     "landing.meta.index.description": "Flyto2 te ayuda a automatizar tareas repetitivas del navegador sin programar. Graba tus acciones una vez, reprodúcelas siempre. Pausa, revisa y continúa cuando quieras. Funciona sin conexión.",
     "landing.meta.index.keywords": "automatización del navegador, automatización sin código, automatizar tareas repetitivas sin código, herramienta automatización navegador gratis, automatizar formularios web fácilmente, automatización sin programar, entrada de datos automática herramienta, flyto2 automatización navegador, cómo automatizar tareas repetitivas en el ordenador, web scraping sin programar, herramienta de automatización offline que funciona local, grabar y reproducir acciones del navegador, automatización para principiantes sin código, mejor herramienta gratuita de automatización",
+
+    "landing.meta.dev.title": "Flyto2 para Desarrolladores - Revisión de Código con IA",
+    "landing.meta.dev.description": "Herramientas para desarrolladores con IA. Cambios de código seguros con historial completo de revisión. Inteligencia de código para cualquier herramienta de IA.",
+    "landing.meta.node.title": "Flyto2 para Node.js - Automatiza con JavaScript",
+    "landing.meta.node.description": "Automatiza tareas del navegador y flujos de trabajo con JavaScript y TypeScript. Instala con npm, funciona offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Automatiza en el navegador",
+    "landing.meta.wasm.description": "Ejecuta la automatización de Flyto2 directamente en el navegador. Sin instalación. Impulsado por WebAssembly.",
 
     "landing.meta.pricing.title": "Precios de Flyto2 - Gratis para siempre | Pro desde $9/mes",
     "landing.meta.pricing.description": "Precios simples para Flyto2. Plan gratuito para siempre para uso personal. Plan Pro desde $9/mes para equipos. Sin costos ocultos.",
     "landing.meta.pricing.keywords": "precios flyto2, herramienta automatización gratis sin tarjeta, comparación planes automatización precios, software automatización navegador gratis uso personal, cuánto cuesta la automatización de procesos, mejor herramienta automatización sin código gratis, automatización económica para equipos pequeños, flyto2 es gratis para siempre, alternativa gratuita a plataformas de automatización de pago, herramienta automatización sin límites gratis, comparación precios software automatización, herramienta automatización barata para startups, RPA gratis para uso personal",
 
-    "landing.meta.download.title": "Descargar Flyto2 - Windows, macOS, Linux | App de escritorio gratuita",
+    "landing.meta.download.title": "Descargar Flyto2 - Windows, macOS, Linux | App gratuita",
     "landing.meta.download.description": "Descarga la app de escritorio Flyto2 para Windows, macOS y Linux. Funciona sin conexión. No necesitas cuenta para empezar.",
     "landing.meta.download.keywords": "descargar flyto2, descargar herramienta automatización gratis escritorio, automatización navegador Windows Mac Linux, instalar software automatización gratis sin cuenta, software automatización offline descarga gratuita, cómo instalar flyto2 en mi ordenador, mejor herramienta automatización todas las plataformas, descargar app automatización sin código gratis, herramienta automatización que funciona sin internet, instalador automatización escritorio multiplataforma, herramienta CLI automatización para desarrolladores, pip instalar automatización navegador, motor automatización código abierto descargar",
 
@@ -28,7 +35,7 @@
     "landing.meta.contact.description": "Contacta al equipo de Flyto2 para soporte, consultas o colaboraciones.",
     "landing.meta.contact.keywords": "contactar flyto2, obtener ayuda herramienta automatización navegador, contacto soporte al cliente automatización, consulta ventas automatización empresarial, cómo contactar equipo soporte flyto2, soporte técnico flyto2, solicitar solución automatización personalizada, herramienta automatización para equipos empresariales, reportar error en flyto2, preguntas ventas y licencias flyto2, solicitar demo flyto2, oportunidad asociación software automatización",
 
-    "landing.meta.buyoffline.title": "Comprar licencia sin conexión de Flyto2 - Sin internet necesario",
+    "landing.meta.buyoffline.title": "Comprar licencia offline Flyto2 - Sin internet",
     "landing.meta.buyoffline.description": "Compra una licencia sin conexión de Flyto2. Pago único, funciona sin internet, tus datos se quedan en tu computadora.",
     "landing.meta.buyoffline.keywords": "flyto2 licencia offline, comprar herramienta automatización pago único, software automatización que funciona sin internet, automatización escritorio offline sin suscripción, comprar licencia permanente software automatización, mejor herramienta automatización offline sin nube, herramienta automatización sin cuotas mensuales, ejecutar automatización completamente offline, licencia offline automatización empresarial, puedo usar flyto2 sin conexión a internet, automatización offline para datos sensibles, software automatización pago único recomendación",
 
@@ -48,7 +55,7 @@
     "landing.meta.philosophy.description": "Por qué construimos Flyto2 de forma diferente. Mantener el control no es una limitación — es el objetivo.",
     "landing.meta.philosophy.keywords": "filosofía automatización, por qué la automatización debe ser transparente y controlable, automatización controlada por el usuario que puedes verificar, automatización código abierto con visibilidad total, mejor enfoque automatización para tareas sensibles, herramienta automatización diseñada para supervisión humana, por qué construimos automatización diferente a otros",
 
-    "landing.meta.usecases.title": "Casos de uso de Flyto2 - Ejemplos reales de automatización",
+    "landing.meta.usecases.title": "Casos de uso de Flyto2 - Ejemplos reales",
     "landing.meta.usecases.description": "Mira cómo los equipos usan Flyto2 para automatizar procesos que necesitan criterio humano y un registro completo de cada acción.",
     "landing.meta.usecases.keywords": "casos de uso automatización, ejemplos reales automatización de procesos, cómo equipos automatizan tareas repetitivas empresariales, automatizar entrada datos y formularios ejemplos, automatización para cumplimiento y auditoría, mejores casos uso automatización pequeñas empresas, cómo automatizar web scraping con verificación, ejemplos automatización que necesitan juicio humano",
 

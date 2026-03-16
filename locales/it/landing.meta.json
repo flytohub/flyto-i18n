@@ -4,9 +4,17 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Trasforma le Attività Ripetitive in Automazione Semplice",
+    "landing.meta.index.title": "Flyto2 - Automatizza le attività ripetitive facilmente",
     "landing.meta.index.description": "Flyto2 ti aiuta ad automatizzare le attività ripetitive del browser senza programmare. Registra le tue azioni una volta, ripetile per sempre. Metti in pausa, controlla e riprendi in qualsiasi momento. Funziona offline.",
     "landing.meta.index.keywords": "automazione browser, automazione senza codice, come automatizzare attività ripetitive al computer, compilare moduli automaticamente gratis, registrare e riprodurre azioni browser, strumento automazione senza programmazione, automazione inserimento dati, flyto2 automazione browser, come automatizzare compiti ripetitivi sul PC, web scraping senza codice, strumento automazione offline che gira in locale, app registra e riproduci automazione, automazione no-code per principianti, miglior strumento gratuito automazione workflow",
+
+    "landing.meta.dev.title": "Flyto2 per Sviluppatori - Code Review IA & Analisi",
+    "landing.meta.dev.description": "Strumenti per sviluppatori basati su IA. Modifiche al codice sicure con cronologia completa delle revisioni. Intelligenza del codice per ogni strumento IA.",
+    "landing.meta.node.title": "Flyto2 Node.js - Automatizza con JavaScript",
+    "landing.meta.node.description": "Automatizza attività del browser e workflow con JavaScript e TypeScript. Installa via npm, funziona offline.",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - Automatizza nel browser",
+    "landing.meta.wasm.description": "Esegui l'automazione Flyto2 direttamente nel browser. Nessuna installazione necessaria. Basato su WebAssembly.",
+
     "landing.meta.pricing.title": "Flyto2 Prezzi - Piano Gratuito Per Sempre | Pro da $9/mese",
     "landing.meta.pricing.description": "Prezzi semplici per Flyto2. Piano gratuito per sempre per uso personale. Piano Pro da $9/mese per i team. Nessun costo nascosto.",
     "landing.meta.pricing.keywords": "flyto2 prezzi, strumento automazione gratuito senza carta di credito, confronto piani prezzi automazione, software automazione browser gratuito uso personale, quanto costa automazione workflow, miglior strumento automazione no-code gratuito, automazione economica per piccoli team, flyto2 è gratis per sempre, alternativa gratuita piattaforme automazione a pagamento, strumento automazione gratuito senza limiti, confronto prezzi software automazione, strumento automazione economico per startup, RPA gratuito uso personale",
@@ -22,7 +30,7 @@
     "landing.meta.contact.title": "Contatta Flyto2 - Parla Con il Nostro Team",
     "landing.meta.contact.description": "Contatta il team Flyto2 per supporto, richieste commerciali o opportunità di partnership.",
     "landing.meta.contact.keywords": "contatta flyto2, aiuto strumento automazione browser, contatto assistenza clienti automazione, richiesta commerciale automazione aziendale, come contattare team supporto flyto2, supporto tecnico flyto2, richiesta soluzione automazione personalizzata, strumento automazione per team aziendali, segnalare bug flyto2, domande vendita e licenze flyto2, richiedere demo flyto2, opportunità partnership software automazione",
-    "landing.meta.buyoffline.title": "Acquista Licenza Offline Flyto2 - Niente Internet Necessario",
+    "landing.meta.buyoffline.title": "Acquista Licenza Offline Flyto2 - Senza Internet",
     "landing.meta.buyoffline.description": "Acquista una licenza offline di Flyto2. Pagamento unico, funziona senza internet, i tuoi dati restano sul tuo computer.",
     "landing.meta.buyoffline.keywords": "flyto2 licenza offline, acquistare strumento automazione pagamento unico, software automazione che funziona senza internet, automazione desktop offline senza abbonamento, acquistare licenza permanente software automazione, miglior strumento automazione offline senza cloud, strumento automazione senza canone mensile, eseguire automazione completamente offline sul desktop, licenza offline automazione aziendale, posso usare flyto2 senza connessione internet, automazione offline per dati sensibili, software automazione acquisto unico consigliato",
     "landing.meta.languagepacks.title": "Flyto2 Pacchetti Lingua - Supporto Multilingua",

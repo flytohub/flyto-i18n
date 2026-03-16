@@ -4,9 +4,16 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Turn Repetitive Computer Tasks into Simple Automation",
+    "landing.meta.index.title": "Flyto2 - 輕鬆自動化重複的電腦工作",
     "landing.meta.index.description": "Flyto2 helps you automate repetitive browser tasks without coding. Record your actions once, replay them forever. Pause, check, and resume anytime. Works offline.",
     "landing.meta.index.keywords": "瀏覽器自動化, 免費自動化工具, 不用寫程式 自動化, 重複工作 自動化 方法, 表單自動填寫 工具, 網頁操作 自動化 免費, 資料輸入 自動化, flyto2 瀏覽器自動化, 如何自動化重複的電腦工作, 錄製並重播瀏覽器操作, 不需要寫程式的自動化工具, 離線也能用的自動化軟體, 網頁爬蟲 不用寫程式, 初學者 無程式碼自動化工具",
+
+    "landing.meta.dev.title": "Flyto2 開發者工具 - AI 程式碼審查與分析",
+    "landing.meta.dev.description": "AI 驅動的開發者工具。安全的程式碼變更，完整的審查紀錄。適用於任何 AI 工具的程式碼智慧分析。",
+    "landing.meta.node.title": "Flyto2 Node.js - 用 JavaScript 自動化",
+    "landing.meta.node.description": "使用 JavaScript 和 TypeScript 自動化瀏覽器任務與工作流程。透過 npm 安裝，支援離線使用。",
+    "landing.meta.wasm.title": "Flyto2 WebAssembly - 在瀏覽器中自動化",
+    "landing.meta.wasm.description": "直接在瀏覽器中執行 Flyto2 自動化。無需安裝，由 WebAssembly 驅動。",
 
     "landing.meta.pricing.title": "Flyto2 Pricing - Free Forever Plan | Pro from $9/month",
     "landing.meta.pricing.description": "Simple pricing for Flyto2. Free forever plan for personal use. Pro plan from $9/month for teams. No hidden fees.",
