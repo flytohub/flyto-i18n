@@ -97,6 +97,10 @@
     "landing.index.video.titleHighlight": "簡單",
     "landing.index.video.titleEnd": "",
     "landing.index.video.subtitle": "看一段快速示範 — 不需要任何技術背景就能看懂。",
-    "landing.index.video.moreVideos": "到 YouTube 頻道看更多影片"
+    "landing.index.video.moreVideos": "到 YouTube 頻道看更多影片",
+    "landing.index.short.titleStart": "一分鐘，",
+    "landing.index.short.titleHighlight": "就這麼簡單。",
+    "landing.index.short.description": "一分鐘看完 Flyto2 怎麼用。不用設定、不用解釋 — 看就懂了。",
+    "landing.index.short.moreShorts": "到 YouTube 看更多影片"
   }
 }

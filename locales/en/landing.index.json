@@ -97,6 +97,10 @@
     "landing.index.video.titleHighlight": "Simple",
     "landing.index.video.titleEnd": "It Is",
     "landing.index.video.subtitle": "Watch a quick demo — no technical knowledge needed to follow along.",
-    "landing.index.video.moreVideos": "Watch more on our YouTube channel"
+    "landing.index.video.moreVideos": "Watch more on our YouTube channel",
+    "landing.index.short.titleStart": "One Minute.",
+    "landing.index.short.titleHighlight": "That's All You Need.",
+    "landing.index.short.description": "See how Flyto2 works in under a minute. No setup, no explanation — just watch.",
+    "landing.index.short.moreShorts": "More videos on YouTube"
   }
 }
