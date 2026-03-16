@@ -10,7 +10,7 @@
     "templateBuilder.aiChat.coordinationStarted": "協調已開始",
     "templateBuilder.aiChat.errorConnection": "無法連接 AI 服務，請檢查網路連線。",
     "templateBuilder.aiChat.errorGeneric": "發生錯誤，請重試。",
-    "templateBuilder.aiChat.inputPlaceholder": "請 AI 協助您的工作流程...",
+    "templateBuilder.aiChat.inputPlaceholder": "有什麼我能幫你的？",
     "templateBuilder.aiChat.quickLoginFlow": "登入流程",
     "templateBuilder.aiChat.quickScraper": "爬蟲",
     "templateBuilder.aiChat.quickValidation": "驗證",

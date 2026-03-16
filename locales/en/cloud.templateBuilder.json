@@ -10,7 +10,7 @@
     "templateBuilder.aiChat.coordinationStarted": "Coordination started",
     "templateBuilder.aiChat.errorConnection": "Unable to connect to AI service. Please check your connection.",
     "templateBuilder.aiChat.errorGeneric": "An error occurred. Please try again.",
-    "templateBuilder.aiChat.inputPlaceholder": "Ask AI to help with your workflow...",
+    "templateBuilder.aiChat.inputPlaceholder": "Ask me anything...",
     "templateBuilder.aiChat.quickLoginFlow": "Login flow",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validation",
