@@ -4,47 +4,60 @@
   "category": "landing.meta",
   "version": "1.0.0",
   "translations": {
-    "landing.meta.index.title": "Flyto2 - Enterprise-Workflow-Plattform | Human-in-the-Loop-Automatisierung",
-    "landing.meta.index.description": "Flyto2 ist eine Enterprise-Workflow-Plattform, die UI-gesteuerte Automatisierung mit menschlicher Aufsicht kombiniert. Erstellen Sie Workflows mit Genehmigungsschritten, Validierungsprüfpunkten und vollständigen Audit-Trails. 100% offline.",
-    "landing.meta.index.keywords": "Enterprise Workflow-Plattform, UI-gesteuerte Automatisierung, Workflow mit menschlicher Genehmigung, RPA-Alternative, Human-in-the-Loop, Workflow-Validierung, Offline-Automatisierung, Geschäftsprozessautomatisierung",
-    "landing.meta.pricing.title": "Flyto2 Preise - Dauerhaft kostenloser Plan | Pro ab $9/Monat",
-    "landing.meta.pricing.description": "Einfache Preisgestaltung für die Flyto2-Automatisierungsplattform. Dauerhaft kostenlos für den persönlichen Gebrauch. Pro-Plan ab $9/Monat für Teams. Keine versteckten Gebühren.",
-    "landing.meta.pricing.keywords": "flyto2 Preise, Automatisierung Kosten, Workflow-Automatisierung Preis, RPA Preise",
-    "landing.meta.download.title": "Flyto2 Download - Windows, macOS, Linux | Kostenlose Desktop-App",
-    "landing.meta.download.description": "Laden Sie die Flyto2 Desktop-App für Windows, macOS und Linux herunter. 100% Offline-Automatisierungstool. Kein Konto erforderlich.",
-    "landing.meta.download.keywords": "flyto2 Download, Automatisierungssoftware, Desktop-Automatisierungs-App, Offline-Automatisierungstool",
-    "landing.meta.app.title": "Flyto2 Web-App - Greifen Sie überall auf Ihre Workflows zu",
-    "landing.meta.app.description": "Greifen Sie auf die Flyto2-Webanwendung zu. Verwalten Sie Ihre Workflows, sehen Sie den Ausführungsverlauf und arbeiten Sie mit Ihrem Team von jedem Browser aus zusammen.",
-    "landing.meta.app.keywords": "flyto2 Web-App, Workflow-Management, Automatisierungs-Dashboard, Team-Zusammenarbeit",
+    "landing.meta.index.title": "Flyto2 - Wiederkehrende Computeraufgaben einfach automatisieren",
+    "landing.meta.index.description": "Flyto2 hilft Ihnen, wiederkehrende Browser-Aufgaben ohne Programmierkenntnisse zu automatisieren. Einmal aufnehmen, immer wieder abspielen. Jederzeit anhalten, prüfen und weitermachen. Funktioniert offline.",
+    "landing.meta.index.keywords": "Browser-Automatisierung, Automatisierung ohne Programmieren, wiederkehrende Aufgaben automatisieren, Aufnehmen und Abspielen, Workflow-Automatisierung, Offline-Automatisierungs-Tool",
+
+    "landing.meta.pricing.title": "Flyto2 Preise - Dauerhaft kostenlos | Pro ab 9$/Monat",
+    "landing.meta.pricing.description": "Einfache Preise für Flyto2. Dauerhaft kostenlos für den persönlichen Gebrauch. Pro ab 9$/Monat für Teams. Keine versteckten Kosten.",
+    "landing.meta.pricing.keywords": "Flyto2 Preise, Automatisierung Kosten, Workflow-Automatisierung Preis, kostenloses Automatisierungs-Tool",
+
+    "landing.meta.download.title": "Flyto2 herunterladen - Windows, macOS, Linux | Kostenlose Desktop-App",
+    "landing.meta.download.description": "Flyto2 Desktop-App für Windows, macOS und Linux herunterladen. Funktioniert offline. Kein Konto nötig.",
+    "landing.meta.download.keywords": "Flyto2 herunterladen, Automatisierungs-Software Download, Desktop-Automatisierungs-App, Offline-Automatisierungs-Tool",
+
+    "landing.meta.app.title": "Flyto2 App - In Sekunden automatisieren, jeden Schritt sehen",
+    "landing.meta.app.description": "Flyto2 Desktop-App. Browser-Aufgaben in Sekunden automatisieren mit Screenshots bei jedem Schritt. Läuft lokal, Ihre Daten bleiben bei Ihnen.",
+    "landing.meta.app.keywords": "Flyto2 App, Desktop-Automatisierung, Browser-Automatisierung, Offline-Tool",
+
     "landing.meta.faq.title": "Flyto2 FAQ - Häufig gestellte Fragen",
-    "landing.meta.faq.description": "Finden Sie Antworten auf häufige Fragen zu Flyto2. Erfahren Sie mehr über Funktionen, Preise, Sicherheit und wie Sie mit der Workflow-Automatisierung beginnen.",
-    "landing.meta.faq.keywords": "flyto2 FAQ, Automatisierungsfragen, Workflow-Hilfe, flyto2 Support",
-    "landing.meta.contact.title": "Flyto2 Kontakt - Nehmen Sie Kontakt mit unserem Team auf",
-    "landing.meta.contact.description": "Kontaktieren Sie das Flyto2-Team für Support, Verkaufsanfragen oder Partnerschaftsmöglichkeiten. Wir helfen Ihnen bei der Automatisierung.",
-    "landing.meta.contact.keywords": "flyto2 Kontakt, Automatisierungssupport, Verkaufsanfrage, Partnerschaft",
-    "landing.meta.buyoffline.title": "Flyto2 Offline-Lizenz kaufen - Kein Internet erforderlich",
-    "landing.meta.buyoffline.description": "Kaufen Sie eine Flyto2-Offline-Lizenz für Air-Gap-Umgebungen. Dauerlizenz ohne Internetverbindung.",
-    "landing.meta.buyoffline.keywords": "flyto2 Offline-Lizenz, Air-Gap-Automatisierung, Dauerlizenz, Offline-Kauf",
+    "landing.meta.faq.description": "Antworten auf häufige Fragen zu Flyto2. Erfahren Sie mehr über Funktionen, Preise, Sicherheit und den Einstieg.",
+    "landing.meta.faq.keywords": "Flyto2 FAQ, Automatisierung Fragen, Einstieg, Flyto2 Hilfe",
+
+    "landing.meta.contact.title": "Flyto2 Kontakt - Sprechen Sie mit unserem Team",
+    "landing.meta.contact.description": "Kontaktieren Sie das Flyto2-Team für Unterstützung, Fragen oder Kooperationsmöglichkeiten.",
+    "landing.meta.contact.keywords": "Flyto2 Kontakt, Unterstützung, Anfragen, Kooperation",
+
+    "landing.meta.buyoffline.title": "Flyto2 Offline-Lizenz kaufen - Kein Internet nötig",
+    "landing.meta.buyoffline.description": "Kaufen Sie eine Flyto2 Offline-Lizenz. Einmalzahlung, funktioniert ohne Internet, Ihre Daten bleiben auf Ihrem Computer.",
+    "landing.meta.buyoffline.keywords": "Flyto2 Offline-Lizenz, Einmalkauf, kein Internet nötig, Offline-Automatisierung",
+
     "landing.meta.languagepacks.title": "Flyto2 Sprachpakete - Mehrsprachige Unterstützung",
-    "landing.meta.languagepacks.description": "Laden Sie Sprachpakete für Flyto2 herunter. Unterstützung für Chinesisch, Japanisch, Koreanisch, Deutsch, Spanisch, Französisch und mehr.",
-    "landing.meta.languagepacks.keywords": "flyto2 Sprachpaket, mehrsprachige Automatisierung, Lokalisierung, i18n",
+    "landing.meta.languagepacks.description": "Sprachpakete für Flyto2 herunterladen. Unterstützung für Chinesisch, Japanisch, Koreanisch, Deutsch, Spanisch, Französisch und mehr.",
+    "landing.meta.languagepacks.keywords": "Flyto2 Sprachpaket, mehrsprachig, Lokalisierung, Übersetzung",
+
     "landing.meta.about.title": "Über Flyto2 - Unsere Mission und Geschichte",
-    "landing.meta.about.description": "Erfahren Sie mehr über die Mission von Flyto2, Automatisierung für alle zugänglich zu machen. Unsere Geschichte, Werte und das Team hinter dem Produkt.",
-    "landing.meta.about.keywords": "über flyto2, Automatisierungsunternehmen, unsere Mission, Team",
-    "landing.meta.product.title": "Flyto2 Produkt - Funktionen und Fähigkeiten",
-    "landing.meta.product.description": "Entdecken Sie die Funktionen des Flyto2-Produkts. Visueller Workflow-Builder, Human-in-the-Loop-Automatisierung, Audit-Trails und mehr.",
-    "landing.meta.product.keywords": "flyto2 Funktionen, Automatisierungsfähigkeiten, Workflow-Builder, Produktübersicht",
-    "landing.meta.philosophy.title": "Flyto2 Philosophie - Menschenzentrierte Automatisierung",
-    "landing.meta.philosophy.description": "Unsere Philosophie zur Automatisierung. Warum wir an menschliche Aufsicht, Transparenz und Benutzerkontrolle glauben.",
-    "landing.meta.philosophy.keywords": "Automatisierungsphilosophie, menschenzentriertes Design, ethische Automatisierung, Transparenz",
+    "landing.meta.about.description": "Erfahren Sie mehr über Flyto2s Mission, Automatisierung für alle zugänglich zu machen. Open Source, transparent, mit dem Menschen im Mittelpunkt.",
+    "landing.meta.about.keywords": "Über Flyto2, unsere Mission, Open-Source-Automatisierung, Team",
+
+    "landing.meta.product.title": "Flyto2 Produkt - Funktionen, denen Sie vertrauen können",
+    "landing.meta.product.description": "Entdecken Sie die Funktionen von Flyto2. Jederzeit anhalten und prüfen, zurückgehen und Fehler beheben, lückenlose Aufzeichnung jedes Schritts. Funktioniert offline.",
+    "landing.meta.product.keywords": "Flyto2 Funktionen, Automatisierungs-Tool, Workflow-Builder, Produktübersicht",
+
+    "landing.meta.philosophy.title": "Flyto2 Philosophie - Automatisierung, die Sie kontrollieren können",
+    "landing.meta.philosophy.description": "Warum wir Flyto2 anders gebaut haben. Die Kontrolle zu behalten ist keine Einschränkung — es ist der ganze Sinn.",
+    "landing.meta.philosophy.keywords": "Automatisierungs-Philosophie, transparente Automatisierung, Benutzerkontrolle, Open Source",
+
     "landing.meta.usecases.title": "Flyto2 Anwendungsfälle - Praxisbeispiele für Automatisierung",
-    "landing.meta.usecases.description": "Entdecken Sie, wie Unternehmen Flyto2 zur Automatisierung ihrer Workflows nutzen. Echte Beispiele aus Finanzen, HR, Betrieb und mehr.",
-    "landing.meta.usecases.keywords": "Automatisierungs-Anwendungsfälle, Workflow-Beispiele, Geschäftsautomatisierung, RPA-Beispiele",
-    "landing.meta.compare.title": "Flyto2 vs Wettbewerber - Automatisierungstool-Vergleich",
-    "landing.meta.compare.description": "Vergleichen Sie Flyto2 mit anderen Automatisierungstools. Sehen Sie, wie wir uns von Zapier, Make, UiPath und anderen RPA-Lösungen unterscheiden.",
-    "landing.meta.compare.keywords": "flyto2 Vergleich, Automatisierungsvergleich, RPA-Alternativen, Zapier-Alternative",
-    "landing.meta.blog.title": "Flyto2 Blog - Automatisierungstipps und Updates",
-    "landing.meta.blog.description": "Lesen Sie das Neueste von Flyto2. Automatisierungstipps, Produktupdates, Brancheneinblicke und Best Practices.",
-    "landing.meta.blog.keywords": "flyto2 Blog, Automatisierungstipps, Produktupdates, Workflow-Best-Practices"
+    "landing.meta.usecases.description": "Sehen Sie, wie Teams Flyto2 nutzen, um Abläufe zu automatisieren, die menschliches Urteil und eine lückenlose Aufzeichnung brauchen.",
+    "landing.meta.usecases.keywords": "Automatisierungs-Anwendungsfälle, Workflow-Beispiele, Geschäftsautomatisierung, Praxisbeispiele",
+
+    "landing.meta.compare.title": "Flyto2 - Was es von anderen Tools unterscheidet",
+    "landing.meta.compare.description": "Sehen Sie, wo Flyto2 passt und wo nicht. Ehrlicher Vergleich mit anderen Automatisierungs-Ansätzen.",
+    "landing.meta.compare.keywords": "Flyto2 Vergleich, Automatisierungs-Vergleich, alternative Tools, welches Tool wählen",
+
+    "landing.meta.blog.title": "Flyto2 Blog - Tipps und Neuigkeiten",
+    "landing.meta.blog.description": "Das Neueste von Flyto2. Automatisierungs-Tipps, Produkt-Updates und praktische Anleitungen.",
+    "landing.meta.blog.keywords": "Flyto2 Blog, Automatisierungs-Tipps, Produkt-Updates, Anleitungen"
   }
 }
