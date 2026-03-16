@@ -92,6 +92,11 @@
     "landing.index.why.noBatchDesc": "管理後台一次只能處理一筆，沒辦法整批操作。",
     "landing.index.why.noBatchTitle": "只能一筆一筆來",
     "landing.index.why.subtitle": "很多工作不難，就是很煩。",
-    "landing.index.why.title": "為什麼需要 Flyto2"
+    "landing.index.why.title": "為什麼需要 Flyto2",
+    "landing.index.video.titleStart": "看看有多",
+    "landing.index.video.titleHighlight": "簡單",
+    "landing.index.video.titleEnd": "",
+    "landing.index.video.subtitle": "看一段快速示範 — 不需要任何技術背景就能看懂。",
+    "landing.index.video.moreVideos": "到 YouTube 頻道看更多影片"
   }
 }

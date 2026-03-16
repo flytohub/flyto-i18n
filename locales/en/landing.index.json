@@ -92,6 +92,11 @@
     "landing.index.why.noBatchDesc": "Your admin panel only lets you do one thing at a time. No way to process in bulk.",
     "landing.index.why.noBatchTitle": "One at a Time",
     "landing.index.why.subtitle": "Many tasks aren't hard, they're just tedious.",
-    "landing.index.why.title": "Why"
+    "landing.index.why.title": "Why",
+    "landing.index.video.titleStart": "See How",
+    "landing.index.video.titleHighlight": "Simple",
+    "landing.index.video.titleEnd": "It Is",
+    "landing.index.video.subtitle": "Watch a quick demo — no technical knowledge needed to follow along.",
+    "landing.index.video.moreVideos": "Watch more on our YouTube channel"
   }
 }
