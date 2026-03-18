@@ -39,6 +39,7 @@
     "packages.removeSuccess": "{name} removed successfully",
     "packages.removeFailed": "Failed to remove {name}",
     "packages.updateAllSuccess": "{count} packages updated successfully",
-    "packages.updateAllPartial": "{succeeded} updated, {failed} failed"
+    "packages.updateAllPartial": "{succeeded} updated, {failed} failed",
+    "packages.managedByCloud": "Managed by cloud"
   }
 }

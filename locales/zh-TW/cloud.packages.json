@@ -39,6 +39,7 @@
     "packages.removeSuccess": "{name} 已移除",
     "packages.removeFailed": "{name} 移除失敗",
     "packages.updateAllSuccess": "已成功更新 {count} 個套件",
-    "packages.updateAllPartial": "{succeeded} 個更新成功，{failed} 個失敗"
+    "packages.updateAllPartial": "{succeeded} 個更新成功，{failed} 個失敗",
+    "packages.managedByCloud": "由雲端管理"
   }
 }
