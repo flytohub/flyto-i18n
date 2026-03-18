@@ -325,6 +325,16 @@
     "modules.browser.viewport.params.width.description": "Viewport width in pixels",
     "modules.browser.viewport.params.width.label": "Width",
     "modules.browser.wait.params.state.description": "State to wait for (visible, hidden, attached, detached)",
-    "modules.browser.wait.params.state.label": "State"
+    "modules.browser.wait.params.state.label": "State",
+    "modules.browser.readability.label": "Extract Article",
+    "modules.browser.readability.description": "Smart article extraction — extracts title, author, date, and main content from any webpage",
+    "modules.browser.readability.params.selector.label": "Content Selector",
+    "modules.browser.readability.params.selector.description": "CSS selector for content area. Leave empty for auto-detection.",
+    "modules.browser.readability.params.title_selector.label": "Title Selector",
+    "modules.browser.readability.params.include_images.label": "Include Images",
+    "modules.browser.readability.params.include_links.label": "Include Links",
+    "modules.browser.readability.params.min_content_length.label": "Min Content Length",
+    "modules.browser.readability.params.clean_selectors.label": "Extra Clean Selectors",
+    "modules.browser.readability.params.wait_ms.label": "Wait Before Extract (ms)"
   }
 }

@@ -325,6 +325,16 @@
     "modules.browser.wait.output.selector.description": "等待的選擇器",
     "modules.browser.wait.output.status.description": "操作狀態",
     "modules.browser.wait.params.state.description": "等待的狀態（可見、隱藏、附加、分離）",
-    "modules.browser.wait.params.state.label": "狀態"
+    "modules.browser.wait.params.state.label": "狀態",
+    "modules.browser.readability.label": "擷取文章",
+    "modules.browser.readability.description": "智慧文章擷取 — 自動提取標題、作者、日期與正文內容",
+    "modules.browser.readability.params.selector.label": "內容選擇器",
+    "modules.browser.readability.params.selector.description": "內容區域的 CSS 選擇器，留空自動偵測",
+    "modules.browser.readability.params.title_selector.label": "標題選擇器",
+    "modules.browser.readability.params.include_images.label": "包含圖片",
+    "modules.browser.readability.params.include_links.label": "包含連結",
+    "modules.browser.readability.params.min_content_length.label": "最短內容長度",
+    "modules.browser.readability.params.clean_selectors.label": "額外清除選擇器",
+    "modules.browser.readability.params.wait_ms.label": "擷取前等待（毫秒）"
   }
 }
