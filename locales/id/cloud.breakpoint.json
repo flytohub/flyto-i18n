@@ -18,6 +18,12 @@
     "breakpoint.reject": "Tolak",
     "breakpoint.step": "Langkah",
     "breakpoint.waitingApproval": "Menunggu persetujuan",
-    "breakpoint.workflow": "Alur Kerja"
+    "breakpoint.workflow": "Alur Kerja",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

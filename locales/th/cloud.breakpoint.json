@@ -18,6 +18,12 @@
     "breakpoint.reject": "ปฏิเสธ",
     "breakpoint.step": "ขั้นตอน",
     "breakpoint.waitingApproval": "กำลังรอการอนุมัติ",
-    "breakpoint.workflow": "Workflow"
+    "breakpoint.workflow": "Workflow",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

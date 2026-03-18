@@ -18,6 +18,12 @@
     "breakpoint.reject": "Odrzuc",
     "breakpoint.step": "Krok",
     "breakpoint.waitingApproval": "Oczekiwanie na zatwierdzenie",
-    "breakpoint.workflow": "Przeplyw"
+    "breakpoint.workflow": "Przeplyw",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

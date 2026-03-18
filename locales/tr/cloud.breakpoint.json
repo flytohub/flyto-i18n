@@ -18,6 +18,12 @@
     "breakpoint.reject": "Reddet",
     "breakpoint.step": "Adım",
     "breakpoint.waitingApproval": "Onay bekleniyor",
-    "breakpoint.workflow": "İş Akışı"
+    "breakpoint.workflow": "İş Akışı",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

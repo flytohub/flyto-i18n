@@ -18,6 +18,12 @@
     "breakpoint.reject": "Rechazar",
     "breakpoint.step": "Paso",
     "breakpoint.waitingApproval": "Esperando aprobación",
-    "breakpoint.workflow": "Flujo de trabajo"
+    "breakpoint.workflow": "Flujo de trabajo",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

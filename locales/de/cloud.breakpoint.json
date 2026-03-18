@@ -18,6 +18,12 @@
     "breakpoint.reject": "Ablehnen",
     "breakpoint.step": "Schritt",
     "breakpoint.waitingApproval": "Warte auf Genehmigung",
-    "breakpoint.workflow": "Arbeitsablauf"
+    "breakpoint.workflow": "Arbeitsablauf",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

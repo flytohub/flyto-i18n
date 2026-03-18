@@ -18,6 +18,12 @@
     "breakpoint.reject": "거부",
     "breakpoint.step": "단계",
     "breakpoint.waitingApproval": "승인 대기 중",
-    "breakpoint.workflow": "워크플로우"
+    "breakpoint.workflow": "워크플로우",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

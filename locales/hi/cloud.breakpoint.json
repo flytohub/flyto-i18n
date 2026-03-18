@@ -18,6 +18,12 @@
     "breakpoint.reject": "अस्वीकार करें",
     "breakpoint.step": "स्टेप",
     "breakpoint.waitingApproval": "अनुमोदन की प्रतीक्षा",
-    "breakpoint.workflow": "वर्कफ़्लो"
+    "breakpoint.workflow": "वर्कफ़्लो",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }

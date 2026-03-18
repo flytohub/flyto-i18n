@@ -18,6 +18,12 @@
     "breakpoint.reject": "拒否",
     "breakpoint.step": "ステップ",
     "breakpoint.waitingApproval": "承認待ち",
-    "breakpoint.workflow": "ワークフロー"
+    "breakpoint.workflow": "ワークフロー",
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
   }
 }
