@@ -18,6 +18,12 @@
     "breakpoint.reject": "拒絕",
     "breakpoint.step": "步驟",
     "breakpoint.waitingApproval": "等待審核中",
-    "breakpoint.workflow": "工作流程"
+    "breakpoint.workflow": "工作流程",
+    "browserInteract.title": "瀏覽器互動",
+    "browserInteract.pagePreview": "頁面預覽",
+    "browserInteract.noElements": "未偵測到互動元素",
+    "browserInteract.selectHint": "選擇一個元素進行互動",
+    "browserInteract.skip": "跳過",
+    "browserInteract.execute": "執行"
   }
 }

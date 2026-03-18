@@ -18,6 +18,12 @@
     "breakpoint.reject": "Reject",
     "breakpoint.step": "Step",
     "breakpoint.waitingApproval": "Waiting for approval",
-    "breakpoint.workflow": "Workflow"
+    "breakpoint.workflow": "Workflow",
+    "browserInteract.title": "Browser Interaction",
+    "browserInteract.pagePreview": "Page Preview",
+    "browserInteract.noElements": "No interactive elements detected",
+    "browserInteract.selectHint": "Select an element to interact with",
+    "browserInteract.skip": "Skip",
+    "browserInteract.execute": "Execute"
   }
 }
