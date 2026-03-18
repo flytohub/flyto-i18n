@@ -22,6 +22,8 @@
     "valueSource.sources.static.description": "Enter a fixed value",
     "valueSource.sources.static.label": "Static Value",
     "valueSource.sources.uiInput.description": "Link to frontend form field",
-    "valueSource.sources.uiInput.label": "From UI Input"
+    "valueSource.sources.uiInput.label": "From UI Input",
+    "valueSource.selectValue": "value",
+    "valueSource.selectText": "text"
   }
 }

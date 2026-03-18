@@ -22,6 +22,8 @@
     "valueSource.sources.static.description": "輸入固定值",
     "valueSource.sources.static.label": "靜態值",
     "valueSource.sources.uiInput.description": "連結到前端表單欄位",
-    "valueSource.sources.uiInput.label": "來自 UI 輸入"
+    "valueSource.sources.uiInput.label": "來自 UI 輸入",
+    "valueSource.selectValue": "值",
+    "valueSource.selectText": "文字"
   }
 }
