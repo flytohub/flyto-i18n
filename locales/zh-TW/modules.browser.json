@@ -363,6 +363,9 @@
     "modules.browser.proxy_rotate.label": "代理輪替",
     "modules.browser.proxy_rotate.description": "輪替代理伺服器列表，支援死代理偵測",
     "modules.browser.login.label": "登入",
-    "modules.browser.login.description": "自動偵測並填寫登入表單，支援登入後驗證"
+    "modules.browser.login.description": "自動偵測並填寫登入表單，支援登入後驗證",
+    "modules.browser.connect.label": "連接遠端瀏覽器",
+    "modules.browser.connect.description": "連接遠端瀏覽器服務（Browserless、BrowserBase），真實指紋繞過 Cloudflare",
+    "modules.browser.readability.params.ai_fallback.label": "AI 後備"
   }
 }

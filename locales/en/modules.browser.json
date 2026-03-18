@@ -363,6 +363,9 @@
     "modules.browser.proxy_rotate.label": "Rotate Proxy",
     "modules.browser.proxy_rotate.description": "Rotate through a list of proxies with dead proxy detection.",
     "modules.browser.login.label": "Login",
-    "modules.browser.login.description": "Auto-detect and fill login forms with post-login verification."
+    "modules.browser.login.description": "Auto-detect and fill login forms with post-login verification.",
+    "modules.browser.connect.label": "Connect Remote",
+    "modules.browser.connect.description": "Connect to a remote browser service (Browserless, BrowserBase). Real fingerprints, bypass Cloudflare.",
+    "modules.browser.readability.params.ai_fallback.label": "AI Fallback"
   }
 }
