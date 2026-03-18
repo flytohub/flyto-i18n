@@ -343,6 +343,16 @@
     "modules.browser.detect_list.params.max_items.label": "最多項目數",
     "modules.browser.detect_list.params.include_text.label": "包含文字摘要",
     "modules.browser.challenge.label": "處理驗證",
-    "modules.browser.challenge.description": "自動偵測並處理反機器人驗證（Cloudflare、CAPTCHA）"
+    "modules.browser.challenge.description": "自動偵測並處理反機器人驗證（Cloudflare、CAPTCHA）",
+    "modules.browser.response.label": "擷取回應",
+    "modules.browser.response.description": "擷取 API 回應內容（XHR/fetch），提取頁面 API 的 JSON 資料",
+    "modules.browser.table.label": "擷取表格",
+    "modules.browser.table.description": "將 HTML 表格提取為結構化資料，自動偵測表頭",
+    "modules.browser.extract_nested.label": "擷取巢狀資料",
+    "modules.browser.extract_nested.description": "提取樹狀/巢狀資料（留言串、討論串、資料夾結構）",
+    "modules.browser.cookies_file.label": "Cookie 檔案",
+    "modules.browser.cookies_file.description": "將瀏覽器 Cookie 匯出/匯入 JSON 檔案",
+    "modules.browser.pool.label": "瀏覽器池",
+    "modules.browser.pool.description": "管理多個命名瀏覽器實例，支援並行自動化"
   }
 }

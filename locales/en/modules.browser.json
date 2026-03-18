@@ -343,6 +343,16 @@
     "modules.browser.detect_list.params.max_items.label": "Max Items",
     "modules.browser.detect_list.params.include_text.label": "Include Text Snippet",
     "modules.browser.challenge.label": "Handle Challenge",
-    "modules.browser.challenge.description": "Auto-detect and handle anti-bot challenges (Cloudflare, CAPTCHA)"
+    "modules.browser.challenge.description": "Auto-detect and handle anti-bot challenges (Cloudflare, CAPTCHA)",
+    "modules.browser.response.label": "Capture Response",
+    "modules.browser.response.description": "Capture API response bodies (XHR/fetch). Extract JSON from page API calls.",
+    "modules.browser.table.label": "Extract Table",
+    "modules.browser.table.description": "Extract HTML tables as structured data with auto-detected headers.",
+    "modules.browser.extract_nested.label": "Extract Nested",
+    "modules.browser.extract_nested.description": "Extract tree/nested data (comments, threads, folders).",
+    "modules.browser.cookies_file.label": "Cookies File",
+    "modules.browser.cookies_file.description": "Import or export browser cookies to/from a JSON file.",
+    "modules.browser.pool.label": "Browser Pool",
+    "modules.browser.pool.description": "Manage multiple named browser instances for parallel automation."
   }
 }
