@@ -353,6 +353,16 @@
     "modules.browser.cookies_file.label": "Cookies File",
     "modules.browser.cookies_file.description": "Import or export browser cookies to/from a JSON file.",
     "modules.browser.pool.label": "Browser Pool",
-    "modules.browser.pool.description": "Manage multiple named browser instances for parallel automation."
+    "modules.browser.pool.description": "Manage multiple named browser instances for parallel automation.",
+    "modules.browser.robots.label": "Check Robots.txt",
+    "modules.browser.robots.description": "Check robots.txt compliance and discover sitemaps.",
+    "modules.browser.sitemap.label": "Parse Sitemap",
+    "modules.browser.sitemap.description": "Parse sitemap.xml and extract URLs with metadata.",
+    "modules.browser.throttle.label": "Throttle",
+    "modules.browser.throttle.description": "Per-domain rate limiting. Waits between requests to avoid bans.",
+    "modules.browser.proxy_rotate.label": "Rotate Proxy",
+    "modules.browser.proxy_rotate.description": "Rotate through a list of proxies with dead proxy detection.",
+    "modules.browser.login.label": "Login",
+    "modules.browser.login.description": "Auto-detect and fill login forms with post-login verification."
   }
 }

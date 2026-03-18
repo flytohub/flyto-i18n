@@ -353,6 +353,16 @@
     "modules.browser.cookies_file.label": "Cookie 檔案",
     "modules.browser.cookies_file.description": "將瀏覽器 Cookie 匯出/匯入 JSON 檔案",
     "modules.browser.pool.label": "瀏覽器池",
-    "modules.browser.pool.description": "管理多個命名瀏覽器實例，支援並行自動化"
+    "modules.browser.pool.description": "管理多個命名瀏覽器實例，支援並行自動化",
+    "modules.browser.robots.label": "檢查 Robots.txt",
+    "modules.browser.robots.description": "檢查 robots.txt 合規性並發現 sitemap",
+    "modules.browser.sitemap.label": "解析 Sitemap",
+    "modules.browser.sitemap.description": "解析 sitemap.xml 並提取 URL 及中繼資料",
+    "modules.browser.throttle.label": "請求限流",
+    "modules.browser.throttle.description": "按域名限流，避免請求過快被封鎖",
+    "modules.browser.proxy_rotate.label": "代理輪替",
+    "modules.browser.proxy_rotate.description": "輪替代理伺服器列表，支援死代理偵測",
+    "modules.browser.login.label": "登入",
+    "modules.browser.login.description": "自動偵測並填寫登入表單，支援登入後驗證"
   }
 }
