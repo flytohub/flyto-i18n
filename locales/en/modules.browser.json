@@ -335,6 +335,14 @@
     "modules.browser.readability.params.include_links.label": "Include Links",
     "modules.browser.readability.params.min_content_length.label": "Min Content Length",
     "modules.browser.readability.params.clean_selectors.label": "Extra Clean Selectors",
-    "modules.browser.readability.params.wait_ms.label": "Wait Before Extract (ms)"
+    "modules.browser.readability.params.wait_ms.label": "Wait Before Extract (ms)",
+    "modules.browser.detect_list.label": "Detect List",
+    "modules.browser.detect_list.description": "Auto-detect repeating items on any page (articles, products, search results)",
+    "modules.browser.detect_list.params.selector.label": "Item Selector",
+    "modules.browser.detect_list.params.min_items.label": "Min Items",
+    "modules.browser.detect_list.params.max_items.label": "Max Items",
+    "modules.browser.detect_list.params.include_text.label": "Include Text Snippet",
+    "modules.browser.challenge.label": "Handle Challenge",
+    "modules.browser.challenge.description": "Auto-detect and handle anti-bot challenges (Cloudflare, CAPTCHA)"
   }
 }

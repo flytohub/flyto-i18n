@@ -335,6 +335,14 @@
     "modules.browser.readability.params.include_links.label": "包含連結",
     "modules.browser.readability.params.min_content_length.label": "最短內容長度",
     "modules.browser.readability.params.clean_selectors.label": "額外清除選擇器",
-    "modules.browser.readability.params.wait_ms.label": "擷取前等待（毫秒）"
+    "modules.browser.readability.params.wait_ms.label": "擷取前等待（毫秒）",
+    "modules.browser.detect_list.label": "偵測列表",
+    "modules.browser.detect_list.description": "自動偵測頁面上的重複項目（文章、商品、搜尋結果）",
+    "modules.browser.detect_list.params.selector.label": "項目選擇器",
+    "modules.browser.detect_list.params.min_items.label": "最少項目數",
+    "modules.browser.detect_list.params.max_items.label": "最多項目數",
+    "modules.browser.detect_list.params.include_text.label": "包含文字摘要",
+    "modules.browser.challenge.label": "處理驗證",
+    "modules.browser.challenge.description": "自動偵測並處理反機器人驗證（Cloudflare、CAPTCHA）"
   }
 }
