@@ -31,11 +31,30 @@ LOCALES_DIR = PROJECT_ROOT / 'locales'
 TW_DIR = LOCALES_DIR / 'zh-TW'
 CN_DIR = LOCALES_DIR / 'zh-CN'
 
+# Post-OpenCC vocabulary fixes: TW terms that OpenCC tw2sp doesn't convert
+# to the correct Mainland Chinese equivalents.
+# Order matters — longer/more specific terms must come before shorter ones
+# to avoid partial replacements (e.g. "自订义" from replacing "自订" before "自定义").
+TW_TO_CN_VOCAB = [
+    ('自订', '自定义'),
+    ('范本', '模板'),
+    ('网路', '网络'),
+    ('帐号', '账号'),
+    ('帐户', '账户'),
+]
+
+
+def apply_vocab_fixes(text: str) -> str:
+    """Apply post-OpenCC vocabulary replacements."""
+    for tw, cn in TW_TO_CN_VOCAB:
+        text = text.replace(tw, cn)
+    return text
+
 
 def convert_value(cc: opencc.OpenCC, value):
     """Recursively convert string values."""
     if isinstance(value, str):
-        return cc.convert(value)
+        return apply_vocab_fixes(cc.convert(value))
     elif isinstance(value, dict):
         return {k: convert_value(cc, v) for k, v in value.items()}
     elif isinstance(value, list):
@@ -80,12 +99,9 @@ def main():
         # Update locale field
         data['locale'] = 'zh-CN'
 
-        # Convert translations
+        # Convert translations (recursive for nested structures)
         if 'translations' in data:
-            data['translations'] = {
-                k: cc.convert(v) if isinstance(v, str) else v
-                for k, v in data['translations'].items()
-            }
+            data['translations'] = convert_value(cc, data['translations'])
 
         if args.dry_run:
             # Show a few sample conversions
