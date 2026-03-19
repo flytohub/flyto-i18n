@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-CN",
+  "category": "cloud.footer",
+  "version": "1.0.0",
+  "translations": {
+    "footer.copyright": "",
+    "footer.description": "",
+    "footer.disclaimer": ""
+  }
+}
