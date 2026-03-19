@@ -1,6 +1,6 @@
 {
-  "version": "20260318172358",
-  "generated_at": "2026-03-18T17:23:58.865642",
+  "version": "20260319011505",
+  "generated_at": "2026-03-19T01:15:05.102153",
   "locales": {
     "de": {
       "name": "German",
@@ -126,6 +126,15 @@
       "total_keys": 757,
       "translated_keys": 738,
       "completion": 97.5,
+      "files_merged": 3
+    },
+    "zh-CN": {
+      "name": "Simplified Chinese",
+      "native": "简体中文",
+      "region": "CN",
+      "total_keys": 757,
+      "translated_keys": 0,
+      "completion": 0.0,
       "files_merged": 3
     },
     "zh-TW": {
