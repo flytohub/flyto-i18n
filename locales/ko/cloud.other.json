@@ -22,7 +22,7 @@
     "cloud.myTemplates.empty.noResults": "템플릿을 찾을 수 없습니다",
     "cloud.myTemplates.empty.noTemplates": "아직 템플릿이 없습니다",
     "cloud.myTemplates.empty.tryDifferent": "다른 검색을 시도해 보세요",
-    "cloud.myTemplates.importYaml": "",
+    "cloud.myTemplates.importYaml": "YAML 가져오기",
     "cloud.myTemplates.loadFailed": "템플릿 로드 실패",
     "cloud.myTemplates.newTemplate": "새 템플릿",
     "cloud.myTemplates.stats.drafts": "초안",

@@ -19,11 +19,11 @@
     "breakpoint.step": "ขั้นตอน",
     "breakpoint.waitingApproval": "กำลังรอการอนุมัติ",
     "breakpoint.workflow": "Workflow",
-    "browserInteract.execute": "",
-    "browserInteract.noElements": "",
-    "browserInteract.pagePreview": "",
-    "browserInteract.selectHint": "",
-    "browserInteract.skip": "",
-    "browserInteract.title": ""
+    "browserInteract.execute": "ดำเนินการ",
+    "browserInteract.noElements": "ไม่พบองค์ประกอบที่โต้ตอบได้",
+    "browserInteract.pagePreview": "ตัวอย่างหน้า",
+    "browserInteract.selectHint": "เลือกองค์ประกอบเพื่อโต้ตอบ",
+    "browserInteract.skip": "ข้าม",
+    "browserInteract.title": "การโต้ตอบเบราว์เซอร์"
   }
 }

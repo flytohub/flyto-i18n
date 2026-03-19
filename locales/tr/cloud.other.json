@@ -22,7 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Şablon bulunamadı",
     "cloud.myTemplates.empty.noTemplates": "Henüz şablon yok",
     "cloud.myTemplates.empty.tryDifferent": "Farklı bir arama deneyin",
-    "cloud.myTemplates.importYaml": "",
+    "cloud.myTemplates.importYaml": "YAML İçe Aktar",
     "cloud.myTemplates.loadFailed": "Şablonlar yüklenemedi",
     "cloud.myTemplates.newTemplate": "Yeni Şablon",
     "cloud.myTemplates.stats.drafts": "Taslaklar",

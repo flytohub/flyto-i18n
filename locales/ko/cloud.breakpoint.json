@@ -19,11 +19,11 @@
     "breakpoint.step": "단계",
     "breakpoint.waitingApproval": "승인 대기 중",
     "breakpoint.workflow": "워크플로우",
-    "browserInteract.execute": "",
-    "browserInteract.noElements": "",
-    "browserInteract.pagePreview": "",
-    "browserInteract.selectHint": "",
-    "browserInteract.skip": "",
-    "browserInteract.title": ""
+    "browserInteract.execute": "실행",
+    "browserInteract.noElements": "조작 가능한 요소가 없습니다",
+    "browserInteract.pagePreview": "페이지 미리보기",
+    "browserInteract.selectHint": "조작할 요소를 선택하세요",
+    "browserInteract.skip": "건너뛰기",
+    "browserInteract.title": "브라우저 조작"
   }
 }

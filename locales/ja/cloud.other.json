@@ -22,7 +22,7 @@
     "cloud.myTemplates.empty.noResults": "テンプレートが見つかりません",
     "cloud.myTemplates.empty.noTemplates": "テンプレートがありません",
     "cloud.myTemplates.empty.tryDifferent": "別の検索を試してください",
-    "cloud.myTemplates.importYaml": "",
+    "cloud.myTemplates.importYaml": "YAML をインポート",
     "cloud.myTemplates.loadFailed": "テンプレートの読み込みに失敗しました",
     "cloud.myTemplates.newTemplate": "新規テンプレート",
     "cloud.myTemplates.stats.drafts": "下書き",

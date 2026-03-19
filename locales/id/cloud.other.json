@@ -22,7 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Tidak ada template ditemukan",
     "cloud.myTemplates.empty.noTemplates": "Belum ada template",
     "cloud.myTemplates.empty.tryDifferent": "Coba pencarian berbeda",
-    "cloud.myTemplates.importYaml": "",
+    "cloud.myTemplates.importYaml": "Impor YAML",
     "cloud.myTemplates.loadFailed": "Gagal memuat template",
     "cloud.myTemplates.newTemplate": "Template Baru",
     "cloud.myTemplates.stats.drafts": "Draf",

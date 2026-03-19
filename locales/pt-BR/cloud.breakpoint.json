@@ -19,11 +19,11 @@
     "breakpoint.step": "Etapa",
     "breakpoint.waitingApproval": "Aguardando aprovacao",
     "breakpoint.workflow": "Workflow",
-    "browserInteract.execute": "",
-    "browserInteract.noElements": "",
-    "browserInteract.pagePreview": "",
-    "browserInteract.selectHint": "",
-    "browserInteract.skip": "",
-    "browserInteract.title": ""
+    "browserInteract.execute": "Executar",
+    "browserInteract.noElements": "Nenhum elemento interativo detectado",
+    "browserInteract.pagePreview": "Pré-visualização da Página",
+    "browserInteract.selectHint": "Selecione um elemento para interagir",
+    "browserInteract.skip": "Pular",
+    "browserInteract.title": "Interação com o Navegador"
   }
 }

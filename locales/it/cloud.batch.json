@@ -8,7 +8,7 @@
     "batch.deleteConfirm.message": "Sei sicuro di voler eliminare {count} template? Questa azione non puo essere annullata.",
     "batch.deleteConfirm.title": "Elimina {count} Template",
     "batch.deselectAll": "Deseleziona Tutti",
-    "batch.select": "",
+    "batch.select": "Seleziona",
     "batch.selectAll": "Seleziona Tutti",
     "batch.selected": "selezionati"
   }

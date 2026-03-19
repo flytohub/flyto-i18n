@@ -19,11 +19,11 @@
     "breakpoint.step": "स्टेप",
     "breakpoint.waitingApproval": "अनुमोदन की प्रतीक्षा",
     "breakpoint.workflow": "वर्कफ़्लो",
-    "browserInteract.execute": "",
-    "browserInteract.noElements": "",
-    "browserInteract.pagePreview": "",
-    "browserInteract.selectHint": "",
-    "browserInteract.skip": "",
-    "browserInteract.title": ""
+    "browserInteract.execute": "चलाएँ",
+    "browserInteract.noElements": "कोई इंटरैक्टिव तत्व नहीं मिला",
+    "browserInteract.pagePreview": "पेज पूर्वावलोकन",
+    "browserInteract.selectHint": "इंटरैक्ट करने के लिए एक तत्व चुनें",
+    "browserInteract.skip": "छोड़ें",
+    "browserInteract.title": "ब्राउज़र इंटरैक्शन"
   }
 }

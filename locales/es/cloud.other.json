@@ -22,7 +22,7 @@
     "cloud.myTemplates.empty.noResults": "No se encontraron plantillas",
     "cloud.myTemplates.empty.noTemplates": "Aún no hay plantillas",
     "cloud.myTemplates.empty.tryDifferent": "Intente una búsqueda diferente",
-    "cloud.myTemplates.importYaml": "",
+    "cloud.myTemplates.importYaml": "Importar YAML",
     "cloud.myTemplates.loadFailed": "Error al cargar las plantillas",
     "cloud.myTemplates.newTemplate": "Nueva plantilla",
     "cloud.myTemplates.stats.drafts": "Borradores",

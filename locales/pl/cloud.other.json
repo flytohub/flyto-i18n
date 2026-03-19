@@ -22,7 +22,7 @@
     "cloud.myTemplates.empty.noResults": "Nie znaleziono szablonow",
     "cloud.myTemplates.empty.noTemplates": "Brak szablonow",
     "cloud.myTemplates.empty.tryDifferent": "Sprobuj innego wyszukiwania",
-    "cloud.myTemplates.importYaml": "",
+    "cloud.myTemplates.importYaml": "Importuj YAML",
     "cloud.myTemplates.loadFailed": "Nie udalo sie zaladowac szablonow",
     "cloud.myTemplates.newTemplate": "Nowy szablon",
     "cloud.myTemplates.stats.drafts": "Szkice",

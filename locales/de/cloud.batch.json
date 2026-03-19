@@ -8,7 +8,7 @@
     "batch.deleteConfirm.message": "Sind Sie sicher, dass Sie {count} Vorlagen löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
     "batch.deleteConfirm.title": "{count} Vorlagen löschen",
     "batch.deselectAll": "Alle abwählen",
-    "batch.select": "",
+    "batch.select": "Auswählen",
     "batch.selectAll": "Alle auswählen",
     "batch.selected": "ausgewählt"
   }

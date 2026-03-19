@@ -8,7 +8,7 @@
     "batch.deleteConfirm.message": "{count} şablonu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
     "batch.deleteConfirm.title": "{count} Şablonu Sil",
     "batch.deselectAll": "Tüm Seçimi Kaldır",
-    "batch.select": "",
+    "batch.select": "Seç",
     "batch.selectAll": "Tümünü Seç",
     "batch.selected": "seçildi"
   }

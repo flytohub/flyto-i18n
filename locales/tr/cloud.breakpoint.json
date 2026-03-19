@@ -19,11 +19,11 @@
     "breakpoint.step": "Adım",
     "breakpoint.waitingApproval": "Onay bekleniyor",
     "breakpoint.workflow": "İş Akışı",
-    "browserInteract.execute": "",
-    "browserInteract.noElements": "",
-    "browserInteract.pagePreview": "",
-    "browserInteract.selectHint": "",
-    "browserInteract.skip": "",
-    "browserInteract.title": ""
+    "browserInteract.execute": "Çalıştır",
+    "browserInteract.noElements": "Etkileşimli öğe tespit edilmedi",
+    "browserInteract.pagePreview": "Sayfa Önizleme",
+    "browserInteract.selectHint": "Etkileşim için bir öğe seçin",
+    "browserInteract.skip": "Atla",
+    "browserInteract.title": "Tarayıcı Etkileşimi"
   }
 }
