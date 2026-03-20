@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "たった1分。",
     "landing.index.short.titleHighlight": "それだけでわかります。",
     "landing.index.short.description": "1分以内でFlyto2の動きがわかります。準備も説明もなし。見るだけでOK。",
-    "landing.index.short.moreShorts": "YouTubeでもっと動画を見る"
+    "landing.index.short.moreShorts": "YouTubeでもっと動画を見る",
+    "landing.index.story.titleStart": "なぜ私たちは",
+    "landing.index.story.p1": "Flytoが生まれたきっかけは、ごく普通の不満でした。ネット上の多くの作業が、難しくはないのに、いまだに面倒すぎるということ。",
+    "landing.index.story.p2": "WordPressのプラグインは互いに干渉し、スケジュールタスクはいつの間にか壊れ、APIのないサイトはちょっとしたエンジニアリング案件に——ボタンを数回クリックしたいだけなのに。",
+    "landing.index.story.p3": "だから私たちは、また別の「魔法のツール」を作るのではなく、もっとシンプルなものを目指しました。普通の人が使えて、繰り返し使えて、安心して任せられるブラウザ自動化。",
+    "landing.index.story.p4": "それがFlytoの存在理由です——あなたの代わりではなく、そもそも人の手が要らなかった部分を引き受けるために。"
   }
 }

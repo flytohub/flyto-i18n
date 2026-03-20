@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "Một phút.",
     "landing.index.short.titleHighlight": "Chỉ cần có vậy.",
     "landing.index.short.description": "Xem Flyto2 hoạt động trong chưa đầy một phút. Không cần cài đặt, không cần giải thích — chỉ cần xem.",
-    "landing.index.short.moreShorts": "Thêm video trên YouTube"
+    "landing.index.short.moreShorts": "Thêm video trên YouTube",
+    "landing.index.story.titleStart": "Tại sao chúng tôi xây dựng",
+    "landing.index.story.p1": "Flyto bắt đầu từ một sự bực bội rất bình thường: quá nhiều việc trên internet vẫn khó hơn mức cần thiết.",
+    "landing.index.story.p2": "Plugin WordPress xung đột lẫn nhau. Tác vụ hẹn giờ hỏng âm thầm. Và mỗi trang web không có API trở thành một dự án kỹ thuật nhỏ — dù bạn chỉ cần nhấn vài nút.",
+    "landing.index.story.p3": "Vì vậy, thay vì xây thêm một công cụ \"phép thuật\", chúng tôi muốn thứ gì đó đơn giản hơn: tự động hóa trình duyệt mà người bình thường có thể dùng, dùng lại, và tin tưởng.",
+    "landing.index.story.p4": "Đó là lý do Flyto tồn tại — không phải để thay thế bạn, mà để xử lý những phần vốn chẳng bao giờ cần đến con người."
   }
 }

@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "Bir Dakika.",
     "landing.index.short.titleHighlight": "İhtiyacınız Olan Bu Kadar.",
     "landing.index.short.description": "Flyto2'nin nasıl çalıştığını bir dakikadan kısa sürede görün. Kurulum yok, açıklama yok — sadece izleyin.",
-    "landing.index.short.moreShorts": "YouTube'da daha fazla video"
+    "landing.index.short.moreShorts": "YouTube'da daha fazla video",
+    "landing.index.story.titleStart": "Neden yaptık:",
+    "landing.index.story.p1": "Flyto çok sıradan bir hayal kırıklığından doğdu: internetteki pek çok iş hâlâ olması gerekenden çok daha zordu.",
+    "landing.index.story.p2": "WordPress eklentileri birbirleriyle çatışıyordu. Zamanlanmış görevler sessizce bozuluyordu. Ve API'si olmayan her site küçük bir mühendislik projesine dönüşüyordu — sadece birkaç düğmeye tıklamanız gerekse bile.",
+    "landing.index.story.p3": "Bu yüzden bir \"sihirli\" araç daha yapmak yerine, daha basit bir şey istedik: sıradan insanların kullanabileceği, tekrar tekrar kullanabileceği ve güvenebileceği bir tarayıcı otomasyonu.",
+    "landing.index.story.p4": "Flyto bu yüzden var — sizi değiştirmek için değil, zaten hiç insana ihtiyaç duymamış işleri üstlenmek için."
   }
 }

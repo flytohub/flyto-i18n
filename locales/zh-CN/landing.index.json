@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "表单自动填写",
     "landing.index.short.titleHighlight": "一分钟搞定。",
     "landing.index.short.description": "一分钟看完 Flyto2 怎么用。不用设置、不用解释 — 看就懂了。",
-    "landing.index.short.moreShorts": "到 YouTube 看更多视频"
+    "landing.index.short.moreShorts": "到 YouTube 看更多视频",
+    "landing.index.story.titleStart": "为什么我们做了",
+    "landing.index.story.p1": "Flyto 的起点很普通：太多网上的事情，明明不难，却还是很麻烦。",
+    "landing.index.story.p2": "WordPress 插件互相冲突、定时任务悄悄挂掉、没有 API 的网站变成一个小型工程项目——哪怕你只是想点几个按钮。",
+    "landing.index.story.p3": "所以我们没有再做一个「魔法工具」，而是想做一个更简单的东西：让普通人也能用、能反复用、能放心用的浏览器自动化。",
+    "landing.index.story.p4": "这就是 Flyto 存在的原因——不是取代你，而是处理那些本来就不需要人手动做的事。"
   }
 }

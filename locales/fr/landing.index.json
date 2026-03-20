@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "Une minute.",
     "landing.index.short.titleHighlight": "C'est tout ce qu'il vous faut.",
     "landing.index.short.description": "Voyez comment Flyto2 fonctionne en moins d'une minute. Pas de configuration, pas d'explication — regardez simplement.",
-    "landing.index.short.moreShorts": "Plus de vidéos sur YouTube"
+    "landing.index.short.moreShorts": "Plus de vidéos sur YouTube",
+    "landing.index.story.titleStart": "Pourquoi nous avons créé",
+    "landing.index.story.p1": "Flyto est né d'une frustration très ordinaire : trop de tâches sur internet étaient encore bien plus compliquées qu'elles n'auraient dû l'être.",
+    "landing.index.story.p2": "Les plugins WordPress se battaient entre eux. Les tâches planifiées cassaient en silence. Et chaque site sans API devenait un mini projet d'ingénierie — même quand il suffisait de cliquer sur quelques boutons.",
+    "landing.index.story.p3": "Alors au lieu de créer un énième outil « magique », nous avons voulu quelque chose de plus simple : une automatisation navigateur que les gens ordinaires peuvent utiliser, réutiliser et à laquelle ils peuvent faire confiance.",
+    "landing.index.story.p4": "C'est pour ça que Flyto existe — pas pour vous remplacer, mais pour prendre en charge ce qui n'a jamais eu besoin d'un humain."
   }
 }

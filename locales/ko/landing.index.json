@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "딱 1분.",
     "landing.index.short.titleHighlight": "그걸로 충분해요.",
     "landing.index.short.description": "1분 안에 Flyto2가 어떻게 동작하는지 볼 수 있어요. 설정도, 설명도 없어요. 그냥 보세요.",
-    "landing.index.short.moreShorts": "YouTube에서 더 많은 영상 보기"
+    "landing.index.short.moreShorts": "YouTube에서 더 많은 영상 보기",
+    "landing.index.story.titleStart": "우리가 만든 이유,",
+    "landing.index.story.p1": "Flyto는 아주 평범한 불만에서 시작됐습니다. 인터넷에서 해야 할 일들이 어렵지도 않은데, 여전히 너무 번거로웠거든요.",
+    "landing.index.story.p2": "WordPress 플러그인은 서로 충돌하고, 예약 작업은 조용히 고장 나고, API 없는 사이트는 소규모 엔지니어링 프로젝트가 돼버렸습니다 — 버튼 몇 개만 누르면 되는데도요.",
+    "landing.index.story.p3": "그래서 또 다른 '마법 도구'를 만드는 대신, 더 단순한 걸 만들고 싶었습니다. 일반 사람도 쓸 수 있고, 반복해서 쓸 수 있고, 믿고 맡길 수 있는 브라우저 자동화.",
+    "landing.index.story.p4": "이것이 Flyto가 존재하는 이유입니다 — 당신을 대체하려는 게 아니라, 애초에 사람 손이 필요 없었던 부분을 처리하기 위해서."
   }
 }

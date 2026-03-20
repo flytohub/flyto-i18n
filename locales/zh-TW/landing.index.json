@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "表單自動填寫",
     "landing.index.short.titleHighlight": "一分鐘搞定。",
     "landing.index.short.description": "一分鐘看完 Flyto2 怎麼用。不用設定、不用解釋 — 看就懂了。",
-    "landing.index.short.moreShorts": "到 YouTube 看更多影片"
+    "landing.index.short.moreShorts": "到 YouTube 看更多影片",
+    "landing.index.story.titleStart": "為什麼我們做了",
+    "landing.index.story.p1": "Flyto 的起點很普通：太多網路上的事情，明明不難，卻還是很麻煩。",
+    "landing.index.story.p2": "WordPress 外掛互相打架、排程任務默默壞掉、沒有 API 的網站變成一個小型工程專案——即使你只是想點幾個按鈕。",
+    "landing.index.story.p3": "所以我們沒有再做一個「魔法工具」，而是想做一個更簡單的東西：讓一般人也能用、能重複用、能放心用的瀏覽器自動化。",
+    "landing.index.story.p4": "這就是 Flyto 存在的原因——不是取代你，而是處理那些本來就不需要人手動做的事。"
   }
 }

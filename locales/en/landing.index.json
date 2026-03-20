@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "Automate Form Filling",
     "landing.index.short.titleHighlight": "in One Minute.",
     "landing.index.short.description": "See how Flyto2 works in under a minute. No setup, no explanation — just watch.",
-    "landing.index.short.moreShorts": "More videos on YouTube"
+    "landing.index.short.moreShorts": "More videos on YouTube",
+    "landing.index.story.titleStart": "Why We Built",
+    "landing.index.story.p1": "Flyto started from a pretty ordinary frustration: too many internet tasks were still way harder than they should be.",
+    "landing.index.story.p2": "WordPress plugins fought each other. Scheduled jobs broke silently. And every website without an API turned into a mini engineering project — even when all you needed was to click a few buttons.",
+    "landing.index.story.p3": "So instead of building another \"magic\" tool, we wanted something simpler: browser automation that normal people can actually use, reuse, and trust.",
+    "landing.index.story.p4": "That's why Flyto exists — not to replace you, but to handle the parts that never needed a human in the first place."
   }
 }

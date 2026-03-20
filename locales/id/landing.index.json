@@ -101,6 +101,11 @@
     "landing.index.short.titleStart": "Satu Menit.",
     "landing.index.short.titleHighlight": "Itu Saja yang Dibutuhkan.",
     "landing.index.short.description": "Lihat cara kerja Flyto2 dalam waktu kurang dari semenit. Tanpa setup, tanpa penjelasan — langsung tonton saja.",
-    "landing.index.short.moreShorts": "Video lainnya di YouTube"
+    "landing.index.short.moreShorts": "Video lainnya di YouTube",
+    "landing.index.story.titleStart": "Mengapa kami membuat",
+    "landing.index.story.p1": "Flyto lahir dari frustrasi yang sangat biasa: terlalu banyak pekerjaan di internet yang masih jauh lebih rumit dari seharusnya.",
+    "landing.index.story.p2": "Plugin WordPress saling bentrok. Tugas terjadwal rusak diam-diam. Dan setiap website tanpa API berubah jadi proyek engineering kecil — padahal yang dibutuhkan cuma klik beberapa tombol.",
+    "landing.index.story.p3": "Jadi daripada membuat alat \"ajaib\" lainnya, kami ingin sesuatu yang lebih sederhana: otomatisasi browser yang bisa dipakai orang biasa, bisa dipakai ulang, dan bisa dipercaya.",
+    "landing.index.story.p4": "Itulah mengapa Flyto ada — bukan untuk menggantikan Anda, tapi untuk menangani bagian yang memang tidak pernah butuh manusia."
   }
 }
