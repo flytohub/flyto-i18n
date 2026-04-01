@@ -12,6 +12,8 @@
     "schema.field.screenshot_format": "Full Page",
     "schema.field.url": "Record ID",
     "schema.field.viewport_height": "Width",
-    "schema.field.viewport_width": "Width"
+    "schema.field.viewport_width": "Width",
+    "schema.field.ssrf_protection": "SSRF Protection",
+    "schema.field.ssrf_protection.description": "Block requests to private/internal networks (localhost, 192.168.x.x, cloud metadata endpoints). Disable only for trusted internal targets."
   }
 }
