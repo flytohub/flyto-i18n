@@ -10,6 +10,8 @@
     "schema.field.full_page": "전체 페이지",
     "schema.field.response": "응답",
     "schema.field.screenshot_format": "전체 페이지",
+    "schema.field.ssrf_protection": "",
+    "schema.field.ssrf_protection.description": "",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "너비",
     "schema.field.viewport_width": "너비"

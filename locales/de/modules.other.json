@@ -10,6 +10,8 @@
     "schema.field.full_page": "Ganze Seite",
     "schema.field.response": "Antwort",
     "schema.field.screenshot_format": "Ganze Seite",
+    "schema.field.ssrf_protection": "",
+    "schema.field.ssrf_protection.description": "",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "Breite",
     "schema.field.viewport_width": "Breite"

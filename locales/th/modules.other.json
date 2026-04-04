@@ -10,6 +10,8 @@
     "schema.field.full_page": "หน้าเต็ม",
     "schema.field.response": "การตอบกลับ",
     "schema.field.screenshot_format": "หน้าเต็ม",
+    "schema.field.ssrf_protection": "",
+    "schema.field.ssrf_protection.description": "",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "ความกว้าง",
     "schema.field.viewport_width": "ความกว้าง"

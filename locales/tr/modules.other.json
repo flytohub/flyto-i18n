@@ -10,6 +10,8 @@
     "schema.field.full_page": "Tam Sayfa",
     "schema.field.response": "Yanıt",
     "schema.field.screenshot_format": "Tam Sayfa",
+    "schema.field.ssrf_protection": "",
+    "schema.field.ssrf_protection.description": "",
     "schema.field.url": "Url",
     "schema.field.viewport_height": "Genişlik",
     "schema.field.viewport_width": "Genişlik"

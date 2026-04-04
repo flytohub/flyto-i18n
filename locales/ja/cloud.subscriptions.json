@@ -46,6 +46,7 @@
     "subscriptions.subtitle": "Subscription details",
     "subscriptions.switchPlan": "Switch plan",
     "subscriptions.title": "Subscriptions",
+    "subscriptions.trialExpired": "",
     "subscriptions.upgrade": "アップグレード",
     "subscriptions.upgraded": "Upgraded"
   }

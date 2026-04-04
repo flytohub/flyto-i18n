@@ -10,6 +10,8 @@
     "schema.field.full_page": "フルページ",
     "schema.field.response": "レスポンス",
     "schema.field.screenshot_format": "フルページ",
+    "schema.field.ssrf_protection": "",
+    "schema.field.ssrf_protection.description": "",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "幅",
     "schema.field.viewport_width": "幅"

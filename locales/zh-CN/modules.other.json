@@ -10,6 +10,8 @@
     "schema.field.full_page": "整页",
     "schema.field.response": "回应",
     "schema.field.screenshot_format": "整页",
+    "schema.field.ssrf_protection": "",
+    "schema.field.ssrf_protection.description": "",
     "schema.field.url": "网址",
     "schema.field.viewport_height": "宽度",
     "schema.field.viewport_width": "宽度"
