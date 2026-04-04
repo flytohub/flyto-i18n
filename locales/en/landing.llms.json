@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "landing.llms",
+  "version": "1.0.0",
+  "translations": {
+    "landing.llms.title": "Flyto2",
+    "landing.llms.summary": "Browser automation at machine speed. Record once, replay instantly. No API needed — works on any website. Batch operations, page monitoring, time-sensitive tasks.",
+    "landing.llms.description": "Flyto2 is an automation tool that lets you record browser actions and replay them without coding. It works on Mac, Windows, and Linux. You can pause, verify, and resume at any step — always staying in control.",
+    "landing.llms.pages.home": "Overview of Flyto2 browser automation platform",
+    "landing.llms.pages.pricing": "Plans and pricing — free, pro, and enterprise",
+    "landing.llms.pages.download": "Download Flyto2 for Mac, Windows, or Linux",
+    "landing.llms.pages.templates": "Pre-built automation templates for common tasks",
+    "landing.llms.pages.faq": "Frequently asked questions",
+    "landing.llms.pages.dev": "Developer documentation and API",
+    "landing.llms.pages.contact": "Contact and support",
+    "landing.llms.features.record": "Record & replay browser actions — no coding required",
+    "landing.llms.features.pause": "Pause, check, and resume at any step",
+    "landing.llms.features.schedule": "Schedule tasks to run automatically",
+    "landing.llms.features.apps": "Works with websites, desktop apps, and file operations",
+    "landing.llms.features.batch": "Batch operations and page monitoring",
+    "landing.llms.features.platforms": "Available on Mac, Windows, and Linux"
+  }
+}

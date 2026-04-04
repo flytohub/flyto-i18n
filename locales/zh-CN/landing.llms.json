@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "zh-CN",
+  "category": "landing.llms",
+  "version": "1.0.0",
+  "translations": {
+    "landing.llms.title": "Flyto2",
+    "landing.llms.summary": "机器速度的浏览器自动化。录制一次，永远重播。不需要 API — 适用于任何网站。批量操作、页面监控、时效性任务。",
+    "landing.llms.description": "Flyto2 是一个自动化工具，让你录制浏览器操作并重复执行，不需要写代码。支持 Mac、Windows 和 Linux。你可以在任何步骤暂停、确认、再继续 — 完全掌控流程。",
+    "landing.llms.pages.home": "Flyto2 浏览器自动化平台概览",
+    "landing.llms.pages.pricing": "方案与价格 — 免费版、专业版、企业版",
+    "landing.llms.pages.download": "下载 Flyto2（Mac、Windows、Linux）",
+    "landing.llms.pages.templates": "常见任务的预建自动化模板",
+    "landing.llms.pages.faq": "常见问题",
+    "landing.llms.pages.dev": "开发者文档与 API",
+    "landing.llms.pages.contact": "联系与支持",
+    "landing.llms.features.record": "录制与重播浏览器操作 — 不需要写代码",
+    "landing.llms.features.pause": "在任何步骤暂停、确认、继续",
+    "landing.llms.features.schedule": "定时自动执行任务",
+    "landing.llms.features.apps": "适用于网站、桌面程序和文件操作",
+    "landing.llms.features.batch": "批量操作与页面监控",
+    "landing.llms.features.platforms": "支持 Mac、Windows 和 Linux"
+  }
+}

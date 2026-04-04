@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "landing.llms",
+  "version": "1.0.0",
+  "translations": {
+    "landing.llms.title": "",
+    "landing.llms.summary": "",
+    "landing.llms.description": "",
+    "landing.llms.pages.home": "",
+    "landing.llms.pages.pricing": "",
+    "landing.llms.pages.download": "",
+    "landing.llms.pages.templates": "",
+    "landing.llms.pages.faq": "",
+    "landing.llms.pages.dev": "",
+    "landing.llms.pages.contact": "",
+    "landing.llms.features.record": "",
+    "landing.llms.features.pause": "",
+    "landing.llms.features.schedule": "",
+    "landing.llms.features.apps": "",
+    "landing.llms.features.batch": "",
+    "landing.llms.features.platforms": ""
+  }
+}
