@@ -43,6 +43,7 @@
     "subscriptions.status.cancelled": "已取消",
     "subscriptions.status.expired": "已过期",
     "subscriptions.status.trialing": "试用中",
+    "subscriptions.trialExpired": "您的免费试用已到期，请订阅以继续使用 Flyto Cloud。",
     "subscriptions.subtitle": "管理您的订阅方案",
     "subscriptions.switchPlan": "切换方案",
     "subscriptions.title": "订阅方案",

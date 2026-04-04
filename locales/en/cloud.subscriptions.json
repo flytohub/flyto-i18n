@@ -43,6 +43,7 @@
     "subscriptions.status.cancelled": "Cancelled",
     "subscriptions.status.expired": "Expired",
     "subscriptions.status.trialing": "Trial",
+    "subscriptions.trialExpired": "Your free trial has expired. Subscribe to continue using Flyto Cloud.",
     "subscriptions.subtitle": "Manage your subscription plan",
     "subscriptions.switchPlan": "Switch Plan",
     "subscriptions.title": "Subscription",
