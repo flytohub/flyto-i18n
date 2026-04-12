@@ -46,7 +46,7 @@
     "subscriptions.subtitle": "Subscription details",
     "subscriptions.switchPlan": "Switch plan",
     "subscriptions.title": "Subscriptions",
-    "subscriptions.trialExpired": "",
+    "subscriptions.trialExpired": "Bản dùng thử miễn phí đã hết hạn. Đăng ký để tiếp tục sử dụng Flyto Cloud.",
     "subscriptions.upgrade": "Upgrade",
     "subscriptions.upgraded": "Upgraded"
   }

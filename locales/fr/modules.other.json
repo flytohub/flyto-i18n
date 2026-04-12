@@ -10,8 +10,8 @@
     "schema.field.full_page": "Page entiere",
     "schema.field.response": "Reponse",
     "schema.field.screenshot_format": "Page entiere",
-    "schema.field.ssrf_protection": "",
-    "schema.field.ssrf_protection.description": "",
+    "schema.field.ssrf_protection": "Protection SSRF",
+    "schema.field.ssrf_protection.description": "Bloque les requ\u00eates vers les r\u00e9seaux priv\u00e9s/internes (localhost, 192.168.x.x, endpoints de m\u00e9tadonn\u00e9es cloud). D\u00e9sactivez uniquement pour des cibles internes de confiance.",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "Largeur",
     "schema.field.viewport_width": "Largeur"

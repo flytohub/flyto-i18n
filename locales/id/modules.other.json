@@ -10,8 +10,8 @@
     "schema.field.full_page": "Halaman Penuh",
     "schema.field.response": "Respons",
     "schema.field.screenshot_format": "Halaman Penuh",
-    "schema.field.ssrf_protection": "",
-    "schema.field.ssrf_protection.description": "",
+    "schema.field.ssrf_protection": "Perlindungan SSRF",
+    "schema.field.ssrf_protection.description": "Blokir permintaan ke jaringan privat/internal (localhost, 192.168.x.x, endpoint metadata cloud). Nonaktifkan hanya untuk target internal tepercaya.",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "Lebar",
     "schema.field.viewport_width": "Lebar"

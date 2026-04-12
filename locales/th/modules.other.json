@@ -10,8 +10,8 @@
     "schema.field.full_page": "หน้าเต็ม",
     "schema.field.response": "การตอบกลับ",
     "schema.field.screenshot_format": "หน้าเต็ม",
-    "schema.field.ssrf_protection": "",
-    "schema.field.ssrf_protection.description": "",
+    "schema.field.ssrf_protection": "การป้องกัน SSRF",
+    "schema.field.ssrf_protection.description": "บล็อกคำขอไปยังเครือข่ายส่วนตัว/ภายใน (localhost, 192.168.x.x, cloud metadata endpoint) ปิดใช้งานเฉพาะสำหรับเป้าหมายภายในที่เชื่อถือได้เท่านั้น",
     "schema.field.url": "URL",
     "schema.field.viewport_height": "ความกว้าง",
     "schema.field.viewport_width": "ความกว้าง"

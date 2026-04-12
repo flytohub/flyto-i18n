@@ -10,8 +10,8 @@
     "schema.field.full_page": "Tam Sayfa",
     "schema.field.response": "Yanıt",
     "schema.field.screenshot_format": "Tam Sayfa",
-    "schema.field.ssrf_protection": "",
-    "schema.field.ssrf_protection.description": "",
+    "schema.field.ssrf_protection": "SSRF Koruması",
+    "schema.field.ssrf_protection.description": "Özel/iç ağlara (localhost, 192.168.x.x, bulut metadata uç noktaları) yapılan istekleri engeller. Yalnızca güvenilir iç hedefler için devre dışı bırakın.",
     "schema.field.url": "Url",
     "schema.field.viewport_height": "Genişlik",
     "schema.field.viewport_width": "Genişlik"

@@ -46,7 +46,7 @@
     "subscriptions.subtitle": "Subscription details",
     "subscriptions.switchPlan": "Switch plan",
     "subscriptions.title": "Subscriptions",
-    "subscriptions.trialExpired": "",
+    "subscriptions.trialExpired": "Ücretsiz deneme süreniz doldu. Flyto Cloud'u kullanmaya devam etmek için abone olun.",
     "subscriptions.upgrade": "Upgrade",
     "subscriptions.upgraded": "Upgraded"
   }
