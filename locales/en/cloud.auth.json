@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "This password reset link is invalid or has expired. Please request a new one.",
     "auth.resetPassword.verifying": "Verifying reset link...",
     "auth.resetPassword.weakPassword": "Password is too weak",
+    "auth.sign_in": "Sign In",
     "auth.username": "Username",
     "auth.usernamePlaceholder": "Enter username"
   }

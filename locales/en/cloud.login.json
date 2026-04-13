@@ -50,6 +50,20 @@
     "login.weakPassword": "Password is too weak (minimum 6 characters)",
     "login.welcomeBack": "Welcome Back",
     "login.orContinueWith": "or continue with",
-    "login.googleLogin": "Continue with Google"
+    "login.googleLogin": "Continue with Google",
+    "login.signUpTab": "Sign Up",
+    "login.resetPasswordTitle": "Reset password",
+    "login.resetPasswordSubtitle": "Enter your email to receive a reset link",
+    "login.backToLogin": "Back to login",
+    "login.displayNamePlaceholder": "Display name",
+    "login.submitting": "Please wait...",
+    "login.google": "Google",
+    "login.github": "GitHub",
+    "login.sharedAccount": "Shared account with Flyto Cloud",
+    "login.invalidEmailFormat": "Invalid email format",
+    "login.popupClosed": "Sign-in popup was closed",
+    "login.fillAllFields": "Please fill in all fields",
+    "login.enterEmail": "Please enter your email",
+    "login.passwordResetSent": "Password reset email sent"
   }
 }
