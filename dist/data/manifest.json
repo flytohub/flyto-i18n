@@ -1,0 +1,9 @@
+{
+  "product": "flyto-data",
+  "description": "Admin + portal UI translations for flyto-data.",
+  "namespace": "flyto_data",
+  "key_format": "flyto_data.{section}.{sub}",
+  "sections": ["common", "datasets", "versions", "runs", "errors"],
+  "locales": ["en", "zh-TW", "zh-CN", "ja"],
+  "consumers": ["flyto-data/frontend", "flyto-data/backend"]
+}
