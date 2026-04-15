@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "Tautan reset kata sandi ini tidak valid atau sudah kedaluwarsa. Silakan minta yang baru.",
     "auth.resetPassword.verifying": "Memverifikasi tautan reset...",
     "auth.resetPassword.weakPassword": "Kata sandi terlalu lemah",
+    "auth.sign_in": "",
     "auth.username": "Nama Pengguna",
     "auth.usernamePlaceholder": "Masukkan nama pengguna"
   }

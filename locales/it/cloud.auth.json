@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "Questo link di reimpostazione password non e valido o e scaduto. Richiedine uno nuovo.",
     "auth.resetPassword.verifying": "Verifica del link di reimpostazione...",
     "auth.resetPassword.weakPassword": "La password e troppo debole",
+    "auth.sign_in": "",
     "auth.username": "Nome Utente",
     "auth.usernamePlaceholder": "Inserisci nome utente"
   }

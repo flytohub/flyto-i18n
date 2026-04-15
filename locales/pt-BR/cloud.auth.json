@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "Este link de redefinicao de senha e invalido ou expirou. Por favor, solicite um novo.",
     "auth.resetPassword.verifying": "Verificando link de redefinicao...",
     "auth.resetPassword.weakPassword": "A senha e muito fraca",
+    "auth.sign_in": "",
     "auth.username": "Nome de usuario",
     "auth.usernamePlaceholder": "Digite o nome de usuario"
   }

@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "Este enlace de restablecimiento de contraseña es inválido o ha expirado. Por favor solicite uno nuevo.",
     "auth.resetPassword.verifying": "Verificando enlace de restablecimiento...",
     "auth.resetPassword.weakPassword": "La contraseña es muy débil",
+    "auth.sign_in": "",
     "auth.username": "Nombre de usuario",
     "auth.usernamePlaceholder": "Ingrese el nombre de usuario"
   }

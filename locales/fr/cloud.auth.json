@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "Ce lien de reinitialisation est invalide ou a expire. Veuillez en demander un nouveau.",
     "auth.resetPassword.verifying": "Verification du lien de reinitialisation...",
     "auth.resetPassword.weakPassword": "Le mot de passe est trop faible",
+    "auth.sign_in": "",
     "auth.username": "Nom d'utilisateur",
     "auth.usernamePlaceholder": "Entrez le nom d'utilisateur"
   }

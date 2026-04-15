@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "ลิงก์รีเซ็ตรหัสผ่านนี้ไม่ถูกต้องหรือหมดอายุแล้ว กรุณาขอลิงก์ใหม่",
     "auth.resetPassword.verifying": "กำลังยืนยันลิงก์รีเซ็ต...",
     "auth.resetPassword.weakPassword": "รหัสผ่านอ่อนเกินไป",
+    "auth.sign_in": "",
     "auth.username": "ชื่อผู้ใช้",
     "auth.usernamePlaceholder": "ป้อนชื่อผู้ใช้"
   }

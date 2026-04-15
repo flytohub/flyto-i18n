@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "Ten link do resetowania hasla jest nieprawidlowy lub wygasl. Popros o nowy.",
     "auth.resetPassword.verifying": "Weryfikowanie linku resetowania...",
     "auth.resetPassword.weakPassword": "Haslo jest za slabe",
+    "auth.sign_in": "",
     "auth.username": "Nazwa uzytkownika",
     "auth.usernamePlaceholder": "Wprowadz nazwe uzytkownika"
   }

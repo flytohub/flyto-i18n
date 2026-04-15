@@ -52,6 +52,7 @@
     "auth.resetPassword.tokenExpired": "이 비밀번호 재설정 링크가 유효하지 않거나 만료되었습니다. 새 링크를 요청하세요.",
     "auth.resetPassword.verifying": "재설정 링크 확인 중...",
     "auth.resetPassword.weakPassword": "비밀번호가 너무 약합니다",
+    "auth.sign_in": "",
     "auth.username": "사용자명",
     "auth.usernamePlaceholder": "사용자명 입력"
   }
