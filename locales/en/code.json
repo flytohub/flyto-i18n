@@ -224,6 +224,8 @@
 
     "code.repoDetail.noProfile": "No scan data yet",
     "code.repoDetail.runScan": "Run scan",
+    "code.repoDetail.scanning": "Scanning in progress...",
+    "code.repoDetail.scanningDesc": "Cloning, indexing, and analyzing. This may take a few minutes for large repos.",
     "code.repoDetail.files": "Files",
     "code.repoDetail.apis": "APIs",
     "code.repoDetail.models": "Models",
