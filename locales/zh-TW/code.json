@@ -134,6 +134,8 @@
     "code.repoList.health": "健康度",
     "code.repoList.actions": "操作",
     "code.repoList.scan": "掃描",
+    "code.repoList.total": "個儲存庫",
+    "code.repoList.languages": "種語言",
     "code.repoList.scanAll": "全部掃描",
     "code.repoList.scanningAll": "掃描中...",
     "code.repoList.lastScan": "上次掃描",

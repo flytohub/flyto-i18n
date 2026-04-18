@@ -175,6 +175,8 @@
     "code.repoList.health": "Health",
     "code.repoList.actions": "Actions",
     "code.repoList.scan": "Scan",
+    "code.repoList.total": "repos",
+    "code.repoList.languages": "languages",
     "code.repoList.scanAll": "Scan all",
     "code.repoList.scanningAll": "Scanning...",
     "code.repoList.lastScan": "Last Scan",
