@@ -221,6 +221,25 @@
     "code.org.tool.engineer": "工程師",
     "code.org.tool.repo": "儲存庫",
     "code.org.tool.service": "服務",
-    "code.org.tool.document": "文件"
+    "code.org.tool.document": "文件",
+
+    "code.repoDetail.noProfile": "尚無掃描資料",
+    "code.repoDetail.runScan": "執行掃描",
+    "code.repoDetail.files": "檔案",
+    "code.repoDetail.apis": "API",
+    "code.repoDetail.models": "模型",
+    "code.repoDetail.deps": "依賴套件",
+    "code.repoDetail.healthDimensions": "健康維度",
+    "code.repoDetail.frameworks": "框架",
+    "code.repoDetail.services": "服務",
+    "code.repoDetail.patterns": "設計模式",
+    "code.repoDetail.langBreakdown": "語言分佈",
+    "code.repoDetail.license": "授權條款",
+    "code.repoDetail.docScore": "文件品質",
+    "code.repoDetail.secrets": "機密資訊",
+    "code.repoDetail.taintFlows": "資料流風險",
+    "code.repoDetail.complexity": "複雜度",
+    "code.repoDetail.connections": "關聯數",
+    "code.repoDetail.orphans": "孤立檔案"
   }
 }

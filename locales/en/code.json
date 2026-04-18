@@ -220,6 +220,25 @@
     "code.org.tool.engineer": "Engineer",
     "code.org.tool.repo": "Repository",
     "code.org.tool.service": "Service",
-    "code.org.tool.document": "Document"
+    "code.org.tool.document": "Document",
+
+    "code.repoDetail.noProfile": "No scan data yet",
+    "code.repoDetail.runScan": "Run scan",
+    "code.repoDetail.files": "Files",
+    "code.repoDetail.apis": "APIs",
+    "code.repoDetail.models": "Models",
+    "code.repoDetail.deps": "Dependencies",
+    "code.repoDetail.healthDimensions": "Health Dimensions",
+    "code.repoDetail.frameworks": "Frameworks",
+    "code.repoDetail.services": "Services",
+    "code.repoDetail.patterns": "Patterns",
+    "code.repoDetail.langBreakdown": "Languages",
+    "code.repoDetail.license": "License",
+    "code.repoDetail.docScore": "Documentation",
+    "code.repoDetail.secrets": "Secrets",
+    "code.repoDetail.taintFlows": "Data Flow Risks",
+    "code.repoDetail.complexity": "Complexity",
+    "code.repoDetail.connections": "Connections",
+    "code.repoDetail.orphans": "Orphan Files"
   }
 }
