@@ -266,6 +266,11 @@
     "code.repoDetail.taintFlows": "Data Flow Risks",
     "code.repoDetail.complexity": "Complexity",
     "code.repoDetail.connections": "Connections",
-    "code.repoDetail.orphans": "Orphan Files"
+    "code.repoDetail.orphans": "Orphan Files",
+    "code.repoDetail.vulnerabilities": "Vulnerabilities",
+    "code.repoDetail.cveId": "CVE",
+    "code.repoDetail.fixAvailable": "Fix available",
+    "code.repoDetail.noVulnerabilities": "No known vulnerabilities",
+    "code.dashboard.cveFindings": "CVE findings"
   }
 }

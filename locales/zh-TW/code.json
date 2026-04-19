@@ -267,6 +267,11 @@
     "code.repoDetail.taintFlows": "資料流風險",
     "code.repoDetail.complexity": "複雜度",
     "code.repoDetail.connections": "關聯數",
-    "code.repoDetail.orphans": "孤立檔案"
+    "code.repoDetail.orphans": "孤立檔案",
+    "code.repoDetail.vulnerabilities": "已知漏洞",
+    "code.repoDetail.cveId": "CVE",
+    "code.repoDetail.fixAvailable": "修復可用",
+    "code.repoDetail.noVulnerabilities": "沒有已知漏洞",
+    "code.dashboard.cveFindings": "CVE 發現"
   }
 }
