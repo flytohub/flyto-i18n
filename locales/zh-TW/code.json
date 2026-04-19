@@ -482,10 +482,43 @@
 
     "code.dast.noApiEndpoints": "尚未發現 API 端點",
     "code.dast.noIpIntel": "尚無 IP 情報資料",
+    "code.dast.noPageSpeed": "尚無 PageSpeed 資料。執行探測以測試。",
+    "code.dast.improvements": "改善建議",
+    "code.dast.scanAll": "全部掃描",
     "code.dast.alive": "存活",
     "code.dast.dead": "失效",
 
     "code.pentest.passed": "通過",
-    "code.pentest.findings": "個發現"
+    "code.pentest.findings": "個發現",
+
+    "code.common.loadError": "載入資料失敗，請重試。",
+
+    "code.warroom.selectRepo": "選擇儲存庫",
+    "code.warroom.noRepos": "尚未連接儲存庫。請連接一個儲存庫以查看資料。",
+    "code.warroom.functions": "函式",
+    "code.warroom.classes": "類別",
+    "code.warroom.interfaces": "介面",
+    "code.warroom.totalDeps": "總依賴項",
+    "code.warroom.conflicts": "衝突",
+    "code.warroom.vulnDeps": "有漏洞的依賴項",
+    "code.warroom.package": "套件",
+    "code.warroom.version": "版本",
+    "code.warroom.cveId": "CVE 編號",
+    "code.warroom.fixedIn": "修復版本",
+    "code.warroom.noDepsData": "無依賴項資料。請先執行掃描。",
+    "code.warroom.apiDefinitions": "定義",
+    "code.warroom.internalCalls": "內部呼叫",
+    "code.warroom.externalCalls": "外部呼叫",
+    "code.warroom.noApiData": "無 API 資料。執行掃描以發現端點。",
+    "code.warroom.noModuleData": "無模組資料。請先執行掃描。",
+    "code.warroom.vulnsRedirect": "在問題列表中查看和管理所有安全漏洞。",
+    "code.warroom.goToIssues": "前往問題列表",
+    "code.warroom.totalFindings": "總發現數",
+    "code.warroom.complexFunctions": "複雜函式",
+    "code.warroom.avgComplexity": "平均複雜度",
+    "code.warroom.deadCode": "死程式碼",
+    "code.warroom.noScanFindings": "未偵測到安全問題。",
+    "code.warroom.healthGrade": "健康評級",
+    "code.warroom.noAuditData": "無審計資料。請先執行掃描。"
   }
 }

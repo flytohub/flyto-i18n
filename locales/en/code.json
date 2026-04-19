@@ -481,10 +481,43 @@
 
     "code.dast.noApiEndpoints": "No API endpoints discovered",
     "code.dast.noIpIntel": "No IP intelligence data yet",
+    "code.dast.noPageSpeed": "No PageSpeed data yet. Run discovery to test.",
+    "code.dast.improvements": "Improvements",
+    "code.dast.scanAll": "Scan All",
     "code.dast.alive": "Alive",
     "code.dast.dead": "Dead",
 
     "code.pentest.passed": "Passed",
-    "code.pentest.findings": "findings"
+    "code.pentest.findings": "findings",
+
+    "code.common.loadError": "Failed to load data. Please try again.",
+
+    "code.warroom.selectRepo": "Select repository",
+    "code.warroom.noRepos": "No repositories connected. Connect a repo to view data.",
+    "code.warroom.functions": "Functions",
+    "code.warroom.classes": "Classes",
+    "code.warroom.interfaces": "Interfaces",
+    "code.warroom.totalDeps": "Total Dependencies",
+    "code.warroom.conflicts": "Conflicts",
+    "code.warroom.vulnDeps": "Vulnerable Dependencies",
+    "code.warroom.package": "Package",
+    "code.warroom.version": "Version",
+    "code.warroom.cveId": "CVE ID",
+    "code.warroom.fixedIn": "Fixed In",
+    "code.warroom.noDepsData": "No dependency data. Run a scan first.",
+    "code.warroom.apiDefinitions": "Definitions",
+    "code.warroom.internalCalls": "Internal Calls",
+    "code.warroom.externalCalls": "External Calls",
+    "code.warroom.noApiData": "No API data. Run a scan to discover endpoints.",
+    "code.warroom.noModuleData": "No module data. Run a scan first.",
+    "code.warroom.vulnsRedirect": "View and manage all security vulnerabilities in the Issues feed.",
+    "code.warroom.goToIssues": "Go to Issues",
+    "code.warroom.totalFindings": "Total Findings",
+    "code.warroom.complexFunctions": "Complex Functions",
+    "code.warroom.avgComplexity": "Avg Complexity",
+    "code.warroom.deadCode": "Dead Code",
+    "code.warroom.noScanFindings": "No security findings detected.",
+    "code.warroom.healthGrade": "Health Grade",
+    "code.warroom.noAuditData": "No audit data. Run a scan first."
   }
 }
