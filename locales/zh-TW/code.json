@@ -272,6 +272,22 @@
     "code.repoDetail.cveId": "CVE",
     "code.repoDetail.fixAvailable": "修復可用",
     "code.repoDetail.noVulnerabilities": "沒有已知漏洞",
-    "code.dashboard.cveFindings": "CVE 發現"
+    "code.dashboard.cveFindings": "CVE 發現",
+
+    "code.nav.issues": "安全問題",
+    "code.issues.feed": "動態",
+    "code.issues.snoozed": "暫緩",
+    "code.issues.ignored": "已忽略",
+    "code.issues.solved": "已解決",
+    "code.issues.search": "搜尋問題...",
+    "code.issues.allSeverities": "所有層級",
+    "code.issues.allTypes": "所有類型",
+    "code.issues.allRepos": "所有儲存庫",
+    "code.issues.type": "類型",
+    "code.issues.name": "名稱",
+    "code.issues.severity": "嚴重程度",
+    "code.issues.location": "位置",
+    "code.issues.noIssues": "沒有發現安全問題",
+    "code.issues.showing": "顯示"
   }
 }

@@ -271,6 +271,22 @@
     "code.repoDetail.cveId": "CVE",
     "code.repoDetail.fixAvailable": "Fix available",
     "code.repoDetail.noVulnerabilities": "No known vulnerabilities",
-    "code.dashboard.cveFindings": "CVE findings"
+    "code.dashboard.cveFindings": "CVE findings",
+
+    "code.nav.issues": "Issues",
+    "code.issues.feed": "Feed",
+    "code.issues.snoozed": "Snoozed",
+    "code.issues.ignored": "Ignored",
+    "code.issues.solved": "Solved",
+    "code.issues.search": "Search issues...",
+    "code.issues.allSeverities": "All severities",
+    "code.issues.allTypes": "All types",
+    "code.issues.allRepos": "All repos",
+    "code.issues.type": "Type",
+    "code.issues.name": "Name",
+    "code.issues.severity": "Severity",
+    "code.issues.location": "Location",
+    "code.issues.noIssues": "No security issues found",
+    "code.issues.showing": "Showing"
   }
 }
