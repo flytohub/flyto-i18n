@@ -9,7 +9,7 @@ Features:
 - Adds new keys from flyto-core
 - Updates existing key values
 - DELETES keys that no longer exist in flyto-core (cleanup)
-- Extracts params_schema simple format (array → dropdown options)
+- Extracts params_schema simple format (array -> dropdown options)
 
 Usage:
     python scripts/sync-from-core.py [--core-path PATH] [--dry-run]
@@ -30,7 +30,8 @@ from typing import Any, Dict, List, Set, Tuple
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-EN_DIR = LOCALES_DIR / 'en'
+MODULES_EN_DIR = LOCALES_DIR / 'modules' / 'en'
+SHARED_EN_DIR = LOCALES_DIR / 'shared' / 'en'
 
 
 # ============================================
@@ -48,7 +49,6 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
         print(f"Warning: Could not read {file_path}: {e}")
         return keys
 
-    # Pattern for key assignments
     key_patterns = [
         (r"label_key\s*=\s*['\"]([^'\"]+)['\"]", 'label'),
         (r"description_key\s*=\s*['\"]([^'\"]+)['\"]", 'description'),
@@ -56,7 +56,6 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
         (r"'description_key'\s*:\s*['\"]([^'\"]+)['\"]", 'description'),
     ]
 
-    # Also extract the actual label/description values for English base
     value_patterns = [
         (r"label\s*=\s*['\"]([^'\"]+)['\"]", 'label'),
         (r"description\s*=\s*['\"]([^'\"]+)['\"]", 'description'),
@@ -64,20 +63,15 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
         (r"'description'\s*:\s*['\"]([^'\"]+)['\"]", 'description'),
     ]
 
-    # Extract key-value pairs
     for key_pattern, field_type in key_patterns:
         for match in re.finditer(key_pattern, content):
             key = match.group(1)
 
-            # Skip dynamic keys (f-strings, template literals, function calls)
             if '{' in key or '(' in key or '$' in key or '`' in key:
                 continue
 
-            # Try to find corresponding value
-            value = key.split('.')[-1].replace('_', ' ').title()  # Default
+            value = key.split('.')[-1].replace('_', ' ').title()
 
-            # Look for actual value near this key — find the CLOSEST match
-            # to avoid shifted labels when multiple fields are within the window.
             key_pos = match.start()
             start = max(0, key_pos - 500)
             end = min(len(content), match.end() + 500)
@@ -89,8 +83,6 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
             for val_pattern, val_type in value_patterns:
                 if val_type == field_type:
                     for val_match in re.finditer(val_pattern, context):
-                        # Calculate distance from value match to key match
-                        # val_match positions are relative to context start
                         val_abs_pos = start + val_match.start()
                         distance = abs(val_abs_pos - key_pos)
                         if distance < best_distance:
@@ -107,7 +99,6 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
                 'source': str(file_path)
             })
 
-    # Extract params_schema keys
     params_keys = extract_params_schema_keys(content, file_path)
     keys.extend(params_keys)
 
@@ -115,34 +106,23 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
 
 
 def extract_params_schema_keys(content: str, file_path: Path) -> List[Dict[str, str]]:
-    """
-    Extract i18n keys from params_schema definitions.
-
-    Handles simple format:
-    - Array of strings → dropdown options (only if looks like enum values)
-    - Generate keys: modules.{module_id}.params.{param_name}
-    - Generate option keys: modules.{module_id}.params.{param_name}.options.{value}
-    """
+    """Extract i18n keys from params_schema definitions."""
     keys = []
 
-    # Find module_id
     module_id_match = re.search(r"module_id\s*=\s*['\"]([^'\"]+)['\"]", content)
     if not module_id_match:
         return keys
 
     module_id = module_id_match.group(1)
 
-    # Find params_schema definition
     params_schema = extract_params_schema_dict(content)
     if not params_schema:
         return keys
 
     for param_name, param_value in params_schema.items():
-        # Skip common example data param names
         if param_name in SKIP_PARAM_NAMES:
             continue
 
-        # Generate param label key
         param_key = f"modules.{module_id}.params.{param_name}"
         param_label = format_label(param_name)
         keys.append({
@@ -152,9 +132,7 @@ def extract_params_schema_keys(content: str, file_path: Path) -> List[Dict[str, 
             'source': str(file_path)
         })
 
-        # If it's an array of strings, generate option keys (only for enum-like values)
         if isinstance(param_value, list) and all(isinstance(v, str) for v in param_value):
-            # Skip if looks like example data (names, numbers, paths, etc.)
             if is_enum_like_array(param_value):
                 for option_value in param_value:
                     option_key = f"{param_key}.options.{option_value}"
@@ -166,7 +144,6 @@ def extract_params_schema_keys(content: str, file_path: Path) -> List[Dict[str, 
                         'source': str(file_path)
                     })
 
-        # If it's an object with enum, generate option keys
         elif isinstance(param_value, dict) and 'enum' in param_value:
             for option_value in param_value['enum']:
                 option_key = f"{param_key}.options.{option_value}"
@@ -181,7 +158,6 @@ def extract_params_schema_keys(content: str, file_path: Path) -> List[Dict[str, 
     return keys
 
 
-# Param names that are typically example data, not enum definitions
 SKIP_PARAM_NAMES = {
     'data', 'content', 'text', 'items', 'values', 'array', 'list',
     'documents', 'records', 'rows', 'entries', 'messages', 'args',
@@ -193,42 +169,26 @@ SKIP_PARAM_NAMES = {
 
 
 def is_enum_like_array(values: List[str]) -> bool:
-    """
-    Check if array values look like enum options vs example data.
-    Enum-like: ['manual', 'webhook', 'schedule']
-    Example data: ['Alice', 'Bob', 'Charlie'] or ['a', 'b', 'c']
-    """
+    """Check if array values look like enum options vs example data."""
     if not values or len(values) < 2:
         return False
-
-    # Too many options is likely example data
     if len(values) > 10:
         return False
 
     for val in values:
-        # Single character is likely example data
         if len(val) <= 1:
             return False
-
-        # Looks like a name (capitalized)
         if val[0].isupper() and val[1:].islower() and len(val) < 10:
-            # Could be a name like "Alice" or option like "Private"
-            # Check if it's a common name
             if val.lower() in COMMON_NAMES:
                 return False
-
-        # Looks like a path
         if val.startswith('/') or val.startswith('.'):
             return False
-
-        # Looks like a number
         if val.isdigit():
             return False
 
     return True
 
 
-# Common first names that indicate example data
 COMMON_NAMES = {
     'alice', 'bob', 'charlie', 'david', 'eve', 'frank', 'grace',
     'jane', 'john', 'mary', 'mike', 'tom', 'anna', 'james', 'sarah'
@@ -236,38 +196,28 @@ COMMON_NAMES = {
 
 
 def extract_params_schema_dict(content: str) -> Dict[str, Any]:
-    """
-    Try to extract params_schema as a Python dict.
-    Uses AST parsing for safety.
-    """
-    # Find params_schema assignment
+    """Try to extract params_schema as a Python dict."""
     patterns = [
         r"params_schema\s*=\s*(\{[^}]+\})",
         r"'params_schema'\s*:\s*(\{[^}]+\})",
-        r"params_schema\s*=\s*compose\([^)]+\)",  # Skip compose() calls
+        r"params_schema\s*=\s*compose\([^)]+\)",
     ]
 
     for pattern in patterns:
         match = re.search(pattern, content, re.DOTALL)
         if match:
             try:
-                # Try to parse as Python literal
                 dict_str = match.group(1) if match.lastindex else None
                 if dict_str:
                     return ast.literal_eval(dict_str)
             except (ValueError, SyntaxError):
                 pass
 
-    # Alternative: look for simple param definitions
     result = {}
-
-    # Pattern for simple array format: 'param_name': ['opt1', 'opt2']
     array_pattern = r"['\"](\w+)['\"]\s*:\s*\[([^\]]+)\]"
     for match in re.finditer(array_pattern, content):
         param_name = match.group(1)
         array_content = match.group(2)
-
-        # Parse array values
         values = re.findall(r"['\"]([^'\"]+)['\"]", array_content)
         if values:
             result[param_name] = values
@@ -317,11 +267,11 @@ def group_by_category(keys: Dict[str, str]) -> Dict[str, Dict[str, str]]:
         parts = key.split('.')
         if len(parts) >= 2:
             if parts[0] == 'modules':
-                category = parts[1]  # e.g., 'browser', 'flow'
+                category = parts[1]
             elif parts[0] == 'common':
                 category = 'common'
             elif parts[0] == 'schema':
-                category = 'other'  # schema.field.* goes to other
+                category = 'other'
             else:
                 category = 'other'
         else:
@@ -333,22 +283,30 @@ def group_by_category(keys: Dict[str, str]) -> Dict[str, Dict[str, str]]:
 
 
 def load_existing_keys() -> Dict[str, Set[str]]:
-    """Load existing keys from all locale files."""
+    """Load existing keys from modules and shared locale files."""
     existing = defaultdict(set)
 
-    if not EN_DIR.exists():
-        return dict(existing)
+    # Load from modules/en/
+    if MODULES_EN_DIR.exists():
+        for json_file in MODULES_EN_DIR.glob('*.json'):
+            try:
+                with open(json_file) as f:
+                    data = json.load(f)
+                category = data.get('category', 'other')
+                translations = data.get('translations', {})
+                existing[category] = set(translations.keys())
+            except Exception as e:
+                print(f"Warning: Could not read {json_file}: {e}")
 
-    for json_file in EN_DIR.glob('*.json'):
+    # Load from shared/en/ (for common.json)
+    common_file = SHARED_EN_DIR / 'common.json'
+    if common_file.exists():
         try:
-            with open(json_file) as f:
+            with open(common_file) as f:
                 data = json.load(f)
-
-            category = data.get('category', 'other')
-            translations = data.get('translations', {})
-            existing[category] = set(translations.keys())
+            existing['common'] = set(data.get('translations', {}).keys())
         except Exception as e:
-            print(f"Warning: Could not read {json_file}: {e}")
+            print(f"Warning: Could not read {common_file}: {e}")
 
     return dict(existing)
 
@@ -360,7 +318,8 @@ def write_locale_files(
     no_delete: bool = False
 ) -> Dict[str, Dict]:
     """Write grouped keys to locale files. Returns stats."""
-    EN_DIR.mkdir(parents=True, exist_ok=True)
+    MODULES_EN_DIR.mkdir(parents=True, exist_ok=True)
+    SHARED_EN_DIR.mkdir(parents=True, exist_ok=True)
 
     stats = {
         'added': 0,
@@ -370,7 +329,6 @@ def write_locale_files(
         'categories': {}
     }
 
-    # Get all categories (both new and existing)
     all_categories = set(grouped_keys.keys()) | set(existing_keys.keys())
 
     for category in all_categories:
@@ -378,11 +336,9 @@ def write_locale_files(
         old_keys = existing_keys.get(category, set())
         new_keys = set(new_translations.keys())
 
-        # Calculate changes
         added = new_keys - old_keys
         deleted = old_keys - new_keys if not no_delete else set()
         preserved = old_keys - new_keys if no_delete else set()
-        kept = new_keys & old_keys
 
         cat_stats = {
             'added': len(added),
@@ -395,11 +351,17 @@ def write_locale_files(
         stats['deleted'] += len(deleted)
         stats['preserved'] += len(preserved)
 
-        filename = f"modules.{category}.json" if category != 'common' else 'common.json'
-        file_path = EN_DIR / filename
+        # Determine target directory and filename
+        if category == 'common':
+            target_dir = SHARED_EN_DIR
+            filename = 'common.json'
+        else:
+            target_dir = MODULES_EN_DIR
+            filename = f"{category}.json"
+
+        file_path = target_dir / filename
 
         if not new_translations and not no_delete:
-            # Category has no keys anymore - delete file (unless no_delete)
             if file_path.exists():
                 if dry_run:
                     print(f"Would DELETE {file_path} (all keys removed)")
@@ -409,11 +371,10 @@ def write_locale_files(
             continue
 
         if not new_translations:
-            # no_delete mode: skip empty categories
             continue
 
         data = {
-            "$schema": "../../schema/locale.schema.json",
+            "$schema": "../../../schema/locale.schema.json",
             "locale": "en",
             "category": category,
             "version": "1.0.0",
@@ -469,21 +430,17 @@ def main():
     print(f"Scanning flyto-core at: {core_path}")
     print()
 
-    # Load existing keys first
     existing_keys = load_existing_keys()
     existing_count = sum(len(keys) for keys in existing_keys.values())
     print(f"Existing keys in flyto-i18n: {existing_count}")
 
-    # Extract keys from core
     all_keys = scan_core_modules(core_path)
     print(f"Found {len(all_keys)} i18n keys in flyto-core")
 
-    # Group by category
     grouped = group_by_category(all_keys)
     print(f"Categories: {list(grouped.keys())}")
     print()
 
-    # Write files
     stats = write_locale_files(
         grouped, existing_keys,
         dry_run=args.dry_run,

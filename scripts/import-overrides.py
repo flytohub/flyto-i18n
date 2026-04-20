@@ -17,6 +17,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
+CLOUD_DIR = LOCALES_DIR / 'cloud'
 
 
 def parse_js_object(content: str) -> dict:
@@ -24,10 +25,8 @@ def parse_js_object(content: str) -> dict:
     Parse JavaScript object from local-overrides.js content.
     Converts JS object syntax to valid JSON.
     """
-    # Extract the localOverrides object
     match = re.search(r'export const localOverrides\s*=\s*(\{[\s\S]*?\n\})\s*\n\n', content)
     if not match:
-        # Try alternative pattern
         match = re.search(r'export const localOverrides\s*=\s*(\{[\s\S]*?\n\})', content)
 
     if not match:
@@ -36,14 +35,10 @@ def parse_js_object(content: str) -> dict:
 
     js_obj = match.group(1)
 
-    # Convert JS to valid JSON by processing line by line
     lines = js_obj.split('\n')
     result_lines = []
 
     for line in lines:
-        # Check if this is a key-value line with single-quoted string value
-        # Pattern: key: 'value' or 'key': 'value'
-        # Use a greedy match that captures everything between the first ' and last '
         kv_match = re.match(r"^(\s*)(['\"]?\w+(?:-\w+)?['\"]?)\s*:\s*'((?:[^'\\]|\\.)*)'(,?)$", line)
         if kv_match:
             indent = kv_match.group(1)
@@ -51,38 +46,28 @@ def parse_js_object(content: str) -> dict:
             value = kv_match.group(3)
             comma = kv_match.group(4)
 
-            # Add quotes to key if not already quoted
             if not key.startswith('"') and not key.startswith("'"):
                 key = f'"{key}"'
             else:
-                # Convert single-quoted key to double-quoted
                 key = key.replace("'", '"')
 
-            # Convert JS escaped single quotes to plain single quotes
             value = value.replace("\\'", "'")
-            # Escape any double quotes inside the value
             value = value.replace('"', '\\"')
 
             result_lines.append(f'{indent}{key}: "{value}"{comma}')
         else:
-            # Not a simple key-value line, do basic conversion
             converted = line
-            # Convert single-quoted keys like '1h': to "1h":
             converted = re.sub(r"'([^']+)':", r'"\1":', converted)
-            # Add quotes to unquoted keys
             converted = re.sub(r'(\s)(\w+):', r'\1"\2":', converted)
             result_lines.append(converted)
 
     json_str = '\n'.join(result_lines)
-
-    # Remove trailing commas before } or ]
     json_str = re.sub(r',(\s*[}\]])', r'\1', json_str)
 
     try:
         return json.loads(json_str)
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON: {e}")
-        # Try to find the problematic area
         lines = json_str.split('\n')
         line_no = e.lineno - 1
         print(f"Near line {e.lineno}:")
@@ -106,7 +91,7 @@ def flatten_dict(d: dict, prefix: str = '') -> dict:
 
 def update_locale_files(locale: str, translations: dict, dry_run: bool = False) -> tuple:
     """Update locale files with translations."""
-    locale_dir = LOCALES_DIR / locale
+    locale_dir = CLOUD_DIR / locale
 
     if not locale_dir.exists():
         print(f"  Warning: Locale directory not found: {locale_dir}")
@@ -125,11 +110,10 @@ def update_locale_files(locale: str, translations: dict, dry_run: bool = False) 
         by_category[category][key] = value
 
     for category, cat_translations in by_category.items():
-        # Find matching file
-        file_path = locale_dir / f"cloud.{category}.json"
+        file_path = locale_dir / f"{category}.json"
 
         if not file_path.exists():
-            print(f"    Skipping {category}: no cloud.{category}.json file")
+            print(f"    Skipping {category}: no {category}.json file")
             continue
 
         try:
@@ -146,15 +130,12 @@ def update_locale_files(locale: str, translations: dict, dry_run: bool = False) 
             if not value:
                 continue
             if key not in existing:
-                # Add new key
                 existing[key] = value
                 changes += 1
             elif existing[key] == '':
-                # Fill empty translation
                 existing[key] = value
                 changes += 1
             elif existing[key] != value:
-                # Update existing (prefer override)
                 existing[key] = value
                 changes += 1
 
@@ -202,7 +183,6 @@ def main():
     print(f"Mode: {'DRY RUN' if args.dry_run else 'LIVE'}")
     print("-" * 60)
 
-    # Parse the JS file
     content = overrides_file.read_text(encoding='utf-8')
     overrides = parse_js_object(content)
 
@@ -216,7 +196,6 @@ def main():
     for locale, translations in overrides.items():
         print(f"\n[{locale}]")
 
-        # Flatten nested structure
         flat = flatten_dict(translations)
         print(f"  Found {len(flat)} translations in overrides")
 

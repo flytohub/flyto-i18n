@@ -5,7 +5,7 @@ build-app.py - Build flat merged locale files for flyto-app (Flutter)
 Usage:
     python scripts/build-app.py
 
-Merges app.* + cloud.template.* + common.* keys into flat JSON
+Merges shared(app, common) + cloud(template) keys into flat JSON
 for the Flutter app's rootBundle.loadString() loader.
 
 Output: ../flyto-app/assets/i18n/{locale}.json
@@ -18,8 +18,11 @@ PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 APP_DIR = PROJECT_ROOT.parent / 'flyto-app' / 'assets' / 'i18n'
 
-# File prefixes to include for the app
-APP_PREFIXES = ['app.', 'cloud.template.', 'common.']
+# Which project dirs and files to include for the app
+APP_SOURCES = [
+    ('shared', ['app.json', 'common.json']),
+    ('cloud', ['template.json']),
+]
 
 # Only build locales that the app supports
 APP_LOCALES = ['en', 'zh-TW']
@@ -27,23 +30,24 @@ APP_LOCALES = ['en', 'zh-TW']
 
 def build_app_locale(locale: str) -> dict:
     """Build flat merged translations for a locale."""
-    locale_dir = LOCALES_DIR / locale
-    if not locale_dir.exists():
-        return {}
-
     flat = {}
     files_count = 0
 
-    for json_file in sorted(locale_dir.glob('*.json')):
-        if not any(json_file.name.startswith(p) for p in APP_PREFIXES):
+    for project, file_filter in APP_SOURCES:
+        locale_dir = LOCALES_DIR / project / locale
+        if not locale_dir.exists():
             continue
 
-        with open(json_file, encoding='utf-8') as f:
-            data = json.load(f)
+        for json_file in sorted(locale_dir.glob('*.json')):
+            if file_filter and json_file.name not in file_filter:
+                continue
 
-        if 'translations' in data:
-            flat.update(data['translations'])
-            files_count += 1
+            with open(json_file, encoding='utf-8') as f:
+                data = json.load(f)
+
+            if 'translations' in data:
+                flat.update(data['translations'])
+                files_count += 1
 
     return {
         'locale': locale,
@@ -63,7 +67,7 @@ def main():
             f.write('\n')
 
         key_count = len(data.get('translations', {}))
-        print(f'  {locale}: {key_count} keys → {out_file.relative_to(PROJECT_ROOT.parent)}')
+        print(f'  {locale}: {key_count} keys -> {out_file.relative_to(PROJECT_ROOT.parent)}')
 
     print('\nDone.')
 

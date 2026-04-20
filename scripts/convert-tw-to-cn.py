@@ -7,8 +7,8 @@ Usage:
     python scripts/convert-tw-to-cn.py --dry-run
 
 Uses OpenCC tw2sp profile which handles:
-- Traditional → Simplified character conversion
-- Taiwan → Mainland vocabulary conversion (檔案→文件, 軟體→软件, etc.)
+- Traditional -> Simplified character conversion
+- Taiwan -> Mainland vocabulary conversion
 
 Requirements:
     pip install opencc-python-reimplemented
@@ -28,13 +28,11 @@ except ImportError:
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-TW_DIR = LOCALES_DIR / 'zh-TW'
-CN_DIR = LOCALES_DIR / 'zh-CN'
 
-# Post-OpenCC vocabulary fixes: TW terms that OpenCC tw2sp doesn't convert
-# to the correct Mainland Chinese equivalents.
-# Order matters — longer/more specific terms must come before shorter ones
-# to avoid partial replacements (e.g. "自订义" from replacing "自订" before "自定义").
+# All project directories
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+
+# Post-OpenCC vocabulary fixes
 TW_TO_CN_VOCAB = [
     ('自订', '自定义'),
     ('范本', '模板'),
@@ -66,65 +64,64 @@ def main():
     parser = argparse.ArgumentParser(description='Convert zh-TW to zh-CN using OpenCC')
     parser.add_argument('--dry-run', action='store_true', help='Preview without writing')
     parser.add_argument('--force', action='store_true', help='Overwrite existing zh-CN files')
+    parser.add_argument('--project', '-p', help='Convert specific project only')
     args = parser.parse_args()
 
     cc = opencc.OpenCC('tw2sp')
 
-    if not TW_DIR.exists():
-        print(f"Error: zh-TW directory not found at {TW_DIR}")
-        sys.exit(1)
+    projects = [args.project] if args.project else PROJECT_DIRS
 
-    if not args.dry_run:
-        CN_DIR.mkdir(parents=True, exist_ok=True)
-
-    tw_files = sorted(TW_DIR.glob('*.json'))
-    print(f"Converting {len(tw_files)} files from zh-TW → zh-CN")
+    print(f"Converting zh-TW -> zh-CN")
     print(f"Mode: {'DRY RUN' if args.dry_run else ('FORCE' if args.force else 'NORMAL')}")
     print()
 
-    converted = 0
-    skipped = 0
+    total_converted = 0
+    total_skipped = 0
 
-    for tw_file in tw_files:
-        cn_file = CN_DIR / tw_file.name
+    for proj in projects:
+        tw_dir = LOCALES_DIR / proj / 'zh-TW'
+        cn_dir = LOCALES_DIR / proj / 'zh-CN'
 
-        if cn_file.exists() and not args.force:
-            print(f"  SKIP {tw_file.name} (already exists)")
-            skipped += 1
+        if not tw_dir.exists():
             continue
 
-        with open(tw_file, encoding='utf-8') as f:
-            data = json.load(f)
+        if not args.dry_run:
+            cn_dir.mkdir(parents=True, exist_ok=True)
 
-        # Update locale field
-        data['locale'] = 'zh-CN'
+        tw_files = sorted(tw_dir.glob('*.json'))
+        if not tw_files:
+            continue
 
-        # Convert translations (recursive for nested structures)
-        if 'translations' in data:
-            data['translations'] = convert_value(cc, data['translations'])
+        print(f"[{proj}] {len(tw_files)} files")
 
-        if args.dry_run:
-            # Show a few sample conversions
+        for tw_file in tw_files:
+            cn_file = cn_dir / tw_file.name
+
+            if cn_file.exists() and not args.force:
+                print(f"  SKIP {tw_file.name} (already exists)")
+                total_skipped += 1
+                continue
+
+            with open(tw_file, encoding='utf-8') as f:
+                data = json.load(f)
+
+            data['locale'] = 'zh-CN'
+
             if 'translations' in data:
-                samples = list(data['translations'].items())[:3]
-                for k, v in samples:
-                    with open(tw_file, encoding='utf-8') as f:
-                        orig = json.load(f)['translations'].get(k, '')
-                    if orig != v:
-                        print(f"  {tw_file.name}: {k}")
-                        print(f"    TW: {orig}")
-                        print(f"    CN: {v}")
-            print(f"  WOULD convert {tw_file.name}")
-        else:
-            with open(cn_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-                f.write('\n')
-            print(f"  OK {tw_file.name}")
+                data['translations'] = convert_value(cc, data['translations'])
 
-        converted += 1
+            if args.dry_run:
+                print(f"  WOULD convert {tw_file.name}")
+            else:
+                with open(cn_file, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+                    f.write('\n')
+                print(f"  OK {tw_file.name}")
+
+            total_converted += 1
 
     print()
-    print(f"Done: {converted} converted, {skipped} skipped")
+    print(f"Done: {total_converted} converted, {total_skipped} skipped")
 
 
 if __name__ == '__main__':

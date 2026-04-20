@@ -11,10 +11,17 @@ This script:
 3. Outputs to dist/{scope}/{locale}.json for efficient CDN loading
 4. Generates manifest.json with locale metadata
 
-Scopes:
-- dist/cloud/{locale}.json  - cloud.* + modules.* + common.* (flyto-cloud)
-- dist/landing/{locale}.json - landing.* + common.* (flyto-landing-page)
-- dist/{locale}.json - all translations (admin/full access)
+Directory structure:
+- locales/cloud/{locale}/*.json   - Cloud UI translations
+- locales/modules/{locale}/*.json - Core module translations
+- locales/landing/{locale}/*.json - Landing page translations
+- locales/shared/{locale}/*.json  - Shared/common translations
+
+Scopes (output):
+- dist/cloud/{locale}.json   - cloud + modules + shared (flyto-cloud)
+- dist/landing/{locale}.json - landing + shared (flyto-landing-page)
+- dist/app/{locale}.json     - shared(app) + cloud(template) + shared(common)
+- dist/{locale}.json          - all translations (admin/full access)
 """
 
 import json
@@ -25,11 +32,36 @@ PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 DIST_DIR = PROJECT_ROOT / 'dist'
 
-# Define scopes and their file prefixes
+# Define scopes: which project directories to include, and optional file filters
+# Each scope entry: list of (project_dir, file_filter_or_None, key_prefix_to_restore)
+# key_prefix_to_restore: the original prefix added back to translation keys for backward compat
 SCOPES = {
-    'cloud': ['cloud.', 'modules.', 'common.'],
-    'landing': ['landing.', 'common.'],
-    'app': ['app.', 'cloud.template.', 'common.'],
+    'cloud': [
+        ('cloud', None, 'cloud'),
+        ('modules', None, 'modules'),
+        ('shared', None, 'common'),
+    ],
+    'landing': [
+        ('landing', None, 'landing'),
+        ('shared', None, 'common'),
+    ],
+    'app': [
+        ('app', None, 'app'),
+        ('cloud', ['template.json'], 'cloud.template'),
+        ('shared', None, 'common'),
+    ],
+    'code': [
+        ('code', None, 'code'),
+        ('shared', None, 'common'),
+    ],
+    'console': [
+        ('console', None, 'console'),
+        ('shared', None, 'common'),
+    ],
+    'data': [
+        ('data', None, 'data'),
+        ('shared', None, 'common'),
+    ],
 }
 
 # Language metadata - add new languages here when adding locales
@@ -57,6 +89,17 @@ LANGUAGE_META = {
     'tr': {'name': 'Turkish', 'native': 'Türkçe', 'region': 'TR'},
     'uk': {'name': 'Ukrainian', 'native': 'Українська', 'region': 'UA'},
 }
+
+# All project directories under locales/
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+
+
+def get_locales() -> list:
+    """Discover available locales from the cloud project (primary)."""
+    cloud_dir = LOCALES_DIR / 'cloud'
+    if not cloud_dir.exists():
+        return []
+    return sorted([d.name for d in cloud_dir.iterdir() if d.is_dir()])
 
 
 def flat_to_nested(flat_dict: dict) -> dict:
@@ -92,8 +135,6 @@ def flat_to_nested(flat_dict: dict) -> dict:
             if part not in current:
                 current[part] = {}
             elif not isinstance(current[part], dict):
-                # Conflict: shorter key was string, but we need dict for longer key
-                # Replace with dict (longer key wins)
                 current[part] = {}
             current = current[part]
 
@@ -101,9 +142,46 @@ def flat_to_nested(flat_dict: dict) -> dict:
         final_key = parts[-1]
         if final_key not in current:
             current[final_key] = value
-        # If already exists as dict, skip (children win over parent string)
 
     return result
+
+
+def collect_files(locale: str, project: str, file_filter: list = None) -> list:
+    """Get translation files for a locale from a specific project directory.
+
+    Args:
+        locale: Locale code (e.g., 'en', 'zh-TW')
+        project: Project directory name (e.g., 'cloud', 'modules')
+        file_filter: Optional list of specific filenames to include
+    """
+    locale_dir = LOCALES_DIR / project / locale
+    if not locale_dir.exists():
+        return []
+
+    files = []
+    for json_file in sorted(locale_dir.glob('*.json')):
+        if file_filter and json_file.name not in file_filter:
+            continue
+        files.append(json_file)
+    return files
+
+
+def load_translations(files: list, key_prefix: str) -> dict:
+    """Load and merge translations from files, restoring the original key prefix.
+
+    Files no longer have the prefix in their name (e.g., admin.json instead of cloud.admin.json),
+    but the translation keys inside still use the full prefix (e.g., "cloud.admin.title").
+    We just read the keys as-is from the translations dict.
+    """
+    merged = {}
+    count = 0
+    for json_file in files:
+        with open(json_file, encoding='utf-8') as f:
+            data = json.load(f)
+        if 'translations' in data:
+            merged.update(data['translations'])
+            count += 1
+    return merged, count
 
 
 def build_locale(locale: str, scope: str = None) -> dict:
@@ -111,33 +189,28 @@ def build_locale(locale: str, scope: str = None) -> dict:
 
     Args:
         locale: The locale code (e.g., 'en', 'zh-TW')
-        scope: Optional scope to filter files ('cloud', 'landing', or None for all)
+        scope: Optional scope name ('cloud', 'landing', 'app', or None for all)
     """
-    locale_dir = LOCALES_DIR / locale
-
-    if not locale_dir.exists():
-        return {}
-
     flat_merged = {}
     files_count = 0
 
-    # Get file prefixes for scope
-    prefixes = SCOPES.get(scope) if scope else None
+    if scope and scope in SCOPES:
+        # Build from scope definition
+        for project, file_filter, _prefix in SCOPES[scope]:
+            files = collect_files(locale, project, file_filter)
+            translations, count = load_translations(files, _prefix)
+            flat_merged.update(translations)
+            files_count += count
+    else:
+        # Build all: collect from every project directory
+        for project in PROJECT_DIRS:
+            files = collect_files(locale, project)
+            translations, count = load_translations(files, project)
+            flat_merged.update(translations)
+            files_count += count
 
-    for json_file in sorted(locale_dir.glob('*.json')):
-        filename = json_file.name
-
-        # Filter by scope if specified
-        if prefixes:
-            if not any(filename.startswith(p) for p in prefixes):
-                continue
-
-        with open(json_file, encoding='utf-8') as f:
-            data = json.load(f)
-
-        if 'translations' in data:
-            flat_merged.update(data['translations'])
-            files_count += 1
+    if not flat_merged:
+        return {}
 
     # Convert to nested format
     nested = flat_to_nested(flat_merged)
@@ -167,10 +240,8 @@ def build_manifest(locales_data: dict, flat_counts: dict) -> dict:
 
     for locale, data in locales_data.items():
         total = data.get('total_keys', 0)
-        # Use flat count for accurate translated count
         translated = flat_counts.get(locale, 0)
 
-        # Get language metadata
         meta = LANGUAGE_META.get(locale, {'name': locale, 'native': locale, 'region': locale[:2].upper()})
 
         manifest['locales'][locale] = {
@@ -188,24 +259,22 @@ def build_manifest(locales_data: dict, flat_counts: dict) -> dict:
 
 def count_translated(locale: str, scope: str = None) -> int:
     """Count non-empty translations for a locale."""
-    locale_dir = LOCALES_DIR / locale
     count = 0
 
-    # Get file prefixes for scope
-    prefixes = SCOPES.get(scope) if scope else None
-
-    for json_file in locale_dir.glob('*.json'):
-        filename = json_file.name
-
-        # Filter by scope if specified
-        if prefixes:
-            if not any(filename.startswith(p) for p in prefixes):
-                continue
-
-        with open(json_file, encoding='utf-8') as f:
-            data = json.load(f)
-        if 'translations' in data:
-            count += sum(1 for v in data['translations'].values() if v)
+    if scope and scope in SCOPES:
+        for project, file_filter, _prefix in SCOPES[scope]:
+            for json_file in collect_files(locale, project, file_filter):
+                with open(json_file, encoding='utf-8') as f:
+                    data = json.load(f)
+                if 'translations' in data:
+                    count += sum(1 for v in data['translations'].values() if v)
+    else:
+        for project in PROJECT_DIRS:
+            for json_file in collect_files(locale, project):
+                with open(json_file, encoding='utf-8') as f:
+                    data = json.load(f)
+                if 'translations' in data:
+                    count += sum(1 for v in data['translations'].values() if v)
 
     return count
 
@@ -217,7 +286,7 @@ def main():
     DIST_DIR.mkdir(parents=True, exist_ok=True)
 
     # Get all locales
-    locales = [d.name for d in sorted(LOCALES_DIR.iterdir()) if d.is_dir()]
+    locales = get_locales()
 
     # Build scoped files first
     for scope in SCOPES:
@@ -238,7 +307,7 @@ def main():
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False)
 
-            print(f"  → dist/{scope}/{locale}.json ({data['total_keys']} keys, {data['files_merged']} files)")
+            print(f"  → dist/{scope}/{locale}.json ({data.get('total_keys', 0)} keys, {data.get('files_merged', 0)} files)")
 
         # Write scope manifest
         manifest = build_manifest(scope_locales_data, scope_flat_counts)
@@ -264,7 +333,7 @@ def main():
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False)
 
-        print(f"  → dist/{locale}.json ({data['total_keys']} keys, {data['files_merged']} files)")
+        print(f"  → dist/{locale}.json ({data.get('total_keys', 0)} keys, {data.get('files_merged', 0)} files)")
 
     # Write root manifest
     manifest = build_manifest(all_locales_data, all_flat_counts)
@@ -283,11 +352,11 @@ def main():
         scope_dir = DIST_DIR / scope if scope != 'all' else DIST_DIR
         manifest_file = scope_dir / 'manifest.json'
         if manifest_file.exists():
-            with open(manifest_file) as f:
+            with open(manifest_file, encoding='utf-8') as f:
                 manifest = json.load(f)
             print(f"[{scope}]")
             for locale, info in manifest['locales'].items():
-                status = "✅" if info['completion'] == 100 else "🔄"
+                status = "OK" if info['completion'] == 100 else ".."
                 print(f"  {status} {locale}: {info['completion']}% ({info['translated_keys']}/{info['total_keys']})")
             print()
 

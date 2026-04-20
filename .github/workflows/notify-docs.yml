@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'locales/**/modules.*.json'
+      - 'locales/modules/**/*.json'
 
 jobs:
   notify:

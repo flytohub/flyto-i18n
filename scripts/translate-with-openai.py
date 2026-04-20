@@ -3,7 +3,7 @@
 translate-with-openai.py - Translate i18n files using OpenAI
 
 Usage:
-    python scripts/translate-with-openai.py --target zh-TW [--file cloud.ui.json] [--force]
+    python scripts/translate-with-openai.py --target zh-TW [--project cloud] [--file ui.json] [--force]
 
 Features:
 - Uses GPT-4o for natural, colloquial translations
@@ -32,7 +32,9 @@ except ImportError:
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-EN_DIR = LOCALES_DIR / 'en'
+
+# All project directories
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
 
 # Batch size for API calls (too large may hit token limits)
 BATCH_SIZE = 50
@@ -43,27 +45,25 @@ LANGUAGE_CONFIG = {
         'name': '繁體中文',
         'style': '台灣用語，口語自然，避免中國大陸用語',
         'examples': {
-            # 台灣 vs 中國用語
-            'Submit': '送出',  # not 提交
-            'File': '檔案',  # not 文件
-            'Video': '影片',  # not 視頻
-            'Software': '軟體',  # not 軟件
-            'Information': '資訊',  # not 信息
-            'Network': '網路',  # not 網絡
-            'Memory': '記憶體',  # not 內存
-            'Print': '列印',  # not 打印
-            'Execute': '執行',  # not 運行
-            'Settings': '設定',  # not 設置
-            'Default': '預設',  # not 默認
-            'Support': '支援',  # not 支持
-            'Quality': '品質',  # not 質量
-            'Program': '程式',  # not 程序
-            'Data': '資料',  # not 數據
-            'Server': '伺服器',  # not 服務器
-            'Client': '用戶端',  # not 客戶端
-            # UI 常見詞
-            'Placeholder': '提示文字',  # not 佔位符
-            'Overlay': '彈出視窗',  # not 覆蓋
+            'Submit': '送出',
+            'File': '檔案',
+            'Video': '影片',
+            'Software': '軟體',
+            'Information': '資訊',
+            'Network': '網路',
+            'Memory': '記憶體',
+            'Print': '列印',
+            'Execute': '執行',
+            'Settings': '設定',
+            'Default': '預設',
+            'Support': '支援',
+            'Quality': '品質',
+            'Program': '程式',
+            'Data': '資料',
+            'Server': '伺服器',
+            'Client': '用戶端',
+            'Placeholder': '提示文字',
+            'Overlay': '彈出視窗',
             'Modal': '對話框',
             'Tooltip': '提示',
             'Dropdown': '下拉選單',
@@ -80,8 +80,7 @@ LANGUAGE_CONFIG = {
             'Button': '按鈕',
             'Input': '輸入框',
             'Label': '標籤',
-            # 動作詞
-            'Rollback': '復原',  # not 回復（回復=reply）
+            'Rollback': '復原',
             'Undo': '復原',
             'Redo': '重做',
             'Retry': '重試',
@@ -100,14 +99,12 @@ LANGUAGE_CONFIG = {
             'Completed': '已完成',
             'Failed': '失敗',
             'Success': '成功',
-            # 狀態詞
             'Enabled': '已啟用',
             'Disabled': '已停用',
             'Active': '使用中',
             'Inactive': '未使用',
             'Online': '上線',
             'Offline': '離線',
-            # 技術詞（保留不翻）
             'API': 'API',
             'JSON': 'JSON',
             'URL': 'URL',
@@ -115,7 +112,6 @@ LANGUAGE_CONFIG = {
             'AI': 'AI',
             'ID': 'ID',
         },
-        # 特殊規則
         'rules': [
             '當 key 以 Placeholder 結尾時，翻成「...的提示文字」或直接省略 Placeholder',
             '當 key 以 Overlay 結尾時，翻成「...視窗」或「...面板」',
@@ -351,7 +347,7 @@ def translate_batch(
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=0.3,  # Lower temperature for consistency
+            temperature=0.3,
             response_format={"type": "json_object"}
         )
 
@@ -369,10 +365,8 @@ def _is_untranslated(existing: str, en_value: str) -> bool:
         return False
     if existing != en_value:
         return False
-    # Skip short strings and all-caps technical terms (API, JSON, URL, etc.)
     if len(en_value) <= 3 or en_value.isupper():
         return False
-    # Skip strings that are purely technical (numbers, symbols, formats)
     stripped = en_value.strip()
     if all(c in '0123456789.-+/%$€£¥:' for c in stripped):
         return False
@@ -389,17 +383,12 @@ def translate_file(
     model: str = "gpt-4o",
     untranslated: bool = False,
 ) -> Tuple[int, int]:
-    """
-    Translate a single file.
-    Returns (translated_count, skipped_count)
-    """
-    # Load English source
+    """Translate a single file. Returns (translated_count, skipped_count)."""
     with open(en_file, encoding='utf-8') as f:
         en_data = json.load(f)
 
     en_translations = en_data.get('translations', {})
 
-    # Load existing target translations
     if target_file.exists():
         with open(target_file, encoding='utf-8') as f:
             target_data = json.load(f)
@@ -409,7 +398,6 @@ def translate_file(
         target_data['locale'] = target_locale
         target_translations = {}
 
-    # Find texts that need translation
     to_translate = {}
     for key, en_value in en_translations.items():
         existing = target_translations.get(key, "")
@@ -425,7 +413,6 @@ def translate_file(
         print(f"  Would translate {len(to_translate)} keys")
         return len(to_translate), len(en_translations) - len(to_translate)
 
-    # Translate in batches
     translated_count = 0
     keys = list(to_translate.keys())
 
@@ -442,10 +429,10 @@ def translate_file(
                 target_translations[key] = translated
                 translated_count += 1
 
-    # Update and save
     target_data['translations'] = dict(sorted(target_translations.items()))
     target_data['locale'] = target_locale
 
+    target_file.parent.mkdir(parents=True, exist_ok=True)
     with open(target_file, 'w', encoding='utf-8') as f:
         json.dump(target_data, f, indent=2, ensure_ascii=False)
         f.write('\n')
@@ -463,10 +450,13 @@ Examples:
     # Translate all files to Traditional Chinese
     python scripts/translate-with-openai.py --target zh-TW
 
-    # Translate specific file
-    python scripts/translate-with-openai.py --target zh-TW --file cloud.ui.json
+    # Translate specific project
+    python scripts/translate-with-openai.py --target zh-TW --project cloud
 
-    # Force re-translate all (overwrite existing)
+    # Translate specific file in a project
+    python scripts/translate-with-openai.py --target zh-TW --project cloud --file ui.json
+
+    # Force re-translate all
     python scripts/translate-with-openai.py --target zh-TW --force
 
     # Preview without making changes
@@ -475,8 +465,10 @@ Examples:
     )
     parser.add_argument('--target', '-t', required=True,
                         help='Target locale (e.g., zh-TW, zh-CN, ja)')
+    parser.add_argument('--project', '-p',
+                        help='Translate specific project only (cloud, modules, landing, shared)')
     parser.add_argument('--file', '-f',
-                        help='Translate specific file only (e.g., cloud.ui.json)')
+                        help='Translate specific file only (e.g., ui.json)')
     parser.add_argument('--force', action='store_true',
                         help='Re-translate all keys, including existing translations')
     parser.add_argument('--untranslated', '-u', action='store_true',
@@ -488,7 +480,6 @@ Examples:
 
     args = parser.parse_args()
 
-    # Check API key (not needed for dry-run)
     api_key = os.environ.get('OPENAI_API_KEY')
     if not api_key and not args.dry_run:
         print("Error: OPENAI_API_KEY environment variable not set")
@@ -496,12 +487,6 @@ Examples:
         sys.exit(1)
 
     client = OpenAI(api_key=api_key) if api_key else None
-
-    target_dir = LOCALES_DIR / args.target
-    if not target_dir.exists():
-        print(f"Creating locale directory: {target_dir}")
-        if not args.dry_run:
-            target_dir.mkdir(parents=True)
 
     print(f"Translating to: {args.target}")
     print(f"Model: {args.model}")
@@ -512,39 +497,50 @@ Examples:
     total_translated = 0
     total_skipped = 0
 
-    # Get files to process
-    if args.file:
-        en_files = [EN_DIR / args.file]
-        if not en_files[0].exists():
-            print(f"Error: File not found: {en_files[0]}")
-            sys.exit(1)
-    else:
-        en_files = sorted(EN_DIR.glob('*.json'))
+    projects = [args.project] if args.project else PROJECT_DIRS
 
-    for en_file in en_files:
-        filename = en_file.name
-        target_file = target_dir / filename
+    for proj in projects:
+        en_dir = LOCALES_DIR / proj / 'en'
+        if not en_dir.exists():
+            continue
 
-        print(f"[{filename}]")
-
-        translated, skipped = translate_file(
-            client=client,
-            en_file=en_file,
-            target_file=target_file,
-            target_locale=args.target,
-            force=args.force,
-            dry_run=args.dry_run,
-            model=args.model,
-            untranslated=args.untranslated,
-        )
-
-        if translated == 0 and skipped > 0:
-            print(f"  Already translated ✓ ({skipped} keys)")
+        if args.file:
+            en_files = [en_dir / args.file]
+            if not en_files[0].exists():
+                print(f"Error: File not found: {en_files[0]}")
+                sys.exit(1)
         else:
-            print(f"  Translated: {translated}, Skipped: {skipped}")
+            en_files = sorted(en_dir.glob('*.json'))
 
-        total_translated += translated
-        total_skipped += skipped
+        if not en_files:
+            continue
+
+        print(f"[{proj}]")
+
+        for en_file in en_files:
+            target_file = LOCALES_DIR / proj / args.target / en_file.name
+
+            print(f"  [{en_file.name}]")
+
+            translated, skipped = translate_file(
+                client=client,
+                en_file=en_file,
+                target_file=target_file,
+                target_locale=args.target,
+                force=args.force,
+                dry_run=args.dry_run,
+                model=args.model,
+                untranslated=args.untranslated,
+            )
+
+            if translated == 0 and skipped > 0:
+                print(f"    Already translated ({skipped} keys)")
+            else:
+                print(f"    Translated: {translated}, Skipped: {skipped}")
+
+            total_translated += translated
+            total_skipped += skipped
+
         print()
 
     print("=" * 50)

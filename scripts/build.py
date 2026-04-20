@@ -20,22 +20,39 @@ PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 DIST_DIR = PROJECT_ROOT / 'dist'
 
+# All project directories
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+
+
+def get_locales() -> list:
+    """Get available locales by scanning project directories."""
+    locales = set()
+    for proj in PROJECT_DIRS:
+        proj_dir = LOCALES_DIR / proj
+        if proj_dir.exists():
+            for d in proj_dir.iterdir():
+                if d.is_dir():
+                    locales.add(d.name)
+    return sorted(locales)
+
 
 def merge_locale_files(locale: str) -> Dict[str, str]:
     """Merge all translation files for a locale into a single dict."""
-    locale_dir = LOCALES_DIR / locale
-    if not locale_dir.exists():
-        return {}
-
     merged = {}
-    for json_file in sorted(locale_dir.glob('*.json')):
-        try:
-            with open(json_file) as f:
-                data = json.load(f)
-                if 'translations' in data:
-                    merged.update(data['translations'])
-        except Exception as e:
-            print(f"Warning: Could not load {json_file}: {e}")
+
+    for proj in PROJECT_DIRS:
+        locale_dir = LOCALES_DIR / proj / locale
+        if not locale_dir.exists():
+            continue
+
+        for json_file in sorted(locale_dir.glob('*.json')):
+            try:
+                with open(json_file) as f:
+                    data = json.load(f)
+                    if 'translations' in data:
+                        merged.update(data['translations'])
+            except Exception as e:
+                print(f"Warning: Could not load {json_file}: {e}")
 
     return merged
 
@@ -50,7 +67,6 @@ def build_locale(locale: str, output_dir: Path) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / f"{locale}.json"
 
-    # Build output structure
     output = {
         "locale": locale,
         "version": get_manifest_version(),
@@ -75,11 +91,6 @@ def get_manifest_version() -> str:
         return '0.0.0'
 
 
-def get_all_locales() -> list:
-    """Get list of all available locales."""
-    return [d.name for d in LOCALES_DIR.iterdir() if d.is_dir()]
-
-
 def main():
     parser = argparse.ArgumentParser(description='Build merged locale files')
     parser.add_argument('--locale', '-l', help='Build specific locale')
@@ -93,7 +104,7 @@ def main():
     if args.locale:
         locales = [args.locale]
     else:
-        locales = get_all_locales()
+        locales = get_locales()
 
     print(f"Building {len(locales)} locale(s)...")
 
@@ -105,7 +116,6 @@ def main():
 
     print(f"\nDone! Built {len(built)} locale file(s) to {output_dir}")
 
-    # Also create a manifest for the dist
     dist_manifest = {
         "version": get_manifest_version(),
         "locales": locales,

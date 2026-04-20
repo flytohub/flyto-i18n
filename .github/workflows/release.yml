@@ -25,19 +25,18 @@ jobs:
 
       - name: Package locales
         run: |
-          mkdir -p dist
-          # Package each locale separately
-          for locale_dir in locales/*/; do
-            locale=$(basename "$locale_dir")
-            if [ -d "$locale_dir" ]; then
-              zip -r "dist/flyto-i18n-${locale}-${{ github.ref_name }}.zip" "locales/$locale" manifest.json
+          mkdir -p release
+          # Package each project separately
+          for project in cloud modules landing shared; do
+            if [ -d "locales/$project" ]; then
+              zip -r "release/flyto-i18n-${project}-${{ github.ref_name }}.zip" "locales/$project" manifest.json
             fi
           done
           # Package all locales together
-          zip -r "dist/flyto-i18n-all-${{ github.ref_name }}.zip" locales manifest.json
+          zip -r "release/flyto-i18n-all-${{ github.ref_name }}.zip" locales manifest.json
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/*.zip
+          files: release/*.zip
           generate_release_notes: true

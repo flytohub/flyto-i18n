@@ -3,10 +3,11 @@
 coverage.py - Generate translation coverage report
 
 Usage:
-    python scripts/coverage.py [--locale LOCALE] [--json]
+    python scripts/coverage.py [--locale LOCALE] [--project PROJECT] [--json]
 
 Options:
     --locale    Show coverage for specific locale
+    --project   Show coverage for specific project (cloud, modules, landing, shared)
     --json      Output as JSON
 """
 
@@ -19,23 +20,41 @@ from typing import Dict, List
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 
+# All project directories
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
 
-def load_locale_keys(locale: str) -> Dict[str, set]:
+
+def get_locales() -> list:
+    """Get available locales by scanning project directories."""
+    locales = set()
+    for proj in PROJECT_DIRS:
+        proj_dir = LOCALES_DIR / proj
+        if proj_dir.exists():
+            for d in proj_dir.iterdir():
+                if d.is_dir():
+                    locales.add(d.name)
+    return sorted(locales)
+
+
+def load_locale_keys(locale: str, projects: list = None) -> Dict[str, set]:
     """Load all keys for a locale, grouped by category."""
-    locale_dir = LOCALES_DIR / locale
-    if not locale_dir.exists():
-        return {}
-
     keys_by_category = {}
-    for json_file in locale_dir.glob('*.json'):
-        try:
-            with open(json_file) as f:
-                data = json.load(f)
-                category = data.get('category', 'unknown')
-                translations = data.get('translations', {})
-                keys_by_category[category] = set(translations.keys())
-        except Exception as e:
-            print(f"Warning: Could not load {json_file}: {e}")
+    dirs = projects or PROJECT_DIRS
+
+    for proj in dirs:
+        locale_dir = LOCALES_DIR / proj / locale
+        if not locale_dir.exists():
+            continue
+
+        for json_file in locale_dir.glob('*.json'):
+            try:
+                with open(json_file) as f:
+                    data = json.load(f)
+                    category = data.get('category', 'unknown')
+                    translations = data.get('translations', {})
+                    keys_by_category[category] = set(translations.keys())
+            except Exception as e:
+                print(f"Warning: Could not load {json_file}: {e}")
 
     return keys_by_category
 
@@ -69,7 +88,7 @@ def calculate_coverage(base_keys: Dict[str, set], locale_keys: Dict[str, set]) -
         'translated_keys': total_translated,
         'coverage': round(overall, 1),
         'by_category': by_category,
-        'missing_keys': sorted(missing)[:50]  # First 50 missing
+        'missing_keys': sorted(missing)[:50]
     }
 
 
@@ -101,26 +120,28 @@ def print_coverage_report(locale: str, stats: Dict):
 def main():
     parser = argparse.ArgumentParser(description='Generate coverage report')
     parser.add_argument('--locale', '-l', help='Specific locale to check')
+    parser.add_argument('--project', '-p', help='Specific project (cloud, modules, landing, shared)')
     parser.add_argument('--json', action='store_true', help='Output as JSON')
     args = parser.parse_args()
 
+    projects = [args.project] if args.project else None
+
     # Load base (English) keys
-    base_keys = load_locale_keys('en')
+    base_keys = load_locale_keys('en', projects)
     if not base_keys:
-        print("Error: No English base locale found. Run sync-from-core.py first.")
+        print("Error: No English base locale found.")
         sys.exit(1)
 
     # Get locales to check
     if args.locale:
         locales = [args.locale]
     else:
-        locales = [d.name for d in LOCALES_DIR.iterdir()
-                   if d.is_dir() and d.name != 'en']
+        locales = [l for l in get_locales() if l != 'en']
 
     all_stats = {}
 
     for locale in locales:
-        locale_keys = load_locale_keys(locale)
+        locale_keys = load_locale_keys(locale, projects)
         stats = calculate_coverage(base_keys, locale_keys)
         all_stats[locale] = stats
 

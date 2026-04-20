@@ -8,7 +8,7 @@ Usage:
     python scripts/add-locale.py --list      # List available locales
 
 This script:
-1. Creates new locale directory
+1. Creates new locale directories under each project
 2. Copies all English files with empty values (or English as placeholder)
 3. Maintains the same structure as English base
 """
@@ -20,7 +20,9 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-EN_DIR = LOCALES_DIR / 'en'
+
+# All project directories
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
 
 # Common locale codes
 LOCALE_NAMES = {
@@ -41,66 +43,62 @@ LOCALE_NAMES = {
 }
 
 
-def empty_values(obj):
-    """Recursively set all string values to empty."""
-    if isinstance(obj, dict):
-        return {k: empty_values(v) for k, v in obj.items()}
-    elif isinstance(obj, str):
-        return ""
-    else:
-        return obj
+def get_locales() -> list:
+    """Get available locales by scanning project directories."""
+    locales = set()
+    for proj in PROJECT_DIRS:
+        proj_dir = LOCALES_DIR / proj
+        if proj_dir.exists():
+            for d in proj_dir.iterdir():
+                if d.is_dir():
+                    locales.add(d.name)
+    return sorted(locales)
 
 
 def add_locale(locale: str, use_english_values: bool = False):
     """Add a new locale based on English."""
-    target_dir = LOCALES_DIR / locale
-
-    if target_dir.exists():
-        print(f"Locale '{locale}' already exists at {target_dir}")
-        return False
-
-    if not EN_DIR.exists():
-        print(f"Error: English base locale not found at {EN_DIR}")
-        return False
-
-    target_dir.mkdir(parents=True, exist_ok=True)
+    # Check if locale already exists in any project
+    for proj in PROJECT_DIRS:
+        if (LOCALES_DIR / proj / locale).exists():
+            print(f"Locale '{locale}' already exists in {proj}/")
+            return False
 
     files_created = 0
     total_keys = 0
 
-    for en_file in sorted(EN_DIR.glob('*.json')):
-        with open(en_file, encoding='utf-8') as f:
-            data = json.load(f)
+    for proj in PROJECT_DIRS:
+        en_dir = LOCALES_DIR / proj / 'en'
+        if not en_dir.exists():
+            continue
 
-        # Update locale field
-        data['locale'] = locale
+        target_dir = LOCALES_DIR / proj / locale
+        target_dir.mkdir(parents=True, exist_ok=True)
 
-        # Process translations
-        if 'translations' in data:
-            if use_english_values:
-                # Keep English values as placeholders
-                pass
-            else:
-                # Set all values to empty strings
-                data['translations'] = {k: "" for k in data['translations'].keys()}
+        for en_file in sorted(en_dir.glob('*.json')):
+            with open(en_file, encoding='utf-8') as f:
+                data = json.load(f)
 
-            total_keys += len(data['translations'])
+            data['locale'] = locale
 
-        # Write to new locale
-        target_file = target_dir / en_file.name
-        with open(target_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+            if 'translations' in data:
+                if not use_english_values:
+                    data['translations'] = {k: "" for k in data['translations'].keys()}
+                total_keys += len(data['translations'])
 
-        files_created += 1
-        print(f"  Created {target_file.name}")
+            target_file = target_dir / en_file.name
+            with open(target_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+
+            files_created += 1
+            print(f"  Created {proj}/{locale}/{en_file.name}")
 
     print()
-    print(f"✅ Locale '{locale}' created successfully!")
+    print(f"Locale '{locale}' created successfully!")
     print(f"   Files: {files_created}")
     print(f"   Keys: {total_keys} (empty)")
     print()
     print(f"Next steps:")
-    print(f"  1. Translate the files in locales/{locale}/")
+    print(f"  1. Translate the files in locales/*/'{locale}/")
     print(f"  2. Run: python scripts/sync-locales.py")
     print(f"  3. Commit and push")
 
@@ -112,26 +110,28 @@ def list_locales():
     print("Available locales:")
     print()
 
-    for locale_dir in sorted(LOCALES_DIR.iterdir()):
-        if locale_dir.is_dir():
-            files = list(locale_dir.glob('*.json'))
-            keys = 0
-            translated = 0
+    for locale in get_locales():
+        keys = 0
+        translated = 0
 
-            for f in files:
+        for proj in PROJECT_DIRS:
+            locale_dir = LOCALES_DIR / proj / locale
+            if not locale_dir.exists():
+                continue
+            for f in locale_dir.glob('*.json'):
                 with open(f, encoding='utf-8') as fp:
                     data = json.load(fp)
                     if 'translations' in data:
                         for v in data['translations'].values():
                             keys += 1
-                            if v:  # Non-empty
+                            if v:
                                 translated += 1
 
-            pct = (translated / keys * 100) if keys > 0 else 0
-            name = LOCALE_NAMES.get(locale_dir.name, '')
-            status = "✅" if pct == 100 else "🔄" if pct > 0 else "⬜"
+        pct = (translated / keys * 100) if keys > 0 else 0
+        name = LOCALE_NAMES.get(locale, '')
+        status = "OK" if pct == 100 else "WIP" if pct > 0 else "EMPTY"
 
-            print(f"  {status} {locale_dir.name:8} {name:25} {translated:5}/{keys:5} ({pct:.1f}%)")
+        print(f"  [{status:5}] {locale:8} {name:25} {translated:5}/{keys:5} ({pct:.1f}%)")
 
     print()
     print("To add a new locale: python scripts/add-locale.py <locale_code>")

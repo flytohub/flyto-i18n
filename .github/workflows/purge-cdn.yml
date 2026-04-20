@@ -20,8 +20,8 @@ jobs:
           curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/landing/manifest.json"
 
           # Purge all locale files
-          for scope in "" "cloud/" "landing/"; do
-            for lang in en zh-TW ja ko fr es hi de pt-BR vi id th tr pl it; do
+          for scope in "" "cloud/" "landing/" "app/" "code/" "console/" "data/"; do
+            for lang in en zh-TW zh-CN ja ko fr es hi de pt-BR vi id th tr pl it; do
               curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/${scope}${lang}.json" &
             done
           done

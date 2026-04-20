@@ -23,15 +23,15 @@ from typing import Dict, Set, Tuple
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
+CLOUD_DIR = LOCALES_DIR / 'cloud'
 
 # Frontend source path relative to flyto-cloud
 FRONTEND_SRC = 'src/ui/web/frontend/src'
 
 # Regex patterns to extract translation keys
-# Matches: $t('key'), $t("key"), t('key'), t("key"), including with additional args
 T_CALL_PATTERNS = [
-    r'\$t\([\'"]([^\'"]+)[\'"]',       # $t('key') or $t("key") - also matches $t('key', args)
-    r'(?<![.\w])t\([\'"]([^\'"]+)[\'"]',  # t('key') but not .t('key') or this.t('key')
+    r'\$t\([\'"]([^\'"]+)[\'"]',
+    r'(?<![.\w])t\([\'"]([^\'"]+)[\'"]',
 ]
 
 # File extensions to scan
@@ -65,10 +65,8 @@ def extract_keys_from_file(file_path: Path) -> Set[str]:
     for pattern in T_CALL_PATTERNS:
         matches = re.findall(pattern, content)
         for key in matches:
-            # Skip dynamic keys (template literals, f-strings, function calls)
             if '{' in key or '(' in key or '$' in key or '`' in key:
                 continue
-            # Skip keys ending with dot (incomplete keys)
             if key.endswith('.'):
                 continue
             keys.add(key)
@@ -103,9 +101,9 @@ def extract_all_keys(cloud_path: Path) -> Dict[str, Set[str]]:
     return dict(categories)
 
 
-def load_existing_translations(locale_path: Path, category: str) -> Dict[str, str]:
+def load_existing_translations(locale: str, category: str) -> Dict[str, str]:
     """Load existing translations for a category."""
-    file_path = locale_path / f"cloud.{category}.json"
+    file_path = CLOUD_DIR / locale / f"{category}.json"
 
     if not file_path.exists():
         return {}
@@ -123,15 +121,13 @@ def generate_locale_file(
     category: str,
     keys: Set[str],
     locale: str,
-    locale_path: Path,
     dry_run: bool = False
 ) -> Tuple[int, int, int]:
     """Generate a locale JSON file for a category."""
+    locale_dir = CLOUD_DIR / locale
 
-    # Load existing translations to preserve values
-    existing = load_existing_translations(locale_path, category)
+    existing = load_existing_translations(locale, category)
 
-    # Build translations dict - preserve existing, add empty for new
     translations = {}
     new_count = 0
     preserved_count = 0
@@ -144,20 +140,18 @@ def generate_locale_file(
             translations[key] = ""
             new_count += 1
 
-    # Check for removed keys
     removed_keys = set(existing.keys()) - keys
     removed_count = len(removed_keys)
 
-    # Build output structure matching flyto-i18n schema
     output = {
-        "$schema": "../../schema/locale.schema.json",
+        "$schema": "../../../schema/locale.schema.json",
         "locale": locale,
         "category": f"cloud.{category}",
         "version": "1.0.0",
         "translations": translations
     }
 
-    file_path = locale_path / f"cloud.{category}.json"
+    file_path = locale_dir / f"{category}.json"
 
     change_info = []
     if new_count:
@@ -169,7 +163,7 @@ def generate_locale_file(
     if dry_run:
         print(f"    Would write {file_path.name}: {len(keys)} keys{change_str}")
     else:
-        locale_path.mkdir(parents=True, exist_ok=True)
+        locale_dir.mkdir(parents=True, exist_ok=True)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
             f.write('\n')
@@ -187,11 +181,10 @@ def sync_from_cloud(cloud_path: str, dry_run: bool = False):
         sys.exit(1)
 
     print(f"Syncing from flyto-cloud at: {cloud_path}")
-    print(f"Target: {LOCALES_DIR}")
+    print(f"Target: {CLOUD_DIR}")
     print(f"Mode: {'DRY RUN' if dry_run else 'LIVE'}")
     print("-" * 60)
 
-    # Extract all keys from Vue files
     categories = extract_all_keys(cloud_path)
 
     if not categories:
@@ -204,7 +197,6 @@ def sync_from_cloud(cloud_path: str, dry_run: bool = False):
 
     print("\n" + "-" * 60)
 
-    # Generate files for each locale
     locales = ['en', 'zh-TW']
     total_stats = {
         'categories': len(categories),
@@ -215,15 +207,14 @@ def sync_from_cloud(cloud_path: str, dry_run: bool = False):
 
     for locale in locales:
         print(f"\n[{locale}]")
-        locale_path = LOCALES_DIR / locale
 
         for category in sorted(categories.keys()):
             keys = categories[category]
             key_count, new_count, removed_count = generate_locale_file(
-                category, keys, locale, locale_path, dry_run
+                category, keys, locale, dry_run
             )
 
-            if locale == 'en':  # Only count once
+            if locale == 'en':
                 total_stats['keys'] += key_count
                 total_stats['new'] += new_count
                 total_stats['removed'] += removed_count

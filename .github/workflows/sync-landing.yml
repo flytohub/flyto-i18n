@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'locales/*/landing.*.json'
+      - 'locales/landing/**/*.json'
   workflow_dispatch:
 
 jobs:

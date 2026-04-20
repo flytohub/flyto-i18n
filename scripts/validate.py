@@ -3,10 +3,11 @@
 validate.py - Validate translation files
 
 Usage:
-    python scripts/validate.py [--locale LOCALE] [--strict]
+    python scripts/validate.py [--locale LOCALE] [--project PROJECT] [--strict]
 
 Options:
     --locale    Validate specific locale only
+    --project   Validate specific project only (cloud, modules, landing, shared)
     --strict    Exit with code 1 on any error
 """
 
@@ -21,6 +22,9 @@ PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 SCHEMA_DIR = PROJECT_ROOT / 'schema'
 
+# All project directories
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+
 
 def load_schema() -> Dict:
     """Load locale schema."""
@@ -29,18 +33,31 @@ def load_schema() -> Dict:
         return json.load(f)
 
 
-def load_base_keys() -> set:
-    """Load all keys from English base locale."""
-    en_dir = LOCALES_DIR / 'en'
-    if not en_dir.exists():
-        return set()
+def get_locales(project: str = None) -> list:
+    """Get available locales by scanning project directories."""
+    locales = set()
+    dirs = [project] if project else PROJECT_DIRS
+    for proj in dirs:
+        proj_dir = LOCALES_DIR / proj
+        if proj_dir.exists():
+            for d in proj_dir.iterdir():
+                if d.is_dir():
+                    locales.add(d.name)
+    return sorted(locales)
 
+
+def load_base_keys() -> set:
+    """Load all keys from English base locale across all projects."""
     keys = set()
-    for json_file in en_dir.glob('*.json'):
-        with open(json_file) as f:
-            data = json.load(f)
-            if 'translations' in data:
-                keys.update(data['translations'].keys())
+    for proj in PROJECT_DIRS:
+        en_dir = LOCALES_DIR / proj / 'en'
+        if not en_dir.exists():
+            continue
+        for json_file in en_dir.glob('*.json'):
+            with open(json_file, encoding='utf-8') as f:
+                data = json.load(f)
+                if 'translations' in data:
+                    keys.update(data['translations'].keys())
     return keys
 
 
@@ -49,7 +66,7 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     errors = []
 
     try:
-        with open(file_path) as f:
+        with open(file_path, encoding='utf-8') as f:
             data = json.load(f)
     except json.JSONDecodeError as e:
         errors.append({
@@ -73,20 +90,10 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
 
     translations = data['translations']
 
-    # Validate each translation
-    # Key formats:
-    # - modules.category.name.field (from flyto-core)
-    # - cloud.category.path.to.key (from flyto-cloud UI, allows numeric segments like 24h, 30d)
-    # - common.field or schema.field.name
-    # Allow alphanumeric with underscores and hyphens, special fields like __event__
-    # Key format: dotted segments like "category.subcategory.field"
-    # Each segment: starts with letter/digit, followed by alphanumeric/underscore/hyphen
-    # After ".options." allow free-form text (module option values used as keys)
     key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)+$')
     options_key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*\.options\..+$')
 
     for key, value in translations.items():
-        # Check key format (options keys allow free-form text after .options.)
         if not key_pattern.match(key) and not options_key_pattern.match(key):
             errors.append({
                 'file': str(file_path),
@@ -95,7 +102,6 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
                 'message': f"Invalid key format: '{key}'"
             })
 
-        # Check value type
         if not isinstance(value, str):
             errors.append({
                 'file': str(file_path),
@@ -105,7 +111,6 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
             })
             continue
 
-        # Check value length
         if len(value) > 500:
             errors.append({
                 'file': str(file_path),
@@ -114,7 +119,6 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
                 'message': f"Value too long ({len(value)} > 500 chars)"
             })
 
-        # Check for potential XSS
         if '<script' in value.lower() or 'javascript:' in value.lower():
             errors.append({
                 'file': str(file_path),
@@ -124,10 +128,8 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
             })
 
     # Check if keys exist in base (skip for 'en' and 'cloud.*' keys)
-    # Cloud keys come from flyto-cloud which may have different content per locale
     if data.get('locale') != 'en' and base_keys:
         for key in translations.keys():
-            # Skip check for cloud.*/landing.* keys (UI translations may differ by locale)
             if key.startswith('cloud.') or key.startswith('landing.'):
                 continue
             if key not in base_keys:
@@ -141,45 +143,56 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     return errors
 
 
-def validate_locale(locale: str, base_keys: set) -> List[Dict]:
-    """Validate all files for a locale."""
-    locale_dir = LOCALES_DIR / locale
-    if not locale_dir.exists():
-        return [{'type': 'error', 'message': f"Locale directory not found: {locale}"}]
-
+def validate_locale(locale: str, base_keys: set, projects: list = None) -> List[Dict]:
+    """Validate all files for a locale across project directories."""
     all_errors = []
-    for json_file in locale_dir.glob('*.json'):
-        errors = validate_file(json_file, base_keys)
-        all_errors.extend(errors)
+    dirs = projects or PROJECT_DIRS
+
+    for proj in dirs:
+        locale_dir = LOCALES_DIR / proj / locale
+        if not locale_dir.exists():
+            continue
+        for json_file in locale_dir.glob('*.json'):
+            errors = validate_file(json_file, base_keys)
+            all_errors.extend(errors)
 
     return all_errors
+
+
+def count_files(locale: str, projects: list = None) -> int:
+    """Count translation files for a locale."""
+    count = 0
+    dirs = projects or PROJECT_DIRS
+    for proj in dirs:
+        locale_dir = LOCALES_DIR / proj / locale
+        if locale_dir.exists():
+            count += len(list(locale_dir.glob('*.json')))
+    return count
 
 
 def main():
     parser = argparse.ArgumentParser(description='Validate translation files')
     parser.add_argument('--locale', '-l', help='Validate specific locale')
+    parser.add_argument('--project', '-p', help='Validate specific project (cloud, modules, landing, shared)')
     parser.add_argument('--strict', action='store_true', help='Exit with code 1 on error')
     args = parser.parse_args()
 
+    projects = [args.project] if args.project else None
     base_keys = load_base_keys()
 
     if args.locale:
         locales = [args.locale]
     else:
-        locales = [d.name for d in LOCALES_DIR.iterdir() if d.is_dir()]
+        locales = get_locales(args.project)
 
     total_errors = 0
     total_files = 0
 
     for locale in locales:
-        locale_dir = LOCALES_DIR / locale
-        if not locale_dir.exists():
-            continue
+        files = count_files(locale, projects)
+        total_files += files
 
-        files = list(locale_dir.glob('*.json'))
-        total_files += len(files)
-
-        errors = validate_locale(locale, base_keys if locale != 'en' else set())
+        errors = validate_locale(locale, base_keys if locale != 'en' else set(), projects)
 
         if errors:
             print(f"\n[{locale}] {len(errors)} error(s):")
@@ -187,7 +200,7 @@ def main():
                 print(f"  - {error.get('file', '')}: {error['message']}")
             total_errors += len(errors)
         else:
-            print(f"[{locale}] OK ({len(files)} files)")
+            print(f"[{locale}] OK ({files} files)")
 
     print(f"\n{'=' * 50}")
     print(f"Total: {total_files} files, {total_errors} errors")

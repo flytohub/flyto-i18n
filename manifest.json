@@ -119,17 +119,45 @@
     }
   },
   "projects": {
-    "modules": {
-      "name": "flyto-core",
-      "description": "Core module translations"
-    },
     "cloud": {
       "name": "flyto-cloud",
-      "description": "Cloud UI translations"
+      "description": "Cloud UI translations",
+      "path": "locales/cloud"
+    },
+    "modules": {
+      "name": "flyto-core",
+      "description": "Core module translations",
+      "path": "locales/modules"
     },
     "landing": {
       "name": "flyto-landing-page",
-      "description": "Landing page translations"
+      "description": "Landing page translations",
+      "path": "locales/landing"
+    },
+    "shared": {
+      "name": "shared",
+      "description": "Shared translations (common)",
+      "path": "locales/shared"
+    },
+    "app": {
+      "name": "flyto-app",
+      "description": "Flutter app translations",
+      "path": "locales/app"
+    },
+    "code": {
+      "name": "flyto-code",
+      "description": "Code intelligence translations",
+      "path": "locales/code"
+    },
+    "console": {
+      "name": "flyto-console",
+      "description": "Console translations",
+      "path": "locales/console"
+    },
+    "data": {
+      "name": "flyto-data",
+      "description": "Data product translations",
+      "path": "locales/data"
     }
   },
   "categories": [

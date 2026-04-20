@@ -17,8 +17,8 @@
     },
     "category": {
       "type": "string",
-      "pattern": "^[a-z][a-z0-9_]*$",
-      "description": "Module category (e.g., 'browser', 'flow', 'data')"
+      "pattern": "^[a-z][a-z0-9_.]*$",
+      "description": "Translation category (e.g., 'browser', 'cloud.admin', 'common')"
     },
     "version": {
       "type": "string",
@@ -34,7 +34,7 @@
         "minLength": 1
       },
       "propertyNames": {
-        "pattern": "^(modules\\.[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*|common\\.[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)*)$"
+        "pattern": "^(modules|cloud|landing|common|app|schema|ai|code|console)\\.[a-zA-Z0-9_][a-zA-Z0-9_-]*(\\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*$"
       }
     }
   },
