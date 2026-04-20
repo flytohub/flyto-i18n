@@ -7,7 +7,7 @@
         "pluginCapability.imageClassification": "การจำแนกรูปภาพ",
         "pluginCapability.speechRecognition": "การรู้จำเสียงพูด",
         "pluginCapability.textClassification": "การจำแนกข้อความ",
-        "pluginCapability.textEmbedding": "Text Embedding",
+        "pluginCapability.textEmbedding": "ข้อความEmbedding",
         "pluginCapability.textGeneration": "การสร้างข้อความ",
         "pluginCapability.textToSpeech": "แปลงข้อความเป็นเสียง"
     }

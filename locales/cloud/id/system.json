@@ -224,7 +224,7 @@
         "cloud.offline.offlineLevel": "Level Offline",
         "cloud.offline.offlineMode": "Mode Offline",
         "cloud.offline.ok": "OK",
-        "cloud.offline.online": "online",
+        "cloud.offline.online": "Online",
         "cloud.offline.pasteConfigJson": "Tempel JSON konfigurasi...",
         "cloud.offline.preferred": "Diutamakan",
         "cloud.offline.reactivateFailed": "Gagal mengaktifkan ulang runner",

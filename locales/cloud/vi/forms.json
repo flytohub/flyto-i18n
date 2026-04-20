@@ -146,7 +146,7 @@
         "cloud.variables.scope": "Phạm vi",
         "cloud.variables.scopes.organization": "Tổ chức",
         "cloud.variables.scopes.project": "Dự án",
-        "cloud.variables.scopes.workflow": "Workflow",
+        "cloud.variables.scopes.workflow": "Quy trình",
         "cloud.variables.subtitle": "Quản lý biến và thông tin xác thực cho workflows của bạn",
         "cloud.variables.title": "Biến",
         "cloud.variables.type": "Loại",

@@ -146,7 +146,7 @@
         "cloud.variables.scope": "ขอบเขต",
         "cloud.variables.scopes.organization": "องค์กร",
         "cloud.variables.scopes.project": "โปรเจกต์",
-        "cloud.variables.scopes.workflow": "Workflow",
+        "cloud.variables.scopes.workflow": "เวิร์กโฟลว์",
         "cloud.variables.subtitle": "จัดการตัวแปรและ credentials สำหรับ workflows ของคุณ",
         "cloud.variables.title": "ตัวแปร",
         "cloud.variables.type": "ประเภท",

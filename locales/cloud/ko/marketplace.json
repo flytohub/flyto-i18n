@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} 크레딧/회",
         "marketplace.executePerCall": "실행",
         "marketplace.updateListing": "업데이트",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "라이브러리에서 제거",
+        "marketplace.removeConfirmMessage": "이 템플릿을 라이브러리에서 제거하시겠습니까?",
+        "marketplace.removeWarningDelisted": "This 템플릿 has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this 템플릿 in the future, you will not be able to reinstall it."
     }
 }

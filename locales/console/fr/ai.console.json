@@ -84,7 +84,7 @@
         "settings.maxToolCalls": "Max Tool Calls",
         "settings.maxLlmCalls": "Max LLM Calls",
         "settings.modules": "Modules",
-        "settings.totalModules": "total",
+        "settings.totalModules": "Total",
         "settings.language": "Langue",
         "settings.theme": "Thème",
         "settings.dark": "Sombre",

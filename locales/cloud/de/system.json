@@ -224,7 +224,7 @@
         "cloud.offline.offlineLevel": "Offline-Level",
         "cloud.offline.offlineMode": "Offline-Modus",
         "cloud.offline.ok": "OK",
-        "cloud.offline.online": "online",
+        "cloud.offline.online": "Online",
         "cloud.offline.pasteConfigJson": "Konfigurations-JSON einfügen...",
         "cloud.offline.preferred": "Bevorzugt",
         "cloud.offline.reactivateFailed": "Runner konnte nicht reaktiviert werden",

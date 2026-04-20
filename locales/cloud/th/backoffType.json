@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "backoffType.exponential": "Exponential",
-        "backoffType.exponentialDesc": "delay_ms * 2^attempt (1000, 2000, 4000...)",
+        "backoffType.exponentialDesc": "delay_ms*2^attempt(1000,2000,4000...)",
         "backoffType.linear": "Linear",
         "backoffType.linearDesc": "delay_ms * attempt (1000, 2000, 3000...)",
         "backoffType.none": "ไม่มี",

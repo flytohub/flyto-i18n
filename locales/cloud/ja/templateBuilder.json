@@ -4,7 +4,7 @@
     "category": "cloud.templateBuilder",
     "version": "1.0.0",
     "translations": {
-        "templateBuilder.aiChat.botName": "Flyto2 AI",
+        "templateBuilder.aiChat.botName": "Flyto2AI",
         "templateBuilder.aiChat.clearChat": "チャットをクリア",
         "templateBuilder.aiChat.close": "閉じる",
         "templateBuilder.aiChat.coordinationStarted": "調整を開始しました",

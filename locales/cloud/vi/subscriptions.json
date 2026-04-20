@@ -21,13 +21,13 @@
         "subscriptions.features.apiAccess": "API access",
         "subscriptions.features.auditLogs": "Audit logs",
         "subscriptions.features.basicTemplates": "Basic templates",
-        "subscriptions.features.communitySupport": "Community support",
-        "subscriptions.features.dedicatedSupport": "Dedicated support",
+        "subscriptions.features.communitySupport": "Community Hỗ trợ",
+        "subscriptions.features.dedicatedSupport": "Dedicated Hỗ trợ",
         "subscriptions.features.everythingInPro": "Everything in Pro",
         "subscriptions.features.limitedExecutions": "Limited executions",
-        "subscriptions.features.prioritySupport": "Priority support",
+        "subscriptions.features.prioritySupport": "Ưu tiên Hỗ trợ",
         "subscriptions.features.roleBasedAccess": "Role-based access",
-        "subscriptions.features.teamCollaboration": "Team collaboration",
+        "subscriptions.features.teamCollaboration": "Nhóm collaboration",
         "subscriptions.features.unlimitedExecutions": "Unlimited executions",
         "subscriptions.features.unlimitedTemplates": "Unlimited templates",
         "subscriptions.memberSince": "Member since",
@@ -47,7 +47,7 @@
         "subscriptions.switchPlan": "Switch plan",
         "subscriptions.title": "Subscriptions",
         "subscriptions.trialExpired": "Bản dùng thử miễn phí đã hết hạn. Đăng ký để tiếp tục sử dụng Flyto Cloud.",
-        "subscriptions.upgrade": "Upgrade",
+        "subscriptions.upgrade": "Nâng cấp",
         "subscriptions.upgraded": "Upgraded"
     }
 }

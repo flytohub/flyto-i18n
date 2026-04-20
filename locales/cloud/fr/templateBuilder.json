@@ -172,7 +172,7 @@
         "templateBuilder.properties.errorMessagePlaceholder": "Message affiche en cas d'echec de validation",
         "templateBuilder.properties.helpText": "Texte d'aide",
         "templateBuilder.properties.inputType": "Type d'entree",
-        "templateBuilder.properties.inputTypeEmail": "Email",
+        "templateBuilder.properties.inputTypeEmail": "E-mail",
         "templateBuilder.properties.inputTypeNumber": "Nombre",
         "templateBuilder.properties.inputTypePassword": "Mot de passe",
         "templateBuilder.properties.inputTypeTel": "Téléphone",

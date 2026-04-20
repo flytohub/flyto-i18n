@@ -54,14 +54,14 @@
         "modules.text.extract_urls.params.text.label": "Tekst",
         "modules.text.extract_urls.params.unique.description": "Tekst do wyodrębnienia URL",
         "modules.text.extract_urls.params.unique.label": "Tekst",
-        "modules.text.word_count.description": "Count words in text",
+        "modules.text.word_count.description": "Count words in Tekst",
         "modules.text.word_count.label": "Word Count",
         "modules.text.word_count.output.avg_word_length.description": "Approximate sentence count",
         "modules.text.word_count.output.paragraph_count.description": "Number of unique words",
-        "modules.text.word_count.output.sentence_count.description": "Total word count",
-        "modules.text.word_count.output.unique_words.description": "Total word count",
-        "modules.text.word_count.output.word_count.description": "Text to analyze",
-        "modules.text.word_count.params.text.description": "Text to analyze",
-        "modules.text.word_count.params.text.label": "Text"
+        "modules.text.word_count.output.sentence_count.description": "Razem word count",
+        "modules.text.word_count.output.unique_words.description": "Razem word count",
+        "modules.text.word_count.output.word_count.description": "Tekst to analyze",
+        "modules.text.word_count.params.text.description": "Tekst to analyze",
+        "modules.text.word_count.params.text.label": "Tekst"
     }
 }

@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "modules.huggingface.embedding.description": "Tạo text embeddings cho tìm kiếm ngữ nghĩa, RAG, phân cụm",
-        "modules.huggingface.embedding.label": "Text Embedding",
+        "modules.huggingface.embedding.label": "Văn bản Embedding",
         "modules.huggingface.embedding.output.dimension.description": "Vector embedding",
         "modules.huggingface.embedding.output.embedding.description": "Vector embedding",
         "modules.huggingface.image-classification.description": "Phân loại hình ảnh vào các danh mục sử dụng ViT, ResNet, v.v.",

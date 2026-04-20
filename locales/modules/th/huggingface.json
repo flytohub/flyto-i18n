@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "modules.huggingface.embedding.description": "สร้าง text embeddings สำหรับการค้นหาความหมาย, RAG, การจัดกลุ่ม",
-        "modules.huggingface.embedding.label": "Text Embedding",
+        "modules.huggingface.embedding.label": "ข้อความEmbedding",
         "modules.huggingface.embedding.output.dimension.description": "เวกเตอร์ Embedding",
         "modules.huggingface.embedding.output.embedding.description": "เวกเตอร์ Embedding",
         "modules.huggingface.image-classification.description": "จำแนกรูปภาพเป็นหมวดหมู่โดยใช้ ViT, ResNet ฯลฯ",

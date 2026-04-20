@@ -31,8 +31,8 @@
         "node.settings.timeout": "Zaman Aşımı",
         "node.settings.timeoutPlaceholder": "ör. 30000 (30s)",
         "node.sticky.contentPlaceholder": "Enter content",
-        "node.sticky.placeholder": "Enter text",
-        "node.sticky.titlePlaceholder": "Enter title",
+        "node.sticky.placeholder": "Enter Metin",
+        "node.sticky.titlePlaceholder": "Enter Başlık",
         "node.trigger.badge": "Trigger badge"
     }
 }

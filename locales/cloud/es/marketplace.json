@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} créditos/ejecución",
         "marketplace.executePerCall": "Ejecutar",
         "marketplace.updateListing": "Actualizar",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "Eliminar de la biblioteca",
+        "marketplace.removeConfirmMessage": "Are you sure you want to Quitar this Plantilla from your library?",
+        "marketplace.removeWarningDelisted": "This Plantilla has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this Plantilla in the future, you will not be able to reinstall it."
     }
 }

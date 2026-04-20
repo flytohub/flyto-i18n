@@ -46,15 +46,15 @@
         "marketplace.searchPlaceholder": "Pesquisar templates...",
         "marketplace.templates": "Modelos",
         "marketplace.templatesFound": "{count} templates encontrados",
-        "marketplace.title": "Marketplace",
+        "marketplace.title": "Loja",
         "marketplace.verified": "Verificado",
         "marketplace.perCall": "Pagar por execução",
         "marketplace.perCallBadge": "{credits} créditos/execução",
         "marketplace.executePerCall": "Executar",
         "marketplace.updateListing": "Atualizar",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "Remover da biblioteca",
+        "marketplace.removeConfirmMessage": "Are you sure you want to Remover this Modelo from your library?",
+        "marketplace.removeWarningDelisted": "This Modelo has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this Modelo in the future, you will not be able to reinstall it."
     }
 }

@@ -250,7 +250,7 @@
         "cloud.modules.flow.merge.description": "Mehrere Eingaben zu einer zusammenführen",
         "cloud.modules.flow.merge.label": "Zusammenführen",
         "cloud.modules.flow.start.description": "Workflow-Startknoten",
-        "cloud.modules.flow.start.label": "Start",
+        "cloud.modules.flow.start.label": "Starten",
         "cloud.modules.flow.subflow.description": "Externen Workflow als Subflow ausführen",
         "cloud.modules.flow.subflow.label": "Teilfluss",
         "cloud.modules.flow.switch.description": "Mehrfachverzweigung basierend auf Wertabgleich",

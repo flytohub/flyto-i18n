@@ -225,7 +225,7 @@
         "modules.flow.parallel.params.tasks.label": "任務",
         "modules.flow.parallel.params.tasks.options.http.get": "Http.Get",
         "modules.flow.parallel.params.tasks.options.https://api1.example.com": "Https://Api1.Example.Com",
-        "modules.flow.parallel.params.tasks.options.https://might-fail.example.com": "Https://Might Fail.Example.Com",
+        "modules.flow.parallel.params.tasks.options.https://might-fail.example.com": "Https://MightFail.Example.Com",
         "modules.flow.parallel.params.tasks.options.module": "模組",
         "modules.flow.parallel.params.tasks.options.params": "參數",
         "modules.flow.parallel.params.tasks.options.url": "Url",

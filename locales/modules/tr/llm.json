@@ -55,6 +55,6 @@
         "modules.llm.code_fix.output.ok.description": "İşlem başarılı mı",
         "modules.llm.code_fix.output.summary.description": "Uygulanan düzeltmeler listesi (fix_mode apply ise)",
         "modules.llm.code_fix.params.fixes": "Fixes",
-        "modules.llm.code_fix.params.source_files": "Source Files"
+        "modules.llm.code_fix.params.source_files": "Kaynak Files"
     }
 }

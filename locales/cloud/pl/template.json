@@ -252,7 +252,7 @@
         "cloud.templateBuilder.properties.helpText": "Tekst pomocy",
         "cloud.templateBuilder.properties.helpTextHint": "Dodatkowe instrukcje dla uzytkownikow",
         "cloud.templateBuilder.properties.inputType": "Typ wejscia",
-        "cloud.templateBuilder.properties.inputTypeEmail": "Email",
+        "cloud.templateBuilder.properties.inputTypeEmail": "E-mail",
         "cloud.templateBuilder.properties.inputTypeNumber": "Liczba",
         "cloud.templateBuilder.properties.inputTypePassword": "Haslo",
         "cloud.templateBuilder.properties.inputTypeTel": "Telefon",

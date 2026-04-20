@@ -46,9 +46,9 @@
         "modules.check.is_string.output.length.description": "Whether value is a string",
         "modules.check.is_string.params.value.description": "Value to check",
         "modules.check.is_string.params.value.label": "Value",
-        "modules.check.type_of.description": "Get the type of a value",
-        "modules.check.type_of.label": "Type Of",
-        "modules.check.type_of.output.is_primitive.description": "Type name",
+        "modules.check.type_of.description": "Get the Loại of a value",
+        "modules.check.type_of.label": "Loại Of",
+        "modules.check.type_of.output.is_primitive.description": "Loại Tên",
         "modules.check.type_of.output.type.description": "Value to check",
         "modules.check.type_of.params.value.description": "Value to check",
         "modules.check.type_of.params.value.label": "Value"

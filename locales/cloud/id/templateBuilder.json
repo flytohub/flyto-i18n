@@ -174,7 +174,7 @@
         "templateBuilder.properties.inputType": "Jenis Input",
         "templateBuilder.properties.inputTypeEmail": "Email",
         "templateBuilder.properties.inputTypeNumber": "Angka",
-        "templateBuilder.properties.inputTypePassword": "Password",
+        "templateBuilder.properties.inputTypePassword": "Kata sandi",
         "templateBuilder.properties.inputTypeTel": "Telepon",
         "templateBuilder.properties.inputTypeText": "Teks",
         "templateBuilder.properties.inputTypeUrl": "URL",

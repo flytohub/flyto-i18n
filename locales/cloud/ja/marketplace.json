@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} クレジット/回",
         "marketplace.executePerCall": "実行",
         "marketplace.updateListing": "更新",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "ライブラリから削除",
+        "marketplace.removeConfirmMessage": "このテンプレートをライブラリから削除しますか？",
+        "marketplace.removeWarningDelisted": "このテンプレートは作成者により非公開にされました。削除すると再インストールできなくなります。",
+        "marketplace.removeWarningMayDelist": "作成者が今後このテンプレートを非公開にした場合、再インストールできなくなります。"
     }
 }

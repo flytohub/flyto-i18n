@@ -49,7 +49,7 @@
         "modules.object.pick.label": "Selectionner de l'objet",
         "modules.object.pick.output.result.description": "Objet avec uniquement les cles selectionnees",
         "modules.object.pick.params.keys": "Clés",
-        "modules.object.pick.params.keys.options.email": "Email",
+        "modules.object.pick.params.keys.options.email": "E-mail",
         "modules.object.pick.params.keys.options.name": "Nom",
         "modules.object.set.description": "Définir la valeur dans un objet par chemin",
         "modules.object.set.label": "Définir Valeur",

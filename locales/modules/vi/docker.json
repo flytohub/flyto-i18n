@@ -61,7 +61,7 @@
         "modules.docker.run.params.env.description": "Biến môi trường để thiết lập trong container",
         "modules.docker.run.params.env.label": "Biến Môi trường",
         "modules.docker.run.params.image.description": "Docker image để chạy (ví dụ: nginx:latest)",
-        "modules.docker.run.params.image.label": "Image",
+        "modules.docker.run.params.image.label": "Hình ảnh",
         "modules.docker.run.params.name.description": "Gán tên cho container",
         "modules.docker.run.params.name.label": "Tên Container",
         "modules.docker.run.params.network.description": "Kết nối container với một mạng",

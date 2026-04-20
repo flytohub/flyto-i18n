@@ -21,13 +21,13 @@
         "subscriptions.features.apiAccess": "API access",
         "subscriptions.features.auditLogs": "Audit logs",
         "subscriptions.features.basicTemplates": "Basic templates",
-        "subscriptions.features.communitySupport": "Community support",
-        "subscriptions.features.dedicatedSupport": "Dedicated support",
+        "subscriptions.features.communitySupport": "Community Destek",
+        "subscriptions.features.dedicatedSupport": "Dedicated Destek",
         "subscriptions.features.everythingInPro": "Everything in Pro",
         "subscriptions.features.limitedExecutions": "Limited executions",
-        "subscriptions.features.prioritySupport": "Priority support",
+        "subscriptions.features.prioritySupport": "Öncelik Destek",
         "subscriptions.features.roleBasedAccess": "Role-based access",
-        "subscriptions.features.teamCollaboration": "Team collaboration",
+        "subscriptions.features.teamCollaboration": "Takım collaboration",
         "subscriptions.features.unlimitedExecutions": "Unlimited executions",
         "subscriptions.features.unlimitedTemplates": "Unlimited templates",
         "subscriptions.memberSince": "Member since",
@@ -47,7 +47,7 @@
         "subscriptions.switchPlan": "Switch plan",
         "subscriptions.title": "Subscriptions",
         "subscriptions.trialExpired": "Ücretsiz deneme süreniz doldu. Flyto Cloud'u kullanmaya devam etmek için abone olun.",
-        "subscriptions.upgrade": "Upgrade",
+        "subscriptions.upgrade": "Yükselt",
         "subscriptions.upgraded": "Upgraded"
     }
 }

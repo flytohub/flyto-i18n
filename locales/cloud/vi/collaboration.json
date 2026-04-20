@@ -29,7 +29,7 @@
         "collaboration.presence.active": "Active",
         "collaboration.presence.away": "Away",
         "collaboration.presence.idle": "Idle",
-        "collaboration.presence.offline": "Offline",
+        "collaboration.presence.offline": "Ngoại tuyến",
         "collaboration.realtime": "Realtime",
         "collaboration.remaining": "còn lại",
         "collaboration.session": "Session",

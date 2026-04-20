@@ -21,7 +21,7 @@
         "alerts.history.severity": "Mức độ",
         "alerts.history.title": "Lịch sử cảnh báo",
         "alerts.history.triggered": "Đã kích hoạt",
-        "alerts.history.workflow": "Workflow",
+        "alerts.history.workflow": "Quy trình",
         "alerts.modal.conditionType": "Chỉ số",
         "alerts.modal.cooldown": "Thời gian chờ (phút)",
         "alerts.modal.cooldownHelp": "Thời gian tối thiểu giữa các cảnh báo lặp lại cho cùng quy tắc",

@@ -20,7 +20,7 @@
         "flow.switch.addCase": "เพิ่ม Case",
         "flow.switch.case": "Case",
         "flow.switch.cases": "Switch Cases",
-        "flow.switch.default": "Default",
+        "flow.switch.default": "ค่าเริ่มต้น",
         "flow.switch.defaultInfo": "ค่าที่ไม่ตรงจะไปที่ Default output",
         "flow.switch.expression": "Expression",
         "flow.switch.expressionHint": "ค่าที่จะจับคู่กับ cases",

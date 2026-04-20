@@ -7,11 +7,11 @@
         "orchestrator.jobs.empty": "No jobs",
         "orchestrator.jobs.title": "Jobs",
         "orchestrator.register.capabilities": "Capabilities",
-        "orchestrator.register.machineName": "Machine Name",
-        "orchestrator.register.machineNamePlaceholder": "Enter machine name",
-        "orchestrator.register.name": "Robot Name",
-        "orchestrator.register.namePlaceholder": "Enter robot name",
-        "orchestrator.register.osType": "OS Type",
+        "orchestrator.register.machineName": "Machine Nazwa",
+        "orchestrator.register.machineNamePlaceholder": "Enter machine Nazwa",
+        "orchestrator.register.name": "Robot Nazwa",
+        "orchestrator.register.namePlaceholder": "Enter robot Nazwa",
+        "orchestrator.register.osType": "OS Typ",
         "orchestrator.register.submit": "Register",
         "orchestrator.register.title": "Register Robot",
         "orchestrator.robots.empty": "No robots registered",
@@ -26,6 +26,6 @@
         "orchestrator.stats.available": "Available",
         "orchestrator.stats.busy": "Busy",
         "orchestrator.stats.offline": "Offline",
-        "orchestrator.stats.totalRobots": "Total Robots"
+        "orchestrator.stats.totalRobots": "Razem Robots"
     }
 }

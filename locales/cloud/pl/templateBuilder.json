@@ -172,7 +172,7 @@
         "templateBuilder.properties.errorMessagePlaceholder": "Komunikat wyswietlany przy niepowodzeniu walidacji",
         "templateBuilder.properties.helpText": "Tekst pomocy",
         "templateBuilder.properties.inputType": "Typ wejscia",
-        "templateBuilder.properties.inputTypeEmail": "Email",
+        "templateBuilder.properties.inputTypeEmail": "E-mail",
         "templateBuilder.properties.inputTypeNumber": "Liczba",
         "templateBuilder.properties.inputTypePassword": "Haslo",
         "templateBuilder.properties.inputTypeTel": "Telefon",

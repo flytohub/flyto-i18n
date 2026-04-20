@@ -10,7 +10,7 @@
         "http.auth": "Authentifizierung",
         "http.authNotConfigured": "Authentifizierung nicht konfiguriert",
         "http.authType.apiKey": "API-Schlüssel",
-        "http.authType.basic": "Basic Auth",
+        "http.authType.basic": "Basis-Auth",
         "http.authType.bearer": "Bearer-Token",
         "http.authType.credential": "Anmeldedaten",
         "http.authType.none": "Keine",

@@ -5,9 +5,9 @@
     "version": "1.0.0",
     "translations": {
         "enterprise.actions.notSupported": "Action not supported",
-        "enterprise.errors.actionFailed": "Action failed",
+        "enterprise.errors.actionFailed": "Action Başarısız",
         "enterprise.errors.loadFailed": "Failed to load",
-        "enterprise.robotsOnline": "Robots Online",
+        "enterprise.robotsOnline": "Robots Çevrimiçi",
         "enterprise.subtitle": "Enterprise automation tools",
         "enterprise.tabs.idp": "Document Processing",
         "enterprise.tabs.mining": "Process Mining",

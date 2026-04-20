@@ -6,10 +6,10 @@
     "translations": {
         "refund.amount": "Refund amount",
         "refund.cancelButton": "Anuluj",
-        "refund.confirm": "Confirm refund",
+        "refund.confirm": "Potwierdź refund",
         "refund.confirmButton": "Potwierdź zwrot",
         "refund.confirmTitle": "Potwierdź żądanie zwrotu",
-        "refund.contactSupport": "Contact support",
+        "refund.contactSupport": "Kontakt Wsparcie",
         "refund.days": "Refund days",
         "refund.daysRemaining": "Days remaining",
         "refund.eligible": "Masz prawo do zwrotu",
@@ -21,9 +21,9 @@
         "refund.processInfo": "Refund process info",
         "refund.processing": "Przetwarzanie...",
         "refund.success": "Żądanie zwrotu zakończone sukcesem",
-        "refund.template": "Refund template",
+        "refund.template": "Refund Szablon",
         "refund.title": "Refund",
         "refund.warning": "Refund warning",
-        "refund.warningDescription": "Warning description"
+        "refund.warningDescription": "Warning Opis"
     }
 }

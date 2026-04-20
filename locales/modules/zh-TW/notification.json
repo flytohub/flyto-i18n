@@ -50,7 +50,7 @@
         "modules.notification.teams.send_message.params.title.description": "訊息卡片標題（選填）",
         "modules.notification.teams.send_message.params.title.label": "標題",
         "modules.notification.teams.send_message.params.webhook_url.description": "Microsoft Teams 傳入 webhook URL",
-        "modules.notification.teams.send_message.params.webhook_url.label": "Webhook URL",
+        "modules.notification.teams.send_message.params.webhook_url.label": "WebhookURL",
         "modules.notification.telegram.send_message.description": "透過 Telegram Bot API 傳送訊息",
         "modules.notification.telegram.send_message.label": "傳送 Telegram 訊息",
         "modules.notification.telegram.send_message.output.message.description": "傳送的訊息",

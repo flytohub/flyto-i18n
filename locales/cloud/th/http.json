@@ -9,7 +9,7 @@
         "http.advanced": "ตัวเลือกขั้นสูง",
         "http.auth": "การยืนยันตัวตน",
         "http.authNotConfigured": "ไม่ได้ตั้งค่าการยืนยันตัวตน",
-        "http.authType.apiKey": "API Key",
+        "http.authType.apiKey": "APIKey",
         "http.authType.basic": "Basic Auth",
         "http.authType.bearer": "Bearer Token",
         "http.authType.credential": "ข้อมูลรับรอง",
@@ -17,7 +17,7 @@
         "http.body": "Body",
         "http.bodyPlaceholder": "ป้อน request body...",
         "http.bodyType.none": "ไม่มี",
-        "http.contentType": "Content Type",
+        "http.contentType": "Contentประเภท",
         "http.curlImport.import": "นำเข้า",
         "http.curlImport.parseError": "ไม่สามารถแยกวิเคราะห์คำสั่ง curl ได้",
         "http.curlImport.placeholder": "วางคำสั่ง curl ของคุณที่นี่...",
@@ -44,6 +44,6 @@
         "http.username": "ชื่อผู้ใช้",
         "http.password": "รหัสผ่าน",
         "http.headerName": "ชื่อ Header",
-        "http.apiKey": "API Key"
+        "http.apiKey": "APIKey"
     }
 }

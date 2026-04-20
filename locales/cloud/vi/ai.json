@@ -97,7 +97,7 @@
         "cloud.llmChain.temperatureHint": "Cao hơn = sáng tạo hơn, Thấp hơn = tập trung hơn",
         "cloud.llmChain.testPrompt": "Test Prompt",
         "cloud.llmChain.title": "Chuỗi LLM",
-        "cloud.llmChain.userPrompt": "User Prompt",
+        "cloud.llmChain.userPrompt": "Người dùng Prompt",
         "cloud.llmChain.userPromptPlaceholder": "Nhập prompt với {{variables}}...",
         "cloud.llmChain.variableHelp": "Sử dụng {{variable}} để tham chiếu dữ liệu từ các bước trước",
         "cloud.vectorStore.addMetadata": "Thêm trường",

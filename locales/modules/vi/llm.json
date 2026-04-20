@@ -55,6 +55,6 @@
         "modules.llm.code_fix.output.ok.description": "Thao tác có thành công không",
         "modules.llm.code_fix.output.summary.description": "Danh sách các sửa lỗi đã áp dụng (nếu fix_mode là apply)",
         "modules.llm.code_fix.params.fixes": "Fixes",
-        "modules.llm.code_fix.params.source_files": "Source Files"
+        "modules.llm.code_fix.params.source_files": "Nguồn Files"
     }
 }

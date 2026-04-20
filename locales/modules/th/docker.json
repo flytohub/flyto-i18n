@@ -61,7 +61,7 @@
         "modules.docker.run.params.env.description": "ตัวแปรสภาพแวดล้อมที่จะตั้งค่าใน container",
         "modules.docker.run.params.env.label": "ตัวแปรสภาพแวดล้อม",
         "modules.docker.run.params.image.description": "Docker image ที่จะรัน (เช่น nginx:latest)",
-        "modules.docker.run.params.image.label": "Image",
+        "modules.docker.run.params.image.label": "รูปภาพ",
         "modules.docker.run.params.name.description": "ตั้งชื่อให้กับ container",
         "modules.docker.run.params.name.label": "ชื่อ Container",
         "modules.docker.run.params.network.description": "เชื่อมต่อ container เข้ากับเครือข่าย",

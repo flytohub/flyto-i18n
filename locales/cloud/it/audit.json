@@ -35,7 +35,7 @@
         "audit.detail.timestamp": "Timestamp",
         "audit.detail.title": "Dettagli Log",
         "audit.detail.traceId": "ID traccia",
-        "audit.detail.userAgent": "User Agent",
+        "audit.detail.userAgent": "Utente Agent",
         "audit.detail.valueHashes": "Hash dei valori",
         "audit.export.button": "Esporta",
         "audit.export.csv": "Esporta come CSV",

@@ -19,7 +19,7 @@
         "modules.validate.email.output.local_part.description": "Si l'email est valide",
         "modules.validate.email.output.valid.description": "Adresse e-mail à valider",
         "modules.validate.email.params.email.description": "Adresse e-mail à valider",
-        "modules.validate.email.params.email.label": "Email",
+        "modules.validate.email.params.email.label": "E-mail",
         "modules.validate.ip.description": "Valider le format de l'adresse IPv4 ou IPv6",
         "modules.validate.ip.label": "Valider IP",
         "modules.validate.ip.output.ip.description": "Si l'adresse IP est valide",

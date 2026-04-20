@@ -344,7 +344,7 @@
         "cloud.templateBuilder.workflow.stepProperties": "Thuộc tính bước",
         "cloud.templateBuilder.workflow.stepToolbox": "Hộp công cụ bước",
         "cloud.templateBuilder.workflow.steps": "bước",
-        "cloud.templateBuilder.workflow.title": "Workflow",
+        "cloud.templateBuilder.workflow.title": "Quy trình",
         "cloud.templateBuilder.workflow.yamlPreview": "Xem trước YAML",
         "cloud.templateBuilder.workflow.yes": "Có",
         "cloud.templateBuilder.workflowSteps.addStep": "Thêm {step}",

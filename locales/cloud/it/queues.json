@@ -11,7 +11,7 @@
         "queues.create.selectWorkflow": "Seleziona workflow",
         "queues.create.submit": "Crea coda",
         "queues.create.title": "Crea coda",
-        "queues.create.workflow": "Workflow",
+        "queues.create.workflow": "Flusso di lavoro",
         "queues.createFirst": "Crea la tua prima coda",
         "queues.empty": "Nessuna coda",
         "queues.emptyDesc": "Crea una coda per iniziare",

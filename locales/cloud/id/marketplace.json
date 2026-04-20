@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} kredit/run",
         "marketplace.executePerCall": "Jalankan",
         "marketplace.updateListing": "Perbarui",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "Hapus dari perpustakaan",
+        "marketplace.removeConfirmMessage": "Are you sure you want to Hapus this Template from your library?",
+        "marketplace.removeWarningDelisted": "This Template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this Template in the future, you will not be able to reinstall it."
     }
 }

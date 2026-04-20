@@ -61,7 +61,7 @@
         "modules.docker.run.params.env.description": "Umgebungsvariablen, die im Container gesetzt werden",
         "modules.docker.run.params.env.label": "Umgebungsvariablen",
         "modules.docker.run.params.image.description": "Docker-Image zum Ausführen (z.B. nginx:latest)",
-        "modules.docker.run.params.image.label": "Image",
+        "modules.docker.run.params.image.label": "Bild",
         "modules.docker.run.params.name.description": "Dem Container einen Namen zuweisen",
         "modules.docker.run.params.name.label": "Container-Name",
         "modules.docker.run.params.network.description": "Den Container mit einem Netzwerk verbinden",

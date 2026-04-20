@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "payment.buyNow": "Comprar Agora",
-        "payment.cancel.browseTemplates": "Marketplace",
+        "payment.cancel.browseTemplates": "Loja",
         "payment.cancel.contactSupport": "Contatar Suporte",
         "payment.cancel.goHome": "Inicio",
         "payment.cancel.helpText": "Precisa de ajuda? ",
@@ -32,7 +32,7 @@
         "payment.pending.waitMessage": "Por favor, aguarde enquanto confirmamos seu pagamento. Isso geralmente leva alguns segundos.",
         "payment.processing": "Processando...",
         "payment.success.amount": "Valor",
-        "payment.success.backToMarketplace": "Marketplace",
+        "payment.success.backToMarketplace": "Loja",
         "payment.success.completed": "Concluido",
         "payment.success.date": "Data",
         "payment.success.goToLibrary": "Biblioteca",

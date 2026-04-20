@@ -6,7 +6,7 @@
     "translations": {
         "purchases.all": "All purchases",
         "purchases.browseMarketplace": "Browse marketplace",
-        "purchases.completed": "Completed purchases",
+        "purchases.completed": "Hoàn thành purchases",
         "purchases.empty": "No purchases",
         "purchases.emptyDescription": "You have no purchases yet.",
         "purchases.filterAll": "Tất cả",

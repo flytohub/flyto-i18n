@@ -49,7 +49,7 @@
         "modules.object.pick.label": "Wybor z obiektu",
         "modules.object.pick.output.result.description": "Obiekt tylko z wybranymi kluczami",
         "modules.object.pick.params.keys": "Klucze",
-        "modules.object.pick.params.keys.options.email": "Email",
+        "modules.object.pick.params.keys.options.email": "E-mail",
         "modules.object.pick.params.keys.options.name": "Imię",
         "modules.object.set.description": "Ustaw wartość w obiekcie według ścieżki",
         "modules.object.set.label": "Ustaw Wartość",

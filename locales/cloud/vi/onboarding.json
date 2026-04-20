@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "onboarding.finish": "Finish",
-        "onboarding.next": "Next",
+        "onboarding.next": "Tiếp",
         "onboarding.previous": "Previous",
         "onboarding.skip": "Skip"
     }

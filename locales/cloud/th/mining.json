@@ -8,7 +8,7 @@
         "mining.bottlenecks.title": "Bottlenecks",
         "mining.discovery.analyze": "Analyze",
         "mining.discovery.empty": "No data to analyze",
-        "mining.discovery.selectWorkflow": "Select a workflow to analyze",
+        "mining.discovery.selectWorkflow": "เลือกaเวิร์กโฟลว์toanalyze",
         "mining.discovery.title": "Process Discovery",
         "mining.quality.fitness": "Fitness",
         "mining.quality.generalization": "Generalization",

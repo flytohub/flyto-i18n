@@ -22,7 +22,7 @@
         "variables.scope": "ขอบเขต",
         "variables.scopes.organization": "องค์กร",
         "variables.scopes.project": "โปรเจกต์",
-        "variables.scopes.workflow": "Workflow",
+        "variables.scopes.workflow": "เวิร์กโฟลว์",
         "variables.subtitle": "จัดการตัวแปรและ credentials สำหรับ workflow ของคุณ",
         "variables.title": "ตัวแปร",
         "variables.type": "ประเภท",

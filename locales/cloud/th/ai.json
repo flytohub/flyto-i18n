@@ -97,7 +97,7 @@
         "cloud.llmChain.temperatureHint": "สูง = สร้างสรรค์มากขึ้น, ต่ำ = มุ่งเน้นมากขึ้น",
         "cloud.llmChain.testPrompt": "ทดสอบ Prompt",
         "cloud.llmChain.title": "LLM Chain",
-        "cloud.llmChain.userPrompt": "User Prompt",
+        "cloud.llmChain.userPrompt": "ผู้ใช้Prompt",
         "cloud.llmChain.userPromptPlaceholder": "ป้อน prompt พร้อม {{variables}}...",
         "cloud.llmChain.variableHelp": "ใช้ {{variable}} เพื่ออ้างอิงข้อมูลจากขั้นตอนก่อนหน้า",
         "cloud.vectorStore.addMetadata": "เพิ่มฟิลด์",

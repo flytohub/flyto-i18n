@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} crediti/esecuzione",
         "marketplace.executePerCall": "Esegui",
         "marketplace.updateListing": "Aggiorna",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "Rimuovi dalla libreria",
+        "marketplace.removeConfirmMessage": "Are you sure you want to Rimuovi this Modello from your library?",
+        "marketplace.removeWarningDelisted": "This Modello has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this Modello in the future, you will not be able to reinstall it."
     }
 }

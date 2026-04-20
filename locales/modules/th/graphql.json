@@ -18,7 +18,7 @@
         "modules.graphql.mutation.params.url.description": "URL ของ GraphQL endpoint",
         "modules.graphql.mutation.params.url.label": "Endpoint URL",
         "modules.graphql.mutation.params.variables.description": "ตัวแปรของ GraphQL mutation ในรูปแบบคู่คีย์-ค่า",
-        "modules.graphql.mutation.params.variables.label": "Variables",
+        "modules.graphql.mutation.params.variables.label": "ตัวแปร",
         "modules.graphql.query.description": "ดำเนินการ GraphQL query กับ endpoint",
         "modules.graphql.query.label": "GraphQL Query",
         "modules.graphql.query.output.data.description": "ข้อมูลการตอบกลับของ GraphQL",
@@ -33,6 +33,6 @@
         "modules.graphql.query.params.url.description": "URL ของ GraphQL endpoint",
         "modules.graphql.query.params.url.label": "Endpoint URL",
         "modules.graphql.query.params.variables.description": "ตัวแปรของ GraphQL query ในรูปแบบคู่คีย์-ค่า",
-        "modules.graphql.query.params.variables.label": "Variables"
+        "modules.graphql.query.params.variables.label": "ตัวแปร"
     }
 }

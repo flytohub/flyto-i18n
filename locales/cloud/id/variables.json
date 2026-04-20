@@ -22,7 +22,7 @@
         "variables.scope": "Cakupan",
         "variables.scopes.organization": "Organisasi",
         "variables.scopes.project": "Proyek",
-        "variables.scopes.workflow": "Workflow",
+        "variables.scopes.workflow": "Alur kerja",
         "variables.subtitle": "Kelola variabel dan kredensial untuk workflow Anda",
         "variables.title": "Variabel",
         "variables.type": "Tipe",

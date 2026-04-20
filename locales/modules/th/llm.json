@@ -55,6 +55,6 @@
         "modules.llm.code_fix.output.ok.description": "การดำเนินการสำเร็จหรือไม่",
         "modules.llm.code_fix.output.summary.description": "รายการการแก้ไขที่ใช้ (หาก fix_mode เป็น apply)",
         "modules.llm.code_fix.params.fixes": "Fixes",
-        "modules.llm.code_fix.params.source_files": "Source Files"
+        "modules.llm.code_fix.params.source_files": "แหล่งที่มาFiles"
     }
 }

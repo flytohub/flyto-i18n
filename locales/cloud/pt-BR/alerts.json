@@ -21,7 +21,7 @@
         "alerts.history.severity": "Severidade",
         "alerts.history.title": "Historico de Alertas",
         "alerts.history.triggered": "Disparado",
-        "alerts.history.workflow": "Workflow",
+        "alerts.history.workflow": "Fluxo de trabalho",
         "alerts.modal.conditionType": "Metrica",
         "alerts.modal.cooldown": "Intervalo (minutos)",
         "alerts.modal.cooldownHelp": "Tempo minimo entre alertas repetidos para a mesma regra",

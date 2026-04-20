@@ -6,7 +6,7 @@
     "translations": {
         "idp.actions.batch": "Batch Process",
         "idp.actions.export": "Export",
-        "idp.actions.title": "Actions",
+        "idp.actions.title": "Akcje",
         "idp.actions.train": "Train Model",
         "idp.models.title": "Models",
         "idp.queue.empty": "No documents in queue",
@@ -18,11 +18,11 @@
         "idp.results.title": "Results",
         "idp.stats.accuracy": "Accuracy",
         "idp.stats.models": "Models",
-        "idp.stats.pending": "Pending",
+        "idp.stats.pending": "Oczekujący",
         "idp.stats.processed": "Processed",
         "idp.upload.browse": "Browse",
-        "idp.upload.desc": "Drag & drop or click to upload",
+        "idp.upload.desc": "Drag & drop or click to Prześlij",
         "idp.upload.formats": "Supported: PDF, PNG, JPG",
-        "idp.upload.title": "Upload Document"
+        "idp.upload.title": "Prześlij Document"
     }
 }

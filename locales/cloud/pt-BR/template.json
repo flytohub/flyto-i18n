@@ -344,7 +344,7 @@
         "cloud.templateBuilder.workflow.stepProperties": "Propriedades da Etapa",
         "cloud.templateBuilder.workflow.stepToolbox": "Caixa de Ferramentas de Etapas",
         "cloud.templateBuilder.workflow.steps": "etapas",
-        "cloud.templateBuilder.workflow.title": "Workflow",
+        "cloud.templateBuilder.workflow.title": "Fluxo de trabalho",
         "cloud.templateBuilder.workflow.yamlPreview": "Visualizacao YAML",
         "cloud.templateBuilder.workflow.yes": "Sim",
         "cloud.templateBuilder.workflowSteps.addStep": "Adicionar {step}",

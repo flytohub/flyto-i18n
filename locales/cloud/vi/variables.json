@@ -22,7 +22,7 @@
         "variables.scope": "Phạm vi",
         "variables.scopes.organization": "Tổ chức",
         "variables.scopes.project": "Dự án",
-        "variables.scopes.workflow": "Workflow",
+        "variables.scopes.workflow": "Quy trình",
         "variables.subtitle": "Quản lý biến và thông tin đăng nhập cho workflow của bạn",
         "variables.title": "Biến",
         "variables.type": "Loại",

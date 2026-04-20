@@ -6,10 +6,10 @@
     "translations": {
         "refund.amount": "Refund amount",
         "refund.cancelButton": "Hủy",
-        "refund.confirm": "Confirm refund",
+        "refund.confirm": "Xác nhận refund",
         "refund.confirmButton": "Xác nhận hoàn tiền",
         "refund.confirmTitle": "Xác nhận yêu cầu hoàn tiền",
-        "refund.contactSupport": "Contact support",
+        "refund.contactSupport": "Liên hệ Hỗ trợ",
         "refund.days": "Refund days",
         "refund.daysRemaining": "Days remaining",
         "refund.eligible": "Bạn đủ điều kiện để hoàn tiền",
@@ -21,9 +21,9 @@
         "refund.processInfo": "Refund process info",
         "refund.processing": "Đang xử lý...",
         "refund.success": "Yêu cầu hoàn tiền thành công",
-        "refund.template": "Refund template",
+        "refund.template": "Refund Mẫu",
         "refund.title": "Refund",
         "refund.warning": "Refund warning",
-        "refund.warningDescription": "Warning description"
+        "refund.warningDescription": "Warning Mô tả"
     }
 }

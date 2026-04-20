@@ -17,7 +17,7 @@
         "offline.languagePack.invalidFormat": "รูปแบบไฟล์ไม่ถูกต้อง ต้องการไฟล์ flyto-i18n JSON",
         "offline.languagePack.noTranslations": "ไม่พบการแปลในไฟล์",
         "offline.languagePack.subtitle": "นำเข้าการแปลสำหรับใช้งานออฟไลน์",
-        "offline.languagePack.title": "Language Pack",
+        "offline.languagePack.title": "ภาษาPack",
         "offline.languagePack.use": "ใช้",
         "offline.license": "ใบอนุญาต",
         "offline.settings": "การตั้งค่าออฟไลน์"

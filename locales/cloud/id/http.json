@@ -42,7 +42,7 @@
         "http.authType.label": "Tipe Auth",
         "http.token": "Token",
         "http.username": "Username",
-        "http.password": "Password",
+        "http.password": "Kata sandi",
         "http.headerName": "Nama Header",
         "http.apiKey": "API Key"
     }

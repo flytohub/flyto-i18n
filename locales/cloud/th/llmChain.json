@@ -14,7 +14,7 @@
         "llmChain.systemPromptPlaceholder": "คุณคือผู้ช่วยที่เป็นประโยชน์...",
         "llmChain.temperature": "Temperature",
         "llmChain.temperatureHint": "สูง = สร้างสรรค์มากขึ้น, ต่ำ = มุ่งเน้นมากขึ้น",
-        "llmChain.userPrompt": "User Prompt",
+        "llmChain.userPrompt": "ผู้ใช้Prompt",
         "llmChain.userPromptPlaceholder": "ป้อน prompt พร้อม {{variables}}...",
         "llmChain.variableHelp": "ใช้ {{variable}} เพื่ออ้างอิงข้อมูลจากขั้นตอนก่อนหน้า"
     }

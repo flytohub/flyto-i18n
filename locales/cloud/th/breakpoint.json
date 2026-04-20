@@ -18,7 +18,7 @@
         "breakpoint.reject": "ปฏิเสธ",
         "breakpoint.step": "ขั้นตอน",
         "breakpoint.waitingApproval": "กำลังรอการอนุมัติ",
-        "breakpoint.workflow": "Workflow",
+        "breakpoint.workflow": "เวิร์กโฟลว์",
         "browserInteract.execute": "ดำเนินการ",
         "browserInteract.noElements": "ไม่พบองค์ประกอบที่โต้ตอบได้",
         "browserInteract.pagePreview": "ตัวอย่างหน้า",

@@ -146,7 +146,7 @@
         "cloud.variables.scope": "Cakupan",
         "cloud.variables.scopes.organization": "Organisasi",
         "cloud.variables.scopes.project": "Proyek",
-        "cloud.variables.scopes.workflow": "Workflow",
+        "cloud.variables.scopes.workflow": "Alur kerja",
         "cloud.variables.subtitle": "Kelola variabel dan kredensial untuk workflow Anda",
         "cloud.variables.title": "Variabel",
         "cloud.variables.type": "Tipe",

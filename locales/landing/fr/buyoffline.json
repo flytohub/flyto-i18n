@@ -6,7 +6,7 @@
     "translations": {
         "landing.buyoffline.billing.company": "Entreprise (Optionnel)",
         "landing.buyoffline.billing.country": "Pays *",
-        "landing.buyoffline.billing.email": "Email *",
+        "landing.buyoffline.billing.email": "E-mail *",
         "landing.buyoffline.billing.fullName": "Nom complet *",
         "landing.buyoffline.billing.other": "Autre",
         "landing.buyoffline.billing.selectCountry": "Selectionnez un pays",

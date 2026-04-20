@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} Credits/Aufruf",
         "marketplace.executePerCall": "Ausführen",
         "marketplace.updateListing": "Aktualisieren",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "Aus Bibliothek entfernen",
+        "marketplace.removeConfirmMessage": "Möchten Sie diese Vorlage wirklich aus Ihrer Bibliothek entfernen?",
+        "marketplace.removeWarningDelisted": "This Vorlage has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this Vorlage in the future, you will not be able to reinstall it."
     }
 }

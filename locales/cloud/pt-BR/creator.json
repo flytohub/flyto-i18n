@@ -4,10 +4,10 @@
     "category": "cloud.creator",
     "version": "1.0.0",
     "translations": {
-        "creator.dashboard.createFirst": "Create first",
-        "creator.dashboard.createTemplate": "Create template",
+        "creator.dashboard.createFirst": "Criar first",
+        "creator.dashboard.createTemplate": "Criar Modelo",
         "creator.dashboard.subtitle": "Subtitle",
-        "creator.dashboard.title": "Title",
+        "creator.dashboard.title": "Título",
         "creator.period.30d": "Last 30 days",
         "creator.period.7d": "Last 7 days",
         "creator.period.90d": "Last 90 days",
@@ -25,11 +25,11 @@
         "creator.stats.totalTemplates": "Total templates",
         "creator.topTemplates.noData": "No data available",
         "creator.topTemplates.title": "Top templates",
-        "creator.translations.language": "Language",
-        "creator.translations.name": "Name",
+        "creator.translations.language": "Idioma",
+        "creator.translations.name": "Nome",
         "creator.translations.noSubmissions": "No submissions",
         "creator.translations.status": "Status",
         "creator.translations.submitted": "Submitted",
-        "creator.translations.title": "Title"
+        "creator.translations.title": "Título"
     }
 }

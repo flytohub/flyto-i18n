@@ -4,7 +4,7 @@
     "category": "code",
     "version": "1.0.0",
     "translations": {
-        "code.app.title": "Flyto2 Code",
+        "code.app.title": "Flyto2代碼",
         "code.app.subtitle": "AI 驅動的程式碼智慧平台",
         "code.app.sharedAccount": "與 Flyto2 平台共用帳號",
         "code.topbar.connectRepo": "連接",
@@ -425,7 +425,7 @@
         "code.onboarding.firstScanDesc": "正在掃描您的儲存庫...",
         "code.onboarding.connectBtn": "連接 GitHub",
         "code.onboarding.selectBtn": "選擇儲存庫",
-        "code.settings.webhooks": "Webhooks",
+        "code.settings.webhooks": "Webhook",
         "code.settings.noWebhooks": "尚未設定 Webhook",
         "code.settings.addWebhook": "新增",
         "code.settings.webhookAll": "所有事件",

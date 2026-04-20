@@ -6,7 +6,7 @@
     "translations": {
         "cloud.templateCollaboration.tabs.overview": "Visão geral",
         "cloud.templateCollaboration.tabs.pullRequests": "Pull Requests",
-        "cloud.templateCollaboration.tabs.issues": "Issues",
+        "cloud.templateCollaboration.tabs.issues": "Problemas",
         "cloud.templateCollaboration.tabs.history": "Histórico",
         "cloud.templateCollaboration.pullRequests.title": "Pull Requests",
         "cloud.templateCollaboration.pullRequests.create": "Novo Pull Request",
@@ -52,7 +52,7 @@
         "cloud.templateCollaboration.pullRequests.statusMerged": "Mesclado",
         "cloud.templateCollaboration.pullRequests.statusRejected": "Rejeitado",
         "cloud.templateCollaboration.pullRequests.statusClosed": "Fechado",
-        "cloud.templateCollaboration.templateIssues.title": "Issues",
+        "cloud.templateCollaboration.templateIssues.title": "Problemas",
         "cloud.templateCollaboration.templateIssues.create": "Nova issue",
         "cloud.templateCollaboration.templateIssues.chooseTemplate": "Escolher modelo",
         "cloud.templateCollaboration.templateIssues.titleLabel": "Título",

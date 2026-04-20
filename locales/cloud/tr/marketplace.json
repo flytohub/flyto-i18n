@@ -52,9 +52,9 @@
         "marketplace.perCallBadge": "{credits} kredi/çalıştırma",
         "marketplace.executePerCall": "Çalıştır",
         "marketplace.updateListing": "Güncelle",
-        "marketplace.removeConfirmTitle": "Remove from Library",
-        "marketplace.removeConfirmMessage": "Are you sure you want to remove this template from your library?",
-        "marketplace.removeWarningDelisted": "This template has been delisted by the creator. Once removed, you will not be able to reinstall it.",
-        "marketplace.removeWarningMayDelist": "If the creator delists this template in the future, you will not be able to reinstall it."
+        "marketplace.removeConfirmTitle": "Kütüphaneden kaldır",
+        "marketplace.removeConfirmMessage": "Are you sure you want to Kaldır this Şablon from your library?",
+        "marketplace.removeWarningDelisted": "This Şablon has been delisted by the creator. Once removed, you will not be able to reinstall it.",
+        "marketplace.removeWarningMayDelist": "If the creator delists this Şablon in the future, you will not be able to reinstall it."
     }
 }

@@ -33,7 +33,7 @@
         "modules.agent.chain.params.chain_steps.description": "Entrada inicial para a cadeia",
         "modules.agent.chain.params.chain_steps.label": "Entrada",
         "modules.agent.chain.params.chain_steps.options.Analyze what might cause this issue: {input}": "Analyze What Might Cause This Issue: {Input}",
-        "modules.agent.chain.params.chain_steps.options.Create an action plan from: {previous}": "Create An Action Plan From: {Previous}",
+        "modules.agent.chain.params.chain_steps.options.Create an action plan from: {previous}": "Criar An Action Plano From: {Previous}",
         "modules.agent.chain.params.chain_steps.options.Suggest 3 solutions based on: {previous}": "Suggest 3 Solutions Based On: {Previous}",
         "modules.agent.chain.params.input.description": "Entrada inicial para a cadeia",
         "modules.agent.chain.params.input.label": "Entrada",

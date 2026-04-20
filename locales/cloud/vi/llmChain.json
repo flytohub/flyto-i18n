@@ -14,7 +14,7 @@
         "llmChain.systemPromptPlaceholder": "Bạn là một trợ lý hữu ích...",
         "llmChain.temperature": "Nhiệt độ",
         "llmChain.temperatureHint": "Cao hơn = sáng tạo hơn, Thấp hơn = tập trung hơn",
-        "llmChain.userPrompt": "User Prompt",
+        "llmChain.userPrompt": "Người dùng Prompt",
         "llmChain.userPromptPlaceholder": "Nhập prompt với {{variables}}...",
         "llmChain.variableHelp": "Sử dụng {{variable}} để tham chiếu dữ liệu từ các bước trước"
     }

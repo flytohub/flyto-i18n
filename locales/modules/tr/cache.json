@@ -15,7 +15,7 @@
         "modules.cache.clear.params.redis_url.description": "Redis bağlantı URL'si",
         "modules.cache.clear.params.redis_url.label": "Redis URL",
         "modules.cache.delete.description": "Anahtara göre önbellek kaydını sil",
-        "modules.cache.delete.label": "Cache Delete",
+        "modules.cache.delete.label": "Cache Sil",
         "modules.cache.delete.output.backend.description": "Kullanılan altyapı",
         "modules.cache.delete.output.deleted.description": "Anahtar bulundu ve silindi mi",
         "modules.cache.delete.output.key.description": "Önbellek anahtarı",
