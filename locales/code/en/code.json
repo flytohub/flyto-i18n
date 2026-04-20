@@ -672,6 +672,15 @@
         "code.scoring.reachability": "Reachability Analysis",
         "code.scoring.reachabilityDesc": "Filter out CVEs in code paths that are never called",
         "code.scoring.autoTriage": "Auto-triage",
-        "code.scoring.autoTriageDesc": "Dedup, merge, and score noise reduction automatically"
+        "code.scoring.autoTriageDesc": "Dedup, merge, and score noise reduction automatically",
+
+        "code.projects.delete": "Delete Project",
+        "code.projects.deleteConfirm": "Are you sure you want to delete this project? All repositories, scan data, security findings, and settings will be permanently removed. This action cannot be undone.",
+        "code.projects.deleteConfirmLabel": "Type the project name to confirm",
+        "code.projects.deleting": "Deleting...",
+
+        "code.auth.orContinueWith": "or continue with",
+        "code.error.somethingWrong": "Something went wrong",
+        "code.error.reload": "Reload"
     }
 }

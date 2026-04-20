@@ -672,6 +672,15 @@
     "code.warroom.totalTaintFlows": "污點流",
     "code.warroom.version": "版本",
     "code.warroom.vulnDeps": "有漏洞的依賴項",
-    "code.warroom.vulnsRedirect": "在問題列表中查看和管理所有安全漏洞。"
+    "code.warroom.vulnsRedirect": "在問題列表中查看和管理所有安全漏洞。",
+
+    "code.projects.delete": "刪除專案",
+    "code.projects.deleteConfirm": "確定要刪除此專案嗎？所有儲存庫、掃描資料、安全發現和設定都將被永久移除，此操作無法復原。",
+    "code.projects.deleteConfirmLabel": "輸入專案名稱以確認",
+    "code.projects.deleting": "刪除中...",
+
+    "code.auth.orContinueWith": "或使用以下方式繼續",
+    "code.error.somethingWrong": "發生錯誤",
+    "code.error.reload": "重新載入"
   }
 }
