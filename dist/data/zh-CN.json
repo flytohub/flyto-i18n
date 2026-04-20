@@ -1,1 +1,1 @@
-{"locale": "zh-CN", "name": "Simplified Chinese", "native": "简体中文", "region": "CN", "version": "20260420223615", "files_merged": 1, "total_keys": 3, "translations": {"common": {"params": {"description": {"description": "此错误流程的描述", "label": "描述"}}, "ports": {"error": "输出"}}}}
+{"locale": "zh-CN", "name": "Simplified Chinese", "native": "简体中文", "region": "CN", "version": "20260420144420", "files_merged": 1, "total_keys": 3, "translations": {"common": {"params": {"description": {"description": "此错误流程的描述", "label": "描述"}}, "ports": {"error": "输出"}}}}
