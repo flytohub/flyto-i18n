@@ -1,6 +1,6 @@
 {
-  "version": "20260420052906",
-  "generated_at": "2026-04-20T05:29:06.923220",
+  "version": "20260420063421",
+  "generated_at": "2026-04-20T06:34:21.577664",
   "locales": {
     "de": {
       "name": "German",
@@ -81,6 +81,15 @@
       "total_keys": 1121,
       "translated_keys": 1080,
       "completion": 96.3,
+      "files_merged": 21
+    },
+    "landing": {
+      "name": "landing",
+      "native": "landing",
+      "region": "LA",
+      "total_keys": 1121,
+      "translated_keys": 0,
+      "completion": 0.0,
       "files_merged": 21
     },
     "pl": {
