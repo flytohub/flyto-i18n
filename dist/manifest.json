@@ -1,6 +1,6 @@
 {
-  "version": "20260420072519",
-  "generated_at": "2026-04-20T07:25:19.133058",
+  "version": "20260420125650",
+  "generated_at": "2026-04-20T12:56:50.294364",
   "locales": {
     "de": {
       "name": "German",
@@ -99,7 +99,7 @@
       "total_keys": 12095,
       "translated_keys": 12114,
       "completion": 100.2,
-      "files_merged": 273
+      "files_merged": 274
     },
     "th": {
       "name": "Thai",
@@ -108,7 +108,7 @@
       "total_keys": 12095,
       "translated_keys": 12114,
       "completion": 100.2,
-      "files_merged": 273
+      "files_merged": 274
     },
     "tr": {
       "name": "Turkish",
@@ -117,7 +117,7 @@
       "total_keys": 12095,
       "translated_keys": 12113,
       "completion": 100.1,
-      "files_merged": 273
+      "files_merged": 274
     },
     "vi": {
       "name": "Vietnamese",
@@ -126,7 +126,7 @@
       "total_keys": 12095,
       "translated_keys": 12115,
       "completion": 100.2,
-      "files_merged": 273
+      "files_merged": 274
     },
     "zh-CN": {
       "name": "Simplified Chinese",
