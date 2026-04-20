@@ -133,6 +133,11 @@
     "code.item.depCheck": "Dep Check",
     "code.item.codeScan": "Code Scan",
     "code.item.audit": "Audit",
+    "code.item.containerScan": "Containers",
+    "code.item.iacScan": "IaC",
+    "code.item.licenseScan": "Licenses",
+    "code.item.reachability": "Reachability",
+    "code.item.ciGate": "CI Gate",
     "code.item.database": "Database",
     "code.item.server": "Server",
     "code.item.storage": "Storage",
@@ -691,6 +696,21 @@
     "code.scoring.standards": "Security Check Standards",
     "code.scoring.standardsDesc": "Code scanning follows industry-standard vulnerability taxonomies:",
     "code.scoring.whyFloor": "Why floor to nearest 10?",
-    "code.scoring.whyFloorDesc": "Micro-changes in score (e.g. 735 → 736) are not statistically significant. Flooring ensures every visible score change maps to at least one real risk vector change — making score movements explainable and actionable."
+    "code.scoring.whyFloorDesc": "Micro-changes in score (e.g. 735 → 736) are not statistically significant. Flooring ensures every visible score change maps to at least one real risk vector change — making score movements explainable and actionable.",
+
+    "code.scoring.capabilities": "Security Capabilities",
+    "code.scoring.capabilitiesDesc": "Built-in security tools that run on every scan:",
+    "code.scoring.ciGate": "CI Gate",
+    "code.scoring.ciGateDesc": "Block PRs with critical vulnerabilities before merge",
+    "code.scoring.containerScan": "Container Scanning",
+    "code.scoring.containerScanDesc": "Detect OS-level CVEs in Docker images via Trivy",
+    "code.scoring.iacScan": "IaC Scanning",
+    "code.scoring.iacScanDesc": "Security checks for Terraform, Kubernetes, Docker configs",
+    "code.scoring.licenseScan": "License Compliance",
+    "code.scoring.licenseScanDesc": "Flag GPL, AGPL, SSPL and other copyleft/risky licenses",
+    "code.scoring.reachability": "Reachability Analysis",
+    "code.scoring.reachabilityDesc": "Filter out CVEs in code paths that are never called",
+    "code.scoring.autoTriage": "Auto-triage",
+    "code.scoring.autoTriageDesc": "Dedup, merge, and score noise reduction automatically"
   }
 }
