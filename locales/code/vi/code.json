@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "code",
+  "version": "1.0.0",
+  "translations": {}
+}

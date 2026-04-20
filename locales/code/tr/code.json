@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "code",
+  "version": "1.0.0",
+  "translations": {}
+}
