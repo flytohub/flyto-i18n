@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "Phát hiện",
         "code.pentest.wafNone": "Không có",
         "code.pentest.wafBehaviour": "Chỉ hành vi",
-        "code.pentest.openPorts": "Cổng mở"
+        "code.pentest.openPorts": "Cổng mở",
+        "code.issues.goToRepo": "Đến repo",
+        "code.dast.goToRepo": "Đến repo",
+        "code.repoDetail.recentVerifications": "Xác minh gần đây",
+        "code.warroom.verifyQueued": "Đang chờ",
+        "code.warroom.verifyError": "Lỗi",
+        "code.warroom.verifyDone": "Hoàn tất",
+        "code.dashboard.justNow": "vừa xong"
     }
 }

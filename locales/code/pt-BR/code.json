@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "Detectado",
         "code.pentest.wafNone": "Nenhum",
         "code.pentest.wafBehaviour": "Só comportamento",
-        "code.pentest.openPorts": "Portas abertas"
+        "code.pentest.openPorts": "Portas abertas",
+        "code.issues.goToRepo": "Ir ao repo",
+        "code.dast.goToRepo": "Ir ao repo",
+        "code.repoDetail.recentVerifications": "Verificações recentes",
+        "code.warroom.verifyQueued": "Na fila",
+        "code.warroom.verifyError": "Erro",
+        "code.warroom.verifyDone": "Concluído",
+        "code.dashboard.justNow": "agora"
     }
 }

@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "已偵測",
         "code.pentest.wafNone": "無",
         "code.pentest.wafBehaviour": "僅行為判斷",
-        "code.pentest.openPorts": "開放的埠"
+        "code.pentest.openPorts": "開放的埠",
+        "code.issues.goToRepo": "前往 repo",
+        "code.dast.goToRepo": "前往 repo",
+        "code.repoDetail.recentVerifications": "最近驗證",
+        "code.warroom.verifyQueued": "排隊中",
+        "code.warroom.verifyError": "錯誤",
+        "code.warroom.verifyDone": "已完成",
+        "code.dashboard.justNow": "剛剛"
     }
 }

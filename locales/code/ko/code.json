@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "감지됨",
         "code.pentest.wafNone": "없음",
         "code.pentest.wafBehaviour": "동작만",
-        "code.pentest.openPorts": "열린 포트"
+        "code.pentest.openPorts": "열린 포트",
+        "code.issues.goToRepo": "리포지토리로",
+        "code.dast.goToRepo": "리포지토리로",
+        "code.repoDetail.recentVerifications": "최근 검증",
+        "code.warroom.verifyQueued": "대기 중",
+        "code.warroom.verifyError": "오류",
+        "code.warroom.verifyDone": "완료",
+        "code.dashboard.justNow": "방금"
     }
 }

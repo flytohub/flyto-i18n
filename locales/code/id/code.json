@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "Terdeteksi",
         "code.pentest.wafNone": "Tidak ada",
         "code.pentest.wafBehaviour": "Hanya perilaku",
-        "code.pentest.openPorts": "Port terbuka"
+        "code.pentest.openPorts": "Port terbuka",
+        "code.issues.goToRepo": "Ke repo",
+        "code.dast.goToRepo": "Ke repo",
+        "code.repoDetail.recentVerifications": "Verifikasi terbaru",
+        "code.warroom.verifyQueued": "Antri",
+        "code.warroom.verifyError": "Galat",
+        "code.warroom.verifyDone": "Selesai",
+        "code.dashboard.justNow": "baru saja"
     }
 }

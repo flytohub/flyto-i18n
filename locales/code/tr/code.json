@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "Algılandı",
         "code.pentest.wafNone": "Yok",
         "code.pentest.wafBehaviour": "Yalnızca davranış",
-        "code.pentest.openPorts": "Açık portlar"
+        "code.pentest.openPorts": "Açık portlar",
+        "code.issues.goToRepo": "Depoya git",
+        "code.dast.goToRepo": "Depoya git",
+        "code.repoDetail.recentVerifications": "Son doğrulamalar",
+        "code.warroom.verifyQueued": "Kuyrukta",
+        "code.warroom.verifyError": "Hata",
+        "code.warroom.verifyDone": "Tamamlandı",
+        "code.dashboard.justNow": "az önce"
     }
 }

@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "Détecté",
         "code.pentest.wafNone": "Aucun",
         "code.pentest.wafBehaviour": "Comportement seul",
-        "code.pentest.openPorts": "Ports ouverts"
+        "code.pentest.openPorts": "Ports ouverts",
+        "code.issues.goToRepo": "Aller au dépôt",
+        "code.dast.goToRepo": "Aller au dépôt",
+        "code.repoDetail.recentVerifications": "Vérifications récentes",
+        "code.warroom.verifyQueued": "En file",
+        "code.warroom.verifyError": "Erreur",
+        "code.warroom.verifyDone": "Terminé",
+        "code.dashboard.justNow": "à l'instant"
     }
 }

@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "पता लगा",
         "code.pentest.wafNone": "कोई नहीं",
         "code.pentest.wafBehaviour": "केवल व्यवहार",
-        "code.pentest.openPorts": "खुले पोर्ट"
+        "code.pentest.openPorts": "खुले पोर्ट",
+        "code.issues.goToRepo": "रिपो पर जाएं",
+        "code.dast.goToRepo": "रिपो पर जाएं",
+        "code.repoDetail.recentVerifications": "हाल की सत्यापन",
+        "code.warroom.verifyQueued": "कतारबद्ध",
+        "code.warroom.verifyError": "त्रुटि",
+        "code.warroom.verifyDone": "हो गया",
+        "code.dashboard.justNow": "अभी"
     }
 }

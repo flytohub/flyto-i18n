@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "検出",
         "code.pentest.wafNone": "なし",
         "code.pentest.wafBehaviour": "挙動のみ",
-        "code.pentest.openPorts": "オープンポート"
+        "code.pentest.openPorts": "オープンポート",
+        "code.issues.goToRepo": "リポジトリへ",
+        "code.dast.goToRepo": "リポジトリへ",
+        "code.repoDetail.recentVerifications": "最近の検証",
+        "code.warroom.verifyQueued": "キュー中",
+        "code.warroom.verifyError": "エラー",
+        "code.warroom.verifyDone": "完了",
+        "code.dashboard.justNow": "たった今"
     }
 }

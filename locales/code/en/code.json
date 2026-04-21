@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "Detected",
         "code.pentest.wafNone": "None",
         "code.pentest.wafBehaviour": "Behaviour-only",
-        "code.pentest.openPorts": "Open Ports"
+        "code.pentest.openPorts": "Open Ports",
+        "code.issues.goToRepo": "Go to repo",
+        "code.dast.goToRepo": "Go to repo",
+        "code.repoDetail.recentVerifications": "Recent verifications",
+        "code.warroom.verifyQueued": "Queued",
+        "code.warroom.verifyError": "Error",
+        "code.warroom.verifyDone": "Done",
+        "code.dashboard.justNow": "just now"
     }
 }

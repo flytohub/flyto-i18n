@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "ตรวจพบ",
         "code.pentest.wafNone": "ไม่มี",
         "code.pentest.wafBehaviour": "เฉพาะพฤติกรรม",
-        "code.pentest.openPorts": "พอร์ตเปิด"
+        "code.pentest.openPorts": "พอร์ตเปิด",
+        "code.issues.goToRepo": "ไปที่ repo",
+        "code.dast.goToRepo": "ไปที่ repo",
+        "code.repoDetail.recentVerifications": "การตรวจสอบล่าสุด",
+        "code.warroom.verifyQueued": "อยู่ในคิว",
+        "code.warroom.verifyError": "ข้อผิดพลาด",
+        "code.warroom.verifyDone": "เสร็จสิ้น",
+        "code.dashboard.justNow": "เมื่อสักครู่"
     }
 }

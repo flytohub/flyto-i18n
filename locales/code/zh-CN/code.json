@@ -736,6 +736,13 @@
         "code.pentest.wafDetected": "已检测",
         "code.pentest.wafNone": "无",
         "code.pentest.wafBehaviour": "仅行为判断",
-        "code.pentest.openPorts": "开放端口"
+        "code.pentest.openPorts": "开放端口",
+        "code.issues.goToRepo": "前往 repo",
+        "code.dast.goToRepo": "前往 repo",
+        "code.repoDetail.recentVerifications": "最近验证",
+        "code.warroom.verifyQueued": "排队中",
+        "code.warroom.verifyError": "错误",
+        "code.warroom.verifyDone": "已完成",
+        "code.dashboard.justNow": "刚刚"
     }
 }
