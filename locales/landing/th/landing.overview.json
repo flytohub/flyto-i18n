@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "landing.overview",
+  "version": "1.0.0",
+  "translations": {
+    "landing.overview.claude.cta": "",
+    "landing.overview.claude.feature1": "",
+    "landing.overview.claude.feature2": "",
+    "landing.overview.claude.feature3": "",
+    "landing.overview.claude.feature4": "",
+    "landing.overview.claude.tagline": "",
+    "landing.overview.claude.title": "",
+    "landing.overview.code.cta": "",
+    "landing.overview.code.feature1": "",
+    "landing.overview.code.feature2": "",
+    "landing.overview.code.feature3": "",
+    "landing.overview.code.feature4": "",
+    "landing.overview.code.tagline": "",
+    "landing.overview.code.title": "",
+    "landing.overview.hero.subtitle": "",
+    "landing.overview.hero.title": "",
+    "landing.overview.trust.languages": "",
+    "landing.overview.trust.offline": "",
+    "landing.overview.trust.opensource": ""
+  }
+}
