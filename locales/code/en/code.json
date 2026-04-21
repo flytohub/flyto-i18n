@@ -129,6 +129,8 @@
         "code.item.containerScan": "Containers",
         "code.item.iacScan": "IaC",
         "code.item.licenseScan": "Licenses",
+        "code.item.malwareScan": "Malware",
+        "code.item.sbomExport": "SBOM",
         "code.item.reachability": "Reachability",
         "code.item.ciGate": "CI Gate",
         "code.item.database": "Database",

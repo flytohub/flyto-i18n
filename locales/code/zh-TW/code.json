@@ -228,6 +228,8 @@
     "code.item.iacScan": "IaC",
     "code.item.infrastructure": "基礎設施",
     "code.item.licenseScan": "授權",
+    "code.item.malwareScan": "惡意軟體",
+    "code.item.sbomExport": "SBOM",
     "code.item.mobileApp": "行動版",
     "code.item.modules": "模組",
     "code.item.network": "網路",
