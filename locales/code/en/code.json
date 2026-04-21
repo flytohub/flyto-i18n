@@ -627,6 +627,7 @@
         "code.warroom.verifyTargetPlaceholder": "https://staging.example.com",
         "code.warroom.verifyRunning": "Running pentest...",
         "code.warroom.verifySubmit": "Run Verification",
+        "code.warroom.verifyRetry": "Retry",
         "code.warroom.verdictExploitable": "Exploitable",
         "code.warroom.verdictSanitized": "Sanitized",
         "code.warroom.verdictUnreachable": "Unreachable",
@@ -665,6 +666,7 @@
         "code.projects.emptyTitle": "Create your first project",
         "code.projects.emptyDesc": "Projects group your repositories into separate war rooms — each with its own scans, health scores, and security insights.",
         "code.projects.getStarted": "Connect repos to get started",
+        "code.projects.unscanned": "Unscanned",
         "code.projects.members": "members",
         "code.projects.totalRepos": "Total Repos",
         "code.projects.totalMembers": "Total Members",
@@ -704,16 +706,21 @@
         "code.scoring.reachabilityDesc": "Filter out CVEs in code paths that are never called",
         "code.scoring.autoTriage": "Auto-triage",
         "code.scoring.autoTriageDesc": "Dedup, merge, and score noise reduction automatically",
-
         "code.news.title": "Security News",
-
         "code.projects.delete": "Delete Project",
         "code.projects.deleteConfirm": "Are you sure you want to delete this project? All repositories, scan data, security findings, and settings will be permanently removed. This action cannot be undone.",
         "code.projects.deleteConfirmLabel": "Type the project name to confirm",
         "code.projects.deleting": "Deleting...",
-
         "code.auth.orContinueWith": "or continue with",
         "code.error.somethingWrong": "Something went wrong",
-        "code.error.reload": "Reload"
+        "code.error.reload": "Reload",
+        "code.pentest.runDiscovery": "Run Discovery",
+        "code.pentest.runningDiscovery": "Running…",
+        "code.pentest.discoveryQueued": "Queued…",
+        "code.pentest.emptySSL": "No SSL certificate data yet.",
+        "code.pentest.emptyTech": "No technology data yet.",
+        "code.pentest.emptyWhoisWaf": "No WHOIS/WAF data yet.",
+        "code.repoList.scanQueued": "Queued…",
+        "code.repoList.scanRunning": "Scanning…"
     }
 }
