@@ -721,6 +721,21 @@
         "code.pentest.emptyTech": "No technology data yet.",
         "code.pentest.emptyWhoisWaf": "No WHOIS/WAF data yet.",
         "code.repoList.scanQueued": "Queued…",
-        "code.repoList.scanRunning": "Scanning…"
+        "code.repoList.scanRunning": "Scanning…",
+        "code.common.close": "Close",
+        "code.issues.cveId": "CVE ID",
+        "code.issues.package": "Package",
+        "code.issues.fixedIn": "Fixed in",
+        "code.issues.repo": "Repository",
+        "code.issues.published": "Published",
+        "code.issues.source": "Source",
+        "code.issues.references": "References",
+        "code.issues.verify": "Verify",
+        "code.pentest.notScanned": "Not scanned",
+        "code.pentest.sslExpired": "Expired",
+        "code.pentest.wafDetected": "Detected",
+        "code.pentest.wafNone": "None",
+        "code.pentest.wafBehaviour": "Behaviour-only",
+        "code.pentest.openPorts": "Open Ports"
     }
 }

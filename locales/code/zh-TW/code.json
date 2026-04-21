@@ -721,6 +721,21 @@
         "code.pentest.emptyTech": "尚無技術堆疊資料",
         "code.pentest.emptyWhoisWaf": "尚無 WHOIS/WAF 資料",
         "code.repoList.scanQueued": "排隊中…",
-        "code.repoList.scanRunning": "掃描中…"
+        "code.repoList.scanRunning": "掃描中…",
+        "code.common.close": "關閉",
+        "code.issues.cveId": "CVE 編號",
+        "code.issues.package": "套件",
+        "code.issues.fixedIn": "修正於",
+        "code.issues.repo": "Repository",
+        "code.issues.published": "公開日期",
+        "code.issues.source": "來源",
+        "code.issues.references": "參考資料",
+        "code.issues.verify": "驗證漏洞",
+        "code.pentest.notScanned": "尚未掃描",
+        "code.pentest.sslExpired": "已過期",
+        "code.pentest.wafDetected": "已偵測",
+        "code.pentest.wafNone": "無",
+        "code.pentest.wafBehaviour": "僅行為判斷",
+        "code.pentest.openPorts": "開放的埠"
     }
 }
