@@ -25,6 +25,7 @@
     "landing.common.nav.flytoAccount": "",
     "landing.common.nav.flytoClaude": "",
     "landing.common.nav.flytoCli": "",
+    "landing.common.nav.flytoCloud": "",
     "landing.common.nav.flytoCode": "",
     "landing.common.nav.home": "",
     "landing.common.nav.languagePacks": "",
@@ -32,6 +33,8 @@
     "landing.common.nav.marketplace": "",
     "landing.common.nav.myLicenses": "",
     "landing.common.nav.nodePackage": "",
+    "landing.common.nav.oss": "",
+    "landing.common.nav.overview": "",
     "landing.common.nav.plansAndPricing": "",
     "landing.common.nav.pricing": "",
     "landing.common.nav.resources": "",
@@ -39,6 +42,8 @@
     "landing.common.nav.signIn": "",
     "landing.common.nav.signOut": "",
     "landing.common.nav.skipToContent": "",
+    "landing.common.nav.soonBadge": "",
+    "landing.common.nav.waitlist": "",
     "landing.common.nav.wasmModule": ""
   }
 }
