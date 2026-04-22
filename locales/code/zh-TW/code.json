@@ -820,6 +820,10 @@
         "code.warroom.verifyTargetAllowlistPlaceholder": "選擇已授權的目標",
         "code.common.save": "儲存",
         "code.common.saving": "儲存中…",
-        "code.common.saved": "已儲存"
+        "code.common.saved": "已儲存",
+        "code.warroom.verifyAIExplainTitle": "AI 分析",
+        "code.warroom.verifyAIExplainLoading": "正在分析結果…",
+        "code.warroom.verifyAIExplainError": "AI 分析暫時無法使用。",
+        "code.warroom.verifyLibraryNotice": "這個 repo 是 library / SDK — 沒有部署的 URL 可探測。動態驗證已停用：對無關網域發送 HTTP 探測無法證明 library CVE 是否真的可利用。對 library 依賴而言，透過 import graph 的靜態可達性才是有意義的答案。"
     }
 }

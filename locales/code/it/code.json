@@ -815,7 +815,11 @@
         "code.warroom.verifyTargetAllowlistPlaceholder": "Pick an allowed target",
         "code.common.save": "Save",
         "code.common.saving": "Saving…",
-        "code.common.saved": "Saved"
+        "code.common.saved": "Saved",
+        "code.warroom.verifyAIExplainTitle": "AI analysis",
+        "code.warroom.verifyAIExplainLoading": "Analysing verdict…",
+        "code.warroom.verifyAIExplainError": "AI analysis unavailable.",
+        "code.warroom.verifyLibraryNotice": "This repo is a library / SDK — there is no deployed URL to probe. Dynamic verification is disabled because HTTP probes against an unrelated domain cannot prove whether a library CVE is exploitable here. Static reachability via the import graph is the meaningful answer for library dependencies."
     },
     "code.issues.whyNoPR": "Perché nessuna PR automatica?",
     "code.issues.skip_reason_no_fix_version": "Nessuna versione di correzione disponibile al momento",

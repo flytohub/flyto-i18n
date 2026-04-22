@@ -815,7 +815,11 @@
         "code.warroom.verifyTargetAllowlistPlaceholder": "选择已授权的目标",
         "code.common.save": "保存",
         "code.common.saving": "保存中…",
-        "code.common.saved": "已保存"
+        "code.common.saved": "已保存",
+        "code.warroom.verifyAIExplainTitle": "AI 分析",
+        "code.warroom.verifyAIExplainLoading": "正在分析结果…",
+        "code.warroom.verifyAIExplainError": "AI 分析暂时无法使用。",
+        "code.warroom.verifyLibraryNotice": "这个 repo 是 library / SDK — 没有部署的 URL 可探测。动态验证已停用：对无关域名发送 HTTP 探测无法证明 library CVE 是否真的可利用。对 library 依赖而言，通过 import graph 的静态可达性才是有意义的答案。"
     },
     "code.issues.whyNoPR": "为什么没有自动 PR？",
     "code.issues.skip_reason_no_fix_version": "目前尚无修复版本",

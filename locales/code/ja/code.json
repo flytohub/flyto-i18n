@@ -815,7 +815,11 @@
         "code.warroom.verifyTargetAllowlistPlaceholder": "許可された対象を選択",
         "code.common.save": "保存",
         "code.common.saving": "保存中…",
-        "code.common.saved": "保存済み"
+        "code.common.saved": "保存済み",
+        "code.warroom.verifyAIExplainTitle": "AI分析",
+        "code.warroom.verifyAIExplainLoading": "結果を分析中…",
+        "code.warroom.verifyAIExplainError": "AI分析は利用できません。",
+        "code.warroom.verifyLibraryNotice": "このリポジトリはライブラリ/SDKです — プローブするデプロイされたURLはありません。動的検証は無効化されています：無関係なドメインに対するHTTPプローブは、ライブラリCVEがここで実際に悪用可能かどうかを証明できません。ライブラリ依存については、インポートグラフによる静的到達性が意味のある答えです。"
     },
     "code.issues.whyNoPR": "なぜ自動PRがないのですか？",
     "code.issues.skip_reason_no_fix_version": "修正バージョンがまだありません",

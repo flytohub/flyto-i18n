@@ -815,7 +815,11 @@
         "code.warroom.verifyTargetAllowlistPlaceholder": "허용된 대상 선택",
         "code.common.save": "저장",
         "code.common.saving": "저장 중…",
-        "code.common.saved": "저장됨"
+        "code.common.saved": "저장됨",
+        "code.warroom.verifyAIExplainTitle": "AI 분석",
+        "code.warroom.verifyAIExplainLoading": "결과 분석 중…",
+        "code.warroom.verifyAIExplainError": "AI 분석을 사용할 수 없습니다.",
+        "code.warroom.verifyLibraryNotice": "이 리포지토리는 라이브러리/SDK입니다 — 프로브할 배포된 URL이 없습니다. 동적 검증이 비활성화되었습니다: 관련 없는 도메인에 대한 HTTP 프로브는 라이브러리 CVE가 여기서 실제로 악용 가능한지 증명할 수 없습니다. 라이브러리 종속성의 경우 import 그래프를 통한 정적 도달성이 의미 있는 답입니다."
     },
     "code.issues.whyNoPR": "자동 PR이 없는 이유?",
     "code.issues.skip_reason_no_fix_version": "수정 버전이 아직 없습니다",
