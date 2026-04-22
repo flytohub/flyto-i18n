@@ -872,7 +872,15 @@
         "code.dast.techSrc.cookie": "Cookie",
         "code.dast.techSrc.meta": "メタ",
         "code.dast.techSrc.script": "スクリプト",
-        "code.dast.techSrc.dom": "DOM"
+        "code.dast.techSrc.dom": "DOM",
+        "code.warroom.verdictSuspected": "悪用の疑い",
+        "code.warroom.verdictLikelySanitized": "おそらくブロック",
+        "code.warroom.confidenceHigh": "高信頼度",
+        "code.warroom.confidenceMedium": "中信頼度",
+        "code.warroom.confidenceLow": "低信頼度",
+        "code.warroom.confidenceTooltip": "エンジンの判定への信頼度。低=パターン一致のみ — 下の検証方法を参照。",
+        "code.warroom.verificationMethodTitle": "判定方法",
+        "code.warroom.dynamicVerificationMethod": "target_urlへ「汎用」入力検証ペイロード（SQLi系ファズ文字列）を送信する動的プローブ。パターン一致判定でありCVE特有の実悪用検証ではありません — サーバーの基本的な入力フィルタリング有無を示すのみで、このCVEが実際に到達可能かは証明しません。「悪用の疑い」は手動調査の契機としてください。"
     },
     "code.issues.whyNoPR": "なぜ自動PRがないのですか？",
     "code.issues.skip_reason_no_fix_version": "修正バージョンがまだありません",

@@ -872,7 +872,15 @@
         "code.dast.techSrc.cookie": "cookie",
         "code.dast.techSrc.meta": "meta",
         "code.dast.techSrc.script": "script",
-        "code.dast.techSrc.dom": "DOM"
+        "code.dast.techSrc.dom": "DOM",
+        "code.warroom.verdictSuspected": "SUSPECTED EXPLOITABLE",
+        "code.warroom.verdictLikelySanitized": "LIKELY SANITIZED",
+        "code.warroom.confidenceHigh": "HIGH CONFIDENCE",
+        "code.warroom.confidenceMedium": "MEDIUM CONFIDENCE",
+        "code.warroom.confidenceLow": "LOW CONFIDENCE",
+        "code.warroom.confidenceTooltip": "How sure the engine is about this verdict. Low = pattern match only — read the verification method below.",
+        "code.warroom.verificationMethodTitle": "How we determined this",
+        "code.warroom.dynamicVerificationMethod": "Dynamic probe against target_url using a GENERIC input-validation payload (SQLi-style fuzz string). A pattern-match verdict, not CVE-specific exploitation — the result shows whether the server has basic input filtering, not whether this particular CVE is reachable. Treat \"SUSPECTED EXPLOITABLE\" as a prompt to investigate manually."
     },
     "code.issues.whyNoPR": "Perché nessuna PR automatica?",
     "code.issues.skip_reason_no_fix_version": "Nessuna versione di correzione disponibile al momento",

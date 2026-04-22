@@ -872,7 +872,15 @@
         "code.dast.techSrc.cookie": "Cookie",
         "code.dast.techSrc.meta": "Meta",
         "code.dast.techSrc.script": "Script",
-        "code.dast.techSrc.dom": "DOM"
+        "code.dast.techSrc.dom": "DOM",
+        "code.warroom.verdictSuspected": "疑似可利用",
+        "code.warroom.verdictLikelySanitized": "可能已阻挡",
+        "code.warroom.confidenceHigh": "高信心",
+        "code.warroom.confidenceMedium": "中信心",
+        "code.warroom.confidenceLow": "低信心",
+        "code.warroom.confidenceTooltip": "引擎对此判定的信心。低=只是模式比对，请参阅下方验证方式。",
+        "code.warroom.verificationMethodTitle": "判定方式",
+        "code.warroom.dynamicVerificationMethod": "向 target_url 发送「通用」输入验证 payload（类 SQLi fuzz 字串）做动态探测。结果属于模式比对，不是针对该 CVE 的实际利用验证 — 只能判断服务器是否具备基本输入过滤，无法证明此 CVE 在该目标可被实际触发。「疑似可利用」请视为人工进一步调查的提示，不是确认结论。"
     },
     "code.issues.whyNoPR": "为什么没有自动 PR？",
     "code.issues.skip_reason_no_fix_version": "目前尚无修复版本",

@@ -872,7 +872,15 @@
         "code.dast.techSrc.cookie": "Cookie",
         "code.dast.techSrc.meta": "Meta",
         "code.dast.techSrc.script": "스크립트",
-        "code.dast.techSrc.dom": "DOM"
+        "code.dast.techSrc.dom": "DOM",
+        "code.warroom.verdictSuspected": "악용 의심",
+        "code.warroom.verdictLikelySanitized": "차단 가능성",
+        "code.warroom.confidenceHigh": "높은 신뢰도",
+        "code.warroom.confidenceMedium": "중간 신뢰도",
+        "code.warroom.confidenceLow": "낮은 신뢰도",
+        "code.warroom.confidenceTooltip": "엔진의 판정 신뢰도. 낮음=패턴 매칭만 — 아래 검증 방법 참조.",
+        "code.warroom.verificationMethodTitle": "판정 방법",
+        "code.warroom.dynamicVerificationMethod": "target_url에 「범용」 입력 검증 페이로드(SQLi 스타일 퍼즈 문자열) 전송하는 동적 프로브. 패턴 매칭 판정이며 CVE 특정 실제 악용 검증이 아님 — 서버의 기본 입력 필터링 여부만 나타내며, 이 CVE가 실제로 도달 가능한지는 증명하지 않음. 「악용 의심」은 수동 조사 계기로 처리하세요."
     },
     "code.issues.whyNoPR": "자동 PR이 없는 이유?",
     "code.issues.skip_reason_no_fix_version": "수정 버전이 아직 없습니다",

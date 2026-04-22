@@ -877,6 +877,14 @@
         "code.dast.techSrc.cookie": "Cookie",
         "code.dast.techSrc.meta": "Meta",
         "code.dast.techSrc.script": "Script",
-        "code.dast.techSrc.dom": "DOM"
+        "code.dast.techSrc.dom": "DOM",
+        "code.warroom.verdictSuspected": "疑似可利用",
+        "code.warroom.verdictLikelySanitized": "可能已阻擋",
+        "code.warroom.confidenceHigh": "高信心",
+        "code.warroom.confidenceMedium": "中信心",
+        "code.warroom.confidenceLow": "低信心",
+        "code.warroom.confidenceTooltip": "引擎對此判定的信心。低=只是模式比對，請參閱下方驗證方式。",
+        "code.warroom.verificationMethodTitle": "判定方式",
+        "code.warroom.dynamicVerificationMethod": "向 target_url 發送「通用」輸入驗證 payload（類 SQLi fuzz 字串）做動態探測。結果屬於模式比對，不是針對該 CVE 的實際利用驗證 — 只能判斷伺服器是否具備基本輸入過濾，無法證明此 CVE 在該目標可被實際觸發。「疑似可利用」請視為人工進一步調查的提示，不是確認結論。"
     }
 }
