@@ -778,6 +778,29 @@
         "code.fixPlan.emptyTitle": "No plan yet",
         "code.fixPlan.emptySub": "Generate a week-bucketed remediation roadmap from the current findings.",
         "code.fixPlan.week": "Week {n}",
-        "code.fixPlan.criticalPath": "Critical path"
-    }
+        "code.fixPlan.criticalPath": "Critical path",
+        "code.warroom.verificationHistory": "Verification History",
+        "code.warroom.latestVerdict": "Latest verdict",
+        "code.warroom.earlierRuns": "earlier runs",
+        "code.issues.snooze": "Snooze",
+        "code.issues.ignore": "Ignore",
+        "code.issues.solve": "Solve",
+        "code.issues.source_osv": "OSV database",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Back to all projects",
+        "code.issues.openPR": "Open PR",
+        "code.issues.openingPR": "Opening PR…",
+        "code.issues.viewPR": "View PR",
+        "code.issues.whyNoPR": "Why no auto-PR?",
+        "code.issues.skip_reason_no_fix_version": "No fix version is available yet",
+        "code.issues.skip_reason_transitive_dep": "Transitive dependency",
+        "code.issues.skip_reason_manifest_not_found": "Package not found in any manifest",
+        "code.issues.skip_reason_ai_invalid_version": "AI-suggested version failed registry validation",
+        "code.ai.reopenToRetry": "Reopen this tab to retry — no auto-retry to avoid token spend."
+    },
+    "code.issues.whyNoPR": "Why no auto-PR?",
+    "code.issues.skip_reason_no_fix_version": "No fix version is available yet",
+    "code.issues.skip_reason_transitive_dep": "Transitive dependency",
+    "code.issues.skip_reason_manifest_not_found": "Package not found in any manifest",
+    "code.issues.skip_reason_ai_invalid_version": "AI-suggested version failed registry validation"
 }

@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "ยังไม่มีแผน",
         "code.fixPlan.emptySub": "สร้างแผนรายสัปดาห์จาก findings ปัจจุบัน",
         "code.fixPlan.week": "สัปดาห์ {n}",
-        "code.fixPlan.criticalPath": "เส้นทางวิกฤต"
-    }
+        "code.fixPlan.criticalPath": "เส้นทางวิกฤต",
+        "code.warroom.verificationHistory": "ประวัติการยืนยัน",
+        "code.warroom.latestVerdict": "ผลล่าสุด",
+        "code.warroom.earlierRuns": "การรันก่อนหน้า",
+        "code.issues.snooze": "เลื่อน",
+        "code.issues.ignore": "ละเว้น",
+        "code.issues.solve": "แก้ไข",
+        "code.issues.source_osv": "ฐานข้อมูล OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "กลับไปยังโครงการทั้งหมด",
+        "code.issues.openPR": "เปิด PR",
+        "code.issues.openingPR": "กำลังเปิด PR…",
+        "code.issues.viewPR": "ดู PR",
+        "code.ai.reopenToRetry": "เปิดแท็บนี้ใหม่เพื่อลองอีกครั้ง — ไม่รีทรายอัตโนมัติเพื่อประหยัดโทเคน"
+    },
+    "code.issues.whyNoPR": "ทำไมไม่มี PR อัตโนมัติ?",
+    "code.issues.skip_reason_no_fix_version": "ยังไม่มีเวอร์ชันแก้ไข",
+    "code.issues.skip_reason_transitive_dep": "การพึ่งพาแบบถ่ายทอด",
+    "code.issues.skip_reason_manifest_not_found": "ไม่พบแพ็คเกจใน manifest ใดๆ",
+    "code.issues.skip_reason_ai_invalid_version": "เวอร์ชันที่ AI แนะนำไม่ผ่านการตรวจสอบ registry"
 }

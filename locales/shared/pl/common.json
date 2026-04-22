@@ -6,6 +6,7 @@
     "translations": {
         "common.params.description.description": "Opis tego procesu błędu",
         "common.params.description.label": "Opis",
-        "common.ports.error": "Wyjscie"
+        "common.ports.error": "Wyjscie",
+        "common.pleaseSelect": "Wybierz…"
     }
 }

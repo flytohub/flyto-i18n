@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Nessun piano",
         "code.fixPlan.emptySub": "Genera una roadmap settimanale dai findings.",
         "code.fixPlan.week": "Settimana {n}",
-        "code.fixPlan.criticalPath": "Percorso critico"
-    }
+        "code.fixPlan.criticalPath": "Percorso critico",
+        "code.warroom.verificationHistory": "Cronologia verifica",
+        "code.warroom.latestVerdict": "Ultimo verdetto",
+        "code.warroom.earlierRuns": "esecuzioni precedenti",
+        "code.issues.snooze": "Posticipa",
+        "code.issues.ignore": "Ignora",
+        "code.issues.solve": "Risolvi",
+        "code.issues.source_osv": "Database OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Torna a tutti i progetti",
+        "code.issues.openPR": "Apri PR",
+        "code.issues.openingPR": "Apertura PR…",
+        "code.issues.viewPR": "Visualizza PR",
+        "code.ai.reopenToRetry": "Riapri questa scheda per riprovare — nessun retry automatico per evitare costi di token."
+    },
+    "code.issues.whyNoPR": "Perché nessuna PR automatica?",
+    "code.issues.skip_reason_no_fix_version": "Nessuna versione di correzione disponibile al momento",
+    "code.issues.skip_reason_transitive_dep": "Dipendenza transitiva",
+    "code.issues.skip_reason_manifest_not_found": "Pacchetto non trovato in alcun manifesto",
+    "code.issues.skip_reason_ai_invalid_version": "La versione suggerita dall'IA ha fallito la convalida del registro"
 }

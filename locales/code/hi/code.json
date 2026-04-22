@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "अभी कोई योजना नहीं",
         "code.fixPlan.emptySub": "वर्तमान findings से साप्ताहिक रोडमैप बनाएं",
         "code.fixPlan.week": "सप्ताह {n}",
-        "code.fixPlan.criticalPath": "क्रिटिकल पाथ"
-    }
+        "code.fixPlan.criticalPath": "क्रिटिकल पाथ",
+        "code.warroom.verificationHistory": "सत्यापन इतिहास",
+        "code.warroom.latestVerdict": "नवीनतम निर्णय",
+        "code.warroom.earlierRuns": "पिछले रन",
+        "code.issues.snooze": "स्नूज़",
+        "code.issues.ignore": "अनदेखा",
+        "code.issues.solve": "हल करें",
+        "code.issues.source_osv": "OSV डेटाबेस",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "सभी प्रोजेक्ट पर वापस",
+        "code.issues.openPR": "PR खोलें",
+        "code.issues.openingPR": "PR खोला जा रहा है…",
+        "code.issues.viewPR": "PR देखें",
+        "code.ai.reopenToRetry": "पुनः प्रयास के लिए यह टैब दोबारा खोलें — टोकन बचाने के लिए ऑटो-रीट्राई नहीं।"
+    },
+    "code.issues.whyNoPR": "ऑटो-PR क्यों नहीं?",
+    "code.issues.skip_reason_no_fix_version": "अभी तक कोई फिक्स वर्शन उपलब्ध नहीं है",
+    "code.issues.skip_reason_transitive_dep": "ट्रांज़िटिव डिपेंडेंसी",
+    "code.issues.skip_reason_manifest_not_found": "किसी भी manifest में पैकेज नहीं मिला",
+    "code.issues.skip_reason_ai_invalid_version": "AI-सुझाया वर्शन रजिस्ट्री वैलिडेशन में विफल"
 }

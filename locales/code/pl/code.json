@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Brak planu",
         "code.fixPlan.emptySub": "Wygeneruj tygodniową mapę z bieżących findings.",
         "code.fixPlan.week": "Tydzień {n}",
-        "code.fixPlan.criticalPath": "Ścieżka krytyczna"
-    }
+        "code.fixPlan.criticalPath": "Ścieżka krytyczna",
+        "code.warroom.verificationHistory": "Historia weryfikacji",
+        "code.warroom.latestVerdict": "Ostatni werdykt",
+        "code.warroom.earlierRuns": "wcześniejsze uruchomienia",
+        "code.issues.snooze": "Odłóż",
+        "code.issues.ignore": "Ignoruj",
+        "code.issues.solve": "Rozwiąż",
+        "code.issues.source_osv": "Baza OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Wróć do wszystkich projektów",
+        "code.issues.openPR": "Otwórz PR",
+        "code.issues.openingPR": "Otwieranie PR…",
+        "code.issues.viewPR": "Zobacz PR",
+        "code.ai.reopenToRetry": "Ponownie otwórz tę kartę, aby spróbować — brak automatycznych ponownych prób."
+    },
+    "code.issues.whyNoPR": "Dlaczego brak auto-PR?",
+    "code.issues.skip_reason_no_fix_version": "Brak dostępnej wersji naprawczej",
+    "code.issues.skip_reason_transitive_dep": "Zależność przechodnia",
+    "code.issues.skip_reason_manifest_not_found": "Nie znaleziono pakietu w żadnym manifeście",
+    "code.issues.skip_reason_ai_invalid_version": "Wersja zasugerowana przez AI nie przeszła walidacji rejestru"
 }

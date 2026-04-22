@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Noch kein Plan",
         "code.fixPlan.emptySub": "Wochenweise Roadmap aus aktuellen Findings erstellen.",
         "code.fixPlan.week": "Woche {n}",
-        "code.fixPlan.criticalPath": "Kritischer Pfad"
-    }
+        "code.fixPlan.criticalPath": "Kritischer Pfad",
+        "code.warroom.verificationHistory": "Verifizierungsverlauf",
+        "code.warroom.latestVerdict": "Letztes Urteil",
+        "code.warroom.earlierRuns": "frühere Läufe",
+        "code.issues.snooze": "Zurückstellen",
+        "code.issues.ignore": "Ignorieren",
+        "code.issues.solve": "Lösen",
+        "code.issues.source_osv": "OSV-Datenbank",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Zurück zu allen Projekten",
+        "code.issues.openPR": "PR öffnen",
+        "code.issues.openingPR": "PR wird geöffnet…",
+        "code.issues.viewPR": "PR anzeigen",
+        "code.ai.reopenToRetry": "Öffne den Tab erneut — kein Auto-Retry, um Token-Kosten zu vermeiden."
+    },
+    "code.issues.whyNoPR": "Warum kein Auto-PR?",
+    "code.issues.skip_reason_no_fix_version": "Noch keine Fix-Version verfügbar",
+    "code.issues.skip_reason_transitive_dep": "Transitive Abhängigkeit",
+    "code.issues.skip_reason_manifest_not_found": "Paket in keiner Manifest-Datei gefunden",
+    "code.issues.skip_reason_ai_invalid_version": "KI-vorgeschlagene Version hat Registry-Validierung nicht bestanden"
 }

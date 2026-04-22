@@ -6,6 +6,7 @@
     "translations": {
         "common.params.description.description": "इस त्रुटि कार्यप्रवाह का विवरण",
         "common.params.description.label": "विवरण",
-        "common.ports.error": "आउटपुट"
+        "common.ports.error": "आउटपुट",
+        "common.pleaseSelect": "कृपया चुनें…"
     }
 }

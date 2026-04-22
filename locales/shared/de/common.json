@@ -6,6 +6,7 @@
     "translations": {
         "common.params.description.description": "Beschreibung dieses Fehlerablaufs",
         "common.params.description.label": "Beschreibung",
-        "common.ports.error": "Ausgabe"
+        "common.ports.error": "Ausgabe",
+        "common.pleaseSelect": "Bitte auswählen…"
     }
 }

@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Aún sin plan",
         "code.fixPlan.emptySub": "Genera una hoja de ruta semanal desde los hallazgos actuales.",
         "code.fixPlan.week": "Semana {n}",
-        "code.fixPlan.criticalPath": "Ruta crítica"
-    }
+        "code.fixPlan.criticalPath": "Ruta crítica",
+        "code.warroom.verificationHistory": "Historial de verificación",
+        "code.warroom.latestVerdict": "Último veredicto",
+        "code.warroom.earlierRuns": "ejecuciones anteriores",
+        "code.issues.snooze": "Posponer",
+        "code.issues.ignore": "Ignorar",
+        "code.issues.solve": "Resolver",
+        "code.issues.source_osv": "Base OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Volver a todos los proyectos",
+        "code.issues.openPR": "Abrir PR",
+        "code.issues.openingPR": "Abriendo PR…",
+        "code.issues.viewPR": "Ver PR",
+        "code.ai.reopenToRetry": "Vuelve a abrir esta pestaña para reintentar — sin reintento automático para evitar gasto de tokens."
+    },
+    "code.issues.whyNoPR": "¿Por qué no hay PR automático?",
+    "code.issues.skip_reason_no_fix_version": "Aún no hay versión de corrección disponible",
+    "code.issues.skip_reason_transitive_dep": "Dependencia transitiva",
+    "code.issues.skip_reason_manifest_not_found": "Paquete no encontrado en ningún manifiesto",
+    "code.issues.skip_reason_ai_invalid_version": "La versión sugerida por IA falló la validación del registro"
 }

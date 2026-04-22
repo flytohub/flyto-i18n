@@ -6,6 +6,7 @@
     "translations": {
         "common.params.description.description": "Description of this error workflow",
         "common.params.description.label": "Description",
-        "common.ports.error": "Input Data"
+        "common.ports.error": "Input Data",
+        "common.pleaseSelect": "Please select…"
     }
 }

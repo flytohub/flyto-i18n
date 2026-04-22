@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Pas encore de plan",
         "code.fixPlan.emptySub": "Générer une feuille de route hebdomadaire à partir des findings.",
         "code.fixPlan.week": "Semaine {n}",
-        "code.fixPlan.criticalPath": "Chemin critique"
-    }
+        "code.fixPlan.criticalPath": "Chemin critique",
+        "code.warroom.verificationHistory": "Historique de vérification",
+        "code.warroom.latestVerdict": "Dernier verdict",
+        "code.warroom.earlierRuns": "exécutions précédentes",
+        "code.issues.snooze": "Différer",
+        "code.issues.ignore": "Ignorer",
+        "code.issues.solve": "Résoudre",
+        "code.issues.source_osv": "Base OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Retour à tous les projets",
+        "code.issues.openPR": "Ouvrir la PR",
+        "code.issues.openingPR": "Ouverture de la PR…",
+        "code.issues.viewPR": "Voir la PR",
+        "code.ai.reopenToRetry": "Rouvrez cet onglet pour réessayer — pas de réessai automatique pour éviter la consommation de tokens."
+    },
+    "code.issues.whyNoPR": "Pourquoi pas de PR automatique ?",
+    "code.issues.skip_reason_no_fix_version": "Aucune version corrective disponible pour le moment",
+    "code.issues.skip_reason_transitive_dep": "Dépendance transitive",
+    "code.issues.skip_reason_manifest_not_found": "Package introuvable dans les manifestes",
+    "code.issues.skip_reason_ai_invalid_version": "La version suggérée par l'IA a échoué à la validation du registre"
 }

@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Chưa có kế hoạch",
         "code.fixPlan.emptySub": "Tạo lộ trình theo tuần từ findings hiện tại.",
         "code.fixPlan.week": "Tuần {n}",
-        "code.fixPlan.criticalPath": "Đường tới hạn"
-    }
+        "code.fixPlan.criticalPath": "Đường tới hạn",
+        "code.warroom.verificationHistory": "Lịch sử xác minh",
+        "code.warroom.latestVerdict": "Phán quyết mới nhất",
+        "code.warroom.earlierRuns": "lần chạy trước",
+        "code.issues.snooze": "Tạm hoãn",
+        "code.issues.ignore": "Bỏ qua",
+        "code.issues.solve": "Giải quyết",
+        "code.issues.source_osv": "Cơ sở OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Quay lại tất cả dự án",
+        "code.issues.openPR": "Mở PR",
+        "code.issues.openingPR": "Đang mở PR…",
+        "code.issues.viewPR": "Xem PR",
+        "code.ai.reopenToRetry": "Mở lại tab này để thử lại — không tự động thử lại để tiết kiệm token."
+    },
+    "code.issues.whyNoPR": "Tại sao không có PR tự động?",
+    "code.issues.skip_reason_no_fix_version": "Chưa có phiên bản sửa lỗi",
+    "code.issues.skip_reason_transitive_dep": "Phụ thuộc bắc cầu",
+    "code.issues.skip_reason_manifest_not_found": "Không tìm thấy package trong bất kỳ manifest nào",
+    "code.issues.skip_reason_ai_invalid_version": "Phiên bản AI đề xuất không vượt qua xác thực registry"
 }

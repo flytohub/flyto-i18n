@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "아직 계획 없음",
         "code.fixPlan.emptySub": "현재 findings 에서 주 단위 수정 로드맵 생성",
         "code.fixPlan.week": "{n}주차",
-        "code.fixPlan.criticalPath": "중요 경로"
-    }
+        "code.fixPlan.criticalPath": "중요 경로",
+        "code.warroom.verificationHistory": "검증 기록",
+        "code.warroom.latestVerdict": "최근 판정",
+        "code.warroom.earlierRuns": "이전 실행",
+        "code.issues.snooze": "연기",
+        "code.issues.ignore": "무시",
+        "code.issues.solve": "해결",
+        "code.issues.source_osv": "OSV 데이터베이스",
+        "code.issues.source_flyto_indexer": "Flyto 인덱서",
+        "code.topbar.goHome": "모든 프로젝트로 돌아가기",
+        "code.issues.openPR": "PR 열기",
+        "code.issues.openingPR": "PR 여는 중…",
+        "code.issues.viewPR": "PR 보기",
+        "code.ai.reopenToRetry": "탭을 다시 열어 재시도 (자동 재시도 없음 — 토큰 낭비 방지)"
+    },
+    "code.issues.whyNoPR": "자동 PR이 없는 이유?",
+    "code.issues.skip_reason_no_fix_version": "수정 버전이 아직 없습니다",
+    "code.issues.skip_reason_transitive_dep": "전이 종속성",
+    "code.issues.skip_reason_manifest_not_found": "어떤 매니페스트에서도 패키지를 찾을 수 없음",
+    "code.issues.skip_reason_ai_invalid_version": "AI 제안 버전이 레지스트리 검증에 실패"
 }

@@ -6,6 +6,7 @@
     "translations": {
         "common.params.description.description": "Descripción de este flujo de error",
         "common.params.description.label": "Descripción",
-        "common.ports.error": "Salida"
+        "common.ports.error": "Salida",
+        "common.pleaseSelect": "Selecciona…"
     }
 }

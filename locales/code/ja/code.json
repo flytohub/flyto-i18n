@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "まだ計画なし",
         "code.fixPlan.emptySub": "現在の findings から週単位の修正ロードマップを生成",
         "code.fixPlan.week": "Week {n}",
-        "code.fixPlan.criticalPath": "クリティカルパス"
-    }
+        "code.fixPlan.criticalPath": "クリティカルパス",
+        "code.warroom.verificationHistory": "検証履歴",
+        "code.warroom.latestVerdict": "最新の判定",
+        "code.warroom.earlierRuns": "過去の実行",
+        "code.issues.snooze": "スヌーズ",
+        "code.issues.ignore": "無視",
+        "code.issues.solve": "解決",
+        "code.issues.source_osv": "OSV データベース",
+        "code.issues.source_flyto_indexer": "Flyto インデクサー",
+        "code.topbar.goHome": "すべてのプロジェクトに戻る",
+        "code.issues.openPR": "PR を開く",
+        "code.issues.openingPR": "PR 作成中…",
+        "code.issues.viewPR": "PR を表示",
+        "code.ai.reopenToRetry": "タブを開き直して再試行（自動再試行はトークン節約のため行いません）"
+    },
+    "code.issues.whyNoPR": "なぜ自動PRがないのですか？",
+    "code.issues.skip_reason_no_fix_version": "修正バージョンがまだありません",
+    "code.issues.skip_reason_transitive_dep": "推移的依存関係",
+    "code.issues.skip_reason_manifest_not_found": "どのマニフェストにもパッケージが見つかりません",
+    "code.issues.skip_reason_ai_invalid_version": "AI提案バージョンがレジストリ検証に失敗"
 }

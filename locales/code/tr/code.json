@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Henüz plan yok",
         "code.fixPlan.emptySub": "Mevcut findings'ten haftalık yol haritası oluştur.",
         "code.fixPlan.week": "{n}. Hafta",
-        "code.fixPlan.criticalPath": "Kritik yol"
-    }
+        "code.fixPlan.criticalPath": "Kritik yol",
+        "code.warroom.verificationHistory": "Doğrulama Geçmişi",
+        "code.warroom.latestVerdict": "Son karar",
+        "code.warroom.earlierRuns": "önceki çalıştırmalar",
+        "code.issues.snooze": "Ertele",
+        "code.issues.ignore": "Yoksay",
+        "code.issues.solve": "Çöz",
+        "code.issues.source_osv": "OSV Veritabanı",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Tüm projelere dön",
+        "code.issues.openPR": "PR Aç",
+        "code.issues.openingPR": "PR açılıyor…",
+        "code.issues.viewPR": "PR'ı Gör",
+        "code.ai.reopenToRetry": "Tekrar denemek için bu sekmeyi yeniden aç — token tasarrufu için otomatik retry yok."
+    },
+    "code.issues.whyNoPR": "Neden otomatik PR yok?",
+    "code.issues.skip_reason_no_fix_version": "Henüz düzeltme sürümü mevcut değil",
+    "code.issues.skip_reason_transitive_dep": "Geçişli bağımlılık",
+    "code.issues.skip_reason_manifest_not_found": "Paket hiçbir manifestoda bulunamadı",
+    "code.issues.skip_reason_ai_invalid_version": "AI tarafından önerilen sürüm kayıt doğrulamasını geçemedi"
 }

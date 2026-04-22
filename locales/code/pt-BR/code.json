@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Sem plano ainda",
         "code.fixPlan.emptySub": "Gere uma trilha semanal a partir dos findings atuais.",
         "code.fixPlan.week": "Semana {n}",
-        "code.fixPlan.criticalPath": "Caminho crítico"
-    }
+        "code.fixPlan.criticalPath": "Caminho crítico",
+        "code.warroom.verificationHistory": "Histórico de verificação",
+        "code.warroom.latestVerdict": "Último veredito",
+        "code.warroom.earlierRuns": "execuções anteriores",
+        "code.issues.snooze": "Adiar",
+        "code.issues.ignore": "Ignorar",
+        "code.issues.solve": "Resolver",
+        "code.issues.source_osv": "Base OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Voltar a todos os projetos",
+        "code.issues.openPR": "Abrir PR",
+        "code.issues.openingPR": "Abrindo PR…",
+        "code.issues.viewPR": "Ver PR",
+        "code.ai.reopenToRetry": "Reabra esta aba para tentar de novo — sem retry automático para economizar tokens."
+    },
+    "code.issues.whyNoPR": "Por que não há PR automático?",
+    "code.issues.skip_reason_no_fix_version": "Nenhuma versão de correção disponível ainda",
+    "code.issues.skip_reason_transitive_dep": "Dependência transitiva",
+    "code.issues.skip_reason_manifest_not_found": "Pacote não encontrado em nenhum manifesto",
+    "code.issues.skip_reason_ai_invalid_version": "A versão sugerida pela IA falhou na validação do registro"
 }

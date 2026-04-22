@@ -6,6 +6,7 @@
     "translations": {
         "common.params.description.description": "Deskripsi alur kerja kesalahan ini",
         "common.params.description.label": "Deskripsi",
-        "common.ports.error": "Output"
+        "common.ports.error": "Output",
+        "common.pleaseSelect": "Silakan pilih…"
     }
 }

@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "Belum ada rencana",
         "code.fixPlan.emptySub": "Buat roadmap mingguan dari findings saat ini.",
         "code.fixPlan.week": "Minggu {n}",
-        "code.fixPlan.criticalPath": "Jalur kritis"
-    }
+        "code.fixPlan.criticalPath": "Jalur kritis",
+        "code.warroom.verificationHistory": "Riwayat Verifikasi",
+        "code.warroom.latestVerdict": "Vonis terbaru",
+        "code.warroom.earlierRuns": "eksekusi sebelumnya",
+        "code.issues.snooze": "Tunda",
+        "code.issues.ignore": "Abaikan",
+        "code.issues.solve": "Selesaikan",
+        "code.issues.source_osv": "Basis OSV",
+        "code.issues.source_flyto_indexer": "Flyto Indexer",
+        "code.topbar.goHome": "Kembali ke semua proyek",
+        "code.issues.openPR": "Buka PR",
+        "code.issues.openingPR": "Membuka PR…",
+        "code.issues.viewPR": "Lihat PR",
+        "code.ai.reopenToRetry": "Buka tab ini lagi untuk mencoba ulang — tidak ada retry otomatis untuk hemat token."
+    },
+    "code.issues.whyNoPR": "Mengapa tidak ada PR otomatis?",
+    "code.issues.skip_reason_no_fix_version": "Belum ada versi perbaikan yang tersedia",
+    "code.issues.skip_reason_transitive_dep": "Dependensi transitif",
+    "code.issues.skip_reason_manifest_not_found": "Paket tidak ditemukan di manifest manapun",
+    "code.issues.skip_reason_ai_invalid_version": "Versi yang disarankan AI gagal validasi registry"
 }

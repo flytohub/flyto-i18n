@@ -778,6 +778,24 @@
         "code.fixPlan.emptyTitle": "尚未生成计划",
         "code.fixPlan.emptySub": "根据现有 findings 生成周为单位的修复路线图",
         "code.fixPlan.week": "第 {n} 周",
-        "code.fixPlan.criticalPath": "关键路径"
-    }
+        "code.fixPlan.criticalPath": "关键路径",
+        "code.warroom.verificationHistory": "验证记录",
+        "code.warroom.latestVerdict": "最新判定",
+        "code.warroom.earlierRuns": "之前的执行",
+        "code.issues.snooze": "暂缓",
+        "code.issues.ignore": "忽略",
+        "code.issues.solve": "标记解决",
+        "code.issues.source_osv": "OSV 数据库",
+        "code.issues.source_flyto_indexer": "Flyto 索引器",
+        "code.topbar.goHome": "返回所有项目",
+        "code.issues.openPR": "开 PR",
+        "code.issues.openingPR": "开 PR 中…",
+        "code.issues.viewPR": "查看 PR",
+        "code.ai.reopenToRetry": "关闭并重新打开此标签页可重试（不自动重试以避免额外 token 费用）"
+    },
+    "code.issues.whyNoPR": "为什么没有自动 PR？",
+    "code.issues.skip_reason_no_fix_version": "目前尚无修复版本",
+    "code.issues.skip_reason_transitive_dep": "间接依赖包",
+    "code.issues.skip_reason_manifest_not_found": "在所有 manifest 中找不到此包",
+    "code.issues.skip_reason_ai_invalid_version": "AI 建议的版本未通过 registry 验证"
 }
