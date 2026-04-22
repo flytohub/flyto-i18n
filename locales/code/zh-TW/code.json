@@ -796,6 +796,18 @@
         "code.issues.skip_reason_transitive_dep": "間接依賴套件",
         "code.issues.skip_reason_manifest_not_found": "在所有 manifest 中找不到此套件",
         "code.issues.skip_reason_ai_invalid_version": "AI 建議的版本未通過 registry 驗證",
-        "code.ai.reopenToRetry": "關閉後重開此分頁即可重試（不自動重試以避免額外 token 費用）"
+        "code.ai.reopenToRetry": "關閉後重開此分頁即可重試（不自動重試以避免額外 token 費用）",
+        "code.warroom.verifyModeLabel": "驗證模式",
+        "code.warroom.verifyStaticLabel": "靜態可達性（安全）",
+        "code.warroom.verifyStaticHint": "檢查受影響的套件是否被引入，不發任何 HTTP 請求，永遠安全。",
+        "code.warroom.verifyDynamicLabel": "動態探測（會發送 payload）",
+        "code.warroom.verifyDynamicHint": "向目標 URL 發送合成攻擊請求並比對回應。僅限對你擁有且已授權測試的基礎設施使用。",
+        "code.warroom.verifyDynamicWarnTitle": "這會真的發送測試 payload",
+        "code.warroom.verifyDynamicWarnBody": "動態探測會對 target_url 發送類 SQLi 的 fuzz 字串。目標的 WAF / SIEM 會看見。只對 staging 或你有明確授權的基礎設施執行。",
+        "code.warroom.verifyAckLabel": "我已取得授權，可對此 URL 發送資安測試 payload。",
+        "code.warroom.verifyStaticSubmit": "檢查可達性",
+        "code.warroom.verifyModeStatic": "靜態模式",
+        "code.warroom.verdictReachable": "可達",
+        "code.warroom.verdictInconclusive": "無法判定"
     }
 }
