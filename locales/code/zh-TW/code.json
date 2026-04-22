@@ -808,6 +808,18 @@
         "code.warroom.verifyStaticSubmit": "檢查可達性",
         "code.warroom.verifyModeStatic": "靜態模式",
         "code.warroom.verdictReachable": "可達",
-        "code.warroom.verdictInconclusive": "無法判定"
+        "code.warroom.verdictInconclusive": "無法判定",
+        "code.settings.verifyPolicy": "驗證政策",
+        "code.settings.verifyStaticTitle": "靜態可達性（預設）",
+        "code.settings.verifyStaticDesc": "使用者按「驗證漏洞」時使用。檢查受影響套件是否被 repo 引入，不發任何 HTTP 流量 — 在多租戶 SaaS 中永遠安全。",
+        "code.settings.verifyDynamicTitle": "動態探測（每次漏洞需授權）",
+        "code.settings.verifyDynamicDesc": "進階模式，會對目標 URL 發送合成攻擊 payload。在 SaaS 版每次使用都需要明確授權。企業離線版自動啟用，因為 runner 部署在你自己網路內。",
+        "code.settings.verifyAllowlistHint": "每個 repo 的動態探測 URL 白名單在該 repo 的詳細頁面（驗證 URL 白名單區塊）設定。",
+        "code.repoDetail.verifyTargetsTitle": "驗證 URL 白名單",
+        "code.repoDetail.verifyTargetsHint": "每行一個 URL。動態驗證探測只會打在清單內的 URL。留空代表不限制（SaaS 版仍需每次授權）。",
+        "code.warroom.verifyTargetAllowlistPlaceholder": "選擇已授權的目標",
+        "code.common.save": "儲存",
+        "code.common.saving": "儲存中…",
+        "code.common.saved": "已儲存"
     }
 }
