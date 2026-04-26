@@ -1,0 +1,42 @@
+name: Check dist freshness
+
+# Fails the PR when locales/ changed but dist/ wasn't rebuilt locally.
+# The Build Dist workflow auto-fixes this on main, but a stale-dist PR
+# means CDN serves the old translations between merge and the next build.
+# Forcing the contributor to rebuild locally keeps the dist consistent
+# at every commit.
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'locales/**'
+      - 'dist/**'
+      - 'scripts/build-dist.py'
+      - '.github/workflows/check-dist-fresh.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rebuild dist into a working copy
+        run: python scripts/build-dist.py
+
+      - name: Diff against committed dist
+        id: diff
+        run: |
+          if git diff --quiet dist/; then
+            echo "✓ dist/ is up to date"
+          else
+            echo "::error::dist/ is stale — rebuild locally and re-commit:"
+            echo "::error::  python3 scripts/build-dist.py && git add dist/ && git commit --amend --no-edit"
+            git --no-pager diff --stat dist/
+            exit 1
+          fi
