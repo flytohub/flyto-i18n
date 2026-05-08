@@ -1,0 +1,284 @@
+283
+admin.factory.url|Zapier URL
+admin.telemetry.health.currentStatus|Current Status
+admin.telemetry.health.failures|Failures
+admin.telemetry.health.recentChecks|Recent Checks
+admin.telemetry.health.totalChecks|Total Checks
+admin.telemetry.health.uptime|Uptime
+admin.telemetry.insights.anthropicApiKey|Anthropic API Key
+admin.telemetry.insights.discordWebhookUrl|Discord Webhook URL
+admin.telemetry.tabs.health|Health
+aiAgent.apiKeyHint|Api Key Hint
+aiAgent.apiKeyPlaceholder|Api Key Placeholder
+aiAgent.systemPrompt|System Prompt
+aiAgent.systemPromptPlaceholder|System Prompt Placeholder
+aiAgent.temperature|Temperature
+app.chineseTraditional|繁體中文
+app.english|English
+browser.closeBrowser|Close Browser
+browser.connecting|Connecting
+browser.controlling|Controlling
+browser.deny|Deny
+browser.grant|Grant
+browser.idleWarning|Idle Warning
+browser.interactToKeep|Interact To Keep
+browser.liveView|Live View
+browser.releaseControl|Release Control
+browser.requestControl|Request Control
+browser.requestsControl|Requests Control
+browser.viewOnly|View Only
+browser.viewing|Viewing
+browser.waitingForStream|Waiting For Stream
+cloud.code.javascript|JavaScript
+cloud.code.python|Python
+cloud.expression.placeholder|${ui.inputs.name}
+cloud.llmChain.providers.claude|Claude
+cloud.llmChain.providers.openai|OpenAI
+cloud.templateBuilder.nodeProperties.foreachPlaceholder|{'$'}{'{'}previous_step.items{'}'}
+cloudTrial.daysRemaining|Days Remaining
+cloudTrial.expired|Expired
+cloudTrial.navBadge|Nav Badge
+cloudTrial.planLabel|Plan Label
+cloudTrial.trialActive|Trial Active
+cloudTrial.upgrade|Upgrade
+code.dast.graphql|GraphQL
+code.dast.tabWhois|WHOIS
+code.item.readme|README
+code.login.github|GitHub
+code.pentest.graphql|GraphQL
+collaboration.chat.empty|Empty
+collaboration.chat.placeholder|Placeholder
+collaboration.connecting|Connecting
+collaboration.endSession|End Session
+collaboration.endSessionConfirm|End Session Confirm
+collaboration.invite.confirmJoin|Confirm Join
+collaboration.invite.joinWorkflow|Join Workflow
+collaboration.invite.step3Approve|Step3Approve
+collaboration.invite.step4Collab|Step4Collab
+collaboration.notConnected|Not Connected
+collaboration.terminated|Terminated
+common.addItem|Add Item
+common.decline|Decline
+common.moveDown|Move Down
+common.moveUp|Move Up
+common.none|None
+dashboardPage.devices.removed|Removed
+data.tokensLabel|Tokens
+flow.trigger.webhook|Webhook
+landing.about.stats.atomicModules.number|384+
+landing.about.stats.enterpriseReady.number|Number
+landing.app.hero.notifyMe|Notify Me
+landing.blog.cta.title|Ready to try Flyto2?
+landing.blog.featured.excerpt|Why most automation tools break when you need a person to check or approve something — and how Flyto2 handles it differently.
+landing.blog.posts.post3.title|Switching to Flyto2: A Real Story
+landing.code.diff.aiDesc|Ai Desc
+landing.code.diff.kicker|Kicker
+landing.code.diff.ossDesc|Oss Desc
+landing.code.diff.pacDesc|Pac Desc
+landing.code.diff.warDesc|War Desc
+landing.code.hero.ctaWaitlist|Cta Waitlist
+landing.code.hero.eyebrow|Eyebrow
+landing.code.hero.lede|Lede
+landing.code.now.cap.auditDesc|Audit Desc
+landing.code.now.cap.authDesc|Auth Desc
+landing.code.now.cap.authTitle|Auth Title
+landing.code.now.cap.cveDesc|Cve Desc
+landing.code.now.cap.depDesc|Dep Desc
+landing.code.now.cap.iacDesc|Iac Desc
+landing.code.now.cap.licDesc|Lic Desc
+landing.code.now.cap.mcpDesc|Mcp Desc
+landing.code.now.cap.orgDesc|Org Desc
+landing.code.now.cap.scoreDesc|Score Desc
+landing.code.now.cap.secretDesc|Secret Desc
+landing.code.now.cap.taintDesc|Taint Desc
+landing.code.now.cap.taintTitle|Taint Title
+landing.code.now.cap.warDesc|War Desc
+landing.code.now.kicker|Kicker
+landing.code.now.lede|Lede
+landing.code.oss.ctaPypi|Cta Pypi
+landing.code.oss.lede|Lede
+landing.code.oss.out|Out
+landing.code.soon.badge|Badge
+landing.code.soon.cap.ciDesc|Ci Desc
+landing.code.soon.cap.complianceDesc|Compliance Desc
+landing.code.soon.cap.cspmDesc|Cspm Desc
+landing.code.soon.cap.dastDesc|Dast Desc
+landing.code.soon.cap.guardDesc|Guard Desc
+landing.code.soon.cap.runtimeDesc|Runtime Desc
+landing.code.soon.kicker|Kicker
+landing.code.soon.lede|Lede
+landing.code.waitlist.cta|Cta
+landing.code.waitlist.lede|Lede
+landing.common.cta.getStartedFree|Get Started Free
+landing.common.cta.viewPricing|View Pricing
+landing.common.footer.contact|Contact
+landing.common.footer.license|License
+landing.common.footer.product|Product
+landing.common.footer.products|Products
+landing.common.nav.blog|Blog
+landing.common.nav.contactUs|Contact Us
+landing.common.nav.desktopApp|Desktop App
+landing.common.nav.documentation|Documentation
+landing.common.nav.flytoCloud|Flyto Cloud
+landing.common.nav.flytoCode|Flyto Code
+landing.common.nav.languagePacks|Language Packs
+landing.common.nav.learn|Learn
+landing.common.nav.marketplace|Marketplace
+landing.common.nav.myLicenses|My Licenses
+landing.common.nav.oss|Oss
+landing.common.nav.pricing|Pricing
+landing.common.nav.resources|Resources
+landing.common.nav.selectLanguage|Select Language
+landing.common.nav.signIn|Sign In
+landing.common.nav.signOut|Sign Out
+landing.common.nav.soonBadge|Soon Badge
+landing.common.nav.waitlist|Waitlist
+landing.compare.apiTable.flyto2|Flyto2
+landing.compare.rpaTable.expensive|$$$
+landing.compare.rpaTable.flyto2|Flyto2
+landing.compare.summary.api.item1|Item1
+landing.compare.summary.api.item2|Item2
+landing.compare.summary.api.item3|Item3
+landing.compare.summary.api.item4|Item4
+landing.compare.summary.rpa.item1|Item1
+landing.compare.summary.rpa.item2|Item2
+landing.compare.summary.rpa.item3|Item3
+landing.compare.summary.rpa.item4|Item4
+landing.contact.cards.community|Community
+landing.contact.cards.emailUs|Email Us
+landing.contact.faq.subtitle|Subtitle
+landing.download.docker.autoUpdates|Auto Updates
+landing.download.docker.dockerDocs|Docker Docs
+landing.download.hero.downloadLatest|Download Latest
+landing.download.hero.viewSource|View Source
+landing.download.why.crossPlatform|Cross Platform
+landing.faq.cta.contactSupport|Contact Support
+landing.index.counter.recordOnce|Record Once
+landing.index.counter.replayForever|Replay Forever
+landing.languagepacks.contribute.btn|Btn
+landing.languagepacks.contribute.desc1|Desc1
+landing.languagepacks.contribute.desc2|Desc2
+landing.languagepacks.supported.subtitle|Subtitle
+landing.languagepacks.what.desc1|Desc1
+landing.languagepacks.what.desc2|Desc2
+landing.llms.title|Flyto2
+landing.node.features.asyncAwait|Async/Await
+landing.overview.cloud.cta|Cta
+landing.overview.cloud.feature1|Feature1
+landing.overview.cloud.feature2|Feature2
+landing.overview.cloud.feature3|Feature3
+landing.overview.cloud.feature4|Feature4
+landing.overview.cloud.tagline|Tagline
+landing.overview.code.badge|Badge
+landing.overview.code.cta|Cta
+landing.overview.code.feature1|Feature1
+landing.overview.code.feature2|Feature2
+landing.overview.code.feature3|Feature3
+landing.overview.code.feature4|Feature4
+landing.overview.code.tagline|Tagline
+landing.overview.hero.subtitle|Subtitle
+landing.overview.trust.languages|Languages
+landing.overview.trust.offline|Offline
+landing.overview.trust.opensource|Opensource
+landing.product.comparison.flyto2|Flyto2
+landing.product.solution.security.desc|Desc
+landing.sponsor.how.github.title|GitHub Sponsors
+landing.sponsor.projects.cloud.title|flyto-cloud
+landing.sponsor.projects.core.title|flyto-core
+landing.sponsor.projects.indexer.title|flyto-indexer
+landing.sponsor.projects.vscode.title|flyto-vscode
+landing.wasm.hero.title|Flyto2 WebAssembly
+login.github|GitHub
+marketplace.updateListingFailed|Update Listing Failed
+marketplace.updateListingSuccess|Update Listing Success
+myTemplates.emptyState|Empty State
+orders.budgetPlaceholder|0.00
+plugins.sort.newest|Newest
+plugins.sort.popular|Popular
+recorder.elementSelector.strategyDataCy|data-cy
+recorder.elementSelector.strategyDataTestid|data-testid
+recorder.elementSelector.strategyXpath|XPath
+recorder.strategies.xpath|XPath
+run.tokens|Tokens
+scheduler.created|Created
+scheduler.detail.association|Association
+scheduler.detail.basicInfo|Basic Info
+scheduler.detail.createdAt|Created At
+scheduler.detail.executionStats|Execution Stats
+scheduler.detail.failureCount|Failure Count
+scheduler.detail.ipWhitelist|Ip Whitelist
+scheduler.detail.lastRun|Last Run
+scheduler.detail.lastTriggered|Last Triggered
+scheduler.detail.scheduleConfig|Schedule Config
+scheduler.detail.signatureVerification|Signature Verification
+scheduler.detail.stats|Stats
+scheduler.detail.timestamps|Timestamps
+scheduler.detail.timezone|Timezone
+scheduler.detail.updatedAt|Updated At
+scheduler.errors.loadFailed|Load Failed
+scheduler.events.webhook|Webhook
+scheduler.lastRun|Last Run
+scheduler.runs|Runs
+scheduler.stats.failedRuns|Failed Runs
+scheduler.stats.totalRuns|Total Runs
+scheduler.stats.webhooks|Webhooks
+scheduler.status.paused|Paused
+scheduler.times|Times
+scheduler.triggered|Triggered
+scheduler.webhooks.empty|Empty
+scheduler.webhooks.emptyDesc|Empty Desc
+templateBuilder.aiChat.configureFirst|Configure First
+templateBuilder.aiChat.notConfigured|Not Configured
+templateBuilder.aiChat.setupDesc|Setup Desc
+templateBuilder.aiChat.setupTitle|Setup Title
+templateBuilder.aiChat.welcomeMessageGeneral|Welcome Message General
+templateBuilder.header.browser|Browser
+templateBuilder.messages.forkFailed|Fork Failed
+templateBuilder.messages.noSteps|No Steps
+templateBuilder.messages.templateCreated|Template Created
+templateBuilder.messages.templateModuleNotFound|Template Module Not Found
+templateBuilder.messages.templateSaved|Template Saved
+templateBuilder.recording.applied|Applied
+templateBuilder.schemaParams.hideAdvanced|Hide Advanced
+templateFolders.folders|Folders
+templateForm.private|Private
+templateForm.public|Public
+templateForm.visibility|Visibility
+traces.spanDetail.spanId|Span ID
+triggers.inputParamsPlaceholder|{"key": "value"}
+triggers.payloadReceived|Payload Received
+triggers.presets|Presets
+triggers.provider|Provider
+triggers.testAgain|Test Again
+triggers.testTimeout|Test Timeout
+triggers.testWebhook|Test Webhook
+triggers.tryAgain|Try Again
+triggers.validate|Validate
+triggers.waitingPayload|Waiting Payload
+triggers.webhookTest|Webhook Test
+triggers.webhookTestDesc|Webhook Test Desc
+usage.quota.used|{current} / {limit}
+usage.status.limitReached|Limit Reached
+usage.status.nearLimit|Near Limit
+usage.status.normal|Normal
+usage.status.unlimited|Unlimited
+userSettings.aiAdvanced|Ai Advanced
+userSettings.aiApiKeyHint|Ai Api Key Hint
+userSettings.aiAssistantDesc|Ai Assistant Desc
+userSettings.aiAutoExecute|Ai Auto Execute
+userSettings.aiAutoExecuteDesc|Ai Auto Execute Desc
+userSettings.aiAutoImport|Ai Auto Import
+userSettings.aiAutoImportDesc|Ai Auto Import Desc
+userSettings.aiBaseUrl|Ai Base Url
+userSettings.aiBehavior|Ai Behavior
+userSettings.aiConfigured|Ai Configured
+userSettings.aiCreative|Ai Creative
+userSettings.aiMaxTokens|Ai Max Tokens
+userSettings.aiModel|Ai Model
+userSettings.aiModelDefault|Ai Model Default
+userSettings.aiModelsAvailable|Ai Models Available
+userSettings.aiPrecise|Ai Precise
+userSettings.aiProvider|Ai Provider
+userSettings.aiTemperature|Ai Temperature
+userSettings.aiTesting|Ai Testing
+valueSource.browsePath|Browse Path
