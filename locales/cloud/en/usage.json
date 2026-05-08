@@ -6,13 +6,13 @@
   "translations": {
     "usage.byModule": "Usage by Module",
     "usage.calls": "calls",
-    "usage.chart.noData": "",
+    "usage.chart.noData": "No usage data available for this period",
     "usage.currentPeriod": "Current Period",
-    "usage.dashboard.currentUsage": "",
+    "usage.dashboard.currentUsage": "Current Usage",
     "usage.dashboard.resetsOn": "Resets {date}",
-    "usage.dashboard.title": "",
-    "usage.dashboard.topModules": "",
-    "usage.dashboard.usageHistory": "",
+    "usage.dashboard.title": "Usage Dashboard",
+    "usage.dashboard.topModules": "Top Modules",
+    "usage.dashboard.usageHistory": "Usage History",
     "usage.managePlan": "Manage Plan",
     "usage.nearLimit": "You are approaching your monthly limit.",
     "usage.noUsage": "No usage recorded this period.",
@@ -35,12 +35,12 @@
     "usage.unit.countTotal": "times",
     "usage.unit.days": "days",
     "usage.unlimited": "Unlimited usage included with your plan.",
-    "usage.warning.execPaused": "",
-    "usage.warning.nearLimitMessage": "",
-    "usage.warning.overLimitMessage": "",
-    "usage.warning.resetDate": "",
-    "usage.warning.upgradePlan": "",
-    "usage.warning.whatHappens": "",
-    "usage.warning.whatNow": ""
+    "usage.warning.execPaused": "Workflow executions have been paused due to plan limits.",
+    "usage.warning.nearLimitMessage": "You are approaching your plan's execution limit.",
+    "usage.warning.overLimitMessage": "You have exceeded your plan's execution limit.",
+    "usage.warning.resetDate": "Usage resets on",
+    "usage.warning.upgradePlan": "Upgrade Plan",
+    "usage.warning.whatHappens": "What happens when you reach the limit?",
+    "usage.warning.whatNow": "What can I do?"
   }
 }
