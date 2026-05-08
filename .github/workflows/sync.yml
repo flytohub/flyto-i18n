@@ -75,9 +75,14 @@ jobs:
           commit-message: "sync: update keys from flyto-core"
           labels: sync, automated
 
-      - name: Auto-merge PR
+      # Auto-merge removed — sync PRs should be reviewed before merging
+      # to prevent broken or incomplete translations from reaching dist/.
+      # The validate.yml workflow will still run as a PR check.
+      - name: Request review
         if: steps.cpr.outputs.pull-request-number
         run: |
-          gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} created — please review before merging."
+          echo "## Sync PR Created" >> $GITHUB_STEP_SUMMARY
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} requires review before merge." >> $GITHUB_STEP_SUMMARY
         env:
           GH_TOKEN: ${{ secrets.FLYTO_CORE_TOKEN }}

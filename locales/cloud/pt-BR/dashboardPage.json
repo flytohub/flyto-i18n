@@ -5,10 +5,13 @@
   "version": "1.0.0",
   "translations": {
     "dashboardPage.devices.allOffline": "Todos offline",
+    "dashboardPage.devices.confirmRemove": "",
     "dashboardPage.devices.noDevices": "Nenhum dispositivo registrado",
     "dashboardPage.devices.noDevicesHint": "Abra o aplicativo desktop para registrar seu dispositivo automaticamente",
     "dashboardPage.devices.noJobs": "Nenhum trabalho de execucao ainda",
     "dashboardPage.devices.recentJobs": "Trabalhos Recentes",
+    "dashboardPage.devices.removeFailed": "",
+    "dashboardPage.devices.removed": "",
     "dashboardPage.devices.title": "Dispositivos",
     "dashboardPage.errors.loadFailed": "Falha ao carregar dados do painel",
     "dashboardPage.myPurchases.browseMore": "Ver Mais",

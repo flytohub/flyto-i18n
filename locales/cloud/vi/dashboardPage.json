@@ -5,10 +5,13 @@
   "version": "1.0.0",
   "translations": {
     "dashboardPage.devices.allOffline": "Tất cả ngoại tuyến",
+    "dashboardPage.devices.confirmRemove": "",
     "dashboardPage.devices.noDevices": "Chưa có thiết bị nào được đăng ký",
     "dashboardPage.devices.noDevicesHint": "Mở ứng dụng máy tính để tự động đăng ký thiết bị của bạn",
     "dashboardPage.devices.noJobs": "Chưa có công việc thực thi nào",
     "dashboardPage.devices.recentJobs": "Công việc gần đây",
+    "dashboardPage.devices.removeFailed": "",
+    "dashboardPage.devices.removed": "",
     "dashboardPage.devices.title": "Thiết bị",
     "dashboardPage.errors.loadFailed": "Tải dữ liệu bảng điều khiển thất bại",
     "dashboardPage.myPurchases.browseMore": "Duyệt thêm",

@@ -55,6 +55,8 @@
     "marketplace.templatesFound": "พบ {count} เทมเพลต",
     "marketplace.title": "Marketplace",
     "marketplace.updateListing": "อัปเดต",
+    "marketplace.updateListingFailed": "",
+    "marketplace.updateListingSuccess": "",
     "marketplace.verified": "ยืนยันแล้ว"
   }
 }

@@ -1,0 +1,54 @@
+name: Notify Consumers
+
+# After dist/ is updated on main, notify consuming projects so they can
+# pull fresh translations. Each consumer repo listens for the
+# `i18n-updated` repository_dispatch event and decides whether to
+# auto-PR or just run a freshness check.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: dist/manifest.json
+          sparse-checkout-cone-mode: false
+
+      - name: Read manifest version
+        id: version
+        run: |
+          VERSION=$(python3 -c "import json; print(json.load(open('dist/manifest.json'))['version'])")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Manifest version: $VERSION"
+
+      - name: Notify flyto-cloud
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          repository: flytohub/flyto-cloud
+          event-type: i18n-updated
+          client-payload: '{"version": "${{ steps.version.outputs.version }}", "ref": "${{ github.sha }}"}'
+
+      - name: Notify flyto-code
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.FLYTO_CODE_TOKEN || secrets.FLYTO_CLOUD_TOKEN }}
+          repository: flytohub/flyto-code
+          event-type: i18n-updated
+          client-payload: '{"version": "${{ steps.version.outputs.version }}", "ref": "${{ github.sha }}"}'
+
+      - name: Summary
+        run: |
+          echo "## i18n Consumer Notification" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Notified consuming projects of dist/ update:" >> $GITHUB_STEP_SUMMARY
+          echo "- flyto-cloud (i18n-updated)" >> $GITHUB_STEP_SUMMARY
+          echo "- flyto-code (i18n-updated)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Manifest version: \`${{ steps.version.outputs.version }}\`" >> $GITHUB_STEP_SUMMARY

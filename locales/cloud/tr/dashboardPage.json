@@ -5,10 +5,13 @@
   "version": "1.0.0",
   "translations": {
     "dashboardPage.devices.allOffline": "Tümü çevrimdışı",
+    "dashboardPage.devices.confirmRemove": "",
     "dashboardPage.devices.noDevices": "Kayıtlı cihaz yok",
     "dashboardPage.devices.noDevicesHint": "Cihazınızı otomatik olarak kaydetmek için masaüstü uygulamasını açın",
     "dashboardPage.devices.noJobs": "Henüz yürütme işi yok",
     "dashboardPage.devices.recentJobs": "Son İşler",
+    "dashboardPage.devices.removeFailed": "",
+    "dashboardPage.devices.removed": "",
     "dashboardPage.devices.title": "Cihazlar",
     "dashboardPage.errors.loadFailed": "Kontrol paneli verileri yüklenemedi",
     "dashboardPage.myPurchases.browseMore": "Daha Fazla Gözat",

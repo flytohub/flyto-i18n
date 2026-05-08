@@ -84,21 +84,17 @@ jobs:
           commit-message: "sync: update UI keys from flyto-cloud"
           labels: sync, automated, cloud
 
-      - name: Auto-merge PR (if no new empty keys)
+      # Auto-merge removed — all sync PRs require review to prevent
+      # broken translations from reaching dist/ and CDN.
+      - name: PR status
         if: steps.cpr.outputs.pull-request-number
         run: |
-          # Check if there are new empty translations that need filling
           NEW_EMPTY=$(git diff --name-only | xargs grep -l '": ""' 2>/dev/null | wc -l || echo "0")
-
-          if [ "$NEW_EMPTY" -eq "0" ]; then
-            echo "No new empty translations, auto-merging..."
-            gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --delete-branch
-          else
-            echo "Found $NEW_EMPTY files with empty translations, skipping auto-merge"
-            echo "Please review and fill in translations manually"
+          echo "## Sync PR Created" >> $GITHUB_STEP_SUMMARY
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} requires review before merge." >> $GITHUB_STEP_SUMMARY
+          if [ "$NEW_EMPTY" -gt "0" ]; then
+            echo "**$NEW_EMPTY file(s) have empty translations** — fill before merging." >> $GITHUB_STEP_SUMMARY
           fi
-        env:
-          GH_TOKEN: ${{ secrets.FLYTO_CLOUD_TOKEN }}
 
       - name: Summary
         run: |

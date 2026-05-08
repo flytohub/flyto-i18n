@@ -55,6 +55,8 @@
     "marketplace.templatesFound": "Tìm thấy {count} mẫu",
     "marketplace.title": "Marketplace",
     "marketplace.updateListing": "Cập nhật",
+    "marketplace.updateListingFailed": "",
+    "marketplace.updateListingSuccess": "",
     "marketplace.verified": "Đã xác minh"
   }
 }

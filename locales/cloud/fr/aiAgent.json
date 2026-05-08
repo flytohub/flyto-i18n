@@ -1,18 +1,24 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "fr",
-    "category": "cloud.aiAgent",
-    "version": "1.0.0",
-    "translations": {
-        "aiAgent.fromInput": "Depuis l'entree",
-        "aiAgent.manual": "Manuel",
-        "aiAgent.promptPath": "Chemin d'entree",
-        "aiAgent.promptPathHint": "Expression pour obtenir l'invite du noeud en amont",
-        "aiAgent.promptSource": "Source de l'invite",
-        "aiAgent.selectVariable": "Selectionner une variable",
-        "aiAgent.shellInfo": "Informations sur le shell",
-        "aiAgent.shellInfoDesc": "Afficher l'environnement shell et le contexte d'execution",
-        "aiAgent.task": "Tache",
-        "aiAgent.taskPlaceholder": "Decrivez ce que l'agent doit accomplir..."
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.aiAgent",
+  "version": "1.0.0",
+  "translations": {
+    "aiAgent.apiKey": "",
+    "aiAgent.apiKeyHint": "",
+    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.fromInput": "Depuis l'entree",
+    "aiAgent.manual": "Manuel",
+    "aiAgent.promptPath": "Chemin d'entree",
+    "aiAgent.promptPathHint": "Expression pour obtenir l'invite du noeud en amont",
+    "aiAgent.promptSource": "Source de l'invite",
+    "aiAgent.selectVariable": "Selectionner une variable",
+    "aiAgent.shellInfo": "Informations sur le shell",
+    "aiAgent.shellInfoDesc": "Afficher l'environnement shell et le contexte d'execution",
+    "aiAgent.systemPrompt": "",
+    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.task": "Tache",
+    "aiAgent.taskPlaceholder": "Decrivez ce que l'agent doit accomplir...",
+    "aiAgent.temperature": ""
+  }
 }

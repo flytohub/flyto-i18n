@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.browser",
+  "version": "1.0.0",
+  "translations": {
+    "browser.closeBrowser": "",
+    "browser.connecting": "",
+    "browser.controlling": "",
+    "browser.deny": "",
+    "browser.grant": "",
+    "browser.idleWarning": "",
+    "browser.interactToKeep": "",
+    "browser.liveView": "",
+    "browser.releaseControl": "",
+    "browser.requestControl": "",
+    "browser.requestsControl": "",
+    "browser.viewOnly": "",
+    "browser.viewing": "",
+    "browser.waitingForStream": ""
+  }
+}
