@@ -1,5 +1,7 @@
 {
   "locale": "tr",
+  "category": "app",
+  "version": "1.0.0",
   "translations": {
     "app.about": "Hakkında",
     "app.aboutAndLegal": "Hakkında ve Yasal",

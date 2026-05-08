@@ -6,6 +6,9 @@ on:
     paths:
       - 'dist/**'
 
+permissions:
+  contents: read
+
 jobs:
   purge:
     runs-on: ubuntu-latest

@@ -1,5 +1,7 @@
 {
   "locale": "th",
+  "category": "app",
+  "version": "1.0.0",
   "translations": {
     "app.about": "เกี่ยวกับ",
     "app.aboutAndLegal": "เกี่ยวกับและข้อกฎหมาย",

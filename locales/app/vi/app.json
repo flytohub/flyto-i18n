@@ -1,5 +1,7 @@
 {
   "locale": "vi",
+  "category": "app",
+  "version": "1.0.0",
   "translations": {
     "app.about": "Giới thiệu",
     "app.aboutAndLegal": "Giới thiệu & Pháp lý",

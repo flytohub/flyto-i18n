@@ -7,6 +7,9 @@ on:
       - 'locales/landing/**/*.json'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   notify-landing:
     name: Trigger Landing Page Rebuild

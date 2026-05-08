@@ -1,5 +1,7 @@
 {
   "locale": "en",
+  "category": "app",
+  "version": "1.0.0",
   "translations": {
     "app.selectDevice": "Select Device",
     "app.switchDevice": "Switch Device",

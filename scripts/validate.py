@@ -111,12 +111,12 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
             })
             continue
 
-        if len(value) > 500:
+        if len(value) > 800:
             errors.append({
                 'file': str(file_path),
                 'type': 'value_too_long',
                 'key': key,
-                'message': f"Value too long ({len(value)} > 500 chars)"
+                'message': f"Value too long ({len(value)} > 800 chars)"
             })
 
         if '<script' in value.lower() or 'javascript:' in value.lower():

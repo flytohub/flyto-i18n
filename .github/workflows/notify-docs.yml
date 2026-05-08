@@ -6,6 +6,9 @@ on:
     paths:
       - 'locales/modules/**/*.json'
 
+permissions:
+  contents: read
+
 jobs:
   notify:
     runs-on: ubuntu-latest

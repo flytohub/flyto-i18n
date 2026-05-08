@@ -1,5 +1,7 @@
 {
   "locale": "pt-BR",
+  "category": "app",
+  "version": "1.0.0",
   "translations": {
     "app.about": "Sobre",
     "app.aboutAndLegal": "Sobre e Jurídico",

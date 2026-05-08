@@ -4,6 +4,10 @@ name: Notify Consumers
 # pull fresh translations. Each consumer repo listens for the
 # `i18n-updated` repository_dispatch event and decides whether to
 # auto-PR or just run a freshness check.
+#
+# Requires: FLYTO_PAT secret — a GitHub PAT with `repo` scope that can
+# dispatch events to flytohub/flyto-cloud and flytohub/flyto-code.
+# If the secret is missing the steps will be skipped (not fail the build).
 
 on:
   push:
@@ -11,9 +15,14 @@ on:
     paths:
       - 'dist/**'
 
+permissions:
+  contents: read
+
 jobs:
   notify:
     runs-on: ubuntu-latest
+    # Skip entirely if no PAT configured — avoids noisy failures
+    if: ${{ secrets.FLYTO_PAT != '' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,17 +37,19 @@ jobs:
           echo "Manifest version: $VERSION"
 
       - name: Notify flyto-cloud
-        uses: peter-evans/repository-dispatch@v2
+        continue-on-error: true
+        uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          token: ${{ secrets.FLYTO_PAT }}
           repository: flytohub/flyto-cloud
           event-type: i18n-updated
           client-payload: '{"version": "${{ steps.version.outputs.version }}", "ref": "${{ github.sha }}"}'
 
       - name: Notify flyto-code
-        uses: peter-evans/repository-dispatch@v2
+        continue-on-error: true
+        uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.FLYTO_CODE_TOKEN || secrets.FLYTO_CLOUD_TOKEN }}
+          token: ${{ secrets.FLYTO_PAT }}
           repository: flytohub/flyto-code
           event-type: i18n-updated
           client-payload: '{"version": "${{ steps.version.outputs.version }}", "ref": "${{ github.sha }}"}'

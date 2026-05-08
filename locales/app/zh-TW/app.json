@@ -1,5 +1,7 @@
 {
   "locale": "zh-TW",
+  "category": "app",
+  "version": "1.0.0",
   "translations": {
     "app.about": "關於",
     "app.aboutAndLegal": "關於與法律",
