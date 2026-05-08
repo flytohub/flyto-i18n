@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "Edit Template",
     "templateForm.iconUploadError": "Gagal mengunggah ikon. Silakan coba lagi.",
     "templateForm.namePlaceholder": "Otomatisasi Keren Saya",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "Pilih kategori (opsional)",
     "templateForm.templateColor": "Warna Template",
     "templateForm.templateIcon": "Ikon Template",
     "templateForm.templateName": "Nama Template",
     "templateForm.uploadIcon": "Unggah Ikon",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }

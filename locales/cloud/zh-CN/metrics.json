@@ -8,7 +8,7 @@
     "metrics.chart.noData": "没有可用数据",
     "metrics.chart.successful": "成功",
     "metrics.chart.title": "运行趋势",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "没有最近的失败记录",
     "metrics.recentFailures.title": "最近失败",
     "metrics.stats.avgDuration": "平均时长",

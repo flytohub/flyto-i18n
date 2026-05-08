@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "{count} şablon bulundu",
     "marketplace.title": "Mağaza",
     "marketplace.updateListing": "Güncelle",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "Doğrulanmış"
   }
 }

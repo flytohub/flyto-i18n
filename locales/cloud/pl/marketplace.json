@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "Znaleziono {count} szablonow",
     "marketplace.title": "Rynek",
     "marketplace.updateListing": "Zaktualizuj",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "Zweryfikowany"
   }
 }

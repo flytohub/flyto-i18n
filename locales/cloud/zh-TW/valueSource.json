@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "否 / False",
     "valueSource.booleanTrue": "是 / True",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "變更值來源",
     "valueSource.defaultPlaceholder": "輸入值...",
     "valueSource.expressionHint": "可用：steps.{id}.result、ui.{field}、env.{var}",

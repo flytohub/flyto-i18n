@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "{count}개 템플릿 발견",
     "marketplace.title": "마켓플레이스",
     "marketplace.updateListing": "업데이트",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "인증됨"
   }
 }

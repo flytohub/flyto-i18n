@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "{count}件のテンプレートが見つかりました",
     "marketplace.title": "マーケットプレイス",
     "marketplace.updateListing": "更新",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "認証済み"
   }
 }

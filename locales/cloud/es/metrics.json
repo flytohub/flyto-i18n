@@ -8,7 +8,7 @@
     "metrics.chart.noData": "No hay datos disponibles",
     "metrics.chart.successful": "Exitosos",
     "metrics.chart.title": "Tendencia de ejecución",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "No hay fallos recientes",
     "metrics.recentFailures.title": "Fallos recientes",
     "metrics.stats.avgDuration": "Duración promedio",

@@ -4,11 +4,11 @@
   "category": "cloud.cloudTrial",
   "version": "1.0.0",
   "translations": {
-    "cloudTrial.daysRemaining": "",
-    "cloudTrial.expired": "",
-    "cloudTrial.navBadge": "",
-    "cloudTrial.planLabel": "",
-    "cloudTrial.trialActive": "",
-    "cloudTrial.upgrade": ""
+    "cloudTrial.daysRemaining": "Days Remaining",
+    "cloudTrial.expired": "Expired",
+    "cloudTrial.navBadge": "Nav Badge",
+    "cloudTrial.planLabel": "Plan Label",
+    "cloudTrial.trialActive": "Trial Active",
+    "cloudTrial.upgrade": "Upgrade"
   }
 }

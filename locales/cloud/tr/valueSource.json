@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "Hayır / Yanlış",
     "valueSource.booleanTrue": "Evet / Doğru",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "Değer kaynağını değiştir",
     "valueSource.defaultPlaceholder": "Değer girin...",
     "valueSource.expressionHint": "Kullanılabilir: steps.{id}.result, ui.{field}, env.{var}",

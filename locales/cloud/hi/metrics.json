@@ -8,7 +8,7 @@
     "metrics.chart.noData": "कोई डेटा उपलब्ध नहीं",
     "metrics.chart.successful": "सफल",
     "metrics.chart.title": "एक्जीक्यूशन ट्रेंड",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "कोई हालिया विफलताएं नहीं",
     "metrics.recentFailures.title": "हालिया विफलताएं",
     "metrics.stats.avgDuration": "औसत अवधि",

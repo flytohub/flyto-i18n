@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "Vorlage bearbeiten",
     "templateForm.iconUploadError": "Symbol konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.",
     "templateForm.namePlaceholder": "Meine tolle Automatisierung",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "Kategorie auswählen (optional)",
     "templateForm.templateColor": "Vorlagenfarbe",
     "templateForm.templateIcon": "Vorlagen-Symbol",
     "templateForm.templateName": "Vorlagenname",
     "templateForm.uploadIcon": "Symbol hochladen",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }

@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "Tidak / False",
     "valueSource.booleanTrue": "Ya / True",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "Ubah sumber nilai",
     "valueSource.defaultPlaceholder": "Masukkan nilai...",
     "valueSource.expressionHint": "Tersedia: steps.{id}.result, ui.{field}, env.{var}",

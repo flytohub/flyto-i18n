@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "Không / Sai",
     "valueSource.booleanTrue": "Có / Đúng",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "Thay đổi nguồn giá trị",
     "valueSource.defaultPlaceholder": "Nhập giá trị...",
     "valueSource.expressionHint": "Có sẵn: steps.{id}.result, ui.{field}, env.{var}",

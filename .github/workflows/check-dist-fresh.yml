@@ -6,6 +6,9 @@ name: Check dist freshness
 # Forcing the contributor to rebuild locally keeps the dist consistent
 # at every commit.
 
+permissions:
+  contents: read
+
 on:
   pull_request:
     branches: [main]

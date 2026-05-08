@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "Chỉnh sửa mẫu",
     "templateForm.iconUploadError": "Không thể tải lên biểu tượng. Vui lòng thử lại.",
     "templateForm.namePlaceholder": "Tự động hóa tuyệt vời của tôi",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "Chọn danh mục (tùy chọn)",
     "templateForm.templateColor": "Màu mẫu",
     "templateForm.templateIcon": "Biểu tượng mẫu",
     "templateForm.templateName": "Tên mẫu",
     "templateForm.uploadIcon": "Tải lên biểu tượng",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }

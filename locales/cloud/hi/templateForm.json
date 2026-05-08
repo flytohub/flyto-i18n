@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "टेम्पलेट संपादित करें",
     "templateForm.iconUploadError": "आइकन अपलोड करने में विफल। कृपया पुनः प्रयास करें।",
     "templateForm.namePlaceholder": "मेरा शानदार ऑटोमेशन",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "श्रेणी चुनें (वैकल्पिक)",
     "templateForm.templateColor": "टेम्पलेट का रंग",
     "templateForm.templateIcon": "टेम्पलेट आइकन",
     "templateForm.templateName": "टेम्पलेट नाम",
     "templateForm.uploadIcon": "आइकन अपलोड करें",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }

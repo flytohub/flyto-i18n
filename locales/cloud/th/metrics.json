@@ -8,7 +8,7 @@
     "metrics.chart.noData": "ไม่มีข้อมูล",
     "metrics.chart.successful": "สำเร็จ",
     "metrics.chart.title": "แนวโน้มการดำเนินการ",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "ไม่มีความล้มเหลวล่าสุด",
     "metrics.recentFailures.title": "ความล้มเหลวล่าสุด",
     "metrics.stats.avgDuration": "ระยะเวลาเฉลี่ย",

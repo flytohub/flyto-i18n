@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "{count} modeles trouves",
     "marketplace.title": "Place de marche",
     "marketplace.updateListing": "Mettre à jour",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "Verifie"
   }
 }

@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "No / Falso",
     "valueSource.booleanTrue": "Si / Verdadero",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "Cambiar fuente de valor",
     "valueSource.defaultPlaceholder": "Ingresa valor...",
     "valueSource.expressionHint": "Disponible: steps.{id}.result, ui.{field}, env.{var}",

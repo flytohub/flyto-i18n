@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "Modifier le modele",
     "templateForm.iconUploadError": "Echec du telechargement de l'icone. Veuillez reessayer.",
     "templateForm.namePlaceholder": "Mon automatisation geniale",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "Selectionnez une categorie (optionnel)",
     "templateForm.templateColor": "Couleur du modèle",
     "templateForm.templateIcon": "Icone du modele",
     "templateForm.templateName": "Nom du modele",
     "templateForm.uploadIcon": "Telecharger une icone",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }

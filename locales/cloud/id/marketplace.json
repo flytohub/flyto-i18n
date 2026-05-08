@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "{count} template ditemukan",
     "marketplace.title": "Marketplace",
     "marketplace.updateListing": "Perbarui",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "Terverifikasi"
   }
 }

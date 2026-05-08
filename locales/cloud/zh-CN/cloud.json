@@ -4,7 +4,7 @@
   "category": "cloud.cloud",
   "version": "1.0.0",
   "translations": {
-    "cloud.status.title": "",
-    "cloud.template.createSuccess": ""
+    "cloud.status.title": "Title",
+    "cloud.template.createSuccess": "Template created successfully"
   }
 }

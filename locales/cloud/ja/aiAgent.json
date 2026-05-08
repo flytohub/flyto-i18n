@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "入力から",
     "aiAgent.manual": "手動",
     "aiAgent.promptPath": "入力パス",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "変数を選択",
     "aiAgent.shellInfo": "シェル情報",
     "aiAgent.shellInfoDesc": "シェル環境と実行コンテキストを表示",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "タスク",
     "aiAgent.taskPlaceholder": "エージェントが達成すべきことを説明してください...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

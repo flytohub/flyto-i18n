@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "找到 {count} 个模板",
     "marketplace.title": "市场",
     "marketplace.updateListing": "更新",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "已验证"
   }
 }

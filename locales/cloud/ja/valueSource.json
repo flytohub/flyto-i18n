@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "いいえ / False",
     "valueSource.booleanTrue": "はい / True",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "値のソースを変更",
     "valueSource.defaultPlaceholder": "値を入力...",
     "valueSource.expressionHint": "使用可能: steps.{id}.result, ui.{field}, env.{var}",

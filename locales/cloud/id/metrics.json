@@ -8,7 +8,7 @@
     "metrics.chart.noData": "Tidak ada data tersedia",
     "metrics.chart.successful": "Berhasil",
     "metrics.chart.title": "Tren Eksekusi",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "Tidak ada kegagalan terbaru",
     "metrics.recentFailures.title": "Kegagalan Terbaru",
     "metrics.stats.avgDuration": "Durasi Rata-rata",

@@ -8,7 +8,7 @@
     "metrics.chart.noData": "데이터가 없습니다",
     "metrics.chart.successful": "성공",
     "metrics.chart.title": "실행 추이",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "최근 실패 없음",
     "metrics.recentFailures.title": "최근 실패",
     "metrics.stats.avgDuration": "평균 기간",

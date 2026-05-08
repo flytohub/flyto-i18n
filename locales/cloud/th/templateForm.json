@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "แก้ไขเทมเพลต",
     "templateForm.iconUploadError": "ไม่สามารถอัปโหลดไอคอนได้ กรุณาลองอีกครั้ง",
     "templateForm.namePlaceholder": "ระบบอัตโนมัติสุดเจ๋งของฉัน",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "เลือกหมวดหมู่ (ไม่บังคับ)",
     "templateForm.templateColor": "สีของเทมเพลต",
     "templateForm.templateIcon": "ไอคอนเทมเพลต",
     "templateForm.templateName": "ชื่อเทมเพลต",
     "templateForm.uploadIcon": "อัปโหลดไอคอน",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }

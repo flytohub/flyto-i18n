@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "Desde entrada",
     "aiAgent.manual": "Manual",
     "aiAgent.promptPath": "Ruta de entrada",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "Seleccionar variable",
     "aiAgent.shellInfo": "Información del shell",
     "aiAgent.shellInfoDesc": "Ver entorno de shell y contexto de ejecución",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "Tarea",
     "aiAgent.taskPlaceholder": "Describa lo que el agente debe lograr...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

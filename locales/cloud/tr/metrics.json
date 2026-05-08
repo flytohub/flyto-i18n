@@ -8,7 +8,7 @@
     "metrics.chart.noData": "Veri mevcut değil",
     "metrics.chart.successful": "Başarılı",
     "metrics.chart.title": "Çalıştırma Trendi",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "Son başarısızlık yok",
     "metrics.recentFailures.title": "Son Başarısızlıklar",
     "metrics.stats.avgDuration": "Ort. Süre",

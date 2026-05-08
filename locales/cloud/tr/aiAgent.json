@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "Girişten",
     "aiAgent.manual": "Manuel",
     "aiAgent.promptPath": "Giriş Yolu",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "Değişken seç",
     "aiAgent.shellInfo": "Kabuk Bilgisi",
     "aiAgent.shellInfoDesc": "Kabuk ortamını ve çalıştırma bağlamını görüntüle",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "Görev",
     "aiAgent.taskPlaceholder": "Ajanın ne yapması gerektiğini açıklayın...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

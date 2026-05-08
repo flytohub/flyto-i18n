@@ -8,7 +8,7 @@
     "metrics.chart.noData": "Không có dữ liệu",
     "metrics.chart.successful": "Thành công",
     "metrics.chart.title": "Xu hướng thực thi",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "Không có lỗi gần đây",
     "metrics.recentFailures.title": "Lỗi gần đây",
     "metrics.stats.avgDuration": "Thời lượng TB",

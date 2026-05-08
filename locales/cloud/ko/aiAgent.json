@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "입력에서",
     "aiAgent.manual": "수동",
     "aiAgent.promptPath": "입력 경로",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "변수 선택",
     "aiAgent.shellInfo": "셸 정보",
     "aiAgent.shellInfoDesc": "셸 환경 및 실행 컨텍스트 보기",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "작업",
     "aiAgent.taskPlaceholder": "에이전트가 수행해야 할 작업을 설명하세요...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "नहीं / False",
     "valueSource.booleanTrue": "हाँ / True",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "मान स्रोत बदलें",
     "valueSource.defaultPlaceholder": "मान दर्ज करें...",
     "valueSource.expressionHint": "उपलब्ध: steps.{id}.result, ui.{field}, env.{var}",

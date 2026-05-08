@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "इनपुट से",
     "aiAgent.manual": "मैनुअल",
     "aiAgent.promptPath": "इनपुट पाथ",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "वेरिएबल चुनें",
     "aiAgent.shellInfo": "शेल जानकारी",
     "aiAgent.shellInfoDesc": "शेल एनवायरनमेंट और एक्जीक्यूशन कॉन्टेक्स्ट देखें",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "टास्क",
     "aiAgent.taskPlaceholder": "बताएं कि एजेंट को क्या करना चाहिए...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

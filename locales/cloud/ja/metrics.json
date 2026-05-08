@@ -8,7 +8,7 @@
     "metrics.chart.noData": "データがありません",
     "metrics.chart.successful": "成功",
     "metrics.chart.title": "実行トレンド",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "最近の失敗はありません",
     "metrics.recentFailures.title": "最近の失敗",
     "metrics.stats.avgDuration": "平均時間",

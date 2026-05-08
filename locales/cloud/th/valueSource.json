@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "ไม่ / False",
     "valueSource.booleanTrue": "ใช่ / True",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "เปลี่ยนแหล่งค่า",
     "valueSource.defaultPlaceholder": "กรอกค่า...",
     "valueSource.expressionHint": "ใช้ได้: steps.{id}.result, ui.{field}, env.{var}",

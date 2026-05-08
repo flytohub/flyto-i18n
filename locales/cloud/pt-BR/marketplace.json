@@ -55,8 +55,8 @@
     "marketplace.templatesFound": "{count} templates encontrados",
     "marketplace.title": "Loja",
     "marketplace.updateListing": "Atualizar",
-    "marketplace.updateListingFailed": "",
-    "marketplace.updateListingSuccess": "",
+    "marketplace.updateListingFailed": "Update Listing Failed",
+    "marketplace.updateListingSuccess": "Update Listing Success",
     "marketplace.verified": "Verificado"
   }
 }

@@ -8,7 +8,7 @@
     "metrics.chart.noData": "Brak dostepnych danych",
     "metrics.chart.successful": "Udane",
     "metrics.chart.title": "Trend wykonan",
-    "metrics.recentFailures.copy": "",
+    "metrics.recentFailures.copy": "Copy",
     "metrics.recentFailures.noData": "Brak ostatnich niepowodzen",
     "metrics.recentFailures.title": "Ostatnie niepowodzenia",
     "metrics.stats.avgDuration": "Sredni czas",

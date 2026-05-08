@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "Nie / Falsz",
     "valueSource.booleanTrue": "Tak / Prawda",
-    "valueSource.browsePath": "",
+    "valueSource.browsePath": "Browse Path",
     "valueSource.changeSource": "Zmien zrodlo wartosci",
     "valueSource.defaultPlaceholder": "Wprowadz wartosc...",
     "valueSource.expressionHint": "Dostepne: steps.{id}.result, ui.{pole}, env.{zmienna}",

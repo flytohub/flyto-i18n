@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "从输入取得",
     "aiAgent.manual": "手动输入",
     "aiAgent.promptPath": "输入路径",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "选择变量",
     "aiAgent.shellInfo": "Shell 信息",
     "aiAgent.shellInfoDesc": "查看 Shell 环境和运行上下文",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "任务",
     "aiAgent.taskPlaceholder": "描述代理应该完成的任务...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

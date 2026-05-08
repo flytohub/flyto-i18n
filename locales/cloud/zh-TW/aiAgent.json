@@ -4,9 +4,9 @@
   "category": "cloud.aiAgent",
   "version": "1.0.0",
   "translations": {
-    "aiAgent.apiKey": "",
-    "aiAgent.apiKeyHint": "",
-    "aiAgent.apiKeyPlaceholder": "",
+    "aiAgent.apiKey": "Api Key",
+    "aiAgent.apiKeyHint": "Api Key Hint",
+    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
     "aiAgent.fromInput": "從輸入取得",
     "aiAgent.manual": "手動輸入",
     "aiAgent.promptPath": "輸入路徑",
@@ -15,10 +15,10 @@
     "aiAgent.selectVariable": "選擇變數",
     "aiAgent.shellInfo": "Shell 資訊",
     "aiAgent.shellInfoDesc": "檢視 Shell 環境和執行上下文",
-    "aiAgent.systemPrompt": "",
-    "aiAgent.systemPromptPlaceholder": "",
+    "aiAgent.systemPrompt": "System Prompt",
+    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "任務",
     "aiAgent.taskPlaceholder": "描述代理應該完成的任務...",
-    "aiAgent.temperature": ""
+    "aiAgent.temperature": "Temperature"
   }
 }

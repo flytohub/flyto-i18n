@@ -11,13 +11,13 @@
     "templateForm.editTemplate": "Şablonu Düzenle",
     "templateForm.iconUploadError": "Simge yüklenemedi. Lütfen tekrar deneyin.",
     "templateForm.namePlaceholder": "Harika Otomasyonum",
-    "templateForm.private": "",
-    "templateForm.public": "",
+    "templateForm.private": "Private",
+    "templateForm.public": "Public",
     "templateForm.selectCategory": "Bir kategori seçin (isteğe bağlı)",
     "templateForm.templateColor": "Şablon Rengi",
     "templateForm.templateIcon": "Şablon Simgesi",
     "templateForm.templateName": "Şablon Adı",
     "templateForm.uploadIcon": "Simge Yükle",
-    "templateForm.visibility": ""
+    "templateForm.visibility": "Visibility"
   }
 }
