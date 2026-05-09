@@ -1918,6 +1918,11 @@
     "code.reports.col.commit": "提交",
     "code.severity.medium": "中",
     "code.severity.moderate": "中等",
-    "code.severity.low": "低"
+    "code.severity.low": "低",
+    "code.reports.savedSuccess": "已儲存至元件庫",
+    "code.reports.deletedSuccess": "已刪除",
+    "code.reports.reportSaved": "報表已儲存",
+    "code.reports.reportDeleted": "報表已刪除",
+    "code.reports.saveError": "儲存失敗"
   }
 }

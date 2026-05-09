@@ -1918,6 +1918,11 @@
     "code.reports.col.commit": "Commit",
     "code.severity.medium": "MEDIUM",
     "code.severity.moderate": "MODERATE",
-    "code.severity.low": "LOW"
+    "code.severity.low": "LOW",
+    "code.reports.savedSuccess": "Saved to library",
+    "code.reports.deletedSuccess": "Deleted",
+    "code.reports.reportSaved": "Report saved",
+    "code.reports.reportDeleted": "Report deleted",
+    "code.reports.saveError": "Save failed"
   }
 }
