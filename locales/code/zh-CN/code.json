@@ -23,6 +23,8 @@
         "code.auth.register": "Register",
         "code.auth.rememberMe": "Remember me",
         "code.auth.signIn": "Sign in",
+        "code.auth.welcomeDescription": "AI 驱动的代码智能平台。安全扫描、架构分析与工程洞察 — 全在一个战情室。",
+        "code.auth.welcomeSubtitle": "Flyto2 Code",
         "code.auth.welcomeTo": "Welcome to",
         "code.autofix.actionCreatePreview": "创建预览",
         "code.autofix.actionRegenerate": "重新生成预览",

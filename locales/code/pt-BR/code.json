@@ -23,6 +23,8 @@
         "code.auth.register": "Register",
         "code.auth.rememberMe": "Remember me",
         "code.auth.signIn": "Sign in",
+        "code.auth.welcomeDescription": "Inteligência de código com IA. Varredura de segurança, análise de arquitetura e insights de engenharia em uma sala de guerra.",
+        "code.auth.welcomeSubtitle": "Flyto2 Code",
         "code.auth.welcomeTo": "Welcome to",
         "code.autofix.actionCreatePreview": "Criar pré-visualização",
         "code.autofix.actionRegenerate": "Regenerar pré-visualização",

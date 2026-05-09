@@ -23,6 +23,8 @@
         "code.auth.register": "Register",
         "code.auth.rememberMe": "Remember me",
         "code.auth.signIn": "Sign in",
+        "code.auth.welcomeDescription": "AI-संचालित कोडबेस इंटेलिजेंस। सुरक्षा स्कैनिंग, आर्किटेक्चर विश्लेषण और इंजीनियरिंग इनसाइट्स — सब एक वॉर रूम में।",
+        "code.auth.welcomeSubtitle": "Flyto2 Code",
         "code.auth.welcomeTo": "Welcome to",
         "code.autofix.actionCreatePreview": "पूर्वावलोकन बनाएं",
         "code.autofix.actionRegenerate": "पूर्वावलोकन पुनः उत्पन्न करें",

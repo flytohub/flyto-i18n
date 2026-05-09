@@ -23,6 +23,8 @@
         "code.auth.register": "Register",
         "code.auth.rememberMe": "Remember me",
         "code.auth.signIn": "Sign in",
+        "code.auth.welcomeDescription": "Inteligencia de código impulsada por IA. Escaneo de seguridad, análisis de arquitectura e insights de ingeniería en una sala de guerra.",
+        "code.auth.welcomeSubtitle": "Flyto2 Code",
         "code.auth.welcomeTo": "Welcome to",
         "code.autofix.actionCreatePreview": "Crear vista previa",
         "code.autofix.actionRegenerate": "Regenerar vista previa",

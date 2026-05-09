@@ -23,6 +23,8 @@
         "code.auth.register": "Register",
         "code.auth.rememberMe": "Remember me",
         "code.auth.signIn": "Sign in",
+        "code.auth.welcomeDescription": "AIによるコードベースインテリジェンス。セキュリティスキャン、アーキテクチャ分析、エンジニアリングインサイトを一画面で。",
+        "code.auth.welcomeSubtitle": "Flyto2 Code",
         "code.auth.welcomeTo": "Welcome to",
         "code.autofix.actionCreatePreview": "プレビュー作成",
         "code.autofix.actionRegenerate": "プレビューを再生成",

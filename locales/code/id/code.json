@@ -23,6 +23,8 @@
         "code.auth.register": "Register",
         "code.auth.rememberMe": "Remember me",
         "code.auth.signIn": "Sign in",
+        "code.auth.welcomeDescription": "Kecerdasan codebase berbasis AI. Pemindaian keamanan, analisis arsitektur, dan wawasan rekayasa — semua dalam satu ruang komando.",
+        "code.auth.welcomeSubtitle": "Flyto2 Code",
         "code.auth.welcomeTo": "Welcome to",
         "code.autofix.actionCreatePreview": "Buat Pratinjau",
         "code.autofix.actionRegenerate": "Regenerasi Pratinjau",
