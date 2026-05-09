@@ -1923,6 +1923,14 @@
     "code.reports.deletedSuccess": "已刪除",
     "code.reports.reportSaved": "報表已儲存",
     "code.reports.reportDeleted": "報表已刪除",
-    "code.reports.saveError": "儲存失敗"
+    "code.reports.saveError": "儲存失敗",
+    "code.reports.aiPolish": "AI 潤稿",
+    "code.reports.aiPolishing": "AI 潤稿中...",
+    "code.reports.clearAiPolish": "清除 AI",
+    "code.reports.aiPolishDone": "AI 潤稿已套用",
+    "code.reports.aiPolishError": "AI 潤稿失敗",
+    "code.reports.noWidgetsToPolish": "沒有可潤稿的元件",
+    "code.reports.executiveSummary": "執行摘要",
+    "code.reports.recommendations": "建議事項"
   }
 }

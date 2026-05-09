@@ -1923,6 +1923,14 @@
     "code.reports.deletedSuccess": "Deleted",
     "code.reports.reportSaved": "Report saved",
     "code.reports.reportDeleted": "Report deleted",
-    "code.reports.saveError": "Save failed"
+    "code.reports.saveError": "Save failed",
+    "code.reports.aiPolish": "AI Polish",
+    "code.reports.aiPolishing": "AI Polishing...",
+    "code.reports.clearAiPolish": "Clear AI",
+    "code.reports.aiPolishDone": "AI polish applied",
+    "code.reports.aiPolishError": "AI polish failed",
+    "code.reports.noWidgetsToPolish": "No widgets to polish",
+    "code.reports.executiveSummary": "Executive Summary",
+    "code.reports.recommendations": "Recommendations"
   }
 }
