@@ -2017,6 +2017,11 @@
     "code.reports.col.taint_flows_delta": "汙點流變化",
     "code.reports.col.repos_compared": "比較儲存庫數",
     "code.reports.col.summary": "摘要",
-    "code.reports.col.generated_at": "生成時間"
+    "code.reports.col.generated_at": "生成時間",
+
+    "code.reports.proPdf": "專業 PDF",
+    "code.reports.generatingPro": "產生中...",
+    "code.reports.proReportGenerated": "專業報表已產生",
+    "code.reports.proReportError": "專業報表產生失敗"
   }
 }

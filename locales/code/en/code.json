@@ -2017,6 +2017,11 @@
     "code.reports.col.taint_flows_delta": "Taint Delta",
     "code.reports.col.repos_compared": "Repos Compared",
     "code.reports.col.summary": "Summary",
-    "code.reports.col.generated_at": "Generated"
+    "code.reports.col.generated_at": "Generated",
+
+    "code.reports.proPdf": "Pro PDF",
+    "code.reports.generatingPro": "Generating...",
+    "code.reports.proReportGenerated": "Pro report generated",
+    "code.reports.proReportError": "Pro report generation failed"
   }
 }
