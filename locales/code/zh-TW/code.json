@@ -2047,6 +2047,11 @@
     "code.reports.previewTimeout": "報表載入超時，請重試",
     "code.reports.emptyReportError": "請至少新增一個元件再儲存",
     "code.reports.nameRequired": "請輸入報表名稱",
-    "code.reports.confirmDelete": "確定刪除此報表？此操作無法復原。"
+    "code.reports.confirmDelete": "確定刪除此報表？此操作無法復原。",
+
+    "code.pulse.actionItems": "行動項目",
+    "code.pulse.affected": "受影響",
+    "code.scoring.advisoryOnly": "僅供參考 — 不影響評級",
+    "code.scoring.viewDetails": "查看詳情"
   }
 }

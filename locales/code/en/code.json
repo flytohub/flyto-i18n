@@ -2047,6 +2047,11 @@
     "code.reports.previewTimeout": "Report took too long to load. Try again.",
     "code.reports.emptyReportError": "Add at least one widget before saving",
     "code.reports.nameRequired": "Report name is required",
-    "code.reports.confirmDelete": "Delete this report? This cannot be undone."
+    "code.reports.confirmDelete": "Delete this report? This cannot be undone.",
+
+    "code.pulse.actionItems": "Action Items",
+    "code.pulse.affected": "affected",
+    "code.scoring.advisoryOnly": "Advisory — does not impact rating",
+    "code.scoring.viewDetails": "View Details"
   }
 }
