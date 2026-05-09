@@ -2022,6 +2022,20 @@
     "code.reports.proPdf": "專業 PDF",
     "code.reports.generatingPro": "產生中...",
     "code.reports.proReportGenerated": "專業報表已產生",
-    "code.reports.proReportError": "專業報表產生失敗"
+    "code.reports.proReportError": "專業報表產生失敗",
+
+    "code.studio.briefing": "簡報",
+    "code.studio.hotFindings": "重要發現",
+    "code.studio.quickActions": "快速操作",
+    "code.studio.autofixReady": "自動修復就緒",
+    "code.studio.noActions": "目前無可用操作",
+    "code.studio.noRecommendations": "尚無 AI 建議",
+    "code.studio.noFixPlan": "尚無修復計畫 — 請先執行掃描",
+    "code.studio.noFindings": "未偵測到嚴重問題",
+    "code.studio.selectOrg": "選擇一個組織以開始",
+    "code.studio.copyAiPrompt": "複製 AI 修復提示",
+    "code.studio.aiProposals": "AI 建議",
+    "code.studio.totalEffort": "{n} 小時工作量",
+    "code.studio.week1": "第一週"
   }
 }

@@ -2022,6 +2022,20 @@
     "code.reports.proPdf": "Pro PDF",
     "code.reports.generatingPro": "Generating...",
     "code.reports.proReportGenerated": "Pro report generated",
-    "code.reports.proReportError": "Pro report generation failed"
+    "code.reports.proReportError": "Pro report generation failed",
+
+    "code.studio.briefing": "Briefing",
+    "code.studio.hotFindings": "Hot Findings",
+    "code.studio.quickActions": "Quick Actions",
+    "code.studio.autofixReady": "AutoFix ready",
+    "code.studio.noActions": "No quick actions available",
+    "code.studio.noRecommendations": "No AI recommendations yet",
+    "code.studio.noFixPlan": "No fix plan available — run a scan first",
+    "code.studio.noFindings": "No critical findings detected",
+    "code.studio.selectOrg": "Select an organization to begin",
+    "code.studio.copyAiPrompt": "Copy AI Fix Prompt",
+    "code.studio.aiProposals": "AI proposals",
+    "code.studio.totalEffort": "{n}h effort",
+    "code.studio.week1": "Week 1"
   }
 }
