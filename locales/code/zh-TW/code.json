@@ -2042,6 +2042,11 @@
     "code.settings.scanLog.complete": "完成",
     "code.settings.scanLog.failed": "失敗",
     "code.settings.scanLog.total": "總計",
-    "code.settings.scanLog.empty": "尚無掃描紀錄"
+    "code.settings.scanLog.empty": "尚無掃描紀錄",
+
+    "code.reports.previewTimeout": "報表載入超時，請重試",
+    "code.reports.emptyReportError": "請至少新增一個元件再儲存",
+    "code.reports.nameRequired": "請輸入報表名稱",
+    "code.reports.confirmDelete": "確定刪除此報表？此操作無法復原。"
   }
 }

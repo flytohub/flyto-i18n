@@ -2042,6 +2042,11 @@
     "code.settings.scanLog.complete": "complete",
     "code.settings.scanLog.failed": "failed",
     "code.settings.scanLog.total": "total",
-    "code.settings.scanLog.empty": "No scan history yet"
+    "code.settings.scanLog.empty": "No scan history yet",
+
+    "code.reports.previewTimeout": "Report took too long to load. Try again.",
+    "code.reports.emptyReportError": "Add at least one widget before saving",
+    "code.reports.nameRequired": "Report name is required",
+    "code.reports.confirmDelete": "Delete this report? This cannot be undone."
   }
 }
