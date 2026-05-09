@@ -2036,6 +2036,12 @@
     "code.studio.copyAiPrompt": "複製 AI 修復提示",
     "code.studio.aiProposals": "AI 建議",
     "code.studio.totalEffort": "{n} 小時工作量",
-    "code.studio.week1": "第一週"
+    "code.studio.week1": "第一週",
+
+    "code.settings.tab.scanLog": "掃描日誌",
+    "code.settings.scanLog.complete": "完成",
+    "code.settings.scanLog.failed": "失敗",
+    "code.settings.scanLog.total": "總計",
+    "code.settings.scanLog.empty": "尚無掃描紀錄"
   }
 }

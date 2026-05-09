@@ -2036,6 +2036,12 @@
     "code.studio.copyAiPrompt": "Copy AI Fix Prompt",
     "code.studio.aiProposals": "AI proposals",
     "code.studio.totalEffort": "{n}h effort",
-    "code.studio.week1": "Week 1"
+    "code.studio.week1": "Week 1",
+
+    "code.settings.tab.scanLog": "Scan Log",
+    "code.settings.scanLog.complete": "complete",
+    "code.settings.scanLog.failed": "failed",
+    "code.settings.scanLog.total": "total",
+    "code.settings.scanLog.empty": "No scan history yet"
   }
 }
