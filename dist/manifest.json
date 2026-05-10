@@ -1,6 +1,6 @@
 {
-  "version": "20260510125539",
-  "generated_at": "2026-05-10T12:55:39.834481",
+  "version": "20260510130341",
+  "generated_at": "2026-05-10T13:03:41.933217",
   "locales": {
     "de": {
       "name": "German",
@@ -15,8 +15,8 @@
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 14549,
-      "translated_keys": 14931,
+      "total_keys": 14556,
+      "translated_keys": 14938,
       "completion": 102.6,
       "files_merged": 281
     },
@@ -141,8 +141,8 @@
       "name": "Traditional Chinese",
       "native": "繁體中文",
       "region": "TW",
-      "total_keys": 14549,
-      "translated_keys": 14931,
+      "total_keys": 14556,
+      "translated_keys": 14938,
       "completion": 102.6,
       "files_merged": 281
     }
