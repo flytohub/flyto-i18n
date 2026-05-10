@@ -2,5 +2,354 @@
   "locale": "en",
   "category": "console",
   "version": "1.0.0",
-  "translations": {}
+  "translations": {
+    "console": {
+      "common": {
+        "loading": "Loading...",
+        "saving": "Saving...",
+        "saved": "Saved",
+        "save": "Save",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "delete": "Delete",
+        "confirm": "Confirm",
+        "error": "An error occurred",
+        "close": "Close",
+        "noCompanySelected": "No company selected. Select a company from the switcher above."
+      },
+      "auth": {
+        "signInTitle": "Sign in",
+        "signUpTitle": "Create account",
+        "signInDesc": "Sign in to your Flyto account.",
+        "signUpDesc": "Create a new Flyto account.",
+        "name": "Name",
+        "email": "Email",
+        "password": "Password",
+        "signIn": "Sign in",
+        "signUp": "Sign up",
+        "working": "Working...",
+        "fillFields": "Please fill in all fields.",
+        "noAccount": "Don't have an account?",
+        "hasAccount": "Already have an account?",
+        "createOne": "Create one"
+      },
+      "settings": {
+        "title": "Settings",
+        "accessDenied": {
+          "title": "Access Denied",
+          "description": "You do not have the required permissions to view this page.",
+          "backToDashboard": "Back to dashboard",
+          "instanceAdminTitle": "Instance Admin Required",
+          "instanceAdminDescription": "This page is restricted to instance administrators.",
+          "companyAdminTitle": "Admin Access Required",
+          "companyAdminDescription": "This page is restricted to company administrators and owners."
+        },
+        "company": {
+          "title": "Company Settings",
+          "sidebar": {
+            "backToCompany": "Back to company",
+            "title": "Company Settings",
+            "general": "General",
+            "access": "Access",
+            "invites": "Invites"
+          },
+          "general": {
+            "title": "General",
+            "companyName": "Company name",
+            "companyNameHint": "The display name for your company.",
+            "description": "Description",
+            "descriptionHint": "Optional description shown in the company profile.",
+            "descriptionPlaceholder": "Optional company description"
+          },
+          "appearance": {
+            "title": "Appearance",
+            "logo": "Logo",
+            "logoHint": "Upload a PNG, JPEG, WEBP, GIF, or SVG logo image.",
+            "removeLogo": "Remove logo",
+            "removing": "Removing...",
+            "uploadingLogo": "Uploading logo...",
+            "logoUploadFailed": "Logo upload failed",
+            "brandColor": "Brand color",
+            "brandColorHint": "Sets the hue for the company icon. Leave empty for auto-generated color.",
+            "brandColorPlaceholder": "Auto",
+            "clearColor": "Clear"
+          },
+          "saveChanges": "Save changes",
+          "hiring": {
+            "title": "Hiring",
+            "requireApproval": "Require board approval for new hires",
+            "requireApprovalHint": "New agent hires stay pending until approved by board."
+          },
+          "feedbackSharing": {
+            "title": "Feedback Sharing",
+            "toggle": "Allow sharing voted AI outputs with Flyto Labs",
+            "toggleHint": "Only AI-generated outputs you explicitly vote on are eligible for feedback sharing.",
+            "description": "Votes are always saved locally. This setting controls whether voted AI outputs may also be marked for sharing with Flyto Labs.",
+            "termsVersion": "Terms version",
+            "enabled": "Feedback sharing enabled",
+            "disabled": "Feedback sharing disabled",
+            "enabledAt": "Enabled {date}",
+            "enabledBy": " by {userId}",
+            "currentlyDisabled": "Sharing is currently disabled.",
+            "readTerms": "Read our terms of service",
+            "updateFailed": "Failed to update feedback sharing"
+          },
+          "invites": {
+            "title": "Invites",
+            "generateHint": "Generate an OpenClaw agent invite snippet.",
+            "hintTooltip": "Creates a short-lived OpenClaw agent invite and renders a copy-ready prompt.",
+            "generateButton": "Generate OpenClaw Invite Prompt",
+            "generating": "Generating...",
+            "snippetTitle": "OpenClaw Invite Prompt",
+            "copied": "Copied",
+            "copySnippet": "Copy snippet",
+            "copiedSnippet": "Copied snippet"
+          },
+          "packages": {
+            "title": "Company Packages",
+            "description": "Import and export have moved to dedicated pages accessible from the Org Chart header.",
+            "export": "Export",
+            "import": "Import"
+          },
+          "dangerZone": {
+            "title": "Danger Zone",
+            "archiveDescription": "Archive this company to hide it from the sidebar. This persists in the database.",
+            "archiveButton": "Archive company",
+            "archiving": "Archiving...",
+            "alreadyArchived": "Already archived",
+            "archiveConfirm": "Archive company \"{name}\"? It will be hidden from the sidebar.",
+            "archiveFailed": "Failed to archive company"
+          }
+        },
+        "access": {
+          "title": "Company Access",
+          "description": "Manage company user memberships, membership status, and explicit permission grants for {companyName}.",
+          "instanceAdminNotice": "This account can manage access here through instance-admin privileges, but it does not currently hold an active company membership.",
+          "noPermission": "You do not have permission to manage company members.",
+          "loadFailed": "Failed to load company members.",
+          "selectCompany": "Select a company to manage access.",
+          "loadingAccess": "Loading company access...",
+          "humans": {
+            "title": "Humans",
+            "description": "Manage human company memberships, status, and grants here.",
+            "noMembers": "No user memberships found for this company yet."
+          },
+          "joinRequests": {
+            "title": "Pending human joins",
+            "description": "Review human join requests before they become active company members.",
+            "pending": "{count} pending",
+            "approveHuman": "Approve human",
+            "rejectHuman": "Reject human",
+            "submitted": "Submitted {date}",
+            "approved": "Join request approved",
+            "rejected": "Join request rejected",
+            "approveFailed": "Failed to approve join request",
+            "rejectFailed": "Failed to reject join request"
+          },
+          "table": {
+            "userAccount": "User account",
+            "role": "Role",
+            "status": "Status",
+            "grants": "Grants",
+            "action": "Action",
+            "noExplicitGrants": "No explicit grants",
+            "unsetRole": "Unset"
+          },
+          "editMember": {
+            "title": "Edit member",
+            "description": "Update company role, membership status, and explicit grants for {memberName}.",
+            "companyRole": "Company role",
+            "membershipStatus": "Membership status",
+            "statusActive": "Active",
+            "statusPending": "Pending",
+            "statusSuspended": "Suspended",
+            "grants": "Grants",
+            "grantsDescription": "Roles provide implicit grants automatically. Explicit grants below are only for overrides and extra access that should persist even if the role changes.",
+            "implicitGrants": "Implicit grants from role",
+            "implicitGrantsWithRole": "{role} currently includes these permissions automatically.",
+            "implicitGrantsNoRole": "No role is selected, so this member has no implicit grants right now.",
+            "explicitGrantNote": "Stored explicitly for this member.",
+            "implicitIncludedNote": "Included implicitly by the {role} role. Add an explicit grant only if it should stay after the role changes.",
+            "saveAccess": "Save access",
+            "savingAccess": "Saving...",
+            "memberUpdated": "Member updated",
+            "updateFailed": "Failed to update member"
+          },
+          "permissions": {
+            "agents:create": "Create agents",
+            "users:invite": "Invite humans and agents",
+            "users:manage_permissions": "Manage members and grants",
+            "tasks:assign": "Assign tasks",
+            "tasks:assign_scope": "Assign scoped tasks",
+            "joins:approve": "Approve join requests"
+          }
+        },
+        "instance": {
+          "title": "Instance Settings",
+          "comingSoon": "This feature is under development and will be available in a future release.",
+          "general": {
+            "title": "General",
+            "description": "Configure instance-wide defaults that affect how operator-visible logs are displayed.",
+            "deployment": {
+              "title": "Deployment and auth",
+              "localTrusted": "Local trusted mode is optimized for a local operator. Browser requests run as local board context and no sign-in is required.",
+              "authenticatedPublic": "Authenticated public mode requires sign-in for board access and is intended for public URLs.",
+              "authenticatedPrivate": "Authenticated private mode requires sign-in and is intended for LAN, VPN, or other private-network deployments.",
+              "authReadiness": "Auth readiness",
+              "ready": "Ready",
+              "notReady": "Not ready",
+              "bootstrapStatus": "Bootstrap status",
+              "setupRequired": "Setup required",
+              "bootstrapInvite": "Bootstrap invite",
+              "active": "Active",
+              "none": "None"
+            },
+            "censorUsername": {
+              "title": "Censor username in logs",
+              "description": "Hide the username segment in home-directory paths and similar operator-visible log output. Standalone username mentions outside of paths are not yet masked in the live transcript view. This is off by default."
+            },
+            "keyboardShortcuts": {
+              "title": "Keyboard shortcuts",
+              "description": "Enable app keyboard shortcuts, including inbox navigation and global shortcuts like creating issues or toggling panels. This is off by default."
+            },
+            "backupRetention": {
+              "title": "Backup retention",
+              "description": "Configure how long to keep automatic database backups at each tier. Daily backups are kept in full, then thinned to one per week and one per month. Backups are compressed with gzip.",
+              "daily": "Daily",
+              "weekly": "Weekly",
+              "monthly": "Monthly",
+              "days": "{count} days",
+              "week": "1 week",
+              "weeks": "{count} weeks",
+              "month": "1 month",
+              "months": "{count} months"
+            },
+            "feedbackSharing": {
+              "title": "AI feedback sharing",
+              "description": "Control whether thumbs up and thumbs down votes can send the voted AI output to Flyto Labs. Votes are always saved locally.",
+              "readTerms": "Read our terms of service",
+              "noDefault": "No default is saved yet. The next thumbs up or thumbs down choice will ask once and then save the answer here.",
+              "alwaysAllow": "Always allow",
+              "alwaysAllowDesc": "Share voted AI outputs automatically.",
+              "dontAllow": "Don't allow",
+              "dontAllowDesc": "Keep voted AI outputs local only.",
+              "devHint": "To retest the first-use prompt in local dev, remove the feedbackDataSharingPreference key from the instance_settings.general JSON row for this instance, or set it back to \"prompt\". Unset and \"prompt\" both mean no default has been chosen yet."
+            },
+            "signOut": {
+              "title": "Sign out",
+              "description": "Sign out of this Flyto instance. You will be redirected to the login page.",
+              "button": "Sign out",
+              "signingOut": "Signing out..."
+            }
+          },
+          "heartbeats": {
+            "title": "Scheduler Heartbeats",
+            "description": "Agents with a timer heartbeat enabled across all of your companies.",
+            "active": "active",
+            "disabled": "disabled",
+            "company": "company",
+            "companies": "companies",
+            "disableAll": "Disable All",
+            "disabling": "Disabling...",
+            "disableConfirm": "Disable timer heartbeats for all {count} enabled {noun}?",
+            "enableTimer": "Enable Timer Heartbeat",
+            "disableTimer": "Disable Timer Heartbeat",
+            "never": "never",
+            "noHeartbeats": "No scheduler heartbeats match the current criteria.",
+            "loadingHeartbeats": "Loading scheduler heartbeats...",
+            "updateFailed": "Failed to update heartbeat.",
+            "disableAllFailed": "Failed to disable all heartbeats."
+          },
+          "sidebar": {
+            "title": "Instance Settings",
+            "profile": "Profile",
+            "general": "General",
+            "access": "Access",
+            "heartbeats": "Heartbeats",
+            "experimental": "Experimental",
+            "plugins": "Plugins",
+            "adapters": "Adapters"
+          }
+        },
+        "profile": {
+          "title": "Profile",
+          "description": "Control how your account appears in the sidebar and other board surfaces.",
+          "displayName": "Display name",
+          "displayNameHint": "Shown in the sidebar account footer and comment author surfaces.",
+          "displayNamePlaceholder": "Board",
+          "email": "Email",
+          "emailHint": "Email is managed by your auth session and is read-only here.",
+          "noEmail": "No email",
+          "changePhoto": "Change photo",
+          "uploadPhoto": "Upload photo",
+          "removePhoto": "Remove",
+          "saveProfile": "Save profile",
+          "savingProfile": "Saving...",
+          "uploadHintWithCompany": "Stored in Flyto file storage for {companyName}.",
+          "uploadHintNoCompany": "Select a company to upload an avatar into Flyto storage.",
+          "uploadFailed": "Failed to upload avatar.",
+          "removeFailed": "Failed to remove avatar.",
+          "updateFailed": "Failed to update profile.",
+          "loadFailed": "Failed to load profile.",
+          "loadingProfile": "Loading profile...",
+          "selectCompanyForUpload": "Select a company before uploading a profile avatar."
+        },
+        "plugins": {
+          "title": "Plugins",
+          "installed": "Installed Plugins",
+          "available": "Available Plugins",
+          "install": "Install",
+          "uninstall": "Uninstall",
+          "uninstalling": "Uninstalling...",
+          "enable": "Enable",
+          "disable": "Disable",
+          "settings": "Settings",
+          "configure": "Configure",
+          "installing": "Installing...",
+          "noPlugins": "No plugins installed",
+          "noPluginsHint": "Install a plugin to extend functionality.",
+          "noDescription": "No description provided.",
+          "notInstalled": "Not installed",
+          "noExamples": "No bundled example plugins were found in this checkout.",
+          "loadFailed": "Failed to load plugins.",
+          "alphaWarning": "Plugins are alpha.",
+          "alphaDescription": "The plugin runtime and API surface are still changing. Expect breaking changes while this feature settles.",
+          "example": "Example",
+          "examples": "Examples",
+          "openSettings": "Open Settings",
+          "review": "Review",
+          "installExample": "Install Example",
+          "pluginError": "Plugin error",
+          "viewFullError": "View full error",
+          "pluginDetails": "Plugin Details",
+          "installSuccess": "Plugin installed successfully",
+          "installFailed": "Failed to install plugin",
+          "uninstallSuccess": "Plugin uninstalled successfully",
+          "uninstallFailed": "Failed to uninstall plugin",
+          "enableSuccess": "Plugin enabled",
+          "enableFailed": "Failed to enable plugin",
+          "disableSuccess": "Plugin disabled",
+          "disableFailed": "Failed to disable plugin",
+          "installDialog": {
+            "title": "Install Plugin",
+            "description": "Enter the npm package name of the plugin you wish to install.",
+            "packageName": "npm package name",
+            "placeholder": "e.g. @flyto/plugin-example"
+          },
+          "uninstallDialog": {
+            "title": "Uninstall Plugin",
+            "description": "Are you sure you want to uninstall this plugin? This action cannot be undone."
+          },
+          "errorDetails": {
+            "title": "Error Details",
+            "description": "hit an error state.",
+            "whatErrored": "What errored",
+            "noSummary": "No error summary available.",
+            "fullOutput": "Full error output",
+            "noMessage": "No stored error message."
+          }
+        }
+      }
+    }
+  }
 }
