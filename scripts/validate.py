@@ -23,7 +23,7 @@ LOCALES_DIR = PROJECT_ROOT / 'locales'
 SCHEMA_DIR = PROJECT_ROOT / 'schema'
 
 # All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
 
 
 def load_schema() -> Dict:
