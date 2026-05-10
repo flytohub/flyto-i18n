@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Nieprawidłowe żądanie",
+    "engine.error.conflict": "Zasób już istnieje",
+    "engine.error.forbidden": "Odmowa dostępu",
+    "engine.error.internal": "Błąd wewnętrzny",
+    "engine.error.internal.internal_error": "Błąd wewnętrzny",
+    "engine.error.not_found": "Zasób nie został znaleziony",
+    "engine.error.not_found.project_not_found": "Nie znaleziono projektu",
+    "engine.error.not_found.repo_not_found": "Nie znaleziono repozytorium",
+    "engine.error.transient": "Usługa tymczasowo niedostępna, spróbuj ponownie później",
+    "engine.error.unauthorized": "Wymagane uwierzytelnienie",
+    "engine.error.upstream_unavailable": "Usługa upstream nieosiągalna, spróbuj ponownie później"
+  }
+}

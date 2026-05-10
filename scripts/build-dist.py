@@ -62,6 +62,10 @@ SCOPES = {
         ('data', None, 'data'),
         ('shared', None, 'common'),
     ],
+    'engine': [
+        ('engine', None, 'engine'),
+        ('shared', None, 'common'),
+    ],
 }
 
 # Language metadata - add new languages here when adding locales
@@ -91,7 +95,7 @@ LANGUAGE_META = {
 }
 
 # All project directories under locales/
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
 
 
 def get_locales() -> list:

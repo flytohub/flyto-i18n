@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Permintaan tidak valid",
+    "engine.error.conflict": "Sumber daya sudah ada",
+    "engine.error.forbidden": "Akses ditolak",
+    "engine.error.internal": "Kesalahan internal",
+    "engine.error.internal.internal_error": "Kesalahan internal",
+    "engine.error.not_found": "Sumber daya tidak ditemukan",
+    "engine.error.not_found.project_not_found": "Proyek tidak ditemukan",
+    "engine.error.not_found.repo_not_found": "Repositori tidak ditemukan",
+    "engine.error.transient": "Layanan sementara tidak tersedia, silakan coba lagi nanti",
+    "engine.error.unauthorized": "Autentikasi diperlukan",
+    "engine.error.upstream_unavailable": "Layanan upstream tidak dapat dijangkau, silakan coba lagi nanti"
+  }
+}

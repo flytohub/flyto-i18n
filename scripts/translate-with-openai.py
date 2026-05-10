@@ -34,7 +34,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 
 # All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
+PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
 
 # Batch size for API calls (too large may hit token limits)
 BATCH_SIZE = 50

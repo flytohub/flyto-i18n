@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Richiesta non valida",
+    "engine.error.conflict": "La risorsa esiste già",
+    "engine.error.forbidden": "Accesso negato",
+    "engine.error.forbidden.admin_or_owner_role_required": "Ruolo di amministratore o proprietario richiesto",
+    "engine.error.internal": "Errore interno",
+    "engine.error.internal.internal_error": "Errore interno",
+    "engine.error.not_found": "Risorsa non trovata",
+    "engine.error.not_found.project_not_found": "Progetto non trovato",
+    "engine.error.not_found.repo_not_found": "Repository non trovato",
+    "engine.error.transient": "Servizio temporaneamente non disponibile, riprovare più tardi",
+    "engine.error.unauthorized": "Autenticazione richiesta",
+    "engine.error.upstream_unavailable": "Servizio upstream non raggiungibile, riprovare più tardi"
+  }
+}

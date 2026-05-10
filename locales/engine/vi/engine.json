@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Yêu cầu không hợp lệ",
+    "engine.error.conflict": "Tài nguyên đã tồn tại",
+    "engine.error.forbidden": "Truy cập bị từ chối",
+    "engine.error.internal": "Lỗi nội bộ",
+    "engine.error.internal.internal_error": "Lỗi nội bộ",
+    "engine.error.not_found": "Không tìm thấy tài nguyên",
+    "engine.error.not_found.project_not_found": "Không tìm thấy dự án",
+    "engine.error.not_found.repo_not_found": "Không tìm thấy kho lưu trữ",
+    "engine.error.transient": "Dịch vụ tạm thời không khả dụng, vui lòng thử lại sau",
+    "engine.error.unauthorized": "Cần xác thực",
+    "engine.error.upstream_unavailable": "Dịch vụ upstream không thể kết nối, vui lòng thử lại sau"
+  }
+}

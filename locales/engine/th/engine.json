@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "คำขอไม่ถูกต้อง",
+    "engine.error.conflict": "ทรัพยากรมีอยู่แล้ว",
+    "engine.error.forbidden": "การเข้าถึงถูกปฏิเสธ",
+    "engine.error.internal": "ข้อผิดพลาดภายใน",
+    "engine.error.internal.internal_error": "ข้อผิดพลาดภายใน",
+    "engine.error.not_found": "ไม่พบทรัพยากร",
+    "engine.error.not_found.project_not_found": "ไม่พบโปรเจกต์",
+    "engine.error.not_found.repo_not_found": "ไม่พบที่เก็บโค้ด",
+    "engine.error.transient": "บริการไม่พร้อมใช้งานชั่วคราว กรุณาลองใหม่ภายหลัง",
+    "engine.error.unauthorized": "ต้องการการยืนยันตัวตน",
+    "engine.error.upstream_unavailable": "ไม่สามารถเชื่อมต่อบริการต้นทางได้ กรุณาลองใหม่ภายหลัง"
+  }
+}

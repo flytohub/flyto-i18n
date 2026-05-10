@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "अमान्य अनुरोध",
+    "engine.error.conflict": "संसाधन पहले से मौजूद है",
+    "engine.error.forbidden": "पहुँच अस्वीकृत",
+    "engine.error.internal": "आंतरिक त्रुटि",
+    "engine.error.internal.internal_error": "आंतरिक त्रुटि",
+    "engine.error.not_found": "संसाधन नहीं मिला",
+    "engine.error.not_found.project_not_found": "प्रोजेक्ट नहीं मिला",
+    "engine.error.not_found.repo_not_found": "रिपॉजिटरी नहीं मिली",
+    "engine.error.transient": "सेवा अस्थायी रूप से अनुपलब्ध है, कृपया बाद में पुनः प्रयास करें",
+    "engine.error.unauthorized": "प्रमाणीकरण आवश्यक है",
+    "engine.error.upstream_unavailable": "अपस्ट्रीम सेवा से कनेक्ट नहीं हो सकता, कृपया बाद में पुनः प्रयास करें"
+  }
+}

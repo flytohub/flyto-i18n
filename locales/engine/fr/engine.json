@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Requête invalide",
+    "engine.error.conflict": "La ressource existe déjà",
+    "engine.error.forbidden": "Accès refusé",
+    "engine.error.forbidden.admin_or_owner_role_required": "Rôle administrateur ou propriétaire requis",
+    "engine.error.internal": "Erreur interne",
+    "engine.error.internal.internal_error": "Erreur interne",
+    "engine.error.not_found": "Ressource introuvable",
+    "engine.error.not_found.project_not_found": "Projet introuvable",
+    "engine.error.not_found.repo_not_found": "Dépôt introuvable",
+    "engine.error.not_found.workspace_not_found": "Espace de travail introuvable",
+    "engine.error.too_large": "Requête trop volumineuse",
+    "engine.error.transient": "Service temporairement indisponible, veuillez réessayer plus tard",
+    "engine.error.unauthorized": "Authentification requise",
+    "engine.error.unauthorized.unauthenticated": "Non authentifié",
+    "engine.error.unprocessable": "Impossible de traiter la requête",
+    "engine.error.unsupported_media_type": "Type de média non pris en charge",
+    "engine.error.upstream_unavailable": "Service en amont inaccessible, veuillez réessayer plus tard"
+  }
+}

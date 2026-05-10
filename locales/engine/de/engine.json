@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Ungültige Anfrage",
+    "engine.error.conflict": "Ressource existiert bereits",
+    "engine.error.forbidden": "Zugriff verweigert",
+    "engine.error.forbidden.admin_or_owner_role_required": "Administrator- oder Eigentümer-Rolle erforderlich",
+    "engine.error.internal": "Interner Fehler",
+    "engine.error.internal.internal_error": "Interner Fehler",
+    "engine.error.not_found": "Ressource nicht gefunden",
+    "engine.error.not_found.project_not_found": "Projekt nicht gefunden",
+    "engine.error.not_found.repo_not_found": "Repository nicht gefunden",
+    "engine.error.not_found.workspace_not_found": "Workspace nicht gefunden",
+    "engine.error.too_large": "Anfrage zu groß",
+    "engine.error.transient": "Dienst vorübergehend nicht verfügbar, bitte versuchen Sie es später erneut",
+    "engine.error.unauthorized": "Authentifizierung erforderlich",
+    "engine.error.unauthorized.unauthenticated": "Nicht authentifiziert",
+    "engine.error.unprocessable": "Anfrage kann nicht verarbeitet werden",
+    "engine.error.unsupported_media_type": "Nicht unterstützter Medientyp",
+    "engine.error.upstream_unavailable": "Upstream-Dienst nicht erreichbar, bitte versuchen Sie es später erneut"
+  }
+}

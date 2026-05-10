@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "es",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Solicitud inválida",
+    "engine.error.conflict": "El recurso ya existe",
+    "engine.error.forbidden": "Acceso denegado",
+    "engine.error.forbidden.admin_or_owner_role_required": "Se requiere rol de administrador o propietario",
+    "engine.error.internal": "Error interno",
+    "engine.error.internal.internal_error": "Error interno",
+    "engine.error.not_found": "Recurso no encontrado",
+    "engine.error.not_found.project_not_found": "Proyecto no encontrado",
+    "engine.error.not_found.repo_not_found": "Repositorio no encontrado",
+    "engine.error.too_large": "Solicitud demasiado grande",
+    "engine.error.transient": "Servicio temporalmente no disponible, inténtelo más tarde",
+    "engine.error.unauthorized": "Se requiere autenticación",
+    "engine.error.unauthorized.unauthenticated": "No autenticado",
+    "engine.error.unprocessable": "No se puede procesar la solicitud",
+    "engine.error.unsupported_media_type": "Tipo de medio no soportado",
+    "engine.error.upstream_unavailable": "Servicio upstream no disponible, inténtelo más tarde"
+  }
+}

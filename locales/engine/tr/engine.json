@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "engine",
+  "version": "1.0.0",
+  "translations": {
+    "engine.error.bad_request": "Geçersiz istek",
+    "engine.error.conflict": "Kaynak zaten mevcut",
+    "engine.error.forbidden": "Erişim reddedildi",
+    "engine.error.internal": "İç hata",
+    "engine.error.internal.internal_error": "İç hata",
+    "engine.error.not_found": "Kaynak bulunamadı",
+    "engine.error.not_found.project_not_found": "Proje bulunamadı",
+    "engine.error.not_found.repo_not_found": "Depo bulunamadı",
+    "engine.error.transient": "Hizmet geçici olarak kullanılamıyor, lütfen daha sonra tekrar deneyin",
+    "engine.error.unauthorized": "Kimlik doğrulaması gerekli",
+    "engine.error.upstream_unavailable": "Upstream hizmetine ulaşılamıyor, lütfen daha sonra tekrar deneyin"
+  }
+}
