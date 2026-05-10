@@ -1,0 +1,355 @@
+{
+  "locale": "it",
+  "category": "console",
+  "version": "1.0.0",
+  "translations": {
+    "console": {
+      "common": {
+        "loading": "Caricamento...",
+        "saving": "Salvataggio...",
+        "saved": "Salvato",
+        "save": "Salva",
+        "cancel": "Annulla",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "confirm": "Conferma",
+        "error": "Si è verificato un errore",
+        "close": "Chiudi",
+        "noCompanySelected": "Nessuna azienda selezionata. Seleziona un'azienda dal selettore in alto."
+      },
+      "auth": {
+        "signInTitle": "Accedi",
+        "signUpTitle": "Crea account",
+        "signInDesc": "Accedi al tuo account Flyto.",
+        "signUpDesc": "Crea un nuovo account Flyto.",
+        "name": "Nome",
+        "email": "Email",
+        "password": "Password",
+        "signIn": "Accedi",
+        "signUp": "Registrati",
+        "working": "Elaborazione...",
+        "fillFields": "Compila tutti i campi.",
+        "noAccount": "Non hai un account?",
+        "hasAccount": "Hai già un account?",
+        "createOne": "Creane uno"
+      },
+      "settings": {
+        "title": "Impostazioni",
+        "accessDenied": {
+          "title": "Accesso negato",
+          "description": "Non disponi delle autorizzazioni necessarie per visualizzare questa pagina.",
+          "backToDashboard": "Torna alla dashboard",
+          "instanceAdminTitle": "Richiesto amministratore di istanza",
+          "instanceAdminDescription": "Questa pagina è riservata agli amministratori di istanza.",
+          "companyAdminTitle": "Richiesto accesso amministrativo",
+          "companyAdminDescription": "Questa pagina è riservata agli amministratori e ai proprietari dell'azienda."
+        },
+        "company": {
+          "title": "Impostazioni azienda",
+          "sidebar": {
+            "backToCompany": "Torna all'azienda",
+            "title": "Impostazioni azienda",
+            "general": "Generali",
+            "access": "Accesso",
+            "invites": "Inviti"
+          },
+          "general": {
+            "title": "Generali",
+            "companyName": "Nome azienda",
+            "companyNameHint": "Il nome visualizzato per la tua azienda.",
+            "description": "Descrizione",
+            "descriptionHint": "Descrizione opzionale mostrata nel profilo aziendale.",
+            "descriptionPlaceholder": "Descrizione aziendale opzionale"
+          },
+          "appearance": {
+            "title": "Aspetto",
+            "logo": "Logo",
+            "logoHint": "Carica un'immagine logo in formato PNG, JPEG, WEBP, GIF o SVG.",
+            "removeLogo": "Rimuovi logo",
+            "removing": "Rimozione...",
+            "uploadingLogo": "Caricamento logo...",
+            "logoUploadFailed": "Caricamento logo non riuscito",
+            "brandColor": "Colore del brand",
+            "brandColorHint": "Imposta la tonalità per l'icona aziendale. Lascia vuoto per il colore generato automaticamente.",
+            "brandColorPlaceholder": "Automatico",
+            "clearColor": "Cancella"
+          },
+          "saveChanges": "Salva modifiche",
+          "hiring": {
+            "title": "Assunzioni",
+            "requireApproval": "Richiedi approvazione del consiglio per le nuove assunzioni",
+            "requireApprovalHint": "Le nuove assunzioni di agenti rimangono in sospeso fino all'approvazione del consiglio."
+          },
+          "feedbackSharing": {
+            "title": "Condivisione feedback",
+            "toggle": "Consenti la condivisione dei risultati IA votati con Flyto Labs",
+            "toggleHint": "Solo i risultati generati dall'IA su cui voti esplicitamente sono idonei alla condivisione del feedback.",
+            "description": "I voti vengono sempre salvati localmente. Questa impostazione controlla se i risultati IA votati possono anche essere contrassegnati per la condivisione con Flyto Labs.",
+            "termsVersion": "Versione dei termini",
+            "enabled": "Condivisione feedback attivata",
+            "disabled": "Condivisione feedback disattivata",
+            "enabledAt": "Attivata il {date}",
+            "enabledBy": " da {userId}",
+            "currentlyDisabled": "La condivisione è attualmente disattivata.",
+            "readTerms": "Leggi i nostri termini di servizio",
+            "updateFailed": "Aggiornamento della condivisione feedback non riuscito"
+          },
+          "invites": {
+            "title": "Inviti",
+            "generateHint": "Genera uno snippet di invito agente OpenClaw.",
+            "hintTooltip": "Crea un invito agente OpenClaw a breve scadenza e visualizza un prompt pronto da copiare.",
+            "generateButton": "Genera prompt invito OpenClaw",
+            "generating": "Generazione...",
+            "snippetTitle": "Prompt invito OpenClaw",
+            "copied": "Copiato",
+            "copySnippet": "Copia snippet",
+            "copiedSnippet": "Snippet copiato"
+          },
+          "packages": {
+            "title": "Pacchetti aziendali",
+            "description": "Importazione ed esportazione sono state spostate in pagine dedicate accessibili dall'intestazione dell'Organigramma.",
+            "export": "Esporta",
+            "import": "Importa"
+          },
+          "dangerZone": {
+            "title": "Zona pericolosa",
+            "archiveDescription": "Archivia questa azienda per nasconderla dalla barra laterale. Questa operazione viene conservata nel database.",
+            "archiveButton": "Archivia azienda",
+            "archiving": "Archiviazione...",
+            "alreadyArchived": "Già archiviata",
+            "archiveConfirm": "Archiviare l'azienda \"{name}\"? Verrà nascosta dalla barra laterale.",
+            "archiveFailed": "Archiviazione dell'azienda non riuscita"
+          }
+        },
+        "access": {
+          "title": "Accesso aziendale",
+          "description": "Gestisci le appartenenze degli utenti, lo stato e le concessioni esplicite di autorizzazione per {companyName}.",
+          "instanceAdminNotice": "Questo account può gestire l'accesso qui tramite i privilegi di amministratore di istanza, ma attualmente non possiede un'appartenenza aziendale attiva.",
+          "noPermission": "Non hai l'autorizzazione per gestire i membri dell'azienda.",
+          "loadFailed": "Caricamento dei membri dell'azienda non riuscito.",
+          "selectCompany": "Seleziona un'azienda per gestire l'accesso.",
+          "loadingAccess": "Caricamento accesso aziendale...",
+          "humans": {
+            "title": "Persone",
+            "description": "Gestisci qui le appartenenze aziendali delle persone, lo stato e le concessioni.",
+            "noMembers": "Nessuna appartenenza utente trovata per questa azienda."
+          },
+          "joinRequests": {
+            "title": "Richieste di adesione in sospeso",
+            "description": "Esamina le richieste di adesione delle persone prima che diventino membri attivi dell'azienda.",
+            "pending": "{count} in sospeso",
+            "approveHuman": "Approva persona",
+            "rejectHuman": "Rifiuta persona",
+            "submitted": "Inviata il {date}",
+            "approved": "Richiesta di adesione approvata",
+            "rejected": "Richiesta di adesione rifiutata",
+            "approveFailed": "Approvazione della richiesta di adesione non riuscita",
+            "rejectFailed": "Rifiuto della richiesta di adesione non riuscito"
+          },
+          "table": {
+            "userAccount": "Account utente",
+            "role": "Ruolo",
+            "status": "Stato",
+            "grants": "Concessioni",
+            "action": "Azione",
+            "noExplicitGrants": "Nessuna concessione esplicita",
+            "unsetRole": "Non impostato"
+          },
+          "editMember": {
+            "title": "Modifica membro",
+            "description": "Aggiorna il ruolo aziendale, lo stato di appartenenza e le concessioni esplicite per {memberName}.",
+            "companyRole": "Ruolo aziendale",
+            "membershipStatus": "Stato appartenenza",
+            "statusActive": "Attivo",
+            "statusPending": "In sospeso",
+            "statusSuspended": "Sospeso",
+            "grants": "Concessioni",
+            "grantsDescription": "I ruoli forniscono concessioni implicite automaticamente. Le concessioni esplicite qui sotto servono solo per eccezioni e accessi aggiuntivi che devono persistere anche se il ruolo cambia.",
+            "implicitGrants": "Concessioni implicite dal ruolo",
+            "implicitGrantsWithRole": "{role} include attualmente queste autorizzazioni automaticamente.",
+            "implicitGrantsNoRole": "Nessun ruolo selezionato, quindi questo membro non ha concessioni implicite al momento.",
+            "explicitGrantNote": "Memorizzata esplicitamente per questo membro.",
+            "implicitIncludedNote": "Inclusa implicitamente dal ruolo {role}. Aggiungi una concessione esplicita solo se deve rimanere dopo il cambio di ruolo.",
+            "saveAccess": "Salva accesso",
+            "savingAccess": "Salvataggio...",
+            "memberUpdated": "Membro aggiornato",
+            "updateFailed": "Aggiornamento del membro non riuscito"
+          },
+          "permissions": {
+            "agents:create": "Crea agenti",
+            "users:invite": "Invita persone e agenti",
+            "users:manage_permissions": "Gestisci membri e concessioni",
+            "tasks:assign": "Assegna attività",
+            "tasks:assign_scope": "Assegna attività con ambito",
+            "joins:approve": "Approva richieste di adesione"
+          }
+        },
+        "instance": {
+          "title": "Impostazioni istanza",
+          "comingSoon": "Questa funzionalità è in fase di sviluppo e sarà disponibile in una versione futura.",
+          "general": {
+            "title": "Generali",
+            "description": "Configura le impostazioni predefinite a livello di istanza che influenzano la visualizzazione dei log visibili all'operatore.",
+            "deployment": {
+              "title": "Distribuzione e autenticazione",
+              "localTrusted": "La modalità locale attendibile è ottimizzata per un operatore locale. Le richieste del browser vengono eseguite nel contesto del consiglio locale e non è richiesto l'accesso.",
+              "authenticatedPublic": "La modalità pubblica autenticata richiede l'accesso per il consiglio ed è destinata a URL pubblici.",
+              "authenticatedPrivate": "La modalità privata autenticata richiede l'accesso ed è destinata a distribuzioni su LAN, VPN o altre reti private.",
+              "authReadiness": "Stato autenticazione",
+              "ready": "Pronto",
+              "notReady": "Non pronto",
+              "bootstrapStatus": "Stato bootstrap",
+              "setupRequired": "Configurazione richiesta",
+              "bootstrapInvite": "Invito bootstrap",
+              "active": "Attivo",
+              "none": "Nessuno"
+            },
+            "censorUsername": {
+              "title": "Oscura nome utente nei log",
+              "description": "Nasconde il segmento del nome utente nei percorsi della directory home e in output di log simili visibili all'operatore. Le menzioni isolate del nome utente al di fuori dei percorsi non sono ancora mascherate nella vista della trascrizione in tempo reale. Disattivato per impostazione predefinita."
+            },
+            "keyboardShortcuts": {
+              "title": "Scorciatoie da tastiera",
+              "description": "Abilita le scorciatoie da tastiera dell'applicazione, inclusa la navigazione nella posta in arrivo e le scorciatoie globali come la creazione di issue o l'attivazione/disattivazione dei pannelli. Disattivato per impostazione predefinita."
+            },
+            "backupRetention": {
+              "title": "Conservazione backup",
+              "description": "Configura per quanto tempo conservare i backup automatici del database a ogni livello. I backup giornalieri vengono mantenuti integralmente, poi ridotti a uno a settimana e uno al mese. I backup sono compressi con gzip.",
+              "daily": "Giornaliero",
+              "weekly": "Settimanale",
+              "monthly": "Mensile",
+              "days": "{count} giorni",
+              "week": "1 settimana",
+              "weeks": "{count} settimane",
+              "month": "1 mese",
+              "months": "{count} mesi"
+            },
+            "feedbackSharing": {
+              "title": "Condivisione feedback IA",
+              "description": "Controlla se i voti positivi e negativi possono inviare il risultato IA votato a Flyto Labs. I voti vengono sempre salvati localmente.",
+              "readTerms": "Leggi i nostri termini di servizio",
+              "noDefault": "Nessun valore predefinito salvato. La prossima scelta con pollice su o pollice giù chiederà una volta e poi salverà la risposta qui.",
+              "alwaysAllow": "Consenti sempre",
+              "alwaysAllowDesc": "Condividi automaticamente i risultati IA votati.",
+              "dontAllow": "Non consentire",
+              "dontAllowDesc": "Mantieni i risultati IA votati solo in locale.",
+              "devHint": "Per ritestare il prompt del primo utilizzo in sviluppo locale, rimuovi la chiave feedbackDataSharingPreference dalla riga JSON instance_settings.general per questa istanza, oppure reimpostala su \"prompt\". Sia non impostato che \"prompt\" significano che nessun valore predefinito è stato ancora scelto."
+            },
+            "signOut": {
+              "title": "Disconnetti",
+              "description": "Disconnettiti da questa istanza Flyto. Verrai reindirizzato alla pagina di accesso.",
+              "button": "Disconnetti",
+              "signingOut": "Disconnessione..."
+            }
+          },
+          "heartbeats": {
+            "title": "Heartbeat dello scheduler",
+            "description": "Agenti con heartbeat a timer attivato in tutte le tue aziende.",
+            "active": "attivo",
+            "disabled": "disattivato",
+            "company": "azienda",
+            "companies": "aziende",
+            "disableAll": "Disattiva tutti",
+            "disabling": "Disattivazione...",
+            "disableConfirm": "Disattivare gli heartbeat a timer per tutti i {count} {noun} abilitati?",
+            "enableTimer": "Attiva heartbeat a timer",
+            "disableTimer": "Disattiva heartbeat a timer",
+            "never": "mai",
+            "noHeartbeats": "Nessun heartbeat dello scheduler corrisponde ai criteri attuali.",
+            "loadingHeartbeats": "Caricamento heartbeat dello scheduler...",
+            "updateFailed": "Aggiornamento dell'heartbeat non riuscito.",
+            "disableAllFailed": "Disattivazione di tutti gli heartbeat non riuscita."
+          },
+          "sidebar": {
+            "title": "Impostazioni istanza",
+            "profile": "Profilo",
+            "general": "Generali",
+            "access": "Accesso",
+            "heartbeats": "Heartbeat",
+            "experimental": "Sperimentale",
+            "plugins": "Plugin",
+            "adapters": "Adattatori"
+          }
+        },
+        "profile": {
+          "title": "Profilo",
+          "description": "Controlla come il tuo account appare nella barra laterale e nelle altre superfici del consiglio.",
+          "displayName": "Nome visualizzato",
+          "displayNameHint": "Mostrato nel piè di pagina dell'account nella barra laterale e nelle superfici dell'autore dei commenti.",
+          "displayNamePlaceholder": "Consiglio",
+          "email": "Email",
+          "emailHint": "L'email è gestita dalla sessione di autenticazione ed è di sola lettura qui.",
+          "noEmail": "Nessuna email",
+          "changePhoto": "Cambia foto",
+          "uploadPhoto": "Carica foto",
+          "removePhoto": "Rimuovi",
+          "saveProfile": "Salva profilo",
+          "savingProfile": "Salvataggio...",
+          "uploadHintWithCompany": "Memorizzata nell'archivio file Flyto per {companyName}.",
+          "uploadHintNoCompany": "Seleziona un'azienda per caricare un avatar nell'archivio Flyto.",
+          "uploadFailed": "Caricamento dell'avatar non riuscito.",
+          "removeFailed": "Rimozione dell'avatar non riuscita.",
+          "updateFailed": "Aggiornamento del profilo non riuscito.",
+          "loadFailed": "Caricamento del profilo non riuscito.",
+          "loadingProfile": "Caricamento profilo...",
+          "selectCompanyForUpload": "Seleziona un'azienda prima di caricare un avatar del profilo."
+        },
+        "plugins": {
+          "title": "Plugin",
+          "installed": "Plugin installati",
+          "available": "Plugin disponibili",
+          "install": "Installa",
+          "uninstall": "Disinstalla",
+          "uninstalling": "Disinstallazione...",
+          "enable": "Attiva",
+          "disable": "Disattiva",
+          "settings": "Impostazioni",
+          "configure": "Configura",
+          "installing": "Installazione...",
+          "noPlugins": "Nessun plugin installato",
+          "noPluginsHint": "Installa un plugin per estendere le funzionalità.",
+          "noDescription": "Nessuna descrizione fornita.",
+          "notInstalled": "Non installato",
+          "noExamples": "Nessun plugin di esempio incluso trovato in questo checkout.",
+          "loadFailed": "Caricamento dei plugin non riuscito.",
+          "alphaWarning": "I plugin sono in fase alpha.",
+          "alphaDescription": "Il runtime e la superficie API dei plugin sono ancora in evoluzione. Aspettati modifiche incompatibili mentre questa funzionalità si stabilizza.",
+          "example": "Esempio",
+          "examples": "Esempi",
+          "openSettings": "Apri impostazioni",
+          "review": "Revisiona",
+          "installExample": "Installa esempio",
+          "pluginError": "Errore plugin",
+          "viewFullError": "Visualizza errore completo",
+          "pluginDetails": "Dettagli plugin",
+          "installSuccess": "Plugin installato con successo",
+          "installFailed": "Installazione del plugin non riuscita",
+          "uninstallSuccess": "Plugin disinstallato con successo",
+          "uninstallFailed": "Disinstallazione del plugin non riuscita",
+          "enableSuccess": "Plugin attivato",
+          "enableFailed": "Attivazione del plugin non riuscita",
+          "disableSuccess": "Plugin disattivato",
+          "disableFailed": "Disattivazione del plugin non riuscita",
+          "installDialog": {
+            "title": "Installa plugin",
+            "description": "Inserisci il nome del pacchetto npm del plugin che desideri installare.",
+            "packageName": "Nome pacchetto npm",
+            "placeholder": "es. @flyto/plugin-example"
+          },
+          "uninstallDialog": {
+            "title": "Disinstalla plugin",
+            "description": "Vuoi davvero disinstallare questo plugin? Questa azione non può essere annullata."
+          },
+          "errorDetails": {
+            "title": "Dettagli errore",
+            "description": "si è verificato un errore.",
+            "whatErrored": "Cosa ha generato l'errore",
+            "noSummary": "Nessun riepilogo errore disponibile.",
+            "fullOutput": "Output completo dell'errore",
+            "noMessage": "Nessun messaggio di errore memorizzato."
+          }
+        }
+      }
+    }
+  }
+}

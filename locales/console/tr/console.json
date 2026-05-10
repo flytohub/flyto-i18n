@@ -1,0 +1,355 @@
+{
+  "locale": "tr",
+  "category": "console",
+  "version": "1.0.0",
+  "translations": {
+    "console": {
+      "common": {
+        "loading": "Yükleniyor...",
+        "saving": "Kaydediliyor...",
+        "saved": "Kaydedildi",
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "confirm": "Onayla",
+        "error": "Bir hata oluştu",
+        "close": "Kapat",
+        "noCompanySelected": "Şirket seçilmedi. Yukarıdaki seçiciden bir şirket seçin."
+      },
+      "auth": {
+        "signInTitle": "Giriş yap",
+        "signUpTitle": "Hesap oluştur",
+        "signInDesc": "Flyto hesabınıza giriş yapın.",
+        "signUpDesc": "Yeni bir Flyto hesabı oluşturun.",
+        "name": "Ad",
+        "email": "E-posta",
+        "password": "Şifre",
+        "signIn": "Giriş yap",
+        "signUp": "Kayıt ol",
+        "working": "İşleniyor...",
+        "fillFields": "Lütfen tüm alanları doldurun.",
+        "noAccount": "Hesabınız yok mu?",
+        "hasAccount": "Zaten bir hesabınız var mı?",
+        "createOne": "Bir tane oluşturun"
+      },
+      "settings": {
+        "title": "Ayarlar",
+        "accessDenied": {
+          "title": "Erişim engellendi",
+          "description": "Bu sayfayı görüntülemek için gerekli izinlere sahip değilsiniz.",
+          "backToDashboard": "Panoya dön",
+          "instanceAdminTitle": "Örnek yöneticisi gerekli",
+          "instanceAdminDescription": "Bu sayfa örnek yöneticileriyle sınırlıdır.",
+          "companyAdminTitle": "Yönetici erişimi gerekli",
+          "companyAdminDescription": "Bu sayfa şirket yöneticileri ve sahipleriyle sınırlıdır."
+        },
+        "company": {
+          "title": "Şirket ayarları",
+          "sidebar": {
+            "backToCompany": "Şirkete dön",
+            "title": "Şirket ayarları",
+            "general": "Genel",
+            "access": "Erişim",
+            "invites": "Davetler"
+          },
+          "general": {
+            "title": "Genel",
+            "companyName": "Şirket adı",
+            "companyNameHint": "Şirketinizin görünen adı.",
+            "description": "Açıklama",
+            "descriptionHint": "Şirket profilinde gösterilen isteğe bağlı açıklama.",
+            "descriptionPlaceholder": "İsteğe bağlı şirket açıklaması"
+          },
+          "appearance": {
+            "title": "Görünüm",
+            "logo": "Logo",
+            "logoHint": "PNG, JPEG, WEBP, GIF veya SVG formatında bir logo yükleyin.",
+            "removeLogo": "Logoyu kaldır",
+            "removing": "Kaldırılıyor...",
+            "uploadingLogo": "Logo yükleniyor...",
+            "logoUploadFailed": "Logo yüklenemedi",
+            "brandColor": "Marka rengi",
+            "brandColorHint": "Şirket simgesinin tonunu belirler. Otomatik renk için boş bırakın.",
+            "brandColorPlaceholder": "Otomatik",
+            "clearColor": "Temizle"
+          },
+          "saveChanges": "Değişiklikleri kaydet",
+          "hiring": {
+            "title": "İşe alım",
+            "requireApproval": "Yeni işe alımlar için kurul onayı gerektir",
+            "requireApprovalHint": "Yeni ajan işe alımları kurul tarafından onaylanana kadar beklemede kalır."
+          },
+          "feedbackSharing": {
+            "title": "Geri bildirim paylaşımı",
+            "toggle": "Oylanan yapay zeka çıktılarının Flyto Labs ile paylaşılmasına izin ver",
+            "toggleHint": "Yalnızca açıkça oyladığınız yapay zeka tarafından üretilen çıktılar geri bildirim paylaşımı için uygundur.",
+            "description": "Oylar her zaman yerel olarak kaydedilir. Bu ayar, oylanan yapay zeka çıktılarının Flyto Labs ile paylaşım için işaretlenip işaretlenemeyeceğini kontrol eder.",
+            "termsVersion": "Şartlar sürümü",
+            "enabled": "Geri bildirim paylaşımı etkin",
+            "disabled": "Geri bildirim paylaşımı devre dışı",
+            "enabledAt": "{date} tarihinde etkinleştirildi",
+            "enabledBy": " {userId} tarafından",
+            "currentlyDisabled": "Paylaşım şu anda devre dışı.",
+            "readTerms": "Hizmet şartlarımızı okuyun",
+            "updateFailed": "Geri bildirim paylaşımı güncellenemedi"
+          },
+          "invites": {
+            "title": "Davetler",
+            "generateHint": "Bir OpenClaw ajan davet snippet'i oluşturun.",
+            "hintTooltip": "Kısa ömürlü bir OpenClaw ajan daveti oluşturur ve kopyalamaya hazır bir prompt gösterir.",
+            "generateButton": "OpenClaw davet promptu oluştur",
+            "generating": "Oluşturuluyor...",
+            "snippetTitle": "OpenClaw davet promptu",
+            "copied": "Kopyalandı",
+            "copySnippet": "Snippet'i kopyala",
+            "copiedSnippet": "Snippet kopyalandı"
+          },
+          "packages": {
+            "title": "Şirket paketleri",
+            "description": "İçe ve dışa aktarma, Organizasyon Şeması başlığından erişilebilen ayrı sayfalara taşındı.",
+            "export": "Dışa aktar",
+            "import": "İçe aktar"
+          },
+          "dangerZone": {
+            "title": "Tehlikeli bölge",
+            "archiveDescription": "Bu şirketi kenar çubuğundan gizlemek için arşivleyin. Bu işlem veritabanında kalıcıdır.",
+            "archiveButton": "Şirketi arşivle",
+            "archiving": "Arşivleniyor...",
+            "alreadyArchived": "Zaten arşivlenmiş",
+            "archiveConfirm": "\"{name}\" şirketi arşivlensin mi? Kenar çubuğundan gizlenecektir.",
+            "archiveFailed": "Şirket arşivlenemedi"
+          }
+        },
+        "access": {
+          "title": "Şirket erişimi",
+          "description": "{companyName} için şirket kullanıcı üyeliklerini, üyelik durumunu ve açık izin yetkilerini yönetin.",
+          "instanceAdminNotice": "Bu hesap, örnek yöneticisi ayrıcalıkları aracılığıyla burada erişimi yönetebilir, ancak şu anda aktif bir şirket üyeliği bulunmamaktadır.",
+          "noPermission": "Şirket üyelerini yönetme izniniz yok.",
+          "loadFailed": "Şirket üyeleri yüklenemedi.",
+          "selectCompany": "Erişimi yönetmek için bir şirket seçin.",
+          "loadingAccess": "Şirket erişimi yükleniyor...",
+          "humans": {
+            "title": "İnsanlar",
+            "description": "İnsan şirket üyeliklerini, durumu ve yetkileri burada yönetin.",
+            "noMembers": "Bu şirket için henüz kullanıcı üyeliği bulunamadı."
+          },
+          "joinRequests": {
+            "title": "Bekleyen katılım istekleri",
+            "description": "İnsanların katılım isteklerini aktif şirket üyesi olmadan önce inceleyin.",
+            "pending": "{count} beklemede",
+            "approveHuman": "Kişiyi onayla",
+            "rejectHuman": "Kişiyi reddet",
+            "submitted": "{date} tarihinde gönderildi",
+            "approved": "Katılım isteği onaylandı",
+            "rejected": "Katılım isteği reddedildi",
+            "approveFailed": "Katılım isteği onaylanamadı",
+            "rejectFailed": "Katılım isteği reddedilemedi"
+          },
+          "table": {
+            "userAccount": "Kullanıcı hesabı",
+            "role": "Rol",
+            "status": "Durum",
+            "grants": "Yetkiler",
+            "action": "İşlem",
+            "noExplicitGrants": "Açık yetki yok",
+            "unsetRole": "Belirlenmemiş"
+          },
+          "editMember": {
+            "title": "Üyeyi düzenle",
+            "description": "{memberName} için şirket rolünü, üyelik durumunu ve açık yetkileri güncelleyin.",
+            "companyRole": "Şirket rolü",
+            "membershipStatus": "Üyelik durumu",
+            "statusActive": "Aktif",
+            "statusPending": "Beklemede",
+            "statusSuspended": "Askıya alınmış",
+            "grants": "Yetkiler",
+            "grantsDescription": "Roller otomatik olarak örtük yetkiler sağlar. Aşağıdaki açık yetkiler yalnızca istisnalar ve rol değişse bile kalması gereken ek erişimler içindir.",
+            "implicitGrants": "Rolden gelen örtük yetkiler",
+            "implicitGrantsWithRole": "{role} şu anda bu izinleri otomatik olarak içerir.",
+            "implicitGrantsNoRole": "Hiçbir rol seçilmedi, bu nedenle bu üyenin şu anda örtük yetkisi yok.",
+            "explicitGrantNote": "Bu üye için açıkça saklanmıştır.",
+            "implicitIncludedNote": "{role} rolü tarafından örtük olarak dahil edilmiştir. Açık yetki yalnızca rol değiştikten sonra da kalması gerekiyorsa ekleyin.",
+            "saveAccess": "Erişimi kaydet",
+            "savingAccess": "Kaydediliyor...",
+            "memberUpdated": "Üye güncellendi",
+            "updateFailed": "Üye güncellenemedi"
+          },
+          "permissions": {
+            "agents:create": "Ajan oluştur",
+            "users:invite": "İnsan ve ajan davet et",
+            "users:manage_permissions": "Üyeleri ve yetkileri yönet",
+            "tasks:assign": "Görev ata",
+            "tasks:assign_scope": "Kapsamlı görev ata",
+            "joins:approve": "Katılım isteklerini onayla"
+          }
+        },
+        "instance": {
+          "title": "Örnek ayarları",
+          "comingSoon": "Bu özellik geliştirme aşamasındadır ve gelecek bir sürümde kullanılabilir olacaktır.",
+          "general": {
+            "title": "Genel",
+            "description": "Operatöre görünür günlüklerin nasıl görüntüleneceğini etkileyen örnek genelindeki varsayılanları yapılandırın.",
+            "deployment": {
+              "title": "Dağıtım ve kimlik doğrulama",
+              "localTrusted": "Yerel güvenilir mod, yerel bir operatör için optimize edilmiştir. Tarayıcı istekleri yerel kurul bağlamında çalışır ve oturum açma gerekmez.",
+              "authenticatedPublic": "Kimlik doğrulamalı genel mod, kurul erişimi için oturum açmayı gerektirir ve genel URL'ler için tasarlanmıştır.",
+              "authenticatedPrivate": "Kimlik doğrulamalı özel mod, oturum açmayı gerektirir ve LAN, VPN veya diğer özel ağ dağıtımları için tasarlanmıştır.",
+              "authReadiness": "Kimlik doğrulama hazırlığı",
+              "ready": "Hazır",
+              "notReady": "Hazır değil",
+              "bootstrapStatus": "Bootstrap durumu",
+              "setupRequired": "Kurulum gerekli",
+              "bootstrapInvite": "Bootstrap daveti",
+              "active": "Aktif",
+              "none": "Yok"
+            },
+            "censorUsername": {
+              "title": "Günlüklerde kullanıcı adını gizle",
+              "description": "Ana dizin yollarında ve operatöre görünür benzer günlük çıktılarında kullanıcı adı bölümünü gizler. Yolların dışındaki bağımsız kullanıcı adı referansları canlı transkript görünümünde henüz maskelenmemektedir. Varsayılan olarak kapalıdır."
+            },
+            "keyboardShortcuts": {
+              "title": "Klavye kısayolları",
+              "description": "Gelen kutusu gezintisi ve sorun oluşturma veya panel değiştirme gibi genel kısayollar dahil uygulama klavye kısayollarını etkinleştirin. Varsayılan olarak kapalıdır."
+            },
+            "backupRetention": {
+              "title": "Yedek saklama",
+              "description": "Her katmanda otomatik veritabanı yedeklerinin ne kadar süre saklanacağını yapılandırın. Günlük yedekler tam olarak tutulur, ardından haftada bire ve ayda bire seyreltilir. Yedekler gzip ile sıkıştırılır.",
+              "daily": "Günlük",
+              "weekly": "Haftalık",
+              "monthly": "Aylık",
+              "days": "{count} gün",
+              "week": "1 hafta",
+              "weeks": "{count} hafta",
+              "month": "1 ay",
+              "months": "{count} ay"
+            },
+            "feedbackSharing": {
+              "title": "Yapay zeka geri bildirim paylaşımı",
+              "description": "Beğenme ve beğenmeme oylarının oylanan yapay zeka çıktısını Flyto Labs'a gönderip gönderemeyeceğini kontrol eder. Oylar her zaman yerel olarak kaydedilir.",
+              "readTerms": "Hizmet şartlarımızı okuyun",
+              "noDefault": "Henüz varsayılan kaydedilmedi. Sonraki beğenme veya beğenmeme seçimi bir kez soracak ve yanıtı buraya kaydedecektir.",
+              "alwaysAllow": "Her zaman izin ver",
+              "alwaysAllowDesc": "Oylanan yapay zeka çıktılarını otomatik olarak paylaş.",
+              "dontAllow": "İzin verme",
+              "dontAllowDesc": "Oylanan yapay zeka çıktılarını yalnızca yerel olarak tut.",
+              "devHint": "Yerel geliştirmede ilk kullanım promptunu yeniden test etmek için bu örnek için instance_settings.general JSON satırından feedbackDataSharingPreference anahtarını kaldırın veya \"prompt\" olarak geri ayarlayın. Hem ayarlanmamış hem de \"prompt\", henüz varsayılan seçilmediği anlamına gelir."
+            },
+            "signOut": {
+              "title": "Çıkış yap",
+              "description": "Bu Flyto örneğinden çıkış yapın. Giriş sayfasına yönlendirileceksiniz.",
+              "button": "Çıkış yap",
+              "signingOut": "Çıkış yapılıyor..."
+            }
+          },
+          "heartbeats": {
+            "title": "Zamanlayıcı heartbeat'leri",
+            "description": "Tüm şirketlerinizde zamanlayıcı heartbeat'i etkin olan ajanlar.",
+            "active": "aktif",
+            "disabled": "devre dışı",
+            "company": "şirket",
+            "companies": "şirket",
+            "disableAll": "Tümünü devre dışı bırak",
+            "disabling": "Devre dışı bırakılıyor...",
+            "disableConfirm": "Etkin olan {count} {noun} için zamanlayıcı heartbeat'leri devre dışı bırakılsın mı?",
+            "enableTimer": "Zamanlayıcı heartbeat'i etkinleştir",
+            "disableTimer": "Zamanlayıcı heartbeat'i devre dışı bırak",
+            "never": "hiçbir zaman",
+            "noHeartbeats": "Mevcut kriterlere uyan zamanlayıcı heartbeat'i bulunamadı.",
+            "loadingHeartbeats": "Zamanlayıcı heartbeat'leri yükleniyor...",
+            "updateFailed": "Heartbeat güncellenemedi.",
+            "disableAllFailed": "Tüm heartbeat'ler devre dışı bırakılamadı."
+          },
+          "sidebar": {
+            "title": "Örnek ayarları",
+            "profile": "Profil",
+            "general": "Genel",
+            "access": "Erişim",
+            "heartbeats": "Heartbeat'ler",
+            "experimental": "Deneysel",
+            "plugins": "Eklentiler",
+            "adapters": "Adaptörler"
+          }
+        },
+        "profile": {
+          "title": "Profil",
+          "description": "Hesabınızın kenar çubuğunda ve diğer kurul yüzeylerinde nasıl göründüğünü kontrol edin.",
+          "displayName": "Görünen ad",
+          "displayNameHint": "Kenar çubuğu hesap alt bilgisinde ve yorum yazarı yüzeylerinde gösterilir.",
+          "displayNamePlaceholder": "Kurul",
+          "email": "E-posta",
+          "emailHint": "E-posta, kimlik doğrulama oturumunuz tarafından yönetilir ve burada salt okunurdur.",
+          "noEmail": "E-posta yok",
+          "changePhoto": "Fotoğrafı değiştir",
+          "uploadPhoto": "Fotoğraf yükle",
+          "removePhoto": "Kaldır",
+          "saveProfile": "Profili kaydet",
+          "savingProfile": "Kaydediliyor...",
+          "uploadHintWithCompany": "{companyName} için Flyto dosya deposunda saklanır.",
+          "uploadHintNoCompany": "Flyto deposuna avatar yüklemek için bir şirket seçin.",
+          "uploadFailed": "Avatar yüklenemedi.",
+          "removeFailed": "Avatar kaldırılamadı.",
+          "updateFailed": "Profil güncellenemedi.",
+          "loadFailed": "Profil yüklenemedi.",
+          "loadingProfile": "Profil yükleniyor...",
+          "selectCompanyForUpload": "Profil avatarı yüklemeden önce bir şirket seçin."
+        },
+        "plugins": {
+          "title": "Eklentiler",
+          "installed": "Yüklü eklentiler",
+          "available": "Mevcut eklentiler",
+          "install": "Yükle",
+          "uninstall": "Kaldır",
+          "uninstalling": "Kaldırılıyor...",
+          "enable": "Etkinleştir",
+          "disable": "Devre dışı bırak",
+          "settings": "Ayarlar",
+          "configure": "Yapılandır",
+          "installing": "Yükleniyor...",
+          "noPlugins": "Yüklü eklenti yok",
+          "noPluginsHint": "İşlevselliği genişletmek için bir eklenti yükleyin.",
+          "noDescription": "Açıklama sağlanmadı.",
+          "notInstalled": "Yüklü değil",
+          "noExamples": "Bu checkout'ta paketlenmiş örnek eklenti bulunamadı.",
+          "loadFailed": "Eklentiler yüklenemedi.",
+          "alphaWarning": "Eklentiler alpha aşamasındadır.",
+          "alphaDescription": "Eklenti çalışma zamanı ve API yüzeyi hâlâ değişmektedir. Bu özellik stabilize olana kadar uyumsuz değişiklikler beklenir.",
+          "example": "Örnek",
+          "examples": "Örnekler",
+          "openSettings": "Ayarları aç",
+          "review": "İncele",
+          "installExample": "Örneği yükle",
+          "pluginError": "Eklenti hatası",
+          "viewFullError": "Tam hatayı görüntüle",
+          "pluginDetails": "Eklenti detayları",
+          "installSuccess": "Eklenti başarıyla yüklendi",
+          "installFailed": "Eklenti yüklenemedi",
+          "uninstallSuccess": "Eklenti başarıyla kaldırıldı",
+          "uninstallFailed": "Eklenti kaldırılamadı",
+          "enableSuccess": "Eklenti etkinleştirildi",
+          "enableFailed": "Eklenti etkinleştirilemedi",
+          "disableSuccess": "Eklenti devre dışı bırakıldı",
+          "disableFailed": "Eklenti devre dışı bırakılamadı",
+          "installDialog": {
+            "title": "Eklenti yükle",
+            "description": "Yüklemek istediğiniz eklentinin npm paket adını girin.",
+            "packageName": "npm paket adı",
+            "placeholder": "ör. @flyto/plugin-example"
+          },
+          "uninstallDialog": {
+            "title": "Eklentiyi kaldır",
+            "description": "Bu eklentiyi kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz."
+          },
+          "errorDetails": {
+            "title": "Hata detayları",
+            "description": "bir hata durumuna ulaştı.",
+            "whatErrored": "Hatanın kaynağı",
+            "noSummary": "Hata özeti mevcut değil.",
+            "fullOutput": "Tam hata çıktısı",
+            "noMessage": "Kayıtlı hata mesajı yok."
+          }
+        }
+      }
+    }
+  }
+}

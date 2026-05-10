@@ -1,0 +1,355 @@
+{
+  "locale": "id",
+  "category": "console",
+  "version": "1.0.0",
+  "translations": {
+    "console": {
+      "common": {
+        "loading": "Memuat...",
+        "saving": "Menyimpan...",
+        "saved": "Tersimpan",
+        "save": "Simpan",
+        "cancel": "Batal",
+        "edit": "Edit",
+        "delete": "Hapus",
+        "confirm": "Konfirmasi",
+        "error": "Terjadi kesalahan",
+        "close": "Tutup",
+        "noCompanySelected": "Belum ada perusahaan yang dipilih. Pilih perusahaan dari pemilih di atas."
+      },
+      "auth": {
+        "signInTitle": "Masuk",
+        "signUpTitle": "Buat akun",
+        "signInDesc": "Masuk ke akun Flyto Anda.",
+        "signUpDesc": "Buat akun Flyto baru.",
+        "name": "Nama",
+        "email": "Email",
+        "password": "Kata sandi",
+        "signIn": "Masuk",
+        "signUp": "Daftar",
+        "working": "Memproses...",
+        "fillFields": "Silakan isi semua kolom.",
+        "noAccount": "Belum punya akun?",
+        "hasAccount": "Sudah punya akun?",
+        "createOne": "Buat akun"
+      },
+      "settings": {
+        "title": "Pengaturan",
+        "accessDenied": {
+          "title": "Akses Ditolak",
+          "description": "Anda tidak memiliki izin yang diperlukan untuk melihat halaman ini.",
+          "backToDashboard": "Kembali ke dasbor",
+          "instanceAdminTitle": "Diperlukan Admin Instance",
+          "instanceAdminDescription": "Halaman ini hanya untuk administrator instance.",
+          "companyAdminTitle": "Diperlukan Akses Admin",
+          "companyAdminDescription": "Halaman ini hanya untuk administrator dan pemilik perusahaan."
+        },
+        "company": {
+          "title": "Pengaturan Perusahaan",
+          "sidebar": {
+            "backToCompany": "Kembali ke perusahaan",
+            "title": "Pengaturan Perusahaan",
+            "general": "Umum",
+            "access": "Akses",
+            "invites": "Undangan"
+          },
+          "general": {
+            "title": "Umum",
+            "companyName": "Nama perusahaan",
+            "companyNameHint": "Nama tampilan untuk perusahaan Anda.",
+            "description": "Deskripsi",
+            "descriptionHint": "Deskripsi opsional yang ditampilkan di profil perusahaan.",
+            "descriptionPlaceholder": "Deskripsi perusahaan (opsional)"
+          },
+          "appearance": {
+            "title": "Tampilan",
+            "logo": "Logo",
+            "logoHint": "Unggah gambar logo dalam format PNG, JPEG, WEBP, GIF, atau SVG.",
+            "removeLogo": "Hapus logo",
+            "removing": "Menghapus...",
+            "uploadingLogo": "Mengunggah logo...",
+            "logoUploadFailed": "Gagal mengunggah logo",
+            "brandColor": "Warna merek",
+            "brandColorHint": "Mengatur corak warna untuk ikon perusahaan. Kosongkan untuk warna otomatis.",
+            "brandColorPlaceholder": "Otomatis",
+            "clearColor": "Hapus"
+          },
+          "saveChanges": "Simpan perubahan",
+          "hiring": {
+            "title": "Perekrutan",
+            "requireApproval": "Wajibkan persetujuan dewan untuk perekrutan baru",
+            "requireApprovalHint": "Perekrutan agent baru akan tertunda hingga disetujui oleh dewan."
+          },
+          "feedbackSharing": {
+            "title": "Berbagi Umpan Balik",
+            "toggle": "Izinkan berbagi output AI yang telah divoting dengan Flyto Labs",
+            "toggleHint": "Hanya output yang dihasilkan AI yang Anda voting secara eksplisit yang memenuhi syarat untuk dibagikan.",
+            "description": "Vote selalu disimpan secara lokal. Pengaturan ini mengontrol apakah output AI yang telah divoting juga dapat ditandai untuk dibagikan dengan Flyto Labs.",
+            "termsVersion": "Versi ketentuan",
+            "enabled": "Berbagi umpan balik diaktifkan",
+            "disabled": "Berbagi umpan balik dinonaktifkan",
+            "enabledAt": "Diaktifkan pada {date}",
+            "enabledBy": " oleh {userId}",
+            "currentlyDisabled": "Berbagi saat ini dinonaktifkan.",
+            "readTerms": "Baca ketentuan layanan kami",
+            "updateFailed": "Gagal memperbarui berbagi umpan balik"
+          },
+          "invites": {
+            "title": "Undangan",
+            "generateHint": "Buat cuplikan undangan agent OpenClaw.",
+            "hintTooltip": "Membuat undangan agent OpenClaw berdurasi singkat dan menampilkan teks siap salin.",
+            "generateButton": "Buat Undangan OpenClaw",
+            "generating": "Membuat...",
+            "snippetTitle": "Teks Undangan OpenClaw",
+            "copied": "Tersalin",
+            "copySnippet": "Salin cuplikan",
+            "copiedSnippet": "Cuplikan tersalin"
+          },
+          "packages": {
+            "title": "Paket Perusahaan",
+            "description": "Impor dan ekspor telah dipindahkan ke halaman khusus yang dapat diakses dari header Org Chart.",
+            "export": "Ekspor",
+            "import": "Impor"
+          },
+          "dangerZone": {
+            "title": "Zona Berbahaya",
+            "archiveDescription": "Arsipkan perusahaan ini untuk menyembunyikannya dari bilah sisi. Data tetap tersimpan di database.",
+            "archiveButton": "Arsipkan perusahaan",
+            "archiving": "Mengarsipkan...",
+            "alreadyArchived": "Sudah diarsipkan",
+            "archiveConfirm": "Arsipkan perusahaan \"{name}\"? Perusahaan akan disembunyikan dari bilah sisi.",
+            "archiveFailed": "Gagal mengarsipkan perusahaan"
+          }
+        },
+        "access": {
+          "title": "Akses Perusahaan",
+          "description": "Kelola keanggotaan pengguna, status keanggotaan, dan pemberian izin eksplisit untuk {companyName}.",
+          "instanceAdminNotice": "Akun ini dapat mengelola akses melalui hak istimewa admin instance, tetapi saat ini tidak memiliki keanggotaan perusahaan yang aktif.",
+          "noPermission": "Anda tidak memiliki izin untuk mengelola anggota perusahaan.",
+          "loadFailed": "Gagal memuat anggota perusahaan.",
+          "selectCompany": "Pilih perusahaan untuk mengelola akses.",
+          "loadingAccess": "Memuat akses perusahaan...",
+          "humans": {
+            "title": "Pengguna",
+            "description": "Kelola keanggotaan, status, dan izin pengguna di sini.",
+            "noMembers": "Belum ditemukan anggota untuk perusahaan ini."
+          },
+          "joinRequests": {
+            "title": "Permintaan bergabung tertunda",
+            "description": "Tinjau permintaan bergabung sebelum mereka menjadi anggota perusahaan aktif.",
+            "pending": "{count} tertunda",
+            "approveHuman": "Setujui",
+            "rejectHuman": "Tolak",
+            "submitted": "Dikirim {date}",
+            "approved": "Permintaan bergabung disetujui",
+            "rejected": "Permintaan bergabung ditolak",
+            "approveFailed": "Gagal menyetujui permintaan bergabung",
+            "rejectFailed": "Gagal menolak permintaan bergabung"
+          },
+          "table": {
+            "userAccount": "Akun pengguna",
+            "role": "Peran",
+            "status": "Status",
+            "grants": "Izin",
+            "action": "Tindakan",
+            "noExplicitGrants": "Tidak ada izin eksplisit",
+            "unsetRole": "Belum ditentukan"
+          },
+          "editMember": {
+            "title": "Edit anggota",
+            "description": "Perbarui peran perusahaan, status keanggotaan, dan izin untuk {memberName}.",
+            "companyRole": "Peran perusahaan",
+            "membershipStatus": "Status keanggotaan",
+            "statusActive": "Aktif",
+            "statusPending": "Tertunda",
+            "statusSuspended": "Ditangguhkan",
+            "grants": "Izin",
+            "grantsDescription": "Peran memberikan izin implisit secara otomatis. Izin eksplisit di bawah ini hanya untuk penggantian dan akses tambahan yang harus tetap ada meskipun peran berubah.",
+            "implicitGrants": "Izin implisit dari peran",
+            "implicitGrantsWithRole": "{role} saat ini mencakup izin-izin ini secara otomatis.",
+            "implicitGrantsNoRole": "Tidak ada peran yang dipilih, sehingga anggota ini tidak memiliki izin implisit saat ini.",
+            "explicitGrantNote": "Ditetapkan secara eksplisit untuk anggota ini.",
+            "implicitIncludedNote": "Tercakup secara implisit oleh peran {role}. Tambahkan izin eksplisit hanya jika harus tetap ada setelah peran berubah.",
+            "saveAccess": "Simpan akses",
+            "savingAccess": "Menyimpan...",
+            "memberUpdated": "Anggota diperbarui",
+            "updateFailed": "Gagal memperbarui anggota"
+          },
+          "permissions": {
+            "agents:create": "Buat agent",
+            "users:invite": "Undang pengguna dan agent",
+            "users:manage_permissions": "Kelola anggota dan izin",
+            "tasks:assign": "Tetapkan tugas",
+            "tasks:assign_scope": "Tetapkan tugas bercakupan",
+            "joins:approve": "Setujui permintaan bergabung"
+          }
+        },
+        "instance": {
+          "title": "Pengaturan Instance",
+          "comingSoon": "Fitur ini sedang dalam pengembangan dan akan tersedia di rilis mendatang.",
+          "general": {
+            "title": "Umum",
+            "description": "Konfigurasikan pengaturan default seluruh instance yang memengaruhi tampilan log operator.",
+            "deployment": {
+              "title": "Deployment dan autentikasi",
+              "localTrusted": "Mode Local trusted dioptimalkan untuk operator lokal. Permintaan browser berjalan sebagai konteks board lokal dan tidak memerlukan login.",
+              "authenticatedPublic": "Mode Authenticated public memerlukan login untuk akses board dan ditujukan untuk URL publik.",
+              "authenticatedPrivate": "Mode Authenticated private memerlukan login dan ditujukan untuk deployment LAN, VPN, atau jaringan privat lainnya.",
+              "authReadiness": "Kesiapan autentikasi",
+              "ready": "Siap",
+              "notReady": "Belum siap",
+              "bootstrapStatus": "Status bootstrap",
+              "setupRequired": "Perlu pengaturan",
+              "bootstrapInvite": "Undangan bootstrap",
+              "active": "Aktif",
+              "none": "Tidak ada"
+            },
+            "censorUsername": {
+              "title": "Sembunyikan nama pengguna di log",
+              "description": "Sembunyikan segmen nama pengguna di jalur direktori home dan output log yang terlihat operator. Penyebutan nama pengguna mandiri di luar jalur belum disembunyikan di tampilan transkrip langsung. Pengaturan ini nonaktif secara default."
+            },
+            "keyboardShortcuts": {
+              "title": "Pintasan keyboard",
+              "description": "Aktifkan pintasan keyboard aplikasi, termasuk navigasi kotak masuk dan pintasan global seperti membuat isu atau mengalihkan panel. Pengaturan ini nonaktif secara default."
+            },
+            "backupRetention": {
+              "title": "Retensi cadangan",
+              "description": "Konfigurasikan berapa lama menyimpan cadangan database otomatis di setiap tingkat. Cadangan harian disimpan lengkap, lalu ditipiskan menjadi satu per minggu dan satu per bulan. Cadangan dikompresi dengan gzip.",
+              "daily": "Harian",
+              "weekly": "Mingguan",
+              "monthly": "Bulanan",
+              "days": "{count} hari",
+              "week": "1 minggu",
+              "weeks": "{count} minggu",
+              "month": "1 bulan",
+              "months": "{count} bulan"
+            },
+            "feedbackSharing": {
+              "title": "Berbagi umpan balik AI",
+              "description": "Kontrol apakah vote suka dan tidak suka dapat mengirim output AI yang divoting ke Flyto Labs. Vote selalu disimpan secara lokal.",
+              "readTerms": "Baca ketentuan layanan kami",
+              "noDefault": "Belum ada pengaturan default. Pilihan suka atau tidak suka berikutnya akan bertanya sekali lalu menyimpan jawabannya di sini.",
+              "alwaysAllow": "Selalu izinkan",
+              "alwaysAllowDesc": "Bagikan output AI yang divoting secara otomatis.",
+              "dontAllow": "Jangan izinkan",
+              "dontAllowDesc": "Simpan output AI yang divoting hanya secara lokal.",
+              "devHint": "Untuk menguji ulang prompt penggunaan pertama di local dev, hapus kunci feedbackDataSharingPreference dari baris JSON instance_settings.general untuk instance ini, atau atur kembali ke \"prompt\". Baik kosong maupun \"prompt\" berarti belum ada default yang dipilih."
+            },
+            "signOut": {
+              "title": "Keluar",
+              "description": "Keluar dari instance Flyto ini. Anda akan diarahkan ke halaman login.",
+              "button": "Keluar",
+              "signingOut": "Sedang keluar..."
+            }
+          },
+          "heartbeats": {
+            "title": "Heartbeat Penjadwal",
+            "description": "Agent dengan timer heartbeat yang diaktifkan di semua perusahaan Anda.",
+            "active": "aktif",
+            "disabled": "nonaktif",
+            "company": "perusahaan",
+            "companies": "perusahaan",
+            "disableAll": "Nonaktifkan Semua",
+            "disabling": "Menonaktifkan...",
+            "disableConfirm": "Nonaktifkan timer heartbeat untuk semua {count} {noun} yang aktif?",
+            "enableTimer": "Aktifkan Timer Heartbeat",
+            "disableTimer": "Nonaktifkan Timer Heartbeat",
+            "never": "tidak pernah",
+            "noHeartbeats": "Tidak ada heartbeat penjadwal yang cocok dengan kriteria saat ini.",
+            "loadingHeartbeats": "Memuat heartbeat penjadwal...",
+            "updateFailed": "Gagal memperbarui heartbeat.",
+            "disableAllFailed": "Gagal menonaktifkan semua heartbeat."
+          },
+          "sidebar": {
+            "title": "Pengaturan Instance",
+            "profile": "Profil",
+            "general": "Umum",
+            "access": "Akses",
+            "heartbeats": "Heartbeats",
+            "experimental": "Eksperimental",
+            "plugins": "Plugin",
+            "adapters": "Adapter"
+          }
+        },
+        "profile": {
+          "title": "Profil",
+          "description": "Kontrol tampilan akun Anda di bilah sisi dan area board lainnya.",
+          "displayName": "Nama tampilan",
+          "displayNameHint": "Ditampilkan di footer akun bilah sisi dan area penulis komentar.",
+          "displayNamePlaceholder": "Board",
+          "email": "Email",
+          "emailHint": "Email dikelola oleh sesi autentikasi Anda dan bersifat hanya-baca di sini.",
+          "noEmail": "Tidak ada email",
+          "changePhoto": "Ganti foto",
+          "uploadPhoto": "Unggah foto",
+          "removePhoto": "Hapus",
+          "saveProfile": "Simpan profil",
+          "savingProfile": "Menyimpan...",
+          "uploadHintWithCompany": "Disimpan di penyimpanan file Flyto untuk {companyName}.",
+          "uploadHintNoCompany": "Pilih perusahaan untuk mengunggah avatar ke penyimpanan Flyto.",
+          "uploadFailed": "Gagal mengunggah avatar.",
+          "removeFailed": "Gagal menghapus avatar.",
+          "updateFailed": "Gagal memperbarui profil.",
+          "loadFailed": "Gagal memuat profil.",
+          "loadingProfile": "Memuat profil...",
+          "selectCompanyForUpload": "Pilih perusahaan sebelum mengunggah avatar profil."
+        },
+        "plugins": {
+          "title": "Plugin",
+          "installed": "Plugin Terpasang",
+          "available": "Plugin Tersedia",
+          "install": "Pasang",
+          "uninstall": "Copot",
+          "uninstalling": "Mencopot...",
+          "enable": "Aktifkan",
+          "disable": "Nonaktifkan",
+          "settings": "Pengaturan",
+          "configure": "Konfigurasi",
+          "installing": "Memasang...",
+          "noPlugins": "Belum ada plugin terpasang",
+          "noPluginsHint": "Pasang plugin untuk menambah fungsionalitas.",
+          "noDescription": "Tidak ada deskripsi.",
+          "notInstalled": "Belum terpasang",
+          "noExamples": "Tidak ditemukan plugin contoh bawaan di checkout ini.",
+          "loadFailed": "Gagal memuat plugin.",
+          "alphaWarning": "Plugin masih dalam tahap alpha.",
+          "alphaDescription": "Runtime dan API plugin masih berubah. Perkirakan akan ada perubahan yang tidak kompatibel selama fitur ini berkembang.",
+          "example": "Contoh",
+          "examples": "Contoh",
+          "openSettings": "Buka Pengaturan",
+          "review": "Tinjau",
+          "installExample": "Pasang Contoh",
+          "pluginError": "Error plugin",
+          "viewFullError": "Lihat error lengkap",
+          "pluginDetails": "Detail Plugin",
+          "installSuccess": "Plugin berhasil dipasang",
+          "installFailed": "Gagal memasang plugin",
+          "uninstallSuccess": "Plugin berhasil dicopot",
+          "uninstallFailed": "Gagal mencopot plugin",
+          "enableSuccess": "Plugin diaktifkan",
+          "enableFailed": "Gagal mengaktifkan plugin",
+          "disableSuccess": "Plugin dinonaktifkan",
+          "disableFailed": "Gagal menonaktifkan plugin",
+          "installDialog": {
+            "title": "Pasang Plugin",
+            "description": "Masukkan nama paket npm dari plugin yang ingin Anda pasang.",
+            "packageName": "Nama paket npm",
+            "placeholder": "contoh: @flyto/plugin-example"
+          },
+          "uninstallDialog": {
+            "title": "Copot Plugin",
+            "description": "Apakah Anda yakin ingin mencopot plugin ini? Tindakan ini tidak dapat dibatalkan."
+          },
+          "errorDetails": {
+            "title": "Detail Error",
+            "description": "mengalami error.",
+            "whatErrored": "Sumber error",
+            "noSummary": "Tidak ada ringkasan error.",
+            "fullOutput": "Output error lengkap",
+            "noMessage": "Tidak ada pesan error tersimpan."
+          }
+        }
+      }
+    }
+  }
+}

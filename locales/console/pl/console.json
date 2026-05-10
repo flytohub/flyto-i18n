@@ -1,0 +1,355 @@
+{
+  "locale": "pl",
+  "category": "console",
+  "version": "1.0.0",
+  "translations": {
+    "console": {
+      "common": {
+        "loading": "Ładowanie...",
+        "saving": "Zapisywanie...",
+        "saved": "Zapisano",
+        "save": "Zapisz",
+        "cancel": "Anuluj",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "confirm": "Potwierdź",
+        "error": "Wystąpił błąd",
+        "close": "Zamknij",
+        "noCompanySelected": "Nie wybrano firmy. Wybierz firmę z przełącznika powyżej."
+      },
+      "auth": {
+        "signInTitle": "Logowanie",
+        "signUpTitle": "Utwórz konto",
+        "signInDesc": "Zaloguj się do swojego konta Flyto.",
+        "signUpDesc": "Utwórz nowe konto Flyto.",
+        "name": "Imię i nazwisko",
+        "email": "E-mail",
+        "password": "Hasło",
+        "signIn": "Zaloguj się",
+        "signUp": "Zarejestruj się",
+        "working": "Przetwarzanie...",
+        "fillFields": "Proszę wypełnić wszystkie pola.",
+        "noAccount": "Nie masz konta?",
+        "hasAccount": "Masz już konto?",
+        "createOne": "Utwórz konto"
+      },
+      "settings": {
+        "title": "Ustawienia",
+        "accessDenied": {
+          "title": "Brak dostępu",
+          "description": "Nie posiadasz wymaganych uprawnień do wyświetlenia tej strony.",
+          "backToDashboard": "Powrót do pulpitu",
+          "instanceAdminTitle": "Wymagany administrator instancji",
+          "instanceAdminDescription": "Ta strona jest dostępna wyłącznie dla administratorów instancji.",
+          "companyAdminTitle": "Wymagany dostęp administratora",
+          "companyAdminDescription": "Ta strona jest dostępna wyłącznie dla administratorów i właścicieli firmy."
+        },
+        "company": {
+          "title": "Ustawienia firmy",
+          "sidebar": {
+            "backToCompany": "Powrót do firmy",
+            "title": "Ustawienia firmy",
+            "general": "Ogólne",
+            "access": "Dostęp",
+            "invites": "Zaproszenia"
+          },
+          "general": {
+            "title": "Ogólne",
+            "companyName": "Nazwa firmy",
+            "companyNameHint": "Wyświetlana nazwa firmy.",
+            "description": "Opis",
+            "descriptionHint": "Opcjonalny opis widoczny w profilu firmy.",
+            "descriptionPlaceholder": "Opcjonalny opis firmy"
+          },
+          "appearance": {
+            "title": "Wygląd",
+            "logo": "Logo",
+            "logoHint": "Prześlij obraz logo w formacie PNG, JPEG, WEBP, GIF lub SVG.",
+            "removeLogo": "Usuń logo",
+            "removing": "Usuwanie...",
+            "uploadingLogo": "Przesyłanie logo...",
+            "logoUploadFailed": "Przesyłanie logo nie powiodło się",
+            "brandColor": "Kolor marki",
+            "brandColorHint": "Ustawia odcień ikony firmy. Pozostaw puste, aby użyć automatycznie wygenerowanego koloru.",
+            "brandColorPlaceholder": "Automatyczny",
+            "clearColor": "Wyczyść"
+          },
+          "saveChanges": "Zapisz zmiany",
+          "hiring": {
+            "title": "Rekrutacja",
+            "requireApproval": "Wymagaj zatwierdzenia zarządu dla nowych rekrutacji",
+            "requireApprovalHint": "Nowe rekrutacje agentów oczekują na zatwierdzenie przez zarząd."
+          },
+          "feedbackSharing": {
+            "title": "Udostępnianie opinii",
+            "toggle": "Zezwalaj na udostępnianie ocenionych wyników AI firmie Flyto Labs",
+            "toggleHint": "Tylko wyniki wygenerowane przez AI, które zostały jawnie ocenione, kwalifikują się do udostępnienia.",
+            "description": "Oceny są zawsze zapisywane lokalnie. To ustawienie kontroluje, czy ocenione wyniki AI mogą być również oznaczone do udostępnienia firmie Flyto Labs.",
+            "termsVersion": "Wersja regulaminu",
+            "enabled": "Udostępnianie opinii włączone",
+            "disabled": "Udostępnianie opinii wyłączone",
+            "enabledAt": "Włączono {date}",
+            "enabledBy": " przez {userId}",
+            "currentlyDisabled": "Udostępnianie jest obecnie wyłączone.",
+            "readTerms": "Przeczytaj regulamin",
+            "updateFailed": "Nie udało się zaktualizować udostępniania opinii"
+          },
+          "invites": {
+            "title": "Zaproszenia",
+            "generateHint": "Wygeneruj fragment zaproszenia agenta OpenClaw.",
+            "hintTooltip": "Tworzy krótkoterminowe zaproszenie agenta OpenClaw i wyświetla gotowy do skopiowania tekst.",
+            "generateButton": "Wygeneruj zaproszenie OpenClaw",
+            "generating": "Generowanie...",
+            "snippetTitle": "Zaproszenie OpenClaw",
+            "copied": "Skopiowano",
+            "copySnippet": "Kopiuj fragment",
+            "copiedSnippet": "Fragment skopiowany"
+          },
+          "packages": {
+            "title": "Pakiety firmy",
+            "description": "Import i eksport zostały przeniesione na dedykowane strony dostępne z nagłówka Org Chart.",
+            "export": "Eksportuj",
+            "import": "Importuj"
+          },
+          "dangerZone": {
+            "title": "Strefa zagrożenia",
+            "archiveDescription": "Zarchiwizuj tę firmę, aby ukryć ją z paska bocznego. Dane pozostają w bazie danych.",
+            "archiveButton": "Zarchiwizuj firmę",
+            "archiving": "Archiwizowanie...",
+            "alreadyArchived": "Już zarchiwizowano",
+            "archiveConfirm": "Zarchiwizować firmę \"{name}\"? Zostanie ukryta z paska bocznego.",
+            "archiveFailed": "Nie udało się zarchiwizować firmy"
+          }
+        },
+        "access": {
+          "title": "Dostęp do firmy",
+          "description": "Zarządzaj członkostwem użytkowników, statusem członkostwa i jawnymi przyznaniami uprawnień dla {companyName}.",
+          "instanceAdminNotice": "To konto może zarządzać dostępem za pośrednictwem uprawnień administratora instancji, ale obecnie nie posiada aktywnego członkostwa w firmie.",
+          "noPermission": "Nie posiadasz uprawnień do zarządzania członkami firmy.",
+          "loadFailed": "Nie udało się załadować członków firmy.",
+          "selectCompany": "Wybierz firmę, aby zarządzać dostępem.",
+          "loadingAccess": "Ładowanie dostępu do firmy...",
+          "humans": {
+            "title": "Użytkownicy",
+            "description": "Zarządzaj członkostwem, statusem i uprawnieniami użytkowników.",
+            "noMembers": "Nie znaleziono jeszcze członków dla tej firmy."
+          },
+          "joinRequests": {
+            "title": "Oczekujące prośby o dołączenie",
+            "description": "Przejrzyj prośby o dołączenie, zanim użytkownicy staną się aktywnymi członkami firmy.",
+            "pending": "{count} oczekujących",
+            "approveHuman": "Zatwierdź",
+            "rejectHuman": "Odrzuć",
+            "submitted": "Przesłano {date}",
+            "approved": "Prośba o dołączenie zatwierdzona",
+            "rejected": "Prośba o dołączenie odrzucona",
+            "approveFailed": "Nie udało się zatwierdzić prośby o dołączenie",
+            "rejectFailed": "Nie udało się odrzucić prośby o dołączenie"
+          },
+          "table": {
+            "userAccount": "Konto użytkownika",
+            "role": "Rola",
+            "status": "Status",
+            "grants": "Uprawnienia",
+            "action": "Akcja",
+            "noExplicitGrants": "Brak jawnych uprawnień",
+            "unsetRole": "Nieokreślona"
+          },
+          "editMember": {
+            "title": "Edytuj członka",
+            "description": "Zaktualizuj rolę w firmie, status członkostwa i jawne uprawnienia dla {memberName}.",
+            "companyRole": "Rola w firmie",
+            "membershipStatus": "Status członkostwa",
+            "statusActive": "Aktywny",
+            "statusPending": "Oczekujący",
+            "statusSuspended": "Zawieszony",
+            "grants": "Uprawnienia",
+            "grantsDescription": "Role automatycznie przyznają uprawnienia niejawne. Jawne uprawnienia poniżej służą wyłącznie do nadpisań i dodatkowego dostępu, który powinien pozostać nawet po zmianie roli.",
+            "implicitGrants": "Uprawnienia niejawne z roli",
+            "implicitGrantsWithRole": "Rola {role} obecnie automatycznie obejmuje te uprawnienia.",
+            "implicitGrantsNoRole": "Nie wybrano roli, więc ten członek nie ma obecnie żadnych uprawnień niejawnych.",
+            "explicitGrantNote": "Zapisane jawnie dla tego członka.",
+            "implicitIncludedNote": "Zawarte niejawnie przez rolę {role}. Dodaj jawne uprawnienie tylko wtedy, gdy ma pozostać po zmianie roli.",
+            "saveAccess": "Zapisz dostęp",
+            "savingAccess": "Zapisywanie...",
+            "memberUpdated": "Członek zaktualizowany",
+            "updateFailed": "Nie udało się zaktualizować członka"
+          },
+          "permissions": {
+            "agents:create": "Twórz agentów",
+            "users:invite": "Zapraszaj użytkowników i agentów",
+            "users:manage_permissions": "Zarządzaj członkami i uprawnieniami",
+            "tasks:assign": "Przydzielaj zadania",
+            "tasks:assign_scope": "Przydzielaj zadania z zakresem",
+            "joins:approve": "Zatwierdzaj prośby o dołączenie"
+          }
+        },
+        "instance": {
+          "title": "Ustawienia instancji",
+          "comingSoon": "Ta funkcja jest w trakcie rozwoju i będzie dostępna w przyszłej wersji.",
+          "general": {
+            "title": "Ogólne",
+            "description": "Konfiguruj domyślne ustawienia instancji wpływające na wyświetlanie logów operatora.",
+            "deployment": {
+              "title": "Wdrożenie i uwierzytelnianie",
+              "localTrusted": "Tryb Local trusted jest zoptymalizowany dla lokalnego operatora. Żądania przeglądarki działają w kontekście lokalnego boardu i logowanie nie jest wymagane.",
+              "authenticatedPublic": "Tryb Authenticated public wymaga logowania do dostępu do boardu i jest przeznaczony dla publicznych adresów URL.",
+              "authenticatedPrivate": "Tryb Authenticated private wymaga logowania i jest przeznaczony do wdrożeń w sieci LAN, VPN lub innych sieciach prywatnych.",
+              "authReadiness": "Gotowość uwierzytelniania",
+              "ready": "Gotowe",
+              "notReady": "Niegotowe",
+              "bootstrapStatus": "Status inicjalizacji",
+              "setupRequired": "Wymagana konfiguracja",
+              "bootstrapInvite": "Zaproszenie inicjalizacyjne",
+              "active": "Aktywne",
+              "none": "Brak"
+            },
+            "censorUsername": {
+              "title": "Ukryj nazwę użytkownika w logach",
+              "description": "Ukryj segment nazwy użytkownika w ścieżkach katalogu domowego i podobnych wynikach logów widocznych dla operatora. Samodzielne wzmianki nazwy użytkownika poza ścieżkami nie są jeszcze maskowane w widoku transkrypcji na żywo. Domyślnie wyłączone."
+            },
+            "keyboardShortcuts": {
+              "title": "Skróty klawiszowe",
+              "description": "Włącz skróty klawiszowe aplikacji, w tym nawigację skrzynki odbiorczej i globalne skróty, takie jak tworzenie zgłoszeń lub przełączanie paneli. Domyślnie wyłączone."
+            },
+            "backupRetention": {
+              "title": "Przechowywanie kopii zapasowych",
+              "description": "Skonfiguruj, jak długo przechowywać automatyczne kopie zapasowe bazy danych na każdym poziomie. Kopie dzienne są przechowywane w całości, a następnie redukowane do jednej na tydzień i jednej na miesiąc. Kopie są kompresowane za pomocą gzip.",
+              "daily": "Dziennie",
+              "weekly": "Tygodniowo",
+              "monthly": "Miesięcznie",
+              "days": "{count} dni",
+              "week": "1 tydzień",
+              "weeks": "{count} tygodni",
+              "month": "1 miesiąc",
+              "months": "{count} miesięcy"
+            },
+            "feedbackSharing": {
+              "title": "Udostępnianie opinii o AI",
+              "description": "Kontroluj, czy oceny kciuk w górę i kciuk w dół mogą wysyłać ocenione wyniki AI do Flyto Labs. Oceny są zawsze zapisywane lokalnie.",
+              "readTerms": "Przeczytaj regulamin",
+              "noDefault": "Nie zapisano jeszcze ustawienia domyślnego. Następna ocena kciuk w górę lub kciuk w dół zapyta raz, a następnie zapisze odpowiedź tutaj.",
+              "alwaysAllow": "Zawsze zezwalaj",
+              "alwaysAllowDesc": "Automatycznie udostępniaj ocenione wyniki AI.",
+              "dontAllow": "Nie zezwalaj",
+              "dontAllowDesc": "Przechowuj ocenione wyniki AI tylko lokalnie.",
+              "devHint": "Aby ponownie przetestować monit pierwszego użycia w local dev, usuń klucz feedbackDataSharingPreference z wiersza JSON instance_settings.general dla tej instancji lub ustaw go z powrotem na \"prompt\". Zarówno puste, jak i \"prompt\" oznaczają, że nie wybrano jeszcze ustawienia domyślnego."
+            },
+            "signOut": {
+              "title": "Wyloguj się",
+              "description": "Wyloguj się z tej instancji Flyto. Nastąpi przekierowanie na stronę logowania.",
+              "button": "Wyloguj się",
+              "signingOut": "Wylogowywanie..."
+            }
+          },
+          "heartbeats": {
+            "title": "Heartbeaty harmonogramu",
+            "description": "Agenci z włączonym timerem heartbeat we wszystkich firmach.",
+            "active": "aktywny",
+            "disabled": "wyłączony",
+            "company": "firma",
+            "companies": "firmy",
+            "disableAll": "Wyłącz wszystkie",
+            "disabling": "Wyłączanie...",
+            "disableConfirm": "Wyłączyć timer heartbeat dla wszystkich {count} włączonych {noun}?",
+            "enableTimer": "Włącz Timer Heartbeat",
+            "disableTimer": "Wyłącz Timer Heartbeat",
+            "never": "nigdy",
+            "noHeartbeats": "Brak heartbeatów harmonogramu spełniających bieżące kryteria.",
+            "loadingHeartbeats": "Ładowanie heartbeatów harmonogramu...",
+            "updateFailed": "Nie udało się zaktualizować heartbeatu.",
+            "disableAllFailed": "Nie udało się wyłączyć wszystkich heartbeatów."
+          },
+          "sidebar": {
+            "title": "Ustawienia instancji",
+            "profile": "Profil",
+            "general": "Ogólne",
+            "access": "Dostęp",
+            "heartbeats": "Heartbeaty",
+            "experimental": "Eksperymentalne",
+            "plugins": "Wtyczki",
+            "adapters": "Adaptery"
+          }
+        },
+        "profile": {
+          "title": "Profil",
+          "description": "Kontroluj sposób wyświetlania konta na pasku bocznym i innych powierzchniach boardu.",
+          "displayName": "Nazwa wyświetlana",
+          "displayNameHint": "Wyświetlana w stopce konta na pasku bocznym i w sekcji autora komentarzy.",
+          "displayNamePlaceholder": "Board",
+          "email": "E-mail",
+          "emailHint": "E-mail jest zarządzany przez sesję uwierzytelniania i jest tutaj tylko do odczytu.",
+          "noEmail": "Brak e-maila",
+          "changePhoto": "Zmień zdjęcie",
+          "uploadPhoto": "Prześlij zdjęcie",
+          "removePhoto": "Usuń",
+          "saveProfile": "Zapisz profil",
+          "savingProfile": "Zapisywanie...",
+          "uploadHintWithCompany": "Przechowywane w magazynie plików Flyto dla {companyName}.",
+          "uploadHintNoCompany": "Wybierz firmę, aby przesłać awatar do magazynu Flyto.",
+          "uploadFailed": "Nie udało się przesłać awatara.",
+          "removeFailed": "Nie udało się usunąć awatara.",
+          "updateFailed": "Nie udało się zaktualizować profilu.",
+          "loadFailed": "Nie udało się załadować profilu.",
+          "loadingProfile": "Ładowanie profilu...",
+          "selectCompanyForUpload": "Wybierz firmę przed przesłaniem awatara profilu."
+        },
+        "plugins": {
+          "title": "Wtyczki",
+          "installed": "Zainstalowane wtyczki",
+          "available": "Dostępne wtyczki",
+          "install": "Zainstaluj",
+          "uninstall": "Odinstaluj",
+          "uninstalling": "Odinstalowywanie...",
+          "enable": "Włącz",
+          "disable": "Wyłącz",
+          "settings": "Ustawienia",
+          "configure": "Konfiguruj",
+          "installing": "Instalowanie...",
+          "noPlugins": "Brak zainstalowanych wtyczek",
+          "noPluginsHint": "Zainstaluj wtyczkę, aby rozszerzyć funkcjonalność.",
+          "noDescription": "Brak opisu.",
+          "notInstalled": "Nie zainstalowano",
+          "noExamples": "Nie znaleziono przykładowych wtyczek w tym checkout.",
+          "loadFailed": "Nie udało się załadować wtyczek.",
+          "alphaWarning": "Wtyczki są w fazie alfa.",
+          "alphaDescription": "Środowisko uruchomieniowe i API wtyczek wciąż się zmieniają. Należy spodziewać się zmian powodujących niezgodności, dopóki ta funkcja nie zostanie ustabilizowana.",
+          "example": "Przykład",
+          "examples": "Przykłady",
+          "openSettings": "Otwórz ustawienia",
+          "review": "Przejrzyj",
+          "installExample": "Zainstaluj przykład",
+          "pluginError": "Błąd wtyczki",
+          "viewFullError": "Zobacz pełny błąd",
+          "pluginDetails": "Szczegóły wtyczki",
+          "installSuccess": "Wtyczka zainstalowana pomyślnie",
+          "installFailed": "Nie udało się zainstalować wtyczki",
+          "uninstallSuccess": "Wtyczka odinstalowana pomyślnie",
+          "uninstallFailed": "Nie udało się odinstalować wtyczki",
+          "enableSuccess": "Wtyczka włączona",
+          "enableFailed": "Nie udało się włączyć wtyczki",
+          "disableSuccess": "Wtyczka wyłączona",
+          "disableFailed": "Nie udało się wyłączyć wtyczki",
+          "installDialog": {
+            "title": "Zainstaluj wtyczkę",
+            "description": "Wprowadź nazwę pakietu npm wtyczki, którą chcesz zainstalować.",
+            "packageName": "Nazwa pakietu npm",
+            "placeholder": "np. @flyto/plugin-example"
+          },
+          "uninstallDialog": {
+            "title": "Odinstaluj wtyczkę",
+            "description": "Czy na pewno chcesz odinstalować tę wtyczkę? Tej operacji nie można cofnąć."
+          },
+          "errorDetails": {
+            "title": "Szczegóły błędu",
+            "description": "wystąpił błąd.",
+            "whatErrored": "Źródło błędu",
+            "noSummary": "Brak podsumowania błędu.",
+            "fullOutput": "Pełne dane wyjściowe błędu",
+            "noMessage": "Brak zapisanego komunikatu o błędzie."
+          }
+        }
+      }
+    }
+  }
+}

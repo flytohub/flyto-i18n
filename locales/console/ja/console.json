@@ -1,0 +1,355 @@
+{
+  "locale": "ja",
+  "category": "console",
+  "version": "1.0.0",
+  "translations": {
+    "console": {
+      "common": {
+        "loading": "読み込み中...",
+        "saving": "保存中...",
+        "saved": "保存しました",
+        "save": "保存",
+        "cancel": "キャンセル",
+        "edit": "編集",
+        "delete": "削除",
+        "confirm": "確認",
+        "error": "エラーが発生しました",
+        "close": "閉じる",
+        "noCompanySelected": "会社が選択されていません。上部の切り替えから会社を選択してください。"
+      },
+      "auth": {
+        "signInTitle": "ログイン",
+        "signUpTitle": "アカウント作成",
+        "signInDesc": "Flyto アカウントにログインします。",
+        "signUpDesc": "新しい Flyto アカウントを作成します。",
+        "name": "名前",
+        "email": "メール",
+        "password": "パスワード",
+        "signIn": "ログイン",
+        "signUp": "登録",
+        "working": "処理中...",
+        "fillFields": "すべてのフィールドを入力してください。",
+        "noAccount": "アカウントをお持ちでないですか？",
+        "hasAccount": "すでにアカウントをお持ちですか？",
+        "createOne": "作成する"
+      },
+      "settings": {
+        "title": "設定",
+        "accessDenied": {
+          "title": "アクセス拒否",
+          "description": "このページを表示するための権限がありません。",
+          "backToDashboard": "ダッシュボードに戻る",
+          "instanceAdminTitle": "インスタンス管理者が必要です",
+          "instanceAdminDescription": "このページはインスタンス管理者に限定されています。",
+          "companyAdminTitle": "管理者アクセスが必要です",
+          "companyAdminDescription": "このページは会社の管理者とオーナーに限定されています。"
+        },
+        "company": {
+          "title": "会社設定",
+          "sidebar": {
+            "backToCompany": "会社に戻る",
+            "title": "会社設定",
+            "general": "一般",
+            "access": "アクセス",
+            "invites": "招待"
+          },
+          "general": {
+            "title": "一般",
+            "companyName": "会社名",
+            "companyNameHint": "会社の表示名です。",
+            "description": "説明",
+            "descriptionHint": "会社プロフィールに表示される任意の説明です。",
+            "descriptionPlaceholder": "任意の会社説明"
+          },
+          "appearance": {
+            "title": "外観",
+            "logo": "ロゴ",
+            "logoHint": "PNG、JPEG、WEBP、GIF、または SVG のロゴ画像をアップロードしてください。",
+            "removeLogo": "ロゴを削除",
+            "removing": "削除中...",
+            "uploadingLogo": "ロゴをアップロード中...",
+            "logoUploadFailed": "ロゴのアップロードに失敗しました",
+            "brandColor": "ブランドカラー",
+            "brandColorHint": "会社アイコンの色相を設定します。空欄の場合は自動生成されます。",
+            "brandColorPlaceholder": "自動",
+            "clearColor": "クリア"
+          },
+          "saveChanges": "変更を保存",
+          "hiring": {
+            "title": "採用",
+            "requireApproval": "新規採用にボードの承認を必要とする",
+            "requireApprovalHint": "新しいエージェントの採用は、ボードによって承認されるまで保留状態になります。"
+          },
+          "feedbackSharing": {
+            "title": "フィードバック共有",
+            "toggle": "投票した AI 出力を Flyto Labs と共有することを許可する",
+            "toggleHint": "明示的に投票した AI 生成出力のみがフィードバック共有の対象になります。",
+            "description": "投票は常にローカルに保存されます。この設定は、投票した AI 出力を Flyto Labs との共有対象としてマークするかどうかを制御します。",
+            "termsVersion": "利用規約バージョン",
+            "enabled": "フィードバック共有が有効です",
+            "disabled": "フィードバック共有が無効です",
+            "enabledAt": "{date} に有効化",
+            "enabledBy": " {userId} により",
+            "currentlyDisabled": "共有は現在無効です。",
+            "readTerms": "利用規約を読む",
+            "updateFailed": "フィードバック共有の更新に失敗しました"
+          },
+          "invites": {
+            "title": "招待",
+            "generateHint": "OpenClaw エージェント招待スニペットを生成します。",
+            "hintTooltip": "短期間有効な OpenClaw エージェント招待を作成し、コピー可能なプロンプトを表示します。",
+            "generateButton": "OpenClaw 招待プロンプトを生成",
+            "generating": "生成中...",
+            "snippetTitle": "OpenClaw 招待プロンプト",
+            "copied": "コピーしました",
+            "copySnippet": "スニペットをコピー",
+            "copiedSnippet": "スニペットをコピーしました"
+          },
+          "packages": {
+            "title": "会社パッケージ",
+            "description": "インポートとエクスポートは、組織図ヘッダーからアクセスできる専用ページに移動しました。",
+            "export": "エクスポート",
+            "import": "インポート"
+          },
+          "dangerZone": {
+            "title": "危険な操作",
+            "archiveDescription": "この会社をアーカイブしてサイドバーから非表示にします。データベースに永続化されます。",
+            "archiveButton": "会社をアーカイブ",
+            "archiving": "アーカイブ中...",
+            "alreadyArchived": "アーカイブ済み",
+            "archiveConfirm": "会社「{name}」をアーカイブしますか？サイドバーから非表示になります。",
+            "archiveFailed": "会社のアーカイブに失敗しました"
+          }
+        },
+        "access": {
+          "title": "会社アクセス",
+          "description": "{companyName} の会社ユーザーメンバーシップ、メンバーシップステータス、および明示的な権限付与を管理します。",
+          "instanceAdminNotice": "このアカウントはインスタンス管理者権限を通じてここでアクセスを管理できますが、現在アクティブな会社メンバーシップを保持していません。",
+          "noPermission": "会社メンバーを管理する権限がありません。",
+          "loadFailed": "会社メンバーの読み込みに失敗しました。",
+          "selectCompany": "アクセスを管理する会社を選択してください。",
+          "loadingAccess": "会社アクセスを読み込み中...",
+          "humans": {
+            "title": "ヒューマン",
+            "description": "ヒューマンの会社メンバーシップ、ステータス、権限付与をここで管理します。",
+            "noMembers": "この会社のユーザーメンバーシップはまだ見つかりませんでした。"
+          },
+          "joinRequests": {
+            "title": "ヒューマン参加保留中",
+            "description": "ヒューマンの参加リクエストを、アクティブな会社メンバーになる前に審査します。",
+            "pending": "{count} 件保留中",
+            "approveHuman": "ヒューマンを承認",
+            "rejectHuman": "ヒューマンを拒否",
+            "submitted": "{date} に提出",
+            "approved": "参加リクエストが承認されました",
+            "rejected": "参加リクエストが拒否されました",
+            "approveFailed": "参加リクエストの承認に失敗しました",
+            "rejectFailed": "参加リクエストの拒否に失敗しました"
+          },
+          "table": {
+            "userAccount": "ユーザーアカウント",
+            "role": "ロール",
+            "status": "ステータス",
+            "grants": "権限付与",
+            "action": "操作",
+            "noExplicitGrants": "明示的な権限付与なし",
+            "unsetRole": "未設定"
+          },
+          "editMember": {
+            "title": "メンバーを編集",
+            "description": "{memberName} の会社ロール、メンバーシップステータス、および明示的な権限付与を更新します。",
+            "companyRole": "会社ロール",
+            "membershipStatus": "メンバーシップステータス",
+            "statusActive": "アクティブ",
+            "statusPending": "保留中",
+            "statusSuspended": "停止中",
+            "grants": "権限付与",
+            "grantsDescription": "ロールは暗黙的な権限を自動的に付与します。以下の明示的な権限付与は、ロールが変更されても維持すべきオーバーライドや追加アクセスのためのものです。",
+            "implicitGrants": "ロールからの暗黙的な権限付与",
+            "implicitGrantsWithRole": "{role} には現在これらの権限が自動的に含まれています。",
+            "implicitGrantsNoRole": "ロールが選択されていないため、このメンバーには現在暗黙的な権限付与がありません。",
+            "explicitGrantNote": "このメンバーに対して明示的に保存されています。",
+            "implicitIncludedNote": "{role} ロールによって暗黙的に含まれています。ロール変更後も維持する必要がある場合のみ、明示的な権限付与を追加してください。",
+            "saveAccess": "アクセスを保存",
+            "savingAccess": "保存中...",
+            "memberUpdated": "メンバーを更新しました",
+            "updateFailed": "メンバーの更新に失敗しました"
+          },
+          "permissions": {
+            "agents:create": "エージェントを作成",
+            "users:invite": "ヒューマンとエージェントを招待",
+            "users:manage_permissions": "メンバーと権限付与を管理",
+            "tasks:assign": "タスクを割り当て",
+            "tasks:assign_scope": "スコープ付きタスクを割り当て",
+            "joins:approve": "参加リクエストを承認"
+          }
+        },
+        "instance": {
+          "title": "インスタンス設定",
+          "comingSoon": "この機能は開発中であり、将来のリリースで利用可能になります。",
+          "general": {
+            "title": "一般",
+            "description": "オペレーター向けログの表示方法に影響するインスタンス全体のデフォルトを設定します。",
+            "deployment": {
+              "title": "デプロイメントと認証",
+              "localTrusted": "ローカル信頼モードはローカルオペレーター向けに最適化されています。ブラウザリクエストはローカルボードコンテキストとして実行され、サインインは不要です。",
+              "authenticatedPublic": "認証パブリックモードはボードアクセスにサインインが必要であり、公開 URL 向けです。",
+              "authenticatedPrivate": "認証プライベートモードはサインインが必要であり、LAN、VPN、またはその他のプライベートネットワークデプロイメント向けです。",
+              "authReadiness": "認証の準備状態",
+              "ready": "準備完了",
+              "notReady": "未準備",
+              "bootstrapStatus": "ブートストラップステータス",
+              "setupRequired": "セットアップが必要です",
+              "bootstrapInvite": "ブートストラップ招待",
+              "active": "アクティブ",
+              "none": "なし"
+            },
+            "censorUsername": {
+              "title": "ログ内のユーザー名を隠す",
+              "description": "ホームディレクトリパスや同様のオペレーター向けログ出力内のユーザー名セグメントを非表示にします。パス外の単独のユーザー名の言及は、ライブトランスクリプトビューではまだマスクされません。デフォルトではオフです。"
+            },
+            "keyboardShortcuts": {
+              "title": "キーボードショートカット",
+              "description": "受信トレイナビゲーションや、課題の作成やパネルの切り替えなどのグローバルショートカットを含むアプリのキーボードショートカットを有効にします。デフォルトではオフです。"
+            },
+            "backupRetention": {
+              "title": "バックアップ保持期間",
+              "description": "各レベルで自動データベースバックアップを保持する期間を設定します。日次バックアップは完全に保持され、その後週次で1つ、月次で1つに間引かれます。バックアップは gzip で圧縮されます。",
+              "daily": "日次",
+              "weekly": "週次",
+              "monthly": "月次",
+              "days": "{count} 日間",
+              "week": "1 週間",
+              "weeks": "{count} 週間",
+              "month": "1 か月",
+              "months": "{count} か月"
+            },
+            "feedbackSharing": {
+              "title": "AI フィードバック共有",
+              "description": "高評価および低評価の投票が、投票した AI 出力を Flyto Labs に送信できるかどうかを制御します。投票は常にローカルに保存されます。",
+              "readTerms": "利用規約を読む",
+              "noDefault": "デフォルトはまだ保存されていません。次の高評価または低評価の選択時に一度確認され、その回答がここに保存されます。",
+              "alwaysAllow": "常に許可",
+              "alwaysAllowDesc": "投票した AI 出力を自動的に共有します。",
+              "dontAllow": "許可しない",
+              "dontAllowDesc": "投票した AI 出力をローカルのみに保持します。",
+              "devHint": "ローカル開発で初回プロンプトを再テストするには、このインスタンスの instance_settings.general JSON 行から feedbackDataSharingPreference キーを削除するか、\"prompt\" に戻してください。未設定と \"prompt\" はどちらもデフォルトがまだ選択されていないことを意味します。"
+            },
+            "signOut": {
+              "title": "サインアウト",
+              "description": "この Flyto インスタンスからサインアウトします。ログインページにリダイレクトされます。",
+              "button": "サインアウト",
+              "signingOut": "サインアウト中..."
+            }
+          },
+          "heartbeats": {
+            "title": "スケジューラーハートビート",
+            "description": "すべての会社にわたってタイマーハートビートが有効なエージェントです。",
+            "active": "アクティブ",
+            "disabled": "無効",
+            "company": "会社",
+            "companies": "会社",
+            "disableAll": "すべて無効化",
+            "disabling": "無効化中...",
+            "disableConfirm": "有効な {count} 件の{noun}のタイマーハートビートをすべて無効にしますか？",
+            "enableTimer": "タイマーハートビートを有効化",
+            "disableTimer": "タイマーハートビートを無効化",
+            "never": "なし",
+            "noHeartbeats": "現在の条件に一致するスケジューラーハートビートはありません。",
+            "loadingHeartbeats": "スケジューラーハートビートを読み込み中...",
+            "updateFailed": "ハートビートの更新に失敗しました。",
+            "disableAllFailed": "すべてのハートビートの無効化に失敗しました。"
+          },
+          "sidebar": {
+            "title": "インスタンス設定",
+            "profile": "プロフィール",
+            "general": "一般",
+            "access": "アクセス",
+            "heartbeats": "ハートビート",
+            "experimental": "実験的機能",
+            "plugins": "プラグイン",
+            "adapters": "アダプター"
+          }
+        },
+        "profile": {
+          "title": "プロフィール",
+          "description": "サイドバーやその他のボード画面でのアカウントの表示方法を設定します。",
+          "displayName": "表示名",
+          "displayNameHint": "サイドバーのアカウントフッターやコメント作成者の画面に表示されます。",
+          "displayNamePlaceholder": "ボード",
+          "email": "メール",
+          "emailHint": "メールは認証セッションによって管理されており、ここでは読み取り専用です。",
+          "noEmail": "メールなし",
+          "changePhoto": "写真を変更",
+          "uploadPhoto": "写真をアップロード",
+          "removePhoto": "削除",
+          "saveProfile": "プロフィールを保存",
+          "savingProfile": "保存中...",
+          "uploadHintWithCompany": "{companyName} の Flyto ファイルストレージに保存されます。",
+          "uploadHintNoCompany": "Flyto ストレージにアバターをアップロードするには会社を選択してください。",
+          "uploadFailed": "アバターのアップロードに失敗しました。",
+          "removeFailed": "アバターの削除に失敗しました。",
+          "updateFailed": "プロフィールの更新に失敗しました。",
+          "loadFailed": "プロフィールの読み込みに失敗しました。",
+          "loadingProfile": "プロフィールを読み込み中...",
+          "selectCompanyForUpload": "プロフィールアバターをアップロードする前に会社を選択してください。"
+        },
+        "plugins": {
+          "title": "プラグイン",
+          "installed": "インストール済みプラグイン",
+          "available": "利用可能なプラグイン",
+          "install": "インストール",
+          "uninstall": "アンインストール",
+          "uninstalling": "アンインストール中...",
+          "enable": "有効化",
+          "disable": "無効化",
+          "settings": "設定",
+          "configure": "設定する",
+          "installing": "インストール中...",
+          "noPlugins": "プラグインがインストールされていません",
+          "noPluginsHint": "機能を拡張するにはプラグインをインストールしてください。",
+          "noDescription": "説明が提供されていません。",
+          "notInstalled": "未インストール",
+          "noExamples": "このチェックアウトにはバンドルされたサンプルプラグインが見つかりませんでした。",
+          "loadFailed": "プラグインの読み込みに失敗しました。",
+          "alphaWarning": "プラグインはアルファ版です。",
+          "alphaDescription": "プラグインのランタイムと API サーフェスはまだ変更中です。この機能が安定するまで、破壊的変更が予想されます。",
+          "example": "サンプル",
+          "examples": "サンプル",
+          "openSettings": "設定を開く",
+          "review": "レビュー",
+          "installExample": "サンプルをインストール",
+          "pluginError": "プラグインエラー",
+          "viewFullError": "エラー全文を表示",
+          "pluginDetails": "プラグイン詳細",
+          "installSuccess": "プラグインが正常にインストールされました",
+          "installFailed": "プラグインのインストールに失敗しました",
+          "uninstallSuccess": "プラグインが正常にアンインストールされました",
+          "uninstallFailed": "プラグインのアンインストールに失敗しました",
+          "enableSuccess": "プラグインが有効化されました",
+          "enableFailed": "プラグインの有効化に失敗しました",
+          "disableSuccess": "プラグインが無効化されました",
+          "disableFailed": "プラグインの無効化に失敗しました",
+          "installDialog": {
+            "title": "プラグインをインストール",
+            "description": "インストールするプラグインの npm パッケージ名を入力してください。",
+            "packageName": "npm パッケージ名",
+            "placeholder": "例: @flyto/plugin-example"
+          },
+          "uninstallDialog": {
+            "title": "プラグインをアンインストール",
+            "description": "このプラグインをアンインストールしてもよろしいですか？この操作は元に戻せません。"
+          },
+          "errorDetails": {
+            "title": "エラー詳細",
+            "description": "エラー状態が発生しました。",
+            "whatErrored": "エラーの発生箇所",
+            "noSummary": "エラー概要はありません。",
+            "fullOutput": "エラー出力全文",
+            "noMessage": "保存されたエラーメッセージはありません。"
+          }
+        }
+      }
+    }
+  }
+}
