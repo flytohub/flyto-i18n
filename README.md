@@ -103,7 +103,7 @@ dist/                         # Auto-generated, served via CDN
 
 Rules:
 - Keys are dot-separated: `{scope}.{section}.{name}`
-- Values must be under 800 characters
+- Values must be under 500 characters
 - Use `{n}`, `{name}` for variables (not `${...}`)
 - Empty `""` = untranslated (app falls back to English automatically)
 

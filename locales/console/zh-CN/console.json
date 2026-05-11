@@ -117,7 +117,7 @@
             "archiveButton": "归档公司",
             "archiving": "归档中...",
             "alreadyArchived": "已归档",
-            "archiveConfirm": "归档公司"{name}"？它将从侧边栏中隐藏。",
+            "archiveConfirm": "归档公司「{name}」？它将从侧边栏中隐藏。",
             "archiveFailed": "公司归档失败"
           }
         },
