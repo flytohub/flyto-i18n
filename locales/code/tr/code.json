@@ -2150,16 +2150,7 @@
     "code.whois.registrar": "Kayıt kuruluşu",
     "code.whois.status": "Durum",
     "code.whois.title": "WHOIS / RDAP",
-    "code.whois.updated": "Güncellendi",
-    "code": {
-      "issues": {
-        "whyNoPR": "Neden otomatik PR yok?",
-        "skip_reason_no_fix_version": "Henüz düzeltme sürümü mevcut değil",
-        "skip_reason_transitive_dep": "Geçişli bağımlılık",
-        "skip_reason_manifest_not_found": "Paket hiçbir manifestoda bulunamadı",
-        "skip_reason_ai_invalid_version": "AI tarafından önerilen sürüm kayıt doğrulamasını geçemedi"
-      }
-    }
+    "code.whois.updated": "Güncellendi"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "tr",

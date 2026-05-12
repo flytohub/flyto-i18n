@@ -2150,16 +2150,7 @@
     "code.whois.registrar": "ผู้รับจดทะเบียน",
     "code.whois.status": "สถานะ",
     "code.whois.title": "WHOIS / RDAP",
-    "code.whois.updated": "อัปเดตเมื่อ",
-    "code": {
-      "issues": {
-        "whyNoPR": "ทำไมไม่มี PR อัตโนมัติ?",
-        "skip_reason_no_fix_version": "ยังไม่มีเวอร์ชันแก้ไข",
-        "skip_reason_transitive_dep": "การพึ่งพาแบบถ่ายทอด",
-        "skip_reason_manifest_not_found": "ไม่พบแพ็คเกจใน manifest ใดๆ",
-        "skip_reason_ai_invalid_version": "เวอร์ชันที่ AI แนะนำไม่ผ่านการตรวจสอบ registry"
-      }
-    }
+    "code.whois.updated": "อัปเดตเมื่อ"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "th",
