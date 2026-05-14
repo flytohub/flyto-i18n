@@ -874,6 +874,7 @@
     "code.item.exposureDomains": "域名情报",
     "code.item.exposureEmail": "电子邮件安全",
     "code.item.exposureHeaders": "Web 标头",
+    "code.item.exposureMonitoring": "告警中心",
     "code.item.exposurePorts": "网络暴露",
     "code.item.exposurePosture": "态势概览",
     "code.item.exposureReport": "执行报告",
