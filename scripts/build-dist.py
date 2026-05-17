@@ -24,9 +24,10 @@ Scopes (output):
 - dist/{locale}.json          - all translations (admin/full access)
 """
 
+import hashlib
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime  # noqa: F401  # kept for backward-compat callers
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -229,12 +230,20 @@ def build_locale(locale: str, scope: str = None) -> dict:
     # Get language metadata
     meta = LANGUAGE_META.get(locale, {'name': locale, 'native': locale, 'region': locale[:2].upper()})
 
+    # Content-derived version (audit 2026-05-17): a wall-clock
+    # datetime.now() makes every build "dirty" git even when the
+    # translations didn't change — caused check-dist-fresh to alarm
+    # forever once it started gating on push. Hash the flat content
+    # so version only changes when translations actually change.
+    payload = json.dumps(flat_merged, sort_keys=True, ensure_ascii=False).encode('utf-8')
+    version = hashlib.sha256(payload).hexdigest()[:12]
+
     return {
         'locale': locale,
         'name': meta['name'],
         'native': meta['native'],
         'region': meta['region'],
-        'version': datetime.now().strftime('%Y%m%d%H%M%S'),
+        'version': version,
         'files_merged': files_count,
         'total_keys': len(flat_merged),
         'translations': nested
@@ -242,10 +251,20 @@ def build_locale(locale: str, scope: str = None) -> dict:
 
 
 def build_manifest(locales_data: dict, flat_counts: dict) -> dict:
-    """Build manifest with locale metadata."""
+    """Build manifest with locale metadata.
+
+    `version` is derived from the SHA-256 of the per-locale versions
+    so two builds with identical content produce identical manifests.
+    `generated_at` intentionally omitted — including it would defeat
+    the content-stability promise."""
+    locale_versions = sorted(
+        f"{loc}:{data.get('version', '')}" for loc, data in locales_data.items()
+    )
+    manifest_version = hashlib.sha256(
+        ' '.join(locale_versions).encode('utf-8')
+    ).hexdigest()[:12]
     manifest = {
-        'version': datetime.now().strftime('%Y%m%d%H%M%S'),
-        'generated_at': datetime.now().isoformat(),
+        'version': manifest_version,
         'locales': {}
     }
 
