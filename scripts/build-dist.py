@@ -110,14 +110,16 @@ def flat_to_nested(flat_dict: dict) -> dict:
     """
     Convert flat keys to nested object for vue-i18n compatibility.
 
-    "cloud.myTemplates.title" → { myTemplates: { title: "..." } }
-    "modules.browser.click.label" → { modules: { browser: { click: { label: "..." } } } }
-
-    Strips "cloud." prefix so t('myTemplates.title') works directly.
-
-    Handles key conflicts:
-    - If both "a.b" and "a.b.c" exist, "a.b" is replaced by dict containing "c"
-    - Longer/more specific keys always win
+    Handles key conflicts (audit 2026-05-17):
+    - SPECIFIC child wins the dict slot at "a.b" so vue-i18n / engine
+      can drill into "a.b.c".
+    - GENERIC parent value is preserved as "a.b._self" instead of
+      being silently dropped. Without this preservation engine's
+      TranslateError step-2 generic fallback never resolves and
+      non-en locales fall through to raw English on any error whose
+      slug doesn't match a specific key.
+    - Engine's flatten() lifts "*._self" back to bare parent keys.
+      vue-i18n consumers ignore the _self leaf (no path queries it).
     """
     result = {}
 
@@ -142,10 +144,15 @@ def flat_to_nested(flat_dict: dict) -> dict:
                 current[part] = {}
             current = current[part]
 
-        # Set final value only if not already a dict (children exist)
         final_key = parts[-1]
-        if final_key not in current:
+        existing = current.get(final_key)
+        if existing is None:
             current[final_key] = value
+        elif isinstance(existing, dict):
+            # Collision: generic string vs children dict. Park at
+            # _self instead of dropping the generic.
+            if '_self' not in existing:
+                existing['_self'] = value
 
     return result
 

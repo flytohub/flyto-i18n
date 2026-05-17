@@ -17,6 +17,16 @@ on:
       - 'dist/**'
       - 'scripts/build-dist.py'
       - '.github/workflows/check-dist-fresh.yml'
+  # Also gate direct pushes. Without this, a bypassed-PR push leaves
+  # the CDN serving stale dist until build-dist.yml auto-fixes,
+  # which is exactly the gap audit 2026-05-17 found (code project
+  # had ~640-key drift across the long tail for weeks).
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+      - 'dist/**'
+      - 'scripts/build-dist.py'
 
 jobs:
   check:
