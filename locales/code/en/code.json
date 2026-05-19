@@ -2736,7 +2736,8 @@
     "code.whois.registrar": "Registrar",
     "code.whois.status": "Status",
     "code.whois.title": "WHOIS / RDAP",
-    "code.whois.updated": "Updated"
+    "code.whois.updated": "Updated",
+    "code.item.scoreTrends": "Score Trends"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
