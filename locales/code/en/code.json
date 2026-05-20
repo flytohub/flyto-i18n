@@ -2889,7 +2889,8 @@
     "footprint.reason.whois_ownership_conflict": "WHOIS ownership conflict",
     "footprint.reason.name_collision_common_word": "Common-word brand collision",
     "footprint.panel.export": "Export",
-    "footprint.panel.exportPack": "Open evidence pack — printable HTML, Cmd+P to save as PDF"
+    "footprint.panel.exportPack": "Open evidence pack — printable HTML, Cmd+P to save as PDF",
+    "footprint.autoRun": "Auto-runs every 24h"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

@@ -2888,7 +2888,8 @@
     "footprint.reason.whois_ownership_conflict": "WHOIS 擁有者不同",
     "footprint.reason.name_collision_common_word": "撞名常見字",
     "footprint.panel.export": "匯出",
-    "footprint.panel.exportPack": "開啟證據包 — 可列印 HTML,Cmd+P 存成 PDF"
+    "footprint.panel.exportPack": "開啟證據包 — 可列印 HTML,Cmd+P 存成 PDF",
+    "footprint.autoRun": "每 24 小時自動執行"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
