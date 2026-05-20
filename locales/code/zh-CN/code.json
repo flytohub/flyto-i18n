@@ -2886,7 +2886,9 @@
     "footprint.reason.different_industry": "行业不符",
     "footprint.reason.different_country": "国家不符",
     "footprint.reason.whois_ownership_conflict": "WHOIS 所有者不同",
-    "footprint.reason.name_collision_common_word": "撞名常见字"
+    "footprint.reason.name_collision_common_word": "撞名常见字",
+    "footprint.panel.export": "导出",
+    "footprint.panel.exportPack": "打开证据包 — 可打印 HTML,Cmd+P 另存为 PDF"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

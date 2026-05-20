@@ -2859,7 +2859,9 @@
     "footprint.reason.different_industry": "業界が異なる",
     "footprint.reason.different_country": "国が異なる",
     "footprint.reason.whois_ownership_conflict": "WHOIS 所有者が異なる",
-    "footprint.reason.name_collision_common_word": "一般語との衝突"
+    "footprint.reason.name_collision_common_word": "一般語との衝突",
+    "footprint.panel.export": "エクスポート",
+    "footprint.panel.exportPack": "証拠パックを開く — 印刷可能 HTML、Cmd+P で PDF 保存"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

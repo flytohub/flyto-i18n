@@ -2887,7 +2887,9 @@
     "footprint.reason.different_industry": "Different industry",
     "footprint.reason.different_country": "Different country",
     "footprint.reason.whois_ownership_conflict": "WHOIS ownership conflict",
-    "footprint.reason.name_collision_common_word": "Common-word brand collision"
+    "footprint.reason.name_collision_common_word": "Common-word brand collision",
+    "footprint.panel.export": "Export",
+    "footprint.panel.exportPack": "Open evidence pack — printable HTML, Cmd+P to save as PDF"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
