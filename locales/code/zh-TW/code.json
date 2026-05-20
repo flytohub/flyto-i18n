@@ -2809,7 +2809,8 @@
     "code.whois.status": "狀態",
     "code.whois.title": "WHOIS 資訊",
     "code.whois.updated": "更新日期",
-    "nav.attack_paths": "攻擊路徑"
+    "nav.attack_paths": "攻擊路徑",
+    "nav.footprint": "足跡圖譜"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",

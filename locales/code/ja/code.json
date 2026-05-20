@@ -2782,7 +2782,8 @@
     "code.whois.status": "状態",
     "code.whois.title": "WHOIS 情報",
     "code.whois.updated": "更新日",
-    "nav.attack_paths": "攻撃経路"
+    "nav.attack_paths": "攻撃経路",
+    "nav.footprint": "フットプリント"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

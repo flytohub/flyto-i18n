@@ -2810,7 +2810,8 @@
     "code.whois.status": "Status",
     "code.whois.title": "WHOIS / RDAP",
     "code.whois.updated": "Updated",
-    "nav.attack_paths": "Attack Paths"
+    "nav.attack_paths": "Attack Paths",
+    "nav.footprint": "Footprint"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
