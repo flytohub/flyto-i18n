@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "Il punteggio di salute grezzo è un composito ponderato di quattro dimensioni, ognuna valutata indipendentemente:",
     "code.scoring.documentation": "Documentazione",
     "code.scoring.formula": "Calcolo del Punteggio",
-    "code.scoring.formulaNote": "Punteggio grezzo del motore (0–100) mappato all'intervallo di visualizzazione (250–900), arrotondato al 10 più vicino. Ispirato dalla metodologia Bitsight — elimina la falsa precisione.",
+    "code.scoring.formulaNote": "Punteggio grezzo del motore (0–100) mappato all'intervallo di visualizzazione (250–900), arrotondato al 10 più vicino — elimina la falsa precisione.",
     "code.scoring.gradeA": "Rischio minimo. Forte postura di sicurezza, codice pulito, buona documentazione.",
     "code.scoring.gradeB": "Rischio basso. Problemi minori presenti, generalmente ben mantenuto.",
     "code.scoring.gradeC": "Rischio moderato. Lacune di sicurezza o qualità notevoli che richiedono attenzione.",

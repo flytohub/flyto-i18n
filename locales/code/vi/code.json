@@ -1416,7 +1416,7 @@
     "code.scoring.dimensionsDesc": "Điểm sức khỏe thô là tổng hợp có trọng số của bốn khía cạnh, mỗi khía cạnh được chấm điểm độc lập:",
     "code.scoring.documentation": "Tài liệu",
     "code.scoring.formula": "Tính toán điểm số",
-    "code.scoring.formulaNote": "Điểm số thô của động cơ (0–100) được ánh xạ tới phạm vi hiển thị (250–900), làm tròn xuống gần nhất 10. Lấy cảm hứng từ phương pháp Bitsight — loại bỏ độ chính xác giả.",
+    "code.scoring.formulaNote": "Điểm số thô của động cơ (0–100) được ánh xạ tới phạm vi hiển thị (250–900), làm tròn xuống gần nhất 10 — loại bỏ độ chính xác giả.",
     "code.scoring.gradeA": "Rủi ro tối thiểu. Tư thế an ninh mạnh mẽ, mã sạch, tài liệu tốt.",
     "code.scoring.gradeB": "Rủi ro thấp. Có vấn đề nhỏ, nhìn chung được bảo trì tốt.",
     "code.scoring.gradeC": "Rủi ro vừa phải. Khoảng trống an ninh hoặc chất lượng đáng chú ý cần chú ý.",

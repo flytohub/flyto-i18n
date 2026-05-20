@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "A pontuação bruta de saúde é uma composição ponderada de quatro dimensões, cada uma pontuada independentemente:",
     "code.scoring.documentation": "Documentação",
     "code.scoring.formula": "Cálculo da Pontuação",
-    "code.scoring.formulaNote": "Pontuação bruta do motor (0–100) mapeada para faixa de exibição (250–900), arredondada para baixo ao mais próximo de 10. Inspirado na metodologia Bitsight — elimina precisão falsa.",
+    "code.scoring.formulaNote": "Pontuação bruta do motor (0–100) mapeada para faixa de exibição (250–900), arredondada para baixo ao mais próximo de 10 — elimina precisão falsa.",
     "code.scoring.gradeA": "Risco mínimo. Postura de segurança forte, código limpo, boa documentação.",
     "code.scoring.gradeB": "Baixo risco. Pequenos problemas presentes, geralmente bem mantido.",
     "code.scoring.gradeC": "Risco moderado. Lacunas notáveis de segurança ou qualidade que requerem atenção.",

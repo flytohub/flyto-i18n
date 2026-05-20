@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "원시 건강 점수는 각각 독립적으로 점수화된 네 가지 차원의 가중 합성입니다:",
     "code.scoring.documentation": "문서화",
     "code.scoring.formula": "점수 계산",
-    "code.scoring.formulaNote": "원시 엔진 점수(0–100)를 표시 범위(250–900)로 매핑하고, 가장 가까운 10으로 내림. Bitsight 방법론에서 영감을 받아 잘못된 정밀도를 제거합니다.",
+    "code.scoring.formulaNote": "원시 엔진 점수(0–100)를 표시 범위(250–900)로 매핑하고, 가장 가까운 10으로 내림 — 잘못된 정밀도를 제거합니다.",
     "code.scoring.gradeA": "최소 위험. 강력한 보안 태세, 깨끗한 코드, 좋은 문서화.",
     "code.scoring.gradeB": "낮은 위험. 사소한 문제가 있지만, 일반적으로 잘 유지됨.",
     "code.scoring.gradeC": "중간 위험. 주목할 만한 보안 또는 품질 격차가 주의가 필요합니다.",

@@ -1528,7 +1528,7 @@
     "code.scoring.dimensionsDesc": "Surowa ocena zdrowia to ważona kompozycja czterech wymiarów, z których każdy jest oceniany niezależnie:",
     "code.scoring.documentation": "Dokumentacja",
     "code.scoring.formula": "Obliczanie oceny",
-    "code.scoring.formulaNote": "Surowa ocena silnika (0–100) przemapowana na zakres wyświetlania (250–900), zaokrąglona w dół do najbliższej 10. Zainspirowane metodologią Bitsight — eliminuje fałszywą precyzję.",
+    "code.scoring.formulaNote": "Surowa ocena silnika (0–100) przemapowana na zakres wyświetlania (250–900), zaokrąglona w dół do najbliższej 10 — eliminuje fałszywą precyzję.",
     "code.scoring.gradeA": "Minimalne ryzyko. Silna postawa bezpieczeństwa, czysty kod, dobra dokumentacja.",
     "code.scoring.gradeB": "Niskie ryzyko. Obecne drobne problemy, ogólnie dobrze utrzymane.",
     "code.scoring.gradeC": "Umiarkowane ryzyko. Znaczące luki w bezpieczeństwie lub jakości wymagające uwagi.",

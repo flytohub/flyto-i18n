@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "Ham sağlık skoru, her biri bağımsız olarak puanlanan dört boyutun ağırlıklı bir bileşimidir:",
     "code.scoring.documentation": "Dokümantasyon",
     "code.scoring.formula": "Skor Hesaplama",
-    "code.scoring.formulaNote": "Ham motor skoru (0–100) görüntüleme aralığına (250–900) eşlenir, en yakın 10'a yuvarlanır. Bitsight metodolojisinden ilham alınmıştır — yanlış hassasiyeti ortadan kaldırır.",
+    "code.scoring.formulaNote": "Ham motor skoru (0–100) görüntüleme aralığına (250–900) eşlenir, en yakın 10'a yuvarlanır — yanlış hassasiyeti ortadan kaldırır.",
     "code.scoring.gradeA": "Minimal risk. Güçlü güvenlik duruşu, temiz kod, iyi dokümantasyon.",
     "code.scoring.gradeB": "Düşük risk. Küçük sorunlar mevcut, genellikle iyi bakımlı.",
     "code.scoring.gradeC": "Orta risk. Dikkat gerektiren önemli güvenlik veya kalite boşlukları.",

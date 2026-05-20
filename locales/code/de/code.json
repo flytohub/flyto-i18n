@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "Der rohe Gesundheitswert ist ein gewichteter Verbund aus vier Dimensionen, die jeweils unabhängig bewertet werden:",
     "code.scoring.documentation": "Dokumentation",
     "code.scoring.formula": "Punktberechnung",
-    "code.scoring.formulaNote": "Rohwert des Engines (0–100) auf Anzeigebereich (250–900) abgebildet, auf die nächsten 10 abgerundet. Inspiriert von der Bitsight-Methodik — beseitigt falsche Präzision.",
+    "code.scoring.formulaNote": "Rohwert des Engines (0–100) auf Anzeigebereich (250–900) abgebildet, auf die nächsten 10 abgerundet — beseitigt falsche Präzision.",
     "code.scoring.gradeA": "Minimales Risiko. Starke Sicherheitslage, sauberer Code, gute Dokumentation.",
     "code.scoring.gradeB": "Geringes Risiko. Kleinere Probleme vorhanden, im Allgemeinen gut gepflegt.",
     "code.scoring.gradeC": "Mäßiges Risiko. Erhebliche Sicherheits- oder Qualitätslücken, die Aufmerksamkeit erfordern.",

@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "Skor kesehatan mentah adalah gabungan berbobot dari empat dimensi, masing-masing dinilai secara independen:",
     "code.scoring.documentation": "Dokumentasi",
     "code.scoring.formula": "Perhitungan Skor",
-    "code.scoring.formulaNote": "Skor mesin mentah (0–100) dipetakan ke rentang tampilan (250–900), dibulatkan ke bawah ke 10 terdekat. Terinspirasi oleh metodologi Bitsight — menghilangkan presisi palsu.",
+    "code.scoring.formulaNote": "Skor mesin mentah (0–100) dipetakan ke rentang tampilan (250–900), dibulatkan ke bawah ke 10 terdekat — menghilangkan presisi palsu.",
     "code.scoring.gradeA": "Risiko minimal. Postur keamanan kuat, kode bersih, dokumentasi baik.",
     "code.scoring.gradeB": "Risiko rendah. Masalah kecil ada, umumnya terawat dengan baik.",
     "code.scoring.gradeC": "Risiko sedang. Kesenjangan keamanan atau kualitas yang perlu diperhatikan.",

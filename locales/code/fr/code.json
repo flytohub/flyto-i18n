@@ -1412,7 +1412,7 @@
     "code.scoring.dimensionsDesc": "Le score de santé brut est une composition pondérée de quatre dimensions, chacune étant notée indépendamment :",
     "code.scoring.documentation": "Documentation",
     "code.scoring.formula": "Calcul du score",
-    "code.scoring.formulaNote": "Score brut du moteur (0–100) mappé à une plage d'affichage (250–900), arrondi à la dizaine inférieure. Inspiré par la méthodologie Bitsight — élimine la fausse précision.",
+    "code.scoring.formulaNote": "Score brut du moteur (0–100) mappé à une plage d'affichage (250–900), arrondi à la dizaine inférieure — élimine la fausse précision.",
     "code.scoring.gradeA": "Risque minimal. Bonne posture de sécurité, code propre, bonne documentation.",
     "code.scoring.gradeB": "Faible risque. Problèmes mineurs présents, généralement bien entretenu.",
     "code.scoring.gradeC": "Risque modéré. Lacunes notables en matière de sécurité ou de qualité nécessitant une attention.",
