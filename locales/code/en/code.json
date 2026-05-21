@@ -1256,6 +1256,8 @@
     "code.nav.projects": "Projects",
     "code.nav.pulse": "Pulse",
     "code.nav.exposureSection": "Exposure",
+    "code.nav.darkwebSection": "Darkweb & Threat Intel",
+    "code.nav.threatIntel": "Threat Intel",
     "code.nav.codeSection": "Code",
     "code.nav.codeIssues": "Code Issues",
     "code.nav.historySection": "History",

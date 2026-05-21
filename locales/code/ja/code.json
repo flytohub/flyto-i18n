@@ -1252,6 +1252,8 @@
     "code.nav.projects": "プロジェクト",
     "code.nav.pulse": "パルス",
     "code.nav.exposureSection": "外部エクスポージャー",
+    "code.nav.darkwebSection": "ダークウェブと脅威インテル",
+    "code.nav.threatIntel": "脅威インテル",
     "code.nav.codeSection": "コード",
     "code.nav.codeIssues": "コード問題",
     "code.nav.historySection": "履歴",

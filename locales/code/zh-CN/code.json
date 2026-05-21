@@ -1255,6 +1255,8 @@
     "code.nav.projects": "项目",
     "code.nav.pulse": "脈衝",
     "code.nav.exposureSection": "外部暴露",
+    "code.nav.darkwebSection": "暗网与威胁情报",
+    "code.nav.threatIntel": "威胁情报",
     "code.nav.codeSection": "代码",
     "code.nav.codeIssues": "代码问题",
     "code.nav.historySection": "历史",
