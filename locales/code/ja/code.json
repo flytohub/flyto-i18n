@@ -1271,6 +1271,7 @@
     "code.nav.mitigations": "補完制御",
     "code.nav.vendorRisk": "ベンダーリスク",
     "code.nav.auditTimeline": "監査タイムライン",
+    "code.nav.scoringOverview": "スコア概要",
     "code.nav.scoreTrends": "スコアトレンド",
     "code.nav.vaReport": "VA レポート",
     "code.nav.compliance": "コンプライアンス",

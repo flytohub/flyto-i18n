@@ -1275,6 +1275,7 @@
     "code.nav.mitigations": "Mitigations",
     "code.nav.vendorRisk": "Vendor Risk",
     "code.nav.auditTimeline": "Audit Timeline",
+    "code.nav.scoringOverview": "Scoring Overview",
     "code.nav.scoreTrends": "Score Trends",
     "code.nav.vaReport": "VA Report",
     "code.nav.compliance": "Compliance",
