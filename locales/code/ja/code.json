@@ -4654,7 +4654,10 @@
     "code.arch.deadCode.class.hint": "動的インスタンス化がないことを確認後、削除可能。",
     "code.arch.deadCode.function.hint": "文字列ベースの呼び出しがないことを確認後、削除可能。",
     "code.arch.deadCode.method.hint": "警告: インターフェース / Protocol / ABC で必要な可能性。先に親クラスを確認してください。",
-    "code.arch.deadCode.variable.hint": "__all__ / re-export / 設定の配線を確認。それ以外は削除可能。"
+    "code.arch.deadCode.variable.hint": "__all__ / re-export / 設定の配線を確認。それ以外は削除可能。",
+    "code.footprint.panel.topPaths.loading": "対応可能なエンティティをカウント中…",
+    "code.footprint.panel.topPaths.summary": "{n} 件のレッドチーム対応可エンティティ。/attack-paths ページで上位 5 件の初期アクセス仮説に収束します。",
+    "code.footprint.panel.topPaths.viewFull": "→ 攻撃パスを表示"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

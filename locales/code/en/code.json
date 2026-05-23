@@ -4682,7 +4682,10 @@
     "code.arch.deadCode.class.hint": "Likely safe to delete after verifying no dynamic instantiation.",
     "code.arch.deadCode.function.hint": "Likely safe to delete after verifying no string-based call.",
     "code.arch.deadCode.method.hint": "WARNING: may be required by an interface / Protocol / ABC. Verify the parent class first.",
-    "code.arch.deadCode.variable.hint": "Check __all__ / re-exports / config wiring. Otherwise safe to delete."
+    "code.arch.deadCode.variable.hint": "Check __all__ / re-exports / config wiring. Otherwise safe to delete.",
+    "code.footprint.panel.topPaths.loading": "Counting actionable entities…",
+    "code.footprint.panel.topPaths.summary": "{n} red-team-actionable entities. The /attack-paths page converges them into the top 5 initial-access hypotheses.",
+    "code.footprint.panel.topPaths.viewFull": "→ View attack paths"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

@@ -5,10 +5,9 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent / 'locales' / 'code'
 
 ADDS = {
-    'code.arch.deadCode.class.hint': ('Likely safe to delete after verifying no dynamic instantiation.', '確認無動態實例化後可安全刪除。', '确认无动态实例化后可安全删除。', '動的インスタンス化がないことを確認後、削除可能。'),
-    'code.arch.deadCode.function.hint': ('Likely safe to delete after verifying no string-based call.', '確認無字串式呼叫後可安全刪除。', '确认无字符串式调用后可安全删除。', '文字列ベースの呼び出しがないことを確認後、削除可能。'),
-    'code.arch.deadCode.method.hint': ('WARNING: may be required by an interface / Protocol / ABC. Verify the parent class first.', '警告:可能由 interface / Protocol / ABC 要求。請先確認父類別。', '警告:可能由 interface / Protocol / ABC 要求。请先确认父类别。', '警告: インターフェース / Protocol / ABC で必要な可能性。先に親クラスを確認してください。'),
-    'code.arch.deadCode.variable.hint': ('Check __all__ / re-exports / config wiring. Otherwise safe to delete.', '檢查 __all__、re-export、config wiring,否則可安全刪除。', '检查 __all__、re-export、config wiring,否则可安全删除。', '__all__ / re-export / 設定の配線を確認。それ以外は削除可能。'),
+    'code.footprint.panel.topPaths.loading': ('Counting actionable entities…', '計算可採取行動的實體中…', '统计可采取行动的实体中…', '対応可能なエンティティをカウント中…'),
+    'code.footprint.panel.topPaths.summary': ('{n} red-team-actionable entities. The /attack-paths page converges them into the top 5 initial-access hypotheses.', '{n} 個紅隊可採取行動的實體。/attack-paths 頁面會收斂為前 5 大初始入侵假設。', '{n} 个红队可采取行动的实体。/attack-paths 页面会收敛为前 5 大初始入侵假设。', '{n} 件のレッドチーム対応可エンティティ。/attack-paths ページで上位 5 件の初期アクセス仮説に収束します。'),
+    'code.footprint.panel.topPaths.viewFull': ('→ View attack paths', '→ 查看攻擊路徑', '→ 查看攻击路径', '→ 攻撃パスを表示'),
 }
 
 en_path = ROOT / 'en' / 'code.json'

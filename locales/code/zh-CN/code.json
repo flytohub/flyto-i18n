@@ -4681,7 +4681,10 @@
     "code.arch.deadCode.class.hint": "确认无动态实例化后可安全删除。",
     "code.arch.deadCode.function.hint": "确认无字符串式调用后可安全删除。",
     "code.arch.deadCode.method.hint": "警告:可能由 interface / Protocol / ABC 要求。请先确认父类别。",
-    "code.arch.deadCode.variable.hint": "检查 __all__、re-export、config wiring,否则可安全删除。"
+    "code.arch.deadCode.variable.hint": "检查 __all__、re-export、config wiring,否则可安全删除。",
+    "code.footprint.panel.topPaths.loading": "统计可采取行动的实体中…",
+    "code.footprint.panel.topPaths.summary": "{n} 个红队可采取行动的实体。/attack-paths 页面会收敛为前 5 大初始入侵假设。",
+    "code.footprint.panel.topPaths.viewFull": "→ 查看攻击路径"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

@@ -4681,7 +4681,10 @@
     "code.arch.deadCode.class.hint": "確認無動態實例化後可安全刪除。",
     "code.arch.deadCode.function.hint": "確認無字串式呼叫後可安全刪除。",
     "code.arch.deadCode.method.hint": "警告:可能由 interface / Protocol / ABC 要求。請先確認父類別。",
-    "code.arch.deadCode.variable.hint": "檢查 __all__、re-export、config wiring,否則可安全刪除。"
+    "code.arch.deadCode.variable.hint": "檢查 __all__、re-export、config wiring,否則可安全刪除。",
+    "code.footprint.panel.topPaths.loading": "計算可採取行動的實體中…",
+    "code.footprint.panel.topPaths.summary": "{n} 個紅隊可採取行動的實體。/attack-paths 頁面會收斂為前 5 大初始入侵假設。",
+    "code.footprint.panel.topPaths.viewFull": "→ 查看攻擊路徑"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
