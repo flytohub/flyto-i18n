@@ -5,33 +5,34 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent / 'locales' / 'code'
 
 ADDS = {
-    # AutofixPreviewModal steps
-    'code.autofix.previewStep.clone': ('Cloning repository at the latest scanned commit', '從最近掃描的 commit 複製儲存庫', '从最近扫描的 commit 复制仓库', '最新スキャン済コミットからリポジトリをクローン'),
-    'code.autofix.previewStep.detect': ('Locating the vulnerability in the working tree', '在工作樹中定位漏洞', '在工作树中定位漏洞', '作業ツリー内で脆弱性を特定'),
-    'code.autofix.previewStep.transform': ('Generating the patch', '產生修補', '生成补丁', 'パッチ生成中'),
-    'code.autofix.previewStep.verify': ('Running verify gates (lint, build, test)', '執行驗證閘門(lint、build、test)', '执行验证闸门(lint、build、test)', '検証ゲートを実行 (lint、build、test)'),
-    'code.autofix.previewStep.persist': ('Caching preview so the diff opens instantly next time', '快取預覽以便下次立即開啟差異', '缓存预览以便下次立即打开差异', 'プレビューをキャッシュして次回 diff が即時オープン'),
-    # VendorFormDialog categories
-    'code.vendors.category.cdn': ('CDN', 'CDN', 'CDN', 'CDN'),
-    'code.vendors.category.hosting': ('Hosting', '託管', '托管', 'ホスティング'),
-    'code.vendors.category.analytics': ('Analytics', '分析', '分析', '分析'),
-    'code.vendors.category.payment': ('Payment', '支付', '支付', '決済'),
-    'code.vendors.category.saas': ('SaaS', 'SaaS', 'SaaS', 'SaaS'),
-    'code.vendors.category.other': ('Other', '其他', '其他', 'その他'),
-    # BudgetPoliciesTab
-    'code.settings.budget.hardStop': ('Hard Stop', '硬停止', '硬停止', 'ハードストップ'),
-    'code.settings.budget.active': ('Active', '啟用中', '启用中', 'アクティブ'),
-    'code.settings.budget.inactive': ('Inactive', '已停用', '已停用', '非アクティブ'),
-    'code.settings.budget.metricTotal': ('Total Tokens', '總 token', '总 token', '合計トークン'),
-    'code.settings.budget.metricInput': ('Input Tokens', '輸入 token', '输入 token', '入力トークン'),
-    'code.settings.budget.metricOutput': ('Output Tokens', '輸出 token', '输出 token', '出力トークン'),
-    'code.settings.budget.amountPlaceholder': ('Amount', '數量', '数量', '数量'),
-    'code.settings.budget.window1d': ('1 day', '1 天', '1 天', '1 日'),
-    'code.settings.budget.window7d': ('7 days', '7 天', '7 天', '7 日'),
-    'code.settings.budget.window30d': ('30 days', '30 天', '30 天', '30 日'),
-    'code.settings.budget.warnPercentPlaceholder': ('Warn %', '警示 %', '警示 %', '警告 %'),
-    # AssetMapView
-    'code.assetMap.selectRepoAria': ('Select repo', '選擇儲存庫', '选择仓库', 'リポジトリを選択'),
+    # ComplianceDashboardView
+    'code.compliance.overall': ('Overall', '整體', '整体', '全体'),
+    # PostureOverview
+    'code.posture.clearSelection': ('Clear selection', '清除選擇', '清除选择', '選択を解除'),
+    'code.posture.sectorBand.top5': ('Top 5%', '前 5%', '前 5%', '上位 5%'),
+    'code.posture.sectorBand.top10': ('Top 10%', '前 10%', '前 10%', '上位 10%'),
+    'code.posture.sectorBand.top25': ('Top 25%', '前 25%', '前 25%', '上位 25%'),
+    'code.posture.sectorBand.aboveP50': ('Above sector P50', '高於產業 P50', '高于行业 P50', '業界 P50 以上'),
+    'code.posture.sectorBand.bottom50': ('Bottom 50%', '後 50%', '后 50%', '下位 50%'),
+    'code.posture.sectorBand.bottom25': ('Bottom 25%', '後 25%', '后 25%', '下位 25%'),
+    # IssuesSidebar
+    'code.issues.category.all': ('All Findings', '所有發現項', '所有发现项', 'すべての検出'),
+    'code.issues.category.cve': ('Vulnerabilities', '漏洞', '漏洞', '脆弱性'),
+    'code.issues.category.secret': ('Exposed Secrets', '已曝露的機密', '已暴露的密钥', '露出シークレット'),
+    'code.issues.category.security_finding': ('Code Issues', '程式碼問題', '代码问题', 'コード問題'),
+    # HistoryTimeline
+    'code.history.event.created': ('Alert created', '警示已建立', '警示已创建', 'アラート作成'),
+    'code.history.event.statusPrefix': ('Status', '狀態', '状态', '状態'),
+    'code.history.event.resolved': ('Resolved', '已解決', '已解决', '解決済'),
+    'code.history.event.resolvedBadge': ('resolved', '已解決', '已解决', '解決済'),
+    'code.history.event.reopened': ('Reopened', '重新開啟', '重新打开', '再オープン'),
+    'code.history.event.assignedTo': ('Assigned to', '指派給', '分配给', '担当者'),
+    'code.history.event.snoozed': ('Snoozed', '已延後', '已延后', 'スヌーズ'),
+    # ScoringMethodology dimensions
+    'code.scoringMethod.dim.security': ('Security', '安全性', '安全性', 'セキュリティ'),
+    'code.scoringMethod.dim.complexity': ('Complexity', '複雜度', '复杂度', '複雑度'),
+    'code.scoringMethod.dim.docs': ('Docs', '文件', '文档', 'ドキュメント'),
+    'code.scoringMethod.dim.deadCode': ('Dead Code', '無用程式碼', '无用代码', 'デッドコード'),
 }
 
 en_path = ROOT / 'en' / 'code.json'
