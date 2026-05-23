@@ -4657,7 +4657,10 @@
     "code.arch.deadCode.variable.hint": "__all__ / re-export / 設定の配線を確認。それ以外は削除可能。",
     "code.footprint.panel.topPaths.loading": "対応可能なエンティティをカウント中…",
     "code.footprint.panel.topPaths.summary": "{n} 件のレッドチーム対応可エンティティ。/attack-paths ページで上位 5 件の初期アクセス仮説に収束します。",
-    "code.footprint.panel.topPaths.viewFull": "→ 攻撃パスを表示"
+    "code.footprint.panel.topPaths.viewFull": "→ 攻撃パスを表示",
+    "code.threatIntel.statTargets": "対象国",
+    "code.threatIntel.statTechniques": "TTPs",
+    "code.threatIntel.statMalware": "マルウェア"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

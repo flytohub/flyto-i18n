@@ -4684,7 +4684,10 @@
     "code.arch.deadCode.variable.hint": "检查 __all__、re-export、config wiring,否则可安全删除。",
     "code.footprint.panel.topPaths.loading": "统计可采取行动的实体中…",
     "code.footprint.panel.topPaths.summary": "{n} 个红队可采取行动的实体。/attack-paths 页面会收敛为前 5 大初始入侵假设。",
-    "code.footprint.panel.topPaths.viewFull": "→ 查看攻击路径"
+    "code.footprint.panel.topPaths.viewFull": "→ 查看攻击路径",
+    "code.threatIntel.statTargets": "受害国",
+    "code.threatIntel.statTechniques": "战术技巧",
+    "code.threatIntel.statMalware": "恶意程序"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

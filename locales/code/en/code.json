@@ -4685,7 +4685,10 @@
     "code.arch.deadCode.variable.hint": "Check __all__ / re-exports / config wiring. Otherwise safe to delete.",
     "code.footprint.panel.topPaths.loading": "Counting actionable entities…",
     "code.footprint.panel.topPaths.summary": "{n} red-team-actionable entities. The /attack-paths page converges them into the top 5 initial-access hypotheses.",
-    "code.footprint.panel.topPaths.viewFull": "→ View attack paths"
+    "code.footprint.panel.topPaths.viewFull": "→ View attack paths",
+    "code.threatIntel.statTargets": "targets",
+    "code.threatIntel.statTechniques": "TTPs",
+    "code.threatIntel.statMalware": "malware"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

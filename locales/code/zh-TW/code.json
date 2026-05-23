@@ -4684,7 +4684,10 @@
     "code.arch.deadCode.variable.hint": "檢查 __all__、re-export、config wiring,否則可安全刪除。",
     "code.footprint.panel.topPaths.loading": "計算可採取行動的實體中…",
     "code.footprint.panel.topPaths.summary": "{n} 個紅隊可採取行動的實體。/attack-paths 頁面會收斂為前 5 大初始入侵假設。",
-    "code.footprint.panel.topPaths.viewFull": "→ 查看攻擊路徑"
+    "code.footprint.panel.topPaths.viewFull": "→ 查看攻擊路徑",
+    "code.threatIntel.statTargets": "受害國",
+    "code.threatIntel.statTechniques": "戰術技巧",
+    "code.threatIntel.statMalware": "惡意程式"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
