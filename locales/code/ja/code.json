@@ -4549,7 +4549,11 @@
     "code.settings.scanLog.status.complete": "完了",
     "code.settings.scanLog.status.failed": "失敗",
     "code.settings.scanLog.status.running": "実行中",
-    "code.settings.scanLog.status.queued": "キュー"
+    "code.settings.scanLog.status.queued": "キュー",
+    "code.domains.checkCategory.restApi": "REST API",
+    "code.domains.checkCategory.graphql": "GraphQL",
+    "code.domains.checkCategory.surface": "サーフェス",
+    "code.domains.checkCategory.frontend": "フロントエンド"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

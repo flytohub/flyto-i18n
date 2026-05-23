@@ -4576,7 +4576,11 @@
     "code.settings.scanLog.status.complete": "完成",
     "code.settings.scanLog.status.failed": "失败",
     "code.settings.scanLog.status.running": "执行中",
-    "code.settings.scanLog.status.queued": "已排程"
+    "code.settings.scanLog.status.queued": "已排程",
+    "code.domains.checkCategory.restApi": "REST API",
+    "code.domains.checkCategory.graphql": "GraphQL",
+    "code.domains.checkCategory.surface": "攻击面",
+    "code.domains.checkCategory.frontend": "前端"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

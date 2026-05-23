@@ -4577,7 +4577,11 @@
     "code.settings.scanLog.status.complete": "Complete",
     "code.settings.scanLog.status.failed": "Failed",
     "code.settings.scanLog.status.running": "Running",
-    "code.settings.scanLog.status.queued": "Queued"
+    "code.settings.scanLog.status.queued": "Queued",
+    "code.domains.checkCategory.restApi": "REST API",
+    "code.domains.checkCategory.graphql": "GraphQL",
+    "code.domains.checkCategory.surface": "Surface",
+    "code.domains.checkCategory.frontend": "Frontend"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
