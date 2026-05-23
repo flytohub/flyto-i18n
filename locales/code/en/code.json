@@ -4691,7 +4691,9 @@
     "code.threatIntel.statMalware": "malware",
     "code.threatIntel.topHosting": "Top hosting country",
     "code.threatIntel.hostingDistribution": "Malicious-IP hosting country distribution",
-    "code.threatIntel.geoIpNote": "GeoIP-based: shows where the malicious IPs / C2 / malware URLs are hosted, not who is behind them. Most attackers rent or compromise US-hosted cloud (AWS / GCP / CloudFront), so US dominates regardless of actual threat-actor nationality. For attribution, see Threat Actors."
+    "code.threatIntel.geoIpNote": "GeoIP-based: shows where the malicious IPs / C2 / malware URLs are hosted, not who is behind them. Most attackers rent or compromise US-hosted cloud (AWS / GCP / CloudFront), so US dominates regardless of actual threat-actor nationality. For attribution, see Threat Actors.",
+    "code.autofix.fetchErrorTitle": "Could not load this finding",
+    "code.autofix.fetchErrorRetry": "Retry"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

@@ -4690,7 +4690,9 @@
     "code.threatIntel.statMalware": "惡意程式",
     "code.threatIntel.topHosting": "主要託管國",
     "code.threatIntel.hostingDistribution": "惡意 IP 的託管國分布",
-    "code.threatIntel.geoIpNote": "基於 GeoIP:顯示惡意 IP / C2 / 惡意程式 URL「託管在哪裡」,不是「誰在背後」。多數攻擊者租用或入侵美國雲端(AWS / GCP / CloudFront),所以不管實際威脅組織國籍為何,美國總是最多。歸屬請看「威脅行為者」頁面。"
+    "code.threatIntel.geoIpNote": "基於 GeoIP:顯示惡意 IP / C2 / 惡意程式 URL「託管在哪裡」,不是「誰在背後」。多數攻擊者租用或入侵美國雲端(AWS / GCP / CloudFront),所以不管實際威脅組織國籍為何,美國總是最多。歸屬請看「威脅行為者」頁面。",
+    "code.autofix.fetchErrorTitle": "無法載入此發現",
+    "code.autofix.fetchErrorRetry": "重試"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
