@@ -5,34 +5,22 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent / 'locales' / 'code'
 
 ADDS = {
-    # ComplianceDashboardView
-    'code.compliance.overall': ('Overall', '整體', '整体', '全体'),
-    # PostureOverview
-    'code.posture.clearSelection': ('Clear selection', '清除選擇', '清除选择', '選択を解除'),
-    'code.posture.sectorBand.top5': ('Top 5%', '前 5%', '前 5%', '上位 5%'),
-    'code.posture.sectorBand.top10': ('Top 10%', '前 10%', '前 10%', '上位 10%'),
-    'code.posture.sectorBand.top25': ('Top 25%', '前 25%', '前 25%', '上位 25%'),
-    'code.posture.sectorBand.aboveP50': ('Above sector P50', '高於產業 P50', '高于行业 P50', '業界 P50 以上'),
-    'code.posture.sectorBand.bottom50': ('Bottom 50%', '後 50%', '后 50%', '下位 50%'),
-    'code.posture.sectorBand.bottom25': ('Bottom 25%', '後 25%', '后 25%', '下位 25%'),
-    # IssuesSidebar
-    'code.issues.category.all': ('All Findings', '所有發現項', '所有发现项', 'すべての検出'),
-    'code.issues.category.cve': ('Vulnerabilities', '漏洞', '漏洞', '脆弱性'),
-    'code.issues.category.secret': ('Exposed Secrets', '已曝露的機密', '已暴露的密钥', '露出シークレット'),
-    'code.issues.category.security_finding': ('Code Issues', '程式碼問題', '代码问题', 'コード問題'),
-    # HistoryTimeline
-    'code.history.event.created': ('Alert created', '警示已建立', '警示已创建', 'アラート作成'),
-    'code.history.event.statusPrefix': ('Status', '狀態', '状态', '状態'),
-    'code.history.event.resolved': ('Resolved', '已解決', '已解决', '解決済'),
-    'code.history.event.resolvedBadge': ('resolved', '已解決', '已解决', '解決済'),
-    'code.history.event.reopened': ('Reopened', '重新開啟', '重新打开', '再オープン'),
-    'code.history.event.assignedTo': ('Assigned to', '指派給', '分配给', '担当者'),
-    'code.history.event.snoozed': ('Snoozed', '已延後', '已延后', 'スヌーズ'),
-    # ScoringMethodology dimensions
-    'code.scoringMethod.dim.security': ('Security', '安全性', '安全性', 'セキュリティ'),
-    'code.scoringMethod.dim.complexity': ('Complexity', '複雜度', '复杂度', '複雑度'),
-    'code.scoringMethod.dim.docs': ('Docs', '文件', '文档', 'ドキュメント'),
-    'code.scoringMethod.dim.deadCode': ('Dead Code', '無用程式碼', '无用代码', 'デッドコード'),
+    # VendorRiskView risk tones
+    'code.vendors.riskTone.critical': ('Critical', '嚴重', '严重', '重大'),
+    'code.vendors.riskTone.high': ('High', '高', '高', '高'),
+    'code.vendors.riskTone.medium': ('Medium', '中', '中', '中'),
+    'code.vendors.riskTone.low': ('Low', '低', '低', '低'),
+    'code.vendors.riskTone.unknown': ('Not assessed', '未評估', '未评估', '未評価'),
+    # ScanningTab cadences
+    'code.settings.scanning.cadence.daily': ('Daily', '每日', '每日', '毎日'),
+    'code.settings.scanning.cadence.weekly': ('Weekly (recommended)', '每週(建議)', '每周(建议)', '週次 (推奨)'),
+    'code.settings.scanning.cadence.manual': ('Manual only', '僅手動', '仅手动', '手動のみ'),
+    'code.settings.scanning.cadence.daily_full': ('Daily + DAST', '每日 + DAST', '每日 + DAST', '毎日 + DAST'),
+    # ScanLogTab statuses
+    'code.settings.scanLog.status.complete': ('Complete', '完成', '完成', '完了'),
+    'code.settings.scanLog.status.failed': ('Failed', '失敗', '失败', '失敗'),
+    'code.settings.scanLog.status.running': ('Running', '執行中', '执行中', '実行中'),
+    'code.settings.scanLog.status.queued': ('Queued', '已排程', '已排程', 'キュー'),
 }
 
 en_path = ROOT / 'en' / 'code.json'
