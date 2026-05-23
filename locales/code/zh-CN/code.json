@@ -4692,7 +4692,10 @@
     "code.threatIntel.hostingDistribution": "恶意 IP 的托管国分布",
     "code.threatIntel.geoIpNote": "基于 GeoIP:显示恶意 IP / C2 / 恶意程序 URL \"托管在哪里\",不是 \"谁在背后\"。多数攻击者租用或入侵美国云端(AWS / GCP / CloudFront),所以不管实际威胁组织国籍为何,美国总是最多。归属请看 \"威胁行为者\" 页面。",
     "code.autofix.fetchErrorTitle": "无法加载此发现",
-    "code.autofix.fetchErrorRetry": "重试"
+    "code.autofix.fetchErrorRetry": "重试",
+    "code.repos.scanStalled": "已停滞",
+    "code.repos.scanStalledHint": "扫描中断未完成,点击扫描重试。",
+    "code.reports.savedLocallyOnly": "已保存到本机(服务器无法连接)"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

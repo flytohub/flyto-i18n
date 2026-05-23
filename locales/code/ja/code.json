@@ -4665,7 +4665,10 @@
     "code.threatIntel.hostingDistribution": "悪意 IP のホスティング国分布",
     "code.threatIntel.geoIpNote": "GeoIP ベース: 悪意 IP / C2 / マルウェア URL の「ホスティング場所」を示し、「背後の人物」ではありません。多くの攻撃者は米国ホスト型クラウド(AWS / GCP / CloudFront)を借用または侵害するため、実際の脅威アクター国籍に関係なく米国が常に最多になります。アトリビューションは「脅威アクター」ページを参照。",
     "code.autofix.fetchErrorTitle": "この検出項目を読み込めません",
-    "code.autofix.fetchErrorRetry": "再試行"
+    "code.autofix.fetchErrorRetry": "再試行",
+    "code.repos.scanStalled": "停止",
+    "code.repos.scanStalledHint": "スキャンが完了せず停止しました。再試行してください。",
+    "code.reports.savedLocallyOnly": "ローカルに保存(サーバー利用不可)"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",
