@@ -1,5 +1,5 @@
 {
-  "version": "b3b4864e7980",
+  "version": "c20b9ef3e3d5",
   "locales": {
     "de": {
       "name": "German",
@@ -14,8 +14,8 @@
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 17214,
-      "translated_keys": 17573,
+      "total_keys": 17231,
+      "translated_keys": 17590,
       "completion": 102.1,
       "files_merged": 281
     },
@@ -68,8 +68,8 @@
       "name": "Japanese",
       "native": "日本語",
       "region": "JP",
-      "total_keys": 17186,
-      "translated_keys": 17570,
+      "total_keys": 17203,
+      "translated_keys": 17587,
       "completion": 102.2,
       "files_merged": 281
     },
@@ -131,8 +131,8 @@
       "name": "Simplified Chinese",
       "native": "简体中文",
       "region": "CN",
-      "total_keys": 17213,
-      "translated_keys": 17597,
+      "total_keys": 17230,
+      "translated_keys": 17614,
       "completion": 102.2,
       "files_merged": 281
     },
@@ -140,8 +140,8 @@
       "name": "Traditional Chinese",
       "native": "繁體中文",
       "region": "TW",
-      "total_keys": 17213,
-      "translated_keys": 17597,
+      "total_keys": 17230,
+      "translated_keys": 17614,
       "completion": 102.2,
       "files_merged": 281
     }
