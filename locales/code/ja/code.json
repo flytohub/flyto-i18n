@@ -4650,7 +4650,11 @@
     "code.domains.check.subresource_integrity_missing.title": "Subresource Integrity なし",
     "code.domains.check.subresource_integrity_missing.desc": "外部スクリプトに整合性チェックなし。",
     "code.domains.check.csp_allows_inline_css.title": "CSP がインライン CSS を許可",
-    "code.domains.check.csp_allows_inline_css.desc": "インライン CSS はソーシャルエンジニアリングを助長。"
+    "code.domains.check.csp_allows_inline_css.desc": "インライン CSS はソーシャルエンジニアリングを助長。",
+    "code.arch.deadCode.class.hint": "動的インスタンス化がないことを確認後、削除可能。",
+    "code.arch.deadCode.function.hint": "文字列ベースの呼び出しがないことを確認後、削除可能。",
+    "code.arch.deadCode.method.hint": "警告: インターフェース / Protocol / ABC で必要な可能性。先に親クラスを確認してください。",
+    "code.arch.deadCode.variable.hint": "__all__ / re-export / 設定の配線を確認。それ以外は削除可能。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

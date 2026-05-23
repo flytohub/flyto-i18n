@@ -4678,7 +4678,11 @@
     "code.domains.check.subresource_integrity_missing.title": "Subresource Integrity missing",
     "code.domains.check.subresource_integrity_missing.desc": "External scripts without integrity checks.",
     "code.domains.check.csp_allows_inline_css.title": "CSP allows inline CSS",
-    "code.domains.check.csp_allows_inline_css.desc": "Inline CSS can aid social engineering."
+    "code.domains.check.csp_allows_inline_css.desc": "Inline CSS can aid social engineering.",
+    "code.arch.deadCode.class.hint": "Likely safe to delete after verifying no dynamic instantiation.",
+    "code.arch.deadCode.function.hint": "Likely safe to delete after verifying no string-based call.",
+    "code.arch.deadCode.method.hint": "WARNING: may be required by an interface / Protocol / ABC. Verify the parent class first.",
+    "code.arch.deadCode.variable.hint": "Check __all__ / re-exports / config wiring. Otherwise safe to delete."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

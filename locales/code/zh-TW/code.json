@@ -4677,7 +4677,11 @@
     "code.domains.check.subresource_integrity_missing.title": "缺少 Subresource Integrity",
     "code.domains.check.subresource_integrity_missing.desc": "外部 script 缺少完整性檢查。",
     "code.domains.check.csp_allows_inline_css.title": "CSP 允許 inline CSS",
-    "code.domains.check.csp_allows_inline_css.desc": "Inline CSS 可能助長社交工程攻擊。"
+    "code.domains.check.csp_allows_inline_css.desc": "Inline CSS 可能助長社交工程攻擊。",
+    "code.arch.deadCode.class.hint": "確認無動態實例化後可安全刪除。",
+    "code.arch.deadCode.function.hint": "確認無字串式呼叫後可安全刪除。",
+    "code.arch.deadCode.method.hint": "警告:可能由 interface / Protocol / ABC 要求。請先確認父類別。",
+    "code.arch.deadCode.variable.hint": "檢查 __all__、re-export、config wiring,否則可安全刪除。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
