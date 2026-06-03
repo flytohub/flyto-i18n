@@ -4876,7 +4876,8 @@
     "code.rolesAccess.roleDesc.admin": "管理成員、設定、掃描、滲透測試、AutoFix、預算與敏感證據。",
     "code.rolesAccess.roleDesc.member": "觸發掃描、變更問題狀態、申請滲透測試、評估供應商。",
     "code.rolesAccess.roleDesc.viewer": "唯讀——檢視報告、分數、發現項目與稽核記錄。",
-    "code.rolesAccess.roleDesc.guest": "對公開資源的最小唯讀存取。"
+    "code.rolesAccess.roleDesc.guest": "對公開資源的最小唯讀存取。",
+    "code.access.actionDenied": "你沒有執行此操作的權限。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",

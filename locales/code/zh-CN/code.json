@@ -4876,7 +4876,8 @@
     "code.rolesAccess.roleDesc.admin": "管理成员、设置、扫描、渗透测试、AutoFix、预算与敏感证据。",
     "code.rolesAccess.roleDesc.member": "触发扫描、变更问题状态、申请渗透测试、评估供应商。",
     "code.rolesAccess.roleDesc.viewer": "只读——查看报告、分数、发现项与审计记录。",
-    "code.rolesAccess.roleDesc.guest": "对公开资源的最小只读访问。"
+    "code.rolesAccess.roleDesc.guest": "对公开资源的最小只读访问。",
+    "code.access.actionDenied": "你没有执行此操作的权限。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

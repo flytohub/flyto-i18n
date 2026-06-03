@@ -4877,7 +4877,8 @@
     "code.rolesAccess.roleDesc.admin": "Manage members, settings, scans, pentests, autofix, budgets & sensitive evidence.",
     "code.rolesAccess.roleDesc.member": "Trigger scans, change issue status, request pentests, assess vendors.",
     "code.rolesAccess.roleDesc.viewer": "Read-only — view reports, scores, findings and the audit log.",
-    "code.rolesAccess.roleDesc.guest": "Minimal read access to public resources."
+    "code.rolesAccess.roleDesc.guest": "Minimal read access to public resources.",
+    "code.access.actionDenied": "You don't have permission for this action."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
