@@ -4763,7 +4763,17 @@
     "ssl.hstsPreloadYes": "是",
     "vaReport.htmlFailed": "HTML 打开失败",
     "vaReport.popupBlocked": "浏览器阻止了报告选项卡 — 为此站点允许弹窗",
-    "vaReport.previewTitle": "VA 报告预览"
+    "vaReport.previewTitle": "VA 报告预览",
+    "code.projects.type.cloud": "云 / CSPM",
+    "code.projects.type.cloudDesc": "仅 AWS / GCP / Azure 云端态势与资产盘点 — 无需源代码访问。",
+    "code.projects.feature.cspm": "云安全 (CSPM)",
+    "code.projects.feature.cspmDesc": "AWS / GCP / Azure 资产盘点 + 云端配置错误 (CSPM) 检查。",
+    "code.projects.feature.cloudInv": "云资产盘点",
+    "code.projects.feature.cloudInvDesc": "跨云供应商的账号、资源、IAM 主体。",
+    "code.projects.feature.cspmFind": "CSPM 发现项",
+    "code.projects.feature.cspmFindDesc": "配置错误检查（公开存储桶、开放安全组、IAM 风险）。",
+    "code.projects.feature.cloudScore": "云端评分",
+    "code.projects.feature.cloudScoreDesc": "每资源与每账号的云端风险分数。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

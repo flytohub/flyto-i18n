@@ -4764,7 +4764,17 @@
     "ssl.hstsPreloadYes": "Yes",
     "vaReport.htmlFailed": "HTML open failed",
     "vaReport.popupBlocked": "Browser blocked the report tab — allow popups for this site",
-    "vaReport.previewTitle": "VA report preview"
+    "vaReport.previewTitle": "VA report preview",
+    "code.projects.type.cloud": "Cloud / CSPM",
+    "code.projects.type.cloudDesc": "AWS / GCP / Azure posture & inventory only — no source code access required.",
+    "code.projects.feature.cspm": "Cloud Security (CSPM)",
+    "code.projects.feature.cspmDesc": "AWS / GCP / Azure asset inventory + cloud misconfiguration (CSPM) checks.",
+    "code.projects.feature.cloudInv": "Cloud Inventory",
+    "code.projects.feature.cloudInvDesc": "Accounts, resources, IAM principals across providers.",
+    "code.projects.feature.cspmFind": "CSPM Findings",
+    "code.projects.feature.cspmFindDesc": "Misconfiguration checks (public buckets, open SGs, IAM risks).",
+    "code.projects.feature.cloudScore": "Cloud Scoring",
+    "code.projects.feature.cloudScoreDesc": "Per-resource & per-account cloud risk score."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

@@ -4763,7 +4763,17 @@
     "ssl.hstsPreloadYes": "是",
     "vaReport.htmlFailed": "HTML 開啟失敗",
     "vaReport.popupBlocked": "瀏覽器已阻止報告分頁 — 允許此網站的快顯視窗",
-    "vaReport.previewTitle": "VA 報告預覽"
+    "vaReport.previewTitle": "VA 報告預覽",
+    "code.projects.type.cloud": "雲端 / CSPM",
+    "code.projects.type.cloudDesc": "僅 AWS / GCP / Azure 雲端態勢與資產盤點 — 不需要原始碼存取。",
+    "code.projects.feature.cspm": "雲端安全 (CSPM)",
+    "code.projects.feature.cspmDesc": "AWS / GCP / Azure 資產盤點 + 雲端設定錯誤 (CSPM) 檢查。",
+    "code.projects.feature.cloudInv": "雲端資產盤點",
+    "code.projects.feature.cloudInvDesc": "跨雲供應商的帳號、資源、IAM 主體。",
+    "code.projects.feature.cspmFind": "CSPM 發現項目",
+    "code.projects.feature.cspmFindDesc": "設定錯誤檢查（公開儲存桶、開放安全群組、IAM 風險）。",
+    "code.projects.feature.cloudScore": "雲端評分",
+    "code.projects.feature.cloudScoreDesc": "每資源與每帳號的雲端風險分數。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
