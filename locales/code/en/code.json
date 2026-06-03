@@ -4855,7 +4855,10 @@
     "code.integrations.field.sourceScore": "Source score (kept raw)",
     "code.integrations.field.observedAt": "Observed at",
     "code.common.back": "Back",
-    "code.common.next": "Next"
+    "code.common.next": "Next",
+    "code.projects.coverage.title": "Platform Coverage",
+    "code.projects.coverage.subtitle": "Eight surfaces · Flyto engine + bring-your-own sources",
+    "code.projects.coverage.flytoByo": "Flyto + BYO"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

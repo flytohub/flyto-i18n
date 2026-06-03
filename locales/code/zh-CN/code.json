@@ -4854,7 +4854,10 @@
     "code.integrations.field.sourceScore": "来源分数(保留原始)",
     "code.integrations.field.observedAt": "观测时间",
     "code.common.back": "上一步",
-    "code.common.next": "下一步"
+    "code.common.next": "下一步",
+    "code.projects.coverage.title": "平台覆盖面",
+    "code.projects.coverage.subtitle": "八大面向 · Flyto 引擎 + 自带来源",
+    "code.projects.coverage.flytoByo": "Flyto + 自带"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
