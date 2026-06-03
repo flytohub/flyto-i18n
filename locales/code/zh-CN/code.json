@@ -4796,7 +4796,11 @@
     "code.projects.wizard.back": "上一步",
     "code.projects.wizard.next": "下一步",
     "code.projects.wizard.free": "免费",
-    "code.projects.wizard.freeNote": "预览期间免费，尚未启用计费。"
+    "code.projects.wizard.freeNote": "预览期间免费，尚未启用计费。",
+    "code.projects.feature.container": "容器安全",
+    "code.projects.feature.containerDesc": "容器镜像 CVE + 基础镜像扫描（Trivy）。",
+    "code.projects.feature.mcp": "MCP 安全",
+    "code.projects.feature.mcpDesc": "MCP 服务器与代理工具调用的运行时防护。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

@@ -4797,7 +4797,11 @@
     "code.projects.wizard.back": "Back",
     "code.projects.wizard.next": "Next",
     "code.projects.wizard.free": "Free",
-    "code.projects.wizard.freeNote": "Free during preview — billing is not enabled yet."
+    "code.projects.wizard.freeNote": "Free during preview — billing is not enabled yet.",
+    "code.projects.feature.container": "Container Security",
+    "code.projects.feature.containerDesc": "Container image CVEs + base-image scanning (Trivy).",
+    "code.projects.feature.mcp": "MCP Security",
+    "code.projects.feature.mcpDesc": "Runtime guardrails for MCP servers and agent tool calls."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
