@@ -4801,7 +4801,13 @@
     "code.projects.feature.container": "Container Security",
     "code.projects.feature.containerDesc": "Container image CVEs + base-image scanning (Trivy).",
     "code.projects.feature.mcp": "MCP Security",
-    "code.projects.feature.mcpDesc": "Runtime guardrails for MCP servers and agent tool calls."
+    "code.projects.feature.mcpDesc": "Runtime guardrails for MCP servers and agent tool calls.",
+    "code.projects.feature.darkWeb": "Dark Web & Threat Intel",
+    "code.projects.feature.darkWebDesc": "Leaked credentials, ransomware, IoCs — Flyto feeds + your own provider.",
+    "code.projects.feature.vulnMgmt": "Vulnerability Management",
+    "code.projects.feature.vulnMgmtDesc": "CVE / scan findings — Flyto VA/PT engine + your own scanner.",
+    "code.projects.feature.identity": "Identity Security",
+    "code.projects.feature.identityDesc": "IdP posture & access risk — bring your own identity provider."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

@@ -4800,7 +4800,13 @@
     "code.projects.feature.container": "容器安全",
     "code.projects.feature.containerDesc": "容器镜像 CVE + 基础镜像扫描（Trivy）。",
     "code.projects.feature.mcp": "MCP 安全",
-    "code.projects.feature.mcpDesc": "MCP 服务器与代理工具调用的运行时防护。"
+    "code.projects.feature.mcpDesc": "MCP 服务器与代理工具调用的运行时防护。",
+    "code.projects.feature.darkWeb": "暗网与威胁情报",
+    "code.projects.feature.darkWebDesc": "泄露凭证、勒索、IoC — Flyto 情报 + 你自己的供应商。",
+    "code.projects.feature.vulnMgmt": "漏洞管理",
+    "code.projects.feature.vulnMgmtDesc": "CVE / 扫描发现 — Flyto VA/PT 引擎 + 你自己的扫描器。",
+    "code.projects.feature.identity": "身份安全",
+    "code.projects.feature.identityDesc": "IdP 态势与访问风险 — 接你自己的身份供应商。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
