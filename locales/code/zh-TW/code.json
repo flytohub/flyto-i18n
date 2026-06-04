@@ -4940,7 +4940,10 @@
     "code.pentest.discoveryFailed": "無法啟動掃描,請再試一次。",
     "code.footprint.pipeline.alreadyRunning": "已有掃描在進行中——請等它完成",
     "code.settings.members.warroomTitle": "成員與角色",
-    "code.settings.members.noNative": "尚無成員。在下方邀請。"
+    "code.settings.members.noNative": "尚無成員。在下方邀請。",
+    "code.nav.dataLeaks": "資料外洩",
+    "code.dataLeaks.title": "資料外洩",
+    "code.dataLeaks.subtitle": "你監控網域上的外洩帳密與資料外洩曝險(HaveIBeenPwned)。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",

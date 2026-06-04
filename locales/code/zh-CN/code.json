@@ -4940,7 +4940,10 @@
     "code.pentest.discoveryFailed": "无法启动扫描,请再试一次。",
     "code.footprint.pipeline.alreadyRunning": "已有扫描在进行中——请等它完成",
     "code.settings.members.warroomTitle": "成员与角色",
-    "code.settings.members.noNative": "尚无成员。在下方邀请。"
+    "code.settings.members.noNative": "尚无成员。在下方邀请。",
+    "code.nav.dataLeaks": "数据泄露",
+    "code.dataLeaks.title": "数据泄露",
+    "code.dataLeaks.subtitle": "你监控域名上的泄露凭据与数据泄露暴露(HaveIBeenPwned)。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

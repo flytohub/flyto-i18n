@@ -4941,7 +4941,10 @@
     "code.pentest.discoveryFailed": "Could not start the scan. Please try again.",
     "code.footprint.pipeline.alreadyRunning": "A scan is already in progress — wait for it to finish",
     "code.settings.members.warroomTitle": "Members & roles",
-    "code.settings.members.noNative": "No members yet. Invite someone below."
+    "code.settings.members.noNative": "No members yet. Invite someone below.",
+    "code.nav.dataLeaks": "Data Leaks",
+    "code.dataLeaks.title": "Data Leaks",
+    "code.dataLeaks.subtitle": "Leaked credentials & breach exposure across your monitored domains (HaveIBeenPwned)."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
