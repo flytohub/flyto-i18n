@@ -5030,7 +5030,8 @@
     "code.mcp.viewSessionTimeline": "檢視 session 時間軸",
     "code.mcp.agent": "代理",
     "code.mcp.user": "使用者",
-    "code.mcp.calls": "筆呼叫"
+    "code.mcp.calls": "筆呼叫",
+    "code.rbac.adminOnly": "需要管理員角色"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",

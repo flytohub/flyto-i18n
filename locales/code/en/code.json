@@ -5031,7 +5031,8 @@
     "code.mcp.viewSessionTimeline": "View session timeline",
     "code.mcp.agent": "agent",
     "code.mcp.user": "user",
-    "code.mcp.calls": "calls"
+    "code.mcp.calls": "calls",
+    "code.rbac.adminOnly": "Requires admin role"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
