@@ -4891,7 +4891,10 @@
     "code.identity.title": "Identity Security",
     "code.identity.placeholderDesc": "IdP posture & access risk — misconfigurations, over-privileged accounts, stale access, and MFA gaps from your identity provider.",
     "code.identity.placeholderNote": "Identity is a bring-your-own-provider surface. Connect your IdP to start ingesting posture once backend support ships.",
-    "code.identity.connectIdp": "Connect your identity provider"
+    "code.identity.connectIdp": "Connect your identity provider",
+    "code.dashboard.connectCloud": "Connect a cloud account",
+    "code.settings.scmNotInProject": "Code scanning isn’t part of this project",
+    "code.settings.scmNotInProjectDesc": "Add the Code module to this project to connect GitHub or GitLab repositories. External and cloud surfaces don’t need a code connection."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

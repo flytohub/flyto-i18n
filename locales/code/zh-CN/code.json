@@ -4890,7 +4890,10 @@
     "code.identity.title": "身份安全",
     "code.identity.placeholderDesc": "IdP 态势与访问风险——来自你的身份提供商的配置错误、过度授权账号、闲置访问与 MFA 缺口。",
     "code.identity.placeholderNote": "身份是「接你自己的提供商」面向。接上你的 IdP,待后端支持上线后即可开始采集态势。",
-    "code.identity.connectIdp": "连接你的身份提供商"
+    "code.identity.connectIdp": "连接你的身份提供商",
+    "code.dashboard.connectCloud": "连接云账户",
+    "code.settings.scmNotInProject": "此项目未包含代码扫描",
+    "code.settings.scmNotInProjectDesc": "为此项目添加「代码」模块,即可连接 GitHub 或 GitLab 仓库。外部与云端面向不需要代码连接。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

@@ -4890,7 +4890,10 @@
     "code.identity.title": "身分安全",
     "code.identity.placeholderDesc": "IdP 態勢與存取風險——來自你的身分供應商的設定錯誤、過度授權帳號、閒置存取與 MFA 缺口。",
     "code.identity.placeholderNote": "身分是「接你自己的供應商」面向。接上你的 IdP,待後端支援上線後即可開始擷取態勢。",
-    "code.identity.connectIdp": "連接你的身分供應商"
+    "code.identity.connectIdp": "連接你的身分供應商",
+    "code.dashboard.connectCloud": "連接雲端帳戶",
+    "code.settings.scmNotInProject": "此專案未包含程式碼掃描",
+    "code.settings.scmNotInProjectDesc": "為此專案加入「程式碼」模組,即可連接 GitHub 或 GitLab 儲存庫。外部與雲端面向不需要程式碼連接。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
