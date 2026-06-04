@@ -4929,7 +4929,10 @@
     "code.mcp.colVerdict": "裁决",
     "code.mcp.colEffect": "影响",
     "code.mcp.stateChange": "状态变更",
-    "code.mcp.sideEffect": "外部"
+    "code.mcp.sideEffect": "外部",
+    "code.repoPicker.emptyTitle": "找不到仓库",
+    "code.repoPicker.emptyDesc": "若你刚连接过,授权可能已过期或被清除。请重新连接以刷新列表。",
+    "code.repoPicker.reconnect": "重新连接"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

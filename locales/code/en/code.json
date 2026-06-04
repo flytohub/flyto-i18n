@@ -4930,7 +4930,10 @@
     "code.mcp.colVerdict": "Verdict",
     "code.mcp.colEffect": "Effect",
     "code.mcp.stateChange": "state-change",
-    "code.mcp.sideEffect": "external"
+    "code.mcp.sideEffect": "external",
+    "code.repoPicker.emptyTitle": "No repositories found",
+    "code.repoPicker.emptyDesc": "If you connected recently, the authorization may have expired or been cleared. Reconnect to refresh the list.",
+    "code.repoPicker.reconnect": "Reconnect"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
