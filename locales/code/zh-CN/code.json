@@ -4936,7 +4936,9 @@
     "code.repoPicker.noTokenErr": "GitHub 没有返回访问令牌。请到设置断开 GitHub 后重新连接,或改用安装 GitHub App。",
     "code.repoPicker.saveForbidden": "只有组织管理员/拥有者能保存 GitHub 连接。请改由管理员连接。",
     "code.repoPicker.saveFailed": "已取得授权但服务器拒绝保存。请重试或到设置重新连接。",
-    "code.repoPicker.reauthFailed": "GitHub 授权失败或被取消,请再试一次。"
+    "code.repoPicker.reauthFailed": "GitHub 授权失败或被取消,请再试一次。",
+    "code.pentest.discoveryFailed": "无法启动扫描,请再试一次。",
+    "code.footprint.pipeline.alreadyRunning": "已有扫描在进行中——请等它完成"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

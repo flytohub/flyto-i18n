@@ -4936,7 +4936,9 @@
     "code.repoPicker.noTokenErr": "GitHub 沒有回傳存取權杖。請到設定中斷 GitHub 後重新連接,或改用安裝 GitHub App。",
     "code.repoPicker.saveForbidden": "只有組織管理者/擁有者能儲存 GitHub 連接。請改由管理者連接。",
     "code.repoPicker.saveFailed": "已取得授權但伺服器拒絕儲存。請重試或到設定重新連接。",
-    "code.repoPicker.reauthFailed": "GitHub 授權失敗或被取消,請再試一次。"
+    "code.repoPicker.reauthFailed": "GitHub 授權失敗或被取消,請再試一次。",
+    "code.pentest.discoveryFailed": "無法啟動掃描,請再試一次。",
+    "code.footprint.pipeline.alreadyRunning": "已有掃描在進行中——請等它完成"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
