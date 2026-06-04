@@ -4878,7 +4878,9 @@
     "code.rolesAccess.roleDesc.member": "Trigger scans, change issue status, request pentests, assess vendors.",
     "code.rolesAccess.roleDesc.viewer": "Read-only — view reports, scores, findings and the audit log.",
     "code.rolesAccess.roleDesc.guest": "Minimal read access to public resources.",
-    "code.access.actionDenied": "You don't have permission for this action."
+    "code.access.actionDenied": "You don't have permission for this action.",
+    "code.projects.coverage.soon": "Coming soon",
+    "code.projects.coverage.beta": "Beta"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

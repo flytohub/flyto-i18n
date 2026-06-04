@@ -4877,7 +4877,9 @@
     "code.rolesAccess.roleDesc.member": "触发扫描、变更问题状态、申请渗透测试、评估供应商。",
     "code.rolesAccess.roleDesc.viewer": "只读——查看报告、分数、发现项与审计记录。",
     "code.rolesAccess.roleDesc.guest": "对公开资源的最小只读访问。",
-    "code.access.actionDenied": "你没有执行此操作的权限。"
+    "code.access.actionDenied": "你没有执行此操作的权限。",
+    "code.projects.coverage.soon": "即将推出",
+    "code.projects.coverage.beta": "Beta"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
