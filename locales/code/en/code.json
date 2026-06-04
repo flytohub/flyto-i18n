@@ -4939,7 +4939,9 @@
     "code.repoPicker.saveFailed": "Saved the authorization but the server rejected it. Try again or reconnect from Settings.",
     "code.repoPicker.reauthFailed": "GitHub authorization failed or was cancelled. Please try again.",
     "code.pentest.discoveryFailed": "Could not start the scan. Please try again.",
-    "code.footprint.pipeline.alreadyRunning": "A scan is already in progress — wait for it to finish"
+    "code.footprint.pipeline.alreadyRunning": "A scan is already in progress — wait for it to finish",
+    "code.settings.members.warroomTitle": "Members & roles",
+    "code.settings.members.noNative": "No members yet. Invite someone below."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

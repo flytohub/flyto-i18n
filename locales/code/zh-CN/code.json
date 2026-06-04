@@ -4938,7 +4938,9 @@
     "code.repoPicker.saveFailed": "已取得授权但服务器拒绝保存。请重试或到设置重新连接。",
     "code.repoPicker.reauthFailed": "GitHub 授权失败或被取消,请再试一次。",
     "code.pentest.discoveryFailed": "无法启动扫描,请再试一次。",
-    "code.footprint.pipeline.alreadyRunning": "已有扫描在进行中——请等它完成"
+    "code.footprint.pipeline.alreadyRunning": "已有扫描在进行中——请等它完成",
+    "code.settings.members.warroomTitle": "成员与角色",
+    "code.settings.members.noNative": "尚无成员。在下方邀请。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

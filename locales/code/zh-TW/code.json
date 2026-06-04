@@ -4938,7 +4938,9 @@
     "code.repoPicker.saveFailed": "已取得授權但伺服器拒絕儲存。請重試或到設定重新連接。",
     "code.repoPicker.reauthFailed": "GitHub 授權失敗或被取消,請再試一次。",
     "code.pentest.discoveryFailed": "無法啟動掃描,請再試一次。",
-    "code.footprint.pipeline.alreadyRunning": "已有掃描在進行中——請等它完成"
+    "code.footprint.pipeline.alreadyRunning": "已有掃描在進行中——請等它完成",
+    "code.settings.members.warroomTitle": "成員與角色",
+    "code.settings.members.noNative": "尚無成員。在下方邀請。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
