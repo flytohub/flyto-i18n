@@ -4964,7 +4964,9 @@
     "code.soon.detectionRules.note": "MITRE technique mappings exist; the custom-rule engine isn’t exposed yet.",
     "code.soon.cloudStorage.title": "Cloud Storage Exposure",
     "code.soon.cloudStorage.desc": "Discover public buckets and exposed object storage leaking your data.",
-    "code.soon.cloudStorage.note": "Object-storage enumeration connectors are not wired yet."
+    "code.soon.cloudStorage.note": "Object-storage enumeration connectors are not wired yet.",
+    "code.botshield.title": "BotShield",
+    "code.botshield.lede": "Command-and-control & botnet indicators correlated with your assets (Feodo / ThreatFox)."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

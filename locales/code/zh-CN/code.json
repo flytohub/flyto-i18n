@@ -4963,7 +4963,9 @@
     "code.soon.detectionRules.note": "已有 MITRE 技术映射;自定义规则引擎尚未开放。",
     "code.soon.cloudStorage.title": "云存储暴露",
     "code.soon.cloudStorage.desc": "找出公开的存储桶与暴露的对象存储,避免数据泄露。",
-    "code.soon.cloudStorage.note": "对象存储枚举连接器尚未接线。"
+    "code.soon.cloudStorage.note": "对象存储枚举连接器尚未接线。",
+    "code.botshield.title": "BotShield",
+    "code.botshield.lede": "与你资产关联的 C2 与僵尸网络指标(Feodo / ThreatFox)。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
