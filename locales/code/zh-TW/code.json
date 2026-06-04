@@ -5042,7 +5042,15 @@
     "code.sidebar.confirmRename": "確認重新命名",
     "code.sidebar.cancelRename": "取消重新命名",
     "code.sidebar.editOrgName": "編輯組織名稱",
-    "code.autofix.warroom.promotionError": "升級決策失敗:"
+    "code.autofix.warroom.promotionError": "升級決策失敗:",
+    "code.common.daysShort": "天",
+    "code.sector.finance": "金融",
+    "code.sector.saas": "SaaS",
+    "code.sector.retail": "零售",
+    "code.sector.healthcare": "醫療",
+    "code.sector.gov": "政府",
+    "code.sector.energy": "能源",
+    "code.sector.education": "教育"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
