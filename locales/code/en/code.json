@@ -4933,7 +4933,11 @@
     "code.mcp.sideEffect": "external",
     "code.repoPicker.emptyTitle": "No repositories found",
     "code.repoPicker.emptyDesc": "If you connected recently, the authorization may have expired or been cleared. Reconnect to refresh the list.",
-    "code.repoPicker.reconnect": "Reconnect"
+    "code.repoPicker.reconnect": "Reconnect",
+    "code.repoPicker.noTokenErr": "GitHub didn't return an access token. Disconnect GitHub in Settings and connect again, or install the GitHub App.",
+    "code.repoPicker.saveForbidden": "Only an org admin/owner can save the GitHub connection. Ask an admin to connect.",
+    "code.repoPicker.saveFailed": "Saved the authorization but the server rejected it. Try again or reconnect from Settings.",
+    "code.repoPicker.reauthFailed": "GitHub authorization failed or was cancelled. Please try again."
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

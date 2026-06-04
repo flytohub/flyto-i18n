@@ -4932,7 +4932,11 @@
     "code.mcp.sideEffect": "外部",
     "code.repoPicker.emptyTitle": "找不到仓库",
     "code.repoPicker.emptyDesc": "若你刚连接过,授权可能已过期或被清除。请重新连接以刷新列表。",
-    "code.repoPicker.reconnect": "重新连接"
+    "code.repoPicker.reconnect": "重新连接",
+    "code.repoPicker.noTokenErr": "GitHub 没有返回访问令牌。请到设置断开 GitHub 后重新连接,或改用安装 GitHub App。",
+    "code.repoPicker.saveForbidden": "只有组织管理员/拥有者能保存 GitHub 连接。请改由管理员连接。",
+    "code.repoPicker.saveFailed": "已取得授权但服务器拒绝保存。请重试或到设置重新连接。",
+    "code.repoPicker.reauthFailed": "GitHub 授权失败或被取消,请再试一次。"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
