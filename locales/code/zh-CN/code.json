@@ -5025,7 +5025,12 @@
     "code.mcp.dataDirection": "数据方向",
     "code.mcp.evidence": "证据",
     "code.mcp.lenses": "Lens 评分",
-    "code.mcp.recordedAtIngest": "入口记录"
+    "code.mcp.recordedAtIngest": "入口记录",
+    "code.mcp.sessionTimeline": "Session 时间轴",
+    "code.mcp.viewSessionTimeline": "查看 session 时间轴",
+    "code.mcp.agent": "代理",
+    "code.mcp.user": "用户",
+    "code.mcp.calls": "条调用"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

@@ -5026,7 +5026,12 @@
     "code.mcp.dataDirection": "Data direction",
     "code.mcp.evidence": "Evidence",
     "code.mcp.lenses": "Lens scores",
-    "code.mcp.recordedAtIngest": "Recorded at ingest"
+    "code.mcp.recordedAtIngest": "Recorded at ingest",
+    "code.mcp.sessionTimeline": "Session timeline",
+    "code.mcp.viewSessionTimeline": "View session timeline",
+    "code.mcp.agent": "agent",
+    "code.mcp.user": "user",
+    "code.mcp.calls": "calls"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
