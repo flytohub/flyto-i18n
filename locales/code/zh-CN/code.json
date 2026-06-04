@@ -5050,7 +5050,10 @@
     "code.sector.healthcare": "医疗",
     "code.sector.gov": "政府",
     "code.sector.energy": "能源",
-    "code.sector.education": "教育"
+    "code.sector.education": "教育",
+    "code.layout.settingsViewerTitle": "设置查看器",
+    "code.layout.queryParams": "查询参数",
+    "code.sidebar.backToProjects": "返回项目"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

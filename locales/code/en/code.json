@@ -5051,7 +5051,10 @@
     "code.sector.healthcare": "Healthcare",
     "code.sector.gov": "Government",
     "code.sector.energy": "Energy",
-    "code.sector.education": "Education"
+    "code.sector.education": "Education",
+    "code.layout.settingsViewerTitle": "Settings Viewer",
+    "code.layout.queryParams": "Query Params",
+    "code.sidebar.backToProjects": "Back to projects"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
