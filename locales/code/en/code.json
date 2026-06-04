@@ -5054,7 +5054,8 @@
     "code.sector.education": "Education",
     "code.layout.settingsViewerTitle": "Settings Viewer",
     "code.layout.queryParams": "Query Params",
-    "code.sidebar.backToProjects": "Back to projects"
+    "code.sidebar.backToProjects": "Back to projects",
+    "code.sidebar.navLabel": "Workspace navigation"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

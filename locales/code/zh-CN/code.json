@@ -5053,7 +5053,8 @@
     "code.sector.education": "教育",
     "code.layout.settingsViewerTitle": "设置查看器",
     "code.layout.queryParams": "查询参数",
-    "code.sidebar.backToProjects": "返回项目"
+    "code.sidebar.backToProjects": "返回项目",
+    "code.sidebar.navLabel": "工作区导航"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
