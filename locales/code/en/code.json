@@ -5055,7 +5055,10 @@
     "code.layout.settingsViewerTitle": "Settings Viewer",
     "code.layout.queryParams": "Query Params",
     "code.sidebar.backToProjects": "Back to projects",
-    "code.sidebar.navLabel": "Workspace navigation"
+    "code.sidebar.navLabel": "Workspace navigation",
+    "code.assetMap.showLeads": "Discovery leads",
+    "code.assetMap.showLeadsHint": "Overlay low-confidence candidate edges (discovery leads) on the confirmed asset graph",
+    "code.assetMap.lead": "lead"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
