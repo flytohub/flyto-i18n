@@ -5054,7 +5054,10 @@
     "code.layout.settingsViewerTitle": "设置查看器",
     "code.layout.queryParams": "查询参数",
     "code.sidebar.backToProjects": "返回项目",
-    "code.sidebar.navLabel": "工作区导航"
+    "code.sidebar.navLabel": "工作区导航",
+    "code.assetMap.showLeads": "探索线索",
+    "code.assetMap.showLeadsHint": "在已确认资产图上叠加低信心的候选边（探索线索）",
+    "code.assetMap.lead": "线索"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

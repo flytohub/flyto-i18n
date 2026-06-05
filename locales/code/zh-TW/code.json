@@ -5054,7 +5054,10 @@
     "code.layout.settingsViewerTitle": "設定檢視器",
     "code.layout.queryParams": "查詢參數",
     "code.sidebar.backToProjects": "返回專案",
-    "code.sidebar.navLabel": "工作區導覽"
+    "code.sidebar.navLabel": "工作區導覽",
+    "code.assetMap.showLeads": "探索線索",
+    "code.assetMap.showLeadsHint": "在已確認資產圖上疊加低信心的候選邊（探索線索）",
+    "code.assetMap.lead": "線索"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
