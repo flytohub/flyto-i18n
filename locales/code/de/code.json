@@ -3184,7 +3184,10 @@
     "code.dast.section.endpoints": "Endpunkte",
     "code.dast.endpoint.https": "HTTPS-Endpunkt (443)",
     "code.dast.endpoint.http": "HTTP-Endpunkt (80)",
-    "code.dast.endpoint.noStatus": "keine Antwort"
+    "code.dast.endpoint.noStatus": "keine Antwort",
+    "code.repos.ops.title": "Scan- & Behebungs-Ops",
+    "code.repos.ops.tabScanControls": "Scan-Steuerung",
+    "code.repos.ops.tabAiProposals": "KI-CVE-Bump-Vorschläge"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "de",

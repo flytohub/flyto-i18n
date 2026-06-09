@@ -5717,7 +5717,10 @@
     "code.dast.section.endpoints": "エンドポイント",
     "code.dast.endpoint.https": "HTTPSエンドポイント (443)",
     "code.dast.endpoint.http": "HTTPエンドポイント (80)",
-    "code.dast.endpoint.noStatus": "応答なし"
+    "code.dast.endpoint.noStatus": "応答なし",
+    "code.repos.ops.title": "スキャンと修復オペレーション",
+    "code.repos.ops.tabScanControls": "スキャン設定",
+    "code.repos.ops.tabAiProposals": "AI CVE バージョン更新提案"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

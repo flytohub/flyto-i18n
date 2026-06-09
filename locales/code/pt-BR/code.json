@@ -3184,7 +3184,10 @@
     "code.dast.section.endpoints": "Endpoints",
     "code.dast.endpoint.https": "Endpoint HTTPS (443)",
     "code.dast.endpoint.http": "Endpoint HTTP (80)",
-    "code.dast.endpoint.noStatus": "sem resposta"
+    "code.dast.endpoint.noStatus": "sem resposta",
+    "code.repos.ops.title": "Operações de Varredura e Remediação",
+    "code.repos.ops.tabScanControls": "Controles de Varredura",
+    "code.repos.ops.tabAiProposals": "Propostas de Atualização de CVE por IA"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pt-BR",

@@ -3184,7 +3184,10 @@
     "code.dast.section.endpoints": "Points de terminaison",
     "code.dast.endpoint.https": "Point de terminaison HTTPS (443)",
     "code.dast.endpoint.http": "Point de terminaison HTTP (80)",
-    "code.dast.endpoint.noStatus": "aucune réponse"
+    "code.dast.endpoint.noStatus": "aucune réponse",
+    "code.repos.ops.title": "Ops d'analyse et de remédiation",
+    "code.repos.ops.tabScanControls": "Contrôles d'analyse",
+    "code.repos.ops.tabAiProposals": "Propositions IA de bump CVE"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "fr",

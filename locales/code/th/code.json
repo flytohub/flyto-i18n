@@ -3184,7 +3184,10 @@
     "code.dast.section.endpoints": "Endpoints",
     "code.dast.endpoint.https": "HTTPS endpoint (443)",
     "code.dast.endpoint.http": "HTTP endpoint (80)",
-    "code.dast.endpoint.noStatus": "ไม่มีการตอบสนอง"
+    "code.dast.endpoint.noStatus": "ไม่มีการตอบสนอง",
+    "code.repos.ops.title": "การสแกนและการแก้ไข",
+    "code.repos.ops.tabScanControls": "การควบคุมการสแกน",
+    "code.repos.ops.tabAiProposals": "ข้อเสนออัปเวอร์ชัน CVE โดย AI"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "th",

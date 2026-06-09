@@ -3188,6 +3188,9 @@
     "code.dast.section.endpoints": "Endpoint",
     "code.dast.endpoint.https": "Endpoint HTTPS (443)",
     "code.dast.endpoint.http": "Endpoint HTTP (80)",
-    "code.dast.endpoint.noStatus": "không phản hồi"
+    "code.dast.endpoint.noStatus": "không phản hồi",
+    "code.repos.ops.title": "Tác vụ Quét & Khắc phục",
+    "code.repos.ops.tabScanControls": "Điều khiển Quét",
+    "code.repos.ops.tabAiProposals": "Đề xuất Nâng cấp CVE bằng AI"
   }
 }

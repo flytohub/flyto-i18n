@@ -3188,6 +3188,9 @@
     "code.dast.section.endpoints": "एंडपॉइंट",
     "code.dast.endpoint.https": "HTTPS एंडपॉइंट (443)",
     "code.dast.endpoint.http": "HTTP एंडपॉइंट (80)",
-    "code.dast.endpoint.noStatus": "कोई प्रतिक्रिया नहीं"
+    "code.dast.endpoint.noStatus": "कोई प्रतिक्रिया नहीं",
+    "code.repos.ops.title": "स्कैन और निवारण ऑप्स",
+    "code.repos.ops.tabScanControls": "स्कैन नियंत्रण",
+    "code.repos.ops.tabAiProposals": "AI CVE-बंप प्रस्ताव"
   }
 }

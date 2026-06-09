@@ -6038,7 +6038,10 @@
     "code.dast.section.endpoints": "端点",
     "code.dast.endpoint.https": "HTTPS 端点 (443)",
     "code.dast.endpoint.http": "HTTP 端点 (80)",
-    "code.dast.endpoint.noStatus": "无响应"
+    "code.dast.endpoint.noStatus": "无响应",
+    "code.repos.ops.title": "扫描与修复操作",
+    "code.repos.ops.tabScanControls": "扫描控制",
+    "code.repos.ops.tabAiProposals": "AI CVE 升级建议"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

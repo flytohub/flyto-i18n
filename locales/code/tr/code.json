@@ -3184,7 +3184,10 @@
     "code.dast.section.endpoints": "Uç noktaları",
     "code.dast.endpoint.https": "HTTPS uç noktası (443)",
     "code.dast.endpoint.http": "HTTP uç noktası (80)",
-    "code.dast.endpoint.noStatus": "yanıt yok"
+    "code.dast.endpoint.noStatus": "yanıt yok",
+    "code.repos.ops.title": "Tarama ve Düzeltme İşlemleri",
+    "code.repos.ops.tabScanControls": "Tarama Denetimleri",
+    "code.repos.ops.tabAiProposals": "AI CVE Sürüm Yükseltme Önerileri"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "tr",

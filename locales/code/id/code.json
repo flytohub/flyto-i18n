@@ -3300,7 +3300,10 @@
     "code.dast.section.endpoints": "Endpoint",
     "code.dast.endpoint.https": "Endpoint HTTPS (443)",
     "code.dast.endpoint.http": "Endpoint HTTP (80)",
-    "code.dast.endpoint.noStatus": "tidak ada respons"
+    "code.dast.endpoint.noStatus": "tidak ada respons",
+    "code.repos.ops.title": "Operasi Pindai & Remediasi",
+    "code.repos.ops.tabScanControls": "Kontrol Pindai",
+    "code.repos.ops.tabAiProposals": "Usulan AI Naik-Versi CVE"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "id",

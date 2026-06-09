@@ -3300,7 +3300,10 @@
     "code.dast.section.endpoints": "Punkty końcowe",
     "code.dast.endpoint.https": "Punkt końcowy HTTPS (443)",
     "code.dast.endpoint.http": "Punkt końcowy HTTP (80)",
-    "code.dast.endpoint.noStatus": "brak odpowiedzi"
+    "code.dast.endpoint.noStatus": "brak odpowiedzi",
+    "code.repos.ops.title": "Operacje skanowania i naprawy",
+    "code.repos.ops.tabScanControls": "Sterowanie skanowaniem",
+    "code.repos.ops.tabAiProposals": "Propozycje AI: aktualizacje CVE"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pl",

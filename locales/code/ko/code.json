@@ -3184,7 +3184,10 @@
     "code.dast.section.endpoints": "엔드포인트",
     "code.dast.endpoint.https": "HTTPS 엔드포인트 (443)",
     "code.dast.endpoint.http": "HTTP 엔드포인트 (80)",
-    "code.dast.endpoint.noStatus": "응답 없음"
+    "code.dast.endpoint.noStatus": "응답 없음",
+    "code.repos.ops.title": "스캔 및 조치 작업",
+    "code.repos.ops.tabScanControls": "스캔 제어",
+    "code.repos.ops.tabAiProposals": "AI CVE 버전 상향 제안"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ko",

@@ -6039,7 +6039,10 @@
     "code.dast.section.endpoints": "Endpoints",
     "code.dast.endpoint.https": "HTTPS endpoint (443)",
     "code.dast.endpoint.http": "HTTP endpoint (80)",
-    "code.dast.endpoint.noStatus": "no response"
+    "code.dast.endpoint.noStatus": "no response",
+    "code.repos.ops.title": "Scan & Remediation Ops",
+    "code.repos.ops.tabScanControls": "Scan Controls",
+    "code.repos.ops.tabAiProposals": "AI CVE-Bump Proposals"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
