@@ -6034,7 +6034,12 @@
     "code.footprint.attribution.poolNoise": "Noise",
     "code.footprint.attribution.poolAll": "All",
     "code.scoreTrends.chartTitle": "Score trend (90 days)",
-    "code.scoreTrends.chartEmpty": "Not enough history to chart a trend"
+    "code.scoreTrends.chartEmpty": "Not enough history to chart a trend",
+    "code.dast.notScannedHttps": "No HTTPS endpoint scanned",
+    "code.dast.section.endpoints": "Endpoints",
+    "code.dast.endpoint.https": "HTTPS endpoint (443)",
+    "code.dast.endpoint.http": "HTTP endpoint (80)",
+    "code.dast.endpoint.noStatus": "no response"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

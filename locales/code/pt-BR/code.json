@@ -3179,7 +3179,12 @@
     "code.footprint.attribution.poolNoise": "Ruído",
     "code.footprint.attribution.poolAll": "Todos",
     "code.scoreTrends.chartTitle": "Tendência de pontuação (90 dias)",
-    "code.scoreTrends.chartEmpty": "Histórico insuficiente para traçar uma tendência"
+    "code.scoreTrends.chartEmpty": "Histórico insuficiente para traçar uma tendência",
+    "code.dast.notScannedHttps": "Nenhum endpoint HTTPS verificado",
+    "code.dast.section.endpoints": "Endpoints",
+    "code.dast.endpoint.https": "Endpoint HTTPS (443)",
+    "code.dast.endpoint.http": "Endpoint HTTP (80)",
+    "code.dast.endpoint.noStatus": "sem resposta"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pt-BR",

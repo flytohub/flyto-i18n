@@ -3179,7 +3179,12 @@
     "code.footprint.attribution.poolNoise": "Gürültü",
     "code.footprint.attribution.poolAll": "Tümü",
     "code.scoreTrends.chartTitle": "Puan eğilimi (90 gün)",
-    "code.scoreTrends.chartEmpty": "Eğilim grafiği için yeterli geçmiş yok"
+    "code.scoreTrends.chartEmpty": "Eğilim grafiği için yeterli geçmiş yok",
+    "code.dast.notScannedHttps": "HTTPS uç noktası taranmadı",
+    "code.dast.section.endpoints": "Uç noktaları",
+    "code.dast.endpoint.https": "HTTPS uç noktası (443)",
+    "code.dast.endpoint.http": "HTTP uç noktası (80)",
+    "code.dast.endpoint.noStatus": "yanıt yok"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "tr",

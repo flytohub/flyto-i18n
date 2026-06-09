@@ -3179,7 +3179,12 @@
     "code.footprint.attribution.poolNoise": "노이즈",
     "code.footprint.attribution.poolAll": "전체",
     "code.scoreTrends.chartTitle": "점수 추이 (90일)",
-    "code.scoreTrends.chartEmpty": "추이를 표시할 기록이 부족합니다"
+    "code.scoreTrends.chartEmpty": "추이를 표시할 기록이 부족합니다",
+    "code.dast.notScannedHttps": "스캔된 HTTPS 엔드포인트 없음",
+    "code.dast.section.endpoints": "엔드포인트",
+    "code.dast.endpoint.https": "HTTPS 엔드포인트 (443)",
+    "code.dast.endpoint.http": "HTTP 엔드포인트 (80)",
+    "code.dast.endpoint.noStatus": "응답 없음"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ko",

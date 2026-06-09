@@ -3183,6 +3183,11 @@
     "code.footprint.attribution.poolNoise": "अप्रासंगिक",
     "code.footprint.attribution.poolAll": "सभी",
     "code.scoreTrends.chartTitle": "स्कोर रुझान (90 दिन)",
-    "code.scoreTrends.chartEmpty": "रुझान दिखाने के लिए पर्याप्त इतिहास नहीं"
+    "code.scoreTrends.chartEmpty": "रुझान दिखाने के लिए पर्याप्त इतिहास नहीं",
+    "code.dast.notScannedHttps": "कोई HTTPS एंडपॉइंट स्कैन नहीं हुआ",
+    "code.dast.section.endpoints": "एंडपॉइंट",
+    "code.dast.endpoint.https": "HTTPS एंडपॉइंट (443)",
+    "code.dast.endpoint.http": "HTTP एंडपॉइंट (80)",
+    "code.dast.endpoint.noStatus": "कोई प्रतिक्रिया नहीं"
   }
 }

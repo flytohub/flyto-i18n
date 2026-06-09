@@ -3295,7 +3295,12 @@
     "code.footprint.attribution.poolNoise": "Bising",
     "code.footprint.attribution.poolAll": "Semua",
     "code.scoreTrends.chartTitle": "Tren skor (90 hari)",
-    "code.scoreTrends.chartEmpty": "Riwayat tidak cukup untuk menampilkan tren"
+    "code.scoreTrends.chartEmpty": "Riwayat tidak cukup untuk menampilkan tren",
+    "code.dast.notScannedHttps": "Tidak ada endpoint HTTPS yang dipindai",
+    "code.dast.section.endpoints": "Endpoint",
+    "code.dast.endpoint.https": "Endpoint HTTPS (443)",
+    "code.dast.endpoint.http": "Endpoint HTTP (80)",
+    "code.dast.endpoint.noStatus": "tidak ada respons"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "id",

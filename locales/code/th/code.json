@@ -3179,7 +3179,12 @@
     "code.footprint.attribution.poolNoise": "ไม่เกี่ยวข้อง",
     "code.footprint.attribution.poolAll": "ทั้งหมด",
     "code.scoreTrends.chartTitle": "แนวโน้มคะแนน (90 วัน)",
-    "code.scoreTrends.chartEmpty": "ประวัติไม่พอสำหรับแสดงแนวโน้ม"
+    "code.scoreTrends.chartEmpty": "ประวัติไม่พอสำหรับแสดงแนวโน้ม",
+    "code.dast.notScannedHttps": "ไม่มีการสแกน HTTPS endpoint",
+    "code.dast.section.endpoints": "Endpoints",
+    "code.dast.endpoint.https": "HTTPS endpoint (443)",
+    "code.dast.endpoint.http": "HTTP endpoint (80)",
+    "code.dast.endpoint.noStatus": "ไม่มีการตอบสนอง"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "th",

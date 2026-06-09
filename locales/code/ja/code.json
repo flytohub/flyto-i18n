@@ -5712,7 +5712,12 @@
     "code.footprint.attribution.poolNoise": "対象外",
     "code.footprint.attribution.poolAll": "すべて",
     "code.scoreTrends.chartTitle": "スコア推移（90日間）",
-    "code.scoreTrends.chartEmpty": "推移を表示するには履歴が不足しています"
+    "code.scoreTrends.chartEmpty": "推移を表示するには履歴が不足しています",
+    "code.dast.notScannedHttps": "HTTPSエンドポイントは未スキャン",
+    "code.dast.section.endpoints": "エンドポイント",
+    "code.dast.endpoint.https": "HTTPSエンドポイント (443)",
+    "code.dast.endpoint.http": "HTTPエンドポイント (80)",
+    "code.dast.endpoint.noStatus": "応答なし"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

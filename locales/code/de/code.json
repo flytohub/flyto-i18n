@@ -3179,7 +3179,12 @@
     "code.footprint.attribution.poolNoise": "Rauschen",
     "code.footprint.attribution.poolAll": "Alle",
     "code.scoreTrends.chartTitle": "Score-Verlauf (90 Tage)",
-    "code.scoreTrends.chartEmpty": "Nicht genug Verlauf für einen Trend"
+    "code.scoreTrends.chartEmpty": "Nicht genug Verlauf für einen Trend",
+    "code.dast.notScannedHttps": "Kein HTTPS-Endpunkt gescannt",
+    "code.dast.section.endpoints": "Endpunkte",
+    "code.dast.endpoint.https": "HTTPS-Endpunkt (443)",
+    "code.dast.endpoint.http": "HTTP-Endpunkt (80)",
+    "code.dast.endpoint.noStatus": "keine Antwort"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "de",

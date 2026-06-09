@@ -3295,7 +3295,12 @@
     "code.footprint.attribution.poolNoise": "Szum",
     "code.footprint.attribution.poolAll": "Wszystkie",
     "code.scoreTrends.chartTitle": "Trend wyniku (90 dni)",
-    "code.scoreTrends.chartEmpty": "Za mało historii, aby pokazać trend"
+    "code.scoreTrends.chartEmpty": "Za mało historii, aby pokazać trend",
+    "code.dast.notScannedHttps": "Nie przeskanowano punktu końcowego HTTPS",
+    "code.dast.section.endpoints": "Punkty końcowe",
+    "code.dast.endpoint.https": "Punkt końcowy HTTPS (443)",
+    "code.dast.endpoint.http": "Punkt końcowy HTTP (80)",
+    "code.dast.endpoint.noStatus": "brak odpowiedzi"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pl",

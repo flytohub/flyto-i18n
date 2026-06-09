@@ -3295,7 +3295,12 @@
     "code.footprint.attribution.poolNoise": "Rumore",
     "code.footprint.attribution.poolAll": "Tutti",
     "code.scoreTrends.chartTitle": "Andamento del punteggio (90 giorni)",
-    "code.scoreTrends.chartEmpty": "Cronologia insufficiente per tracciare un andamento"
+    "code.scoreTrends.chartEmpty": "Cronologia insufficiente per tracciare un andamento",
+    "code.dast.notScannedHttps": "Nessun endpoint HTTPS analizzato",
+    "code.dast.section.endpoints": "Endpoint",
+    "code.dast.endpoint.https": "Endpoint HTTPS (443)",
+    "code.dast.endpoint.http": "Endpoint HTTP (80)",
+    "code.dast.endpoint.noStatus": "nessuna risposta"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "it",

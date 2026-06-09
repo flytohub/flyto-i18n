@@ -6033,7 +6033,12 @@
     "code.footprint.attribution.poolNoise": "噪声",
     "code.footprint.attribution.poolAll": "全部",
     "code.scoreTrends.chartTitle": "评分趋势（90 天）",
-    "code.scoreTrends.chartEmpty": "历史数据不足，无法生成趋势图"
+    "code.scoreTrends.chartEmpty": "历史数据不足，无法生成趋势图",
+    "code.dast.notScannedHttps": "未扫描 HTTPS 端点",
+    "code.dast.section.endpoints": "端点",
+    "code.dast.endpoint.https": "HTTPS 端点 (443)",
+    "code.dast.endpoint.http": "HTTP 端点 (80)",
+    "code.dast.endpoint.noStatus": "无响应"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

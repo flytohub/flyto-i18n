@@ -3183,6 +3183,11 @@
     "code.footprint.attribution.poolNoise": "Nhiễu",
     "code.footprint.attribution.poolAll": "Tất cả",
     "code.scoreTrends.chartTitle": "Xu hướng điểm (90 ngày)",
-    "code.scoreTrends.chartEmpty": "Chưa đủ lịch sử để vẽ xu hướng"
+    "code.scoreTrends.chartEmpty": "Chưa đủ lịch sử để vẽ xu hướng",
+    "code.dast.notScannedHttps": "Chưa quét endpoint HTTPS",
+    "code.dast.section.endpoints": "Endpoint",
+    "code.dast.endpoint.https": "Endpoint HTTPS (443)",
+    "code.dast.endpoint.http": "Endpoint HTTP (80)",
+    "code.dast.endpoint.noStatus": "không phản hồi"
   }
 }
