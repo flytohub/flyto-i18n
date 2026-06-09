@@ -6031,7 +6031,9 @@
     "code.footprint.attribution.poolConfirmed": "已确认",
     "code.footprint.attribution.poolCandidate": "候选",
     "code.footprint.attribution.poolNoise": "噪声",
-    "code.footprint.attribution.poolAll": "全部"
+    "code.footprint.attribution.poolAll": "全部",
+    "code.scoreTrends.chartTitle": "评分趋势（90 天）",
+    "code.scoreTrends.chartEmpty": "历史数据不足，无法生成趋势图"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",

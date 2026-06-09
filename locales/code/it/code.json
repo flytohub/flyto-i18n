@@ -3293,7 +3293,9 @@
     "code.footprint.attribution.poolConfirmed": "Confermati",
     "code.footprint.attribution.poolCandidate": "Candidati",
     "code.footprint.attribution.poolNoise": "Rumore",
-    "code.footprint.attribution.poolAll": "Tutti"
+    "code.footprint.attribution.poolAll": "Tutti",
+    "code.scoreTrends.chartTitle": "Andamento del punteggio (90 giorni)",
+    "code.scoreTrends.chartEmpty": "Cronologia insufficiente per tracciare un andamento"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "it",

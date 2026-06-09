@@ -5710,7 +5710,9 @@
     "code.footprint.attribution.poolConfirmed": "確認済み",
     "code.footprint.attribution.poolCandidate": "候補",
     "code.footprint.attribution.poolNoise": "対象外",
-    "code.footprint.attribution.poolAll": "すべて"
+    "code.footprint.attribution.poolAll": "すべて",
+    "code.scoreTrends.chartTitle": "スコア推移（90日間）",
+    "code.scoreTrends.chartEmpty": "推移を表示するには履歴が不足しています"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "ja",

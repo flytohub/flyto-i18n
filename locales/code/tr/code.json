@@ -3177,7 +3177,9 @@
     "code.footprint.attribution.poolConfirmed": "Doğrulanmış",
     "code.footprint.attribution.poolCandidate": "Aday",
     "code.footprint.attribution.poolNoise": "Gürültü",
-    "code.footprint.attribution.poolAll": "Tümü"
+    "code.footprint.attribution.poolAll": "Tümü",
+    "code.scoreTrends.chartTitle": "Puan eğilimi (90 gün)",
+    "code.scoreTrends.chartEmpty": "Eğilim grafiği için yeterli geçmiş yok"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "tr",

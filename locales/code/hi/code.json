@@ -3181,6 +3181,8 @@
     "code.footprint.attribution.poolConfirmed": "पुष्ट",
     "code.footprint.attribution.poolCandidate": "संभावित",
     "code.footprint.attribution.poolNoise": "अप्रासंगिक",
-    "code.footprint.attribution.poolAll": "सभी"
+    "code.footprint.attribution.poolAll": "सभी",
+    "code.scoreTrends.chartTitle": "स्कोर रुझान (90 दिन)",
+    "code.scoreTrends.chartEmpty": "रुझान दिखाने के लिए पर्याप्त इतिहास नहीं"
   }
 }

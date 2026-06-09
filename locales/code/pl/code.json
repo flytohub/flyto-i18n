@@ -3293,7 +3293,9 @@
     "code.footprint.attribution.poolConfirmed": "Potwierdzone",
     "code.footprint.attribution.poolCandidate": "Kandydaci",
     "code.footprint.attribution.poolNoise": "Szum",
-    "code.footprint.attribution.poolAll": "Wszystkie"
+    "code.footprint.attribution.poolAll": "Wszystkie",
+    "code.scoreTrends.chartTitle": "Trend wyniku (90 dni)",
+    "code.scoreTrends.chartEmpty": "Za mało historii, aby pokazać trend"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pl",

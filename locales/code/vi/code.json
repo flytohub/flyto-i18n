@@ -3181,6 +3181,8 @@
     "code.footprint.attribution.poolConfirmed": "Đã xác nhận",
     "code.footprint.attribution.poolCandidate": "Tiềm năng",
     "code.footprint.attribution.poolNoise": "Nhiễu",
-    "code.footprint.attribution.poolAll": "Tất cả"
+    "code.footprint.attribution.poolAll": "Tất cả",
+    "code.scoreTrends.chartTitle": "Xu hướng điểm (90 ngày)",
+    "code.scoreTrends.chartEmpty": "Chưa đủ lịch sử để vẽ xu hướng"
   }
 }

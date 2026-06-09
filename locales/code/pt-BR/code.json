@@ -3177,7 +3177,9 @@
     "code.footprint.attribution.poolConfirmed": "Confirmados",
     "code.footprint.attribution.poolCandidate": "Candidatos",
     "code.footprint.attribution.poolNoise": "Ruído",
-    "code.footprint.attribution.poolAll": "Todos"
+    "code.footprint.attribution.poolAll": "Todos",
+    "code.scoreTrends.chartTitle": "Tendência de pontuação (90 dias)",
+    "code.scoreTrends.chartEmpty": "Histórico insuficiente para traçar uma tendência"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pt-BR",

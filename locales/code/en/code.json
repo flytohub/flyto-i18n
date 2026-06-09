@@ -6032,7 +6032,9 @@
     "code.footprint.attribution.poolConfirmed": "Confirmed",
     "code.footprint.attribution.poolCandidate": "Candidate",
     "code.footprint.attribution.poolNoise": "Noise",
-    "code.footprint.attribution.poolAll": "All"
+    "code.footprint.attribution.poolAll": "All",
+    "code.scoreTrends.chartTitle": "Score trend (90 days)",
+    "code.scoreTrends.chartEmpty": "Not enough history to chart a trend"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",

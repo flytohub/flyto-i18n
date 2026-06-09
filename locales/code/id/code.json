@@ -3293,7 +3293,9 @@
     "code.footprint.attribution.poolConfirmed": "Terkonfirmasi",
     "code.footprint.attribution.poolCandidate": "Kandidat",
     "code.footprint.attribution.poolNoise": "Bising",
-    "code.footprint.attribution.poolAll": "Semua"
+    "code.footprint.attribution.poolAll": "Semua",
+    "code.scoreTrends.chartTitle": "Tren skor (90 hari)",
+    "code.scoreTrends.chartEmpty": "Riwayat tidak cukup untuk menampilkan tren"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "id",

@@ -3177,7 +3177,9 @@
     "code.footprint.attribution.poolConfirmed": "ยืนยันแล้ว",
     "code.footprint.attribution.poolCandidate": "ที่อาจใช่",
     "code.footprint.attribution.poolNoise": "ไม่เกี่ยวข้อง",
-    "code.footprint.attribution.poolAll": "ทั้งหมด"
+    "code.footprint.attribution.poolAll": "ทั้งหมด",
+    "code.scoreTrends.chartTitle": "แนวโน้มคะแนน (90 วัน)",
+    "code.scoreTrends.chartEmpty": "ประวัติไม่พอสำหรับแสดงแนวโน้ม"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "th",

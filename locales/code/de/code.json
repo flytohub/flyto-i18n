@@ -3177,7 +3177,9 @@
     "code.footprint.attribution.poolConfirmed": "Bestätigt",
     "code.footprint.attribution.poolCandidate": "Kandidat",
     "code.footprint.attribution.poolNoise": "Rauschen",
-    "code.footprint.attribution.poolAll": "Alle"
+    "code.footprint.attribution.poolAll": "Alle",
+    "code.scoreTrends.chartTitle": "Score-Verlauf (90 Tage)",
+    "code.scoreTrends.chartEmpty": "Nicht genug Verlauf für einen Trend"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "de",
