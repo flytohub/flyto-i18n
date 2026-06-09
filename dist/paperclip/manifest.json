@@ -1,0 +1,41 @@
+{
+  "version": "df1d94397623",
+  "locales": {
+    "en": {
+      "name": "English",
+      "native": "English",
+      "region": "US",
+      "total_keys": 90,
+      "translated_keys": 90,
+      "completion": 100.0,
+      "files_merged": 2
+    },
+    "ja": {
+      "name": "Japanese",
+      "native": "日本語",
+      "region": "JP",
+      "total_keys": 86,
+      "translated_keys": 82,
+      "completion": 95.3,
+      "files_merged": 2
+    },
+    "zh-CN": {
+      "name": "Simplified Chinese",
+      "native": "简体中文",
+      "region": "CN",
+      "total_keys": 86,
+      "translated_keys": 82,
+      "completion": 95.3,
+      "files_merged": 2
+    },
+    "zh-TW": {
+      "name": "Traditional Chinese",
+      "native": "繁體中文",
+      "region": "TW",
+      "total_keys": 86,
+      "translated_keys": 82,
+      "completion": 95.3,
+      "files_merged": 2
+    }
+  }
+}
