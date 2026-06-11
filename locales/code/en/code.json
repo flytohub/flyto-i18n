@@ -4271,6 +4271,7 @@
     "code.dast.section.emailSec": "Email Security",
     "code.dast.check.spfConfigured": "SPF configured",
     "code.dast.check.noSpf": "No SPF record",
+    "code.dast.check.notMailDomain": "Not a mail domain (no MX) — SPF / DMARC / DKIM not applicable",
     "code.dast.check.noDmarc": "No DMARC record",
     "code.dast.check.dkimConfigured": "DKIM configured",
     "code.dast.check.noDkim": "No DKIM",

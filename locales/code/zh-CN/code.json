@@ -4270,6 +4270,7 @@
     "code.dast.section.emailSec": "邮件安全",
     "code.dast.check.spfConfigured": "SPF 已配置",
     "code.dast.check.noSpf": "没有 SPF 记录",
+    "code.dast.check.notMailDomain": "非邮件网域（无 MX）— 不适用 SPF / DMARC / DKIM",
     "code.dast.check.noDmarc": "没有 DMARC 记录",
     "code.dast.check.dkimConfigured": "DKIM 已配置",
     "code.dast.check.noDkim": "没有 DKIM",
