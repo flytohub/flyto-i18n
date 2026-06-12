@@ -3071,7 +3071,11 @@
     "code.vaReport.previewTitle": "VA रिपोर्ट पूर्वावलोकन",
     "code.vaReport.popupBlocked": "ब्राउज़र ने रिपोर्ट टैब ब्लॉक कर दिया — इस साइट के लिए पॉपअप की अनुमति दें",
     "code.vaReport.htmlFailed": "HTML खोलना विफल रहा",
-    "code.vaReport.managerSubtitle": "बाहरी CTEM डिलिवरेबल — आपके बोर्ड पैक के लिए पोस्चर हेडलाइन और हस्ताक्षरित रिपोर्ट।",
+    "code.vaReport.managerSubtitle": "बाहरी CTEM डिलिवरेबल — आपके बोर्ड पैक के लिए पोस्चर हेडलाइन और हस्ताक्षरित रिपोर्ट।",
+
+    "code.vaReport.executiveSummary": "????????? ??????",
+
+    "code.vaReport.executiveSummaryBody": "????? ????????? ?? ???? posture, severity mix, ???? ?? domains ?? remediation SLA ??????? ?? ???????? ???? ???? ???",
     "code.vaReport.kpiPostureScore": "पोस्चर स्कोर",
     "code.vaReport.kpiActiveDimensions": "सक्रिय आयाम",
     "code.vaReport.kpiCrossDimensionPenalty": "क्रॉस-डाइमेंशन पेनल्टी",

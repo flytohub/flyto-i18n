@@ -3183,7 +3183,11 @@
     "code.vaReport.previewTitle": "Anteprima report VA",
     "code.vaReport.popupBlocked": "Il browser ha bloccato la scheda del report — consenti i popup per questo sito",
     "code.vaReport.htmlFailed": "Apertura HTML non riuscita",
-    "code.vaReport.managerSubtitle": "Deliverable CTEM esterno — sintesi della postura più il report firmato per il tuo dossier del consiglio.",
+    "code.vaReport.managerSubtitle": "Deliverable CTEM esterno — sintesi della postura più il report firmato per il tuo dossier del consiglio.",
+
+    "code.vaReport.executiveSummary": "Sintesi esecutiva",
+
+    "code.vaReport.executiveSummaryBody": "L?esposizione esterna viene riassunta da postura live, mix di severit?, domini valutati e segnali SLA di remediation.",
     "code.vaReport.kpiPostureScore": "Punteggio postura",
     "code.vaReport.kpiActiveDimensions": "Dimensioni attive",
     "code.vaReport.kpiCrossDimensionPenalty": "Penalità cross-dimensione",

@@ -3067,7 +3067,11 @@
     "code.vaReport.previewTitle": "VA raporu önizlemesi",
     "code.vaReport.popupBlocked": "Tarayıcı rapor sekmesini engelledi — bu site için açılır pencerelere izin verin",
     "code.vaReport.htmlFailed": "HTML açma başarısız",
-    "code.vaReport.managerSubtitle": "Harici CTEM çıktısı — yönetim kurulu sunumunuz için duruş özeti ve imzalı rapor.",
+    "code.vaReport.managerSubtitle": "Harici CTEM çıktısı — yönetim kurulu sunumunuz için duruş özeti ve imzalı rapor.",
+
+    "code.vaReport.executiveSummary": "Y?netici ?zeti",
+
+    "code.vaReport.executiveSummaryBody": "Harici maruziyet; canl? duru?, ?nem derecesi da??l?m?, de?erlendirilen alan adlar? ve iyile?tirme SLA sinyallerinden ?zetlenir.",
     "code.vaReport.kpiPostureScore": "Duruş Puanı",
     "code.vaReport.kpiActiveDimensions": "Aktif Boyutlar",
     "code.vaReport.kpiCrossDimensionPenalty": "Boyutlar Arası Ceza",

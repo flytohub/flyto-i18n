@@ -3183,7 +3183,11 @@
     "code.vaReport.previewTitle": "Pratinjau laporan VA",
     "code.vaReport.popupBlocked": "Peramban memblokir tab laporan — izinkan popup untuk situs ini",
     "code.vaReport.htmlFailed": "Gagal membuka HTML",
-    "code.vaReport.managerSubtitle": "Deliverable CTEM eksternal — ringkasan postur ditambah laporan bertanda tangan untuk paket dewan Anda.",
+    "code.vaReport.managerSubtitle": "Deliverable CTEM eksternal — ringkasan postur ditambah laporan bertanda tangan untuk paket dewan Anda.",
+
+    "code.vaReport.executiveSummary": "Ringkasan eksekutif",
+
+    "code.vaReport.executiveSummaryBody": "Eksposur eksternal diringkas dari postur langsung, campuran tingkat keparahan, domain yang dinilai, dan sinyal SLA remediasi.",
     "code.vaReport.kpiPostureScore": "Skor Postur",
     "code.vaReport.kpiActiveDimensions": "Dimensi Aktif",
     "code.vaReport.kpiCrossDimensionPenalty": "Penalti Lintas Dimensi",

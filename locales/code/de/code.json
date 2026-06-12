@@ -3067,7 +3067,11 @@
     "code.vaReport.previewTitle": "VA-Bericht-Vorschau",
     "code.vaReport.popupBlocked": "Der Browser hat den Bericht-Tab blockiert — erlauben Sie Popups für diese Website",
     "code.vaReport.htmlFailed": "HTML konnte nicht geöffnet werden",
-    "code.vaReport.managerSubtitle": "Externes CTEM-Ergebnis — Posture-Überblick plus signierter Bericht für Ihre Vorstandsunterlagen.",
+    "code.vaReport.managerSubtitle": "Externes CTEM-Ergebnis — Posture-Überblick plus signierter Bericht für Ihre Vorstandsunterlagen.",
+
+    "code.vaReport.executiveSummary": "Zusammenfassung",
+
+    "code.vaReport.executiveSummaryBody": "Die externe Exposition wird aus Live-Posture, Schweregradmix, bewerteten Domains und SLA-Signalen zur Behebung zusammengefasst.",
     "code.vaReport.kpiPostureScore": "Posture-Score",
     "code.vaReport.kpiActiveDimensions": "Aktive Dimensionen",
     "code.vaReport.kpiCrossDimensionPenalty": "Dimensionsübergreifender Abzug",

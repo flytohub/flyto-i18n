@@ -3183,7 +3183,11 @@
     "code.vaReport.previewTitle": "Podgląd raportu VA",
     "code.vaReport.popupBlocked": "Przeglądarka zablokowała kartę raportu — zezwól na wyskakujące okienka dla tej witryny",
     "code.vaReport.htmlFailed": "Otwarcie HTML nie powiodło się",
-    "code.vaReport.managerSubtitle": "Zewnętrzny materiał CTEM — nagłówek stanu zabezpieczeń oraz podpisany raport do pakietu dla zarządu.",
+    "code.vaReport.managerSubtitle": "Zewnętrzny materiał CTEM — nagłówek stanu zabezpieczeń oraz podpisany raport do pakietu dla zarządu.",
+
+    "code.vaReport.executiveSummary": "Podsumowanie zarz?dcze",
+
+    "code.vaReport.executiveSummaryBody": "Ekspozycja zewn?trzna jest podsumowywana na podstawie bie??cej postawy, rozk?adu wa?no?ci, ocenionych domen i sygna??w SLA naprawy.",
     "code.vaReport.kpiPostureScore": "Wynik stanu zabezpieczeń",
     "code.vaReport.kpiActiveDimensions": "Aktywne wymiary",
     "code.vaReport.kpiCrossDimensionPenalty": "Kara międzywymiarowa",

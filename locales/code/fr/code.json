@@ -3067,7 +3067,11 @@
     "code.vaReport.previewTitle": "Aperçu du rapport VA",
     "code.vaReport.popupBlocked": "Le navigateur a bloqué l'onglet du rapport — autorisez les pop-ups pour ce site",
     "code.vaReport.htmlFailed": "Échec de l'ouverture HTML",
-    "code.vaReport.managerSubtitle": "Livrable CTEM externe — synthèse de la posture et rapport signé pour votre dossier de conseil.",
+    "code.vaReport.managerSubtitle": "Livrable CTEM externe — synthèse de la posture et rapport signé pour votre dossier de conseil.",
+
+    "code.vaReport.executiveSummary": "Synth?se",
+
+    "code.vaReport.executiveSummaryBody": "L?exposition externe est synth?tis?e ? partir de la posture en temps r?el, de la r?partition des s?v?rit?s, des domaines ?valu?s et des signaux SLA de rem?diation.",
     "code.vaReport.kpiPostureScore": "Score de posture",
     "code.vaReport.kpiActiveDimensions": "Dimensions actives",
     "code.vaReport.kpiCrossDimensionPenalty": "Pénalité inter-dimensions",

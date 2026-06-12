@@ -5920,7 +5920,11 @@
     "code.vaReport.previewTitle": "VA report preview",
     "code.vaReport.popupBlocked": "Browser blocked the report tab — allow popups for this site",
     "code.vaReport.htmlFailed": "HTML open failed",
-    "code.vaReport.managerSubtitle": "External CTEM deliverable — posture headline plus the signed report for your board pack.",
+    "code.vaReport.managerSubtitle": "External CTEM deliverable — posture headline plus the signed report for your board pack.",
+
+    "code.vaReport.executiveSummary": "Executive summary",
+
+    "code.vaReport.executiveSummaryBody": "External exposure is summarized from live posture, severity mix, assessed domains, and remediation SLA signals.",
     "code.vaReport.kpiPostureScore": "Posture Score",
     "code.vaReport.kpiActiveDimensions": "Active Dimensions",
     "code.vaReport.kpiCrossDimensionPenalty": "Cross-Dimension Penalty",

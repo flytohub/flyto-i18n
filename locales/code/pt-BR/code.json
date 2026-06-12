@@ -3067,7 +3067,11 @@
     "code.vaReport.previewTitle": "Prévia do relatório de VA",
     "code.vaReport.popupBlocked": "O navegador bloqueou a aba do relatório — permita pop-ups para este site",
     "code.vaReport.htmlFailed": "Falha ao abrir o HTML",
-    "code.vaReport.managerSubtitle": "Entregável externo de CTEM — resumo de postura mais o relatório assinado para o seu material do conselho.",
+    "code.vaReport.managerSubtitle": "Entregável externo de CTEM — resumo de postura mais o relatório assinado para o seu material do conselho.",
+
+    "code.vaReport.executiveSummary": "Resumo executivo",
+
+    "code.vaReport.executiveSummaryBody": "A exposi??o externa ? resumida a partir da postura em tempo real, mistura de severidade, dom?nios avaliados e sinais de SLA de corre??o.",
     "code.vaReport.kpiPostureScore": "Pontuação de postura",
     "code.vaReport.kpiActiveDimensions": "Dimensões ativas",
     "code.vaReport.kpiCrossDimensionPenalty": "Penalidade entre dimensões",

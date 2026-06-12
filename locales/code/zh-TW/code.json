@@ -5919,7 +5919,11 @@
     "code.vaReport.previewTitle": "VA 報告預覽",
     "code.vaReport.popupBlocked": "瀏覽器封鎖了報告分頁 — 請允許本網站的彈出視窗",
     "code.vaReport.htmlFailed": "HTML 開啟失敗",
-    "code.vaReport.managerSubtitle": "外部 CTEM 交付成果 — 防禦態勢摘要加上可放入董事會簡報的簽署報告。",
+    "code.vaReport.managerSubtitle": "外部 CTEM 交付成果 — 防禦態勢摘要加上可放入董事會簡報的簽署報告。",
+
+    "code.vaReport.executiveSummary": "????",
+
+    "code.vaReport.executiveSummaryBody": "????????????????????????? SLA ?????",
     "code.vaReport.kpiPostureScore": "防禦態勢分數",
     "code.vaReport.kpiActiveDimensions": "作用中維度",
     "code.vaReport.kpiCrossDimensionPenalty": "跨維度扣分",

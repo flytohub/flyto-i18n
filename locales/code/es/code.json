@@ -3067,7 +3067,11 @@
     "code.vaReport.previewTitle": "Vista previa del informe de VA",
     "code.vaReport.popupBlocked": "El navegador bloqueó la pestaña del informe — permite las ventanas emergentes para este sitio",
     "code.vaReport.htmlFailed": "Error al abrir el HTML",
-    "code.vaReport.managerSubtitle": "Entregable externo de CTEM — titular de postura más el informe firmado para tu dossier del consejo.",
+    "code.vaReport.managerSubtitle": "Entregable externo de CTEM — titular de postura más el informe firmado para tu dossier del consejo.",
+
+    "code.vaReport.executiveSummary": "Resumen ejecutivo",
+
+    "code.vaReport.executiveSummaryBody": "La exposici?n externa se resume a partir de la postura en vivo, la mezcla de severidad, los dominios evaluados y las se?ales de SLA de remediaci?n.",
     "code.vaReport.kpiPostureScore": "Puntuación de postura",
     "code.vaReport.kpiActiveDimensions": "Dimensiones activas",
     "code.vaReport.kpiCrossDimensionPenalty": "Penalización entre dimensiones",

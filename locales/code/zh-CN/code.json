@@ -5919,7 +5919,11 @@
     "code.vaReport.previewTitle": "VA 报告预览",
     "code.vaReport.popupBlocked": "浏览器拦截了报告标签页——请允许本站点弹出窗口",
     "code.vaReport.htmlFailed": "HTML 打开失败",
-    "code.vaReport.managerSubtitle": "对外 CTEM 交付物——安全态势概述加上可纳入董事会汇报的已签署报告。",
+    "code.vaReport.managerSubtitle": "对外 CTEM 交付物——安全态势概述加上可纳入董事会汇报的已签署报告。",
+
+    "code.vaReport.executiveSummary": "????",
+
+    "code.vaReport.executiveSummaryBody": "?????????????????????????? SLA ?????",
     "code.vaReport.kpiPostureScore": "态势评分",
     "code.vaReport.kpiActiveDimensions": "活跃维度",
     "code.vaReport.kpiCrossDimensionPenalty": "跨维度扣分",

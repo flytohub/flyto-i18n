@@ -3067,7 +3067,11 @@
     "code.vaReport.previewTitle": "VA 보고서 미리보기",
     "code.vaReport.popupBlocked": "브라우저가 보고서 탭을 차단했습니다 — 이 사이트의 팝업을 허용하세요",
     "code.vaReport.htmlFailed": "HTML 열기 실패",
-    "code.vaReport.managerSubtitle": "외부 CTEM 산출물 — 보안 태세 요약과 이사회 보고용 서명된 보고서.",
+    "code.vaReport.managerSubtitle": "외부 CTEM 산출물 — 보안 태세 요약과 이사회 보고용 서명된 보고서.",
+
+    "code.vaReport.executiveSummary": "??? ??",
+
+    "code.vaReport.executiveSummaryBody": "?? ??? ??? ?? ??, ??? ??, ??? ???, remediation SLA ??? ???? ?????.",
     "code.vaReport.kpiPostureScore": "보안 태세 점수",
     "code.vaReport.kpiActiveDimensions": "활성 차원",
     "code.vaReport.kpiCrossDimensionPenalty": "교차 차원 페널티",

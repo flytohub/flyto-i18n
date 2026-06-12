@@ -3071,7 +3071,11 @@
     "code.vaReport.previewTitle": "Xem trước báo cáo VA",
     "code.vaReport.popupBlocked": "Trình duyệt đã chặn tab báo cáo — hãy cho phép cửa sổ bật lên cho trang này",
     "code.vaReport.htmlFailed": "Mở HTML thất bại",
-    "code.vaReport.managerSubtitle": "Tài liệu CTEM bên ngoài — tóm tắt thế trận cộng báo cáo đã ký cho bộ tài liệu hội đồng.",
+    "code.vaReport.managerSubtitle": "Tài liệu CTEM bên ngoài — tóm tắt thế trận cộng báo cáo đã ký cho bộ tài liệu hội đồng.",
+
+    "code.vaReport.executiveSummary": "T?m t?t ?i?u h?nh",
+
+    "code.vaReport.executiveSummaryBody": "M?c ph?i l? b?n ngo?i ???c t?ng h?p t? posture tr?c ti?p, c? c?u m?c ?? nghi?m tr?ng, c?c mi?n ?? ??nh gi? v? t?n hi?u SLA kh?c ph?c.",
     "code.vaReport.kpiPostureScore": "Điểm thế trận",
     "code.vaReport.kpiActiveDimensions": "Chiều đang hoạt động",
     "code.vaReport.kpiCrossDimensionPenalty": "Điểm trừ chéo chiều",

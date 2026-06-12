@@ -5575,7 +5575,11 @@
     "code.vaReport.previewTitle": "VAレポートのプレビュー",
     "code.vaReport.popupBlocked": "ブラウザがレポートタブをブロックしました。このサイトのポップアップを許可してください",
     "code.vaReport.htmlFailed": "HTMLを開けませんでした",
-    "code.vaReport.managerSubtitle": "外部向けCTEM成果物。取締役会資料用の姿勢サマリーと署名済みレポート。",
+    "code.vaReport.managerSubtitle": "外部向けCTEM成果物。取締役会資料用の姿勢サマリーと署名済みレポート。",
+
+    "code.vaReport.executiveSummary": "???????????",
+
+    "code.vaReport.executiveSummaryBody": "?????????????????????????????? SLA ?????????????",
     "code.vaReport.kpiPostureScore": "姿勢スコア",
     "code.vaReport.kpiActiveDimensions": "アクティブな次元",
     "code.vaReport.kpiCrossDimensionPenalty": "次元横断ペナルティ",
