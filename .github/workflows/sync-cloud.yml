@@ -22,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout flyto-i18n
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Checkout flyto-cloud
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: flytohub/flyto-cloud
           path: flyto-cloud
