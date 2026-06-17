@@ -2,6 +2,9 @@
 # dist/
 build/
 
+# Local Flyto code index
+.flyto-index/
+
 # Python
 __pycache__/
 *.py[cod]
