@@ -7478,7 +7478,9 @@
     "code.legal.privacy.usageData.label": "Usage data:",
     "code.legal.privacy.useInfoIntro": "We use collected information to:",
     "code.legal.terms.contactPrefix": "Questions about these Terms:",
-    "code.legal.terms.permittedUseIntro": "You may use the Service solely for lawful purposes and in accordance with these Terms. You agree not to:"
+    "code.legal.terms.permittedUseIntro": "You may use the Service solely for lawful purposes and in accordance with these Terms. You agree not to:",
+    "warroom.tabFindings": "Descobertas",
+    "warroom.tabOverview": "Visão geral"
   },
   "$schema": "../../../schema/locale.schema.json",
   "locale": "pt-BR",
