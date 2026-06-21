@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout flyto-i18n
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Checkout flyto-core
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: flytohub/flyto-core
           path: flyto-core
