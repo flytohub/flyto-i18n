@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "This workflow is protected. Changes are restricted to maintain stability.",
     "templateBuilder.protectedWorkflow.title": "Protected Workflow",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "Applied With Warnings",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "Advanced Options",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

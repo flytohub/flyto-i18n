@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "Mô tả quy trình bảo vệ",
     "templateBuilder.protectedWorkflow.title": "Tiêu đề quy trình bảo vệ",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "Tùy chọn nâng cao",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "Description du workflow protégé",
     "templateBuilder.protectedWorkflow.title": "Titre du workflow protégé",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "Options avancees",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

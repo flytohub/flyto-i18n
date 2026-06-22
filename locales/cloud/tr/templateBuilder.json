@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "Korunan iş akışı açıklaması",
     "templateBuilder.protectedWorkflow.title": "Korunan İş Akışı",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "Gelişmiş Seçenekler",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

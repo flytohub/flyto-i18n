@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "संरक्षित वर्कफ़्लो का विवरण",
     "templateBuilder.protectedWorkflow.title": "संरक्षित वर्कफ़्लो",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "उन्नत विकल्प",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

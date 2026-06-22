@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "보호된 워크플로우 설명",
     "templateBuilder.protectedWorkflow.title": "보호된 워크플로우 제목",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "고급 옵션",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

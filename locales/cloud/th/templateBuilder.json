@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "คำอธิบายการทำงานที่ป้องกัน",
     "templateBuilder.protectedWorkflow.title": "ชื่อการทำงานที่ป้องกัน",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "ตัวเลือกขั้นสูง",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

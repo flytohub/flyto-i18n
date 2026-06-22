@@ -14,13 +14,17 @@ import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-CODE_SRC = PROJECT_ROOT.parent / 'flyto-code' / 'src'
+# flyto-code's live application migrated from src/ to src-next/. Keep this
+# scanner aligned with flyto-code/scripts/check-i18n.py so newly added UI keys
+# are added to source translations instead of being hidden in an allowlist.
+CODE_SRC = PROJECT_ROOT.parent / 'flyto-code' / 'src-next'
 I18N_FILE = PROJECT_ROOT / 'locales' / 'code' / 'en' / 'code.json'
 DIST_FILE = PROJECT_ROOT / 'dist' / 'code' / 'en.json'
 
 # Regex patterns
 PAT_T = re.compile(r"(?<![.\w])t\(['\"]([^'\"]+)['\"]")
 PAT_TOR = re.compile(r"(?<![.\w])tOr\(['\"]([^'\"]+)['\"],\s*['\"]([^'\"]*)['\"]")
+PAT_TOR_ANY = re.compile(r"(?<![.\w])tOr\(['\"]([^'\"]+)['\"]\s*,")
 
 SCAN_EXTS = {'.ts', '.tsx', '.js', '.jsx'}
 
@@ -67,6 +71,12 @@ def extract_keys_from_code():
                 if any(c in key for c in '{$`('):
                     continue
                 keys[key] = fallback
+
+            for m in PAT_TOR_ANY.finditer(content):
+                key = m.group(1)
+                if any(c in key for c in '{$`('):
+                    continue
+                keys.setdefault(key, None)
 
             for m in PAT_T.finditer(content):
                 key = m.group(1)
@@ -169,7 +179,7 @@ def main():
     i18n_data['translations'] = dict(sorted(translations.items()))
 
     with open(I18N_FILE, 'w', encoding='utf-8') as f:
-        json.dump(i18n_data, f, indent=4, ensure_ascii=False)
+        json.dump(i18n_data, f, indent=2, ensure_ascii=False)
         f.write('\n')
 
     print(f"  Before: {before} keys")

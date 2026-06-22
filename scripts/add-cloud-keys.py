@@ -112,9 +112,12 @@ def main():
     for cat, keys in sorted(by_category.items()):
         print(f"  {cat}: {len(keys)} keys")
 
-    # Add to locale files
+    # Add to every existing cloud locale. Non-English locales intentionally get
+    # empty values, matching sync-locales.py behavior and keeping missing
+    # translations visible to coverage while preventing runtime orphan keys.
     total_added = 0
-    for locale in ['en', 'zh-TW']:
+    locales = sorted(path.name for path in CLOUD_LOCALES.iterdir() if path.is_dir())
+    for locale in locales:
         locale_dir = CLOUD_LOCALES / locale
 
         for category, translations in sorted(by_category.items()):

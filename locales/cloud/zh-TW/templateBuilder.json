@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "這是受保護的工作流程，無法編輯",
     "templateBuilder.protectedWorkflow.title": "受保護的工作流程",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "開始失敗",
     "templateBuilder.schemaParams.advancedOptions": "進階選項",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",

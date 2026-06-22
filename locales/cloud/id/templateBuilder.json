@@ -211,6 +211,7 @@
     "templateBuilder.protectedWorkflow.description": "Deskripsi alur kerja terlindungi",
     "templateBuilder.protectedWorkflow.title": "Judul alur kerja terlindungi",
     "templateBuilder.recording.applied": "Applied",
+    "templateBuilder.recording.appliedWithWarnings": "",
     "templateBuilder.recording.startFailed": "Start Failed",
     "templateBuilder.schemaParams.advancedOptions": "Opsi Lanjutan",
     "templateBuilder.schemaParams.hideAdvanced": "Hide Advanced",
