@@ -105,31 +105,44 @@ def add_locale(locale: str, use_english_values: bool = False):
     return True
 
 
+def count_locale_translations(locale: str) -> tuple[int, int]:
+    """Count translated and total keys for a locale."""
+    keys = 0
+    translated = 0
+
+    for proj in PROJECT_DIRS:
+        locale_dir = LOCALES_DIR / proj / locale
+        if not locale_dir.exists():
+            continue
+        for path in locale_dir.glob('*.json'):
+            with open(path, encoding='utf-8') as fp:
+                data = json.load(fp)
+            translations = data.get('translations', {})
+            keys += len(translations)
+            translated += sum(1 for value in translations.values() if value)
+
+    return translated, keys
+
+
+def locale_status(translated: int, keys: int) -> tuple[str, float]:
+    """Return display status and percent complete for a locale."""
+    pct = (translated / keys * 100) if keys > 0 else 0
+    if pct == 100:
+        return "OK", pct
+    if pct > 0:
+        return "WIP", pct
+    return "EMPTY", pct
+
+
 def list_locales():
     """List all available locales."""
     print("Available locales:")
     print()
 
     for locale in get_locales():
-        keys = 0
-        translated = 0
-
-        for proj in PROJECT_DIRS:
-            locale_dir = LOCALES_DIR / proj / locale
-            if not locale_dir.exists():
-                continue
-            for f in locale_dir.glob('*.json'):
-                with open(f, encoding='utf-8') as fp:
-                    data = json.load(fp)
-                    if 'translations' in data:
-                        for v in data['translations'].values():
-                            keys += 1
-                            if v:
-                                translated += 1
-
-        pct = (translated / keys * 100) if keys > 0 else 0
+        translated, keys = count_locale_translations(locale)
+        status, pct = locale_status(translated, keys)
         name = LOCALE_NAMES.get(locale, '')
-        status = "OK" if pct == 100 else "WIP" if pct > 0 else "EMPTY"
 
         print(f"  [{status:5}] {locale:8} {name:25} {translated:5}/{keys:5} ({pct:.1f}%)")
 

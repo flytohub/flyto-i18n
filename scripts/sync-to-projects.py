@@ -19,8 +19,7 @@ Options:
 """
 
 import argparse
-import json
-import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -76,6 +75,19 @@ SYNC_TARGETS = {
     },
 }
 
+STAT_KEYS = ('added', 'updated', 'deleted', 'unchanged')
+
+
+def new_stats() -> dict:
+    """Create a sync stats accumulator."""
+    return {key: 0 for key in STAT_KEYS}
+
+
+def merge_stats(total: dict, stats: dict) -> None:
+    """Add per-target stats into a project total."""
+    for key in STAT_KEYS:
+        total[key] += stats[key]
+
 
 def get_dist_locales(scope: str) -> list:
     """Get available locales for a scope from dist/."""
@@ -86,6 +98,95 @@ def get_dist_locales(scope: str) -> list:
         f.stem for f in scope_dir.glob('*.json')
         if f.stem != 'manifest'
     ])
+
+
+def get_target_locales(scope: str, locales_filter: list = None) -> list:
+    """Resolve the locale list to sync for a scope."""
+    available_locales = get_dist_locales(scope)
+    if locales_filter:
+        return [locale for locale in locales_filter if locale in available_locales]
+    return available_locales
+
+
+def sync_locale_file(src_file: Path, dst_file: Path, dry_run: bool) -> dict:
+    """Sync one locale file and return its stats delta."""
+    stats = new_stats()
+    src_data = src_file.read_text(encoding='utf-8')
+
+    if dst_file.exists():
+        dst_data = dst_file.read_text(encoding='utf-8')
+        if src_data == dst_data:
+            stats['unchanged'] += 1
+            return stats
+        action = 'update'
+        stats['updated'] += 1
+    else:
+        action = 'add'
+        stats['added'] += 1
+
+    if dry_run:
+        print(f"    Would {action}: {dst_file.name}")
+    else:
+        dst_file.parent.mkdir(parents=True, exist_ok=True)
+        dst_file.write_text(src_data, encoding='utf-8')
+        print(f"    {action.capitalize()}d: {dst_file.name}")
+
+    return stats
+
+
+def is_deletable_locale_file(filename: str, expected_files: set) -> bool:
+    """Return true when a target JSON file is a stale locale file."""
+    stem = filename.replace('.json', '')
+    if filename in expected_files:
+        return False
+    if stem in {'manifest', 'landing'}:
+        return False
+    return filename.endswith('.json') and len(stem) >= 2
+
+
+def delete_stale_locale_files(dest_dir: Path, expected_files: set, dry_run: bool) -> dict:
+    """Delete target locale JSON files that no longer exist in dist."""
+    stats = new_stats()
+    if not dest_dir.exists():
+        return stats
+
+    existing_files = {file.name for file in dest_dir.glob('*.json')}
+    deletable = {
+        filename
+        for filename in existing_files
+        if is_deletable_locale_file(filename, expected_files)
+    }
+
+    for filename in sorted(deletable):
+        stats['deleted'] += 1
+        if dry_run:
+            print(f"    Would delete: {filename} (removed from i18n source)")
+        else:
+            (dest_dir / filename).unlink()
+            print(f"    Deleted: {filename} (removed from i18n source)")
+
+    return stats
+
+
+def sync_manifest(source_dir: Path, dest_dir: Path, dry_run: bool) -> bool:
+    """Sync manifest.json if it exists. Returns true when it changed."""
+    src_manifest = source_dir / 'manifest.json'
+    dst_manifest = dest_dir / 'manifest.json'
+    if not src_manifest.exists():
+        return False
+
+    src_data = src_manifest.read_text(encoding='utf-8')
+    needs_update = not dst_manifest.exists() or dst_manifest.read_text(encoding='utf-8') != src_data
+    if not needs_update:
+        return False
+
+    if dry_run:
+        print(f"    Would update manifest: {dest_dir.name}/manifest.json")
+    else:
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dst_manifest.write_text(src_data, encoding='utf-8')
+
+    return True
 
 
 def sync_single_scope(
@@ -100,18 +201,13 @@ def sync_single_scope(
     Returns stats: {added, updated, deleted, unchanged}
     """
     source_dir = DIST_DIR / scope
-    stats = {'added': 0, 'updated': 0, 'deleted': 0, 'unchanged': 0}
+    stats = new_stats()
 
     if not source_dir.exists():
         print(f"    Warning: dist/{scope}/ does not exist, skipping")
         return stats
 
-    # Get source locales
-    available_locales = get_dist_locales(scope)
-    if locales_filter:
-        target_locales = [l for l in locales_filter if l in available_locales]
-    else:
-        target_locales = available_locales
+    target_locales = get_target_locales(scope, locales_filter)
 
     # --- Sync locale files ---
     for locale in target_locales:
@@ -121,66 +217,72 @@ def sync_single_scope(
         if not src_file.exists():
             continue
 
-        src_data = src_file.read_text(encoding='utf-8')
-
-        if dst_file.exists():
-            dst_data = dst_file.read_text(encoding='utf-8')
-            if src_data == dst_data:
-                stats['unchanged'] += 1
-                continue
-            else:
-                action = 'update'
-                stats['updated'] += 1
-        else:
-            action = 'add'
-            stats['added'] += 1
-
-        if dry_run:
-            print(f"    Would {action}: {dst_file.name}")
-        else:
-            dest_dir.mkdir(parents=True, exist_ok=True)
-            dst_file.write_text(src_data, encoding='utf-8')
-            print(f"    {action.capitalize()}d: {dst_file.name}")
+        merge_stats(stats, sync_locale_file(src_file, dst_file, dry_run))
 
     # --- Delete locale files that no longer exist in dist ---
-    if dest_dir.exists():
-        existing_files = set(f.name for f in dest_dir.glob('*.json'))
-        expected_files = set(f'{l}.json' for l in target_locales)
-
-        if copy_manifest:
-            expected_files.add('manifest.json')
-
-        # Only delete locale json files (not manifest or other config)
-        deletable = set()
-        for f in existing_files:
-            stem = f.replace('.json', '')
-            # It's a locale file if it matches locale pattern (xx or xx-XX)
-            if stem != 'manifest' and stem != 'landing' and len(stem) >= 2:
-                if f not in expected_files:
-                    deletable.add(f)
-
-        for filename in sorted(deletable):
-            filepath = dest_dir / filename
-            stats['deleted'] += 1
-            if dry_run:
-                print(f"    Would delete: {filename} (removed from i18n source)")
-            else:
-                filepath.unlink()
-                print(f"    Deleted: {filename} (removed from i18n source)")
+    expected_files = {f'{locale}.json' for locale in target_locales}
+    if copy_manifest:
+        expected_files.add('manifest.json')
+    merge_stats(stats, delete_stale_locale_files(dest_dir, expected_files, dry_run))
 
     # --- Copy manifest if requested ---
     if copy_manifest:
-        src_manifest = source_dir / 'manifest.json'
-        dst_manifest = dest_dir / 'manifest.json'
-        if src_manifest.exists():
-            src_data = src_manifest.read_text(encoding='utf-8')
-            needs_update = True
-            if dst_manifest.exists():
-                needs_update = dst_manifest.read_text(encoding='utf-8') != src_data
-            if needs_update and not dry_run:
-                dst_manifest.write_text(src_data, encoding='utf-8')
+        sync_manifest(source_dir, dest_dir, dry_run)
 
     return stats
+
+
+def run_build_app(dry_run: bool) -> None:
+    """Run build-app.py for flyto-app targets."""
+    if dry_run:
+        print(f"    Would run build-app.py")
+        return
+
+    result = subprocess.run(
+        [sys.executable, str(PROJECT_ROOT / 'scripts' / 'build-app.py')],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if result.returncode == 0:
+        print(f"    build-app.py completed successfully")
+    else:
+        print(f"    build-app.py failed: {result.stderr}")
+
+
+def sync_code_manifests(repo_path: Path, dry_run: bool) -> None:
+    """Sync dist manifest files to flyto-code public i18n directories."""
+    for scope_dir in DIST_DIR.iterdir():
+        if not scope_dir.is_dir():
+            continue
+
+        src_manifest = scope_dir / 'manifest.json'
+        dest_dir = repo_path / 'public' / 'i18n' / scope_dir.name
+        if not src_manifest.exists() or not dest_dir.exists():
+            continue
+
+        changed = sync_manifest(scope_dir, dest_dir, dry_run)
+        if changed and dry_run:
+            continue
+        if changed:
+            print(f"    Updated manifest: {scope_dir.name}/manifest.json")
+
+
+def print_summary(total: dict) -> None:
+    """Print a project sync summary."""
+    changes = total['added'] + total['updated'] + total['deleted']
+    if not changes:
+        print(f"  Already in sync ({total['unchanged']} files)")
+        return
+
+    parts = []
+    if total['added']:
+        parts.append(f"+{total['added']} added")
+    if total['updated']:
+        parts.append(f"~{total['updated']} updated")
+    if total['deleted']:
+        parts.append(f"-{total['deleted']} deleted")
+    print(f"  Summary: {', '.join(parts)} ({total['unchanged']} unchanged)")
 
 
 def sync_project(name: str, config: dict, dry_run: bool = False):
@@ -193,7 +295,7 @@ def sync_project(name: str, config: dict, dry_run: bool = False):
 
     print(f"\n[{config['repo']}]")
 
-    total = {'added': 0, 'updated': 0, 'deleted': 0, 'unchanged': 0}
+    total = new_stats()
 
     for target in config['targets']:
         scope = target['scope']
@@ -204,59 +306,20 @@ def sync_project(name: str, config: dict, dry_run: bool = False):
         if mode == 'build-app':
             # For flyto-app, delegate to build-app.py
             print(f"  [{scope}] -> {target['dest']}/ (via build-app.py)")
-            if not dry_run:
-                import subprocess
-                result = subprocess.run(
-                    [sys.executable, str(PROJECT_ROOT / 'scripts' / 'build-app.py')],
-                    capture_output=True, text=True
-                )
-                if result.returncode == 0:
-                    print(f"    build-app.py completed successfully")
-                else:
-                    print(f"    build-app.py failed: {result.stderr}")
-            else:
-                print(f"    Would run build-app.py")
+            run_build_app(dry_run)
             continue
 
         print(f"  [{scope}] -> {target['dest']}/")
         copy_manifest = mode == 'single-scope-with-manifest'
         stats = sync_single_scope(scope, dest, locales, dry_run, copy_manifest)
-
-        for k in total:
-            total[k] += stats[k]
+        merge_stats(total, stats)
 
     # --- Also sync manifests for flyto-code ---
     if name == 'code':
-        for scope_dir in (DIST_DIR).iterdir():
-            if scope_dir.is_dir():
-                src_manifest = scope_dir / 'manifest.json'
-                if src_manifest.exists():
-                    dest_manifest = repo_path / 'public' / 'i18n' / scope_dir.name / 'manifest.json'
-                    if dest_manifest.parent.exists():
-                        src_data = src_manifest.read_text(encoding='utf-8')
-                        needs_update = True
-                        if dest_manifest.exists():
-                            needs_update = dest_manifest.read_text(encoding='utf-8') != src_data
-                        if needs_update:
-                            if dry_run:
-                                print(f"    Would update manifest: {scope_dir.name}/manifest.json")
-                            else:
-                                dest_manifest.write_text(src_data, encoding='utf-8')
-                                print(f"    Updated manifest: {scope_dir.name}/manifest.json")
+        sync_code_manifests(repo_path, dry_run)
 
     # Summary
-    changes = total['added'] + total['updated'] + total['deleted']
-    if changes:
-        parts = []
-        if total['added']:
-            parts.append(f"+{total['added']} added")
-        if total['updated']:
-            parts.append(f"~{total['updated']} updated")
-        if total['deleted']:
-            parts.append(f"-{total['deleted']} deleted")
-        print(f"  Summary: {', '.join(parts)} ({total['unchanged']} unchanged)")
-    else:
-        print(f"  Already in sync ({total['unchanged']} files)")
+    print_summary(total)
 
 
 def main():
