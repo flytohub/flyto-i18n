@@ -7,6 +7,7 @@
         "common.params.description.description": "此错误流程的描述",
         "common.params.description.label": "描述",
         "common.ports.error": "输出",
-        "common.pleaseSelect": "请选择…"
+        "common.pleaseSelect": "请选择…",
+        "common.running": "执行中"
     }
 }

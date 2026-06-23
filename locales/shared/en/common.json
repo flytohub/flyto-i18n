@@ -7,6 +7,7 @@
         "common.params.description.description": "Description of this error workflow",
         "common.params.description.label": "Description",
         "common.ports.error": "Input Data",
-        "common.pleaseSelect": "Please select…"
+        "common.pleaseSelect": "Please select…",
+        "common.running": "Running"
     }
 }

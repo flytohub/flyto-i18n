@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added Product Verification cockpit and scheduler translations for `flyto-code`
+  plus the shared `common.running` key used by action buttons.
 - Added unittest coverage for `scripts/sync-to-projects.py` dry-run, stale
   locale deletion, manifest sync behavior, and `scripts/add-locale.py` locale
   coverage status calculation.
