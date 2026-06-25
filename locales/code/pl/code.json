@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Przeglądarka zablokowała kartę raportu — zezwól na wyskakujące okienka dla tej witryny",
     "vaReport.previewTitle": "Podgląd raportu VA",
     "warroom.tabFindings": "Wyniki",
-    "warroom.tabOverview": "Przegląd"
+    "warroom.tabOverview": "Przegląd",
+    "code.dashboard.connectRuntime": "Połącz telemetrię runtime",
+    "code.surface.external": "Zewnętrzne",
+    "code.surface.code": "Kod",
+    "code.surface.container": "Kontener",
+    "code.surface.cloud": "Chmura",
+    "code.surface.runtime": "Runtime",
+    "code.surface.unknown": "Nieznane"
   },
   "version": "1.0.0"
 }

@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Il browser ha bloccato la scheda del report — consenti i popup per questo sito",
     "vaReport.previewTitle": "Anteprima del report VA",
     "warroom.tabFindings": "Risultati",
-    "warroom.tabOverview": "Panoramica"
+    "warroom.tabOverview": "Panoramica",
+    "code.dashboard.connectRuntime": "Connetti telemetria runtime",
+    "code.surface.external": "Esterno",
+    "code.surface.code": "Codice",
+    "code.surface.container": "Container",
+    "code.surface.cloud": "Cloud",
+    "code.surface.runtime": "Runtime",
+    "code.surface.unknown": "Sconosciuto"
   },
   "version": "1.0.0"
 }

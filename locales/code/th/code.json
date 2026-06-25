@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "เบราว์เซอร์บล็อกแท็บรายงาน — อนุญาตป๊อปอัปสำหรับไซต์นี้",
     "vaReport.previewTitle": "ตัวอย่างรายงาน VA",
     "warroom.tabFindings": "ผลการค้นพบ",
-    "warroom.tabOverview": "ภาพรวม"
+    "warroom.tabOverview": "ภาพรวม",
+    "code.dashboard.connectRuntime": "เชื่อมต่อเทเลเมทรีรันไทม์",
+    "code.surface.external": "ภายนอก",
+    "code.surface.code": "โค้ด",
+    "code.surface.container": "คอนเทนเนอร์",
+    "code.surface.cloud": "คลาวด์",
+    "code.surface.runtime": "รันไทม์",
+    "code.surface.unknown": "ไม่ทราบ"
   },
   "version": "1.0.0"
 }

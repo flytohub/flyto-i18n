@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "브라우저가 보고서 탭을 차단했습니다 — 이 사이트에서 팝업을 허용하세요",
     "vaReport.previewTitle": "VA 보고서 미리보기",
     "warroom.tabFindings": "보안 발견",
-    "warroom.tabOverview": "개요"
+    "warroom.tabOverview": "개요",
+    "code.dashboard.connectRuntime": "런타임 텔레메트리 연결",
+    "code.surface.external": "외부",
+    "code.surface.code": "코드",
+    "code.surface.container": "컨테이너",
+    "code.surface.cloud": "클라우드",
+    "code.surface.runtime": "런타임",
+    "code.surface.unknown": "알 수 없음"
   },
   "version": "1.0.0"
 }

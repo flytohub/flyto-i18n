@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "浏览器阻止了报告选项卡 — 为此站点允许弹窗",
     "vaReport.previewTitle": "VA 报告预览",
     "warroom.tabFindings": "安全发现",
-    "warroom.tabOverview": "概览"
+    "warroom.tabOverview": "概览",
+    "code.dashboard.connectRuntime": "连接运行时遥测",
+    "code.surface.external": "外部暴露",
+    "code.surface.code": "代码",
+    "code.surface.container": "容器",
+    "code.surface.cloud": "云端",
+    "code.surface.runtime": "运行时",
+    "code.surface.unknown": "未知"
   },
   "version": "1.0.0"
 }

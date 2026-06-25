@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "ब्राउज़र ने रिपोर्ट टैब को ब्लॉक किया — इस साइट के लिए पॉप-अप की अनुमति दें",
     "vaReport.previewTitle": "VA रिपोर्ट पूर्वावलोकन",
     "warroom.tabFindings": "निष्कर्ष",
-    "warroom.tabOverview": "अवलोकन"
+    "warroom.tabOverview": "अवलोकन",
+    "code.dashboard.connectRuntime": "रनटाइम टेलीमेट्री कनेक्ट करें",
+    "code.surface.external": "बाहरी",
+    "code.surface.code": "कोड",
+    "code.surface.container": "कंटेनर",
+    "code.surface.cloud": "क्लाउड",
+    "code.surface.runtime": "रनटाइम",
+    "code.surface.unknown": "अज्ञात"
   },
   "version": "1.0.0"
 }

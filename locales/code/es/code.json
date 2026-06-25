@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "El navegador bloqueó la pestaña del informe — permite ventanas emergentes en este sitio",
     "vaReport.previewTitle": "Vista previa del informe VA",
     "warroom.tabFindings": "Hallazgos",
-    "warroom.tabOverview": "Resumen"
+    "warroom.tabOverview": "Resumen",
+    "code.dashboard.connectRuntime": "Conectar telemetría de tiempo de ejecución",
+    "code.surface.external": "Externo",
+    "code.surface.code": "Código",
+    "code.surface.container": "Contenedor",
+    "code.surface.cloud": "Nube",
+    "code.surface.runtime": "Tiempo de ejecución",
+    "code.surface.unknown": "Desconocido"
   },
   "version": "1.0.0"
 }

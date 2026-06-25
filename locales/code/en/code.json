@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Browser blocked the report tab — allow popups for this site",
     "vaReport.previewTitle": "VA report preview",
     "warroom.tabFindings": "Findings",
-    "warroom.tabOverview": "Overview"
+    "warroom.tabOverview": "Overview",
+    "code.dashboard.connectRuntime": "Connect runtime telemetry",
+    "code.surface.external": "External",
+    "code.surface.code": "Code",
+    "code.surface.container": "Container",
+    "code.surface.cloud": "Cloud",
+    "code.surface.runtime": "Runtime",
+    "code.surface.unknown": "Unknown"
   },
   "version": "1.0.0"
 }

@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Trình duyệt đã chặn tab báo cáo — cho phép cửa sổ popup cho trang web này",
     "vaReport.previewTitle": "Xem trước báo cáo VA",
     "warroom.tabFindings": "Phát hiện",
-    "warroom.tabOverview": "Tổng quan"
+    "warroom.tabOverview": "Tổng quan",
+    "code.dashboard.connectRuntime": "Kết nối telemetry runtime",
+    "code.surface.external": "Bên ngoài",
+    "code.surface.code": "Mã",
+    "code.surface.container": "Vùng chứa",
+    "code.surface.cloud": "Đám mây",
+    "code.surface.runtime": "Runtime",
+    "code.surface.unknown": "Không xác định"
   },
   "version": "1.0.0"
 }

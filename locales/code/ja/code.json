@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "ブラウザがレポートタブをブロックしました — このサイトのポップアップを許可してください",
     "vaReport.previewTitle": "VA レポートプレビュー",
     "warroom.tabFindings": "検出事項",
-    "warroom.tabOverview": "概要"
+    "warroom.tabOverview": "概要",
+    "code.dashboard.connectRuntime": "ランタイムテレメトリを接続",
+    "code.surface.external": "外部",
+    "code.surface.code": "コード",
+    "code.surface.container": "コンテナ",
+    "code.surface.cloud": "クラウド",
+    "code.surface.runtime": "ランタイム",
+    "code.surface.unknown": "不明"
   },
   "version": "1.0.0"
 }

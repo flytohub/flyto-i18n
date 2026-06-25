@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Tarayıcı rapor sekmesini engelledi — bu site için açılır pencerelere izin verin",
     "vaReport.previewTitle": "VA raporu önizlemesi",
     "warroom.tabFindings": "Bulgular",
-    "warroom.tabOverview": "Genel Bakış"
+    "warroom.tabOverview": "Genel Bakış",
+    "code.dashboard.connectRuntime": "Çalışma zamanı telemetrisini bağla",
+    "code.surface.external": "Harici",
+    "code.surface.code": "Kod",
+    "code.surface.container": "Konteyner",
+    "code.surface.cloud": "Bulut",
+    "code.surface.runtime": "Çalışma zamanı",
+    "code.surface.unknown": "Bilinmeyen"
   },
   "version": "1.0.0"
 }

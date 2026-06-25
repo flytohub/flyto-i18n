@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Browser memblokir tab laporan — izinkan popup untuk situs ini",
     "vaReport.previewTitle": "Pratinjau laporan VA",
     "warroom.tabFindings": "Temuan",
-    "warroom.tabOverview": "Ikhtisar"
+    "warroom.tabOverview": "Ikhtisar",
+    "code.dashboard.connectRuntime": "Hubungkan telemetri runtime",
+    "code.surface.external": "Eksternal",
+    "code.surface.code": "Kode",
+    "code.surface.container": "Kontainer",
+    "code.surface.cloud": "Cloud",
+    "code.surface.runtime": "Runtime",
+    "code.surface.unknown": "Tidak diketahui"
   },
   "version": "1.0.0"
 }

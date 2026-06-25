@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "Browser hat die Bericht-Registerkarte blockiert — erlaube Popups für diese Website",
     "vaReport.previewTitle": "VA-Bericht-Vorschau",
     "warroom.tabFindings": "Befunde",
-    "warroom.tabOverview": "Übersicht"
+    "warroom.tabOverview": "Übersicht",
+    "code.dashboard.connectRuntime": "Runtime-Telemetrie verbinden",
+    "code.surface.external": "Extern",
+    "code.surface.code": "Code",
+    "code.surface.container": "Container",
+    "code.surface.cloud": "Cloud",
+    "code.surface.runtime": "Runtime",
+    "code.surface.unknown": "Unbekannt"
   },
   "version": "1.0.0"
 }

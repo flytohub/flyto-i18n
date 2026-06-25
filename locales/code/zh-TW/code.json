@@ -8233,7 +8233,14 @@
     "vaReport.popupBlocked": "瀏覽器已阻止報告分頁 — 允許此網站的快顯視窗",
     "vaReport.previewTitle": "VA 報告預覽",
     "warroom.tabFindings": "安全發現",
-    "warroom.tabOverview": "概覽"
+    "warroom.tabOverview": "概覽",
+    "code.dashboard.connectRuntime": "連接執行期遙測",
+    "code.surface.external": "外部曝險",
+    "code.surface.code": "代碼",
+    "code.surface.container": "容器",
+    "code.surface.cloud": "雲端",
+    "code.surface.runtime": "執行期",
+    "code.surface.unknown": "未知"
   },
   "version": "1.0.0"
 }
