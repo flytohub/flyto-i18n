@@ -151,6 +151,12 @@ Apps don't need to rebuild or redeploy. They fetch from CDN on every page load (
 # Validate everything
 python scripts/validate.py --strict
 
+# Full local closed-loop gate
+npm run verify
+
+# Same gate without npm
+make verify
+
 # Check coverage
 python scripts/coverage.py
 
