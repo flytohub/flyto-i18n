@@ -173,6 +173,32 @@ python scripts/sync-from-core.py --core-path ../flyto-core
 python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud
 ```
 
+## Environment
+
+Most commands in this repository are local and deterministic. Validation,
+coverage, dist build, locale sync, and consumer sync do not need credentials.
+
+Create a local `.env` only when running optional assisted translation tooling:
+
+```bash
+cp .env.example .env
+```
+
+`OPENAI_API_KEY` is read only by `scripts/translate-with-openai.py`. Do not put
+real API keys in tracked files.
+
+## Contributing
+
+Use `CONTRIBUTING.md` for review expectations and `workflows/` for task-specific
+checklists. For changes that affect generated `dist/` output or consuming app
+sync, include these checks before pushing:
+
+```bash
+python3 scripts/validate.py --strict
+python3 scripts/build-dist.py
+npm run verify
+```
+
 ## CDN Endpoints
 
 ```
