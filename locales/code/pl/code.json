@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "polityka {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Brak naruszeń w tej chwili.",
     "code.warroom.budgetIncidentsHeader": "Otwarte incydenty",
+    "code.warroom.budgetIncidentsLoading": "Ładowanie incydentów budżetu kampanii...",
+    "code.warroom.budgetPoliciesLoading": "Ładowanie zasad budżetu kampanii...",
+    "code.warroom.budgetIncidentsLoadFailed": "Nie udało się wczytać incydentów budżetu kampanii.",
+    "code.warroom.budgetPoliciesLoadFailed": "Nie udało się wczytać zasad budżetu kampanii.",
+    "code.warroom.budgetLoadHint": "Odśwież stronę albo spróbuj ponownie, gdy silnik odpowie.",
     "code.warroom.budgetLastDays": "ostatnie {days} dni",
     "code.warroom.budgetMetricInput": "Tokeny wejściowe",
     "code.warroom.budgetMetricOutput": "Tokeny wyjściowe",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "Wyniki",
     "warroom.tabOverview": "Przegląd"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

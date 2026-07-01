@@ -7578,6 +7578,11 @@
     "code.warroom.budgetIncidentMeta": "政策 {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "目前沒有任何超標。",
     "code.warroom.budgetIncidentsHeader": "未處理事件",
+    "code.warroom.budgetIncidentsLoading": "正在載入行動預算事件...",
+    "code.warroom.budgetPoliciesLoading": "正在載入行動預算政策...",
+    "code.warroom.budgetIncidentsLoadFailed": "無法載入行動預算事件。",
+    "code.warroom.budgetPoliciesLoadFailed": "無法載入行動預算政策。",
+    "code.warroom.budgetLoadHint": "請重新整理頁面，或待引擎回應後再試一次。",
     "code.warroom.budgetLastDays": "近 {days} 天",
     "code.warroom.budgetMetricInput": "輸入 token",
     "code.warroom.budgetMetricOutput": "輸出 token",
@@ -8496,5 +8501,6 @@
     "warroom.tabFindings": "安全發現",
     "warroom.tabOverview": "概覽"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

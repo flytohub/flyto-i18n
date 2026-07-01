@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "politique {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Aucune violation pour le moment.",
     "code.warroom.budgetIncidentsHeader": "Incidents ouverts",
+    "code.warroom.budgetIncidentsLoading": "Chargement des incidents de budget de campagne...",
+    "code.warroom.budgetPoliciesLoading": "Chargement des politiques de budget de campagne...",
+    "code.warroom.budgetIncidentsLoadFailed": "Impossible de charger les incidents de budget de campagne.",
+    "code.warroom.budgetPoliciesLoadFailed": "Impossible de charger les politiques de budget de campagne.",
+    "code.warroom.budgetLoadHint": "Actualisez la page ou réessayez après la réponse du moteur.",
     "code.warroom.budgetLastDays": "{days} jours glissants",
     "code.warroom.budgetMetricInput": "Jetons d'entrée",
     "code.warroom.budgetMetricOutput": "Jetons de sortie",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "Résultats",
     "warroom.tabOverview": "Aperçu"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

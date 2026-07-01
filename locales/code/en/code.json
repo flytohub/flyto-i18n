@@ -7578,6 +7578,11 @@
     "code.warroom.budgetIncidentMeta": "policy {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Nothing breaching right now.",
     "code.warroom.budgetIncidentsHeader": "Open incidents",
+    "code.warroom.budgetIncidentsLoading": "Loading campaign budget incidents...",
+    "code.warroom.budgetPoliciesLoading": "Loading campaign budget policies...",
+    "code.warroom.budgetIncidentsLoadFailed": "Could not load campaign budget incidents.",
+    "code.warroom.budgetPoliciesLoadFailed": "Could not load campaign budget policies.",
+    "code.warroom.budgetLoadHint": "Refresh the page or try again after the engine responds.",
     "code.warroom.budgetLastDays": "rolling {days}d",
     "code.warroom.budgetMetricInput": "Input tokens",
     "code.warroom.budgetMetricOutput": "Output tokens",
@@ -8496,5 +8501,6 @@
     "warroom.tabFindings": "Findings",
     "warroom.tabOverview": "Overview"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

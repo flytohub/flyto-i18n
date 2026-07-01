@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "kebijakan {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Tidak ada pelanggaran saat ini.",
     "code.warroom.budgetIncidentsHeader": "Insiden terbuka",
+    "code.warroom.budgetIncidentsLoading": "Memuat insiden anggaran kampanye...",
+    "code.warroom.budgetPoliciesLoading": "Memuat kebijakan anggaran kampanye...",
+    "code.warroom.budgetIncidentsLoadFailed": "Tidak dapat memuat insiden anggaran kampanye.",
+    "code.warroom.budgetPoliciesLoadFailed": "Tidak dapat memuat kebijakan anggaran kampanye.",
+    "code.warroom.budgetLoadHint": "Muat ulang halaman atau coba lagi setelah engine merespons.",
     "code.warroom.budgetLastDays": "berjalan {days}d",
     "code.warroom.budgetMetricInput": "Token masuk",
     "code.warroom.budgetMetricOutput": "Token keluar",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "Temuan",
     "warroom.tabOverview": "Ikhtisar"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

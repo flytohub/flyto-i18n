@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "Richtlinie {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Derzeit keine Verstöße.",
     "code.warroom.budgetIncidentsHeader": "Offene Vorfälle",
+    "code.warroom.budgetIncidentsLoading": "Kampagnenbudget-Vorfälle werden geladen...",
+    "code.warroom.budgetPoliciesLoading": "Kampagnenbudget-Richtlinien werden geladen...",
+    "code.warroom.budgetIncidentsLoadFailed": "Kampagnenbudget-Vorfälle konnten nicht geladen werden.",
+    "code.warroom.budgetPoliciesLoadFailed": "Kampagnenbudget-Richtlinien konnten nicht geladen werden.",
+    "code.warroom.budgetLoadHint": "Aktualisieren Sie die Seite oder versuchen Sie es erneut, nachdem die Engine antwortet.",
     "code.warroom.budgetLastDays": "laufende {days} Tage",
     "code.warroom.budgetMetricInput": "Eingabe-Tokens",
     "code.warroom.budgetMetricOutput": "Ausgabe-Tokens",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "Befunde",
     "warroom.tabOverview": "Übersicht"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

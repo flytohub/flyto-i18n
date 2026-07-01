@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "ポリシー {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "現在違反はありません。",
     "code.warroom.budgetIncidentsHeader": "オープンインシデント",
+    "code.warroom.budgetIncidentsLoading": "キャンペーン予算インシデントを読み込み中...",
+    "code.warroom.budgetPoliciesLoading": "キャンペーン予算ポリシーを読み込み中...",
+    "code.warroom.budgetIncidentsLoadFailed": "キャンペーン予算インシデントを読み込めませんでした。",
+    "code.warroom.budgetPoliciesLoadFailed": "キャンペーン予算ポリシーを読み込めませんでした。",
+    "code.warroom.budgetLoadHint": "ページを更新するか、エンジンの応答後にもう一度試してください。",
     "code.warroom.budgetLastDays": "直近{days}日",
     "code.warroom.budgetMetricInput": "入力トークン",
     "code.warroom.budgetMetricOutput": "出力トークン",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "検出事項",
     "warroom.tabOverview": "概要"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

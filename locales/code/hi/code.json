@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "नीति {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "अभी कोई उल्लंघन नहीं हो रहा है।",
     "code.warroom.budgetIncidentsHeader": "खुली घटनाएं",
+    "code.warroom.budgetIncidentsLoading": "कैंपेन बजट घटनाएं लोड हो रही हैं...",
+    "code.warroom.budgetPoliciesLoading": "कैंपेन बजट नीतियां लोड हो रही हैं...",
+    "code.warroom.budgetIncidentsLoadFailed": "कैंपेन बजट घटनाएं लोड नहीं हो सकीं।",
+    "code.warroom.budgetPoliciesLoadFailed": "कैंपेन बजट नीतियां लोड नहीं हो सकीं।",
+    "code.warroom.budgetLoadHint": "पेज रीफ्रेश करें या इंजन के जवाब देने के बाद फिर कोशिश करें।",
     "code.warroom.budgetLastDays": "चल रही {days} दिन",
     "code.warroom.budgetMetricInput": "इनपुट टोकन",
     "code.warroom.budgetMetricOutput": "आउटपुट टोकन",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "निष्कर्ष",
     "warroom.tabOverview": "अवलोकन"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

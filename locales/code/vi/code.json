@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "chính sách {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Hiện không có sự cố nào.",
     "code.warroom.budgetIncidentsHeader": "Sự cố mở",
+    "code.warroom.budgetIncidentsLoading": "Đang tải sự cố ngân sách chiến dịch...",
+    "code.warroom.budgetPoliciesLoading": "Đang tải chính sách ngân sách chiến dịch...",
+    "code.warroom.budgetIncidentsLoadFailed": "Không thể tải sự cố ngân sách chiến dịch.",
+    "code.warroom.budgetPoliciesLoadFailed": "Không thể tải chính sách ngân sách chiến dịch.",
+    "code.warroom.budgetLoadHint": "Làm mới trang hoặc thử lại sau khi engine phản hồi.",
     "code.warroom.budgetLastDays": "{days} ngày gần đây",
     "code.warroom.budgetMetricInput": "Token đầu vào",
     "code.warroom.budgetMetricOutput": "Token đầu ra",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "Phát hiện",
     "warroom.tabOverview": "Tổng quan"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

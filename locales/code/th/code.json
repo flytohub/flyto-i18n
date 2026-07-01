@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "นโยบาย {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "ไม่มีการละเมิดในขณะนี้",
     "code.warroom.budgetIncidentsHeader": "เหตุการณ์ที่เปิดอยู่",
+    "code.warroom.budgetIncidentsLoading": "กำลังโหลดเหตุการณ์งบประมาณแคมเปญ...",
+    "code.warroom.budgetPoliciesLoading": "กำลังโหลดนโยบายงบประมาณแคมเปญ...",
+    "code.warroom.budgetIncidentsLoadFailed": "ไม่สามารถโหลดเหตุการณ์งบประมาณแคมเปญได้",
+    "code.warroom.budgetPoliciesLoadFailed": "ไม่สามารถโหลดนโยบายงบประมาณแคมเปญได้",
+    "code.warroom.budgetLoadHint": "รีเฟรชหน้า หรือลองอีกครั้งหลังจาก engine ตอบกลับ",
     "code.warroom.budgetLastDays": "หมุนเวียน {days} วัน",
     "code.warroom.budgetMetricInput": "โทเค็นนำเข้า",
     "code.warroom.budgetMetricOutput": "โทเค็นส่งออก",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "ผลการค้นพบ",
     "warroom.tabOverview": "ภาพรวม"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

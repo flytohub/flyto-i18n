@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "정책 {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "현재 침해 없음.",
     "code.warroom.budgetIncidentsHeader": "열린 사건",
+    "code.warroom.budgetIncidentsLoading": "캠페인 예산 인시던트를 불러오는 중...",
+    "code.warroom.budgetPoliciesLoading": "캠페인 예산 정책을 불러오는 중...",
+    "code.warroom.budgetIncidentsLoadFailed": "캠페인 예산 인시던트를 불러오지 못했습니다.",
+    "code.warroom.budgetPoliciesLoadFailed": "캠페인 예산 정책을 불러오지 못했습니다.",
+    "code.warroom.budgetLoadHint": "페이지를 새로 고치거나 엔진이 응답한 뒤 다시 시도하세요.",
     "code.warroom.budgetLastDays": "최근 {days}일",
     "code.warroom.budgetMetricInput": "입력 토큰",
     "code.warroom.budgetMetricOutput": "출력 토큰",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "보안 발견",
     "warroom.tabOverview": "개요"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

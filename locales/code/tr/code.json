@@ -7574,6 +7574,11 @@
     "code.warroom.budgetIncidentMeta": "politika {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "Şu anda ihlal yok.",
     "code.warroom.budgetIncidentsHeader": "Açık olaylar",
+    "code.warroom.budgetIncidentsLoading": "Kampanya bütçe olayları yükleniyor...",
+    "code.warroom.budgetPoliciesLoading": "Kampanya bütçe politikaları yükleniyor...",
+    "code.warroom.budgetIncidentsLoadFailed": "Kampanya bütçe olayları yüklenemedi.",
+    "code.warroom.budgetPoliciesLoadFailed": "Kampanya bütçe politikaları yüklenemedi.",
+    "code.warroom.budgetLoadHint": "Sayfayı yenileyin veya engine yanıt verdikten sonra tekrar deneyin.",
     "code.warroom.budgetLastDays": "son {days}g",
     "code.warroom.budgetMetricInput": "Girdi tokenları",
     "code.warroom.budgetMetricOutput": "Çıktı tokenları",
@@ -8492,5 +8497,6 @@
     "warroom.tabFindings": "Bulgular",
     "warroom.tabOverview": "Genel Bakış"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }

@@ -7578,6 +7578,11 @@
     "code.warroom.budgetIncidentMeta": "策略 {policyId} · {when}",
     "code.warroom.budgetIncidentsEmpty": "目前没有突破。",
     "code.warroom.budgetIncidentsHeader": "未解决事件",
+    "code.warroom.budgetIncidentsLoading": "正在加载行动预算事件...",
+    "code.warroom.budgetPoliciesLoading": "正在加载行动预算策略...",
+    "code.warroom.budgetIncidentsLoadFailed": "无法加载行动预算事件。",
+    "code.warroom.budgetPoliciesLoadFailed": "无法加载行动预算策略。",
+    "code.warroom.budgetLoadHint": "请刷新页面，或在引擎响应后重试。",
     "code.warroom.budgetLastDays": "滚动 {days}天",
     "code.warroom.budgetMetricInput": "输入令牌",
     "code.warroom.budgetMetricOutput": "输出令牌",
@@ -8496,5 +8501,6 @@
     "warroom.tabFindings": "安全发现",
     "warroom.tabOverview": "概览"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "total_keys": 8493
 }
