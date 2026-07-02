@@ -8477,7 +8477,11 @@
     "warroom.tabFindings": "安全发现",
     "warroom.tabOverview": "概览",
     "code.repoPicker.connectTitle": "连接 GitHub",
-    "code.repoPicker.connectAction": "连接 GitHub"
+    "code.repoPicker.connectAction": "连接 GitHub",
+    "code.assetMap.focused": "焦点资产",
+    "code.assetMap.crossSurfaceMappings": "跨面向对应",
+    "code.assetMap.crossSurfaceMappingsHint": "不同面向的资产如何对应——例如某 repo 对应到它所服务的域名。",
+    "code.assetMap.sameSurfaceRelations": "同面向关系"
   },
   "version": "1.0.0",
   "total_keys": 8493

@@ -8477,7 +8477,11 @@
     "warroom.tabFindings": "Findings",
     "warroom.tabOverview": "Overview",
     "code.repoPicker.connectTitle": "Connect GitHub",
-    "code.repoPicker.connectAction": "Connect GitHub"
+    "code.repoPicker.connectAction": "Connect GitHub",
+    "code.assetMap.focused": "Focused",
+    "code.assetMap.crossSurfaceMappings": "Cross-surface mappings",
+    "code.assetMap.crossSurfaceMappingsHint": "How assets on different surfaces correspond — e.g. a repo to the domain it serves.",
+    "code.assetMap.sameSurfaceRelations": "Same-surface relations"
   },
   "version": "1.0.0",
   "total_keys": 8493
