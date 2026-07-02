@@ -1,0 +1,3 @@
+verify:
+  allow_generated_changes:
+    - dist/**
