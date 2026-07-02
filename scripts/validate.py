@@ -24,6 +24,11 @@ SCHEMA_DIR = PROJECT_ROOT / 'schema'
 
 # All project directories
 PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
+STRICT_PLACEHOLDER_LOCALES = {'zh-TW', 'zh-CN'}
+REPLACEMENT_PLACEHOLDER_RE = re.compile(r'\?{3,}')
+CRITICAL_NON_EMPTY_PREFIXES = {
+    'code': ('code.vaReport.',),
+}
 
 
 def load_schema() -> Dict:
@@ -89,6 +94,8 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
         return errors
 
     translations = data['translations']
+    locale = data.get('locale') or file_path.parent.name
+    category = data.get('category') or file_path.stem
 
     key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)+$')
     options_key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*\.options\..+$')
@@ -125,6 +132,25 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
                 'type': 'security',
                 'key': key,
                 'message': "Potential script injection detected"
+            })
+
+        if locale in STRICT_PLACEHOLDER_LOCALES and REPLACEMENT_PLACEHOLDER_RE.search(value):
+            errors.append({
+                'file': str(file_path),
+                'type': 'replacement_placeholder',
+                'key': key,
+                'message': f"Corrupted replacement placeholder detected in '{key}'"
+            })
+
+        critical_prefixes = CRITICAL_NON_EMPTY_PREFIXES.get(category, ())
+        if locale in STRICT_PLACEHOLDER_LOCALES and value.strip() == "" and any(
+            key.startswith(prefix) for prefix in critical_prefixes
+        ):
+            errors.append({
+                'file': str(file_path),
+                'type': 'missing_critical_translation',
+                'key': key,
+                'message': f"Critical UI translation must not be empty: '{key}'"
             })
 
     # Check if keys exist in base (skip for 'en' and 'cloud.*' keys)

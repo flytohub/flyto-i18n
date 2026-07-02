@@ -1,5 +1,5 @@
 {
-  "version": "2a561e3923c9",
+  "version": "9c9620a44ec3",
   "locales": {
     "de": {
       "name": "German",
@@ -132,8 +132,8 @@
       "native": "简体中文",
       "region": "CN",
       "total_keys": 8484,
-      "translated_keys": 8058,
-      "completion": 95.0,
+      "translated_keys": 8067,
+      "completion": 95.1,
       "files_merged": 2
     },
     "zh-TW": {
@@ -141,8 +141,8 @@
       "native": "繁體中文",
       "region": "TW",
       "total_keys": 8484,
-      "translated_keys": 8142,
-      "completion": 96.0,
+      "translated_keys": 8151,
+      "completion": 96.1,
       "files_merged": 2
     }
   }
