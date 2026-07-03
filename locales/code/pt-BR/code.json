@@ -2,6 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "pt-BR",
+  "total_keys": 8642,
   "translations": {
     "assetMap.edges": "bordas",
     "assetMap.findingBadges": "Distintivos de Achados",
@@ -8692,8 +8693,30 @@
     "code.assetCoverage.managerTile.confirmedInventoryHelper": "Resources counted in the main inventory",
     "code.assetCoverage.managerNextActions": "Next actions",
     "code.assetCoverage.managerNextActionsSubtitle": "Ranked items that change the executive coverage answer.",
-    "code.assetCoverage.review": "Review"
+    "code.assetCoverage.review": "Review",
+    "code.exposure.issuesManager.badge.exposed": "Exposed",
+    "code.exposure.issuesManager.commandCritical": "Critical / High need attention",
+    "code.exposure.issuesManager.commandStable": "No critical or high backlog",
+    "code.exposure.issuesManager.commandSubtitle": "Lead with exploitable and high-impact issues before broad cleanup.",
+    "code.exposure.issuesManager.commandTitle": "Repair command",
+    "code.exposure.issuesManager.criticalHighShare": "Critical / High share",
+    "code.exposure.issuesManager.criticalHighShort": "crit/high",
+    "code.exposure.issuesManager.externalExposure": "External exposure",
+    "code.exposure.issuesManager.fixReady": "Fix-ready coverage",
+    "code.exposure.issuesManager.liveEngine": "Live issues engine",
+    "code.exposure.issuesManager.manualReview": "Manual review",
+    "code.exposure.issuesManager.queueRisk": "risk",
+    "code.exposure.issuesManager.repoConcentrationSubtitle": "Where the open risk is sitting",
+    "code.exposure.issuesManager.repoConcentrationTitle": "Repository concentration",
+    "code.exposure.issuesManager.severityPanelSubtitle": "Backlog by impact level",
+    "code.exposure.issuesManager.totalOpen": "Open",
+    "code.exposure.issuesManager.typeMixSubtitle": "Rollup source of the queue",
+    "code.exposure.issuesManager.typeMixTitle": "Issue type mix",
+    "code.exposure.issuesManager.decisionBriefTitle": "Decision brief",
+    "code.exposure.issuesManager.decisionBriefSubtitle": "What needs leadership attention before broad cleanup",
+    "code.exposure.issuesManager.briefHighRisk": "Triage focus",
+    "code.exposure.issuesManager.briefTopRepo": "Most concentrated repo",
+    "code.exposure.issuesManager.briefFixPath": "Fix path"
   },
-  "version": "1.0.0",
-  "total_keys": 8642
+  "version": "1.0.0"
 }
