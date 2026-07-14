@@ -2,7 +2,7 @@
 # dist/
 build/
 
-# Local Flyto code index
+# Local Flyto2 code index
 .flyto-index/
 
 # Python

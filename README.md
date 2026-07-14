@@ -1,6 +1,6 @@
 # flyto-i18n
 
-Shared translations for the Flyto Platform. Edit a JSON file, merge to main, and every Flyto app updates automatically — no rebuild needed.
+Shared translations for the Flyto2 Platform. Edit a JSON file, merge to main, and every Flyto2 app updates automatically — no rebuild needed.
 
 ## How It Works
 
@@ -10,7 +10,7 @@ You edit a translation     CI rebuilds dist/     CDN cache purged     Apps load 
 locales/code/ja/        dist/code/ja.json      ~5 min total         No deploy required
 ```
 
-All Flyto apps (Code, Cloud, Cortex, Landing) load translations from CDN at runtime. When you merge a PR here, the pipeline rebuilds `dist/`, purges the CDN cache, and every app picks up the changes within minutes.
+All Flyto2 apps (Code, Cloud, Cortex, Landing) load translations from CDN at runtime. When you merge a PR here, the pipeline rebuilds `dist/`, purges the CDN cache, and every app picks up the changes within minutes.
 
 ## Quick Start: Fix a Translation
 
@@ -63,20 +63,20 @@ python scripts/build-dist.py
 # 6. Submit PR
 ```
 
-Once merged, the new language appears in every Flyto app's language picker automatically.
+Once merged, the new language appears in every Flyto2 app's language picker automatically.
 
 ## File Structure
 
 ```
 locales/
-├── cloud/{locale}/*.json     # Flyto Cloud (automation platform)
-├── code/{locale}/*.json      # Flyto Code (war room)
-├── modules/{locale}/*.json   # Flyto Core (workflow modules)
+├── cloud/{locale}/*.json     # Flyto2 Cloud (automation platform)
+├── code/{locale}/*.json      # Flyto2 Code (war room)
+├── modules/{locale}/*.json   # Flyto2 Core (workflow modules)
 ├── landing/{locale}/*.json   # Landing page & marketing
 ├── shared/{locale}/*.json    # Common translations (shared across apps)
 ├── app/{locale}/*.json       # Flutter mobile app
-├── console/{locale}/*.json   # Flyto Console
-└── data/{locale}/*.json      # Flyto Data
+├── console/{locale}/*.json   # Flyto2 Console
+└── data/{locale}/*.json      # Flyto2 Data
 
 dist/                         # Auto-generated, served via CDN
 ├── {scope}/{locale}.json     # Merged + nested (what apps actually load)

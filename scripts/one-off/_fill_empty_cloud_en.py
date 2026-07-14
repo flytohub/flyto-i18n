@@ -90,7 +90,7 @@ MANUAL = {
     "rpa.agents.empty": "No agents connected",
     "rpa.agents.title": "RPA Agents",
     "rpa.connect.codeExpires": "Code expires in",
-    "rpa.connect.step1": "Download and install the Flyto RPA agent",
+    "rpa.connect.step1": "Download and install the Flyto2 RPA agent",
     "rpa.connect.step2": "Launch the agent and enter the connection code",
     "rpa.connect.step3": "Start automating browser tasks",
     "rpa.connect.title": "Connect RPA Agent",

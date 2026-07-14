@@ -51,7 +51,7 @@ jobs:
           print('manifest.json is valid')
           "
 
-      - name: Run Flyto verify gate
+      - name: Run Flyto2 verify gate
         run: |
           python -m pip install git+https://github.com/flytohub/flyto-indexer.git
           flyto-index verify . --json

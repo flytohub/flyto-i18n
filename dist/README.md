@@ -1,7 +1,7 @@
 # dist/
 
 Tracked CDN distribution artifacts live here. These files are generated from
-`locales/**` by `scripts/build-dist.py` and are served directly by Flyto apps.
+`locales/**` by `scripts/build-dist.py` and are served directly by Flyto2 apps.
 
 ## Do Not Edit Generated JSON Directly
 

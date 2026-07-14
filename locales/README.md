@@ -1,7 +1,7 @@
 # locales/
 
 Source translation files live here. This directory is the human-edited source
-of truth for every Flyto product scope.
+of truth for every Flyto2 product scope.
 
 ## Layout
 

@@ -59,7 +59,7 @@
         "login.submitting": "Please wait...",
         "login.google": "Google",
         "login.github": "GitHub",
-        "login.sharedAccount": "Shared account with Flyto Cloud",
+        "login.sharedAccount": "Shared account with Flyto2 Cloud",
         "login.invalidEmailFormat": "Invalid email format",
         "login.popupClosed": "Sign-in popup was closed",
         "login.fillAllFields": "Please fill in all fields",
