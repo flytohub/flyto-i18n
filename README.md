@@ -1,6 +1,24 @@
-# flyto-i18n
+# Flyto2 i18n
 
-Shared translations for the Flyto2 Platform. Edit a JSON file, merge to main, and every Flyto2 app updates automatically — no rebuild needed.
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Website](https://img.shields.io/badge/website-flyto2.com-8B5CF6)](https://flyto2.com)
+[![Docs](https://img.shields.io/badge/docs-docs.flyto2.com-06B6D4)](https://docs.flyto2.com)
+
+Shared translation source of truth for Flyto2 apps, docs, landing pages, and
+open-source packages. Edit a JSON file, merge to main, and every Flyto2 surface
+can pick up the updated language bundle without rebuilding the product that
+consumes it.
+
+Use this repo for localization, multilingual SEO, AI-search citation strings,
+runtime language bundles, and contributor-friendly translation workflows across
+Flyto2 Cloud, Flyto2 Code, Flyto2 Core modules, Flyto2 Docs, and the public
+website.
+
+Official links: [flyto2.com](https://flyto2.com) ·
+[Docs](https://docs.flyto2.com) ·
+[Blog](https://blog.flyto2.com) ·
+[Contributing](CONTRIBUTING.md) ·
+[Security](mailto:security@flyto2.com)
 
 ## How It Works
 
