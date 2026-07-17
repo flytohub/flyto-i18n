@@ -185,10 +185,10 @@ def main():
     print(f"  Before: {before} keys")
     print(f"  Added: {added} keys")
     print(f"  After: {len(i18n_data['translations'])} keys")
-    print(f"\nDone! Next steps:")
+    print("\nDone! Next steps:")
     print(f"  1. Review the new keys in {I18N_FILE}")
-    print(f"  2. Run: python scripts/sync-locales.py --project code")
-    print(f"  3. Run: python scripts/build-dist.py")
+    print("  2. Run: python scripts/sync-locales.py --project code")
+    print("  3. Run: python scripts/build-dist.py")
 
 
 if __name__ == '__main__':

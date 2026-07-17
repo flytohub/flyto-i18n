@@ -16,14 +16,18 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import PROJECT_DIRS  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 SCHEMA_DIR = PROJECT_ROOT / 'schema'
 
-# All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
 STRICT_PLACEHOLDER_LOCALES = {'zh-TW', 'zh-CN'}
 REPLACEMENT_PLACEHOLDER_RE = re.compile(r'\?{3,}')
 CRITICAL_NON_EMPTY_PREFIXES = {

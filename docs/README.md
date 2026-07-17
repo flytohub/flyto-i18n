@@ -2,6 +2,13 @@
 
 This directory holds durable documentation for `flyto-i18n`.
 
+Key generated contracts:
+
+- `../dist/locale-meta.json`: shared public locale metadata for language
+  pickers, `hreflang`, Open Graph locale, direction, region, and flags.
+- `../dist/seo-manifest.json`: landing/docs/blog SEO contract generated from
+  `../seo/public-surfaces.json`.
+
 Start with these root memory files:
 
 - `../PROJECT.md`

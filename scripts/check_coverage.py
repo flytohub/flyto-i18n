@@ -4,8 +4,11 @@
 退出碼: 任一語言低於 --min(預設不擋,只報告;給 --min N 則低於 N 時 exit 1)。
 這支腳本是 FLYA-152 的驗收尺:翻譯前後各跑一次,覆蓋率必須真的上升。
 """
-import json, glob, os, sys, argparse
-from collections import defaultdict
+import json
+import glob
+import os
+import sys
+import argparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-import json, sys, io
+import json
+import sys
+import io
 from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent / 'locales' / 'code'

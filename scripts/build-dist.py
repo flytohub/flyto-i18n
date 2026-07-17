@@ -26,8 +26,15 @@ Scopes (output):
 
 import hashlib
 import json
+import sys
 from pathlib import Path
 from datetime import datetime  # noqa: F401  # kept for backward-compat callers
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import LANGUAGE_META, PROJECT_DIRS, build_locale_meta  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -68,35 +75,6 @@ SCOPES = {
         ('shared', None, 'common'),
     ],
 }
-
-# Language metadata - add new languages here when adding locales
-LANGUAGE_META = {
-    'en': {'name': 'English', 'native': 'English', 'region': 'US'},
-    'zh-TW': {'name': 'Traditional Chinese', 'native': '繁體中文', 'region': 'TW'},
-    'zh-CN': {'name': 'Simplified Chinese', 'native': '简体中文', 'region': 'CN'},
-    'ja': {'name': 'Japanese', 'native': '日本語', 'region': 'JP'},
-    'ko': {'name': 'Korean', 'native': '한국어', 'region': 'KR'},
-    'es': {'name': 'Spanish', 'native': 'Español', 'region': 'ES'},
-    'fr': {'name': 'French', 'native': 'Français', 'region': 'FR'},
-    'de': {'name': 'German', 'native': 'Deutsch', 'region': 'DE'},
-    'pt': {'name': 'Portuguese', 'native': 'Português', 'region': 'PT'},
-    'pt-BR': {'name': 'Portuguese (Brazil)', 'native': 'Português (Brasil)', 'region': 'BR'},
-    'it': {'name': 'Italian', 'native': 'Italiano', 'region': 'IT'},
-    'ru': {'name': 'Russian', 'native': 'Русский', 'region': 'RU'},
-    'th': {'name': 'Thai', 'native': 'ไทย', 'region': 'TH'},
-    'vi': {'name': 'Vietnamese', 'native': 'Tiếng Việt', 'region': 'VN'},
-    'ar': {'name': 'Arabic', 'native': 'العربية', 'region': 'SA'},
-    'hi': {'name': 'Hindi', 'native': 'हिन्दी', 'region': 'IN'},
-    'id': {'name': 'Indonesian', 'native': 'Bahasa Indonesia', 'region': 'ID'},
-    'ms': {'name': 'Malay', 'native': 'Bahasa Melayu', 'region': 'MY'},
-    'nl': {'name': 'Dutch', 'native': 'Nederlands', 'region': 'NL'},
-    'pl': {'name': 'Polish', 'native': 'Polski', 'region': 'PL'},
-    'tr': {'name': 'Turkish', 'native': 'Türkçe', 'region': 'TR'},
-    'uk': {'name': 'Ukrainian', 'native': 'Українська', 'region': 'UA'},
-}
-
-# All project directories under locales/
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
 
 
 def get_locales() -> list:
@@ -288,8 +266,8 @@ def build_manifest(locales_data: dict, flat_counts: dict) -> dict:
 
 
 def count_translated(locale: str, scope: str = None) -> int:
-    """Count non-empty translations for a locale."""
-    count = 0
+    """Count non-empty unique translations for a locale after merge semantics."""
+    merged = {}
 
     if scope and scope in SCOPES:
         for project, file_filter, _prefix in SCOPES[scope]:
@@ -297,16 +275,16 @@ def count_translated(locale: str, scope: str = None) -> int:
                 with open(json_file, encoding='utf-8') as f:
                     data = json.load(f)
                 if 'translations' in data:
-                    count += sum(1 for v in data['translations'].values() if v)
+                    merged.update(data['translations'])
     else:
         for project in PROJECT_DIRS:
             for json_file in collect_files(locale, project):
                 with open(json_file, encoding='utf-8') as f:
                     data = json.load(f)
                 if 'translations' in data:
-                    count += sum(1 for v in data['translations'].values() if v)
+                    merged.update(data['translations'])
 
-    return count
+    return sum(1 for value in merged.values() if value)
 
 
 def main():
@@ -371,7 +349,12 @@ def main():
     with open(manifest_file, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
-    print(f"  → dist/manifest.json")
+    print("  → dist/manifest.json")
+    locale_meta_file = DIST_DIR / 'locale-meta.json'
+    with open(locale_meta_file, 'w', encoding='utf-8') as f:
+        json.dump(build_locale_meta(locales), f, indent=2, ensure_ascii=False)
+        f.write('\n')
+    print("  → dist/locale-meta.json")
     print()
     print("=" * 50)
     print("Build complete!")

@@ -17,7 +17,6 @@ Run from repo root:  python scripts/add_upstream_keys.py
 Then rebuild dist:    python scripts/build-dist.py
 """
 import json
-import os
 import sys
 from pathlib import Path
 

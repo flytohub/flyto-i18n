@@ -12,7 +12,6 @@ Options:
 
 import argparse
 import json
-import sys
 from pathlib import Path
 from typing import Dict
 
@@ -87,7 +86,7 @@ def get_manifest_version() -> str:
     try:
         with open(manifest_path) as f:
             return json.load(f).get('version', '0.0.0')
-    except:
+    except (OSError, json.JSONDecodeError):
         return '0.0.0'
 
 

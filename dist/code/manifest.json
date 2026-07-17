@@ -1,5 +1,5 @@
 {
-  "version": "82cfd082b841",
+  "version": "cc1e236bbe2f",
   "locales": {
     "de": {
       "name": "German",
@@ -102,7 +102,7 @@
     },
     "th": {
       "name": "Thai",
-      "native": "ไทย",
+      "native": "ภาษาไทย",
       "region": "TH",
       "total_keys": 8755,
       "translated_keys": 4868,

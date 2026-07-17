@@ -9,13 +9,7 @@ CLOUD_EN = Path(__file__).parent.parent / 'locales' / 'cloud' / 'en'
 def key_to_english(key):
     """Generate English text from a key name."""
     parts = key.split('.')
-    # Use last 1-2 segments for the label
-    if len(parts) >= 2:
-        last = parts[-1]
-        parent = parts[-2] if len(parts) >= 3 else ''
-    else:
-        last = parts[-1]
-        parent = ''
+    last = parts[-1]
 
     # camelCase to words
     words = re.sub(r'([a-z])([A-Z])', r'\1 \2', last)

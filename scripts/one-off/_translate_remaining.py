@@ -146,7 +146,8 @@ def process_locale(locale: str):
     en_vals = {}
     for scope in ['cloud', 'code', 'landing', 'app', 'console', 'data']:
         en_dir = LOCALES_DIR / scope / 'en'
-        if not en_dir.exists(): continue
+        if not en_dir.exists():
+            continue
         for f in en_dir.rglob('*.json'):
             with open(f, encoding='utf-8') as fh:
                 data = json.load(fh)
@@ -157,7 +158,8 @@ def process_locale(locale: str):
     total_updated = 0
     for scope in ['cloud', 'code', 'landing', 'app', 'console', 'data']:
         locale_dir = LOCALES_DIR / scope / locale
-        if not locale_dir.exists(): continue
+        if not locale_dir.exists():
+            continue
 
         for f in sorted(locale_dir.rglob('*.json')):
             with open(f, encoding='utf-8') as fh:

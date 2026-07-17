@@ -1,0 +1,177 @@
+{
+  "version": "2026-07-18",
+  "description": "Flyto2 multilingual SEO contract for the public landing, docs, and blog surfaces.",
+  "defaultLocale": "en",
+  "xDefaultLocale": "en",
+  "requiredSignals": [
+    "canonical",
+    "hreflang-alternates",
+    "x-default",
+    "sitemap",
+    "localized-title",
+    "localized-description",
+    "og-locale",
+    "structured-data"
+  ],
+  "surfaces": {
+    "landing": {
+      "name": "Flyto2 landing page",
+      "origin": "https://flyto2.com",
+      "sitemap": "https://flyto2.com/sitemap.xml",
+      "routePattern": "/{locale}{path}",
+      "primaryIntent": "product discovery, comparison pages, open-source workflow automation entry points",
+      "keywordClusters": [
+        {
+          "id": "ai-workflow-automation",
+          "primary": "ai workflow automation",
+          "intent": "commercial investigation",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 1000,
+            "seoDifficulty": 51,
+            "paidDifficulty": 40,
+            "cpcUsd": 42.24,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "ai workflow automation tools",
+            "best ai workflow automation tools",
+            "agentic ai workflow automation",
+            "open source ai workflow automation",
+            "ai workflow automation examples"
+          ]
+        },
+        {
+          "id": "browser-automation-tool",
+          "primary": "browser automation tool",
+          "intent": "problem aware",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 260,
+            "seoDifficulty": 56,
+            "paidDifficulty": 46,
+            "cpcUsd": 29.52,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "web browser automation tool",
+            "best browser automation tool",
+            "no code browser automation tool",
+            "browser automation tool open source",
+            "browser automation tool playwright"
+          ]
+        }
+      ]
+    },
+    "docs": {
+      "name": "Flyto2 Docs",
+      "origin": "https://docs.flyto2.com",
+      "sitemap": "https://docs.flyto2.com/sitemap.xml",
+      "routePattern": "/{locale}{path}",
+      "primaryIntent": "technical evaluation, implementation reference, open-source module docs",
+      "keywordClusters": [
+        {
+          "id": "open-source-workflow-automation",
+          "primary": "open source workflow automation",
+          "intent": "technical evaluation",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 70,
+            "seoDifficulty": 47,
+            "paidDifficulty": 28,
+            "cpcUsd": 11.47,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "open source workflow automation tools",
+            "open source workflow automation tool",
+            "open source workflow automation platform",
+            "free open source workflow automation tool",
+            "best open source workflow automation tools"
+          ]
+        },
+        {
+          "id": "mcp-ai-agent-runtime",
+          "primary": "MCP native AI agent runtime",
+          "intent": "developer research",
+          "evidence": {
+            "source": "Flyto2 internal topic map",
+            "country": "GLOBAL",
+            "language": "en",
+            "volume": 0,
+            "seoDifficulty": 0,
+            "paidDifficulty": 0,
+            "cpcUsd": 0,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "MCP native workflow engine",
+            "AI agent runtime with queue and replay",
+            "open source execution engine for AI agents",
+            "versioned workflow automation engine",
+            "agent workflow metering and audit trail"
+          ]
+        }
+      ]
+    },
+    "blog": {
+      "name": "Flyto2 Blog",
+      "origin": "https://blog.flyto2.com",
+      "sitemap": "https://blog.flyto2.com/sitemap.xml",
+      "routePattern": "/{locale}{path}",
+      "primaryIntent": "education, long-tail discovery, comparison content",
+      "keywordClusters": [
+        {
+          "id": "workflow-automation-examples",
+          "primary": "workflow automation examples",
+          "intent": "educational",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 170,
+            "seoDifficulty": 33,
+            "paidDifficulty": 11,
+            "cpcUsd": 8.33,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "ai workflow automation examples",
+            "workflow automation use cases",
+            "workflow automation for technical teams",
+            "workflow automation with ai agents",
+            "what is ai workflow automation"
+          ]
+        },
+        {
+          "id": "traditional-chinese-workflow-automation",
+          "primary": "工作流程 自動化",
+          "intent": "localized discovery",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "TW",
+            "language": "zh",
+            "volume": 10,
+            "seoDifficulty": 18,
+            "paidDifficulty": 1,
+            "cpcUsd": 0,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "工作流程自動化工具",
+            "AI 工作流程自動化",
+            "開源工作流程自動化",
+            "瀏覽器自動化工具",
+            "不用寫程式自動化"
+          ]
+        }
+      ]
+    }
+  }
+}

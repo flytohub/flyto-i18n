@@ -108,7 +108,7 @@ def main():
         category = parts[0]
         by_category[category][key] = key_to_english(key)
 
-    print(f"\nKeys by category:")
+    print("\nKeys by category:")
     for cat, keys in sorted(by_category.items()):
         print(f"  {cat}: {len(keys)} keys")
 
@@ -153,9 +153,9 @@ def main():
                 total_added += added
 
     print(f"\nTotal added: {total_added}")
-    print(f"\nNext steps:")
-    print(f"  1. Run: python scripts/sync-locales.py")
-    print(f"  2. Run: python scripts/build-dist.py")
+    print("\nNext steps:")
+    print("  1. Run: python scripts/sync-locales.py")
+    print("  2. Run: python scripts/build-dist.py")
 
 
 if __name__ == '__main__':

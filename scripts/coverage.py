@@ -15,13 +15,16 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import PROJECT_DIRS  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-
-# All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
 
 
 def get_locales() -> list:
@@ -99,7 +102,7 @@ def print_coverage_report(locale: str, stats: Dict):
     print(f"{'=' * 60}")
     print(f"\nOverall: {stats['translated_keys']}/{stats['total_keys']} ({stats['coverage']}%)")
 
-    print(f"\nBy Category:")
+    print("\nBy Category:")
     print(f"{'-' * 60}")
     print(f"{'Category':<20} {'Translated':<15} {'Coverage':<15}")
     print(f"{'-' * 60}")
@@ -110,7 +113,7 @@ def print_coverage_report(locale: str, stats: Dict):
         print(f"{category:<20} {data['translated']}/{data['total']:<10} {bar} {data['coverage']}%")
 
     if stats['missing_keys']:
-        print(f"\nMissing Keys (first 50):")
+        print("\nMissing Keys (first 50):")
         for key in stats['missing_keys'][:20]:
             print(f"  - {key}")
         if len(stats['missing_keys']) > 20:
@@ -136,7 +139,7 @@ def main():
     if args.locale:
         locales = [args.locale]
     else:
-        locales = [l for l in get_locales() if l != 'en']
+        locales = [locale for locale in get_locales() if locale != 'en']
 
     all_stats = {}
 

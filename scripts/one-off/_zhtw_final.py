@@ -276,7 +276,8 @@ for scope in ['cloud', 'code', 'landing', 'app', 'console', 'data']:
             for k, v in json.load(fh).get('translations', {}).items():
                 en_vals[k] = v
     zh_dir = ROOT / 'locales' / scope / 'zh-TW'
-    if not zh_dir.exists(): continue
+    if not zh_dir.exists():
+        continue
     for f in zh_dir.rglob('*.json'):
         with open(f, encoding='utf-8') as fh:
             for k, v in json.load(fh).get('translations', {}).items():

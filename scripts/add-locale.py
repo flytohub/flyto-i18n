@@ -18,29 +18,14 @@ import json
 import sys
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import LOCALE_NAMES, PROJECT_DIRS  # noqa: E402
+
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-
-# All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
-
-# Common locale codes
-LOCALE_NAMES = {
-    'en': 'English',
-    'zh-TW': 'Traditional Chinese',
-    'zh-CN': 'Simplified Chinese',
-    'ja': 'Japanese',
-    'ko': 'Korean',
-    'es': 'Spanish',
-    'fr': 'French',
-    'de': 'German',
-    'pt': 'Portuguese',
-    'it': 'Italian',
-    'ru': 'Russian',
-    'ar': 'Arabic',
-    'th': 'Thai',
-    'vi': 'Vietnamese',
-}
 
 
 def get_locales() -> list:
@@ -97,10 +82,10 @@ def add_locale(locale: str, use_english_values: bool = False):
     print(f"   Files: {files_created}")
     print(f"   Keys: {total_keys} (empty)")
     print()
-    print(f"Next steps:")
+    print("Next steps:")
     print(f"  1. Translate the files in locales/*/'{locale}/")
-    print(f"  2. Run: python scripts/sync-locales.py")
-    print(f"  3. Commit and push")
+    print("  2. Run: python scripts/sync-locales.py")
+    print("  3. Commit and push")
 
     return True
 

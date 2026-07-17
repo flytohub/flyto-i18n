@@ -235,7 +235,7 @@ def sync_single_scope(
 def run_build_app(dry_run: bool) -> None:
     """Run build-app.py for flyto-app targets."""
     if dry_run:
-        print(f"    Would run build-app.py")
+        print("    Would run build-app.py")
         return
 
     result = subprocess.run(
@@ -245,7 +245,7 @@ def run_build_app(dry_run: bool) -> None:
         check=False,
     )
     if result.returncode == 0:
-        print(f"    build-app.py completed successfully")
+        print("    build-app.py completed successfully")
     else:
         print(f"    build-app.py failed: {result.stderr}")
 

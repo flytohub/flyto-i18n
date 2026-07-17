@@ -15,16 +15,7 @@ LOCALES_DIR = Path(__file__).parent.parent / 'locales'
 def key_to_english(key):
     """Generate English text from a translation key name."""
     parts = key.split('.')
-    # Use last meaningful segment(s)
-    if len(parts) >= 3:
-        last = parts[-1]
-        parent = parts[-2]
-    elif len(parts) >= 2:
-        last = parts[-1]
-        parent = parts[-2] if parts[-2] not in ('cloud', 'code', 'landing', 'modules', 'shared', 'app', 'console', 'data') else ''
-    else:
-        last = parts[-1]
-        parent = ''
+    last = parts[-1]
 
     # camelCase to words
     words = re.sub(r'([a-z])([A-Z])', r'\1 \2', last)

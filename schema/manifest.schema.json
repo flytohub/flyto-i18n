@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://flyto2.net/schemas/manifest.schema.json",
+  "$id": "https://flyto2.com/schemas/manifest.schema.json",
   "title": "Flyto2 i18n Manifest",
   "description": "Schema for flyto-i18n manifest.json",
   "type": "object",

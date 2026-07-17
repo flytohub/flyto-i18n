@@ -1,16 +1,25 @@
 # State
 
-Current state on 2026-06-21:
+Current state on 2026-07-18:
 
-- Repo status: internal tooling
-- Product lines: cloud_apps_automation, security, data, zero_person_agent, big_data_intelligence
-- Health target: C
-- 2026-06-22 reverse audit update: sync-to-projects and add-locale tooling were
-  split into smaller helpers and guarded with unittest coverage; no locale data
-  was changed.
+- Repo status: internal tooling with public CDN artifacts.
+- Product lines: cloud_apps_automation, security, data, zero_person_agent,
+  big_data_intelligence.
+- Health target: B.
+- Shared locale metadata now lives in `scripts/i18n_contract.py` and is
+  generated into `dist/locale-meta.json`.
+- Public landing/docs/blog SEO source lives in `seo/public-surfaces.json` and is
+  generated into `dist/seo-manifest.json`.
+- `scripts/build-dist.py` now reports completion from unique merged keys, so
+  manifest percentages no longer exceed 100%.
+- `scripts/coverage.py` and `scripts/add-locale.py` now include the `engine`
+  scope through the shared contract.
 
 Known release work:
 
-- Keep project memory current.
+- Wire `dist/seo-manifest.json` into landing/docs/blog metadata generation.
+- Keep keyword evidence in `seo/public-surfaces.json` current when new SEO
+  research is done.
+- Continue translating the `code` scope; it is the main remaining coverage gap.
 - Run repo-specific lint, tests, build, and release gates before production.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.

@@ -15,9 +15,8 @@ This script:
 
 import argparse
 import json
-import sys
 from pathlib import Path
-from typing import Dict, Set
+from typing import Dict
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -137,7 +136,7 @@ def main():
     if args.locale:
         locales = [args.locale]
     else:
-        locales = [l for l in get_locales() if l != 'en']
+        locales = [locale for locale in get_locales() if locale != 'en']
 
     projects = [args.project] if args.project else PROJECT_DIRS
 
@@ -160,7 +159,7 @@ def main():
         print()
 
     print("=" * 50)
-    print(f"Summary:")
+    print("Summary:")
     print(f"  Keys added:   +{total_stats['added']}")
     print(f"  Keys removed: -{total_stats['removed']}")
     print(f"  Files updated: {total_stats['files_updated']}")

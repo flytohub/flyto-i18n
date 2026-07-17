@@ -71,7 +71,7 @@ def main():
 
     projects = [args.project] if args.project else PROJECT_DIRS
 
-    print(f"Converting zh-TW -> zh-CN")
+    print("Converting zh-TW -> zh-CN")
     print(f"Mode: {'DRY RUN' if args.dry_run else ('FORCE' if args.force else 'NORMAL')}")
     print()
 

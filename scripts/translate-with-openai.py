@@ -21,7 +21,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, Tuple
 
 try:
     from openai import OpenAI
@@ -544,7 +544,7 @@ Examples:
         print()
 
     print("=" * 50)
-    print(f"Summary:")
+    print("Summary:")
     print(f"  Total translated: {total_translated}")
     print(f"  Total skipped:    {total_skipped}")
     print("=" * 50)
