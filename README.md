@@ -9,10 +9,22 @@ open-source packages. Edit a JSON file, merge to main, and every Flyto2 surface
 can pick up the updated language bundle without rebuilding the product that
 consumes it.
 
+In plain English: this repo keeps product text, docs text, SEO snippets, and
+locale bundles in one place. Translators can fix a phrase once, and the change
+can flow to the app, docs, landing page, and AI-search citation text without a
+full redeploy.
+
 Use this repo for localization, multilingual SEO, AI-search citation strings,
 runtime language bundles, and contributor-friendly translation workflows across
 Flyto2 Cloud, Flyto2 Code, Flyto2 Core modules, Flyto2 Docs, and the public
 website.
+
+Good fit if you searched for:
+
+- multilingual SEO translation workflow
+- localization source of truth for docs and apps
+- runtime i18n bundles from GitHub
+- AI-search ready localized product copy
 
 Official links: [flyto2.com](https://flyto2.com) ·
 [Docs](https://docs.flyto2.com) ·
