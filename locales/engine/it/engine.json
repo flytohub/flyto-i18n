@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "chiave API non valida",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "chiave interna non valida o mancante",
     "engine.error.unauthorized.unauthenticated": "non autenticato",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "header X-Flyto-API-Key richiesto",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "header X-Flyto2-API-Key richiesto",
     "engine.error.unprocessable": "Impossibile elaborare la richiesta",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "chiave di idempotenza riutilizzata con parametri di richiesta diversi",
     "engine.error.unsupported_media_type": "Tipo di media non supportato",

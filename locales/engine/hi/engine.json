@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "अमान्य API key",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "अमान्य या अनुपस्थित internal key",
     "engine.error.unauthorized.unauthenticated": "अप्रमाणित",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto-API-Key हेडर आवश्यक है",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto2-API-Key हेडर आवश्यक है",
     "engine.error.unprocessable": "अनुरोध प्रोसेस करने में असमर्थ",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "idempotency key भिन्न अनुरोध पैरामीटर के साथ पुनः उपयोग की गई",
     "engine.error.unsupported_media_type": "असमर्थित मीडिया प्रकार",

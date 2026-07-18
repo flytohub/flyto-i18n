@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "API key tidak valid",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "kunci internal tidak valid atau tidak ada",
     "engine.error.unauthorized.unauthenticated": "tidak terautentikasi",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "header X-Flyto-API-Key diperlukan",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "header X-Flyto2-API-Key diperlukan",
     "engine.error.unprocessable": "Tidak dapat memproses permintaan",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "kunci idempotensi digunakan ulang dengan parameter permintaan yang berbeda",
     "engine.error.unsupported_media_type": "Tipe media tidak didukung",

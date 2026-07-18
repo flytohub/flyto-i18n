@@ -1,6 +1,26 @@
 {
   "name": "flyto-i18n",
   "private": true,
+  "description": "Flyto2 localization, multilingual SEO, hreflang, and public keyword contract shared across apps, docs, blog, and open-source packages.",
+  "homepage": "https://flyto2.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flytohub/flyto-i18n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flytohub/flyto-i18n/issues"
+  },
+  "keywords": [
+    "flyto2",
+    "i18n",
+    "localization",
+    "multilingual-seo",
+    "hreflang",
+    "ai-search",
+    "llms-txt",
+    "open-source-ai-agent-framework",
+    "ai-workflow-automation"
+  ],
   "license": "MIT",
   "type": "module",
   "scripts": {

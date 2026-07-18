@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-07-18 | Flyto2 i18n brand and metadata refresh | `2026-07-18-brand-header-metadata.md` |
 | 2026-07-18 | Multilingual SEO contract | `2026-07-18-multilingual-seo-contract.md` |
 | 2026-06-23 | Product Verification i18n closure | `2026-06-23-product-verification-i18n.md` |
 | 2026-06-22 | Sync tooling complexity guard | `2026-06-22-sync-tooling-complexity-guard.md` |

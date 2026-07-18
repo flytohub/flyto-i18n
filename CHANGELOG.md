@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added package metadata, backlink fields, and SEO-focused keywords so the
+  i18n source is clearer on GitHub and package indexes.
 - Added `scripts/i18n_contract.py` as the shared locale/project metadata source
   for build, validation, coverage, and add-locale tooling.
 - Added `seo/public-surfaces.json` and generated `dist/seo-manifest.json` for
@@ -20,6 +22,10 @@
 
 ### Changed
 
+- Updated public locale values to use the Flyto2 brand and the preferred
+  `X-Flyto2-API-Key` header text.
+- Corrected the README license badge to match the MIT license file and refreshed
+  generated coverage numbers.
 - `scripts/build-dist.py` now generates `dist/locale-meta.json` from the shared
   contract and reports translated completion from unique merged keys instead of
   double-counting duplicated source keys.

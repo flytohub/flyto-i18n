@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "nieprawidłowy klucz API",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "nieprawidłowy lub brakujący klucz wewnętrzny",
     "engine.error.unauthorized.unauthenticated": "brak uwierzytelnienia",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "wymagany nagłówek X-Flyto-API-Key",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "wymagany nagłówek X-Flyto2-API-Key",
     "engine.error.unprocessable": "Nie można przetworzyć żądania",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "klucz idempotentności użyty ponownie z innymi parametrami żądania",
     "engine.error.unsupported_media_type": "Nieobsługiwany typ mediów",

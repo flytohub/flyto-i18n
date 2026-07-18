@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "無効な API キー",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "無効または欠落している内部キー",
     "engine.error.unauthorized.unauthenticated": "未認証",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto-API-Key ヘッダーが必要です",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto2-API-Key ヘッダーが必要です",
     "engine.error.unprocessable": "リクエストを処理できません",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "冪等キーが異なるリクエストパラメータで再使用されました",
     "engine.error.unsupported_media_type": "サポートされていないメディアタイプ",

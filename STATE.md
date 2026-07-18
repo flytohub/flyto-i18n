@@ -10,6 +10,10 @@ Current state on 2026-07-18:
   generated into `dist/locale-meta.json`.
 - Public landing/docs/blog SEO source lives in `seo/public-surfaces.json` and is
   generated into `dist/seo-manifest.json`.
+- Package metadata now includes homepage, repository, issues, and SEO keywords
+  for GitHub/package-index discovery.
+- Public locale values no longer expose standalone `Flyto` branding or the old
+  `X-Flyto-API-Key` copy; generated dist bundles now use Flyto2 wording.
 - `scripts/build-dist.py` now reports completion from unique merged keys, so
   manifest percentages no longer exceed 100%.
 - `scripts/coverage.py` and `scripts/add-locale.py` now include the `engine`
@@ -18,6 +22,8 @@ Current state on 2026-07-18:
 Known release work:
 
 - Wire `dist/seo-manifest.json` into landing/docs/blog metadata generation.
+- Keep Flyto2 API-key header compatibility aligned with flyto-engine before
+  downstream apps rely only on `X-Flyto2-API-Key`.
 - Keep keyword evidence in `seo/public-surfaces.json` current when new SEO
   research is done.
 - Continue translating the `code` scope; it is the main remaining coverage gap.

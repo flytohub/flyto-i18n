@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "유효하지 않은 API 키",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "유효하지 않거나 누락된 내부 키",
     "engine.error.unauthorized.unauthenticated": "인증되지 않음",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto-API-Key 헤더가 필요합니다",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto2-API-Key 헤더가 필요합니다",
     "engine.error.unprocessable": "요청을 처리할 수 없습니다",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "멱등성 키가 다른 요청 매개변수로 재사용되었습니다",
     "engine.error.unsupported_media_type": "지원되지 않는 미디어 유형",

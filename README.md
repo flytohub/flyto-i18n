@@ -1,6 +1,6 @@
 # Flyto2 i18n
 
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/website-flyto2.com-8B5CF6)](https://flyto2.com)
 [![Docs](https://img.shields.io/badge/docs-docs.flyto2.com-06B6D4)](https://docs.flyto2.com)
 
@@ -154,19 +154,19 @@ Rules:
 | en | English | Official | 99.8% |
 | zh-TW | 繁體中文 | Official | 98.6% |
 | zh-CN | 简体中文 | Official | 98.2% |
-| ja | 日本語 | Official | 93.3% |
-| id | Bahasa Indonesia | Community | 82.4% |
-| it | Italiano | Community | 82.4% |
-| pl | Polski | Community | 82.4% |
-| ko | 한국어 | Community | 81.9% |
-| fr | Français | Community | 81.9% |
-| es | Español | Community | 81.9% |
-| de | Deutsch | Community | 81.9% |
-| pt-BR | Português (Brasil) | Community | 81.9% |
-| vi | Tiếng Việt | Community | 81.9% |
-| th | ภาษาไทย | Community | 81.9% |
-| hi | हिन्दी | Community | 81.9% |
-| tr | Türkçe | Community | 81.9% |
+| ja | 日本語 | Official | 93.0% |
+| id | Bahasa Indonesia | Community | 82.1% |
+| it | Italiano | Community | 82.1% |
+| pl | Polski | Community | 82.1% |
+| ko | 한국어 | Community | 81.6% |
+| fr | Français | Community | 81.6% |
+| es | Español | Community | 81.6% |
+| de | Deutsch | Community | 81.6% |
+| pt-BR | Português (Brasil) | Community | 81.6% |
+| vi | Tiếng Việt | Community | 81.6% |
+| th | ภาษาไทย | Community | 81.6% |
+| hi | हिन्दी | Community | 81.6% |
+| tr | Türkçe | Community | 81.6% |
 
 Coverage is generated from unique merged keys in `dist/manifest.json`. Per-scope
 coverage lives in `dist/{scope}/manifest.json`; landing, app, console, data, and

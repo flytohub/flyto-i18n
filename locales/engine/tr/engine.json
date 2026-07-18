@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "geçersiz API anahtarı",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "geçersiz veya eksik dahili anahtar",
     "engine.error.unauthorized.unauthenticated": "kimlik doğrulanmamış",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto-API-Key başlığı gerekli",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "X-Flyto2-API-Key başlığı gerekli",
     "engine.error.unprocessable": "İstek işlenemiyor",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "idempotency anahtarı farklı istek parametreleriyle yeniden kullanıldı",
     "engine.error.unsupported_media_type": "Desteklenmeyen medya türü",

@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "API key ไม่ถูกต้อง",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "คีย์ภายในไม่ถูกต้องหรือไม่มี",
     "engine.error.unauthorized.unauthenticated": "ยังไม่ได้ยืนยันตัวตน",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "ต้องระบุ header X-Flyto-API-Key",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "ต้องระบุ header X-Flyto2-API-Key",
     "engine.error.unprocessable": "ไม่สามารถประมวลผลคำขอได้",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "คีย์ idempotency ถูกใช้ซ้ำกับพารามิเตอร์คำขอที่แตกต่างกัน",
     "engine.error.unsupported_media_type": "ประเภทสื่อไม่รองรับ",

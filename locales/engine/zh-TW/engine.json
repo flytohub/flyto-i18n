@@ -152,7 +152,7 @@
     "engine.error.unauthorized.invalid_api_key": "無效的 API 金鑰",
     "engine.error.unauthorized.invalid_or_missing_internal_key": "無效或缺少內部金鑰",
     "engine.error.unauthorized.unauthenticated": "未驗證身分",
-    "engine.error.unauthorized.x_flyto_api_key_header_required": "需要 X-Flyto-API-Key 標頭",
+    "engine.error.unauthorized.x_flyto_api_key_header_required": "需要 X-Flyto2-API-Key 標頭",
     "engine.error.unprocessable": "無法處理該請求",
     "engine.error.unprocessable.idempotency_key_reused_with_different_request_parameters": "冪等鍵已使用於不同的請求參數",
     "engine.error.unsupported_media_type": "不支援的媒體類型",
