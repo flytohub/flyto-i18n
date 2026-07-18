@@ -227,7 +227,7 @@
     "app.website": "Webseite",
     "app.whatYouGet": "Was Sie erhalten",
     "auth.email": "E-Mail",
-    "auth.emailPlaceholder": "you@flyto2.com",
+    "auth.emailPlaceholder": "team@flyto2.com",
     "auth.enterPassword": "Bitte geben Sie Ihr Passwort ein",
     "auth.forgotPassword.emailRequired": "Bitte geben Sie Ihre E-Mail ein",
     "auth.login": "Anmelden",

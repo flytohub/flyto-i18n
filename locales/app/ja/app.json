@@ -227,7 +227,7 @@
     "app.website": "ウェブサイト",
     "app.whatYouGet": "取得できるもの",
     "auth.email": "メールアドレス",
-    "auth.emailPlaceholder": "you@flyto2.com",
+    "auth.emailPlaceholder": "team@flyto2.com",
     "auth.enterPassword": "パスワードを入力してください",
     "auth.forgotPassword.emailRequired": "メールアドレスを入力してください",
     "auth.login": "サインイン",

@@ -30,7 +30,7 @@
             "country": "US",
             "language": "en",
             "volume": 1000,
-            "seoDifficulty": 51,
+            "seoDifficulty": 59,
             "paidDifficulty": 40,
             "cpcUsd": 42.24,
             "observedAt": "2026-07-18"
@@ -64,6 +64,72 @@
             "browser automation tool open source",
             "browser automation tool playwright"
           ]
+        },
+        {
+          "id": "n8n-alternative",
+          "primary": "n8n alternative",
+          "intent": "commercial comparison",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 1300,
+            "seoDifficulty": 34,
+            "paidDifficulty": 54,
+            "cpcUsd": 16.81,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "open source n8n alternative",
+            "free n8n alternative",
+            "n8n alternative open source",
+            "self hosted n8n alternative",
+            "n8n alternative for ai agents"
+          ]
+        },
+        {
+          "id": "attack-surface-management",
+          "primary": "attack surface management",
+          "intent": "security buyer research",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 880,
+            "seoDifficulty": 44,
+            "paidDifficulty": 25,
+            "cpcUsd": 32.48,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "attack surface management tools",
+            "external attack surface management",
+            "attack surface management solution",
+            "what is attack surface management",
+            "attack surface management vs vulnerability management"
+          ]
+        },
+        {
+          "id": "continuous-threat-exposure-management",
+          "primary": "continuous threat exposure management",
+          "intent": "security education and CTEM evaluation",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 260,
+            "seoDifficulty": 39,
+            "paidDifficulty": 32,
+            "cpcUsd": 171.87,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "continuous threat exposure management ctem",
+            "continuous threat exposure management ctem framework",
+            "what is continuous threat exposure management",
+            "continuous threat exposure management vendors",
+            "continuous threat exposure management vs vulnerability management"
+          ]
         }
       ]
     },
@@ -94,6 +160,72 @@
             "open source workflow automation platform",
             "free open source workflow automation tool",
             "best open source workflow automation tools"
+          ]
+        },
+        {
+          "id": "open-source-ai-agent-framework",
+          "primary": "open source AI agent framework",
+          "intent": "developer evaluation",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 1600,
+            "seoDifficulty": 6,
+            "paidDifficulty": 3,
+            "cpcUsd": 7.05,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "best open source AI agent framework",
+            "open source AI agent framework Python",
+            "open source AI agent framework GitHub",
+            "free open source AI agent framework",
+            "open source execution engine for AI agents"
+          ]
+        },
+        {
+          "id": "mcp-server-automation",
+          "primary": "MCP server automation",
+          "intent": "developer implementation",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 10,
+            "seoDifficulty": 34,
+            "paidDifficulty": 68,
+            "cpcUsd": 16.5,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "mcp server automation testing",
+            "mcp server automation agent",
+            "MCP native workflow engine",
+            "AI agent runtime with queue and replay",
+            "agent workflow metering and audit trail"
+          ]
+        },
+        {
+          "id": "no-code-browser-automation",
+          "primary": "no code browser automation",
+          "intent": "technical implementation",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 20,
+            "seoDifficulty": 23,
+            "paidDifficulty": 56,
+            "cpcUsd": 16.13,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "no code browser automation tool",
+            "no code browser automation free",
+            "no code browser automation tools",
+            "free no code browser automation",
+            "browser automation tool open source"
           ]
         },
         {
@@ -147,6 +279,72 @@
             "workflow automation for technical teams",
             "workflow automation with ai agents",
             "what is ai workflow automation"
+          ]
+        },
+        {
+          "id": "n8n-alternative-content",
+          "primary": "n8n alternative",
+          "intent": "comparison education",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 1300,
+            "seoDifficulty": 34,
+            "paidDifficulty": 54,
+            "cpcUsd": 16.81,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "open source n8n alternative",
+            "free n8n alternative",
+            "n8n alternative open source",
+            "self hosted n8n alternative",
+            "n8n alternative for ai agents"
+          ]
+        },
+        {
+          "id": "ctem-education",
+          "primary": "continuous threat exposure management",
+          "intent": "educational",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 260,
+            "seoDifficulty": 39,
+            "paidDifficulty": 32,
+            "cpcUsd": 171.87,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "continuous threat exposure management ctem",
+            "continuous threat exposure management ctem framework",
+            "what is continuous threat exposure management",
+            "continuous threat exposure management open source",
+            "continuous threat exposure management tools"
+          ]
+        },
+        {
+          "id": "no-code-browser-automation-content",
+          "primary": "no code browser automation",
+          "intent": "tutorial discovery",
+          "evidence": {
+            "source": "Ubersuggest",
+            "country": "US",
+            "language": "en",
+            "volume": 20,
+            "seoDifficulty": 23,
+            "paidDifficulty": 56,
+            "cpcUsd": 16.13,
+            "observedAt": "2026-07-18"
+          },
+          "longTail": [
+            "no code browser automation tool",
+            "no code browser automation free",
+            "no code browser automation tools",
+            "free no code browser automation",
+            "web browser automation tool"
           ]
         },
         {

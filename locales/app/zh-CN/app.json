@@ -208,7 +208,7 @@
     "app.schedules": "调度",
     "app.history": "历史纪录",
     "auth.email": "电子邮件",
-    "auth.emailPlaceholder": "you@flyto2.com",
+    "auth.emailPlaceholder": "team@flyto2.com",
     "auth.password": "密码",
     "auth.passwordPlaceholder": "输入密码",
     "auth.enterPassword": "请输入密码",

@@ -227,7 +227,7 @@
     "app.website": "웹사이트",
     "app.whatYouGet": "제공 기능",
     "auth.email": "이메일",
-    "auth.emailPlaceholder": "you@flyto2.com",
+    "auth.emailPlaceholder": "team@flyto2.com",
     "auth.enterPassword": "비밀번호를 입력해 주세요",
     "auth.forgotPassword.emailRequired": "이메일을 입력해 주세요",
     "auth.login": "로그인",
