@@ -1,6 +1,6 @@
 # State
 
-Current state on 2026-07-18:
+Current state on 2026-07-21:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Product lines: cloud_apps_automation, security, data, zero_person_agent,
@@ -18,6 +18,11 @@ Current state on 2026-07-18:
   manifest percentages no longer exceed 100%.
 - `scripts/coverage.py` and `scripts/add-locale.py` now include the `engine`
   scope through the shared contract.
+- The Flyto2 Warroom CE deterministic product loop has source keys in every
+  supported code locale, generated `dist/code` artifacts, and synchronized
+  `flyto-code/public/i18n/code` bundles.
+- `code.communityLoop.*` is a critical non-empty namespace for Traditional and
+  Simplified Chinese validation.
 
 Known release work:
 

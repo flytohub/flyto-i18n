@@ -4,6 +4,12 @@
 
 ### Added
 
+- Added the Flyto2 Warroom CE deterministic product-loop copy for all supported
+  `flyto-code` locale catalogs, including loading, error, evidence, surface,
+  metric, safe-mode, and Enterprise-boundary states.
+- Added validation coverage that prevents the critical
+  `code.communityLoop.*` namespace from regressing to empty Traditional or
+  Simplified Chinese values.
 - Added package metadata, backlink fields, and SEO-focused keywords so the
   i18n source is clearer on GitHub and package indexes.
 - Added `scripts/i18n_contract.py` as the shared locale/project metadata source
@@ -22,6 +28,8 @@
 
 ### Changed
 
+- Rebuilt distribution bundles and synchronized the CE product-loop catalog to
+  the consuming `flyto-code` package.
 - Updated public locale values to use the Flyto2 brand and the preferred
   `X-Flyto2-API-Key` header text.
 - Corrected the README license badge to match the MIT license file and refreshed

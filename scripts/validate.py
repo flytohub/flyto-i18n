@@ -31,7 +31,7 @@ SCHEMA_DIR = PROJECT_ROOT / 'schema'
 STRICT_PLACEHOLDER_LOCALES = {'zh-TW', 'zh-CN'}
 REPLACEMENT_PLACEHOLDER_RE = re.compile(r'\?{3,}')
 CRITICAL_NON_EMPTY_PREFIXES = {
-    'code': ('code.vaReport.',),
+    'code': ('code.vaReport.', 'code.communityLoop.'),
 }
 
 
