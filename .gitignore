@@ -5,6 +5,9 @@ build/
 # Local Flyto2 code index
 .flyto-index/
 
+# Ephemeral CI source checkouts
+.sync-source/
+
 # Python
 __pycache__/
 *.py[cod]

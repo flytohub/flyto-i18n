@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: flytohub/flyto-cloud
-          path: flyto-cloud
+          path: .sync-source/flyto-cloud
           ref: ${{ github.event.client_payload.ref || inputs.cloud_ref || 'main' }}
           token: ${{ secrets.REPO_ACCESS_TOKEN || secrets.FLYTO_CLOUD_TOKEN }}
 
@@ -39,7 +39,7 @@ jobs:
 
       - name: Sync keys from cloud
         run: |
-          python scripts/sync-from-cloud.py --cloud-path ./flyto-cloud
+          python scripts/sync-from-cloud.py --cloud-path ./.sync-source/flyto-cloud
 
       - name: Sync all locales with English
         run: |

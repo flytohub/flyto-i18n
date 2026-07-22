@@ -42,6 +42,8 @@
 
 - Updated Cloud-sync authentication to prefer the existing repository-wide
   cross-repository secret, with the legacy Cloud-specific secret as fallback.
+- Isolated and ignored the workflow's private Cloud checkout so generated
+  localization PRs contain locale sources and distribution artifacts only.
 - Filled the previously empty light and dark appearance labels in non-English
   code catalogs and rebuilt the tracked `dist/code` plus aggregate bundles.
 - Rebuilt and synchronized `dist/code` bundles for first-run CE onboarding.

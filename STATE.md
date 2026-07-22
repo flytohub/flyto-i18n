@@ -30,6 +30,8 @@ Current state on 2026-07-22:
 - The Cloud synchronization workflow prefers the repository-wide cross-repo
   token and retains the older Cloud-specific token only as a compatibility
   fallback; secret values are never stored in the repository.
+- The private Cloud checkout is isolated under ignored `.sync-source/`, so a
+  generated localization PR cannot stage the nested repository as a gitlink.
 - `code.communityLoop.*` is a critical non-empty namespace for Traditional and
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
