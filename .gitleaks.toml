@@ -1,0 +1,14 @@
+[extend]
+useDefault = true
+
+# Generated locale JSON contains a human-language translation for this exact
+# header-requirement key. Gitleaks' generic-api-key rule treats some translated
+# sentences as high-entropy secrets even though they are static UI copy.
+[[rules]]
+id = "generic-api-key"
+
+  [rules.allowlist]
+  regexTarget = "match"
+  regexes = [
+    '''x_flyto_api_key_header_required''',
+  ]
