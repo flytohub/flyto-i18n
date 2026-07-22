@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "कोई विवरण नहीं",
     "common.actionCannotBeUndone": "यह क्रिया पूर्ववत नहीं की जा सकती।",
     "common.actions": "कार्रवाई",
     "common.activeFilters": "सक्रिय फ़िल्टर",

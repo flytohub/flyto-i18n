@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "Brak opisu",
     "common.actionCannotBeUndone": "Tej operacji nie mozna cofnac.",
     "common.actions": "Akcje",
     "common.activeFilters": "Aktywne filtry",

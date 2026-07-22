@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "No description",
     "common.actionCannotBeUndone": "This action cannot be undone.",
     "common.actions": "Actions",
     "common.activeFilters": "Active filters",

@@ -46,6 +46,10 @@ Flyto2 Cloud, Code, Console, Data, Engine, App, and Landing consume generated
 `dist/seo-manifest.json` for shared locale, hreflang, sitemap, Open Graph
 locale, and long-tail keyword contract data.
 
+Connected Flyto apps load translations from CDN at runtime. Flyto2 Flow is the
+offline exception: CI or the Docker build syncs `dist/flow` and local flag SVGs
+into the application image, so it performs no runtime CDN request.
+
 ## Quick Start: Fix a Translation
 
 **No setup required. You can do this entirely on GitHub.**
@@ -276,6 +280,9 @@ python scripts/sync-from-core.py --core-path ../flyto-core --dry-run
 
 # Sync keys from flyto-cloud UI ($t() calls)
 python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud --dry-run
+
+# Regenerate and copy the offline Flyto2 Flow scope
+python scripts/sync-to-projects.py --project flow
 ```
 
 Both sync commands preserve scanner-omitted keys by default. The optional
@@ -317,7 +324,7 @@ npm run verify
 ## API Endpoints
 
 ```
-# Translations (scope = cloud | code | landing | app | console | data | engine)
+# Translations (scope = flow | cloud | code | landing | app | console | data | engine)
 https://raw.githubusercontent.com/flytohub/flyto-i18n/main/dist/{scope}/{locale}.json
 
 # Manifest (locale metadata + completion %)

@@ -26,3 +26,15 @@ behavior explicit.
 
 Update this file when package exports, generated dist shape, SEO contract
 shape, deployment mode, provider boundaries, or cross-repo dependencies change.
+
+## Flyto2 Flow boundary
+
+`dist/flow` is the static localization input for the open-source Flyto2 Flow
+parent. It contains only shared/local UI groups plus module translations.
+Hosted account, collaboration, marketplace, dashboard, settings, subscription,
+and remote-agent groups are excluded.
+
+The Flow Docker build copies this generated scope and its flag SVG files into
+the frontend image. Flow never loads translations or flags from a CDN at
+runtime. `scripts/sync-to-projects.py --project flow` is the supported
+sync path; hand-maintained translation copies in Flow are not allowed.

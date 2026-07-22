@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "설명 없음",
     "common.actionCannotBeUndone": "이 작업은 취소할 수 없습니다.",
     "common.actions": "작업",
     "common.activeFilters": "활성 필터",

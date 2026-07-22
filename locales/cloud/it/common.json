@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "Nessuna descrizione",
     "common.actionCannotBeUndone": "Questa azione non puo essere annullata.",
     "common.actions": "Azioni",
     "common.activeFilters": "Filtri attivi",

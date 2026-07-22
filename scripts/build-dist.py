@@ -45,6 +45,43 @@ REPOSITORY_MANIFEST = PROJECT_ROOT / 'manifest.json'
 # Each scope entry: list of (project_dir, file_filter_or_None, key_prefix_to_restore)
 # key_prefix_to_restore: the original prefix added back to translation keys for backward compat
 SCOPES = {
+    # Shared UI used by the self-hosted Flyto2 Flow parent. Hosted-only
+    # surfaces stay out of this scope; flyto-cloud layers those on top through
+    # its own edition source while reusing the same base UI translations.
+    'flow': [
+        ('cloud', [
+            'accessibility.json', 'actionLabel.json', 'aiAgent.json',
+            'alerts.json', 'alt.json', 'aria.json', 'autoForm.json',
+            'backoffType.json', 'batch.json', 'binary.json', 'bindings.json',
+            'breakpoint.json', 'browser.json', 'categories.json',
+            'checkpoint.json', 'checkpointTooltip.json', 'code.json',
+            'colorPicker.json', 'common.json', 'completionEffect.json',
+            'component.json', 'confirmDialog.json', 'container.json',
+            'coreUpdate.json', 'createModal.json', 'credentials.json',
+            'cronPreset.json', 'debug.json', 'debugTab.json', 'error.json',
+            'errors.json', 'errorStrategy.json', 'errorWorkflow.json',
+            'execution.json', 'executionHistory.json',
+            'executionModal.json', 'expression.json', 'flow.json', 'footer.json',
+            'form.json', 'gridLayout.json', 'http.json',
+            'iconPicker.json', 'lineage.json', 'llmChain.json', 'message.json',
+            'metrics.json', 'moduleCard.json', 'moduleLab.json',
+            'modules.json', 'myTemplates.json', 'node.json', 'nodeOutput.json',
+            'notFound.json', 'observability.json', 'offline.json', 'outputs.json',
+            'pluginStatus.json', 'pluginType.json',
+            'portLabel.json', 'preview.json', 'recorder.json', 'replayMode.json',
+            'scheduler.json', 'simpleToolView.json',
+            'stateMachine.json', 'status.json', 'subflow.json', 'switchCase.json',
+            'template.json', 'templateBuilder.json', 'templateCard.json',
+            'templateCategory.json', 'templateFolders.json', 'templateForm.json',
+            'templateToolbar.json', 'terminal.json', 'testStep.json', 'time.json',
+            'traces.json', 'triggers.json', 'ui.json', 'validation.json',
+            'valueSource.json', 'variables.json', 'variableSelector.json',
+            'vectorStore.json', 'versionDiff.json', 'versions.json',
+            'workflow.json', 'workflowCanvas.json', 'workflowNode.json',
+        ], 'cloud'),
+        ('modules', None, 'modules'),
+        ('shared', None, 'common'),
+    ],
     'cloud': [
         ('cloud', None, 'cloud'),
         ('modules', None, 'modules'),

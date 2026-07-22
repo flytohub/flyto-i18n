@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "説明なし",
     "common.actionCannotBeUndone": "この操作は取り消せません。",
     "common.actions": "操作",
     "common.activeFilters": "適用中のフィルター",

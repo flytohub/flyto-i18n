@@ -6,6 +6,7 @@ When keys are added or DELETED from flyto-i18n, this script pushes those
 changes to each project's local bundled/copied i18n files.
 
 Projects handled:
+  - flyto-flow:   src/ui/web/frontend/src/i18n/bundled/{locale}.json  (scope: flow)
   - flyto-cloud:  src/ui/web/frontend/src/i18n/bundled/{locale}.json  (scope: cloud)
   - flyto-code:   public/i18n/{scope}/{locale}.json                   (all scopes)
   - flyto-app:    assets/i18n/{locale}.json                           (via build-app.py)
@@ -31,6 +32,17 @@ PARENT_DIR = PROJECT_ROOT.parent
 # Each entry: (project_dir, target_subpath, scope, locales_filter)
 # scope=None means copy all scopes; locales_filter=None means all locales
 SYNC_TARGETS = {
+    'flow': {
+        'repo': 'flyto-flow',
+        'targets': [
+            {
+                'scope': 'flow',
+                'dest': 'src/ui/web/frontend/src/i18n/bundled',
+                'locales': None,
+                'mode': 'single-scope-with-manifest',
+            },
+        ],
+    },
     'cloud': {
         'repo': 'flyto-cloud',
         'targets': [
@@ -334,7 +346,7 @@ def main():
     )
     parser.add_argument(
         '--project',
-        choices=['cloud', 'code', 'app'],
+        choices=['flow', 'cloud', 'code', 'app'],
         help='Only sync a specific project'
     )
 

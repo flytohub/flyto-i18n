@@ -16,6 +16,7 @@
     "templateFolders.emptyFolder": "This folder is empty",
     "templateFolders.folderName": "Folder Name",
     "templateFolders.folders": "Folders",
+    "templateFolders.allTemplates": "All templates",
     "templateFolders.installed": "Installed",
     "templateFolders.manageFolders": "Manage Folders",
     "templateFolders.maxDepth": "Maximum folder depth reached",

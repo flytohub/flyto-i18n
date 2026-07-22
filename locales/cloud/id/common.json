@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "Tidak ada deskripsi",
     "common.actionCannotBeUndone": "Tindakan ini tidak dapat dibatalkan.",
     "common.actions": "Tindakan",
     "common.activeFilters": "Filter aktif",

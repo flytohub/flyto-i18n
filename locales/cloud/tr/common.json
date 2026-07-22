@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "Açıklama yok",
     "common.actionCannotBeUndone": "Bu işlem geri alınamaz.",
     "common.actions": "İşlemler",
     "common.activeFilters": "Aktif filtreler",

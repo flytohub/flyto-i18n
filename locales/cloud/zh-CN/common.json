@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "暂无描述",
     "common.actionCannotBeUndone": "此操作无法复原。",
     "common.actions": "操作",
     "common.activeFilters": "已套用的筛选",

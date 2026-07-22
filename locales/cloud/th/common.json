@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "ไม่มีคำอธิบาย",
     "common.actionCannotBeUndone": "การดำเนินการนี้ไม่สามารถเลิกทำได้",
     "common.actions": "การดำเนินการ",
     "common.activeFilters": "ตัวกรองที่ใช้งาน",

@@ -89,6 +89,17 @@ class SyncToProjectsTests(unittest.TestCase):
             '{"version": "new"}\n',
         )
 
+    def test_flow_target_uses_static_flow_scope_and_manifest(self):
+        target = self.module.SYNC_TARGETS["flow"]
+
+        self.assertEqual(target["repo"], "flyto-flow")
+        self.assertEqual(target["targets"], [{
+            "scope": "flow",
+            "dest": "src/ui/web/frontend/src/i18n/bundled",
+            "locales": None,
+            "mode": "single-scope-with-manifest",
+        }])
+
 
 if __name__ == "__main__":
     unittest.main()

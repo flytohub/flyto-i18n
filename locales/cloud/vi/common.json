@@ -4,6 +4,7 @@
   "category": "cloud.common",
   "version": "1.0.0",
   "translations": {
+    "common.noDescription": "Không có mô tả",
     "common.actionCannotBeUndone": "Hành động này không thể hoàn tác.",
     "common.actions": "Hành động",
     "common.activeFilters": "Bộ lọc đang hoạt động",
