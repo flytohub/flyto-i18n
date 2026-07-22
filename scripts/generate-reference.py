@@ -116,7 +116,8 @@ def render_reference(declarations: list[Declaration]) -> str:
     ]
     for item in declarations:
         lines.append(
-            f"| {item.kind} | `{item.symbol}` | `{item.source}:{item.line}` | {item.summary} |"
+            f"| {item.kind} | `{item.symbol}` | "
+            f"[`{item.source}:{item.line}`](../../{item.source}#L{item.line}) | {item.summary} |"
         )
     return "\n".join(lines) + "\n"
 

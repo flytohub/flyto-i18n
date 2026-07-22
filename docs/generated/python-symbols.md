@@ -8,195 +8,195 @@ Declarations: **192**
 
 | Kind | Symbol | Source | Contract summary |
 | --- | --- | --- | --- |
-| function | `flatten` | `scripts/add-cloud-keys.py:31` | Flatten nested translation values into dotted keys. |
-| function | `extract_keys` | `scripts/add-cloud-keys.py:43` | Extract all translation keys from flyto-cloud frontend. |
-| function | `key_to_english` | `scripts/add-cloud-keys.py:67` | Convert key name to readable English. |
-| function | `main` | `scripts/add-cloud-keys.py:76` | Scan Flyto2 Cloud sources and append missing English keys. |
-| function | `flatten` | `scripts/add-code-keys.py:38` | Flatten nested dict to dot-separated keys. |
-| function | `extract_keys_from_code` | `scripts/add-code-keys.py:50` | Extract all t()/tOr() calls from flyto-code source. |
-| function | `key_to_english` | `scripts/add-code-keys.py:93` | Convert a key name to English text. |
-| function | `get_existing_keys` | `scripts/add-code-keys.py:108` | Get keys already in dist. |
-| function | `main` | `scripts/add-code-keys.py:121` | Scan Flyto2 Code sources and append reviewable missing keys. |
-| function | `get_locales` | `scripts/add-locale.py:31` | Get available locales by scanning project directories. |
-| function | `add_locale` | `scripts/add-locale.py:43` | Add a new locale based on English. |
-| function | `count_locale_translations` | `scripts/add-locale.py:93` | Count translated and total keys for a locale. |
-| function | `locale_status` | `scripts/add-locale.py:112` | Return display status and percent complete for a locale. |
-| function | `list_locales` | `scripts/add-locale.py:122` | List all available locales. |
-| function | `main` | `scripts/add-locale.py:138` | Parse CLI arguments and create or list locale source trees. |
-| function | `update_locale` | `scripts/add_upstream_keys.py:188` | Returns (added, already_present). |
-| function | `main` | `scripts/add_upstream_keys.py:215` | Apply the idempotent upstream-key migration to supported locales. |
-| function | `placeholder_names` | `scripts/audit-placeholders.py:25` | Extract named single- or double-brace placeholders from a value. |
-| function | `load_translations` | `scripts/audit-placeholders.py:30` | Merge one project's locale catalogs for placeholder comparison. |
-| function | `audit_placeholders` | `scripts/audit-placeholders.py:42` | Return non-empty translations whose placeholder set differs from English. |
-| function | `main` | `scripts/audit-placeholders.py:71` | Report placeholder drift and optionally fail for remediation work. |
-| function | `build_app_locale` | `scripts/build-app.py:31` | Build flat merged translations for a locale. |
-| function | `main` | `scripts/build-app.py:58` | Build supported Flutter locale bundles in the sibling app checkout. |
-| function | `get_locales` | `scripts/build-dist.py:118` | Discover available locales from the cloud project (primary). |
-| function | `flat_to_nested` | `scripts/build-dist.py:126` | Convert flat keys to nested object for vue-i18n compatibility. |
-| function | `collect_files` | `scripts/build-dist.py:177` | Get translation files for a locale from a specific project directory. |
-| function | `load_translations` | `scripts/build-dist.py:197` | Load and merge translations from files, restoring the original key prefix. |
-| function | `build_locale` | `scripts/build-dist.py:215` | Build merged translations for a locale. |
-| function | `build_manifest` | `scripts/build-dist.py:269` | Build manifest with locale metadata. |
-| function | `count_translated` | `scripts/build-dist.py:306` | Count non-empty unique translations for a locale after merge semantics. |
-| function | `sync_repository_manifest` | `scripts/build-dist.py:328` | Synchronize root locale coverage from the aggregate distribution manifest. |
-| function | `main` | `scripts/build-dist.py:347` | Build all deterministic translation bundles and manifests. |
-| function | `load_json` | `scripts/build-seo-manifest.py:40` | Load a JSON file with UTF-8 encoding. |
-| function | `discover_locales` | `scripts/build-seo-manifest.py:46` | Discover public locales from locales/cloud, the broadest shipped scope. |
-| function | `stable_hash` | `scripts/build-seo-manifest.py:54` | Create a stable content hash for generated SEO manifests. |
-| function | `locale_prefix` | `scripts/build-seo-manifest.py:60` | Return the public path prefix for a locale. |
-| function | `build_alternates` | `scripts/build-seo-manifest.py:67` | Build URL templates for localized alternates. |
-| function | `validate_contract` | `scripts/build-seo-manifest.py:77` | Return contract validation errors. |
-| function | `build_seo_manifest` | `scripts/build-seo-manifest.py:114` | Build the distributable SEO manifest. |
-| function | `render_json` | `scripts/build-seo-manifest.py:151` | Render JSON exactly as tracked in dist. |
-| function | `main` | `scripts/build-seo-manifest.py:156` | Build or freshness-check the multilingual SEO manifest. |
-| function | `get_locales` | `scripts/build.py:30` | Get available locales by scanning project directories. |
-| function | `merge_locale_files` | `scripts/build.py:42` | Merge all translation files for a locale into a single dict. |
-| function | `build_locale` | `scripts/build.py:63` | Build a single merged locale file. |
-| function | `get_manifest_version` | `scripts/build.py:87` | Get version from manifest.json. |
-| function | `main` | `scripts/build.py:97` | Run the legacy aggregate locale builder from CLI arguments. |
-| function | `collect` | `scripts/check_coverage.py:15` | Collect namespaced translation values for one locale. |
-| function | `main` | `scripts/check_coverage.py:33` | Report legacy translation coverage and enforce an optional threshold. |
-| function | `apply_vocab_fixes` | `scripts/convert-tw-to-cn.py:48` | Apply post-OpenCC vocabulary replacements. |
-| function | `convert_value` | `scripts/convert-tw-to-cn.py:55` | Recursively convert string values. |
-| function | `main` | `scripts/convert-tw-to-cn.py:66` | Convert selected zh-TW catalogs to reviewed zh-CN source files. |
-| function | `get_locales` | `scripts/coverage.py:30` | Get available locales by scanning project directories. |
-| function | `load_locale_keys` | `scripts/coverage.py:42` | Load all keys for a locale, grouped by category. |
-| function | `calculate_coverage` | `scripts/coverage.py:65` | Calculate coverage statistics. |
-| function | `print_coverage_report` | `scripts/coverage.py:98` | Print human-readable coverage report. |
-| function | `main` | `scripts/coverage.py:123` | Render locale coverage as a table or machine-readable JSON. |
-| class | `Declaration` | `scripts/generate-reference.py:18` | Describe one documented Python class, function, or method. |
-| function | `source_files` | `scripts/generate-reference.py:28` | Return every maintained, historical, and test Python source file. |
-| function | `declaration_kind` | `scripts/generate-reference.py:38` | Classify an AST declaration for the generated table. |
-| function | `first_sentence` | `scripts/generate-reference.py:49` | Collapse a docstring into a Markdown-table-safe summary. |
-| function | `walk_declarations` | `scripts/generate-reference.py:58` | Recursively collect declarations while preserving qualified names. |
-| function | `collect_declarations` | `scripts/generate-reference.py:94` | Parse every source file and return sorted documented declarations. |
-| function | `render_reference` | `scripts/generate-reference.py:103` | Render a deterministic Markdown table for all Python declarations. |
-| function | `main` | `scripts/generate-reference.py:124` | Write the reference or fail when the tracked output is stale. |
-| function | `language_meta` | `scripts/i18n_contract.py:283` | Return a complete metadata record for a locale. |
-| function | `locale_sort_key` | `scripts/i18n_contract.py:301` | Sort known locales by Flyto2 launch priority, then unknown locales by code. |
-| function | `build_locale_meta` | `scripts/i18n_contract.py:308` | Build the CDN locale metadata document consumed by public surfaces. |
-| function | `parse_js_object` | `scripts/import-overrides.py:23` | Parse JavaScript object from local-overrides.js content. |
-| function | `flatten_dict` | `scripts/import-overrides.py:80` | Flatten nested dict to dot-separated keys. |
-| function | `update_locale_files` | `scripts/import-overrides.py:92` | Update locale files with translations. |
-| function | `main` | `scripts/import-overrides.py:158` | Import selected Cloud override values into locale source catalogs. |
-| function | `key_to_english` | `scripts/one-off/_fill_all_gaps.py:15` | Generate English text from a translation key name. |
-| function | `get_en_value` | `scripts/one-off/_fill_all_gaps.py:27` | Get English value for a key from the en locale file. |
-| function | `load_en_cache` | `scripts/one-off/_fill_all_gaps.py:44` | Load and cache non-empty English values for one historical scope. |
-| function | `fill_scope` | `scripts/one-off/_fill_all_gaps.py:60` | Fill empty values in one scope using the legacy English fallback rule. |
-| function | `main` | `scripts/one-off/_fill_all_gaps.py:109` | Run the historical all-scope gap fill and report remaining empties. |
-| function | `key_to_english` | `scripts/one-off/_fill_empty_cloud_en.py:9` | Generate English text from a key name. |
-| function | `translate_value` | `scripts/one-off/_translate_remaining.py:87` | Translate an English value to the target locale. |
-| function | `translate_to_zhtw` | `scripts/one-off/_translate_remaining.py:96` | Translate English text to zh-TW using word map + patterns. |
-| function | `process_locale` | `scripts/one-off/_translate_remaining.py:143` | Find and translate all English-fallback values for a locale. |
-| function | `main` | `scripts/one-off/fill-ja-code-gaps.py:588` | Append the fixed historical Japanese translation dictionary. |
-| function | `fix` | `scripts/one-off/fill-zh-cn-gaps.py:29` | Apply the historical Traditional-to-Simplified vocabulary overrides. |
-| function | `fill` | `scripts/one-off/fill-zh-cn-gaps.py:36` | Append missing zh-CN values derived from the selected zh-TW catalog. |
-| function | `split_translations` | `scripts/split-cloud-translations.py:86` | Split translation data into groups. |
-| function | `main` | `scripts/split-cloud-translations.py:108` | Split supported Cloud source bundles into category catalogs. |
-| function | `find_source_files` | `scripts/sync-from-cloud.py:41` | Find all Vue and JS files in the frontend source. |
-| function | `extract_keys_from_file` | `scripts/sync-from-cloud.py:55` | Extract all translation keys from a single file. |
-| function | `extract_all_keys` | `scripts/sync-from-cloud.py:77` | Extract all translation keys grouped by category. |
-| function | `load_existing_translations` | `scripts/sync-from-cloud.py:104` | Load existing translations for a category. |
-| function | `generate_locale_file` | `scripts/sync-from-cloud.py:120` | Generate one category while preserving unscanned keys by default. |
-| function | `sync_from_cloud` | `scripts/sync-from-cloud.py:176` | Synchronize scanned Cloud keys with explicit opt-in deletion. |
-| function | `main` | `scripts/sync-from-cloud.py:240` | Parse CLI options and synchronize keys from a Cloud checkout. |
-| function | `extract_keys_from_file` | `scripts/sync-from-core.py:41` | Extract i18n keys from a Python file. |
-| function | `extract_params_schema_keys` | `scripts/sync-from-core.py:108` | Extract i18n keys from params_schema definitions. |
-| function | `is_enum_like_array` | `scripts/sync-from-core.py:171` | Check if array values look like enum options vs example data. |
-| function | `extract_params_schema_dict` | `scripts/sync-from-core.py:198` | Try to extract params_schema as a Python dict. |
-| function | `format_label` | `scripts/sync-from-core.py:228` | Convert snake_case or kebab-case to Title Case. |
-| function | `scan_core_modules` | `scripts/sync-from-core.py:237` | Scan all modules in flyto-core and extract keys. |
-| function | `group_by_category` | `scripts/sync-from-core.py:262` | Group keys by category for separate files. |
-| function | `load_existing_keys` | `scripts/sync-from-core.py:285` | Load existing English values from module and shared locale files. |
-| function | `write_locale_files` | `scripts/sync-from-core.py:314` | Write grouped keys while preserving unscanned values by default. |
-| function | `main` | `scripts/sync-from-core.py:419` | Parse CLI options and synchronize module keys from a Core checkout. |
-| function | `get_locales` | `scripts/sync-locales.py:32` | Get available locales by scanning project directories. |
-| function | `load_locale_keys` | `scripts/sync-locales.py:44` | Load all keys from a locale directory, grouped by file. |
-| function | `sync_locale_in_project` | `scripts/sync-locales.py:58` | Sync a locale with English base within a specific project. |
-| function | `main` | `scripts/sync-locales.py:127` | Synchronize selected locale catalogs against the English baseline. |
-| function | `new_stats` | `scripts/sync-to-projects.py:93` | Create a sync stats accumulator. |
-| function | `merge_stats` | `scripts/sync-to-projects.py:98` | Add per-target stats into a project total. |
-| function | `get_dist_locales` | `scripts/sync-to-projects.py:104` | Get available locales for a scope from dist/. |
-| function | `get_target_locales` | `scripts/sync-to-projects.py:115` | Resolve the locale list to sync for a scope. |
-| function | `sync_locale_file` | `scripts/sync-to-projects.py:123` | Sync one locale file and return its stats delta. |
-| function | `is_deletable_locale_file` | `scripts/sync-to-projects.py:149` | Return true when a target JSON file is a stale locale file. |
-| function | `delete_stale_locale_files` | `scripts/sync-to-projects.py:159` | Delete target locale JSON files that no longer exist in dist. |
-| function | `sync_manifest` | `scripts/sync-to-projects.py:183` | Sync manifest.json if it exists. |
-| function | `sync_single_scope` | `scripts/sync-to-projects.py:204` | Sync a single scope's dist files to a destination directory. |
-| function | `run_build_app` | `scripts/sync-to-projects.py:247` | Run build-app.py for flyto-app targets. |
-| function | `sync_code_manifests` | `scripts/sync-to-projects.py:265` | Sync dist manifest files to flyto-code public i18n directories. |
-| function | `print_summary` | `scripts/sync-to-projects.py:283` | Print a project sync summary. |
-| function | `sync_project` | `scripts/sync-to-projects.py:300` | Sync all targets for a project. |
-| function | `main` | `scripts/sync-to-projects.py:337` | Copy built bundles into selected sibling consumer repositories. |
-| function | `get_system_prompt` | `scripts/translate-with-openai.py:278` | Generate system prompt for translation. |
-| function | `translate_batch` | `scripts/translate-with-openai.py:326` | Translate a batch of texts using OpenAI. |
-| function | `_is_untranslated` | `scripts/translate-with-openai.py:363` | Check if a translation is just a copy of the English value. |
-| function | `translate_file` | `scripts/translate-with-openai.py:377` | Translate a single file. |
-| function | `main` | `scripts/translate-with-openai.py:445` | Translate selected public strings as drafts using the OpenAI API. |
-| function | `load_schema` | `scripts/validate.py:40` | Load and validate the Draft-07 locale source schema. |
-| function | `load_manifest_schema` | `scripts/validate.py:49` | Load and validate the repository manifest schema. |
-| function | `schema_errors` | `scripts/validate.py:58` | Convert sorted JSON Schema violations into validation findings. |
-| function | `get_locales` | `scripts/validate.py:73` | Get available locales by scanning project directories. |
-| function | `load_base_keys` | `scripts/validate.py:86` | Load all keys from English base locale across all projects. |
-| function | `validate_file` | `scripts/validate.py:101` | Validate one locale catalog against schema and business rules. |
-| function | `validate_locale` | `scripts/validate.py:172` | Validate all files for a locale across project directories. |
-| function | `count_files` | `scripts/validate.py:188` | Count translation files for a locale. |
-| function | `main` | `scripts/validate.py:199` | Validate selected catalogs and return a strict-mode exit status. |
-| function | `load_add_locale_module` | `tests/test_add_locale.py:13` | Load the hyphenated add-locale script as an isolated test module. |
-| class | `AddLocaleTests` | `tests/test_add_locale.py:22` | Verify locale creation statistics without touching repository catalogs. |
-| method | `AddLocaleTests.setUp` | `tests/test_add_locale.py:25` | Redirect locale roots to a temporary two-project fixture. |
-| method | `AddLocaleTests.tearDown` | `tests/test_add_locale.py:33` | Remove the temporary catalog fixture. |
-| method | `AddLocaleTests.write_locale_file` | `tests/test_add_locale.py:37` | Write one minimal locale fixture under the temporary root. |
-| method | `AddLocaleTests.test_count_locale_translations_across_projects` | `tests/test_add_locale.py:46` | Count translated and total keys across all configured projects. |
-| method | `AddLocaleTests.test_locale_status_labels_completion_states` | `tests/test_add_locale.py:56` | Map empty, partial, and complete counts to stable status labels. |
-| function | `load_audit_module` | `tests/test_audit_placeholders.py:11` | Load the hyphenated placeholder auditor as an isolated module. |
-| class | `PlaceholderAuditTests` | `tests/test_audit_placeholders.py:20` | Verify placeholder extraction across supported brace styles. |
-| method | `PlaceholderAuditTests.setUp` | `tests/test_audit_placeholders.py:23` | Load a fresh placeholder-audit module for each test. |
-| method | `PlaceholderAuditTests.test_extracts_single_and_double_brace_names` | `tests/test_audit_placeholders.py:27` | Normalize single- and double-brace placeholders to name sets. |
-| method | `PlaceholderAuditTests.test_ignores_plain_braces_without_identifiers` | `tests/test_audit_placeholders.py:35` | Ignore incomplete or non-identifier brace content. |
-| function | `load_build_module` | `tests/test_build_dist.py:13` | Load the hyphenated distribution builder as an isolated module. |
-| class | `RepositoryManifestSyncTests` | `tests/test_build_dist.py:22` | Verify root coverage follows aggregate distribution evidence. |
-| method | `RepositoryManifestSyncTests.setUp` | `tests/test_build_dist.py:25` | Load a fresh builder module for each test. |
-| method | `RepositoryManifestSyncTests.test_updates_known_locale_coverage_and_preserves_metadata` | `tests/test_build_dist.py:29` | Update derived coverage without replacing hand-maintained fields. |
-| method | `RepositoryManifestSyncTests.test_flow_scope_includes_mcp_studio_catalog` | `tests/test_build_dist.py:57` | Keep the shared MCP surface available to the self-hosted UI. |
-| function | `load_seo_module` | `tests/test_build_seo_manifest.py:11` | Load the hyphenated SEO builder as an isolated test module. |
-| class | `BuildSeoManifestTests` | `tests/test_build_seo_manifest.py:20` | Verify SEO surface expansion and source-contract rejection paths. |
-| method | `BuildSeoManifestTests.setUp` | `tests/test_build_seo_manifest.py:23` | Create a valid three-surface SEO source contract. |
-| method | `BuildSeoManifestTests.surface` | `tests/test_build_seo_manifest.py:48` | Build one valid public-surface fixture for an origin. |
-| method | `BuildSeoManifestTests.test_builds_three_public_surfaces_with_x_default` | `tests/test_build_seo_manifest.py:72` | Generate locale alternates, x-default, and Open Graph metadata. |
-| method | `BuildSeoManifestTests.test_rejects_missing_public_surface` | `tests/test_build_seo_manifest.py:84` | Reject a source contract missing a required public surface. |
-| method | `BuildSeoManifestTests.test_rejects_keyword_cluster_without_evidence_source` | `tests/test_build_seo_manifest.py:93` | Reject keyword research without a named evidence source. |
-| class | `SharedProjectContractTests` | `tests/test_project_contract.py:11` | Prevent supported project scope lists from diverging across tools. |
-| method | `SharedProjectContractTests.test_only_i18n_contract_assigns_project_dirs` | `tests/test_project_contract.py:14` | Require operational scripts to import the canonical project list. |
-| function | `load_cloud_sync_module` | `tests/test_sync_from_cloud.py:13` | Load the hyphenated Cloud sync script as an isolated module. |
-| class | `CloudSyncDeletionTests` | `tests/test_sync_from_cloud.py:22` | Verify Cloud scanner omissions do not delete catalog keys by default. |
-| method | `CloudSyncDeletionTests.setUp` | `tests/test_sync_from_cloud.py:25` | Redirect Cloud locale output to a temporary catalog tree. |
-| method | `CloudSyncDeletionTests.tearDown` | `tests/test_sync_from_cloud.py:37` | Remove the temporary Cloud catalog tree. |
-| method | `CloudSyncDeletionTests.test_preserves_unscanned_keys_by_default` | `tests/test_sync_from_cloud.py:41` | Merge scanned keys without deleting an existing scanner omission. |
-| method | `CloudSyncDeletionTests.test_deletes_only_with_explicit_flag` | `tests/test_sync_from_cloud.py:50` | Remove an unscanned key only when destructive mode is explicit. |
-| function | `load_core_sync_module` | `tests/test_sync_from_core.py:13` | Load the hyphenated Core sync script as an isolated module. |
-| class | `CoreSyncDeletionTests` | `tests/test_sync_from_core.py:22` | Verify Core synchronization preserves values unless deletion is explicit. |
-| method | `CoreSyncDeletionTests.setUp` | `tests/test_sync_from_core.py:25` | Redirect Core synchronization output to temporary directories. |
-| method | `CoreSyncDeletionTests.tearDown` | `tests/test_sync_from_core.py:34` | Remove the temporary Core synchronization tree. |
-| method | `CoreSyncDeletionTests.test_preserves_existing_values_by_default` | `tests/test_sync_from_core.py:38` | Merge scanned values while retaining unscanned existing entries. |
-| method | `CoreSyncDeletionTests.test_deletes_only_when_no_delete_is_false` | `tests/test_sync_from_core.py:55` | Drop unscanned values only in explicit destructive mode. |
-| function | `load_sync_module` | `tests/test_sync_to_projects.py:12` | Load the hyphenated consumer-sync script as an isolated module. |
-| class | `SyncToProjectsTests` | `tests/test_sync_to_projects.py:21` | Verify consumer writes, deletions, manifests, and dry-run isolation. |
-| method | `SyncToProjectsTests.setUp` | `tests/test_sync_to_projects.py:24` | Redirect generated and consumer paths to a temporary fixture. |
-| method | `SyncToProjectsTests.tearDown` | `tests/test_sync_to_projects.py:32` | Remove the temporary distribution and consumer fixture. |
-| method | `SyncToProjectsTests.write_dist_file` | `tests/test_sync_to_projects.py:36` | Write one generated bundle fixture and return its path. |
-| method | `SyncToProjectsTests.test_sync_single_scope_dry_run_does_not_write_or_delete` | `tests/test_sync_to_projects.py:43` | Report additions and deletions without mutating consumer files. |
-| method | `SyncToProjectsTests.test_sync_single_scope_writes_updates_and_deletes_stale_locale` | `tests/test_sync_to_projects.py:58` | Update changed bundles and remove only stale locale files. |
-| method | `SyncToProjectsTests.test_sync_manifest_updates_when_source_differs` | `tests/test_sync_to_projects.py:75` | Replace a consumer manifest only when generated content differs. |
-| method | `SyncToProjectsTests.test_flow_target_uses_static_flow_scope_and_manifest` | `tests/test_sync_to_projects.py:92` | Keep Flow on its static scope with the bundled manifest contract. |
-| class | `ThemePreferenceTranslationTests` | `tests/test_theme_preferences.py:16` | Require every supported code locale to label all theme choices. |
-| method | `ThemePreferenceTranslationTests.test_theme_preference_labels_are_non_empty_in_every_code_locale` | `tests/test_theme_preferences.py:19` | Prevent language switching from producing blank theme menu items. |
-| class | `ThaiBatchTests` | `tests/test_translate_th.py:11` | Verify the historical Thai batch is path-safe and dry-run aware. |
-| method | `ThaiBatchTests.test_dry_run_reports_without_writing` | `tests/test_translate_th.py:14` | Leave the selected catalog unchanged while reporting fillable keys. |
-| class | `ValidateCriticalTranslationsTests` | `tests/test_validate.py:11` | Verify non-empty rules for critical Flyto2 Code copy. |
-| method | `ValidateCriticalTranslationsTests._validate` | `tests/test_validate.py:14` | Validate one temporary critical translation value. |
-| method | `ValidateCriticalTranslationsTests.test_rejects_empty_community_product_loop_copy` | `tests/test_validate.py:28` | Reject an empty critical community-loop translation. |
-| method | `ValidateCriticalTranslationsTests.test_accepts_translated_community_product_loop_copy` | `tests/test_validate.py:34` | Accept a non-empty localized community-loop translation. |
-| method | `ValidateCriticalTranslationsTests.test_rejects_catalog_missing_schema_metadata` | `tests/test_validate.py:38` | Reject a locale document that omits required schema metadata. |
-| function | `apply_translations` | `translate_th.py:416` | Fill empty known keys and optionally write the reviewed Thai batch. |
-| function | `main` | `translate_th.py:435` | Parse a safe catalog path, report changes, and honor dry-run mode. |
+| function | `flatten` | [`scripts/add-cloud-keys.py:31`](../../scripts/add-cloud-keys.py#L31) | Flatten nested translation values into dotted keys. |
+| function | `extract_keys` | [`scripts/add-cloud-keys.py:43`](../../scripts/add-cloud-keys.py#L43) | Extract all translation keys from flyto-cloud frontend. |
+| function | `key_to_english` | [`scripts/add-cloud-keys.py:67`](../../scripts/add-cloud-keys.py#L67) | Convert key name to readable English. |
+| function | `main` | [`scripts/add-cloud-keys.py:76`](../../scripts/add-cloud-keys.py#L76) | Scan Flyto2 Cloud sources and append missing English keys. |
+| function | `flatten` | [`scripts/add-code-keys.py:38`](../../scripts/add-code-keys.py#L38) | Flatten nested dict to dot-separated keys. |
+| function | `extract_keys_from_code` | [`scripts/add-code-keys.py:50`](../../scripts/add-code-keys.py#L50) | Extract all t()/tOr() calls from flyto-code source. |
+| function | `key_to_english` | [`scripts/add-code-keys.py:93`](../../scripts/add-code-keys.py#L93) | Convert a key name to English text. |
+| function | `get_existing_keys` | [`scripts/add-code-keys.py:108`](../../scripts/add-code-keys.py#L108) | Get keys already in dist. |
+| function | `main` | [`scripts/add-code-keys.py:121`](../../scripts/add-code-keys.py#L121) | Scan Flyto2 Code sources and append reviewable missing keys. |
+| function | `get_locales` | [`scripts/add-locale.py:31`](../../scripts/add-locale.py#L31) | Get available locales by scanning project directories. |
+| function | `add_locale` | [`scripts/add-locale.py:43`](../../scripts/add-locale.py#L43) | Add a new locale based on English. |
+| function | `count_locale_translations` | [`scripts/add-locale.py:93`](../../scripts/add-locale.py#L93) | Count translated and total keys for a locale. |
+| function | `locale_status` | [`scripts/add-locale.py:112`](../../scripts/add-locale.py#L112) | Return display status and percent complete for a locale. |
+| function | `list_locales` | [`scripts/add-locale.py:122`](../../scripts/add-locale.py#L122) | List all available locales. |
+| function | `main` | [`scripts/add-locale.py:138`](../../scripts/add-locale.py#L138) | Parse CLI arguments and create or list locale source trees. |
+| function | `update_locale` | [`scripts/add_upstream_keys.py:188`](../../scripts/add_upstream_keys.py#L188) | Returns (added, already_present). |
+| function | `main` | [`scripts/add_upstream_keys.py:215`](../../scripts/add_upstream_keys.py#L215) | Apply the idempotent upstream-key migration to supported locales. |
+| function | `placeholder_names` | [`scripts/audit-placeholders.py:25`](../../scripts/audit-placeholders.py#L25) | Extract named single- or double-brace placeholders from a value. |
+| function | `load_translations` | [`scripts/audit-placeholders.py:30`](../../scripts/audit-placeholders.py#L30) | Merge one project's locale catalogs for placeholder comparison. |
+| function | `audit_placeholders` | [`scripts/audit-placeholders.py:42`](../../scripts/audit-placeholders.py#L42) | Return non-empty translations whose placeholder set differs from English. |
+| function | `main` | [`scripts/audit-placeholders.py:71`](../../scripts/audit-placeholders.py#L71) | Report placeholder drift and optionally fail for remediation work. |
+| function | `build_app_locale` | [`scripts/build-app.py:31`](../../scripts/build-app.py#L31) | Build flat merged translations for a locale. |
+| function | `main` | [`scripts/build-app.py:58`](../../scripts/build-app.py#L58) | Build supported Flutter locale bundles in the sibling app checkout. |
+| function | `get_locales` | [`scripts/build-dist.py:118`](../../scripts/build-dist.py#L118) | Discover available locales from the cloud project (primary). |
+| function | `flat_to_nested` | [`scripts/build-dist.py:126`](../../scripts/build-dist.py#L126) | Convert flat keys to nested object for vue-i18n compatibility. |
+| function | `collect_files` | [`scripts/build-dist.py:177`](../../scripts/build-dist.py#L177) | Get translation files for a locale from a specific project directory. |
+| function | `load_translations` | [`scripts/build-dist.py:197`](../../scripts/build-dist.py#L197) | Load and merge translations from files, restoring the original key prefix. |
+| function | `build_locale` | [`scripts/build-dist.py:215`](../../scripts/build-dist.py#L215) | Build merged translations for a locale. |
+| function | `build_manifest` | [`scripts/build-dist.py:269`](../../scripts/build-dist.py#L269) | Build manifest with locale metadata. |
+| function | `count_translated` | [`scripts/build-dist.py:306`](../../scripts/build-dist.py#L306) | Count non-empty unique translations for a locale after merge semantics. |
+| function | `sync_repository_manifest` | [`scripts/build-dist.py:328`](../../scripts/build-dist.py#L328) | Synchronize root locale coverage from the aggregate distribution manifest. |
+| function | `main` | [`scripts/build-dist.py:347`](../../scripts/build-dist.py#L347) | Build all deterministic translation bundles and manifests. |
+| function | `load_json` | [`scripts/build-seo-manifest.py:40`](../../scripts/build-seo-manifest.py#L40) | Load a JSON file with UTF-8 encoding. |
+| function | `discover_locales` | [`scripts/build-seo-manifest.py:46`](../../scripts/build-seo-manifest.py#L46) | Discover public locales from locales/cloud, the broadest shipped scope. |
+| function | `stable_hash` | [`scripts/build-seo-manifest.py:54`](../../scripts/build-seo-manifest.py#L54) | Create a stable content hash for generated SEO manifests. |
+| function | `locale_prefix` | [`scripts/build-seo-manifest.py:60`](../../scripts/build-seo-manifest.py#L60) | Return the public path prefix for a locale. |
+| function | `build_alternates` | [`scripts/build-seo-manifest.py:67`](../../scripts/build-seo-manifest.py#L67) | Build URL templates for localized alternates. |
+| function | `validate_contract` | [`scripts/build-seo-manifest.py:77`](../../scripts/build-seo-manifest.py#L77) | Return contract validation errors. |
+| function | `build_seo_manifest` | [`scripts/build-seo-manifest.py:114`](../../scripts/build-seo-manifest.py#L114) | Build the distributable SEO manifest. |
+| function | `render_json` | [`scripts/build-seo-manifest.py:151`](../../scripts/build-seo-manifest.py#L151) | Render JSON exactly as tracked in dist. |
+| function | `main` | [`scripts/build-seo-manifest.py:156`](../../scripts/build-seo-manifest.py#L156) | Build or freshness-check the multilingual SEO manifest. |
+| function | `get_locales` | [`scripts/build.py:30`](../../scripts/build.py#L30) | Get available locales by scanning project directories. |
+| function | `merge_locale_files` | [`scripts/build.py:42`](../../scripts/build.py#L42) | Merge all translation files for a locale into a single dict. |
+| function | `build_locale` | [`scripts/build.py:63`](../../scripts/build.py#L63) | Build a single merged locale file. |
+| function | `get_manifest_version` | [`scripts/build.py:87`](../../scripts/build.py#L87) | Get version from manifest.json. |
+| function | `main` | [`scripts/build.py:97`](../../scripts/build.py#L97) | Run the legacy aggregate locale builder from CLI arguments. |
+| function | `collect` | [`scripts/check_coverage.py:15`](../../scripts/check_coverage.py#L15) | Collect namespaced translation values for one locale. |
+| function | `main` | [`scripts/check_coverage.py:33`](../../scripts/check_coverage.py#L33) | Report legacy translation coverage and enforce an optional threshold. |
+| function | `apply_vocab_fixes` | [`scripts/convert-tw-to-cn.py:48`](../../scripts/convert-tw-to-cn.py#L48) | Apply post-OpenCC vocabulary replacements. |
+| function | `convert_value` | [`scripts/convert-tw-to-cn.py:55`](../../scripts/convert-tw-to-cn.py#L55) | Recursively convert string values. |
+| function | `main` | [`scripts/convert-tw-to-cn.py:66`](../../scripts/convert-tw-to-cn.py#L66) | Convert selected zh-TW catalogs to reviewed zh-CN source files. |
+| function | `get_locales` | [`scripts/coverage.py:30`](../../scripts/coverage.py#L30) | Get available locales by scanning project directories. |
+| function | `load_locale_keys` | [`scripts/coverage.py:42`](../../scripts/coverage.py#L42) | Load all keys for a locale, grouped by category. |
+| function | `calculate_coverage` | [`scripts/coverage.py:65`](../../scripts/coverage.py#L65) | Calculate coverage statistics. |
+| function | `print_coverage_report` | [`scripts/coverage.py:98`](../../scripts/coverage.py#L98) | Print human-readable coverage report. |
+| function | `main` | [`scripts/coverage.py:123`](../../scripts/coverage.py#L123) | Render locale coverage as a table or machine-readable JSON. |
+| class | `Declaration` | [`scripts/generate-reference.py:18`](../../scripts/generate-reference.py#L18) | Describe one documented Python class, function, or method. |
+| function | `source_files` | [`scripts/generate-reference.py:28`](../../scripts/generate-reference.py#L28) | Return every maintained, historical, and test Python source file. |
+| function | `declaration_kind` | [`scripts/generate-reference.py:38`](../../scripts/generate-reference.py#L38) | Classify an AST declaration for the generated table. |
+| function | `first_sentence` | [`scripts/generate-reference.py:49`](../../scripts/generate-reference.py#L49) | Collapse a docstring into a Markdown-table-safe summary. |
+| function | `walk_declarations` | [`scripts/generate-reference.py:58`](../../scripts/generate-reference.py#L58) | Recursively collect declarations while preserving qualified names. |
+| function | `collect_declarations` | [`scripts/generate-reference.py:94`](../../scripts/generate-reference.py#L94) | Parse every source file and return sorted documented declarations. |
+| function | `render_reference` | [`scripts/generate-reference.py:103`](../../scripts/generate-reference.py#L103) | Render a deterministic Markdown table for all Python declarations. |
+| function | `main` | [`scripts/generate-reference.py:125`](../../scripts/generate-reference.py#L125) | Write the reference or fail when the tracked output is stale. |
+| function | `language_meta` | [`scripts/i18n_contract.py:283`](../../scripts/i18n_contract.py#L283) | Return a complete metadata record for a locale. |
+| function | `locale_sort_key` | [`scripts/i18n_contract.py:301`](../../scripts/i18n_contract.py#L301) | Sort known locales by Flyto2 launch priority, then unknown locales by code. |
+| function | `build_locale_meta` | [`scripts/i18n_contract.py:308`](../../scripts/i18n_contract.py#L308) | Build the CDN locale metadata document consumed by public surfaces. |
+| function | `parse_js_object` | [`scripts/import-overrides.py:23`](../../scripts/import-overrides.py#L23) | Parse JavaScript object from local-overrides.js content. |
+| function | `flatten_dict` | [`scripts/import-overrides.py:80`](../../scripts/import-overrides.py#L80) | Flatten nested dict to dot-separated keys. |
+| function | `update_locale_files` | [`scripts/import-overrides.py:92`](../../scripts/import-overrides.py#L92) | Update locale files with translations. |
+| function | `main` | [`scripts/import-overrides.py:158`](../../scripts/import-overrides.py#L158) | Import selected Cloud override values into locale source catalogs. |
+| function | `key_to_english` | [`scripts/one-off/_fill_all_gaps.py:15`](../../scripts/one-off/_fill_all_gaps.py#L15) | Generate English text from a translation key name. |
+| function | `get_en_value` | [`scripts/one-off/_fill_all_gaps.py:27`](../../scripts/one-off/_fill_all_gaps.py#L27) | Get English value for a key from the en locale file. |
+| function | `load_en_cache` | [`scripts/one-off/_fill_all_gaps.py:44`](../../scripts/one-off/_fill_all_gaps.py#L44) | Load and cache non-empty English values for one historical scope. |
+| function | `fill_scope` | [`scripts/one-off/_fill_all_gaps.py:60`](../../scripts/one-off/_fill_all_gaps.py#L60) | Fill empty values in one scope using the legacy English fallback rule. |
+| function | `main` | [`scripts/one-off/_fill_all_gaps.py:109`](../../scripts/one-off/_fill_all_gaps.py#L109) | Run the historical all-scope gap fill and report remaining empties. |
+| function | `key_to_english` | [`scripts/one-off/_fill_empty_cloud_en.py:9`](../../scripts/one-off/_fill_empty_cloud_en.py#L9) | Generate English text from a key name. |
+| function | `translate_value` | [`scripts/one-off/_translate_remaining.py:87`](../../scripts/one-off/_translate_remaining.py#L87) | Translate an English value to the target locale. |
+| function | `translate_to_zhtw` | [`scripts/one-off/_translate_remaining.py:96`](../../scripts/one-off/_translate_remaining.py#L96) | Translate English text to zh-TW using word map + patterns. |
+| function | `process_locale` | [`scripts/one-off/_translate_remaining.py:143`](../../scripts/one-off/_translate_remaining.py#L143) | Find and translate all English-fallback values for a locale. |
+| function | `main` | [`scripts/one-off/fill-ja-code-gaps.py:588`](../../scripts/one-off/fill-ja-code-gaps.py#L588) | Append the fixed historical Japanese translation dictionary. |
+| function | `fix` | [`scripts/one-off/fill-zh-cn-gaps.py:29`](../../scripts/one-off/fill-zh-cn-gaps.py#L29) | Apply the historical Traditional-to-Simplified vocabulary overrides. |
+| function | `fill` | [`scripts/one-off/fill-zh-cn-gaps.py:36`](../../scripts/one-off/fill-zh-cn-gaps.py#L36) | Append missing zh-CN values derived from the selected zh-TW catalog. |
+| function | `split_translations` | [`scripts/split-cloud-translations.py:86`](../../scripts/split-cloud-translations.py#L86) | Split translation data into groups. |
+| function | `main` | [`scripts/split-cloud-translations.py:108`](../../scripts/split-cloud-translations.py#L108) | Split supported Cloud source bundles into category catalogs. |
+| function | `find_source_files` | [`scripts/sync-from-cloud.py:41`](../../scripts/sync-from-cloud.py#L41) | Find all Vue and JS files in the frontend source. |
+| function | `extract_keys_from_file` | [`scripts/sync-from-cloud.py:55`](../../scripts/sync-from-cloud.py#L55) | Extract all translation keys from a single file. |
+| function | `extract_all_keys` | [`scripts/sync-from-cloud.py:77`](../../scripts/sync-from-cloud.py#L77) | Extract all translation keys grouped by category. |
+| function | `load_existing_translations` | [`scripts/sync-from-cloud.py:104`](../../scripts/sync-from-cloud.py#L104) | Load existing translations for a category. |
+| function | `generate_locale_file` | [`scripts/sync-from-cloud.py:120`](../../scripts/sync-from-cloud.py#L120) | Generate one category while preserving unscanned keys by default. |
+| function | `sync_from_cloud` | [`scripts/sync-from-cloud.py:176`](../../scripts/sync-from-cloud.py#L176) | Synchronize scanned Cloud keys with explicit opt-in deletion. |
+| function | `main` | [`scripts/sync-from-cloud.py:240`](../../scripts/sync-from-cloud.py#L240) | Parse CLI options and synchronize keys from a Cloud checkout. |
+| function | `extract_keys_from_file` | [`scripts/sync-from-core.py:41`](../../scripts/sync-from-core.py#L41) | Extract i18n keys from a Python file. |
+| function | `extract_params_schema_keys` | [`scripts/sync-from-core.py:108`](../../scripts/sync-from-core.py#L108) | Extract i18n keys from params_schema definitions. |
+| function | `is_enum_like_array` | [`scripts/sync-from-core.py:171`](../../scripts/sync-from-core.py#L171) | Check if array values look like enum options vs example data. |
+| function | `extract_params_schema_dict` | [`scripts/sync-from-core.py:198`](../../scripts/sync-from-core.py#L198) | Try to extract params_schema as a Python dict. |
+| function | `format_label` | [`scripts/sync-from-core.py:228`](../../scripts/sync-from-core.py#L228) | Convert snake_case or kebab-case to Title Case. |
+| function | `scan_core_modules` | [`scripts/sync-from-core.py:237`](../../scripts/sync-from-core.py#L237) | Scan all modules in flyto-core and extract keys. |
+| function | `group_by_category` | [`scripts/sync-from-core.py:262`](../../scripts/sync-from-core.py#L262) | Group keys by category for separate files. |
+| function | `load_existing_keys` | [`scripts/sync-from-core.py:285`](../../scripts/sync-from-core.py#L285) | Load existing English values from module and shared locale files. |
+| function | `write_locale_files` | [`scripts/sync-from-core.py:314`](../../scripts/sync-from-core.py#L314) | Write grouped keys while preserving unscanned values by default. |
+| function | `main` | [`scripts/sync-from-core.py:419`](../../scripts/sync-from-core.py#L419) | Parse CLI options and synchronize module keys from a Core checkout. |
+| function | `get_locales` | [`scripts/sync-locales.py:32`](../../scripts/sync-locales.py#L32) | Get available locales by scanning project directories. |
+| function | `load_locale_keys` | [`scripts/sync-locales.py:44`](../../scripts/sync-locales.py#L44) | Load all keys from a locale directory, grouped by file. |
+| function | `sync_locale_in_project` | [`scripts/sync-locales.py:58`](../../scripts/sync-locales.py#L58) | Sync a locale with English base within a specific project. |
+| function | `main` | [`scripts/sync-locales.py:127`](../../scripts/sync-locales.py#L127) | Synchronize selected locale catalogs against the English baseline. |
+| function | `new_stats` | [`scripts/sync-to-projects.py:93`](../../scripts/sync-to-projects.py#L93) | Create a sync stats accumulator. |
+| function | `merge_stats` | [`scripts/sync-to-projects.py:98`](../../scripts/sync-to-projects.py#L98) | Add per-target stats into a project total. |
+| function | `get_dist_locales` | [`scripts/sync-to-projects.py:104`](../../scripts/sync-to-projects.py#L104) | Get available locales for a scope from dist/. |
+| function | `get_target_locales` | [`scripts/sync-to-projects.py:115`](../../scripts/sync-to-projects.py#L115) | Resolve the locale list to sync for a scope. |
+| function | `sync_locale_file` | [`scripts/sync-to-projects.py:123`](../../scripts/sync-to-projects.py#L123) | Sync one locale file and return its stats delta. |
+| function | `is_deletable_locale_file` | [`scripts/sync-to-projects.py:149`](../../scripts/sync-to-projects.py#L149) | Return true when a target JSON file is a stale locale file. |
+| function | `delete_stale_locale_files` | [`scripts/sync-to-projects.py:159`](../../scripts/sync-to-projects.py#L159) | Delete target locale JSON files that no longer exist in dist. |
+| function | `sync_manifest` | [`scripts/sync-to-projects.py:183`](../../scripts/sync-to-projects.py#L183) | Sync manifest.json if it exists. |
+| function | `sync_single_scope` | [`scripts/sync-to-projects.py:204`](../../scripts/sync-to-projects.py#L204) | Sync a single scope's dist files to a destination directory. |
+| function | `run_build_app` | [`scripts/sync-to-projects.py:247`](../../scripts/sync-to-projects.py#L247) | Run build-app.py for flyto-app targets. |
+| function | `sync_code_manifests` | [`scripts/sync-to-projects.py:265`](../../scripts/sync-to-projects.py#L265) | Sync dist manifest files to flyto-code public i18n directories. |
+| function | `print_summary` | [`scripts/sync-to-projects.py:283`](../../scripts/sync-to-projects.py#L283) | Print a project sync summary. |
+| function | `sync_project` | [`scripts/sync-to-projects.py:300`](../../scripts/sync-to-projects.py#L300) | Sync all targets for a project. |
+| function | `main` | [`scripts/sync-to-projects.py:337`](../../scripts/sync-to-projects.py#L337) | Copy built bundles into selected sibling consumer repositories. |
+| function | `get_system_prompt` | [`scripts/translate-with-openai.py:278`](../../scripts/translate-with-openai.py#L278) | Generate system prompt for translation. |
+| function | `translate_batch` | [`scripts/translate-with-openai.py:326`](../../scripts/translate-with-openai.py#L326) | Translate a batch of texts using OpenAI. |
+| function | `_is_untranslated` | [`scripts/translate-with-openai.py:363`](../../scripts/translate-with-openai.py#L363) | Check if a translation is just a copy of the English value. |
+| function | `translate_file` | [`scripts/translate-with-openai.py:377`](../../scripts/translate-with-openai.py#L377) | Translate a single file. |
+| function | `main` | [`scripts/translate-with-openai.py:445`](../../scripts/translate-with-openai.py#L445) | Translate selected public strings as drafts using the OpenAI API. |
+| function | `load_schema` | [`scripts/validate.py:40`](../../scripts/validate.py#L40) | Load and validate the Draft-07 locale source schema. |
+| function | `load_manifest_schema` | [`scripts/validate.py:49`](../../scripts/validate.py#L49) | Load and validate the repository manifest schema. |
+| function | `schema_errors` | [`scripts/validate.py:58`](../../scripts/validate.py#L58) | Convert sorted JSON Schema violations into validation findings. |
+| function | `get_locales` | [`scripts/validate.py:73`](../../scripts/validate.py#L73) | Get available locales by scanning project directories. |
+| function | `load_base_keys` | [`scripts/validate.py:86`](../../scripts/validate.py#L86) | Load all keys from English base locale across all projects. |
+| function | `validate_file` | [`scripts/validate.py:101`](../../scripts/validate.py#L101) | Validate one locale catalog against schema and business rules. |
+| function | `validate_locale` | [`scripts/validate.py:172`](../../scripts/validate.py#L172) | Validate all files for a locale across project directories. |
+| function | `count_files` | [`scripts/validate.py:188`](../../scripts/validate.py#L188) | Count translation files for a locale. |
+| function | `main` | [`scripts/validate.py:199`](../../scripts/validate.py#L199) | Validate selected catalogs and return a strict-mode exit status. |
+| function | `load_add_locale_module` | [`tests/test_add_locale.py:13`](../../tests/test_add_locale.py#L13) | Load the hyphenated add-locale script as an isolated test module. |
+| class | `AddLocaleTests` | [`tests/test_add_locale.py:22`](../../tests/test_add_locale.py#L22) | Verify locale creation statistics without touching repository catalogs. |
+| method | `AddLocaleTests.setUp` | [`tests/test_add_locale.py:25`](../../tests/test_add_locale.py#L25) | Redirect locale roots to a temporary two-project fixture. |
+| method | `AddLocaleTests.tearDown` | [`tests/test_add_locale.py:33`](../../tests/test_add_locale.py#L33) | Remove the temporary catalog fixture. |
+| method | `AddLocaleTests.write_locale_file` | [`tests/test_add_locale.py:37`](../../tests/test_add_locale.py#L37) | Write one minimal locale fixture under the temporary root. |
+| method | `AddLocaleTests.test_count_locale_translations_across_projects` | [`tests/test_add_locale.py:46`](../../tests/test_add_locale.py#L46) | Count translated and total keys across all configured projects. |
+| method | `AddLocaleTests.test_locale_status_labels_completion_states` | [`tests/test_add_locale.py:56`](../../tests/test_add_locale.py#L56) | Map empty, partial, and complete counts to stable status labels. |
+| function | `load_audit_module` | [`tests/test_audit_placeholders.py:11`](../../tests/test_audit_placeholders.py#L11) | Load the hyphenated placeholder auditor as an isolated module. |
+| class | `PlaceholderAuditTests` | [`tests/test_audit_placeholders.py:20`](../../tests/test_audit_placeholders.py#L20) | Verify placeholder extraction across supported brace styles. |
+| method | `PlaceholderAuditTests.setUp` | [`tests/test_audit_placeholders.py:23`](../../tests/test_audit_placeholders.py#L23) | Load a fresh placeholder-audit module for each test. |
+| method | `PlaceholderAuditTests.test_extracts_single_and_double_brace_names` | [`tests/test_audit_placeholders.py:27`](../../tests/test_audit_placeholders.py#L27) | Normalize single- and double-brace placeholders to name sets. |
+| method | `PlaceholderAuditTests.test_ignores_plain_braces_without_identifiers` | [`tests/test_audit_placeholders.py:35`](../../tests/test_audit_placeholders.py#L35) | Ignore incomplete or non-identifier brace content. |
+| function | `load_build_module` | [`tests/test_build_dist.py:13`](../../tests/test_build_dist.py#L13) | Load the hyphenated distribution builder as an isolated module. |
+| class | `RepositoryManifestSyncTests` | [`tests/test_build_dist.py:22`](../../tests/test_build_dist.py#L22) | Verify root coverage follows aggregate distribution evidence. |
+| method | `RepositoryManifestSyncTests.setUp` | [`tests/test_build_dist.py:25`](../../tests/test_build_dist.py#L25) | Load a fresh builder module for each test. |
+| method | `RepositoryManifestSyncTests.test_updates_known_locale_coverage_and_preserves_metadata` | [`tests/test_build_dist.py:29`](../../tests/test_build_dist.py#L29) | Update derived coverage without replacing hand-maintained fields. |
+| method | `RepositoryManifestSyncTests.test_flow_scope_includes_mcp_studio_catalog` | [`tests/test_build_dist.py:57`](../../tests/test_build_dist.py#L57) | Keep the shared MCP surface available to the self-hosted UI. |
+| function | `load_seo_module` | [`tests/test_build_seo_manifest.py:11`](../../tests/test_build_seo_manifest.py#L11) | Load the hyphenated SEO builder as an isolated test module. |
+| class | `BuildSeoManifestTests` | [`tests/test_build_seo_manifest.py:20`](../../tests/test_build_seo_manifest.py#L20) | Verify SEO surface expansion and source-contract rejection paths. |
+| method | `BuildSeoManifestTests.setUp` | [`tests/test_build_seo_manifest.py:23`](../../tests/test_build_seo_manifest.py#L23) | Create a valid three-surface SEO source contract. |
+| method | `BuildSeoManifestTests.surface` | [`tests/test_build_seo_manifest.py:48`](../../tests/test_build_seo_manifest.py#L48) | Build one valid public-surface fixture for an origin. |
+| method | `BuildSeoManifestTests.test_builds_three_public_surfaces_with_x_default` | [`tests/test_build_seo_manifest.py:72`](../../tests/test_build_seo_manifest.py#L72) | Generate locale alternates, x-default, and Open Graph metadata. |
+| method | `BuildSeoManifestTests.test_rejects_missing_public_surface` | [`tests/test_build_seo_manifest.py:84`](../../tests/test_build_seo_manifest.py#L84) | Reject a source contract missing a required public surface. |
+| method | `BuildSeoManifestTests.test_rejects_keyword_cluster_without_evidence_source` | [`tests/test_build_seo_manifest.py:93`](../../tests/test_build_seo_manifest.py#L93) | Reject keyword research without a named evidence source. |
+| class | `SharedProjectContractTests` | [`tests/test_project_contract.py:11`](../../tests/test_project_contract.py#L11) | Prevent supported project scope lists from diverging across tools. |
+| method | `SharedProjectContractTests.test_only_i18n_contract_assigns_project_dirs` | [`tests/test_project_contract.py:14`](../../tests/test_project_contract.py#L14) | Require operational scripts to import the canonical project list. |
+| function | `load_cloud_sync_module` | [`tests/test_sync_from_cloud.py:13`](../../tests/test_sync_from_cloud.py#L13) | Load the hyphenated Cloud sync script as an isolated module. |
+| class | `CloudSyncDeletionTests` | [`tests/test_sync_from_cloud.py:22`](../../tests/test_sync_from_cloud.py#L22) | Verify Cloud scanner omissions do not delete catalog keys by default. |
+| method | `CloudSyncDeletionTests.setUp` | [`tests/test_sync_from_cloud.py:25`](../../tests/test_sync_from_cloud.py#L25) | Redirect Cloud locale output to a temporary catalog tree. |
+| method | `CloudSyncDeletionTests.tearDown` | [`tests/test_sync_from_cloud.py:37`](../../tests/test_sync_from_cloud.py#L37) | Remove the temporary Cloud catalog tree. |
+| method | `CloudSyncDeletionTests.test_preserves_unscanned_keys_by_default` | [`tests/test_sync_from_cloud.py:41`](../../tests/test_sync_from_cloud.py#L41) | Merge scanned keys without deleting an existing scanner omission. |
+| method | `CloudSyncDeletionTests.test_deletes_only_with_explicit_flag` | [`tests/test_sync_from_cloud.py:50`](../../tests/test_sync_from_cloud.py#L50) | Remove an unscanned key only when destructive mode is explicit. |
+| function | `load_core_sync_module` | [`tests/test_sync_from_core.py:13`](../../tests/test_sync_from_core.py#L13) | Load the hyphenated Core sync script as an isolated module. |
+| class | `CoreSyncDeletionTests` | [`tests/test_sync_from_core.py:22`](../../tests/test_sync_from_core.py#L22) | Verify Core synchronization preserves values unless deletion is explicit. |
+| method | `CoreSyncDeletionTests.setUp` | [`tests/test_sync_from_core.py:25`](../../tests/test_sync_from_core.py#L25) | Redirect Core synchronization output to temporary directories. |
+| method | `CoreSyncDeletionTests.tearDown` | [`tests/test_sync_from_core.py:34`](../../tests/test_sync_from_core.py#L34) | Remove the temporary Core synchronization tree. |
+| method | `CoreSyncDeletionTests.test_preserves_existing_values_by_default` | [`tests/test_sync_from_core.py:38`](../../tests/test_sync_from_core.py#L38) | Merge scanned values while retaining unscanned existing entries. |
+| method | `CoreSyncDeletionTests.test_deletes_only_when_no_delete_is_false` | [`tests/test_sync_from_core.py:55`](../../tests/test_sync_from_core.py#L55) | Drop unscanned values only in explicit destructive mode. |
+| function | `load_sync_module` | [`tests/test_sync_to_projects.py:12`](../../tests/test_sync_to_projects.py#L12) | Load the hyphenated consumer-sync script as an isolated module. |
+| class | `SyncToProjectsTests` | [`tests/test_sync_to_projects.py:21`](../../tests/test_sync_to_projects.py#L21) | Verify consumer writes, deletions, manifests, and dry-run isolation. |
+| method | `SyncToProjectsTests.setUp` | [`tests/test_sync_to_projects.py:24`](../../tests/test_sync_to_projects.py#L24) | Redirect generated and consumer paths to a temporary fixture. |
+| method | `SyncToProjectsTests.tearDown` | [`tests/test_sync_to_projects.py:32`](../../tests/test_sync_to_projects.py#L32) | Remove the temporary distribution and consumer fixture. |
+| method | `SyncToProjectsTests.write_dist_file` | [`tests/test_sync_to_projects.py:36`](../../tests/test_sync_to_projects.py#L36) | Write one generated bundle fixture and return its path. |
+| method | `SyncToProjectsTests.test_sync_single_scope_dry_run_does_not_write_or_delete` | [`tests/test_sync_to_projects.py:43`](../../tests/test_sync_to_projects.py#L43) | Report additions and deletions without mutating consumer files. |
+| method | `SyncToProjectsTests.test_sync_single_scope_writes_updates_and_deletes_stale_locale` | [`tests/test_sync_to_projects.py:58`](../../tests/test_sync_to_projects.py#L58) | Update changed bundles and remove only stale locale files. |
+| method | `SyncToProjectsTests.test_sync_manifest_updates_when_source_differs` | [`tests/test_sync_to_projects.py:75`](../../tests/test_sync_to_projects.py#L75) | Replace a consumer manifest only when generated content differs. |
+| method | `SyncToProjectsTests.test_flow_target_uses_static_flow_scope_and_manifest` | [`tests/test_sync_to_projects.py:92`](../../tests/test_sync_to_projects.py#L92) | Keep Flow on its static scope with the bundled manifest contract. |
+| class | `ThemePreferenceTranslationTests` | [`tests/test_theme_preferences.py:16`](../../tests/test_theme_preferences.py#L16) | Require every supported code locale to label all theme choices. |
+| method | `ThemePreferenceTranslationTests.test_theme_preference_labels_are_non_empty_in_every_code_locale` | [`tests/test_theme_preferences.py:19`](../../tests/test_theme_preferences.py#L19) | Prevent language switching from producing blank theme menu items. |
+| class | `ThaiBatchTests` | [`tests/test_translate_th.py:11`](../../tests/test_translate_th.py#L11) | Verify the historical Thai batch is path-safe and dry-run aware. |
+| method | `ThaiBatchTests.test_dry_run_reports_without_writing` | [`tests/test_translate_th.py:14`](../../tests/test_translate_th.py#L14) | Leave the selected catalog unchanged while reporting fillable keys. |
+| class | `ValidateCriticalTranslationsTests` | [`tests/test_validate.py:11`](../../tests/test_validate.py#L11) | Verify non-empty rules for critical Flyto2 Code copy. |
+| method | `ValidateCriticalTranslationsTests._validate` | [`tests/test_validate.py:14`](../../tests/test_validate.py#L14) | Validate one temporary critical translation value. |
+| method | `ValidateCriticalTranslationsTests.test_rejects_empty_community_product_loop_copy` | [`tests/test_validate.py:28`](../../tests/test_validate.py#L28) | Reject an empty critical community-loop translation. |
+| method | `ValidateCriticalTranslationsTests.test_accepts_translated_community_product_loop_copy` | [`tests/test_validate.py:34`](../../tests/test_validate.py#L34) | Accept a non-empty localized community-loop translation. |
+| method | `ValidateCriticalTranslationsTests.test_rejects_catalog_missing_schema_metadata` | [`tests/test_validate.py:38`](../../tests/test_validate.py#L38) | Reject a locale document that omits required schema metadata. |
+| function | `apply_translations` | [`translate_th.py:416`](../../translate_th.py#L416) | Fill empty known keys and optionally write the reviewed Thai batch. |
+| function | `main` | [`translate_th.py:435`](../../translate_th.py#L435) | Parse a safe catalog path, report changes, and honor dry-run mode. |
