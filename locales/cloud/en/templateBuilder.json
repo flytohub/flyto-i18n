@@ -255,6 +255,7 @@
     "templateBuilder.toolbar.back": "Back",
     "templateBuilder.toolbar.saveTemplate": "Save Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "Template ID (English)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Template Name"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Template Name",
+    "templateBuilder.messages.saveFailed": ""
   }
 }

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.browserInteract",
+  "version": "1.0.0",
+  "translations": {
+    "browserInteract.execute": "",
+    "browserInteract.noElements": "",
+    "browserInteract.pagePreview": "",
+    "browserInteract.selectHint": "",
+    "browserInteract.skip": "",
+    "browserInteract.title": ""
+  }
+}

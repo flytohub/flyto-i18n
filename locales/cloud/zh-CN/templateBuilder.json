@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "继续运行失败",
     "templateBuilder.messages.runToEndFailed": "运行到结束失败",
     "templateBuilder.messages.runningToEnd": "运行到结束中...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "正在启动工作流程运行...",
     "templateBuilder.messages.stepExecuted": "步骤运行成功",
     "templateBuilder.messages.stepFailed": "步骤运行失败",

@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "निष्पादन फिर से शुरू करने में विफल",
     "templateBuilder.messages.runToEndFailed": "अंत तक चलाने में विफल",
     "templateBuilder.messages.runningToEnd": "अंत तक चल रहा है...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "वर्कफ़्लो निष्पादन शुरू हो रहा है...",
     "templateBuilder.messages.stepExecuted": "चरण सफलतापूर्वक निष्पादित",
     "templateBuilder.messages.stepFailed": "चरण निष्पादन विफल",

@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Không thể tiếp tục thực thi",
     "templateBuilder.messages.runToEndFailed": "Không thể chạy đến cuối",
     "templateBuilder.messages.runningToEnd": "Đang chạy đến cuối...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "Đang bắt đầu thực thi workflow...",
     "templateBuilder.messages.stepExecuted": "Đã thực thi bước thành công",
     "templateBuilder.messages.stepFailed": "Thực thi bước thất bại",

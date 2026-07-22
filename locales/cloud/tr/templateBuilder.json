@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Yürütme devam ettirilemedi",
     "templateBuilder.messages.runToEndFailed": "Sonuna kadar çalıştırılamadı",
     "templateBuilder.messages.runningToEnd": "Sonuna kadar çalıştırılıyor...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "İş akışı yürütmesi başlatılıyor...",
     "templateBuilder.messages.stepExecuted": "Adım başarıyla yürütüldü",
     "templateBuilder.messages.stepFailed": "Adım yürütmesi başarısız",

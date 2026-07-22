@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "実行の再開に失敗しました",
     "templateBuilder.messages.runToEndFailed": "最後まで実行に失敗しました",
     "templateBuilder.messages.runningToEnd": "最後まで実行中...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "ワークフロー実行を開始中...",
     "templateBuilder.messages.stepExecuted": "ステップが正常に実行されました",
     "templateBuilder.messages.stepFailed": "ステップの実行に失敗しました",
