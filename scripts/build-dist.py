@@ -65,7 +65,7 @@ SCOPES = {
             'form.json', 'gridLayout.json', 'http.json',
             'iconPicker.json', 'lineage.json', 'llmChain.json', 'message.json',
             'metrics.json', 'moduleCard.json', 'moduleLab.json',
-            'modules.json', 'myTemplates.json', 'node.json', 'nodeOutput.json',
+            'modules.json', 'mcpStudio.json', 'myTemplates.json', 'node.json', 'nodeOutput.json',
             'notFound.json', 'observability.json', 'offline.json', 'outputs.json',
             'pluginStatus.json', 'pluginType.json',
             'portLabel.json', 'preview.json', 'recorder.json', 'replayMode.json',

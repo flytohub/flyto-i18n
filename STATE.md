@@ -30,13 +30,16 @@ Current state on 2026-07-22:
 - The Cloud synchronization workflow prefers the repository-wide cross-repo
   token and retains the older Cloud-specific token only as a compatibility
   fallback; secret values are never stored in the repository.
+- MCP Studio now has a canonical Cloud source catalog for English, Traditional
+  Chinese, and Simplified Chinese. The catalog is included in both Cloud and
+  Flow distribution scopes, with other Flow locales using the English fallback.
 - The private Cloud checkout is isolated under ignored `.sync-source/`, so a
   generated localization PR cannot stage the nested repository as a gitlink.
 - `code.communityLoop.*` is a critical non-empty namespace for Traditional and
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
-  validation across 4,512 recognized catalog files.
-- Every one of 188 Python classes, functions, nested functions, methods, and
+  validation across 4,531 recognized catalog files.
+- Every one of 192 Python classes, functions, nested functions, methods, and
   tests has a docstring and a freshness-checked generated source reference.
 - Root manifest coverage is synchronized from the deterministic aggregate
   build; it no longer drifts from `dist/manifest.json`.
@@ -67,8 +70,12 @@ Known release work:
 
 Verification evidence captured on 2026-07-22:
 
+- MCP Studio source catalogs passed strict validation across 4,531 files; the
+  Flow-scope regression test and deterministic distribution build passed, and
+  the generated Cloud and Flow bundles were synchronized to both consumers.
+
 - `npm run verify`: passed compilation, Ruff, generated-reference freshness,
-  strict schema validation of 4,512 catalogs plus the root manifest, 20 unit
+  strict schema validation of 4,531 catalogs plus the root manifest, 23 unit
   tests, every configured distribution build, and SEO-manifest freshness.
 - Shared documentation audit: passed all 6 source areas and 11 feature
   surfaces with no warnings.

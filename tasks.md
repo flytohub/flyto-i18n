@@ -1,5 +1,7 @@
 # Tasks
 
+- [x] Add MCP Studio source catalogs, include them in Cloud and Flow scopes,
+  and synchronize the generated bundles to both consuming frontends.
 - [ ] Define a canonical source catalog and `SCOPES` mapping for the tracked
   `dist/cortex` compatibility bundle, then add freshness coverage.
 

@@ -53,3 +53,9 @@ class RepositoryManifestSyncTests(unittest.TestCase):
         self.assertEqual(actual["locales"]["ja"]["coverage"], 92.9)
         self.assertEqual(actual["locales"]["en"]["status"], "official")
         self.assertNotIn("unknown", actual["locales"])
+
+    def test_flow_scope_includes_mcp_studio_catalog(self):
+        """Keep the shared MCP surface available to the self-hosted UI."""
+        distribution = self.module.build_locale("en", "flow")
+
+        self.assertEqual(distribution["translations"]["mcpStudio"]["title"], "MCP Studio")

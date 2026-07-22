@@ -4,6 +4,11 @@
 
 ### Added
 
+- Added a shared MCP Studio catalog for English, Traditional Chinese, and
+  Simplified Chinese, including navigation, tools, connection, audit, status,
+  action, and accessibility copy.
+- Added regression coverage that keeps `mcpStudio.json` in the self-hosted Flow
+  distribution scope.
 - Added localized light, dark, and system-following appearance labels for all
   16 `flyto-code` locales used by Warroom CE.
 - Added English, Traditional Chinese, and Simplified Chinese copy for the
@@ -40,6 +45,8 @@
 
 ### Changed
 
+- Rebuilt and synchronized the Cloud and Flow locale bundles so both editions
+  consume the same MCP Studio copy from `flyto-i18n`.
 - Updated Cloud-sync authentication to prefer the existing repository-wide
   cross-repository secret, with the legacy Cloud-specific secret as fallback.
 - Isolated and ignored the workflow's private Cloud checkout so generated
