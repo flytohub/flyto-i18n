@@ -46,7 +46,7 @@ Flyto2 Cloud, Code, Console, Data, Engine, App, and Landing consume generated
 `dist/seo-manifest.json` for shared locale, hreflang, sitemap, Open Graph
 locale, and long-tail keyword contract data.
 
-Connected Flyto apps load translations from CDN at runtime. Flyto2 Flow is the
+Connected Flyto2 apps load translations from CDN at runtime. Flyto2 Flow is the
 offline exception: CI or the Docker build syncs `dist/flow` and local flag SVGs
 into the application image, so it performs no runtime CDN request.
 
