@@ -1,12 +1,13 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "tr",
-    "category": "common",
-    "version": "1.0.0",
-    "translations": {
-        "common.params.description.description": "Bu hata akışının açıklaması",
-        "common.params.description.label": "Açıklama",
-        "common.ports.error": "Çıktı",
-        "common.pleaseSelect": "Lütfen seçin…"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "common",
+  "version": "1.0.0",
+  "translations": {
+    "common.params.description.description": "Bu hata akışının açıklaması",
+    "common.params.description.label": "Açıklama",
+    "common.pleaseSelect": "Lütfen seçin…",
+    "common.ports.error": "Çıktı",
+    "common.running": ""
+  }
 }

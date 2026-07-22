@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Echec de la reprise de l'execution",
     "templateBuilder.messages.runToEndFailed": "Echec de l'execution jusqu'a la fin",
     "templateBuilder.messages.runningToEnd": "Execution jusqu'a la fin...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "Demarrage de l'execution du workflow...",
     "templateBuilder.messages.stepExecuted": "Etape executee avec succes",
     "templateBuilder.messages.stepFailed": "Echec de l'execution de l'etape",

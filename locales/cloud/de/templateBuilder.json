@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Ausführung konnte nicht fortgesetzt werden",
     "templateBuilder.messages.runToEndFailed": "Bis zum Ende ausführen fehlgeschlagen",
     "templateBuilder.messages.runningToEnd": "Wird bis zum Ende ausgeführt...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "Workflow-Ausführung wird gestartet...",
     "templateBuilder.messages.stepExecuted": "Schritt erfolgreich ausgeführt",
     "templateBuilder.messages.stepFailed": "Schrittausführung fehlgeschlagen",

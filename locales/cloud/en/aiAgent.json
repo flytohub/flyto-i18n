@@ -19,6 +19,10 @@
     "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
     "aiAgent.task": "Task",
     "aiAgent.taskPlaceholder": "Describe what the agent should accomplish...",
-    "aiAgent.temperature": "Temperature"
+    "aiAgent.temperature": "Temperature",
+    "aiAgent.advancedOptions": "",
+    "aiAgent.maxIterations": "",
+    "aiAgent.maxIterationsHint": "",
+    "aiAgent.model": ""
   }
 }

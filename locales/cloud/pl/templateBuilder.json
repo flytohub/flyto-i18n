@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Nie udalo sie wznowic wykonania",
     "templateBuilder.messages.runToEndFailed": "Nie udalo sie uruchomic do konca",
     "templateBuilder.messages.runningToEnd": "Uruchamianie do konca...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "Rozpoczynanie wykonania przeplywu...",
     "templateBuilder.messages.stepExecuted": "Krok wykonany pomyslnie",
     "templateBuilder.messages.stepFailed": "Wykonanie kroku nie powiodlo sie",

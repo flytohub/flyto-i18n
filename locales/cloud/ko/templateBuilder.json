@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "실행 재개 실패",
     "templateBuilder.messages.runToEndFailed": "끝까지 실행 실패",
     "templateBuilder.messages.runningToEnd": "끝까지 실행 중...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "워크플로 실행 시작 중...",
     "templateBuilder.messages.stepExecuted": "단계가 성공적으로 실행되었습니다",
     "templateBuilder.messages.stepFailed": "단계 실행 실패",

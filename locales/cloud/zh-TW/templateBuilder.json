@@ -255,6 +255,7 @@
     "templateBuilder.toolbar.back": "返回",
     "templateBuilder.toolbar.saveTemplate": "儲存模板",
     "templateBuilder.toolbar.templateIdPlaceholder": "模板 ID (英文)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "模板名稱"
+    "templateBuilder.toolbar.templateNamePlaceholder": "模板名稱",
+    "templateBuilder.messages.saveFailed": ""
   }
 }
