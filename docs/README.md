@@ -2,6 +2,7 @@
 
 ## Contracts
 
+- [Internationalization whitepaper](WHITEPAPER.md)
 - [Feature and ownership reference](FEATURES.md)
 - [Locale source and fallback contract](LOCALE_CONTRACT.md)
 - [Generated distribution contract](DISTRIBUTION.md)
