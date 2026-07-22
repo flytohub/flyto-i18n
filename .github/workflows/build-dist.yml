@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'locales/**'
+      - 'seo/**'
+      - 'scripts/build-dist.py'
+      - 'scripts/build-seo-manifest.py'
+      - 'scripts/i18n_contract.py'
 
 permissions:
   contents: write
@@ -24,12 +28,14 @@ jobs:
           python-version: '3.11'
 
       - name: Build dist
-        run: python scripts/build-dist.py
+        run: |
+          python scripts/build-dist.py
+          python scripts/build-seo-manifest.py
 
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet dist/; then
+          if git diff --quiet -- dist/ manifest.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -40,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/
+          git add dist/ manifest.json
           git commit -m "build: auto-rebuild dist from locale changes"
           git push
 
@@ -48,7 +54,7 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: |
           echo "Purging jsDelivr CDN cache..."
-          for scope in cloud landing app code console data; do
+          for scope in cloud landing app code console data engine; do
             for locale in $(ls dist/$scope/*.json 2>/dev/null | xargs -I{} basename {} .json); do
               [ "$locale" = "manifest" ] && continue
               curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/$scope/$locale.json" > /dev/null

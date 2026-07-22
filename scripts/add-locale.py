@@ -136,6 +136,7 @@ def list_locales():
 
 
 def main():
+    """Parse CLI arguments and create or list locale source trees."""
     parser = argparse.ArgumentParser(description='Add a new locale')
     parser.add_argument('locale', nargs='?', help='Locale code (e.g., ja, ko, es)')
     parser.add_argument('--list', '-l', action='store_true', help='List available locales')

@@ -1,4 +1,8 @@
+"""Apply the reviewed historical Thai Flyto2 Code translation batch safely."""
+
+import argparse
 import json
+from pathlib import Path
 
 translations_th = {
   "code.assetMap.accept": "ยอมรับ",
@@ -405,30 +409,46 @@ translations_th = {
   "code.studio.week1": "สัปดาห์ที่ 1",
 }
 
-filepath = "C:/Users/aa090/\u5c08\u6848/flytohub/flyto-i18n/locales/code/th/code.json"
+ROOT = Path(__file__).resolve().parent
+DEFAULT_CATALOG = ROOT / "locales" / "code" / "th" / "code.json"
 
-with open(filepath, encoding="utf-8") as f:
-    data = json.load(f)
 
-tr = data["translations"]
-updated = 0
-not_found = []
-for k, v in translations_th.items():
-    if k in tr and tr[k] == "":
-        tr[k] = v
-        updated += 1
-    elif k not in tr:
-        not_found.append(k)
+def apply_translations(path: Path, dry_run: bool = False) -> tuple[int, list[str], list[str]]:
+    """Fill empty known keys and optionally write the reviewed Thai batch."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    translations = data["translations"]
+    updated = 0
+    not_found = []
+    for key, value in translations_th.items():
+        if key in translations and translations[key] == "":
+            translations[key] = value
+            updated += 1
+        elif key not in translations:
+            not_found.append(key)
 
-print(f"Updated {updated} keys")
-if not_found:
-    print(f"Not found: {not_found}")
+    remaining = [key for key, value in translations.items() if value == ""]
+    if not dry_run and updated:
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return updated, not_found, remaining
 
-remaining = [k for k, v in tr.items() if v == ""]
-print(f"Remaining empty: {len(remaining)}")
-if remaining:
-    print(remaining)
 
-with open(filepath, "w", encoding="utf-8") as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
-print("Done writing file.")
+def main() -> int:
+    """Parse a safe catalog path, report changes, and honor dry-run mode."""
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--path", type=Path, default=DEFAULT_CATALOG)
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+
+    updated, not_found, remaining = apply_translations(args.path, args.dry_run)
+    print(f"Updated {updated} keys")
+    if not_found:
+        print(f"Not found: {not_found}")
+    print(f"Remaining empty: {len(remaining)}")
+    if remaining:
+        print(remaining)
+    print("Dry run; no file written." if args.dry_run else "Done writing file.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

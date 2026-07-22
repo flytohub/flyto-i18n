@@ -1,4 +1,5 @@
 {
+  "$schema": "../../../schema/locale.schema.json",
   "locale": "de",
   "category": "app",
   "version": "1.0.0",

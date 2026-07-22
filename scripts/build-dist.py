@@ -39,6 +39,7 @@ from i18n_contract import LANGUAGE_META, PROJECT_DIRS, build_locale_meta  # noqa
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
 DIST_DIR = PROJECT_ROOT / 'dist'
+REPOSITORY_MANIFEST = PROJECT_ROOT / 'manifest.json'
 
 # Define scopes: which project directories to include, and optional file filters
 # Each scope entry: list of (project_dir, file_filter_or_None, key_prefix_to_restore)
@@ -287,7 +288,27 @@ def count_translated(locale: str, scope: str = None) -> int:
     return sum(1 for value in merged.values() if value)
 
 
+def sync_repository_manifest(distribution_manifest: dict, manifest_path: Path = REPOSITORY_MANIFEST) -> bool:
+    """Synchronize root locale coverage from the aggregate distribution manifest."""
+    repository_manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    changed = False
+    for locale, info in distribution_manifest.get('locales', {}).items():
+        locale_record = repository_manifest.get('locales', {}).get(locale)
+        if locale_record is None:
+            continue
+        completion = info.get('completion', 0)
+        if locale_record.get('coverage') != completion:
+            locale_record['coverage'] = completion
+            changed = True
+    rendered = json.dumps(repository_manifest, indent=2, ensure_ascii=False) + '\n'
+    if manifest_path.read_text(encoding='utf-8') != rendered:
+        manifest_path.write_text(rendered, encoding='utf-8')
+        changed = True
+    return changed
+
+
 def main():
+    """Build all deterministic translation bundles and manifests."""
     print("Building dist/ for CDN distribution")
     print()
 
@@ -350,6 +371,8 @@ def main():
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     print("  → dist/manifest.json")
+    sync_repository_manifest(manifest)
+    print("  → manifest.json coverage")
     locale_meta_file = DIST_DIR / 'locale-meta.json'
     with open(locale_meta_file, 'w', encoding='utf-8') as f:
         json.dump(build_locale_meta(locales), f, indent=2, ensure_ascii=False)

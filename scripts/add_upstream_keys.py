@@ -213,6 +213,7 @@ def update_locale(locale: str) -> tuple[int, int]:
 
 
 def main() -> int:
+    """Apply the idempotent upstream-key migration to supported locales."""
     print(f"adding {len(KEYS)} upstream-data keys to 3 locales")
     for locale in ("en", "zh-TW", "zh-CN"):
         added, present = update_locale(locale)

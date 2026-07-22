@@ -26,7 +26,7 @@ import re
 import sys
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -282,9 +282,9 @@ def group_by_category(keys: Dict[str, str]) -> Dict[str, Dict[str, str]]:
     return dict(grouped)
 
 
-def load_existing_keys() -> Dict[str, Set[str]]:
-    """Load existing keys from modules and shared locale files."""
-    existing = defaultdict(set)
+def load_existing_keys() -> Dict[str, Dict[str, str]]:
+    """Load existing English values from module and shared locale files."""
+    existing = defaultdict(dict)
 
     # Load from modules/en/
     if MODULES_EN_DIR.exists():
@@ -294,7 +294,7 @@ def load_existing_keys() -> Dict[str, Set[str]]:
                     data = json.load(f)
                 category = data.get('category', 'other')
                 translations = data.get('translations', {})
-                existing[category] = set(translations.keys())
+                existing[category] = translations
             except Exception as e:
                 print(f"Warning: Could not read {json_file}: {e}")
 
@@ -304,7 +304,7 @@ def load_existing_keys() -> Dict[str, Set[str]]:
         try:
             with open(common_file) as f:
                 data = json.load(f)
-            existing['common'] = set(data.get('translations', {}).keys())
+            existing['common'] = data.get('translations', {})
         except Exception as e:
             print(f"Warning: Could not read {common_file}: {e}")
 
@@ -313,11 +313,11 @@ def load_existing_keys() -> Dict[str, Set[str]]:
 
 def write_locale_files(
     grouped_keys: Dict[str, Dict[str, str]],
-    existing_keys: Dict[str, Set[str]],
+    existing_keys: Dict[str, Dict[str, str]],
     dry_run: bool = False,
-    no_delete: bool = False
+    no_delete: bool = True,
 ) -> Dict[str, Dict]:
-    """Write grouped keys to locale files. Returns stats."""
+    """Write grouped keys while preserving unscanned values by default."""
     MODULES_EN_DIR.mkdir(parents=True, exist_ok=True)
     SHARED_EN_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -333,18 +333,22 @@ def write_locale_files(
 
     for category in all_categories:
         new_translations = grouped_keys.get(category, {})
-        old_keys = existing_keys.get(category, set())
+        old_translations = existing_keys.get(category, {})
+        old_keys = set(old_translations)
         new_keys = set(new_translations.keys())
 
         added = new_keys - old_keys
         deleted = old_keys - new_keys if not no_delete else set()
         preserved = old_keys - new_keys if no_delete else set()
 
+        output_translations = dict(old_translations) if no_delete else {}
+        output_translations.update(new_translations)
+
         cat_stats = {
             'added': len(added),
             'deleted': len(deleted),
             'preserved': len(preserved),
-            'total': len(new_translations)
+            'total': len(output_translations)
         }
         stats['categories'][category] = cat_stats
         stats['added'] += len(added)
@@ -378,7 +382,7 @@ def write_locale_files(
             "locale": "en",
             "category": category,
             "version": "1.0.0",
-            "translations": dict(sorted(new_translations.items()))
+            "translations": dict(sorted(output_translations.items()))
         }
 
         change_info = []
@@ -389,7 +393,7 @@ def write_locale_files(
         change_str = f" ({', '.join(change_info)})" if change_info else ""
 
         if dry_run:
-            print(f"Would write {file_path}: {len(new_translations)} keys{change_str}")
+            print(f"Would write {file_path}: {len(output_translations)} keys{change_str}")
             if added:
                 for key in sorted(added)[:5]:
                     print(f"  + ADD: {key}")
@@ -403,7 +407,7 @@ def write_locale_files(
         else:
             with open(file_path, 'w') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
-            print(f"Wrote {file_path}: {len(new_translations)} keys{change_str}")
+            print(f"Wrote {file_path}: {len(output_translations)} keys{change_str}")
 
     return stats
 
@@ -413,13 +417,15 @@ def write_locale_files(
 # ============================================
 
 def main():
+    """Parse CLI options and synchronize module keys from a Core checkout."""
     parser = argparse.ArgumentParser(description='Sync keys from flyto-core')
     parser.add_argument('--core-path', default='../flyto-core',
                         help='Path to flyto-core')
     parser.add_argument('--dry-run', action='store_true',
                         help='Show changes without writing')
-    parser.add_argument('--no-delete', action='store_true',
-                        help='Do not delete keys that are not in core (preserve cloud UI keys)')
+    parser.add_argument('--delete-stale', action='store_true',
+                        help='Delete existing keys absent from Core scan output (destructive)')
+    parser.add_argument('--no-delete', action='store_true', help=argparse.SUPPRESS)
     args = parser.parse_args()
 
     core_path = Path(args.core_path).resolve()
@@ -444,7 +450,7 @@ def main():
     stats = write_locale_files(
         grouped, existing_keys,
         dry_run=args.dry_run,
-        no_delete=getattr(args, 'no_delete', False)
+        no_delete=not args.delete_stale
     )
 
     print()

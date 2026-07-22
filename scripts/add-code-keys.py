@@ -119,6 +119,7 @@ def get_existing_keys():
 
 
 def main():
+    """Scan Flyto2 Code sources and append reviewable missing keys."""
     if not CODE_SRC.exists():
         print(f"Error: flyto-code/src not found at {CODE_SRC}")
         sys.exit(1)

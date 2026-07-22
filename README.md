@@ -32,7 +32,7 @@ Official links: [flyto2.com](https://flyto2.com) ·
 [Contributing](CONTRIBUTING.md) ·
 [Security](mailto:security@flyto2.com)
 
-## How It Works
+## Architecture
 
 ```
 You edit source data      Build refreshes dist/      Public surfaces consume it
@@ -55,7 +55,9 @@ locale, and long-tail keyword contract data.
 3. Fix the translation value
 4. Submit a Pull Request
 
-That's it. Once merged, the fix goes live automatically.
+Once merged, the distribution workflows rebuild and publish the tracked
+bundles. A consuming product receives the fix after its configured runtime CDN
+refresh or bundled-artifact deployment completes.
 
 ### Example
 
@@ -81,6 +83,7 @@ Find the key and change the value:
 # 1. Clone and run the add-locale script
 git clone https://github.com/flytohub/flyto-i18n.git
 cd flyto-i18n
+python3 -m pip install -r requirements.txt
 python scripts/add-locale.py <locale-code>   # e.g. "ru" for Russian
 
 # 2. Translate — fill in the empty values in locales/*/<locale-code>/
@@ -98,7 +101,9 @@ python scripts/build-seo-manifest.py
 # 6. Submit PR
 ```
 
-Once merged, the new language appears in every Flyto2 app's language picker automatically.
+Once merged, the new locale becomes available in the published metadata and
+bundles. Each consuming app must still enable the locale in its own release or
+runtime picker contract.
 
 ## File Structure
 
@@ -143,7 +148,7 @@ dist/                         # Auto-generated, served via CDN
 
 Rules:
 - Keys are dot-separated: `{scope}.{section}.{name}`
-- Values must be under 500 characters
+- Values must be no more than 800 characters
 - Use `{n}`, `{name}` for variables (not `${...}`)
 - Empty `""` = untranslated (app falls back to English automatically)
 
@@ -154,7 +159,7 @@ Rules:
 | en | English | Official | 99.8% |
 | zh-TW | 繁體中文 | Official | 98.6% |
 | zh-CN | 简体中文 | Official | 98.2% |
-| ja | 日本語 | Official | 93.0% |
+| ja | 日本語 | Official | 92.9% |
 | id | Bahasa Indonesia | Community | 82.1% |
 | it | Italiano | Community | 82.1% |
 | pl | Polski | Community | 82.1% |
@@ -197,20 +202,43 @@ citation text.
 
 ## CI/CD Pipeline
 
-When you push to `main`:
+The checked-in workflows have distinct responsibilities:
 
-| Step | Time | What happens |
+| Workflow | Trigger | Contract |
 |------|------|-------------|
-| `validate.yml` | ~10s | Schema + format validation |
-| `build-dist.yml` | ~30s | Rebuild `dist/` from `locales/` |
-| `purge-cdn.yml` | ~10s | Clear jsDelivr + GitHub raw cache |
-| `notify-consumers.yml` | ~5s | Dispatch event to flyto-cloud/flyto-code |
+| `validate.yml` | Every main push and pull request | Compiles scripts, validates catalogs, runs unit tests, builds distributions, and runs the Flyto2 indexer gate. |
+| `check-dist-fresh.yml` | Locale, SEO source, or generator changes | Rebuilds generated artifacts and fails when tracked `dist/` output is stale. |
+| `build-dist.yml` | Locale or SEO source changes on main | Rebuilds and commits changed `dist/` artifacts. |
+| `purge-cdn.yml` | Changes under `dist/` | Requests jsDelivr cache purges for generated bundles. |
+| `notify-docs.yml` | Core-module locale changes | Dispatches a documentation regeneration event. |
+| `sync.yml` / `sync-cloud.yml` | Repository dispatch or manual run | Opens reviewed synchronization pull requests from Core or Cloud. |
+| `release.yml` | Version tag | Validates and packages source locale archives as a GitHub release. |
 
-**Total: ~1 minute from merge to live.**
+Consumers decide whether they fetch CDN artifacts at runtime or bundle copied
+artifacts during their own build. A push is not considered live until the
+relevant workflow, cache, and consumer checks succeed.
 
-Apps don't need to rebuild or redeploy. They fetch from CDN on every page load (with 24h cache + version-gated invalidation).
+## Testing
+
+The closed-loop test gate compiles every Python file, runs Ruff, checks the
+188-declaration generated reference, validates all source catalogs and the root
+manifest, runs the regression suite, and rebuilds translation and SEO output:
+
+```bash
+npm run verify
+```
+
+Placeholder parity remains a separate report-only migration gate. See
+[`STATE.md`](STATE.md) for the current baseline and release evidence.
 
 ## Scripts
+
+Install Python 3.11 or newer and the pinned dependencies before running the
+repository verification commands:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 ```bash
 # Validate everything
@@ -225,6 +253,12 @@ make verify
 # Check coverage
 python scripts/coverage.py
 
+# Report placeholder-set drift without changing catalogs
+python scripts/audit-placeholders.py --json
+
+# Verify every Python declaration has current source-linked documentation
+python scripts/generate-reference.py
+
 # Build translation dist for CDN
 python scripts/build-dist.py
 
@@ -238,11 +272,20 @@ python scripts/build-seo-manifest.py --check
 python scripts/add-locale.py <code>
 
 # Sync keys from flyto-core modules
-python scripts/sync-from-core.py --core-path ../flyto-core
+python scripts/sync-from-core.py --core-path ../flyto-core --dry-run
 
 # Sync keys from flyto-cloud UI ($t() calls)
-python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud
+python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud --dry-run
 ```
+
+Both sync commands preserve scanner-omitted keys by default. The optional
+`--delete-stale` flag is destructive; use it only after reviewing a dry-run and
+proving the scanner covers dynamic and compatibility keys.
+
+See the [tooling reference](docs/TOOLING.md) before running commands that write
+source catalogs, generated output, sibling repositories, GitHub, or OpenAI.
+The [generated Python reference](docs/generated/python-symbols.md) maps every
+maintained, historical, and test declaration to its source contract.
 
 ## Environment
 
@@ -271,7 +314,7 @@ python3 scripts/build-seo-manifest.py
 npm run verify
 ```
 
-## CDN Endpoints
+## API Endpoints
 
 ```
 # Translations (scope = cloud | code | landing | app | console | data | engine)

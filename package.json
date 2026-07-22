@@ -24,7 +24,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "lint": "python3 -m compileall -q scripts",
+    "lint": "python3 -m compileall -q scripts tests translate_th.py && ruff check scripts tests translate_th.py && npm run docs:check",
+    "docs:check": "python3 scripts/generate-reference.py",
+    "docs:write": "python3 scripts/generate-reference.py --write",
+    "audit:placeholders": "python3 scripts/audit-placeholders.py --json",
     "test": "python3 scripts/validate.py --strict && python3 scripts/coverage.py --json >/tmp/flyto-i18n-coverage.json && python3 -m unittest discover -s tests",
     "build": "python3 scripts/build-dist.py && python3 scripts/build-seo-manifest.py",
     "verify": "npm run lint && npm test && npm run build"

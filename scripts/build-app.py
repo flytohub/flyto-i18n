@@ -56,6 +56,7 @@ def build_app_locale(locale: str) -> dict:
 
 
 def main():
+    """Build supported Flutter locale bundles in the sibling app checkout."""
     APP_DIR.mkdir(parents=True, exist_ok=True)
 
     for locale in APP_LOCALES:

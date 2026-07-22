@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Derive missing Simplified Chinese Code text from Traditional Chinese."""
+
 # fill-zh-cn-gaps.py — one-off, append-only gap filler.
 # For every key in en/code.json that is missing or empty in
 # zh-CN/code.json, take the zh-TW value, run it through OpenCC
@@ -25,12 +27,14 @@ TW_TO_CN_VOCAB = [
 
 
 def fix(text: str) -> str:
+    """Apply the historical Traditional-to-Simplified vocabulary overrides."""
     for tw, cn in TW_TO_CN_VOCAB:
         text = text.replace(tw, cn)
     return text
 
 
 def fill(project: str) -> int:
+    """Append missing zh-CN values derived from the selected zh-TW catalog."""
     en_path = LOCALES / project / 'en' / f'{project}.json'
     tw_path = LOCALES / project / 'zh-TW' / f'{project}.json'
     cn_path = LOCALES / project / 'zh-CN' / f'{project}.json'

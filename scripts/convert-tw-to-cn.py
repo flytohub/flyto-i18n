@@ -19,6 +19,12 @@ import json
 import sys
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import PROJECT_DIRS  # noqa: E402
+
 try:
     import opencc
 except ImportError:
@@ -28,9 +34,6 @@ except ImportError:
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-
-# All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
 
 # Post-OpenCC vocabulary fixes
 TW_TO_CN_VOCAB = [
@@ -61,6 +64,7 @@ def convert_value(cc: opencc.OpenCC, value):
 
 
 def main():
+    """Convert selected zh-TW catalogs to reviewed zh-CN source files."""
     parser = argparse.ArgumentParser(description='Convert zh-TW to zh-CN using OpenCC')
     parser.add_argument('--dry-run', action='store_true', help='Preview without writing')
     parser.add_argument('--force', action='store_true', help='Overwrite existing zh-CN files')

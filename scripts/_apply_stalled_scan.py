@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Apply the historical four-locale stalled-scan string migration."""
+
 import json
 import sys
 import io

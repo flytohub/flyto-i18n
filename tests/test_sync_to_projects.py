@@ -1,3 +1,5 @@
+"""Regression tests for generated-bundle delivery to sibling projects."""
+
 import importlib.util
 import tempfile
 import unittest
@@ -8,6 +10,7 @@ SCRIPT_PATH = Path(__file__).resolve().parents[1] / "scripts" / "sync-to-project
 
 
 def load_sync_module():
+    """Load the hyphenated consumer-sync script as an isolated module."""
     spec = importlib.util.spec_from_file_location("sync_to_projects", SCRIPT_PATH)
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
@@ -16,7 +19,10 @@ def load_sync_module():
 
 
 class SyncToProjectsTests(unittest.TestCase):
+    """Verify consumer writes, deletions, manifests, and dry-run isolation."""
+
     def setUp(self):
+        """Redirect generated and consumer paths to a temporary fixture."""
         self.module = load_sync_module()
         self.tmpdir = tempfile.TemporaryDirectory()
         self.root = Path(self.tmpdir.name)
@@ -24,15 +30,18 @@ class SyncToProjectsTests(unittest.TestCase):
         self.module.DIST_DIR = self.dist_dir
 
     def tearDown(self):
+        """Remove the temporary distribution and consumer fixture."""
         self.tmpdir.cleanup()
 
     def write_dist_file(self, scope: str, filename: str, value: str) -> Path:
+        """Write one generated bundle fixture and return its path."""
         path = self.dist_dir / scope / filename
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(value, encoding="utf-8")
         return path
 
     def test_sync_single_scope_dry_run_does_not_write_or_delete(self):
+        """Report additions and deletions without mutating consumer files."""
         self.write_dist_file("cloud", "en.json", '{"ok": true}\n')
         dest_dir = self.root / "target"
         dest_dir.mkdir()
@@ -47,6 +56,7 @@ class SyncToProjectsTests(unittest.TestCase):
         self.assertTrue(stale_file.exists())
 
     def test_sync_single_scope_writes_updates_and_deletes_stale_locale(self):
+        """Update changed bundles and remove only stale locale files."""
         self.write_dist_file("cloud", "en.json", '{"version": 2}\n')
         dest_dir = self.root / "target"
         dest_dir.mkdir()
@@ -63,6 +73,7 @@ class SyncToProjectsTests(unittest.TestCase):
         self.assertTrue((dest_dir / "manifest.json").exists())
 
     def test_sync_manifest_updates_when_source_differs(self):
+        """Replace a consumer manifest only when generated content differs."""
         source_dir = self.dist_dir / "code"
         dest_dir = self.root / "public" / "i18n" / "code"
         source_dir.mkdir(parents=True)

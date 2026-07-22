@@ -1,0 +1,166 @@
+{
+  "$schema": "https://docs.flyto2.com/schemas/documentation-contract-v1.json",
+  "schema_version": 1,
+  "repository": "flyto-i18n",
+  "status": "active",
+  "audiences": ["product engineers", "translators", "SEO maintainers", "release operators"],
+  "documentation": {
+    "index": "docs/README.md",
+    "architecture": "ARCHITECTURE.md",
+    "state": "STATE.md",
+    "security": "SECURITY.md",
+    "changelog": "CHANGELOG.md",
+    "feature_reference": "docs/FEATURES.md"
+  },
+  "source_areas": [
+    {
+      "id": "locale-source",
+      "description": "Human-edited translation catalogs organized by product project, locale, category, and stable dotted translation key.",
+      "paths": ["locales/**", "manifest.json", "schema/**"],
+      "documentation": ["docs/LOCALE_CONTRACT.md", "locales/README.md", "docs/FEATURES.md#translation-source-catalogs"]
+    },
+    {
+      "id": "translation-tooling",
+      "description": "Python and shell tooling for validation, coverage, builds, locale creation, extraction, conversion, synchronization, and assisted translation.",
+      "paths": ["scripts/**", "Makefile", "package.json"],
+      "documentation": ["docs/TOOLING.md", "scripts/README.md", "docs/FEATURES.md"]
+    },
+    {
+      "id": "source-documentation",
+      "description": "AST-enforced docstrings and generated source-linked references for maintained tools, historical migrations, and regression tests.",
+      "paths": ["scripts/generate-reference.py", "docs/generated/**", "tests/**"],
+      "documentation": ["docs/TOOLING.md#source-api-reference", "docs/generated/README.md"]
+    },
+    {
+      "id": "seo-source",
+      "description": "Dated multilingual search-intent, long-tail keyword, canonical-origin, sitemap, route, and required-signal source contract.",
+      "paths": ["seo/**"],
+      "documentation": ["docs/SEO_CONTRACT.md", "README.md#multilingual-seo-contract"]
+    },
+    {
+      "id": "generated-distribution",
+      "description": "Tracked translation, locale metadata, flags, manifests, compatibility files, and SEO artifacts served to consuming repositories.",
+      "paths": ["dist/**"],
+      "documentation": ["docs/DISTRIBUTION.md", "dist/README.md"]
+    },
+    {
+      "id": "delivery-automation",
+      "description": "GitHub Actions for validation, freshness, deterministic rebuilds, cache purge, reviewed synchronization, notification, security, and release packaging.",
+      "paths": [".github/workflows/**"],
+      "documentation": ["README.md#cicd-pipeline", "docs/FEATURES.md#release-and-cache-automation", "docs/DISTRIBUTION.md"]
+    }
+  ],
+  "feature_surfaces": [
+    {
+      "id": "locale-catalogs",
+      "title": "Translation source catalogs",
+      "kind": "content",
+      "status": "active",
+      "description": "Maintains English baseline and localized product catalogs with stable keys, named placeholders, and explicit fallback semantics.",
+      "source": ["locales/**", "schema/**", "manifest.json"],
+      "documentation": ["docs/FEATURES.md#translation-source-catalogs", "docs/LOCALE_CONTRACT.md"],
+      "verification": ["python3 scripts/validate.py --strict"]
+    },
+    {
+      "id": "validation-coverage",
+      "title": "Validation and coverage",
+      "kind": "cli",
+      "status": "active",
+      "description": "Checks Draft-07 source shape, key compatibility, security markers, critical locale requirements, and unique-key translation completion.",
+      "source": ["scripts/validate.py", "scripts/coverage.py", "scripts/check_coverage.py", "tests/**"],
+      "documentation": ["docs/FEATURES.md#validation-and-coverage", "docs/TOOLING.md#read-only-checks"],
+      "tests": ["tests/test_validate.py"]
+    },
+    {
+      "id": "placeholder-audit",
+      "title": "Placeholder parity audit",
+      "kind": "cli",
+      "status": "experimental",
+      "description": "Reports English-to-translation placeholder-set drift without mutating catalogs and provides an opt-in strict remediation gate.",
+      "source": ["scripts/audit-placeholders.py"],
+      "documentation": ["docs/FEATURES.md#validation-and-coverage", "docs/TOOLING.md#read-only-checks", "docs/LOCALE_CONTRACT.md#key-and-value-rules"],
+      "tests": ["tests/test_audit_placeholders.py"],
+      "verification": ["python3 scripts/audit-placeholders.py --json"]
+    },
+    {
+      "id": "distribution-build",
+      "title": "Deterministic distribution build",
+      "kind": "workflow",
+      "status": "active",
+      "description": "Merges recognized source projects into content-versioned scoped bundles, aggregate bundles, completion manifests, and locale metadata.",
+      "source": ["scripts/build-dist.py", "scripts/i18n_contract.py", "dist/**"],
+      "documentation": ["docs/FEATURES.md#deterministic-distribution-build", "docs/DISTRIBUTION.md"],
+      "verification": ["python3 scripts/build-dist.py", "git diff --exit-code -- dist manifest.json"]
+    },
+    {
+      "id": "locale-metadata",
+      "title": "Locale metadata API",
+      "kind": "library",
+      "status": "active",
+      "description": "Centralizes locale names, regions, directions, social metadata, language alternates, flags, and deterministic launch ordering.",
+      "source": ["scripts/i18n_contract.py", "dist/locale-meta.json", "dist/flags/**"],
+      "documentation": ["docs/FEATURES.md#locale-metadata", "docs/LOCALE_CONTRACT.md#locale-metadata-api", "docs/DISTRIBUTION.md"],
+      "verification": ["python3 scripts/build-dist.py", "git diff --exit-code -- dist/locale-meta.json"]
+    },
+    {
+      "id": "multilingual-seo",
+      "title": "Multilingual SEO manifest",
+      "kind": "schema",
+      "status": "active",
+      "description": "Publishes dated search evidence, intent clusters, long-tail terms, canonical origins, sitemaps, and locale alternate templates for three public surfaces.",
+      "source": ["seo/public-surfaces.json", "scripts/build-seo-manifest.py", "dist/seo-manifest.json"],
+      "documentation": ["docs/FEATURES.md#multilingual-seo", "docs/SEO_CONTRACT.md"],
+      "tests": ["tests/test_build_seo_manifest.py"],
+      "verification": ["python3 scripts/build-seo-manifest.py --check"]
+    },
+    {
+      "id": "upstream-sync",
+      "title": "Upstream key synchronization",
+      "kind": "cli",
+      "status": "internal",
+      "description": "Extracts translatable module and interface keys from Core and Cloud checkouts into reviewable locale-source changes.",
+      "source": ["scripts/sync-from-core.py", "scripts/sync-from-cloud.py", ".github/workflows/sync.yml", ".github/workflows/sync-cloud.yml"],
+      "documentation": ["docs/FEATURES.md#upstream-key-synchronization", "docs/TOOLING.md#cross-repository-writers"],
+      "tests": ["tests/test_sync_from_core.py", "tests/test_sync_from_cloud.py"]
+    },
+    {
+      "id": "consumer-sync",
+      "title": "Consumer bundle synchronization",
+      "kind": "cli",
+      "status": "internal",
+      "description": "Copies generated bundles into supported sibling repositories and removes stale locale copies under explicit project configuration.",
+      "source": ["scripts/sync-to-projects.py", "scripts/build-app.py"],
+      "documentation": ["docs/FEATURES.md#consumer-synchronization", "docs/TOOLING.md#cross-repository-writers"],
+      "tests": ["tests/test_sync_to_projects.py"]
+    },
+    {
+      "id": "assisted-translation",
+      "title": "Assisted translation",
+      "kind": "cli",
+      "status": "internal",
+      "description": "Optionally sends selected public translation strings to OpenAI and writes draft locale values for mandatory human review.",
+      "source": ["scripts/translate-with-openai.py", ".env.example"],
+      "documentation": ["docs/FEATURES.md#assisted-translation", "docs/TOOLING.md#networked-assisted-translation"]
+    },
+    {
+      "id": "delivery-automation",
+      "title": "Release and cache automation",
+      "kind": "workflow",
+      "status": "active",
+      "description": "Validates source, prevents stale output, rebuilds generated artifacts, purges CDN paths, notifies consumers, and packages tagged releases.",
+      "source": [".github/workflows/**"],
+      "documentation": ["docs/FEATURES.md#release-and-cache-automation", "README.md#cicd-pipeline"],
+      "verification": ["Review GitHub Actions results for validation, freshness, build, cache, and release events"]
+    },
+    {
+      "id": "source-linked-documentation",
+      "title": "Source-linked Python documentation",
+      "kind": "operations",
+      "status": "active",
+      "description": "Requires docstrings and a current generated source reference for every Python class, function, nested function, method, and test.",
+      "source": ["scripts/generate-reference.py", "docs/generated/**"],
+      "documentation": ["docs/FEATURES.md#source-linked-documentation", "docs/TOOLING.md#source-api-reference", "docs/generated/README.md"],
+      "verification": ["npm run docs:check"]
+    }
+  ]
+}

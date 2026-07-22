@@ -1,3 +1,5 @@
+"""Regression tests for locale creation and translation-count behavior."""
+
 import importlib.util
 import json
 import tempfile
@@ -9,6 +11,7 @@ SCRIPT_PATH = Path(__file__).resolve().parents[1] / "scripts" / "add-locale.py"
 
 
 def load_add_locale_module():
+    """Load the hyphenated add-locale script as an isolated test module."""
     spec = importlib.util.spec_from_file_location("add_locale", SCRIPT_PATH)
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
@@ -17,7 +20,10 @@ def load_add_locale_module():
 
 
 class AddLocaleTests(unittest.TestCase):
+    """Verify locale creation statistics without touching repository catalogs."""
+
     def setUp(self):
+        """Redirect locale roots to a temporary two-project fixture."""
         self.module = load_add_locale_module()
         self.tmpdir = tempfile.TemporaryDirectory()
         self.root = Path(self.tmpdir.name)
@@ -25,9 +31,11 @@ class AddLocaleTests(unittest.TestCase):
         self.module.PROJECT_DIRS = ["cloud", "code"]
 
     def tearDown(self):
+        """Remove the temporary catalog fixture."""
         self.tmpdir.cleanup()
 
     def write_locale_file(self, project: str, locale: str, filename: str, translations: dict) -> None:
+        """Write one minimal locale fixture under the temporary root."""
         path = self.module.LOCALES_DIR / project / locale / filename
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(
@@ -36,6 +44,7 @@ class AddLocaleTests(unittest.TestCase):
         )
 
     def test_count_locale_translations_across_projects(self):
+        """Count translated and total keys across all configured projects."""
         self.write_locale_file("cloud", "ja", "common.json", {"a": "A", "b": ""})
         self.write_locale_file("code", "ja", "repo.json", {"c": "C"})
 
@@ -45,6 +54,7 @@ class AddLocaleTests(unittest.TestCase):
         self.assertEqual(keys, 3)
 
     def test_locale_status_labels_completion_states(self):
+        """Map empty, partial, and complete counts to stable status labels."""
         self.assertEqual(self.module.locale_status(0, 0), ("EMPTY", 0))
         self.assertEqual(self.module.locale_status(1, 2), ("WIP", 50.0))
         self.assertEqual(self.module.locale_status(2, 2), ("OK", 100.0))

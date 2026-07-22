@@ -156,6 +156,7 @@ def update_locale_files(locale: str, translations: dict, dry_run: bool = False) 
 
 
 def main():
+    """Import selected Cloud override values into locale source catalogs."""
     parser = argparse.ArgumentParser(
         description='Import translations from flyto-cloud local-overrides.js'
     )

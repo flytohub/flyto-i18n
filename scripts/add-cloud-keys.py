@@ -29,6 +29,7 @@ DYNAMIC_PREFIXES = ['modules.']
 
 
 def flatten(obj, prefix=''):
+    """Flatten nested translation values into dotted keys."""
     result = {}
     for k, v in obj.items():
         fk = f'{prefix}.{k}' if prefix else k
@@ -73,6 +74,7 @@ def key_to_english(key):
 
 
 def main():
+    """Scan Flyto2 Cloud sources and append missing English keys."""
     if not CLOUD_SRC.exists():
         print(f"Error: flyto-cloud frontend src not found at {CLOUD_SRC}")
         sys.exit(1)

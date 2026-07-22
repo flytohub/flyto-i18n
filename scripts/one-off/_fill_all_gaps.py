@@ -42,6 +42,7 @@ def get_en_value(scope, key):
 en_cache = {}
 
 def load_en_cache(scope):
+    """Load and cache non-empty English values for one historical scope."""
     if scope in en_cache:
         return en_cache[scope]
     en_dir = LOCALES_DIR / scope / 'en'
@@ -57,6 +58,7 @@ def load_en_cache(scope):
 
 
 def fill_scope(scope):
+    """Fill empty values in one scope using the legacy English fallback rule."""
     total_filled = 0
     en_vals = load_en_cache(scope)
 
@@ -105,6 +107,7 @@ def fill_scope(scope):
 
 
 def main():
+    """Run the historical all-scope gap fill and report remaining empties."""
     grand_total = 0
     for scope in ['cloud', 'code', 'landing', 'app', 'console', 'data']:
         filled = fill_scope(scope)

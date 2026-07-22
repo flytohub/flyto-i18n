@@ -15,14 +15,18 @@ This script:
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Dict
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import PROJECT_DIRS  # noqa: E402
+
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-
-# All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data']
 
 
 def get_locales() -> list:
@@ -121,6 +125,7 @@ def sync_locale_in_project(project: str, locale: str, dry_run: bool = False) -> 
 
 
 def main():
+    """Synchronize selected locale catalogs against the English baseline."""
     parser = argparse.ArgumentParser(description='Sync all locales with English')
     parser.add_argument('--dry-run', action='store_true', help='Show changes without applying')
     parser.add_argument('--locale', '-l', help='Sync specific locale only')

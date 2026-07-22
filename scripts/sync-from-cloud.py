@@ -121,19 +121,20 @@ def generate_locale_file(
     category: str,
     keys: Set[str],
     locale: str,
-    dry_run: bool = False
+    dry_run: bool = False,
+    delete_stale: bool = False,
 ) -> Tuple[int, int, int]:
-    """Generate a locale JSON file for a category."""
+    """Generate one category while preserving unscanned keys by default."""
     locale_dir = CLOUD_DIR / locale
 
     existing = load_existing_translations(locale, category)
 
-    translations = {}
+    translations = {} if delete_stale else dict(existing)
     new_count = 0
     preserved_count = 0
 
     for key in sorted(keys):
-        if key in existing and existing[key]:
+        if key in existing:
             translations[key] = existing[key]
             preserved_count += 1
         else:
@@ -141,7 +142,7 @@ def generate_locale_file(
             new_count += 1
 
     removed_keys = set(existing.keys()) - keys
-    removed_count = len(removed_keys)
+    removed_count = len(removed_keys) if delete_stale else 0
 
     output = {
         "$schema": "../../../schema/locale.schema.json",
@@ -161,19 +162,19 @@ def generate_locale_file(
     change_str = f" ({', '.join(change_info)})" if change_info else ""
 
     if dry_run:
-        print(f"    Would write {file_path.name}: {len(keys)} keys{change_str}")
+        print(f"    Would write {file_path.name}: {len(translations)} keys{change_str}")
     else:
         locale_dir.mkdir(parents=True, exist_ok=True)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
             f.write('\n')
-        print(f"    Wrote {file_path.name}: {len(keys)} keys{change_str}")
+        print(f"    Wrote {file_path.name}: {len(translations)} keys{change_str}")
 
-    return len(keys), new_count, removed_count
+    return len(translations), new_count, removed_count
 
 
-def sync_from_cloud(cloud_path: str, dry_run: bool = False):
-    """Main sync function."""
+def sync_from_cloud(cloud_path: str, dry_run: bool = False, delete_stale: bool = False):
+    """Synchronize scanned Cloud keys with explicit opt-in deletion."""
     cloud_path = Path(cloud_path).resolve()
 
     if not cloud_path.exists():
@@ -182,7 +183,7 @@ def sync_from_cloud(cloud_path: str, dry_run: bool = False):
 
     print(f"Syncing from flyto-cloud at: {cloud_path}")
     print(f"Target: {CLOUD_DIR}")
-    print(f"Mode: {'DRY RUN' if dry_run else 'LIVE'}")
+    print(f"Mode: {'DRY RUN' if dry_run else 'LIVE'} / {'DELETE STALE' if delete_stale else 'PRESERVE STALE'}")
     print("-" * 60)
 
     categories = extract_all_keys(cloud_path)
@@ -211,7 +212,7 @@ def sync_from_cloud(cloud_path: str, dry_run: bool = False):
         for category in sorted(categories.keys()):
             keys = categories[category]
             key_count, new_count, removed_count = generate_locale_file(
-                category, keys, locale, dry_run
+                category, keys, locale, dry_run, delete_stale
             )
 
             if locale == 'en':
@@ -237,6 +238,7 @@ def sync_from_cloud(cloud_path: str, dry_run: bool = False):
 
 
 def main():
+    """Parse CLI options and synchronize keys from a Cloud checkout."""
     parser = argparse.ArgumentParser(
         description='Sync translation keys from flyto-cloud Vue files'
     )
@@ -250,9 +252,14 @@ def main():
         action='store_true',
         help='Preview changes without writing files'
     )
+    parser.add_argument(
+        '--delete-stale',
+        action='store_true',
+        help='Delete existing keys absent from the scanner result (destructive)'
+    )
 
     args = parser.parse_args()
-    sync_from_cloud(args.cloud_path, args.dry_run)
+    sync_from_cloud(args.cloud_path, args.dry_run, args.delete_stale)
 
 
 if __name__ == '__main__':

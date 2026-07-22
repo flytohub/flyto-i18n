@@ -13,6 +13,7 @@ import argparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def collect(lang):
+    """Collect namespaced translation values for one locale."""
     keys = {}
     for f in glob.glob(os.path.join(ROOT, 'locales', '**', '*.json'), recursive=True):
         if lang not in f.split(os.sep):
@@ -30,6 +31,7 @@ def collect(lang):
     return keys
 
 def main():
+    """Report legacy translation coverage and enforce an optional threshold."""
     ap = argparse.ArgumentParser()
     ap.add_argument('--min', type=float, default=None, help='低於此覆蓋率(%)則 exit 1')
     ap.add_argument('--lang', default=None, help='只檢查單一語言')

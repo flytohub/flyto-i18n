@@ -323,6 +323,7 @@ def sync_project(name: str, config: dict, dry_run: bool = False):
 
 
 def main():
+    """Copy built bundles into selected sibling consumer repositories."""
     parser = argparse.ArgumentParser(
         description='Sync dist/ translations to consuming projects'
     )

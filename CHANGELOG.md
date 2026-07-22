@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added English, Traditional Chinese, and Simplified Chinese copy for the
+  one-time Warroom CE administrator setup flow, with synchronized placeholders
+  in every supported code locale.
 - Added the Flyto2 Warroom CE deterministic product-loop copy for all supported
   `flyto-code` locale catalogs, including loading, error, evidence, surface,
   metric, safe-mode, and Enterprise-boundary states.
@@ -25,9 +28,17 @@
   locale deletion, manifest sync behavior, and `scripts/add-locale.py` locale
   coverage status calculation.
 - Added project memory files, workflow docs, and handoff registry.
+- Added feature, locale, distribution, multilingual SEO, and full tooling
+  references plus a machine-readable feature-to-source manifest.
+- Added an AST-enforced generated reference for all 188 Python declarations.
+- Added Draft-07 locale and repository manifest validation plus regression tests.
+- Added a non-mutating placeholder parity audit with JSON and scoped strict modes.
+- Added regression coverage for root manifest synchronization and the safe Thai
+  historical batch CLI.
 
 ### Changed
 
+- Rebuilt and synchronized `dist/code` bundles for first-run CE onboarding.
 - Rebuilt distribution bundles and synchronized the CE product-loop catalog to
   the consuming `flyto-code` package.
 - Updated public locale values to use the Flyto2 brand and the preferred
@@ -46,3 +57,15 @@
   data.
 - Reduced `scripts/add-locale.py` list complexity by extracting locale coverage
   counting and status formatting helpers.
+- Extended generated-artifact freshness and build triggers to SEO source and
+  locale contract changes; cache purge now includes Engine and metadata files.
+- Replaced the outdated CI timing/consumer claim with the actual workflow and
+  external-state contract.
+- Synchronized root locale coverage from deterministic aggregate build evidence
+  and extended freshness automation to cover `manifest.json`.
+- Replaced the Thai batch's absolute workstation path and import-time writes
+  with an explicit repository-relative, dry-run-aware CLI.
+- Changed Core and Cloud key synchronization to preserve scanner-omitted values
+  by default, with destructive deletion available only through
+  `--delete-stale`; added regression tests for both paths.
+- Unified operational project-scope lists through `i18n_contract.PROJECT_DIRS`.

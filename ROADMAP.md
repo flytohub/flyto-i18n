@@ -6,6 +6,8 @@
 - Keep release-impacting changes covered by tests, guards, docs, or handoffs.
 - Keep `dist/` and `dist/seo-manifest.json` generated from source, never edited
   by hand.
+- Keep Python declaration documentation and Draft-07 validation in the closed
+  verification loop.
 
 ## P1
 
@@ -14,7 +16,8 @@
   alternate language, sitemap, and localized metadata generation.
 - Keep product-line and public-surface mapping current with Flyto2 release
   gates.
-- Add a stale-check CI step for `python3 scripts/build-seo-manifest.py --check`.
+- Remediate placeholder mismatches in reviewed locale batches before enabling
+  repository-wide strict parity.
 
 ## P2
 

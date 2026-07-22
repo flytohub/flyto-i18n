@@ -8,9 +8,12 @@ distribution builds, and consumer sync.
 ```bash
 python3 scripts/validate.py --strict
 python3 scripts/coverage.py
+python3 scripts/audit-placeholders.py --json
 python3 scripts/build-dist.py
+python3 scripts/build-seo-manifest.py --check
 python3 scripts/sync-locales.py --project code
 python3 scripts/sync-to-projects.py --project code
+python3 scripts/generate-reference.py
 ```
 
 ## Editing Rules
@@ -27,3 +30,8 @@ python3 scripts/sync-to-projects.py --project code
 
 `build-dist.py` writes CDN-ready artifacts into `dist/`. `sync-to-projects.py`
 copies built artifacts into consuming repositories such as `flyto-code`.
+
+See [the full tooling contract](../docs/TOOLING.md) for every read-only check,
+writer, cross-repository operation, networked translation command, and
+historical migration. Every Python declaration is indexed in the
+[generated source reference](../docs/generated/python-symbols.md).

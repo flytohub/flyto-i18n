@@ -14,8 +14,11 @@ on:
     branches: [main]
     paths:
       - 'locales/**'
+      - 'seo/**'
       - 'dist/**'
       - 'scripts/build-dist.py'
+      - 'scripts/build-seo-manifest.py'
+      - 'scripts/i18n_contract.py'
       - '.github/workflows/check-dist-fresh.yml'
   # Also gate direct pushes. Without this, a bypassed-PR push leaves
   # the CDN serving stale dist until build-dist.yml auto-fixes,
@@ -25,8 +28,11 @@ on:
     branches: [main]
     paths:
       - 'locales/**'
+      - 'seo/**'
       - 'dist/**'
       - 'scripts/build-dist.py'
+      - 'scripts/build-seo-manifest.py'
+      - 'scripts/i18n_contract.py'
 
 jobs:
   check:
@@ -40,16 +46,18 @@ jobs:
           python-version: '3.11'
 
       - name: Rebuild dist into a working copy
-        run: python scripts/build-dist.py
+        run: |
+          python scripts/build-dist.py
+          python scripts/build-seo-manifest.py
 
-      - name: Diff against committed dist
+      - name: Diff against committed distribution metadata
         id: diff
         run: |
-          if git diff --quiet dist/; then
-            echo "✓ dist/ is up to date"
+          if git diff --quiet -- dist/ manifest.json; then
+            echo "✓ dist/ and manifest.json are up to date"
           else
-            echo "::error::dist/ is stale — rebuild locally and re-commit:"
-            echo "::error::  python3 scripts/build-dist.py && git add dist/ && git commit --amend --no-edit"
-            git --no-pager diff --stat dist/
+            echo "::error::distribution metadata is stale — rebuild locally and re-commit:"
+            echo "::error::  python3 scripts/build-dist.py && git add dist/ manifest.json && git commit --amend --no-edit"
+            git --no-pager diff --stat -- dist/ manifest.json
             exit 1
           fi

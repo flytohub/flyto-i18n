@@ -106,6 +106,7 @@ def split_translations(data: Dict, groups: Dict[str, List[str]]) -> Dict[str, Di
 
 
 def main():
+    """Split supported Cloud source bundles into category catalogs."""
     parser = argparse.ArgumentParser(description='Split cloud translations')
     parser.add_argument('--cloud-path', default='../flyto-cloud',
                         help='Path to flyto-cloud')

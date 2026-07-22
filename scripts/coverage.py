@@ -121,6 +121,7 @@ def print_coverage_report(locale: str, stats: Dict):
 
 
 def main():
+    """Render locale coverage as a table or machine-readable JSON."""
     parser = argparse.ArgumentParser(description='Generate coverage report')
     parser.add_argument('--locale', '-l', help='Specific locale to check')
     parser.add_argument('--project', '-p', help='Specific project (cloud, modules, landing, shared)')

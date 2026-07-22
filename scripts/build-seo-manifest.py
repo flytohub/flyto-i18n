@@ -154,6 +154,7 @@ def render_json(payload: dict) -> str:
 
 
 def main() -> None:
+    """Build or freshness-check the multilingual SEO manifest."""
     parser = argparse.ArgumentParser(description="Build dist/seo-manifest.json")
     parser.add_argument("--check", action="store_true", help="Fail if dist/seo-manifest.json is stale")
     args = parser.parse_args()

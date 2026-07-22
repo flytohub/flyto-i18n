@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Apply the historical four-locale saved-locally report-string migration."""
+
 import json
 import sys
 import io

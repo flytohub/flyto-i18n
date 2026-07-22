@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Fill the 2026-05 Japanese Code gap batch without replacing existing text."""
+
 # fill-ja-code-gaps.py — one-off, append-only ja gap filler.
 # Adds machine-translated entries for keys present in en/code.json
 # but missing/empty in ja/code.json. Existing ja values are NEVER
@@ -584,6 +586,7 @@ T = {
 
 
 def main():
+    """Append the fixed historical Japanese translation dictionary."""
     doc = json.loads(JA.read_text(encoding='utf-8'))
     tr = doc['translations']
     added = 0

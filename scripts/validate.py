@@ -18,6 +18,8 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
+from jsonschema import Draft7Validator
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
@@ -36,10 +38,36 @@ CRITICAL_NON_EMPTY_PREFIXES = {
 
 
 def load_schema() -> Dict:
-    """Load locale schema."""
+    """Load and validate the Draft-07 locale source schema."""
     schema_path = SCHEMA_DIR / 'locale.schema.json'
     with open(schema_path) as f:
-        return json.load(f)
+        schema = json.load(f)
+    Draft7Validator.check_schema(schema)
+    return schema
+
+
+def load_manifest_schema() -> Dict:
+    """Load and validate the repository manifest schema."""
+    schema_path = SCHEMA_DIR / 'manifest.schema.json'
+    with open(schema_path) as f:
+        schema = json.load(f)
+    Draft7Validator.check_schema(schema)
+    return schema
+
+
+def schema_errors(data: Dict, schema: Dict, file_path: Path) -> List[Dict]:
+    """Convert sorted JSON Schema violations into validation findings."""
+    findings = []
+    validator = Draft7Validator(schema)
+    for error in sorted(validator.iter_errors(data), key=lambda item: list(item.absolute_path)):
+        location = '.'.join(str(part) for part in error.absolute_path)
+        findings.append({
+            'file': str(file_path),
+            'type': 'schema_error',
+            'key': location,
+            'message': f"Schema violation{f' at {location}' if location else ''}: {error.message}",
+        })
+    return findings
 
 
 def get_locales(project: str = None) -> list:
@@ -70,8 +98,8 @@ def load_base_keys() -> set:
     return keys
 
 
-def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
-    """Validate a single translation file."""
+def validate_file(file_path: Path, base_keys: set, schema: Dict = None) -> List[Dict]:
+    """Validate one locale catalog against schema and business rules."""
     errors = []
 
     try:
@@ -85,50 +113,18 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
         })
         return errors
 
-    # Check required fields
-    for field in ['locale', 'category', 'version', 'translations']:
-        if field not in data:
-            errors.append({
-                'file': str(file_path),
-                'type': 'missing_field',
-                'message': f"Missing required field: '{field}'"
-            })
+    errors.extend(schema_errors(data, schema or load_schema(), file_path))
 
-    if 'translations' not in data:
+    if not isinstance(data.get('translations'), dict):
         return errors
 
     translations = data['translations']
     locale = data.get('locale') or file_path.parent.name
     category = data.get('category') or file_path.stem
 
-    key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)+$')
-    options_key_pattern = re.compile(r'^[a-zA-Z][a-zA-Z0-9_-]*(\.[a-zA-Z0-9_][a-zA-Z0-9_-]*)*\.options\..+$')
-
     for key, value in translations.items():
-        if not key_pattern.match(key) and not options_key_pattern.match(key):
-            errors.append({
-                'file': str(file_path),
-                'type': 'invalid_key',
-                'key': key,
-                'message': f"Invalid key format: '{key}'"
-            })
-
         if not isinstance(value, str):
-            errors.append({
-                'file': str(file_path),
-                'type': 'invalid_value',
-                'key': key,
-                'message': f"Value must be string, got {type(value).__name__}"
-            })
             continue
-
-        if len(value) > 800:
-            errors.append({
-                'file': str(file_path),
-                'type': 'value_too_long',
-                'key': key,
-                'message': f"Value too long ({len(value)} > 800 chars)"
-            })
 
         if '<script' in value.lower() or 'javascript:' in value.lower():
             errors.append({
@@ -173,7 +169,7 @@ def validate_file(file_path: Path, base_keys: set) -> List[Dict]:
     return errors
 
 
-def validate_locale(locale: str, base_keys: set, projects: list = None) -> List[Dict]:
+def validate_locale(locale: str, base_keys: set, projects: list = None, schema: Dict = None) -> List[Dict]:
     """Validate all files for a locale across project directories."""
     all_errors = []
     dirs = projects or PROJECT_DIRS
@@ -183,7 +179,7 @@ def validate_locale(locale: str, base_keys: set, projects: list = None) -> List[
         if not locale_dir.exists():
             continue
         for json_file in locale_dir.glob('*.json'):
-            errors = validate_file(json_file, base_keys)
+            errors = validate_file(json_file, base_keys, schema)
             all_errors.extend(errors)
 
     return all_errors
@@ -201,6 +197,7 @@ def count_files(locale: str, projects: list = None) -> int:
 
 
 def main():
+    """Validate selected catalogs and return a strict-mode exit status."""
     parser = argparse.ArgumentParser(description='Validate translation files')
     parser.add_argument('--locale', '-l', help='Validate specific locale')
     parser.add_argument('--project', '-p', help='Validate specific project (cloud, modules, landing, shared)')
@@ -209,20 +206,40 @@ def main():
 
     projects = [args.project] if args.project else None
     base_keys = load_base_keys()
+    locale_schema = load_schema()
+    manifest_path = PROJECT_ROOT / 'manifest.json'
+    with open(manifest_path, encoding='utf-8') as manifest_file:
+        manifest_errors = schema_errors(
+            json.load(manifest_file),
+            load_manifest_schema(),
+            manifest_path,
+        )
 
     if args.locale:
         locales = [args.locale]
     else:
         locales = get_locales(args.project)
 
-    total_errors = 0
+    total_errors = len(manifest_errors)
     total_files = 0
+
+    if manifest_errors:
+        print(f"[manifest] {len(manifest_errors)} error(s):")
+        for error in manifest_errors:
+            print(f"  - {error['message']}")
+    else:
+        print("[manifest] OK")
 
     for locale in locales:
         files = count_files(locale, projects)
         total_files += files
 
-        errors = validate_locale(locale, base_keys if locale != 'en' else set(), projects)
+        errors = validate_locale(
+            locale,
+            base_keys if locale != 'en' else set(),
+            projects,
+            locale_schema,
+        )
 
         if errors:
             print(f"\n[{locale}] {len(errors)} error(s):")

@@ -10,112 +10,144 @@
       "native_name": "English",
       "coverage": 99.8,
       "status": "official",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
       "coverage": 98.6,
       "status": "official",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "zh-CN": {
       "name": "Simplified Chinese",
       "native_name": "简体中文",
       "coverage": 98.2,
       "status": "official",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "ja": {
       "name": "Japanese",
       "native_name": "日本語",
-      "coverage": 93.3,
+      "coverage": 92.9,
       "status": "official",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "ko": {
       "name": "Korean",
       "native_name": "한국어",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "fr": {
       "name": "French",
       "native_name": "Français",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "es": {
       "name": "Spanish",
       "native_name": "Español",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "hi": {
       "name": "Hindi",
       "native_name": "हिन्दी",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "de": {
       "name": "German",
       "native_name": "Deutsch",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "pt-BR": {
       "name": "Portuguese (Brazil)",
       "native_name": "Português (Brasil)",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "vi": {
       "name": "Vietnamese",
       "native_name": "Tiếng Việt",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "id": {
       "name": "Indonesian",
       "native_name": "Bahasa Indonesia",
-      "coverage": 82.4,
+      "coverage": 82.1,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "th": {
       "name": "Thai",
       "native_name": "ภาษาไทย",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "tr": {
       "name": "Turkish",
       "native_name": "Türkçe",
-      "coverage": 81.9,
+      "coverage": 81.6,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "pl": {
       "name": "Polish",
       "native_name": "Polski",
-      "coverage": 82.4,
+      "coverage": 82.1,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     },
     "it": {
       "name": "Italian",
       "native_name": "Italiano",
-      "coverage": 82.4,
+      "coverage": 82.1,
       "status": "community",
-      "maintainers": ["@flytohub"]
+      "maintainers": [
+        "@flytohub"
+      ]
     }
   },
   "projects": {

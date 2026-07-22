@@ -16,25 +16,26 @@ Requirements:
     export OPENAI_API_KEY=sk-xxx
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import os
 import sys
 from pathlib import Path
-from typing import Dict, Tuple
+from typing import TYPE_CHECKING, Dict, Tuple
 
-try:
+if TYPE_CHECKING:
     from openai import OpenAI
-except ImportError:
-    print("Error: openai package not installed")
-    print("Run: pip install openai")
-    sys.exit(1)
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import PROJECT_DIRS  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
-
-# All project directories
-PROJECT_DIRS = ['cloud', 'modules', 'landing', 'shared', 'app', 'code', 'console', 'data', 'engine']
 
 # Batch size for API calls (too large may hit token limits)
 BATCH_SIZE = 50
@@ -442,6 +443,7 @@ def translate_file(
 
 
 def main():
+    """Translate selected public strings as drafts using the OpenAI API."""
     parser = argparse.ArgumentParser(
         description='Translate i18n files using OpenAI',
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -486,7 +488,15 @@ Examples:
         print("Run: export OPENAI_API_KEY=sk-xxx")
         sys.exit(1)
 
-    client = OpenAI(api_key=api_key) if api_key else None
+    client = None
+    if not args.dry_run:
+        try:
+            from openai import OpenAI
+        except ImportError:
+            print("Error: openai package not installed")
+            print("Run: python3 -m pip install -r requirements.txt")
+            return 1
+        client = OpenAI(api_key=api_key)
 
     print(f"Translating to: {args.target}")
     print(f"Model: {args.model}")
@@ -551,7 +561,8 @@ Examples:
 
     if args.dry_run:
         print("\nRun without --dry-run to apply translations")
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())
