@@ -90,6 +90,7 @@ class SyncToProjectsTests(unittest.TestCase):
         )
 
     def test_flow_target_uses_static_flow_scope_and_manifest(self):
+        """Keep Flow on its static scope with the bundled manifest contract."""
         target = self.module.SYNC_TARGETS["flow"]
 
         self.assertEqual(target["repo"], "flyto-flow")
