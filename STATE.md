@@ -27,6 +27,9 @@ Current state on 2026-07-22:
 - Warroom CE appearance controls now have non-empty light, dark, and
   system-following labels in all 16 supported code locales; generated
   `dist/code` and aggregate bundles carry the same keys.
+- The Cloud synchronization workflow prefers the repository-wide cross-repo
+  token and retains the older Cloud-specific token only as a compatibility
+  fallback; secret values are never stored in the repository.
 - `code.communityLoop.*` is a critical non-empty namespace for Traditional and
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
@@ -75,3 +78,6 @@ Verification evidence captured on 2026-07-22:
   non-blocking until those strings are reviewed and corrected by locale.
 - Core and Cloud real-checkout dry-runs completed without writing upstream
   changes and confirmed default preservation of scanner-omitted keys.
+- `Sync from Cloud` still requires an authorized GitHub Actions secret with
+  read access to the private `flyto-cloud` repository; a manual dispatch is
+  the final remote authorization check.

@@ -30,7 +30,7 @@ jobs:
           repository: flytohub/flyto-cloud
           path: flyto-cloud
           ref: ${{ github.event.client_payload.ref || inputs.cloud_ref || 'main' }}
-          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN || secrets.FLYTO_CLOUD_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -53,10 +53,10 @@ jobs:
         id: changes
         run: |
           if git diff --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes detected"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Changes detected:"
             git diff --stat
           fi
@@ -66,7 +66,7 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN || secrets.FLYTO_CLOUD_TOKEN }}
           title: "sync: update UI keys from flyto-cloud"
           body: |
             ## Auto-synced i18n keys from flyto-cloud
@@ -93,20 +93,20 @@ jobs:
       - name: PR status
         if: steps.cpr.outputs.pull-request-number
         run: |
-          NEW_EMPTY=$(git diff --name-only | xargs grep -l '": ""' 2>/dev/null | wc -l || echo "0")
-          echo "## Sync PR Created" >> $GITHUB_STEP_SUMMARY
-          echo "PR #${{ steps.cpr.outputs.pull-request-number }} requires review before merge." >> $GITHUB_STEP_SUMMARY
+          NEW_EMPTY="$(git diff --name-only -z | xargs -0 -r grep -l '": ""' 2>/dev/null | wc -l)"
+          echo "## Sync PR Created" >> "$GITHUB_STEP_SUMMARY"
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} requires review before merge." >> "$GITHUB_STEP_SUMMARY"
           if [ "$NEW_EMPTY" -gt "0" ]; then
-            echo "**$NEW_EMPTY file(s) have empty translations** — fill before merging." >> $GITHUB_STEP_SUMMARY
+            echo "**$NEW_EMPTY file(s) have empty translations** — fill before merging." >> "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Summary
         run: |
-          echo "## Sync Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Sync Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
           if [ "${{ steps.changes.outputs.changed }}" == "true" ]; then
-            echo "✅ Changes detected and PR created" >> $GITHUB_STEP_SUMMARY
-            echo "PR: #${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Changes detected and PR created" >> "$GITHUB_STEP_SUMMARY"
+            echo "PR: #${{ steps.cpr.outputs.pull-request-number }}" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️ No changes detected" >> "$GITHUB_STEP_SUMMARY"
           fi
