@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "ไม่สามารถดำเนินการต่อได้",
     "templateBuilder.messages.runToEndFailed": "ไม่สามารถรันจนจบได้",
     "templateBuilder.messages.runningToEnd": "กำลังรันจนจบ...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "กำลังเริ่มดำเนินการ workflow...",
     "templateBuilder.messages.stepExecuted": "ดำเนินการขั้นตอนสำเร็จ",
     "templateBuilder.messages.stepFailed": "การดำเนินการขั้นตอนล้มเหลว",

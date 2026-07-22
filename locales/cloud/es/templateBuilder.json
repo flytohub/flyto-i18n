@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Error al reanudar la ejecucion",
     "templateBuilder.messages.runToEndFailed": "Error al ejecutar hasta el final",
     "templateBuilder.messages.runningToEnd": "Ejecutando hasta el final...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "Iniciando ejecucion del flujo de trabajo...",
     "templateBuilder.messages.stepExecuted": "Paso ejecutado exitosamente",
     "templateBuilder.messages.stepFailed": "Ejecucion del paso fallida",

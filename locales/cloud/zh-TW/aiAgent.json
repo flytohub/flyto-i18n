@@ -19,6 +19,10 @@
     "aiAgent.systemPromptPlaceholder": "系統提示佔位",
     "aiAgent.task": "任務",
     "aiAgent.taskPlaceholder": "描述代理應該完成的任務...",
-    "aiAgent.temperature": "溫度"
+    "aiAgent.temperature": "溫度",
+    "aiAgent.advancedOptions": "",
+    "aiAgent.maxIterations": "",
+    "aiAgent.maxIterationsHint": "",
+    "aiAgent.model": ""
   }
 }

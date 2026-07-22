@@ -116,6 +116,7 @@
     "templateBuilder.messages.resumeFailed": "Gagal melanjutkan eksekusi",
     "templateBuilder.messages.runToEndFailed": "Gagal menjalankan sampai selesai",
     "templateBuilder.messages.runningToEnd": "Menjalankan sampai selesai...",
+    "templateBuilder.messages.saveFailed": "",
     "templateBuilder.messages.startingExecution": "Memulai eksekusi workflow...",
     "templateBuilder.messages.stepExecuted": "Langkah berhasil dieksekusi",
     "templateBuilder.messages.stepFailed": "Eksekusi langkah gagal",

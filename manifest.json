@@ -8,7 +8,7 @@
     "en": {
       "name": "English",
       "native_name": "English",
-      "coverage": 99.8,
+      "coverage": 99.2,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -17,7 +17,7 @@
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
-      "coverage": 98.6,
+      "coverage": 98.0,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -26,7 +26,7 @@
     "zh-CN": {
       "name": "Simplified Chinese",
       "native_name": "简体中文",
-      "coverage": 98.2,
+      "coverage": 97.6,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -35,7 +35,7 @@
     "ja": {
       "name": "Japanese",
       "native_name": "日本語",
-      "coverage": 92.9,
+      "coverage": 92.3,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -44,7 +44,7 @@
     "ko": {
       "name": "Korean",
       "native_name": "한국어",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -53,7 +53,7 @@
     "fr": {
       "name": "French",
       "native_name": "Français",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -62,7 +62,7 @@
     "es": {
       "name": "Spanish",
       "native_name": "Español",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -71,7 +71,7 @@
     "hi": {
       "name": "Hindi",
       "native_name": "हिन्दी",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -80,7 +80,7 @@
     "de": {
       "name": "German",
       "native_name": "Deutsch",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -89,7 +89,7 @@
     "pt-BR": {
       "name": "Portuguese (Brazil)",
       "native_name": "Português (Brasil)",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -98,7 +98,7 @@
     "vi": {
       "name": "Vietnamese",
       "native_name": "Tiếng Việt",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -107,7 +107,7 @@
     "id": {
       "name": "Indonesian",
       "native_name": "Bahasa Indonesia",
-      "coverage": 82.1,
+      "coverage": 81.6,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -116,7 +116,7 @@
     "th": {
       "name": "Thai",
       "native_name": "ภาษาไทย",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -125,7 +125,7 @@
     "tr": {
       "name": "Turkish",
       "native_name": "Türkçe",
-      "coverage": 81.6,
+      "coverage": 81.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -134,7 +134,7 @@
     "pl": {
       "name": "Polish",
       "native_name": "Polski",
-      "coverage": 82.1,
+      "coverage": 81.6,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -143,7 +143,7 @@
     "it": {
       "name": "Italian",
       "native_name": "Italiano",
-      "coverage": 82.1,
+      "coverage": 81.6,
       "status": "community",
       "maintainers": [
         "@flytohub"
