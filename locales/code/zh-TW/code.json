@@ -7527,6 +7527,7 @@
     "code.sys.sso.title": "SAML SSO",
     "code.theme.dark": "深色",
     "code.theme.light": "淺色",
+    "code.theme.system": "跟隨系統",
     "code.theme.toggle": "變更色彩主題",
     "code.threatIntel.activeGroups": "活躍集團",
     "code.threatIntel.activeOrigins": "來源國家",

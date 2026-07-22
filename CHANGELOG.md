@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added localized light, dark, and system-following appearance labels for all
+  16 `flyto-code` locales used by Warroom CE.
 - Added English, Traditional Chinese, and Simplified Chinese copy for the
   one-time Warroom CE administrator setup flow, with synchronized placeholders
   in every supported code locale.
@@ -38,6 +40,8 @@
 
 ### Changed
 
+- Filled the previously empty light and dark appearance labels in non-English
+  code catalogs and rebuilt the tracked `dist/code` plus aggregate bundles.
 - Rebuilt and synchronized `dist/code` bundles for first-run CE onboarding.
 - Rebuilt distribution bundles and synchronized the CE product-loop catalog to
   the consuming `flyto-code` package.

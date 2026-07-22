@@ -7527,6 +7527,7 @@
     "code.sys.sso.title": "SAML SSO",
     "code.theme.dark": "Dark",
     "code.theme.light": "Light",
+    "code.theme.system": "System",
     "code.theme.toggle": "Change color theme",
     "code.threatIntel.activeGroups": "Active groups",
     "code.threatIntel.activeOrigins": "active origins",

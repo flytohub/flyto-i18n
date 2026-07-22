@@ -24,6 +24,9 @@ Current state on 2026-07-22:
 - Warroom CE one-time administrator setup copy is translated in English,
   Traditional Chinese, and Simplified Chinese, present in all code locale
   catalogs, and synchronized into the consuming frontend bundles.
+- Warroom CE appearance controls now have non-empty light, dark, and
+  system-following labels in all 16 supported code locales; generated
+  `dist/code` and aggregate bundles carry the same keys.
 - `code.communityLoop.*` is a critical non-empty namespace for Traditional and
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
