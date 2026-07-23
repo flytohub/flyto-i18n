@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout flyto-i18n
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Checkout flyto-core
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: flytohub/flyto-core
           path: flyto-core
@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.FLYTO_CORE_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.11'
 
@@ -50,9 +50,9 @@ jobs:
         id: changes
         run: |
           if git diff --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Changes detected:"
             git diff --stat
           fi
@@ -60,7 +60,7 @@ jobs:
       - name: Create Pull Request
         id: cpr
         if: steps.changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ secrets.FLYTO_CORE_TOKEN }}
           title: "sync: update keys from flyto-core"
@@ -86,7 +86,7 @@ jobs:
         if: steps.cpr.outputs.pull-request-number
         run: |
           echo "PR #${{ steps.cpr.outputs.pull-request-number }} created — please review before merging."
-          echo "## Sync PR Created" >> $GITHUB_STEP_SUMMARY
-          echo "PR #${{ steps.cpr.outputs.pull-request-number }} requires review before merge." >> $GITHUB_STEP_SUMMARY
+          echo "## Sync PR Created" >> "$GITHUB_STEP_SUMMARY"
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }} requires review before merge." >> "$GITHUB_STEP_SUMMARY"
         env:
           GH_TOKEN: ${{ secrets.FLYTO_CORE_TOKEN }}

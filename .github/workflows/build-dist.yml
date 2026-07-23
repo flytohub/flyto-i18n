@@ -20,10 +20,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.11'
 
@@ -36,9 +36,9 @@ jobs:
         id: changes
         run: |
           if git diff --quiet -- dist/ manifest.json; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push dist
@@ -55,11 +55,12 @@ jobs:
         run: |
           echo "Purging jsDelivr CDN cache..."
           for scope in cloud landing app code console data engine; do
-            for locale in $(ls dist/$scope/*.json 2>/dev/null | xargs -I{} basename {} .json); do
+            while IFS= read -r locale_file; do
+              locale="$(basename "$locale_file" .json)"
               [ "$locale" = "manifest" ] && continue
               curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/$scope/$locale.json" > /dev/null
               echo "  Purged dist/$scope/$locale.json"
-            done
+            done < <(find "dist/$scope" -maxdepth 1 -type f -name '*.json' -print)
             curl -s "https://purge.jsdelivr.net/gh/flytohub/flyto-i18n@main/dist/$scope/manifest.json" > /dev/null
             echo "  Purged dist/$scope/manifest.json"
           done
