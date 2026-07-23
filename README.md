@@ -215,7 +215,8 @@ The checked-in workflows have distinct responsibilities:
 | `build-dist.yml` | Locale or SEO source changes on main | Rebuilds and commits changed `dist/` artifacts. |
 | `purge-cdn.yml` | Changes under `dist/` | Requests jsDelivr cache purges for generated bundles. |
 | `notify-docs.yml` | Core-module locale changes | Dispatches a documentation regeneration event. |
-| `sync.yml` / `sync-cloud.yml` | Repository dispatch or manual run | Opens reviewed synchronization pull requests from Core or Cloud. |
+| `sync.yml` | Repository dispatch or manual run | Opens reviewed synchronization pull requests from Core. |
+| Cloud-owned `trigger-i18n-sync.yml` | Cloud frontend changes or manual run | Runs the i18n Cloud scanner beside the private source and opens a reviewed pull request here. |
 | `release.yml` | Version tag | Validates and packages source locale archives as a GitHub release. |
 
 Consumers decide whether they fetch CDN artifacts at runtime or bundle copied
@@ -225,7 +226,7 @@ relevant workflow, cache, and consumer checks succeed.
 ## Testing
 
 The closed-loop test gate compiles every Python file, runs Ruff, checks the
-188-declaration generated reference, validates all source catalogs and the root
+192-declaration generated reference, validates all source catalogs and the root
 manifest, runs the regression suite, and rebuilds translation and SEO output:
 
 ```bash

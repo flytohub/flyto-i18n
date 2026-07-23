@@ -1,6 +1,6 @@
 # State
 
-Current state on 2026-07-22:
+Current state on 2026-07-23:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Product lines: cloud_apps_automation, security, data, zero_person_agent,
@@ -27,14 +27,14 @@ Current state on 2026-07-22:
 - Warroom CE appearance controls now have non-empty light, dark, and
   system-following labels in all 16 supported code locales; generated
   `dist/code` and aggregate bundles carry the same keys.
-- The Cloud synchronization workflow prefers the repository-wide cross-repo
-  token and retains the older Cloud-specific token only as a compatibility
-  fallback; secret values are never stored in the repository.
+- Cloud synchronization is owned by the private `flyto-cloud` workflow. It
+  runs this repository's scanner beside the private source and opens a reviewed
+  i18n pull request without granting this public repository Cloud read access.
 - MCP Studio now has a canonical Cloud source catalog for English, Traditional
   Chinese, and Simplified Chinese. The catalog is included in both Cloud and
   Flow distribution scopes, with other Flow locales using the English fallback.
-- The private Cloud checkout is isolated under ignored `.sync-source/`, so a
-  generated localization PR cannot stage the nested repository as a gitlink.
+- The public i18n checkout is isolated under Cloud's `.sync-target/` workspace,
+  so generated localization pull requests cannot include private Cloud source.
 - `code.communityLoop.*` is a critical non-empty namespace for Traditional and
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
@@ -68,14 +68,14 @@ Known release work:
   catalog and generator scope before treating it as fresh output.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.
 
-Verification evidence captured on 2026-07-22:
+Verification evidence captured on 2026-07-23:
 
-- MCP Studio source catalogs passed strict validation across 4,531 files; the
+- MCP Studio source catalogs passed strict validation across 4,544 files; the
   Flow-scope regression test and deterministic distribution build passed, and
   the generated Cloud and Flow bundles were synchronized to both consumers.
 
 - `npm run verify`: passed compilation, Ruff, generated-reference freshness,
-  strict schema validation of 4,531 catalogs plus the root manifest, 23 unit
+  strict schema validation of 4,544 catalogs plus the root manifest, 23 unit
   tests, every configured distribution build, and SEO-manifest freshness.
 - Shared documentation audit: passed all 6 source areas and 11 feature
   surfaces with no warnings.
@@ -87,6 +87,6 @@ Verification evidence captured on 2026-07-22:
   non-blocking until those strings are reviewed and corrected by locale.
 - Core and Cloud real-checkout dry-runs completed without writing upstream
   changes and confirmed default preservation of scanner-omitted keys.
-- `Sync from Cloud` still requires an authorized GitHub Actions secret with
-  read access to the private `flyto-cloud` repository; a manual dispatch is
-  the final remote authorization check.
+- Cloud-to-i18n synchronization no longer requires a private-Cloud read token
+  in this public repository. The Cloud-owned workflow validates the generated
+  i18n change before opening its reviewed pull request.

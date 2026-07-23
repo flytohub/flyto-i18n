@@ -121,7 +121,7 @@
       "kind": "cli",
       "status": "internal",
       "description": "Extracts translatable module and interface keys from Core and Cloud checkouts into reviewable locale-source changes.",
-      "source": ["scripts/sync-from-core.py", "scripts/sync-from-cloud.py", ".github/workflows/sync.yml", ".github/workflows/sync-cloud.yml"],
+      "source": ["scripts/sync-from-core.py", "scripts/sync-from-cloud.py", ".github/workflows/sync.yml"],
       "documentation": ["docs/FEATURES.md#upstream-key-synchronization", "docs/TOOLING.md#cross-repository-writers"],
       "tests": ["tests/test_sync_from_core.py", "tests/test_sync_from_cloud.py"]
     },
