@@ -4,6 +4,8 @@
 
 ### Added
 
+- Added English and Traditional Chinese copy plus synchronized locale fallbacks
+  for credential-free public repository onboarding in Warroom CE.
 - Added a shared MCP Studio catalog for English, Traditional Chinese, and
   Simplified Chinese, including navigation, tools, connection, audit, status,
   action, and accessibility copy.

@@ -27,6 +27,9 @@ Current state on 2026-07-23:
 - Warroom CE appearance controls now have non-empty light, dark, and
   system-following labels in all 16 supported code locales; generated
   `dist/code` and aggregate bundles carry the same keys.
+- Warroom CE direct public-repository onboarding copy is translated in English
+  and Traditional Chinese and has synchronized fallback keys in every supported
+  code locale and generated distribution bundle.
 - Cloud synchronization is owned by the private `flyto-cloud` workflow. It
   runs this repository's scanner beside the private source and opens a reviewed
   i18n pull request without granting this public repository Cloud read access.

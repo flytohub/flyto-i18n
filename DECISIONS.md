@@ -1,5 +1,14 @@
 # Decisions
 
+## 2026-07-23 - CE repository onboarding copy is bundled locally
+
+Decision: keep the Community direct-repository URL form, supported-host hint,
+validation errors, connect action, and scan-start state in the `code` locale
+catalogs and generated distribution bundles.
+
+Reason: first-run self-hosted CE must remain understandable without a network
+translation service, including before any external provider connection exists.
+
 ## 2026-06-21 - Project memory bootstrapped
 
 Decision: track Flyto2 product-line role, repo boundary, state, roadmap, tasks,
