@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Apercu des ventes",
     "dashboardPage.salesOverview.totalRevenue": "Revenus totaux",
     "dashboardPage.salesOverview.totalSales": "Total des ventes",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Cles actives",
     "dashboardPage.stats.published": "Publie",
     "dashboardPage.stats.revenue": "Revenus",

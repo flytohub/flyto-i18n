@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "販売概要",
     "dashboardPage.salesOverview.totalRevenue": "総収益",
     "dashboardPage.salesOverview.totalSales": "総販売数",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "有効なキー",
     "dashboardPage.stats.published": "公開済み",
     "dashboardPage.stats.revenue": "収益",

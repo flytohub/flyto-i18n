@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.setupWizard",
+  "version": "1.0.0",
+  "translations": {
+    "setupWizard.confirm.deviceId": "Device ID",
+    "setupWizard.confirm.deviceSecret": "Device secret",
+    "setupWizard.confirm.nextSteps": "Set FLYTO_DEVICE_ID and FLYTO_DEVICE_SECRET as environment variables for this deployment so it stays authenticated across restarts.",
+    "setupWizard.confirm.secretWarning": "This device secret is shown only once. Store it now — you will need both values to keep this deployment authenticated.",
+    "setupWizard.confirm.title": "Connected",
+    "setupWizard.confirm.workspace": "Workspace",
+    "setupWizard.pairing.code": "Pairing code",
+    "setupWizard.pairing.codePlaceholder": "e.g. 4F9A2C1B8E",
+    "setupWizard.pairing.connecting": "Connecting...",
+    "setupWizard.pairing.error": "Pairing code is invalid, expired, or already used",
+    "setupWizard.pairing.name": "Name this deployment",
+    "setupWizard.pairing.namePlaceholder": "e.g. Production server",
+    "setupWizard.pairing.submit": "Connect",
+    "setupWizard.subtitle": "Pair this self-hosted Flyto2 deployment with your Cloud account so ChatGPT can route workflow runs here.",
+    "setupWizard.title": "Connect this deployment",
+    "setupWizard.welcome.body": "You'll need a pairing code from your Flyto2 Cloud account. Generate one from Settings -> Connections -> Connect a Self-Hosted Server, then come back here.",
+    "setupWizard.welcome.connect": "I have a pairing code",
+    "setupWizard.welcome.skip": "Stay fully offline for now"
+  }
+}

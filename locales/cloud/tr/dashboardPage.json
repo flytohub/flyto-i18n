@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Satış Özeti",
     "dashboardPage.salesOverview.totalRevenue": "Toplam Gelir",
     "dashboardPage.salesOverview.totalSales": "Toplam Satış",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Aktif Anahtarlar",
     "dashboardPage.stats.published": "Yayınlandı",
     "dashboardPage.stats.revenue": "Gelir",

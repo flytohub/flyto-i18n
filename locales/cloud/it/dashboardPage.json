@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Panoramica Vendite",
     "dashboardPage.salesOverview.totalRevenue": "Ricavi Totali",
     "dashboardPage.salesOverview.totalSales": "Vendite Totali",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Chiavi Attive",
     "dashboardPage.stats.published": "Pubblicati",
     "dashboardPage.stats.revenue": "Ricavi",

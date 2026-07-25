@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Verkaufsübersicht",
     "dashboardPage.salesOverview.totalRevenue": "Gesamtumsatz",
     "dashboardPage.salesOverview.totalSales": "Verkäufe gesamt",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Aktive Schlüssel",
     "dashboardPage.stats.published": "Veröffentlicht",
     "dashboardPage.stats.revenue": "Umsatz",

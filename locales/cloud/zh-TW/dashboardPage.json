@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "銷售概覽",
     "dashboardPage.salesOverview.totalRevenue": "總收入",
     "dashboardPage.salesOverview.totalSales": "總銷售",
+    "dashboardPage.setupNudge": "此部署尚未連結到 Flyto2 Cloud 工作區。",
+    "dashboardPage.setupNudgeAction": "立即連結",
     "dashboardPage.stats.activeKeys": "啟用金鑰",
     "dashboardPage.stats.published": "已發布",
     "dashboardPage.stats.revenue": "收入",

@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "ภาพรวมยอดขาย",
     "dashboardPage.salesOverview.totalRevenue": "รายได้รวม",
     "dashboardPage.salesOverview.totalSales": "ยอดขายรวม",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "คีย์ที่ใช้งาน",
     "dashboardPage.stats.published": "เผยแพร่แล้ว",
     "dashboardPage.stats.revenue": "รายได้",

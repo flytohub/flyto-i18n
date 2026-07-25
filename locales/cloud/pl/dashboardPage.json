@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Przeglad sprzedazy",
     "dashboardPage.salesOverview.totalRevenue": "Calkowity przychod",
     "dashboardPage.salesOverview.totalSales": "Calkowita sprzedaz",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Aktywne klucze",
     "dashboardPage.stats.published": "Opublikowane",
     "dashboardPage.stats.revenue": "Przychod",

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "zh-CN",
+  "category": "cloud.setupWizard",
+  "version": "1.0.0",
+  "translations": {
+    "setupWizard.confirm.deviceId": "设备 ID",
+    "setupWizard.confirm.deviceSecret": "设备密钥",
+    "setupWizard.confirm.nextSteps": "请将 FLYTO_DEVICE_ID 与 FLYTO_DEVICE_SECRET 设为此部署的环境变量,以便在重启后仍保持已验证状态。",
+    "setupWizard.confirm.secretWarning": "此设备密钥只会显示一次。请立即保存——您需要这两组信息才能让此部署持续通过验证。",
+    "setupWizard.confirm.title": "已连接",
+    "setupWizard.confirm.workspace": "工作区",
+    "setupWizard.pairing.code": "配对码",
+    "setupWizard.pairing.codePlaceholder": "例如 4F9A2C1B8E",
+    "setupWizard.pairing.connecting": "连接中...",
+    "setupWizard.pairing.error": "配对码无效、已过期,或已被使用过",
+    "setupWizard.pairing.name": "为此部署命名",
+    "setupWizard.pairing.namePlaceholder": "例如:生产环境服务器",
+    "setupWizard.pairing.submit": "连接",
+    "setupWizard.subtitle": "将这个自托管 Flyto2 部署与您的 Cloud 账号配对,让 ChatGPT 可以将工作流执行路由到这里。",
+    "setupWizard.title": "连接此部署",
+    "setupWizard.welcome.body": "您需要一组来自 Flyto2 Cloud 账号的配对码。请先到「设置 → 连接 → 连接自托管服务器」生成一组,再回到这里输入。",
+    "setupWizard.welcome.connect": "我有配对码",
+    "setupWizard.welcome.skip": "暂时保持完全离线"
+  }
+}

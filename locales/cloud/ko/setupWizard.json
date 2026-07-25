@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.setupWizard",
+  "version": "1.0.0",
+  "translations": {
+    "setupWizard.confirm.deviceId": "",
+    "setupWizard.confirm.deviceSecret": "",
+    "setupWizard.confirm.nextSteps": "",
+    "setupWizard.confirm.secretWarning": "",
+    "setupWizard.confirm.title": "",
+    "setupWizard.confirm.workspace": "",
+    "setupWizard.pairing.code": "",
+    "setupWizard.pairing.codePlaceholder": "",
+    "setupWizard.pairing.connecting": "",
+    "setupWizard.pairing.error": "",
+    "setupWizard.pairing.name": "",
+    "setupWizard.pairing.namePlaceholder": "",
+    "setupWizard.pairing.submit": "",
+    "setupWizard.subtitle": "",
+    "setupWizard.title": "",
+    "setupWizard.welcome.body": "",
+    "setupWizard.welcome.connect": "",
+    "setupWizard.welcome.skip": ""
+  }
+}

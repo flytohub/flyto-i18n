@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Tổng quan doanh số",
     "dashboardPage.salesOverview.totalRevenue": "Tổng doanh thu",
     "dashboardPage.salesOverview.totalSales": "Tổng doanh số",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Khóa đang hoạt động",
     "dashboardPage.stats.published": "Đã xuất bản",
     "dashboardPage.stats.revenue": "Doanh thu",

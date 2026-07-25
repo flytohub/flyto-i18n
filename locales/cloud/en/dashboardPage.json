@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Sales Overview",
     "dashboardPage.salesOverview.totalRevenue": "Total Revenue",
     "dashboardPage.salesOverview.totalSales": "Total Sales",
+    "dashboardPage.setupNudge": "This deployment isn't connected to a Flyto2 Cloud workspace yet.",
+    "dashboardPage.setupNudgeAction": "Connect now",
     "dashboardPage.stats.activeKeys": "Active Keys",
     "dashboardPage.stats.published": "Published",
     "dashboardPage.stats.revenue": "Revenue",

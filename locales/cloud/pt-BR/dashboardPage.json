@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Visao de Vendas",
     "dashboardPage.salesOverview.totalRevenue": "Receita Total",
     "dashboardPage.salesOverview.totalSales": "Total de Vendas",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Chaves Ativas",
     "dashboardPage.stats.published": "Publicados",
     "dashboardPage.stats.revenue": "Receita",

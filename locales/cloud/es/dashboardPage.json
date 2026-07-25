@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Resumen de ventas",
     "dashboardPage.salesOverview.totalRevenue": "Ingresos totales",
     "dashboardPage.salesOverview.totalSales": "Total de ventas",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Claves activas",
     "dashboardPage.stats.published": "Publicado",
     "dashboardPage.stats.revenue": "Ingresos",

@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "판매 개요",
     "dashboardPage.salesOverview.totalRevenue": "총 수익",
     "dashboardPage.salesOverview.totalSales": "총 판매",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "활성 키",
     "dashboardPage.stats.published": "게시됨",
     "dashboardPage.stats.revenue": "수익",

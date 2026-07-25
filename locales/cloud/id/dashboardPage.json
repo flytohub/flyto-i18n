@@ -47,6 +47,8 @@
     "dashboardPage.salesOverview.title": "Ringkasan Penjualan",
     "dashboardPage.salesOverview.totalRevenue": "Total Pendapatan",
     "dashboardPage.salesOverview.totalSales": "Total Penjualan",
+    "dashboardPage.setupNudge": "",
+    "dashboardPage.setupNudgeAction": "",
     "dashboardPage.stats.activeKeys": "Kunci Aktif",
     "dashboardPage.stats.published": "Dipublikasikan",
     "dashboardPage.stats.revenue": "Pendapatan",
