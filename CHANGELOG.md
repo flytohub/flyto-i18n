@@ -47,6 +47,10 @@
 
 ### Changed
 
+- Aligned Warroom CE administrator-registration copy with the enforced
+  8-character, 72 UTF-8 byte, three-of-four character-class password policy;
+  added reviewed English, Traditional Chinese, and Simplified Chinese messages
+  plus regression coverage and rebuilt the tracked Code/aggregate bundles.
 - Rebuilt and synchronized the Cloud and Flow locale bundles so both editions
   consume the same MCP Studio copy from `flyto-i18n`.
 - Updated Cloud-sync authentication to prefer the existing repository-wide

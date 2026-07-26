@@ -1,6 +1,6 @@
 # State
 
-Current state on 2026-07-23:
+Current state on 2026-07-26:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Product lines: cloud_apps_automation, security, data, zero_person_agent,
@@ -23,7 +23,9 @@ Current state on 2026-07-23:
   `flyto-code/public/i18n/code` bundles.
 - Warroom CE one-time administrator setup copy is translated in English,
   Traditional Chinese, and Simplified Chinese, present in all code locale
-  catalogs, and synchronized into the consuming frontend bundles.
+  catalogs, and synchronized into the consuming frontend bundles. Its password
+  guidance matches the enforced 8-character, 72 UTF-8 byte, three-of-four
+  character-class policy.
 - Warroom CE appearance controls now have non-empty light, dark, and
   system-following labels in all 16 supported code locales; generated
   `dist/code` and aggregate bundles carry the same keys.
