@@ -47,6 +47,9 @@
 
 ### Changed
 
+- Synchronized the two missing Warroom CE administrator password-policy keys
+  into all fallback Code locale catalogs and rebuilt the tracked Code,
+  aggregate, and manifest distribution artifacts.
 - Aligned Warroom CE administrator-registration copy with the enforced
   8-character, 72 UTF-8 byte, three-of-four character-class password policy;
   added reviewed English, Traditional Chinese, and Simplified Chinese messages
