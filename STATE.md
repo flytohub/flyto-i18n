@@ -26,6 +26,11 @@ Current state on 2026-07-26:
   catalogs, and synchronized into the consuming frontend bundles. Its password
   guidance matches the enforced 8-character, 72 UTF-8 byte, three-of-four
   character-class policy.
+- All 16 Code locale catalogs now carry the canonical
+  `auth.localBootstrap.passwordClasses` and
+  `auth.localBootstrap.passwordMaxBytes` keys. The 13 fallback locales and the
+  tracked Code/aggregate distribution bundles were regenerated after a real
+  Cloud-owned synchronization run exposed the stale catalog state.
 - Warroom CE appearance controls now have non-empty light, dark, and
   system-following labels in all 16 supported code locales; generated
   `dist/code` and aggregate bundles carry the same keys.
@@ -73,11 +78,15 @@ Known release work:
   catalog and generator scope before treating it as fresh output.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.
 
-Verification evidence captured on 2026-07-23:
+Verification evidence captured on 2026-07-26:
 
 - MCP Studio source catalogs passed strict validation across 4,544 files; the
   Flow-scope regression test and deterministic distribution build passed, and
   the generated Cloud and Flow bundles were synchronized to both consumers.
+- The canonical locale synchronization added exactly two missing password
+  policy keys to each of 13 fallback Code locales; strict validation and a
+  second sync/build pass confirmed the generated locale, manifest, and
+  distribution artifacts are deterministic.
 
 - `npm run verify`: passed compilation, Ruff, generated-reference freshness,
   strict schema validation of 4,544 catalogs plus the root manifest, 23 unit
