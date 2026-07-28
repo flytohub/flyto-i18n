@@ -54,7 +54,7 @@ Current state on 2026-07-28:
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
   validation across 4,560 recognized catalog files.
-- Every one of 192 Python classes, functions, nested functions, methods, and
+- Every one of 198 Python classes, functions, nested functions, methods, and
   tests has a docstring and a freshness-checked generated source reference.
 - Root manifest coverage is synchronized from the deterministic aggregate
   build; it no longer drifts from `dist/manifest.json`.
@@ -97,7 +97,7 @@ Verification evidence captured on 2026-07-28:
   distribution artifacts are deterministic.
 
 - `npm run verify`: passed compilation, Ruff, generated-reference freshness,
-  strict schema validation of 4,544 catalogs plus the root manifest, 23 unit
+  strict schema validation of 4,560 catalogs plus the root manifest, 27 unit
   tests, every configured distribution build, and SEO-manifest freshness.
 - Shared documentation audit: passed all 6 source areas and 11 feature
   surfaces with no warnings.
