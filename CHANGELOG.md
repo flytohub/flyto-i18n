@@ -4,6 +4,13 @@
 
 ### Added
 
+- Added the `code.attackValidation.*` catalog for the Red Team + Pulse + BYO
+  authorized attack-validation closure. English and Traditional Chinese are
+  reviewed; all 16 Code locales carry a deterministic fallback catalog.
+- Added localized copy for confidence bands, validation modes, owned/canary
+  safety scope, error/empty/retry states, and remediation/retest progress.
+- Added regression coverage that requires the full catalog in every Code
+  locale and pins the reviewed English and Traditional Chinese safety boundary.
 - Added English and Traditional Chinese copy plus synchronized locale fallbacks
   for credential-free public repository onboarding in Warroom CE.
 - Added a shared MCP Studio catalog for English, Traditional Chinese, and
@@ -50,6 +57,8 @@
 - Synchronized the two missing Warroom CE administrator password-policy keys
   into all fallback Code locale catalogs and rebuilt the tracked Code,
   aggregate, and manifest distribution artifacts.
+- Rebuilt the tracked Code and aggregate distribution bundles so the
+  attack-validation cockpit never depends on hard-coded UI copy.
 - Aligned Warroom CE administrator-registration copy with the enforced
   8-character, 72 UTF-8 byte, three-of-four character-class password policy;
   added reviewed English, Traditional Chinese, and Simplified Chinese messages

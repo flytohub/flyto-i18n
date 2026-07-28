@@ -1,6 +1,6 @@
 # State
 
-Current state on 2026-07-26:
+Current state on 2026-07-28:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Product lines: cloud_apps_automation, security, data, zero_person_agent,
@@ -21,6 +21,11 @@ Current state on 2026-07-26:
 - The Flyto2 Warroom CE deterministic product loop has source keys in every
   supported code locale, generated `dist/code` artifacts, and synchronized
   `flyto-code/public/i18n/code` bundles.
+- The attack-validation cockpit has a canonical `code.attackValidation.*`
+  namespace in all 16 Code locales. English and Traditional Chinese have
+  reviewed copy for Red Team, Pulse, BYO, authorization modes, confidence,
+  owned/canary safety scope, and remediation/retest states; other locales use
+  the deterministic English fallback until reviewed translations land.
 - Warroom CE one-time administrator setup copy is translated in English,
   Traditional Chinese, and Simplified Chinese, present in all code locale
   catalogs, and synchronized into the consuming frontend bundles. Its password
@@ -48,7 +53,7 @@ Current state on 2026-07-26:
 - `code.communityLoop.*` is a critical non-empty namespace for Traditional and
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
-  validation across 4,531 recognized catalog files.
+  validation across 4,560 recognized catalog files.
 - Every one of 192 Python classes, functions, nested functions, methods, and
   tests has a docstring and a freshness-checked generated source reference.
 - Root manifest coverage is synchronized from the deterministic aggregate
@@ -78,8 +83,11 @@ Known release work:
   catalog and generator scope before treating it as fresh output.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.
 
-Verification evidence captured on 2026-07-26:
+Verification evidence captured on 2026-07-28:
 
+- Attack-validation catalogs passed strict validation across 4,560 source
+  files, rebuilt all tracked Code and aggregate distribution bundles, and
+  passed 27 tests with 72 locale-contract subtests.
 - MCP Studio source catalogs passed strict validation across 4,544 files; the
   Flow-scope regression test and deterministic distribution build passed, and
   the generated Cloud and Flow bundles were synchronized to both consumers.

@@ -1,5 +1,17 @@
 # Decisions
 
+## 2026-07-28 - Attack-validation safety copy is catalog-owned
+
+Decision: keep the Red Team, Pulse, BYO, confidence, authorization mode,
+owned/canary scope, TLS safety, and remediation/retest copy under the additive
+`code.attackValidation.*` namespace. Review English and Traditional Chinese
+directly, and synchronize deterministic English fallbacks to every other Code
+locale until native translations are reviewed.
+
+Reason: the attack-validation cockpit communicates authorization and safety
+boundaries that must not disappear, drift, or become hard-coded when the
+operator changes locale.
+
 ## 2026-07-23 - CE repository onboarding copy is bundled locally
 
 Decision: keep the Community direct-repository URL form, supported-host hint,
