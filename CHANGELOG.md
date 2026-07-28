@@ -7,6 +7,10 @@
 - Added the `code.attackValidation.*` catalog for the Red Team + Pulse + BYO
   authorized attack-validation closure. English and Traditional Chinese are
   reviewed; all 16 Code locales carry a deterministic fallback catalog.
+- Added attack-effectiveness denominators, evidence freshness/provenance,
+  Red Team/Pulse/BYO source filters, and tenant-owned dark-web canary guidance
+  to the attack-validation catalog; English, Traditional Chinese, and
+  Simplified Chinese are reviewed and all 16 Code locales remain synchronized.
 - Added localized copy for confidence bands, validation modes, owned/canary
   safety scope, error/empty/retry states, and remediation/retest progress.
 - Added regression coverage that requires the full catalog in every Code

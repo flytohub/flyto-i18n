@@ -85,6 +85,9 @@ Known release work:
 
 Verification evidence captured on 2026-07-28:
 
+- The expanded attack-validation efficacy, evidence-quality, source-health,
+  filtering, and safe dark-web canary copy passed strict source validation and
+  deterministic Code/aggregate distribution rebuilding across all 16 locales.
 - Attack-validation catalogs passed strict validation across 4,560 source
   files, rebuilt all tracked Code and aggregate distribution bundles, and
   passed 27 tests with 72 locale-contract subtests.
