@@ -43,6 +43,14 @@ ATTACK_VALIDATION_KEYS = {
     "code.attackValidation.title",
 }
 
+SCORING_PLATFORM_KEYS = {
+    "code.scoring.cat.cloud",
+    "code.scoring.cat.container",
+    "code.scoring.sv.cloudPosture",
+    "code.scoring.sv.containerImages",
+    "code.scoring.sv.mcpRuntimeGuardian",
+}
+
 
 def flatten(obj, prefix=""):
     """Flatten a nested distribution translation object to dotted keys."""
@@ -88,6 +96,29 @@ class CodeUIKeyContractTests(unittest.TestCase):
                     json.loads(dist_path.read_text(encoding="utf-8"))["translations"]
                 )
                 self.assertEqual(set(), ATTACK_VALIDATION_KEYS - published.keys())
+
+    def test_every_code_locale_publishes_platform_scoring_labels(self):
+        """Keep the Engine's Cloud, Container, and MCP pillars localized."""
+        locale_root = ROOT / "locales" / "code"
+        for path in sorted(locale_root.glob("*/code.json")):
+            with self.subTest(locale=path.parent.name):
+                translations = json.loads(path.read_text(encoding="utf-8"))[
+                    "translations"
+                ]
+                missing = SCORING_PLATFORM_KEYS - translations.keys()
+                empty = {
+                    key
+                    for key in SCORING_PLATFORM_KEYS
+                    if not str(translations.get(key, "")).strip()
+                }
+                self.assertEqual(set(), missing)
+                self.assertEqual(set(), empty)
+
+                dist_path = ROOT / "dist" / "code" / f"{path.parent.name}.json"
+                published = flatten(
+                    json.loads(dist_path.read_text(encoding="utf-8"))["translations"]
+                )
+                self.assertEqual(set(), SCORING_PLATFORM_KEYS - published.keys())
 
     def test_reviewed_attack_validation_safety_copy_does_not_drift(self):
         """Protect the explicit authorization boundary in reviewed locales."""

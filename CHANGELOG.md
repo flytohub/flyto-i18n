@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added five `code.scoring.*` labels for cloud posture, container images, and
+  MCP Runtime Guardian across all 16 Code locales, with regression coverage
+  for the Engine-aligned scoring surface.
 - Added 65 `code.attackValidation.*` keys for proof-of-control, proof-pack
   eligibility, tenant-local benchmark accounting, exact allowlists,
   tamper-evident audit state, three-level hard budgets, cost settlement, and
@@ -73,6 +76,8 @@
 - Migrated the remaining Cloud common/status/AI Space save labels into the
   shared source, rebuilt tracked Cloud/Flow/aggregate bundles, and closed all
   Flyto Cloud orphan translation references.
+- Rebuilt the tracked Code and aggregate distribution bundles with the
+  Engine-aligned scoring labels.
 - Synchronized the two missing Warroom CE administrator password-policy keys
   into all fallback Code locale catalogs and rebuilt the tracked Code,
   aggregate, and manifest distribution artifacts.

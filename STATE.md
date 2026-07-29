@@ -35,6 +35,10 @@ Current state on 2026-07-30:
   reviewed copy for Red Team, Pulse, BYO, authorization modes, confidence,
   owned/canary safety scope, and remediation/retest states; other locales use
   the deterministic English fallback until reviewed translations land.
+- All 16 Code locale catalogs and their generated distributions include the
+  five canonical `code.scoring.*` labels for cloud posture, container images,
+  and MCP Runtime Guardian, keeping the frontend scoring surface aligned with
+  the Engine scoring domains.
 - Warroom CE one-time administrator setup copy is translated in English,
   Traditional Chinese, and Simplified Chinese, present in all code locale
   catalogs, and synchronized into the consuming frontend bundles. Its password
@@ -140,3 +144,10 @@ Verification evidence captured on 2026-07-28:
   fallbacks under the established locale policy.
 - Strict validation passed across all 4,560 source catalogs. Code and aggregate
   distribution bundles were rebuilt deterministically with 9,166 Code keys.
+- The five Engine-aligned scoring labels passed the focused Code UI and
+  distribution tests (7 tests), strict validation across all 4,560 source
+  catalogs, deterministic distribution rebuilding, and the Flyto2 Indexer
+  strict full scan (18 of 18 checks).
+- Cross-repository strict verification passed for Code, Engine, and i18n (3 of
+  3 projects), with all 581 frontend API calls matched to backend routes and no
+  product-loop closure gaps.
