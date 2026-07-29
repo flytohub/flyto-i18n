@@ -4,6 +4,12 @@
 
 ### Added
 
+- Added 65 `code.attackValidation.*` keys for proof-of-control, proof-pack
+  eligibility, tenant-local benchmark accounting, exact allowlists,
+  tamper-evident audit state, three-level hard budgets, cost settlement, and
+  emergency-stop controls. English, Traditional Chinese, and Simplified
+  Chinese are reviewed; all Code locales and generated distributions are
+  synchronized.
 - Added the `code.attackValidation.*` catalog for the Red Team + Pulse + BYO
   authorized attack-validation closure. English and Traditional Chinese are
   reviewed; all 16 Code locales carry a deterministic fallback catalog.

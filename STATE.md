@@ -115,3 +115,16 @@ Verification evidence captured on 2026-07-28:
 - Cloud-to-i18n synchronization no longer requires a private-Cloud read token
   in this public repository. The Cloud-owned workflow validates the generated
   i18n change before opening its reviewed pull request.
+
+## 2026-07-29 - Attack validation safety and cost catalog closure
+
+- Added 65 attack-validation keys covering proof-of-control, proof-pack state,
+  tenant-local benchmark populations, exact allowlists, audit integrity,
+  workspace/campaign/run budgets, cost settlement, and the emergency kill
+  switch, including the full benchmark method, outcome populations, proof
+  stages, audit hash context, and versioned control context.
+- English, Traditional Chinese, and Simplified Chinese are reviewed for the new
+  safety-critical copy. The remaining 13 Code locales carry synchronized empty
+  fallbacks under the established locale policy.
+- Strict validation passed across all 4,560 source catalogs. Code and aggregate
+  distribution bundles were rebuilt deterministically with 9,166 Code keys.
