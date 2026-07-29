@@ -4,6 +4,7 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "AI Space saved",
     "templateFolders.createSuccess": "Folder created",
     "templateFolders.created": "Created",
     "templateFolders.defaultFolder": "Default",

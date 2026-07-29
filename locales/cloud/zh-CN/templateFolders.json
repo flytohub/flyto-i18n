@@ -4,6 +4,7 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "AI Space 已保存",
     "templateFolders.createSuccess": "文件夹已创建",
     "templateFolders.created": "创建",
     "templateFolders.defaultFolder": "缺省文件夹",

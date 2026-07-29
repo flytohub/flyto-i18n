@@ -1,5 +1,16 @@
 # Decisions
 
+## 2026-07-30 - AI Space product copy is catalog-owned
+
+Decision: keep the complete `aiSpace.*` namespace in `locales/cloud`, with
+reviewed non-empty English, Traditional Chinese, and Simplified Chinese source
+catalogs. Flyto Cloud may keep an empty emergency override object, but normal
+product copy must arrive through generated `dist/cloud` bundles.
+
+Reason: folder-scoped Physical AI controls are safety- and workflow-facing
+product text. A second catalog inside the consumer hides missing keys, prevents
+normal translation review, and can silently fall back to embedded English.
+
 ## 2026-07-28 - Attack-validation safety copy is catalog-owned
 
 Decision: keep the Red Team, Pulse, BYO, confidence, authorization mode,

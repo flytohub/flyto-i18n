@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-07-30 | AI Space catalog source closure | `2026-07-30-ai-space-catalog-source.md` |
 | 2026-07-29 | Attack validation safety, benchmark, and cost i18n | `2026-07-29-attack-validation-safety-cost-i18n.md` |
 | 2026-07-23 | CE direct repository onboarding i18n | `2026-07-23-ce-direct-repository-onboarding-i18n.md` |
 | 2026-07-21 | Community product loop i18n closure | `2026-07-21-community-product-loop-i18n.md` |

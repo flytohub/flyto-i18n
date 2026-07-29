@@ -8,7 +8,7 @@
     "en": {
       "name": "English",
       "native_name": "English",
-      "coverage": 99.2,
+      "coverage": 99.3,
       "status": "official",
       "maintainers": [
         "@flytohub"

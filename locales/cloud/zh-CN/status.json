@@ -8,6 +8,8 @@
         "status.completed": "已完成",
         "status.error": "错误",
         "status.failed": "失败",
+        "status.offline": "离线",
+        "status.online": "在线",
         "status.pending": "待处理",
         "status.running": "运行中",
         "status.success": "成功"

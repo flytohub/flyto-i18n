@@ -10,6 +10,9 @@
   emergency-stop controls. English, Traditional Chinese, and Simplified
   Chinese are reviewed; all Code locales and generated distributions are
   synchronized.
+- Added the canonical 222-key `cloud.aiSpace` catalog with reviewed English,
+  Traditional Chinese, and Simplified Chinese copy, plus regression coverage
+  requiring locale parity and non-empty official translations.
 - Added the `code.attackValidation.*` catalog for the Red Team + Pulse + BYO
   authorized attack-validation closure. English and Traditional Chinese are
   reviewed; all 16 Code locales carry a deterministic fallback catalog.
@@ -64,6 +67,9 @@
 
 ### Changed
 
+- Migrated the remaining Cloud common/status/AI Space save labels into the
+  shared source, rebuilt tracked Cloud/Flow/aggregate bundles, and closed all
+  Flyto Cloud orphan translation references.
 - Synchronized the two missing Warroom CE administrator password-policy keys
   into all fallback Code locale catalogs and rebuilt the tracked Code,
   aggregate, and manifest distribution artifacts.

@@ -3,6 +3,11 @@
 Current state on 2026-07-28:
 
 - Repo status: internal tooling with public CDN artifacts.
+- Flyto2 AI Space product copy now has a canonical `cloud.aiSpace` source
+  catalog with 222 non-empty keys in English, Traditional Chinese, and
+  Simplified Chinese. Flyto Cloud consumes the generated bundles without
+  carrying a duplicate local catalog; other locales use the standard English
+  runtime fallback until reviewed community translations are added.
 - Product lines: cloud_apps_automation, security, data, zero_person_agent,
   big_data_intelligence.
 - Health target: B.
@@ -85,6 +90,9 @@ Known release work:
 
 Verification evidence captured on 2026-07-28:
 
+- The AI Space catalog migration passed strict validation across 4,563 source
+  files, 27 tests, deterministic distribution rebuilding, Cloud bundle sync
+  with zero orphan keys, and Flyto2 Indexer verification at 18/18.
 - The expanded attack-validation efficacy, evidence-quality, source-health,
   filtering, and safe dark-web canary copy passed strict source validation and
   deterministic Code/aggregate distribution rebuilding across all 16 locales.
