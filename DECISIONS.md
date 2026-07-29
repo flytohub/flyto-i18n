@@ -12,6 +12,19 @@ Reason: the attack-validation cockpit communicates authorization and safety
 boundaries that must not disappear, drift, or become hard-coded when the
 operator changes locale.
 
+## 2026-07-29 - Safety-envelope and benchmark terms stay in one namespace
+
+Decision: proof-of-control, proof-pack eligibility, allowlist, kill-switch,
+audit-chain, hard-budget, cost-settlement, and tenant-local benchmark copy
+remain additive members of `code.attackValidation.*`. English, Traditional
+Chinese, and Simplified Chinese are reviewed together before rebuilding every
+Code and aggregate distribution.
+
+Reason: these labels determine whether an operator understands that an active
+security test is authorized, bounded, auditable, and locally measured. Splitting
+them into page-owned literals would let frontend and Engine safety contracts
+drift across locales.
+
 ## 2026-07-23 - CE repository onboarding copy is bundled locally
 
 Decision: keep the Community direct-repository URL form, supported-host hint,
