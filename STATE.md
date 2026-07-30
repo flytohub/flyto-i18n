@@ -40,6 +40,11 @@ Current state on 2026-07-30:
   Pulse, and BYO decision surface. English, Traditional Chinese, and Simplified
   Chinese are reviewed; the other 13 catalogs use deterministic English
   fallbacks until native review.
+- All 16 Code locale catalogs and tracked distributions include the 33-key
+  attack-validation benchmark v2 contract for measurable outcome funnels,
+  time-to-proof percentiles, source/mode/proof-stage coverage, and closure gap
+  queues. English, Traditional Chinese, and Simplified Chinese are reviewed;
+  the other 13 catalogs preserve the runtime English fallback policy.
 - All 16 Code locale catalogs and their generated distributions include the
   five canonical `code.scoring.*` labels for cloud posture, container images,
   and MCP Runtime Guardian, keeping the frontend scoring surface aligned with
@@ -103,6 +108,8 @@ Known release work:
 
 Verification evidence captured on 2026-07-30:
 
+- Deterministic distribution rebuilding completed with 9,246 Code keys after
+  adding the measurable effectiveness benchmark v2 catalog.
 - Strict validation passed across all 4,560 source catalogs after adding the
   campaign command-center contract.
 - Deterministic distribution rebuilding completed with 9,208 Code keys and

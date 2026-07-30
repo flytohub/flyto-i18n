@@ -83,6 +83,42 @@ ATTACK_VALIDATION_COMMAND_KEYS = {
     "code.attackValidation.command.title",
 }
 
+ATTACK_VALIDATION_BENCHMARK_V2_KEYS = {
+    "code.attackValidation.benchmark.active",
+    "code.attackValidation.benchmark.blocked",
+    "code.attackValidation.benchmark.conclusive",
+    "code.attackValidation.benchmark.coverage",
+    "code.attackValidation.benchmark.duration.hours",
+    "code.attackValidation.benchmark.duration.minutes",
+    "code.attackValidation.benchmark.fastestProof",
+    "code.attackValidation.benchmark.funnel",
+    "code.attackValidation.benchmark.gap.activeRuns",
+    "code.attackValidation.benchmark.gap.authorizationBlocked",
+    "code.attackValidation.benchmark.gap.blockedRuns",
+    "code.attackValidation.benchmark.gap.incompleteProof",
+    "code.attackValidation.benchmark.gap.remediationPending",
+    "code.attackValidation.benchmark.gap.retestPending",
+    "code.attackValidation.benchmark.gap.stale",
+    "code.attackValidation.benchmark.gap.unsettledCost",
+    "code.attackValidation.benchmark.gap.untested",
+    "code.attackValidation.benchmark.gaps",
+    "code.attackValidation.benchmark.inconclusive",
+    "code.attackValidation.benchmark.medianProof",
+    "code.attackValidation.benchmark.modeCoverage",
+    "code.attackValidation.benchmark.p95Proof",
+    "code.attackValidation.benchmark.slowestProof",
+    "code.attackValidation.benchmark.sourceCoverage",
+    "code.attackValidation.benchmark.stage.controlledExecution",
+    "code.attackValidation.benchmark.stage.costSettlement",
+    "code.attackValidation.benchmark.stage.impact",
+    "code.attackValidation.benchmark.stage.observed",
+    "code.attackValidation.benchmark.stage.ownershipAndAuthorization",
+    "code.attackValidation.benchmark.stage.remediationAndRetest",
+    "code.attackValidation.benchmark.stage.tamperEvidentAudit",
+    "code.attackValidation.benchmark.timing",
+    "code.attackValidation.benchmark.timingSample",
+}
+
 SCORING_PLATFORM_KEYS = {
     "code.scoring.cat.cloud",
     "code.scoring.cat.container",
@@ -189,6 +225,64 @@ class CodeUIKeyContractTests(unittest.TestCase):
                 }
                 self.assertEqual(set(), published_missing)
                 self.assertEqual(set(), published_empty)
+
+    def test_every_code_locale_publishes_effectiveness_benchmark_v2(self):
+        """Keep measured outcomes, timing, coverage, and closure gaps publishable."""
+        locale_root = ROOT / "locales" / "code"
+        for path in sorted(locale_root.glob("*/code.json")):
+            with self.subTest(locale=path.parent.name):
+                translations = json.loads(path.read_text(encoding="utf-8"))[
+                    "translations"
+                ]
+                self.assertEqual(
+                    set(), ATTACK_VALIDATION_BENCHMARK_V2_KEYS - translations.keys()
+                )
+
+                dist_path = ROOT / "dist" / "code" / f"{path.parent.name}.json"
+                published = flatten(
+                    json.loads(dist_path.read_text(encoding="utf-8"))["translations"]
+                )
+                self.assertEqual(
+                    set(), ATTACK_VALIDATION_BENCHMARK_V2_KEYS - published.keys()
+                )
+
+    def test_reviewed_effectiveness_benchmark_copy_does_not_drift(self):
+        """Pin the primary proof-timing and closure promise in reviewed locales."""
+        expected = {
+            "en": (
+                "Measured outcome funnel",
+                "Attack-effectiveness coverage",
+                "Tamper-evident audit intact",
+            ),
+            "zh-TW": (
+                "實測結果漏斗",
+                "攻擊效能覆蓋",
+                "防竄改稽核完整",
+            ),
+            "zh-CN": (
+                "实测结果漏斗",
+                "攻击效能覆盖",
+                "防篡改审计完整",
+            ),
+        }
+        for locale, (funnel, coverage, audit_stage) in expected.items():
+            with self.subTest(locale=locale):
+                path = ROOT / "locales" / "code" / locale / "code.json"
+                translations = json.loads(path.read_text(encoding="utf-8"))[
+                    "translations"
+                ]
+                self.assertEqual(
+                    funnel, translations["code.attackValidation.benchmark.funnel"]
+                )
+                self.assertEqual(
+                    coverage, translations["code.attackValidation.benchmark.coverage"]
+                )
+                self.assertEqual(
+                    audit_stage,
+                    translations[
+                        "code.attackValidation.benchmark.stage.tamperEvidentAudit"
+                    ],
+                )
 
     def test_reviewed_campaign_command_center_copy_does_not_drift(self):
         """Pin the primary campaign-first product promise in reviewed locales."""
