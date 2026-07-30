@@ -10,9 +10,12 @@
   emergency-stop controls. English, Traditional Chinese, and Simplified
   Chinese are reviewed; all Code locales and generated distributions are
   synchronized.
-- Added the canonical 222-key `cloud.aiSpace` catalog with reviewed English,
+- Added the canonical 286-key `cloud.aiSpace` catalog with reviewed English,
   Traditional Chinese, and Simplified Chinese copy, plus regression coverage
   requiring locale parity and non-empty official translations.
+- Added reviewed AI Space endpoint and workflow-routing copy for arbitrary
+  adapter, capability, Space, permission, freshness, priority, confirmation,
+  lease, and automatic/custom policy settings without exposing raw JSON.
 - Added the `code.attackValidation.*` catalog for the Red Team + Pulse + BYO
   authorized attack-validation closure. English and Traditional Chinese are
   reviewed; all 16 Code locales carry a deterministic fallback catalog.

@@ -1,13 +1,17 @@
 # State
 
-Current state on 2026-07-28:
+Current state on 2026-07-30:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Flyto2 AI Space product copy now has a canonical `cloud.aiSpace` source
-  catalog with 222 non-empty keys in English, Traditional Chinese, and
+  catalog with 286 non-empty keys in English, Traditional Chinese, and
   Simplified Chinese. Flyto Cloud consumes the generated bundles without
   carrying a duplicate local catalog; other locales use the standard English
   runtime fallback until reviewed community translations are added.
+- The AI Space resource-routing extension adds reviewed endpoint, capability,
+  Space, permission, health, priority, lease, automatic/custom policy, and
+  confirmation copy without binding the UI to a language, device class,
+  coordinate system, or vendor SDK.
 - Product lines: cloud_apps_automation, security, data, zero_person_agent,
   big_data_intelligence.
 - Health target: B.

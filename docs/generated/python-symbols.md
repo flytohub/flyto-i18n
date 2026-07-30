@@ -149,8 +149,8 @@ Declarations: **200**
 | method | `AddLocaleTests.write_locale_file` | [`tests/test_add_locale.py:37`](../../tests/test_add_locale.py#L37) | Write one minimal locale fixture under the temporary root. |
 | method | `AddLocaleTests.test_count_locale_translations_across_projects` | [`tests/test_add_locale.py:46`](../../tests/test_add_locale.py#L46) | Count translated and total keys across all configured projects. |
 | method | `AddLocaleTests.test_locale_status_labels_completion_states` | [`tests/test_add_locale.py:56`](../../tests/test_add_locale.py#L56) | Map empty, partial, and complete counts to stable status labels. |
-| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:23`](../../tests/test_ai_space_catalog.py#L23) | Load the authoritative AI Space source catalog for one locale. |
-| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:33`](../../tests/test_ai_space_catalog.py#L33) | Keep official AI Space catalogs complete, aligned, and non-empty. |
+| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:50`](../../tests/test_ai_space_catalog.py#L50) | Load the authoritative AI Space source catalog for one locale. |
+| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:60`](../../tests/test_ai_space_catalog.py#L60) | Keep official AI Space catalogs complete, aligned, and non-empty. |
 | function | `load_audit_module` | [`tests/test_audit_placeholders.py:11`](../../tests/test_audit_placeholders.py#L11) | Load the hyphenated placeholder auditor as an isolated module. |
 | class | `PlaceholderAuditTests` | [`tests/test_audit_placeholders.py:20`](../../tests/test_audit_placeholders.py#L20) | Verify placeholder extraction across supported brace styles. |
 | method | `PlaceholderAuditTests.setUp` | [`tests/test_audit_placeholders.py:23`](../../tests/test_audit_placeholders.py#L23) | Load a fresh placeholder-audit module for each test. |

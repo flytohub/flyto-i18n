@@ -34,6 +34,17 @@ REQUIRED_CONTROL_KEYS = {
     "aiSpace.controls.runtimeReadyHint",
     "aiSpace.controls.runtimeSafeHint",
 }
+REQUIRED_RESOURCE_KEYS = {
+    "aiSpace.resources.adapter",
+    "aiSpace.resources.capabilities",
+    "aiSpace.resources.endpointTitle",
+    "aiSpace.resources.healthTimeout",
+    "aiSpace.resources.leaseTtl",
+    "aiSpace.resources.permissions",
+    "aiSpace.resources.routingTitle",
+    "aiSpace.workspace.featureRouting",
+    "aiSpace.workspace.tabs.routing",
+}
 
 
 def load_ai_space_catalog(locale: str) -> dict[str, str]:
@@ -55,7 +66,8 @@ def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
 
     assert REQUIRED_WORKSPACE_KEYS <= english_keys
     assert REQUIRED_CONTROL_KEYS <= english_keys
-    assert len(english_keys) >= 220
+    assert REQUIRED_RESOURCE_KEYS <= english_keys
+    assert len(english_keys) >= 270
 
     for locale, translations in catalogs.items():
         assert set(translations) == english_keys, locale
