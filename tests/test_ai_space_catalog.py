@@ -16,7 +16,23 @@ REQUIRED_WORKSPACE_KEYS = {
     "aiSpace.workspace.basicScopeHint",
     "aiSpace.workspace.dialogProductHint",
     "aiSpace.workspace.dialogProductTitle",
+    "aiSpace.workspace.runningWorkflow",
     "aiSpace.workspace.spaces",
+}
+REQUIRED_CONTROL_KEYS = {
+    "aiSpace.controls.acknowledged",
+    "aiSpace.controls.activeWorkflow",
+    "aiSpace.controls.captureKey",
+    "aiSpace.controls.deadmanTimeout",
+    "aiSpace.controls.heartbeat",
+    "aiSpace.controls.pressKeyNow",
+    "aiSpace.controls.runtimeAudit",
+    "aiSpace.controls.runtimeConnected",
+    "aiSpace.controls.runtimeConnecting",
+    "aiSpace.controls.runtimeDisabled",
+    "aiSpace.controls.runtimeOffline",
+    "aiSpace.controls.runtimeReadyHint",
+    "aiSpace.controls.runtimeSafeHint",
 }
 
 
@@ -38,6 +54,7 @@ def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
     english_keys = set(catalogs["en"])
 
     assert REQUIRED_WORKSPACE_KEYS <= english_keys
+    assert REQUIRED_CONTROL_KEYS <= english_keys
     assert len(english_keys) >= 220
 
     for locale, translations in catalogs.items():
