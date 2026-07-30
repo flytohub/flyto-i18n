@@ -6,6 +6,14 @@ from pathlib import Path
 
 
 SCRIPT_PATH = Path(__file__).resolve().parents[1] / "scripts" / "audit-placeholders.py"
+FOOTPRINT_METRIC_PLACEHOLDERS = {
+    "footprint.connector.outputLatency": {"outputs", "latency"},
+    "footprint.run.entities": {"n"},
+    "footprint.run.outputs": {"n"},
+    "footprint.run.productiveSources": {"n"},
+    "footprint.run.signals": {"n"},
+    "footprint.run.tokens": {"n"},
+}
 
 
 def load_audit_module():
@@ -35,6 +43,23 @@ class PlaceholderAuditTests(unittest.TestCase):
     def test_ignores_plain_braces_without_identifiers(self):
         """Ignore incomplete or non-identifier brace content."""
         self.assertEqual(self.module.placeholder_names("Type ${ or use {two words}"), set())
+
+    def test_footprint_metrics_are_localized_with_placeholder_parity(self):
+        """Keep execution metrics usable and interpolatable in every Code locale."""
+        code_root = SCRIPT_PATH.parents[1] / "locales" / "code"
+        locales = sorted(path.name for path in code_root.iterdir() if path.is_dir())
+        self.assertEqual(len(locales), 16)
+
+        for locale in locales:
+            catalog = self.module.load_translations("code", locale)
+            for key, expected_placeholders in FOOTPRINT_METRIC_PLACEHOLDERS.items():
+                with self.subTest(locale=locale, key=key):
+                    self.assertIn(key, catalog)
+                    self.assertTrue(catalog[key].strip())
+                    self.assertEqual(
+                        self.module.placeholder_names(catalog[key]),
+                        expected_placeholders,
+                    )
 
 
 if __name__ == "__main__":
