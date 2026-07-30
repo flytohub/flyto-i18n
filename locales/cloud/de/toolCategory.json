@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "API-Integration",
         "toolCategory.automation": "Automatisierung",
+        "toolCategory.connector": "Konnektor",
         "toolCategory.dataTransform": "Datentransformation",
         "toolCategory.fileOperations": "Dateioperationen",
         "toolCategory.imageProcessing": "Bildverarbeitung",

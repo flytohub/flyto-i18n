@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "Integrasi API",
         "toolCategory.automation": "Otomatisasi",
+        "toolCategory.connector": "Konektor",
         "toolCategory.dataTransform": "Transformasi Data",
         "toolCategory.fileOperations": "Operasi File",
         "toolCategory.imageProcessing": "Pemrosesan Gambar",

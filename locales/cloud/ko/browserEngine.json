@@ -8,8 +8,8 @@
     "browserEngine.compWorking": "",
     "browserEngine.degradedFallback": "",
     "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
+    "browserEngine.provisioningHint": "필요한 구성 요소를 다운로드하고 설정하는 중입니다…",
+    "browserEngine.provisioningTitle": "브라우저 자동화 엔진을 준비하는 중입니다",
     "browserEngine.retry": "",
     "browserEngine.retrying": ""
   }

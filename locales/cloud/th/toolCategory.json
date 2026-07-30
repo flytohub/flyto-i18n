@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "การรวม API",
         "toolCategory.automation": "อัตโนมัติ",
+        "toolCategory.connector": "ตัวเชื่อมต่อ",
         "toolCategory.dataTransform": "แปลงข้อมูล",
         "toolCategory.fileOperations": "การดำเนินการไฟล์",
         "toolCategory.imageProcessing": "ประมวลผลรูปภาพ",

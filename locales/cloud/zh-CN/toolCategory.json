@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "API 集成",
         "toolCategory.automation": "自动化",
+        "toolCategory.connector": "连接器",
         "toolCategory.dataTransform": "数据转换",
         "toolCategory.fileOperations": "文件操作",
         "toolCategory.imageProcessing": "图片处理",

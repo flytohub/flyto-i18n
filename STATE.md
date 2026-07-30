@@ -1,6 +1,6 @@
 # State
 
-Current state on 2026-07-30:
+Current state on 2026-07-31:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Flyto2 AI Space product copy now has a canonical `cloud.aiSpace` source
@@ -8,6 +8,9 @@ Current state on 2026-07-30:
   Simplified Chinese. Flyto Cloud consumes the generated bundles without
   carrying a duplicate local catalog; other locales use the standard English
   runtime fallback until reviewed community translations are added.
+- Every Cloud locale now has non-empty browser-engine provisioning copy and
+  connector category labels. Source and generated-bundle contract tests keep
+  these runtime keys from falling through to missing-key warnings.
 - The 44-key `aiSpace.dependency.*` contract gives each workflow capability an
   automatic or operator-reviewed multi-axis dependency policy. Safety response,
   task consequence, evidence, substitution, confidence, freshness, recovery,
@@ -110,6 +113,16 @@ Known release work:
 - Migrate the tracked `dist/cortex` compatibility bundle to a named source
   catalog and generator scope before treating it as fresh output.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.
+
+Verification evidence captured on 2026-07-31:
+
+- Cloud runtime translation closure passed strict validation across 4,563
+  source catalogs, 36 unit tests, generated-reference freshness, Ruff, and a
+  deterministic rebuild of Cloud plus aggregate CDN bundles.
+- Every supported Cloud locale passed non-empty source and generated-bundle
+  checks for browser provisioning and connector category runtime keys.
+- The rebuilt aggregate bundles contain 22,318 keys in fallback locales and
+  22,733 keys in English, Traditional Chinese, and Simplified Chinese.
 
 Verification evidence captured on 2026-07-30:
 

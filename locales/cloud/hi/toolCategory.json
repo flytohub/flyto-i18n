@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "API एकीकरण",
         "toolCategory.automation": "ऑटोमेशन",
+        "toolCategory.connector": "कनेक्टर",
         "toolCategory.dataTransform": "डेटा परिवर्तन",
         "toolCategory.fileOperations": "फाइल संचालन",
         "toolCategory.imageProcessing": "छवि प्रोसेसिंग",

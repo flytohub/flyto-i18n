@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "templateCategory.automation": "ऑटोमेशन",
+        "templateCategory.connector": "कनेक्टर",
         "templateCategory.dataProcessing": "डेटा प्रोसेसिंग",
         "templateCategory.productivity": "उत्पादकता",
         "templateCategory.socialMedia": "सोशल मीडिया",

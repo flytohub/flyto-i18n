@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "templateCategory.automation": "自動化",
+    "templateCategory.connector": "連接器",
     "templateCategory.dataProcessing": "資料處理",
     "templateCategory.productivity": "生產力",
     "templateCategory.socialMedia": "社群媒體",

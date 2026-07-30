@@ -8,8 +8,8 @@
     "browserEngine.compWorking": "",
     "browserEngine.degradedFallback": "",
     "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
+    "browserEngine.provisioningHint": "กำลังดาวน์โหลดและตั้งค่าคอมโพเนนต์ที่จำเป็น…",
+    "browserEngine.provisioningTitle": "กำลังเตรียมระบบอัตโนมัติเบราว์เซอร์",
     "browserEngine.retry": "",
     "browserEngine.retrying": ""
   }

@@ -4,6 +4,9 @@
 
 ### Added
 
+- Added non-empty browser-engine provisioning and connector-category runtime
+  copy to every Cloud locale, with source and generated-bundle contract tests
+  that reject missing or empty values.
 - Added 33 `code.attackValidation.benchmark.*` keys for the measurable
   effectiveness command center: authorized outcome funnel, time-to-proof
   percentiles, Red Team/Pulse/BYO and active-mode coverage, all seven proof

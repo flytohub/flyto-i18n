@@ -8,8 +8,8 @@
     "browserEngine.compWorking": "",
     "browserEngine.degradedFallback": "",
     "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
+    "browserEngine.provisioningHint": "Đang tải xuống và cấu hình các thành phần cần thiết…",
+    "browserEngine.provisioningTitle": "Đang chuẩn bị công cụ tự động hóa trình duyệt",
     "browserEngine.retry": "",
     "browserEngine.retrying": ""
   }

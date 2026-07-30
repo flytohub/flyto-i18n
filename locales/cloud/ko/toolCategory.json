@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "API 통합",
         "toolCategory.automation": "자동화",
+        "toolCategory.connector": "커넥터",
         "toolCategory.dataTransform": "데이터 변환",
         "toolCategory.fileOperations": "파일 작업",
         "toolCategory.imageProcessing": "이미지 처리",

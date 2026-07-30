@@ -6,6 +6,7 @@
   "translations": {
     "toolCategory.apiIntegration": "API 整合",
     "toolCategory.automation": "自動化",
+    "toolCategory.connector": "連接器",
     "toolCategory.dataTransform": "資料轉換",
     "toolCategory.fileOperations": "檔案操作",
     "toolCategory.imageProcessing": "圖片處理",

@@ -17,6 +17,7 @@ BROWSER_KEYS = {
 
 
 def _translations(locale: str, category: str) -> dict[str, str]:
+    """Load one Cloud locale category's translation mapping."""
     payload = json.loads(
         (CLOUD_LOCALES / locale / f"{category}.json").read_text(encoding="utf-8")
     )
@@ -24,6 +25,7 @@ def _translations(locale: str, category: str) -> dict[str, str]:
 
 
 def test_cloud_runtime_copy_is_complete_for_bundled_locales() -> None:
+    """Require complete reviewed runtime copy in each bundled Cloud locale."""
     for locale in ("en", "zh-TW", "zh-CN"):
         browser = _translations(locale, "browserEngine")
         assert BROWSER_KEYS <= browser.keys()

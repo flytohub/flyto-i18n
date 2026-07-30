@@ -8,8 +8,8 @@
     "browserEngine.compWorking": "",
     "browserEngine.degradedFallback": "",
     "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
+    "browserEngine.provisioningHint": "ज़रूरी कॉम्पोनेंट डाउनलोड और कॉन्फ़िगर किए जा रहे हैं…",
+    "browserEngine.provisioningTitle": "ब्राउज़र ऑटोमेशन इंजन तैयार किया जा रहा है",
     "browserEngine.retry": "",
     "browserEngine.retrying": ""
   }

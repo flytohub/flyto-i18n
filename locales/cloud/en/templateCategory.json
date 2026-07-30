@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "templateCategory.automation": "Automation",
+    "templateCategory.connector": "Connector",
     "templateCategory.dataProcessing": "Data Processing",
     "templateCategory.productivity": "Productivity",
     "templateCategory.socialMedia": "Social Media",

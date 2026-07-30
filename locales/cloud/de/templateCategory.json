@@ -7,6 +7,7 @@
         "templateCategory.ai": "KI",
         "templateCategory.api": "API",
         "templateCategory.automation": "Automatisierung",
+        "templateCategory.connector": "Konnektor",
         "templateCategory.dataProcessing": "Datenverarbeitung",
         "templateCategory.developer": "Entwicklertools",
         "templateCategory.file": "Dateien",

@@ -6,6 +6,7 @@
     "translations": {
         "toolCategory.apiIntegration": "API Entegrasyonu",
         "toolCategory.automation": "Otomasyon",
+        "toolCategory.connector": "Bağlayıcı",
         "toolCategory.dataTransform": "Veri Dönüşümü",
         "toolCategory.fileOperations": "Dosya İşlemleri",
         "toolCategory.imageProcessing": "Görsel İşleme",

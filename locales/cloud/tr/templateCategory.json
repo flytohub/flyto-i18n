@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "templateCategory.automation": "Otomasyon",
+        "templateCategory.connector": "Bağlayıcı",
         "templateCategory.dataProcessing": "Veri İşleme",
         "templateCategory.productivity": "Verimlilik",
         "templateCategory.socialMedia": "Sosyal Medya",

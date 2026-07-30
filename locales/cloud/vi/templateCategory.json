@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "templateCategory.automation": "Tự động hóa",
+        "templateCategory.connector": "Trình kết nối",
         "templateCategory.dataProcessing": "Xử lý dữ liệu",
         "templateCategory.productivity": "Năng suất",
         "templateCategory.socialMedia": "Mạng xã hội",

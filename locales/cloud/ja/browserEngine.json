@@ -8,8 +8,8 @@
     "browserEngine.compWorking": "",
     "browserEngine.degradedFallback": "",
     "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
+    "browserEngine.provisioningHint": "必要なコンポーネントをダウンロードして設定しています…",
+    "browserEngine.provisioningTitle": "ブラウザー自動化エンジンを準備しています",
     "browserEngine.retry": "",
     "browserEngine.retrying": ""
   }

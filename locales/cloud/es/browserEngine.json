@@ -8,8 +8,8 @@
     "browserEngine.compWorking": "",
     "browserEngine.degradedFallback": "",
     "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
+    "browserEngine.provisioningHint": "Descargando y configurando los componentes necesarios…",
+    "browserEngine.provisioningTitle": "Preparando el motor de automatización del navegador",
     "browserEngine.retry": "",
     "browserEngine.retrying": ""
   }

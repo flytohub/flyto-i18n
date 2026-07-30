@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "translations": {
         "templateCategory.automation": "อัตโนมัติ",
+        "templateCategory.connector": "ตัวเชื่อมต่อ",
         "templateCategory.dataProcessing": "ประมวลผลข้อมูล",
         "templateCategory.productivity": "ประสิทธิภาพการทำงาน",
         "templateCategory.socialMedia": "โซเชียลมีเดีย",
