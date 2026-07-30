@@ -4,6 +4,15 @@
 
 ### Added
 
+- Added 33 `code.attackValidation.benchmark.*` keys for the measurable
+  effectiveness command center: authorized outcome funnel, time-to-proof
+  percentiles, Red Team/Pulse/BYO and active-mode coverage, all seven proof
+  stages, and explicit remediation/retest gap queues. English, Traditional
+  Chinese, and Simplified Chinese are reviewed; the other 13 Code locales
+  retain the established deterministic runtime fallback contract.
+- Added regression coverage requiring the benchmark v2 catalog in every source
+  and generated Code locale, with reviewed primary-locale copy pins for the
+  outcome funnel, effectiveness coverage, and tamper-evident audit stage.
 - Added 37 `code.attackValidation.command.*` keys for the campaign-first Red
   Team, Pulse, and BYO decision surface across all 16 Code locales. English,
   Traditional Chinese, and Simplified Chinese are reviewed; the remaining 13
@@ -80,6 +89,9 @@
 
 ### Changed
 
+- Rebuilt the tracked Code and aggregate distribution bundles with 9,246 Code
+  keys so every benchmark v2 label, proof stage, duration, and gap state is
+  available from the CDN contract.
 - Migrated the remaining Cloud common/status/AI Space save labels into the
   shared source, rebuilt tracked Cloud/Flow/aggregate bundles, and closed all
   Flyto Cloud orphan translation references.

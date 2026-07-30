@@ -19,6 +19,7 @@ class FootprintDurableRunTranslationTests(unittest.TestCase):
     """Keep worker and queue state truthful in every supported locale."""
 
     def test_required_keys_are_non_empty_in_every_code_locale(self):
+        """Require durable queue-state copy to be non-empty in every Code locale."""
         locale_files = sorted((ROOT / "locales" / "code").glob("*/code.json"))
         self.assertGreater(len(locale_files), 0)
 
