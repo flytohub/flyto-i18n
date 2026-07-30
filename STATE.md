@@ -4,10 +4,15 @@ Current state on 2026-07-30:
 
 - Repo status: internal tooling with public CDN artifacts.
 - Flyto2 AI Space product copy now has a canonical `cloud.aiSpace` source
-  catalog with 286 non-empty keys in English, Traditional Chinese, and
+  catalog with 330 non-empty keys in English, Traditional Chinese, and
   Simplified Chinese. Flyto Cloud consumes the generated bundles without
   carrying a duplicate local catalog; other locales use the standard English
   runtime fallback until reviewed community translations are added.
+- The 44-key `aiSpace.dependency.*` contract gives each workflow capability an
+  automatic or operator-reviewed multi-axis dependency policy. Safety response,
+  task consequence, evidence, substitution, confidence, freshness, recovery,
+  retry, and active phases remain independent; mission/safety/required labels
+  are UI summaries, not persisted execution levels.
 - The AI Space resource-routing extension adds reviewed endpoint, capability,
   Space, permission, health, priority, lease, automatic/custom policy, and
   confirmation copy without binding the UI to a language, device class,
@@ -77,7 +82,7 @@ Current state on 2026-07-30:
   Simplified Chinese validation.
 - Draft-07 locale and repository-manifest schemas are executed by strict
   validation across 4,560 recognized catalog files.
-- Every one of 198 Python classes, functions, nested functions, methods, and
+- Every one of 212 Python classes, functions, nested functions, methods, and
   tests has a docstring and a freshness-checked generated source reference.
 - Root manifest coverage is synchronized from the deterministic aggregate
   build; it no longer drifts from `dist/manifest.json`.
@@ -108,6 +113,10 @@ Known release work:
 
 Verification evidence captured on 2026-07-30:
 
+- The AI Space dependency contract passed exact 44-key source and generated
+  bundle parity tests for English, Traditional Chinese, and Simplified Chinese,
+  strict validation across all 4,563 catalogs, and deterministic Cloud and
+  aggregate distribution rebuilding.
 - Deterministic distribution rebuilding completed with 9,246 Code keys after
   adding the measurable effectiveness benchmark v2 catalog.
 - Strict validation passed across all 4,560 source catalogs after adding the

@@ -11,6 +11,19 @@ Reason: folder-scoped Physical AI controls are safety- and workflow-facing
 product text. A second catalog inside the consumer hides missing keys, prevents
 normal translation review, and can silently fall back to embedded English.
 
+## 2026-07-30 - Dependency labels summarize independent policy axes
+
+Decision: localize the AI Space dependency editor as automatic or custom, then
+describe safety response, task consequence, evidence, substitution, confidence,
+freshness, recovery, retry, and active phases independently. Labels such as
+mission critical, safety critical, required, assistive, and optional are derived
+UI summaries only and are never a persisted dependency level.
+
+Reason: one camera, microphone, speaker, elevator, or robot endpoint can be
+optional in one workflow phase and safety-critical in another. A device-class
+label or fixed severity ladder would hide that context and make translated UI
+copy appear more authoritative than the execution contract.
+
 ## 2026-07-28 - Attack-validation safety copy is catalog-owned
 
 Decision: keep the Red Team, Pulse, BYO, confidence, authorization mode,
