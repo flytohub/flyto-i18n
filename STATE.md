@@ -35,6 +35,11 @@ Current state on 2026-07-30:
   reviewed copy for Red Team, Pulse, BYO, authorization modes, confidence,
   owned/canary safety scope, and remediation/retest states; other locales use
   the deterministic English fallback until reviewed translations land.
+- All 16 Code locale catalogs and tracked distributions now include the 37-key
+  `code.attackValidation.command.*` contract for the campaign-first Red Team,
+  Pulse, and BYO decision surface. English, Traditional Chinese, and Simplified
+  Chinese are reviewed; the other 13 catalogs use deterministic English
+  fallbacks until native review.
 - All 16 Code locale catalogs and their generated distributions include the
   five canonical `code.scoring.*` labels for cloud posture, container images,
   and MCP Runtime Guardian, keeping the frontend scoring surface aligned with
@@ -95,6 +100,16 @@ Known release work:
 - Migrate the tracked `dist/cortex` compatibility bundle to a named source
   catalog and generator scope before treating it as fresh output.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.
+
+Verification evidence captured on 2026-07-30:
+
+- Strict validation passed across all 4,560 source catalogs after adding the
+  campaign command-center contract.
+- Deterministic distribution rebuilding completed with 9,208 Code keys and
+  22,272 aggregate keys.
+- The focused Code UI and distribution suites passed 9 tests, including
+  all-locale source/generated parity and reviewed English, Traditional Chinese,
+  and Simplified Chinese copy pins.
 
 Verification evidence captured on 2026-07-28:
 

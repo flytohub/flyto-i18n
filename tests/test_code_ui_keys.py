@@ -43,6 +43,46 @@ ATTACK_VALIDATION_KEYS = {
     "code.attackValidation.title",
 }
 
+ATTACK_VALIDATION_COMMAND_KEYS = {
+    "code.attackValidation.command.action.queue",
+    "code.attackValidation.command.action.retest",
+    "code.attackValidation.command.awaitingEvidence",
+    "code.attackValidation.command.budgetRemaining",
+    "code.attackValidation.command.check.active",
+    "code.attackValidation.command.check.audit",
+    "code.attackValidation.command.check.backend",
+    "code.attackValidation.command.check.blocked",
+    "code.attackValidation.command.check.budget",
+    "code.attackValidation.command.check.killSwitch",
+    "code.attackValidation.command.check.pass",
+    "code.attackValidation.command.check.proof",
+    "code.attackValidation.command.check.scope",
+    "code.attackValidation.command.exactScope",
+    "code.attackValidation.command.label",
+    "code.attackValidation.command.next.blocked",
+    "code.attackValidation.command.next.monitoring",
+    "code.attackValidation.command.next.proofReady",
+    "code.attackValidation.command.next.ready",
+    "code.attackValidation.command.next.retest",
+    "code.attackValidation.command.next.stopped",
+    "code.attackValidation.command.nextAction",
+    "code.attackValidation.command.noCampaign",
+    "code.attackValidation.command.outcomes",
+    "code.attackValidation.command.proofPending",
+    "code.attackValidation.command.proofReady",
+    "code.attackValidation.command.readiness",
+    "code.attackValidation.command.runCeiling",
+    "code.attackValidation.command.sourceConvergence",
+    "code.attackValidation.command.state.blocked",
+    "code.attackValidation.command.state.monitoring",
+    "code.attackValidation.command.state.proofReady",
+    "code.attackValidation.command.state.ready",
+    "code.attackValidation.command.state.retest",
+    "code.attackValidation.command.state.stopped",
+    "code.attackValidation.command.subtitle",
+    "code.attackValidation.command.title",
+}
+
 SCORING_PLATFORM_KEYS = {
     "code.scoring.cat.cloud",
     "code.scoring.cat.container",
@@ -119,6 +159,65 @@ class CodeUIKeyContractTests(unittest.TestCase):
                     json.loads(dist_path.read_text(encoding="utf-8"))["translations"]
                 )
                 self.assertEqual(set(), SCORING_PLATFORM_KEYS - published.keys())
+
+    def test_every_code_locale_publishes_campaign_command_center(self):
+        """Keep the campaign-first execution contract non-empty everywhere."""
+        locale_root = ROOT / "locales" / "code"
+        for path in sorted(locale_root.glob("*/code.json")):
+            with self.subTest(locale=path.parent.name):
+                translations = json.loads(path.read_text(encoding="utf-8"))[
+                    "translations"
+                ]
+                missing = ATTACK_VALIDATION_COMMAND_KEYS - translations.keys()
+                empty = {
+                    key
+                    for key in ATTACK_VALIDATION_COMMAND_KEYS
+                    if not str(translations.get(key, "")).strip()
+                }
+                self.assertEqual(set(), missing)
+                self.assertEqual(set(), empty)
+
+                dist_path = ROOT / "dist" / "code" / f"{path.parent.name}.json"
+                published = flatten(
+                    json.loads(dist_path.read_text(encoding="utf-8"))["translations"]
+                )
+                published_missing = ATTACK_VALIDATION_COMMAND_KEYS - published.keys()
+                published_empty = {
+                    key
+                    for key in ATTACK_VALIDATION_COMMAND_KEYS
+                    if not str(published.get(key, "")).strip()
+                }
+                self.assertEqual(set(), published_missing)
+                self.assertEqual(set(), published_empty)
+
+    def test_reviewed_campaign_command_center_copy_does_not_drift(self):
+        """Pin the primary campaign-first product promise in reviewed locales."""
+        expected = {
+            "en": (
+                "Campaign command center",
+                "One authorized campaign from signal to proof and retest",
+            ),
+            "zh-TW": (
+                "攻擊活動指揮中心",
+                "從訊號、授權執行、可重現證據到修復複驗，只聚焦一個攻擊活動",
+            ),
+            "zh-CN": (
+                "攻击活动指挥中心",
+                "从信号、授权执行、可重现证据到修复复验，只聚焦一个攻击活动",
+            ),
+        }
+        for locale, (title, subtitle) in expected.items():
+            with self.subTest(locale=locale):
+                path = ROOT / "locales" / "code" / locale / "code.json"
+                translations = json.loads(path.read_text(encoding="utf-8"))[
+                    "translations"
+                ]
+                self.assertEqual(
+                    title, translations["code.attackValidation.command.title"]
+                )
+                self.assertEqual(
+                    subtitle, translations["code.attackValidation.command.subtitle"]
+                )
 
     def test_reviewed_attack_validation_safety_copy_does_not_drift(self):
         """Protect the explicit authorization boundary in reviewed locales."""

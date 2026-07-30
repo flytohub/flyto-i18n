@@ -4,6 +4,13 @@
 
 ### Added
 
+- Added 37 `code.attackValidation.command.*` keys for the campaign-first Red
+  Team, Pulse, and BYO decision surface across all 16 Code locales. English,
+  Traditional Chinese, and Simplified Chinese are reviewed; the remaining 13
+  locales use deterministic English fallbacks.
+- Added regression coverage that requires every campaign command-center key in
+  source and generated Code bundles and pins the three reviewed locale titles
+  and subtitles.
 - Added five `code.scoring.*` labels for cloud posture, container images, and
   MCP Runtime Guardian across all 16 Code locales, with regression coverage
   for the Engine-aligned scoring surface.
@@ -76,6 +83,9 @@
 - Migrated the remaining Cloud common/status/AI Space save labels into the
   shared source, rebuilt tracked Cloud/Flow/aggregate bundles, and closed all
   Flyto Cloud orphan translation references.
+- Rebuilt the tracked Code and aggregate distribution bundles with 9,208 Code
+  keys. Strict validation passed across all 4,560 source catalogs, and the
+  focused Code UI/distribution suite passed 9 tests.
 - Rebuilt the tracked Code and aggregate distribution bundles with the
   Engine-aligned scoring labels.
 - Synchronized the two missing Warroom CE administrator password-policy keys
