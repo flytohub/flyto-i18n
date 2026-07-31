@@ -11,6 +11,7 @@
     "toolCategory.imageProcessing": "Image Processing",
     "toolCategory.other": "Other",
     "toolCategory.textProcessing": "Text Processing",
-    "toolCategory.webScraping": "Web Scraping"
+    "toolCategory.webScraping": "Web Scraping",
+    "toolCategory.connector": "Connector"
   }
 }

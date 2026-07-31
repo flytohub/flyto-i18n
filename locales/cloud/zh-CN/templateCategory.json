@@ -15,6 +15,7 @@
         "templateCategory.ai": "AI",
         "templateCategory.file": "文件",
         "templateCategory.monitoring": "监控",
-        "templateCategory.developer": "开发工具"
+        "templateCategory.developer": "开发工具",
+        "templateCategory.connector": "连接器"
     }
 }

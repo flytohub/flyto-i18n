@@ -45,6 +45,32 @@ REQUIRED_RESOURCE_KEYS = {
     "aiSpace.workspace.featureRouting",
     "aiSpace.workspace.tabs.routing",
 }
+REQUIRED_GUARDED_DELIVERY_KEYS = {
+    "aiSpace.delivery.containerLocked",
+    "aiSpace.delivery.containerUnlocked",
+    "aiSpace.delivery.eventCheckpointResumed",
+    "aiSpace.delivery.eventContainerUnlocked",
+    "aiSpace.delivery.eventHandoffCompleted",
+    "aiSpace.delivery.eventHandoffStarted",
+    "aiSpace.delivery.eventItemRejected",
+    "aiSpace.delivery.eventItemVerified",
+    "aiSpace.delivery.eventPreconditionRejected",
+    "aiSpace.delivery.eventPreconditionVerified",
+    "aiSpace.delivery.eventRecipientRejected",
+    "aiSpace.delivery.eventRecipientVerified",
+    "aiSpace.delivery.events",
+    "aiSpace.delivery.gateCheckpoint",
+    "aiSpace.delivery.gateItem",
+    "aiSpace.delivery.gatePreconditions",
+    "aiSpace.delivery.gateRecipient",
+    "aiSpace.delivery.gateUnlock",
+    "aiSpace.delivery.guardedEvidenceTitle",
+    "aiSpace.delivery.guardedFailed",
+    "aiSpace.delivery.guardedHint",
+    "aiSpace.delivery.guardedTitle",
+    "aiSpace.delivery.locked",
+    "aiSpace.delivery.unlocked",
+}
 
 
 def load_ai_space_catalog(locale: str) -> dict[str, str]:
@@ -67,6 +93,7 @@ def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
     assert REQUIRED_WORKSPACE_KEYS <= english_keys
     assert REQUIRED_CONTROL_KEYS <= english_keys
     assert REQUIRED_RESOURCE_KEYS <= english_keys
+    assert REQUIRED_GUARDED_DELIVERY_KEYS <= english_keys
     assert len(english_keys) >= 270
 
     for locale, translations in catalogs.items():

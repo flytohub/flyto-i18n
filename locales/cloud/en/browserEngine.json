@@ -4,13 +4,13 @@
   "category": "cloud.browserEngine",
   "version": "1.0.0",
   "translations": {
-    "browserEngine.compReady": "Comp Ready",
-    "browserEngine.compWorking": "Comp Working",
-    "browserEngine.degradedFallback": "Degraded Fallback",
-    "browserEngine.degradedTitle": "Degraded Title",
-    "browserEngine.provisioningHint": "Provisioning Hint",
-    "browserEngine.provisioningTitle": "Provisioning Title",
-    "browserEngine.retry": "Retry",
-    "browserEngine.retrying": "Retrying"
+    "browserEngine.compReady": "Computer control is ready",
+    "browserEngine.compWorking": "Preparing computer control…",
+    "browserEngine.degradedFallback": "Continuing with browser-only control.",
+    "browserEngine.degradedTitle": "Computer control is unavailable",
+    "browserEngine.provisioningHint": "This may take a moment. Keep this window open.",
+    "browserEngine.provisioningTitle": "Preparing secure browser control",
+    "browserEngine.retry": "Try again",
+    "browserEngine.retrying": "Retrying…"
   }
 }

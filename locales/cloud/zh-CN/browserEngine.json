@@ -4,13 +4,13 @@
   "category": "cloud.browserEngine",
   "version": "1.0.0",
   "translations": {
-    "browserEngine.compReady": "",
-    "browserEngine.compWorking": "",
-    "browserEngine.degradedFallback": "",
-    "browserEngine.degradedTitle": "",
-    "browserEngine.provisioningHint": "",
-    "browserEngine.provisioningTitle": "",
-    "browserEngine.retry": "",
-    "browserEngine.retrying": ""
+    "browserEngine.compReady": "电脑控制已就绪",
+    "browserEngine.compWorking": "正在准备电脑控制…",
+    "browserEngine.degradedFallback": "将改用浏览器控制继续执行。",
+    "browserEngine.degradedTitle": "电脑控制目前无法使用",
+    "browserEngine.provisioningHint": "可能需要一些时间，请保持此窗口打开。",
+    "browserEngine.provisioningTitle": "正在准备安全的浏览器控制",
+    "browserEngine.retry": "再试一次",
+    "browserEngine.retrying": "正在重试…"
   }
 }
