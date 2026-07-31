@@ -37,13 +37,22 @@ REQUIRED_CONTROL_KEYS = {
 REQUIRED_RESOURCE_KEYS = {
     "aiSpace.resources.adapter",
     "aiSpace.resources.capabilities",
+    "aiSpace.resources.contractHint",
+    "aiSpace.resources.contractTitle",
     "aiSpace.resources.endpointTitle",
     "aiSpace.resources.healthTimeout",
     "aiSpace.resources.leaseTtl",
+    "aiSpace.resources.missingOutput",
+    "aiSpace.resources.noContracts",
+    "aiSpace.resources.openInput",
+    "aiSpace.resources.outputs",
     "aiSpace.resources.permissions",
     "aiSpace.resources.routingTitle",
+    "aiSpace.workspace.adapterEndpoints",
     "aiSpace.workspace.featureRouting",
+    "aiSpace.workspace.outputToInput",
     "aiSpace.workspace.tabs.routing",
+    "aiSpace.workspace.typedOutput",
 }
 REQUIRED_GUARDED_DELIVERY_KEYS = {
     "aiSpace.delivery.containerLocked",
@@ -94,7 +103,7 @@ def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
     assert REQUIRED_CONTROL_KEYS <= english_keys
     assert REQUIRED_RESOURCE_KEYS <= english_keys
     assert REQUIRED_GUARDED_DELIVERY_KEYS <= english_keys
-    assert len(english_keys) >= 270
+    assert len(english_keys) >= 340
 
     for locale, translations in catalogs.items():
         assert set(translations) == english_keys, locale

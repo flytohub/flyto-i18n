@@ -92,6 +92,10 @@
 
 ### Changed
 
+- Reframed AI Space copy around composable workflow input/output contracts for
+  both software and hardware. Added reviewed English, Traditional Chinese, and
+  Simplified Chinese labels for typed outputs, open inputs, missing contracts,
+  and optional adapter safeguards without changing existing locale keys.
 - Rebuilt the tracked Code and aggregate distribution bundles with 9,246 Code
   keys so every benchmark v2 label, proof stage, duration, and gap state is
   available from the CDN contract.
