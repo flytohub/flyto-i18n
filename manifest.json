@@ -35,7 +35,7 @@
     "ja": {
       "name": "Japanese",
       "native_name": "日本語",
-      "coverage": 90.7,
+      "coverage": 90.6,
       "status": "official",
       "maintainers": [
         "@flytohub"
