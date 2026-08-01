@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "すべてのテンプレート",
     "templateFolders.createSuccess": "フォルダを作成しました",
     "templateFolders.created": "作成日",
     "templateFolders.defaultFolder": "デフォルト",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "このフォルダは空です",
     "templateFolders.folderName": "フォルダ名",
     "templateFolders.folders": "フォルダー",
-    "templateFolders.allTemplates": "すべてのテンプレート",
     "templateFolders.installed": "インストール済み",
     "templateFolders.manageFolders": "フォルダ管理",
     "templateFolders.maxDepth": "フォルダの最大階層に達しました",

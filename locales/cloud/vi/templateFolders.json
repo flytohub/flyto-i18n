@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Tất cả mẫu",
     "templateFolders.createSuccess": "Đã tạo thư mục",
     "templateFolders.created": "Đã tạo",
     "templateFolders.defaultFolder": "Mặc định",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Thư mục này trống",
     "templateFolders.folderName": "Tên thư mục",
     "templateFolders.folders": "Thư mục",
-    "templateFolders.allTemplates": "Tất cả mẫu",
     "templateFolders.installed": "Đã cài đặt",
     "templateFolders.manageFolders": "Quản Lý Thư Mục",
     "templateFolders.maxDepth": "Đã đạt độ sâu thư mục tối đa",

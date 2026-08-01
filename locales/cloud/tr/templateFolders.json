@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Tüm şablonlar",
     "templateFolders.createSuccess": "Klasör oluşturuldu",
     "templateFolders.created": "Oluşturulma",
     "templateFolders.defaultFolder": "Varsayılan",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Bu klasör boş",
     "templateFolders.folderName": "Klasör Adı",
     "templateFolders.folders": "Klasörler",
-    "templateFolders.allTemplates": "Tüm şablonlar",
     "templateFolders.installed": "Yüklendi",
     "templateFolders.manageFolders": "Klasörleri Yönet",
     "templateFolders.maxDepth": "Maksimum klasör derinliğine ulaşıldı",

@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Todas las plantillas",
     "templateFolders.createSuccess": "Carpeta creada",
     "templateFolders.created": "Creado",
     "templateFolders.defaultFolder": "Predeterminado",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Esta carpeta está vacía",
     "templateFolders.folderName": "Nombre de la carpeta",
     "templateFolders.folders": "Carpetas",
-    "templateFolders.allTemplates": "Todas las plantillas",
     "templateFolders.installed": "Instalado",
     "templateFolders.manageFolders": "Gestionar carpetas",
     "templateFolders.maxDepth": "Se alcanzó la profundidad máxima de carpetas",

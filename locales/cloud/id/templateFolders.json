@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Semua templat",
     "templateFolders.createSuccess": "Folder berhasil dibuat",
     "templateFolders.created": "Dibuat",
     "templateFolders.defaultFolder": "Default",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Folder ini kosong",
     "templateFolders.folderName": "Nama Folder",
     "templateFolders.folders": "Folder",
-    "templateFolders.allTemplates": "Semua templat",
     "templateFolders.installed": "Terinstal",
     "templateFolders.manageFolders": "Kelola Folder",
     "templateFolders.maxDepth": "Kedalaman folder maksimum tercapai",

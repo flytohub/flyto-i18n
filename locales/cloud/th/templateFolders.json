@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "เทมเพลตทั้งหมด",
     "templateFolders.createSuccess": "สร้างโฟลเดอร์แล้ว",
     "templateFolders.created": "สร้างแล้ว",
     "templateFolders.defaultFolder": "ค่าเริ่มต้น",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "โฟลเดอร์นี้ว่างเปล่า",
     "templateFolders.folderName": "ชื่อโฟลเดอร์",
     "templateFolders.folders": "โฟลเดอร์",
-    "templateFolders.allTemplates": "เทมเพลตทั้งหมด",
     "templateFolders.installed": "ติดตั้งแล้ว",
     "templateFolders.manageFolders": "จัดการโฟลเดอร์",
     "templateFolders.maxDepth": "ถึงความลึกสูงสุดของโฟลเดอร์แล้ว",

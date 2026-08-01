@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "सभी टेम्पलेट",
     "templateFolders.createSuccess": "फ़ोल्डर बनाया गया",
     "templateFolders.created": "बनाया गया",
     "templateFolders.defaultFolder": "डिफ़ॉल्ट",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "यह फ़ोल्डर खाली है",
     "templateFolders.folderName": "फ़ोल्डर का नाम",
     "templateFolders.folders": "फ़ोल्डर",
-    "templateFolders.allTemplates": "सभी टेम्पलेट",
     "templateFolders.installed": "इंस्टॉल किया",
     "templateFolders.manageFolders": "फ़ोल्डर प्रबंधित करें",
     "templateFolders.maxDepth": "फ़ोल्डर की अधिकतम गहराई तक पहुँच गया",

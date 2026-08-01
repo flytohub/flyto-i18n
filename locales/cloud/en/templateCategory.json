@@ -16,7 +16,6 @@
     "templateCategory.ai": "AI",
     "templateCategory.file": "File",
     "templateCategory.monitoring": "Monitoring",
-    "templateCategory.developer": "Dev Tools",
-    "templateCategory.connector": "Connector"
+    "templateCategory.developer": "Dev Tools"
   }
 }
