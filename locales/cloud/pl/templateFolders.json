@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Wszystkie szablony",
     "templateFolders.createSuccess": "Folder utworzony",
     "templateFolders.created": "Utworzono",
     "templateFolders.defaultFolder": "Domyślny",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Ten folder jest pusty",
     "templateFolders.folderName": "Nazwa folderu",
     "templateFolders.folders": "Foldery",
-    "templateFolders.allTemplates": "Wszystkie szablony",
     "templateFolders.installed": "Zainstalowano",
     "templateFolders.manageFolders": "Zarządzaj Folderami",
     "templateFolders.maxDepth": "Osiągnięto maksymalną głębokość folderów",

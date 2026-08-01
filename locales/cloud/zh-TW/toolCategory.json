@@ -12,7 +12,6 @@
     "toolCategory.imageProcessing": "圖片處理",
     "toolCategory.other": "其他",
     "toolCategory.textProcessing": "文字處理",
-    "toolCategory.webScraping": "網頁爬蟲",
-    "toolCategory.connector": "連接器"
+    "toolCategory.webScraping": "網頁爬蟲"
   }
 }

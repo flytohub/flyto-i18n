@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Todos os modelos",
     "templateFolders.createSuccess": "Pasta criada",
     "templateFolders.created": "Criado",
     "templateFolders.defaultFolder": "Padrão",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Esta pasta está vazia",
     "templateFolders.folderName": "Nome da pasta",
     "templateFolders.folders": "Pastas",
-    "templateFolders.allTemplates": "Todos os modelos",
     "templateFolders.installed": "Instalado",
     "templateFolders.manageFolders": "Gerenciar Pastas",
     "templateFolders.maxDepth": "Profundidade máxima de pastas atingida",

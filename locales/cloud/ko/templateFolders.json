@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "모든 템플릿",
     "templateFolders.createSuccess": "폴더가 생성되었습니다",
     "templateFolders.created": "생성일",
     "templateFolders.defaultFolder": "기본",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "이 폴더는 비어 있습니다",
     "templateFolders.folderName": "폴더 이름",
     "templateFolders.folders": "폴더",
-    "templateFolders.allTemplates": "모든 템플릿",
     "templateFolders.installed": "설치됨",
     "templateFolders.manageFolders": "폴더 관리",
     "templateFolders.maxDepth": "최대 폴더 깊이에 도달했습니다",

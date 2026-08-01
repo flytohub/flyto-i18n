@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Tous les modèles",
     "templateFolders.createSuccess": "Dossier créé",
     "templateFolders.created": "Créé",
     "templateFolders.defaultFolder": "Par défaut",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Ce dossier est vide",
     "templateFolders.folderName": "Nom du dossier",
     "templateFolders.folders": "Dossiers",
-    "templateFolders.allTemplates": "Tous les modèles",
     "templateFolders.installed": "Installé",
     "templateFolders.manageFolders": "Gérer les dossiers",
     "templateFolders.maxDepth": "Profondeur maximale de dossiers atteinte",

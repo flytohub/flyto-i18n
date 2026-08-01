@@ -4,6 +4,8 @@
   "category": "cloud.templateFolders",
   "version": "1.0.0",
   "translations": {
+    "templateFolders.aiSpaceSaved": "",
+    "templateFolders.allTemplates": "Tutti i modelli",
     "templateFolders.createSuccess": "Cartella creata",
     "templateFolders.created": "Creato",
     "templateFolders.defaultFolder": "Predefinito",
@@ -16,7 +18,6 @@
     "templateFolders.emptyFolder": "Questa cartella è vuota",
     "templateFolders.folderName": "Nome della cartella",
     "templateFolders.folders": "Cartelle",
-    "templateFolders.allTemplates": "Tutti i modelli",
     "templateFolders.installed": "Installato",
     "templateFolders.manageFolders": "Gestisci cartelle",
     "templateFolders.maxDepth": "Profondità massima delle cartelle raggiunta",
