@@ -149,8 +149,8 @@ Declarations: **218**
 | method | `AddLocaleTests.write_locale_file` | [`tests/test_add_locale.py:37`](../../tests/test_add_locale.py#L37) | Write one minimal locale fixture under the temporary root. |
 | method | `AddLocaleTests.test_count_locale_translations_across_projects` | [`tests/test_add_locale.py:46`](../../tests/test_add_locale.py#L46) | Count translated and total keys across all configured projects. |
 | method | `AddLocaleTests.test_locale_status_labels_completion_states` | [`tests/test_add_locale.py:56`](../../tests/test_add_locale.py#L56) | Map empty, partial, and complete counts to stable status labels. |
-| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:76`](../../tests/test_ai_space_catalog.py#L76) | Load the authoritative AI Space source catalog for one locale. |
-| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:86`](../../tests/test_ai_space_catalog.py#L86) | Keep official AI Space catalogs complete, aligned, and non-empty. |
+| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:85`](../../tests/test_ai_space_catalog.py#L85) | Load the authoritative AI Space source catalog for one locale. |
+| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:95`](../../tests/test_ai_space_catalog.py#L95) | Keep official AI Space catalogs complete, aligned, and non-empty. |
 | function | `_translations` | [`tests/test_ai_space_dependency_contract.py:59`](../../tests/test_ai_space_dependency_contract.py#L59) | Load flat source keys or flatten one generated nested runtime bundle. |
 | function | `_translations.walk` | [`tests/test_ai_space_dependency_contract.py:67`](../../tests/test_ai_space_dependency_contract.py#L67) | Collect nested runtime values under their dot-delimited key. |
 | function | `test_reviewed_dependency_catalogs_are_complete_and_non_empty` | [`tests/test_ai_space_dependency_contract.py:79`](../../tests/test_ai_space_dependency_contract.py#L79) | Keep all reviewed locales on the exact operator-facing contract. |

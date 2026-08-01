@@ -4,6 +4,10 @@
 
 ### Added
 
+- Added an i18n-owned hourly and manual Flyto2 Cloud key pull. It validates the
+  complete repository and opens a review-required synchronization PR without
+  copying private Cloud source or requiring Cloud to hold an i18n write token.
+
 - Added non-empty browser-engine provisioning and connector-category runtime
   copy to every Cloud locale, with source and generated-bundle contract tests
   that reject missing or empty values.

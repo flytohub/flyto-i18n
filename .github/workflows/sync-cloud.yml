@@ -1,0 +1,113 @@
+name: Sync from Cloud
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      cloud_ref:
+        description: 'flyto-cloud commit ref'
+        required: false
+        default: 'main'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: i18n-cloud-pull-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout flyto-i18n
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: flyto-i18n
+
+      - name: Checkout flyto-cloud
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: flytohub/flyto-cloud
+          path: flyto-cloud
+          ref: ${{ inputs.cloud_ref || 'main' }}
+          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+
+      - name: Install validation dependencies
+        working-directory: flyto-i18n
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Sync Cloud keys
+        working-directory: flyto-i18n
+        run: |
+          python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud
+          python scripts/sync-locales.py
+          npm run docs:write
+
+      - name: Validate source and generated bundles
+        working-directory: flyto-i18n
+        run: npm run verify
+
+      - name: Check for changes
+        id: changes
+        working-directory: flyto-i18n
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Cloud keys and generated bundles are already current"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git status --short
+          fi
+
+      - name: Create reviewed synchronization pull request
+        id: cpr
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          path: flyto-i18n
+          token: ${{ secrets.FLYTO_CLOUD_TOKEN }}
+          title: 'sync: update keys from flyto-cloud'
+          body: |
+            ## Auto-synced i18n keys from flyto-cloud
+
+            Source ref: `${{ inputs.cloud_ref || 'main' }}`
+
+            ### Validation
+            - Scanned the private Cloud frontend without copying its source
+            - Synchronized every locale against the canonical English catalog
+            - Rebuilt deterministic distribution and SEO artifacts
+            - Passed the complete flyto-i18n verification suite
+
+            _Created by the i18n-owned pull workflow. Review is required before merge._
+          branch: sync/cloud-keys
+          commit-message: 'sync: update keys from flyto-cloud'
+          labels: sync, automated, cloud
+
+      - name: Summary
+        env:
+          CLOUD_REF: ${{ inputs.cloud_ref || 'main' }}
+        run: |
+          {
+            echo "## Cloud to i18n pull sync"
+            echo ""
+            printf -- "- Cloud ref: \`%s\`\n" "$CLOUD_REF"
+            if [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
+              echo "- Pull request: #${{ steps.cpr.outputs.pull-request-number }}"
+            else
+              echo "- Result: source catalogs and generated bundles are current"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

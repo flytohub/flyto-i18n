@@ -1,5 +1,11 @@
 # State
 
+- Cloud synchronization is now owned by this repository. An hourly or manual
+  workflow pulls a selected `flyto-cloud` ref, synchronizes catalogs, rebuilds
+  generated artifacts, runs the complete verification suite, and opens a
+  review-required PR only when the deterministic working tree changes. Private
+  Cloud source is never committed here.
+
 Current state on 2026-07-31:
 
 - Repo status: internal tooling with public CDN artifacts.
