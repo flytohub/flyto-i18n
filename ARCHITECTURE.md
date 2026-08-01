@@ -20,6 +20,13 @@ Consumer surfaces:
 - Product bundles: Flyto2 Cloud, Code, Console, Data, Engine, App, Landing.
 - Public SEO surfaces: `flyto2.com`, `docs.flyto2.com`, `blog.flyto2.com`.
 
+Cross-repository synchronization is consumer-pull oriented. The i18n-owned
+`sync-cloud.yml` workflow checks out private Cloud source with a repository
+secret, runs the existing scanner and full deterministic verification, and
+opens a review-required pull request only when catalogs or generated outputs
+change. Flyto2 Cloud may validate the same projection, but it does not own an
+i18n write credential.
+
 This repo must not bypass shared `flyto-core` runtime boundaries, must not store
 credentials, and must keep SaaS, enterprise, community, and internal-only
 behavior explicit.

@@ -1,5 +1,17 @@
 # Decisions
 
+## 2026-08-01 - Translation owners pull private consumer source
+
+Decision: `flyto-i18n` owns the scheduled and manual Cloud-key import. It uses
+the existing `FLYTO_CLOUD_TOKEN` only to read the private consumer and to open
+a reviewed PR in this repository after complete source and distribution
+verification. Flyto2 Cloud retains a credential-free validation projection.
+
+Reason: localization catalogs and generated bundles are owned here. Pull
+ownership removes an unnecessary cross-repository write secret from Cloud,
+keeps source-to-dist validation in one trust boundary, and still provides an
+hourly recovery path when a Cloud push cannot dispatch this private workflow.
+
 ## 2026-07-30 - AI Space product copy is catalog-owned
 
 Decision: keep the complete `aiSpace.*` namespace in `locales/cloud`, with
