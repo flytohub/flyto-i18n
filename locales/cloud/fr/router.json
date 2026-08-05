@@ -1,0 +1,9 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.router",
+  "version": "1.0.0",
+  "translations": {
+    "router.pageUnavailable": ""
+  }
+}

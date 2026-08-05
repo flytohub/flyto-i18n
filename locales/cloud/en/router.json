@@ -1,0 +1,9 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "en",
+  "category": "cloud.router",
+  "version": "1.0.0",
+  "translations": {
+    "router.pageUnavailable": "That page is not available on your plan"
+  }
+}
