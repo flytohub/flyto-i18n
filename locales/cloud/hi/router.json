@@ -4,6 +4,7 @@
   "category": "cloud.router",
   "version": "1.0.0",
   "translations": {
-    "router.pageUnavailable": ""
+    "router.pageUnavailable": "",
+    "router.pageCheckFailed": "आपकी पहुँच जाँची नहीं जा सकी — पेज दोबारा लोड करें या फिर से साइन इन करें"
   }
 }

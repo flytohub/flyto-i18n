@@ -4,6 +4,7 @@
   "category": "cloud.router",
   "version": "1.0.0",
   "translations": {
-    "router.pageUnavailable": "That page is not available on your plan"
+    "router.pageUnavailable": "That page is not available on your plan",
+    "router.pageCheckFailed": "Could not check your access — try reloading or signing in again"
   }
 }

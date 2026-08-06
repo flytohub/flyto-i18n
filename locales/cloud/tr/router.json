@@ -4,6 +4,7 @@
   "category": "cloud.router",
   "version": "1.0.0",
   "translations": {
-    "router.pageUnavailable": ""
+    "router.pageUnavailable": "",
+    "router.pageCheckFailed": "Erişiminiz doğrulanamadı — sayfayı yenileyin veya tekrar giriş yapın"
   }
 }
