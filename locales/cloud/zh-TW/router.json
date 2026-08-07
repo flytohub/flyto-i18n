@@ -4,6 +4,7 @@
   "category": "cloud.router",
   "version": "1.0.0",
   "translations": {
-    "router.pageUnavailable": "你的方案不包含這個頁面"
+    "router.pageUnavailable": "你的方案不包含這個頁面",
+    "router.pageCheckFailed": "無法確認你的存取權限 —— 請重新整理或重新登入"
   }
 }

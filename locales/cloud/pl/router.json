@@ -4,6 +4,7 @@
   "category": "cloud.router",
   "version": "1.0.0",
   "translations": {
-    "router.pageUnavailable": ""
+    "router.pageUnavailable": "",
+    "router.pageCheckFailed": "Nie udało się sprawdzić dostępu — odśwież lub zaloguj się ponownie"
   }
 }

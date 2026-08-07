@@ -4,6 +4,7 @@
   "category": "cloud.router",
   "version": "1.0.0",
   "translations": {
-    "router.pageUnavailable": ""
+    "router.pageUnavailable": "",
+    "router.pageCheckFailed": "无法确认你的访问权限 —— 请刷新或重新登录"
   }
 }
