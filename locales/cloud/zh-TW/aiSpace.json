@@ -418,6 +418,10 @@
     "aiSpace.workspace.verifiedFlows": "已驗證流程",
     "aiSpace.workspace.workflow": "工作流程",
     "aiSpace.workspace.workflows": "工作流程",
-    "aiSpace.workspace.workflowSummary": "此 Space 可使用的可重複動作與 MCP 工具。"
+    "aiSpace.workspace.workflowSummary": "此 Space 可使用的可重複動作與 MCP 工具。",
+    "aiSpace.resources.commandEstimate": "預估耗時（秒）",
+    "aiSpace.resources.commandEstimatePlaceholder": "留空則使用能力預設值",
+    "aiSpace.resources.commandShortcut": "鍵盤快捷鍵",
+    "aiSpace.resources.commandShortcutPlaceholder": "ArrowUp"
   }
 }

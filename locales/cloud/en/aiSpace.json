@@ -418,6 +418,10 @@
     "aiSpace.workspace.verifiedFlows": "Verified flows",
     "aiSpace.workspace.workflow": "Workflow",
     "aiSpace.workspace.workflows": "Workflows",
-    "aiSpace.workspace.workflowSummary": "Reusable actions and MCP tools exposed in this Space."
+    "aiSpace.workspace.workflowSummary": "Reusable actions and MCP tools exposed in this Space.",
+    "aiSpace.resources.commandEstimate": "Estimated duration (seconds)",
+    "aiSpace.resources.commandEstimatePlaceholder": "Uses the capability estimate",
+    "aiSpace.resources.commandShortcut": "Keyboard shortcut",
+    "aiSpace.resources.commandShortcutPlaceholder": "ArrowUp"
   }
 }

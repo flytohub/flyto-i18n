@@ -418,6 +418,10 @@
     "aiSpace.workspace.verifiedFlows": "",
     "aiSpace.workspace.workflow": "",
     "aiSpace.workspace.workflowSummary": "",
-    "aiSpace.workspace.workflows": ""
+    "aiSpace.workspace.workflows": "",
+    "aiSpace.resources.commandEstimate": "",
+    "aiSpace.resources.commandEstimatePlaceholder": "",
+    "aiSpace.resources.commandShortcut": "",
+    "aiSpace.resources.commandShortcutPlaceholder": ""
   }
 }
