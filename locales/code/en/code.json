@@ -4023,6 +4023,7 @@
     "code.githubAppCallback.binding": "Linking your GitHub App installation...",
     "code.githubAppCallback.failed": "GitHub App connection failed",
     "code.githubAppCallback.invalidInstallation": "Installation ID from GitHub was malformed.",
+    "code.githubAppCallback.invalidState": "The install link did not match this session — start the connection again from your workspace.",
     "code.githubAppCallback.missingParams": "GitHub did not return installation_id and state — try the Connect button again.",
     "code.githubAppCallback.success": "GitHub App connected",
     "code.githubAppCallback.successHint": "Taking you back to the workspace...",
