@@ -1,5 +1,15 @@
 # Decisions
 
+## 2026-08-08 - Cloud copy converges from workflows upward
+
+Decision: name the three product levels `Workflows -> AI Space -> AI Workflow
+War Room`. Keep device, robot, camera, gateway, and MCP language inside optional
+adapter and resource controls instead of using it to define the AI Space.
+
+Reason: Flyto2 starts from reusable software workflows and must remain useful
+without physical hardware. AI Space is the composition boundary, while the War
+Room is the execution and evidence surface; hardware is one possible adapter.
+
 ## 2026-08-01 - Translation owners pull private consumer source
 
 Decision: `flyto-i18n` owns the scheduled and manual Cloud-key import. It uses
