@@ -4023,6 +4023,7 @@
     "code.githubAppCallback.binding": "",
     "code.githubAppCallback.failed": "",
     "code.githubAppCallback.invalidInstallation": "",
+    "code.githubAppCallback.invalidState": "",
     "code.githubAppCallback.missingParams": "",
     "code.githubAppCallback.success": "",
     "code.githubAppCallback.successHint": "",

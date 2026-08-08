@@ -4023,6 +4023,7 @@
     "code.githubAppCallback.binding": "GitHub App インストールをリンク中…",
     "code.githubAppCallback.failed": "GitHub App 接続失敗",
     "code.githubAppCallback.invalidInstallation": "GitHub から返された Installation ID の形式が不正。",
+    "code.githubAppCallback.invalidState": "",
     "code.githubAppCallback.missingParams": "GitHub が installation_id と state を返しませんでした — 「接続」ボタンを再度クリックしてください。",
     "code.githubAppCallback.success": "インストールに成功しました。このウィンドウを閉じてください。",
     "code.githubAppCallback.successHint": "ワークスペースに戻ります…",
