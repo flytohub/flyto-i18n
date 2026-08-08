@@ -96,6 +96,11 @@
 
 ### Changed
 
+- Converged the canonical English, Traditional Chinese, and Simplified Chinese
+  Cloud copy on `Workflows -> AI Space -> AI Workflow War Room`; resource copy
+  now treats robots, cameras, gateways, and MCP endpoints as optional workflow
+  adapters instead of the product's top-level structure.
+
 - Reframed AI Space copy around composable workflow input/output contracts for
   both software and hardware. Added reviewed English, Traditional Chinese, and
   Simplified Chinese labels for typed outputs, open inputs, missing contracts,

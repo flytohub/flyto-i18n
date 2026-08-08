@@ -6,9 +6,13 @@
   review-required PR only when the deterministic working tree changes. Private
   Cloud source is never committed here.
 
-Current state on 2026-07-31:
+Current state on 2026-08-08:
 
 - Repo status: internal tooling with public CDN artifacts.
+- Canonical Cloud copy now exposes the product hierarchy as `Workflows -> AI
+  Space -> AI Workflow War Room`. AI Space composes workflows, context, and
+  policy; physical endpoints and MCP resources remain optional adapters rather
+  than defining the product's top-level navigation.
 - Flyto2 AI Space product copy now has a canonical `cloud.aiSpace` source
   catalog with 340 non-empty keys in English, Traditional Chinese, and
   Simplified Chinese. Flyto Cloud consumes the generated bundles without
@@ -104,6 +108,13 @@ Current state on 2026-07-31:
   pre-fix dry-run exposed Core `-241` and Cloud `-1915` deletion candidates;
   after the fix, current safe dry-runs report Core `+272/~241 preserved` and
   Cloud `+133/0 removed`. The upstream changes were not applied.
+
+Verification evidence captured on 2026-08-08:
+
+- Workflow-first hierarchy regression coverage passed for English, Traditional
+  Chinese, and Simplified Chinese, including the mirrored legacy namespace.
+- Strict catalog validation passed across 4,576 source files with zero errors;
+  Cloud, Flow, and aggregate tracked distributions were rebuilt successfully.
 
 Known release work:
 

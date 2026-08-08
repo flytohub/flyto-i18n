@@ -34,6 +34,19 @@ behavior explicit.
 Update this file when package exports, generated dist shape, SEO contract
 shape, deployment mode, provider boundaries, or cross-repo dependencies change.
 
+## Flyto Cloud workflow hierarchy
+
+The canonical Cloud catalog presents the product from the software workflow
+upward: `Workflows -> AI Space -> AI Workflow War Room`. AI Space composes
+workflows, context, and policy. Cameras, robots, gateways, and MCP endpoints
+remain optional adapters selected only through declared workflow contracts;
+they do not define the top-level information architecture.
+
+The authoritative public copy for this hierarchy lives in
+`locales/cloud/{en,zh-TW,zh-CN}/{myTemplates,aiSpace,other}.json`. Consumer-side
+fallback strings may preserve availability, but they must not replace the
+catalog as the reviewed runtime source.
+
 ## Flyto2 Flow boundary
 
 `dist/flow` is the static localization input for the open-source Flyto2 Flow
