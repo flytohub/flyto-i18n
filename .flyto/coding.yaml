@@ -1,0 +1,19 @@
+version: flyto.coding-config.v1
+actions:
+  - name: build-dist
+    description: Rebuild the tracked CDN bundles after authored locale changes.
+    argv: [python3, scripts/build-dist.py]
+    timeout_seconds: 900
+  - name: docs-reference
+    description: Regenerate the tracked Python symbol reference after Python test or tooling changes.
+    argv: [python3, scripts/generate-reference.py, --write]
+    timeout_seconds: 900
+checks:
+  - name: verify
+    argv: [npm, run, verify]
+    timeout_seconds: 900
+    required: true
+  - name: indexer
+    argv: [flyto-index, verify, ., --strict, --json]
+    timeout_seconds: 900
+    required: true
