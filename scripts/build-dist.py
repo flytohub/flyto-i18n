@@ -4,6 +4,15 @@ build-dist.py - Build merged locale files for CDN distribution
 
 Usage:
     python scripts/build-dist.py
+    python scripts/build-dist.py --scope landing --scope app
+    python scripts/build-dist.py --locale en --locale zh-TW
+
+Without arguments the script builds every scope and every locale. The
+repeatable ``--scope`` / ``--locale`` filters restrict which bundle files are
+written; both are closed sets (unknown values are rejected). Global manifests
+(``dist/<scope>/manifest.json``, ``dist/manifest.json``,
+``dist/locale-meta.json`` and the root ``manifest.json`` coverage) are always
+derived from every locale so a filtered build never truncates them.
 
 This script:
 1. Merges locale files by scope (cloud, landing, all)
@@ -24,6 +33,7 @@ Scopes (output):
 - dist/{locale}.json          - all translations (admin/full access)
 """
 
+import argparse
 import hashlib
 import json
 import sys
@@ -113,6 +123,16 @@ SCOPES = {
         ('shared', None, 'common'),
     ],
 }
+
+# Name of the aggregate bundle written to dist/{locale}.json. It is not a
+# SCOPES entry (it merges every project directory) but it is selectable with
+# --scope so callers can rebuild only the admin/full-access bundle.
+ALL_SCOPE = 'all'
+
+
+def available_scopes() -> list:
+    """List every selectable scope, including the aggregate `all` bundle."""
+    return list(SCOPES) + [ALL_SCOPE]
 
 
 def get_locales() -> list:
@@ -344,71 +364,117 @@ def sync_repository_manifest(distribution_manifest: dict, manifest_path: Path = 
     return changed
 
 
-def main():
-    """Build all deterministic translation bundles and manifests."""
-    print("Building dist/ for CDN distribution")
+def parse_args(argv: list = None, available_locales: list = None) -> argparse.Namespace:
+    """Parse the repeatable closed-set --scope/--locale distribution filters."""
+    locale_choices = list(available_locales) if available_locales is not None else get_locales()
+    scope_choices = available_scopes()
+    parser = argparse.ArgumentParser(
+        prog='build-dist.py',
+        description='Build merged locale bundles for CDN distribution.',
+    )
+    parser.add_argument(
+        '--scope',
+        dest='scopes',
+        action='append',
+        metavar='SCOPE',
+        choices=scope_choices,
+        help=(
+            'only build this scope; repeatable. '
+            f"choices: {', '.join(scope_choices)}. default: every scope"
+        ),
+    )
+    parser.add_argument(
+        '--locale',
+        dest='locales',
+        action='append',
+        metavar='LOCALE',
+        choices=locale_choices,
+        help=(
+            'only emit this locale bundle; repeatable. '
+            f"choices: {', '.join(locale_choices) or '(none discovered)'}. "
+            'default: every locale'
+        ),
+    )
+    return parser.parse_args(argv)
+
+
+def select_ordered(requested: list, available: list) -> list:
+    """Return requested values in canonical order, defaulting to all of them."""
+    if not requested:
+        return list(available)
+    chosen = set(requested)
+    return [value for value in available if value in chosen]
+
+
+def write_bundle(path: Path, data: dict) -> None:
+    """Write one compact locale bundle exactly as the CDN serves it."""
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False)
+
+
+def write_manifest(path: Path, manifest: dict) -> None:
+    """Write one indented manifest document."""
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+
+
+def build_scope(scope: str, locales: list, selected_locales: list) -> None:
+    """Build one scope: bundles for selected locales, manifest for all locales."""
+    scope_dir = DIST_DIR / scope
+    scope_dir.mkdir(parents=True, exist_ok=True)
+    print(f"[{scope}]")
+
+    scope_locales_data = {}
+    scope_flat_counts = {}
+
+    for locale in locales:
+        data = build_locale(locale, scope=scope)
+        # Manifests stay complete even when only a subset of bundles is
+        # emitted, so downstream consumers never see a truncated locale list.
+        scope_locales_data[locale] = data
+        scope_flat_counts[locale] = count_translated(locale, scope=scope)
+
+        if locale not in selected_locales:
+            continue
+
+        # Write merged file
+        write_bundle(scope_dir / f"{locale}.json", data)
+
+        print(f"  → dist/{scope}/{locale}.json ({data.get('total_keys', 0)} keys, {data.get('files_merged', 0)} files)")
+
+    # Write scope manifest
+    write_manifest(scope_dir / 'manifest.json', build_manifest(scope_locales_data, scope_flat_counts))
+
+    print(f"  → dist/{scope}/manifest.json")
     print()
 
-    DIST_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Get all locales
-    locales = get_locales()
-
-    # Build scoped files first
-    for scope in SCOPES:
-        scope_dir = DIST_DIR / scope
-        scope_dir.mkdir(parents=True, exist_ok=True)
-        print(f"[{scope}]")
-
-        scope_locales_data = {}
-        scope_flat_counts = {}
-
-        for locale in locales:
-            data = build_locale(locale, scope=scope)
-            scope_locales_data[locale] = data
-            scope_flat_counts[locale] = count_translated(locale, scope=scope)
-
-            # Write merged file
-            output_file = scope_dir / f"{locale}.json"
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False)
-
-            print(f"  → dist/{scope}/{locale}.json ({data.get('total_keys', 0)} keys, {data.get('files_merged', 0)} files)")
-
-        # Write scope manifest
-        manifest = build_manifest(scope_locales_data, scope_flat_counts)
-        manifest_file = scope_dir / 'manifest.json'
-        with open(manifest_file, 'w', encoding='utf-8') as f:
-            json.dump(manifest, f, indent=2, ensure_ascii=False)
-
-        print(f"  → dist/{scope}/manifest.json")
-        print()
-
-    # Build full (all translations) for admin/full access
-    print("[all]")
+def build_aggregate(locales: list, selected_locales: list, emit_bundles: bool) -> None:
+    """Build the aggregate bundle plus the always-complete global manifests."""
     all_locales_data = {}
     all_flat_counts = {}
+
+    print(f"[{ALL_SCOPE}]" if emit_bundles else "[global]")
 
     for locale in locales:
         data = build_locale(locale, scope=None)
         all_locales_data[locale] = data
         all_flat_counts[locale] = count_translated(locale, scope=None)
 
+        if not emit_bundles or locale not in selected_locales:
+            continue
+
         # Write merged file
-        output_file = DIST_DIR / f"{locale}.json"
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False)
+        write_bundle(DIST_DIR / f"{locale}.json", data)
 
         print(f"  → dist/{locale}.json ({data.get('total_keys', 0)} keys, {data.get('files_merged', 0)} files)")
 
     # Write root manifest
     manifest = build_manifest(all_locales_data, all_flat_counts)
-    manifest_file = DIST_DIR / 'manifest.json'
-    with open(manifest_file, 'w', encoding='utf-8') as f:
-        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    write_manifest(DIST_DIR / 'manifest.json', manifest)
 
     print("  → dist/manifest.json")
-    sync_repository_manifest(manifest)
+    sync_repository_manifest(manifest, REPOSITORY_MANIFEST)
     print("  → manifest.json coverage")
     locale_meta_file = DIST_DIR / 'locale-meta.json'
     with open(locale_meta_file, 'w', encoding='utf-8') as f:
@@ -416,13 +482,12 @@ def main():
         f.write('\n')
     print("  → dist/locale-meta.json")
     print()
-    print("=" * 50)
-    print("Build complete!")
-    print()
 
-    # Show summary for each scope
-    for scope in list(SCOPES.keys()) + ['all']:
-        scope_dir = DIST_DIR / scope if scope != 'all' else DIST_DIR
+
+def print_summary(selected_scopes: list) -> None:
+    """Print per-scope completion for every scope this build touched."""
+    for scope in selected_scopes:
+        scope_dir = DIST_DIR / scope if scope != ALL_SCOPE else DIST_DIR
         manifest_file = scope_dir / 'manifest.json'
         if manifest_file.exists():
             with open(manifest_file, encoding='utf-8') as f:
@@ -434,5 +499,41 @@ def main():
             print()
 
 
+def main(argv: list = None) -> int:
+    """Build the selected deterministic translation bundles and manifests."""
+    # Get all locales
+    locales = get_locales()
+    args = parse_args(argv, locales)
+    selected_scopes = select_ordered(args.scopes, available_scopes())
+    selected_locales = select_ordered(args.locales, locales)
+
+    print("Building dist/ for CDN distribution")
+    if args.scopes or args.locales:
+        print(
+            f"  filters → scopes: {', '.join(selected_scopes) or '(none)'}"
+            f" | locales: {', '.join(selected_locales) or '(none)'}"
+        )
+    print()
+
+    DIST_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Build scoped files first
+    for scope in SCOPES:
+        if scope in selected_scopes:
+            build_scope(scope, locales, selected_locales)
+
+    # Build full (all translations) for admin/full access. Global manifests are
+    # refreshed even when the aggregate bundle itself was not requested.
+    build_aggregate(locales, selected_locales, ALL_SCOPE in selected_scopes)
+
+    print("=" * 50)
+    print("Build complete!")
+    print()
+
+    # Show summary for each scope
+    print_summary(selected_scopes)
+    return 0
+
+
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())
