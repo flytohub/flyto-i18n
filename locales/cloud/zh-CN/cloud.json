@@ -2,9 +2,16 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-CN",
   "category": "cloud.cloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "translations": {
     "cloud.status.title": "Title",
-    "cloud.template.createSuccess": "Template created successfully"
+    "cloud.template.createSuccess": "Template created successfully",
+    "productJourney.aiSpace": "AI Space",
+    "productJourney.aiSpaceHint": "组合流程、情境与治理策略",
+    "productJourney.label": "Flyto2 工作流旅程",
+    "productJourney.warRoom": "AI 流程战情室",
+    "productJourney.warRoomHint": "执行、核准并查看证据",
+    "productJourney.workflows": "工作流",
+    "productJourney.workflowsHint": "先建立一个可复用能力"
   }
 }

@@ -2,6 +2,9 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-08-13 | Cloud cumulative runtime i18n | `2026-08-13-cloud-cumulative-runtime-i18n.md` |
+| 2026-08-09 | FeatureGate i18n | `2026-08-09-feature-gate-i18n.md` |
+| 2026-08-09 | Report export format i18n | `2026-08-09-report-export-format-i18n.md` |
 | 2026-07-30 | AI Space dependency-contract i18n | `2026-07-30-ai-space-dependency-contract-i18n.md` |
 | 2026-07-30 | AI Space catalog source closure | `2026-07-30-ai-space-catalog-source.md` |
 | 2026-07-29 | Attack validation safety, benchmark, and cost i18n | `2026-07-29-attack-validation-safety-cost-i18n.md` |

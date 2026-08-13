@@ -27,12 +27,31 @@ opens a review-required pull request only when catalogs or generated outputs
 change. Flyto2 Cloud may validate the same projection, but it does not own an
 i18n write credential.
 
+Cloud's bundled runtime catalogs are accepted as read-only migration provenance,
+not a second source of truth. Reviewed keys imported from that bundle are merged
+into `locales/cloud/{en,zh-TW,zh-CN}` and thereafter owned here; deterministic
+`dist/cloud` generation and source-to-dist contract tests prevent either source
+keys or cumulative local additions from being replaced.
+
 This repo must not bypass shared `flyto-core` runtime boundaries, must not store
 credentials, and must keep SaaS, enterprise, community, and internal-only
 behavior explicit.
 
 Update this file when package exports, generated dist shape, SEO contract
 shape, deployment mode, provider boundaries, or cross-repo dependencies change.
+
+## Flyto Cloud workflow hierarchy
+
+The canonical Cloud catalog presents the product from the software workflow
+upward: `Workflows -> AI Space -> AI Workflow War Room`. AI Space composes
+workflows, context, and policy. Cameras, robots, gateways, and MCP endpoints
+remain optional adapters selected only through declared workflow contracts;
+they do not define the top-level information architecture.
+
+The authoritative public copy for this hierarchy lives in
+`locales/cloud/{en,zh-TW,zh-CN}/{myTemplates,aiSpace,other}.json`. Consumer-side
+fallback strings may preserve availability, but they must not replace the
+catalog as the reviewed runtime source.
 
 ## Flyto2 Flow boundary
 

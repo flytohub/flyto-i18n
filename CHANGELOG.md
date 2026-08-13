@@ -4,6 +4,39 @@
 
 ### Added
 
+- Added the reviewed 134-key Cloud runtime migration for English, Traditional
+  Chinese, and Simplified Chinese: 59 `aiSpace.*`, 25 `myTemplates.*`, and 50
+  `templateBuilder.missionSetup.*` keys. Added `accessibility.modal` in the same
+  three locales and focused coverage for exact key/count contracts, non-empty
+  locale and placeholder parity, deterministic source-to-dist union, and
+  preservation of the existing 21 Space Operations keys.
+
+- Added four fail-closed keys for Cloud deployments that do not serve the newer
+  Space endpoints, in reviewed English, Traditional Chinese, and Simplified
+  Chinese. `aiSpace.workspace.resourceInventoryUnavailable` and its `…Hint`
+  explain that the registered-device inventory endpoint is missing, that already
+  selected workflows stay configured, and that the device list cannot be
+  refreshed until Cloud is upgraded. `spaces.draw.catalogUnavailable` and its
+  `…Hint` explain that the mission-card catalog endpoint is missing and that
+  creating a mission goal stays locked until Cloud is upgraded. None of the four
+  values uses an interpolation placeholder, so placeholder parity holds by
+  construction.
+- Added 21 `spaces.draw.*` and `spaces.voice.*` keys to the Cloud
+  `spaceOperations` catalog so the live Space operations surface can localize
+  zone drawing (title, explanation, loading, retry, empty, zone, objective,
+  objective picker, resource requirement, incomplete state) and voice goal
+  entry (listen toggles, goal label, send, both composer placeholders,
+  policy-blocked state, listening state, no-speech, and the two microphone
+  failures). English, Traditional Chinese, and Simplified Chinese are reviewed
+  and carry no interpolation placeholders, so placeholder parity holds.
+- Added `aiSpace.workspace.openOperations` to the Cloud AI Space catalog in
+  English, Traditional Chinese, and Simplified Chinese for the entry point that
+  opens the Space operations console from the AI Space workspace.
+- Added catalog-owned report export format copy for all 16 Code locales,
+  including reviewed English, Traditional Chinese, and Simplified Chinese
+  labels for the format selector and PowerPoint `.pptx` option.
+- Added source/generated-bundle regression coverage requiring both report
+  export keys to remain present and non-empty in every supported Code locale.
 - Added an i18n-owned hourly and manual Flyto2 Cloud key pull. It validates the
   complete repository and opens a review-required synchronization PR without
   copying private Cloud source or requiring Cloud to hold an i18n write token.
@@ -95,6 +128,56 @@
   historical batch CLI.
 
 ### Changed
+
+- Refined the two reviewed fail-closed titles so each names the exact capability
+  the deployment is missing instead of a generic noun.
+  `aiSpace.workspace.resourceInventoryUnavailable` is now "Registered-device
+  inventory unavailable" / 「無法取得已註冊設備清單」/「无法获取已注册设备清单」, and
+  `spaces.draw.catalogUnavailable` is now "Mission card catalog unavailable" /
+  「無法取得任務卡目錄」/「无法获取任务卡目录」. Both titles now match the endpoint
+  named in their own hint. The two `…Hint` values are unchanged, so the panels
+  still state that already selected workflows stay configured and the device
+  list cannot be refreshed until Cloud is upgraded, and that creating a mission
+  goal stays locked until Cloud is upgraded. No key was added, renamed, or
+  removed, and no value gained an interpolation placeholder.
+- Refined the Traditional and Simplified Chinese
+  `templateBuilder.aiChat.inputPlaceholder` from a casual open greeting into a
+  concise action prompt: 「請描述您想建立或調整的工作流程」/
+  「请描述您想创建或调整的工作流」. The composer now tells the operator what to
+  type instead of asking what the assistant can help with, and keeps the polite
+  您 form and the workflow noun already used by every other reviewed string in
+  the same `templateBuilder.aiChat.*` catalog. This stays a source-only
+  improvement: the generated bundles still publish
+  `locales/cloud/<locale>/template.json`'s longer
+  `cloud.templateBuilder.aiChat.inputPlaceholder` for this path, because
+  `flat_to_nested` strips the `cloud.` prefix and keeps the first writer; that
+  pre-existing shadowing was not changed here.
+- Replaced the six broken English scaffold values in the Traditional and
+  Simplified Chinese `templateBuilder.aiChat.*` catalogs — `configureFirst`,
+  `goToSettings`, `notConfigured`, `setupDesc`, `setupTitle`, and
+  `welcomeMessageGeneral` — with reviewed product copy. Chinese operators
+  previously saw literal strings such as `Setup Title` and `GoTo設定` in the
+  workflow builder AI assistant. No key was added, renamed, or removed.
+- Translated the nine existing `code.gate.*` FeatureGate keys into Traditional
+  and Simplified Chinese. Eight were empty and `capabilitiesUnavailableDesc`
+  carried the English source verbatim, so gated pages showed blank buttons or
+  English prose to Chinese operators. No key was added, renamed, or removed, and
+  no consumer copy was hardcoded.
+- Added focused coverage requiring the whole `code.gate` namespace to stay
+  non-empty in zh-TW and zh-CN across source and generated bundles, to keep its
+  key set matched to the English catalog, and to reject values that are still
+  the English fallback.
+- Refined the Traditional and Simplified Chinese `code.gate.capabilitiesUnavailable`
+  title to name the capability snapshot, matching the noun already used by its own
+  description and by the retry action instead of the vaguer 「能力資訊」/「能力信息」.
+- Extended the FeatureGate regression test with a source-to-dist parity assertion
+  covering `en`, `zh-TW`, and `zh-CN`, so a stale published bundle fails even for
+  the English catalog, which no other assertion checked in `dist/`.
+
+- Converged the canonical English, Traditional Chinese, and Simplified Chinese
+  Cloud copy on `Workflows -> AI Space -> AI Workflow War Room`; resource copy
+  now treats robots, cameras, gateways, and MCP endpoints as optional workflow
+  adapters instead of the product's top-level structure.
 
 - Reframed AI Space copy around composable workflow input/output contracts for
   both software and hardware. Added reviewed English, Traditional Chinese, and

@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
   "category": "cloud.plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "translations": {
     "plugins.allCategories": "所有類別",
     "plugins.author": "作者",
@@ -43,6 +43,8 @@
     "plugins.sortByName": "名稱",
     "plugins.sortByRating": "評分最高",
     "plugins.subtitle": "探索並安裝 AI 模型",
+    "plugins.tabs.coreExtensions": "Core 擴充",
+    "plugins.tabs.models": "模型",
     "plugins.title": "模型商店",
     "plugins.trending": "熱門",
     "plugins.trendingDesc": "本週熱門模型",

@@ -1,5 +1,38 @@
 # Decisions
 
+## 2026-08-13 - Cloud bundled runtime copy migrates additively
+
+Decision: import the reviewed Cloud-bundled runtime gap into the three official
+Cloud source locales as an additive migration. Preserve all existing i18n keys,
+pin the exact imported namespace contract, and generate the runtime union from
+this repository after migration.
+
+Reason: the Cloud bundle contained 134 runtime keys absent from the published
+i18n bundle, while i18n already contained newer cumulative Space Operations
+copy. An additive, tested merge makes i18n authoritative without losing either
+side and prevents the consumer bundle from becoming a competing catalog.
+
+## 2026-08-09 - Report export format copy is catalog-owned
+
+Decision: keep the Reports export selector and PowerPoint format name in the
+additive `code.reports.*` catalog. English, Traditional Chinese, and Simplified
+Chinese are reviewed together; every other supported Code locale carries the
+deterministic English fallback until native review.
+
+Reason: the export control is visible product and accessibility copy. Keeping
+it in `flyto-i18n` avoids a hard-coded frontend label while preserving one
+translation source for generated and bundled Code locales.
+
+## 2026-08-08 - Cloud copy converges from workflows upward
+
+Decision: name the three product levels `Workflows -> AI Space -> AI Workflow
+War Room`. Keep device, robot, camera, gateway, and MCP language inside optional
+adapter and resource controls instead of using it to define the AI Space.
+
+Reason: Flyto2 starts from reusable software workflows and must remain useful
+without physical hardware. AI Space is the composition boundary, while the War
+Room is the execution and evidence surface; hardware is one possible adapter.
+
 ## 2026-08-01 - Translation owners pull private consumer source
 
 Decision: `flyto-i18n` owns the scheduled and manual Cloud-key import. It uses

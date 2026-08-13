@@ -6,7 +6,40 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 CATALOG_ROOT = PROJECT_ROOT / "locales" / "cloud"
+DIST_ROOT = PROJECT_ROOT / "dist" / "cloud"
 OFFICIAL_LOCALES = ("en", "zh-TW", "zh-CN")
+REVIEWED_HIERARCHY_COPY = {
+    "en": {
+        "aiSpace.workspace.dialogProductHint": "Compose workflows, context and policy",
+        "aiSpace.workspace.selectSpaceHint": (
+            "Choose a Space to compose its workflows, context and optional adapters."
+        ),
+        "aiSpace.workspace.tabs.resources": "Resources",
+        "myTemplates.newTemplate": "New workflow",
+        "myTemplates.subtitle": "Build and manage reusable automation workflows",
+        "myTemplates.title": "My Workflows",
+    },
+    "zh-TW": {
+        "aiSpace.workspace.dialogProductHint": "組合工作流程、情境與治理策略",
+        "aiSpace.workspace.selectSpaceHint": (
+            "選擇一個 Space，組合其中的工作流程、情境與選用轉接器。"
+        ),
+        "aiSpace.workspace.tabs.resources": "資源",
+        "myTemplates.newTemplate": "新增工作流程",
+        "myTemplates.subtitle": "建立並管理可重用的自動化工作流程",
+        "myTemplates.title": "我的工作流程",
+    },
+    "zh-CN": {
+        "aiSpace.workspace.dialogProductHint": "组合工作流、上下文与治理策略",
+        "aiSpace.workspace.selectSpaceHint": (
+            "选择一个 Space，组合其中的工作流、上下文与可选适配器。"
+        ),
+        "aiSpace.workspace.tabs.resources": "资源",
+        "myTemplates.newTemplate": "新建工作流",
+        "myTemplates.subtitle": "创建并管理可复用的自动化工作流",
+        "myTemplates.title": "我的工作流",
+    },
+}
 REQUIRED_WORKSPACE_KEYS = {
     "aiSpace.workspace.addResources",
     "aiSpace.workspace.addWorkflows",
@@ -92,6 +125,18 @@ def load_ai_space_catalog(locale: str) -> dict[str, str]:
     return data["translations"]
 
 
+def load_cloud_catalog(locale: str, category: str) -> dict[str, str]:
+    """Load one authoritative Flyto Cloud source catalog."""
+    catalog_path = CATALOG_ROOT / locale / f"{category}.json"
+    return json.loads(catalog_path.read_text(encoding="utf-8"))["translations"]
+
+
+def load_generated_cloud_catalog(locale: str) -> dict:
+    """Load one generated nested Cloud runtime bundle."""
+    catalog_path = DIST_ROOT / f"{locale}.json"
+    return json.loads(catalog_path.read_text(encoding="utf-8"))["translations"]
+
+
 def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
     """Keep official AI Space catalogs complete, aligned, and non-empty."""
     catalogs = {
@@ -108,3 +153,32 @@ def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
     for locale, translations in catalogs.items():
         assert set(translations) == english_keys, locale
         assert all(value.strip() for value in translations.values()), locale
+
+
+def test_reviewed_cloud_copy_preserves_the_workflow_first_hierarchy():
+    """Pin workflow-first copy and keep its legacy namespace mirror aligned."""
+    for locale, expected in REVIEWED_HIERARCHY_COPY.items():
+        ai_space = load_ai_space_catalog(locale)
+        my_templates = load_cloud_catalog(locale, "myTemplates")
+        other = load_cloud_catalog(locale, "other")
+        generated = load_generated_cloud_catalog(locale)
+
+        for key, value in expected.items():
+            if key.startswith("aiSpace."):
+                assert ai_space[key] == value, (locale, key)
+                generated_key = key.removeprefix("aiSpace.")
+                generated_value = generated["aiSpace"]
+                for part in generated_key.split("."):
+                    generated_value = generated_value[part]
+                assert generated_value == value, (locale, key, "dist")
+                continue
+
+            assert my_templates[key] == value, (locale, key)
+            generated_key = key.removeprefix("myTemplates.")
+            assert generated["myTemplates"][generated_key] == value, (
+                locale,
+                key,
+                "dist",
+            )
+            legacy_key = f"cloud.{key}"
+            assert other[legacy_key] == value, (locale, legacy_key)
