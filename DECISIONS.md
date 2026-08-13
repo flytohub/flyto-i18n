@@ -1,5 +1,14 @@
 # Decisions
 
+## 2026-08-13 - Operations room copy follows the accepted Cloud UI
+
+Decision: publish `aiSpace.workspace.openOperations` exactly as `Operations
+room`, `作戰室`, and `作战室` in the three official locales, with exact
+source-to-distribution regression coverage.
+
+Reason: these user-approved labels are the product contract. The earlier
+open-console wording was stale and must not override the accepted Cloud UI.
+
 ## 2026-08-13 - Cloud bundled runtime copy migrates additively
 
 Decision: import the reviewed Cloud-bundled runtime gap into the three official
