@@ -43,6 +43,8 @@
     "plugins.sortByName": "Nom",
     "plugins.sortByRating": "Les mieux notés",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "Plugins",
     "plugins.trending": "Tendances",
     "plugins.trendingDesc": "Modèles populaires cette semaine",
