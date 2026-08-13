@@ -2,9 +2,16 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
   "category": "cloud.cloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "translations": {
     "cloud.status.title": "Title",
-    "cloud.template.createSuccess": "Create Success"
+    "cloud.template.createSuccess": "Create Success",
+    "productJourney.aiSpace": "AI Space",
+    "productJourney.aiSpaceHint": "Compose workflows, context and policy",
+    "productJourney.label": "Flyto2 workflow journey",
+    "productJourney.warRoom": "AI Workflow War Room",
+    "productJourney.warRoomHint": "Run, approve and inspect evidence",
+    "productJourney.workflows": "Workflows",
+    "productJourney.workflowsHint": "Build one reusable capability"
   }
 }
