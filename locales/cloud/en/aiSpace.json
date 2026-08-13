@@ -404,7 +404,7 @@
     "aiSpace.workspace.noWorkflows": "No workflow in this Space",
     "aiSpace.workspace.noWorkflowsHint": "Move a verified workflow here or create a reviewed proposal in Forge.",
     "aiSpace.workspace.notConfigured": "Not configured",
-    "aiSpace.workspace.openOperations": "Open operations",
+    "aiSpace.workspace.openOperations": "Operations room",
     "aiSpace.workspace.outputToInput": "Output → input",
     "aiSpace.workspace.policySubtitle": "Human-readable boundaries are applied before AI selects a workflow.",
     "aiSpace.workspace.policyTitle": "Space policy",

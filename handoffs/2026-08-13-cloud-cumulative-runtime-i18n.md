@@ -11,6 +11,9 @@ The Cloud checkout was used as read-only provenance and was not modified.
 
 ## Implementation
 
+- Corrected `aiSpace.workspace.openOperations` to the accepted Cloud UI labels
+  `Operations room`, `作戰室`, and `作战室`. A focused regression pins the exact
+  three-locale contract and source-to-Cloud-dist equality.
 - Additively imported exactly 59 `aiSpace.*`, 25 `myTemplates.*`, and 50
   `templateBuilder.missionSetup.*` values into the English, Traditional Chinese,
   and Simplified Chinese source catalogs.

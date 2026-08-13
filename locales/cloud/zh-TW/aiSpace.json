@@ -404,7 +404,7 @@
     "aiSpace.workspace.noWorkflows": "此 Space 尚無工作流程",
     "aiSpace.workspace.noWorkflowsHint": "移入已驗證流程，或由鍛造台建立待審核提案。",
     "aiSpace.workspace.notConfigured": "未設定",
-    "aiSpace.workspace.openOperations": "開啟營運控制台",
+    "aiSpace.workspace.openOperations": "作戰室",
     "aiSpace.workspace.outputToInput": "輸出 → 輸入",
     "aiSpace.workspace.policySubtitle": "AI 選擇工作流程前，會先套用可閱讀、可調整的執行邊界。",
     "aiSpace.workspace.policyTitle": "Space 安全策略",

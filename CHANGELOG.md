@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Changed
+
+- Corrected `aiSpace.workspace.openOperations` to the accepted Cloud UI labels
+  `Operations room`, `作戰室`, and `作战室`, with exact source-to-runtime bundle
+  regression coverage for all three official locales.
+
 ### Added
 
 - Added the reviewed 134-key Cloud runtime migration for English, Traditional

@@ -83,6 +83,11 @@ blocked goal listening micDenied micFailed noSpeech placeholder placeholderTyped
 startListening stopListening
 """.split()
 )
+OPEN_OPERATIONS_VALUES = {
+    "en": "Operations room",
+    "zh-TW": "作戰室",
+    "zh-CN": "作战室",
+}
 
 
 def _flatten(value: dict, prefix: str = "") -> dict[str, str]:
@@ -130,6 +135,12 @@ def _dist(locale: str) -> dict[str, str]:
     return _flatten(json.loads(path.read_text(encoding="utf-8"))["translations"])
 
 
+def _aggregate_dist(locale: str) -> dict[str, str]:
+    """Load and flatten one generated repository aggregate bundle."""
+    path = ROOT / "dist" / f"{locale}.json"
+    return _flatten(json.loads(path.read_text(encoding="utf-8"))["translations"])
+
+
 def _placeholders(value: str) -> set[str]:
     """Return the named interpolation placeholders in a translation."""
     return set(PLACEHOLDER_RE.findall(value))
@@ -159,6 +170,15 @@ def test_runtime_values_match_accepted_cloud_provenance() -> None:
     """Pin official-locale values to the accepted bundled Cloud provenance."""
     for locale in LOCALES:
         assert _runtime_digest(_source(locale)) == RUNTIME_VALUE_DIGESTS[locale]
+
+
+def test_open_operations_uses_pinned_product_copy_in_all_outputs() -> None:
+    """Pin the accepted label across source, Cloud, and aggregate output."""
+    key = "aiSpace.workspace.openOperations"
+    for locale, expected in OPEN_OPERATIONS_VALUES.items():
+        assert _source(locale)[key] == expected
+        assert _dist(locale)[key] == expected
+        assert _aggregate_dist(locale)[key] == expected
 
 
 def test_official_sources_and_dist_publish_non_empty_placeholder_safe_union() -> None:

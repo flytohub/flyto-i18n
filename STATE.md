@@ -8,6 +8,9 @@
 
 Current state on 2026-08-13:
 
+- `aiSpace.workspace.openOperations` now uses the accepted Cloud UI product
+  copy exactly: `Operations room`, `作戰室`, and `作战室`. A focused regression
+  pins all three source values and requires exact source-to-Cloud-dist equality.
 - The Cloud PR156 cumulative runtime closure is source-owned here. The official
   English, Traditional Chinese, and Simplified Chinese catalogs additively
   include the 134 reviewed keys previously present only in Cloud's bundled
