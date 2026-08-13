@@ -22,18 +22,21 @@ The Cloud checkout was used as read-only provenance and was not modified.
   canonical per-locale value digests from the accepted Cloud provenance. It
   also pins official-locale non-empty and placeholder parity, source-to-dist
   identity, modal coverage, Space Operations preservation, and deterministic
-  tracked Cloud output.
+  tracked Cloud output. The final integration seal builds the complete Cloud
+  manifest in memory through the selective distribution API, requires exact
+  equality with tracked `dist/cloud/manifest.json`, pins complete English,
+  Traditional Chinese, and Simplified Chinese records at 11,842 keys and 254
+  files, and exercises `--scope cloud --locale en` against a temporary
+  destination to reject manifest truncation.
 - Rebuilt tracked Cloud, Flow, aggregate, manifest, and generated Python-symbol
   outputs. No Cloud file, credential, deployment, commit, or remote was touched.
 
 ## Verification
 
-- `python3 scripts/build-dist.py`: completed; official Cloud bundles contain
-  11,842 keys across 254 source files.
-- The focused cumulative runtime suite now declares 5 tests (previously 3).
+- The focused cumulative runtime suite passed all 6 tests.
 - `python3 scripts/validate.py --strict`: 4,598 files, zero errors.
 - `PYTHONPYCACHEPREFIX=/tmp/flyto-i18n-pycache npm run verify`: passed generated
-  reference freshness (271 declarations), strict validation, coverage, 56 unit
+  reference freshness (299 declarations), strict validation, coverage, 68 unit
   tests, distribution generation, and SEO generation.
 - `PYTHONPYCACHEPREFIX=/tmp/flyto-i18n-pycache flyto-index verify . --strict
   --json`: 19 pass, 0 warn, 0 fail; fingerprint

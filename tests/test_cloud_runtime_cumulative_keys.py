@@ -1,9 +1,12 @@
 """Contract coverage for the cumulative Cloud runtime localization import."""
 
-import importlib.util
+import contextlib
 import hashlib
+import importlib.util
+import io
 import json
 import re
+import tempfile
 from pathlib import Path
 
 
@@ -199,3 +202,58 @@ def test_generated_cloud_union_is_current_and_deterministic() -> None:
         )
         assert first == second
         assert tracked == first
+
+
+def test_complete_cloud_manifest_survives_selective_build() -> None:
+    """Seal the complete tracked Cloud manifest across a filtered build."""
+    script = ROOT / "scripts" / "build-dist.py"
+    spec = importlib.util.spec_from_file_location("cloud_manifest_build", script)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+
+    locales = module.get_locales()
+    locale_data = {
+        locale: module.build_locale(locale, "cloud") for locale in locales
+    }
+    translated_counts = {
+        locale: module.count_translated(locale, "cloud") for locale in locales
+    }
+    complete_manifest = module.build_manifest(locale_data, translated_counts)
+    tracked_manifest = json.loads(
+        (ROOT / "dist" / "cloud" / "manifest.json").read_text(encoding="utf-8")
+    )
+    assert complete_manifest == tracked_manifest
+
+    for locale in LOCALES:
+        record = complete_manifest["locales"][locale]
+        assert set(record) == {
+            "name",
+            "native",
+            "region",
+            "total_keys",
+            "translated_keys",
+            "completion",
+            "files_merged",
+        }
+        assert record["total_keys"] == 11_842
+        assert record["files_merged"] == 254
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        temp_root = Path(temp_dir)
+        module.DIST_DIR = temp_root / "dist"
+        module.REPOSITORY_MANIFEST = temp_root / "manifest.json"
+        module.REPOSITORY_MANIFEST.write_text(
+            (ROOT / "manifest.json").read_text(encoding="utf-8"), encoding="utf-8"
+        )
+        with contextlib.redirect_stdout(io.StringIO()):
+            assert module.main(["--scope", "cloud", "--locale", "en"]) == 0
+
+        filtered_manifest = json.loads(
+            (module.DIST_DIR / "cloud" / "manifest.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        assert filtered_manifest == complete_manifest
+        assert (module.DIST_DIR / "cloud" / "en.json").is_file()
+        assert not (module.DIST_DIR / "cloud" / "zh-TW.json").exists()

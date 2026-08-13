@@ -20,16 +20,19 @@ Current state on 2026-08-13:
   map digests for each official locale against the accepted Cloud provenance,
   three-locale non-empty and placeholder parity, source-to-dist identity,
   deterministic generated Cloud output, the modal label, and the 21 Space
-  Operations keys.
-- Fresh verification on the current dirty union completed successfully:
-  `python3 scripts/build-dist.py` rebuilt canonical outputs with 11,842 Cloud
-  keys and 254 Cloud source files in each official locale; the focused suite
-  now contains 5 tests; `python3 scripts/validate.py --strict` validated 4,598 files
-  with zero errors; `npm run verify` passed compile/Ruff/generated-doc checks,
-  strict validation, coverage, 56 unit tests, distribution generation, and SEO
-  generation. The first unqualified npm attempt was blocked only by the host's
-  Python cache permissions; the complete gate passed with
-  `PYTHONPYCACHEPREFIX=/tmp/flyto-i18n-pycache`.
+  Operations keys. The final integration regression also builds the complete
+  Cloud manifest in memory through the selective distribution API, requires it
+  to equal tracked `dist/cloud/manifest.json`, pins the complete official-locale
+  records at 11,842 keys across 254 files, and proves a temporary filtered
+  `--scope cloud --locale en` build cannot truncate the all-locale manifest.
+- Fresh verification on branch `codex/i18n-cloud-runtime-20260813` completed
+  successfully: the focused cumulative suite passed 6 tests;
+  `python3 scripts/validate.py --strict` validated 4,598 files with zero errors;
+  `npm run verify` passed compile/Ruff/generated-reference checks (299 Python
+  declarations), strict validation, coverage, 68 unit tests, deterministic
+  distribution generation, and SEO generation. The full build retained 11,842
+  Cloud keys and 254 Cloud source files in each official locale without changing
+  tracked generated bundles.
 - `flyto-index verify . --strict --json` passed 19/19 checks with no warnings or
   failures. Its check fingerprint is
   `2d0b13986cdccdafda951e9484a04d0d065506a2d49b363c36e2fef271e2f4bb`.
