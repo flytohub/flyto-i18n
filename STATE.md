@@ -6,9 +6,93 @@
   review-required PR only when the deterministic working tree changes. Private
   Cloud source is never committed here.
 
-Current state on 2026-08-08:
+Current state on 2026-08-13:
+
+- The Cloud PR156 cumulative runtime closure is source-owned here. The official
+  English, Traditional Chinese, and Simplified Chinese catalogs additively
+  include the 134 reviewed keys previously present only in Cloud's bundled
+  runtime source: 59 `aiSpace.*`, 25 `myTemplates.*`, and 50
+  `templateBuilder.missionSetup.*`. All earlier i18n keys remain present,
+  including the 21 `spaces.draw.*` / `spaces.voice.*` additions.
+- `accessibility.modal` is reviewed and non-empty in all three official locales.
+  The focused cumulative contract pins all 134 imported key names and counts,
+  their unique designated source-catalog ownership, and canonical sorted value
+  map digests for each official locale against the accepted Cloud provenance,
+  three-locale non-empty and placeholder parity, source-to-dist identity,
+  deterministic generated Cloud output, the modal label, and the 21 Space
+  Operations keys.
+- Fresh verification on the current dirty union completed successfully:
+  `python3 scripts/build-dist.py` rebuilt canonical outputs with 11,842 Cloud
+  keys and 254 Cloud source files in each official locale; the focused suite
+  now contains 5 tests; `python3 scripts/validate.py --strict` validated 4,598 files
+  with zero errors; `npm run verify` passed compile/Ruff/generated-doc checks,
+  strict validation, coverage, 56 unit tests, distribution generation, and SEO
+  generation. The first unqualified npm attempt was blocked only by the host's
+  Python cache permissions; the complete gate passed with
+  `PYTHONPYCACHEPREFIX=/tmp/flyto-i18n-pycache`.
+- `flyto-index verify . --strict --json` passed 19/19 checks with no warnings or
+  failures. Its check fingerprint is
+  `2d0b13986cdccdafda951e9484a04d0d065506a2d49b363c36e2fef271e2f4bb`.
+
+Current state on 2026-08-12:
+
+- Cloud deployments that do not serve the newer Space endpoints now have
+  fail-closed copy instead of a silent empty panel. Four keys —
+  `aiSpace.workspace.resourceInventoryUnavailable`,
+  `aiSpace.workspace.resourceInventoryUnavailableHint`,
+  `spaces.draw.catalogUnavailable`, and `spaces.draw.catalogUnavailableHint` —
+  are reviewed and non-empty in English, Traditional Chinese, and Simplified
+  Chinese. Each title now names the exact capability that is missing rather than
+  a generic noun: the AI Space title reads "Registered-device inventory
+  unavailable" / 「無法取得已註冊設備清單」/「无法获取已注册设备清单」 and the Space
+  Operations title reads "Mission card catalog unavailable" /
+  「無法取得任務卡目錄」/「无法获取任务卡目录」, so each title matches the endpoint
+  named in its own hint. The AI Space pair states that the registered-device
+  inventory endpoint is unavailable, that already selected workflows stay
+  configured, and that the device list cannot be refreshed until Cloud is
+  upgraded. The Space Operations pair states that the mission-card catalog
+  endpoint is unavailable and that mission goal creation stays locked until
+  Cloud is upgraded. None of the four values uses an interpolation placeholder.
+- The Traditional and Simplified Chinese `templateBuilder.aiChat.inputPlaceholder`
+  source values are now a concise action prompt —
+  「請描述您想建立或調整的工作流程」/「请描述您想创建或调整的工作流」 — instead of an
+  open greeting, keeping the polite 您 form used by the rest of that catalog.
+  This is a source-only improvement: the generated bundles resolve the nested
+  `templateBuilder.aiChat.inputPlaceholder` path from
+  `locales/cloud/<locale>/template.json`'s `cloud.`-prefixed key instead, because
+  `build-dist.flat_to_nested` strips the `cloud.` prefix and keeps the longest
+  key as first writer. That pre-existing shadowing is out of scope for this
+  change and remains open work.
+- The Cloud `spaceOperations` catalog now owns the live Space operations zone
+  drawing and voice goal surfaces: 10 `spaces.draw.*` and 11 `spaces.voice.*`
+  keys are reviewed and non-empty in English, Traditional Chinese, and
+  Simplified Chinese. None of the 21 values uses an interpolation placeholder,
+  so placeholder parity holds by construction. `aiSpace.workspace.openOperations`
+  gives the AI Space workspace a localized entry point into that console.
+- The Traditional and Simplified Chinese `templateBuilder.aiChat.*` catalogs no
+  longer leak English scaffold strings for `configureFirst`, `goToSettings`,
+  `notConfigured`, `setupDesc`, `setupTitle`, or `welcomeMessageGeneral`. The
+  English source values for those six keys are still unreviewed scaffolds and
+  remain open work.
+
+Current state on 2026-08-09:
 
 - Repo status: internal tooling with public CDN artifacts.
+- FeatureGate blocking states are fully localized in Traditional and Simplified
+  Chinese. The nine `code.gate.*` keys — dashboard return, capability-snapshot
+  failure, disabled module, preview lock, billing entry, and capability retry —
+  are non-empty in source and in the tracked `dist/code` bundles, and none falls
+  through to the English source string. The capability-snapshot title now uses
+  the same noun as its description and retry action in both Chinese locales.
+  `tests/test_feature_gate_keys.py` pins the key set against the English
+  catalog, the non-empty requirement, the English-fallback guard, the reviewed
+  wording, and source-to-dist parity for `en`, `zh-TW`, and `zh-CN`. The
+  Current-tree `npm run verify` and strict Indexer verification now cover this
+  cumulative dirty baseline, including the focused FeatureGate test.
+- Report export format copy is catalog-owned under `code.reports`: all 16 Code
+  locales publish a non-empty format-menu label and PowerPoint name. English,
+  Traditional Chinese, and Simplified Chinese are reviewed; the other 13
+  locales use the established deterministic English fallback until reviewed.
 - Canonical Cloud copy now exposes the product hierarchy as `Workflows -> AI
   Space -> AI Workflow War Room`. AI Space composes workflows, context, and
   policy; physical endpoints and MCP resources remain optional adapters rather
@@ -130,6 +214,11 @@ Known release work:
   repository-wide strict placeholder gate.
 - Migrate the tracked `dist/cortex` compatibility bundle to a named source
   catalog and generator scope before treating it as fresh output.
+- Resolve the `cloud.`-prefixed key shadowing in `build-dist.flat_to_nested`.
+  Any legacy `cloud.<path>` key silently wins over the unprefixed `<path>` key
+  because keys are applied longest-first and the first writer wins, so reviewed
+  edits to the shorter key never reach the published bundles.
+  `templateBuilder.aiChat.inputPlaceholder` is the currently known instance.
 - Document unresolved P0/P1 work in `tasks.md` or `handoffs/`.
 
 Verification evidence captured on 2026-07-31:

@@ -27,6 +27,12 @@ opens a review-required pull request only when catalogs or generated outputs
 change. Flyto2 Cloud may validate the same projection, but it does not own an
 i18n write credential.
 
+Cloud's bundled runtime catalogs are accepted as read-only migration provenance,
+not a second source of truth. Reviewed keys imported from that bundle are merged
+into `locales/cloud/{en,zh-TW,zh-CN}` and thereafter owned here; deterministic
+`dist/cloud` generation and source-to-dist contract tests prevent either source
+keys or cumulative local additions from being replaced.
+
 This repo must not bypass shared `flyto-core` runtime boundaries, must not store
 credentials, and must keep SaaS, enterprise, community, and internal-only
 behavior explicit.

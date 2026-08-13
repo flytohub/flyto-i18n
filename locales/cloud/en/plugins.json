@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
   "category": "cloud.plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "translations": {
     "plugins.allCategories": "All Categories",
     "plugins.author": "Author",
@@ -43,6 +43,8 @@
     "plugins.sortByName": "Name",
     "plugins.sortByRating": "Highest Rated",
     "plugins.subtitle": "Discover and install AI models",
+    "plugins.tabs.coreExtensions": "Core extensions",
+    "plugins.tabs.models": "Models",
     "plugins.title": "Model Store",
     "plugins.trending": "Trending",
     "plugins.trendingDesc": "Popular models this week",
