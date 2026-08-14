@@ -1,5 +1,17 @@
 # Decisions
 
+## 2026-08-14 - War Room camera copy states the local image contract
+
+Decision: describe the War Room camera surface as local and near-real-time,
+with explicit delayed, disconnected, permission-denied, and starting states.
+Treat `spaces.ops.live` as room connection state, describe the surface as
+mission operations and evidence, and state that camera images remain on the
+device.
+
+Reason: the current surface presents local camera images and does not establish
+continuous video, a live-camera stream, inference, or recording. Product copy
+must communicate only capabilities and privacy properties the runtime provides.
+
 ## 2026-08-13 - Operations room copy follows the accepted Cloud UI
 
 Decision: publish `aiSpace.workspace.openOperations` exactly as `Operations

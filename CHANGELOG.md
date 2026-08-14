@@ -4,12 +4,21 @@
 
 ### Changed
 
+- Replaced ambiguous War Room live-camera wording with reviewed local,
+  near-real-time image copy in English, Traditional Chinese, and Simplified
+  Chinese. Room connection, delayed images, last-image age, disconnection,
+  permission denial, startup, on-device privacy, and image alt text are now
+  explicit and synchronized into Cloud and aggregate runtime bundles.
 - Corrected `aiSpace.workspace.openOperations` to the accepted Cloud UI labels
   `Operations room`, `作戰室`, and `作战室`, with exact source-to-runtime bundle
   regression coverage for all three official locales.
 
 ### Added
 
+- Extended the cumulative Cloud runtime regression to pin the War Room camera
+  values, unique source ownership, placeholder parity, non-empty
+  source-to-Cloud-to-aggregate equality, and absence of false continuous-video,
+  live-camera, inference, or recording claims.
 - Added the reviewed 134-key Cloud runtime migration for English, Traditional
   Chinese, and Simplified Chinese: 59 `aiSpace.*`, 25 `myTemplates.*`, and 50
   `templateBuilder.missionSetup.*` keys. Added `accessibility.modal` in the same

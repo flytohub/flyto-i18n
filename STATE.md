@@ -6,6 +6,18 @@
   review-required PR only when the deterministic working tree changes. Private
   Cloud source is never committed here.
 
+Current state on 2026-08-14:
+
+- War Room camera copy now describes a local, near-real-time image surface
+  truthfully. The room status is connection state rather than a camera-live
+  claim; delayed, disconnected, permission-denied, and starting states are
+  explicit; and the privacy label says camera images stay on the device.
+- The cumulative Cloud runtime regression pins the reviewed English,
+  Traditional Chinese, and Simplified Chinese camera values, their unique
+  `spaceOperations.json` ownership, `{fps}` / `{seconds}` placeholder parity,
+  non-empty source-to-Cloud-to-aggregate equality, and rejection of continuous
+  video, live-camera, inference, or recording claims.
+
 Current state on 2026-08-13:
 
 - `aiSpace.workspace.openOperations` now uses the accepted Cloud UI product

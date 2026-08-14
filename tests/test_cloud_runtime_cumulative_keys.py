@@ -88,6 +88,52 @@ OPEN_OPERATIONS_VALUES = {
     "zh-TW": "作戰室",
     "zh-CN": "作战室",
 }
+LOCAL_CAMERA_VALUES = {
+    "en": {
+        "spaces.ops.live": "Room connected",
+        "spaces.ops.subtitle": "Mission operations and evidence",
+        "spaces.ops.localNearRealtime": "Local camera · near-real-time · {fps} FPS",
+        "spaces.ops.cameraDelayed": "Local camera images delayed",
+        "spaces.ops.lastFrameAgo": "Last local camera image {seconds}s ago",
+        "spaces.ops.cameraDisconnected": "Local camera disconnected",
+        "spaces.ops.cameraPermissionDenied": "Local camera permission denied",
+        "spaces.ops.cameraStarting": "Starting local camera…",
+        "spaces.ops.cameraPrivacy": "Camera images stay on this device",
+        "spaces.ops.cameraFrameAlt": "Local near-real-time camera image",
+    },
+    "zh-TW": {
+        "spaces.ops.live": "房間已連線",
+        "spaces.ops.subtitle": "任務操作與證據",
+        "spaces.ops.localNearRealtime": "本機攝影機 · 近即時 · {fps} FPS",
+        "spaces.ops.cameraDelayed": "本機攝影機影像延遲",
+        "spaces.ops.lastFrameAgo": "上一張本機攝影機影像於 {seconds} 秒前取得",
+        "spaces.ops.cameraDisconnected": "本機攝影機已中斷連線",
+        "spaces.ops.cameraPermissionDenied": "本機攝影機權限遭拒",
+        "spaces.ops.cameraStarting": "正在啟動本機攝影機…",
+        "spaces.ops.cameraPrivacy": "攝影機影像只會留在此裝置上",
+        "spaces.ops.cameraFrameAlt": "本機攝影機近即時影像",
+    },
+    "zh-CN": {
+        "spaces.ops.live": "房间已连接",
+        "spaces.ops.subtitle": "任务操作与证据",
+        "spaces.ops.localNearRealtime": "本机摄像头 · 近实时 · {fps} FPS",
+        "spaces.ops.cameraDelayed": "本机摄像头图像延迟",
+        "spaces.ops.lastFrameAgo": "上一张本机摄像头图像于 {seconds} 秒前获取",
+        "spaces.ops.cameraDisconnected": "本机摄像头已断开连接",
+        "spaces.ops.cameraPermissionDenied": "本机摄像头权限被拒绝",
+        "spaces.ops.cameraStarting": "正在启动本机摄像头…",
+        "spaces.ops.cameraPrivacy": "摄像头图像只会留在此设备上",
+        "spaces.ops.cameraFrameAlt": "本机摄像头近实时图像",
+    },
+}
+LOCAL_CAMERA_KEYS = frozenset(LOCAL_CAMERA_VALUES["en"])
+FALSE_CAMERA_LIVE_WORDING = re.compile(
+    r"\b(?:continuous (?:video|stream)|live camera|camera (?:is )?live|"
+    r"inference|recording)\b|"
+    r"連續(?:視訊|串流)|即時攝影機|攝影機(?:正在)?直播|推論|錄影|"
+    r"连续(?:视频|串流)|实时摄像头|摄像头(?:正在)?直播|推理|录像",
+    re.IGNORECASE,
+)
 
 
 def _flatten(value: dict, prefix: str = "") -> dict[str, str]:
@@ -181,6 +227,47 @@ def test_open_operations_uses_pinned_product_copy_in_all_outputs() -> None:
         assert _aggregate_dist(locale)[key] == expected
 
 
+def test_local_camera_copy_is_truthful_owned_and_identical_in_all_outputs() -> None:
+    """Pin reviewed local-camera truth across its sole source and outputs."""
+    for locale, expected in LOCAL_CAMERA_VALUES.items():
+        catalogs = _catalogs(locale)
+        source = _source(locale)
+        cloud_dist = _dist(locale)
+        aggregate_dist = _aggregate_dist(locale)
+
+        for key, value in expected.items():
+            actual_owners = {
+                catalog for catalog, values in catalogs.items() if key in values
+            }
+            assert actual_owners == {"spaceOperations.json"}, (
+                locale,
+                key,
+                actual_owners,
+            )
+            assert value.strip()
+            assert source[key] == value
+            assert cloud_dist[key] == value
+            assert aggregate_dist[key] == value
+            assert not FALSE_CAMERA_LIVE_WORDING.search(value), (locale, key, value)
+
+        room_connectivity = expected["spaces.ops.live"]
+        assert room_connectivity == {
+            "en": "Room connected",
+            "zh-TW": "房間已連線",
+            "zh-CN": "房间已连接",
+        }[locale]
+        assert not re.search(
+            r"camera|攝影機|摄像头|live|即時|实时", room_connectivity, re.IGNORECASE
+        ), (locale, room_connectivity)
+
+    for key in LOCAL_CAMERA_KEYS:
+        expected_placeholders = _placeholders(LOCAL_CAMERA_VALUES["en"][key])
+        assert all(
+            _placeholders(LOCAL_CAMERA_VALUES[locale][key]) == expected_placeholders
+            for locale in LOCALES
+        )
+
+
 def test_official_sources_and_dist_publish_non_empty_placeholder_safe_union() -> None:
     """Require three-locale parity, source-to-dist identity, and placeholders."""
     sources = {locale: _source(locale) for locale in LOCALES}
@@ -256,7 +343,7 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
             "completion",
             "files_merged",
         }
-        assert record["total_keys"] == 11_842
+        assert record["total_keys"] == 11_850
         assert record["files_merged"] == 254
 
     with tempfile.TemporaryDirectory() as temp_dir:
