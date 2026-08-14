@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.productJourney",
+  "version": "1.0.0",
+  "translations": {
+    "productJourney.aiSpace": "",
+    "productJourney.aiSpaceHint": "",
+    "productJourney.label": "",
+    "productJourney.warRoom": "",
+    "productJourney.warRoomHint": "",
+    "productJourney.workflows": "",
+    "productJourney.workflowsHint": ""
+  }
+}

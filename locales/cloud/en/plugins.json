@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
   "category": "cloud.plugins",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "translations": {
     "plugins.allCategories": "All Categories",
     "plugins.author": "Author",

@@ -43,6 +43,8 @@
     "plugins.sortByName": "Tên",
     "plugins.sortByRating": "Đánh giá cao nhất",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "Plugin",
     "plugins.trending": "Xu hướng",
     "plugins.trendingDesc": "Mô hình phổ biến tuần này",
