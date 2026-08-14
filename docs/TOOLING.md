@@ -63,7 +63,7 @@ writes during import.
 ## Source API Reference
 
 [The generated Python symbol reference](generated/python-symbols.md) covers all
-188 declarations under `scripts/` and `tests/`, including nested helpers,
+declarations under `scripts/` and `tests/`, including nested helpers,
 historical one-off migrations, test fixtures, and CLI entry points. The source
 docstring is the method contract; the generated table is the navigation and
 drift-check layer. Run `npm run docs:write` after an intentional declaration or

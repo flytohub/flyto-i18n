@@ -1,5 +1,17 @@
 # State
 
+Current positioning on 2026-08-14:
+
+- The public role is: "Fix a translation once and share it across every Flyto2
+  product, docs, and website surface."
+- The README now leads with the cross-repository copy-drift problem and an
+  existing-catalog edit followed by strict validation and distribution build.
+  Architecture, ecosystem scope, SEO, and secondary workflows remain documented
+  below that first result.
+- Package and repository manifest descriptions use the same narrow role. Public
+  discovery keywords no longer imply that this repository is an AI framework or
+  workflow automation product.
+
 - Cloud synchronization is now owned by this repository. An hourly or manual
   workflow pulls a selected `flyto-cloud` ref, synchronizes catalogs, rebuilds
   generated artifacts, runs the complete verification suite, and opens a

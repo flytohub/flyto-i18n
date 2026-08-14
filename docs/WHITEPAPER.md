@@ -2,10 +2,11 @@
 
 ## Abstract
 
-Flyto2 i18n is the shared source of truth for product translations, locale
-metadata, generated distribution bundles, and multilingual SEO contracts.
-It lets applications and public sites consume one reviewed language contract
-without maintaining incompatible copies.
+Flyto2 i18n exists to fix a translation once and share it across every Flyto2
+product, docs, and website surface. It prevents the same product copy from
+drifting across repositories and locales by publishing reviewed source as
+generated distribution bundles. Locale metadata and multilingual SEO are
+supporting contracts for those consumers.
 
 ## Source And Distribution Model
 
@@ -50,4 +51,3 @@ parity, deterministic rebuilds, generated source references, tests, and strict
 Indexer checks form the gate. The [locale contract](LOCALE_CONTRACT.md),
 [distribution contract](DISTRIBUTION.md), and
 [SEO contract](SEO_CONTRACT.md) are the maintained technical authorities.
-

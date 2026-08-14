@@ -1,7 +1,8 @@
 # Architecture
 
-`flyto-i18n` is the Flyto2 source of truth for localization bundles and public
-multilingual SEO metadata.
+`flyto-i18n` fixes cross-repository copy drift by owning reviewed translation
+sources and the generated bundles shared with Flyto2 consumers. Locale metadata
+and public multilingual SEO metadata are supporting contracts within that role.
 
 Boundaries:
 

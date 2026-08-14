@@ -1,5 +1,18 @@
 # Decisions
 
+## 2026-08-14 - Public positioning starts with one shared translation fix
+
+Decision: present `flyto-i18n` with one public role: "Fix a translation once
+and share it across every Flyto2 product, docs, and website surface." Lead with
+an existing locale-catalog edit and the real validation/build commands. Keep
+architecture, SEO, product inventory, and synchronization detail below that
+first result.
+
+Reason: the user problem is duplicate product copy drifting across repositories
+and locales. Broad ecosystem and AI-oriented discovery language obscured the
+repository's narrow ownership boundary and could be confused with Flyto2 Core,
+AI, Cloud, or Warroom product capabilities.
+
 ## 2026-08-14 - War Room camera copy states the local image contract
 
 Decision: describe the War Room camera surface as local and near-real-time,

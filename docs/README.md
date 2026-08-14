@@ -1,5 +1,12 @@
 # Documentation Index
 
+Fix a translation once and share it across every Flyto2 product, docs, and website surface.
+
+The contracts below explain how this repository prevents the same product copy
+from drifting across Flyto2 repositories and locales. Start with the locale
+source contract for an edit and the distribution contract for its generated
+result.
+
 ## Contracts
 
 - [Internationalization whitepaper](WHITEPAPER.md)

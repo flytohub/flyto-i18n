@@ -2,6 +2,9 @@
 
 ## P0
 
+- Keep the public role centered on fixing translation drift across Flyto2
+  repositories and locales; keep supporting SEO and architecture detail below
+  the first translation result.
 - Preserve the repo boundary described in `ARCHITECTURE.md`.
 - Keep release-impacting changes covered by tests, guards, docs, or handoffs.
 - Keep `dist/` and `dist/seo-manifest.json` generated from source, never edited

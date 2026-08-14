@@ -4,6 +4,12 @@
 
 ### Changed
 
+- Repositioned the public README, package metadata, docs index, and project
+  memory around one role: fixing a translation once and sharing it across every
+  Flyto2 product, docs, and website surface. The README now demonstrates a real
+  locale-source edit, strict validation, and distribution rebuild before
+  architecture and ecosystem detail. Removed unrelated AI/framework discovery
+  keywords and refreshed stale README coverage values from the tracked manifest.
 - Replaced ambiguous War Room live-camera wording with reviewed local,
   near-real-time image copy in English, Traditional Chinese, and Simplified
   Chinese. Room connection, delayed images, last-image age, disconnection,

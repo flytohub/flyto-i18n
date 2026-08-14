@@ -4,27 +4,45 @@
 [![Website](https://img.shields.io/badge/website-flyto2.com-8B5CF6)](https://flyto2.com)
 [![Docs](https://img.shields.io/badge/docs-docs.flyto2.com-06B6D4)](https://docs.flyto2.com)
 
-Shared translation, locale metadata, and multilingual SEO contract for Flyto2
-apps, docs, landing pages, blog content, and open-source packages. Edit a JSON
-file, merge to main, and every Flyto2 surface can pick up the updated language
-bundle or SEO contract without copying settings across repos.
+Fix a translation once and share it across every Flyto2 product, docs, and website surface.
 
-In plain English: this repo keeps product text, locale bundles, hreflang
-metadata, and public SEO keyword intent in one place. Translators can fix a
-phrase once, and public sites can share the same locale and SEO rules instead
-of each site maintaining its own stale copy.
+The same product copy drifts across many Flyto2 repositories and locales. This
+repository owns the reviewed translation source and generates the bundles that
+consumers use, so the fix does not need to be copied into each repository.
 
-Use this repo for localization, multilingual SEO, AI-search citation strings,
-runtime language bundles, and contributor-friendly translation workflows across
-Flyto2 Cloud, Flyto2 Code, Flyto2 Console, Flyto2 Data, Flyto2 Engine, Flyto2
-Core modules, Flyto2 Docs, Flyto2 Blog, and the public website.
+## Quick Start: Fix a Translation
 
-Good fit if you searched for:
+Edit the value in its existing source catalog, then validate and rebuild the
+tracked bundles:
 
-- multilingual SEO translation workflow
-- localization source of truth for docs and apps
-- runtime i18n bundles from GitHub
-- AI-search ready localized product copy
+`locales/code/ja/code.json`:
+
+```json
+{
+    "translations": {
+        "code.approval.approve": "承認"
+    }
+}
+```
+
+```bash
+python3 scripts/validate.py --strict
+python3 scripts/build-dist.py
+```
+
+Submit the source and generated `dist/` changes together. Once merged and
+published, each consuming surface receives the fix through its configured CDN
+refresh or bundled-artifact deployment.
+
+You can also make the same source edit in GitHub and submit a pull request; the
+repository workflows validate and rebuild the tracked bundles.
+
+## What This Repository Owns
+
+The translation catalogs and generated runtime bundles cover Flyto2 Cloud,
+Code, Console, Data, Engine, App, Landing, shared copy, and Flyto2 Core modules.
+The repository also owns shared locale metadata and the multilingual SEO
+contract consumed by the Flyto2 website, docs, and blog.
 
 Official links: [flyto2.com](https://flyto2.com) ·
 [Docs](https://docs.flyto2.com) ·
@@ -49,37 +67,6 @@ locale, and long-tail keyword contract data.
 Connected Flyto2 apps load translations from CDN at runtime. Flyto2 Flow is the
 offline exception: CI or the Docker build syncs `dist/flow` and local flag SVGs
 into the application image, so it performs no runtime CDN request.
-
-## Quick Start: Fix a Translation
-
-**No setup required. You can do this entirely on GitHub.**
-
-1. Find the file: `locales/{project}/{locale}/{category}.json`
-2. Click the pencil icon on GitHub to edit
-3. Fix the translation value
-4. Submit a Pull Request
-
-Once merged, the distribution workflows rebuild and publish the tracked
-bundles. A consuming product receives the fix after its configured runtime CDN
-refresh or bundled-artifact deployment completes.
-
-### Example
-
-To fix a Japanese translation in the Code app:
-
-```
-locales/code/ja/code.json
-```
-
-Find the key and change the value:
-
-```json
-{
-    "translations": {
-        "code.item.archRepos": "リポジトリ"
-    }
-}
-```
 
 ## Quick Start: Add a New Language
 
@@ -160,22 +147,22 @@ Rules:
 
 | Locale | Language | Status | Overall dist coverage |
 |--------|----------|--------|----------|
-| en | English | Official | 99.8% |
-| zh-TW | 繁體中文 | Official | 98.6% |
-| zh-CN | 简体中文 | Official | 98.2% |
-| ja | 日本語 | Official | 92.9% |
-| id | Bahasa Indonesia | Community | 82.1% |
-| it | Italiano | Community | 82.1% |
-| pl | Polski | Community | 82.1% |
-| ko | 한국어 | Community | 81.6% |
-| fr | Français | Community | 81.6% |
-| es | Español | Community | 81.6% |
-| de | Deutsch | Community | 81.6% |
-| pt-BR | Português (Brasil) | Community | 81.6% |
-| vi | Tiếng Việt | Community | 81.6% |
-| th | ภาษาไทย | Community | 81.6% |
-| hi | हिन्दी | Community | 81.6% |
-| tr | Türkçe | Community | 81.6% |
+| en | English | Official | 99.2% |
+| zh-TW | 繁體中文 | Official | 98.1% |
+| zh-CN | 简体中文 | Official | 97.6% |
+| ja | 日本語 | Official | 87.8% |
+| id | Bahasa Indonesia | Community | 77.6% |
+| it | Italiano | Community | 77.6% |
+| pl | Polski | Community | 77.6% |
+| ko | 한국어 | Community | 77.1% |
+| fr | Français | Community | 77.1% |
+| es | Español | Community | 77.1% |
+| de | Deutsch | Community | 77.1% |
+| pt-BR | Português (Brasil) | Community | 77.1% |
+| vi | Tiếng Việt | Community | 77.1% |
+| th | ภาษาไทย | Community | 77.1% |
+| hi | हिन्दी | Community | 77.1% |
+| tr | Türkçe | Community | 77.1% |
 
 Coverage is generated from unique merged keys in `dist/manifest.json`. Per-scope
 coverage lives in `dist/{scope}/manifest.json`; landing, app, console, data, and
@@ -226,7 +213,7 @@ relevant workflow, cache, and consumer checks succeed.
 ## Testing
 
 The closed-loop test gate compiles every Python file, runs Ruff, checks the
-192-declaration generated reference, validates all source catalogs and the root
+generated Python declaration reference, validates all source catalogs and the root
 manifest, runs the regression suite, and rebuilds translation and SEO output:
 
 ```bash

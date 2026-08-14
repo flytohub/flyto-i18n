@@ -1,6 +1,12 @@
 # Project
 
-`flyto-i18n` is the Flyto2 localization and multilingual SEO contract repo.
+`flyto-i18n` has one public role: "Fix a translation once and share it across
+every Flyto2 product, docs, and website surface."
+
+The problem it solves is that the same product copy drifts across many Flyto2
+repositories and locales. This repository owns the reviewed source catalogs
+and generated distribution contracts; consuming products own their runtime
+loading, fallback, and deployment behavior.
 
 Owned surfaces:
 

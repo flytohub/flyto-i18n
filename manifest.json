@@ -1,7 +1,7 @@
 {
   "name": "flyto-i18n",
   "version": "1.9.0",
-  "description": "Localization bundles and multilingual SEO contract for Flyto2",
+  "description": "Fix a translation once and share it across every Flyto2 product, docs, and website surface.",
   "source_version": "flyto-core@2.0.0",
   "repository": "https://github.com/flytohub/flyto-i18n",
   "locales": {
