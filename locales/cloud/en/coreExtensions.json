@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
   "category": "cloud.coreExtensions",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "translations": {
     "coreExtensions.allKinds": "All kinds",
     "coreExtensions.confirmUninstall": "Remove \"{name}\"? Core will handle the removal.",

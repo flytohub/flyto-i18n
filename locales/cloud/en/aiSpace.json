@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
   "category": "cloud.aiSpace",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "translations": {
     "aiSpace.controls.acknowledged": "Acknowledged",
     "aiSpace.controls.activeWorkflow": "Active workflow",

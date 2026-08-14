@@ -43,6 +43,8 @@
     "plugins.sortByName": "Nama",
     "plugins.sortByRating": "Paling Tinggi Dinilai",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "Plugin",
     "plugins.trending": "Sedang Tren",
     "plugins.trendingDesc": "Model populer minggu ini",

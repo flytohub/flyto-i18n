@@ -43,6 +43,8 @@
     "plugins.sortByName": "名前順",
     "plugins.sortByRating": "評価が高い順",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "プラグイン",
     "plugins.trending": "トレンド",
     "plugins.trendingDesc": "今週の人気モデル",

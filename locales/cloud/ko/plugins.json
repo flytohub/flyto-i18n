@@ -43,6 +43,8 @@
     "plugins.sortByName": "이름",
     "plugins.sortByRating": "평점 순",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "플러그인",
     "plugins.trending": "인기",
     "plugins.trendingDesc": "이번 주 인기 모델",

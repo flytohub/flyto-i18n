@@ -43,6 +43,8 @@
     "plugins.sortByName": "İsim",
     "plugins.sortByRating": "En Yüksek Puanlı",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "Eklentiler",
     "plugins.trending": "Popüler",
     "plugins.trendingDesc": "Bu haftanın popüler modelleri",

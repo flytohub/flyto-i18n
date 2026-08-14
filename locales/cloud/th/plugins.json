@@ -43,6 +43,8 @@
     "plugins.sortByName": "ชื่อ",
     "plugins.sortByRating": "คะแนนสูงสุด",
     "plugins.subtitle": "Subtitle",
+    "plugins.tabs.coreExtensions": "",
+    "plugins.tabs.models": "",
     "plugins.title": "ปลั๊กอิน",
     "plugins.trending": "มาแรง",
     "plugins.trendingDesc": "โมเดลยอดนิยมในสัปดาห์นี้",

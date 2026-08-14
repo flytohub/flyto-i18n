@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
   "category": "cloud.plugins",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "translations": {
     "plugins.allCategories": "所有類別",
     "plugins.author": "作者",
