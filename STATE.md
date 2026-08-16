@@ -130,6 +130,9 @@ Current state on 2026-08-09:
   locales publish a non-empty format-menu label and PowerPoint name. English,
   Traditional Chinese, and Simplified Chinese are reviewed; the other 13
   locales use the established deterministic English fallback until reviewed.
+Current state on 2026-08-08:
+
+- Repo status: internal tooling with public CDN artifacts.
 - Canonical Cloud copy now exposes the product hierarchy as `Workflows -> AI
   Space -> AI Workflow War Room`. AI Space composes workflows, context, and
   policy; physical endpoints and MCP resources remain optional adapters rather
