@@ -12,6 +12,16 @@ Reason: the user problem is duplicate product copy drifting across repositories
 and locales. Broad ecosystem and AI-oriented discovery language obscured the
 repository's narrow ownership boundary and could be confused with Flyto2 Core,
 AI, Cloud, or Warroom product capabilities.
+## 2026-08-14 - AI Space identity and local voice are locale-owner first
+
+Decision: own the 19 identity and local-voice settings keys in every Cloud
+locale's `aiSpace.json` source catalog and publish them through the generated
+Cloud and aggregate bundles. Keep wake-word detection on-device and describe
+wake words as routing only, with no permission grant or approval bypass.
+
+Reason: identity and voice controls are visible product and safety copy.
+Source presence in every locale prevents consumer-side English fallback from
+becoming the localization strategy or weakening the voice safety boundary.
 
 ## 2026-08-14 - War Room camera copy states the local image contract
 

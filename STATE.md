@@ -20,6 +20,13 @@ Current positioning on 2026-08-14:
 
 Current state on 2026-08-14:
 
+- AI Space identity and local-voice settings are source-owned under the exact
+  19-key `aiSpace.settings.*` contract in every Cloud locale. English,
+  Traditional Chinese, and Simplified Chinese use reviewed copy; the other 13
+  locales carry native-language copy rather than a full English fallback.
+  Generated Cloud and aggregate bundles expose the same values. Wake-word copy
+  states that detection remains on-device and routing never grants permission
+  or bypasses approval.
 - War Room camera copy now describes a local, near-real-time image surface
   truthfully. The room status is connection state rather than a camera-live
   claim; delayed, disconnected, permission-denied, and starting states are

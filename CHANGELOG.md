@@ -21,6 +21,14 @@
 
 ### Added
 
+- Added 19 catalog-owned AI Space identity and local-voice settings keys to all
+  16 Cloud locales and regenerated Cloud and aggregate runtime bundles. The
+  copy preserves display-name and alias limits, device-local wake-word
+  detection, routing-only behavior, and the permission and approval boundary.
+- Added focused regression coverage for exact reviewed English and Chinese
+  values, the exact settings key set, unique source ownership across locale
+  catalogs, non-empty native locale copy, rejection of full English fallback,
+  and parity with both generated distribution shapes.
 - Extended the cumulative Cloud runtime regression to pin the War Room camera
   values, unique source ownership, placeholder parity, non-empty
   source-to-Cloud-to-aggregate equality, and absence of false continuous-video,

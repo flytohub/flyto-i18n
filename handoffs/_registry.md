@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-08-14 | AI Space identity and local-voice i18n | `2026-08-14-ai-space-identity-local-voice-i18n.md` |
 | 2026-08-13 | Cloud cumulative runtime i18n | `2026-08-13-cloud-cumulative-runtime-i18n.md` |
 | 2026-08-09 | FeatureGate i18n | `2026-08-09-feature-gate-i18n.md` |
 | 2026-08-09 | Report export format i18n | `2026-08-09-report-export-format-i18n.md` |
