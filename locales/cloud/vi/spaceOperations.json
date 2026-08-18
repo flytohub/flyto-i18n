@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Chưa có gì từ máy này",
+    "spaces.ops.noSignalYetHint": "Nhiệm vụ đang chạy. Màn hình này sẽ hiển thị ngay khi máy gửi hình ảnh, bản quét hoặc một quyết định.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

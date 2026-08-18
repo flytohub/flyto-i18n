@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Rien de cette machine pour l'instant",
+    "spaces.ops.noSignalYetHint": "La tâche est en cours. Cet écran se remplira dès qu'elle enverra une image, un balayage ou une décision.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

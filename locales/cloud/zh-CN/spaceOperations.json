@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "本机摄像头 · 近实时 · {fps} FPS",
     "spaces.ops.noDecisions": "暂无决策",
     "spaces.ops.noResources": "尚未连接资源",
+    "spaces.ops.noSignalYet": "这台机器还没有传来任何东西",
+    "spaces.ops.noSignalYetHint": "任务正在执行。它一旦送出画面、扫描或判断，这块屏幕就会显示。",
     "spaces.ops.onlineSuffix": "在线",
     "spaces.ops.pairDevice": "配对设备",
     "spaces.ops.quiet": "无事件",

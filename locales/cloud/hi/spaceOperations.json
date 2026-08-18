@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "इस मशीन से अभी कुछ नहीं",
+    "spaces.ops.noSignalYetHint": "कार्य चल रहा है। जैसे ही यह कोई चित्र, स्कैन या निर्णय भेजेगी, यह स्क्रीन भर जाएगी।",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

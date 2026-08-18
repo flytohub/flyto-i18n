@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Bu makineden henüz bir şey yok",
+    "spaces.ops.noSignalYetHint": "Görev çalışıyor. Bu ekran, makine bir görüntü, tarama veya karar gönderdiği anda dolacak.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

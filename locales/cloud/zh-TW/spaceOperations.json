@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "本機攝影機 · 近即時 · {fps} FPS",
     "spaces.ops.noDecisions": "尚無決策",
     "spaces.ops.noResources": "尚未連接資源",
+    "spaces.ops.noSignalYet": "這台機器還沒有傳來任何東西",
+    "spaces.ops.noSignalYetHint": "任務正在執行。它一旦送出畫面、掃描或判斷，這塊螢幕就會顯示。",
     "spaces.ops.onlineSuffix": "線上",
     "spaces.ops.pairDevice": "配對設備",
     "spaces.ops.quiet": "無事件",

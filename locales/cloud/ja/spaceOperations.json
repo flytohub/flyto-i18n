@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "この機械からはまだ何も届いていません",
+    "spaces.ops.noSignalYetHint": "タスクは実行中です。画像・スキャン・判断のいずれかが届いた時点でこの画面に表示されます。",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

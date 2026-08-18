@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "이 기기에서 아직 아무것도 오지 않았습니다",
+    "spaces.ops.noSignalYetHint": "작업은 실행 중입니다. 이미지, 스캔 또는 판단이 도착하는 즉시 이 화면에 표시됩니다.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",
