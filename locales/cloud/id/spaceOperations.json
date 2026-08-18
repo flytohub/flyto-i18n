@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Belum ada apa pun dari mesin ini",
+    "spaces.ops.noSignalYetHint": "Tugas sedang berjalan. Layar ini terisi begitu mesin mengirim gambar, pemindaian, atau keputusan.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

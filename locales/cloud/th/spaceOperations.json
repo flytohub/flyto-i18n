@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "ยังไม่มีอะไรจากเครื่องนี้",
+    "spaces.ops.noSignalYetHint": "งานกำลังทำงานอยู่ หน้าจอนี้จะแสดงผลทันทีที่เครื่องส่งภาพ การสแกน หรือการตัดสินใจ",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Noch nichts von dieser Maschine",
+    "spaces.ops.noSignalYetHint": "Die Aufgabe läuft. Dieser Bildschirm füllt sich, sobald sie ein Bild, einen Scan oder eine Entscheidung sendet.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

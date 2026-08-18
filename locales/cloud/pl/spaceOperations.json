@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Jeszcze nic od tej maszyny",
+    "spaces.ops.noSignalYetHint": "Zadanie trwa. Ten ekran wypełni się, gdy tylko maszyna wyśle obraz, skan lub decyzję.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",

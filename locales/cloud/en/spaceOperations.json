@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "Local camera · near-real-time · {fps} FPS",
     "spaces.ops.noDecisions": "No decisions yet",
     "spaces.ops.noResources": "No resources connected",
+    "spaces.ops.noSignalYet": "Nothing from this machine yet",
+    "spaces.ops.noSignalYetHint": "The task is running. This screen fills the moment it sends a picture, a scan or a decision.",
     "spaces.ops.onlineSuffix": "online",
     "spaces.ops.pairDevice": "Pair device",
     "spaces.ops.quiet": "Quiet",

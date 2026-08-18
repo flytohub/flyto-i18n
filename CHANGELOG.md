@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-18 — Telling a quiet machine from an idle room
+
+- `spaces.ops.noSignalYet` and `spaces.ops.noSignalYetHint` in all sixteen
+  cloud locales.
+- The operations room's stage had one idle message — "Standby / Waiting for the
+  next mission" — for two different facts, so a screenshot with a task running,
+  two robots on the wall and steps in flight still had the largest panel on
+  screen announcing that nothing was happening.
+
 ## 2026-08-18 — The refused-feed label
 
 - `spaces.ops.refused` in all sixteen cloud locales.

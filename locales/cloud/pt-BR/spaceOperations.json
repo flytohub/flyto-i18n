@@ -118,6 +118,8 @@
     "spaces.ops.localNearRealtime": "",
     "spaces.ops.noDecisions": "",
     "spaces.ops.noResources": "",
+    "spaces.ops.noSignalYet": "Ainda nada desta máquina",
+    "spaces.ops.noSignalYetHint": "A tarefa está em execução. Esta tela será preenchida assim que ela enviar uma imagem, uma varredura ou uma decisão.",
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",
