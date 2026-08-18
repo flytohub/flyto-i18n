@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "cloud.spaces",
+  "version": "1.0.0",
+  "translations": {
+    "spaces.hud.configure": "",
+    "spaces.hud.drawnBy": "",
+    "spaces.hud.exit": "",
+    "spaces.hud.exitHint": "",
+    "spaces.hud.noTask": "",
+    "spaces.hud.objective": "",
+    "spaces.hud.online": "",
+    "spaces.hud.risk": "",
+    "spaces.hud.running": "",
+    "spaces.hud.status": "",
+    "spaces.hud.steps": "",
+    "spaces.hud.subtitle": "",
+    "spaces.hud.task": "",
+    "spaces.hud.tasks": "",
+    "spaces.hud.zone": "",
+    "spaces.ops.quiet": ""
+  }
+}
