@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-18 — The operations room's deadline and evidence producer
+
+- Four `spaces.hud.*` keys in all sixteen cloud locales: `deadline`,
+  `projectedPastDeadline`, `provenBy` and `showOnWall`.
+- They belong to the war room saying the time a task was promised in, and
+  naming the machine that produced a piece of evidence. Cloud's `i18n Sync
+  Check` fails on a key referenced in code that does not exist here, which is
+  the right way round: the vocabulary lands upstream first.
+
 ## Unreleased
 
 ### Changed
