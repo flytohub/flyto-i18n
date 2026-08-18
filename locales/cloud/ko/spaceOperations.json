@@ -121,6 +121,7 @@
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",
+    "spaces.ops.refused": "피드가 거부됨",
     "spaces.ops.rename": "",
     "spaces.ops.renameLabel": "",
     "spaces.ops.resources": "",

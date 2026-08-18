@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-18 — The refused-feed label
+
+- `spaces.ops.refused` in all sixteen cloud locales.
+- The operations room already renders it — `wt('refused', 'Feed refused')` — but
+  it had only ever been written into cloud's bundled baseline, never landed
+  here. Cloud's sync check reports it as a deleted key, and the orphan scan
+  does not catch it because `wt()` builds the key from a prefix at runtime.
+
 ## 2026-08-18 — The operations room's deadline and evidence producer
 
 - Four `spaces.hud.*` keys in all sixteen cloud locales: `deadline`,
