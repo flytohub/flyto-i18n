@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Browser blocked the report tab — allow popups for this site",
     "vaReport.previewTitle": "VA report preview",
     "warroom.tabFindings": "Findings",
-    "warroom.tabOverview": "Overview"
+    "warroom.tabOverview": "Overview",
+    "code.common.scrollableColumns": "Scrollable columns — scroll sideways for more",
+    "code.domains.findingsTableScrollHint": "Findings table — scroll sideways for more columns",
+    "code.ctem.refreshBusyHint": "Still loading the current CTEM data — refresh unlocks when it lands.",
+    "code.pentest.bridge.launchInFlight": "A red-team campaign is already starting.",
+    "code.pentest.bridge.needsProject": "Open a project first.",
+    "code.pentest.bridge.createInFlight": "Adding this candidate…",
+    "code.warroom.containerClearNoFilters": "Nothing to clear — no search, source or severity filter is applied.",
+    "code.warroom.containerSaveNeedsName": "Name the connection before saving it.",
+    "code.history.reportGeneratingHint": "A report is being generated…",
+    "code.history.reportNeedsTimeline": "The report covers the loaded timeline — it unlocks once the timeline has loaded.",
+    "code.nav.breadcrumbLabel": "Breadcrumb"
   },
   "version": "1.0.0"
 }

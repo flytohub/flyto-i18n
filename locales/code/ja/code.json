@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "キャンセル",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "クリア",
     "code.common.clearSelection": "",
     "code.common.close": "閉じる",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "ブラウザがレポートタブをブロックしました — このサイトのポップアップを許可してください",
     "vaReport.previewTitle": "VA レポートプレビュー",
     "warroom.tabFindings": "検出事項",
-    "warroom.tabOverview": "概要"
+    "warroom.tabOverview": "概要",
+    "code.common.scrollableColumns": "横スクロールできる列 — 横にスクロールすると続きが表示されます",
+    "code.domains.findingsTableScrollHint": "検出項目テーブル — 横にスクロールすると他の列が表示されます",
+    "code.ctem.refreshBusyHint": "現在の CTEM データを読み込み中です — 完了すると更新できます。",
+    "code.pentest.bridge.launchInFlight": "レッドチーム演習はすでに開始処理中です。",
+    "code.pentest.bridge.needsProject": "先にプロジェクトを開いてください。",
+    "code.pentest.bridge.createInFlight": "この候補を追加しています…",
+    "code.warroom.containerClearNoFilters": "クリアする対象がありません — 検索・ソース・深刻度のフィルターは未適用です。",
+    "code.warroom.containerSaveNeedsName": "保存する前に接続名を入力してください。",
+    "code.history.reportGeneratingHint": "レポートを生成しています…",
+    "code.history.reportNeedsTimeline": "レポートは読み込んだタイムラインを対象とします — タイムラインの読み込み後に利用できます。",
+    "code.nav.breadcrumbLabel": "パンくずリスト"
   },
   "version": "1.0.0"
 }

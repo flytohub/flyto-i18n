@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "Hủy",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Xoá",
     "code.common.clearSelection": "",
     "code.common.close": "Đóng",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Trình duyệt đã chặn tab báo cáo — cho phép cửa sổ popup cho trang web này",
     "vaReport.previewTitle": "Xem trước báo cáo VA",
     "warroom.tabFindings": "Phát hiện",
-    "warroom.tabOverview": "Tổng quan"
+    "warroom.tabOverview": "Tổng quan",
+    "code.common.scrollableColumns": "Cột có thể cuộn — cuộn sang ngang để xem thêm",
+    "code.domains.findingsTableScrollHint": "Bảng phát hiện — cuộn sang ngang để xem thêm cột",
+    "code.ctem.refreshBusyHint": "Vẫn đang tải dữ liệu CTEM hiện tại — làm mới sẽ mở khi tải xong.",
+    "code.pentest.bridge.launchInFlight": "Một chiến dịch red team đang được khởi động.",
+    "code.pentest.bridge.needsProject": "Hãy mở một dự án trước.",
+    "code.pentest.bridge.createInFlight": "Đang thêm ứng viên này…",
+    "code.warroom.containerClearNoFilters": "Không có gì để xoá — chưa áp dụng bộ lọc tìm kiếm, nguồn hay mức độ nghiêm trọng.",
+    "code.warroom.containerSaveNeedsName": "Đặt tên cho kết nối trước khi lưu.",
+    "code.history.reportGeneratingHint": "Đang tạo báo cáo…",
+    "code.history.reportNeedsTimeline": "Báo cáo bao gồm dòng thời gian đã tải — sẽ mở khi dòng thời gian tải xong.",
+    "code.nav.breadcrumbLabel": "Đường dẫn điều hướng"
   },
   "version": "1.0.0"
 }

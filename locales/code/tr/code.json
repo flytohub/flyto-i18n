@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "İptal",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Temizle",
     "code.common.clearSelection": "",
     "code.common.close": "Kapat",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Tarayıcı rapor sekmesini engelledi — bu site için açılır pencerelere izin verin",
     "vaReport.previewTitle": "VA raporu önizlemesi",
     "warroom.tabFindings": "Bulgular",
-    "warroom.tabOverview": "Genel Bakış"
+    "warroom.tabOverview": "Genel Bakış",
+    "code.common.scrollableColumns": "Kaydırılabilir sütunlar — daha fazlası için yana kaydırın",
+    "code.domains.findingsTableScrollHint": "Bulgular tablosu — daha fazla sütun için yana kaydırın",
+    "code.ctem.refreshBusyHint": "Geçerli CTEM verileri hâlâ yükleniyor — yenileme, veriler geldiğinde açılır.",
+    "code.pentest.bridge.launchInFlight": "Bir red team kampanyası zaten başlatılıyor.",
+    "code.pentest.bridge.needsProject": "Önce bir proje açın.",
+    "code.pentest.bridge.createInFlight": "Bu aday ekleniyor…",
+    "code.warroom.containerClearNoFilters": "Temizlenecek bir şey yok — arama, kaynak veya önem derecesi filtresi uygulanmadı.",
+    "code.warroom.containerSaveNeedsName": "Kaydetmeden önce bağlantıya bir ad verin.",
+    "code.history.reportGeneratingHint": "Bir rapor oluşturuluyor…",
+    "code.history.reportNeedsTimeline": "Rapor, yüklenen zaman çizelgesini kapsar — zaman çizelgesi yüklendiğinde açılır.",
+    "code.nav.breadcrumbLabel": "Gezinti yolu"
   },
   "version": "1.0.0"
 }

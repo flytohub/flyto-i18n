@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "Abbrechen",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Löschen",
     "code.common.clearSelection": "",
     "code.common.close": "Schließen",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Browser hat die Bericht-Registerkarte blockiert — erlaube Popups für diese Website",
     "vaReport.previewTitle": "VA-Bericht-Vorschau",
     "warroom.tabFindings": "Befunde",
-    "warroom.tabOverview": "Übersicht"
+    "warroom.tabOverview": "Übersicht",
+    "code.common.scrollableColumns": "Scrollbare Spalten – seitlich scrollen für mehr",
+    "code.domains.findingsTableScrollHint": "Findings-Tabelle – seitlich scrollen für weitere Spalten",
+    "code.ctem.refreshBusyHint": "Die aktuellen CTEM-Daten werden noch geladen – Aktualisieren wird danach freigegeben.",
+    "code.pentest.bridge.launchInFlight": "Eine Red-Team-Kampagne wird bereits gestartet.",
+    "code.pentest.bridge.needsProject": "Öffnen Sie zuerst ein Projekt.",
+    "code.pentest.bridge.createInFlight": "Dieser Kandidat wird hinzugefügt…",
+    "code.warroom.containerClearNoFilters": "Nichts zu löschen – es ist kein Such-, Quellen- oder Schweregradfilter aktiv.",
+    "code.warroom.containerSaveNeedsName": "Benennen Sie die Verbindung, bevor Sie sie speichern.",
+    "code.history.reportGeneratingHint": "Ein Bericht wird erstellt…",
+    "code.history.reportNeedsTimeline": "Der Bericht deckt die geladene Zeitleiste ab – er wird freigegeben, sobald diese geladen ist.",
+    "code.nav.breadcrumbLabel": "Brotkrümelnavigation"
   },
   "version": "1.0.0"
 }

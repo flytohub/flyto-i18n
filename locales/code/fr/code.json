@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "Annuler",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Effacer",
     "code.common.clearSelection": "",
     "code.common.close": "Fermer",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Le navigateur a bloqué l'onglet du rapport — autorisez les pop-ups pour ce site",
     "vaReport.previewTitle": "Aperçu du rapport VA",
     "warroom.tabFindings": "Résultats",
-    "warroom.tabOverview": "Aperçu"
+    "warroom.tabOverview": "Aperçu",
+    "code.common.scrollableColumns": "Colonnes défilantes — faites défiler latéralement pour en voir plus",
+    "code.domains.findingsTableScrollHint": "Tableau des découvertes — faites défiler latéralement pour voir d’autres colonnes",
+    "code.ctem.refreshBusyHint": "Les données CTEM sont encore en cours de chargement — l’actualisation se débloquera ensuite.",
+    "code.pentest.bridge.launchInFlight": "Une campagne red team est déjà en cours de lancement.",
+    "code.pentest.bridge.needsProject": "Ouvrez d’abord un projet.",
+    "code.pentest.bridge.createInFlight": "Ajout de ce candidat…",
+    "code.warroom.containerClearNoFilters": "Rien à effacer — aucun filtre de recherche, de source ou de gravité n’est appliqué.",
+    "code.warroom.containerSaveNeedsName": "Nommez la connexion avant de l’enregistrer.",
+    "code.history.reportGeneratingHint": "Un rapport est en cours de génération…",
+    "code.history.reportNeedsTimeline": "Le rapport couvre la chronologie chargée — il se débloque une fois celle-ci chargée.",
+    "code.nav.breadcrumbLabel": "Fil d’Ariane"
   },
   "version": "1.0.0"
 }

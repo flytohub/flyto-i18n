@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "Batal",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Hapus",
     "code.common.clearSelection": "",
     "code.common.close": "Tutup",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Browser memblokir tab laporan — izinkan popup untuk situs ini",
     "vaReport.previewTitle": "Pratinjau laporan VA",
     "warroom.tabFindings": "Temuan",
-    "warroom.tabOverview": "Ikhtisar"
+    "warroom.tabOverview": "Ikhtisar",
+    "code.common.scrollableColumns": "Kolom dapat digulir — gulir ke samping untuk melihat lainnya",
+    "code.domains.findingsTableScrollHint": "Tabel temuan — gulir ke samping untuk kolom lainnya",
+    "code.ctem.refreshBusyHint": "Data CTEM saat ini masih dimuat — segarkan akan aktif setelah data tiba.",
+    "code.pentest.bridge.launchInFlight": "Kampanye red team sudah mulai dijalankan.",
+    "code.pentest.bridge.needsProject": "Buka proyek terlebih dahulu.",
+    "code.pentest.bridge.createInFlight": "Menambahkan kandidat ini…",
+    "code.warroom.containerClearNoFilters": "Tidak ada yang perlu dihapus — tidak ada filter pencarian, sumber, atau tingkat keparahan.",
+    "code.warroom.containerSaveNeedsName": "Beri nama koneksi sebelum menyimpannya.",
+    "code.history.reportGeneratingHint": "Laporan sedang dibuat…",
+    "code.history.reportNeedsTimeline": "Laporan mencakup lini masa yang dimuat — tersedia setelah lini masa selesai dimuat.",
+    "code.nav.breadcrumbLabel": "Tautan navigasi"
   },
   "version": "1.0.0"
 }

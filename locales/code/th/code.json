@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "ยกเลิก",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "ล้าง",
     "code.common.clearSelection": "",
     "code.common.close": "ปิด",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "เบราว์เซอร์บล็อกแท็บรายงาน — อนุญาตป๊อปอัปสำหรับไซต์นี้",
     "vaReport.previewTitle": "ตัวอย่างรายงาน VA",
     "warroom.tabFindings": "ผลการค้นพบ",
-    "warroom.tabOverview": "ภาพรวม"
+    "warroom.tabOverview": "ภาพรวม",
+    "code.common.scrollableColumns": "คอลัมน์ที่เลื่อนได้ — เลื่อนไปด้านข้างเพื่อดูเพิ่มเติม",
+    "code.domains.findingsTableScrollHint": "ตารางผลการตรวจพบ — เลื่อนไปด้านข้างเพื่อดูคอลัมน์เพิ่มเติม",
+    "code.ctem.refreshBusyHint": "กำลังโหลดข้อมูล CTEM ปัจจุบัน — ปุ่มรีเฟรชจะใช้ได้เมื่อโหลดเสร็จ",
+    "code.pentest.bridge.launchInFlight": "กำลังเริ่มแคมเปญเรดทีมอยู่แล้ว",
+    "code.pentest.bridge.needsProject": "เปิดโปรเจกต์ก่อน",
+    "code.pentest.bridge.createInFlight": "กำลังเพิ่มรายการนี้…",
+    "code.warroom.containerClearNoFilters": "ไม่มีอะไรให้ล้าง — ยังไม่ได้ใช้ตัวกรองการค้นหา แหล่งที่มา หรือความรุนแรง",
+    "code.warroom.containerSaveNeedsName": "ตั้งชื่อการเชื่อมต่อก่อนบันทึก",
+    "code.history.reportGeneratingHint": "กำลังสร้างรายงาน…",
+    "code.history.reportNeedsTimeline": "รายงานครอบคลุมไทม์ไลน์ที่โหลดไว้ — จะใช้ได้เมื่อโหลดไทม์ไลน์เสร็จ",
+    "code.nav.breadcrumbLabel": "เส้นทางนำทาง"
   },
   "version": "1.0.0"
 }

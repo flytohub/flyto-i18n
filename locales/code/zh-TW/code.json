@@ -1644,7 +1644,7 @@
     "code.common.back": "上一步",
     "code.common.cancel": "取消",
     "code.common.category": "分類",
-    "code.common.clear": "",
+    "code.common.clear": "清除",
     "code.common.clearSelection": "",
     "code.common.close": "關閉",
     "code.common.collapse": "收合",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "瀏覽器已阻止報告分頁 — 允許此網站的快顯視窗",
     "vaReport.previewTitle": "VA 報告預覽",
     "warroom.tabFindings": "安全發現",
-    "warroom.tabOverview": "概覽"
+    "warroom.tabOverview": "概覽",
+    "code.common.scrollableColumns": "可橫向捲動的欄位 — 向右捲動查看更多",
+    "code.domains.findingsTableScrollHint": "發現項表格 — 向右捲動查看更多欄位",
+    "code.ctem.refreshBusyHint": "正在載入目前的 CTEM 資料 — 載入完成後即可重新整理。",
+    "code.pentest.bridge.launchInFlight": "紅隊演練已在啟動中。",
+    "code.pentest.bridge.needsProject": "請先開啟一個專案。",
+    "code.pentest.bridge.createInFlight": "正在加入此候選項…",
+    "code.warroom.containerClearNoFilters": "沒有可清除的內容 — 未套用搜尋、來源或嚴重度篩選。",
+    "code.warroom.containerSaveNeedsName": "儲存前請先為連線命名。",
+    "code.history.reportGeneratingHint": "正在產生報告…",
+    "code.history.reportNeedsTimeline": "報告涵蓋已載入的時間軸 — 時間軸載入完成後即可使用。",
+    "code.nav.breadcrumbLabel": "麵包屑導覽"
   },
   "version": "1.0.0"
 }

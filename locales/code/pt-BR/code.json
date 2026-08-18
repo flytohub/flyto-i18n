@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "Cancelar",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Limpar",
     "code.common.clearSelection": "",
     "code.common.close": "Fechar",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Navegador bloqueou a aba do relatório — permita popups para este site",
     "vaReport.previewTitle": "Visualização do relatório de VA",
     "warroom.tabFindings": "Descobertas",
-    "warroom.tabOverview": "Visão geral"
+    "warroom.tabOverview": "Visão geral",
+    "code.common.scrollableColumns": "Colunas roláveis — role para o lado para ver mais",
+    "code.domains.findingsTableScrollHint": "Tabela de achados — role para o lado para ver mais colunas",
+    "code.ctem.refreshBusyHint": "Os dados atuais do CTEM ainda estão carregando — atualizar será liberado quando chegarem.",
+    "code.pentest.bridge.launchInFlight": "Uma campanha de red team já está sendo iniciada.",
+    "code.pentest.bridge.needsProject": "Abra um projeto primeiro.",
+    "code.pentest.bridge.createInFlight": "Adicionando este candidato…",
+    "code.warroom.containerClearNoFilters": "Nada a limpar — nenhum filtro de busca, origem ou severidade está aplicado.",
+    "code.warroom.containerSaveNeedsName": "Dê um nome à conexão antes de salvá-la.",
+    "code.history.reportGeneratingHint": "Um relatório está sendo gerado…",
+    "code.history.reportNeedsTimeline": "O relatório cobre a linha do tempo carregada — ele é liberado quando ela terminar de carregar.",
+    "code.nav.breadcrumbLabel": "Trilha de navegação"
   },
   "version": "1.0.0"
 }

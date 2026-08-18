@@ -1644,7 +1644,7 @@
     "code.common.back": "上一步",
     "code.common.cancel": "取消",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "清除",
     "code.common.clearSelection": "",
     "code.common.close": "关闭",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "浏览器阻止了报告选项卡 — 为此站点允许弹窗",
     "vaReport.previewTitle": "VA 报告预览",
     "warroom.tabFindings": "安全发现",
-    "warroom.tabOverview": "概览"
+    "warroom.tabOverview": "概览",
+    "code.common.scrollableColumns": "可横向滚动的列 — 向右滚动查看更多",
+    "code.domains.findingsTableScrollHint": "发现项表格 — 向右滚动查看更多列",
+    "code.ctem.refreshBusyHint": "正在加载当前 CTEM 数据 — 加载完成后即可刷新。",
+    "code.pentest.bridge.launchInFlight": "红队演练已在启动中。",
+    "code.pentest.bridge.needsProject": "请先打开一个专案。",
+    "code.pentest.bridge.createInFlight": "正在加入此候选项…",
+    "code.warroom.containerClearNoFilters": "没有可清除的内容 — 未套用搜索、来源或严重度筛选。",
+    "code.warroom.containerSaveNeedsName": "保存前请先为连接命名。",
+    "code.history.reportGeneratingHint": "正在生成报告…",
+    "code.history.reportNeedsTimeline": "报告涵盖已加载的时间线 — 时间线加载完成后即可使用。",
+    "code.nav.breadcrumbLabel": "面包屑导航"
   },
   "version": "1.0.0"
 }

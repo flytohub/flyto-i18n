@@ -1644,7 +1644,7 @@
     "code.common.back": "",
     "code.common.cancel": "Anuluj",
     "code.common.category": "Category",
-    "code.common.clear": "",
+    "code.common.clear": "Wyczyść",
     "code.common.clearSelection": "",
     "code.common.close": "Zamknij",
     "code.common.collapse": "Collapse",
@@ -9287,7 +9287,18 @@
     "vaReport.popupBlocked": "Przeglądarka zablokowała kartę raportu — zezwól na wyskakujące okienka dla tej witryny",
     "vaReport.previewTitle": "Podgląd raportu VA",
     "warroom.tabFindings": "Wyniki",
-    "warroom.tabOverview": "Przegląd"
+    "warroom.tabOverview": "Przegląd",
+    "code.common.scrollableColumns": "Przewijane kolumny — przewiń w bok, aby zobaczyć więcej",
+    "code.domains.findingsTableScrollHint": "Tabela ustaleń — przewiń w bok, aby zobaczyć kolejne kolumny",
+    "code.ctem.refreshBusyHint": "Trwa ładowanie bieżących danych CTEM — odświeżanie odblokuje się po ich pobraniu.",
+    "code.pentest.bridge.launchInFlight": "Kampania red team już się uruchamia.",
+    "code.pentest.bridge.needsProject": "Najpierw otwórz projekt.",
+    "code.pentest.bridge.createInFlight": "Dodawanie tego kandydata…",
+    "code.warroom.containerClearNoFilters": "Nie ma czego czyścić — nie zastosowano filtra wyszukiwania, źródła ani ważności.",
+    "code.warroom.containerSaveNeedsName": "Nadaj połączeniu nazwę przed zapisaniem.",
+    "code.history.reportGeneratingHint": "Trwa generowanie raportu…",
+    "code.history.reportNeedsTimeline": "Raport obejmuje wczytaną oś czasu — odblokuje się po jej załadowaniu.",
+    "code.nav.breadcrumbLabel": "Ścieżka nawigacji"
   },
   "version": "1.0.0"
 }
