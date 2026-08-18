@@ -121,6 +121,7 @@
     "spaces.ops.onlineSuffix": "",
     "spaces.ops.pairDevice": "",
     "spaces.ops.quiet": "",
+    "spaces.ops.refused": "फ़ीड अस्वीकृत",
     "spaces.ops.rename": "",
     "spaces.ops.renameLabel": "",
     "spaces.ops.resources": "",

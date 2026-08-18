@@ -121,6 +121,7 @@
     "spaces.ops.onlineSuffix": "online",
     "spaces.ops.pairDevice": "Pair device",
     "spaces.ops.quiet": "Quiet",
+    "spaces.ops.refused": "Feed refused",
     "spaces.ops.rename": "Rename",
     "spaces.ops.renameLabel": "New name",
     "spaces.ops.resources": "Resources",

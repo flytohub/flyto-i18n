@@ -121,6 +121,7 @@
     "spaces.ops.onlineSuffix": "在线",
     "spaces.ops.pairDevice": "配对设备",
     "spaces.ops.quiet": "无事件",
+    "spaces.ops.refused": "数据流被拒绝",
     "spaces.ops.rename": "重命名",
     "spaces.ops.renameLabel": "新名称",
     "spaces.ops.resources": "资源",
