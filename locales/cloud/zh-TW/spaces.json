@@ -28,6 +28,7 @@
     "spaces.hud.capabilityMatrixHint": "",
     "spaces.hud.deadline": "",
     "spaces.hud.dependsOn": "",
+    "spaces.hud.elapsed": "",
     "spaces.hud.evidence": "",
     "spaces.hud.evidenceHint": "",
     "spaces.hud.noAssignment": "",
