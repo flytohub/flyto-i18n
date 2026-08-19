@@ -4527,7 +4527,7 @@
     "code.integrations.custom": "Custom",
     "code.integrations.customApi": "Custom API (bring your own)",
     "code.integrations.customApiDesc": "Connect any API, upload, or paste — then map its fields into the kernel.",
-    "code.integrations.dataSources.emptyDesc": "接你自己的 API(例如 code 用 Aikido,或任何风险 feed),把返回映射进 kernel——Warroom 与外部来源一起融合。",
+    "code.integrations.dataSources.emptyDesc": "接你自己的 API（代码安全扫描器、风险评分 feed，或任何会返回 JSON 的来源），把返回映射进 kernel——Warroom 与外部来源一起融合。",
     "code.integrations.dataSources.emptyTitle": "尚无自定义来源",
     "code.integrations.dataSources.hint": "接任意外部 API 并映射进 kernel——平台从不绑死任一家。",
     "code.integrations.dryRunNeedsSample": "Paste a sample record above to preview the mapping.",
