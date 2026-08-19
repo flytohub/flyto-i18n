@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "pt-BR",
-  "total_keys": 8922,
+  "total_keys": 8923,
   "translations": {
     "assetMap.edges": "bordas",
     "assetMap.findingBadges": "Distintivos de Achados",
@@ -3314,6 +3314,7 @@
     "code.external.scoreTrend": "",
     "code.external.slaBreaches": "",
     "code.external.slaBreachesCount": "",
+    "code.external.slaDefaults": "Product defaults, measured from first discovery: critical {critical}, high {high}, medium {medium}, low {low}. Declare an SLA policy to use your own.",
     "code.external.slaSub": "",
     "code.external.slaTitle": "",
     "code.external.slaViolations": "",

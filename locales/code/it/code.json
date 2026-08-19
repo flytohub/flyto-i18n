@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "it",
-  "total_keys": 8922,
+  "total_keys": 8923,
   "translations": {
     "assetMap.edges": "bordi",
     "assetMap.findingBadges": "Badge dei risultati",
@@ -3314,6 +3314,7 @@
     "code.external.scoreTrend": "",
     "code.external.slaBreaches": "Violazioni SLA — problemi che superano la finestra di remediation",
     "code.external.slaBreachesCount": "Violazioni SLA",
+    "code.external.slaDefaults": "Product defaults, measured from first discovery: critical {critical}, high {high}, medium {medium}, low {low}. Declare an SLA policy to use your own.",
     "code.external.slaSub": "Conformità finestra di remediation per livello di gravità",
     "code.external.slaTitle": "Monitor SLA",
     "code.external.slaViolations": "Violazioni SLA",

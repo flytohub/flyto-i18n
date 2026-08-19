@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "en",
-  "total_keys": 8922,
+  "total_keys": 8923,
   "translations": {
     "assetMap.edges": "edges",
     "assetMap.findingBadges": "Finding Badges",
@@ -3314,6 +3314,7 @@
     "code.external.scoreTrend": "Score Trend",
     "code.external.slaBreaches": "SLA breaches — issues exceeding remediation window",
     "code.external.slaBreachesCount": "SLA Breaches",
+    "code.external.slaDefaults": "Product defaults, measured from first discovery: critical {critical}, high {high}, medium {medium}, low {low}. Declare an SLA policy to use your own.",
     "code.external.slaSub": "Remediation window compliance per severity level",
     "code.external.slaTitle": "SLA Monitor",
     "code.external.slaViolations": "SLA Violations",

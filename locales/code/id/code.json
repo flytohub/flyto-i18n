@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "id",
-  "total_keys": 8922,
+  "total_keys": 8923,
   "translations": {
     "assetMap.edges": "edge",
     "assetMap.findingBadges": "Lencana Temuan",
@@ -3314,6 +3314,7 @@
     "code.external.scoreTrend": "",
     "code.external.slaBreaches": "Pelanggaran SLA — masalah yang melampaui jendela remediasi",
     "code.external.slaBreachesCount": "Pelanggaran SLA",
+    "code.external.slaDefaults": "Product defaults, measured from first discovery: critical {critical}, high {high}, medium {medium}, low {low}. Declare an SLA policy to use your own.",
     "code.external.slaSub": "Kepatuhan jendela remediasi per tingkat keparahan",
     "code.external.slaTitle": "Monitor SLA",
     "code.external.slaViolations": "Pelanggaran SLA",

@@ -64,6 +64,18 @@
     "spaces.ops.resources": "",
     "spaces.ops.retryDevices": "",
     "spaces.ops.revoke": "",
-    "spaces.ops.revokeConfirm": ""
+    "spaces.ops.revokeConfirm": "",
+    "spaces.history.open": "",
+    "spaces.history.title": "",
+    "spaces.history.subtitle": "",
+    "spaces.history.search": "",
+    "spaces.history.filter": "",
+    "spaces.history.group.all": "",
+    "spaces.history.group.running": "",
+    "spaces.history.group.done": "",
+    "spaces.history.group.failed": "",
+    "spaces.history.group.cancelled": "",
+    "spaces.history.noMatch": "",
+    "spaces.history.empty": ""
   }
 }

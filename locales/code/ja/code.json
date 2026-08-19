@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ja",
-  "total_keys": 8922,
+  "total_keys": 8923,
   "translations": {
     "assetMap.edges": "エッジ",
     "assetMap.findingBadges": "検出バッジ",
@@ -3314,6 +3314,7 @@
     "code.external.scoreTrend": "スコアトレンド",
     "code.external.slaBreaches": "SLA 違反 — 修復期限を超過した問題",
     "code.external.slaBreachesCount": "SLA 違反",
+    "code.external.slaDefaults": "Product defaults, measured from first discovery: critical {critical}, high {high}, medium {medium}, low {low}. Declare an SLA policy to use your own.",
     "code.external.slaSub": "重大度ごとの修復期限遵守状況",
     "code.external.slaTitle": "SLA モニター",
     "code.external.slaViolations": "SLA 違反",
