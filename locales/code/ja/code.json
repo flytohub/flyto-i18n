@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ja",
-  "total_keys": 8921,
+  "total_keys": 8922,
   "translations": {
     "assetMap.edges": "エッジ",
     "assetMap.findingBadges": "検出バッジ",
@@ -5297,6 +5297,7 @@
     "code.monitoring.severity": "重大度",
     "code.monitoring.subtitle": "ドメイン横断のリアルタイム監視イベント",
     "code.monitoring.title": "アラートセンター",
+    "code.nav.adoption": "Adoption Check",
     "code.nav.agentActivity": "Agent Activity",
     "code.nav.agentFirewall": "Agent Firewall",
     "code.nav.agentFirewallSection": "Agent Firewall",

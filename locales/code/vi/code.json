@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "vi",
-  "total_keys": 8921,
+  "total_keys": 8922,
   "translations": {
     "assetMap.edges": "cạnh",
     "assetMap.findingBadges": "Huy hiệu Phát hiện",
@@ -5297,6 +5297,7 @@
     "code.monitoring.severity": "",
     "code.monitoring.subtitle": "",
     "code.monitoring.title": "",
+    "code.nav.adoption": "Adoption Check",
     "code.nav.agentActivity": "Agent Activity",
     "code.nav.agentFirewall": "Agent Firewall",
     "code.nav.agentFirewallSection": "Agent Firewall",

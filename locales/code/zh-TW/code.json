@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-TW",
-  "total_keys": 8921,
+  "total_keys": 8922,
   "translations": {
     "assetMap.edges": "邊界",
     "assetMap.findingBadges": "發現徽章",
@@ -5297,6 +5297,7 @@
     "code.monitoring.severity": "嚴重程度",
     "code.monitoring.subtitle": "即時監控所有網域的安全事件",
     "code.monitoring.title": "告警中心",
+    "code.nav.adoption": "採用評估",
     "code.nav.agentActivity": "代理程式活動",
     "code.nav.agentFirewall": "Agent Firewall",
     "code.nav.agentFirewallSection": "Agent Firewall",
