@@ -17,7 +17,7 @@
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
-      "coverage": 97.9,
+      "coverage": 99.0,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -26,7 +26,7 @@
     "zh-CN": {
       "name": "Simplified Chinese",
       "native_name": "简体中文",
-      "coverage": 97.4,
+      "coverage": 98.5,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -107,7 +107,7 @@
     "id": {
       "name": "Indonesian",
       "native_name": "Bahasa Indonesia",
-      "coverage": 78.0,
+      "coverage": 78.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -134,7 +134,7 @@
     "pl": {
       "name": "Polish",
       "native_name": "Polski",
-      "coverage": 78.0,
+      "coverage": 78.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -143,7 +143,7 @@
     "it": {
       "name": "Italian",
       "native_name": "Italiano",
-      "coverage": 78.0,
+      "coverage": 78.1,
       "status": "community",
       "maintainers": [
         "@flytohub"
