@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "hi",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "किनारे",
     "assetMap.findingBadges": "खोज बैज",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "औसत डॉक स्कोर",
     "code.warroom.avgHealthScore": "औसत स्वास्थ्य स्कोर",
     "code.warroom.avgScore": "औसत स्कोर",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "सक्रिय",
     "code.warroom.budgetAmount": "टोकन सीमा",
     "code.warroom.budgetCancel": "रद्द करें",

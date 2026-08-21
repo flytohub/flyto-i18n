@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-TW",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "邊界",
     "assetMap.findingBadges": "發現徽章",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "平均文件分數",
     "code.warroom.avgHealthScore": "平均健康分數",
     "code.warroom.avgScore": "平均分數",
+    "code.warroom.avgScorePending": "平均分數尚未產生 —— 還沒有任何儲存庫完成評分。",
     "code.warroom.budgetActive": "啟用",
     "code.warroom.budgetAmount": "Token 上限",
     "code.warroom.budgetCancel": "取消",

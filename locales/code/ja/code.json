@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ja",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "エッジ",
     "assetMap.findingBadges": "検出バッジ",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "平均ドキュメントスコア",
     "code.warroom.avgHealthScore": "平均健康スコア",
     "code.warroom.avgScore": "平均スコア",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "アクティブ",
     "code.warroom.budgetAmount": "トークン制限",
     "code.warroom.budgetCancel": "キャンセル",

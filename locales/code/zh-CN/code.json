@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-CN",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "边界",
     "assetMap.findingBadges": "发现标签",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "平均文档评分",
     "code.warroom.avgHealthScore": "平均健康评分",
     "code.warroom.avgScore": "平均分",
+    "code.warroom.avgScorePending": "平均分数尚未生成 —— 还没有任何仓库完成评分。",
     "code.warroom.budgetActive": "活跃",
     "code.warroom.budgetAmount": "代币上限",
     "code.warroom.budgetCancel": "取消",

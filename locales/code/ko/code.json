@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ko",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "엣지",
     "assetMap.findingBadges": "발견 배지",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "평균 문서 점수",
     "code.warroom.avgHealthScore": "평균 건강 점수",
     "code.warroom.avgScore": "평균 점수",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "활성",
     "code.warroom.budgetAmount": "토큰 한도",
     "code.warroom.budgetCancel": "취소",

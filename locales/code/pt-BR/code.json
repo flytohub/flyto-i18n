@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "pt-BR",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "bordas",
     "assetMap.findingBadges": "Distintivos de Achados",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "Pontuação Média do Documento",
     "code.warroom.avgHealthScore": "Pontuação Média de Saúde",
     "code.warroom.avgScore": "pontuação média",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "Ativo",
     "code.warroom.budgetAmount": "Limite de Tokens",
     "code.warroom.budgetCancel": "Cancelar",

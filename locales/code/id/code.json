@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "id",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "edge",
     "assetMap.findingBadges": "Lencana Temuan",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "Rata-rata Skor Dokumen",
     "code.warroom.avgHealthScore": "Rata-rata Skor Kesehatan",
     "code.warroom.avgScore": "skor rata-rata",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "Aktif",
     "code.warroom.budgetAmount": "Batas token",
     "code.warroom.budgetCancel": "Batal",

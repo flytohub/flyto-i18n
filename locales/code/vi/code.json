@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "vi",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "cạnh",
     "assetMap.findingBadges": "Huy hiệu Phát hiện",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "Điểm tài liệu trung bình",
     "code.warroom.avgHealthScore": "Điểm sức khỏe trung bình",
     "code.warroom.avgScore": "điểm trung bình",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "Đang hoạt động",
     "code.warroom.budgetAmount": "Giới hạn token",
     "code.warroom.budgetCancel": "Hủy",

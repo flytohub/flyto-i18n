@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "tr",
-  "total_keys": 9993,
+  "total_keys": 9994,
   "translations": {
     "assetMap.edges": "kenarlar",
     "assetMap.findingBadges": "Bulgu Rozetleri",
@@ -9041,6 +9041,7 @@
     "code.warroom.avgDocScore": "Ort. Doküman Skoru",
     "code.warroom.avgHealthScore": "Ort. Sağlık Skoru",
     "code.warroom.avgScore": "ortalama puan",
+    "code.warroom.avgScorePending": "Average score pending — no repository has been scored yet.",
     "code.warroom.budgetActive": "Aktif",
     "code.warroom.budgetAmount": "Token sınırı",
     "code.warroom.budgetCancel": "İptal",
