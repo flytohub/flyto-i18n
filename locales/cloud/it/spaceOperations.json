@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "it",
   "category": "cloud.spaceOperations",
-  "version": "1.3.0",
+  "version": "1.1.0",
   "translations": {
     "spaces.draw.catalogUnavailable": "",
     "spaces.draw.catalogUnavailableHint": "",
@@ -152,5 +152,6 @@
     "spaces.voice.send": "",
     "spaces.voice.startListening": "",
     "spaces.voice.stopListening": ""
-  }
+  },
+  "total_keys": 148
 }
