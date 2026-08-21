@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "zh-TW",
   "category": "cloud.spaceOperations",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "translations": {
     "spaces.draw.catalogUnavailable": "無法取得任務卡目錄",
     "spaces.draw.catalogUnavailableHint": "此部署尚未提供任務卡目錄端點。在 Cloud 升級前，無法建立任務目標。",

@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "locale": "en",
   "category": "cloud.spaceOperations",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "translations": {
     "spaces.draw.catalogUnavailable": "Mission card catalog unavailable",
     "spaces.draw.catalogUnavailableHint": "This deployment does not serve the mission-card catalog endpoint. Creating a mission goal stays locked until Cloud is upgraded.",
