@@ -76,6 +76,8 @@
     "spaces.history.group.failed": "",
     "spaces.history.group.cancelled": "",
     "spaces.history.noMatch": "",
-    "spaces.history.empty": ""
+    "spaces.history.empty": "",
+    "spaces.ops.management": "",
+    "spaces.ops.noReplans": ""
   }
 }
