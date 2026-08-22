@@ -77,7 +77,7 @@
     "spaces.history.group.cancelled": "",
     "spaces.history.noMatch": "",
     "spaces.history.empty": "",
-    "spaces.ops.management": "",
+    "spaces.ops.management": "管理",
     "spaces.ops.noReplans": ""
   }
 }

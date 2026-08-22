@@ -1,5 +1,16 @@
 # State
 
+Current state on 2026-08-22:
+
+- The Operations Room output wall and management entry now source their 11
+  visible labels from the reviewed English, Traditional Chinese, and Simplified
+  Chinese catalogs. The canonical Cloud and aggregate bundles publish the same
+  values, so syncing a consumer from `dist/cloud` cannot remove copy that the
+  live `wt()` surfaces still require.
+- Focused regression coverage pins sole non-empty catalog ownership, exact
+  values, placeholder parity, and source-to-Cloud-to-aggregate identity for the
+  11-key control contract.
+
 Current positioning on 2026-08-14:
 
 - The public role is: "Fix a translation once and share it across every Flyto2

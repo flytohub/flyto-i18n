@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-22 — Operations Room control copy is source-owned
+
+- Added reviewed English, Traditional Chinese, and Simplified Chinese copy for
+  the 10 output-wall and mission-entry keys previously present only in Flyto2
+  Cloud's bundled baseline.
+- Filled the `spaces.ops.management` source value in the same three locales and
+  added source-to-Cloud-to-aggregate regression coverage for the complete
+  11-key control contract.
+
 ## 2026-08-18 — Telling a quiet machine from an idle room
 
 - `spaces.ops.noSignalYet` and `spaces.ops.noSignalYetHint` in all sixteen

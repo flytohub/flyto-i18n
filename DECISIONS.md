@@ -1,5 +1,16 @@
 # Decisions
 
+## 2026-08-22 - Operations Room controls are upstream-owned
+
+Decision: keep the output-wall labels, target-selection errors, optional
+mission input label, protocol/status labels, and management entry in the
+reviewed Cloud source catalogs, then generate both Cloud and aggregate runtime
+bundles from those values.
+
+Reason: Flyto2 Cloud still renders these keys through its `wt()` helper. A
+consumer-side bundled copy is not an alternate source of truth and must remain
+safe to replace from `flyto-i18n/dist/cloud` without deleting live UI copy.
+
 ## 2026-08-14 - Public positioning starts with one shared translation fix
 
 Decision: present `flyto-i18n` with one public role: "Fix a translation once

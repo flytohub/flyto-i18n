@@ -127,6 +127,48 @@ LOCAL_CAMERA_VALUES = {
     },
 }
 LOCAL_CAMERA_KEYS = frozenset(LOCAL_CAMERA_VALUES["en"])
+OPERATION_ROOM_CONTROL_VALUES = {
+    "en": {
+        "spaces.ops.available": "Available",
+        "spaces.ops.configureSources": "Sources / Configure",
+        "spaces.ops.management": "Management",
+        "spaces.ops.missionInput": "Mission input (optional)",
+        "spaces.ops.outputAmbiguous": "More than one output matches. Use the exact output label.",
+        "spaces.ops.outputKind": "Kind",
+        "spaces.ops.outputNoMatch": "No output matches that name.",
+        "spaces.ops.outputSources": "Output sources",
+        "spaces.ops.outputWall": "OUTPUT WALL",
+        "spaces.ops.protocol": "Protocol",
+        "spaces.ops.status": "Status",
+    },
+    "zh-TW": {
+        "spaces.ops.available": "可用",
+        "spaces.ops.configureSources": "來源 / 設定",
+        "spaces.ops.management": "管理",
+        "spaces.ops.missionInput": "任務輸入（選用）",
+        "spaces.ops.outputAmbiguous": "有多個輸出符合。請使用完整輸出名稱。",
+        "spaces.ops.outputKind": "類型",
+        "spaces.ops.outputNoMatch": "找不到符合該名稱的輸出。",
+        "spaces.ops.outputSources": "輸出來源",
+        "spaces.ops.outputWall": "輸出牆",
+        "spaces.ops.protocol": "協定",
+        "spaces.ops.status": "狀態",
+    },
+    "zh-CN": {
+        "spaces.ops.available": "可用",
+        "spaces.ops.configureSources": "来源 / 配置",
+        "spaces.ops.management": "管理",
+        "spaces.ops.missionInput": "任务输入（可选）",
+        "spaces.ops.outputAmbiguous": "有多个输出匹配。请使用完整输出名称。",
+        "spaces.ops.outputKind": "类型",
+        "spaces.ops.outputNoMatch": "找不到匹配该名称的输出。",
+        "spaces.ops.outputSources": "输出来源",
+        "spaces.ops.outputWall": "输出墙",
+        "spaces.ops.protocol": "协议",
+        "spaces.ops.status": "状态",
+    },
+}
+OPERATION_ROOM_CONTROL_KEYS = frozenset(OPERATION_ROOM_CONTROL_VALUES["en"])
 FALSE_CAMERA_LIVE_WORDING = re.compile(
     r"\b(?:continuous (?:video|stream)|live camera|camera (?:is )?live|"
     r"inference|recording)\b|"
@@ -268,6 +310,40 @@ def test_local_camera_copy_is_truthful_owned_and_identical_in_all_outputs() -> N
         )
 
 
+def test_operation_room_controls_are_reviewed_and_identical_in_all_outputs() -> None:
+    """Keep visible output-wall controls localized through both bundles."""
+    for locale, expected in OPERATION_ROOM_CONTROL_VALUES.items():
+        catalogs = _catalogs(locale)
+        source = _source(locale)
+        cloud_dist = _dist(locale)
+        aggregate_dist = _aggregate_dist(locale)
+
+        for key, value in expected.items():
+            owner = (
+                "spaces.json"
+                if key == "spaces.ops.management"
+                else "spaceOperations.json"
+            )
+            actual_owners = {
+                catalog
+                for catalog, values in catalogs.items()
+                if values.get(key, "").strip()
+            }
+            assert actual_owners == {owner}, (locale, key, actual_owners)
+            assert value.strip()
+            assert source[key] == value
+            assert cloud_dist[key] == value
+            assert aggregate_dist[key] == value
+
+    for key in OPERATION_ROOM_CONTROL_KEYS:
+        expected_placeholders = _placeholders(OPERATION_ROOM_CONTROL_VALUES["en"][key])
+        assert all(
+            _placeholders(OPERATION_ROOM_CONTROL_VALUES[locale][key])
+            == expected_placeholders
+            for locale in LOCALES
+        )
+
+
 def test_official_sources_and_dist_publish_non_empty_placeholder_safe_union() -> None:
     """Require three-locale parity, source-to-dist identity, and placeholders."""
     sources = {locale: _source(locale) for locale in LOCALES}
@@ -343,8 +419,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
             "completion",
             "files_merged",
         }
-        assert record["total_keys"] == 11_850
-        assert record["files_merged"] == 254
+        assert record["total_keys"] == 11_953
+        assert record["files_merged"] == 256
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_root = Path(temp_dir)
