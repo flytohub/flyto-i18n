@@ -1,5 +1,8 @@
 # Tasks
 
+- [x] Move the Operations Room output-wall and management labels into reviewed
+  source catalogs and pin their generated Cloud/aggregate bundle parity.
+
 - [x] Align README, package metadata, docs index, and project memory around the
   single public translation-sharing role and a real source-to-dist example.
 - [x] Add MCP Studio source catalogs, include them in Cloud and Flow scopes,
