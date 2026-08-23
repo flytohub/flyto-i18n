@@ -4,6 +4,10 @@
     "category": "http",
     "version": "1.0.0",
     "translations": {
+        "modules.http.batch.label": "HTTP 批处理",
+        "modules.http.paginate.label": "HTTP 分页",
+        "modules.http.session.label": "HTTP 会话",
+        "modules.http.webhook_wait.label": "等待 Webhook",
         "modules.http.get.description": "发送 HTTP GET 请求并接收回应",
         "modules.http.get.label": "HTTP GET",
         "modules.http.get.output.body.description": "回应主体（解析后的 JSON 或文本）",

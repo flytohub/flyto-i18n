@@ -4,6 +4,8 @@
     "category": "data",
     "version": "1.0.0",
     "translations": {
+        "modules.data.dedup.label": "資料去重",
+        "modules.data.validate_records.label": "驗證資料列",
         "modules.data.csv.read.description": "讀取並解析 CSV 檔案為物件陣列",
         "modules.data.csv.read.label": "讀取 CSV 檔案",
         "modules.data.csv.read.output.columns.description": "欄位名稱列表",

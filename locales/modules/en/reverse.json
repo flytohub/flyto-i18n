@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../schema/locale.schema.json",
+    "locale": "en",
+    "category": "reverse",
+    "version": "1.0.0",
+    "translations": {
+        "modules.reverse.attach.label": "Attach Debugger",
+        "modules.reverse.breakpoint.label": "Set/Remove Breakpoint",
+        "modules.reverse.code.label": "Code Analysis",
+        "modules.reverse.deobfuscate.label": "Deobfuscate Code",
+        "modules.reverse.detach.label": "Detach Debugger",
+        "modules.reverse.evaluate_on_call_frame.label": "Evaluate On Call Frame",
+        "modules.reverse.get_call_frames.label": "Get Call Frames",
+        "modules.reverse.hook.label": "Hook Function",
+        "modules.reverse.network.label": "Network Initiator Tracing",
+        "modules.reverse.request_breakpoint.label": "Set/Remove Request Breakpoint",
+        "modules.reverse.resume.label": "Resume Execution",
+        "modules.reverse.scripts.label": "Debugger Scripts",
+        "modules.reverse.sourcemap.label": "Source Map Resolver",
+        "modules.reverse.step.label": "Step Execution",
+        "modules.reverse.wait_paused.label": "Wait for Pause",
+        "modules.reverse.websocket.label": "WebSocket Capture"
+    }
+}

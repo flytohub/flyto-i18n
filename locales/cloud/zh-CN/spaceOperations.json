@@ -116,7 +116,6 @@
     "spaces.ops.lastFrameAgo": "上一张本机摄像头图像于 {seconds} 秒前获取",
     "spaces.ops.live": "房间已连接",
     "spaces.ops.localNearRealtime": "本机摄像头 · 近实时 · {fps} FPS",
-    "spaces.ops.management": "管理",
     "spaces.ops.nextAction": "下一步",
     "spaces.ops.noDecisions": "暂无决策",
     "spaces.ops.noReplans": "暂无重新规划",

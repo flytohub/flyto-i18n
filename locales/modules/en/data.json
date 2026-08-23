@@ -4,6 +4,8 @@
     "category": "data",
     "version": "1.0.0",
     "translations": {
+        "modules.data.dedup.label": "Deduplicate Records",
+        "modules.data.validate_records.label": "Validate Records",
         "modules.data.csv.read.description": "Read and parse CSV file into array of objects",
         "modules.data.csv.read.label": "Read CSV File",
         "modules.data.csv.read.output.columns.description": "Array of row objects",

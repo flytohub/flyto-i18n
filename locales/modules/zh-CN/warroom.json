@@ -1,0 +1,14 @@
+{
+    "$schema": "../../../schema/locale.schema.json",
+    "locale": "zh-CN",
+    "category": "warroom",
+    "version": "1.0.0",
+    "translations": {
+        "modules.warroom.discover.label": "战情室探索",
+        "modules.warroom.generate_scenarios.label": "生成战情室场景",
+        "modules.warroom.llm_review.label": "战情室 LLM 审查",
+        "modules.warroom.public_site_verify.label": "公开网站验证",
+        "modules.warroom.report.label": "战情室报告",
+        "modules.warroom.run.label": "战情室执行"
+    }
+}

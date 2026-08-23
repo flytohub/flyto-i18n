@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../schema/locale.schema.json",
+    "locale": "zh-TW",
+    "category": "verification",
+    "version": "1.0.0",
+    "translations": {
+        "modules.verification.discover.label": "探索驗證目標",
+        "modules.verification.generate_scenarios.label": "產生驗證情境",
+        "modules.verification.report.label": "驗證報告",
+        "modules.verification.run.label": "執行驗證"
+    }
+}

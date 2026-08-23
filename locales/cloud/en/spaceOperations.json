@@ -116,7 +116,6 @@
     "spaces.ops.lastFrameAgo": "Last local camera image {seconds}s ago",
     "spaces.ops.live": "Room connected",
     "spaces.ops.localNearRealtime": "Local camera · near-real-time · {fps} FPS",
-    "spaces.ops.management": "Management",
     "spaces.ops.nextAction": "Next",
     "spaces.ops.noDecisions": "No decisions yet",
     "spaces.ops.noReplans": "No replans",

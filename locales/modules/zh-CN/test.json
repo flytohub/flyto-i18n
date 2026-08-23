@@ -4,6 +4,8 @@
     "category": "test",
     "version": "1.0.0",
     "translations": {
+        "modules.test.assert_status.label": "验证状态",
+        "modules.test.assert_timing.label": "验证时间",
         "modules.test.assert_contains.description": "断言集合包含某个值",
         "modules.test.assert_contains.label": "断言包含",
         "modules.test.assert_contains.output.collection.description": "断言是否通过",

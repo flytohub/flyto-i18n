@@ -4,6 +4,8 @@
     "category": "data",
     "version": "1.0.0",
     "translations": {
+        "modules.data.dedup.label": "数据去重",
+        "modules.data.validate_records.label": "验证数据行",
         "modules.data.csv.read.description": "读取并解析 CSV 文件为对象数组",
         "modules.data.csv.read.label": "读取 CSV 文件",
         "modules.data.csv.read.output.columns.description": "字段名称列表",

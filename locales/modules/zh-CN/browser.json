@@ -4,6 +4,7 @@
     "category": "browser",
     "version": "1.0.0",
     "translations": {
+        "modules.browser.detect.label": "智能检测",
         "modules.browser.click.description": "点击页面上的元素",
         "modules.browser.click.label": "点击元素",
         "modules.browser.click.output.selector.description": "被点击的选择器",

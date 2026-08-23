@@ -419,8 +419,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
             "completion",
             "files_merged",
         }
-        assert record["total_keys"] == 12_004
-        assert record["files_merged"] == 256
+        assert record["total_keys"] == 12_046
+        assert record["files_merged"] == 262
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_root = Path(temp_dir)

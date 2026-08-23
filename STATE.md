@@ -1,5 +1,22 @@
 # State
 
+Current state on 2026-08-24:
+
+- Every `ui_label_key` exposed by the current 475-module Core registry resolves
+  in the English, Traditional Chinese, and Simplified Chinese module catalogs.
+  The 42-key closure covers AI, API, OAuth, browser detection, data, HTTP,
+  output, reverse engineering, MCP, test, verification, and Warroom nodes.
+- Focused regression coverage pins reviewed values, single source ownership,
+  and source-to-Cloud-distribution identity for all 42 labels. Canvas and node
+  picker consumers can now share one resolver without locale-dependent English
+  leaks.
+- `spaces.ops.management` is owned by `spaces.json` and
+  `spaces.ops.noReplans` by `spaceOperations.json`, with no duplicate source
+  keys. Repository verification runs pytest, which includes both unittest
+  classes and function-style source-ownership contracts. The Cloud manifest
+  contract reflects 12,046 keys across 262 source files after the six new
+  module catalogs and 42 labels.
+
 Current state on 2026-08-23:
 
 - Space Operations owns a 40-key verification-loop copy contract in the

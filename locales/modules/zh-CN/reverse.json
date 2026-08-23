@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../schema/locale.schema.json",
+    "locale": "zh-CN",
+    "category": "reverse",
+    "version": "1.0.0",
+    "translations": {
+        "modules.reverse.attach.label": "附加调试器",
+        "modules.reverse.breakpoint.label": "设置或移除断点",
+        "modules.reverse.code.label": "代码分析",
+        "modules.reverse.deobfuscate.label": "代码去混淆",
+        "modules.reverse.detach.label": "解除附加调试器",
+        "modules.reverse.evaluate_on_call_frame.label": "在调用帧上求值",
+        "modules.reverse.get_call_frames.label": "获取调用帧",
+        "modules.reverse.hook.label": "拦截函数",
+        "modules.reverse.network.label": "网络发起端追踪",
+        "modules.reverse.request_breakpoint.label": "设置或移除请求断点",
+        "modules.reverse.resume.label": "继续执行",
+        "modules.reverse.scripts.label": "调试器脚本",
+        "modules.reverse.sourcemap.label": "源映射解析",
+        "modules.reverse.step.label": "单步执行",
+        "modules.reverse.wait_paused.label": "等待暂停",
+        "modules.reverse.websocket.label": "WebSocket 捕获"
+    }
+}

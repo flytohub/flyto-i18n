@@ -4,6 +4,7 @@
     "category": "ai",
     "version": "1.0.0",
     "translations": {
+        "modules.ai.tool.label": "AI Tool",
         "modules.ai.local_ollama.chat.description": "Chat with local LLM via Ollama (completely offline)",
         "modules.ai.local_ollama.chat.label": "Local Ollama Chat",
         "modules.ai.local_ollama.chat.output.context.description": "Response from the operation",

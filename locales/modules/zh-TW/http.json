@@ -4,6 +4,10 @@
     "category": "http",
     "version": "1.0.0",
     "translations": {
+        "modules.http.batch.label": "HTTP 批次",
+        "modules.http.paginate.label": "HTTP 分頁",
+        "modules.http.session.label": "HTTP 工作階段",
+        "modules.http.webhook_wait.label": "等待 Webhook",
         "modules.http.get.description": "發送 HTTP GET 請求並接收回應",
         "modules.http.get.label": "HTTP GET",
         "modules.http.get.output.body.description": "回應主體（解析後的 JSON 或文字）",
