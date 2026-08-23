@@ -4,6 +4,10 @@
     "category": "http",
     "version": "1.0.0",
     "translations": {
+        "modules.http.batch.label": "HTTP Batch",
+        "modules.http.paginate.label": "HTTP Paginate",
+        "modules.http.session.label": "HTTP Session",
+        "modules.http.webhook_wait.label": "Webhook Wait",
         "modules.http.request.description": "Send HTTP request and receive response",
         "modules.http.request.label": "HTTP Request",
         "modules.http.request.output.body.description": "HTTP status text",

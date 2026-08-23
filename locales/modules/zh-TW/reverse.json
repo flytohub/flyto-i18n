@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../schema/locale.schema.json",
+    "locale": "zh-TW",
+    "category": "reverse",
+    "version": "1.0.0",
+    "translations": {
+        "modules.reverse.attach.label": "附加除錯器",
+        "modules.reverse.breakpoint.label": "設定或移除中斷點",
+        "modules.reverse.code.label": "程式碼分析",
+        "modules.reverse.deobfuscate.label": "程式碼去混淆",
+        "modules.reverse.detach.label": "解除附加除錯器",
+        "modules.reverse.evaluate_on_call_frame.label": "在呼叫框架上求值",
+        "modules.reverse.get_call_frames.label": "取得呼叫框架",
+        "modules.reverse.hook.label": "攔截函式",
+        "modules.reverse.network.label": "網路發起端追蹤",
+        "modules.reverse.request_breakpoint.label": "設定或移除請求中斷點",
+        "modules.reverse.resume.label": "繼續執行",
+        "modules.reverse.scripts.label": "除錯器指令碼",
+        "modules.reverse.sourcemap.label": "來源對應解析",
+        "modules.reverse.step.label": "單步執行",
+        "modules.reverse.wait_paused.label": "等待暫停",
+        "modules.reverse.websocket.label": "WebSocket 擷取"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../schema/locale.schema.json",
+    "locale": "en",
+    "category": "verification",
+    "version": "1.0.0",
+    "translations": {
+        "modules.verification.discover.label": "Verification Discover",
+        "modules.verification.generate_scenarios.label": "Verification Generate Scenarios",
+        "modules.verification.report.label": "Verification Report",
+        "modules.verification.run.label": "Verification Run"
+    }
+}

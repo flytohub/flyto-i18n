@@ -4,6 +4,9 @@
     "category": "api",
     "version": "1.0.0",
     "translations": {
+        "modules.api.github.create_pr.label": "Create GitHub Pull Request",
+        "modules.api.github.list_repos.label": "List GitHub Repositories",
+        "modules.api.tavily_search.label": "Web Search (Tavily)",
         "modules.api.anthropic.chat.description": "Send a chat message to Anthropic Claude AI and get a response",
         "modules.api.anthropic.chat.label": "Claude Chat",
         "modules.api.anthropic.chat.output.content.description": "System prompt to guide Claude behavior",

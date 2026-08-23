@@ -4,6 +4,7 @@
     "category": "ai",
     "version": "1.0.0",
     "translations": {
+        "modules.ai.tool.label": "AI 工具",
         "modules.ai.embed.description": "使用 AI 模型从文本生成矢量嵌入",
         "modules.ai.embed.label": "文本嵌入",
         "modules.ai.embed.output.dimensions.description": "嵌入矢量的维度数",

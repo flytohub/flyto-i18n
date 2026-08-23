@@ -4,6 +4,8 @@
     "category": "test",
     "version": "1.0.0",
     "translations": {
+        "modules.test.assert_status.label": "Assert Status",
+        "modules.test.assert_timing.label": "Assert Timing",
         "modules.test.assert_contains.description": "Assert that a collection contains a value",
         "modules.test.assert_contains.label": "Assert Contains",
         "modules.test.assert_contains.output.collection.description": "Whether assertion passed",

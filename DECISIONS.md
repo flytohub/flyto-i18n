@@ -1,5 +1,26 @@
 # Decisions
 
+## 2026-08-24 - Verification must collect function-style contracts
+
+Decision: the npm test command uses pytest rather than unittest discovery,
+`npm run verify` rebuilds distributions before exercising generated-output
+contracts, and every locale key keeps one source-catalog owner.
+
+Reason: unittest discovery reported green while skipping function-style pytest
+contracts, including tests that found contradictory source ownership and a
+stale manifest inventory. Generated output may merge catalogs, but source
+ownership and pinned inventory must remain unambiguous.
+
+## 2026-08-24 - Core module labels are catalog-owned
+
+Decision: publish every current Core registry `ui_label_key` through the
+category-owned English, Traditional Chinese, and Simplified Chinese module
+catalogs, with one source owner per key and generated Cloud bundle parity.
+
+Reason: the node picker and workflow canvas must resolve the same module label.
+Registry English remains a fallback for unsupported locales, not a competing
+source for official-locale product copy.
+
 ## 2026-08-22 - Operations Room controls are upstream-owned
 
 Decision: keep the output-wall labels, target-selection errors, optional

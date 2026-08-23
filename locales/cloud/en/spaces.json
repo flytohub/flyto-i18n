@@ -75,7 +75,6 @@
     "spaces.history.group.cancelled": "",
     "spaces.history.noMatch": "",
     "spaces.history.empty": "",
-    "spaces.ops.management": "Management",
-    "spaces.ops.noReplans": ""
+    "spaces.ops.management": "Management"
   }
 }

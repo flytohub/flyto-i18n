@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-08-24 — Every current Core module has an official label
+
+- Added the 42 missing Core registry label keys to the category-owned English,
+  Traditional Chinese, and Simplified Chinese module catalogs.
+- Added exact source-ownership and generated Cloud-bundle coverage so the node
+  picker and workflow canvas can share one resolver without English leaks.
+- Rebuilt aggregate, Flow, and Cloud distribution bundles.
+- Removed duplicate source ownership for `spaces.ops.management` and
+  `spaces.ops.noReplans`, refreshed the pinned Cloud inventory for the new
+  module catalogs, and made pytest the repository test runner so function-style
+  contracts cannot be silently skipped by unittest discovery.
+
 ## 2026-08-23 — Space Operations exposes a verification loop
 
 - Added reviewed English, Traditional Chinese, and Simplified Chinese copy for

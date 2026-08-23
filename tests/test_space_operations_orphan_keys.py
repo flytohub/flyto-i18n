@@ -19,6 +19,10 @@ EXPECTED = {
         "spaces.ops.noReplans": "暂无重新规划",
     },
 }
+OWNERS = {
+    "spaces.ops.management": "spaces.json",
+    "spaces.ops.noReplans": "spaceOperations.json",
+}
 
 
 def _flatten(value: dict, prefix: str = "") -> dict[str, str]:
@@ -50,13 +54,13 @@ def _cloud_dist(locale: str) -> dict[str, str]:
 
 
 def test_operations_runtime_keys_have_reviewed_unique_source_ownership() -> None:
-    """Keep runtime labels reviewed and owned only by Space Operations."""
+    """Keep runtime labels reviewed and owned by one canonical catalog."""
     for locale, expected in EXPECTED.items():
         catalogs = _catalogs(locale)
         for key, value in expected.items():
             owners = {name for name, catalog in catalogs.items() if key in catalog}
-            assert owners == {"spaceOperations.json"}
-            assert catalogs["spaceOperations.json"][key] == value
+            assert owners == {OWNERS[key]}
+            assert catalogs[OWNERS[key]][key] == value
 
 
 def test_operations_runtime_keys_match_generated_cloud_bundles() -> None:

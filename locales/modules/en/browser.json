@@ -4,6 +4,7 @@
     "category": "browser",
     "version": "1.0.0",
     "translations": {
+        "modules.browser.detect.label": "Smart Detect",
         "modules.browser.click.description": "Click an element on the page",
         "modules.browser.click.label": "Click Element",
         "modules.browser.click.output.selector.description": "Operation status (success/error)",

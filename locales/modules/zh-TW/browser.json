@@ -4,6 +4,7 @@
     "category": "browser",
     "version": "1.0.0",
     "translations": {
+        "modules.browser.detect.label": "智慧偵測",
         "modules.browser.click.description": "點擊頁面上的元素",
         "modules.browser.click.label": "點擊元素",
         "modules.browser.click.output.selector.description": "被點擊的選擇器",
