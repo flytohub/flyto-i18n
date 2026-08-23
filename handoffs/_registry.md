@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-08-23 | Space Operations verification-loop i18n | `2026-08-23-space-verification-loop-i18n.md` |
 | 2026-08-22 | Operations Room control-copy closure | `2026-08-22-operations-room-control-copy.md` |
 | 2026-08-14 | AI Space identity and local-voice i18n | `2026-08-14-ai-space-identity-local-voice-i18n.md` |
 | 2026-08-13 | Cloud cumulative runtime i18n | `2026-08-13-cloud-cumulative-runtime-i18n.md` |

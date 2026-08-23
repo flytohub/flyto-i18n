@@ -1,5 +1,17 @@
 # State
 
+Current state on 2026-08-23:
+
+- Space Operations owns a 40-key verification-loop copy contract in the
+  English, Traditional Chinese, and Simplified Chinese `spaceOperations.json`
+  catalogs. The contract names acceptance, execution, evidence, verdict,
+  every backend-projected stage state and overall status, plus the explicit
+  next action.
+- Completed execution remains visibly different from verified acceptance.
+  Focused regression coverage pins the exact key set, reviewed copy, unique
+  source ownership, non-empty placeholder-free values, and equality between
+  source, Cloud distribution, and aggregate distribution bundles.
+
 Current state on 2026-08-22:
 
 - The Operations Room output wall and management entry now source their 11

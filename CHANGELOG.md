@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-08-23 — Space Operations exposes a verification loop
+
+- Added reviewed English, Traditional Chinese, and Simplified Chinese copy for
+  acceptance, execution, evidence, verdict, and the backend-selected next action.
+- Kept completed-but-unverified missions distinct from verified outcomes in
+  source catalogs and generated Cloud bundles.
+- Added the missing management and no-replan labels so Cloud's orphan-key scan
+  closes without frontend-only fallback copy.
+
+## 2026-08-21 — AI Space device pairing is fully localized
+
+- The bound-resource heading, pairing action, and complete pairing-code dialog
+  now have reviewed English, Traditional Chinese, and Simplified Chinese copy.
+- Removed stale empty duplicates that overrode the reviewed operations-room
+  translations during bundle generation.
+
 ## 2026-08-22 — Operations Room control copy is source-owned
 
 - Added reviewed English, Traditional Chinese, and Simplified Chinese copy for
