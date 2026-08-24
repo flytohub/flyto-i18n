@@ -117,6 +117,30 @@ def load_existing_translations(locale: str, category: str) -> Dict[str, str]:
         return {}
 
 
+def load_keys_owned_elsewhere(locale: str, target_path: Path) -> Set[str]:
+    """Return keys already owned by another source catalog for this locale."""
+    owned_keys = set()
+    resolved_target = target_path.resolve()
+
+    for file_path in LOCALES_DIR.rglob("*.json"):
+        if file_path.resolve() == resolved_target:
+            continue
+
+        try:
+            data = json.loads(file_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        if data.get("locale") != locale:
+            continue
+
+        translations = data.get("translations")
+        if isinstance(translations, dict):
+            owned_keys.update(translations)
+
+    return owned_keys
+
+
 def generate_locale_file(
     category: str,
     keys: Set[str],
@@ -126,17 +150,22 @@ def generate_locale_file(
 ) -> Tuple[int, int, int]:
     """Generate one category while preserving unscanned keys by default."""
     locale_dir = CLOUD_DIR / locale
+    file_path = locale_dir / f"{category}.json"
 
     existing = load_existing_translations(locale, category)
+    owned_elsewhere = load_keys_owned_elsewhere(locale, file_path)
 
     translations = {} if delete_stale else dict(existing)
     new_count = 0
     preserved_count = 0
+    owned_count = 0
 
     for key in sorted(keys):
         if key in existing:
             translations[key] = existing[key]
             preserved_count += 1
+        elif key in owned_elsewhere:
+            owned_count += 1
         else:
             translations[key] = ""
             new_count += 1
@@ -152,13 +181,13 @@ def generate_locale_file(
         "translations": translations
     }
 
-    file_path = locale_dir / f"{category}.json"
-
     change_info = []
     if new_count:
         change_info.append(f"+{new_count} new")
     if removed_count:
         change_info.append(f"-{removed_count} removed")
+    if owned_count:
+        change_info.append(f"{owned_count} owned elsewhere")
     change_str = f" ({', '.join(change_info)})" if change_info else ""
 
     if dry_run:

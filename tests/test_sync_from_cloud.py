@@ -26,7 +26,8 @@ class CloudSyncDeletionTests(unittest.TestCase):
         """Redirect Cloud locale output to a temporary catalog tree."""
         self.module = load_cloud_sync_module()
         self.tmpdir = tempfile.TemporaryDirectory()
-        self.module.CLOUD_DIR = Path(self.tmpdir.name)
+        self.module.LOCALES_DIR = Path(self.tmpdir.name)
+        self.module.CLOUD_DIR = self.module.LOCALES_DIR / "cloud"
         self.path = self.module.CLOUD_DIR / "en" / "common.json"
         self.path.parent.mkdir(parents=True)
         self.path.write_text(
@@ -58,6 +59,33 @@ class CloudSyncDeletionTests(unittest.TestCase):
         translations = json.loads(self.path.read_text(encoding="utf-8"))["translations"]
 
         self.assertEqual(translations, {"common.keep": "Keep"})
+
+    def test_skips_keys_owned_by_another_catalog(self):
+        """Keep reviewed keys in their existing catalog instead of duplicating them."""
+        owner_path = self.module.LOCALES_DIR / "modules" / "en" / "crypto.json"
+        owner_path.parent.mkdir(parents=True)
+        owner_path.write_text(
+            json.dumps(
+                {
+                    "locale": "en",
+                    "translations": {"modules.crypto.totp.label": "TOTP Code"},
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        self.module.generate_locale_file(
+            "modules",
+            {"modules.crypto.totp.label", "modules.crypto.new.label"},
+            "en",
+        )
+
+        generated_path = self.module.CLOUD_DIR / "en" / "modules.json"
+        translations = json.loads(generated_path.read_text(encoding="utf-8"))[
+            "translations"
+        ]
+        self.assertNotIn("modules.crypto.totp.label", translations)
+        self.assertEqual(translations["modules.crypto.new.label"], "")
 
 
 if __name__ == "__main__":
