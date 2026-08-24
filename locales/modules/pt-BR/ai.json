@@ -129,6 +129,7 @@
     "modules.ai.model.params.max_tokens": "Max Tokens",
     "modules.ai.model.params.max_tokens.description": "Maximo de tokens na resposta",
     "modules.ai.model.ports.model": "Modelo",
+    "modules.ai.tool.label": "",
     "modules.ai.vision.analyze.description": "Analise imagens usando modelos de visão de IA",
     "modules.ai.vision.analyze.label": "Análise de Visão",
     "modules.ai.vision.analyze.output.analysis.description": "Análise de IA da imagem",

@@ -27,6 +27,7 @@
     "modules.api.anthropic.chat.params.temperature.label": "Token tối đa",
     "modules.api.github.create_issue.description": "Tạo issue mới trong repository GitHub",
     "modules.api.github.create_issue.label": "Tạo GitHub Issue",
+    "modules.api.github.create_pr.label": "",
     "modules.api.github.get_repo.description": "Lấy thông tin về repository GitHub",
     "modules.api.github.get_repo.label": "Lấy Repository GitHub",
     "modules.api.github.get_repo.output.description.description": "Tên của mục",
@@ -48,6 +49,7 @@
     "modules.api.github.get_repo.params.token.description": "Tên repository",
     "modules.api.github.list_issues.description": "Liệt kê issues từ repository GitHub",
     "modules.api.github.list_issues.label": "Liệt kê GitHub Issues",
+    "modules.api.github.list_repos.label": "",
     "modules.api.google_gemini.chat.description": "Gửi tin nhắn chat đến Google Gemini AI và nhận phản hồi",
     "modules.api.google_gemini.chat.label": "Trò chuyện Google Gemini",
     "modules.api.google_gemini.chat.params.api_key.description": "Khóa API Google AI (mặc định là env.GOOGLE_AI_API_KEY)",
@@ -167,6 +169,7 @@
     "modules.api.openai.image.params.size.description": "Mô tả hình ảnh cần tạo",
     "modules.api.openai.image.params.size.label": "Prompt",
     "modules.api.serpapi_search.description": "Sử dụng SerpAPI để tìm kiếm từ khóa (100 tìm kiếm miễn phí/tháng)",
-    "modules.api.serpapi_search.label": "Tìm kiếm Google (SerpAPI)"
+    "modules.api.serpapi_search.label": "Tìm kiếm Google (SerpAPI)",
+    "modules.api.tavily_search.label": ""
   }
 }

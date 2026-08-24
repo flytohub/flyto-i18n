@@ -129,6 +129,7 @@
     "modules.ai.model.params.max_tokens": "Token tối đa",
     "modules.ai.model.params.max_tokens.description": "Số token tối đa trong phản hồi",
     "modules.ai.model.ports.model": "Model",
+    "modules.ai.tool.label": "",
     "modules.ai.vision.analyze.description": "Phân tích hình ảnh bằng mô hình AI thị giác",
     "modules.ai.vision.analyze.label": "Phân Tích Thị Giác",
     "modules.ai.vision.analyze.output.analysis.description": "Phân tích AI của hình ảnh",

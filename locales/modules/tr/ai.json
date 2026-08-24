@@ -129,6 +129,7 @@
     "modules.ai.model.params.max_tokens": "Maksimum Token",
     "modules.ai.model.params.max_tokens.description": "Yanıtta maksimum token",
     "modules.ai.model.ports.model": "Model",
+    "modules.ai.tool.label": "",
     "modules.ai.vision.analyze.description": "AI görsel modelleri kullanarak görüntüleri analiz et",
     "modules.ai.vision.analyze.label": "Görsel Analiz",
     "modules.ai.vision.analyze.output.analysis.description": "Görüntünün AI analizi",

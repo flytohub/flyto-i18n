@@ -66,6 +66,8 @@
     "modules.test.assert_not_null.params.type.options.object": "Object",
     "modules.test.assert_not_null.params.type.options.string": "String",
     "modules.test.assert_not_null.params.value.description": "Giá trị cần kiểm tra",
+    "modules.test.assert_status.label": "",
+    "modules.test.assert_timing.label": "",
     "modules.test.assert_true.description": "Khẳng định rằng điều kiện là đúng",
     "modules.test.assert_true.label": "Khẳng định đúng",
     "modules.test.assert_true.output.message.description": "Khẳng định rằng điều kiện là đúng",

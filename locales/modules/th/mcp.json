@@ -1,0 +1,9 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "mcp",
+  "version": "1.0.0",
+  "translations": {
+    "modules.mcp.recipe.label": ""
+  }
+}

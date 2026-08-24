@@ -4,6 +4,7 @@
   "category": "http",
   "version": "1.0.0",
   "translations": {
+    "modules.http.batch.label": "",
     "modules.http.get.description": "ส่งคำขอ HTTP GET และรับการตอบกลับ",
     "modules.http.get.label": "HTTP GET",
     "modules.http.get.output.body.description": "เนื้อหาการตอบกลับ (JSON ที่แปลงแล้วหรือข้อความ)",
@@ -18,6 +19,7 @@
     "modules.http.get.params.timeout.label": "หมดเวลา (ms)",
     "modules.http.get.params.url.description": "URL ที่จะส่งคำขอ GET ไปยัง",
     "modules.http.get.params.url.label": "URL",
+    "modules.http.paginate.label": "",
     "modules.http.request.description": "ส่งคำขอ HTTP และรับการตอบกลับ",
     "modules.http.request.label": "คำขอ HTTP",
     "modules.http.request.output.body.description": "ข้อความสถานะ HTTP",
@@ -36,6 +38,8 @@
     "modules.http.response_assert.output.failed.description": "การยืนยันทั้งหมดผ่านหรือไม่",
     "modules.http.response_assert.output.ok.description": "การยืนยันทั้งหมดผ่านหรือไม่",
     "modules.http.response_assert.output.passed.description": "การยืนยันทั้งหมดผ่านหรือไม่",
-    "modules.http.response_assert.output.total.description": "จำนวนการยืนยันที่ผ่าน"
+    "modules.http.response_assert.output.total.description": "จำนวนการยืนยันที่ผ่าน",
+    "modules.http.session.label": "",
+    "modules.http.webhook_wait.label": ""
   }
 }

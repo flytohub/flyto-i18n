@@ -40,6 +40,7 @@
     "modules.browser.cookies.output.status.description": "Status da operacao (sucesso/erro)",
     "modules.browser.cookies_file.description": "Importar ou exportar cookies do navegador de/para um arquivo JSON.",
     "modules.browser.cookies_file.label": "Arquivo de Cookies",
+    "modules.browser.detect.label": "",
     "modules.browser.detect_list.description": "Detectar automaticamente itens repetidos em qualquer página (artigos, produtos, resultados de busca)",
     "modules.browser.detect_list.label": "Detectar Lista",
     "modules.browser.detect_list.params.include_text.label": "Incluir Trecho de Texto",

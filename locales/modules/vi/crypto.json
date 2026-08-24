@@ -92,6 +92,27 @@
     "modules.crypto.random_string.params.length.description": "String length",
     "modules.crypto.random_string.params.length.label": "Length",
     "modules.crypto.random_string.params.uppercase.description": "Convert to uppercase",
-    "modules.crypto.random_string.params.uppercase.label": "Uppercase Only"
+    "modules.crypto.random_string.params.uppercase.label": "Uppercase Only",
+    "modules.crypto.totp.description": "",
+    "modules.crypto.totp.label": "",
+    "modules.crypto.totp.output.account.description": "",
+    "modules.crypto.totp.output.algorithm.description": "",
+    "modules.crypto.totp.output.code.description": "",
+    "modules.crypto.totp.output.digits.description": "",
+    "modules.crypto.totp.output.expires_in.description": "",
+    "modules.crypto.totp.output.issuer.description": "",
+    "modules.crypto.totp.output.period.description": "",
+    "modules.crypto.totp.params.algorithm.description": "",
+    "modules.crypto.totp.params.algorithm.label": "",
+    "modules.crypto.totp.params.at.description": "",
+    "modules.crypto.totp.params.at.label": "",
+    "modules.crypto.totp.params.digits.description": "",
+    "modules.crypto.totp.params.digits.label": "",
+    "modules.crypto.totp.params.min_remaining.description": "",
+    "modules.crypto.totp.params.min_remaining.label": "",
+    "modules.crypto.totp.params.period.description": "",
+    "modules.crypto.totp.params.period.label": "",
+    "modules.crypto.totp.params.secret.description": "",
+    "modules.crypto.totp.params.secret.label": ""
   }
 }

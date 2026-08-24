@@ -1,0 +1,12 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "verification",
+  "version": "1.0.0",
+  "translations": {
+    "modules.verification.discover.label": "",
+    "modules.verification.generate_scenarios.label": "",
+    "modules.verification.report.label": "",
+    "modules.verification.run.label": ""
+  }
+}

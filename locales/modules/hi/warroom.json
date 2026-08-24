@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "warroom",
+  "version": "1.0.0",
+  "translations": {
+    "modules.warroom.discover.label": "",
+    "modules.warroom.generate_scenarios.label": "",
+    "modules.warroom.llm_review.label": "",
+    "modules.warroom.public_site_verify.label": "",
+    "modules.warroom.report.label": "",
+    "modules.warroom.run.label": ""
+  }
+}

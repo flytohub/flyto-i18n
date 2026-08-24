@@ -66,6 +66,8 @@
     "modules.test.assert_not_null.params.type.options.object": "Object",
     "modules.test.assert_not_null.params.type.options.string": "String",
     "modules.test.assert_not_null.params.value.description": "ค่าที่จะตรวจสอบ",
+    "modules.test.assert_status.label": "",
+    "modules.test.assert_timing.label": "",
     "modules.test.assert_true.description": "ยืนยันว่าเงื่อนไขเป็นจริง",
     "modules.test.assert_true.label": "ยืนยันจริง",
     "modules.test.assert_true.output.message.description": "ยืนยันว่าเงื่อนไขเป็นจริง",

@@ -27,6 +27,7 @@
     "modules.api.anthropic.chat.params.temperature.label": "Maksimum Token",
     "modules.api.github.create_issue.description": "GitHub deposunda yeni issue oluştur",
     "modules.api.github.create_issue.label": "GitHub Issue Oluştur",
+    "modules.api.github.create_pr.label": "",
     "modules.api.github.get_repo.description": "GitHub deposu hakkında bilgi al",
     "modules.api.github.get_repo.label": "GitHub Deposu Al",
     "modules.api.github.get_repo.output.description.description": "Öğe adı",
@@ -48,6 +49,7 @@
     "modules.api.github.get_repo.params.token.description": "Depo adı",
     "modules.api.github.list_issues.description": "GitHub deposundan issue'ları listele",
     "modules.api.github.list_issues.label": "GitHub Issue'larını Listele",
+    "modules.api.github.list_repos.label": "",
     "modules.api.google_gemini.chat.description": "Google Gemini AI'a sohbet mesajı gönder ve yanıt al",
     "modules.api.google_gemini.chat.label": "Google Gemini Sohbet",
     "modules.api.google_gemini.chat.params.api_key.description": "Google AI API anahtarı (varsayılan: env.GOOGLE_AI_API_KEY)",
@@ -167,6 +169,7 @@
     "modules.api.openai.image.params.size.description": "Oluşturulacak görüntünün açıklaması",
     "modules.api.openai.image.params.size.label": "İstem",
     "modules.api.serpapi_search.description": "SerpAPI kullanarak anahtar kelimeleri ara (ayda 100 ücretsiz arama)",
-    "modules.api.serpapi_search.label": "Google Arama (SerpAPI)"
+    "modules.api.serpapi_search.label": "Google Arama (SerpAPI)",
+    "modules.api.tavily_search.label": ""
   }
 }

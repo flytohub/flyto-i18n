@@ -27,6 +27,7 @@
     "modules.api.anthropic.chat.params.temperature.label": "โทเค็นสูงสุด",
     "modules.api.github.create_issue.description": "สร้าง issue ใหม่ใน repository GitHub",
     "modules.api.github.create_issue.label": "สร้าง GitHub Issue",
+    "modules.api.github.create_pr.label": "",
     "modules.api.github.get_repo.description": "รับข้อมูลเกี่ยวกับ repository GitHub",
     "modules.api.github.get_repo.label": "รับ GitHub Repository",
     "modules.api.github.get_repo.output.description.description": "ชื่อรายการ",
@@ -48,6 +49,7 @@
     "modules.api.github.get_repo.params.token.description": "ชื่อ repository",
     "modules.api.github.list_issues.description": "ดูรายการ issues จาก repository GitHub",
     "modules.api.github.list_issues.label": "ดูรายการ GitHub Issues",
+    "modules.api.github.list_repos.label": "",
     "modules.api.google_gemini.chat.description": "ส่งข้อความแชทไปยัง Google Gemini AI และรับการตอบกลับ",
     "modules.api.google_gemini.chat.label": "Google Gemini Chat",
     "modules.api.google_gemini.chat.params.api_key.description": "Google AI API key (ค่าเริ่มต้น env.GOOGLE_AI_API_KEY)",
@@ -167,6 +169,7 @@
     "modules.api.openai.image.params.size.description": "คำอธิบายรูปภาพที่จะสร้าง",
     "modules.api.openai.image.params.size.label": "Prompt",
     "modules.api.serpapi_search.description": "ใช้ SerpAPI เพื่อค้นหาคำสำคัญ (100 การค้นหาฟรี/เดือน)",
-    "modules.api.serpapi_search.label": "Googleค้นหา(SerpAPI)"
+    "modules.api.serpapi_search.label": "Googleค้นหา(SerpAPI)",
+    "modules.api.tavily_search.label": ""
   }
 }

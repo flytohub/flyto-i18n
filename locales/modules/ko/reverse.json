@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "reverse",
+  "version": "1.0.0",
+  "translations": {
+    "modules.reverse.attach.label": "",
+    "modules.reverse.breakpoint.label": "",
+    "modules.reverse.code.label": "",
+    "modules.reverse.deobfuscate.label": "",
+    "modules.reverse.detach.label": "",
+    "modules.reverse.evaluate_on_call_frame.label": "",
+    "modules.reverse.get_call_frames.label": "",
+    "modules.reverse.hook.label": "",
+    "modules.reverse.network.label": "",
+    "modules.reverse.request_breakpoint.label": "",
+    "modules.reverse.resume.label": "",
+    "modules.reverse.scripts.label": "",
+    "modules.reverse.sourcemap.label": "",
+    "modules.reverse.step.label": "",
+    "modules.reverse.wait_paused.label": "",
+    "modules.reverse.websocket.label": ""
+  }
+}

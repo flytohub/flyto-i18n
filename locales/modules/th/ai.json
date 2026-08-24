@@ -129,6 +129,7 @@
     "modules.ai.model.params.max_tokens": "โทเค็นสูงสุด",
     "modules.ai.model.params.max_tokens.description": "โทเค็นสูงสุดในการตอบกลับ",
     "modules.ai.model.ports.model": "โมเดล",
+    "modules.ai.tool.label": "",
     "modules.ai.vision.analyze.description": "วิเคราะห์ภาพโดยใช้โมเดล AI วิชั่น",
     "modules.ai.vision.analyze.label": "การวิเคราะห์วิชั่น",
     "modules.ai.vision.analyze.output.analysis.description": "การวิเคราะห์ภาพโดย AI",

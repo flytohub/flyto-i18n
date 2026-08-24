@@ -40,6 +40,7 @@
     "modules.browser.cookies.output.status.description": "Trạng thái thao tác (success/error)",
     "modules.browser.cookies_file.description": "Nhập hoặc xuất cookie trình duyệt từ/đến tệp JSON.",
     "modules.browser.cookies_file.label": "Tệp Cookie",
+    "modules.browser.detect.label": "",
     "modules.browser.detect_list.description": "Tự động phát hiện mục lặp lại trên trang (bài viết, sản phẩm, kết quả tìm kiếm)",
     "modules.browser.detect_list.label": "Phát Hiện Danh Sách",
     "modules.browser.detect_list.params.include_text.label": "Bao Gồm Đoạn Văn Bản",
