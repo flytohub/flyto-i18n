@@ -117,10 +117,11 @@ def load_existing_translations(locale: str, category: str) -> Dict[str, str]:
         return {}
 
 
-def load_keys_owned_elsewhere(locale: str, target_path: Path) -> Set[str]:
-    """Return keys already owned by another source catalog for this locale."""
+def load_keys_owned_elsewhere(target_path: Path) -> Set[str]:
+    """Return keys owned by another catalog in the English source layout."""
     owned_keys = set()
-    resolved_target = target_path.resolve()
+    english_target = target_path.parent.parent / "en" / target_path.name
+    resolved_target = english_target.resolve()
 
     for file_path in LOCALES_DIR.rglob("*.json"):
         if file_path.resolve() == resolved_target:
@@ -131,7 +132,7 @@ def load_keys_owned_elsewhere(locale: str, target_path: Path) -> Set[str]:
         except (OSError, json.JSONDecodeError):
             continue
 
-        if data.get("locale") != locale:
+        if data.get("locale") != "en":
             continue
 
         translations = data.get("translations")
@@ -153,7 +154,7 @@ def generate_locale_file(
     file_path = locale_dir / f"{category}.json"
 
     existing = load_existing_translations(locale, category)
-    owned_elsewhere = load_keys_owned_elsewhere(locale, file_path)
+    owned_elsewhere = load_keys_owned_elsewhere(file_path)
 
     translations = {} if delete_stale else dict(existing)
     new_count = 0

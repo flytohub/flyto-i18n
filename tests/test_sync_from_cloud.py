@@ -60,8 +60,8 @@ class CloudSyncDeletionTests(unittest.TestCase):
 
         self.assertEqual(translations, {"common.keep": "Keep"})
 
-    def test_skips_keys_owned_by_another_catalog(self):
-        """Keep reviewed keys in their existing catalog instead of duplicating them."""
+    def test_skips_keys_owned_by_another_catalog_across_locales(self):
+        """Use English catalog ownership even before another locale is translated."""
         owner_path = self.module.LOCALES_DIR / "modules" / "en" / "crypto.json"
         owner_path.parent.mkdir(parents=True)
         owner_path.write_text(
@@ -77,10 +77,10 @@ class CloudSyncDeletionTests(unittest.TestCase):
         self.module.generate_locale_file(
             "modules",
             {"modules.crypto.totp.label", "modules.crypto.new.label"},
-            "en",
+            "de",
         )
 
-        generated_path = self.module.CLOUD_DIR / "en" / "modules.json"
+        generated_path = self.module.CLOUD_DIR / "de" / "modules.json"
         translations = json.loads(generated_path.read_text(encoding="utf-8"))[
             "translations"
         ]

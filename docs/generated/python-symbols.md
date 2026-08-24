@@ -105,10 +105,10 @@ Declarations: **340**
 | function | `extract_keys_from_file` | [`scripts/sync-from-cloud.py:55`](../../scripts/sync-from-cloud.py#L55) | Extract all translation keys from a single file. |
 | function | `extract_all_keys` | [`scripts/sync-from-cloud.py:77`](../../scripts/sync-from-cloud.py#L77) | Extract all translation keys grouped by category. |
 | function | `load_existing_translations` | [`scripts/sync-from-cloud.py:104`](../../scripts/sync-from-cloud.py#L104) | Load existing translations for a category. |
-| function | `load_keys_owned_elsewhere` | [`scripts/sync-from-cloud.py:120`](../../scripts/sync-from-cloud.py#L120) | Return keys already owned by another source catalog for this locale. |
-| function | `generate_locale_file` | [`scripts/sync-from-cloud.py:144`](../../scripts/sync-from-cloud.py#L144) | Generate one category while preserving unscanned keys by default. |
-| function | `sync_from_cloud` | [`scripts/sync-from-cloud.py:205`](../../scripts/sync-from-cloud.py#L205) | Synchronize scanned Cloud keys with explicit opt-in deletion. |
-| function | `main` | [`scripts/sync-from-cloud.py:269`](../../scripts/sync-from-cloud.py#L269) | Parse CLI options and synchronize keys from a Cloud checkout. |
+| function | `load_keys_owned_elsewhere` | [`scripts/sync-from-cloud.py:120`](../../scripts/sync-from-cloud.py#L120) | Return keys owned by another catalog in the English source layout. |
+| function | `generate_locale_file` | [`scripts/sync-from-cloud.py:145`](../../scripts/sync-from-cloud.py#L145) | Generate one category while preserving unscanned keys by default. |
+| function | `sync_from_cloud` | [`scripts/sync-from-cloud.py:206`](../../scripts/sync-from-cloud.py#L206) | Synchronize scanned Cloud keys with explicit opt-in deletion. |
+| function | `main` | [`scripts/sync-from-cloud.py:270`](../../scripts/sync-from-cloud.py#L270) | Parse CLI options and synchronize keys from a Cloud checkout. |
 | function | `extract_keys_from_file` | [`scripts/sync-from-core.py:41`](../../scripts/sync-from-core.py#L41) | Extract i18n keys from a Python file. |
 | function | `extract_params_schema_keys` | [`scripts/sync-from-core.py:108`](../../scripts/sync-from-core.py#L108) | Extract i18n keys from params_schema definitions. |
 | function | `is_enum_like_array` | [`scripts/sync-from-core.py:171`](../../scripts/sync-from-core.py#L171) | Check if array values look like enum options vs example data. |
@@ -321,7 +321,7 @@ Declarations: **340**
 | method | `CloudSyncDeletionTests.tearDown` | [`tests/test_sync_from_cloud.py:38`](../../tests/test_sync_from_cloud.py#L38) | Remove the temporary Cloud catalog tree. |
 | method | `CloudSyncDeletionTests.test_preserves_unscanned_keys_by_default` | [`tests/test_sync_from_cloud.py:42`](../../tests/test_sync_from_cloud.py#L42) | Merge scanned keys without deleting an existing scanner omission. |
 | method | `CloudSyncDeletionTests.test_deletes_only_with_explicit_flag` | [`tests/test_sync_from_cloud.py:51`](../../tests/test_sync_from_cloud.py#L51) | Remove an unscanned key only when destructive mode is explicit. |
-| method | `CloudSyncDeletionTests.test_skips_keys_owned_by_another_catalog` | [`tests/test_sync_from_cloud.py:63`](../../tests/test_sync_from_cloud.py#L63) | Keep reviewed keys in their existing catalog instead of duplicating them. |
+| method | `CloudSyncDeletionTests.test_skips_keys_owned_by_another_catalog_across_locales` | [`tests/test_sync_from_cloud.py:63`](../../tests/test_sync_from_cloud.py#L63) | Use English catalog ownership even before another locale is translated. |
 | function | `load_core_sync_module` | [`tests/test_sync_from_core.py:13`](../../tests/test_sync_from_core.py#L13) | Load the hyphenated Core sync script as an isolated module. |
 | class | `CoreSyncDeletionTests` | [`tests/test_sync_from_core.py:22`](../../tests/test_sync_from_core.py#L22) | Verify Core synchronization preserves values unless deletion is explicit. |
 | method | `CoreSyncDeletionTests.setUp` | [`tests/test_sync_from_core.py:25`](../../tests/test_sync_from_core.py#L25) | Redirect Core synchronization output to temporary directories. |
