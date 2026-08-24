@@ -92,6 +92,27 @@
         "modules.crypto.jwt_verify.params.token.description": "JWT token to verify",
         "modules.crypto.jwt_verify.params.token.label": "Token",
         "modules.crypto.jwt_verify.params.verify_exp.description": "Whether to verify the expiration claim",
-        "modules.crypto.jwt_verify.params.verify_exp.label": "Verify Expiration"
+        "modules.crypto.jwt_verify.params.verify_exp.label": "Verify Expiration",
+        "modules.crypto.totp.label": "TOTP Code",
+        "modules.crypto.totp.description": "Generate a time-based one-time password (RFC 6238)",
+        "modules.crypto.totp.params.secret.label": "Authenticator Secret",
+        "modules.crypto.totp.params.secret.description": "Base32 setup key from your authenticator, or the full otpauth:// URI encoded in its enrolment QR code",
+        "modules.crypto.totp.params.digits.label": "Digits",
+        "modules.crypto.totp.params.digits.description": "Code length. Taken from the otpauth URI when omitted, otherwise 6",
+        "modules.crypto.totp.params.period.label": "Period (seconds)",
+        "modules.crypto.totp.params.period.description": "Rotation interval. Taken from the otpauth URI when omitted, otherwise 30",
+        "modules.crypto.totp.params.algorithm.label": "Algorithm",
+        "modules.crypto.totp.params.algorithm.description": "HMAC hash. \"auto\" uses the otpauth URI value, otherwise SHA1",
+        "modules.crypto.totp.params.min_remaining.label": "Minimum Remaining Validity (seconds)",
+        "modules.crypto.totp.params.min_remaining.description": "Wait for the next code when the current one expires sooner than this. Prevents submitting a code that rotates in transit",
+        "modules.crypto.totp.params.at.label": "Unix Timestamp",
+        "modules.crypto.totp.params.at.description": "Generate the code for this instant instead of now. For testing",
+        "modules.crypto.totp.output.code.description": "The one-time password, zero-padded to the requested length",
+        "modules.crypto.totp.output.expires_in.description": "Seconds this code remains valid",
+        "modules.crypto.totp.output.period.description": "Rotation interval used",
+        "modules.crypto.totp.output.digits.description": "Code length used",
+        "modules.crypto.totp.output.algorithm.description": "HMAC hash used",
+        "modules.crypto.totp.output.issuer.description": "Issuer from the otpauth URI, or null",
+        "modules.crypto.totp.output.account.description": "Account label from the otpauth URI, or null"
     }
 }
