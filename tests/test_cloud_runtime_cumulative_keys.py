@@ -419,7 +419,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
             "completion",
             "files_merged",
         }
-        assert record["total_keys"] == 12_046
+        expected_total_keys = 12_067 if locale == "en" else 12_046
+        assert record["total_keys"] == expected_total_keys
         assert record["files_merged"] == 262
 
     with tempfile.TemporaryDirectory() as temp_dir:
