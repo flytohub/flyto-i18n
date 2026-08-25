@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-08-26 — Pytest tmpdir security update
+
+- Upgraded pytest to 9.0.3 and aligned CI with the patched pytest 9 release
+  line, closing GHSA-6w46-j5rx-g56g.
+
 ## 2026-08-26 — Code manager catalog keys restored
 
 - Added the complete 131-key Code catalog delta from the intended manager-

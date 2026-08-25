@@ -2,6 +2,8 @@
 
 Current state on 2026-08-26:
 
+- The repository and CI use pytest 9.0.3, the first patched release for
+  GHSA-6w46-j5rx-g56g; CI rejects pytest versions outside the 9.x line.
 - All 16 Code locale catalogs include the additive 131-key manager-surface
   contract. It includes the Agent Firewall telemetry, policy posture, AI
   registry, audit report, discovery, blocking, prompt/paste, file-upload, and
