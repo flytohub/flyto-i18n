@@ -1,5 +1,17 @@
 # State
 
+Current state on 2026-08-26:
+
+- All 16 Code locale catalogs include the additive 131-key manager-surface
+  contract. It includes the Agent Firewall telemetry, policy posture, AI
+  registry, audit report, discovery, blocking, prompt/paste, file-upload, and
+  code-to-AI labels, plus the CTEM sampled-priority notice and the rest of the
+  intended Code catalog delta.
+- Existing catalog keys and values from `origin/main` remain authoritative;
+  the restored keys retain the locale-specific values from the intended
+  source commit. Tracked Code and aggregate bundles and manifests are generated
+  only from the merged source catalogs by `scripts/build-dist.py`.
+
 Current state on 2026-08-24:
 
 - Every `ui_label_key` exposed by the current 475-module Core registry resolves

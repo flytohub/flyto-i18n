@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-08-26 — Code manager catalog keys restored
+
+- Added the complete 131-key Code catalog delta from the intended manager-
+  surface change to all 16 supported Code locales without replacing any
+  existing catalog key or value.
+- Restored Agent Firewall manager rails and inputs, CTEM sample disclosure,
+  domain-manager labels, repository connection errors, and the remaining Code
+  surface copy carried by that additive delta.
+- Regenerated the tracked Code and aggregate distribution bundles and
+  manifests from the source catalogs.
+
 ## 2026-08-24 — Every current Core module has an official label
 
 - Added the 42 missing Core registry label keys to the category-owned English,
