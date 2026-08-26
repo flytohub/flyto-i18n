@@ -409,7 +409,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     assert complete_manifest == tracked_manifest
 
     english_total = locale_data["en"]["total_keys"]
-    assert english_total == 12_067
+    # +5: the operations room was rendering five sentences from code
+    # fallbacks with no key behind them — `spaces.hud.capabilitiesPending`,
+    # `spaces.hud.gatesUnenforceable`, `spaces.hud.evidencePending`,
+    # `spaces.voice.micSendsAudio` and `spaces.ops.goalWaitingOnRegistry`.
+    assert english_total == 12_072
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
