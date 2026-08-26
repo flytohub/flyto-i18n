@@ -83,9 +83,11 @@
     "spaces.inspector.hybrid": "混合",
     "spaces.inspector.loading": "加载中",
     "spaces.inspector.loadingResources": "正在加载资源",
-    "spaces.inspector.noManifests": "没有可用的清单",
+    "spaces.inspector.noManifests": "还没有已安装的适配器发布信息清单。",
+    "spaces.inspector.noManifestsNext": "资源已绑定且识别完成；有任何一个描述自己时，这里就会填上。",
     "spaces.inspector.noSamples": "暂无遥测样本",
-    "spaces.inspector.noneBound": "尚未选择资源",
+    "spaces.inspector.noneBound": "这个 Space 还没有绑定任何资源。",
+    "spaces.inspector.noneBoundNext": "在 Space 设置里绑定一个，它的适配器就会在这里描述自己。",
     "spaces.inspector.notConfigured": "尚未设置",
     "spaces.inspector.offline": "离线",
     "spaces.inspector.online": "在线",
@@ -220,5 +222,5 @@
     "spaces.voice.startListening": "开始语音输入",
     "spaces.voice.stopListening": "停止语音输入"
   },
-  "total_keys": 215
+  "total_keys": 217
 }

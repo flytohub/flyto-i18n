@@ -83,9 +83,11 @@
     "spaces.inspector.hybrid": "",
     "spaces.inspector.loading": "",
     "spaces.inspector.loadingResources": "",
-    "spaces.inspector.noManifests": "",
+    "spaces.inspector.noManifests": "No installed adapter has published a manifest yet.",
+    "spaces.inspector.noManifestsNext": "The resources are bound and known; this panel fills in when one describes itself.",
     "spaces.inspector.noSamples": "",
-    "spaces.inspector.noneBound": "",
+    "spaces.inspector.noneBound": "No resource is bound to this Space yet.",
+    "spaces.inspector.noneBoundNext": "Bind one in Space settings and its adapter will describe itself here.",
     "spaces.inspector.notConfigured": "",
     "spaces.inspector.offline": "",
     "spaces.inspector.online": "",
@@ -220,5 +222,5 @@
     "spaces.voice.startListening": "",
     "spaces.voice.stopListening": ""
   },
-  "total_keys": 215
+  "total_keys": 217
 }
