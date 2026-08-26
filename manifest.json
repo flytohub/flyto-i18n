@@ -17,7 +17,7 @@
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
-      "coverage": 98.4,
+      "coverage": 97.5,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -26,7 +26,7 @@
     "zh-CN": {
       "name": "Simplified Chinese",
       "native_name": "简体中文",
-      "coverage": 97.9,
+      "coverage": 97.0,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -35,7 +35,7 @@
     "ja": {
       "name": "Japanese",
       "native_name": "日本語",
-      "coverage": 87.0,
+      "coverage": 86.2,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -44,7 +44,11 @@
     "ko": {
       "name": "Korean",
       "native_name": "한국어",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -53,7 +57,11 @@
     "fr": {
       "name": "French",
       "native_name": "Français",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -62,7 +70,11 @@
     "es": {
       "name": "Spanish",
       "native_name": "Español",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -71,7 +83,11 @@
     "hi": {
       "name": "Hindi",
       "native_name": "हिन्दी",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -80,7 +96,11 @@
     "de": {
       "name": "German",
       "native_name": "Deutsch",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -89,7 +109,11 @@
     "pt-BR": {
       "name": "Portuguese (Brazil)",
       "native_name": "Português (Brasil)",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -98,7 +122,11 @@
     "vi": {
       "name": "Vietnamese",
       "native_name": "Tiếng Việt",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -107,7 +135,7 @@
     "id": {
       "name": "Indonesian",
       "native_name": "Bahasa Indonesia",
-      "coverage": 77.3,
+      "coverage": 76.6,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -116,7 +144,11 @@
     "th": {
       "name": "Thai",
       "native_name": "ภาษาไทย",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -125,7 +157,11 @@
     "tr": {
       "name": "Turkish",
       "native_name": "Türkçe",
+<<<<<<< HEAD
       "coverage": 76.9,
+=======
+      "coverage": 76.1,
+>>>>>>> a2fe8ab08 (feat(code): add campaign disruption catalog)
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -134,7 +170,7 @@
     "pl": {
       "name": "Polish",
       "native_name": "Polski",
-      "coverage": 77.3,
+      "coverage": 76.6,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -143,7 +179,7 @@
     "it": {
       "name": "Italian",
       "native_name": "Italiano",
-      "coverage": 77.3,
+      "coverage": 76.6,
       "status": "community",
       "maintainers": [
         "@flytohub"
