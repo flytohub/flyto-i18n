@@ -5,10 +5,14 @@ Current state on 2026-08-26:
 - The repository and CI use pytest 9.0.3, the first patched release for
   GHSA-6w46-j5rx-g56g; CI rejects pytest versions outside the 9.x line.
 - All 16 Code locale catalogs include the additive 131-key manager-surface
-  contract. It includes the Agent Firewall telemetry, policy posture, AI
-  registry, audit report, discovery, blocking, prompt/paste, file-upload, and
-  code-to-AI labels, plus the CTEM sampled-priority notice and the rest of the
-  intended Code catalog delta.
+  contract without the erroneous source-level `code.` prefix previously
+  introduced by `7df5f69f0`. `scripts/build-dist.py` adds the Code scope once,
+  so runtime keys resolve as `code.*` instead of `code.code.*`.
+- The 32 non-allowlisted SPM, CM, and TPRM Vendor Posture UI keys reported by
+  flyto-code's i18n checker are source-owned as unprefixed `vendorRisk.*` and
+  `vendors.*` keys. English follows the live `t`/`tOr` call-site copy;
+  Traditional and Simplified Chinese are reviewed, and the other 13 locales
+  use the deterministic English fallback convention.
 - Existing catalog keys and values from `origin/main` remain authoritative;
   the restored keys retain the locale-specific values from the intended
   source commit. Tracked Code and aggregate bundles and manifests are generated

@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-08-26 — Code manager key prefix and Vendor Posture repair
+
+- Removed the erroneous leading `code.` from exactly the 131 Code manager
+  source keys introduced by `7df5f69f0` in all 16 locales, preserving every
+  locale-specific value and leaving unrelated historical keys unchanged.
+- Added the 32 current SPM, CM, and TPRM Vendor Posture UI keys with reviewed
+  English, Traditional Chinese, and Simplified Chinese copy; other locales use
+  the established deterministic English fallback.
+- Rebuilt the tracked Code and aggregate bundles and catalog manifests without
+  changing the orphan allowlist.
+
 ## 2026-08-26 — Pytest tmpdir security update
 
 - Upgraded pytest to 9.0.3 and aligned CI with the patched pytest 9 release
@@ -8,8 +19,9 @@
 ## 2026-08-26 — Code manager catalog keys restored
 
 - Added the complete 131-key Code catalog delta from the intended manager-
-  surface change to all 16 supported Code locales without replacing any
-  existing catalog key or value.
+  surface change to all 16 supported Code locales. A later repair recorded
+  above removed the accidental extra source-level `code.` prefix while
+  preserving these values.
 - Restored Agent Firewall manager rails and inputs, CTEM sample disclosure,
   domain-manager labels, repository connection errors, and the remaining Code
   surface copy carried by that additive delta.
