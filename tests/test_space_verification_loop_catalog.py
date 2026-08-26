@@ -12,7 +12,7 @@ VERIFICATION_KEYS = frozenset(
     | {
         f"spaces.ops.verification{suffix}"
         for suffix in """
-ActionContinue ActionDefine ActionNone ActionOpen ActionRepeat ActionResolve
+ActionAwaitPerson ActionContinue ActionDefine ActionNone ActionOpen ActionRepeat ActionResolve
 ActionReview ActionShortfall ActionStart ActionWait Contract Empty Evidence
 Execution Loop StateActive StateBlocked StateCancelled StateComplete
 StateExecutionFailed StateFailed StateInsufficient StateMissing
@@ -94,7 +94,10 @@ def _dist(locale: str, scope: str = "cloud") -> dict[str, str]:
 
 def test_verification_loop_contract_has_exact_additive_key_set() -> None:
     """Pin all states, statuses, actions, stages, and the next-action label."""
-    assert len(VERIFICATION_KEYS) == 40
+    # +1: ActionAwaitPerson. `human.approval` is unschedulable, so a mission
+    # waiting on one had no next action a person could take — the loop said
+    # "resolve the blocked step" and the step was not the problem.
+    assert len(VERIFICATION_KEYS) == 41
     for locale in LOCALES:
         actual = {
             key

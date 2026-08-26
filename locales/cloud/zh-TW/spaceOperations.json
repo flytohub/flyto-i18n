@@ -121,6 +121,13 @@
     "spaces.ops.disconnected": "已中斷連線",
     "spaces.ops.drawn": "已抽出",
     "spaces.ops.goalWaitingOnRegistry": "正在讀取這個 Space 能做什麼",
+    "spaces.ops.humanDecision": "等待人工決定",
+    "spaces.ops.humanDecisionGrant": "核可",
+    "spaces.ops.humanDecisionHint": "每個步驟都完成了。這一項沒有機器產得出來。",
+    "spaces.ops.humanDecisionNeedsReason": "拒絕必須說明理由",
+    "spaces.ops.humanDecisionReason": "理由",
+    "spaces.ops.humanDecisionReasonHint": "拒絕時必填；無論如何都會留在紀錄上",
+    "spaces.ops.humanDecisionRefuse": "拒絕",
     "spaces.ops.lastFrameAgo": "上一張本機攝影機影像於 {seconds} 秒前取得",
     "spaces.ops.live": "房間已連線",
     "spaces.ops.localNearRealtime": "本機攝影機 · 近即時 · {fps} FPS",
@@ -158,6 +165,7 @@
     "spaces.ops.surfaceLog": "日誌",
     "spaces.ops.surfaceRanges": "距離",
     "spaces.ops.surfaceTelemetry": "遙測",
+    "spaces.ops.verificationActionAwaitPerson": "這一項要由人回答，控制項在下方。",
     "spaces.ops.verificationActionContinue": "繼續已核准的執行。",
     "spaces.ops.verificationActionDefine": "請先說明任務必須證明什麼。",
     "spaces.ops.verificationActionNone": "無需進一步操作。",
@@ -222,5 +230,5 @@
     "spaces.voice.startListening": "開始語音輸入",
     "spaces.voice.stopListening": "停止語音輸入"
   },
-  "total_keys": 217
+  "total_keys": 225
 }

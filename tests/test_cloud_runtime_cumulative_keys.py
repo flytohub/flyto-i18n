@@ -413,12 +413,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # fallbacks with no key behind them — `spaces.hud.capabilitiesPending`,
     # `spaces.hud.gatesUnenforceable`, `spaces.hud.evidencePending`,
     # `spaces.voice.micSendsAudio` and `spaces.ops.goalWaitingOnRegistry`.
-    # +2: `spaces.inspector.noneBoundNext` and `.noManifestsNext`. The
-    # resource inspector's two empty states each said what was absent in one
-    # long sentence; they now say the state and the next action separately,
-    # because "nothing is here" without "and here is how something gets here"
-    # is a dead end in a panel whose whole job is to be acted on.
-    assert english_total == 12_074
+    # +8: the war room could not answer `human.approval`. It is unschedulable
+    # — no step is ever created to produce it — so it never arrived through a
+    # step reporting an outcome, and a mission that required a supervisor's
+    # approval was one nobody could complete. These are that panel's words.
+    assert english_total == 12_082
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -121,6 +121,13 @@
     "spaces.ops.disconnected": "",
     "spaces.ops.drawn": "",
     "spaces.ops.goalWaitingOnRegistry": "Still reading what this Space can do",
+    "spaces.ops.humanDecision": "Waiting on a person",
+    "spaces.ops.humanDecisionGrant": "Approve",
+    "spaces.ops.humanDecisionHint": "Every step finished. This is the part no machine can produce.",
+    "spaces.ops.humanDecisionNeedsReason": "A refusal has to say why",
+    "spaces.ops.humanDecisionReason": "Reason",
+    "spaces.ops.humanDecisionReasonHint": "Required to refuse; kept on the record either way",
+    "spaces.ops.humanDecisionRefuse": "Refuse",
     "spaces.ops.lastFrameAgo": "",
     "spaces.ops.live": "",
     "spaces.ops.localNearRealtime": "",
@@ -158,6 +165,7 @@
     "spaces.ops.surfaceLog": "",
     "spaces.ops.surfaceRanges": "",
     "spaces.ops.surfaceTelemetry": "",
+    "spaces.ops.verificationActionAwaitPerson": "A person has to answer this. The controls are below.",
     "spaces.ops.verificationActionContinue": "",
     "spaces.ops.verificationActionDefine": "",
     "spaces.ops.verificationActionNone": "",
@@ -222,5 +230,5 @@
     "spaces.voice.startListening": "",
     "spaces.voice.stopListening": ""
   },
-  "total_keys": 217
+  "total_keys": 225
 }
