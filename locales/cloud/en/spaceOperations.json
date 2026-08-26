@@ -121,6 +121,13 @@
     "spaces.ops.disconnected": "Disconnected",
     "spaces.ops.drawn": "Drawn",
     "spaces.ops.goalWaitingOnRegistry": "Still reading what this Space can do",
+    "spaces.ops.humanDecision": "Waiting on a person",
+    "spaces.ops.humanDecisionGrant": "Approve",
+    "spaces.ops.humanDecisionHint": "Every step finished. This is the part no machine can produce.",
+    "spaces.ops.humanDecisionNeedsReason": "A refusal has to say why",
+    "spaces.ops.humanDecisionReason": "Reason",
+    "spaces.ops.humanDecisionReasonHint": "Required to refuse; kept on the record either way",
+    "spaces.ops.humanDecisionRefuse": "Refuse",
     "spaces.ops.lastFrameAgo": "Last local camera image {seconds}s ago",
     "spaces.ops.live": "Room connected",
     "spaces.ops.localNearRealtime": "Local camera · near-real-time · {fps} FPS",
@@ -158,6 +165,7 @@
     "spaces.ops.surfaceLog": "Log",
     "spaces.ops.surfaceRanges": "Ranges",
     "spaces.ops.surfaceTelemetry": "Telemetry",
+    "spaces.ops.verificationActionAwaitPerson": "A person has to answer this. The controls are below.",
     "spaces.ops.verificationActionContinue": "Continue the approved run.",
     "spaces.ops.verificationActionDefine": "State what the mission must prove.",
     "spaces.ops.verificationActionNone": "No further action.",
@@ -222,5 +230,5 @@
     "spaces.voice.startListening": "Start voice input",
     "spaces.voice.stopListening": "Stop voice input"
   },
-  "total_keys": 217
+  "total_keys": 225
 }

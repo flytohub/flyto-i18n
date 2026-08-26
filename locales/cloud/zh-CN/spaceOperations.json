@@ -121,6 +121,13 @@
     "spaces.ops.disconnected": "已断开连接",
     "spaces.ops.drawn": "已抽取",
     "spaces.ops.goalWaitingOnRegistry": "正在读取这个 Space 能做什么",
+    "spaces.ops.humanDecision": "等待人工决定",
+    "spaces.ops.humanDecisionGrant": "核可",
+    "spaces.ops.humanDecisionHint": "每个步骤都完成了。这一项没有机器产得出来。",
+    "spaces.ops.humanDecisionNeedsReason": "拒绝必须说明理由",
+    "spaces.ops.humanDecisionReason": "理由",
+    "spaces.ops.humanDecisionReasonHint": "拒绝时必填；无论如何都会留在记录上",
+    "spaces.ops.humanDecisionRefuse": "拒绝",
     "spaces.ops.lastFrameAgo": "上一张本机摄像头图像于 {seconds} 秒前获取",
     "spaces.ops.live": "房间已连接",
     "spaces.ops.localNearRealtime": "本机摄像头 · 近实时 · {fps} FPS",
@@ -158,6 +165,7 @@
     "spaces.ops.surfaceLog": "日志",
     "spaces.ops.surfaceRanges": "距离",
     "spaces.ops.surfaceTelemetry": "遥测",
+    "spaces.ops.verificationActionAwaitPerson": "这一项要由人回答，控制项在下方。",
     "spaces.ops.verificationActionContinue": "继续已批准的执行。",
     "spaces.ops.verificationActionDefine": "请先说明任务必须证明什么。",
     "spaces.ops.verificationActionNone": "无需进一步操作。",
@@ -222,5 +230,5 @@
     "spaces.voice.startListening": "开始语音输入",
     "spaces.voice.stopListening": "停止语音输入"
   },
-  "total_keys": 217
+  "total_keys": 225
 }
