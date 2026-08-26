@@ -83,9 +83,11 @@
     "spaces.inspector.hybrid": "Hybrid",
     "spaces.inspector.loading": "Loading",
     "spaces.inspector.loadingResources": "Loading resources",
-    "spaces.inspector.noManifests": "No manifests available",
+    "spaces.inspector.noManifests": "No installed adapter has published a manifest yet.",
+    "spaces.inspector.noManifestsNext": "The resources are bound and known; this panel fills in when one describes itself.",
     "spaces.inspector.noSamples": "No telemetry samples",
-    "spaces.inspector.noneBound": "No resource selected",
+    "spaces.inspector.noneBound": "No resource is bound to this Space yet.",
+    "spaces.inspector.noneBoundNext": "Bind one in Space settings and its adapter will describe itself here.",
     "spaces.inspector.notConfigured": "Not configured",
     "spaces.inspector.offline": "Offline",
     "spaces.inspector.online": "Online",
@@ -220,5 +222,5 @@
     "spaces.voice.startListening": "Start voice input",
     "spaces.voice.stopListening": "Stop voice input"
   },
-  "total_keys": 215
+  "total_keys": 217
 }

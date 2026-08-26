@@ -413,7 +413,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # fallbacks with no key behind them — `spaces.hud.capabilitiesPending`,
     # `spaces.hud.gatesUnenforceable`, `spaces.hud.evidencePending`,
     # `spaces.voice.micSendsAudio` and `spaces.ops.goalWaitingOnRegistry`.
-    assert english_total == 12_072
+    # +2: `spaces.inspector.noneBoundNext` and `.noManifestsNext`. The
+    # resource inspector's two empty states each said what was absent in one
+    # long sentence; they now say the state and the next action separately,
+    # because "nothing is here" without "and here is how something gets here"
+    # is a dead end in a panel whose whole job is to be acted on.
+    assert english_total == 12_074
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -83,9 +83,11 @@
     "spaces.inspector.hybrid": "混合",
     "spaces.inspector.loading": "載入中",
     "spaces.inspector.loadingResources": "正在載入資源",
-    "spaces.inspector.noManifests": "沒有可用的資訊清單",
+    "spaces.inspector.noManifests": "還沒有已安裝的轉接器發布資訊清單。",
+    "spaces.inspector.noManifestsNext": "資源已綁定且辨識完成；有任何一個描述自己時，這裡就會填上。",
     "spaces.inspector.noSamples": "尚無遙測樣本",
-    "spaces.inspector.noneBound": "尚未選擇資源",
+    "spaces.inspector.noneBound": "這個 Space 還沒有綁定任何資源。",
+    "spaces.inspector.noneBoundNext": "在 Space 設定裡綁定一個，它的轉接器就會在這裡描述自己。",
     "spaces.inspector.notConfigured": "尚未設定",
     "spaces.inspector.offline": "離線",
     "spaces.inspector.online": "線上",
@@ -220,5 +222,5 @@
     "spaces.voice.startListening": "開始語音輸入",
     "spaces.voice.stopListening": "停止語音輸入"
   },
-  "total_keys": 215
+  "total_keys": 217
 }
