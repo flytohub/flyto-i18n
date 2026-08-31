@@ -306,6 +306,7 @@
     "templateBuilder.missionSetup.zoneNumber": "区域 {number}",
     "templateBuilder.missionSetup.zoneVocabularyUnavailable": "服务器提供至少一种站点类型后，才能新增区域。",
     "templateBuilder.missionSetup.zones": "区域",
-    "templateBuilder.missionSetup.zonesHint": "定义可复用的位置，且只能绑定已登记的资源端点。"
+    "templateBuilder.missionSetup.zonesHint": "定义可复用的位置，且只能绑定已登记的资源端点。",
+    "templateBuilder.header.saveOptions": "保存选项"
   }
 }

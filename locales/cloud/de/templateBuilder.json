@@ -306,6 +306,7 @@
     "templateBuilder.toolbar.back": "Zurück",
     "templateBuilder.toolbar.saveTemplate": "Vorlage speichern",
     "templateBuilder.toolbar.templateIdPlaceholder": "Vorlagen-ID (Englisch)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Vorlagenname"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Vorlagenname",
+    "templateBuilder.header.saveOptions": ""
   }
 }

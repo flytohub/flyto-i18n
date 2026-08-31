@@ -306,6 +306,7 @@
     "templateBuilder.toolbar.back": "Indietro",
     "templateBuilder.toolbar.saveTemplate": "Salva Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID Template (Inglese)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nome Template"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nome Template",
+    "templateBuilder.header.saveOptions": ""
   }
 }

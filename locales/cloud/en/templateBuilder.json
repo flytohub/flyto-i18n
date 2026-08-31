@@ -306,6 +306,7 @@
     "templateBuilder.missionSetup.zoneNumber": "Zone {number}",
     "templateBuilder.missionSetup.zoneVocabularyUnavailable": "A zone cannot be added until the server provides at least one station kind.",
     "templateBuilder.missionSetup.zones": "Zones",
-    "templateBuilder.missionSetup.zonesHint": "Define reusable locations and bind only registered resource endpoints."
+    "templateBuilder.missionSetup.zonesHint": "Define reusable locations and bind only registered resource endpoints.",
+    "templateBuilder.header.saveOptions": "Save options"
   }
 }

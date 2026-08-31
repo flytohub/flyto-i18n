@@ -306,6 +306,7 @@
     "templateBuilder.toolbar.back": "戻る",
     "templateBuilder.toolbar.saveTemplate": "テンプレートを保存",
     "templateBuilder.toolbar.templateIdPlaceholder": "テンプレート ID（英語）",
-    "templateBuilder.toolbar.templateNamePlaceholder": "テンプレート名"
+    "templateBuilder.toolbar.templateNamePlaceholder": "テンプレート名",
+    "templateBuilder.header.saveOptions": ""
   }
 }

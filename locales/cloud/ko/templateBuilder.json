@@ -306,6 +306,7 @@
     "templateBuilder.toolbar.back": "뒤로",
     "templateBuilder.toolbar.saveTemplate": "템플릿 저장",
     "templateBuilder.toolbar.templateIdPlaceholder": "템플릿 ID (영문)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "템플릿 이름"
+    "templateBuilder.toolbar.templateNamePlaceholder": "템플릿 이름",
+    "templateBuilder.header.saveOptions": ""
   }
 }

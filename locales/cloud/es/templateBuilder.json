@@ -306,6 +306,7 @@
     "templateBuilder.toolbar.back": "Volver",
     "templateBuilder.toolbar.saveTemplate": "Guardar plantilla",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID de plantilla (ingles)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nombre de plantilla"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nombre de plantilla",
+    "templateBuilder.header.saveOptions": ""
   }
 }
