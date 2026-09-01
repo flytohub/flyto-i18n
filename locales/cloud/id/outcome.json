@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "Terverifikasi",
+    "outcome.observed": "Teramati",
+    "outcome.accepted": "Diterima",
+    "outcome.dispatched": "Terkirim",
+    "outcome.failed": "Gagal",
+    "outcome.indeterminate": "Belum dikonfirmasi"
+  }
+}

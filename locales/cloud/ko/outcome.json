@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "검증됨",
+    "outcome.observed": "관찰됨",
+    "outcome.accepted": "수락됨",
+    "outcome.dispatched": "전송됨",
+    "outcome.failed": "실패",
+    "outcome.indeterminate": "미확인"
+  }
+}
