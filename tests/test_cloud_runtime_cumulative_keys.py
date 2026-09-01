@@ -417,7 +417,21 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # — no step is ever created to produce it — so it never arrived through a
     # step reporting an outcome, and a mission that required a supervisor's
     # approval was one nobody could complete. These are that panel's words.
-    assert english_total == 12_082
+    #
+    # +31, and they arrived without a line here. `aiSpace.settings.voice*` —
+    # the on-device wake-word panel — landed while the seal still said 12_082,
+    # so this assertion has been failing on main since. It is written down now
+    # rather than folded silently into the number below, because a seal whose
+    # ledger skips an entry is a number nobody can check.
+    # +1: `templateBuilder.header.saveOptions`, same commit range, same story.
+    #
+    # +6: `outcome.*` — the six words for how far a step's effect was followed.
+    # Two of them are the reason this namespace exists rather than reusing
+    # `status.*`: `dispatched` means an instruction left us and nobody
+    # confirmed anything, and `indeterminate` means we cannot say. Neither is a
+    # status, and rendering either as one is the thing the ladder exists to
+    # stop.
+    assert english_total == 12_120
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
@@ -432,7 +446,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
         }
         assert record["total_keys"] <= english_total
         assert record["total_keys"] == locale_data[locale]["total_keys"]
-        assert record["files_merged"] == 262
+        # 263, not 262: `outcome.json` is a new namespace rather than keys
+        # added to an existing file. It is separate from `status.json` on
+        # purpose -- a rung is not a status, and merging the two vocabularies
+        # is what would let `dispatched` be read as a state a run passes
+        # through rather than as "nobody confirmed anything".
+        assert record["files_merged"] == 263
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_root = Path(temp_dir)
