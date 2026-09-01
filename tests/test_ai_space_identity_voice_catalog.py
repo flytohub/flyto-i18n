@@ -40,6 +40,46 @@ EXISTING_SUFFIXES = {
     "sourceMode",
     "subtitle",
     "title",
+
+    # The wake-word panel's runtime states. They landed in `aiSpace.json`
+    # without a line here, so `test_source_ownership_and_localization` has
+    # been failing on main since -- the same commit range that left the
+    # cumulative seal in `test_cloud_runtime_cumulative_keys.py` short by
+    # 32 keys. A catalogue allowed to drift from the file it describes is
+    # not a catalogue, so this is recorded rather than absorbed silently.
+    #
+    # EXISTING and not NEW, deliberately. NEW_SUFFIXES is what the
+    # reviewed-values and single-source-owner rules run over, and these are
+    # keys that already shipped rather than part of a batch anyone reviewed
+    # here. Listing them as new would claim a review that did not happen.
+    "voiceArmedLabel",
+    "voiceArmedSpaces",
+    "voiceCannotEnable",
+    "voiceChecking",
+    "voiceDownloadAction",
+    "voiceDownloadable",
+    "voiceDownloading",
+    "voiceHeardLabel",
+    "voiceHeardNothing",
+    "voiceInstallFailed",
+    "voiceListening",
+    "voiceLocaleConflict",
+    "voiceMatchedLabel",
+    "voiceMicRefused",
+    "voiceNetworkRefused",
+    "voiceNoMatch",
+    "voiceProblem",
+    "voiceReady",
+    "voiceRecheck",
+    "voiceSpaceNotArmed",
+    "voiceSpaceNotArmedDefault",
+    "voiceTestHint",
+    "voiceTestStart",
+    "voiceTestStop",
+    "voiceUnavailable",
+    "voiceUnsaved",
+    "voiceUnsupported",
+    "voiceWakeWordTaken",
 }
 REVIEWED = {
     "en": {
