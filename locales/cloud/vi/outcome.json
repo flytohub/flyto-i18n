@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "vi",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "Đã xác minh",
+    "outcome.observed": "Đã quan sát",
+    "outcome.accepted": "Đã chấp nhận",
+    "outcome.dispatched": "Đã gửi",
+    "outcome.failed": "Thất bại",
+    "outcome.indeterminate": "Chưa xác nhận"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "सत्यापित",
+    "outcome.observed": "देखा गया",
+    "outcome.accepted": "स्वीकृत",
+    "outcome.dispatched": "भेजा गया",
+    "outcome.failed": "विफल",
+    "outcome.indeterminate": "अपुष्ट"
+  }
+}

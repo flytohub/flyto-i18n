@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "Doğrulandı",
+    "outcome.observed": "Gözlemlendi",
+    "outcome.accepted": "Kabul edildi",
+    "outcome.dispatched": "Gönderildi",
+    "outcome.failed": "Başarısız",
+    "outcome.indeterminate": "Doğrulanmadı"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "ยืนยันแล้ว",
+    "outcome.observed": "สังเกตแล้ว",
+    "outcome.accepted": "รับแล้ว",
+    "outcome.dispatched": "ส่งแล้ว",
+    "outcome.failed": "ล้มเหลว",
+    "outcome.indeterminate": "ยังไม่ยืนยัน"
+  }
+}

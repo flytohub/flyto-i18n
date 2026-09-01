@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "zh-CN",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "已验证",
+    "outcome.observed": "已观察到",
+    "outcome.accepted": "已接受",
+    "outcome.dispatched": "已发送",
+    "outcome.failed": "失败",
+    "outcome.indeterminate": "无法确认"
+  }
+}

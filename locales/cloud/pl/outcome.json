@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.outcome",
+  "version": "1.0.0",
+  "translations": {
+    "outcome.done": "Zweryfikowano",
+    "outcome.observed": "Zaobserwowano",
+    "outcome.accepted": "Przyjęto",
+    "outcome.dispatched": "Wysłano",
+    "outcome.failed": "Niepowodzenie",
+    "outcome.indeterminate": "Niepotwierdzone"
+  }
+}
