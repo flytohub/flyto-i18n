@@ -425,13 +425,21 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # ledger skips an entry is a number nobody can check.
     # +1: `templateBuilder.header.saveOptions`, same commit range, same story.
     #
+    # +1: `aiSpace.settings.voiceLocaleDevice`. The recognition locale stopped
+    # being a free-text field and became a menu, and a menu needs a word for
+    # its empty option. That option is the default and means "listen in the
+    # language this machine is set to" -- which is the whole reason the field
+    # is not hardcoded: the person who installs this on a second computer is
+    # not necessarily the person who set the Space up, and may not speak the
+    # same language.
+    #
     # +6: `outcome.*` — the six words for how far a step's effect was followed.
     # Two of them are the reason this namespace exists rather than reusing
     # `status.*`: `dispatched` means an instruction left us and nobody
     # confirmed anything, and `indeterminate` means we cannot say. Neither is a
     # status, and rendering either as one is the thing the ladder exists to
     # stop.
-    assert english_total == 12_120
+    assert english_total == 12_121
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
