@@ -23,6 +23,15 @@ NEW_SUFFIXES = {
     "voiceExtendHint",
     "voiceHint",
     "voiceLocale",
+    # The empty option of the locale menu. The field stopped being free text --
+    # the platform answers `language-not-supported` to a tag it does not know,
+    # and the detector records that the error will not become supported by
+    # asking again, so a typo was a Space that never woke with a valid-looking
+    # value saved. The empty option is the default and means "listen in the
+    # language this machine is set to", which is the whole reason the locale is
+    # not hardcoded: whoever installs this on a second computer may not speak
+    # the language the Space was set up in.
+    "voiceLocaleDevice",
     "voiceOnDevice",
     "voiceSafety",
     "voiceTimeout",
