@@ -468,7 +468,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +5: `dashboardPage.devices.machines*` / `equipment*`. The same split on
     # the dashboard, which is where a robot or a camera is actually managed --
     # the AI Space tab only says which of them a Space may reach.
-    assert english_total == 12_147
+    #
+    # -2: the two dashboard section hints. The heading and the count said it
+    # already, and a line that restates its own heading is one more line
+    # between the reader and the list.
+    assert english_total == 12_145
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
