@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "すべてオフライン",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "接続機器",
+    "dashboardPage.devices.infrastructure": "自動登録",
     "dashboardPage.devices.machines": "Flyto2 を実行中のマシン",
     "dashboardPage.devices.noDevices": "登録されたデバイスはありません",
     "dashboardPage.devices.noDevicesHint": "デスクトップアプリを開くとデバイスが自動登録されます",

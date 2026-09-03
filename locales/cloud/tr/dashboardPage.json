@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "Tümü çevrimdışı",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "Bağlı ekipman",
+    "dashboardPage.devices.infrastructure": "Otomatik kaydedildi",
     "dashboardPage.devices.machines": "Flyto2 çalıştıran makineler",
     "dashboardPage.devices.noDevices": "Kayıtlı cihaz yok",
     "dashboardPage.devices.noDevicesHint": "Cihazınızı otomatik olarak kaydetmek için masaüstü uygulamasını açın",

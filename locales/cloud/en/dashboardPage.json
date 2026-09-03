@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "All offline",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "Connected equipment",
+    "dashboardPage.devices.infrastructure": "Registered automatically",
     "dashboardPage.devices.machines": "Machines running Flyto2",
     "dashboardPage.devices.noDevices": "No devices registered",
     "dashboardPage.devices.noDevicesHint": "Open the desktop app to auto-register your device",

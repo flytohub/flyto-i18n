@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "Semua offline",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "Peralatan terhubung",
+    "dashboardPage.devices.infrastructure": "Terdaftar otomatis",
     "dashboardPage.devices.machines": "Mesin yang menjalankan Flyto2",
     "dashboardPage.devices.noDevices": "Tidak ada perangkat terdaftar",
     "dashboardPage.devices.noDevicesHint": "Buka aplikasi desktop untuk mendaftarkan perangkat Anda secara otomatis",
