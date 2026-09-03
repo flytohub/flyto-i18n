@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "エラーが発生しました。もう一度お試しください。",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "AI にワークフローの手助けを求める...",
+    "templateBuilder.aiChat.noSpace": "Space なし — 一般アシスタント",
+    "templateBuilder.aiChat.noTools": "呼び出せるツールなし",
+    "templateBuilder.aiChat.noToolsHint": "この Space には MCP トリガーを公開したワークフローがないため、アシスタントが呼び出せるものがありません。",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "ログインフロー",
     "templateBuilder.aiChat.quickScraper": "スクレイパー",
     "templateBuilder.aiChat.quickValidation": "検証",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "ワークフローを適用しました：{name}",
     "templateBuilder.aiChat.title": "AI アシスタント",
+    "templateBuilder.aiChat.toolCount": "ツール {count} 件",
     "templateBuilder.aiChat.welcomeFeature1": "ワークフローステップを生成",
     "templateBuilder.aiChat.welcomeFeature2": "モジュール設定を説明",
     "templateBuilder.aiChat.welcomeFeature3": "最適化を提案",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "名前",
     "templateBuilder.header.run": "実行",
     "templateBuilder.header.saveAsNew": "新規保存",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "設定",
     "templateBuilder.header.stop": "停止",
     "templateBuilder.header.tidyNodes": "整理ノード",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "戻る",
     "templateBuilder.toolbar.saveTemplate": "テンプレートを保存",
     "templateBuilder.toolbar.templateIdPlaceholder": "テンプレート ID（英語）",
-    "templateBuilder.toolbar.templateNamePlaceholder": "テンプレート名",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "テンプレート名"
   }
 }

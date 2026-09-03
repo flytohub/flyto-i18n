@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "오류가 발생했습니다. 다시 시도하세요.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "AI에게 워크플로 도움을 요청하세요...",
+    "templateBuilder.aiChat.noSpace": "Space 없음 — 일반 어시스턴트",
+    "templateBuilder.aiChat.noTools": "호출 가능한 도구 없음",
+    "templateBuilder.aiChat.noToolsHint": "이 Space에는 MCP 트리거를 게시한 워크플로가 없어 어시스턴트가 호출할 것이 없습니다.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "로그인 흐름",
     "templateBuilder.aiChat.quickScraper": "스크래퍼",
     "templateBuilder.aiChat.quickValidation": "검증",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "워크플로 적용됨: {name}",
     "templateBuilder.aiChat.title": "AI 어시스턴트",
+    "templateBuilder.aiChat.toolCount": "도구 {count}개",
     "templateBuilder.aiChat.welcomeFeature1": "워크플로 단계 생성",
     "templateBuilder.aiChat.welcomeFeature2": "모듈 구성 설명",
     "templateBuilder.aiChat.welcomeFeature3": "최적화 제안",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "이름",
     "templateBuilder.header.run": "실행",
     "templateBuilder.header.saveAsNew": "새로 저장",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "설정",
     "templateBuilder.header.stop": "중지",
     "templateBuilder.header.tidyNodes": "정리 노드",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "뒤로",
     "templateBuilder.toolbar.saveTemplate": "템플릿 저장",
     "templateBuilder.toolbar.templateIdPlaceholder": "템플릿 ID (영문)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "템플릿 이름",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "템플릿 이름"
   }
 }

@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Bir hata oluştu. Lütfen tekrar deneyin.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "AI'dan iş akışınızla ilgili yardım isteyin...",
+    "templateBuilder.aiChat.noSpace": "Space yok — genel asistan",
+    "templateBuilder.aiChat.noTools": "Çağrılabilir araç yok",
+    "templateBuilder.aiChat.noToolsHint": "Bu Space'te MCP tetikleyicisi yayınlayan iş akışı yok, bu yüzden asistanın çağıracağı bir şey yok.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Giriş akışı",
     "templateBuilder.aiChat.quickScraper": "Kazıyıcı",
     "templateBuilder.aiChat.quickValidation": "Doğrulama",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "İş akışı uygulandı: {name}",
     "templateBuilder.aiChat.title": "AI Asistanı",
+    "templateBuilder.aiChat.toolCount": "{count} araç",
     "templateBuilder.aiChat.welcomeFeature1": "İş akışı adımları oluştur",
     "templateBuilder.aiChat.welcomeFeature2": "Modül yapılandırmalarını açıkla",
     "templateBuilder.aiChat.welcomeFeature3": "Optimizasyonlar öner",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Ad",
     "templateBuilder.header.run": "Çalıştır",
     "templateBuilder.header.saveAsNew": "Yeni Olarak Kaydet",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Ayarlar",
     "templateBuilder.header.stop": "Durdur",
     "templateBuilder.header.tidyNodes": "Düğümleri düzenle",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Geri",
     "templateBuilder.toolbar.saveTemplate": "Şablonu Kaydet",
     "templateBuilder.toolbar.templateIdPlaceholder": "Şablon ID (İngilizce)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Şablon Adı",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Şablon Adı"
   }
 }

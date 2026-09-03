@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Si e verificato un errore. Riprova.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Chiedi all'AI di aiutarti con il tuo workflow...",
+    "templateBuilder.aiChat.noSpace": "Nessuno Space — assistente generale",
+    "templateBuilder.aiChat.noTools": "Nessuno strumento richiamabile",
+    "templateBuilder.aiChat.noToolsHint": "Nessun flusso in questo Space pubblica un trigger MCP, quindi l'assistente non ha nulla da richiamare.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Flusso login",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validazione",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Workflow applicato: {name}",
     "templateBuilder.aiChat.title": "Assistente AI",
+    "templateBuilder.aiChat.toolCount": "{count} strumenti",
     "templateBuilder.aiChat.welcomeFeature1": "Genera passaggi workflow",
     "templateBuilder.aiChat.welcomeFeature2": "Spiega configurazioni moduli",
     "templateBuilder.aiChat.welcomeFeature3": "Suggerisci ottimizzazioni",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Nome",
     "templateBuilder.header.run": "Esegui",
     "templateBuilder.header.saveAsNew": "Salva Come Nuovo",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Impostazioni",
     "templateBuilder.header.stop": "Ferma",
     "templateBuilder.header.tidyNodes": "Ordina nodi",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Indietro",
     "templateBuilder.toolbar.saveTemplate": "Salva Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID Template (Inglese)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nome Template",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nome Template"
   }
 }

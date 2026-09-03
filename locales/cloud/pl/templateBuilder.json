@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Wystapil blad. Sprobuj ponownie.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Popros AI o pomoc z Twoim przeplywem...",
+    "templateBuilder.aiChat.noSpace": "Bez Space — asystent ogólny",
+    "templateBuilder.aiChat.noTools": "Brak narzędzi do wywołania",
+    "templateBuilder.aiChat.noToolsHint": "Żaden przepływ w tym Space nie publikuje wyzwalacza MCP, więc asystent nie ma czego wywołać.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Przeplyw logowania",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Walidacja",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Zastosowano przeplyw: {name}",
     "templateBuilder.aiChat.title": "Asystent AI",
+    "templateBuilder.aiChat.toolCount": "Narzędzia: {count}",
     "templateBuilder.aiChat.welcomeFeature1": "Generuj kroki przeplywu",
     "templateBuilder.aiChat.welcomeFeature2": "Wyjasnij konfiguracje modulow",
     "templateBuilder.aiChat.welcomeFeature3": "Sugeruj optymalizacje",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Nazwa",
     "templateBuilder.header.run": "Uruchom",
     "templateBuilder.header.saveAsNew": "Zapisz jako nowy",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Ustawienia",
     "templateBuilder.header.stop": "Zatrzymaj",
     "templateBuilder.header.tidyNodes": "Porządkuj węzły",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Wstecz",
     "templateBuilder.toolbar.saveTemplate": "Zapisz szablon",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID szablonu (angielskie)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nazwa szablonu",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nazwa szablonu"
   }
 }

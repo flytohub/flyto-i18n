@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Une erreur s'est produite. Veuillez reessayer.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Demandez a l'IA de vous aider avec votre workflow...",
+    "templateBuilder.aiChat.noSpace": "Aucun Space — assistant général",
+    "templateBuilder.aiChat.noTools": "Aucun outil appelable",
+    "templateBuilder.aiChat.noToolsHint": "Aucun workflow de ce Space ne publie de déclencheur MCP ; l'assistant n'a donc rien à appeler.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Flux de connexion",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validation",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Workflow applique : {name}",
     "templateBuilder.aiChat.title": "Assistant IA",
+    "templateBuilder.aiChat.toolCount": "{count} outils",
     "templateBuilder.aiChat.welcomeFeature1": "Generer des etapes de workflow",
     "templateBuilder.aiChat.welcomeFeature2": "Expliquer les configurations de modules",
     "templateBuilder.aiChat.welcomeFeature3": "Suggerer des optimisations",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Nom",
     "templateBuilder.header.run": "Executer",
     "templateBuilder.header.saveAsNew": "Enregistrer comme nouveau",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Parametres",
     "templateBuilder.header.stop": "Arreter",
     "templateBuilder.header.tidyNodes": "Nettoyer les nœuds",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Retour",
     "templateBuilder.toolbar.saveTemplate": "Enregistrer le modele",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID du modele (anglais)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nom du modele",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nom du modele"
   }
 }

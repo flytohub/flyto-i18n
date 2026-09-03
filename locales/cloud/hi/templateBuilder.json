@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "एक त्रुटि हुई। कृपया पुनः प्रयास करें।",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "अपने वर्कफ़्लो में मदद के लिए AI से पूछें...",
+    "templateBuilder.aiChat.noSpace": "कोई Space नहीं — सामान्य सहायक",
+    "templateBuilder.aiChat.noTools": "कोई कॉल करने योग्य टूल नहीं",
+    "templateBuilder.aiChat.noToolsHint": "इस Space में कोई वर्कफ़्लो MCP ट्रिगर प्रकाशित नहीं करता, इसलिए सहायक के पास कॉल करने को कुछ नहीं है।",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "लॉगिन फ़्लो",
     "templateBuilder.aiChat.quickScraper": "स्क्रैपर",
     "templateBuilder.aiChat.quickValidation": "वैलिडेशन",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "वर्कफ़्लो लागू किया गया: {name}",
     "templateBuilder.aiChat.title": "AI असिस्टेंट",
+    "templateBuilder.aiChat.toolCount": "{count} टूल",
     "templateBuilder.aiChat.welcomeFeature1": "वर्कफ़्लो चरण जनरेट करें",
     "templateBuilder.aiChat.welcomeFeature2": "मॉड्यूल कॉन्फ़िगरेशन समझाएं",
     "templateBuilder.aiChat.welcomeFeature3": "अनुकूलन सुझाएं",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "नाम",
     "templateBuilder.header.run": "चलाएं",
     "templateBuilder.header.saveAsNew": "नए के रूप में सहेजें",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "सेटिंग्स",
     "templateBuilder.header.stop": "रोकें",
     "templateBuilder.header.tidyNodes": "साफ़ करें",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "वापस",
     "templateBuilder.toolbar.saveTemplate": "टेम्पलेट सहेजें",
     "templateBuilder.toolbar.templateIdPlaceholder": "टेम्पलेट ID (अंग्रेज़ी)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "टेम्पलेट नाम",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "टेम्पलेट नाम"
   }
 }

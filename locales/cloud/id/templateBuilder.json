@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Terjadi error. Silakan coba lagi.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Minta AI untuk membantu workflow Anda...",
+    "templateBuilder.aiChat.noSpace": "Tanpa Space — asisten umum",
+    "templateBuilder.aiChat.noTools": "Tidak ada alat yang bisa dipanggil",
+    "templateBuilder.aiChat.noToolsHint": "Tidak ada alur kerja di Space ini yang menerbitkan pemicu MCP, jadi asisten tidak punya yang bisa dipanggil.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Alur login",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validasi",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Workflow diterapkan: {name}",
     "templateBuilder.aiChat.title": "Asisten AI",
+    "templateBuilder.aiChat.toolCount": "{count} alat",
     "templateBuilder.aiChat.welcomeFeature1": "Buat langkah-langkah workflow",
     "templateBuilder.aiChat.welcomeFeature2": "Jelaskan konfigurasi modul",
     "templateBuilder.aiChat.welcomeFeature3": "Sarankan optimasi",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Nama",
     "templateBuilder.header.run": "Jalankan",
     "templateBuilder.header.saveAsNew": "Simpan Sebagai Baru",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Pengaturan",
     "templateBuilder.header.stop": "Hentikan",
     "templateBuilder.header.tidyNodes": "Rapi",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Kembali",
     "templateBuilder.toolbar.saveTemplate": "Simpan Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID Template (Inggris)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nama Template",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nama Template"
   }
 }
