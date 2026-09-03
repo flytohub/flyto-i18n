@@ -35,7 +35,7 @@
     "ja": {
       "name": "Japanese",
       "native_name": "日本語",
-      "coverage": 86.1,
+      "coverage": 86.2,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -107,7 +107,7 @@
     "id": {
       "name": "Indonesian",
       "native_name": "Bahasa Indonesia",
-      "coverage": 76.4,
+      "coverage": 76.5,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -134,7 +134,7 @@
     "pl": {
       "name": "Polish",
       "native_name": "Polski",
-      "coverage": 76.4,
+      "coverage": 76.5,
       "status": "community",
       "maintainers": [
         "@flytohub"
@@ -143,7 +143,7 @@
     "it": {
       "name": "Italian",
       "native_name": "Italiano",
-      "coverage": 76.4,
+      "coverage": 76.5,
       "status": "community",
       "maintainers": [
         "@flytohub"

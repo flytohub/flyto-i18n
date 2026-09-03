@@ -449,7 +449,15 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # that is running and armed nothing from one that is not running, nor a
     # daemon that stopped from one that was never installed — and the operator's
     # next move differs for each.
-    assert english_total == 12_129
+    #
+    # +11: `aiSpace.resources.machines*`, `equipment*`, `infrastructure*` and
+    # the two empty states — the Resources tab splitting one flat list into the
+    # two relations it always held. A machine RUNS a workflow; a robot, a
+    # camera or a lift is COMMANDED by one, and the tab showed both under one
+    # heading with an OS string as the subtitle. `alsoEquipment` is the pair
+    # that earns the split: the delivery robot is both, so it is labelled in
+    # the machines list rather than made to choose.
+    assert english_total == 12_140
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
