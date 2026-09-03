@@ -439,7 +439,40 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # confirmed anything, and `indeterminate` means we cannot say. Neither is a
     # status, and rendering either as one is the thing the ladder exists to
     # stop.
-    assert english_total == 12_121
+    #
+    # +8: `dashboardPage.devices.voice*` — the wake daemon on the devices page.
+    # The daemon is one per machine and serves every AI Space, so its status is
+    # a fact about the device, not about any Space; putting it here rather than
+    # under `aiSpace.settings.*` is what keeps a user with many folders from
+    # having the same machine-level control repeated into every one of them.
+    # Four of the eight exist because presence alone cannot separate a daemon
+    # that is running and armed nothing from one that is not running, nor a
+    # daemon that stopped from one that was never installed — and the operator's
+    # next move differs for each.
+    #
+    # +11: `aiSpace.resources.machines*`, `equipment*`, `infrastructure*` and
+    # the two empty states — the Resources tab splitting one flat list into the
+    # two relations it always held. A machine RUNS a workflow; a robot, a
+    # camera or a lift is COMMANDED by one, and the tab showed both under one
+    # heading with an OS string as the subtitle. `alsoEquipment` is the pair
+    # that earns the split: the delivery robot is both, so it is labelled in
+    # the machines list rather than made to choose.
+    #
+    # +2: `aiSpace.resources.inertMachines*`. The resource picker stopped
+    # offering machines, because `device_ids` becomes `allowed_resources` and
+    # is matched against an endpoint's `resource_id` -- which is never a
+    # laptop, so a machine listed there opened nothing. A Space that already
+    # listed one still does, and these two say so rather than hiding an entry
+    # nobody could then remove.
+    #
+    # +5: `dashboardPage.devices.machines*` / `equipment*`. The same split on
+    # the dashboard, which is where a robot or a camera is actually managed --
+    # the AI Space tab only says which of them a Space may reach.
+    #
+    # -2: the two dashboard section hints. The heading and the count said it
+    # already, and a line that restates its own heading is one more line
+    # between the reader and the list.
+    assert english_total == 12_145
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
