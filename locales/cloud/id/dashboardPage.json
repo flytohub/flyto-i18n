@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Perangkat",
     "dashboardPage.devices.voiceArmed": "{armed} frasa aktif, {refused} ditolak",
     "dashboardPage.devices.voiceArmedNothing": "Mendengarkan, tetapi tidak ada frasa aktif",
-    "dashboardPage.devices.voiceHint": "Frasa pembangun diatur per AI Space; daemon ini melayani semuanya.",
+    "dashboardPage.devices.voiceHint": "Frasa pembangun diatur di setiap AI Space.",
     "dashboardPage.devices.voiceListening": "Mendengarkan di mesin ini",
     "dashboardPage.devices.voiceNone": "Tidak ada daemon suara di mesin ini",
     "dashboardPage.devices.voiceSeenAgo": "Terakhir melapor {seconds} detik lalu",

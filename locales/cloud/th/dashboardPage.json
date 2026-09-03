@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "อุปกรณ์",
     "dashboardPage.devices.voiceArmed": "เปิดใช้ {armed} วลี ปฏิเสธ {refused} วลี",
     "dashboardPage.devices.voiceArmedNothing": "กำลังฟัง แต่ไม่มีวลีที่เปิดใช้",
-    "dashboardPage.devices.voiceHint": "วลีปลุกตั้งค่าแยกตาม AI Space โดยเดมอนนี้ให้บริการทั้งหมด",
+    "dashboardPage.devices.voiceHint": "วลีปลุกตั้งค่าในแต่ละ AI Space",
     "dashboardPage.devices.voiceListening": "กำลังฟังบนเครื่องนี้",
     "dashboardPage.devices.voiceNone": "ไม่มีเดมอนเสียงบนเครื่องนี้",
     "dashboardPage.devices.voiceSeenAgo": "รายงานล่าสุดเมื่อ {seconds} วินาทีก่อน",

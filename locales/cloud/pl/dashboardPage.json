@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Urzadzenia",
     "dashboardPage.devices.voiceArmed": "Aktywne frazy: {armed}, odrzucone: {refused}",
     "dashboardPage.devices.voiceArmedNothing": "Nasłuchuje, ale żadna fraza nie jest aktywna",
-    "dashboardPage.devices.voiceHint": "Frazy budzące ustawia się osobno w każdym AI Space; ta usługa obsługuje wszystkie.",
+    "dashboardPage.devices.voiceHint": "Frazy budzące ustawia się w każdym AI Space.",
     "dashboardPage.devices.voiceListening": "Nasłuchuje na tym urządzeniu",
     "dashboardPage.devices.voiceNone": "Brak usługi głosowej na tym urządzeniu",
     "dashboardPage.devices.voiceSeenAgo": "Ostatni sygnał {seconds} s temu",

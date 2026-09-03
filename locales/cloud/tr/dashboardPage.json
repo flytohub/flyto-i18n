@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Cihazlar",
     "dashboardPage.devices.voiceArmed": "{armed} ifade etkin, {refused} reddedildi",
     "dashboardPage.devices.voiceArmedNothing": "Dinliyor ama etkin ifade yok",
-    "dashboardPage.devices.voiceHint": "Uyandırma ifadeleri her AI Space için ayrı ayarlanır; bu hizmet hepsine bakar.",
+    "dashboardPage.devices.voiceHint": "Uyandırma ifadeleri her AI Space içinde ayarlanır.",
     "dashboardPage.devices.voiceListening": "Bu makinede dinliyor",
     "dashboardPage.devices.voiceNone": "Bu makinede ses hizmeti yok",
     "dashboardPage.devices.voiceSeenAgo": "Son bildirim {seconds} sn önce",

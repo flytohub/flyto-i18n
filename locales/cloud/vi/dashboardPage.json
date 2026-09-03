@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Thiết bị",
     "dashboardPage.devices.voiceArmed": "{armed} cụm từ đang bật, {refused} bị từ chối",
     "dashboardPage.devices.voiceArmedNothing": "Đang lắng nghe nhưng không có cụm từ nào bật",
-    "dashboardPage.devices.voiceHint": "Cụm từ đánh thức được đặt riêng cho từng AI Space; daemon này phục vụ tất cả.",
+    "dashboardPage.devices.voiceHint": "Cụm từ đánh thức được đặt trong từng AI Space.",
     "dashboardPage.devices.voiceListening": "Đang lắng nghe trên máy này",
     "dashboardPage.devices.voiceNone": "Không có daemon giọng nói trên máy này",
     "dashboardPage.devices.voiceSeenAgo": "Báo cáo lần cuối {seconds} giây trước",

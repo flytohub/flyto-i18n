@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Appareils",
     "dashboardPage.devices.voiceArmed": "{armed} phrases actives, {refused} refusées",
     "dashboardPage.devices.voiceArmedNothing": "À l'écoute, mais aucune phrase n'est active",
-    "dashboardPage.devices.voiceHint": "Les phrases de réveil se définissent par AI Space ; ce démon les sert toutes.",
+    "dashboardPage.devices.voiceHint": "Les phrases de réveil se définissent dans chaque AI Space.",
     "dashboardPage.devices.voiceListening": "À l'écoute sur cette machine",
     "dashboardPage.devices.voiceNone": "Aucun démon vocal sur cette machine",
     "dashboardPage.devices.voiceSeenAgo": "Dernier signalement il y a {seconds} s",

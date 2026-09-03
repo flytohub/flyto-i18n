@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "设备",
     "dashboardPage.devices.voiceArmed": "已上线 {armed} 个词，拒绝 {refused} 个",
     "dashboardPage.devices.voiceArmedNothing": "有在聆听，但没有任何词上线",
-    "dashboardPage.devices.voiceHint": "唤醒词在各个 AI Space 里设定，这个 daemon 服务全部。",
+    "dashboardPage.devices.voiceHint": "唤醒词在各个 AI Space 里设定。",
     "dashboardPage.devices.voiceListening": "正在这台机器上聆听",
     "dashboardPage.devices.voiceNone": "这台机器上没有语音 daemon",
     "dashboardPage.devices.voiceSeenAgo": "最后回报于 {seconds} 秒前",

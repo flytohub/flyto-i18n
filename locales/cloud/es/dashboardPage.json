@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Dispositivos",
     "dashboardPage.devices.voiceArmed": "{armed} frases activas, {refused} rechazadas",
     "dashboardPage.devices.voiceArmedNothing": "Escuchando, pero ninguna frase está activa",
-    "dashboardPage.devices.voiceHint": "Las frases de activación se definen por AI Space; este demonio los atiende todos.",
+    "dashboardPage.devices.voiceHint": "Las frases de activación se definen en cada AI Space.",
     "dashboardPage.devices.voiceListening": "Escuchando en este equipo",
     "dashboardPage.devices.voiceNone": "No hay demonio de voz en este equipo",
     "dashboardPage.devices.voiceSeenAgo": "Último informe hace {seconds} s",

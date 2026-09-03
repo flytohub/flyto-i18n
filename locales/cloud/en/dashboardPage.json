@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "Devices",
     "dashboardPage.devices.voiceArmed": "{armed} phrases armed, {refused} refused",
     "dashboardPage.devices.voiceArmedNothing": "Listening, but no phrase is armed",
-    "dashboardPage.devices.voiceHint": "Wake phrases are set per AI Space; this daemon serves all of them.",
+    "dashboardPage.devices.voiceHint": "Wake phrases are set in each AI Space.",
     "dashboardPage.devices.voiceListening": "Listening on this machine",
     "dashboardPage.devices.voiceNone": "No voice daemon on this machine",
     "dashboardPage.devices.voiceSeenAgo": "Last heard from {seconds}s ago",

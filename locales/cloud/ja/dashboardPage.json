@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "デバイス",
     "dashboardPage.devices.voiceArmed": "{armed} 件が有効、{refused} 件を拒否",
     "dashboardPage.devices.voiceArmedNothing": "待機中ですが、有効なフレーズがありません",
-    "dashboardPage.devices.voiceHint": "ウェイクフレーズは AI Space ごとに設定し、このデーモンがすべてを担当します。",
+    "dashboardPage.devices.voiceHint": "ウェイクフレーズは AI Space ごとに設定します。",
     "dashboardPage.devices.voiceListening": "このマシンで待機中",
     "dashboardPage.devices.voiceNone": "このマシンに音声デーモンがありません",
     "dashboardPage.devices.voiceSeenAgo": "最後の応答は {seconds} 秒前",

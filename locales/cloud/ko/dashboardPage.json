@@ -20,7 +20,7 @@
     "dashboardPage.devices.title": "기기",
     "dashboardPage.devices.voiceArmed": "{armed}개 활성화, {refused}개 거부",
     "dashboardPage.devices.voiceArmedNothing": "대기 중이지만 활성화된 문구가 없습니다",
-    "dashboardPage.devices.voiceHint": "웨이크 문구는 AI Space별로 설정하며, 이 데몬이 전부를 담당합니다.",
+    "dashboardPage.devices.voiceHint": "웨이크 문구는 각 AI Space에서 설정합니다.",
     "dashboardPage.devices.voiceListening": "이 기기에서 대기 중",
     "dashboardPage.devices.voiceNone": "이 기기에 음성 데몬이 없습니다",
     "dashboardPage.devices.voiceSeenAgo": "마지막 응답 {seconds}초 전",
