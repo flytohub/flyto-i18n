@@ -439,7 +439,17 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # confirmed anything, and `indeterminate` means we cannot say. Neither is a
     # status, and rendering either as one is the thing the ladder exists to
     # stop.
-    assert english_total == 12_121
+    #
+    # +8: `dashboardPage.devices.voice*` — the wake daemon on the devices page.
+    # The daemon is one per machine and serves every AI Space, so its status is
+    # a fact about the device, not about any Space; putting it here rather than
+    # under `aiSpace.settings.*` is what keeps a user with many folders from
+    # having the same machine-level control repeated into every one of them.
+    # Four of the eight exist because presence alone cannot separate a daemon
+    # that is running and armed nothing from one that is not running, nor a
+    # daemon that stopped from one that was never installed — and the operator's
+    # next move differs for each.
+    assert english_total == 12_129
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
