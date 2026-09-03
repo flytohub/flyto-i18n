@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "全部離線",
     "dashboardPage.devices.confirmRemove": "確認移除",
     "dashboardPage.devices.equipment": "連結設備",
+    "dashboardPage.devices.infrastructure": "系統自動註冊",
     "dashboardPage.devices.machines": "執行 Flyto2 的機器",
     "dashboardPage.devices.noDevices": "尚無已註冊的裝置",
     "dashboardPage.devices.noDevicesHint": "開啟桌面應用程式即可自動註冊裝置",

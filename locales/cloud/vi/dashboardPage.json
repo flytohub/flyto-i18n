@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "Tất cả ngoại tuyến",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "Thiết bị được kết nối",
+    "dashboardPage.devices.infrastructure": "Được đăng ký tự động",
     "dashboardPage.devices.machines": "Máy đang chạy Flyto2",
     "dashboardPage.devices.noDevices": "Chưa có thiết bị nào được đăng ký",
     "dashboardPage.devices.noDevicesHint": "Mở ứng dụng máy tính để tự động đăng ký thiết bị của bạn",

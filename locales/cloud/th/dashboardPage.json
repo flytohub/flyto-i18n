@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "ออฟไลน์ทั้งหมด",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "อุปกรณ์ที่เชื่อมต่อ",
+    "dashboardPage.devices.infrastructure": "ลงทะเบียนอัตโนมัติ",
     "dashboardPage.devices.machines": "เครื่องที่รัน Flyto2",
     "dashboardPage.devices.noDevices": "ไม่มีอุปกรณ์ที่ลงทะเบียน",
     "dashboardPage.devices.noDevicesHint": "เปิดแอปเดสก์ท็อปเพื่อลงทะเบียนอุปกรณ์ของคุณอัตโนมัติ",

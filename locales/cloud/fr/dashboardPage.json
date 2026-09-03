@@ -7,6 +7,7 @@
     "dashboardPage.devices.allOffline": "Tous hors ligne",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
     "dashboardPage.devices.equipment": "Équipements connectés",
+    "dashboardPage.devices.infrastructure": "Enregistrés automatiquement",
     "dashboardPage.devices.machines": "Machines exécutant Flyto2",
     "dashboardPage.devices.noDevices": "Aucun appareil enregistre",
     "dashboardPage.devices.noDevicesHint": "Ouvrez l'application de bureau pour enregistrer automatiquement votre appareil",

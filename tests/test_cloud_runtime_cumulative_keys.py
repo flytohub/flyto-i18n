@@ -472,7 +472,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # -2: the two dashboard section hints. The heading and the count said it
     # already, and a line that restates its own heading is one more line
     # between the reader and the list.
-    assert english_total == 12_145
+    #
+    # +1: `dashboardPage.devices.infrastructure`. The devices page folds away
+    # rows that never said WHICH machine they are — a container the product
+    # runs for you, a host that answered "localhost". The heading was written
+    # against a key that was never added, so the fold rendered its own fallback
+    # while the sync check called it an orphan.
+    assert english_total == 12_146
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
