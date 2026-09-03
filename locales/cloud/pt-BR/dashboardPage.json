@@ -6,8 +6,13 @@
   "translations": {
     "dashboardPage.devices.allOffline": "Todos offline",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
+    "dashboardPage.devices.equipment": "Equipamentos conectados",
+    "dashboardPage.devices.equipmentHint": "Robôs, câmeras e elevadores que um fluxo pode comandar. Ofereça-os a um AI Space.",
+    "dashboardPage.devices.machines": "Máquinas executando o Flyto2",
+    "dashboardPage.devices.machinesHint": "Podem ser acordadas pelo app e executam fluxos de trabalho.",
     "dashboardPage.devices.noDevices": "Nenhum dispositivo registrado",
     "dashboardPage.devices.noDevicesHint": "Abra o aplicativo desktop para registrar seu dispositivo automaticamente",
+    "dashboardPage.devices.noEquipment": "Nenhum equipamento conectado ainda",
     "dashboardPage.devices.noJobs": "Nenhum trabalho de execucao ainda",
     "dashboardPage.devices.recentJobs": "Trabalhos Recentes",
     "dashboardPage.devices.removeFailed": "Remove Failed",

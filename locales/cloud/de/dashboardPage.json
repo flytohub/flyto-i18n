@@ -6,8 +6,13 @@
   "translations": {
     "dashboardPage.devices.allOffline": "Alle offline",
     "dashboardPage.devices.confirmRemove": "Confirm Remove",
+    "dashboardPage.devices.equipment": "Angeschlossene Geräte",
+    "dashboardPage.devices.equipmentHint": "Roboter, Kameras und Aufzüge, die ein Workflow steuern kann. Einem AI Space anbieten.",
+    "dashboardPage.devices.machines": "Geräte mit Flyto2",
+    "dashboardPage.devices.machinesHint": "Aus der App weckbar; sie übernehmen und führen Workflows aus.",
     "dashboardPage.devices.noDevices": "Keine Geräte registriert",
     "dashboardPage.devices.noDevicesHint": "Öffnen Sie die Desktop-App, um Ihr Gerät automatisch zu registrieren",
+    "dashboardPage.devices.noEquipment": "Noch keine Geräte verbunden",
     "dashboardPage.devices.noJobs": "Noch keine Ausführungsaufträge",
     "dashboardPage.devices.recentJobs": "Letzte Aufträge",
     "dashboardPage.devices.removeFailed": "Remove Failed",

@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Podłączony sprzęt",
     "aiSpace.resources.equipmentHint": "Przepływ pracy nimi steruje — robot, kamera, winda.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "Maszyny na tej liście nic nie robią",
+    "aiSpace.resources.inertMachinesHint": "Przepływ pracy nie może wywołać maszyny. Usuń je — budzenie jest na stronie urządzeń.",
     "aiSpace.resources.infrastructure": "Zarejestrowane automatycznie",
     "aiSpace.resources.infrastructureCount": "Ukryto: {count}",
     "aiSpace.resources.infrastructureHint": "One też wykonują przepływy pracy, ale nikt ich nie instalował ręcznie.",

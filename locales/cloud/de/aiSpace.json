@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Angeschlossene Geräte",
     "aiSpace.resources.equipmentHint": "Ein Workflow steuert diese – Roboter, Kamera, Aufzug.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "Hier gelistete Geräte bewirken nichts",
+    "aiSpace.resources.inertMachinesHint": "Ein Workflow kann kein Gerät aufrufen. Entferne diese – das Wecken liegt auf der Geräteseite.",
     "aiSpace.resources.infrastructure": "Automatisch registriert",
     "aiSpace.resources.infrastructureCount": "{count} ausgeblendet",
     "aiSpace.resources.infrastructureHint": "Auch sie führen Workflows aus, wurden aber nicht von Hand eingerichtet.",

@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Thiết bị được kết nối",
     "aiSpace.resources.equipmentHint": "Quy trình điều khiển những thiết bị này — robot, camera, thang máy.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "Các máy liệt kê ở đây không có tác dụng",
+    "aiSpace.resources.inertMachinesHint": "Quy trình không thể gọi một máy. Hãy gỡ bỏ — việc đánh thức nằm ở trang thiết bị.",
     "aiSpace.resources.infrastructure": "Được đăng ký tự động",
     "aiSpace.resources.infrastructureCount": "Đã ẩn {count}",
     "aiSpace.resources.infrastructureHint": "Chúng cũng chạy quy trình, nhưng không ai cài đặt thủ công.",

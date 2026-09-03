@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "連結設備",
     "aiSpace.resources.equipmentHint": "工作流程會操作這些——機器人、攝影機、電梯。",
     "aiSpace.resources.healthTimeout": "健康逾時（毫秒）",
+    "aiSpace.resources.inertMachines": "這裡列出的機器不會有作用",
+    "aiSpace.resources.inertMachinesHint": "工作流程無法呼叫一台機器。請移除——喚醒機器在裝置頁。",
     "aiSpace.resources.infrastructure": "系統自動註冊",
     "aiSpace.resources.infrastructureCount": "已收起 {count} 台",
     "aiSpace.resources.infrastructureHint": "這些也會執行工作流程，但不是你手動安裝的。",

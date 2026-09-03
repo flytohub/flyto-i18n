@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Apparecchiature collegate",
     "aiSpace.resources.equipmentHint": "Un flusso di lavoro li comanda: un robot, una telecamera, un ascensore.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "Le macchine elencate qui non hanno effetto",
+    "aiSpace.resources.inertMachinesHint": "Un flusso di lavoro non può chiamare una macchina. Rimuovile: la riattivazione è nella pagina dispositivi.",
     "aiSpace.resources.infrastructure": "Registrati automaticamente",
     "aiSpace.resources.infrastructureCount": "{count} nascosti",
     "aiSpace.resources.infrastructureHint": "Anch'essi eseguono flussi di lavoro, ma nessuno li ha installati a mano.",

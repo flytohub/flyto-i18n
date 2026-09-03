@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "接続機器",
     "aiSpace.resources.equipmentHint": "ワークフローが操作する対象です — ロボット、カメラ、エレベーター。",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "ここに並ぶマシンは効果がありません",
+    "aiSpace.resources.inertMachinesHint": "ワークフローはマシンを呼び出せません。削除してください — 起動は「デバイス」ページです。",
     "aiSpace.resources.infrastructure": "自動登録",
     "aiSpace.resources.infrastructureCount": "{count} 件を折りたたみ",
     "aiSpace.resources.infrastructureHint": "これらもワークフローを実行しますが、手動で導入したものではありません。",

@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Equipos conectados",
     "aiSpace.resources.equipmentHint": "Un flujo de trabajo los comanda: un robot, una cámara, un ascensor.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "Los equipos listados aquí no tienen efecto",
+    "aiSpace.resources.inertMachinesHint": "Un flujo de trabajo no puede llamar a un equipo. Quítalos: despertarlos está en la página de dispositivos.",
     "aiSpace.resources.infrastructure": "Registrados automáticamente",
     "aiSpace.resources.infrastructureCount": "{count} ocultos",
     "aiSpace.resources.infrastructureHint": "También ejecutan flujos de trabajo, pero nadie los instaló a mano.",

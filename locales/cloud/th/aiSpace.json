@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "อุปกรณ์ที่เชื่อมต่อ",
     "aiSpace.resources.equipmentHint": "เวิร์กโฟลว์สั่งงานสิ่งเหล่านี้ — หุ่นยนต์ กล้อง ลิฟต์",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "เครื่องที่แสดงตรงนี้ไม่มีผล",
+    "aiSpace.resources.inertMachinesHint": "เวิร์กโฟลว์เรียกใช้เครื่องไม่ได้ กรุณาลบออก — การปลุกอยู่ที่หน้าอุปกรณ์",
     "aiSpace.resources.infrastructure": "ลงทะเบียนอัตโนมัติ",
     "aiSpace.resources.infrastructureCount": "ซ่อนไว้ {count} รายการ",
     "aiSpace.resources.infrastructureHint": "สิ่งเหล่านี้รันเวิร์กโฟลว์เช่นกัน แต่ไม่มีใครติดตั้งด้วยมือ",

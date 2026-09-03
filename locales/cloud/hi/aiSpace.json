@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "जुड़े हुए उपकरण",
     "aiSpace.resources.equipmentHint": "वर्कफ़्लो इन्हें कमांड करता है — रोबोट, कैमरा, लिफ़्ट।",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "यहाँ सूचीबद्ध मशीनों का कोई असर नहीं",
+    "aiSpace.resources.inertMachinesHint": "वर्कफ़्लो किसी मशीन को कॉल नहीं कर सकता। इन्हें हटाएँ — जगाना डिवाइस पेज पर है।",
     "aiSpace.resources.infrastructure": "स्वतः पंजीकृत",
     "aiSpace.resources.infrastructureCount": "{count} छिपे हुए",
     "aiSpace.resources.infrastructureHint": "ये भी वर्कफ़्लो चलाती हैं, पर इन्हें हाथ से इंस्टॉल नहीं किया गया।",

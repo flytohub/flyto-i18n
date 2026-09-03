@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Peralatan terhubung",
     "aiSpace.resources.equipmentHint": "Alur kerja memerintah ini — robot, kamera, lift.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "Mesin yang tercantum di sini tidak berpengaruh",
+    "aiSpace.resources.inertMachinesHint": "Alur kerja tidak bisa memanggil mesin. Hapus ini — membangunkannya ada di halaman perangkat.",
     "aiSpace.resources.infrastructure": "Terdaftar otomatis",
     "aiSpace.resources.infrastructureCount": "{count} disembunyikan",
     "aiSpace.resources.infrastructureHint": "Ini juga menjalankan alur kerja, tetapi tidak dipasang secara manual.",

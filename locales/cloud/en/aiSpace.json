@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Connected equipment",
     "aiSpace.resources.equipmentHint": "A workflow commands these — a robot, a camera, an elevator.",
     "aiSpace.resources.healthTimeout": "Health timeout (ms)",
+    "aiSpace.resources.inertMachines": "Machines listed here have no effect",
+    "aiSpace.resources.inertMachinesHint": "A workflow cannot call a machine. Remove these — waking them lives on the devices page.",
     "aiSpace.resources.infrastructure": "Registered automatically",
     "aiSpace.resources.infrastructureCount": "{count} hidden",
     "aiSpace.resources.infrastructureHint": "These run workflows too, but no one installed Flyto2 on them by hand.",

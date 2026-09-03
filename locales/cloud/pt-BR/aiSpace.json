@@ -359,6 +359,8 @@
     "aiSpace.resources.equipment": "Equipamentos conectados",
     "aiSpace.resources.equipmentHint": "Um fluxo de trabalho comanda estes — um robô, uma câmera, um elevador.",
     "aiSpace.resources.healthTimeout": "",
+    "aiSpace.resources.inertMachines": "As máquinas listadas aqui não têm efeito",
+    "aiSpace.resources.inertMachinesHint": "Um fluxo de trabalho não pode chamar uma máquina. Remova-as — acordá-las fica na página de dispositivos.",
     "aiSpace.resources.infrastructure": "Registrados automaticamente",
     "aiSpace.resources.infrastructureCount": "{count} ocultos",
     "aiSpace.resources.infrastructureHint": "Eles também executam fluxos de trabalho, mas ninguém os instalou à mão.",

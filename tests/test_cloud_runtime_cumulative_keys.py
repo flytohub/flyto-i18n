@@ -457,7 +457,18 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # heading with an OS string as the subtitle. `alsoEquipment` is the pair
     # that earns the split: the delivery robot is both, so it is labelled in
     # the machines list rather than made to choose.
-    assert english_total == 12_140
+    #
+    # +2: `aiSpace.resources.inertMachines*`. The resource picker stopped
+    # offering machines, because `device_ids` becomes `allowed_resources` and
+    # is matched against an endpoint's `resource_id` -- which is never a
+    # laptop, so a machine listed there opened nothing. A Space that already
+    # listed one still does, and these two say so rather than hiding an entry
+    # nobody could then remove.
+    #
+    # +5: `dashboardPage.devices.machines*` / `equipment*`. The same split on
+    # the dashboard, which is where a robot or a camera is actually managed --
+    # the AI Space tab only says which of them a Space may reach.
+    assert english_total == 12_147
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
