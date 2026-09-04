@@ -1,5 +1,8 @@
 # Tasks
 
+- [x] Add the official three-locale AI Space workflow-runner placement and War
+  Room dispatch contract, rebuild distributions, and pin source-to-runtime
+  parity.
 - [x] Move the Operations Room output-wall and management labels into reviewed
   source catalogs and pin their generated Cloud/aggregate bundle parity.
 

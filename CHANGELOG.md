@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-04 — AI Space runner placement and War Room dispatch copy
+
+- Added reviewed English, Traditional Chinese, and Simplified Chinese labels
+  for automatic or multi-machine workflow placement, runner availability,
+  save states, and the War Room's dispatchable-workflow inventory.
+- Kept workflow runners separate from hardware and adapter resources, and made
+  the copy explicit that War Room schedules while AI Space executes locally.
+- Rebuilt Cloud and aggregate runtime bundles and added source-ownership,
+  placeholder-parity, and generated-bundle regression coverage.
+
 ## 2026-08-26 — Code manager key prefix and Vendor Posture repair
 
 - Removed the erroneous leading `code.` from exactly the 131 Code manager

@@ -196,3 +196,16 @@ sitemap references, Open Graph locale mapping, and keyword-intent evidence in
 Reason: the three public Flyto2 surfaces need the same multilingual SEO
 contract. Keeping it here avoids stale per-site copies and lets translation,
 locale metadata, and public SEO planning evolve together.
+# 2026-09-04 - Workflow runners and commanded resources are separate
+
+Decision: localize workflow-to-machine placement under
+`aiSpace.resources.machineBindings.*`, independently from the resource or
+equipment inventory a workflow can observe or command. A workflow can allow
+multiple runner machines or use automatic capability-based placement. War Room
+copy describes global scheduling; AI Space copy describes the local supervisor
+that invokes or creates the workflow on the selected machine.
+
+Reason: treating a robot, camera, NAS endpoint, or adapter as the machine that
+runs a workflow collapses two different authority boundaries. Hardware must
+retain its own control logic and report refusal or obstruction, while the War
+Room may retry, reassign, wait, or abandon through the governed task loop.

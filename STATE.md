@@ -1,5 +1,25 @@
 # State
 
+Current state on 2026-09-04:
+
+- AI Space workflow-runner placement and War Room dispatch inventory now have
+  a source-owned 23-key contract in the official English, Traditional Chinese,
+  and Simplified Chinese Cloud catalogs. The copy distinguishes a machine that
+  may run a workflow from hardware or other resources that the workflow may
+  command.
+- Automatic placement remains available when no explicit runner allowlist is
+  configured; explicit bindings may include multiple machines. The War Room
+  wording describes global scheduling while AI Space retains local workflow
+  execution authority.
+- Focused regression coverage pins the exact key set, representative reviewed
+  copy, unique `aiSpace.json` ownership, placeholder parity, the existing
+  other-machine count, and source-to-Cloud-to-aggregate bundle equality.
+- `python3 scripts/build-dist.py` rebuilt the tracked Cloud and aggregate
+  distributions at 12,187 and 24,593 keys respectively for each official
+  locale. `.venv/bin/python scripts/validate.py --strict` validated 4,784 files
+  with zero errors, the focused contract passed all four tests, and the full
+  `npm run verify` pipeline passed all 105 tests.
+
 Current state on 2026-08-26:
 
 - The repository and CI use pytest 9.0.3, the first patched release for
