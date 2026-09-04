@@ -217,6 +217,8 @@
     "spaces.pair.pairWhen": "只有設備無法自行登入時，才需要使用配對碼。",
     "spaces.pair.subtitle": "連接無法自行註冊的機器。",
     "spaces.pair.title": "配對設備",
+    "spaces.schedule.holds": "它可以被要求執行：",
+    "spaces.schedule.rejectedBy": "這個 Space 無法執行這個目標：",
     "spaces.voice.blocked": "這個 Space 還無法接受目標",
     "spaces.voice.goal": "目標",
     "spaces.voice.listening": "聆聽中 — 送出前請確認文字",
