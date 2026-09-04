@@ -478,7 +478,26 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # runs for you, a host that answered "localhost". The heading was written
     # against a key that was never added, so the fold rendered its own fallback
     # while the sync check called it an orphan.
-    assert english_total == 12_146
+    #
+    # +5: `templateBuilder.aiChat.space*` / `*Tools`. The chat had no way to
+    # say which AI Space it was bound to, let alone change it — the binding was
+    # whichever folder happened to be selected on the page behind it. And a
+    # Space can hold verified workflows while exposing none of them as callable
+    # tools, which is the state that had the assistant answering "please
+    # confirm what you want" with an empty registry.
+    #
+    # +5: `aiSpace.workspace.publishAsTool*`. A workflow becomes callable by
+    # carrying an MCP trigger, and the only way to get one was to start a NEW
+    # workflow from the MCP starter — so twenty verified workflows in a folder
+    # could hand the assistant an empty registry, with the panel labelling them
+    # "MCP" because it admitted on a tag the backend never reads.
+    #
+    # +7: `aiSpace.workspace.asksFirst*` / `runsDirectly*`. Whether a workflow
+    # confirms before it runs was already a field on the trigger and was read
+    # by nothing -- it defaulted to the string "workflow-defined", which looks
+    # like a policy and means nobody chose. Unset now means ask, and this is
+    # where an operator says otherwise.
+    assert english_total == 12_163
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

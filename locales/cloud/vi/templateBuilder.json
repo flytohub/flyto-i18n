@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Hỏi AI để giúp workflow của bạn...",
+    "templateBuilder.aiChat.noSpace": "Không có Space — trợ lý chung",
+    "templateBuilder.aiChat.noTools": "Không có công cụ nào gọi được",
+    "templateBuilder.aiChat.noToolsHint": "Không quy trình nào trong Space này công bố trigger MCP, nên trợ lý không có gì để gọi.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Luồng đăng nhập",
     "templateBuilder.aiChat.quickScraper": "Trình thu thập",
     "templateBuilder.aiChat.quickValidation": "Xác thực",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Đã áp dụng workflow: {name}",
     "templateBuilder.aiChat.title": "Trợ lý AI",
+    "templateBuilder.aiChat.toolCount": "{count} công cụ",
     "templateBuilder.aiChat.welcomeFeature1": "Tạo các bước workflow",
     "templateBuilder.aiChat.welcomeFeature2": "Giải thích cấu hình module",
     "templateBuilder.aiChat.welcomeFeature3": "Đề xuất tối ưu hóa",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Tên",
     "templateBuilder.header.run": "Chạy",
     "templateBuilder.header.saveAsNew": "Lưu thành mới",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Cài đặt",
     "templateBuilder.header.stop": "Dừng",
     "templateBuilder.header.tidyNodes": "Sắp xếp lại nút",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Quay lại",
     "templateBuilder.toolbar.saveTemplate": "Lưu mẫu",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID mẫu (tiếng Anh)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Tên mẫu",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Tên mẫu"
   }
 }

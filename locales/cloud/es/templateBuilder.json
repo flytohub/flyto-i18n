@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Ocurrio un error. Por favor intenta de nuevo.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Pide a la IA que te ayude con tu flujo de trabajo...",
+    "templateBuilder.aiChat.noSpace": "Sin Space: asistente general",
+    "templateBuilder.aiChat.noTools": "Sin herramientas invocables",
+    "templateBuilder.aiChat.noToolsHint": "Ningún flujo de este Space publica un disparador MCP, así que el asistente no tiene nada que invocar.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Flujo de inicio de sesion",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validacion",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Flujo de trabajo aplicado: {name}",
     "templateBuilder.aiChat.title": "Asistente de IA",
+    "templateBuilder.aiChat.toolCount": "{count} herramientas",
     "templateBuilder.aiChat.welcomeFeature1": "Generar pasos de flujo de trabajo",
     "templateBuilder.aiChat.welcomeFeature2": "Explicar configuraciones de modulos",
     "templateBuilder.aiChat.welcomeFeature3": "Sugerir optimizaciones",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Nombre",
     "templateBuilder.header.run": "Ejecutar",
     "templateBuilder.header.saveAsNew": "Guardar como nuevo",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Configuracion",
     "templateBuilder.header.stop": "Detener",
     "templateBuilder.header.tidyNodes": "Ordenar nodos",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Volver",
     "templateBuilder.toolbar.saveTemplate": "Guardar plantilla",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID de plantilla (ingles)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Nombre de plantilla",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Nombre de plantilla"
   }
 }

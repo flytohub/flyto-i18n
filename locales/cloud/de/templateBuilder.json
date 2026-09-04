@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "Bitten Sie die KI um Hilfe bei Ihrem Workflow...",
+    "templateBuilder.aiChat.noSpace": "Kein Space – allgemeiner Assistent",
+    "templateBuilder.aiChat.noTools": "Keine aufrufbaren Tools",
+    "templateBuilder.aiChat.noToolsHint": "Kein Workflow in diesem Space veröffentlicht einen MCP-Trigger, also hat der Assistent nichts aufzurufen.",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Login-Ablauf",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validierung",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Workflow angewendet: {name}",
     "templateBuilder.aiChat.title": "KI-Assistent",
+    "templateBuilder.aiChat.toolCount": "{count} Tools",
     "templateBuilder.aiChat.welcomeFeature1": "Workflow-Schritte generieren",
     "templateBuilder.aiChat.welcomeFeature2": "Modulkonfigurationen erklären",
     "templateBuilder.aiChat.welcomeFeature3": "Optimierungen vorschlagen",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "Name",
     "templateBuilder.header.run": "Ausführen",
     "templateBuilder.header.saveAsNew": "Als neu speichern",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "Einstellungen",
     "templateBuilder.header.stop": "Stoppen",
     "templateBuilder.header.tidyNodes": "Knoten aufräumen",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "Zurück",
     "templateBuilder.toolbar.saveTemplate": "Vorlage speichern",
     "templateBuilder.toolbar.templateIdPlaceholder": "Vorlagen-ID (Englisch)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Vorlagenname",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "Vorlagenname"
   }
 }

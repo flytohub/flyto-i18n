@@ -13,14 +13,19 @@
     "templateBuilder.aiChat.errorGeneric": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง",
     "templateBuilder.aiChat.goToSettings": "Go To Settings",
     "templateBuilder.aiChat.inputPlaceholder": "ถาม AI เพื่อช่วยเหลือ workflow ของคุณ...",
+    "templateBuilder.aiChat.noSpace": "ไม่ระบุ Space — ผู้ช่วยทั่วไป",
+    "templateBuilder.aiChat.noTools": "ไม่มีเครื่องมือที่เรียกใช้ได้",
+    "templateBuilder.aiChat.noToolsHint": "ไม่มีเวิร์กโฟลว์ใดใน Space นี้เผยแพร่ทริกเกอร์ MCP ผู้ช่วยจึงไม่มีอะไรให้เรียกใช้",
     "templateBuilder.aiChat.notConfigured": "Not Configured",
     "templateBuilder.aiChat.quickLoginFlow": "Flow ล็อกอิน",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "การตรวจสอบ",
     "templateBuilder.aiChat.setupDesc": "Setup Desc",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
+    "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "ใช้ workflow แล้ว: {name}",
     "templateBuilder.aiChat.title": "ผู้ช่วย AI",
+    "templateBuilder.aiChat.toolCount": "{count} เครื่องมือ",
     "templateBuilder.aiChat.welcomeFeature1": "สร้างขั้นตอน workflow",
     "templateBuilder.aiChat.welcomeFeature2": "อธิบายการตั้งค่าโมดูล",
     "templateBuilder.aiChat.welcomeFeature3": "แนะนำการปรับปรุง",
@@ -80,6 +85,7 @@
     "templateBuilder.header.nameLabel": "ชื่อ",
     "templateBuilder.header.run": "รัน",
     "templateBuilder.header.saveAsNew": "บันทึกเป็นใหม่",
+    "templateBuilder.header.saveOptions": "",
     "templateBuilder.header.settings": "การตั้งค่า",
     "templateBuilder.header.stop": "หยุด",
     "templateBuilder.header.tidyNodes": "จัดระเบียบโหนด",
@@ -306,7 +312,6 @@
     "templateBuilder.toolbar.back": "กลับ",
     "templateBuilder.toolbar.saveTemplate": "บันทึกเทมเพลต",
     "templateBuilder.toolbar.templateIdPlaceholder": "ID เทมเพลต (ภาษาอังกฤษ)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "ชื่อเทมเพลต",
-    "templateBuilder.header.saveOptions": ""
+    "templateBuilder.toolbar.templateNamePlaceholder": "ชื่อเทมเพลต"
   }
 }
