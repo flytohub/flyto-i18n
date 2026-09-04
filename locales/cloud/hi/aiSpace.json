@@ -392,6 +392,7 @@
     "aiSpace.resources.shareable": "",
     "aiSpace.resources.targetSpace": "",
     "aiSpace.resources.workflow": "",
+    "aiSpace.selection.elsewhere": "{count} अन्य डिवाइस पर",
     "aiSpace.selection.empty": "",
     "aiSpace.selection.failClosed": "",
     "aiSpace.selection.memoryRanked": "",

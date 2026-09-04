@@ -392,6 +392,7 @@
     "aiSpace.resources.shareable": "May share concurrent tasks",
     "aiSpace.resources.targetSpace": "Target Space ID",
     "aiSpace.resources.workflow": "Verified workflow",
+    "aiSpace.selection.elsewhere": "{count} on other devices",
     "aiSpace.selection.empty": "No executable workflow",
     "aiSpace.selection.failClosed": "Unregistered capabilities are blocked",
     "aiSpace.selection.memoryRanked": "Memory-ranked",
