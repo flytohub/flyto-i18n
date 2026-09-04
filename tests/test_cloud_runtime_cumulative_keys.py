@@ -510,7 +510,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # than conflating it with hardware or adapters the workflow COMMANDS. They
     # also distinguish automatic capability placement from a multi-machine
     # allowlist and expose refused workflows in the scheduler inventory.
-    assert english_total == 12_187
+    #
+    # +2: `spaces.schedule.rejectedBy` / `holds`. The refusal an operator met
+    # was "This Space cannot carry out that goal: plan_empty" -- never
+    # translated, and untrue over a Space holding two working workflows the
+    # goal had not named exactly. The second key is what it does hold, so the
+    # next attempt is an exact match rather than a guess.
+    assert english_total == 12_189
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -217,6 +217,8 @@
     "spaces.pair.pairWhen": "Use a pairing code only when a device cannot sign in on its own.",
     "spaces.pair.subtitle": "Connect a machine that cannot register itself.",
     "spaces.pair.title": "Pair a device",
+    "spaces.schedule.holds": "It can be asked for:",
+    "spaces.schedule.rejectedBy": "This Space cannot carry out that goal:",
     "spaces.voice.blocked": "This Space is not ready to accept a goal yet",
     "spaces.voice.goal": "Goal",
     "spaces.voice.listening": "Listening — review the text before sending",

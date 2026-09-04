@@ -217,6 +217,8 @@
     "spaces.pair.pairWhen": "只有设备无法自行登录时，才需要使用配对码。",
     "spaces.pair.subtitle": "连接无法自行注册的机器。",
     "spaces.pair.title": "配对设备",
+    "spaces.schedule.holds": "它可以被要求执行：",
+    "spaces.schedule.rejectedBy": "这个 Space 无法执行这个目标：",
     "spaces.voice.blocked": "这个 Space 还无法接受目标",
     "spaces.voice.goal": "目标",
     "spaces.voice.listening": "聆听中 — 发送前请确认文字",
