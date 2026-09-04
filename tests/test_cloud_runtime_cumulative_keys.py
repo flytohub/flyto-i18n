@@ -491,7 +491,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # workflow from the MCP starter — so twenty verified workflows in a folder
     # could hand the assistant an empty registry, with the panel labelling them
     # "MCP" because it admitted on a tag the backend never reads.
-    assert english_total == 12_156
+    #
+    # +7: `aiSpace.workspace.asksFirst*` / `runsDirectly*`. Whether a workflow
+    # confirms before it runs was already a field on the trigger and was read
+    # by nothing -- it defaulted to the string "workflow-defined", which looks
+    # like a policy and means nobody chose. Unset now means ask, and this is
+    # where an operator says otherwise.
+    assert english_total == 12_163
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
