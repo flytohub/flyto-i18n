@@ -392,6 +392,7 @@
     "aiSpace.resources.shareable": "允許多個任務共用",
     "aiSpace.resources.targetSpace": "目標 Space ID",
     "aiSpace.resources.workflow": "已驗證工作流程",
+    "aiSpace.selection.elsewhere": "{count} 個在其他設備",
     "aiSpace.selection.empty": "沒有可執行流程",
     "aiSpace.selection.failClosed": "未註冊能力一律阻擋",
     "aiSpace.selection.memoryRanked": "依核准記憶排序",

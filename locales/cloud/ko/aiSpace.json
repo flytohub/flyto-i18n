@@ -392,6 +392,7 @@
     "aiSpace.resources.shareable": "",
     "aiSpace.resources.targetSpace": "",
     "aiSpace.resources.workflow": "",
+    "aiSpace.selection.elsewhere": "다른 기기에 {count}개",
     "aiSpace.selection.empty": "",
     "aiSpace.selection.failClosed": "",
     "aiSpace.selection.memoryRanked": "",

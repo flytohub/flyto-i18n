@@ -497,7 +497,14 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # by nothing -- it defaulted to the string "workflow-defined", which looks
     # like a policy and means nobody chose. Unset now means ask, and this is
     # where an operator says otherwise.
-    assert english_total == 12_163
+    #
+    # +1: `aiSpace.selection.elsewhere`. The selection panel's total now counts
+    # the workflows the machine serving the turn was never offered -- ones whose
+    # steps need motion, vision or sensing, so they belong to a robot, a camera
+    # or another computer. That made "2 of 2" honest again by turning it into
+    # "2 of 5", and on its own an honest number reads like an accusation against
+    # the shortlist. This is the rest of the sentence.
+    assert english_total == 12_164
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
