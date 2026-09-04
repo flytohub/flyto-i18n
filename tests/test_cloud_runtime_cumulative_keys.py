@@ -504,7 +504,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # or another computer. That made "2 of 2" honest again by turning it into
     # "2 of 5", and on its own an honest number reads like an accusation against
     # the shortlist. This is the rest of the sentence.
-    assert english_total == 12_164
+    #
+    # +23: workflow runner placement and War Room dispatch inventory. These
+    # labels make the machine that RUNS a workflow an explicit relation rather
+    # than conflating it with hardware or adapters the workflow COMMANDS. They
+    # also distinguish automatic capability placement from a multi-machine
+    # allowlist and expose refused workflows in the scheduler inventory.
+    assert english_total == 12_187
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
