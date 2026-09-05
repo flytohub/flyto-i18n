@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "en",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "Audit Cadence Value",
     "agentFirewall.manager.framework.internalAuditDetail": "Internal Audit Detail",
@@ -5837,6 +5837,7 @@
     "code.nav.auditTimeline": "Audit Timeline",
     "code.nav.autofix": "AutoFix",
     "code.nav.brandProtection": "Brand Protection",
+    "code.nav.brandSection": "Brand protection",
     "code.nav.breadcrumbLabel": "Breadcrumb",
     "code.nav.capabilities": "Capabilities",
     "code.nav.cloud": "Cloud",

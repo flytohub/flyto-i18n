@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ko",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -5837,6 +5837,7 @@
     "code.nav.auditTimeline": "",
     "code.nav.autofix": "자동 수정",
     "code.nav.brandProtection": "",
+    "code.nav.brandSection": "브랜드 보호",
     "code.nav.breadcrumbLabel": "탐색 경로",
     "code.nav.capabilities": "기능",
     "code.nav.cloud": "클라우드",
