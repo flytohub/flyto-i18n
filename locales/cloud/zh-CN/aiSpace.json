@@ -606,6 +606,14 @@
     "aiSpace.workspace.verifiedFlows": "已验证流程",
     "aiSpace.workspace.workflow": "工作流",
     "aiSpace.workspace.workflowSummary": "此 Space 可使用的可重复动作和 MCP 工具。",
-    "aiSpace.workspace.workflows": "工作流"
+    "aiSpace.workspace.workflows": "工作流",
+    "aiSpace.resources.dispatchRules.title": "派工规则",
+    "aiSpace.resources.dispatchRules.hint": "作战室把工作派给哪一台机器、以及派出去之后要不要等你按启动，由这里决定。",
+    "aiSpace.resources.dispatchRules.onlineOnly": "只派给在线的机器",
+    "aiSpace.resources.dispatchRules.onlineOnlyHint": "关闭时，离线的机器也会被排进候选，工作可能派给一台不在的机器而卡住。",
+    "aiSpace.resources.dispatchRules.approvedOnly": "只派给你核准过能力的机器",
+    "aiSpace.resources.dispatchRules.approvedOnlyHint": "机器自己声明的能力，要经过你在「能力」核准后才算数。",
+    "aiSpace.resources.dispatchRules.autoStart": "送出目标后自动启动",
+    "aiSpace.resources.dispatchRules.autoStartHint": "关闭时，作战室排好步骤后会等你在任务里按「启动」。"
   }
 }

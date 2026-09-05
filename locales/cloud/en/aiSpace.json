@@ -606,6 +606,14 @@
     "aiSpace.workspace.verifiedFlows": "Verified flows",
     "aiSpace.workspace.workflow": "Workflow",
     "aiSpace.workspace.workflowSummary": "Reusable actions and MCP tools exposed in this Space.",
-    "aiSpace.workspace.workflows": "Workflows"
+    "aiSpace.workspace.workflows": "Workflows",
+    "aiSpace.resources.dispatchRules.title": "Dispatch rules",
+    "aiSpace.resources.dispatchRules.hint": "Which machine the War Room hands work to, and whether it waits for you to press Start once it has.",
+    "aiSpace.resources.dispatchRules.onlineOnly": "Only machines that are online",
+    "aiSpace.resources.dispatchRules.onlineOnlyHint": "When off, machines that are offline stay in the running, and a job can be handed to one that is not there.",
+    "aiSpace.resources.dispatchRules.approvedOnly": "Only capabilities you have approved",
+    "aiSpace.resources.dispatchRules.approvedOnlyHint": "A capability a machine declares about itself counts only after you approve it under Capabilities.",
+    "aiSpace.resources.dispatchRules.autoStart": "Start as soon as a goal is sent",
+    "aiSpace.resources.dispatchRules.autoStartHint": "When off, the War Room schedules the steps and waits for you to press Start on the task."
   }
 }
