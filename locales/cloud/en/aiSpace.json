@@ -618,6 +618,18 @@
     "aiSpace.resources.dispatchRules.replanWithAi": "Let your AI re-plan when a step fails",
     "aiSpace.resources.dispatchRules.replanWithAiHint": "When a step fails and no other machine can take it, your own AI is asked to plan the rest of the goal from what is done, what failed and this Space's tools; a missing tool is named, never invented.",
     "aiSpace.resources.dispatchRules.keepBrowser": "Keep the browser open after a job",
-    "aiSpace.resources.dispatchRules.keepBrowserHint": "When off, a machine closes the browser a dispatched job opened as soon as the job is done. When on, it stays open, as it does for the chat window."
+    "aiSpace.resources.dispatchRules.keepBrowserHint": "When off, a machine closes the browser a dispatched job opened as soon as the job is done. When on, it stays open, as it does for the chat window.",
+    "aiSpace.resources.dispatchRules.exactMatchActuatingOnly": "Only commands that act may be sent by name",
+    "aiSpace.resources.dispatchRules.exactMatchActuatingOnlyHint": "When off, a read-only workflow (say, one that only reads the calendar) can be sent from the War Room by typing its exact name.",
+    "aiSpace.resources.dispatchRules.assembleWithAi": "Let the machine's AI assemble a missing tool",
+    "aiSpace.resources.dispatchRules.assembleWithAiHint": "When a goal the War Room hands to a machine has no ready workflow in this Space, that machine's AI Space assembles it from flyto-core modules, runs it and reports back; when off it only reports what is missing.",
+    "aiSpace.resources.dispatchRules.onBlock": "When a machine reports a real block",
+    "aiSpace.resources.dispatchRules.onBlockHint": "The machine says this cannot be done here and would not work elsewhere either: abandon the mission, or first try the next machine with the same capability.",
+    "aiSpace.resources.dispatchRules.onBlockNextResource": "Hand to the next capable machine",
+    "aiSpace.resources.dispatchRules.onBlockAbandon": "Abandon this mission",
+    "aiSpace.resources.dispatchRules.aiTaskMaxRounds": "Rounds a machine's AI may spend on a task",
+    "aiSpace.resources.dispatchRules.aiTaskMaxRoundsHint": "A round is one tool call; past this the task fails with the AI's last word attached.",
+    "aiSpace.resources.dispatchRules.aiTaskMaxSeconds": "Seconds a machine's AI may spend on a task",
+    "aiSpace.resources.dispatchRules.aiTaskMaxSecondsHint": "Past this the task fails; the War Room's stall detector waits this long too."
   }
 }

@@ -618,6 +618,18 @@
     "aiSpace.resources.dispatchRules.replanWithAi": "步驟失敗時讓你的 AI 重新規劃",
     "aiSpace.resources.dispatchRules.replanWithAiHint": "某一步失敗、又沒有其他機器接得了時，把已完成的部分、失敗原因和這個 Space 的工具清單交給你設定的 AI 規劃剩下的步驟；缺工具就明講，不會亂編。",
     "aiSpace.resources.dispatchRules.keepBrowser": "任務完成後保留瀏覽器",
-    "aiSpace.resources.dispatchRules.keepBrowserHint": "關閉時，作戰室派出去的任務一結束，機器就把它開的瀏覽器關掉；開啟時保留，跟聊天視窗的行為一樣。"
+    "aiSpace.resources.dispatchRules.keepBrowserHint": "關閉時，作戰室派出去的任務一結束，機器就把它開的瀏覽器關掉；開啟時保留，跟聊天視窗的行為一樣。",
+    "aiSpace.resources.dispatchRules.exactMatchActuatingOnly": "只有會動作的流程可以用名字指名派出",
+    "aiSpace.resources.dispatchRules.exactMatchActuatingOnlyHint": "關閉時，唯讀的流程（例如只查看行事曆）也能在作戰室輸入它的名字直接派出。",
+    "aiSpace.resources.dispatchRules.assembleWithAi": "缺工具時讓機器的 AI 自己組裝",
+    "aiSpace.resources.dispatchRules.assembleWithAiHint": "作戰室交給某台機器的目標，如果這個 Space 沒有現成流程能做到，這台機器的 AI Space 會用 flyto-core 模組自己組裝、跑完、回報；關閉時只會回報缺什麼。",
+    "aiSpace.resources.dispatchRules.onBlock": "機器回報被擋死時",
+    "aiSpace.resources.dispatchRules.onBlockHint": "機器說「這裡做不到、換別台也一樣」時，作戰室要放棄這次任務，還是先試著交給下一台有同樣能力的機器。",
+    "aiSpace.resources.dispatchRules.onBlockNextResource": "交給下一台能做的",
+    "aiSpace.resources.dispatchRules.onBlockAbandon": "放棄這次任務",
+    "aiSpace.resources.dispatchRules.aiTaskMaxRounds": "交給機器 AI 的任務最多幾輪",
+    "aiSpace.resources.dispatchRules.aiTaskMaxRoundsHint": "一輪就是 AI 呼叫一次工具；超過就以失敗回報，附上它最後的說法。",
+    "aiSpace.resources.dispatchRules.aiTaskMaxSeconds": "交給機器 AI 的任務最多幾秒",
+    "aiSpace.resources.dispatchRules.aiTaskMaxSecondsHint": "超過就以失敗回報；作戰室的卡住偵測也用這個數字等它。"
   }
 }

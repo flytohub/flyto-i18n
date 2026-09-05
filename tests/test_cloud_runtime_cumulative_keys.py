@@ -526,7 +526,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # browser open; a failed step sat at "waiting" for good. Whether the machine
     # keeps the browser and whether the operator's AI may re-plan are the
     # Space's to set, and these are the words on those switches.
-    assert english_total == 12_201
+    #
+    # +12: the dispatch rules that make the War Room a dispatcher and not a
+    # runner. Whether a read-only workflow may be sent by name, whether a
+    # machine's AI may assemble a missing tool, what the room does when a
+    # machine reports a real block, and how many rounds and seconds a task
+    # handed to a machine's AI may spend. All the Space's to set.
+    assert english_total == 12_213
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
