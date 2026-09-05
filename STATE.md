@@ -1,5 +1,20 @@
 # State
 
+Current state on 2026-09-06:
+
+- AI Firewall operational workspaces have a source-owned 57-key contract in
+  all 16 Code locales. English and Traditional Chinese contain reviewed copy;
+  the other 14 locales explicitly carry English fallback text for these new
+  keys. No claim of reviewed translation is made for those fallback locales.
+- The wording distinguishes recorded decisions from current-policy replay,
+  authorization from completed execution, use-case approval from held-call
+  authorization, and reference scenarios from successful evaluations.
+- Code and aggregate distributions were rebuilt. `npm run verify` passed
+  107 tests and 2,702 subtests; strict source validation passed all 4,784
+  catalogs. The focused workspace distribution contract passed two tests and
+  strict Indexer verification passed all 19 checks. Deploy the matching
+  i18n distribution before the consumer frontend in the coordinated batch.
+
 Current state on 2026-09-04:
 
 - AI Space workflow-runner placement and War Room dispatch inventory now have
