@@ -1,5 +1,16 @@
 # State
 
+## 2026-09-06 - Product Verification platform catalog
+
+- Added 94 source-owned Code keys for suites, environments, adapters, runs,
+  evidence, cancellation, retry, and all eight verification outcomes.
+- English, Traditional Chinese, and Simplified Chinese copy is reviewed;
+  the remaining 13 catalogs use explicit English fallback text.
+- Full `npm run verify` passed: 4,800 catalog files validated with no errors,
+  105 tests and 2,702 subtests passed, and distributions rebuilt.
+- Frontend consumption and deployed acceptance remain in the Product
+  Verification implementation task. No public publication was performed.
+
 Current state on 2026-09-04:
 
 - AI Space workflow-runner placement and War Room dispatch inventory now have
