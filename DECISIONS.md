@@ -1,5 +1,15 @@
 # Decisions
 
+## 2026-09-06 — Adoption research copy preserves evidence boundaries
+
+Decision: own the additive `adoption.research.*` namespace in a separate Code
+source catalog for every locale. Evidence assertions, AI hypotheses and public
+advisory candidates each retain distinct labels. No copy implies that an
+assertion executed repository code or that a candidate proves exploitability.
+
+Reason: researchers must be able to tell observations, interpretation and
+actual execution apart before making an adoption or disclosure decision.
+
 ## 2026-08-24 - Verification must collect function-style contracts
 
 Decision: the npm test command uses pytest rather than unittest discovery,
