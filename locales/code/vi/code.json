@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "vi",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -5870,6 +5870,7 @@
     "code.nav.mcp": "",
     "code.nav.members": "Thành viên",
     "code.nav.mitigations": "",
+    "code.nav.modulesSection": "Mô-đun",
     "code.nav.more": "Thêm",
     "code.nav.operations": "",
     "code.nav.operationsSection": "",

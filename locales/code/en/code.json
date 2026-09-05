@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "en",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "Audit Cadence Value",
     "agentFirewall.manager.framework.internalAuditDetail": "Internal Audit Detail",
@@ -5870,6 +5870,7 @@
     "code.nav.mcp": "MCP Security",
     "code.nav.members": "Members",
     "code.nav.mitigations": "Mitigations",
+    "code.nav.modulesSection": "Modules",
     "code.nav.more": "More",
     "code.nav.operations": "Operations",
     "code.nav.operationsSection": "Operations",

@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ko",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -5870,6 +5870,7 @@
     "code.nav.mcp": "",
     "code.nav.members": "멤버",
     "code.nav.mitigations": "",
+    "code.nav.modulesSection": "모듈",
     "code.nav.more": "더 보기",
     "code.nav.operations": "",
     "code.nav.operationsSection": "",

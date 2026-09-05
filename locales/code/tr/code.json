@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "tr",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -5870,6 +5870,7 @@
     "code.nav.mcp": "",
     "code.nav.members": "Üyeler",
     "code.nav.mitigations": "",
+    "code.nav.modulesSection": "Modüller",
     "code.nav.more": "Daha Fazla",
     "code.nav.operations": "",
     "code.nav.operationsSection": "",

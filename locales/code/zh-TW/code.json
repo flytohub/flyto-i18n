@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-TW",
-  "total_keys": 10238,
+  "total_keys": 10239,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -5870,6 +5870,7 @@
     "code.nav.mcp": "MCP 安全",
     "code.nav.members": "成員",
     "code.nav.mitigations": "補償控制",
+    "code.nav.modulesSection": "模組",
     "code.nav.more": "更多",
     "code.nav.operations": "維運",
     "code.nav.operationsSection": "維運",
