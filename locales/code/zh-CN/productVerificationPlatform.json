@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-CN",
-  "total_keys": 94,
+  "total_keys": 103,
   "translations": {
     "productVerification.platform.title": "产品验证",
     "productVerification.platform.summary": "建立可重复执行的检查，在核准环境执行并查看证据。",
@@ -97,7 +97,16 @@
     "productVerification.platform.validationError": "请填写所有必填字段并提供有效的成功条件。",
     "productVerification.platform.readOnly": "您的角色可查看验证数据，但无法修改或运行。",
     "productVerification.platform.caseCount": "{count} 个用例",
-    "productVerification.platform.versionLabel": "版本 {version}"
+    "productVerification.platform.versionLabel": "版本 {version}",
+    "productVerification.platform.addAssertion": "新增成功条件",
+    "productVerification.platform.removeAssertion": "移除条件",
+    "productVerification.platform.arguments": "查询参数（JSON）",
+    "productVerification.platform.actions": "浏览器操作（JSON）",
+    "productVerification.platform.requestBody": "请求内容（JSON）",
+    "productVerification.platform.addQuery": "新增批准查询",
+    "productVerification.platform.removeConnection": "移除连接",
+    "productVerification.platform.attemptLabel": "第 {attempt} 次尝试",
+    "productVerification.platform.observedValue": "实际观测值"
   },
   "version": "1.0.0"
 }

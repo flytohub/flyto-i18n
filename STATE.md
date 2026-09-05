@@ -2,7 +2,7 @@
 
 ## 2026-09-06 - Product Verification platform catalog
 
-- Added 94 source-owned Code keys for suites, environments, adapters, runs,
+- Added 103 source-owned Code keys for suites, environments, adapters, runs,
   evidence, cancellation, retry, and all eight verification outcomes.
 - English, Traditional Chinese, and Simplified Chinese copy is reviewed;
   the remaining 13 catalogs use explicit English fallback text.
@@ -10,6 +10,8 @@
   105 tests and 2,702 subtests passed, and distributions rebuilt.
 - Frontend consumption and deployed acceptance remain in the Product
   Verification implementation task. No public publication was performed.
+- The initial 94-key distribution passed full validation; nine editor and
+  evidence labels are being regenerated and verified in bounded locale batches.
 
 Current state on 2026-09-04:
 

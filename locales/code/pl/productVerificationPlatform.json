@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "pl",
-  "total_keys": 94,
+  "total_keys": 103,
   "translations": {
     "productVerification.platform.title": "Product Verification",
     "productVerification.platform.summary": "Define repeatable checks, run them in an approved environment, and inspect the evidence.",
@@ -97,7 +97,16 @@
     "productVerification.platform.validationError": "Complete all required fields and provide valid success criteria.",
     "productVerification.platform.readOnly": "Your role can inspect verification data but cannot change or execute it.",
     "productVerification.platform.caseCount": "{count} cases",
-    "productVerification.platform.versionLabel": "Version {version}"
+    "productVerification.platform.versionLabel": "Version {version}",
+    "productVerification.platform.addAssertion": "Add success criterion",
+    "productVerification.platform.removeAssertion": "Remove criterion",
+    "productVerification.platform.arguments": "Query arguments (JSON)",
+    "productVerification.platform.actions": "Browser actions (JSON)",
+    "productVerification.platform.requestBody": "Request body (JSON)",
+    "productVerification.platform.addQuery": "Add approved query",
+    "productVerification.platform.removeConnection": "Remove connection",
+    "productVerification.platform.attemptLabel": "Attempt {attempt}",
+    "productVerification.platform.observedValue": "Observed value"
   },
   "version": "1.0.0"
 }
