@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-06 — Clear verification and priority states
+
+- Distinguished verified target ownership from verified Red Team results in
+  English and Traditional Chinese. Ready ownership is not attack evidence.
+- Shortened the priority window disclosure and restored its missing
+  Traditional Chinese translation, preserving both count placeholders.
+
 ## 2026-09-04 — AI Space runner placement and War Room dispatch copy
 
 - Added reviewed English, Traditional Chinese, and Simplified Chinese labels

@@ -1,5 +1,5 @@
 {
-  "version": "bbbcc264e75b",
+  "version": "ce41ec059043",
   "locales": {
     "de": {
       "name": "German",
@@ -141,7 +141,7 @@
       "native": "繁體中文",
       "region": "TW",
       "total_keys": 24900,
-      "translated_keys": 24305,
+      "translated_keys": 24306,
       "completion": 97.6,
       "files_merged": 299
     }
