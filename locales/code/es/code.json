@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "es",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "Aprobar escaneo activo",
     "code.verdict.readinessBlocked": "Un ejercicio de red team exige demostrar antes la propiedad del dominio, así que estos recuentos seguirán en cero hasta que exista un registro DNS TXT: {domains}",
+    "code.verdict.readinessNeedsApproval": "Todos los dominios objetivo están verificados. El escaneo activo aún necesita una aprobación de active_dast; hasta entonces el ejecutor de red team no envía tráfico.",
     "code.verdict.readinessReady": "Todos los objetivos están verificados. Ejecuta un ejercicio de red team y estos recuentos empezarán a moverse.",
     "code.verdict.readinessRunCta": "Ejecutar un ejercicio de red team",
     "code.verdict.readinessTargetsCta": "Ver objetivos",

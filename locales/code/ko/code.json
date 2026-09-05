@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ko",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "능동 스캔 승인",
     "code.verdict.readinessBlocked": "레드팀 훈련은 대상의 도메인 소유권 증명이 필요합니다. DNS TXT 레코드를 추가하기 전까지 이 수치는 0으로 유지됩니다: {domains}",
+    "code.verdict.readinessNeedsApproval": "모든 대상 도메인이 검증되었습니다. 능동 스캔에는 active_dast 승인이 아직 필요하며, 그전까지 레드팀 러너는 트래픽을 보내지 않습니다.",
     "code.verdict.readinessReady": "모든 대상이 검증되었습니다. 레드팀 훈련을 실행하면 수치가 움직이기 시작합니다.",
     "code.verdict.readinessRunCta": "레드팀 훈련 실행",
     "code.verdict.readinessTargetsCta": "대상 보기",

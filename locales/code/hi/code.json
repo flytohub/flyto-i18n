@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "hi",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "सक्रिय स्कैन स्वीकृत करें",
     "code.verdict.readinessBlocked": "रेड-टीम अभ्यास के लिए पहले डोमेन स्वामित्व सिद्ध करना ज़रूरी है, इसलिए DNS TXT रिकॉर्ड जुड़ने तक ये संख्याएँ शून्य रहेंगी: {domains}",
+    "code.verdict.readinessNeedsApproval": "सभी लक्ष्य डोमेन सत्यापित हैं। सक्रिय स्कैन के लिए अभी भी active_dast अनुमोदन चाहिए — तब तक रेड-टीम रनर कोई ट्रैफ़िक नहीं भेजता।",
     "code.verdict.readinessReady": "सभी लक्ष्य सत्यापित हैं। एक रेड-टीम अभ्यास चलाएँ और ये संख्याएँ बदलने लगेंगी।",
     "code.verdict.readinessRunCta": "रेड-टीम अभ्यास चलाएँ",
     "code.verdict.readinessTargetsCta": "लक्ष्य देखें",

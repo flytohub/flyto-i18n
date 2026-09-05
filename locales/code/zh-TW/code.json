@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-TW",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "判定如何達成",
     "code.verdict.noTrend": "歷史尚不足以繪製趨勢",
     "code.verdict.pathResolutionTrend": "路徑解決趨勢",
+    "code.verdict.readinessApproveCta": "核准主動掃描",
     "code.verdict.readinessBlocked": "紅隊演練需要目標先證明網域所有權，所以在補上 DNS TXT 記錄之前，這些數字會一直是零：{domains}",
+    "code.verdict.readinessNeedsApproval": "所有目標網域皆已驗證。主動掃描還需要一筆已核准的 active_dast 同意紀錄——在那之前紅隊 runner 不會發出任何流量。",
     "code.verdict.readinessReady": "所有目標都已驗證。執行一次紅隊演練，這些數字就會開始變動。",
     "code.verdict.readinessRunCta": "執行紅隊演練",
     "code.verdict.readinessTargetsCta": "查看目標",

@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "th",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "อนุมัติการสแกนเชิงรุก",
     "code.verdict.readinessBlocked": "การซ้อมทีมแดงต้องพิสูจน์ความเป็นเจ้าของโดเมนก่อน ตัวเลขเหล่านี้จะเป็นศูนย์จนกว่าจะมีเรกคอร์ด DNS TXT: {domains}",
+    "code.verdict.readinessNeedsApproval": "โดเมนเป้าหมายทั้งหมดผ่านการยืนยันแล้ว การสแกนเชิงรุกยังต้องมีการอนุมัติ active_dast — จนกว่าจะมี ตัวรันเรดทีมจะไม่ส่งทราฟฟิก",
     "code.verdict.readinessReady": "ทุกเป้าหมายผ่านการตรวจสอบแล้ว เริ่มการซ้อมทีมแดงแล้วตัวเลขจะเริ่มเปลี่ยน",
     "code.verdict.readinessRunCta": "เริ่มการซ้อมทีมแดง",
     "code.verdict.readinessTargetsCta": "ดูเป้าหมาย",

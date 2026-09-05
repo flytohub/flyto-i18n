@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "de",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "Scan-Freigabe erteilen",
     "code.verdict.readinessBlocked": "Eine Red-Team-Übung setzt den Nachweis der Domain-Inhaberschaft voraus. Bis ein DNS-TXT-Eintrag vorliegt, bleiben diese Zahlen bei null: {domains}",
+    "code.verdict.readinessNeedsApproval": "Alle Zieldomains sind verifiziert. Aktive Scans benötigen noch eine Freigabe für active_dast — bis dahin sendet der Red-Team-Runner keinen Traffic.",
     "code.verdict.readinessReady": "Alle Ziele sind verifiziert. Starten Sie eine Red-Team-Übung, dann bewegen sich diese Zahlen.",
     "code.verdict.readinessRunCta": "Red-Team-Übung starten",
     "code.verdict.readinessTargetsCta": "Ziele ansehen",

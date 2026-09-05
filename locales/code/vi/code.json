@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "vi",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "Phê duyệt quét chủ động",
     "code.verdict.readinessBlocked": "Diễn tập red team yêu cầu mục tiêu chứng minh quyền sở hữu tên miền trước, nên các số liệu này sẽ luôn là 0 cho đến khi có bản ghi DNS TXT: {domains}",
+    "code.verdict.readinessNeedsApproval": "Mọi miền mục tiêu đã được xác minh. Quét chủ động vẫn cần một phê duyệt active_dast — trước đó, trình chạy red team không gửi lưu lượng nào.",
     "code.verdict.readinessReady": "Tất cả mục tiêu đã được xác minh. Chạy một buổi diễn tập red team và các số liệu sẽ bắt đầu thay đổi.",
     "code.verdict.readinessRunCta": "Chạy diễn tập red team",
     "code.verdict.readinessTargetsCta": "Xem mục tiêu",

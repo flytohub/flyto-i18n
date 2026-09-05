@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "id",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "Setujui pemindaian aktif",
     "code.verdict.readinessBlocked": "Latihan red team memerlukan bukti kepemilikan domain lebih dulu, jadi angka-angka ini tetap nol sampai ada catatan DNS TXT: {domains}",
+    "code.verdict.readinessNeedsApproval": "Semua domain target sudah terverifikasi. Pemindaian aktif masih memerlukan persetujuan active_dast — sampai itu ada, runner red team tidak mengirim trafik.",
     "code.verdict.readinessReady": "Semua target sudah terverifikasi. Jalankan latihan red team dan angka-angka ini mulai bergerak.",
     "code.verdict.readinessRunCta": "Jalankan latihan red team",
     "code.verdict.readinessTargetsCta": "Lihat target",

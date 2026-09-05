@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "fr",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "Approuver l’analyse active",
     "code.verdict.readinessBlocked": "Un exercice red team exige d'abord la preuve de propriété du domaine : ces compteurs resteront à zéro tant qu'un enregistrement DNS TXT n'est pas en place : {domains}",
+    "code.verdict.readinessNeedsApproval": "Tous les domaines cibles sont vérifiés. L’analyse active nécessite encore une approbation active_dast — jusque-là, le red team n’envoie aucun trafic.",
     "code.verdict.readinessReady": "Toutes les cibles sont vérifiées. Lancez un exercice red team et ces compteurs commenceront à bouger.",
     "code.verdict.readinessRunCta": "Lancer un exercice red team",
     "code.verdict.readinessTargetsCta": "Voir les cibles",

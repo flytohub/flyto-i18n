@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "pt-BR",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "",
     "code.verdict.noTrend": "",
     "code.verdict.pathResolutionTrend": "",
+    "code.verdict.readinessApproveCta": "Aprovar varredura ativa",
     "code.verdict.readinessBlocked": "Um exercício de red team exige antes a prova de propriedade do domínio, então estas contagens ficam em zero até existir um registro DNS TXT: {domains}",
+    "code.verdict.readinessNeedsApproval": "Todos os domínios-alvo estão verificados. A varredura ativa ainda precisa de uma aprovação active_dast — até lá o runner de red team não envia tráfego.",
     "code.verdict.readinessReady": "Todos os alvos estão verificados. Execute um exercício de red team e estas contagens começam a se mover.",
     "code.verdict.readinessRunCta": "Executar exercício de red team",
     "code.verdict.readinessTargetsCta": "Ver alvos",

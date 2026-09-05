@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "en",
-  "total_keys": 10236,
+  "total_keys": 10238,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "Audit Cadence Value",
     "agentFirewall.manager.framework.internalAuditDetail": "Internal Audit Detail",
@@ -9099,7 +9099,9 @@
     "code.verdict.narrativeTitle": "How the verdict is reached",
     "code.verdict.noTrend": "Not enough history yet to plot a trend",
     "code.verdict.pathResolutionTrend": "Path Resolution Trend",
+    "code.verdict.readinessApproveCta": "Approve active scanning",
     "code.verdict.readinessBlocked": "A red-team exercise needs the target to prove domain ownership first, so these counts stay at zero until a DNS TXT record is in place: {domains}",
+    "code.verdict.readinessNeedsApproval": "Every target domain is verified. Active scanning still needs an approved active_dast consent row — until then the red-team runner sends no traffic.",
     "code.verdict.readinessReady": "Every target is verified. Run a red-team exercise and these counts start moving.",
     "code.verdict.readinessRunCta": "Run a red-team exercise",
     "code.verdict.readinessTargetsCta": "See targets",
