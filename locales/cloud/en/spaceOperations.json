@@ -67,6 +67,7 @@
     "spaces.hud.deadline": "deadline",
     "spaces.hud.dependsOn": "depends on",
     "spaces.hud.drawnBy": "drawn by",
+    "spaces.hud.elapsed": "elapsed",
     "spaces.hud.evidence": "Evidence",
     "spaces.hud.evidenceHint": "What the mission has proven, item by item.",
     "spaces.hud.evidencePending": "Evidence has not been assessed yet.",
