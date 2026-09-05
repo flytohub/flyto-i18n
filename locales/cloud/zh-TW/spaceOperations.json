@@ -67,6 +67,7 @@
     "spaces.hud.deadline": "截止時間",
     "spaces.hud.dependsOn": "取決於",
     "spaces.hud.drawnBy": "抽卡者",
+    "spaces.hud.elapsed": "經過時間",
     "spaces.hud.evidence": "證據",
     "spaces.hud.evidenceHint": "這個任務已經證明了什麼，逐項列出。",
     "spaces.hud.evidencePending": "證據尚未評定。",

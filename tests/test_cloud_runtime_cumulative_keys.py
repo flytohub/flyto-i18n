@@ -537,7 +537,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # rail (資源就緒 → 下達目標 → 看結果與決定), a welcome, navigation, and one
     # plain sentence per task and step in the operator's words; the section
     # titles that had fallen back to English get their Chinese at last.
-    assert english_total == 12_317
+    #
+    # +1: `spaces.hud.elapsed` had lived only as an empty string in spaces.json;
+    # the sweep that removed the empty duplicates removed its only home.
+    assert english_total == 12_318
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
