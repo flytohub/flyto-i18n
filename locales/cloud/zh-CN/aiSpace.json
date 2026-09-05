@@ -614,6 +614,10 @@
     "aiSpace.resources.dispatchRules.approvedOnly": "只派给你核准过能力的机器",
     "aiSpace.resources.dispatchRules.approvedOnlyHint": "机器自己声明的能力，要经过你在「能力」核准后才算数。",
     "aiSpace.resources.dispatchRules.autoStart": "送出目标后自动启动",
-    "aiSpace.resources.dispatchRules.autoStartHint": "关闭时，作战室排好步骤后会等你在任务里按「启动」。"
+    "aiSpace.resources.dispatchRules.autoStartHint": "关闭时，作战室排好步骤后会等你在任务里按「启动」。",
+    "aiSpace.resources.dispatchRules.replanWithAi": "步骤失败时让你的 AI 重新规划",
+    "aiSpace.resources.dispatchRules.replanWithAiHint": "某一步失败、又没有其他机器能接手时，把已完成的部分、失败原因和这个 Space 的工具清单交给你设定的 AI 规划剩下的步骤；缺工具就明说，不会乱编。",
+    "aiSpace.resources.dispatchRules.keepBrowser": "任务完成后保留浏览器",
+    "aiSpace.resources.dispatchRules.keepBrowserHint": "关闭时，作战室派出去的任务一结束，机器就把它打开的浏览器关掉；开启时保留，和聊天窗口的行为一样。"
   }
 }
