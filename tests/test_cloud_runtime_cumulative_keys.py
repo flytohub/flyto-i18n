@@ -540,7 +540,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     #
     # +1: `spaces.hud.elapsed` had lived only as an empty string in spaces.json;
     # the sweep that removed the empty duplicates removed its only home.
-    assert english_total == 12_318
+    #
+    # +154: the room speaks Chinese everywhere. The keys the War Room's
+    # panels had been asking for under helper prefixes (`st = spaces.schedule.*`)
+    # that the orphan scan could not see, plus the words the first-time-operator
+    # fixes need (per-state outcomes, decision kinds, the planner's problem codes).
+    assert english_total == 12_472
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
