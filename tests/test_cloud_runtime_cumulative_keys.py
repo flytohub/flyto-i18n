@@ -532,7 +532,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # machine's AI may assemble a missing tool, what the room does when a
     # machine reports a real block, and how many rounds and seconds a task
     # handed to a machine's AI may spend. All the Space's to set.
-    assert english_total == 12_213
+    #
+    # +103: the War Room learned to speak to a first-time operator. A guided
+    # rail (資源就緒 → 下達目標 → 看結果與決定), a welcome, navigation, and one
+    # plain sentence per task and step in the operator's words; the section
+    # titles that had fallen back to English get their Chinese at last.
+    assert english_total == 12_316
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
