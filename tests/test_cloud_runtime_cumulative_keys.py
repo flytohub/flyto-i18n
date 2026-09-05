@@ -521,7 +521,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # docker box that had not reported in for days and then waited for Start,
     # and the three Space policies that decide both had no screen. This is the
     # card that exposes them, on the Resources tab where the machines are.
-    assert english_total == 12_197
+    #
+    # +4: two more dispatch rules. The War Room finished a job and left the
+    # browser open; a failed step sat at "waiting" for good. Whether the machine
+    # keeps the browser and whether the operator's AI may re-plan are the
+    # Space's to set, and these are the words on those switches.
+    assert english_total == 12_201
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

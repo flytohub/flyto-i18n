@@ -614,6 +614,10 @@
     "aiSpace.resources.dispatchRules.approvedOnly": "Only capabilities you have approved",
     "aiSpace.resources.dispatchRules.approvedOnlyHint": "A capability a machine declares about itself counts only after you approve it under Capabilities.",
     "aiSpace.resources.dispatchRules.autoStart": "Start as soon as a goal is sent",
-    "aiSpace.resources.dispatchRules.autoStartHint": "When off, the War Room schedules the steps and waits for you to press Start on the task."
+    "aiSpace.resources.dispatchRules.autoStartHint": "When off, the War Room schedules the steps and waits for you to press Start on the task.",
+    "aiSpace.resources.dispatchRules.replanWithAi": "Let your AI re-plan when a step fails",
+    "aiSpace.resources.dispatchRules.replanWithAiHint": "When a step fails and no other machine can take it, your own AI is asked to plan the rest of the goal from what is done, what failed and this Space's tools; a missing tool is named, never invented.",
+    "aiSpace.resources.dispatchRules.keepBrowser": "Keep the browser open after a job",
+    "aiSpace.resources.dispatchRules.keepBrowserHint": "When off, a machine closes the browser a dispatched job opened as soon as the job is done. When on, it stays open, as it does for the chat window."
   }
 }
