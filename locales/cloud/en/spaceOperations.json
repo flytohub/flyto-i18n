@@ -93,6 +93,8 @@
     "spaces.hud.replan": "Replans",
     "spaces.hud.replanFrom": "unavailable",
     "spaces.hud.replanHint": "What became unavailable, what was rebound, and what went instead.",
+    "spaces.hud.replanModel": "the model read",
+    "spaces.hud.replanProposed": "proposed",
     "spaces.hud.replanRule": "rebound by",
     "spaces.hud.replanTo": "sent instead",
     "spaces.hud.required": "required",

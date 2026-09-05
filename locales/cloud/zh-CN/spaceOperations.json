@@ -93,6 +93,8 @@
     "spaces.hud.replan": "重规划",
     "spaces.hud.replanFrom": "不可用",
     "spaces.hud.replanHint": "什么变成不可用、能力重新绑到哪里、最后派了谁去。",
+    "spaces.hud.replanModel": "模型读到",
+    "spaces.hud.replanProposed": "提出",
     "spaces.hud.replanRule": "重新绑定依据",
     "spaces.hud.replanTo": "改派",
     "spaces.hud.required": "要求值",
