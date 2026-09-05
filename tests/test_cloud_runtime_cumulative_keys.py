@@ -516,7 +516,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # translated, and untrue over a Space holding two working workflows the
     # goal had not named exactly. The second key is what it does hold, so the
     # next attempt is an exact match rather than a guess.
-    assert english_total == 12_189
+    #
+    # +8: `aiSpace.resources.dispatchRules.*`. The War Room handed a goal to a
+    # docker box that had not reported in for days and then waited for Start,
+    # and the three Space policies that decide both had no screen. This is the
+    # card that exposes them, on the Resources tab where the machines are.
+    assert english_total == 12_197
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
