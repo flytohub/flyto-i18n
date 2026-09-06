@@ -1,3 +1,10 @@
 verify:
   allow_generated_changes:
     - dist/**
+
+style:
+  - rule: "Current-computer AI source settings copy uses the Flyto2 brand."
+    grep_deny:
+      - pattern: '"userSettings\.aiSource[^"]*": "[^"]*\bFlyto(?!2)\b'
+        glob: "locales/cloud/*/userSettings.json"
+    source: "User correction 2026-09-07: the product brand is Flyto2."

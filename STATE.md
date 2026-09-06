@@ -1,5 +1,16 @@
 # State
 
+## 2026-09-07 - Local AI and dynamic model settings
+
+- Added reviewed local model server, discovered/manual model, provider-default
+  and exact-draft connection-test copy in English and both Chinese catalogs.
+- Corrected the CLI credential sentence to Flyto2 and added a scoped brand
+  invariant so new AI source copy cannot restore the previous spelling.
+- Local model endpoints are explicitly on the current computer. Model discovery
+  does not imply connection success or supported goal execution.
+- Consumer runtime and UI acceptance remain in Cloud. No remote publication
+  or live service change is performed by this canonical source update.
+
 ## 2026-09-06 - Current-computer AI source settings copy
 
 - Added 31 reviewed AI source labels per English, Traditional Chinese and
