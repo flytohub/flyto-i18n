@@ -1,5 +1,17 @@
 # State
 
+## 2026-09-06 - Current-computer AI source settings copy
+
+- Added 31 reviewed AI source labels per English, Traditional Chinese and
+  Simplified Chinese catalog. Replaced 23 placeholder-like existing API settings
+  labels with concrete copy in the same three catalogs.
+- Saved source, official CLI readiness, and the explicit operations planner
+  computer are separate states. Copy does not imply a login, a model call,
+  an automatic API fallback, or central storage of CLI credentials.
+- Cloud and aggregate bundles are generated from these canonical sources.
+  Consumer UI/runtime acceptance is tracked in Cloud; no service is deployed
+  or package published by this copy change.
+
 ## 2026-09-06 - Product Verification platform catalog
 
 - Added 103 source-owned Code keys for suites, environments, adapters, runs,
