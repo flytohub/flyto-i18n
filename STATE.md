@@ -6,12 +6,14 @@
   evidence, cancellation, retry, and all eight verification outcomes.
 - English, Traditional Chinese, and Simplified Chinese copy is reviewed;
   the remaining 13 catalogs use explicit English fallback text.
-- Full `npm run verify` passed: 4,800 catalog files validated with no errors,
-  105 tests and 2,702 subtests passed, and distributions rebuilt.
+- Full `npm run verify` passed: 4,816 catalog files validated with no errors,
+  107 tests and 2,702 subtests passed after integrating upstream AI Gate and
+  Adoption catalogs. Strict verification passed all 19 checks.
 - Frontend consumption and deployed acceptance remain in the Product
   Verification implementation task. No public publication was performed.
-- The initial 94-key distribution passed full validation; nine editor and
-  evidence labels are being regenerated and verified in bounded locale batches.
+- All 103 keys are now present in canonical Code and aggregate distributions.
+  The final bounded generation task passed the complete test suite and intent
+  validation. Intermediate locale checkpoints were not release-ready.
 Current research-copy work on 2026-09-06 (not yet released):
 
 - Added 137 source-owned Adoption research labels for cases, advisory candidates,
