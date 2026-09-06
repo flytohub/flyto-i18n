@@ -545,7 +545,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # panels had been asking for under helper prefixes (`st = spaces.schedule.*`)
     # that the orphan scan could not see, plus the words the first-time-operator
     # fixes need (per-state outcomes, decision kinds, the planner's problem codes).
-    assert english_total == 12_472
+    # +8: computer-local tool readiness, truthful completion failures, and
+    # separate retry/reassignment outcomes are now source-owned.
+    assert english_total == 12_480
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

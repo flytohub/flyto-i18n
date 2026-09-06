@@ -312,6 +312,9 @@
     "templateBuilder.toolbar.back": "返回",
     "templateBuilder.toolbar.saveTemplate": "保存模板",
     "templateBuilder.toolbar.templateIdPlaceholder": "模板 ID (英文)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "模板名称"
+    "templateBuilder.toolbar.templateNamePlaceholder": "模板名称",
+    "templateBuilder.aiChat.welcomeMessageComputer": "告诉我这台电脑要完成的任务。我可以使用可用的工作流程，或用这台电脑的工具组装步骤，再检查执行结果。",
+    "templateBuilder.aiChat.toolsUnavailableHint": "后端报告这个 AI Space 最近一次请求没有可用工具。",
+    "templateBuilder.aiChat.toolsPending": "发送任务后确认可用工具"
   }
 }
