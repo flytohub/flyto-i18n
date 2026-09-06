@@ -201,6 +201,9 @@
     "userSettings.aiSourceSave": "保存 AI 来源",
     "userSettings.aiSourceSaveSuccess": "AI 来源已保存；是否可用请以上方状态为准。",
     "userSettings.aiSourceSaveError": "无法保存 AI 来源，请重试后再执行任务。",
-    "userSettings.aiSourceSettingsDescription": "选择 API 连接，或这台电脑上的 CLI 账户。"
+    "userSettings.aiSourceSettingsDescription": "选择 API 连接，或这台电脑上的 CLI 账户。",
+    "userSettings.aiSourceConnectionHint": "通过所选 CLI 发出一次简短请求，使用该 CLI 账户的额度。",
+    "userSettings.aiSourceConnectionSuccess": "CLI 已实际回复，连接测试成功。",
+    "userSettings.aiSourceConnectionFailure": "CLI 未完成连接测试。请确认 CLI 设置与账户状态，再重试。"
   }
 }

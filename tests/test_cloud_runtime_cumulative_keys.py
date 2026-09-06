@@ -566,7 +566,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +8: computer-local tool readiness, truthful completion failures, and
     # separate retry/reassignment outcomes are now source-owned.
     # +31: current-computer API/CLI source, readiness, and planner host copy.
-    assert english_total == 12_380
+    # +3: explicit CLI model connection-test hint and actual outcomes.
+    assert english_total == 12_383
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -201,6 +201,9 @@
     "userSettings.aiSourceSave": "Save AI source",
     "userSettings.aiSourceSaveSuccess": "AI source saved. Readiness is shown separately above.",
     "userSettings.aiSourceSaveError": "Could not save the AI source. Retry before running a task.",
-    "userSettings.aiSourceSettingsDescription": "Choose an API connection or a CLI account on this computer."
+    "userSettings.aiSourceSettingsDescription": "Choose an API connection or a CLI account on this computer.",
+    "userSettings.aiSourceConnectionHint": "Send one short request through the selected CLI, using that CLI account’s allowance.",
+    "userSettings.aiSourceConnectionSuccess": "The CLI replied. Connection test passed.",
+    "userSettings.aiSourceConnectionFailure": "The CLI did not complete the connection test. Check its settings and account status, then retry."
   }
 }
