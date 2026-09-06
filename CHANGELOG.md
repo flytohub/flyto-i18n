@@ -7,6 +7,13 @@
 - Shortened the priority window disclosure and restored its missing
   Traditional Chinese translation, preserving both count placeholders.
 
+## 2026-09-06 — Adoption research workspace copy
+
+- Added source-owned research navigation, exact-commit case inputs, evidence
+  provenance, advisory-candidate, AI hypothesis and report/disclosure wording.
+- Kept evidence assertions distinct from executing repository code.
+- Generated Code and aggregate bundles for all supported Code locales.
+
 ## 2026-09-04 — AI Space runner placement and War Room dispatch copy
 
 - Added reviewed English, Traditional Chinese, and Simplified Chinese labels
