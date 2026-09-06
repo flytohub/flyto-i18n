@@ -36,18 +36,18 @@ Declarations: **357**
 | function | `flat_to_nested` | [`scripts/build-dist.py:146`](../../scripts/build-dist.py#L146) | Convert flat keys to nested object for vue-i18n compatibility. |
 | function | `collect_files` | [`scripts/build-dist.py:197`](../../scripts/build-dist.py#L197) | Get translation files for a locale from a specific project directory. |
 | function | `load_translations` | [`scripts/build-dist.py:217`](../../scripts/build-dist.py#L217) | Load and merge translations from files, restoring the original key prefix. |
-| function | `build_locale` | [`scripts/build-dist.py:235`](../../scripts/build-dist.py#L235) | Build merged translations for a locale. |
-| function | `build_manifest` | [`scripts/build-dist.py:289`](../../scripts/build-dist.py#L289) | Build manifest with locale metadata. |
-| function | `count_translated` | [`scripts/build-dist.py:326`](../../scripts/build-dist.py#L326) | Count non-empty unique translations for a locale after merge semantics. |
-| function | `sync_repository_manifest` | [`scripts/build-dist.py:348`](../../scripts/build-dist.py#L348) | Synchronize root locale coverage from the aggregate distribution manifest. |
-| function | `parse_args` | [`scripts/build-dist.py:367`](../../scripts/build-dist.py#L367) | Parse the repeatable closed-set --scope/--locale distribution filters. |
-| function | `select_ordered` | [`scripts/build-dist.py:401`](../../scripts/build-dist.py#L401) | Return requested values in canonical order, defaulting to all of them. |
-| function | `write_bundle` | [`scripts/build-dist.py:409`](../../scripts/build-dist.py#L409) | Write one compact locale bundle exactly as the CDN serves it. |
-| function | `write_manifest` | [`scripts/build-dist.py:415`](../../scripts/build-dist.py#L415) | Write one indented manifest document. |
-| function | `build_scope` | [`scripts/build-dist.py:421`](../../scripts/build-dist.py#L421) | Build one scope: bundles for selected locales, manifest for all locales. |
-| function | `build_aggregate` | [`scripts/build-dist.py:452`](../../scripts/build-dist.py#L452) | Build the aggregate bundle plus the always-complete global manifests. |
-| function | `print_summary` | [`scripts/build-dist.py:487`](../../scripts/build-dist.py#L487) | Print per-scope completion for every scope this build touched. |
-| function | `main` | [`scripts/build-dist.py:502`](../../scripts/build-dist.py#L502) | Build the selected deterministic translation bundles and manifests. |
+| function | `build_locale` | [`scripts/build-dist.py:244`](../../scripts/build-dist.py#L244) | Build merged translations for a locale. |
+| function | `build_manifest` | [`scripts/build-dist.py:314`](../../scripts/build-dist.py#L314) | Build manifest with locale metadata. |
+| function | `count_translated` | [`scripts/build-dist.py:351`](../../scripts/build-dist.py#L351) | Count non-empty unique translations for a locale after merge semantics. |
+| function | `sync_repository_manifest` | [`scripts/build-dist.py:373`](../../scripts/build-dist.py#L373) | Synchronize root locale coverage from the aggregate distribution manifest. |
+| function | `parse_args` | [`scripts/build-dist.py:392`](../../scripts/build-dist.py#L392) | Parse the repeatable closed-set --scope/--locale distribution filters. |
+| function | `select_ordered` | [`scripts/build-dist.py:426`](../../scripts/build-dist.py#L426) | Return requested values in canonical order, defaulting to all of them. |
+| function | `write_bundle` | [`scripts/build-dist.py:434`](../../scripts/build-dist.py#L434) | Write one compact locale bundle exactly as the CDN serves it. |
+| function | `write_manifest` | [`scripts/build-dist.py:440`](../../scripts/build-dist.py#L440) | Write one indented manifest document. |
+| function | `build_scope` | [`scripts/build-dist.py:446`](../../scripts/build-dist.py#L446) | Build one scope: bundles for selected locales, manifest for all locales. |
+| function | `build_aggregate` | [`scripts/build-dist.py:477`](../../scripts/build-dist.py#L477) | Build the aggregate bundle plus the always-complete global manifests. |
+| function | `print_summary` | [`scripts/build-dist.py:512`](../../scripts/build-dist.py#L512) | Print per-scope completion for every scope this build touched. |
+| function | `main` | [`scripts/build-dist.py:527`](../../scripts/build-dist.py#L527) | Build the selected deterministic translation bundles and manifests. |
 | function | `load_json` | [`scripts/build-seo-manifest.py:40`](../../scripts/build-seo-manifest.py#L40) | Load a JSON file with UTF-8 encoding. |
 | function | `discover_locales` | [`scripts/build-seo-manifest.py:46`](../../scripts/build-seo-manifest.py#L46) | Discover public locales from locales/cloud, the broadest shipped scope. |
 | function | `stable_hash` | [`scripts/build-seo-manifest.py:54`](../../scripts/build-seo-manifest.py#L54) | Create a stable content hash for generated SEO manifests. |
