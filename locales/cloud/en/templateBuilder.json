@@ -312,6 +312,9 @@
     "templateBuilder.toolbar.back": "Back",
     "templateBuilder.toolbar.saveTemplate": "Save Template",
     "templateBuilder.toolbar.templateIdPlaceholder": "Template ID (English)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "Template Name"
+    "templateBuilder.toolbar.templateNamePlaceholder": "Template Name",
+    "templateBuilder.aiChat.welcomeMessageComputer": "Describe a task for this computer. I can use available workflows or assemble steps with its tools, then check the result.",
+    "templateBuilder.aiChat.toolsUnavailableHint": "The backend reported no tools for the latest request in this AI Space.",
+    "templateBuilder.aiChat.toolsPending": "Tools are checked when you send a task"
   }
 }

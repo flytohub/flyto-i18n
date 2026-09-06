@@ -545,7 +545,27 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # panels had been asking for under helper prefixes (`st = spaces.schedule.*`)
     # that the orphan scan could not see, plus the words the first-time-operator
     # fixes need (per-state outcomes, decision kinds, the planner's problem codes).
-    assert english_total == 12_472
+    #
+    # -131: the ledger's one subtraction, and why it is safe.
+    #
+    # A key a locale has not reached yet is written here as an empty string.
+    # Two things went wrong with that. Merging one file over another let a
+    # placeholder overwrite a word the locale already had — `spaces.json`
+    # merges after `spaceOperations.json`, so `"spaces.hud.evidence": ""`
+    # buried 證據, 能力矩陣 and 重新命名, which were written and never seen. And
+    # the dictionary shipped the placeholder, which vue-i18n reads as a
+    # translation, so the room drew a blank heading instead of falling back to
+    # English. `build-dist.py` now refuses both: a placeholder never overwrites
+    # a word, and no empty value reaches the Cloud dictionary.
+    #
+    # These 131 are the keys with no English text either, so nothing is lost
+    # that was ever shown: they fall back to the sentence the component passes
+    # to `t()` rather than to nothing at all. Every other locale gains by it —
+    # zh-TW alone had 66 blanks, and now has none.
+    #
+    # +8: computer-local tool readiness, truthful completion failures, and
+    # separate retry/reassignment outcomes are now source-owned.
+    assert english_total == 12_349
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -34,7 +34,7 @@
     "spaces.guide.outcomeError": "已停止 — 作战室放弃了这个目标。",
     "spaces.guide.outcomePending": "等待开始。",
     "spaces.guide.outcomeRejected": "已拒绝 — 这个 Space 做不到。",
-    "spaces.guide.outcomeReplanned": "已交给另一台机器",
+    "spaces.guide.outcomeReplanned": "已重新规划",
     "spaces.guide.outcomeRunning": "执行中 — 有一台机器在做。",
     "spaces.guide.outcomeSuccess": "完成 — 作战室接受了结果。",
     "spaces.guide.outcomeWarning": "暫停 — 作战室在决定下一步。",
@@ -497,7 +497,9 @@
     "spaces.voice.placeholderTyped": "输入任务目标",
     "spaces.voice.send": "发送",
     "spaces.voice.startListening": "开始语音输入",
-    "spaces.voice.stopListening": "停止语音输入"
+    "spaces.voice.stopListening": "停止语音输入",
+    "spaces.guide.outcomeReassigned": "已交给另一台电脑",
+    "spaces.guide.outcomeRetried": "已在同一台电脑重新尝试"
   },
   "total_keys": 225
 }

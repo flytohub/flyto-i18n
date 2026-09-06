@@ -3,6 +3,7 @@
 | Date | Topic | File |
 | --- | --- | --- |
 | 2026-09-06 | Product Verification platform catalog | `2026-09-06-product-verification-platform.md` |
+| 2026-09-06 | AI Space and Operations Room canonical copy closure | `2026-09-06-ai-space-room-canonical-closure.md` |
 | 2026-09-06 | Adoption research workspace copy | `2026-09-06-adoption-research.md` |
 | 2026-09-04 | AI Space runner binding and War Room dispatch i18n | `2026-09-04-ai-space-runner-binding-warroom-i18n.md` |
 | 2026-08-24 | Complete Core module labels and pytest-visible ownership closure | `2026-08-24-complete-core-module-labels.md` |

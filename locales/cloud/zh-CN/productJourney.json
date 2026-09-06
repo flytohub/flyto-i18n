@@ -4,12 +4,12 @@
   "category": "cloud.productJourney",
   "version": "1.0.0",
   "translations": {
-    "productJourney.aiSpace": "",
-    "productJourney.aiSpaceHint": "",
-    "productJourney.label": "",
-    "productJourney.warRoom": "",
-    "productJourney.warRoomHint": "",
-    "productJourney.workflows": "",
-    "productJourney.workflowsHint": ""
+    "productJourney.aiSpace": "AI Space",
+    "productJourney.aiSpaceHint": "在这台电脑执行并验证",
+    "productJourney.label": "产品导航",
+    "productJourney.warRoom": "作战室",
+    "productJourney.warRoomHint": "规划任务并调度电脑",
+    "productJourney.workflows": "工作流",
+    "productJourney.workflowsHint": "创建可复用的能力"
   }
 }
