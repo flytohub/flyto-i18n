@@ -4,12 +4,12 @@
   "category": "cloud.productJourney",
   "version": "1.0.0",
   "translations": {
-    "productJourney.aiSpace": "",
-    "productJourney.aiSpaceHint": "",
-    "productJourney.label": "",
-    "productJourney.warRoom": "",
-    "productJourney.warRoomHint": "",
-    "productJourney.workflows": "",
-    "productJourney.workflowsHint": ""
+    "productJourney.aiSpace": "AI Space",
+    "productJourney.aiSpaceHint": "Execute and verify on this computer",
+    "productJourney.label": "Product navigation",
+    "productJourney.warRoom": "Operations Room",
+    "productJourney.warRoomHint": "Plan goals and coordinate computers",
+    "productJourney.workflows": "Workflows",
+    "productJourney.workflowsHint": "Build reusable capabilities"
   }
 }

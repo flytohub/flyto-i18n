@@ -1,5 +1,15 @@
 # State
 
+## Computer task copy source closure (2026-09-06)
+
+The reviewed Cloud AI Space and Operations Room copy now has a canonical
+26-key contract in English, Traditional Chinese and Simplified Chinese. Eight
+previously bundled-only keys and eighteen corrected values cover computer-local
+execution, truthful tool availability, separate retry/reassignment outcomes,
+round/time limits, and unavailable verification or browser cleanup.
+Product journey keys have one category owner instead of a duplicate cloud.json
+definition. Source and generated distribution verification are recorded in the
+canonical-closure handoff. This change does not deploy any consumer service.
 Current research-copy work on 2026-09-06 (not yet released):
 
 - Added 137 source-owned Adoption research labels for cases, advisory candidates,

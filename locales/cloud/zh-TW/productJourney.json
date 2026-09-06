@@ -4,12 +4,12 @@
   "category": "cloud.productJourney",
   "version": "1.0.0",
   "translations": {
-    "productJourney.aiSpace": "",
-    "productJourney.aiSpaceHint": "",
-    "productJourney.label": "",
-    "productJourney.warRoom": "",
-    "productJourney.warRoomHint": "",
-    "productJourney.workflows": "",
-    "productJourney.workflowsHint": ""
+    "productJourney.aiSpace": "AI Space",
+    "productJourney.aiSpaceHint": "在這台電腦執行並驗證",
+    "productJourney.label": "產品導覽",
+    "productJourney.warRoom": "作戰室",
+    "productJourney.warRoomHint": "規劃任務並調度電腦",
+    "productJourney.workflows": "工作流程",
+    "productJourney.workflowsHint": "建立可重用的能力"
   }
 }

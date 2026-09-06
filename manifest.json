@@ -8,7 +8,7 @@
     "en": {
       "name": "English",
       "native_name": "English",
-      "coverage": 99.2,
+      "coverage": 99.3,
       "status": "official",
       "maintainers": [
         "@flytohub"
@@ -17,7 +17,7 @@
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
-      "coverage": 97.6,
+      "coverage": 97.7,
       "status": "official",
       "maintainers": [
         "@flytohub"

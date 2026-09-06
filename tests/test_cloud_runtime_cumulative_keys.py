@@ -562,7 +562,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # that was ever shown: they fall back to the sentence the component passes
     # to `t()` rather than to nothing at all. Every other locale gains by it —
     # zh-TW alone had 66 blanks, and now has none.
-    assert english_total == 12_341
+    #
+    # +8: computer-local tool readiness, truthful completion failures, and
+    # separate retry/reassignment outcomes are now source-owned.
+    assert english_total == 12_349
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
