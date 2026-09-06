@@ -1,5 +1,16 @@
 # State
 
+Current research-copy work on 2026-09-06 (not yet released):
+
+- Added 137 source-owned Adoption research labels for cases, advisory candidates,
+  cited AI hypotheses, evidence assertions, recommendations and disclosure drafts.
+- English, Traditional Chinese and Simplified Chinese carry reviewed copy; the
+  other 13 Code locales use the established deterministic English fallback.
+- Runtime exploitation is explicitly distinguished from evidence assertions.
+- Full npm verification passes: 4,800 catalogs, 105 tests and 2,702 subtests.
+  Strict indexer verification passes all 19 checks. Consumer release remains
+  pending its integration and deployment pins.
+
 Current state on 2026-09-06:
 
 - AI Firewall operational workspaces have a source-owned 57-key contract in
