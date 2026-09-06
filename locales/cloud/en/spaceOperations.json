@@ -33,8 +33,12 @@
     "spaces.guide.outcomeDecision": "The room is waiting for your decision.",
     "spaces.guide.outcomeError": "Stopped — the room gave up on this goal.",
     "spaces.guide.outcomePending": "Waiting to start.",
+    "spaces.guide.outcomePlanning": "Planning — your computer is working out the steps. You can cancel.",
+    "spaces.guide.outcomeReassigned": "Handed to another computer",
     "spaces.guide.outcomeRejected": "Refused — this Space cannot do that.",
     "spaces.guide.outcomeReplanned": "Plan revised",
+    "spaces.guide.outcomeReplanning": "Replanning — your computer is working out another way.",
+    "spaces.guide.outcomeRetried": "Retried on the same computer",
     "spaces.guide.outcomeRunning": "Running — a machine is on it.",
     "spaces.guide.outcomeSuccess": "Done — the room accepted the result.",
     "spaces.guide.outcomeWarning": "Paused — the room is deciding what to do next.",
@@ -496,10 +500,9 @@
     "spaces.voice.placeholder": "Speak or type a goal",
     "spaces.voice.placeholderTyped": "Type a goal",
     "spaces.voice.send": "Send",
+    "spaces.voice.sending": "Sending “{goal}” to the room… {n} s",
     "spaces.voice.startListening": "Start voice input",
-    "spaces.voice.stopListening": "Stop voice input",
-    "spaces.guide.outcomeReassigned": "Handed to another computer",
-    "spaces.guide.outcomeRetried": "Retried on the same computer"
+    "spaces.voice.stopListening": "Stop voice input"
   },
   "total_keys": 225
 }

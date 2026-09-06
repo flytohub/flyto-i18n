@@ -33,8 +33,12 @@
     "spaces.guide.outcomeDecision": "作戰室在等你決定。",
     "spaces.guide.outcomeError": "已停止 — 作戰室放棄了這個目標。",
     "spaces.guide.outcomePending": "等待開始。",
+    "spaces.guide.outcomePlanning": "正在排計畫 — 你的電腦在想步驟，可以取消。",
+    "spaces.guide.outcomeReassigned": "已交給另一台電腦",
     "spaces.guide.outcomeRejected": "已拒絕 — 這個 Space 做不到。",
     "spaces.guide.outcomeReplanned": "已重新規劃",
+    "spaces.guide.outcomeReplanning": "正在換一條路 — 你的電腦在想別的走法。",
+    "spaces.guide.outcomeRetried": "已在同一台電腦重新嘗試",
     "spaces.guide.outcomeRunning": "執行中 — 有一台機器在做。",
     "spaces.guide.outcomeSuccess": "完成 — 作戰室接受了結果。",
     "spaces.guide.outcomeWarning": "暫停 — 作戰室在決定下一步。",
@@ -496,10 +500,9 @@
     "spaces.voice.placeholder": "說出或輸入任務目標",
     "spaces.voice.placeholderTyped": "輸入任務目標",
     "spaces.voice.send": "送出",
+    "spaces.voice.sending": "正在把「{goal}」送進作戰室… {n} 秒",
     "spaces.voice.startListening": "開始語音輸入",
-    "spaces.voice.stopListening": "停止語音輸入",
-    "spaces.guide.outcomeReassigned": "已交給另一台電腦",
-    "spaces.guide.outcomeRetried": "已在同一台電腦重新嘗試"
+    "spaces.voice.stopListening": "停止語音輸入"
   },
   "total_keys": 225
 }
