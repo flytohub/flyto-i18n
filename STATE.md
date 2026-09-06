@@ -1,5 +1,13 @@
 # State
 
+## 2026-09-07 - Terminal task group wording
+
+- Chinese task-group copy now says finished rather than completed because the
+  group also contains failed and cancelled tasks. English already says Finished.
+- Successful task labels, task grouping and runtime behavior are unchanged.
+  Existing catalog, bundle and task-group checks cover this wording-only change.
+- No consumer service or remote publication is changed by the canonical edit.
+
 ## 2026-09-07 - Local AI and dynamic model settings
 
 - Added reviewed local model server, discovered/manual model, provider-default

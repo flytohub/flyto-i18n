@@ -8,3 +8,8 @@ style:
       - pattern: '"userSettings\.aiSource[^"]*": "[^"]*\bFlyto(?!2)\b'
         glob: "locales/cloud/*/userSettings.json"
     source: "User correction 2026-09-07: the product brand is Flyto2."
+  - rule: "A terminal-task group includes failed and cancelled tasks, so its label must not claim successful completion."
+    grep_deny:
+      - pattern: '"spaces\.narrative\.group\.finished": "已完成"'
+        glob: "locales/cloud/zh-*/spaceOperations.json"
+    source: "User correction 2026-09-07: distinguish finished task groups from verified completion."
