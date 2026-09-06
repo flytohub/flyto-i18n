@@ -227,7 +227,16 @@ def load_translations(files: list, key_prefix: str) -> dict:
         with open(json_file, encoding='utf-8') as f:
             data = json.load(f)
         if 'translations' in data:
-            merged.update(data['translations'])
+            # An empty value is a translator's placeholder, not a translation:
+            # it must never overwrite a word another file of the same locale
+            # already has. Two files carry the `spaces.*` keys, and the one
+            # that merged second held `"spaces.hud.evidence": ""` — so 證據,
+            # 能力矩陣 and 重新命名 were written, merged away, and the War Room
+            # showed empty headings in every locale that had them.
+            for key, value in data['translations'].items():
+                if value == '' and merged.get(key):
+                    continue
+                merged[key] = value
             count += 1
     return merged, count
 
@@ -256,6 +265,22 @@ def build_locale(locale: str, scope: str = None) -> dict:
             translations, count = load_translations(files, project)
             flat_merged.update(translations)
             files_count += count
+
+    # A key a locale has not translated yet is carried in `locales/` as an
+    # empty string — that is how a translator sees what is outstanding, and it
+    # is what `count_translated` already refuses to count. Shipping it into the
+    # cloud dictionary is a different thing: vue-i18n treats "" as a
+    # translation and renders a blank where the English would have shown, so
+    # `spaces.hud.evidence` read as an empty heading in every locale that had
+    # not reached it. The placeholder stays in the source and never reaches the
+    # cloud dictionary; the key is absent, and the room falls back to English
+    # until somebody translates it.
+    #
+    # Only this scope. The `code` surface has a published-key contract per
+    # locale (tests/test_code_ui_keys.py) that expects the key to exist even
+    # when it is still blank, and that is its own decision to revisit.
+    if scope == 'cloud':
+        flat_merged = {key: value for key, value in flat_merged.items() if value != ''}
 
     if not flat_merged:
         return {}
