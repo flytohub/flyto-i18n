@@ -1,5 +1,19 @@
 # State
 
+## 2026-09-06 - Product Verification platform catalog
+
+- Added 103 source-owned Code keys for suites, environments, adapters, runs,
+  evidence, cancellation, retry, and all eight verification outcomes.
+- English, Traditional Chinese, and Simplified Chinese copy is reviewed;
+  the remaining 13 catalogs use explicit English fallback text.
+- Full `npm run verify` passed: 4,816 catalog files validated with no errors,
+  107 tests and 2,702 subtests passed after integrating upstream AI Gate and
+  Adoption catalogs. Strict verification passed all 19 checks.
+- Frontend consumption and deployed acceptance remain in the Product
+  Verification implementation task. No public publication was performed.
+- All 103 keys are now present in canonical Code and aggregate distributions.
+  The final bounded generation task passed the complete test suite and intent
+  validation. Intermediate locale checkpoints were not release-ready.
 ## Computer task copy source closure (2026-09-06)
 
 The reviewed Cloud AI Space and Operations Room copy now has a canonical
