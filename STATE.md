@@ -12,6 +12,31 @@
   Verification implementation task. No public publication was performed.
 - The initial 94-key distribution passed full validation; nine editor and
   evidence labels are being regenerated and verified in bounded locale batches.
+Current research-copy work on 2026-09-06 (not yet released):
+
+- Added 137 source-owned Adoption research labels for cases, advisory candidates,
+  cited AI hypotheses, evidence assertions, recommendations and disclosure drafts.
+- English, Traditional Chinese and Simplified Chinese carry reviewed copy; the
+  other 13 Code locales use the established deterministic English fallback.
+- Runtime exploitation is explicitly distinguished from evidence assertions.
+- Full npm verification passes: 4,800 catalogs, 105 tests and 2,702 subtests.
+  Strict indexer verification passes all 19 checks. Consumer release remains
+  pending its integration and deployment pins.
+
+Current state on 2026-09-06:
+
+- AI Firewall operational workspaces have a source-owned 57-key contract in
+  all 16 Code locales. English and Traditional Chinese contain reviewed copy;
+  the other 14 locales explicitly carry English fallback text for these new
+  keys. No claim of reviewed translation is made for those fallback locales.
+- The wording distinguishes recorded decisions from current-policy replay,
+  authorization from completed execution, use-case approval from held-call
+  authorization, and reference scenarios from successful evaluations.
+- Code and aggregate distributions were rebuilt. `npm run verify` passed
+  107 tests and 2,702 subtests; strict source validation passed all 4,784
+  catalogs. The focused workspace distribution contract passed two tests and
+  strict Indexer verification passed all 19 checks. Deploy the matching
+  i18n distribution before the consumer frontend in the coordinated batch.
 
 Current state on 2026-09-04:
 
