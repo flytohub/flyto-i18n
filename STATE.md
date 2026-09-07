@@ -1,5 +1,36 @@
 # State
 
+## 2026-09-07 - Terminal task group wording
+
+- Chinese task-group copy now says finished rather than completed because the
+  group also contains failed and cancelled tasks. English already says Finished.
+- Successful task labels, task grouping and runtime behavior are unchanged.
+  Existing catalog, bundle and task-group checks cover this wording-only change.
+- No consumer service or remote publication is changed by the canonical edit.
+
+## 2026-09-07 - Local AI and dynamic model settings
+
+- Added reviewed local model server, discovered/manual model, provider-default
+  and exact-draft connection-test copy in English and both Chinese catalogs.
+- Corrected the CLI credential sentence to Flyto2 and added a scoped brand
+  invariant so new AI source copy cannot restore the previous spelling.
+- Local model endpoints are explicitly on the current computer. Model discovery
+  does not imply connection success or supported goal execution.
+- Consumer runtime and UI acceptance remain in Cloud. No remote publication
+  or live service change is performed by this canonical source update.
+
+## 2026-09-06 - Current-computer AI source settings copy
+
+- Added 31 reviewed AI source labels per English, Traditional Chinese and
+  Simplified Chinese catalog. Replaced 23 placeholder-like existing API settings
+  labels with concrete copy in the same three catalogs.
+- Saved source, official CLI readiness, and the explicit operations planner
+  computer are separate states. Copy does not imply a login, a model call,
+  an automatic API fallback, or central storage of CLI credentials.
+- Cloud and aggregate bundles are generated from these canonical sources.
+  Consumer UI/runtime acceptance is tracked in Cloud; no service is deployed
+  or package published by this copy change.
+
 ## 2026-09-06 - Product Verification platform catalog
 
 - Added 103 source-owned Code keys for suites, environments, adapters, runs,

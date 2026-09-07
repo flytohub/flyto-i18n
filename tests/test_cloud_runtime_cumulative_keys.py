@@ -565,11 +565,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     #
     # +8: computer-local tool readiness, truthful completion failures, and
     # separate retry/reassignment outcomes are now source-owned.
-    #
-    # +3: the goal console says the goal is on its way and for how long, and a
-    # task whose plan is being written on the owner's own computer says so
-    # instead of "waiting to start".
-    assert english_total == 12_352
+    # +31: current-computer API/CLI source, readiness, and planner host copy.
+    # +3: explicit CLI model connection-test hint and actual outcomes.
+    # +18: discovered and manual model selection and local AI source settings.
+    # +3: goal-submission progress and computer-local planning status.
+    assert english_total == 12_404
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

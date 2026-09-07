@@ -186,7 +186,7 @@
     "spaces.narrative.failure.retryableElsewhere": "另一台机器可以接手",
     "spaces.narrative.group.active": "进行中",
     "spaces.narrative.group.attention": "需要你",
-    "spaces.narrative.group.finished": "已完成",
+    "spaces.narrative.group.finished": "已结束",
     "spaces.narrative.group.rejected": "已拒绝",
     "spaces.narrative.problem.capability_missing": "缺能力：{detail}",
     "spaces.narrative.problem.execution_receipt_invalid": "执行收据無效",
