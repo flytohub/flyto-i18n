@@ -569,7 +569,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +3: explicit CLI model connection-test hint and actual outcomes.
     # +18: discovered and manual model selection and local AI source settings.
     # +3: goal-submission progress and computer-local planning status.
-    assert english_total == 12_404
+    # +46: the room in the operator's words — the 34 decision-timeline stages
+    # it used to print as raw enum names, the resource kinds it had no word
+    # for (a computer showed as "Unknown type"), and the sentence for a
+    # machine that reported success without verifiable evidence.
+    assert english_total == 12_450
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
