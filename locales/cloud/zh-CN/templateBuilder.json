@@ -17,6 +17,7 @@
     "templateBuilder.aiChat.noTools": "没有可调用的工具",
     "templateBuilder.aiChat.noToolsHint": "这个 Space 里没有工作流程发布 MCP 触发，所以助理没有东西可以调用。",
     "templateBuilder.aiChat.notConfigured": "尚未设置",
+    "templateBuilder.aiChat.online": "",
     "templateBuilder.aiChat.quickLoginFlow": "登录流程",
     "templateBuilder.aiChat.quickScraper": "爬虫",
     "templateBuilder.aiChat.quickValidation": "验证",
@@ -26,11 +27,14 @@
     "templateBuilder.aiChat.suggestionApplied": "已套用工作流程：{name}",
     "templateBuilder.aiChat.title": "AI 助手",
     "templateBuilder.aiChat.toolCount": "{count} 个工具",
+    "templateBuilder.aiChat.toolsPending": "发送任务后确认可用工具",
+    "templateBuilder.aiChat.toolsUnavailableHint": "后端报告这个 AI Space 最近一次请求没有可用工具。",
     "templateBuilder.aiChat.welcomeFeature1": "生成工作流程步骤",
     "templateBuilder.aiChat.welcomeFeature2": "解释模块配置",
     "templateBuilder.aiChat.welcomeFeature3": "建议优化方案",
     "templateBuilder.aiChat.welcomeFeature4": "调试您的模板",
     "templateBuilder.aiChat.welcomeMessage": "您好！我是您的 Flyto2 AI 助手。我可以帮助您：",
+    "templateBuilder.aiChat.welcomeMessageComputer": "告诉我这台电脑要完成的任务。我可以使用可用的工作流程，或用这台电脑的工具组装步骤，再检查执行结果。",
     "templateBuilder.aiChat.welcomeMessageGeneral": "您好！我是您的 Flyto2 AI 助手，随时可以协助您设计、讲解与优化工作流。",
     "templateBuilder.aiChat.welcomeQuestion": "今天您想创建什么？",
     "templateBuilder.alerts.enterTemplateName": "请输入模板名称",
@@ -312,9 +316,6 @@
     "templateBuilder.toolbar.back": "返回",
     "templateBuilder.toolbar.saveTemplate": "保存模板",
     "templateBuilder.toolbar.templateIdPlaceholder": "模板 ID (英文)",
-    "templateBuilder.toolbar.templateNamePlaceholder": "模板名称",
-    "templateBuilder.aiChat.welcomeMessageComputer": "告诉我这台电脑要完成的任务。我可以使用可用的工作流程，或用这台电脑的工具组装步骤，再检查执行结果。",
-    "templateBuilder.aiChat.toolsUnavailableHint": "后端报告这个 AI Space 最近一次请求没有可用工具。",
-    "templateBuilder.aiChat.toolsPending": "发送任务后确认可用工具"
+    "templateBuilder.toolbar.templateNamePlaceholder": "模板名称"
   }
 }
