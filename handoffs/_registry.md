@@ -24,3 +24,5 @@
 | 2026-06-23 | Product Verification i18n closure | `2026-06-23-product-verification-i18n.md` |
 | 2026-06-22 | Sync tooling complexity guard | `2026-06-22-sync-tooling-complexity-guard.md` |
 | 2026-06-21 | Project memory bootstrap | `2026-06-21-project-memory-bootstrap.md` |
+
+- [2026-09-09 result verification copy](2026-09-09-result-verification-copy.md): canonical labels and generated bundles; repository, aggregate and strict checks passed.

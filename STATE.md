@@ -1,5 +1,16 @@
 # State
 
+## 2026-09-09 - Honest operations result labels
+
+- Added canonical execution-result and unverified-report labels. English and the
+  two Chinese locales have reviewed copy; other locales use explicit English
+  fallback, matching the existing Room additions.
+- Generated distributions and Cloud bundled locales are synchronized. No local
+  runtime overrides are required. `npm run verify` passed: 4,816 catalogs,
+  zero validation errors and 120 tests. Aggregate task validation, both finalize
+  gates and strict verification (21 pass, no warnings) passed.
+- This copy change does not claim Cloud deployment or task completion.
+
 ## 2026-09-08 - Room operator replies and attachment controls
 
 - Nineteen Room keys are now source-owned in `spaceOperations.json`, covering
