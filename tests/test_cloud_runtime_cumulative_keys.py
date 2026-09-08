@@ -575,7 +575,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # machine that reported success without verifiable evidence.
     # +19: operator replies, paused timing, and private attachment controls.
     # +3: verified execution result and separately identified unverified AI report.
-    assert english_total == 12_472
+    # +2: retained-screen download and execution-computer file labels.
+    assert english_total == 12_474
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

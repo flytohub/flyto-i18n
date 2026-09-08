@@ -25,4 +25,4 @@
 | 2026-06-22 | Sync tooling complexity guard | `2026-06-22-sync-tooling-complexity-guard.md` |
 | 2026-06-21 | Project memory bootstrap | `2026-06-21-project-memory-bootstrap.md` |
 
-- [2026-09-09 result verification copy](2026-09-09-result-verification-copy.md): canonical labels and generated bundles; repository, aggregate and strict checks passed.
+- [2026-09-09 result verification copy](2026-09-09-result-verification-copy.md): result verification, retained-screen download and execution-computer file labels with generated bundles; repository, aggregate and strict checks recorded in the handoff.

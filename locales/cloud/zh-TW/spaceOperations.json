@@ -570,7 +570,9 @@
     "spaces.voice.uploading": "上傳中…",
     "spaces.ops.executionResult": "執行結果",
     "spaces.ops.unverifiedReport": "本次執行未通過驗證。下方是 AI 的原始回報，不代表任務已完成。",
-    "spaces.ops.unverifiedReportLabel": "查看尚未驗證的 AI 回報"
+    "spaces.ops.unverifiedReportLabel": "查看尚未驗證的 AI 回報",
+    "spaces.ops.resultDownloadScreen": "下載保留畫面",
+    "spaces.ops.resultLocalFile": "執行電腦上的檔案"
   },
   "total_keys": 545
 }

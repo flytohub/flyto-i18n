@@ -570,7 +570,9 @@
     "spaces.voice.uploading": "Uploading…",
     "spaces.ops.executionResult": "Execution result",
     "spaces.ops.unverifiedReport": "This execution has not passed verification. The AI report below does not confirm completion.",
-    "spaces.ops.unverifiedReportLabel": "Read the unverified AI report"
+    "spaces.ops.unverifiedReportLabel": "Read the unverified AI report",
+    "spaces.ops.resultDownloadScreen": "Download retained screen",
+    "spaces.ops.resultLocalFile": "File on the execution computer"
   },
   "total_keys": 545
 }
