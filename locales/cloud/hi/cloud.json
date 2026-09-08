@@ -5,13 +5,6 @@
   "version": "1.0.0",
   "translations": {
     "cloud.status.title": "Title",
-    "cloud.template.createSuccess": "Template created successfully",
-    "productJourney.aiSpace": "",
-    "productJourney.aiSpaceHint": "",
-    "productJourney.label": "",
-    "productJourney.warRoom": "",
-    "productJourney.warRoomHint": "",
-    "productJourney.workflows": "",
-    "productJourney.workflowsHint": ""
+    "cloud.template.createSuccess": "Template created successfully"
   }
 }

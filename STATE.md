@@ -13,7 +13,10 @@
   passed all 21 checks per repository without project warnings or failures.
   Workspace-level contract extraction and product-surface coverage warnings
   remain; these checks do not establish full Cloud product acceptance.
-- This is a local source and bundle update; no CDN publication or deployment.
+- User-authorized main integration reconciles upstream `fe432b4f2` with the
+  verified operator controls checkpoint `96da041eb`. Both sets of canonical
+  additions are preserved, and distributions are regenerated from their union.
+  An ordinary Git push does not by itself verify CDN publication or deployment.
 
 ## 2026-09-07 - Terminal task group wording
 

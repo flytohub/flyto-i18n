@@ -31,4 +31,16 @@ The dependency-drift check also passed. Two workspace-level findings remain:
 contract endpoints were not extractable, and some Cloud product surfaces lack
 UI test signals. The workspace command exited zero; these findings are not
 proof of complete Cloud product acceptance.
-No CDN publication, remote push, or deployment was performed.
+The original local verification did not publish or deploy.
+
+## Subsequent main integration
+
+The user authorized updating local and remote main. Verified local changes were
+first checkpointed in `96da041eb`, then merged with upstream `fe432b4f2`. Thirteen
+canonical catalogs had adjacent-addition text conflicts but no conflicting
+translation values. A three-way key merge retained both branches' changed
+values across all affected canonical files. Generated bundle and manifest
+conflicts were rebuilt from that combined source, not selected from one side.
+The repository verification suite again passed all 120 tests and validated
+4,816 catalog files. An ordinary Git push is authorized; CDN publication and
+consumer deployment are separate outcomes and are not claimed here.
