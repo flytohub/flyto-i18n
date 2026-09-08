@@ -567,7 +567,10 @@
     "spaces.voice.stopListening": "",
     "spaces.voice.uploadFailed": "The file was not accepted. Retry or remove it.",
     "spaces.voice.uploaded": "Uploaded",
-    "spaces.voice.uploading": "Uploading…"
+    "spaces.voice.uploading": "Uploading…",
+    "spaces.ops.executionResult": "Execution result",
+    "spaces.ops.unverifiedReport": "This execution has not passed verification. The AI report below does not confirm completion.",
+    "spaces.ops.unverifiedReportLabel": "Read the unverified AI report"
   },
   "version": "1.3.0"
 }
