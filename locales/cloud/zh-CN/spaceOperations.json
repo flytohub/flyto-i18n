@@ -570,7 +570,9 @@
     "spaces.voice.uploading": "上传中…",
     "spaces.ops.executionResult": "执行结果",
     "spaces.ops.unverifiedReport": "本次执行未通过验证。下方是 AI 的原始报告，不代表任务已完成。",
-    "spaces.ops.unverifiedReportLabel": "查看尚未验证的 AI 报告"
+    "spaces.ops.unverifiedReportLabel": "查看尚未验证的 AI 报告",
+    "spaces.ops.resultDownloadScreen": "下载保留画面",
+    "spaces.ops.resultLocalFile": "执行电脑上的文件"
   },
   "total_keys": 545
 }

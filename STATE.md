@@ -5,6 +5,9 @@
 - Added canonical execution-result and unverified-report labels. English and the
   two Chinese locales have reviewed copy; other locales use explicit English
   fallback, matching the existing Room additions.
+- The same catalog now labels authenticated retained-screen downloads and
+  files on the execution computer. These two additions bring the cumulative
+  Cloud English key count to 12,474; consumer behavior remains owned by Cloud.
 - Generated distributions and Cloud bundled locales are synchronized. No local
   runtime overrides are required. `npm run verify` passed: 4,816 catalogs,
   zero validation errors and 120 tests. Aggregate task validation, both finalize

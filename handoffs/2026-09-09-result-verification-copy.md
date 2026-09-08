@@ -2,10 +2,15 @@
 
 ## Scope
 
-Three source-owned keys in all Cloud spaceOperations catalogs distinguish a
-verified execution result from an unverified AI report. English, Traditional
+Five source-owned keys in all Cloud spaceOperations catalogs distinguish a
+verified execution result from an unverified AI report, label retained-screen
+downloads, and identify files that remain on the execution computer. English, Traditional
 Chinese and Simplified Chinese are reviewed; other locales use English fallback.
 Distributions are regenerated through build-dist and consumed by Cloud sync-i18n.
+
+The two additional artifact labels bring the cumulative Cloud English ledger to
+12,474 keys. Download wording does not claim that a machine-local path is a
+browser link; Cloud owns the matching authenticated download behavior.
 
 ## Verification
 
