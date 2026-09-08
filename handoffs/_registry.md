@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-09-08 | Room operator reply and attachment controls | `2026-09-08-room-operator-controls.md` |
 | 2026-09-06 | Product Verification platform catalog | `2026-09-06-product-verification-platform.md` |
 | 2026-09-06 | AI Space and Operations Room canonical copy closure | `2026-09-06-ai-space-room-canonical-closure.md` |
 | 2026-09-06 | Adoption research workspace copy | `2026-09-06-adoption-research.md` |

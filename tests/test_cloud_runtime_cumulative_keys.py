@@ -573,7 +573,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # it used to print as raw enum names, the resource kinds it had no word
     # for (a computer showed as "Unknown type"), and the sentence for a
     # machine that reported success without verifiable evidence.
-    assert english_total == 12_450
+    # +19: operator replies, paused timing, and private attachment controls.
+    assert english_total == 12_469
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

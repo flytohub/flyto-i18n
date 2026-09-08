@@ -1,5 +1,20 @@
 # State
 
+## 2026-09-08 - Room operator replies and attachment controls
+
+- Nineteen Room keys are now source-owned in `spaceOperations.json`, covering
+  operator replies, paused execution time, and private text attachments.
+- English, Traditional Chinese, and Simplified Chinese copy is reviewed. The
+  other thirteen catalogs use explicit English fallback for these new keys.
+- Generated Cloud and aggregate distributions retain the source values. Cloud's
+  three bundled locales are synchronized; temporary local overrides are empty.
+- `npm run verify` passed: 4,816 catalog files validated without errors and all
+  120 tests passed. Final task validation passed, and strict workspace checks
+  passed all 21 checks per repository without project warnings or failures.
+  Workspace-level contract extraction and product-surface coverage warnings
+  remain; these checks do not establish full Cloud product acceptance.
+- This is a local source and bundle update; no CDN publication or deployment.
+
 ## 2026-09-07 - Terminal task group wording
 
 - Chinese task-group copy now says finished rather than completed because the
