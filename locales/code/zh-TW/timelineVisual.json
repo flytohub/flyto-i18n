@@ -35,7 +35,7 @@
     "timelineVisual.kind": "事件類型",
     "timelineVisual.severity": "嚴重性",
     "timelineVisual.moreFilters": "更多篩選",
-    "timelineVisual.sort": "事件排序",
+    "timelineVisual.sortLabel": "事件排序",
     "timelineVisual.sort.priority": "重點優先",
     "timelineVisual.sort.newest": "最新在前",
     "timelineVisual.sort.oldest": "最早在前",
