@@ -26,7 +26,7 @@ jobs:
           mkdir -p ../flyto-i18n/out/audit-review
           python3 -m src.cli scan ../flyto-i18n --full > ../flyto-i18n/out/audit-review/index-before.log 2>&1
           python3 -m src.cli context --path ../flyto-i18n --query 'build-dist validate locales code' > ../flyto-i18n/out/audit-review/context.log 2>&1
-          python3 -m src.cli impact build_dist --path ../flyto-i18n > ../flyto-i18n/out/audit-review/impact.log 2>&1
+          python3 -m src.cli impact validate_file --path ../flyto-i18n > ../flyto-i18n/out/audit-review/impact.log 2>&1
       - name: Restore reviewed translation payload
         working-directory: flyto-i18n
         env:
@@ -45,10 +45,9 @@ jobs:
               for file in path.parent.glob('*.json'):
                   old = json.loads(file.read_text()).get('translations', {})
                   assert not set(old).intersection(translations), f'Duplicate keys in {file}'
-              path.write_text(json.dumps({'$schema': '../../../schema/locale.schema.json', 'category': 'code', 'locale': locale, 'total_keys': len(translations), 'translations': translations}, ensure_ascii=False, indent=2) + '\n')
+              path.write_text(json.dumps({'$schema': '../../../schema/locale.schema.json', 'category': 'code', 'version': '1.0.0', 'locale': locale, 'total_keys': len(translations), 'translations': translations}, ensure_ascii=False, indent=2) + '\n')
           path = Path('CHANGELOG.md')
-          text = path.read_text()
-          first, rest = text.split('\n', 1)
+          first, rest = path.read_text().split('\n', 1)
           path.write_text(first + '\n\n## 2026-09-17 — Audit review and score history\n\n- Add English and Traditional Chinese audit-review, report-scope and recorded-score history copy.\n- Regenerate the canonical distribution; no existing keys are replaced.\n' + rest)
           PY
       - name: Validate and regenerate canonical bundles
