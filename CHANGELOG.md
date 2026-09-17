@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-17 — Audit review and score history
+
+- Add English and Traditional Chinese audit-review, report-scope and recorded-score history copy.
+- Regenerate the canonical distribution; no existing keys are replaced.
+
 ## 2026-09-06 — Clear verification and priority states
 
 - Distinguished verified target ownership from verified Red Team results in
