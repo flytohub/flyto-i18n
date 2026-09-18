@@ -18,6 +18,7 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           path: flyto-i18n
+          fetch-depth: 10
           persist-credentials: false
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
@@ -29,7 +30,8 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p ../review-output
-          test "$(git rev-parse HEAD^)" = 6de28ab3e40719feb54d3a1a9d98b8a0a0e75fce
+          git merge-base --is-ancestor 6de28ab3e40719feb54d3a1a9d98b8a0a0e75fce HEAD
+          git diff --quiet 6de28ab3e40719feb54d3a1a9d98b8a0a0e75fce HEAD -- . ':(exclude).github/workflows/compliance-review.yml'
           python3 -m pip install --disable-pip-version-check -r requirements.txt > ../review-output/install.log 2>&1
           (cd ../flyto-indexer && python3 -m src.cli scan ../flyto-i18n --full && python3 -m src.cli context --path ../flyto-i18n --query 'compliance translation code build-dist' && python3 -m src.cli impact build-dist --path ../flyto-i18n) > ../review-output/index-before.log 2>&1
       - name: Apply immutable reviewed translation changes
@@ -90,7 +92,7 @@ jobs:
       - name: Diagnostics
         if: always()
         run: |
-          for file in ../review-output/validate.log ../review-output/tests.log ../review-output/index-after.log; do test ! -f "$file" || { echo "== $file =="; tail -n 35 "$file"; }; done
+          for file in ../review-output/install.log ../review-output/validate.log ../review-output/tests.log ../review-output/index-after.log; do test ! -f "$file" || { echo "== $file =="; tail -n 35 "$file"; }; done
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         if: always()
         with:
