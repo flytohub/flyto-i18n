@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-18 — Compliance evidence review
+
+- Add English and Traditional Chinese copy for distinct unassessed/inapplicable states, evidence coverage, source provenance, and the shared compliance workspace. Generated distributions remain derived from canonical locale files.
+
 ## 2026-09-17 — Audit review and score history
 
 - Add English and Traditional Chinese audit-review, report-scope and recorded-score history copy.
