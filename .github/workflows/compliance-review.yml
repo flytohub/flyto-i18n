@@ -1,0 +1,100 @@
+name: Compliance Translation Review
+on:
+  push:
+    branches: [refactor/compliance-evidence-review]
+    paths: ['.github/workflows/compliance-review.yml']
+permissions:
+  contents: write
+jobs:
+  validate:
+    if: github.repository == 'flytohub/flyto-i18n' && github.ref == 'refs/heads/refactor/compliance-evidence-review'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: flyto-i18n
+        shell: bash
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          path: flyto-i18n
+          persist-credentials: false
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          repository: flytohub/flyto-indexer
+          ref: 8a3f741617fafdc99faeeb4d94d57b670f3b4077
+          path: flyto-indexer
+          persist-credentials: false
+      - name: Validate pinned source and pre-change context
+        run: |
+          set -euo pipefail
+          mkdir -p ../review-output
+          test "$(git rev-parse HEAD^)" = 6de28ab3e40719feb54d3a1a9d98b8a0a0e75fce
+          python3 -m pip install --disable-pip-version-check -r requirements.txt > ../review-output/install.log 2>&1
+          (cd ../flyto-indexer && python3 -m src.cli scan ../flyto-i18n --full && python3 -m src.cli context --path ../flyto-i18n --query 'compliance translation code build-dist' && python3 -m src.cli impact build-dist --path ../flyto-i18n) > ../review-output/index-before.log 2>&1
+      - name: Apply immutable reviewed translation changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh api repos/flytohub/flyto-i18n/git/blobs/f999e2a5c333c4dd2706a70f17bef719d33595a8 --jq .content | base64 --decode > ../review-output/patch.gz
+          test "$(git hash-object ../review-output/patch.gz)" = f999e2a5c333c4dd2706a70f17bef719d33595a8
+          gzip -dc ../review-output/patch.gz > ../review-output/input.patch
+          git apply --index ../review-output/input.patch
+          git rm .github/workflows/compliance-review.yml
+      - name: Validate canonical sources and regenerate bundles
+        run: |
+          set -euo pipefail
+          python3 scripts/validate.py --strict > ../review-output/validate.log 2>&1
+          python3 scripts/build-dist.py --scope code > ../review-output/build.log 2>&1
+          python3 -m pytest tests -q > ../review-output/tests.log 2>&1
+          (cd ../flyto-indexer && python3 -m src.cli scan ../flyto-i18n --full && python3 -m src.cli verify ../flyto-i18n --strict --json) > ../review-output/index-after.log 2>&1
+          git add locales/code/en/complianceReview.json locales/code/zh-TW/complianceReview.json dist manifest.json
+          git diff --cached --check
+      - name: Secret scan the staged change
+        run: |
+          set -euo pipefail
+          git diff --cached --binary > ../review-output/validated.patch
+          curl -fsSL --retry 3 https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz -o /tmp/compliance-gitleaks.tgz
+          echo '551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  /tmp/compliance-gitleaks.tgz' | sha256sum -c -
+          tar -xzf /tmp/compliance-gitleaks.tgz -C /tmp gitleaks
+          /tmp/gitleaks stdin --redact --no-banner --exit-code 1 < ../review-output/validated.patch
+      - name: Record exact candidate without moving a branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64, json, subprocess
+          from pathlib import Path
+          def git(*args): return subprocess.check_output(['git', *args], text=True).strip()
+          def api(path, data): return json.loads(subprocess.check_output(['gh','api','repos/flytohub/flyto-i18n/'+path,'--method','POST','--input','-'], input=json.dumps(data).encode()))
+          assert not git('diff','--name-only'), 'Unstaged tracked changes remain'
+          names = git('diff','--cached','--name-only').splitlines()
+          allowed = {'locales/code/en/complianceReview.json','locales/code/zh-TW/complianceReview.json','.github/workflows/compliance-review.yml','manifest.json'}
+          assert all(name in allowed or name.startswith('dist/') for name in names), names
+          entries = []
+          for name in names:
+              sha = None
+              if Path(name).exists():
+                  sha = api('git/blobs', {'encoding':'base64','content':base64.b64encode(Path(name).read_bytes()).decode()})['sha']
+                  assert sha == git('hash-object',name)
+              entries.append({'path':name,'mode':'100644','type':'blob','sha':sha})
+          tree = api('git/trees',{'base_tree':git('rev-parse','HEAD^{tree}'),'tree':entries})['sha']
+          assert tree == git('write-tree')
+          commit = api('git/commits', {'message':'feat(i18n): add evidence-first compliance review copy and bundles','tree':tree,'parents':[git('rev-parse','HEAD')]})['sha']
+          receipt = {'parent':git('rev-parse','HEAD'),'tree':tree,'candidate':commit,'main_updated':False,'deployed':False}
+          Path('../review-output/receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print('CANDIDATE_RECEIPT='+json.dumps(receipt))
+          PY
+      - name: Diagnostics
+        if: always()
+        run: |
+          for file in ../review-output/validate.log ../review-output/tests.log ../review-output/index-after.log; do test ! -f "$file" || { echo "== $file =="; tail -n 35 "$file"; }; done
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: compliance-translation-review
+          path: review-output/
+          retention-days: 3
+          if-no-files-found: error
