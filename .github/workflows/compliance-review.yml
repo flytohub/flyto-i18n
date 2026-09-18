@@ -44,11 +44,11 @@ jobs:
           gzip -dc ../review-output/patch.gz > ../review-output/input.patch
           git apply --index ../review-output/input.patch
           git rm .github/workflows/compliance-review.yml
-      - name: Validate canonical sources and regenerate bundles
+      - name: Validate canonical sources and regenerate every consuming bundle
         run: |
           set -euo pipefail
           python3 scripts/validate.py --strict > ../review-output/validate.log 2>&1
-          python3 scripts/build-dist.py --scope code > ../review-output/build.log 2>&1
+          python3 scripts/build-dist.py > ../review-output/build.log 2>&1
           python3 -m pytest tests -q > ../review-output/tests.log 2>&1
           (cd ../flyto-indexer && python3 -m src.cli scan ../flyto-i18n --full && python3 -m src.cli verify ../flyto-i18n --strict --json) > ../review-output/index-after.log 2>&1
           git add locales/code/en/complianceReview.json locales/code/zh-TW/complianceReview.json dist manifest.json
