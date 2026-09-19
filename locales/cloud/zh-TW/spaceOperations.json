@@ -577,7 +577,8 @@
     "spaces.ops.previousAttemptHint": "這是先前執行留下的結果，不會改變目前任務的狀態。",
     "spaces.ops.learningSaved": "已保存為可重複使用的工作流程。",
     "spaces.ops.learningNotSaved": "這次執行沒有新增可重複使用的工作流程。",
-    "spaces.ops.learningReused": "已復用既有工作流程。"
+    "spaces.ops.learningReused": "已復用既有工作流程。",
+    "spaces.ops.learningPending": "可重複使用的工作流程正在等待保存。"
   },
   "total_keys": 574
 }
