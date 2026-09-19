@@ -1,5 +1,15 @@
 # State
 
+## 2026-09-20 - Verified workflow reuse copy
+
+- Added a separate reused-workflow label for Cloud's host-verified reuse receipt.
+- The unavailable publication label now states that this run saved no new
+  workflow; it does not imply that no saved workflow exists.
+- English, Traditional Chinese and Simplified Chinese are reviewed; thirteen
+  other locales retain explicit English fallback. No execution authority changes.
+- `npm run verify` passed with the pinned dependencies: 4,854 catalogs, no
+  validation errors, 120 tests and 2,702 subtests. Cloud English has 12,479 keys.
+
 ## 2026-09-20 - Historical execution and learning result copy
 
 - Added two source-owned labels for an earlier execution and the explicit

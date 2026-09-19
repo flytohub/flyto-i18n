@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "cloud.spaceOperations",
   "locale": "id",
-  "total_keys": 225,
+  "total_keys": 574,
   "translations": {
     "spaces.decision.kind.human.approval": "",
     "spaces.decision.kind.unknown": "",
@@ -576,7 +576,8 @@
     "spaces.ops.previousAttempt": "Previous attempt",
     "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status.",
     "spaces.ops.learningSaved": "Reusable workflow saved.",
-    "spaces.ops.learningNotSaved": "No reusable workflow was saved from this execution."
+    "spaces.ops.learningNotSaved": "No new reusable workflow was saved from this execution.",
+    "spaces.ops.learningReused": "Reused a saved workflow."
   },
   "version": "1.3.0"
 }
