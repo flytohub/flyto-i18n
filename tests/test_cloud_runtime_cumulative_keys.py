@@ -576,7 +576,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +19: operator replies, paused timing, and private attachment controls.
     # +3: verified execution result and separately identified unverified AI report.
     # +2: retained-screen download and execution-computer file labels.
-    assert english_total == 12_474
+    # +2: historical execution label and separation from current task status.
+    assert english_total == 12_476
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

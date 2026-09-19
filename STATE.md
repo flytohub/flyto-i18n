@@ -1,5 +1,17 @@
 # State
 
+## 2026-09-20 - Historical execution output copy
+
+- Added two source-owned labels for an earlier execution and the explicit
+  separation between its saved output and the current task status.
+- English, Traditional Chinese and Simplified Chinese have reviewed copy;
+  the other thirteen locales use explicit English fallback.
+- Generated Cloud and aggregate distributions include the additions. Existing
+  attempt copy is reused by the Cloud consumer. No execution authority changes.
+- Full `npm run verify` passed: 4,816 catalogs, zero validation errors and
+  120 tests. Cloud's three bundled locales are synchronized; consumer UI
+  verification is recorded in its software acceptance handoff.
+
 ## 2026-09-09 - Honest operations result labels
 
 - Added canonical execution-result and unverified-report labels. English and the

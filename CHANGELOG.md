@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-20 — Historical execution output labels
+
+- Label retained output from an earlier execution separately from the current
+  task status, with reviewed English and Chinese copy and generated bundles.
+
 ## 2026-09-06 — Clear verification and priority states
 
 - Distinguished verified target ownership from verified Red Team results in

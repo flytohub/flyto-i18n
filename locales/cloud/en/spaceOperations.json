@@ -572,7 +572,9 @@
     "spaces.ops.unverifiedReport": "This execution has not passed verification. The AI report below does not confirm completion.",
     "spaces.ops.unverifiedReportLabel": "Read the unverified AI report",
     "spaces.ops.resultDownloadScreen": "Download retained screen",
-    "spaces.ops.resultLocalFile": "File on the execution computer"
+    "spaces.ops.resultLocalFile": "File on the execution computer",
+    "spaces.ops.previousAttempt": "Previous attempt",
+    "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status."
   },
   "total_keys": 545
 }
