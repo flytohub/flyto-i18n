@@ -408,7 +408,7 @@
     "spaces.schedule.asksFirst": "等你按启动：这个工作流程会先问",
     "spaces.schedule.attempt": "第几次",
     "spaces.schedule.behind": "落后",
-    "spaces.schedule.block": "卡住了",
+    "spaces.schedule.block": "报告阻碍",
     "spaces.schedule.blockFor": "预计等多久",
     "spaces.schedule.blockPlaceholder": "电梯有人在用",
     "spaces.schedule.blockReason": "是什么卡住了？",
