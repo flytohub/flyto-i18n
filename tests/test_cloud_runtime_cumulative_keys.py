@@ -577,7 +577,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +3: verified execution result and separately identified unverified AI report.
     # +2: retained-screen download and execution-computer file labels.
     # +2: historical execution label and separation from current task status.
-    assert english_total == 12_476
+    # +2: execution completion is independent from saving a reusable workflow.
+    assert english_total == 12_478
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

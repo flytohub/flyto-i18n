@@ -1,9 +1,11 @@
 # Changelog
 
-## 2026-09-20 — Historical execution output labels
+## 2026-09-20 — Historical execution and learning result labels
 
 - Label retained output from an earlier execution separately from the current
   task status, with reviewed English and Chinese copy and generated bundles.
+- Distinguish a saved reusable workflow from an execution whose procedure was
+  not saved, independently of the execution's verified completion status.
 
 ## 2026-09-19 — Approved CTEM design
 

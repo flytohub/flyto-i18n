@@ -1,9 +1,11 @@
 # State
 
-## 2026-09-20 - Historical execution output copy
+## 2026-09-20 - Historical execution and learning result copy
 
 - Added two source-owned labels for an earlier execution and the explicit
   separation between its saved output and the current task status.
+- Added separate saved/not-saved reusable workflow receipt labels. They do
+  not imply that a completed task has automatically become a reusable workflow.
 - English, Traditional Chinese and Simplified Chinese have reviewed copy;
   the other thirteen locales use explicit English fallback.
 - Generated Cloud and aggregate distributions include the additions. Existing
