@@ -8,7 +8,8 @@
   the other thirteen locales use explicit English fallback.
 - Generated Cloud and aggregate distributions include the additions. Existing
   attempt copy is reused by the Cloud consumer. No execution authority changes.
-- Full `npm run verify` passed: 4,816 catalogs, zero validation errors and
+- Full `npm run verify` passed after incorporating upstream CTEM catalogs:
+  4,854 catalogs, zero validation errors and
   120 tests. Cloud's three bundled locales are synchronized; consumer UI
   verification is recorded in its software acceptance handoff.
 
