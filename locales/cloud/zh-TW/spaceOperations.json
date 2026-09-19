@@ -572,7 +572,11 @@
     "spaces.ops.unverifiedReport": "本次執行未通過驗證。下方是 AI 的原始回報，不代表任務已完成。",
     "spaces.ops.unverifiedReportLabel": "查看尚未驗證的 AI 回報",
     "spaces.ops.resultDownloadScreen": "下載保留畫面",
-    "spaces.ops.resultLocalFile": "執行電腦上的檔案"
+    "spaces.ops.resultLocalFile": "執行電腦上的檔案",
+    "spaces.ops.previousAttempt": "先前執行",
+    "spaces.ops.previousAttemptHint": "這是先前執行留下的結果，不會改變目前任務的狀態。",
+    "spaces.ops.learningSaved": "已保存為可重複使用的工作流程。",
+    "spaces.ops.learningNotSaved": "這次執行尚未保存成可重複使用的工作流程。"
   },
   "total_keys": 545
 }
