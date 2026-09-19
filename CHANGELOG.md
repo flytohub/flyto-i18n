@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-19 — Approved CTEM design
+
+Add source-owned English and Traditional Chinese labels for the approved CTEM layout, missing lifecycle statistics, evidence dialogs and linked-alert tools. Other locales explicitly use English fallback for these new keys. Existing translations remain unchanged.
+
 ## CTEM action queue copy — 2026-09-19
 
 Add source-owned queue purpose, loaded-window counts, priority context, review dialogs and explicit remediation-versus-verification language. English and Traditional Chinese are reviewed; other locales use explicit English fallback. This does not establish a frontend deployment.
