@@ -12,7 +12,8 @@ EXPECTED = {
         "spaces.ops.previousAttempt": "Previous attempt",
         "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status.",
         "spaces.ops.learningSaved": "Reusable workflow saved.",
-        "spaces.ops.learningNotSaved": "No reusable workflow was saved from this execution.",
+        "spaces.ops.learningNotSaved": "No new reusable workflow was saved from this execution.",
+        "spaces.ops.learningReused": "Reused a saved workflow.",
     },
     "zh-TW": {
         "spaces.ops.management": "管理",
@@ -20,7 +21,8 @@ EXPECTED = {
         "spaces.ops.previousAttempt": "先前執行",
         "spaces.ops.previousAttemptHint": "這是先前執行留下的結果，不會改變目前任務的狀態。",
         "spaces.ops.learningSaved": "已保存為可重複使用的工作流程。",
-        "spaces.ops.learningNotSaved": "這次執行尚未保存成可重複使用的工作流程。",
+        "spaces.ops.learningNotSaved": "這次執行沒有新增可重複使用的工作流程。",
+        "spaces.ops.learningReused": "已復用既有工作流程。",
     },
     "zh-CN": {
         "spaces.ops.management": "管理",
@@ -28,7 +30,8 @@ EXPECTED = {
         "spaces.ops.previousAttempt": "先前执行",
         "spaces.ops.previousAttemptHint": "这是先前执行留下的结果，不会改变当前任务的状态。",
         "spaces.ops.learningSaved": "已保存为可重复使用的工作流程。",
-        "spaces.ops.learningNotSaved": "这次执行尚未保存成可重复使用的工作流程。",
+        "spaces.ops.learningNotSaved": "这次执行没有新增可重复使用的工作流程。",
+        "spaces.ops.learningReused": "已复用现有工作流程。",
     },
 }
 OWNERS = {
@@ -38,6 +41,7 @@ OWNERS = {
     "spaces.ops.previousAttemptHint": "spaceOperations.json",
     "spaces.ops.learningSaved": "spaceOperations.json",
     "spaces.ops.learningNotSaved": "spaceOperations.json",
+    "spaces.ops.learningReused": "spaceOperations.json",
 }
 
 

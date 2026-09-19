@@ -576,7 +576,8 @@
     "spaces.ops.previousAttempt": "Previous attempt",
     "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status.",
     "spaces.ops.learningSaved": "Reusable workflow saved.",
-    "spaces.ops.learningNotSaved": "No reusable workflow was saved from this execution."
+    "spaces.ops.learningNotSaved": "No new reusable workflow was saved from this execution.",
+    "spaces.ops.learningReused": "Reused a saved workflow."
   },
-  "total_keys": 545
+  "total_keys": 574
 }
