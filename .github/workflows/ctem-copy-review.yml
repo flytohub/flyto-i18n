@@ -1,0 +1,106 @@
+name: Verify CTEM Queue Copy
+on:
+  push:
+    branches: [feat/ctem-action-queue-copy]
+    paths: [.github/workflows/ctem-copy-review.yml]
+permissions:
+  contents: write
+jobs:
+  verify:
+    if: github.repository == 'flytohub/flyto-i18n' && github.ref == 'refs/heads/feat/ctem-action-queue-copy'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: flyto-i18n
+        shell: bash
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          path: flyto-i18n
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: flytohub/flyto-indexer
+          ref: 8a3f741617fafdc99faeeb4d94d57b670f3b4077
+          path: flyto-indexer
+          persist-credentials: false
+      - name: Read current generation context before source changes
+        working-directory: flyto-indexer
+        run: |
+          mkdir -p ../flyto-i18n/out/ctem-copy
+          python3 -m src.cli scan ../flyto-i18n --full > ../flyto-i18n/out/ctem-copy/index-before.log 2>&1
+          python3 -m src.cli context --path ../flyto-i18n --query 'build-dist translation source catalog merge' > ../flyto-i18n/out/ctem-copy/context.log 2>&1
+          python3 -m src.cli impact build_dist --path ../flyto-i18n > ../flyto-i18n/out/ctem-copy/impact.log 2>&1
+      - name: Apply additive reviewed copy
+        run: |
+          python3 - <<'PY'
+          import base64,gzip,json
+          from pathlib import Path
+          payload='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'
+          # This is an encoded reviewed text catalog, not executable input.
+          data=json.loads(gzip.decompress(base64.b64decode(payload)))
+          for directory in sorted(Path('locales/code').iterdir()):
+              if not directory.is_dir(): continue
+              locale=directory.name
+              target=directory/'ctemQueue.json'
+              assert not target.exists(), str(target)
+              values={f'ctemQueue.{key}': value[1 if locale=='zh-TW' else 0] for key,value in data.items()}
+              target.write_text(json.dumps({'$schema':'../../../schema/locale.schema.json','category':'code','version':'1.0.0','locale':locale,'total_keys':len(values),'translations':values},ensure_ascii=False,indent=2)+'\n')
+          changelog=Path('CHANGELOG.md')
+          text=changelog.read_text()
+          heading,separator,rest=text.partition('\n')
+          changelog.write_text(heading+'\n\n## CTEM action queue copy — 2026-09-19\n\nAdd source-owned queue purpose, loaded-window counts, priority context, review dialogs and explicit remediation-versus-verification language. English and Traditional Chinese are reviewed; other locales use explicit English fallback. This does not establish a frontend deployment.\n'+separator+rest)
+          PY
+          git rm .github/workflows/ctem-copy-review.yml
+      - name: Validate and generate complete distributions
+        run: |
+          set -euo pipefail
+          python3 -m pip install -r requirements.txt 'pytest>=9.0.3,<10' > out/ctem-copy/install.log 2>&1
+          npm run docs:write > out/ctem-copy/docs.log 2>&1
+          npm run verify > out/ctem-copy/verify.log 2>&1
+      - name: Verify indexed output and stage exact tree
+        run: |
+          set -euo pipefail
+          (cd ../flyto-indexer && python3 -m src.cli scan ../flyto-i18n --full && python3 -m src.cli verify ../flyto-i18n --strict --json) > out/ctem-copy/index-after.log 2>&1
+          git add -u
+          git add locales/code/*/ctemQueue.json
+          git diff --cached --check
+          git diff --cached --binary > out/ctem-copy/validated.patch
+          curl -fsSL --retry 3 https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz -o /tmp/ctem-gitleaks.tgz
+          echo '551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  /tmp/ctem-gitleaks.tgz' | sha256sum -c -
+          tar -xzf /tmp/ctem-gitleaks.tgz -C /tmp gitleaks
+          /tmp/gitleaks stdin --redact --no-banner --exit-code 1 < out/ctem-copy/validated.patch
+      - name: Record validated objects without moving a branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,json,subprocess
+          from pathlib import Path
+          def git(*args):return subprocess.check_output(['git',*args],text=True).strip()
+          def api(path,body):return json.loads(subprocess.check_output(['gh','api','repos/flytohub/flyto-i18n/'+path,'--method','POST','--input','-'],input=json.dumps(body).encode()))
+          entries=[]
+          for name in git('diff','--cached','--name-only').splitlines():
+              assert name.startswith(('locales/code/','dist/','docs/')) or name in ['CHANGELOG.md','.github/workflows/ctem-copy-review.yml'],name
+              p=Path(name)
+              sha=api('git/blobs',{'content':base64.b64encode(p.read_bytes()).decode(),'encoding':'base64'})['sha'] if p.exists() else None
+              if sha:assert sha==git('hash-object',name)
+              entries.append({'path':name,'mode':'100644','type':'blob','sha':sha})
+          parent=git('rev-parse','HEAD');tree=git('write-tree')
+          assert api('git/trees',{'base_tree':git('rev-parse','HEAD^{tree}'),'tree':entries})['sha']==tree
+          commit=api('git/commits',{'message':'feat(ctem): add action-first queue copy and generated catalogs','tree':tree,'parents':[parent]})
+          receipt={'parent':parent,'tree':tree,'commit':commit['sha'],'entries':entries,'branch_updated':False,'deployed':False}
+          Path('out/ctem-copy/receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print('VERIFIED_COMMIT='+commit['sha'])
+          PY
+      - name: Diagnostics
+        if: always()
+        run: |
+          for file in out/ctem-copy/*.log; do test ! -f "$file" || { echo "== $file =="; tail -n 15 "$file"; }; done
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        if: always()
+        with:
+          name: ctem-copy-review
+          path: flyto-i18n/out/ctem-copy/
+          retention-days: 3
