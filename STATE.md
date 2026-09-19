@@ -3,6 +3,8 @@
 ## 2026-09-20 - Verified workflow reuse copy
 
 - Added a separate reused-workflow label for Cloud's host-verified reuse receipt.
+- The existing schedule action says "Report a blocker", so it is not mistaken
+  for a current blocked-state label. No key or status semantics changed.
 - The unavailable publication label now states that this run saved no new
   workflow; it does not imply that no saved workflow exists.
 - English, Traditional Chinese and Simplified Chinese are reviewed; thirteen

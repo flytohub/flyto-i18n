@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {
     "en": {
         "spaces.ops.management": "Management",
+        "spaces.schedule.block": "Report a blocker",
         "spaces.ops.noReplans": "No replans",
         "spaces.ops.previousAttempt": "Previous attempt",
         "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status.",
@@ -17,6 +18,7 @@ EXPECTED = {
     },
     "zh-TW": {
         "spaces.ops.management": "管理",
+        "spaces.schedule.block": "回報阻礙",
         "spaces.ops.noReplans": "尚無重新規劃",
         "spaces.ops.previousAttempt": "先前執行",
         "spaces.ops.previousAttemptHint": "這是先前執行留下的結果，不會改變目前任務的狀態。",
@@ -26,6 +28,7 @@ EXPECTED = {
     },
     "zh-CN": {
         "spaces.ops.management": "管理",
+        "spaces.schedule.block": "报告阻碍",
         "spaces.ops.noReplans": "暂无重新规划",
         "spaces.ops.previousAttempt": "先前执行",
         "spaces.ops.previousAttemptHint": "这是先前执行留下的结果，不会改变当前任务的状态。",
@@ -35,6 +38,7 @@ EXPECTED = {
     },
 }
 OWNERS = {
+    "spaces.schedule.block": "spaceOperations.json",
     "spaces.ops.management": "spaces.json",
     "spaces.ops.noReplans": "spaceOperations.json",
     "spaces.ops.previousAttempt": "spaceOperations.json",

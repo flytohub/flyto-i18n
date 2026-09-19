@@ -408,7 +408,7 @@
     "spaces.schedule.asksFirst": "Waits for Run: this workflow asks first",
     "spaces.schedule.attempt": "attempt",
     "spaces.schedule.behind": "Behind",
-    "spaces.schedule.block": "Blocked",
+    "spaces.schedule.block": "Report a blocker",
     "spaces.schedule.blockFor": "Expected wait",
     "spaces.schedule.blockPlaceholder": "the lift is in use",
     "spaces.schedule.blockReason": "What is holding it up?",

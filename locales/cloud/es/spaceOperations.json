@@ -408,7 +408,7 @@
     "spaces.schedule.asksFirst": "",
     "spaces.schedule.attempt": "",
     "spaces.schedule.behind": "",
-    "spaces.schedule.block": "",
+    "spaces.schedule.block": "Report a blocker",
     "spaces.schedule.blockFor": "",
     "spaces.schedule.blockPlaceholder": "",
     "spaces.schedule.blockReason": "",
