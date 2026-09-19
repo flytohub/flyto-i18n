@@ -572,7 +572,11 @@
     "spaces.ops.unverifiedReport": "本次执行未通过验证。下方是 AI 的原始报告，不代表任务已完成。",
     "spaces.ops.unverifiedReportLabel": "查看尚未验证的 AI 报告",
     "spaces.ops.resultDownloadScreen": "下载保留画面",
-    "spaces.ops.resultLocalFile": "执行电脑上的文件"
+    "spaces.ops.resultLocalFile": "执行电脑上的文件",
+    "spaces.ops.previousAttempt": "先前执行",
+    "spaces.ops.previousAttemptHint": "这是先前执行留下的结果，不会改变当前任务的状态。",
+    "spaces.ops.learningSaved": "已保存为可重复使用的工作流程。",
+    "spaces.ops.learningNotSaved": "这次执行尚未保存成可重复使用的工作流程。"
   },
   "total_keys": 545
 }
