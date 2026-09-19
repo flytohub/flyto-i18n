@@ -1,12 +1,12 @@
 {
-  "version": "8fdcb4649c4c",
+  "version": "0ab8b281deb2",
   "locales": {
     "de": {
       "name": "German",
       "native": "Deutsch",
       "region": "DE",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -24,7 +24,7 @@
       "native": "Español",
       "region": "ES",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -33,7 +33,7 @@
       "native": "Français",
       "region": "FR",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -42,7 +42,7 @@
       "native": "हिन्दी",
       "region": "IN",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -51,7 +51,7 @@
       "native": "Bahasa Indonesia",
       "region": "ID",
       "total_keys": 25459,
-      "translated_keys": 19289,
+      "translated_keys": 19290,
       "completion": 75.8,
       "files_merged": 303
     },
@@ -60,7 +60,7 @@
       "native": "Italiano",
       "region": "IT",
       "total_keys": 25459,
-      "translated_keys": 19289,
+      "translated_keys": 19290,
       "completion": 75.8,
       "files_merged": 303
     },
@@ -69,7 +69,7 @@
       "native": "日本語",
       "region": "JP",
       "total_keys": 25459,
-      "translated_keys": 21666,
+      "translated_keys": 21667,
       "completion": 85.1,
       "files_merged": 303
     },
@@ -78,7 +78,7 @@
       "native": "한국어",
       "region": "KR",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -87,7 +87,7 @@
       "native": "Polski",
       "region": "PL",
       "total_keys": 25459,
-      "translated_keys": 19289,
+      "translated_keys": 19290,
       "completion": 75.8,
       "files_merged": 303
     },
@@ -96,7 +96,7 @@
       "native": "Português (Brasil)",
       "region": "BR",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -105,7 +105,7 @@
       "native": "ภาษาไทย",
       "region": "TH",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -114,7 +114,7 @@
       "native": "Türkçe",
       "region": "TR",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
@@ -123,7 +123,7 @@
       "native": "Tiếng Việt",
       "region": "VN",
       "total_keys": 25459,
-      "translated_keys": 19173,
+      "translated_keys": 19174,
       "completion": 75.3,
       "files_merged": 303
     },
