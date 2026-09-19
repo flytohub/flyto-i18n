@@ -1,5 +1,10 @@
 # Changelog
 
+## CTEM action queue copy — 2026-09-19
+
+Add source-owned queue purpose, loaded-window counts, priority context, review dialogs and explicit remediation-versus-verification language. English and Traditional Chinese are reviewed; other locales use explicit English fallback. This does not establish a frontend deployment.
+
+
 ## 2026-09-17 — Audit review and score history
 
 - Add English and Traditional Chinese audit-review, report-scope and recorded-score history copy.
