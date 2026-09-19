@@ -1,5 +1,18 @@
 # State
 
+## 2026-09-20 - Pending workflow publication copy
+
+- Added the single `spaces.ops.learningPending` key to the existing Space
+  Operations source owner in English, Traditional Chinese and Simplified Chinese.
+- The label describes a workflow waiting to be saved; it does not assert that
+  publication succeeded or change task completion and execution authority.
+- Cloud and aggregate distributions are generated from the reviewed sources.
+  Consumer UI integration and verification remain owned by Cloud.
+- `npm run verify` passed: 4,854 catalogs with no validation errors, 120 tests
+  and 2,702 subtests. Strict verification passed 21 checks without warnings.
+  Cloud English now contains 12,480 keys; source and both distribution scopes
+  preserve the exact reviewed values and single source owner.
+
 ## 2026-09-20 - Verified workflow reuse copy
 
 - Added a separate reused-workflow label for Cloud's host-verified reuse receipt.

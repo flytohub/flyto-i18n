@@ -579,7 +579,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +2: historical execution label and separation from current task status.
     # +2: execution completion is independent from saving a reusable workflow.
     # +1: host-verified reuse remains distinct from new workflow publication.
-    assert english_total == 12_479
+    # +1: pending workflow publication remains distinct from saved publication.
+    assert english_total == 12_480
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
