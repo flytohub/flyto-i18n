@@ -1,5 +1,12 @@
 # State
 
+## 2026-09-21 - External Intelligence quality and learning copy
+
+- Added 23 canonical Code keys for coverage, versioned detector quality, recent observations and measurement limitations.
+- English, Traditional Chinese and Simplified Chinese are reviewed; the other Code locales use explicit English fallback.
+- Copy keeps reviewed precision and labeled recall bounded to explicitly labeled samples; it does not imply population recall or perfect detection.
+- Strict source validation passes and generated Code/aggregate distributions are refreshed. Consumer deployment remains flyto-code-owned.
+
 ## 2026-09-21 - Report and assessment library copy
 
 - Added 24 canonical Code keys for the Report Library, Assessment Library and CTEM compliance-dialog handoff.

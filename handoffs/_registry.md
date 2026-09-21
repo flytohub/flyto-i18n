@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-09-21 | External Intelligence quality and learning copy | `2026-09-21-external-intelligence-quality-copy.md` |
 | 2026-09-21 | Code report and assessment library copy | `2026-09-21-code-report-assessment-library.md` |
 | 2026-09-20 | Historical execution output copy | `2026-09-20-historical-execution-copy.md` |
 | 2026-09-08 | Room operator reply and attachment controls | `2026-09-08-room-operator-controls.md` |

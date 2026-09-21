@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-21 — External Intelligence quality and learning copy
+
+- Added 23 source-owned labels for the External Intelligence Quality / Learning workspace.
+- Reviewed English, Traditional Chinese and Simplified Chinese distinguish reviewed precision and labeled recall from population-wide accuracy claims.
+- Regenerated Code and aggregate distributions; other Code locales use explicit English fallback for the additive keys.
+
 ## 2026-09-21 — Report and assessment library copy
 
 - Added source-owned Report Library, Assessment Library and CTEM compliance-dialog copy for Code.
