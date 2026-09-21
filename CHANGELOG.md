@@ -6,6 +6,7 @@
 - English, Traditional Chinese and Simplified Chinese are reviewed; other Code locales use explicit English fallback for the additive keys.
 - Assessment language preserves the Engine truth boundary: missing evidence remains not assessed and is never labelled as a pass.
 - Rebuilt tracked Code and aggregate distributions for all supported Code locales.
+- Added the missing Compliance Review labels and status guidance so the new report/assessment release no longer depends on orphaned runtime keys.
 
 ## 2026-09-20 — Historical execution and learning result labels
 

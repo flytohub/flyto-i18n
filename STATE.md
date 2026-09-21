@@ -5,7 +5,7 @@
 - Added 24 canonical Code keys for the Report Library, Assessment Library and CTEM compliance-dialog handoff.
 - English, Traditional Chinese and Simplified Chinese are reviewed; the other Code locales use explicit English fallback for these additive keys.
 - Copy distinguishes evidence-backed assessments from not-assessed frameworks; missing Engine evidence is not presented as compliance success.
-- Strict source validation passed for 4,854 catalogs and generated Code/aggregate distributions were rebuilt. Consumer UI deployment remains Code-owned.
+- Strict source validation passed for 4,854 catalogs and generated Code/aggregate distributions were rebuilt. Compliance Review runtime labels are now canonical instead of orphaned. Consumer UI deployment remains Code-owned.
 
 ## 2026-09-20 - Pending workflow publication copy
 
