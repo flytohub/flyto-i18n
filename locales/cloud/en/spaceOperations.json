@@ -408,7 +408,7 @@
     "spaces.schedule.asksFirst": "Waits for Run: this workflow asks first",
     "spaces.schedule.attempt": "attempt",
     "spaces.schedule.behind": "Behind",
-    "spaces.schedule.block": "Blocked",
+    "spaces.schedule.block": "Report a blocker",
     "spaces.schedule.blockFor": "Expected wait",
     "spaces.schedule.blockPlaceholder": "the lift is in use",
     "spaces.schedule.blockReason": "What is holding it up?",
@@ -572,7 +572,13 @@
     "spaces.ops.unverifiedReport": "This execution has not passed verification. The AI report below does not confirm completion.",
     "spaces.ops.unverifiedReportLabel": "Read the unverified AI report",
     "spaces.ops.resultDownloadScreen": "Download retained screen",
-    "spaces.ops.resultLocalFile": "File on the execution computer"
+    "spaces.ops.resultLocalFile": "File on the execution computer",
+    "spaces.ops.previousAttempt": "Previous attempt",
+    "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status.",
+    "spaces.ops.learningSaved": "Reusable workflow saved.",
+    "spaces.ops.learningNotSaved": "No new reusable workflow was saved from this execution.",
+    "spaces.ops.learningReused": "Reused a saved workflow.",
+    "spaces.ops.learningPending": "Reusable workflow is waiting to be saved."
   },
-  "total_keys": 545
+  "total_keys": 574
 }

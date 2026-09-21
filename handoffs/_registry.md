@@ -3,6 +3,7 @@
 | Date | Topic | File |
 | --- | --- | --- |
 | 2026-09-21 | Code report and assessment library copy | `2026-09-21-code-report-assessment-library.md` |
+| 2026-09-20 | Historical execution output copy | `2026-09-20-historical-execution-copy.md` |
 | 2026-09-08 | Room operator reply and attachment controls | `2026-09-08-room-operator-controls.md` |
 | 2026-09-06 | Product Verification platform catalog | `2026-09-06-product-verification-platform.md` |
 | 2026-09-06 | AI Space and Operations Room canonical copy closure | `2026-09-06-ai-space-room-canonical-closure.md` |

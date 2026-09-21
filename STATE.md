@@ -7,6 +7,46 @@
 - Copy distinguishes evidence-backed assessments from not-assessed frameworks; missing Engine evidence is not presented as compliance success.
 - Strict source validation passed for 4,854 catalogs and generated Code/aggregate distributions were rebuilt. Consumer UI deployment remains Code-owned.
 
+## 2026-09-20 - Pending workflow publication copy
+
+- Added the single `spaces.ops.learningPending` key to the existing Space
+  Operations source owner in English, Traditional Chinese and Simplified Chinese.
+- The label describes a workflow waiting to be saved; it does not assert that
+  publication succeeded or change task completion and execution authority.
+- Cloud and aggregate distributions are generated from the reviewed sources.
+  Consumer UI integration and verification remain owned by Cloud.
+- `npm run verify` passed: 4,854 catalogs with no validation errors, 120 tests
+  and 2,702 subtests. Strict verification passed 21 checks without warnings.
+  Cloud English now contains 12,480 keys; source and both distribution scopes
+  preserve the exact reviewed values and single source owner.
+
+## 2026-09-20 - Verified workflow reuse copy
+
+- Added a separate reused-workflow label for Cloud's host-verified reuse receipt.
+- The existing schedule action says "Report a blocker", so it is not mistaken
+  for a current blocked-state label. No key or status semantics changed.
+- The unavailable publication label now states that this run saved no new
+  workflow; it does not imply that no saved workflow exists.
+- English, Traditional Chinese and Simplified Chinese are reviewed; thirteen
+  other locales retain explicit English fallback. No execution authority changes.
+- `npm run verify` passed with the pinned dependencies: 4,854 catalogs, no
+  validation errors, 120 tests and 2,702 subtests. Cloud English has 12,479 keys.
+
+## 2026-09-20 - Historical execution and learning result copy
+
+- Added two source-owned labels for an earlier execution and the explicit
+  separation between its saved output and the current task status.
+- Added separate saved/not-saved reusable workflow receipt labels. They do
+  not imply that a completed task has automatically become a reusable workflow.
+- English, Traditional Chinese and Simplified Chinese have reviewed copy;
+  the other thirteen locales use explicit English fallback.
+- Generated Cloud and aggregate distributions include the additions. Existing
+  attempt copy is reused by the Cloud consumer. No execution authority changes.
+- Full `npm run verify` passed after incorporating upstream CTEM catalogs:
+  4,854 catalogs, zero validation errors and
+  120 tests. Cloud's three bundled locales are synchronized; consumer UI
+  verification is recorded in its software acceptance handoff.
+
 ## 2026-09-09 - Honest operations result labels
 
 - Added canonical execution-result and unverified-report labels. English and the

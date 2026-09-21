@@ -8,20 +8,44 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {
     "en": {
         "spaces.ops.management": "Management",
+        "spaces.schedule.block": "Report a blocker",
         "spaces.ops.noReplans": "No replans",
+        "spaces.ops.previousAttempt": "Previous attempt",
+        "spaces.ops.previousAttemptHint": "Previous attempt. This saved output does not change the current task status.",
+        "spaces.ops.learningSaved": "Reusable workflow saved.",
+        "spaces.ops.learningNotSaved": "No new reusable workflow was saved from this execution.",
+        "spaces.ops.learningReused": "Reused a saved workflow.",
     },
     "zh-TW": {
         "spaces.ops.management": "管理",
+        "spaces.schedule.block": "回報阻礙",
         "spaces.ops.noReplans": "尚無重新規劃",
+        "spaces.ops.previousAttempt": "先前執行",
+        "spaces.ops.previousAttemptHint": "這是先前執行留下的結果，不會改變目前任務的狀態。",
+        "spaces.ops.learningSaved": "已保存為可重複使用的工作流程。",
+        "spaces.ops.learningNotSaved": "這次執行沒有新增可重複使用的工作流程。",
+        "spaces.ops.learningReused": "已復用既有工作流程。",
     },
     "zh-CN": {
         "spaces.ops.management": "管理",
+        "spaces.schedule.block": "报告阻碍",
         "spaces.ops.noReplans": "暂无重新规划",
+        "spaces.ops.previousAttempt": "先前执行",
+        "spaces.ops.previousAttemptHint": "这是先前执行留下的结果，不会改变当前任务的状态。",
+        "spaces.ops.learningSaved": "已保存为可重复使用的工作流程。",
+        "spaces.ops.learningNotSaved": "这次执行没有新增可重复使用的工作流程。",
+        "spaces.ops.learningReused": "已复用现有工作流程。",
     },
 }
 OWNERS = {
+    "spaces.schedule.block": "spaceOperations.json",
     "spaces.ops.management": "spaces.json",
     "spaces.ops.noReplans": "spaceOperations.json",
+    "spaces.ops.previousAttempt": "spaceOperations.json",
+    "spaces.ops.previousAttemptHint": "spaceOperations.json",
+    "spaces.ops.learningSaved": "spaceOperations.json",
+    "spaces.ops.learningNotSaved": "spaceOperations.json",
+    "spaces.ops.learningReused": "spaceOperations.json",
 }
 
 
