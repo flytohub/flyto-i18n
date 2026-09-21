@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-21 — Report and assessment library copy
+
+- Added source-owned Report Library, Assessment Library and CTEM compliance-dialog copy for Code.
+- English, Traditional Chinese and Simplified Chinese are reviewed; other Code locales use explicit English fallback for the additive keys.
+- Assessment language preserves the Engine truth boundary: missing evidence remains not assessed and is never labelled as a pass.
+- Rebuilt tracked Code and aggregate distributions for all supported Code locales.
+
 ## 2026-09-20 — Historical execution and learning result labels
 
 - Label retained output from an earlier execution separately from the current
