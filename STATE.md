@@ -1,5 +1,12 @@
 # State
 
+## 2026-09-24 - Posture operator telemetry labels
+
+- Added six source-owned Code labels for the Posture Overview telemetry and scope rows: Telemetry, Sources, Runs, Snapshots, Scope, and Certs.
+- English, Traditional Chinese, and Simplified Chinese are reviewed; the remaining Code locales carry the established explicit English fallback.
+- Rebuilt tracked Code and aggregate distributions so flyto-code no longer references orphaned `external.engineer*` keys.
+- Strict catalog validation passes; consumer layout and deployment remain owned by flyto-code.
+
 ## 2026-09-21 - External Intelligence quality and learning copy
 
 - Added 23 canonical Code keys for coverage, versioned detector quality, recent observations and measurement limitations.

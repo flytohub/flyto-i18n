@@ -38,6 +38,12 @@ HAN_RE = re.compile(r"[一-鿿]")
 REQUIRED_KEYS = {
     "code.projects.modules.confirmRequiredHint": frozenset(),
     "code.external.engineerDomainRowAria": frozenset({"domain"}),
+    "code.external.engineerTelemetry": frozenset(),
+    "code.external.engineerSources": frozenset(),
+    "code.external.engineerRuns": frozenset(),
+    "code.external.engineerSnapshots": frozenset(),
+    "code.external.engineerScope": frozenset(),
+    "code.external.engineerCerts": frozenset(),
     "code.warroom.containerConnectionFailedGeneric": frozenset(),
     "code.warroom.containerHideDiagnostics": frozenset(),
     "code.warroom.containerShowDiagnostics": frozenset(),
