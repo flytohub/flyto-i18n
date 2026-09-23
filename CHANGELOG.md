@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-24 — Posture operator telemetry labels
+
+- Added the six missing Posture Overview telemetry/scope labels to the canonical Code catalogs.
+- Reviewed English, Traditional Chinese, and Simplified Chinese copy; other locales use explicit English fallback.
+- Rebuilt tracked Code and aggregate bundles, removing the orphan-key CI failure in flyto-code.
+
 ## 2026-09-21 — External Intelligence quality and learning copy
 
 - Added 23 source-owned labels for the External Intelligence Quality / Learning workspace.
