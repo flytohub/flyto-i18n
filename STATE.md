@@ -1,5 +1,12 @@
 # State
 
+## 2026-09-24 - SPM infrastructure attribution copy
+
+- Added 27 canonical Code keys for first-party SPM infrastructure attribution, removal review, Domain/IP/CIDR/ASN controls and evidence authority.
+- English, Traditional Chinese and Simplified Chinese are reviewed; the other Code locales use explicit English fallback for these additive keys.
+- Copy distinguishes direct attribution end from review-required removal when independent evidence remains authoritative; it does not imply that an operator can erase authoritative ownership evidence.
+- Source ownership remains flyto-i18n; consumer runtime behavior and release state remain owned by flyto-code / flyto-engine.
+
 ## 2026-09-24 - Posture operator telemetry labels
 
 - Added six source-owned Code labels for the Posture Overview telemetry and scope rows: Telemetry, Sources, Runs, Snapshots, Scope, and Certs.

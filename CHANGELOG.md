@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-24 — SPM infrastructure attribution copy
+
+- Added source-owned Code labels for Domain, IP, CIDR and ASN attribution controls, authority evidence, end-attribution and review-required removal states.
+- English, Traditional Chinese and Simplified Chinese are reviewed; other Code locales use deterministic English fallback for the new keys.
+- Wording preserves the SPM authority boundary: independent ownership evidence cannot be represented as directly removable by an operator.
+
 ## 2026-09-24 — Posture operator telemetry labels
 
 - Added the six missing Posture Overview telemetry/scope labels to the canonical Code catalogs.
