@@ -1,5 +1,12 @@
 # State
 
+## 2026-09-28 - SPM rating explanation copy
+
+- Added 19 canonical Code keys for the first-party SPM Rating Tree: rating/vector/finding labels, latest change, unavailable states, projected remediation and the domain-penalty boundary note.
+- English and Traditional Chinese are reviewed; other locales continue to use the existing English fallback contract for additive keys.
+- The copy states that domain penalty points are scorer deductions rather than additive organization-rating points, and that projected gains remain model output until re-observed or verified.
+- Strict Code catalog validation passes with 102 files and zero errors; tracked Code and aggregate distributions were rebuilt. Consumer UI and deployment remain owned by flyto-code.
+
 ## 2026-09-24 - SPM infrastructure attribution copy
 
 - Added 27 canonical Code keys for first-party SPM infrastructure attribution, removal review, Domain/IP/CIDR/ASN controls and evidence authority.

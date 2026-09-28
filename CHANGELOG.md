@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-28 — SPM rating explanation copy
+
+- Added source-owned Rating Tree labels for SPM rating, risk vectors, findings, latest score change and remediation projections.
+- Added reviewed English and Traditional Chinese wording for unavailable states and the domain-level penalty boundary.
+- Rebuilt tracked Code and aggregate bundles; no consumer-side scoring logic or authority changed.
+
 ## 2026-09-24 — SPM infrastructure attribution copy
 
 - Added source-owned Code labels for Domain, IP, CIDR and ASN attribution controls, authority evidence, end-attribution and review-required removal states.
