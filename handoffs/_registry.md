@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-09-29 | Posture English copy and company Ratings Tree | `2026-09-29-posture-ratings-tree-copy.md` |
 | 2026-09-28 | SPM rating explanation copy | `2026-09-28-spm-rating-tree-copy.md` |
 | 2026-09-24 | SPM infrastructure attribution copy | `2026-09-24-spm-infrastructure-attribution.md` |
 | 2026-09-21 | External Intelligence quality and learning copy | `2026-09-21-external-intelligence-quality-copy.md` |

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 — Posture English copy and company Ratings Tree
+
+- Replaced literal Unicode escape strings in English Posture labels with reviewed English copy.
+- Added Domain detail diagnostics/readiness labels in English and Traditional Chinese.
+- Added company-hierarchy Ratings Tree labels and kept them semantically separate from the SPM Rating Breakdown risk-vector explanation.
+
 ## 2026-09-28 — SPM rating explanation copy
 
 - Added source-owned Rating Tree labels for SPM rating, risk vectors, findings, latest score change and remediation projections.

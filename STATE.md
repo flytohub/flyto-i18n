@@ -1,5 +1,13 @@
 # State
 
+## 2026-09-29 - Posture English copy and company Ratings Tree
+
+- Corrected seven English Posture Overview labels that had been stored as literal `\\uXXXX` escape sequences; English now renders real product copy instead of raw Unicode escapes.
+- Added canonical English and Traditional Chinese labels for the current Domain detail diagnostics/readiness states.
+- Added source-owned company-hierarchy `Ratings Tree` copy, distinct from the existing SPM `Rating breakdown` risk-vector explanation.
+- Ratings Tree wording describes organization/subsidiary hierarchy only. Child companies without independent scoring authority remain `Unrated`; copy does not imply inherited or synthetic ratings.
+- Code catalog strict validation and generated distributions are refreshed; consumer layout, hierarchy construction, release verification and deployment remain flyto-code-owned.
+
 ## 2026-09-28 - SPM rating explanation copy
 
 - Added 19 canonical Code keys for the first-party SPM Rating Tree: rating/vector/finding labels, latest change, unavailable states, projected remediation and the domain-penalty boundary note.
