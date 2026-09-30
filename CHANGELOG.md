@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-30 — SPM improvement loop
+
+- Added Flyto2 Code strings for the first-party Posture improvement loop and
+  canonical external-rating forecast.
+- Added reviewed `en`, `zh-TW`, `zh-CN`, and `ja` copy and rebuilt CDN output.
+
 ## 2026-09-29 — Posture English copy and company Ratings Tree
 
 - Replaced literal Unicode escape strings in English Posture labels with reviewed English copy.

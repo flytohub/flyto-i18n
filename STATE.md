@@ -1,5 +1,14 @@
 # State
 
+## 2026-09-30 - SPM improvement-loop copy
+
+- Added source-owned Code translation keys for the Posture `Improve` lifecycle,
+  canonical external-rating forecast, remediation opportunities, verification,
+  re-observation, and optional Footprint/Pentest/Red Team enrichment state.
+- English, Traditional Chinese, Simplified Chinese, and Japanese have reviewed
+  copy; other locales intentionally fall back to English until translated.
+- Rebuilt tracked Code and aggregate CDN bundles.
+
 ## 2026-09-29 - Posture English copy and company Ratings Tree
 
 - Corrected seven English Posture Overview labels that had been stored as literal `\\uXXXX` escape sequences; English now renders real product copy instead of raw Unicode escapes.
