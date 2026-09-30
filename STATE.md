@@ -7,6 +7,14 @@ watch state, privacy-key readiness, and positive local match evidence. Generated
 
 # State
 
+## 2026-10-01 - CI-safe scripts package
+
+- `scripts/` is now an explicit Python package so repository imports such as
+  `scripts.validate` cannot be shadowed by an unrelated installed `scripts`
+  package during clean GitHub Actions runs.
+- This is a packaging/import-path hardening only; locale ownership, generated
+  distributions and synchronization semantics are unchanged.
+
 ## 2026-09-30 - SPM improvement-loop copy
 
 - Added source-owned Code translation keys for the Posture `Improve` lifecycle,
