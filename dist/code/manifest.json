@@ -1,5 +1,5 @@
 {
-  "version": "94aef933eecd",
+  "version": "c373250e01e6",
   "locales": {
     "de": {
       "name": "German",
@@ -14,8 +14,8 @@
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 11302,
-      "translated_keys": 11271,
+      "total_keys": 11341,
+      "translated_keys": 11310,
       "completion": 99.7,
       "files_merged": 10
     },
