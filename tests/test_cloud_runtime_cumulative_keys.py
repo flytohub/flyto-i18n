@@ -580,7 +580,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +2: execution completion is independent from saving a reusable workflow.
     # +1: host-verified reuse remains distinct from new workflow publication.
     # +1: pending workflow publication remains distinct from saved publication.
-    assert english_total == 12_480
+    # +26: the MCP OAuth consent page names the requesting client, explains
+    # each permission in plain language, and states whether authorization
+    # returns to a website or to an app listening on this computer.
+    assert english_total == 12_506
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
