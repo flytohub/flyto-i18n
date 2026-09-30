@@ -5,6 +5,9 @@
 - Made the repository `scripts` directory an explicit Python package so clean
   CI environments cannot resolve a third-party `scripts` package before
   `scripts.validate`.
+- Load the validation regression target by repository path so pytest remains
+  deterministic even when the runner has already imported another `scripts`
+  module.
 
 ## 2026-09-30 — SPM improvement loop
 

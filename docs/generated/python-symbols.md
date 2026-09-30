@@ -360,10 +360,10 @@ Declarations: **359**
 | method | `ThemePreferenceTranslationTests.test_theme_preference_labels_are_non_empty_in_every_code_locale` | [`tests/test_theme_preferences.py:19`](../../tests/test_theme_preferences.py#L19) | Prevent language switching from producing blank theme menu items. |
 | class | `ThaiBatchTests` | [`tests/test_translate_th.py:11`](../../tests/test_translate_th.py#L11) | Verify the historical Thai batch is path-safe and dry-run aware. |
 | method | `ThaiBatchTests.test_dry_run_reports_without_writing` | [`tests/test_translate_th.py:14`](../../tests/test_translate_th.py#L14) | Leave the selected catalog unchanged while reporting fillable keys. |
-| class | `ValidateCriticalTranslationsTests` | [`tests/test_validate.py:11`](../../tests/test_validate.py#L11) | Verify non-empty rules for critical Flyto2 Code copy. |
-| method | `ValidateCriticalTranslationsTests._validate` | [`tests/test_validate.py:14`](../../tests/test_validate.py#L14) | Validate one temporary critical translation value. |
-| method | `ValidateCriticalTranslationsTests.test_rejects_empty_community_product_loop_copy` | [`tests/test_validate.py:28`](../../tests/test_validate.py#L28) | Reject an empty critical community-loop translation. |
-| method | `ValidateCriticalTranslationsTests.test_accepts_translated_community_product_loop_copy` | [`tests/test_validate.py:34`](../../tests/test_validate.py#L34) | Accept a non-empty localized community-loop translation. |
-| method | `ValidateCriticalTranslationsTests.test_rejects_catalog_missing_schema_metadata` | [`tests/test_validate.py:38`](../../tests/test_validate.py#L38) | Reject a locale document that omits required schema metadata. |
+| class | `ValidateCriticalTranslationsTests` | [`tests/test_validate.py:23`](../../tests/test_validate.py#L23) | Verify non-empty rules for critical Flyto2 Code copy. |
+| method | `ValidateCriticalTranslationsTests._validate` | [`tests/test_validate.py:26`](../../tests/test_validate.py#L26) | Validate one temporary critical translation value. |
+| method | `ValidateCriticalTranslationsTests.test_rejects_empty_community_product_loop_copy` | [`tests/test_validate.py:40`](../../tests/test_validate.py#L40) | Reject an empty critical community-loop translation. |
+| method | `ValidateCriticalTranslationsTests.test_accepts_translated_community_product_loop_copy` | [`tests/test_validate.py:46`](../../tests/test_validate.py#L46) | Accept a non-empty localized community-loop translation. |
+| method | `ValidateCriticalTranslationsTests.test_rejects_catalog_missing_schema_metadata` | [`tests/test_validate.py:50`](../../tests/test_validate.py#L50) | Reject a locale document that omits required schema metadata. |
 | function | `apply_translations` | [`translate_th.py:416`](../../translate_th.py#L416) | Fill empty known keys and optionally write the reviewed Thai batch. |
 | function | `main` | [`translate_th.py:435`](../../translate_th.py#L435) | Parse a safe catalog path, report changes, and honor dry-run mode. |

@@ -12,6 +12,8 @@ watch state, privacy-key readiness, and positive local match evidence. Generated
 - `scripts/` is now an explicit Python package so repository imports such as
   `scripts.validate` cannot be shadowed by an unrelated installed `scripts`
   package during clean GitHub Actions runs.
+- The validation regression test loads `scripts/validate.py` by repository path,
+  so a `scripts` module preloaded by the runner cannot poison pytest collection.
 - This is a packaging/import-path hardening only; locale ownership, generated
   distributions and synchronization semantics are unchanged.
 
