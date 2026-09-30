@@ -1,3 +1,10 @@
+# 2026-09-30 — Identity Watch / POI copy
+
+The Code locale now carries English and Traditional Chinese copy for the
+organization-scoped Exposed Identities / POI surface, including attribution,
+watch state, privacy-key readiness, and positive local match evidence. Generated
+`dist/` bundles are synchronized from locale source.
+
 # State
 
 ## 2026-09-30 - SPM improvement-loop copy
