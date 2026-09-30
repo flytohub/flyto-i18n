@@ -1,11 +1,23 @@
 """Regression tests for schema and critical-translation validation."""
 
+import importlib.util
 import json
 import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.validate import validate_file
+
+ROOT = Path(__file__).resolve().parents[1]
+VALIDATE_SCRIPT = ROOT / "scripts" / "validate.py"
+VALIDATE_SPEC = importlib.util.spec_from_file_location(
+    "flyto_i18n_validate",
+    VALIDATE_SCRIPT,
+)
+if VALIDATE_SPEC is None or VALIDATE_SPEC.loader is None:
+    raise RuntimeError(f"Unable to load validation script: {VALIDATE_SCRIPT}")
+VALIDATE_MODULE = importlib.util.module_from_spec(VALIDATE_SPEC)
+VALIDATE_SPEC.loader.exec_module(VALIDATE_MODULE)
+validate_file = VALIDATE_MODULE.validate_file
 
 
 class ValidateCriticalTranslationsTests(unittest.TestCase):
