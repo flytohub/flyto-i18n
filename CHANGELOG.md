@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — CI import-path hardening
+
+- Made the repository `scripts` directory an explicit Python package so clean
+  CI environments cannot resolve a third-party `scripts` package before
+  `scripts.validate`.
+
 ## 2026-09-30 — SPM improvement loop
 
 - Added Flyto2 Code strings for the first-party Posture improvement loop and
