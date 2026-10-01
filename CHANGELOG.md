@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-01 — War Room Agent Hub copy
+
+- Added source-owned Cloud translations for Planner, Recovery, Reviewer,
+  agent phases and statuses, and the read-only execution-authority disclosure
+  used by the Operations Room Agent Hub.
+- English and both Chinese locales are reviewed; the remaining Cloud locales
+  use explicit English fallback values until native review.
+- Rebuilt Cloud and aggregate runtime bundles from the canonical catalogs.
+
 ## 2026-10-01 — SPM material-change activity copy
 
 - Added reviewed English, Traditional Chinese, and Simplified Chinese labels
