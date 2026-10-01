@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-01 — SPM attribution evidence
+
+- Added source-owned Code labels for optional Footprint attribution evidence in
+  Posture Quality: confirmed entities, relationship count, and Engine-authored
+  entity/relationship confidence summaries.
+- Reviewed English, Traditional Chinese, Simplified Chinese, and Japanese
+  wording; other Code locales use deterministic English fallback for the new
+  keys.
+- Rebuilt tracked Code and aggregate CDN bundles.
+
 ## 2026-10-01 — CI import-path hardening
 
 - Made the repository `scripts` directory an explicit Python package so clean
