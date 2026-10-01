@@ -7,6 +7,19 @@ watch state, privacy-key readiness, and positive local match evidence. Generated
 
 # State
 
+## 2026-10-01 - War Room Agent Hub copy
+
+- Added 13 canonical Cloud keys for the read-only War Room Agent Hub: the
+  Agent Hub heading, planner/recovery/reviewer roles, planning/recovery/
+  verification phases, task fallback, active/complete/needs-attention states,
+  and the explicit no-extra-execution-authority disclosure.
+- English, Traditional Chinese, and Simplified Chinese carry reviewed copy.
+  The other Cloud locales use the repository's explicit English fallback
+  pattern for these additive keys.
+- Cloud and aggregate distributions were rebuilt from the source catalogs.
+  This change localizes status copy only; it grants no agent, workflow, or
+  resource execution authority.
+
 ## 2026-10-01 - CI-safe scripts package
 
 - `scripts/` is now an explicit Python package so repository imports such as
