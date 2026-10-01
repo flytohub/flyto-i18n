@@ -3418,6 +3418,8 @@
     "code.explore.tenantsTracked": "此產業已追蹤 {count} 家公司",
     "code.explore.tenantsTrackedOne": "此產業已追蹤 1 家公司",
     "code.exposure.activity.all": "全部",
+    "code.exposure.activity.materialChanges": "{count} 項重大變更",
+    "code.exposure.activity.materialReview": "{count} 項高影響變更需要重大性審查",
     "code.exposure.activity.burstEvents": "件事件",
     "code.exposure.activity.burstHint": "可能是掃描行動或協同攻擊，請檢視下方過濾後的類別。",
     "code.exposure.activity.burstIn": "於",

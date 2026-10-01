@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-01 — SPM material-change activity copy
+
+- Added reviewed English, Traditional Chinese, and Simplified Chinese labels
+  for material-change counts and high-impact materiality review notices in the
+  Exposure activity feed.
+- Rebuilt tracked Code and aggregate CDN bundles so Flyto2 Code CI no longer
+  treats the new activity keys as orphaned.
+
 ## 2026-10-01 — SPM attribution evidence
 
 - Added source-owned Code labels for optional Footprint attribution evidence in

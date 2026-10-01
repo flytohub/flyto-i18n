@@ -3418,6 +3418,8 @@
     "code.explore.tenantsTracked": "{count} companies tracked in this sector",
     "code.explore.tenantsTrackedOne": "1 company tracked in this sector",
     "code.exposure.activity.all": "All",
+    "code.exposure.activity.materialChanges": "{count} material change(s)",
+    "code.exposure.activity.materialReview": "{count} high-impact change(s) need materiality review",
     "code.exposure.activity.burstEvents": "events",
     "code.exposure.activity.burstHint": "possible scan campaign or coordinated attack. Inspect filtered category below.",
     "code.exposure.activity.burstIn": "in",
