@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-TW",
-  "total_keys": 10621,
+  "total_keys": 10623,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -10624,7 +10624,9 @@
     "code.personIntelligence.tab.relationships": "關聯",
     "code.personIntelligence.tab.evidence": "證據",
     "code.personIntelligence.tab.actions": "動作",
-    "code.personIntelligence.tab.reports": "報告"
+    "code.personIntelligence.tab.reports": "報告",
+    "code.personIntelligence.exposureClass": "曝險類型",
+    "code.personIntelligence.malware": "惡意程式"
   },
   "version": "1.0.0"
 }

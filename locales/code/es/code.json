@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "es",
-  "total_keys": 10591,
+  "total_keys": 10593,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -10594,7 +10594,9 @@
     "code.personIntelligence.tab.relationships": "Relationships",
     "code.personIntelligence.tab.evidence": "Evidence",
     "code.personIntelligence.tab.actions": "Actions",
-    "code.personIntelligence.tab.reports": "Reports"
+    "code.personIntelligence.tab.reports": "Reports",
+    "code.personIntelligence.exposureClass": "Exposure class",
+    "code.personIntelligence.malware": "Malware"
   },
   "version": "1.0.0"
 }
