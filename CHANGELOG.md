@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — War Room Agent Hub copy
+
+- Added reviewed English, Traditional Chinese, and Simplified Chinese copy for the read-only War Room Agent Hub: Planner, Recovery, Reviewer, lifecycle states, and the explicit no-extra-authority note.
+- Rebuilt tracked Cloud and aggregate CDN bundles so flyto-cloud can consume the new `spaces.agentHub.*` keys without orphan-key CI failures.
+
 ## 2026-10-01 — SPM material-change activity copy
 
 - Added reviewed English, Traditional Chinese, and Simplified Chinese labels
