@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-CN",
-  "total_keys": 10604,
+  "total_keys": 10606,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -10341,6 +10341,8 @@
     "domains.manager.webAppTestPlaceholder": "",
     "domains.openAttributionDispute": "申请审查",
     "domains.requestAttributionRemoval": "申请移除",
+    "exposure.activity.materialChanges": "{count} 项重大变更",
+    "exposure.activity.materialReview": "{count} 项高影响变更需要重大性审查",
     "exposure.ctem.manager.sampleNotice": "",
     "external.errDimPostureKernel": "内核评分",
     "external.noScoreYet": "暂无评分",

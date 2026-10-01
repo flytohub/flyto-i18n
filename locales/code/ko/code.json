@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ko",
-  "total_keys": 10604,
+  "total_keys": 10606,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -10341,6 +10341,8 @@
     "domains.manager.webAppTestPlaceholder": "",
     "domains.openAttributionDispute": "Request review",
     "domains.requestAttributionRemoval": "Request removal",
+    "exposure.activity.materialChanges": "{count} material change(s)",
+    "exposure.activity.materialReview": "{count} high-impact change(s) need materiality review",
     "exposure.ctem.manager.sampleNotice": "",
     "external.errDimPostureKernel": "커널 점수",
     "external.noScoreYet": "아직 점수를 사용할 수 없습니다",
