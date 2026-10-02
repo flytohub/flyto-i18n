@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-02 — A robot turn is said in radians
+
+- `spaces.hud.sweep.turned` (en, zh-TW, zh-CN): the robot motion view says
+  how far a turn went against what was asked, instead of "moved 0.000 m".
+
 ## 2026-10-02 — The robot motion view on the output wall
 
 - `spaces.hud.sweep.*` (en, zh-TW, zh-CN): the picture of a robot motion says

@@ -651,6 +651,7 @@
     "spaces.hud.sweep.movedOnly": "Moved {moved} m",
     "spaces.hud.sweep.notProven": "not proven",
     "spaces.hud.sweep.target": "Where it was asked to go",
+    "spaces.hud.sweep.turned": "Turned {turned} rad of {asked} rad asked",
     "spaces.hud.sweep.verified": "verified by Cloud",
     "spaces.hud.waitsOn.human.decision": "a person's decision",
     "spaces.hud.waitsOn.system.decision": "the system",

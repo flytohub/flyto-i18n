@@ -651,6 +651,7 @@
     "spaces.hud.sweep.movedOnly": "實際移動 {moved} m",
     "spaces.hud.sweep.notProven": "未證實",
     "spaces.hud.sweep.target": "要求抵達的位置",
+    "spaces.hud.sweep.turned": "實際轉動 {turned} rad，要求 {asked} rad",
     "spaces.hud.sweep.verified": "雲端已驗證",
     "spaces.hud.waitsOn.human.decision": "人員決定",
     "spaces.hud.waitsOn.system.decision": "系統處理",
