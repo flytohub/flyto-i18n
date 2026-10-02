@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-10-02 — Demo-path copy: no rooms, no mixed-language labels
+
+- The Mission Station's own copy no longer calls it a "room". The help button,
+  the connection badge, the information panel and one failure reason now say
+  Mission Station / 任務站點 / 任务站点.
+- The Mission cards switch reads **任務卡 / 任务卡 / Mission cards**, not
+  "任務卡 Adapter". Its setup dialog is **Mission cards setup**, and it asks for
+  a **zone kind / 區域類型 / 区域类型** instead of a "station kind", which read as
+  a kind of Mission Station.
+- The Mission Station information dialog labels its facts Connection / 連線,
+  Open tasks / 進行中任務 and Space ID.
+- The Warroom module labels in zh-TW and zh-CN say "Warroom", like their
+  English labels, instead of 戰情室 / 战情室.
+- `templateFolders.allTemplates` is "All workflows / 所有工作流程 / 所有工作流",
+  matching the page it labels.
+- New key `aiSpace.resources.machineBindings.noRunnableWorkflows`: a machine
+  card says that the Space's workflows cannot run there, instead of asking for
+  a workflow when the Space already has one.
+
 ## 2026-10-02 — Each Space has a Mission Station; War Room is reserved
 
 - Each Space's control room is now **Mission Station / 任務站點 / 任务站点**

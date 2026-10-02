@@ -28,6 +28,7 @@ RUNNER_BINDING_KEYS = frozenset(
             "loadError",
             "loading",
             "noMachines",
+            "noRunnableWorkflows",
             "noWorkflows",
             "offline",
             "online",
@@ -130,7 +131,7 @@ def _placeholders(value: str) -> set[str]:
 
 def test_runner_binding_contract_has_exact_additive_key_set() -> None:
     """Pin every new placement, dispatch, and save-state key."""
-    assert len(RUNNER_BINDING_KEYS) == 23
+    assert len(RUNNER_BINDING_KEYS) == 24
     for locale in LOCALES:
         source = _source_catalog(locale)
         actual = {

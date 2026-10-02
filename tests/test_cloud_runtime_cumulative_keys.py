@@ -68,10 +68,13 @@ SOURCE_OWNERS = {
 }
 # zh-TW / zh-CN re-pinned 2026-10-02: the Warroom recipe import copy no longer
 # says 戰情室, which is reserved for the planned cross-Space War Room.
+# All three re-pinned again 2026-10-02: Mission Station replaces "room" in the
+# station copy, Mission cards setup and zone kinds replace mission setup and
+# station kinds, and the all-folders row is named after workflows.
 RUNTIME_VALUE_DIGESTS = {
-    "en": "a6017cb49e38bdec0db279eaa30d783ec25155db69b43fd25cb691ab6d00b1f8",
-    "zh-TW": "77d2329abccf11d2c97a3388c4f20810d7f6ad9264239d27010f98a9c9c94e4a",
-    "zh-CN": "a781c40bc510496aff117ff8a3eebe67444df5546103b54063527ca753fac540",
+    "en": "1f550ddeeb01a1f0caefb72fc5ae37a5b594ca9c25adf71c53b7af85f02543df",
+    "zh-TW": "69220ee222071e65d46977ea65b5530f6351af0fa8e14b326df288867be9f819",
+    "zh-CN": "65b80e61a8bd7ec79c90488913d04cdd6731c40fbf69f1496db3a561875e9f9d",
 }
 SPACE_OPERATIONS_KEYS = frozenset(
     f"spaces.draw.{key}"
@@ -94,7 +97,7 @@ OPEN_OPERATIONS_VALUES = {
 }
 LOCAL_CAMERA_VALUES = {
     "en": {
-        "spaces.ops.live": "Room connected",
+        "spaces.ops.live": "Mission Station connected",
         "spaces.ops.subtitle": "Mission operations and evidence",
         "spaces.ops.localNearRealtime": "Local camera · near-real-time · {fps} FPS",
         "spaces.ops.cameraDelayed": "Local camera images delayed",
@@ -106,7 +109,7 @@ LOCAL_CAMERA_VALUES = {
         "spaces.ops.cameraFrameAlt": "Local near-real-time camera image",
     },
     "zh-TW": {
-        "spaces.ops.live": "房間已連線",
+        "spaces.ops.live": "任務站點已連線",
         "spaces.ops.subtitle": "任務操作與證據",
         "spaces.ops.localNearRealtime": "本機攝影機 · 近即時 · {fps} FPS",
         "spaces.ops.cameraDelayed": "本機攝影機影像延遲",
@@ -118,7 +121,7 @@ LOCAL_CAMERA_VALUES = {
         "spaces.ops.cameraFrameAlt": "本機攝影機近即時影像",
     },
     "zh-CN": {
-        "spaces.ops.live": "房间已连接",
+        "spaces.ops.live": "任务站点已连接",
         "spaces.ops.subtitle": "任务操作与证据",
         "spaces.ops.localNearRealtime": "本机摄像头 · 近实时 · {fps} FPS",
         "spaces.ops.cameraDelayed": "本机摄像头图像延迟",
@@ -298,9 +301,9 @@ def test_local_camera_copy_is_truthful_owned_and_identical_in_all_outputs() -> N
 
         room_connectivity = expected["spaces.ops.live"]
         assert room_connectivity == {
-            "en": "Room connected",
-            "zh-TW": "房間已連線",
-            "zh-CN": "房间已连接",
+            "en": "Mission Station connected",
+            "zh-TW": "任務站點已連線",
+            "zh-CN": "任务站点已连接",
         }[locale]
         assert not re.search(
             r"camera|攝影機|摄像头|live|即時|实时", room_connectivity, re.IGNORECASE
@@ -588,7 +591,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # each permission in plain language, and states whether authorization
     # returns to a website or to an app listening on this computer.
     # +13: the War Room Agent Hub (#160) names its roles, phases and states.
-    assert english_total == 12_519
+    # +1: a machine card says when the Space has workflows that cannot run on
+    # that machine, instead of asking for a workflow the Space already has.
+    assert english_total == 12_520
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
