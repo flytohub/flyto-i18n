@@ -54,7 +54,7 @@
     "myTemplates.warroomImport.checking": "检查中",
     "myTemplates.warroomImport.close": "关闭",
     "myTemplates.warroomImport.credentialsPolicy": "凭证仅在运行时使用。密码、令牌、Cookie、请求头、请求体与查询字符串都不会写入配方包。",
-    "myTemplates.warroomImport.description": "将可复用的 flyto-core 冒烟测试配方存放在Warroom 项目文件夹下。",
+    "myTemplates.warroomImport.description": "将可复用的 flyto-core 冒烟测试配方存放在 Warroom 项目文件夹下。",
     "myTemplates.warroomImport.dryRun": "试运行",
     "myTemplates.warroomImport.folderPlan": "文件夹规划",
     "myTemplates.warroomImport.importRecipes": "导入配方",

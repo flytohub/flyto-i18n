@@ -54,7 +54,7 @@
     "myTemplates.warroomImport.checking": "檢查中",
     "myTemplates.warroomImport.close": "關閉",
     "myTemplates.warroomImport.credentialsPolicy": "憑證僅在執行階段使用。密碼、權杖、Cookie、標頭、內容與查詢字串都不會寫入配方包。",
-    "myTemplates.warroomImport.description": "將可重複使用的 flyto-core 煙霧測試配方存放在Warroom 專案資料夾底下。",
+    "myTemplates.warroomImport.description": "將可重複使用的 flyto-core 煙霧測試配方存放在 Warroom 專案資料夾底下。",
     "myTemplates.warroomImport.dryRun": "試跑",
     "myTemplates.warroomImport.folderPlan": "資料夾規劃",
     "myTemplates.warroomImport.importRecipes": "匯入配方",

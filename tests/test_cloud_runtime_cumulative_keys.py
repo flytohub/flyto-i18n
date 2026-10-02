@@ -70,8 +70,8 @@ SOURCE_OWNERS = {
 # says 戰情室, which is reserved for the planned cross-Space War Room.
 RUNTIME_VALUE_DIGESTS = {
     "en": "a6017cb49e38bdec0db279eaa30d783ec25155db69b43fd25cb691ab6d00b1f8",
-    "zh-TW": "c5a596dc8971da19f7eeead846f1cfe94520b1d3db60c74192abf898158e971a",
-    "zh-CN": "1c2ed6ae9c2a951c626dadbe7e648691aca153988a6711b79072ca2300b84518",
+    "zh-TW": "77d2329abccf11d2c97a3388c4f20810d7f6ad9264239d27010f98a9c9c94e4a",
+    "zh-CN": "a781c40bc510496aff117ff8a3eebe67444df5546103b54063527ca753fac540",
 }
 SPACE_OPERATIONS_KEYS = frozenset(
     f"spaces.draw.{key}"
