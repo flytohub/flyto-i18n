@@ -277,6 +277,7 @@
     "spaces.narrative.when.hours": "{n} 小時前",
     "spaces.narrative.when.minutes": "{n} 分鐘前",
     "spaces.narrative.when.seconds": "{n} 秒前",
+    "spaces.narrative.machineReported": "機器回報：{text}",
     "spaces.ops.available": "可用",
     "spaces.ops.backToSpaces": "返回空間",
     "spaces.ops.cameraDelayed": "本機攝影機影像延遲",

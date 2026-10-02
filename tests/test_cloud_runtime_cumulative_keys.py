@@ -605,7 +605,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # that failed on its proof, the equipment kind adapter discovery registers,
     # the whole-Space matrix hint and its show-all toggle, two robot example
     # goals, and the folder a renamed Space's headline belongs to.
-    assert english_total == 12_632
+    # +1: a machine's own failure record on a labelled line of its own.
+    assert english_total == 12_633
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

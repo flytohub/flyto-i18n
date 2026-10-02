@@ -277,6 +277,7 @@
     "spaces.narrative.when.hours": "{n} h ago",
     "spaces.narrative.when.minutes": "{n} min ago",
     "spaces.narrative.when.seconds": "{n} s ago",
+    "spaces.narrative.machineReported": "The machine reported: {text}",
     "spaces.ops.available": "Available",
     "spaces.ops.backToSpaces": "Back to spaces",
     "spaces.ops.cameraDelayed": "Local camera images delayed",
