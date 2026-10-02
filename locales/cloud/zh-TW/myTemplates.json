@@ -33,7 +33,7 @@
     "myTemplates.join.subtitle": "輸入邀請碼即時協作編輯",
     "myTemplates.join.success": "加入成功！正在跳轉...",
     "myTemplates.joinCollaboration": "加入協作",
-    "myTemplates.loadFailed": "載入模板失敗",
+    "myTemplates.loadFailed": "載入工作流程失敗",
     "myTemplates.newTemplate": "新增工作流程",
     "myTemplates.stats.drafts": "草稿",
     "myTemplates.stats.installed": "已安裝",
@@ -71,6 +71,7 @@
     "myTemplates.warroomImport.scenarios": "情境",
     "myTemplates.warroomImport.signedInbox": "已簽章收件匣",
     "myTemplates.warroomImport.title": "匯入 Warroom 配方",
-    "myTemplates.warroomImport.unknownProducer": "未知產製者"
+    "myTemplates.warroomImport.unknownProducer": "未知產製者",
+    "myTemplates.noTagMatches": "沒有工作流程帶有這些標籤。"
   }
 }

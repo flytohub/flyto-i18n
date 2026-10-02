@@ -612,7 +612,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +1: the workflows page's More menu, which holds Join and the imports.
     # +5: the dashboard says a failed read failed (sales trend, recent runs,
     # voice service, the figures banner) and the wallet's "Active" is copy.
-    assert english_total == 12_649
+    # +1: the workflows page says when no workflow carries the selected tags.
+    assert english_total == 12_650
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

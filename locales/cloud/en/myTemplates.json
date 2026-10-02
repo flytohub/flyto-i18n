@@ -33,7 +33,7 @@
     "myTemplates.join.subtitle": "Enter the invite code to collaborate in real-time",
     "myTemplates.join.success": "Joined successfully! Redirecting...",
     "myTemplates.joinCollaboration": "Join Collaboration",
-    "myTemplates.loadFailed": "Failed to load templates",
+    "myTemplates.loadFailed": "Failed to load workflows",
     "myTemplates.newTemplate": "New workflow",
     "myTemplates.stats.drafts": "Drafts",
     "myTemplates.stats.installed": "Installed",
@@ -71,6 +71,7 @@
     "myTemplates.warroomImport.scenarios": "Scenarios",
     "myTemplates.warroomImport.signedInbox": "Signed inbox",
     "myTemplates.warroomImport.title": "Import Warroom Recipes",
-    "myTemplates.warroomImport.unknownProducer": "unknown producer"
+    "myTemplates.warroomImport.unknownProducer": "unknown producer",
+    "myTemplates.noTagMatches": "No workflow has these tags."
   }
 }
