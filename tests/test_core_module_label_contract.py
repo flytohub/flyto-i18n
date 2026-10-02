@@ -90,12 +90,12 @@ ZH_TW_LABELS = {
     "modules.verification.generate_scenarios.label": "產生驗證情境",
     "modules.verification.report.label": "驗證報告",
     "modules.verification.run.label": "執行驗證",
-    "modules.warroom.discover.label": "戰情室探索",
-    "modules.warroom.generate_scenarios.label": "產生戰情室情境",
-    "modules.warroom.llm_review.label": "戰情室 LLM 審查",
+    "modules.warroom.discover.label": "Warroom 探索",
+    "modules.warroom.generate_scenarios.label": "產生 Warroom 情境",
+    "modules.warroom.llm_review.label": "Warroom LLM 審查",
     "modules.warroom.public_site_verify.label": "公開網站驗證",
-    "modules.warroom.report.label": "戰情室報告",
-    "modules.warroom.run.label": "戰情室執行",
+    "modules.warroom.report.label": "Warroom 報告",
+    "modules.warroom.run.label": "Warroom 執行",
 }
 
 ZH_CN_LABELS = {
@@ -135,12 +135,12 @@ ZH_CN_LABELS = {
     "modules.verification.generate_scenarios.label": "生成验证场景",
     "modules.verification.report.label": "验证报告",
     "modules.verification.run.label": "执行验证",
-    "modules.warroom.discover.label": "战情室探索",
-    "modules.warroom.generate_scenarios.label": "生成战情室场景",
-    "modules.warroom.llm_review.label": "战情室 LLM 审查",
+    "modules.warroom.discover.label": "Warroom 探索",
+    "modules.warroom.generate_scenarios.label": "生成 Warroom 场景",
+    "modules.warroom.llm_review.label": "Warroom LLM 审查",
     "modules.warroom.public_site_verify.label": "公开网站验证",
-    "modules.warroom.report.label": "战情室报告",
-    "modules.warroom.run.label": "战情室执行",
+    "modules.warroom.report.label": "Warroom 报告",
+    "modules.warroom.run.label": "Warroom 执行",
 }
 
 
