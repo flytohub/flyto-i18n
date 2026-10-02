@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-02 — Each Space has a Mission Station; War Room is reserved
+
+- Each Space's control room is now **Mission Station / 任務站點 / 任务站点**
+  (78 strings, which said War Room / 戰情室 / 战情室 after #162). "War Room" is
+  reserved for the planned layer above all Spaces and no longer appears in the
+  Cloud UI.
+- The legacy Mission Stations feature (venue calibration and judge-card tasks)
+  is now **Mission cards / 任務卡 / 任务卡**, so it no longer shares a name with
+  the room.
+- The Warroom recipe import reads "Warroom" in zh-TW and zh-CN as well, where it
+  used to say 戰情室 / 战情室.
+- Tests pinning the old copy are updated, including the zh-TW and zh-CN runtime
+  value digests.
+
 ## 2026-10-02 — One name for the War Room, one for Mission Stations
 
 - The Space's control room is called **War Room / 戰情室 / 战情室** everywhere.

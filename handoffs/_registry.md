@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-02 | Each Space has a Mission Station; War Room is reserved | `2026-10-02-mission-station-terms.md` |
 | 2026-10-02 | One name for the War Room, one for Mission Stations | `2026-10-02-war-room-terms.md` |
 | 2026-09-30 | SPM improvement-loop copy | `2026-09-30-spm-improvement-loop-copy.md` |
 | 2026-09-29 | Posture English copy and company Ratings Tree | `2026-09-29-posture-ratings-tree-copy.md` |
