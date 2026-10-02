@@ -66,10 +66,12 @@ SOURCE_OWNERS = {
     "myTemplates.json": MY_TEMPLATES_KEYS,
     "templateBuilder.json": TEMPLATE_BUILDER_KEYS,
 }
+# zh-TW / zh-CN re-pinned 2026-10-02: the Warroom recipe import copy no longer
+# says 戰情室, which is reserved for the planned cross-Space War Room.
 RUNTIME_VALUE_DIGESTS = {
     "en": "a6017cb49e38bdec0db279eaa30d783ec25155db69b43fd25cb691ab6d00b1f8",
-    "zh-TW": "baaa0d66e7ebe1e00906d397348638019975b05a4b54ce61040ee842fdd964ce",
-    "zh-CN": "eebf889d426c58c192309d79af1f41113f2f3526dfa1c50a3a1cb22f794d775b",
+    "zh-TW": "77d2329abccf11d2c97a3388c4f20810d7f6ad9264239d27010f98a9c9c94e4a",
+    "zh-CN": "a781c40bc510496aff117ff8a3eebe67444df5546103b54063527ca753fac540",
 }
 SPACE_OPERATIONS_KEYS = frozenset(
     f"spaces.draw.{key}"
@@ -83,12 +85,12 @@ blocked goal listening micDenied micFailed noSpeech placeholder placeholderTyped
 startListening stopListening
 """.split()
 )
-# The Space's control room is the War Room (one per Space today); the Space
-# settings tab that configures Mission Stations is a different thing.
+# Each Space's control room is its Mission Station. "War Room" is reserved for
+# the planned layer above all Spaces and does not appear in the UI yet.
 OPEN_OPERATIONS_VALUES = {
-    "en": "War Room",
-    "zh-TW": "戰情室",
-    "zh-CN": "战情室",
+    "en": "Mission Station",
+    "zh-TW": "任務站點",
+    "zh-CN": "任务站点",
 }
 LOCAL_CAMERA_VALUES = {
     "en": {

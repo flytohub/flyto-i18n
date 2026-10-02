@@ -47,14 +47,14 @@
     "myTemplates.updateSettingsFailed": "更新設定失敗",
     "myTemplates.updateSettingsSuccess": "設定更新成功",
     "myTemplates.join.close": "關閉",
-    "myTemplates.warroomImport.action": "匯入戰情室配方",
+    "myTemplates.warroomImport.action": "匯入 Warroom 配方",
     "myTemplates.warroomImport.approveBundle": "核准配方包",
     "myTemplates.warroomImport.assetCount": "{count} 項素材",
     "myTemplates.warroomImport.baseUrl": "Flyto2 基礎網址",
     "myTemplates.warroomImport.checking": "檢查中",
     "myTemplates.warroomImport.close": "關閉",
     "myTemplates.warroomImport.credentialsPolicy": "憑證僅在執行階段使用。密碼、權杖、Cookie、標頭、內容與查詢字串都不會寫入配方包。",
-    "myTemplates.warroomImport.description": "將可重複使用的 flyto-core 煙霧測試配方存放在戰情室專案資料夾底下。",
+    "myTemplates.warroomImport.description": "將可重複使用的 flyto-core 煙霧測試配方存放在 Warroom 專案資料夾底下。",
     "myTemplates.warroomImport.dryRun": "試跑",
     "myTemplates.warroomImport.folderPlan": "資料夾規劃",
     "myTemplates.warroomImport.importRecipes": "匯入配方",
@@ -69,7 +69,7 @@
     "myTemplates.warroomImport.scanning": "掃描中",
     "myTemplates.warroomImport.scenarios": "情境",
     "myTemplates.warroomImport.signedInbox": "已簽章收件匣",
-    "myTemplates.warroomImport.title": "匯入戰情室配方",
+    "myTemplates.warroomImport.title": "匯入 Warroom 配方",
     "myTemplates.warroomImport.unknownProducer": "未知產製者"
   }
 }

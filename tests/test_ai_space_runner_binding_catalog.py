@@ -1,4 +1,4 @@
-"""Contract tests for AI Space workflow-runner and War Room dispatch copy."""
+"""Contract tests for AI Space workflow-runner and Mission Station dispatch copy."""
 
 import json
 import re
@@ -45,14 +45,14 @@ REVIEWED_VALUES = {
     "en": {
         "aiSpace.missions.dispatchable": "Dispatchable workflows",
         "aiSpace.missions.dispatchableHint": (
-            "War Room can schedule these workflows; AI Space executes them on an "
+            "The Mission Station can schedule these workflows; AI Space executes them on an "
             "allowed capable machine."
         ),
         "aiSpace.resources.machineBindings.automatic": (
             "Automatic — any capable machine"
         ),
         "aiSpace.resources.machineBindings.hint": (
-            "AI Space runs each workflow locally. War Room may dispatch it to any "
+            "AI Space runs each workflow locally. The Mission Station may dispatch it to any "
             "capable machine you allow here."
         ),
         "aiSpace.resources.machineBindings.title": "Workflow runners",
@@ -61,13 +61,13 @@ REVIEWED_VALUES = {
     "zh-TW": {
         "aiSpace.missions.dispatchable": "可派送工作流程",
         "aiSpace.missions.dispatchableHint": (
-            "戰情室可以排程這些工作流程；AI Space 會在獲准且能力相符的機器上執行。"
+            "任務站點可以排程這些工作流程；AI Space 會在獲准且能力相符的機器上執行。"
         ),
         "aiSpace.resources.machineBindings.automatic": (
             "自動配置 — 任何能力相符的機器"
         ),
         "aiSpace.resources.machineBindings.hint": (
-            "AI Space 會在本地執行每個工作流程；戰情室可將任務派給您在此允許、且能力相符的任何機器。"
+            "AI Space 會在本地執行每個工作流程；任務站點可將任務派給您在此允許、且能力相符的任何機器。"
         ),
         "aiSpace.resources.machineBindings.title": "工作流程執行機器",
         "aiSpace.workspace.machineBindingSaved": "已更新工作流程執行機器",
@@ -75,13 +75,13 @@ REVIEWED_VALUES = {
     "zh-CN": {
         "aiSpace.missions.dispatchable": "可派发工作流",
         "aiSpace.missions.dispatchableHint": (
-            "战情室可以调度这些工作流；AI Space 会在获准且能力匹配的机器上执行。"
+            "任务站点可以调度这些工作流；AI Space 会在获准且能力匹配的机器上执行。"
         ),
         "aiSpace.resources.machineBindings.automatic": (
             "自动配置 — 任何能力匹配的机器"
         ),
         "aiSpace.resources.machineBindings.hint": (
-            "AI Space 会在本地执行每个工作流；战情室可将任务派给您在此允许且能力匹配的任何机器。"
+            "AI Space 会在本地执行每个工作流；任务站点可将任务派给您在此允许且能力匹配的任何机器。"
         ),
         "aiSpace.resources.machineBindings.title": "工作流执行机器",
         "aiSpace.workspace.machineBindingSaved": "已更新工作流执行机器",
