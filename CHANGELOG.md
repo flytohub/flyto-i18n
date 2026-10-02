@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-02 — The robot motion view on the output wall
+
+- `spaces.hud.sweep.*` (en, zh-TW, zh-CN): the picture of a robot motion says
+  what the LiDAR saw before moving and once stopped, where the robot was asked
+  to go, the safety distance, and how far it went against what was asked, in
+  the page language rather than the backend's English sentence.
+
 ## 2026-10-02 — Mission Station records in words, and the Agents tab
 
 - The Mission Station names what it used to print as identifiers, keyed by the
