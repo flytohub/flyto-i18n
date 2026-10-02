@@ -613,7 +613,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +5: the dashboard says a failed read failed (sales trend, recent runs,
     # voice service, the figures banner) and the wallet's "Active" is copy.
     # +1: the workflows page says when no workflow carries the selected tags.
-    assert english_total == 12_650
+    # +3: Mission Station says a task store or a task it could not read, and
+    # that paired devices are not in this Space yet.
+    # +6: the AI Space dialog asks before unsaved edits are discarded, and
+    # names a bound runner that is outside the Space.
+    assert english_total == 12_659
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

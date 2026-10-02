@@ -414,6 +414,7 @@
     "spaces.resources.test": "測試",
     "spaces.resources.title": "資源",
     "spaces.resources.unavailable": "個這個資源不能跑的指令",
+    "spaces.resources.devicesNotInSpace": "已配對的設備還不在這個 Space。請到「資源與規則」加入。",
     "spaces.result.executionId": "執行",
     "spaces.result.screens": "畫面",
     "spaces.roomInfo.configure": "設定這個 Space",
@@ -610,6 +611,7 @@
     "spaces.ops.learningNotSaved": "這次執行沒有新增可重複使用的工作流程。",
     "spaces.ops.learningReused": "已復用既有工作流程。",
     "spaces.ops.learningPending": "可重複使用的工作流程正在等待保存。",
+    "spaces.ops.taskStoreUnreadable": "無法讀取這個 Space 的任務紀錄，所以這份清單可能不完整。這裡沒出現的任務並沒有被刪除。",
     "spaces.hud.gate.registry": "登錄",
     "spaces.hud.gate.space_allowlist": "允許清單",
     "spaces.hud.gate.health": "健康狀態",
@@ -695,7 +697,8 @@
     "spaces.hud.evidenceKind.close.image": "近拍影像",
     "spaces.hud.capabilityMatrixSpaceHint": "這個 Space 的每個資源各能做什麼。打開任務就只看它需要的。",
     "spaces.hud.capabilityMatrixShowAll": "也顯示其他 {count} 項",
-    "spaces.hud.capabilityMatrixShowTask": "只看這個任務需要的"
+    "spaces.hud.capabilityMatrixShowTask": "只看這個任務需要的",
+    "spaces.hud.taskUnreadable": "無法讀取這個任務，任務站點會再試一次。"
   },
   "total_keys": 574
 }

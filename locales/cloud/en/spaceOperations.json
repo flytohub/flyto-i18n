@@ -414,6 +414,7 @@
     "spaces.resources.test": "Test",
     "spaces.resources.title": "Resources",
     "spaces.resources.unavailable": "commands this resource cannot run",
+    "spaces.resources.devicesNotInSpace": "Your paired devices are not in this Space yet. Add one under Resources & rules.",
     "spaces.result.executionId": "execution",
     "spaces.result.screens": "screens",
     "spaces.roomInfo.configure": "Configure this Space",
@@ -610,6 +611,7 @@
     "spaces.ops.learningNotSaved": "No new reusable workflow was saved from this execution.",
     "spaces.ops.learningReused": "Reused a saved workflow.",
     "spaces.ops.learningPending": "Reusable workflow is waiting to be saved.",
+    "spaces.ops.taskStoreUnreadable": "This Space's task records could not be read, so this list may be incomplete. A task missing here has not been deleted.",
     "spaces.hud.gate.registry": "Registry",
     "spaces.hud.gate.space_allowlist": "Allowlist",
     "spaces.hud.gate.health": "Health",
@@ -695,7 +697,8 @@
     "spaces.hud.evidenceKind.close.image": "Close-up image",
     "spaces.hud.capabilityMatrixSpaceHint": "What each resource in this Space can do. Open a task to see only what it needs.",
     "spaces.hud.capabilityMatrixShowAll": "Also show the other {count}",
-    "spaces.hud.capabilityMatrixShowTask": "Only what this task needs"
+    "spaces.hud.capabilityMatrixShowTask": "Only what this task needs",
+    "spaces.hud.taskUnreadable": "This task could not be read. Mission Station will try again."
   },
   "total_keys": 574
 }

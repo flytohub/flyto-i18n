@@ -414,6 +414,7 @@
     "spaces.resources.test": "测试",
     "spaces.resources.title": "资源",
     "spaces.resources.unavailable": "个这个资源不能跑的指令",
+    "spaces.resources.devicesNotInSpace": "已配对的设备还不在这个 Space。请到「资源与规则」加入。",
     "spaces.result.executionId": "执行",
     "spaces.result.screens": "画面",
     "spaces.roomInfo.configure": "设定这个 Space",
@@ -610,6 +611,7 @@
     "spaces.ops.learningNotSaved": "这次执行没有新增可重复使用的工作流程。",
     "spaces.ops.learningReused": "已复用现有工作流程。",
     "spaces.ops.learningPending": "可重复使用的工作流程正在等待保存。",
+    "spaces.ops.taskStoreUnreadable": "无法读取这个 Space 的任务记录，所以这份列表可能不完整。这里没出现的任务并没有被删除。",
     "spaces.hud.gate.registry": "登记",
     "spaces.hud.gate.space_allowlist": "允许清单",
     "spaces.hud.gate.health": "健康状态",
@@ -695,7 +697,8 @@
     "spaces.hud.evidenceKind.close.image": "近拍影像",
     "spaces.hud.capabilityMatrixSpaceHint": "这个 Space 的每个资源各能做什么。打开任务就只看它需要的。",
     "spaces.hud.capabilityMatrixShowAll": "也显示其他 {count} 项",
-    "spaces.hud.capabilityMatrixShowTask": "只看这个任务需要的"
+    "spaces.hud.capabilityMatrixShowTask": "只看这个任务需要的",
+    "spaces.hud.taskUnreadable": "无法读取这个任务，任务站点会再试一次。"
   },
   "total_keys": 574
 }
