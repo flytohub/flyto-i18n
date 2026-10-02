@@ -11,4 +11,7 @@ id = "generic-api-key"
   regexTarget = "match"
   regexes = [
     '''x_flyto_api_key_header_required''',
+    # The German word for "Flyto2 user" on the MCP consent page. The key name
+    # carries "oauth" and the value has enough entropy to read as a token.
+    '''auth\.oauthConsent\.flytoUser": "Flyto2-Nutzer"''',
   ]
