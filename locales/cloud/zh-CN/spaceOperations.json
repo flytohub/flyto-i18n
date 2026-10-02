@@ -695,7 +695,9 @@
     "spaces.hud.evidenceKind.close.image": "近拍影像",
     "spaces.hud.capabilityMatrixSpaceHint": "这个 Space 的每个资源各能做什么。打开任务就只看它需要的。",
     "spaces.hud.capabilityMatrixShowAll": "也显示其他 {count} 项",
-    "spaces.hud.capabilityMatrixShowTask": "只看这个任务需要的"
+    "spaces.hud.capabilityMatrixShowTask": "只看这个任务需要的",
+    "spaces.hud.widenTask": "放大任务栏",
+    "spaces.hud.restoreLayout": "还原布局"
   },
   "total_keys": 574
 }

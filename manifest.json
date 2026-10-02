@@ -17,7 +17,7 @@
     "zh-TW": {
       "name": "Traditional Chinese",
       "native_name": "繁體中文",
-      "coverage": 97.7,
+      "coverage": 97.8,
       "status": "official",
       "maintainers": [
         "@flytohub"

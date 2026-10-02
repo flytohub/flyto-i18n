@@ -610,7 +610,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # how far the robot went against what was asked, and the safety distance.
     # +1: a turn on the robot motion view is said in radians, not 0.000 m.
     # +1: the workflows page's More menu, which holds Join and the imports.
-    assert english_total == 12_644
+    # +2: the task column widens over the output wall and restores the layout.
+    assert english_total == 12_646
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

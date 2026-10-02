@@ -695,7 +695,9 @@
     "spaces.hud.evidenceKind.close.image": "Close-up image",
     "spaces.hud.capabilityMatrixSpaceHint": "What each resource in this Space can do. Open a task to see only what it needs.",
     "spaces.hud.capabilityMatrixShowAll": "Also show the other {count}",
-    "spaces.hud.capabilityMatrixShowTask": "Only what this task needs"
+    "spaces.hud.capabilityMatrixShowTask": "Only what this task needs",
+    "spaces.hud.widenTask": "Widen the task column",
+    "spaces.hud.restoreLayout": "Restore the layout"
   },
   "total_keys": 574
 }
