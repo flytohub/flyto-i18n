@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "purchases.all": "All purchases",
-    "purchases.browseMarketplace": "Browse Marketplace",
+    "purchases.browseMarketplace": "Browse the marketplace",
     "purchases.completed": "Completed purchases",
     "purchases.empty": "No purchases",
     "purchases.emptyDescription": "You have no purchases yet.",

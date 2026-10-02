@@ -610,7 +610,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # how far the robot went against what was asked, and the safety distance.
     # +1: a turn on the robot motion view is said in radians, not 0.000 m.
     # +1: the workflows page's More menu, which holds Join and the imports.
-    assert english_total == 12_644
+    # +5: the dashboard says a failed read failed (sales trend, recent runs,
+    # voice service, the figures banner) and the wallet's "Active" is copy.
+    assert english_total == 12_649
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

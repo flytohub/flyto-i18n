@@ -22,6 +22,7 @@
     "wallet.needMore": "還需要 {amount} credits",
     "wallet.topupNow": "立即儲值",
     "wallet.confirmAndExecute": "確認並執行",
-    "wallet.lowBalanceWarning": "Credits 餘額不足以再次執行，請儲值以繼續使用。"
+    "wallet.lowBalanceWarning": "Credits 餘額不足以再次執行，請儲值以繼續使用。",
+    "wallet.statusActive": "啟用中"
   }
 }

@@ -30,7 +30,7 @@
     "publish.protection.locked": "Locked",
     "publish.protection.lockedDesc": "Users can run but cannot see or modify the workflow",
     "publish.publishSuccess": "Template published successfully!",
-    "publish.publishTemplate": "Publish Template",
+    "publish.publishTemplate": "Publish workflow",
     "publish.publishing": "Publishing...",
     "publish.regions.availableIn": "Available in",
     "publish.regions.availableInHint": "Select regions where content is available",

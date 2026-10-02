@@ -4,11 +4,11 @@
   "category": "cloud.cloudTrial",
   "version": "1.0.0",
   "translations": {
-    "cloudTrial.daysRemaining": "剩餘天數",
+    "cloudTrial.daysRemaining": "剩 {days} 天",
     "cloudTrial.expired": "已過期",
-    "cloudTrial.navBadge": "導覽標記",
-    "cloudTrial.planLabel": "方案名稱",
-    "cloudTrial.trialActive": "試用啟用中",
+    "cloudTrial.navBadge": "試用剩 {days} 天",
+    "cloudTrial.planLabel": "方案",
+    "cloudTrial.trialActive": "免費試用中",
     "cloudTrial.upgrade": "升級"
   }
 }

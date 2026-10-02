@@ -4,11 +4,11 @@
   "category": "cloud.cloudTrial",
   "version": "1.0.0",
   "translations": {
-    "cloudTrial.daysRemaining": "Days Remaining",
-    "cloudTrial.expired": "Expired",
-    "cloudTrial.navBadge": "Nav Badge",
-    "cloudTrial.planLabel": "Plan Label",
-    "cloudTrial.trialActive": "Trial Active",
-    "cloudTrial.upgrade": "Upgrade"
+    "cloudTrial.daysRemaining": "quedan {days} días",
+    "cloudTrial.expired": "Caducado",
+    "cloudTrial.navBadge": "Prueba: quedan {days} días",
+    "cloudTrial.planLabel": "Plan",
+    "cloudTrial.trialActive": "Prueba gratuita",
+    "cloudTrial.upgrade": "Mejorar plan"
   }
 }

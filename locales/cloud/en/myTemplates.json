@@ -8,7 +8,7 @@
     "myTemplates.addToLibrarySuccess": "Template added to library",
     "myTemplates.batchDeleteFailed": "Failed to delete some templates",
     "myTemplates.batchDeleteSuccess": "{count} templates deleted successfully",
-    "myTemplates.browseMarketplace": "Browse Marketplace",
+    "myTemplates.browseMarketplace": "Browse the marketplace",
     "myTemplates.createTemplate": "Create Template",
     "myTemplates.deleteDialog.message": "Are you sure you want to delete '{name}'? This action cannot be undone.",
     "myTemplates.deleteDialog.title": "Delete Template",

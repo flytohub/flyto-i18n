@@ -8,7 +8,7 @@
     "myTemplates.addToLibrarySuccess": "模板已加入收藏库",
     "myTemplates.batchDeleteFailed": "部分模板删除失败",
     "myTemplates.batchDeleteSuccess": "已成功删除 {count} 个模板",
-    "myTemplates.browseMarketplace": "浏览市集",
+    "myTemplates.browseMarketplace": "浏览市场",
     "myTemplates.createTemplate": "创建模板",
     "myTemplates.deleteDialog.message": "确定要删除「{name}」吗？此操作无法复原。",
     "myTemplates.deleteDialog.title": "删除模板",
