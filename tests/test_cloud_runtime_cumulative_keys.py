@@ -593,7 +593,14 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +13: the War Room Agent Hub (#160) names its roles, phases and states.
     # +1: a machine card says when the Space has workflows that cannot run on
     # that machine, instead of asking for a workflow the Space already has.
-    assert english_total == 12_520
+    # +53: the Agents tab, the Mission Station's gate names and skip reasons,
+    # and the evidence states, reasons and conclusions are translated instead of
+    # printed as backend identifiers.
+    # +8: each decision source has a name on the timeline badge. A row with no
+    # recorded source keeps the identifier `unknown`, never a word that reads
+    # as an attribution.
+    # +18: refusal codes on candidate chips and the two order bases.
+    assert english_total == 12_599
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

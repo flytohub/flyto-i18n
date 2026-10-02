@@ -6,8 +6,8 @@
   "translations": {
     "templateToolbar.gridView": "網格檢視",
     "templateToolbar.listView": "列表檢視",
-    "templateToolbar.searchLabel": "搜尋模板",
-    "templateToolbar.searchPlaceholder": "搜尋模板...",
+    "templateToolbar.searchLabel": "搜尋工作流程",
+    "templateToolbar.searchPlaceholder": "搜尋工作流程...",
     "templateToolbar.sortLabel": "排序方式",
     "templateToolbar.sortOptions.created": "最近建立",
     "templateToolbar.sortOptions.name": "名稱 A-Z",
