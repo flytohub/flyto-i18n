@@ -636,6 +636,7 @@
     "aiSpace.chatResult.reviewUnavailable": "The task could not be verified because the verification service was unavailable. The operation results are retained.",
     "aiSpace.chatResult.goalUnverified": "The task is not yet verified as complete. Review the operation results and details.",
     "aiSpace.workspace.tabs.agents": "Agents",
+    "aiSpace.workspace.folderLabel": "Folder",
     "aiSpace.agents.title": "Agent profiles",
     "aiSpace.agents.hint": "Define bounded reasoning roles for this Space. Profiles do not grant tools, permissions, resources, or execution authority.",
     "aiSpace.agents.add": "Add profile",

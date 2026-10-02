@@ -636,6 +636,7 @@
     "aiSpace.chatResult.reviewUnavailable": "验证服务目前无法使用，尚不能确认任务完成。已保留操作结果。",
     "aiSpace.chatResult.goalUnverified": "任务尚未确认完成。请查看操作结果与详细原因。",
     "aiSpace.workspace.tabs.agents": "AI 角色",
+    "aiSpace.workspace.folderLabel": "文件夹",
     "aiSpace.agents.title": "AI 角色设置",
     "aiSpace.agents.hint": "为这个 Space 定义有范围的推理角色。角色不会取得任何工具、权限、资源或执行权。",
     "aiSpace.agents.add": "新增角色",
