@@ -9,6 +9,8 @@
   "任務卡 Adapter". Its setup dialog is **Mission cards setup**, and it asks for
   a **zone kind / 區域類型 / 区域类型** instead of a "station kind", which read as
   a kind of Mission Station.
+- The Mission Station information dialog labels its facts Connection / 連線,
+  Open tasks / 進行中任務 and Space ID.
 - The Warroom module labels in zh-TW and zh-CN say "Warroom", like their
   English labels, instead of 戰情室 / 战情室.
 - `templateFolders.allTemplates` is "All workflows / 所有工作流程 / 所有工作流",

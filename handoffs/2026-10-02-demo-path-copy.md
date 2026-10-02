@@ -13,6 +13,8 @@ on a local build after flyto-cloud #418.
   `spaces.guide.railLabel`, `spaces.ops.live`, `spaces.roomInfo.title` and
   `spaces.narrative.failure.unverifiedResult` say Mission Station instead of
   "room".
+  `spaces.roomInfo.link`, `.tasks` and `.spaceId` read Connection / 連線,
+  Open tasks / 進行中任務 and Space ID.
 - `locales/cloud/*/aiSpace.json`:
   - `aiSpace.workspace.featureMissions` is now Mission cards / 任務卡 / 任务卡.
   - New key `aiSpace.resources.machineBindings.noRunnableWorkflows`.
