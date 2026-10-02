@@ -26,6 +26,7 @@
     "myTemplates.empty.tryDifferent": "Try a different search",
     "myTemplates.emptyState": "No workflows yet",
     "myTemplates.importYaml": "Import YAML",
+    "myTemplates.moreActions": "More",
     "myTemplates.forkFailed": "Failed to fork template",
     "myTemplates.forkSuccess": "Template forked successfully",
     "myTemplates.importSuccess": "Import Success",

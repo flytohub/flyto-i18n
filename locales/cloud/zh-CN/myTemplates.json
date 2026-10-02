@@ -26,6 +26,7 @@
     "myTemplates.empty.tryDifferent": "请尝试不同的搜索",
     "myTemplates.emptyState": "尚无工作流程",
     "myTemplates.importYaml": "导入 YAML",
+    "myTemplates.moreActions": "更多",
     "myTemplates.forkFailed": "Fork 模板失败",
     "myTemplates.forkSuccess": "模板 Fork 成功",
     "myTemplates.importSuccess": "Import Success",
