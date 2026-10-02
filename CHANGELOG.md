@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-02 — Mission Station records in words, and the Agents tab
+
+- The Mission Station names what it used to print as identifiers, keyed by the
+  identifier the backend serves:
+  - assignment gates and their skip reasons, for example 租用 · 這個 Space 的規則沒有開啟這項檢查;
+  - refusal chips on rejected candidates and the two order bases;
+  - evidence states, reasons with their arithmetic, what a waiting item waits
+    on, and the three conclusions;
+  - the decision source on each timeline badge.
+- `spaces.timeline.originalNote`: the full decision record says its detail
+  lines are the system's original sentences.
+- The AI Space Agents tab (`aiSpace.agents.*`, `aiSpace.workspace.tabs.agents`)
+  is translated. It reuses the agent hub's role names.
+- `aiSpace.resources.inertMachines*` explains why a computer does not belong
+  in the adapter list and how to remove it.
+- `templateToolbar.search*` says workflows rather than templates.
+
 ## 2026-10-02 — Demo-path copy: no rooms, no mixed-language labels
 
 - The Mission Station's own copy no longer calls it a "room". The help button,
