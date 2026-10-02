@@ -682,7 +682,9 @@
     "spaces.hud.evidenceKind.arrival.pose": "抵達位置",
     "spaces.hud.evidenceKind.handover.confirmation": "交付確認",
     "spaces.hud.evidenceKind.close.image": "近拍影像",
-    "spaces.hud.capabilityMatrixSpaceHint": "這個 Space 的每個資源各能做什麼。打開任務就只看它需要的。"
+    "spaces.hud.capabilityMatrixSpaceHint": "這個 Space 的每個資源各能做什麼。打開任務就只看它需要的。",
+    "spaces.hud.capabilityMatrixShowAll": "也顯示其他 {count} 項",
+    "spaces.hud.capabilityMatrixShowTask": "只看這個任務需要的"
   },
   "total_keys": 574
 }
