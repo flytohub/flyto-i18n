@@ -1,3 +1,13 @@
+# 2026-10-02 — Ratings Tree access labels
+
+- Added source-owned Code translations for Ratings Tree `Subscription`,
+  `Access`, and `Control` labels used by the Engine-authoritative organization
+  hierarchy.
+- English, Traditional Chinese, and Simplified Chinese carry reviewed copy;
+  the remaining locales keep the repository's explicit fallback pattern.
+- Rebuilt tracked Code and aggregate CDN bundles. This closes the flyto-code
+  i18n sync failure without using the orphan allowlist.
+
 # 2026-09-30 — Identity Watch / POI copy
 
 The Code locale now carries English and Traditional Chinese copy for the

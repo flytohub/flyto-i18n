@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-02 — Ratings Tree access-state labels
+
+- Added canonical Code keys for `Subscription`, `Access`, and `Control` on the
+  company Ratings Tree.
+- English, Traditional Chinese, and Simplified Chinese are reviewed; other
+  locales retain explicit fallback values until translated.
+- Rebuilt `dist/code` and aggregate distributions so flyto-code's i18n sync
+  gate no longer reports these Ratings Tree labels as orphaned keys.
+
 ## 2026-10-02 — A robot turn is said in radians
 
 - `spaces.hud.sweep.turned` (en, zh-TW, zh-CN): the robot motion view says
