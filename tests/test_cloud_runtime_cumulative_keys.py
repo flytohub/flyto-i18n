@@ -608,8 +608,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +1: a machine's own failure record on a labelled line of its own.
     # +9: the robot motion view on the output wall says what the LiDAR saw,
     # how far the robot went against what was asked, and the safety distance.
+    # +1: a turn on the robot motion view is said in radians, not 0.000 m.
     # +1: the workflows page's More menu, which holds Join and the imports.
-    assert english_total == 12_643
+    assert english_total == 12_644
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
