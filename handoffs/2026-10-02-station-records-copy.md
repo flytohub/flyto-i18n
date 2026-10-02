@@ -6,7 +6,7 @@ Date: 2026-10-02
 
 ## What changed
 
-New keys (cumulative English count 12,520 → 12,600). Each family is keyed by
+New keys (cumulative English count 12,520 → 12,599). Each family is keyed by
 the identifier the backend serves, so Cloud builds the key from the value and
 holds no copy of the backend's set:
 
@@ -28,7 +28,9 @@ holds no copy of the backend's set:
   - `spaces.hud.conclusionMissing`;
   - `spaces.hud.reasonObserved` / `reasonRequired`.
 - `spaces.timeline.source.<source>`:
-  - The sources come from `decisions.SOURCE_*`, plus `unknown`.
+  - The sources come from `decisions.SOURCE_*`.
+  - `unknown` deliberately has no copy: a row with no recorded source shows
+    the identifier, never a word that reads as an attribution.
 - `spaces.timeline.originalNote`.
 - `aiSpace.agents.*` and `aiSpace.workspace.tabs.agents`.
 

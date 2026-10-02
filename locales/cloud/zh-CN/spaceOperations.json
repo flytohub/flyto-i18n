@@ -635,7 +635,6 @@
     "spaces.timeline.source.plan_contract": "计划契约",
     "spaces.timeline.source.scheduler": "调度器",
     "spaces.timeline.source.resource": "设备",
-    "spaces.timeline.source.unknown": "未知",
     "spaces.hud.refusal.capability_missing": "缺少能力",
     "spaces.hud.refusal.zone_not_covered": "不涵盖此区域",
     "spaces.hud.refusal.permission_missing": "缺少权限",

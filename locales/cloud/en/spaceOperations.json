@@ -635,7 +635,6 @@
     "spaces.timeline.source.plan_contract": "Plan contract",
     "spaces.timeline.source.scheduler": "Scheduler",
     "spaces.timeline.source.resource": "Resource",
-    "spaces.timeline.source.unknown": "Unknown",
     "spaces.hud.refusal.capability_missing": "lacks a capability",
     "spaces.hud.refusal.zone_not_covered": "zone not covered",
     "spaces.hud.refusal.permission_missing": "lacks a permission",

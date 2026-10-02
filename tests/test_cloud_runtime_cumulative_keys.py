@@ -596,9 +596,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +53: the Agents tab, the Mission Station's gate names and skip reasons,
     # and the evidence states, reasons and conclusions are translated instead of
     # printed as backend identifiers.
-    # +9: each decision source has a name on the timeline badge.
+    # +8: each decision source has a name on the timeline badge. A row with no
+    # recorded source keeps the identifier `unknown`, never a word that reads
+    # as an attribution.
     # +18: refusal codes on candidate chips and the two order bases.
-    assert english_total == 12_600
+    assert english_total == 12_599
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
