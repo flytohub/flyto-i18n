@@ -600,7 +600,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # recorded source keeps the identifier `unknown`, never a word that reads
     # as an attribution.
     # +18: refusal codes on candidate chips and the two order bases.
-    assert english_total == 12_599
+    # +31: evidence types in words, the timeline stages the backend writes that
+    # had no word yet, the agent hub's model roles, the sentence for a task
+    # that failed on its proof, the equipment kind adapter discovery registers,
+    # the whole-Space matrix hint, two robot example goals, and the folder a
+    # renamed Space's headline belongs to.
+    assert english_total == 12_630
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
