@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-02 — One name for the War Room, one for Mission Stations
+
+- The Space's control room is called **War Room / 戰情室 / 战情室** everywhere.
+  zh-TW used 作戰室 (25 strings) and zh-CN used 作战室 for the same room. English
+  also called it "Operations room" or "Operations Room" in three places.
+- The Space settings tab that configures Mission Stations, and the Mission
+  Stations panel title, are now **Mission Stations / 任務站點 / 任务站点**.
+  They were "AI War Room" and "AI Workflow War Room", which collided with the
+  room itself.
+- `test_cloud_runtime_cumulative_keys.py`: the English key count is updated
+  for the 13 Agent Hub keys added in #160, which had left it failing on `main`.
+
 ## 2026-10-01 — War Room Agent Hub copy
 
 - Added source-owned Cloud translations for Planner, Recovery, Reviewer,

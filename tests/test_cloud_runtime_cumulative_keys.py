@@ -83,10 +83,12 @@ blocked goal listening micDenied micFailed noSpeech placeholder placeholderTyped
 startListening stopListening
 """.split()
 )
+# The Space's control room is the War Room (one per Space today); the Space
+# settings tab that configures Mission Stations is a different thing.
 OPEN_OPERATIONS_VALUES = {
-    "en": "Operations room",
-    "zh-TW": "作戰室",
-    "zh-CN": "作战室",
+    "en": "War Room",
+    "zh-TW": "戰情室",
+    "zh-CN": "战情室",
 }
 LOCAL_CAMERA_VALUES = {
     "en": {
@@ -583,7 +585,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +26: the MCP OAuth consent page names the requesting client, explains
     # each permission in plain language, and states whether authorization
     # returns to a website or to an app listening on this computer.
-    assert english_total == 12_506
+    # +13: the War Room Agent Hub (#160) names its roles, phases and states.
+    assert english_total == 12_519
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
