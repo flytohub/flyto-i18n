@@ -66,7 +66,7 @@
     "userSettings.aiSourcePending": "Not saved yet",
     "userSettings.aiSourcePlannerElsewhere": "Operations planning currently uses another computer or source.",
     "userSettings.aiSourcePlannerError": "Could not read or save the planning source. Your local choice and planning choice are separate.",
-    "userSettings.aiSourcePlannerHint": "The operations room sends planning requests to this computer. It must be online with the same source selected.",
+    "userSettings.aiSourcePlannerHint": "The War Room sends planning requests to this computer. It must be online with the same source selected.",
     "userSettings.aiSourcePrivacy": "CLI sign-in stays on this computer. Flyto2 does not copy its login credentials.",
     "userSettings.aiSourceReady": "Signed in · ready",
     "userSettings.aiSourceRefresh": "Refresh status",
