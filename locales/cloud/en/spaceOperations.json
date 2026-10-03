@@ -195,7 +195,7 @@
     "spaces.live.frame": "Frame",
     "spaces.live.frameAlt": "Live frame from the running resource",
     "spaces.live.noFrames": "No frames yet",
-    "spaces.live.noFramesHint": "A browser, camera or robot resource will render here while it runs.",
+    "spaces.live.noFramesHint": "A browser, camera or equipment resource will render here while it runs.",
     "spaces.live.scrub": "Scrub frames",
     "spaces.narrative.action.cancel": "Give up",
     "spaces.narrative.action.configure": "Add under Resources",
@@ -525,7 +525,7 @@
     "spaces.stream.unsaved": "Unsaved changes",
     "spaces.stream.watchable": "Watchable",
     "spaces.stream.withdraw": "Withdraw",
-    "spaces.sweep.alt": "Range scan around the robot",
+    "spaces.sweep.alt": "Range scan around the machine",
     "spaces.sweep.nearest": "Nearest",
     "spaces.sweep.sectors": "sectors",
     "spaces.sweep.stopAt": "Stops at",
@@ -753,7 +753,14 @@
     "spaces.timeline.stage.success": "Step done",
     "spaces.timeline.stage.error": "Step failed",
     "spaces.timeline.stage.skipped": "Step skipped",
-    "spaces.timeline.stage.step": "Step"
+    "spaces.timeline.stage.step": "Step",
+    "spaces.kind.equipment": "Equipment",
+    "spaces.hud.evidenceKind.resource.arrival": "Arrival",
+    "spaces.hud.verdict.measured": "measured {measured}",
+    "spaces.hud.verdict.measuredExpected": "measured {measured}, expected {expected}",
+    "spaces.hud.verdict.measuredExpectedAllowed": "measured {measured}, expected {expected} ± {allowed}",
+    "spaces.hud.verdict.verified": "verified by Cloud",
+    "spaces.hud.verdict.notProven": "not proven"
   },
   "total_keys": 574
 }

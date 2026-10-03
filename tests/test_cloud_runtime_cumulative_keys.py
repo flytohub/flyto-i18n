@@ -633,7 +633,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # component already passed to `t()` as an English fallback. +2:
     # `issues.title` and `templateBuilder.aiChat.online` were empty English
     # placeholders, which the cloud build drops, and now have words.
-    assert english_total == 12_987
+    # +7: provider-neutral equipment copy (flyto-cloud `claude/provider-neutral`):
+    # the neutral arrival evidence type, the equipment resource kind, and the
+    # five sentences of the generic contract verdict view.
+    assert english_total == 12_994
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
