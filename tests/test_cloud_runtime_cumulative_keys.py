@@ -617,7 +617,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # that paired devices are not in this Space yet.
     # +6: the AI Space dialog asks before unsaved edits are discarded, and
     # names a bound runner that is outside the Space.
-    assert english_total == 12_659
+    # +22: the Detected equipment panel, which had shipped English-only.
+    assert english_total == 12_681
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
