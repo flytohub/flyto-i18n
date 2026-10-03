@@ -23,6 +23,13 @@
     "wallet.topupNow": "立即儲值",
     "wallet.confirmAndExecute": "確認並執行",
     "wallet.lowBalanceWarning": "Credits 餘額不足以再次執行，請儲值以繼續使用。",
-    "wallet.statusActive": "啟用中"
+    "wallet.statusActive": "啟用中",
+    "wallet.unitCredits": "點數",
+    "wallet.approxUsd": "約 {amount} 美元",
+    "wallet.txn.topup": "點數儲值",
+    "wallet.txn.serialCode": "序號兌換",
+    "wallet.txn.workflowRun": "工作流程執行",
+    "wallet.txn.workflowRunNamed": "工作流程執行：{name}",
+    "wallet.txn.adminGrant": "Flyto2 贈送點數"
   }
 }

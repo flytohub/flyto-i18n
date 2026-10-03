@@ -23,8 +23,8 @@
     "purchases.refunded": "已退款",
     "purchases.refundedOn": "退款日期",
     "purchases.requestRefund": "申請退款",
-    "purchases.subtitle": "查看已購買的模板並管理退款",
+    "purchases.subtitle": "查看已購買的工作流程並管理退款",
     "purchases.title": "購買紀錄",
-    "purchases.viewTemplate": "查看模板"
+    "purchases.viewTemplate": "查看工作流程"
   }
 }

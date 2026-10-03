@@ -11,7 +11,7 @@
     "stateMachine.create.name": "Name",
     "stateMachine.create.namePlaceholder": "Enter state machine name",
     "stateMachine.create.order": "Order Processing",
-    "stateMachine.create.template": "Template",
+    "stateMachine.create.template": "Workflow",
     "stateMachine.create.ticket": "Support Ticket",
     "stateMachine.create.title": "Create State Machine",
     "stateMachine.diagram.select": "Select a state machine",

@@ -19,6 +19,7 @@
     "variables.reveal": "顯示",
     "variables.revealReason": "存取原因",
     "variables.revealReasonPlaceholder": "為什麼需要顯示此憑證？",
+    "variables.saveFailed": "變數沒有儲存。",
     "variables.scope": "範圍",
     "variables.scopes.organization": "組織",
     "variables.scopes.project": "專案",

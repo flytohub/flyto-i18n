@@ -6,6 +6,7 @@
     "translations": {
         "projects.create": "创建项目",
         "projects.create.title": "创建项目",
+        "projects.createAction": "创建项目",
         "projects.delete.message": "确定要删除此项目吗？此项目中的所有工作流程将移至缺省项目。",
         "projects.delete.title": "删除项目",
         "projects.description": "将工作流程整理至项目中",

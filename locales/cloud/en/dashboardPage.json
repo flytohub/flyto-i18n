@@ -71,6 +71,7 @@
     "dashboardPage.stats.sales": "Sales",
     "dashboardPage.subtitle": "What would you like to do today?",
     "dashboardPage.welcome": "Welcome back, {name}!",
-    "dashboardPage.welcomeDefault": "Welcome back!"
+    "dashboardPage.welcomeDefault": "Welcome back!",
+    "dashboardPage.devices.onlineCount": "{count} online"
   }
 }

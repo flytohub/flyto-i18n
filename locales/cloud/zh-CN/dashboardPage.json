@@ -71,6 +71,7 @@
     "dashboardPage.stats.sales": "销售",
     "dashboardPage.subtitle": "今天想做什么？",
     "dashboardPage.welcome": "欢迎回来，{name}！",
-    "dashboardPage.welcomeDefault": "欢迎回来！"
+    "dashboardPage.welcomeDefault": "欢迎回来！",
+    "dashboardPage.devices.onlineCount": "{count} 台在线"
   }
 }

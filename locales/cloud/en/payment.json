@@ -13,13 +13,13 @@
     "payment.cancel.noChargeMessage": "Your payment method was not charged",
     "payment.cancel.notCharged": "No Charges Made",
     "payment.cancel.reason1": "Changed your mind about the purchase",
-    "payment.cancel.reason2": "Want to review the template details again",
+    "payment.cancel.reason2": "Want to review the workflow details again",
     "payment.cancel.reason3": "Payment method issue",
     "payment.cancel.reasons": "Common reasons for cancellation:",
     "payment.cancel.title": "Payment Cancelled",
     "payment.cancel.tryAgain": "Try Again",
     "payment.error.failed": "Payment failed",
-    "payment.error.noTemplateId": "No template ID provided",
+    "payment.error.noTemplateId": "No workflow ID provided",
     "payment.error.notLoggedIn": "Please log in to verify your purchase",
     "payment.error.timeout": "Payment verification timed out. Please check your library or contact support.",
     "payment.error.title": "Payment Verification Failed",
@@ -36,14 +36,14 @@
     "payment.success.completed": "Completed",
     "payment.success.date": "Date",
     "payment.success.goToLibrary": "Library",
-    "payment.success.message": "Thank you for your purchase. You now have access to this template.",
+    "payment.success.message": "Thank you for your purchase. You now have access to this workflow.",
     "payment.success.purchased": "Purchased",
     "payment.success.receiptSent": "A receipt has been sent to your email",
     "payment.success.status": "Status",
-    "payment.success.templateNotFound": "Template information unavailable",
+    "payment.success.templateNotFound": "Workflow information unavailable",
     "payment.success.title": "Payment Successful!",
     "payment.success.transactionId": "Transaction ID",
     "payment.success.verifying": "Verifying purchase...",
-    "payment.success.viewTemplate": "View Template"
+    "payment.success.viewTemplate": "View Workflow"
   }
 }

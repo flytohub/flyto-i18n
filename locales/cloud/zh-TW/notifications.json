@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "notifications.daysAgo": "{count} 天前",
+    "notifications.delete": "刪除通知",
     "notifications.empty": "目前沒有通知",
     "notifications.hoursAgo": "{count} 小時前",
     "notifications.justNow": "剛剛",

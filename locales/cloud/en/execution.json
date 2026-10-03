@@ -29,7 +29,7 @@
     "execution.retryStarted": "Retry started from node",
     "execution.retryingFromNode": "Retrying from this node...",
     "execution.running": "Running",
-    "execution.timeline": "Execution Timeline",
+    "execution.timeline": "Execution timeline",
     "execution.timeline.empty": "No execution data"
   }
 }

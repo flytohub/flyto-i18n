@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "路徑導覽",
+    "accessibility.changeLanguage": "切換語言",
     "accessibility.clearInput": "清除輸入",
     "accessibility.closeDialog": "關閉對話框",
     "accessibility.closeMenu": "關閉選單",

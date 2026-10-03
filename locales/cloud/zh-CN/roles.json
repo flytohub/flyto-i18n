@@ -7,6 +7,7 @@
         "roles.builtin.title": "内置角色",
         "roles.create": "创建角色",
         "roles.create.title": "创建角色",
+        "roles.createAction": "创建角色",
         "roles.custom.empty": "尚未定义自定义角色",
         "roles.custom.title": "自定义角色",
         "roles.delete.message": "确定要删除此角色吗？拥有此角色的用户将被指派为缺省成员角色。",

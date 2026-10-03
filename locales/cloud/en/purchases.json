@@ -23,8 +23,8 @@
     "purchases.refunded": "Refunded",
     "purchases.refundedOn": "Refunded on",
     "purchases.requestRefund": "Request Refund",
-    "purchases.subtitle": "View your purchased templates and manage refunds",
+    "purchases.subtitle": "View your purchased workflows and manage refunds",
     "purchases.title": "Purchase History",
-    "purchases.viewTemplate": "View Template"
+    "purchases.viewTemplate": "View Workflow"
   }
 }

@@ -20,7 +20,7 @@
     "subscriptions.features.advancedAnalytics": "進階分析",
     "subscriptions.features.apiAccess": "API 存取",
     "subscriptions.features.auditLogs": "稽核日誌",
-    "subscriptions.features.basicTemplates": "5 個模板",
+    "subscriptions.features.basicTemplates": "5 個工作流程",
     "subscriptions.features.communitySupport": "社群支援",
     "subscriptions.features.dedicatedSupport": "專屬支援",
     "subscriptions.features.everythingInPro": "包含專業版所有功能",
@@ -29,7 +29,7 @@
     "subscriptions.features.roleBasedAccess": "角色權限控制",
     "subscriptions.features.teamCollaboration": "團隊協作",
     "subscriptions.features.unlimitedExecutions": "無限執行次數",
-    "subscriptions.features.unlimitedTemplates": "無限模板",
+    "subscriptions.features.unlimitedTemplates": "無限工作流程",
     "subscriptions.memberSince": "加入日期",
     "subscriptions.plans.free.name": "免費版",
     "subscriptions.plans.free.period": "永久免費",
@@ -48,6 +48,11 @@
     "subscriptions.switchPlan": "切換方案",
     "subscriptions.title": "訂閱方案",
     "subscriptions.upgrade": "升級",
-    "subscriptions.upgraded": "訂閱升級成功"
+    "subscriptions.upgraded": "訂閱升級成功",
+    "subscriptions.loadFailed": "無法載入您的方案，因此暫不顯示。請再試一次。",
+    "subscriptions.status.past_due": "付款逾期",
+    "subscriptions.status.unpaid": "未付款",
+    "subscriptions.status.incomplete": "付款未完成",
+    "subscriptions.status.paused": "已暫停"
   }
 }

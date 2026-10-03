@@ -71,10 +71,14 @@ SOURCE_OWNERS = {
 # All three re-pinned again 2026-10-02: Mission Station replaces "room" in the
 # station copy, Mission cards setup and zone kinds replace mission setup and
 # station kinds, and the all-folders row is named after workflows.
+# All three re-pinned 2026-10-03: the owner named the recipe import a code
+# security scan, so `myTemplates.warroomImport.{title,description,action}` no
+# longer show the "Warroom" product name beside the reserved War Room. The key
+# names and the import route are unchanged.
 RUNTIME_VALUE_DIGESTS = {
-    "en": "1f550ddeeb01a1f0caefb72fc5ae37a5b594ca9c25adf71c53b7af85f02543df",
-    "zh-TW": "69220ee222071e65d46977ea65b5530f6351af0fa8e14b326df288867be9f819",
-    "zh-CN": "65b80e61a8bd7ec79c90488913d04cdd6731c40fbf69f1496db3a561875e9f9d",
+    "en": "67b1e0b7e3d602ea516fa96ea7a9f8a2fbfe22eda9634c406652a3ea599bae46",
+    "zh-TW": "e95db72868f177d01ff418f2c4e74d99b885f58f4024620688515b3e2743d5dd",
+    "zh-CN": "ecca8f03dbddd0afe4ef9132cc0bdd78ae5048275ffed139333ecee333dcf496",
 }
 SPACE_OPERATIONS_KEYS = frozenset(
     f"spaces.draw.{key}"
@@ -622,7 +626,14 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +25: Mission Station browser recordings and the auto-run consequence levels.
     # +1: the Desktop version browser recordings need. +4: the level 4/5
     # warning (five keys) replacing "always asks".
-    assert english_total == 12_713
+    # +274: the second UI sweep (flyto-cloud `claude/ui-sweep-2`). 272 new
+    # keys -- the workflow editor, the global AI chat and direct messages,
+    # navigation and the global pages, account settings and billing, Mission
+    # Station, and the execution detail page -- each one a sentence a
+    # component already passed to `t()` as an English fallback. +2:
+    # `issues.title` and `templateBuilder.aiChat.online` were empty English
+    # placeholders, which the cloud build drops, and now have words.
+    assert english_total == 12_987
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

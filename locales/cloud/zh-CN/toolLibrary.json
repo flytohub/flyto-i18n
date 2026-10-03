@@ -12,6 +12,7 @@
         "toolLibrary.noDescription": "无描述",
         "toolLibrary.noTools": "尚无工具",
         "toolLibrary.noToolsDesc": "创建你的第一个工具来自动化工作流程",
+        "toolLibrary.noToolsSaved": "保存到账号的工具会显示在这里。",
         "toolLibrary.run": "运行",
         "toolLibrary.searchPlaceholder": "搜索工具...",
         "toolLibrary.steps": "步骤",

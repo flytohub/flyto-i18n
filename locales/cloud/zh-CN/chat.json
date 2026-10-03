@@ -5,6 +5,9 @@
     "version": "1.0.0",
     "translations": {
         "chat.attachFile": "附加文件",
+        "chat.backToConversations": "返回对话列表",
+        "chat.loadConversationsFailed": "无法加载你的对话。",
+        "chat.loadMessagesFailed": "无法加载这段对话。",
         "chat.messageUser": "发送消息",
         "chat.messages": "消息",
         "chat.noConversations": "还没有对话",
@@ -13,6 +16,7 @@
         "chat.searchConversations": "搜索对话...",
         "chat.selectConversation": "选择对话开始聊天",
         "chat.send": "发送",
+        "chat.sendFailed": "消息未发送，请再试一次。",
         "chat.startChat": "开始聊天",
         "chat.startChatFailed": "无法开始聊天",
         "chat.typePlaceholder": "输入消息...",

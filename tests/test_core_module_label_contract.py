@@ -45,12 +45,12 @@ EN_LABELS = {
     "modules.verification.generate_scenarios.label": "Verification Generate Scenarios",
     "modules.verification.report.label": "Verification Report",
     "modules.verification.run.label": "Verification Run",
-    "modules.warroom.discover.label": "Warroom Discover",
-    "modules.warroom.generate_scenarios.label": "Warroom Generate Scenarios",
-    "modules.warroom.llm_review.label": "Warroom LLM Review",
-    "modules.warroom.public_site_verify.label": "Warroom Public Site Verify",
-    "modules.warroom.report.label": "Warroom Report",
-    "modules.warroom.run.label": "Warroom Run",
+    "modules.warroom.discover.label": "Code security scan: discover",
+    "modules.warroom.generate_scenarios.label": "Code security scan: generate scenarios",
+    "modules.warroom.llm_review.label": "Code security scan: LLM review",
+    "modules.warroom.public_site_verify.label": "Code security scan: public site verify",
+    "modules.warroom.report.label": "Code security scan: report",
+    "modules.warroom.run.label": "Code security scan: run",
 }
 
 ZH_TW_LABELS = {
@@ -90,12 +90,12 @@ ZH_TW_LABELS = {
     "modules.verification.generate_scenarios.label": "產生驗證情境",
     "modules.verification.report.label": "驗證報告",
     "modules.verification.run.label": "執行驗證",
-    "modules.warroom.discover.label": "Warroom 探索",
-    "modules.warroom.generate_scenarios.label": "產生 Warroom 情境",
-    "modules.warroom.llm_review.label": "Warroom LLM 審查",
-    "modules.warroom.public_site_verify.label": "公開網站驗證",
-    "modules.warroom.report.label": "Warroom 報告",
-    "modules.warroom.run.label": "Warroom 執行",
+    "modules.warroom.discover.label": "程式碼安全掃描：探索",
+    "modules.warroom.generate_scenarios.label": "程式碼安全掃描：產生情境",
+    "modules.warroom.llm_review.label": "程式碼安全掃描：LLM 審查",
+    "modules.warroom.public_site_verify.label": "程式碼安全掃描：公開網站驗證",
+    "modules.warroom.report.label": "程式碼安全掃描：報告",
+    "modules.warroom.run.label": "程式碼安全掃描：執行",
 }
 
 ZH_CN_LABELS = {
@@ -135,12 +135,12 @@ ZH_CN_LABELS = {
     "modules.verification.generate_scenarios.label": "生成验证场景",
     "modules.verification.report.label": "验证报告",
     "modules.verification.run.label": "执行验证",
-    "modules.warroom.discover.label": "Warroom 探索",
-    "modules.warroom.generate_scenarios.label": "生成 Warroom 场景",
-    "modules.warroom.llm_review.label": "Warroom LLM 审查",
-    "modules.warroom.public_site_verify.label": "公开网站验证",
-    "modules.warroom.report.label": "Warroom 报告",
-    "modules.warroom.run.label": "Warroom 执行",
+    "modules.warroom.discover.label": "代码安全扫描：探索",
+    "modules.warroom.generate_scenarios.label": "代码安全扫描：生成场景",
+    "modules.warroom.llm_review.label": "代码安全扫描：LLM 审查",
+    "modules.warroom.public_site_verify.label": "代码安全扫描：公开网站验证",
+    "modules.warroom.report.label": "代码安全扫描：报告",
+    "modules.warroom.run.label": "代码安全扫描：执行",
 }
 
 

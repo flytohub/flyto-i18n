@@ -4,11 +4,11 @@
     "category": "warroom",
     "version": "1.0.0",
     "translations": {
-        "modules.warroom.discover.label": "Warroom 探索",
-        "modules.warroom.generate_scenarios.label": "生成 Warroom 场景",
-        "modules.warroom.llm_review.label": "Warroom LLM 审查",
-        "modules.warroom.public_site_verify.label": "公开网站验证",
-        "modules.warroom.report.label": "Warroom 报告",
-        "modules.warroom.run.label": "Warroom 执行"
+        "modules.warroom.discover.label": "代码安全扫描：探索",
+        "modules.warroom.generate_scenarios.label": "代码安全扫描：生成场景",
+        "modules.warroom.llm_review.label": "代码安全扫描：LLM 审查",
+        "modules.warroom.public_site_verify.label": "代码安全扫描：公开网站验证",
+        "modules.warroom.report.label": "代码安全扫描：报告",
+        "modules.warroom.run.label": "代码安全扫描：执行"
     }
 }

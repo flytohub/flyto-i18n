@@ -7,13 +7,13 @@
     "createModal.category.label": "Category",
     "createModal.category.placeholder": "Select a category (optional)",
     "createModal.closeDialog": "Close dialog",
-    "createModal.create": "Create Template",
+    "createModal.create": "Create Workflow",
     "createModal.creating": "Creating...",
     "createModal.description.label": "Description",
-    "createModal.description.placeholder": "What does this template do? (optional)",
+    "createModal.description.placeholder": "What does this workflow do? (optional)",
     "createModal.folder.label": "Folder",
     "createModal.folder.placeholder": "Default (no folder)",
-    "createModal.errors.createFailed": "Failed to create template",
+    "createModal.errors.createFailed": "Failed to create the workflow",
     "createModal.errors.fileTooLarge": "Image must be smaller than 2MB",
     "createModal.errors.invalidFileType": "Please select an image file",
     "createModal.icon.change": "Change Icon",
@@ -21,8 +21,8 @@
     "createModal.icon.label": "Template Icon",
     "createModal.icon.remove": "Remove icon",
     "createModal.icon.upload": "Upload Icon",
-    "createModal.name.label": "Template Name",
-    "createModal.name.placeholder": "My Awesome Automation",
-    "createModal.title": "New Template"
+    "createModal.name.label": "Workflow name",
+    "createModal.name.placeholder": "My automation",
+    "createModal.title": "New Workflow"
   }
 }
