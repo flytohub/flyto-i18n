@@ -12,6 +12,8 @@
     "notifications.loadMore": "Load more",
     "notifications.markAllRead": "Mark all read",
     "notifications.minutesAgo": "{count} min ago",
-    "notifications.title": "Notifications"
+    "notifications.title": "Notifications",
+    "notifications.desktopAlertsHint": "Get an alert on this computer when a task needs you.",
+    "notifications.desktopAlertsEnable": "Turn on desktop alerts"
   }
 }
