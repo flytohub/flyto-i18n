@@ -685,6 +685,7 @@
     "aiSpace.capabilityOverview.noWorkflows": "此 Space 還沒有工作流程。",
     "aiSpace.capabilityOverview.onlyHint": "全部不勾選，表示此 Space 的所有資源都可使用。",
     "aiSpace.capabilityOverview.onlyLegend": "僅限這些資源",
+    "aiSpace.capabilityOverview.packLabel": "模組包",
     "aiSpace.capabilityOverview.physical": "實體",
     "aiSpace.capabilityOverview.refresh": "重新整理",
     "aiSpace.capabilityOverview.retry": "重試",

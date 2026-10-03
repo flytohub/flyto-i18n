@@ -685,6 +685,7 @@
     "aiSpace.capabilityOverview.noWorkflows": "No workflows in this Space yet.",
     "aiSpace.capabilityOverview.onlyHint": "Leave all unticked to allow every resource in this Space.",
     "aiSpace.capabilityOverview.onlyLegend": "Only these resources",
+    "aiSpace.capabilityOverview.packLabel": "Module pack",
     "aiSpace.capabilityOverview.physical": "Physical",
     "aiSpace.capabilityOverview.refresh": "Refresh",
     "aiSpace.capabilityOverview.retry": "Retry",

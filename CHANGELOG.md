@@ -2,7 +2,7 @@
 
 ## 2026-10-04 — Workflows bind to capabilities, not to a resource
 
-- 41 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud
+- 42 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud
   `claude/capability-binding`: the Space settings overview of resources,
   module packs and capabilities (`aiSpace.capabilityOverview.*`), what each
   workflow needs and which resources match, the optional limits on automatic
@@ -15,7 +15,7 @@
   `allowedInSpace`, `aiSpace.resources.equipmentHint`, and
   `aiSpace.resources.noPolicyHint` (a workflow with no policy now uses its own
   declared capabilities instead of failing closed). Domain-neutral wording.
-- The Cloud seal is re-pinned at 13,115.
+- The Cloud seal is re-pinned at 13,116.
 
 ## 2026-10-04 — Mission Station demo-path polish
 
