@@ -633,7 +633,17 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # component already passed to `t()` as an English fallback. +2:
     # `issues.title` and `templateBuilder.aiChat.online` were empty English
     # placeholders, which the cloud build drops, and now have words.
-    assert english_total == 12_987
+    # +87: Mission Station demo-path polish (flyto-cloud `claude/demo-polish`).
+    # 82 new keys: the result check's plain name, what each decision means in
+    # the operator's words, a question read as a wait, Yes/No quick replies and
+    # the quieter secrets hint, error codes a computer's AI reports, capability
+    # words in place of ids, the top bar's loading and labelled counts, the
+    # acceptance-check labels and the explicit desktop-alert buttons. +5: the
+    # history filter words (`spaces.history.group.*`) were empty placeholders
+    # in every locale, which the cloud build drops, so the filters read English.
+    # +2: `spaces.capability.sensing_map` and `spaces.capability.family.sensing`,
+    # so a map step reads as a word instead of "A capability of this Space".
+    assert english_total == 13_076
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
