@@ -2,11 +2,9 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
-<<<<<<< HEAD
 | 2026-10-04 | Provider-neutral equipment copy | `2026-10-04-provider-neutral-copy.md` |
-=======
 | 2026-10-04 | Module Marketplace copy (模組商城) | `2026-10-04-module-marketplace-copy.md` |
->>>>>>> a37962c2e (i18n(cloud): Module Marketplace (模組商城) copy)
+| 2026-10-04 | Module commerce copy (Owner: claude, branch claude/ops-copy, Active) | `2026-10-04-module-commerce-copy.md` |
 | 2026-10-02 | Mission Station records in words, and the Agents tab | `2026-10-02-station-records-copy.md` |
 | 2026-10-02 | Demo-path copy: no rooms, no mixed-language labels | `2026-10-02-demo-path-copy.md` |
 | 2026-10-02 | Each Space has a Mission Station; War Room is reserved | `2026-10-02-mission-station-terms.md` |
