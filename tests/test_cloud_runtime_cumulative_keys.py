@@ -610,7 +610,16 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # how far the robot went against what was asked, and the safety distance.
     # +1: a turn on the robot motion view is said in radians, not 0.000 m.
     # +1: the workflows page's More menu, which holds Join and the imports.
-    assert english_total == 12_644
+    # +5: the dashboard says a failed read failed (sales trend, recent runs,
+    # voice service, the figures banner) and the wallet's "Active" is copy.
+    # +1: the workflows page says when no workflow carries the selected tags.
+    # +3: Mission Station says a task store or a task it could not read, and
+    # that paired devices are not in this Space yet.
+    # +6: the AI Space dialog asks before unsaved edits are discarded, and
+    # names a bound runner that is outside the Space.
+    # +22: the Detected equipment panel, which had shipped English-only.
+    # +2: the task column widens over the output wall and restores the layout.
+    assert english_total == 12_683
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -191,7 +191,7 @@
     "userSettings.scopeOptions.write": "寫入",
     "userSettings.scopeOptions.writeDesc": "建立和修改模板及工作流程",
     "userSettings.subtitle": "管理您的個人資料與帳戶",
-    "userSettings.templates": "模板",
+    "userSettings.templates": "工作流程",
     "userSettings.title": "設定",
     "userSettings.transferLicense": "轉移授權",
     "userSettings.transferLimitsDesc": "您今年還可以將授權轉移到新裝置 {count} 次。轉移次數限制將於每年 1 月 1 日重置。",

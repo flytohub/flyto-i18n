@@ -30,7 +30,7 @@
         "publish.protection.locked": "锁定",
         "publish.protection.lockedDesc": "用户可以运行但无法查看或修改工作流程",
         "publish.publishSuccess": "模板发布成功！",
-        "publish.publishTemplate": "发布模板",
+        "publish.publishTemplate": "发布工作流程",
         "publish.publishing": "发布中...",
         "publish.regions.availableIn": "可用于",
         "publish.regions.availableInHint": "选择内容可用的地区",

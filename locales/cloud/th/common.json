@@ -71,7 +71,7 @@
     "common.noItems": "No items",
     "common.noOptions": "ไม่มีตัวเลือก",
     "common.noResults": "ไม่พบผลลัพธ์",
-    "common.noSearchResults": "No Search Results",
+    "common.noSearchResults": "ไม่พบผลลัพธ์ที่ตรงกับการค้นหา",
     "common.none": "None",
     "common.notAuthenticated": "กรุณาเข้าสู่ระบบเพื่อดำเนินการต่อ",
     "common.of": "of",

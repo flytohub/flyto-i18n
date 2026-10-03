@@ -191,7 +191,7 @@
     "userSettings.scopeOptions.write": "Write",
     "userSettings.scopeOptions.writeDesc": "Create and modify templates and workflows",
     "userSettings.subtitle": "Manage your profile and account",
-    "userSettings.templates": "Templates",
+    "userSettings.templates": "Workflows",
     "userSettings.title": "Settings",
     "userSettings.transferLicense": "Transfer License",
     "userSettings.transferLimitsDesc": "You can transfer your license to a new device {count} more time(s) this year. Transfer limit resets on January 1st.",
