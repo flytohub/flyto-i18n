@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "Nawigacja okruszkowa",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "Wyczysc pole",
     "accessibility.closeDialog": "Zamknij okno dialogowe",
     "accessibility.closeMenu": "Zamknij menu",

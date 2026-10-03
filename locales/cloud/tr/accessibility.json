@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "İçerik haritası",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "Girişi temizle",
     "accessibility.closeDialog": "Diyaloğu kapat",
     "accessibility.closeMenu": "Menüyü kapat",

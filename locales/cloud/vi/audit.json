@@ -43,6 +43,8 @@
     "audit.filter.allActions": "Tất cả hành động",
     "audit.filter.allResources": "Tất cả tài nguyên",
     "audit.filter.searchPlaceholder": "Tìm kiếm nhật ký...",
+    "audit.loadFailed": "",
+    "audit.noOrganization": "",
     "audit.resource.execution": "Thực thi",
     "audit.resource.setting": "Cài đặt",
     "audit.resource.template": "Mẫu",

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "탐색 경로",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "입력 지우기",
     "accessibility.closeDialog": "대화상자 닫기",
     "accessibility.closeMenu": "메뉴 닫기",

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "Fil d'Ariane",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "Effacer la saisie",
     "accessibility.closeDialog": "Fermer la boite de dialogue",
     "accessibility.closeMenu": "Fermer le menu",

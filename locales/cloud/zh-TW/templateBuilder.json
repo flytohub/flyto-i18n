@@ -369,6 +369,7 @@
     "templateBuilder.missionSetup.stationKinds.observation": "觀察點",
     "templateBuilder.missionSetup.stationKinds.occluded": "視線遮蔽區",
     "templateBuilder.missionSetup.stationKinds.restricted": "管制區",
-    "templateBuilder.missionSetup.stationKinds.passage": "通道"
+    "templateBuilder.missionSetup.stationKinds.passage": "通道",
+    "templateBuilder.settings.label": ""
   }
 }

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "เส้นทางนำทาง",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "ล้างข้อมูล",
     "accessibility.closeDialog": "ปิดกล่องโต้ตอบ",
     "accessibility.closeMenu": "ปิดเมนู",

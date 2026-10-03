@@ -19,6 +19,7 @@
     "variables.reveal": "Hiển thị",
     "variables.revealReason": "Lý do truy cập",
     "variables.revealReasonPlaceholder": "Tại sao bạn cần hiển thị thông tin đăng nhập này?",
+    "variables.saveFailed": "",
     "variables.scope": "Phạm vi",
     "variables.scopes.organization": "Tổ chức",
     "variables.scopes.project": "Dự án",
