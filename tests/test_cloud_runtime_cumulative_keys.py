@@ -618,7 +618,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +6: the AI Space dialog asks before unsaved edits are discarded, and
     # names a bound runner that is outside the Space.
     # +22: the Detected equipment panel, which had shipped English-only.
-    assert english_total == 12_681
+    # +2: the task column widens over the output wall and restores the layout.
+    assert english_total == 12_683
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

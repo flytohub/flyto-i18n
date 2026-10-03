@@ -699,6 +699,8 @@
     "spaces.hud.capabilityMatrixShowAll": "Also show the other {count}",
     "spaces.hud.capabilityMatrixShowTask": "Only what this task needs",
     "spaces.hud.taskUnreadable": "This task could not be read. Mission Station will try again.",
+    "spaces.hud.widenTask": "Widen the task column",
+    "spaces.hud.restoreLayout": "Restore the layout",
     "spaces.detected.adapter": "adapter",
     "spaces.detected.add": "Add to Space",
     "spaces.detected.addFailed": "Could not add this equipment.",

@@ -699,6 +699,8 @@
     "spaces.hud.capabilityMatrixShowAll": "也顯示其他 {count} 項",
     "spaces.hud.capabilityMatrixShowTask": "只看這個任務需要的",
     "spaces.hud.taskUnreadable": "無法讀取這個任務，任務站點會再試一次。",
+    "spaces.hud.widenTask": "放大任務欄",
+    "spaces.hud.restoreLayout": "還原版面",
     "spaces.detected.adapter": "轉接器",
     "spaces.detected.add": "加入 Space",
     "spaces.detected.addFailed": "無法加入這個設備。",
