@@ -12,6 +12,8 @@
         "notifications.loadMore": "加载更多",
         "notifications.markAllRead": "全部已读",
         "notifications.minutesAgo": "{count} 分钟前",
-        "notifications.title": "通知"
+        "notifications.title": "通知",
+        "notifications.desktopAlertsHint": "任务需要你时，在这台电脑收到通知。",
+        "notifications.desktopAlertsEnable": "开启桌面通知"
     }
 }
