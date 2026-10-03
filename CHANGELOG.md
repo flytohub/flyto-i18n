@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-04 — Module Marketplace (模組商城)
+
+- New `modulePacks.json` namespace (165 keys with `plugins.tabs.modulePacks`)
+  in en, zh-TW and zh-CN for flyto-cloud `claude/module-marketplace`: browse
+  and search packs, install on this computer, publish a private or public
+  pack, Ed25519 signing keys, the administrator review queue, and one
+  sentence for every stable refusal code the marketplace and the Desktop
+  installer return. Other locales carry the keys empty, as usual.
+- No price, checkout, entitlement or trial wording: the marketplace has none.
+- The Cloud seal is 13,152 and the merged file count 264.
+
 ## 2026-10-03 — Second UI sweep: editor, chat, navigation, settings, Mission Station
 
 - 272 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud `claude/ui-sweep-2`:
