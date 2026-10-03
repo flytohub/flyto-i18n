@@ -17,6 +17,10 @@ Date: 2026-10-04
   `code.projects.wizard.openProject` and `code.projects.wizard.retryModules`
   for the flyto-code wizard and coverage fixes, in all three locales.
 - `dist/` rebuilt with `scripts/build-dist.py`.
+- Engine gap closure (flyto-engine `74e08f0b` adds module reason
+  `grant_suspended`): `code.modules.reason.grantSuspended` and
+  `code.projects.coverage.badge.licenceSuspended` in en, zh-TW and zh-CN;
+  `dist/` rebuilt again. Separate commit on the same branch.
 
 ## Why
 
@@ -31,6 +35,13 @@ src-product (CE) still uses them. Other locales fall back to English, as in #175
 - `flyto-index verify . --strict --json`: 21/21 pass.
 - flyto-code `npx vitest run` and `npm run release:gate` pass against this dist.
 
+Second commit (grant_suspended copy): `python3 scripts/build-dist.py`,
+`python3 scripts/validate.py --strict` (PASS, 0 errors),
+`python3 -m unittest discover -s tests` (75 OK),
+`flyto-index scan .` + `flyto-index verify . --strict --json` (21/21 pass);
+flyto-code `npx vitest run` (2939 passed) and `npm run release:gate` (green
+up to its push-only GitHub Actions startup step) against this dist.
+
 ## Not verified
 
 - MCP `verify(strict=true)` / `task(action='validate')` (MCP pinned elsewhere).
@@ -38,5 +49,6 @@ src-product (CE) still uses them. Other locales fall back to English, as in #175
 
 ## Follow-ups
 
-- After merge, bump the flyto-i18n SHA pinned in flyto-code
-  `.github/workflows/ci.yml` and `deploy-cloudflare.yml`.
+- TODO: after this branch merges, bump the flyto-i18n SHA pinned in
+  flyto-code `.github/workflows/ci.yml` and `deploy-cloudflare.yml` to the
+  merged commit (not known yet; do not guess it).
