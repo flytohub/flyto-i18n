@@ -685,6 +685,7 @@
     "aiSpace.capabilityOverview.noWorkflows": "此 Space 还没有工作流。",
     "aiSpace.capabilityOverview.onlyHint": "全部不勾选，表示此 Space 的所有资源都可使用。",
     "aiSpace.capabilityOverview.onlyLegend": "仅限这些资源",
+    "aiSpace.capabilityOverview.packLabel": "模块包",
     "aiSpace.capabilityOverview.physical": "实体",
     "aiSpace.capabilityOverview.refresh": "刷新",
     "aiSpace.capabilityOverview.retry": "重试",
