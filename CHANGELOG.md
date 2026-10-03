@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-04 — Module Marketplace (模組商城)
+
+- New `modulePacks.json` namespace (165 keys with `plugins.tabs.modulePacks`)
+  in en, zh-TW and zh-CN for flyto-cloud `claude/module-marketplace`: browse
+  and search packs, install on this computer, publish a private or public
+  pack, Ed25519 signing keys, the administrator review queue, and one
+  sentence for every stable refusal code the marketplace and the Desktop
+  installer return. Other locales carry the keys empty, as usual.
+- No price, checkout, entitlement or trial wording: the marketplace has none.
+- The Cloud seal is 13,290 (13,152 when this copy was written alone) and the merged file count 264.
+
 ## 2026-10-04 — Workflows bind to capabilities, not to a resource
 
 - 42 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud
@@ -15,7 +26,7 @@
   `allowedInSpace`, `aiSpace.resources.equipmentHint`, and
   `aiSpace.resources.noPolicyHint` (a workflow with no policy now uses its own
   declared capabilities instead of failing closed). Domain-neutral wording.
-- The Cloud seal is re-pinned at 13,116.
+- The Cloud seal is re-pinned at 13,125 (after the provider-neutral copy).
 
 ## 2026-10-04 — Mission Station demo-path polish
 
