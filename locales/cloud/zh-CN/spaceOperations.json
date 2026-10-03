@@ -195,7 +195,7 @@
     "spaces.live.frame": "画格",
     "spaces.live.frameAlt": "执行中资源的即时画面",
     "spaces.live.noFrames": "还没有画面",
-    "spaces.live.noFramesHint": "瀏览器、摄影机或机器人资源执行时，画面会显示在这里。",
+    "spaces.live.noFramesHint": "浏览器、摄像头或设备资源执行时，画面会显示在这里。",
     "spaces.live.scrub": "拖曳画格",
     "spaces.narrative.action.cancel": "放弃",
     "spaces.narrative.action.configure": "到资源补",
@@ -525,7 +525,7 @@
     "spaces.stream.unsaved": "未储存的变更",
     "spaces.stream.watchable": "可观看",
     "spaces.stream.withdraw": "撤回",
-    "spaces.sweep.alt": "机器人周围的距离扫描",
+    "spaces.sweep.alt": "设备周围的距离扫描",
     "spaces.sweep.nearest": "最近",
     "spaces.sweep.sectors": "个扇区",
     "spaces.sweep.stopAt": "停在",
@@ -835,7 +835,14 @@
     "spaces.capability.family.human": "需要人提供",
     "spaces.capability.family.file": "文件作业",
     "spaces.capability.family.api": "调用服务",
-    "spaces.capability.other": "这个 Space 的一项能力"
+    "spaces.capability.other": "这个 Space 的一项能力",
+    "spaces.kind.equipment": "设备",
+    "spaces.hud.evidenceKind.resource.arrival": "抵达",
+    "spaces.hud.verdict.measured": "测量 {measured}",
+    "spaces.hud.verdict.measuredExpected": "测量 {measured}，预期 {expected}",
+    "spaces.hud.verdict.measuredExpectedAllowed": "测量 {measured}，预期 {expected} ± {allowed}",
+    "spaces.hud.verdict.verified": "云端已验证",
+    "spaces.hud.verdict.notProven": "未证实"
   },
   "total_keys": 576
 }

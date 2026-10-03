@@ -195,7 +195,7 @@
     "spaces.live.frame": "畫格",
     "spaces.live.frameAlt": "執行中資源的即時畫面",
     "spaces.live.noFrames": "還沒有畫面",
-    "spaces.live.noFramesHint": "瀏覽器、攝影機或機器人資源執行時，畫面會顯示在這裡。",
+    "spaces.live.noFramesHint": "瀏覽器、攝影機或設備資源執行時，畫面會顯示在這裡。",
     "spaces.live.scrub": "拖曳畫格",
     "spaces.narrative.action.cancel": "放棄",
     "spaces.narrative.action.configure": "到資源補",
@@ -525,7 +525,7 @@
     "spaces.stream.unsaved": "未儲存的變更",
     "spaces.stream.watchable": "可觀看",
     "spaces.stream.withdraw": "撤回",
-    "spaces.sweep.alt": "機器人周圍的距離掃描",
+    "spaces.sweep.alt": "設備周圍的距離掃描",
     "spaces.sweep.nearest": "最近",
     "spaces.sweep.sectors": "個扇區",
     "spaces.sweep.stopAt": "停在",
@@ -835,7 +835,14 @@
     "spaces.capability.family.human": "需要人提供",
     "spaces.capability.family.file": "檔案作業",
     "spaces.capability.family.api": "呼叫服務",
-    "spaces.capability.other": "這個 Space 的一項能力"
+    "spaces.capability.other": "這個 Space 的一項能力",
+    "spaces.kind.equipment": "設備",
+    "spaces.hud.evidenceKind.resource.arrival": "抵達",
+    "spaces.hud.verdict.measured": "量測 {measured}",
+    "spaces.hud.verdict.measuredExpected": "量測 {measured}，預期 {expected}",
+    "spaces.hud.verdict.measuredExpectedAllowed": "量測 {measured}，預期 {expected} ± {allowed}",
+    "spaces.hud.verdict.verified": "雲端已驗證",
+    "spaces.hud.verdict.notProven": "未證實"
   },
   "total_keys": 576
 }
