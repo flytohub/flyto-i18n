@@ -659,6 +659,24 @@
     "aiSpace.agents.model.deep": "Deep",
     "aiSpace.agents.description": "Description",
     "aiSpace.agents.descriptionPlaceholder": "What this role should reason about, not what it is allowed to execute.",
-    "aiSpace.agents.authority": "Execution still resolves through the Space registry, policy, assignment, Workflow/Core, and evidence gates."
+    "aiSpace.agents.authority": "Execution still resolves through the Space registry, policy, assignment, Workflow/Core, and evidence gates.",
+    "aiSpace.resources.dispatchRules.uploadRecordings": "Upload browser recordings to Cloud",
+    "aiSpace.resources.dispatchRules.uploadRecordingsHint": "When off, a dispatched task's browser recording stays on the computer that ran it. When on, the computer uploads it (up to 50 MB, kept 30 days) so the Mission Station can play it anywhere. Recordings can show customer data on the pages the AI worked in; password fields stay masked.",
+    "aiSpace.resources.autoRun.title": "Run without asking up to",
+    "aiSpace.resources.autoRun.unsetHint": "Not set: the Start rule above and each workflow's own \"asks first\" decide. Move the slider to decide by consequence instead.",
+    "aiSpace.resources.autoRun.setHint": "Steps at or below this level start on their own; anything above waits for you to press Run. Levels 4 and 5 always ask.",
+    "aiSpace.resources.autoRun.unset": "Not set",
+    "aiSpace.resources.autoRun.clear": "Use the Start rule instead",
+    "aiSpace.resources.autoRun.alwaysAsks": "Always asks",
+    "aiSpace.resources.autoRun.level1": "Observe",
+    "aiSpace.resources.autoRun.level2": "Reversible",
+    "aiSpace.resources.autoRun.level3": "External write",
+    "aiSpace.resources.autoRun.level4": "Real-world effect",
+    "aiSpace.resources.autoRun.level5": "Irreversible or high-impact",
+    "aiSpace.resources.autoRun.level1Example": "Read a page, query data, take a photo",
+    "aiSpace.resources.autoRun.level2Example": "Fill a form without submitting, write a draft, act in a simulation or test environment",
+    "aiSpace.resources.autoRun.level3Example": "Submit a form, send an email or message, update a record",
+    "aiSpace.resources.autoRun.level4Example": "Move or actuate real equipment, change a live system",
+    "aiSpace.resources.autoRun.level5Example": "Delete, pay or transfer, bulk operations"
   }
 }

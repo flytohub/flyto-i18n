@@ -722,7 +722,14 @@
     "spaces.detected.scan": "Scan",
     "spaces.detected.scanFailed": "Could not scan connected Flyto2 computers.",
     "spaces.detected.scanning": "Scanning…",
-    "spaces.detected.title": "Detected equipment"
+    "spaces.detected.title": "Detected equipment",
+    "spaces.ops.recordingOpening": "Opening the recording",
+    "spaces.ops.recordingPlay": "Play browser recording",
+    "spaces.ops.recordingLabel": "Recording of the browser this step drove",
+    "spaces.ops.recordingFromComputer": "Played from this computer",
+    "spaces.ops.recordingFromCloud": "Kept in Flyto2 Cloud",
+    "spaces.ops.recordingOnComputer": "This step was recorded. The recording is kept on the computer that ran it.",
+    "spaces.ops.recordingFailed": "The recording could not be opened"
   },
   "total_keys": 574
 }
