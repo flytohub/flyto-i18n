@@ -643,7 +643,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # in every locale, which the cloud build drops, so the filters read English.
     # +2: `spaces.capability.sensing_map` and `spaces.capability.family.sensing`,
     # so a map step reads as a word instead of "A capability of this Space".
-    assert english_total == 13_076
+    # +7: provider-neutral equipment copy (flyto-cloud `claude/provider-neutral`):
+    # the neutral arrival evidence type, the equipment resource kind, and the
+    # five sentences of the generic contract verdict view.
+    assert english_total == 13_083
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

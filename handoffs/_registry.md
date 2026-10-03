@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-04 | Provider-neutral equipment copy | `2026-10-04-provider-neutral-copy.md` |
 | 2026-10-02 | Mission Station records in words, and the Agents tab | `2026-10-02-station-records-copy.md` |
 | 2026-10-02 | Demo-path copy: no rooms, no mixed-language labels | `2026-10-02-demo-path-copy.md` |
 | 2026-10-02 | Each Space has a Mission Station; War Room is reserved | `2026-10-02-mission-station-terms.md` |
