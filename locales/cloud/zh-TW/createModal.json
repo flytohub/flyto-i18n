@@ -7,7 +7,7 @@
     "createModal.category.label": "分類",
     "createModal.category.placeholder": "選擇分類（選填）",
     "createModal.closeDialog": "關閉對話框",
-    "createModal.create": "建立模板",
+    "createModal.create": "建立工作流程",
     "createModal.creating": "建立中...",
     "createModal.description.label": "描述",
     "createModal.description.placeholder": "這個工作流程做什麼？（選填）",
@@ -23,6 +23,6 @@
     "createModal.icon.upload": "上傳圖示",
     "createModal.name.label": "工作流程名稱",
     "createModal.name.placeholder": "我的自動化流程",
-    "createModal.title": "新建模板"
+    "createModal.title": "新建工作流程"
   }
 }

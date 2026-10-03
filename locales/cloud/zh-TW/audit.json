@@ -47,7 +47,7 @@
     "audit.noOrganization": "稽核日誌屬於組織。建立或加入組織後即可查看。",
     "audit.resource.execution": "執行",
     "audit.resource.setting": "設定",
-    "audit.resource.template": "範本",
+    "audit.resource.template": "工作流程",
     "audit.resource.user": "使用者",
     "audit.resource.workflow": "工作流程",
     "audit.table.action": "動作",

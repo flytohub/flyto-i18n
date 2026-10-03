@@ -10,11 +10,11 @@
     "notFound.goHome": "Go to Home",
     "notFound.helpText": "Need help?",
     "notFound.message": "The page you're looking for doesn't exist or has been moved.",
-    "notFound.myTemplates": "My Templates",
+    "notFound.myTemplates": "My Workflows",
     "notFound.pageNotExist": "This page doesn't exist",
     "notFound.suggestion1": "Check the URL for any typos",
     "notFound.suggestion2": "Go back to the previous page",
-    "notFound.suggestion3": "Navigate to your templates",
+    "notFound.suggestion3": "Navigate to your workflows",
     "notFound.suggestions": "Here's what you can do:",
     "notFound.title": "Page Not Found"
   }

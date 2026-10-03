@@ -29,7 +29,7 @@
     "publish.protection.label": "Protection",
     "publish.protection.locked": "Locked",
     "publish.protection.lockedDesc": "Users can run but cannot see or modify the workflow",
-    "publish.publishSuccess": "Template published successfully!",
+    "publish.publishSuccess": "Workflow published successfully!",
     "publish.publishTemplate": "Publish workflow",
     "publish.publishing": "Publishing...",
     "publish.regions.availableIn": "Available in",

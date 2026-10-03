@@ -7,7 +7,7 @@
     "createModal.category.label": "Category",
     "createModal.category.placeholder": "Select a category (optional)",
     "createModal.closeDialog": "Close dialog",
-    "createModal.create": "Create Template",
+    "createModal.create": "Create Workflow",
     "createModal.creating": "Creating...",
     "createModal.description.label": "Description",
     "createModal.description.placeholder": "What does this workflow do? (optional)",
@@ -23,6 +23,6 @@
     "createModal.icon.upload": "Upload Icon",
     "createModal.name.label": "Workflow name",
     "createModal.name.placeholder": "My automation",
-    "createModal.title": "New Template"
+    "createModal.title": "New Workflow"
   }
 }

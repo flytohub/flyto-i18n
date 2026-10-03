@@ -11,7 +11,7 @@
     "stateMachine.create.name": "名稱",
     "stateMachine.create.namePlaceholder": "輸入狀態機名稱",
     "stateMachine.create.order": "訂單處理",
-    "stateMachine.create.template": "範本",
+    "stateMachine.create.template": "工作流程",
     "stateMachine.create.ticket": "支援工單",
     "stateMachine.create.title": "建立狀態機",
     "stateMachine.diagram.select": "選擇狀態機",
