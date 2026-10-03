@@ -680,6 +680,8 @@
     "spaces.hud.refusal.already_attempted": "已尝试过",
     "spaces.hud.refusal.capability_outside_vocabulary": "未知的能力",
     "spaces.hud.refusal.capability_not_approved": "能力未核准",
+    "spaces.hud.refusal.outside_resource_constraint": "不在 Space 的限制内",
+    "spaces.hud.refusal.simulation_only": "仅限模拟",
     "spaces.hud.refusal.workflow_bound_elsewhere": "已绑定其他机器",
     "spaces.hud.orderBasis.travel_time": "按移动时间最近",
     "spaces.hud.orderBasis.dispatch_preference": "按你设置的优先级",

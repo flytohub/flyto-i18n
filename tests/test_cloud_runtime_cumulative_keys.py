@@ -641,7 +641,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # acceptance-check labels and the explicit desktop-alert buttons. +5: the
     # history filter words (`spaces.history.group.*`) were empty placeholders
     # in every locale, which the cloud build drops, so the filters read English.
-    assert english_total == 13_074
+    # +41: workflows bind to capability contracts, not to a resource
+    # (flyto-cloud `claude/capability-binding`). The Space settings overview of
+    # resources, module packs and capabilities, what each workflow needs and
+    # which resources match, the optional limits on automatic choice
+    # (simulation only, only these resources), "Add or remove equipment", and
+    # the two new refusal words on candidate chips.
+    assert english_total == 13_115
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
