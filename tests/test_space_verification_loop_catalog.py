@@ -14,7 +14,7 @@ VERIFICATION_KEYS = frozenset(
         for suffix in """
 ActionAwaitPerson ActionContinue ActionDefine ActionNone ActionOpen ActionRepeat ActionResolve
 ActionReview ActionShortfall ActionStart ActionWait Contract Empty Evidence
-Execution Loop StateActive StateBlocked StateCancelled StateComplete
+Execution Loop LoopPlain StateActive StateBlocked StateCancelled StateComplete
 StateExecutionFailed StateFailed StateInsufficient StateMissing
 StateNotConfigured StateNotProven StatePending StateReady StateRefused
 StateUnverified StateVerified StatusBlocked StatusCancelled
@@ -28,6 +28,7 @@ REVIEWED_VALUES = {
     "en": {
         "spaces.ops.nextAction": "Next",
         "spaces.ops.verificationLoop": "Verification loop",
+        "spaces.ops.verificationLoopPlain": "Result check",
         "spaces.ops.verificationContract": "Acceptance",
         "spaces.ops.verificationStateUnverified": "Completed without proof",
         "spaces.ops.verificationStatusUnverified": "Completed, not verified",
@@ -38,6 +39,7 @@ REVIEWED_VALUES = {
     "zh-TW": {
         "spaces.ops.nextAction": "下一步",
         "spaces.ops.verificationLoop": "驗證閉環",
+        "spaces.ops.verificationLoopPlain": "驗收結果",
         "spaces.ops.verificationContract": "驗收條件",
         "spaces.ops.verificationStateUnverified": "已完成但未驗證",
         "spaces.ops.verificationStatusUnverified": "已完成，但未驗證",
@@ -48,6 +50,7 @@ REVIEWED_VALUES = {
     "zh-CN": {
         "spaces.ops.nextAction": "下一步",
         "spaces.ops.verificationLoop": "验证闭环",
+        "spaces.ops.verificationLoopPlain": "验收结果",
         "spaces.ops.verificationContract": "验收条件",
         "spaces.ops.verificationStateUnverified": "已完成但未验证",
         "spaces.ops.verificationStatusUnverified": "已完成，但未验证",
@@ -97,7 +100,9 @@ def test_verification_loop_contract_has_exact_additive_key_set() -> None:
     # +1: ActionAwaitPerson. `human.approval` is unschedulable, so a mission
     # waiting on one had no next action a person could take — the loop said
     # "resolve the blocked step" and the step was not the problem.
-    assert len(VERIFICATION_KEYS) == 41
+    # +1: LoopPlain. The panel is on screen in the operator's view too, where
+    # it is named "Result check" rather than the engineer's "loop".
+    assert len(VERIFICATION_KEYS) == 42
     for locale in LOCALES:
         actual = {
             key
