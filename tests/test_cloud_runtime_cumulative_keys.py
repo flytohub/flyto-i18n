@@ -619,7 +619,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # names a bound runner that is outside the Space.
     # +22: the Detected equipment panel, which had shipped English-only.
     # +2: the task column widens over the output wall and restores the layout.
-    assert english_total == 12_683
+    # +25: Mission Station browser recordings and the auto-run consequence levels.
+    assert english_total == 12_708
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

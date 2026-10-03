@@ -722,7 +722,14 @@
     "spaces.detected.scan": "扫描",
     "spaces.detected.scanFailed": "无法扫描已连接的 Flyto2 电脑。",
     "spaces.detected.scanning": "扫描中…",
-    "spaces.detected.title": "检测到的设备"
+    "spaces.detected.title": "检测到的设备",
+    "spaces.ops.recordingOpening": "正在打开录像",
+    "spaces.ops.recordingPlay": "播放浏览器录像",
+    "spaces.ops.recordingLabel": "这个步骤操作浏览器的录像",
+    "spaces.ops.recordingFromComputer": "从这台电脑播放",
+    "spaces.ops.recordingFromCloud": "保存在 Flyto2 Cloud",
+    "spaces.ops.recordingOnComputer": "这个步骤有录像，录像保存在执行它的那台电脑上。",
+    "spaces.ops.recordingFailed": "无法打开这段录像"
   },
   "total_keys": 574
 }

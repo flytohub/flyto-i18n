@@ -722,7 +722,14 @@
     "spaces.detected.scan": "掃描",
     "spaces.detected.scanFailed": "無法掃描已連線的 Flyto2 電腦。",
     "spaces.detected.scanning": "掃描中…",
-    "spaces.detected.title": "偵測到的設備"
+    "spaces.detected.title": "偵測到的設備",
+    "spaces.ops.recordingOpening": "正在開啟錄影",
+    "spaces.ops.recordingPlay": "播放瀏覽器錄影",
+    "spaces.ops.recordingLabel": "這個步驟操作瀏覽器的錄影",
+    "spaces.ops.recordingFromComputer": "從這台電腦播放",
+    "spaces.ops.recordingFromCloud": "保存在 Flyto2 Cloud",
+    "spaces.ops.recordingOnComputer": "這個步驟有錄影，錄影保存在執行它的那台電腦上。",
+    "spaces.ops.recordingFailed": "無法開啟這段錄影"
   },
   "total_keys": 574
 }
