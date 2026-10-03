@@ -817,6 +817,7 @@
     "spaces.capability.vision_read_code": "读取条码或标签",
     "spaces.capability.vision_stream": "串流视频",
     "spaces.capability.vision_record": "录像",
+    "spaces.capability.sensing_map": "绘制周边地图",
     "spaces.capability.motion_advance": "向前移动",
     "spaces.capability.motion_retreat": "向后移动",
     "spaces.capability.motion_rotate": "转向",
@@ -828,6 +829,7 @@
     "spaces.capability.family.browser": "浏览器操作",
     "spaces.capability.family.compute": "电脑作业",
     "spaces.capability.family.vision": "摄像头作业",
+    "spaces.capability.family.sensing": "传感作业",
     "spaces.capability.family.motion": "移动",
     "spaces.capability.family.robot": "设备作业",
     "spaces.capability.family.human": "需要人提供",
@@ -835,5 +837,5 @@
     "spaces.capability.family.api": "调用服务",
     "spaces.capability.other": "这个 Space 的一项能力"
   },
-  "total_keys": 574
+  "total_keys": 576
 }

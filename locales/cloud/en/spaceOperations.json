@@ -817,6 +817,7 @@
     "spaces.capability.vision_read_code": "Read a code or label",
     "spaces.capability.vision_stream": "Stream video",
     "spaces.capability.vision_record": "Record video",
+    "spaces.capability.sensing_map": "Map the surroundings",
     "spaces.capability.motion_advance": "Move forward",
     "spaces.capability.motion_retreat": "Move back",
     "spaces.capability.motion_rotate": "Turn",
@@ -828,6 +829,7 @@
     "spaces.capability.family.browser": "Browser work",
     "spaces.capability.family.compute": "Computer work",
     "spaces.capability.family.vision": "Camera work",
+    "spaces.capability.family.sensing": "Sensing",
     "spaces.capability.family.motion": "Movement",
     "spaces.capability.family.robot": "Equipment work",
     "spaces.capability.family.human": "A person’s input",
@@ -835,5 +837,5 @@
     "spaces.capability.family.api": "Service call",
     "spaces.capability.other": "A capability of this Space"
   },
-  "total_keys": 574
+  "total_keys": 576
 }

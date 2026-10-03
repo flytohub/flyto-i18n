@@ -641,7 +641,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # acceptance-check labels and the explicit desktop-alert buttons. +5: the
     # history filter words (`spaces.history.group.*`) were empty placeholders
     # in every locale, which the cloud build drops, so the filters read English.
-    assert english_total == 13_074
+    # +2: `spaces.capability.sensing_map` and `spaces.capability.family.sensing`,
+    # so a map step reads as a word instead of "A capability of this Space".
+    assert english_total == 13_076
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

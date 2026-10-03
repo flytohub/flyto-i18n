@@ -817,6 +817,7 @@
     "spaces.capability.vision_read_code": "讀取條碼或標籤",
     "spaces.capability.vision_stream": "串流影像",
     "spaces.capability.vision_record": "錄影",
+    "spaces.capability.sensing_map": "繪製周遭地圖",
     "spaces.capability.motion_advance": "向前移動",
     "spaces.capability.motion_retreat": "向後移動",
     "spaces.capability.motion_rotate": "轉向",
@@ -828,6 +829,7 @@
     "spaces.capability.family.browser": "瀏覽器操作",
     "spaces.capability.family.compute": "電腦作業",
     "spaces.capability.family.vision": "攝影機作業",
+    "spaces.capability.family.sensing": "感測作業",
     "spaces.capability.family.motion": "移動",
     "spaces.capability.family.robot": "設備作業",
     "spaces.capability.family.human": "需要人提供",
@@ -835,5 +837,5 @@
     "spaces.capability.family.api": "呼叫服務",
     "spaces.capability.other": "這個 Space 的一項能力"
   },
-  "total_keys": 574
+  "total_keys": 576
 }
