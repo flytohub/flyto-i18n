@@ -4,11 +4,11 @@
     "category": "warroom",
     "version": "1.0.0",
     "translations": {
-        "modules.warroom.discover.label": "Warroom 探索",
-        "modules.warroom.generate_scenarios.label": "產生 Warroom 情境",
-        "modules.warroom.llm_review.label": "Warroom LLM 審查",
-        "modules.warroom.public_site_verify.label": "公開網站驗證",
-        "modules.warroom.report.label": "Warroom 報告",
-        "modules.warroom.run.label": "Warroom 執行"
+        "modules.warroom.discover.label": "程式碼安全掃描：探索",
+        "modules.warroom.generate_scenarios.label": "程式碼安全掃描：產生情境",
+        "modules.warroom.llm_review.label": "程式碼安全掃描：LLM 審查",
+        "modules.warroom.public_site_verify.label": "程式碼安全掃描：公開網站驗證",
+        "modules.warroom.report.label": "程式碼安全掃描：報告",
+        "modules.warroom.run.label": "程式碼安全掃描：執行"
     }
 }

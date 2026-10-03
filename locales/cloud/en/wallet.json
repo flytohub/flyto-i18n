@@ -23,6 +23,13 @@
     "wallet.topupNow": "Top Up Now",
     "wallet.confirmAndExecute": "Confirm & Execute",
     "wallet.lowBalanceWarning": "Your credits are running low. Top up to keep running workflows.",
-    "wallet.statusActive": "Active"
+    "wallet.statusActive": "Active",
+    "wallet.unitCredits": "credits",
+    "wallet.approxUsd": "About {amount} USD",
+    "wallet.txn.topup": "Credit top-up",
+    "wallet.txn.serialCode": "Serial code redemption",
+    "wallet.txn.workflowRun": "Workflow run",
+    "wallet.txn.workflowRunNamed": "Workflow run: {name}",
+    "wallet.txn.adminGrant": "Credits granted by Flyto2"
   }
 }

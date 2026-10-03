@@ -5,6 +5,9 @@
   "version": "1.0.0",
   "translations": {
     "upgrade.contactSales": "聯繫銷售",
+    "upgrade.credits.description": "錢包裡的點數不足以執行這次工作，請先儲值再繼續。",
+    "upgrade.credits.title": "點數不足",
+    "upgrade.credits.topUp": "儲值點數",
     "upgrade.debugFeatures": "偵錯與開發工具",
     "upgrade.enterpriseHint": "需要企業功能？",
     "upgrade.featureLocked": "此功能需要專業版訂閱",
@@ -14,6 +17,11 @@
     "upgrade.features.tests": "測試執行面板",
     "upgrade.features.versions": "版本控制",
     "upgrade.offlineLicense": "離線授權",
+    "upgrade.purchase.description": "這個工作流程需要先購買才能執行。",
+    "upgrade.purchase.title": "需要購買",
+    "upgrade.purchase.view": "查看工作流程",
+    "upgrade.quotaExceeded": "你已用完方案內含的 {limit} 次中的 {current} 次。升級即可取得更多額度。",
+    "upgrade.quotaExceededGeneric": "你已用完方案內含的額度。升級即可取得更多額度。",
     "upgrade.subscription": "立即訂閱",
     "upgrade.subtitle": "解鎖進階功能",
     "upgrade.title": "升級至 Pro"

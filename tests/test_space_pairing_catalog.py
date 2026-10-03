@@ -47,6 +47,8 @@ class SpacePairingCatalogTest(unittest.TestCase):
             "generate",
             "mostRegister",
             "pairWhen",
+            # The dialog says so when the Space it was opened for is gone.
+            "spaceUnavailable",
             "subtitle",
             "title",
         }

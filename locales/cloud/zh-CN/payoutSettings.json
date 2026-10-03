@@ -31,6 +31,7 @@
         "payoutSettings.pendingVerification": "验证中",
         "payoutSettings.pendingVerificationDesc": "您的账户正在由 Stripe 审核",
         "payoutSettings.pendingVerificationInfo": "请完成 Stripe 入职流程以开始接收付款。通常只需几分钟。",
+        "payoutSettings.platformConfigError": "平台手续费尚未设置，目前无法提现。请联系客服。",
         "payoutSettings.platformFees": "平台费用",
         "payoutSettings.poweredByStripe": "由 Stripe 提供支持。您的数据安全无虞。",
         "payoutSettings.recentSales": "近期销售",

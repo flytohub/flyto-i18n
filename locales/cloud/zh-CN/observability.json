@@ -4,6 +4,7 @@
     "category": "cloud.observability",
     "version": "1.0.0",
     "translations": {
+        "observability.loadFailed": "无法加载这些数据。",
         "observability.subtitle": "监控工作流程运行与性能",
         "observability.tabs.alerts": "警报",
         "observability.tabs.metrics": "指针",

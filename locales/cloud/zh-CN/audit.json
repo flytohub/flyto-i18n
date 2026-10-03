@@ -43,6 +43,8 @@
         "audit.filter.allActions": "所有动作",
         "audit.filter.allResources": "所有资源",
         "audit.filter.searchPlaceholder": "搜索日志...",
+        "audit.loadFailed": "无法加载审计日志：{error}",
+        "audit.noOrganization": "审计日志属于组织。创建或加入组织后即可查看。",
         "audit.resource.execution": "运行",
         "audit.resource.setting": "设置",
         "audit.resource.template": "模板",

@@ -48,6 +48,11 @@
     "subscriptions.switchPlan": "Switch Plan",
     "subscriptions.title": "Subscription",
     "subscriptions.upgrade": "Upgrade",
-    "subscriptions.upgraded": "Subscription upgraded successfully"
+    "subscriptions.upgraded": "Subscription upgraded successfully",
+    "subscriptions.loadFailed": "Your plan could not be loaded, so it is not shown. Try again.",
+    "subscriptions.status.past_due": "Payment overdue",
+    "subscriptions.status.unpaid": "Unpaid",
+    "subscriptions.status.incomplete": "Payment incomplete",
+    "subscriptions.status.paused": "Paused"
   }
 }

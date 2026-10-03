@@ -7,6 +7,7 @@
     "roles.builtin.title": "內建角色",
     "roles.create": "建立角色",
     "roles.create.title": "建立角色",
+    "roles.createAction": "建立角色",
     "roles.custom.empty": "尚未定義自訂角色",
     "roles.custom.title": "自訂角色",
     "roles.delete.message": "確定要刪除此角色嗎？擁有此角色的使用者將被指派為預設成員角色。",

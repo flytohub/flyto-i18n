@@ -5,6 +5,9 @@
   "version": "1.0.0",
   "translations": {
     "upgrade.contactSales": "Contact Sales",
+    "upgrade.credits.description": "Your wallet does not hold enough credits for this run. Top up to continue.",
+    "upgrade.credits.title": "Not enough credits",
+    "upgrade.credits.topUp": "Top up credits",
     "upgrade.debugFeatures": "Debug & Development Tools",
     "upgrade.enterpriseHint": "Need enterprise features?",
     "upgrade.featureLocked": "This feature requires a Pro subscription",
@@ -14,6 +17,11 @@
     "upgrade.features.tests": "Test execution panel",
     "upgrade.features.versions": "Version control",
     "upgrade.offlineLicense": "Offline License",
+    "upgrade.purchase.description": "This workflow has to be purchased before it can run.",
+    "upgrade.purchase.title": "Purchase required",
+    "upgrade.purchase.view": "View workflow",
+    "upgrade.quotaExceeded": "You have used {current} of {limit} included in your plan. Upgrade for more.",
+    "upgrade.quotaExceededGeneric": "You have used everything included in your plan. Upgrade for more.",
     "upgrade.subscription": "Subscribe Now",
     "upgrade.subtitle": "Unlock premium features",
     "upgrade.title": "Upgrade to Pro"

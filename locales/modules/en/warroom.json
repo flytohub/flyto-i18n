@@ -4,11 +4,11 @@
     "category": "warroom",
     "version": "1.0.0",
     "translations": {
-        "modules.warroom.discover.label": "Warroom Discover",
-        "modules.warroom.generate_scenarios.label": "Warroom Generate Scenarios",
-        "modules.warroom.llm_review.label": "Warroom LLM Review",
-        "modules.warroom.public_site_verify.label": "Warroom Public Site Verify",
-        "modules.warroom.report.label": "Warroom Report",
-        "modules.warroom.run.label": "Warroom Run"
+        "modules.warroom.discover.label": "Code security scan: discover",
+        "modules.warroom.generate_scenarios.label": "Code security scan: generate scenarios",
+        "modules.warroom.llm_review.label": "Code security scan: LLM review",
+        "modules.warroom.public_site_verify.label": "Code security scan: public site verify",
+        "modules.warroom.report.label": "Code security scan: report",
+        "modules.warroom.run.label": "Code security scan: run"
     }
 }

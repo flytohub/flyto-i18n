@@ -19,6 +19,7 @@
     "variables.reveal": "Reveal",
     "variables.revealReason": "Reason for access",
     "variables.revealReasonPlaceholder": "Why do you need to reveal this credential?",
+    "variables.saveFailed": "The variable was not saved.",
     "variables.scope": "Scope",
     "variables.scopes.organization": "Organization",
     "variables.scopes.project": "Project",

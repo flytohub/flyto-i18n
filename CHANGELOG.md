@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-03 — Second UI sweep: editor, chat, navigation, settings, Mission Station
+
+- 272 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud `claude/ui-sweep-2`:
+  the workflow editor, the global AI chat and direct messages, navigation and
+  global pages, account settings and billing, Mission Station, and the
+  execution detail page. Each one replaces an English fallback a component
+  already passed to `t()`.
+- 167 existing values corrected: users read "workflow / 工作流程", never
+  模板/範本; Mission Station replaces "room"; the zh-TW confirm verb is 啟動.
+  `cloud.`-prefixed overrides of the same keys in `template.json`,
+  `issues.json` and `settings.json` carry the same words.
+- The "Warroom" product name is shown as "Code security scan / 程式碼安全掃描 /
+  代码安全扫描" in `myTemplates.warroomImport.*` and the six
+  `modules.warroom.*.label` values, so it is not confused with the reserved
+  War Room. Key names and module ids are unchanged.
+- Pinned test values re-pinned for those changes; the Cloud seal is 12,987.
+
 ## 2026-10-02 — Ratings Tree access-state labels
 
 - Added canonical Code keys for `Subscription`, `Access`, and `Control` on the

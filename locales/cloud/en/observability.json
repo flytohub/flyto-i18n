@@ -4,6 +4,7 @@
   "category": "cloud.observability",
   "version": "1.0.0",
   "translations": {
+    "observability.loadFailed": "Could not load this data.",
     "observability.subtitle": "Monitor workflow executions and performance",
     "observability.tabs.alerts": "Alerts",
     "observability.tabs.metrics": "Metrics",

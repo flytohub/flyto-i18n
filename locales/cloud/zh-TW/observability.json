@@ -4,6 +4,7 @@
   "category": "cloud.observability",
   "version": "1.0.0",
   "translations": {
+    "observability.loadFailed": "無法載入這些資料。",
     "observability.subtitle": "監控工作流程執行與效能",
     "observability.tabs.alerts": "警報",
     "observability.tabs.metrics": "指標",

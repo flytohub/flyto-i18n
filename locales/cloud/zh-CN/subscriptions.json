@@ -48,6 +48,11 @@
         "subscriptions.switchPlan": "切换方案",
         "subscriptions.title": "订阅方案",
         "subscriptions.upgrade": "升级",
-        "subscriptions.upgraded": "订阅升级成功"
+        "subscriptions.upgraded": "订阅升级成功",
+        "subscriptions.loadFailed": "无法加载您的方案，因此暂不显示。请再试一次。",
+        "subscriptions.status.past_due": "付款逾期",
+        "subscriptions.status.unpaid": "未付款",
+        "subscriptions.status.incomplete": "付款未完成",
+        "subscriptions.status.paused": "已暂停"
     }
 }

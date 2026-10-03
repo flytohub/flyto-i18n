@@ -10,10 +10,10 @@
         "createModal.create": "创建模板",
         "createModal.creating": "创建中...",
         "createModal.description.label": "描述",
-        "createModal.description.placeholder": "这个模板有什么功能？（选填）",
+        "createModal.description.placeholder": "这个工作流程做什么？（选填）",
         "createModal.folder.label": "文件夹",
         "createModal.folder.placeholder": "缺省（无文件夹）",
-        "createModal.errors.createFailed": "创建模板失败",
+        "createModal.errors.createFailed": "创建工作流程失败",
         "createModal.errors.fileTooLarge": "图片大小不能超过 2MB",
         "createModal.errors.invalidFileType": "请选择图片文件",
         "createModal.icon.change": "更换图标",
@@ -21,8 +21,8 @@
         "createModal.icon.label": "模板图标",
         "createModal.icon.remove": "移除图标",
         "createModal.icon.upload": "上传图标",
-        "createModal.name.label": "模板名称",
-        "createModal.name.placeholder": "我的自动化模板",
+        "createModal.name.label": "工作流程名称",
+        "createModal.name.placeholder": "我的自动化流程",
         "createModal.title": "新建模板"
     }
 }

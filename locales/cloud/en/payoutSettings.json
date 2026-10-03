@@ -31,6 +31,7 @@
     "payoutSettings.pendingVerification": "Verification Pending",
     "payoutSettings.pendingVerificationDesc": "Your account is being reviewed by Stripe",
     "payoutSettings.pendingVerificationInfo": "Please complete your Stripe onboarding to start receiving payouts. This usually takes a few minutes.",
+    "payoutSettings.platformConfigError": "Payouts are not available right now because the platform fee is not configured. Please contact support.",
     "payoutSettings.platformFees": "Platform Fees",
     "payoutSettings.poweredByStripe": "Powered by Stripe. Your data is secure.",
     "payoutSettings.recentSales": "Recent Sales",

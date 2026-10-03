@@ -1,5 +1,5 @@
 {
-  "version": "5b3278487ae3",
+  "version": "23e0665c3582",
   "locales": {
     "de": {
       "name": "German",
@@ -14,8 +14,8 @@
       "name": "English",
       "native": "English",
       "region": "US",
-      "total_keys": 12713,
-      "translated_keys": 12693,
+      "total_keys": 12987,
+      "translated_keys": 12967,
       "completion": 99.8,
       "files_merged": 263
     },
@@ -131,8 +131,8 @@
       "name": "Simplified Chinese",
       "native": "简体中文",
       "region": "CN",
-      "total_keys": 12678,
-      "translated_keys": 12658,
+      "total_keys": 12965,
+      "translated_keys": 12945,
       "completion": 99.8,
       "files_merged": 263
     },
@@ -140,8 +140,8 @@
       "name": "Traditional Chinese",
       "native": "繁體中文",
       "region": "TW",
-      "total_keys": 12679,
-      "translated_keys": 12659,
+      "total_keys": 12966,
+      "translated_keys": 12946,
       "completion": 99.8,
       "files_merged": 263
     }

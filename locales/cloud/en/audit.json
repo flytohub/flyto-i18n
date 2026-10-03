@@ -43,6 +43,8 @@
     "audit.filter.allActions": "All Actions",
     "audit.filter.allResources": "All Resources",
     "audit.filter.searchPlaceholder": "Search logs...",
+    "audit.loadFailed": "Could not load audit logs: {error}",
+    "audit.noOrganization": "Audit logs belong to an organization. Create or join one to see them.",
     "audit.resource.execution": "Execution",
     "audit.resource.setting": "Setting",
     "audit.resource.template": "Template",

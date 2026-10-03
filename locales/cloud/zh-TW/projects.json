@@ -6,6 +6,7 @@
   "translations": {
     "projects.create": "建立專案",
     "projects.create.title": "建立專案",
+    "projects.createAction": "建立專案",
     "projects.delete.message": "確定要刪除此專案嗎？此專案中的所有工作流程將移至預設專案。",
     "projects.delete.title": "刪除專案",
     "projects.description": "將工作流程整理至專案中",

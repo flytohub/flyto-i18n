@@ -19,6 +19,7 @@
         "variables.reveal": "显示",
         "variables.revealReason": "访问原因",
         "variables.revealReasonPlaceholder": "为什么需要显示此凭证？",
+        "variables.saveFailed": "变量没有保存。",
         "variables.scope": "范围",
         "variables.scopes.organization": "组织",
         "variables.scopes.project": "项目",

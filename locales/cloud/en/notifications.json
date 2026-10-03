@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "notifications.daysAgo": "{count} days ago",
+    "notifications.delete": "Delete notification",
     "notifications.empty": "No notifications yet",
     "notifications.hoursAgo": "{count} hr ago",
     "notifications.justNow": "Just now",

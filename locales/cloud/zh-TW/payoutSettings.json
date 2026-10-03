@@ -31,6 +31,7 @@
     "payoutSettings.pendingVerification": "驗證中",
     "payoutSettings.pendingVerificationDesc": "您的帳戶正在由 Stripe 審核",
     "payoutSettings.pendingVerificationInfo": "請完成 Stripe 入職流程以開始接收付款。通常只需幾分鐘。",
+    "payoutSettings.platformConfigError": "平台手續費尚未設定，目前無法提領。請聯絡客服。",
     "payoutSettings.platformFees": "平台費用",
     "payoutSettings.poweredByStripe": "由 Stripe 提供支援。您的資料安全無虞。",
     "payoutSettings.recentSales": "近期銷售",
