@@ -680,6 +680,8 @@
     "spaces.hud.refusal.already_attempted": "already tried",
     "spaces.hud.refusal.capability_outside_vocabulary": "unknown capability",
     "spaces.hud.refusal.capability_not_approved": "capability not approved",
+    "spaces.hud.refusal.outside_resource_constraint": "outside the Space’s limit",
+    "spaces.hud.refusal.simulation_only": "simulation only",
     "spaces.hud.refusal.workflow_bound_elsewhere": "bound elsewhere",
     "spaces.hud.orderBasis.travel_time": "nearest by travel time",
     "spaces.hud.orderBasis.dispatch_preference": "by your preference",

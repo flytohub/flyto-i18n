@@ -646,7 +646,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +7: provider-neutral equipment copy (flyto-cloud `claude/provider-neutral`):
     # the neutral arrival evidence type, the equipment resource kind, and the
     # five sentences of the generic contract verdict view.
-    assert english_total == 13_083
+    # +42: workflows bind to capability contracts, not to a resource
+    # (flyto-cloud `claude/capability-binding`). The Space settings overview of
+    # resources, module packs and capabilities, what each workflow needs and
+    # which resources match, the optional limits on automatic choice
+    # (simulation only, only these resources), "Add or remove equipment", and
+    # the two new refusal words on candidate chips.
+    assert english_total == 13_125
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-04 — Workflows bind to capabilities, not to a resource
+
+- 42 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud
+  `claude/capability-binding`: the Space settings overview of resources,
+  module packs and capabilities (`aiSpace.capabilityOverview.*`), what each
+  workflow needs and which resources match, the optional limits on automatic
+  choice (only simulation resources, only these resources),
+  `aiSpace.resources.addToSpace`, and two refusal words on candidate chips
+  (`spaces.hud.refusal.outside_resource_constraint`, `.simulation_only`).
+- Five values reworded so the Resources tab no longer asks the operator to
+  pick an adapter for workflows: `aiSpace.workspace.resourceRegistry`
+  (Resources in this Space / 此 Space 的資源), `resourceRegistryHint`,
+  `allowedInSpace`, `aiSpace.resources.equipmentHint`, and
+  `aiSpace.resources.noPolicyHint` (a workflow with no policy now uses its own
+  declared capabilities instead of failing closed). Domain-neutral wording.
+- The Cloud seal is re-pinned at 13,116.
+
 ## 2026-10-04 — Mission Station demo-path polish
 
 - 82 new Cloud keys (en, zh-TW, zh-CN) for flyto-cloud `claude/demo-polish`:
