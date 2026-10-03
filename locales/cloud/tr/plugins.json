@@ -45,6 +45,7 @@
     "plugins.subtitle": "Subtitle",
     "plugins.tabs.coreExtensions": "",
     "plugins.tabs.models": "",
+    "plugins.tabs.modulePacks": "",
     "plugins.title": "Eklentiler",
     "plugins.trending": "Popüler",
     "plugins.trendingDesc": "Bu haftanın popüler modelleri",

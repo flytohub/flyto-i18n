@@ -45,6 +45,7 @@
     "plugins.subtitle": "Subtitle",
     "plugins.tabs.coreExtensions": "",
     "plugins.tabs.models": "",
+    "plugins.tabs.modulePacks": "",
     "plugins.title": "Plugins",
     "plugins.trending": "Tendances",
     "plugins.trendingDesc": "Modèles populaires cette semaine",

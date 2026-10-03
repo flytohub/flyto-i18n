@@ -633,7 +633,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # component already passed to `t()` as an English fallback. +2:
     # `issues.title` and `templateBuilder.aiChat.online` were empty English
     # placeholders, which the cloud build drops, and now have words.
-    assert english_total == 12_987
+    # +165: the Module Marketplace (模組商城, flyto-cloud
+    # `claude/module-marketplace`): `plugins.tabs.modulePacks` and the new
+    # `modulePacks.*` namespace -- browse, install on this computer, publish a
+    # private or public pack, signing keys, the administrator review queue,
+    # and one sentence per stable refusal code the marketplace and the Desktop
+    # installer return. There is no price, checkout or trial among them.
+    assert english_total == 13_152
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
@@ -653,7 +659,8 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
         # purpose -- a rung is not a status, and merging the two vocabularies
         # is what would let `dispatched` be read as a state a run passes
         # through rather than as "nobody confirmed anything".
-        assert record["files_merged"] == 263
+        # 264: `modulePacks.json` is the marketplace's own namespace.
+        assert record["files_merged"] == 264
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_root = Path(temp_dir)

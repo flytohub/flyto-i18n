@@ -47,6 +47,7 @@
     "plugins.subtitle": "Discover and install AI models",
     "plugins.tabs.coreExtensions": "Core extensions",
     "plugins.tabs.models": "Models",
+    "plugins.tabs.modulePacks": "Module Marketplace",
     "plugins.title": "Model Store",
     "plugins.trending": "Trending",
     "plugins.trendingDesc": "Popular models this week",
