@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "Brotkrumennavigation",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "Eingabe löschen",
     "accessibility.closeDialog": "Dialog schließen",
     "accessibility.closeMenu": "Menü schließen",

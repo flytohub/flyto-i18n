@@ -369,6 +369,7 @@
     "templateBuilder.missionSetup.stationKinds.observation": "Observation",
     "templateBuilder.missionSetup.stationKinds.occluded": "Occluded",
     "templateBuilder.missionSetup.stationKinds.restricted": "Restricted",
-    "templateBuilder.missionSetup.stationKinds.passage": "Passage"
+    "templateBuilder.missionSetup.stationKinds.passage": "Passage",
+    "templateBuilder.settings.label": ""
   }
 }

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "ब्रेडक्रंब",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "इनपुट साफ़ करें",
     "accessibility.closeDialog": "डायलॉग बंद करें",
     "accessibility.closeMenu": "मेनू बंद करें",

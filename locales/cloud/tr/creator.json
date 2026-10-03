@@ -29,6 +29,11 @@
     "creator.translations.name": "Ad",
     "creator.translations.noSubmissions": "No submissions",
     "creator.translations.status": "Durum",
+    "creator.translations.statusApproved": "",
+    "creator.translations.statusInReview": "",
+    "creator.translations.statusNeedsRevision": "",
+    "creator.translations.statusPending": "",
+    "creator.translations.statusRejected": "",
     "creator.translations.submitted": "Submitted",
     "creator.translations.title": "Başlık"
   }

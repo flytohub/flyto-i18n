@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "パンくずリスト",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "入力をクリア",
     "accessibility.closeDialog": "ダイアログを閉じる",
     "accessibility.closeMenu": "メニューを閉じる",

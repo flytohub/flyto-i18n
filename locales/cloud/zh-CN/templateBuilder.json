@@ -335,6 +335,7 @@
     "templateBuilder.settings.importExportDesc": "导入或导出工作流程文件",
     "templateBuilder.settings.importHint": "从文件加载工作流程",
     "templateBuilder.settings.importYaml": "导入 YAML",
+    "templateBuilder.settings.label": "",
     "templateBuilder.settings.screenshotAll": "所有步骤",
     "templateBuilder.settings.screenshotHint": "截屏有助于调试",
     "templateBuilder.settings.screenshotMode": "截屏模式",

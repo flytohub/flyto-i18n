@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "Đường dẫn",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "Xóa nội dung",
     "accessibility.closeDialog": "Đóng hộp thoại",
     "accessibility.closeMenu": "Đóng menu",

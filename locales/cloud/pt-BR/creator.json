@@ -29,6 +29,11 @@
     "creator.translations.name": "Nome",
     "creator.translations.noSubmissions": "No submissions",
     "creator.translations.status": "Status",
+    "creator.translations.statusApproved": "",
+    "creator.translations.statusInReview": "",
+    "creator.translations.statusNeedsRevision": "",
+    "creator.translations.statusPending": "",
+    "creator.translations.statusRejected": "",
     "creator.translations.submitted": "Submitted",
     "creator.translations.title": "Título"
   }

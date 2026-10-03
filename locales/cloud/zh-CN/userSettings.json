@@ -118,6 +118,7 @@
     "userSettings.buyLicense": "购买授权",
     "userSettings.cancelDeletion": "取消删除",
     "userSettings.cancelDeletionFailed": "无法取消删除，请再试一次。",
+    "userSettings.changeAvatar": "",
     "userSettings.confirmDelete": "删除账户",
     "userSettings.confirmDeleteSubtitle": "账户会在申请 30 天后删除，在此之前都可以取消。",
     "userSettings.confirmDeleteTitle": "删除账户",

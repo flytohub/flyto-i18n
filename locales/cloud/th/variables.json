@@ -19,6 +19,7 @@
     "variables.reveal": "แสดง",
     "variables.revealReason": "เหตุผลในการเข้าถึง",
     "variables.revealReasonPlaceholder": "ทำไมคุณต้องการแสดง credential นี้?",
+    "variables.saveFailed": "",
     "variables.scope": "ขอบเขต",
     "variables.scopes.organization": "องค์กร",
     "variables.scopes.project": "โปรเจกต์",

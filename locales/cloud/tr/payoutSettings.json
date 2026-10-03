@@ -31,6 +31,7 @@
     "payoutSettings.pendingVerification": "Doğrulama Bekleniyor",
     "payoutSettings.pendingVerificationDesc": "Hesabınız Stripe tarafından inceleniyor",
     "payoutSettings.pendingVerificationInfo": "Ödeme almaya başlamak için lütfen Stripe kurulumunuzu tamamlayın. Bu genellikle birkaç dakika sürer.",
+    "payoutSettings.platformConfigError": "",
     "payoutSettings.platformFees": "Platform Ücretleri",
     "payoutSettings.poweredByStripe": "Stripe tarafından desteklenmektedir. Verileriniz güvende.",
     "payoutSettings.recentSales": "Son Satışlar",

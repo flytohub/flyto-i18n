@@ -19,6 +19,7 @@
     "variables.reveal": "Göster",
     "variables.revealReason": "Erişim nedeni",
     "variables.revealReasonPlaceholder": "Bu kimlik bilgisini neden göstermeniz gerekiyor?",
+    "variables.saveFailed": "",
     "variables.scope": "Kapsam",
     "variables.scopes.organization": "Kuruluş",
     "variables.scopes.project": "Proje",

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "accessibility.breadcrumb": "Jalur Navigasi",
+    "accessibility.changeLanguage": "",
     "accessibility.clearInput": "Hapus input",
     "accessibility.closeDialog": "Tutup dialog",
     "accessibility.closeMenu": "Tutup menu",

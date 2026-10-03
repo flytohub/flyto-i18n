@@ -259,6 +259,7 @@
     "userSettings.warroom.saved": "已儲存 Warroom 連結",
     "userSettings.warroom.subtitle": "連結 Flyto2 Warroom 實例,讓由 ChatGPT 觸發的工作流程執行,在真正執行前先經過您的 Agent Firewall 政策檢查。Flyto2 Cloud 不會替您產生此金鑰——請從您自己 Warroom 實例的 API 金鑰設定中複製(mcp:invoke 範圍)。",
     "userSettings.warroom.title": "Warroom 連結",
-    "userSettings.yourApiKey": "您的 API 金鑰"
+    "userSettings.yourApiKey": "您的 API 金鑰",
+    "userSettings.changeAvatar": ""
   }
 }
