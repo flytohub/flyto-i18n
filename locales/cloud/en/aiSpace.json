@@ -663,11 +663,10 @@
     "aiSpace.resources.dispatchRules.uploadRecordings": "Upload browser recordings to Cloud",
     "aiSpace.resources.dispatchRules.uploadRecordingsHint": "When off, a dispatched task's browser recording stays on the computer that ran it. When on, the computer uploads it (up to 50 MB, kept 30 days) so the Mission Station can play it anywhere. Recordings can show customer data on the pages the AI worked in; password fields stay masked.",
     "aiSpace.resources.autoRun.title": "Run without asking up to",
-    "aiSpace.resources.autoRun.unsetHint": "Not set: the Start rule above and each workflow's own \"asks first\" decide. Move the slider to decide by consequence instead.",
-    "aiSpace.resources.autoRun.setHint": "Steps at or below this level start on their own; anything above waits for you to press Run. Levels 4 and 5 always ask.",
+    "aiSpace.resources.autoRun.unsetHint": "Not set: the Start rule above and each workflow's own \"asks first\" decide. Pick a step to decide by consequence instead.",
+    "aiSpace.resources.autoRun.setHint": "Steps at or below this level start on their own; anything above waits for you to press Run. A workflow you set to \"asks first\" always asks.",
     "aiSpace.resources.autoRun.unset": "Not set",
     "aiSpace.resources.autoRun.clear": "Use the Start rule instead",
-    "aiSpace.resources.autoRun.alwaysAsks": "Always asks",
     "aiSpace.resources.autoRun.level1": "Observe",
     "aiSpace.resources.autoRun.level2": "Reversible",
     "aiSpace.resources.autoRun.level3": "External write",
@@ -677,6 +676,12 @@
     "aiSpace.resources.autoRun.level2Example": "Fill a form without submitting, write a draft, act in a simulation or test environment",
     "aiSpace.resources.autoRun.level3Example": "Submit a form, send an email or message, update a record",
     "aiSpace.resources.autoRun.level4Example": "Move or actuate real equipment, change a live system",
-    "aiSpace.resources.autoRun.level5Example": "Delete, pay or transfer, bulk operations"
+    "aiSpace.resources.autoRun.level5Example": "Delete, pay or transfer, bulk operations",
+    "aiSpace.resources.dispatchRules.uploadRecordingsRequires": "Needs Flyto2 Desktop 0.7.12 or later on the computer that runs the task; earlier versions neither report nor upload recordings.",
+    "aiSpace.resources.autoRun.highTitle": "Let level {level} run without asking?",
+    "aiSpace.resources.autoRun.highMessage4": "Steps that move or actuate real equipment, or change a live system, will start without anyone pressing Run. No one confirms each one before it happens. Workflows you set to \"asks first\" still ask.",
+    "aiSpace.resources.autoRun.highMessage5": "Every step, including deleting, paying or transferring and bulk operations that cannot be undone, will start without anyone pressing Run. No one confirms each one before it happens. Workflows you set to \"asks first\" still ask.",
+    "aiSpace.resources.autoRun.highConfirm": "Run without asking",
+    "aiSpace.resources.autoRun.highCancel": "Keep asking"
   }
 }

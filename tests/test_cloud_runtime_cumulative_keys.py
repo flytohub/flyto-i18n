@@ -620,7 +620,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +22: the Detected equipment panel, which had shipped English-only.
     # +2: the task column widens over the output wall and restores the layout.
     # +25: Mission Station browser recordings and the auto-run consequence levels.
-    assert english_total == 12_708
+    # +1: the Desktop version browser recordings need. +4: the level 4/5
+    # warning (five keys) replacing "always asks".
+    assert english_total == 12_713
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
