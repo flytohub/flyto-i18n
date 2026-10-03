@@ -24,3 +24,10 @@ Rendered only through flyto-cloud vitest, not in a browser.
 
 Retire `spaces.hud.sweep.*` and `spaces.kind.robot` when Cloud's legacy
 compat package is removed.
+
+## Review fix (2026-10-04, Owner: claude)
+
+CI `validate` (pytest) failed on `test_complete_cloud_manifest_survives_selective_build`:
+the English total grew by this branch's seven keys (12,987 -> 12,994). `make test`
+(unittest) does not run that assertion. Fixed in `586492e42`; pytest 120 passed,
+CI validate green.
