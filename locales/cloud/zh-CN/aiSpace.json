@@ -661,9 +661,9 @@
     "aiSpace.agents.descriptionPlaceholder": "这个角色要思考什么，而不是它能执行什么。",
     "aiSpace.agents.authority": "实际执行仍须通过 Space 登记、规则、指派、Workflow/Core 与证据关卡。",
     "aiSpace.resources.dispatchRules.uploadRecordings": "把浏览器录像上传到 Cloud",
-    "aiSpace.resources.dispatchRules.uploadRecordingsHint": "关闭时，派送任务的浏览器录像只留在执行它的电脑上。开启后，电脑会把录像上传（最多 50 MB，保留 30 天），任务站点在任何地方都能播放。录像可能拍到 AI 操作页面上的客户数据；密码栏位一律遮蔽。",
+    "aiSpace.resources.dispatchRules.uploadRecordingsHint": "关闭时，派出的任务的浏览器录像只留在执行它的电脑上。开启后，电脑会把录像上传（最多 50 MB，保留 30 天），任务站点在任何地方都能播放。录像可能拍到 AI 操作页面上的客户数据；密码输入框一律遮蔽。",
     "aiSpace.resources.autoRun.title": "不询问、直接执行到",
-    "aiSpace.resources.autoRun.unsetHint": "未设置：由上方的开始规则和各工作流程自己的“先询问”决定。拖动滑杆，改成依后果等级决定。",
+    "aiSpace.resources.autoRun.unsetHint": "未设置：由上方的开始规则和各工作流自己的“先询问”决定。拖动滑杆，改成按后果等级决定。",
     "aiSpace.resources.autoRun.setHint": "这个等级以下（含）的步骤会自动开始；更高等级的步骤会等你按“执行”。第 4、5 级一律会询问。",
     "aiSpace.resources.autoRun.unset": "未设置",
     "aiSpace.resources.autoRun.clear": "改回使用开始规则",
@@ -677,6 +677,7 @@
     "aiSpace.resources.autoRun.level2Example": "填表但不提交、写草稿、在模拟或测试环境中操作",
     "aiSpace.resources.autoRun.level3Example": "提交表单、发送邮件或消息、更新记录",
     "aiSpace.resources.autoRun.level4Example": "移动或驱动实体设备、变更正式运行中的系统",
-    "aiSpace.resources.autoRun.level5Example": "删除、付款或转账、批量操作"
+    "aiSpace.resources.autoRun.level5Example": "删除、付款或转账、批量操作",
+    "aiSpace.resources.dispatchRules.uploadRecordingsRequires": "执行任务的电脑需要 Flyto2 Desktop 0.7.12 或更高版本；更早的版本不会报告也不会上传录像。"
   }
 }

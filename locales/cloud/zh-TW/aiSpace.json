@@ -661,7 +661,7 @@
     "aiSpace.agents.descriptionPlaceholder": "這個角色要思考什麼，而不是它能執行什麼。",
     "aiSpace.agents.authority": "實際執行仍須通過 Space 登錄、規則、指派、Workflow/Core 與證據關卡。",
     "aiSpace.resources.dispatchRules.uploadRecordings": "把瀏覽器錄影上傳到 Cloud",
-    "aiSpace.resources.dispatchRules.uploadRecordingsHint": "關閉時，派送任務的瀏覽器錄影只留在執行它的電腦上。開啟後，電腦會把錄影上傳（最多 50 MB，保留 30 天），任務站點在任何地方都能播放。錄影可能拍到 AI 操作頁面上的客戶資料；密碼欄位一律遮蔽。",
+    "aiSpace.resources.dispatchRules.uploadRecordingsHint": "關閉時，派出的任務的瀏覽器錄影只留在執行它的電腦上。開啟後，電腦會把錄影上傳（最多 50 MB，保留 30 天），任務站點在任何地方都能播放。錄影可能拍到 AI 操作頁面上的客戶資料；密碼欄位一律遮蔽。",
     "aiSpace.resources.autoRun.title": "不詢問、直接執行到",
     "aiSpace.resources.autoRun.unsetHint": "未設定：由上方的開始規則和各工作流程自己的「先詢問」決定。拖動滑桿，改成依後果等級決定。",
     "aiSpace.resources.autoRun.setHint": "這個等級以下（含）的步驟會自動開始；更高等級的步驟會等你按「執行」。第 4、5 級一律會詢問。",
@@ -677,6 +677,7 @@
     "aiSpace.resources.autoRun.level2Example": "填表但不送出、寫草稿、在模擬或測試環境中操作",
     "aiSpace.resources.autoRun.level3Example": "送出表單、寄送郵件或訊息、更新紀錄",
     "aiSpace.resources.autoRun.level4Example": "移動或驅動實體設備、變更正式運作中的系統",
-    "aiSpace.resources.autoRun.level5Example": "刪除、付款或轉帳、批次操作"
+    "aiSpace.resources.autoRun.level5Example": "刪除、付款或轉帳、批次操作",
+    "aiSpace.resources.dispatchRules.uploadRecordingsRequires": "執行任務的電腦需要 Flyto2 Desktop 0.7.12 以上版本；更早的版本不會回報也不會上傳錄影。"
   }
 }

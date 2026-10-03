@@ -677,6 +677,7 @@
     "aiSpace.resources.autoRun.level2Example": "Fill a form without submitting, write a draft, act in a simulation or test environment",
     "aiSpace.resources.autoRun.level3Example": "Submit a form, send an email or message, update a record",
     "aiSpace.resources.autoRun.level4Example": "Move or actuate real equipment, change a live system",
-    "aiSpace.resources.autoRun.level5Example": "Delete, pay or transfer, bulk operations"
+    "aiSpace.resources.autoRun.level5Example": "Delete, pay or transfer, bulk operations",
+    "aiSpace.resources.dispatchRules.uploadRecordingsRequires": "Needs Flyto2 Desktop 0.7.12 or later on the computer that runs the task; earlier versions neither report nor upload recordings."
   }
 }
