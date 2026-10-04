@@ -369,6 +369,18 @@
     "templateBuilder.toolbar.templateIdPlaceholder": "工作流程 ID",
     "templateBuilder.toolbar.templateNamePlaceholder": "工作流程名称",
     "templateBuilder.toolbar.testTemplate": "测试工作流程",
-    "templateBuilder.toolbar.untitledWorkflow": "未命名工作流程"
+    "templateBuilder.toolbar.untitledWorkflow": "未命名工作流程",
+    "templateBuilder.aiChat.approval.title": "等待您批准",
+    "templateBuilder.aiChat.approval.tool": "工作流",
+    "templateBuilder.aiChat.approval.arguments": "完全相同的输入",
+    "templateBuilder.aiChat.approval.hint": "批准后，这一次调用会以这些输入执行一次；不同的调用会再次询问。",
+    "templateBuilder.aiChat.approval.approved": "已批准，正在执行。",
+    "templateBuilder.aiChat.approval.approving": "批准中…",
+    "templateBuilder.aiChat.approval.approve": "批准这一次调用",
+    "templateBuilder.aiChat.approval.notWaiting": "这个请求已不在这台电脑上等待。",
+    "templateBuilder.aiChat.approval.alreadyAnswered": "这个请求已回复过，或已不相符。",
+    "templateBuilder.aiChat.approval.expired": "这个请求已过期，请再问一次以获取新的请求。",
+    "templateBuilder.aiChat.approval.failed": "无法发送批准，请再试一次。",
+    "templateBuilder.aiChat.approval.continue": "已批准。请以完全相同的输入执行 {tool} 一次。"
   }
 }

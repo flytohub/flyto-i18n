@@ -846,7 +846,11 @@
     "spaces.hud.verdict.measuredExpected": "测量 {measured}，预期 {expected}",
     "spaces.hud.verdict.measuredExpectedAllowed": "测量 {measured}，预期 {expected} ± {allowed}",
     "spaces.hud.verdict.verified": "云端已验证",
-    "spaces.hud.verdict.notProven": "未证实"
+    "spaces.hud.verdict.notProven": "未证实",
+    "spaces.schedule.heldCall": "等待您批准",
+    "spaces.schedule.approveCall": "批准这一次调用并继续",
+    "spaces.schedule.approvedCall": "已批准",
+    "spaces.ops.taskPartUnreadable": "这个任务有部分内容读取不到，画面可能不完整或不是最新；其余部分照常显示。"
   },
   "total_keys": 576
 }

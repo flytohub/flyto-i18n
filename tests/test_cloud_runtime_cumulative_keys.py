@@ -662,7 +662,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `.planner_timeout`, the codes flyto-cloud reports when a recovery stops
     # because the computer's AI could not answer, so the narrative after
     # "Gave up" reads as a sentence instead of the raw code.
-    assert english_total == 13_292
+    # +17: the host approval gate (flyto-cloud 2026-10-05): a call that asks
+    # first is held until the operator approves that exact call
+    # (`spaces.schedule.heldCall/approveCall/approvedCall`,
+    # `templateBuilder.aiChat.approval.*`), plus `spaces.ops.taskPartUnreadable`
+    # for a task read that names a part it could not read, and
+    # `templateFolders.aiSpaceChangedElsewhere` for a Space save refused as stale.
+    assert english_total == 13_309
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -369,6 +369,18 @@
     "templateBuilder.missionSetup.stationKinds.observation": "Observation",
     "templateBuilder.missionSetup.stationKinds.occluded": "Occluded",
     "templateBuilder.missionSetup.stationKinds.restricted": "Restricted",
-    "templateBuilder.missionSetup.stationKinds.passage": "Passage"
+    "templateBuilder.missionSetup.stationKinds.passage": "Passage",
+    "templateBuilder.aiChat.approval.title": "Waiting for your approval",
+    "templateBuilder.aiChat.approval.tool": "Workflow",
+    "templateBuilder.aiChat.approval.arguments": "Exactly these inputs",
+    "templateBuilder.aiChat.approval.hint": "Approving lets this one call run once with these inputs. A different call asks again.",
+    "templateBuilder.aiChat.approval.approved": "Approved. Running it now.",
+    "templateBuilder.aiChat.approval.approving": "Approving…",
+    "templateBuilder.aiChat.approval.approve": "Approve this call once",
+    "templateBuilder.aiChat.approval.notWaiting": "This request is no longer waiting on this computer.",
+    "templateBuilder.aiChat.approval.alreadyAnswered": "This request was already answered or no longer matches.",
+    "templateBuilder.aiChat.approval.expired": "This request expired. Ask again to get a new one.",
+    "templateBuilder.aiChat.approval.failed": "Could not send the approval. Try again.",
+    "templateBuilder.aiChat.approval.continue": "Approved. Run {tool} once with exactly the same inputs."
   }
 }

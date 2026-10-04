@@ -31,6 +31,7 @@
     "templateFolders.root": "根目錄",
     "templateFolders.selectColor": "選擇顏色",
     "templateFolders.templateCount": "{count} 個模板",
-    "templateFolders.templates": "個模板"
+    "templateFolders.templates": "個模板",
+    "templateFolders.aiSpaceChangedElsewhere": "設定開啟期間，這個 Space 已在其他地方被修改，所以這次沒有儲存。已載入最新設定，請重新修改一次。"
   }
 }
