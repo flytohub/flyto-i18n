@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "it",
-  "total_keys": 10607,
+  "total_keys": 10606,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -7046,7 +7046,6 @@
     "code.projects.wizard.byoCapable": "",
     "code.projects.wizard.byoKeyNote": "",
     "code.projects.wizard.byoOnlyNote": "",
-    "code.projects.wizard.catalogFallback": "Module catalog is unavailable, so local defaults are being used.",
     "code.projects.wizard.catalogLoading": "Loading module catalog...",
     "code.projects.wizard.connectRepo": "",
     "code.projects.wizard.externalLater": "",
