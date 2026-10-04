@@ -16,7 +16,7 @@ docs-write:
 test:
 	$(PYTHON) scripts/validate.py --strict
 	$(PYTHON) scripts/coverage.py
-	$(PYTHON) -m unittest discover -s tests
+	$(PYTHON) -m pytest -q
 
 build:
 	$(PYTHON) scripts/build-dist.py

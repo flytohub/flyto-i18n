@@ -658,7 +658,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # private or public pack, signing keys, the administrator review queue,
     # and one sentence per stable refusal code the marketplace and the Desktop
     # installer return. There is no price, checkout or trial among them.
-    assert english_total == 13_290
+    # +2: `spaces.narrative.errorCode.planner_unavailable` and
+    # `.planner_timeout`, the codes flyto-cloud reports when a recovery stops
+    # because the computer's AI could not answer, so the narrative after
+    # "Gave up" reads as a sentence instead of the raw code.
+    assert english_total == 13_292
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
