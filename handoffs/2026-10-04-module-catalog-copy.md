@@ -64,13 +64,11 @@ check reads this repo's code locales.
 
 ## Not verified
 
-- `validate.yml` was not run on GitHub. It needs a new repository secret
-  `FLYTO_ENGINE_TOKEN` with read access to flytohub/flyto-engine contents;
-  until that secret exists the checkout step fails (by design: no silent
-  skip). Fork pull requests receive no secrets and fail there too.
-- The engine half of the review: `scripts/check-i18n-keys.py` is not in
-  engine PR CI and checks catalog keys against `en` only. That is a
-  flyto-engine change and was not made here.
+- The authoritative catalog-copy gate is flyto-engine's `catalog-copy` CI job
+  (flyto-engine reads this public repository). This repository is public and
+  must not read the internal engine, so `validate.yml` gains no engine
+  checkout and needs no secret; the test here runs only when a workspace
+  checkout or `FLYTO_ENGINE_CATALOG` provides the catalog, and skips otherwise.
 - No native-speaker review of zh-TW / zh-CN / ja copy.
 - The 12 other code locales render these keys through each consumer's
   `fallbackLocale`; no consumer's i18n setup was checked or tested.
@@ -79,6 +77,4 @@ check reads this repo's code locales.
 
 ## Follow-ups
 
-- Create the `FLYTO_ENGINE_TOKEN` secret on flytohub/flyto-i18n.
-- Wire a catalog-copy check into flyto-engine PR CI that fails on any
-  missing key in en, zh-TW, zh-CN or ja against flyto-i18n main.
+- None for the gate: flyto-engine `catalog-copy` covers it.

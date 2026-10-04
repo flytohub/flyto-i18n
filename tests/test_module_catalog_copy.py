@@ -6,10 +6,12 @@ only module registry. Every module declares a ``title_key`` and a
 ``code.<key>`` from this repository. A missing entry reaches users as a raw
 module key, so these tests read the catalog itself rather than a copied list.
 
-The catalog lives in another repository. CI checks it out and points
-``FLYTO_ENGINE_CATALOG`` at it; a workspace checkout finds the sibling
-``flyto-engine`` clone. Under CI a missing catalog is a failure, never a skip,
-so the contract cannot silently stop being enforced.
+The catalog lives in flyto-engine, which is internal; this repository is
+public, so its CI cannot read the catalog. The authoritative gate therefore
+runs in flyto-engine's CI (``catalog-copy`` job), which reads this public
+repository. Here the same check runs whenever a workspace checkout or
+``FLYTO_ENGINE_CATALOG`` provides the catalog, so a contributor sees a gap
+before the engine gate does; without it the suite skips.
 """
 
 from __future__ import annotations
@@ -42,18 +44,13 @@ def load_translations(locale: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))["translations"]
 
 
-def is_ci(env: Mapping[str, str]) -> bool:
-    """Return True when running under a CI runner (GitHub Actions sets CI=true)."""
-    return env.get("CI", "").strip().lower() in {"1", "true", "yes"}
-
-
 def find_engine_catalog(env: Mapping[str, str], root: Path) -> Path | None:
     """Locate the engine module catalog.
 
     An explicit ``FLYTO_ENGINE_CATALOG`` must exist. Otherwise every ancestor of
     ``root`` is tried for a ``flyto-engine`` sibling, which covers both a
     workspace clone and an agent worktree nested under ``.claude/worktrees``.
-    Returns None only when the catalog is optional (not CI); raises otherwise.
+    Returns None when no catalog is available (flyto-engine CI is the gate).
     """
     explicit = env.get(CATALOG_ENV, "").strip()
     if explicit:
@@ -65,10 +62,6 @@ def find_engine_catalog(env: Mapping[str, str], root: Path) -> Path | None:
         candidate = ancestor / CATALOG_RELATIVE
         if candidate.is_file():
             return candidate
-    if is_ci(env):
-        raise CatalogNotFound(
-            f"flyto-engine catalog not found under CI; check out flyto-engine and set {CATALOG_ENV}"
-        )
     return None
 
 
@@ -95,10 +88,9 @@ class CatalogLocationTests(unittest.TestCase):
         path.write_text("modules: []\n", encoding="utf-8")
         return path
 
-    def test_missing_catalog_fails_under_ci(self):
-        """CI never skips the contract because the catalog is absent."""
-        with self.assertRaises(CatalogNotFound):
-            find_engine_catalog({"CI": "true"}, self.repo)
+    def test_missing_catalog_skips_even_under_ci(self):
+        """This public repository's CI cannot read the internal engine; engine CI is the gate."""
+        self.assertIsNone(find_engine_catalog({"CI": "true"}, self.repo))
 
     def test_missing_catalog_is_optional_outside_ci(self):
         """A contributor without flyto-engine can still run the suite locally."""
