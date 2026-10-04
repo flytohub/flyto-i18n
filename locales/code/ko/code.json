@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "ko",
-  "total_keys": 10625,
+  "total_keys": 10626,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -7065,6 +7065,7 @@
     "code.projects.wizard.byoCapable": "",
     "code.projects.wizard.byoKeyNote": "",
     "code.projects.wizard.byoOnlyNote": "",
+    "code.projects.wizard.catalogFallback": "",
     "code.projects.wizard.catalogLoading": "Loading module catalog...",
     "code.projects.wizard.connectRepo": "",
     "code.projects.wizard.externalLater": "",

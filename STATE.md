@@ -1,3 +1,13 @@
+# 2026-10-04 — Project wizard catalog fallback
+
+- Added the canonical Code translation for the project-creation wizard's
+  registry/catalog fallback notice so a transient module-registry failure does
+  not surface as an orphan i18n key.
+- English, Traditional Chinese and Simplified Chinese contain reviewed copy;
+  other locales retain the repository's explicit fallback pattern.
+- Rebuilt tracked Code and aggregate CDN bundles. No orphan allowlist entry was
+  added.
+
 # 2026-10-02 — Ratings Tree access labels
 
 - Added source-owned Code translations for Ratings Tree `Subscription`,

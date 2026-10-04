@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-CN",
-  "total_keys": 10768,
+  "total_keys": 10769,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -7194,6 +7194,7 @@
     "code.projects.wizard.byoCapable": "Warroom 引擎 + 外部来源",
     "code.projects.wizard.byoKeyNote": "创建后到「设置 → 集成」连接每个外部来源——供应商 key，或你自己的 API + 映射表。",
     "code.projects.wizard.byoOnlyNote": "无 Flyto2 原生引擎 — 请于「设置 → 数据源」连接供应商。",
+    "code.projects.wizard.catalogFallback": "模块目录目前无法加载，已改用内置目录，您仍可继续设置。",
     "code.projects.wizard.catalogLoading": "正在加载模块目录...",
     "code.projects.wizard.connectRepo": "连接代码仓库",
     "code.projects.wizard.enforcedNote": "只能启用账户已获得许可的模块。",

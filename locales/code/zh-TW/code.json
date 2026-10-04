@@ -2,7 +2,7 @@
   "$schema": "../../../schema/locale.schema.json",
   "category": "code",
   "locale": "zh-TW",
-  "total_keys": 10798,
+  "total_keys": 10799,
   "translations": {
     "agentFirewall.manager.auditCadenceValue": "",
     "agentFirewall.manager.framework.internalAuditDetail": "",
@@ -7224,6 +7224,7 @@
     "code.projects.wizard.byoCapable": "Warroom 引擎 + 外部來源",
     "code.projects.wizard.byoKeyNote": "建立後到「設定 → 整合」連接每個外部來源——供應商 key，或你自己的 API + 映射表。",
     "code.projects.wizard.byoOnlyNote": "無 Flyto2 原生引擎 — 請於「設定 → 資料來源」連接供應商。",
+    "code.projects.wizard.catalogFallback": "模組目錄目前無法載入，已改用內建目錄，您仍可繼續設定。",
     "code.projects.wizard.catalogLoading": "正在載入模組目錄...",
     "code.projects.wizard.connectRepo": "連接程式碼儲存庫",
     "code.projects.wizard.enforcedNote": "只能啟用帳戶已取得授權的模組。",

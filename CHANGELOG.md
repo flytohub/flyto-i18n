@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-04 — Project wizard catalog fallback copy
+
+- Added `code.projects.wizard.catalogFallback` to canonical Code locale source.
+- Rebuilt Code and aggregate distributions so flyto-code can pin a source-owned
+  translation instead of carrying an i18n orphan exception.
+
 ## 2026-10-04 — Module catalog names for every module
 
 - `code.projects.feature.{core,coreDesc,vrm,vrmDesc,supplyChain,supplyChainDesc}`
