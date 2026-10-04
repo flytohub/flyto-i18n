@@ -846,7 +846,11 @@
     "spaces.hud.verdict.measuredExpected": "measured {measured}, expected {expected}",
     "spaces.hud.verdict.measuredExpectedAllowed": "measured {measured}, expected {expected} ± {allowed}",
     "spaces.hud.verdict.verified": "verified by Cloud",
-    "spaces.hud.verdict.notProven": "not proven"
+    "spaces.hud.verdict.notProven": "not proven",
+    "spaces.schedule.heldCall": "Waiting for your approval",
+    "spaces.schedule.approveCall": "Approve this call once and continue",
+    "spaces.schedule.approvedCall": "Approved",
+    "spaces.ops.taskPartUnreadable": "Part of this task could not be read, so this view may be incomplete or out of date. The rest is shown."
   },
   "total_keys": 576
 }

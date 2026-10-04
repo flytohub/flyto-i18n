@@ -846,7 +846,11 @@
     "spaces.hud.verdict.measuredExpected": "量測 {measured}，預期 {expected}",
     "spaces.hud.verdict.measuredExpectedAllowed": "量測 {measured}，預期 {expected} ± {allowed}",
     "spaces.hud.verdict.verified": "雲端已驗證",
-    "spaces.hud.verdict.notProven": "未證實"
+    "spaces.hud.verdict.notProven": "未證實",
+    "spaces.schedule.heldCall": "等待您核准",
+    "spaces.schedule.approveCall": "核准這一次呼叫並繼續",
+    "spaces.schedule.approvedCall": "已核准",
+    "spaces.ops.taskPartUnreadable": "這個任務有部分內容讀不到，畫面可能不完整或不是最新；其餘部分照常顯示。"
   },
   "total_keys": 576
 }

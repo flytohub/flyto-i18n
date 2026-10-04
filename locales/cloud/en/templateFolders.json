@@ -31,6 +31,7 @@
     "templateFolders.root": "Root",
     "templateFolders.selectColor": "Select Color",
     "templateFolders.templateCount": "{count} templates",
-    "templateFolders.templates": "templates"
+    "templateFolders.templates": "templates",
+    "templateFolders.aiSpaceChangedElsewhere": "This Space was changed somewhere else while these settings were open, so nothing was saved. Its latest settings are loaded; make your change again."
   }
 }

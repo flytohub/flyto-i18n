@@ -369,6 +369,18 @@
     "templateBuilder.missionSetup.stationKinds.observation": "觀察點",
     "templateBuilder.missionSetup.stationKinds.occluded": "視線遮蔽區",
     "templateBuilder.missionSetup.stationKinds.restricted": "管制區",
-    "templateBuilder.missionSetup.stationKinds.passage": "通道"
+    "templateBuilder.missionSetup.stationKinds.passage": "通道",
+    "templateBuilder.aiChat.approval.title": "等待您核准",
+    "templateBuilder.aiChat.approval.tool": "工作流程",
+    "templateBuilder.aiChat.approval.arguments": "完全相同的輸入",
+    "templateBuilder.aiChat.approval.hint": "核准後，這一次呼叫會以這些輸入執行一次；不同的呼叫會再次詢問。",
+    "templateBuilder.aiChat.approval.approved": "已核准，正在執行。",
+    "templateBuilder.aiChat.approval.approving": "核准中…",
+    "templateBuilder.aiChat.approval.approve": "核准這一次呼叫",
+    "templateBuilder.aiChat.approval.notWaiting": "這個請求已不在這台電腦上等待。",
+    "templateBuilder.aiChat.approval.alreadyAnswered": "這個請求已回覆過，或已不相符。",
+    "templateBuilder.aiChat.approval.expired": "這個請求已過期，請再問一次以取得新的請求。",
+    "templateBuilder.aiChat.approval.failed": "無法送出核准，請再試一次。",
+    "templateBuilder.aiChat.approval.continue": "已核准。請以完全相同的輸入執行 {tool} 一次。"
   }
 }
