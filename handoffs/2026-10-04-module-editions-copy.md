@@ -31,6 +31,24 @@ industry-specific). Older keys the UI no longer reads
 in place so an older flyto-code pin keeps resolving; remove them after the
 flyto-code change is merged and pinned.
 
+## Review fixes (second commit)
+
+- Toasts: `code.entitlement.basicLimitReached` / `moduleLimitReached` take one
+  `{usage}` ("1 / 1 root domains") instead of bare `{limit}` / `{used}`;
+  `basicPinned` drops the unexplained `({used})`.
+- `code.modules.usage.unbounded` reads "3 root domains in use (no limit)" /
+  "已使用 3 個根網域（不限）"; `code.modules.edition.locked` is "Not purchased" /
+  "未購買" / "未购买"; `code.modules.purchase.unpinNoChange` reworded (the UI now
+  offers Return to Full only when the engine says it would work).
+- New: `code.modules.purchase.inUseProject`, `usageUnavailable`, `selected`;
+  `code.modules.gate.viewPlansNewTab`; `code.projects.coverage.action.create`
+  and `action.openPurchase` (accessible descriptions of what a tile does).
+- One pronoun (您) across the module-commerce flow in zh-TW and zh-CN: every
+  `code.modules.*`, `code.projects.coverage.*`, `code.entitlement.*` and
+  `code.projects.wizard.*` string that used 你.
+- `code.projects.wizard.enforcedNote` and `testingNote` are no longer read by
+  flyto-code; they stay for older pins (same policy as the keys above).
+
 ## Verified
 
 - `python3 scripts/build-dist.py` (dist regenerated and committed)
