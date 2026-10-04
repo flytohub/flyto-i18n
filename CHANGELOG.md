@@ -6,8 +6,21 @@
   in en, zh-TW and zh-CN. flyto-engine's module catalog now requires a
   `title_key` / `description_key` on every module; these were the six the
   catalog named with no copy here, which is why Warroom showed raw module keys.
+- Japanese copy for every catalog `title_key` / `description_key`. `ja` is a
+  primary locale in flyto-engine's i18n check, so it is part of the contract.
+- `code.projects.feature.{thirdPartyMonitoring,codeSecurityAutofix}` (+ `Desc`)
+  in en, zh-TW, zh-CN and ja, matching the catalog `display_name` /
+  `description` of `continuous_monitoring` and `autofix`.
+- Removed `code.projects.feature.supply` / `supplyDesc` from every locale. No
+  catalog module or consumer referenced it, and it described vendor risk under
+  a "Supply Chain" name, beside the catalog's own VRM and supply-chain copy.
 - `tests/test_module_catalog_copy.py` reads the engine catalog itself and fails
-  when any of its keys has no copy in en, zh-TW or zh-CN.
+  when any of its keys has no copy in en, zh-TW, zh-CN or ja. It no longer
+  skips in CI: `validate.yml` sparse-checks out flyto-engine's catalog and sets
+  `FLYTO_ENGINE_CATALOG`, and with `CI=true` a missing catalog fails the run.
+  Agent worktrees find the workspace's `flyto-engine` clone through any
+  ancestor directory. The English-derived pair check is gone; the catalog is
+  the only source of which keys must exist.
 
 ## 2026-10-04 — Module Marketplace (模組商城)
 

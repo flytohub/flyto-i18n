@@ -7,58 +7,78 @@ Status: Active (committed, not pushed)
 
 ## What changed
 
-- `locales/code/{en,zh-TW,zh-CN}/code.json`: six keys the flyto-engine module
-  catalog references but this repo never had:
-  `code.projects.feature.core` / `coreDesc`, `vrm` / `vrmDesc`,
-  `supplyChain` / `supplyChainDesc`. English matches the catalog's
-  `display_name` and `description`. Keys stay sorted; `total_keys` updated.
-- `dist/` rebuilt with `scripts/build-dist.py`.
+- `locales/code/{en,zh-TW,zh-CN,ja}/code.json`: copy for every key the
+  flyto-engine module catalog references: `core`, `vrm`, `supplyChain`
+  (+ `Desc`), and `thirdPartyMonitoring`, `codeSecurityAutofix` (+ `Desc`) for
+  the engine change that gives `continuous_monitoring` and `autofix` their own
+  keys. `ja` also gained the catalog keys it had empty (cspm, container,
+  darkWeb, vulnMgmt, identity, productVerification, agentFirewall).
+- Removed `code.projects.feature.supply` / `supplyDesc` from all 16 locales.
+  Grep found no consumer in flyto-code, flyto-admin (main and
+  `catalog-driven-modules` worktrees), flyto-cloud, flyto-console,
+  flyto-engine, flyto-landing-page or flyto-vscode, and no dynamic
+  `projects.feature.${...}` key construction.
+- `dist/` and `manifest.json` rebuilt; `docs/generated/python-symbols.md`
+  regenerated.
 - `tests/test_module_catalog_copy.py`:
-  - reads `internal/modulecatalog/catalog.yaml` (from `FLYTO_ENGINE_CATALOG`,
-    or a sibling `../flyto-engine` checkout) and requires every `title_key` /
-    `description_key` to resolve as `code.<key>` in en, zh-TW and zh-CN;
-  - requires every `code.projects.feature.X` / `XDesc` pair in English to
-    exist, non-empty, in zh-TW and zh-CN (no engine checkout needed).
+  - reads `internal/modulecatalog/catalog.yaml` and requires every
+    `title_key` / `description_key` to resolve as `code.<key>` in en, zh-TW,
+    zh-CN and ja (the engine's PRIMARY_LOCALES);
+  - catalog lookup: `FLYTO_ENGINE_CATALOG` (must exist if set), else a
+    `flyto-engine` sibling of any ancestor directory, so agent worktrees reach
+    the workspace clone. With `CI=true` and no catalog it fails, never skips;
+  - the English-derived pair check is removed: it could not see a key missing
+    from en and was a second, implicit module list.
+- `.github/workflows/validate.yml`: sparse checkout of
+  `flytohub/flyto-engine@main:internal/modulecatalog/catalog.yaml` into
+  `.sync-source/flyto-engine`, `FLYTO_ENGINE_CATALOG` exported to `npm test`.
 
 ## Why
 
 Warroom's "Modules & licences" table rendered raw keys (`core`, `vrm`,
-`supply_chain_intelligence`) because the catalog had no title keys for some
-modules and `projects.feature.core` had no copy. The engine catalog is the only
-module registry (flyto-engine `claude/catalog-titles`, 1602d21b): every module
-now must declare both keys, and the engine's `scripts/check-i18n-keys.py`
-fails when one is missing here. This change supplies the copy, and the new test
-checks the same contract from this side, against the catalog, with no copied
-module list.
+`supply_chain_intelligence`). The engine catalog is the only module registry;
+this repo only supplies copy for the keys it names. Review found the
+catalog contract test skipped in CI and in worktrees, so the contract was not
+enforced. It now runs and fails in CI.
 
 ## Merge order
 
 Merge this before flyto-engine `claude/catalog-titles`; the engine's i18n
-check reads this repo's `locales/code/en/code.json`.
+check reads this repo's code locales.
 
 ## Verified
 
-- `python3 scripts/build-dist.py`: done, dist updated (8 files).
 - `python3 scripts/validate.py --strict`: PASS, 0 errors.
-- `FLYTO_ENGINE_CATALOG=<engine worktree catalog> python3 -m unittest discover -s tests`:
-  78 tests OK. Without the variable: 78 OK, 1 skipped (catalog test).
-- Negative check: with the locale changes stashed, the catalog test fails on
-  exactly the 18 missing entries (6 keys x 3 locales).
-- `flyto-index scan .` then `flyto-index verify --strict` in the worktree: exit 0,
-  all checks PASS.
+- `python3 scripts/build-dist.py` + `build-seo-manifest.py`: done.
+- `npm test` (no env): 0 skipped; the catalog test found the workspace
+  `flyto-engine` clone through the ancestor lookup.
+- Catalog test with `CI=true` against three catalogs: engine `origin/main`,
+  the workspace `flyto-engine` checkout, and the engine `catalog-titles`
+  worktree (including its uncommitted thirdPartyMonitoring /
+  codeSecurityAutofix keys): all pass.
+- Negative: blanking ja `code.projects.feature.vrm` fails the test;
+  `CI=true FLYTO_ENGINE_CATALOG=/nope` fails with CatalogNotFound.
+- ruff 0.15.15 (the pinned version), `compileall`, `generate-reference.py`:
+  pass.
+- `flyto-index verify --strict` in the worktree: see the commit report.
 
 ## Not verified
 
-- MCP `verify(strict=true)` / `task(action='validate')` (MCP pinned to another
-  repo; CLI verify used instead).
-- In CI the catalog test skips, because this repo's workflows do not check out
-  flyto-engine. The enforcing gate in CI is the engine's
-  `scripts/check-i18n-keys.py`.
-- No native-speaker review of the zh-TW / zh-CN copy.
-- Other locales fall back to English, as usual.
+- `validate.yml` was not run on GitHub. It needs a new repository secret
+  `FLYTO_ENGINE_TOKEN` with read access to flytohub/flyto-engine contents;
+  until that secret exists the checkout step fails (by design: no silent
+  skip). Fork pull requests receive no secrets and fail there too.
+- The engine half of the review: `scripts/check-i18n-keys.py` is not in
+  engine PR CI and checks catalog keys against `en` only. That is a
+  flyto-engine change and was not made here.
+- No native-speaker review of zh-TW / zh-CN / ja copy.
+- The 12 other code locales render these keys through each consumer's
+  `fallbackLocale`; no consumer's i18n setup was checked or tested.
+- `contMon` / `addons` keys are kept: other surfaces may still use them once
+  the engine stops referencing them. Not audited.
 
 ## Follow-ups
 
-- TODO: after merge, bump the flyto-i18n SHA pinned in flyto-code CI /
-  deploy workflows and in flyto-engine's i18n check, if pinned (merged SHA not
-  known yet; do not guess it).
+- Create the `FLYTO_ENGINE_TOKEN` secret on flytohub/flyto-i18n.
+- Wire a catalog-copy check into flyto-engine PR CI that fails on any
+  missing key in en, zh-TW, zh-CN or ja against flyto-i18n main.
