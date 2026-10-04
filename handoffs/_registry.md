@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-04 | Module catalog copy for core, vrm, supply chain (Owner: claude, branch claude/catalog-titles, Active) | `2026-10-04-module-catalog-copy.md` |
 | 2026-10-04 | Provider-neutral equipment copy | `2026-10-04-provider-neutral-copy.md` |
 | 2026-10-04 | Module Marketplace copy (模組商城) | `2026-10-04-module-marketplace-copy.md` |
 | 2026-10-04 | Module commerce copy incl. grant_suspended (Owner: claude, branch claude/ops-copy, Active) | `2026-10-04-module-commerce-copy.md` |

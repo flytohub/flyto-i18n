@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-04 — Module catalog names for every module
+
+- `code.projects.feature.{core,coreDesc,vrm,vrmDesc,supplyChain,supplyChainDesc}`
+  in en, zh-TW and zh-CN. flyto-engine's module catalog now requires a
+  `title_key` / `description_key` on every module; these were the six the
+  catalog named with no copy here, which is why Warroom showed raw module keys.
+- `tests/test_module_catalog_copy.py` reads the engine catalog itself and fails
+  when any of its keys has no copy in en, zh-TW or zh-CN.
+
 ## 2026-10-04 — Module Marketplace (模組商城)
 
 - New `modulePacks.json` namespace (165 keys with `plugins.tabs.modulePacks`)
