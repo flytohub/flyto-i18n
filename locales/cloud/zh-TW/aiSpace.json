@@ -738,6 +738,22 @@
     "aiSpace.selection.candidateRanked": "依此需求排序",
     "aiSpace.resources.dispatchRules.autoStartReplaced": "已由下方的自動執行等級取代：設定等級後，由它決定哪些步驟自動開始。清除等級後才能再使用這個開關。",
     "aiSpace.resources.executionHost": "轉接器所在電腦",
-    "aiSpace.resources.executionHostUnassigned": "未指定"
+    "aiSpace.resources.executionHostUnassigned": "未指定",
+    "aiSpace.commissioning.met": "已完成",
+    "aiSpace.commissioning.unmet": "尚未完成",
+    "aiSpace.commissioning.enforceGates": "開啟所有安全閘門",
+    "aiSpace.commissioning.legacy": "安全閘門未開啟",
+    "aiSpace.commissioning.commissioning": "調試中 · {count} 項未完成",
+    "aiSpace.commissioning.commissioned": "已完成調試",
+    "aiSpace.commissioning.legacyHint": "此空間建立於安全閘門推出之前，會照舊運作。開啟所有閘門並儲存，即可開始調試。",
+    "aiSpace.commissioning.commissioningHint": "閘門已在運作。完成下方尚未完成的項目，此空間即完成調試。",
+    "aiSpace.commissioning.commissionedHint": "所有閘門皆已強制執行，此空間的所有內容皆已審核。",
+    "aiSpace.commissioning.enforcement": "所有安全閘門皆強制執行",
+    "aiSpace.commissioning.capabilityReview": "所有偵測到的能力皆已審核",
+    "aiSpace.commissioning.permissions": "已核准的能力皆已授予權限",
+    "aiSpace.commissioning.parameterBounds": "每個可調參數皆有上下限",
+    "aiSpace.commissioning.gateHealth": "連線狀態",
+    "aiSpace.commissioning.gateLease": "獨占使用",
+    "aiSpace.commissioning.gateCapability": "能力核准"
   }
 }

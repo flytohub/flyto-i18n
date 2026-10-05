@@ -738,6 +738,22 @@
     "aiSpace.selection.candidateRanked": "按此需求排序",
     "aiSpace.resources.dispatchRules.autoStartReplaced": "已由下方的自动执行等级取代：设置等级后，由它决定哪些步骤自动开始。清除等级后才能再使用这个开关。",
     "aiSpace.resources.executionHost": "适配器所在电脑",
-    "aiSpace.resources.executionHostUnassigned": "未指定"
+    "aiSpace.resources.executionHostUnassigned": "未指定",
+    "aiSpace.commissioning.met": "已完成",
+    "aiSpace.commissioning.unmet": "尚未完成",
+    "aiSpace.commissioning.enforceGates": "开启所有安全闸门",
+    "aiSpace.commissioning.legacy": "安全闸门未开启",
+    "aiSpace.commissioning.commissioning": "调试中 · {count} 项未完成",
+    "aiSpace.commissioning.commissioned": "已完成调试",
+    "aiSpace.commissioning.legacyHint": "此空间建立于安全闸门推出之前，会照旧运作。开启所有闸门并保存，即可开始调试。",
+    "aiSpace.commissioning.commissioningHint": "闸门已在运作。完成下方尚未完成的项目，此空间即完成调试。",
+    "aiSpace.commissioning.commissionedHint": "所有闸门皆已强制执行，此空间的所有内容皆已审核。",
+    "aiSpace.commissioning.enforcement": "所有安全闸门皆强制执行",
+    "aiSpace.commissioning.capabilityReview": "所有检测到的能力皆已审核",
+    "aiSpace.commissioning.permissions": "已核准的能力皆已授予权限",
+    "aiSpace.commissioning.parameterBounds": "每个可调参数皆有上下限",
+    "aiSpace.commissioning.gateHealth": "连线状态",
+    "aiSpace.commissioning.gateLease": "独占使用",
+    "aiSpace.commissioning.gateCapability": "能力核准"
   }
 }
