@@ -72,6 +72,11 @@
     "dashboardPage.subtitle": "今天想做什麼？",
     "dashboardPage.welcome": "歡迎回來，{name}！",
     "dashboardPage.welcomeDefault": "歡迎回來！",
-    "dashboardPage.devices.onlineCount": "{count} 台在線"
+    "dashboardPage.devices.onlineCount": "{count} 台在線",
+    "dashboardPage.devices.presence.online": "在線",
+    "dashboardPage.devices.presence.offline": "離線",
+    "dashboardPage.devices.presence.neverConnected": "從未連線",
+    "dashboardPage.devices.presence.dormant": "已閒置 · 最後上線 {date}",
+    "dashboardPage.devices.confirmRemoveMessage": "要從你的裝置中移除「{name}」嗎？它會從這個清單消失，之後要重新配對才會回來。"
   }
 }

@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-10-06 — Mission Station replans, equipment Reconnect and device presence copy
+
+- 101 cloud keys flyto-cloud now uses, in en, zh-TW and zh-CN (other locales
+  fall back to English, as with the earlier Mission Station copy):
+  - AI routing refusals in the operator's words: `spaces.narrative.routing.*`,
+    `spaces.narrative.need.*`, `spaces.narrative.result.*`,
+    `spaces.narrative.task.routeRefused`, and the timeline stages
+    `spaces.timeline.{stage,plain}.{routing_refused,goal_contract_frozen,follows}`.
+  - Follow-up goals: `spaces.voice.follow*` and `spaces.followLinks.*`.
+  - Reserved tool names: `aiSpace.selection.reservedTitle` and
+    `aiSpace.selection.reservedBy.*`.
+  - Device presence and removal: `dashboardPage.devices.presence.*` and
+    `dashboardPage.devices.confirmRemoveMessage`.
+  - Replans in words: `spaces.hud.replanTrigger.*`, `spaces.hud.replanPlanner.*`,
+    `spaces.hud.replanSuperseded.recovery_rule` and the plan-record labels.
+  - Equipment Reconnect: `spaces.equipment.connection.*` (states and errors).
+  - Adapter refusal reasons: `spaces.narrative.adapterReason.*`,
+    `spaces.narrative.side.*`, `spaces.narrative.sideName.*`.
+
 ## 2026-10-04 — Project wizard catalog fallback copy
 
 - Added `code.projects.wizard.catalogFallback` to canonical Code locale source.

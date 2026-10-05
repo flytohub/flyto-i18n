@@ -72,6 +72,11 @@
     "dashboardPage.subtitle": "What would you like to do today?",
     "dashboardPage.welcome": "Welcome back, {name}!",
     "dashboardPage.welcomeDefault": "Welcome back!",
-    "dashboardPage.devices.onlineCount": "{count} online"
+    "dashboardPage.devices.onlineCount": "{count} online",
+    "dashboardPage.devices.presence.online": "Online",
+    "dashboardPage.devices.presence.offline": "Offline",
+    "dashboardPage.devices.presence.neverConnected": "Never connected",
+    "dashboardPage.devices.presence.dormant": "Dormant · last seen {date}",
+    "dashboardPage.devices.confirmRemoveMessage": "Remove \"{name}\" from your devices? It disappears from this list and has to be paired again to come back."
   }
 }
