@@ -671,7 +671,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +16: Space commissioning (flyto-cloud 2026-10-05): `aiSpace.commissioning.*`
     # names whether a Space's safety gates actually hold -- legacy, commissioning
     # or commissioned -- and lists what is still open.
-    assert english_total == 13_325
+    # +35: Mission Station live fixes (flyto-cloud 2026-10-05): evidence in the
+    # operator's words (`spaces.hud.*` kinds, findings, reasons, units, technical
+    # details), camera sources that say what is missing (`spaces.stream.*`), and
+    # the goal box chip that says a new goal will be created (`spaces.voice.newGoalChip`).
+    assert english_total == 13_360
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
