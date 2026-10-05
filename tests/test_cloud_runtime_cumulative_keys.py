@@ -668,7 +668,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `templateBuilder.aiChat.approval.*`), plus `spaces.ops.taskPartUnreadable`
     # for a task read that names a part it could not read, and
     # `templateFolders.aiSpaceChangedElsewhere` for a Space save refused as stale.
-    assert english_total == 13_309
+    # +16: Space commissioning (flyto-cloud 2026-10-05): `aiSpace.commissioning.*`
+    # names whether a Space's safety gates actually hold -- legacy, commissioning
+    # or commissioned -- and lists what is still open.
+    assert english_total == 13_325
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

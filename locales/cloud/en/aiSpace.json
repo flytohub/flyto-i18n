@@ -738,6 +738,22 @@
     "aiSpace.selection.candidateRanked": "Ranked for this request",
     "aiSpace.resources.dispatchRules.autoStartReplaced": "Replaced by the auto-run level below: while a level is set, it decides which steps start on their own. Clear the level to use this switch again.",
     "aiSpace.resources.executionHost": "Adapter host computer",
-    "aiSpace.resources.executionHostUnassigned": "Not assigned"
+    "aiSpace.resources.executionHostUnassigned": "Not assigned",
+    "aiSpace.commissioning.met": "Done",
+    "aiSpace.commissioning.unmet": "Still open",
+    "aiSpace.commissioning.enforceGates": "Turn every gate on",
+    "aiSpace.commissioning.legacy": "Safety gates off",
+    "aiSpace.commissioning.commissioning": "Commissioning · {count} open",
+    "aiSpace.commissioning.commissioned": "Commissioned",
+    "aiSpace.commissioning.legacyHint": "This Space was set up before safety gates existed and keeps working as it did. Turn every gate on and save to start commissioning it.",
+    "aiSpace.commissioning.commissioningHint": "The gates run. Finish what is still open below and this Space is commissioned.",
+    "aiSpace.commissioning.commissionedHint": "Every gate is enforced and everything this Space holds has been reviewed.",
+    "aiSpace.commissioning.enforcement": "Every safety gate enforced",
+    "aiSpace.commissioning.capabilityReview": "Every detected capability reviewed",
+    "aiSpace.commissioning.permissions": "Permissions granted for approved capabilities",
+    "aiSpace.commissioning.parameterBounds": "A limit on every adjustable parameter",
+    "aiSpace.commissioning.gateHealth": "Reachability",
+    "aiSpace.commissioning.gateLease": "Exclusive use",
+    "aiSpace.commissioning.gateCapability": "Capability approval"
   }
 }
