@@ -754,6 +754,12 @@
     "aiSpace.commissioning.parameterBounds": "A limit on every adjustable parameter",
     "aiSpace.commissioning.gateHealth": "Reachability",
     "aiSpace.commissioning.gateLease": "Exclusive use",
-    "aiSpace.commissioning.gateCapability": "Capability approval"
+    "aiSpace.commissioning.gateCapability": "Capability approval",
+    "aiSpace.selection.reservedTitle": "Not offered: a built-in tool already has this name",
+    "aiSpace.selection.reservedBy.general": "Core tool",
+    "aiSpace.selection.reservedBy.forge": "Workflow Forge",
+    "aiSpace.selection.reservedBy.task": "Task tool",
+    "aiSpace.selection.reservedBy.room": "Mission Station tool",
+    "aiSpace.selection.reservedBy.resourceTier": "Resource tool"
   }
 }

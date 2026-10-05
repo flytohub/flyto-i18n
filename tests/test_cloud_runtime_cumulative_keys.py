@@ -675,7 +675,15 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # operator's words (`spaces.hud.*` kinds, findings, reasons, units, technical
     # details), camera sources that say what is missing (`spaces.stream.*`), and
     # the goal box chip that says a new goal will be created (`spaces.voice.newGoalChip`).
-    assert english_total == 13_360
+    # +101: Mission Station and device copy (flyto-cloud 2026-10-06): routing
+    # refusals in the operator's words (`spaces.narrative.routing/need/result`),
+    # the goal contract and follow-up links (`spaces.timeline.*`,
+    # `spaces.voice.follow*`, `spaces.followLinks.*`), reserved tool names
+    # (`aiSpace.selection.reserved*`), device presence and removal
+    # (`dashboardPage.devices.*`), replans in words (`spaces.hud.replan*`),
+    # equipment Reconnect (`spaces.equipment.connection.*`) and adapter refusal
+    # reasons (`spaces.narrative.adapterReason/side/sideName.*`).
+    assert english_total == 13_461
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

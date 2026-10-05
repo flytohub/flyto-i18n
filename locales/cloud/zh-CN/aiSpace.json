@@ -754,6 +754,12 @@
     "aiSpace.commissioning.parameterBounds": "每个可调参数皆有上下限",
     "aiSpace.commissioning.gateHealth": "连线状态",
     "aiSpace.commissioning.gateLease": "独占使用",
-    "aiSpace.commissioning.gateCapability": "能力核准"
+    "aiSpace.commissioning.gateCapability": "能力核准",
+    "aiSpace.selection.reservedTitle": "未提供：内置工具已使用此名称",
+    "aiSpace.selection.reservedBy.general": "核心工具",
+    "aiSpace.selection.reservedBy.forge": "工作流锻造台",
+    "aiSpace.selection.reservedBy.task": "任务工具",
+    "aiSpace.selection.reservedBy.room": "任务站点工具",
+    "aiSpace.selection.reservedBy.resourceTier": "资源工具"
   }
 }

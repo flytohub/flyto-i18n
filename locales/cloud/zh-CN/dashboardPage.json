@@ -72,6 +72,11 @@
     "dashboardPage.subtitle": "今天想做什么？",
     "dashboardPage.welcome": "欢迎回来，{name}！",
     "dashboardPage.welcomeDefault": "欢迎回来！",
-    "dashboardPage.devices.onlineCount": "{count} 台在线"
+    "dashboardPage.devices.onlineCount": "{count} 台在线",
+    "dashboardPage.devices.presence.online": "在线",
+    "dashboardPage.devices.presence.offline": "离线",
+    "dashboardPage.devices.presence.neverConnected": "从未连接",
+    "dashboardPage.devices.presence.dormant": "已闲置 · 最后上线 {date}",
+    "dashboardPage.devices.confirmRemoveMessage": "要从你的设备中移除“{name}”吗？它会从这个列表消失，之后要重新配对才会回来。"
   }
 }
