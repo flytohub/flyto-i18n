@@ -704,7 +704,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.hud.evidenceKind.robot.arrival`.
     # +4: equipment presence beyond online/offline (flyto-cloud 2026-10-06):
     # `spaces.resources.presence.{unreachable,unreported,unreportedHint,dormant}`.
-    assert english_total == 13_415
+    # +4: a reconnect the driving computer cannot serve, and a refused Space
+    # read said as what to do next (flyto-cloud 2026-10-06):
+    # `spaces.equipment.connection.notServed`,
+    # `spaces.readFailure.{signedOut,forbidden,notFound}`.
+    assert english_total == 13_419
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -970,6 +970,7 @@
     "spaces.equipment.connection.reason": "原因：{reason}",
     "spaces.equipment.connection.topics": "已看到 {count} 個主題",
     "spaces.equipment.connection.hostOffline": "控制這台設備的電腦目前離線。請先讓它上線，再重新連線。",
+    "spaces.equipment.connection.notServed": "這台電腦目前沒有在服務這個設備，所以沒有連線可以重建。請讓它重新服務這個設備，再重新連線。",
     "spaces.equipment.connection.failedToAsk": "重新連線的要求被拒絕。",
     "spaces.equipment.connection.state.connected": "已連線",
     "spaces.equipment.connection.state.reconnecting": "重新連線中",
@@ -1010,7 +1011,10 @@
     "spaces.narrative.adapterReason.stoppedAfter": "它在 {distance} 公尺後停下",
     "spaces.narrative.adapterReason.nearestSide": "{side}最近的量測淨空 {distance} 公尺",
     "spaces.narrative.adapterReason.nearest": "最近的量測淨空 {distance} 公尺",
-    "spaces.narrative.adapterReason.resourceBusy": "沒有送出指令：在這次呼叫能等待的時間內，另一個工作一直在操控這台設備。"
+    "spaces.narrative.adapterReason.resourceBusy": "沒有送出指令：在這次呼叫能等待的時間內，另一個工作一直在操控這台設備。",
+    "spaces.readFailure.signedOut": "你已登出，所以無法顯示這個 Space。請重新登入後再試一次。",
+    "spaces.readFailure.forbidden": "目前登入的帳號無權在這個 Space 執行這個操作。請改用這個 Space 所屬的帳號登入。",
+    "spaces.readFailure.notFound": "在目前登入的帳號中找不到。它可能屬於另一個帳號，或已被移除。"
   },
   "total_keys": 576
 }

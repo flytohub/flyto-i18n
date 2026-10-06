@@ -970,6 +970,7 @@
     "spaces.equipment.connection.reason": "原因：{reason}",
     "spaces.equipment.connection.topics": "已看到 {count} 个主题",
     "spaces.equipment.connection.hostOffline": "控制这台设备的电脑目前离线。请先让它上线，再重新连接。",
+    "spaces.equipment.connection.notServed": "这台电脑目前没有在服务这个设备，所以没有连接可以重建。请让它重新服务这个设备，再重新连接。",
     "spaces.equipment.connection.failedToAsk": "重新连接的请求被拒绝。",
     "spaces.equipment.connection.state.connected": "已连接",
     "spaces.equipment.connection.state.reconnecting": "重新连接中",
@@ -1010,7 +1011,10 @@
     "spaces.narrative.adapterReason.stoppedAfter": "它在 {distance} 米后停下",
     "spaces.narrative.adapterReason.nearestSide": "{side}最近的测量净空 {distance} 米",
     "spaces.narrative.adapterReason.nearest": "最近的测量净空 {distance} 米",
-    "spaces.narrative.adapterReason.resourceBusy": "没有发出指令：在这次调用能等待的时间内，另一个作业一直在操控这台设备。"
+    "spaces.narrative.adapterReason.resourceBusy": "没有发出指令：在这次调用能等待的时间内，另一个作业一直在操控这台设备。",
+    "spaces.readFailure.signedOut": "你已退出登录，所以无法显示这个 Space。请重新登录后再试一次。",
+    "spaces.readFailure.forbidden": "当前登录的账号无权在这个 Space 执行这个操作。请改用这个 Space 所属的账号登录。",
+    "spaces.readFailure.notFound": "在当前登录的账号中找不到。它可能属于另一个账号，或已被移除。"
   },
   "total_keys": 576
 }
