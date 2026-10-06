@@ -158,11 +158,11 @@ Declarations: **374**
 | method | `AddLocaleTests.write_locale_file` | [`tests/test_add_locale.py:37`](../../tests/test_add_locale.py#L37) | Write one minimal locale fixture under the temporary root. |
 | method | `AddLocaleTests.test_count_locale_translations_across_projects` | [`tests/test_add_locale.py:46`](../../tests/test_add_locale.py#L46) | Count translated and total keys across all configured projects. |
 | method | `AddLocaleTests.test_locale_status_labels_completion_states` | [`tests/test_add_locale.py:56`](../../tests/test_add_locale.py#L56) | Map empty, partial, and complete counts to stable status labels. |
-| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:118`](../../tests/test_ai_space_catalog.py#L118) | Load the authoritative AI Space source catalog for one locale. |
-| function | `load_cloud_catalog` | [`tests/test_ai_space_catalog.py:128`](../../tests/test_ai_space_catalog.py#L128) | Load one authoritative Flyto Cloud source catalog. |
-| function | `load_generated_cloud_catalog` | [`tests/test_ai_space_catalog.py:134`](../../tests/test_ai_space_catalog.py#L134) | Load one generated nested Cloud runtime bundle. |
-| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:140`](../../tests/test_ai_space_catalog.py#L140) | Keep official AI Space catalogs complete, aligned, and non-empty. |
-| function | `test_reviewed_cloud_copy_preserves_the_workflow_first_hierarchy` | [`tests/test_ai_space_catalog.py:158`](../../tests/test_ai_space_catalog.py#L158) | Pin workflow-first copy and keep its legacy namespace mirror aligned. |
+| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:89`](../../tests/test_ai_space_catalog.py#L89) | Load the authoritative AI Space source catalog for one locale. |
+| function | `load_cloud_catalog` | [`tests/test_ai_space_catalog.py:99`](../../tests/test_ai_space_catalog.py#L99) | Load one authoritative Flyto Cloud source catalog. |
+| function | `load_generated_cloud_catalog` | [`tests/test_ai_space_catalog.py:105`](../../tests/test_ai_space_catalog.py#L105) | Load one generated nested Cloud runtime bundle. |
+| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:111`](../../tests/test_ai_space_catalog.py#L111) | Keep official AI Space catalogs complete, aligned, and non-empty. |
+| function | `test_reviewed_cloud_copy_preserves_the_workflow_first_hierarchy` | [`tests/test_ai_space_catalog.py:131`](../../tests/test_ai_space_catalog.py#L131) | Pin workflow-first copy and keep its legacy namespace mirror aligned. |
 | function | `_translations` | [`tests/test_ai_space_dependency_contract.py:59`](../../tests/test_ai_space_dependency_contract.py#L59) | Load flat source keys or flatten one generated nested runtime bundle. |
 | function | `_translations.walk` | [`tests/test_ai_space_dependency_contract.py:67`](../../tests/test_ai_space_dependency_contract.py#L67) | Collect nested runtime values under their dot-delimited key. |
 | function | `test_reviewed_dependency_catalogs_are_complete_and_non_empty` | [`tests/test_ai_space_dependency_contract.py:79`](../../tests/test_ai_space_dependency_contract.py#L79) | Keep all reviewed locales on the exact operator-facing contract. |

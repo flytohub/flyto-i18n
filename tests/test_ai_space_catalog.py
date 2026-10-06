@@ -59,13 +59,6 @@ REQUIRED_CONTROL_KEYS = {
     "aiSpace.controls.deadmanTimeout",
     "aiSpace.controls.heartbeat",
     "aiSpace.controls.pressKeyNow",
-    "aiSpace.controls.runtimeAudit",
-    "aiSpace.controls.runtimeConnected",
-    "aiSpace.controls.runtimeConnecting",
-    "aiSpace.controls.runtimeDisabled",
-    "aiSpace.controls.runtimeOffline",
-    "aiSpace.controls.runtimeReadyHint",
-    "aiSpace.controls.runtimeSafeHint",
 }
 REQUIRED_RESOURCE_KEYS = {
     "aiSpace.resources.adapter",
@@ -87,32 +80,10 @@ REQUIRED_RESOURCE_KEYS = {
     "aiSpace.workspace.tabs.routing",
     "aiSpace.workspace.typedOutput",
 }
-REQUIRED_GUARDED_DELIVERY_KEYS = {
-    "aiSpace.delivery.containerLocked",
-    "aiSpace.delivery.containerUnlocked",
-    "aiSpace.delivery.eventCheckpointResumed",
-    "aiSpace.delivery.eventContainerUnlocked",
-    "aiSpace.delivery.eventHandoffCompleted",
-    "aiSpace.delivery.eventHandoffStarted",
-    "aiSpace.delivery.eventItemRejected",
-    "aiSpace.delivery.eventItemVerified",
-    "aiSpace.delivery.eventPreconditionRejected",
-    "aiSpace.delivery.eventPreconditionVerified",
-    "aiSpace.delivery.eventRecipientRejected",
-    "aiSpace.delivery.eventRecipientVerified",
-    "aiSpace.delivery.events",
-    "aiSpace.delivery.gateCheckpoint",
-    "aiSpace.delivery.gateItem",
-    "aiSpace.delivery.gatePreconditions",
-    "aiSpace.delivery.gateRecipient",
-    "aiSpace.delivery.gateUnlock",
-    "aiSpace.delivery.guardedEvidenceTitle",
-    "aiSpace.delivery.guardedFailed",
-    "aiSpace.delivery.guardedHint",
-    "aiSpace.delivery.guardedTitle",
-    "aiSpace.delivery.locked",
-    "aiSpace.delivery.unlocked",
-}
+# flyto-cloud retired the guarded-delivery panel and the runtime-connection
+# controls (closure 1006b): no consumer remains in any repository, so the
+# catalog must not carry them back.
+RETIRED_KEY_PREFIXES = ("aiSpace.delivery.", "aiSpace.controls.runtime")
 
 
 def load_ai_space_catalog(locale: str) -> dict[str, str]:
@@ -147,7 +118,9 @@ def test_official_ai_space_catalogs_have_parity_and_no_empty_values():
     assert REQUIRED_WORKSPACE_KEYS <= english_keys
     assert REQUIRED_CONTROL_KEYS <= english_keys
     assert REQUIRED_RESOURCE_KEYS <= english_keys
-    assert REQUIRED_GUARDED_DELIVERY_KEYS <= english_keys
+    assert not [
+        key for key in english_keys if key.startswith(RETIRED_KEY_PREFIXES)
+    ]
     assert len(english_keys) >= 340
 
     for locale, translations in catalogs.items():

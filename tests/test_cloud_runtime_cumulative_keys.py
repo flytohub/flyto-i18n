@@ -689,7 +689,20 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # controller abort, cancel, no room to back away, stop confirmation,
     # distance travelled and nearest obstacle) and the collapsed
     # `spaces.narrative.technicalDetails` disclosure.
-    assert english_total == 13_477
+    # +30 / -96: closure 1006b (flyto-cloud 2026-10-06). Added: evidence time
+    # on the timeline (`spaces.timeline.stage.evidence_*`,
+    # `spaces.timeline.evidence.*`), skipped steps
+    # (`spaces.narrative.step.skipped*`, `spaces.narrative.stepState.skipped`),
+    # `spaces.narrative.adapterReason.resourceBusy`, and the provider-neutral
+    # renames `orchestrator.robots.*` -> `orchestrator.runners.*`,
+    # `orchestrator.stats.totalRobots` -> `totalRunners`,
+    # `enterprise.robotsOnline` -> `runnersOnline`,
+    # `spaces.capability.family.robot` -> `equipment` and
+    # `spaces.narrative.adapterReason.travelled` -> `stoppedAfter`. Removed
+    # with no consumer left in any repository: `aiSpace.delivery.*`,
+    # `aiSpace.controls.runtime*`, `spaces.kind.robot` and
+    # `spaces.hud.evidenceKind.robot.arrival`.
+    assert english_total == 13_411
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

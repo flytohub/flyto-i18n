@@ -7,7 +7,6 @@
         "enterprise.actions.notSupported": "Action not supported",
         "enterprise.errors.actionFailed": "操作失敗",
         "enterprise.errors.loadFailed": "Failed to load",
-        "enterprise.robotsOnline": "ロボットオンライン",
         "enterprise.subtitle": "エンタープライズ自動化ツール",
         "enterprise.tabs.idp": "ドキュメント処理",
         "enterprise.tabs.mining": "プロセスマイニング",
