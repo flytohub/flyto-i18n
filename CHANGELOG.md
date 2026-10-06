@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-06 — Reconnect for equipment a computer no longer serves, refused Space reads
+
+- 4 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
+  flyto-cloud bundled locales (other locales fall back to English):
+  `spaces.equipment.connection.notServed` and
+  `spaces.readFailure.{signedOut,forbidden,notFound}`.
+
 ## 2026-10-06 — Equipment presence states
 
 - 4 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the

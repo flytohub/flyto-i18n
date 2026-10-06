@@ -970,6 +970,7 @@
     "spaces.equipment.connection.reason": "Reason: {reason}",
     "spaces.equipment.connection.topics": "{count} topics seen",
     "spaces.equipment.connection.hostOffline": "The computer that drives this equipment is offline. Bring it online, then reconnect.",
+    "spaces.equipment.connection.notServed": "This computer is not serving this equipment right now, so there is no connection to rebuild. Have it serve this equipment again, then reconnect.",
     "spaces.equipment.connection.failedToAsk": "The reconnect request was refused.",
     "spaces.equipment.connection.state.connected": "Connected",
     "spaces.equipment.connection.state.reconnecting": "Reconnecting",
@@ -1010,7 +1011,10 @@
     "spaces.narrative.adapterReason.stoppedAfter": "It stopped after {distance} m",
     "spaces.narrative.adapterReason.nearestSide": "Nearest measured clearance {distance} m {side}",
     "spaces.narrative.adapterReason.nearest": "Nearest measured clearance {distance} m",
-    "spaces.narrative.adapterReason.resourceBusy": "Nothing was sent: another job was driving this equipment for as long as this call could wait"
+    "spaces.narrative.adapterReason.resourceBusy": "Nothing was sent: another job was driving this equipment for as long as this call could wait",
+    "spaces.readFailure.signedOut": "You are signed out, so this Space cannot be shown. Sign in again, then retry.",
+    "spaces.readFailure.forbidden": "The account you are signed in with is not allowed to do this in this Space. Sign in with the account it belongs to.",
+    "spaces.readFailure.notFound": "Not found in the account you are signed in with. It may belong to another account, or it was removed."
   },
   "total_keys": 576
 }
