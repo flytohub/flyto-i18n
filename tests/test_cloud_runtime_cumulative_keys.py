@@ -708,7 +708,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # read said as what to do next (flyto-cloud 2026-10-06):
     # `spaces.equipment.connection.notServed`,
     # `spaces.readFailure.{signedOut,forbidden,notFound}`.
-    assert english_total == 13_419
+    # +31: a goal sent as the Space changed under the page, and Send's own
+    # refusals in operator words (flyto-cloud 2026-10-06):
+    # `spaces.ops.send.*` (13), `spaces.registryChange.*` (14),
+    # `spaces.narrative.task.registryMoved`,
+    # `spaces.narrative.problem.registry_snapshot_stale`,
+    # `spaces.timeline.{stage,plain}.registry_moved`.
+    assert english_total == 13_450
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
