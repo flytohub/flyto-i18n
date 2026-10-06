@@ -679,6 +679,7 @@
     "aiSpace.selection.reservedBy.forge": "工作流锻造台",
     "aiSpace.selection.reservedBy.task": "任务工具",
     "aiSpace.selection.reservedBy.room": "任务站点工具",
-    "aiSpace.selection.reservedBy.resourceTier": "资源工具"
+    "aiSpace.selection.reservedBy.resourceTier": "资源工具",
+    "aiSpace.workspace.tabs.triggers": "触发与事件"
   }
 }

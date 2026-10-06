@@ -679,6 +679,7 @@
     "aiSpace.selection.reservedBy.forge": "Workflow Forge",
     "aiSpace.selection.reservedBy.task": "Task tool",
     "aiSpace.selection.reservedBy.room": "Mission Station tool",
-    "aiSpace.selection.reservedBy.resourceTier": "Resource tool"
+    "aiSpace.selection.reservedBy.resourceTier": "Resource tool",
+    "aiSpace.workspace.tabs.triggers": "Triggers & events"
   }
 }

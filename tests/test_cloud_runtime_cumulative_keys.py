@@ -714,7 +714,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.narrative.task.registryMoved`,
     # `spaces.narrative.problem.registry_snapshot_stale`,
     # `spaces.timeline.{stage,plain}.registry_moved`.
-    assert english_total == 13_450
+    # +65: a Space's task lifecycle events sent to another system
+    # (flyto-cloud 2026-10-07): `spaces.triggers.{title,description}`,
+    # `spaces.triggers.events.*` (41), `spaces.triggers.delivery.*` (19),
+    # `spaces.tasks.{eventDelivered,eventDeliveries}`,
+    # `aiSpace.workspace.tabs.triggers`.
+    assert english_total == 13_515
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
