@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-06 — A goal sent as the Space changed, and Send's refusals in operator words
+
+- 31 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
+  flyto-cloud bundled locales (other locales fall back to English):
+  - `spaces.registryChange.*`: what changed in a Space between the page's read
+    and a goal (resource added/removed/renamed, simulation vs physical
+    equipment, revoked/restored, command added/removed/changed), with the
+    summary shown when the goal was therefore not started.
+  - `spaces.narrative.task.registryMoved`, `spaces.narrative.problem.registry_snapshot_stale`,
+    `spaces.timeline.{stage,plain}.registry_moved`.
+  - `spaces.ops.send.*`: every refusal the Mission Station's Send and Test raise
+    (the raw English 「No command has that exact label」 among them).
+
 ## 2026-10-06 — Reconnect for equipment a computer no longer serves, refused Space reads
 
 - 4 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
