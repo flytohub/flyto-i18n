@@ -2,11 +2,9 @@
 
 ## 2026-10-07 — A Space's task lifecycle events sent to another system
 
-- 65 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
+- 62 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
   flyto-cloud `claude/space-events` bundled locales (other locales fall back
   to English):
-  - `spaces.triggers.{title,description}` and `aiSpace.workspace.tabs.triggers`:
-    the Space dialog's Triggers & events tab.
   - `spaces.triggers.events.*`: event subscriptions (receiver URL, events,
     the route derived from the URL, the computer-route allowlist hint and the
     wait for a Desktop that can send, typed refusals, the secret shown once).
@@ -14,7 +12,9 @@
     and the delivery states.
   - `spaces.tasks.{eventDelivered,eventDeliveries}`: the receipts line in a
     task's detail.
-- The cumulative key count moves from 13,450 to 13,515.
+- The tab label and title (`aiSpace.workspace.tabs.triggers`,
+  `spaces.triggers.title`) are the inbound-triggers copy's keys.
+- The cumulative key count moves from 13,450 to 13,512.
 
 ## 2026-10-06 — A goal sent as the Space changed, and Send's refusals in operator words
 

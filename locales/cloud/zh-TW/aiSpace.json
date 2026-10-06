@@ -679,7 +679,6 @@
     "aiSpace.selection.reservedBy.forge": "工作流程鍛造台",
     "aiSpace.selection.reservedBy.task": "任務工具",
     "aiSpace.selection.reservedBy.room": "任務站點工具",
-    "aiSpace.selection.reservedBy.resourceTier": "資源工具",
-    "aiSpace.workspace.tabs.triggers": "觸發與事件"
+    "aiSpace.selection.reservedBy.resourceTier": "資源工具"
   }
 }
