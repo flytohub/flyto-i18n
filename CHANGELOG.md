@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-07 — Another system hands a Space a goal
+
+- 56 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
+  flyto-cloud space-triggers bundled locales (other locales fall back to English):
+  - `spaces.triggers.*`: the Space dialog's Triggers & events tab, its inbound
+    triggers (create, rotate, disable, delete, recent events) and the signing
+    secret shown once.
+  - `spaces.tasks.submittedBy.*` and `spaces.tasks.holdUnattended`: who
+    submitted a task when it was not the operator, and why its step waits.
+  - `aiSpace.workspace.tabs.triggers`, and
+    `auth.oauthConsent.scopes.{spacesSubmit,spacesRead}.*` for the two new
+    MCP scopes on the consent page.
+
 ## 2026-10-06 — A goal sent as the Space changed, and Send's refusals in operator words
 
 - 31 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
