@@ -702,7 +702,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # with no consumer left in any repository: `aiSpace.delivery.*`,
     # `aiSpace.controls.runtime*`, `spaces.kind.robot` and
     # `spaces.hud.evidenceKind.robot.arrival`.
-    assert english_total == 13_411
+    # +4: equipment presence beyond online/offline (flyto-cloud 2026-10-06):
+    # `spaces.resources.presence.{unreachable,unreported,unreportedHint,dormant}`.
+    assert english_total == 13_415
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
