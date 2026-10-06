@@ -724,7 +724,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.triggers.delivery.*` (19),
     # `spaces.tasks.{eventDelivered,eventDeliveries}`. The tab and its title
     # are the inbound-triggers copy's keys.
-    assert english_total == 13_568
+    # +1: the two slices merged (flyto-cloud 2026-10-07): a Cloud-route
+    # subscription nothing is sending says so
+    # (`spaces.triggers.events.cloudWaiting`).
+    assert english_total == 13_569
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

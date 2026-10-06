@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-07 — Triggers & events: both directions, and a route nothing is sending
+
+- 1 cloud key added and 2 changed in en, zh-TW and zh-CN, copied verbatim from
+  the flyto-cloud bundled locales (other locales fall back to English):
+  - `spaces.triggers.events.cloudWaiting` (new): a subscription sent by Cloud
+    while no Cloud sender has asked for its events in the last 2 minutes.
+  - `spaces.triggers.events.computerWaiting`: now says no computer of the Space
+    has asked in the last 2 minutes and names the Desktop release
+    (`{release}`) that sends them.
+  - `spaces.triggers.description`: the tab now holds inbound triggers and
+    event subscriptions, so its description names both.
+- The cumulative key count moves from 13,568 to 13,569.
+
 ## 2026-10-07 — A Space's task lifecycle events sent to another system
 
 - 62 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
