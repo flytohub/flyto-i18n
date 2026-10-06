@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-06 — Equipment presence states
+
+- 4 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
+  flyto-cloud bundled locales (other locales fall back to English):
+  `spaces.resources.presence.{unreachable,unreported,unreportedHint,dormant}`.
+
 ## 2026-10-06 — Closure 1006b: evidence time, provider-neutral names, retired copy
 
 - 30 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
