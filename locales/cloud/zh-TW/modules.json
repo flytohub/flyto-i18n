@@ -288,11 +288,6 @@
     "cloud.modules.training.practice.infer_schema.description": "從網站推斷資料架構",
     "cloud.modules.training.practice.infer_schema.label": "推斷架構",
     "cloud.modules.training.practice.stats.description": "取得練習統計資料",
-    "cloud.modules.training.practice.stats.label": "練習統計",
-    "modules.notification.discord.send_message.params.avatar_url.description": "Bot 頭像圖片網址（選填）",
-    "modules.notification.discord.send_message.params.username.description": "覆蓋 Bot 顯示名稱（選填）",
-    "modules.notification.telegram.send_message.params.bot_token.description": "Telegram Bot Token（來自 env.TELEGRAM_BOT_TOKEN 或直接輸入）",
-    "modules.notification.slack.send_message.params.icon_emoji.description": "Bot 圖示 emoji（選填）",
-    "modules.notification.slack.send_message.params.username.description": "覆蓋 Bot 顯示名稱（選填）"
+    "cloud.modules.training.practice.stats.label": "練習統計"
   }
 }

@@ -14,6 +14,9 @@
   screens.
 - 50 en, 47 zh-TW and 115 zh-CN values replaced: English left in the Chinese
   catalogs and labels generated from their own keys.
+- 5 zh-TW and zh-CN Discord/Slack/Telegram parameter descriptions in the
+  modules scope (`locales/modules/*/notification.json`) say Bot instead of
+  機器人, which flyto-cloud's check-i18n reads as equipment vocabulary.
 - 75 keys removed from every locale, with no consumer left in any repository:
   71 key-shaped `admin.*` leaves, `dashboard.evolution.subtitle` and the
   interpolated fragments `scheduler.{lastRun,runs,times}`.
