@@ -50,6 +50,7 @@
     "flow.trigger.webhookHint": "The unique path for your webhook endpoint",
     "flow.trigger.webhookPath": "Webhook Path",
     "flow.trigger.webhookPathPlaceholder": "my-workflow",
-    "flow.trigger.webhookUrl": "Full URL:"
+    "flow.trigger.webhookUrl": "Full URL:",
+    "flow.switch.defaultCase": "Case {n}"
   }
 }

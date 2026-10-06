@@ -32,6 +32,16 @@
         "workflowCanvas.reconnect.cancel": "取消",
         "workflowCanvas.reconnect.connect": "连接",
         "workflowCanvas.reconnect.dontConnect": "不连接",
-        "workflowCanvas.stickyNoteCreated": "便利贴已创建"
+        "workflowCanvas.stickyNoteCreated": "便利贴已创建",
+        "workflowCanvas.node.addLoopBody": "在循环中添加步骤",
+        "workflowCanvas.node.afterLoop": "循环结束后",
+        "workflowCanvas.node.branchFalse": "条件不成立",
+        "workflowCanvas.node.branchTrue": "条件成立",
+        "workflowCanvas.node.loopBody": "循环步骤",
+        "workflowCanvas.node.loopDone": "完成",
+        "workflowCanvas.node.memory": "记忆",
+        "workflowCanvas.node.model": "模型",
+        "workflowCanvas.node.saveAsTemplate": "另存为模板",
+        "workflowCanvas.node.tools": "工具"
     }
 }

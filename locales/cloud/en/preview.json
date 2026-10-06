@@ -17,6 +17,8 @@
         "preview.ready": "Ready",
         "preview.running": "Running",
         "preview.steps": "steps",
-        "preview.untitledTemplate": "Untitled Template"
+        "preview.untitledTemplate": "Untitled Template",
+        "preview.selectOption": "Select an option",
+        "preview.typeAndEnter": "Type and press Enter"
     }
 }

@@ -32,6 +32,24 @@
         "variables.types.number": "数字",
         "variables.types.secret": "机密",
         "variables.types.string": "字符串",
-        "variables.value": "值"
+        "variables.value": "值",
+        "variables.credentialTypes.apiKey": "API 密钥",
+        "variables.credentialTypes.apiKeyHint": "单个 API 密钥或令牌",
+        "variables.credentialTypes.basicAuth": "基本认证",
+        "variables.credentialTypes.basicAuthHint": "用户名和密码",
+        "variables.credentialTypes.bearerToken": "Bearer 令牌",
+        "variables.credentialTypes.bearerTokenHint": "OAuth Bearer 令牌",
+        "variables.credentialTypes.fields.clientId": "客户端 ID",
+        "variables.credentialTypes.fields.clientSecret": "客户端密钥",
+        "variables.credentialTypes.fields.password": "密码",
+        "variables.credentialTypes.fields.scopes": "授权范围",
+        "variables.credentialTypes.fields.token": "令牌",
+        "variables.credentialTypes.fields.tokenUrl": "令牌网址",
+        "variables.credentialTypes.fields.username": "用户名",
+        "variables.credentialTypes.fields.value": "值",
+        "variables.credentialTypes.generic": "通用机密",
+        "variables.credentialTypes.genericHint": "任意格式的机密值",
+        "variables.credentialTypes.oauth2": "OAuth2 客户端",
+        "variables.credentialTypes.oauth2Hint": "OAuth2 客户端凭证"
     }
 }

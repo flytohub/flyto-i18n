@@ -4,19 +4,19 @@
   "category": "cloud.browser",
   "version": "1.0.0",
   "translations": {
-    "browser.closeBrowser": "Close Browser",
-    "browser.connecting": "Connecting",
-    "browser.controlling": "Controlling",
-    "browser.deny": "Deny",
-    "browser.grant": "Grant",
-    "browser.idleWarning": "Idle Warning",
-    "browser.interactToKeep": "Interact To Keep",
-    "browser.liveView": "Live View",
-    "browser.releaseControl": "Release Control",
-    "browser.requestControl": "Request Control",
-    "browser.requestsControl": "Requests Control",
-    "browser.viewOnly": "View Only",
-    "browser.viewing": "Viewing",
-    "browser.waitingForStream": "Waiting For Stream"
+    "browser.closeBrowser": "关闭浏览器",
+    "browser.connecting": "连接中",
+    "browser.controlling": "控制中",
+    "browser.deny": "拒绝",
+    "browser.grant": "授权",
+    "browser.idleWarning": "浏览器即将关闭，剩余",
+    "browser.interactToKeep": "操作画面即可重置计时",
+    "browser.liveView": "实时预览",
+    "browser.releaseControl": "释放控制",
+    "browser.requestControl": "请求控制",
+    "browser.requestsControl": "请求控制中",
+    "browser.viewOnly": "仅查看",
+    "browser.viewing": "查看中",
+    "browser.waitingForStream": "等待浏览器串流中…"
   }
 }

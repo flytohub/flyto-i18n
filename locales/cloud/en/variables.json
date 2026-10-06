@@ -32,6 +32,24 @@
     "variables.types.number": "Number",
     "variables.types.secret": "Secret",
     "variables.types.string": "String",
-    "variables.value": "Value"
+    "variables.value": "Value",
+    "variables.credentialTypes.apiKey": "API key",
+    "variables.credentialTypes.apiKeyHint": "A single API key or token",
+    "variables.credentialTypes.basicAuth": "Basic authentication",
+    "variables.credentialTypes.basicAuthHint": "Username and password",
+    "variables.credentialTypes.bearerToken": "Bearer token",
+    "variables.credentialTypes.bearerTokenHint": "An OAuth bearer token",
+    "variables.credentialTypes.fields.clientId": "Client ID",
+    "variables.credentialTypes.fields.clientSecret": "Client secret",
+    "variables.credentialTypes.fields.password": "Password",
+    "variables.credentialTypes.fields.scopes": "Scopes",
+    "variables.credentialTypes.fields.token": "Token",
+    "variables.credentialTypes.fields.tokenUrl": "Token URL",
+    "variables.credentialTypes.fields.username": "Username",
+    "variables.credentialTypes.fields.value": "Value",
+    "variables.credentialTypes.generic": "Generic secret",
+    "variables.credentialTypes.genericHint": "A free-form secret value",
+    "variables.credentialTypes.oauth2": "OAuth2 client",
+    "variables.credentialTypes.oauth2Hint": "OAuth2 client credentials"
   }
 }

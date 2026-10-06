@@ -21,6 +21,8 @@
     "vectorStore.scoreThreshold": "相似度門檻",
     "vectorStore.scoreThresholdHint": "最低相似度分數 (0-1)",
     "vectorStore.selectCollection": "選擇集合...",
-    "vectorStore.topK": "前 K 筆結果"
+    "vectorStore.topK": "前 K 筆結果",
+    "vectorStore.deleteIdsPlaceholder": "輸入文件 ID，每行一個…",
+    "vectorStore.documentIdGenerated": "留空時自動產生"
   }
 }

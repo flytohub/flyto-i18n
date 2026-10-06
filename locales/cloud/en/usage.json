@@ -26,8 +26,8 @@
     "usage.quota.unlimited": "Unlimited",
     "usage.quota.upgrade": "Upgrade for unlimited access",
     "usage.quota.used": "{current} / {limit}",
-    "usage.status.limitReached": "Limit Reached",
-    "usage.status.nearLimit": "Near Limit",
+    "usage.status.limitReached": "Limit reached",
+    "usage.status.nearLimit": "Near limit",
     "usage.status.normal": "Normal",
     "usage.status.unlimited": "Unlimited",
     "usage.title": "Usage Details",
@@ -41,6 +41,10 @@
     "usage.warning.resetDate": "Usage resets on",
     "usage.warning.upgradePlan": "Upgrade Plan",
     "usage.warning.whatHappens": "What happens when you reach the limit?",
-    "usage.warning.whatNow": "What can I do?"
+    "usage.warning.whatNow": "What can I do?",
+    "usage.dashboard.chartBar": "Bar",
+    "usage.dashboard.chartLine": "Line",
+    "usage.dashboard.pointsUsed": "Points used",
+    "usage.dashboard.pointsValue": "{value} points"
   }
 }

@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "dashboardPage.devices.allOffline": "All offline",
-    "dashboardPage.devices.confirmRemove": "Confirm Remove",
+    "dashboardPage.devices.confirmRemove": "Remove this device?",
     "dashboardPage.devices.equipment": "Connected equipment",
     "dashboardPage.devices.infrastructure": "Registered automatically",
     "dashboardPage.devices.machines": "Machines running Flyto2",
@@ -14,8 +14,8 @@
     "dashboardPage.devices.noEquipment": "No equipment is connected yet",
     "dashboardPage.devices.noJobs": "No execution jobs yet",
     "dashboardPage.devices.recentJobs": "Recent Jobs",
-    "dashboardPage.devices.removeFailed": "Remove Failed",
-    "dashboardPage.devices.removed": "Removed",
+    "dashboardPage.devices.removeFailed": "Failed to remove device",
+    "dashboardPage.devices.removed": "Device removed",
     "dashboardPage.devices.title": "Devices",
     "dashboardPage.devices.voiceArmed": "{armed} phrases armed, {refused} refused",
     "dashboardPage.devices.voiceArmedNothing": "Listening, but no phrase is armed",
@@ -77,6 +77,13 @@
     "dashboardPage.devices.presence.offline": "Offline",
     "dashboardPage.devices.presence.neverConnected": "Never connected",
     "dashboardPage.devices.presence.dormant": "Dormant · last seen {date}",
-    "dashboardPage.devices.confirmRemoveMessage": "Remove \"{name}\" from your devices? It disappears from this list and has to be paired again to come back."
+    "dashboardPage.devices.confirmRemoveMessage": "Remove \"{name}\" from your devices? It disappears from this list and has to be paired again to come back.",
+    "dashboardPage.devices.jobsCount": "{n} job | {n} jobs",
+    "dashboardPage.devices.jobsFailed": "Could not load recent jobs. Check your connection and try again.",
+    "dashboardPage.devices.jobsUnreadable": "The job list came back in a shape this build cannot read.",
+    "dashboardPage.devices.listFailed": "Could not load devices. Check your connection and try again.",
+    "dashboardPage.devices.listUnreadable": "The device list came back in a shape this build cannot read.",
+    "dashboardPage.devices.voiceFailed": "Could not read the voice service status.",
+    "dashboardPage.devices.voiceUnreadable": "The voice service status came back in a shape this build cannot read."
   }
 }

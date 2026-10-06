@@ -27,7 +27,7 @@
     "cloud.issues.status.open": "開啟",
     "cloud.issues.status.in_progress": "處理中",
     "cloud.issues.status.closed": "已關閉",
-    "cloud.issues.type.bug": "Bug",
+    "cloud.issues.type.bug": "錯誤",
     "cloud.issues.type.feature": "功能請求",
     "cloud.issues.type.question": "問題",
     "cloud.issues.priority.low": "低",

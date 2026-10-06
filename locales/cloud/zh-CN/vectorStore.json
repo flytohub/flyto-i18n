@@ -21,6 +21,8 @@
         "vectorStore.scoreThreshold": "相似度门槛",
         "vectorStore.scoreThresholdHint": "最低相似度分数 (0-1)",
         "vectorStore.selectCollection": "选择集合...",
-        "vectorStore.topK": "前 K 笔结果"
+        "vectorStore.topK": "前 K 笔结果",
+        "vectorStore.deleteIdsPlaceholder": "输入文档 ID，每行一个…",
+        "vectorStore.documentIdGenerated": "留空时自动生成"
     }
 }

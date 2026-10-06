@@ -12,6 +12,26 @@
         "lineage.storyline.noSteps": "没有步骤可显示",
         "lineage.storyline.noStepsInLane": "此区段没有步骤",
         "lineage.storyline.runHint": "运行工作流程以查看运行历史",
-        "lineage.storyline.title": "运行时间轴"
+        "lineage.storyline.title": "运行时间轴",
+        "lineage.category.act": "执行",
+        "lineage.category.actHint": "执行的操作",
+        "lineage.category.decide": "决策",
+        "lineage.category.decideHint": "AI 决策与置信度",
+        "lineage.category.evaluate": "评估",
+        "lineage.category.evaluateHint": "评分与验证",
+        "lineage.category.observe": "观察",
+        "lineage.category.observeHint": "截图、API 响应、采集的数据",
+        "lineage.category.verify": "验证",
+        "lineage.category.verifyHint": "确认的结果",
+        "lineage.decision.types.askUser": "询问用户",
+        "lineage.decision.types.complete": "完成",
+        "lineage.decision.types.default": "决策",
+        "lineage.decision.types.fail": "未通过",
+        "lineage.decision.types.needFix": "需要修正",
+        "lineage.decision.types.pass": "通过",
+        "lineage.decision.types.retry": "重试",
+        "lineage.storyline.layers.artifacts": "产出物",
+        "lineage.storyline.layers.debug": "调试",
+        "lineage.storyline.layers.storyline": "流程轴"
     }
 }

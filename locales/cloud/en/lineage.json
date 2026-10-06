@@ -12,6 +12,26 @@
     "lineage.storyline.noSteps": "No steps to display",
     "lineage.storyline.noStepsInLane": "No steps in this lane",
     "lineage.storyline.runHint": "Run the workflow to see execution history",
-    "lineage.storyline.title": "Execution Timeline"
+    "lineage.storyline.title": "Execution Timeline",
+    "lineage.category.act": "Act",
+    "lineage.category.actHint": "Operations carried out",
+    "lineage.category.decide": "Decide",
+    "lineage.category.decideHint": "AI decisions with their confidence",
+    "lineage.category.evaluate": "Evaluate",
+    "lineage.category.evaluateHint": "Scores and validation",
+    "lineage.category.observe": "Observe",
+    "lineage.category.observeHint": "Screenshots, API responses, captured data",
+    "lineage.category.verify": "Verify",
+    "lineage.category.verifyHint": "Confirmed results",
+    "lineage.decision.types.askUser": "Ask the user",
+    "lineage.decision.types.complete": "Complete",
+    "lineage.decision.types.default": "Decision",
+    "lineage.decision.types.fail": "Fail",
+    "lineage.decision.types.needFix": "Needs a fix",
+    "lineage.decision.types.pass": "Pass",
+    "lineage.decision.types.retry": "Retry",
+    "lineage.storyline.layers.artifacts": "Artifacts",
+    "lineage.storyline.layers.debug": "Debug",
+    "lineage.storyline.layers.storyline": "Storyline"
   }
 }

@@ -32,6 +32,24 @@
     "variables.types.number": "數字",
     "variables.types.secret": "機密",
     "variables.types.string": "字串",
-    "variables.value": "值"
+    "variables.value": "值",
+    "variables.credentialTypes.apiKey": "API 金鑰",
+    "variables.credentialTypes.apiKeyHint": "單一 API 金鑰或權杖",
+    "variables.credentialTypes.basicAuth": "基本驗證",
+    "variables.credentialTypes.basicAuthHint": "使用者名稱與密碼",
+    "variables.credentialTypes.bearerToken": "Bearer 權杖",
+    "variables.credentialTypes.bearerTokenHint": "OAuth Bearer 權杖",
+    "variables.credentialTypes.fields.clientId": "用戶端 ID",
+    "variables.credentialTypes.fields.clientSecret": "用戶端密鑰",
+    "variables.credentialTypes.fields.password": "密碼",
+    "variables.credentialTypes.fields.scopes": "授權範圍",
+    "variables.credentialTypes.fields.token": "權杖",
+    "variables.credentialTypes.fields.tokenUrl": "權杖網址",
+    "variables.credentialTypes.fields.username": "使用者名稱",
+    "variables.credentialTypes.fields.value": "值",
+    "variables.credentialTypes.generic": "一般機密",
+    "variables.credentialTypes.genericHint": "任意格式的機密值",
+    "variables.credentialTypes.oauth2": "OAuth2 用戶端",
+    "variables.credentialTypes.oauth2Hint": "OAuth2 用戶端憑證"
   }
 }

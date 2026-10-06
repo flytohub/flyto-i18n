@@ -29,7 +29,7 @@
     "myTemplates.moreActions": "更多",
     "myTemplates.forkFailed": "Fork 工作流程失敗",
     "myTemplates.forkSuccess": "工作流程 Fork 成功",
-    "myTemplates.importSuccess": "匯入成功",
+    "myTemplates.importSuccess": "已匯入範本",
     "myTemplates.join.subtitle": "輸入邀請碼即時協作編輯",
     "myTemplates.join.success": "加入成功！正在跳轉...",
     "myTemplates.joinCollaboration": "加入協作",

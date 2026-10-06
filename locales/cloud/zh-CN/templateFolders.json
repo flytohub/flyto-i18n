@@ -11,8 +11,8 @@
     "templateFolders.delete": "删除文件夹",
     "templateFolders.deleteConfirmMessage": "此文件夹将被删除。所有内容将移至上层文件夹。",
     "templateFolders.deleteConfirmTitle": "删除文件夹",
-    "templateFolders.deleteFolder": "Delete Folder",
-    "templateFolders.deleteFolderMessage": "Delete Folder Message",
+    "templateFolders.deleteFolder": "删除文件夹",
+    "templateFolders.deleteFolderMessage": "此文件夹中的模板会移到最上层。",
     "templateFolders.deleteSuccess": "文件夹已删除",
     "templateFolders.emptyFolder": "此文件夹是空的",
     "templateFolders.folderName": "文件夹名称",
@@ -32,6 +32,14 @@
     "templateFolders.selectColor": "选择颜色",
     "templateFolders.templateCount": "{count} 个模板",
     "templateFolders.templates": "个模板",
-    "templateFolders.aiSpaceChangedElsewhere": "设置打开期间，这个 Space 已在其他地方被修改，所以这次没有保存。已加载最新设置，请重新修改一次。"
+    "templateFolders.aiSpaceChangedElsewhere": "设置打开期间，这个 Space 已在其他地方被修改，所以这次没有保存。已加载最新设置，请重新修改一次。",
+    "templateFolders.colors.amber": "琥珀色",
+    "templateFolders.colors.blue": "蓝色",
+    "templateFolders.colors.cyan": "青色",
+    "templateFolders.colors.gray": "灰色",
+    "templateFolders.colors.green": "绿色",
+    "templateFolders.colors.pink": "粉红色",
+    "templateFolders.colors.purple": "紫色",
+    "templateFolders.colors.red": "红色"
   }
 }

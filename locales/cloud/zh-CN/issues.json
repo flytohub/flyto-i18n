@@ -44,7 +44,7 @@
     "cloud.issues.title": "问题反馈",
     "cloud.issues.titleLabel": "标题",
     "cloud.issues.titlePlaceholder": "简要描述问题",
-    "cloud.issues.type.bug": "Bug",
+    "cloud.issues.type.bug": "错误",
     "cloud.issues.type.feature": "功能请求",
     "cloud.issues.type.question": "问题",
     "cloud.issues.typeLabel": "类型",

@@ -288,6 +288,11 @@
         "cloud.modules.training.practice.infer_schema.description": "从网站推断数据架构",
         "cloud.modules.training.practice.infer_schema.label": "推断架构",
         "cloud.modules.training.practice.stats.description": "取得练习统计数据",
-        "cloud.modules.training.practice.stats.label": "练习统计"
+        "cloud.modules.training.practice.stats.label": "练习统计",
+        "modules.notification.discord.send_message.params.avatar_url.description": "Bot 头像图片网址（选填）",
+        "modules.notification.discord.send_message.params.username.description": "覆盖 Bot 显示名称（选填）",
+        "modules.notification.telegram.send_message.params.bot_token.description": "Telegram Bot Token（来自 env.TELEGRAM_BOT_TOKEN 或直接输入）",
+        "modules.notification.slack.send_message.params.icon_emoji.description": "Bot 图标 emoji（选填）",
+        "modules.notification.slack.send_message.params.username.description": "覆盖 Bot 显示名称（选填）"
     }
 }

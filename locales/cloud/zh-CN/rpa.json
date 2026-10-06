@@ -27,6 +27,14 @@
         "rpa.stats.agents": "代理数量",
         "rpa.stats.executions": "运行次数",
         "rpa.stats.recordings": "录制数量",
-        "rpa.stats.success": "成功次数"
+        "rpa.stats.success": "成功次数",
+        "rpa.quickActions.click": "点击元素",
+        "rpa.quickActions.clickHint": "点击屏幕上的元素",
+        "rpa.quickActions.screenshot": "截取屏幕",
+        "rpa.quickActions.screenshotHint": "截取一张屏幕画面",
+        "rpa.quickActions.type": "输入文字",
+        "rpa.quickActions.typeHint": "在字段中输入文字",
+        "rpa.quickActions.wait": "等待",
+        "rpa.quickActions.waitHint": "等待元素出现或指定时间"
     }
 }

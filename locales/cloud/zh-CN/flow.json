@@ -50,6 +50,7 @@
         "flow.trigger.webhookHint": "Webhook 端点的唯一路径",
         "flow.trigger.webhookPath": "Webhook 路径",
         "flow.trigger.webhookPathPlaceholder": "Webhook 路径的提示文本",
-        "flow.trigger.webhookUrl": "完整网址："
+        "flow.trigger.webhookUrl": "完整网址：",
+        "flow.switch.defaultCase": "情况 {n}"
     }
 }

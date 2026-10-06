@@ -25,6 +25,7 @@
     "purchases.requestRefund": "申请退款",
     "purchases.subtitle": "查看已购买的工作流并管理退款",
     "purchases.title": "购买纪录",
-    "purchases.viewTemplate": "查看工作流"
+    "purchases.viewTemplate": "查看工作流",
+    "purchases.loadFailed": "无法加载你的购买记录"
   }
 }

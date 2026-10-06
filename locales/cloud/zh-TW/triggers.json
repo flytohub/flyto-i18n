@@ -71,7 +71,7 @@
     "triggers.payload": "載荷",
     "triggers.payloadReceived": "已收到資料",
     "triggers.pending": "等待中",
-    "triggers.presets": "Presets",
+    "triggers.presets": "預設範本",
     "triggers.presets.daily": "每天",
     "triggers.presets.everyMinute": "每分鐘",
     "triggers.presets.hourly": "每小時",
@@ -131,6 +131,7 @@
     "triggers.webhookTestDesc": "向 Webhook 網址發送請求，查看收到的內容。",
     "triggers.webhookUrl": "Webhook 網址",
     "triggers.webhooks": "Webhook",
-    "triggers.workflow": "工作流程"
+    "triggers.workflow": "工作流程",
+    "triggers.toolDescriptionPlaceholder": "例如：執行專案冒煙測試"
   }
 }

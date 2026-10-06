@@ -63,6 +63,7 @@
     "publish.visibility.private": "私有",
     "publish.visibility.privateDesc": "仅可通过邀请码访问",
     "publish.visibility.public": "公开",
-    "publish.visibility.publicDesc": "在市场中可见，任何人都可以找到并安装"
+    "publish.visibility.publicDesc": "在市场中可见，任何人都可以找到并安装",
+    "publish.pricing.customAmount": "自定义金额"
   }
 }

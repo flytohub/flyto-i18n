@@ -12,6 +12,26 @@
     "lineage.storyline.noSteps": "沒有步驟可顯示",
     "lineage.storyline.noStepsInLane": "此區段沒有步驟",
     "lineage.storyline.runHint": "執行工作流程以查看執行歷史",
-    "lineage.storyline.title": "執行時間軸"
+    "lineage.storyline.title": "執行時間軸",
+    "lineage.category.act": "執行",
+    "lineage.category.actHint": "執行的操作",
+    "lineage.category.decide": "決策",
+    "lineage.category.decideHint": "AI 決策與信心程度",
+    "lineage.category.evaluate": "評估",
+    "lineage.category.evaluateHint": "評分與驗證",
+    "lineage.category.observe": "觀察",
+    "lineage.category.observeHint": "截圖、API 回應、擷取的資料",
+    "lineage.category.verify": "驗證",
+    "lineage.category.verifyHint": "確認的結果",
+    "lineage.decision.types.askUser": "詢問使用者",
+    "lineage.decision.types.complete": "完成",
+    "lineage.decision.types.default": "決策",
+    "lineage.decision.types.fail": "未通過",
+    "lineage.decision.types.needFix": "需要修正",
+    "lineage.decision.types.pass": "通過",
+    "lineage.decision.types.retry": "重試",
+    "lineage.storyline.layers.artifacts": "產出物",
+    "lineage.storyline.layers.debug": "除錯",
+    "lineage.storyline.layers.storyline": "流程軸"
   }
 }

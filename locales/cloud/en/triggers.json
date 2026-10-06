@@ -131,6 +131,7 @@
     "triggers.webhookTestDesc": "Send a request to the webhook URL to see what arrives.",
     "triggers.webhookUrl": "Webhook URL",
     "triggers.webhooks": "Webhooks",
-    "triggers.workflow": "Workflow"
+    "triggers.workflow": "Workflow",
+    "triggers.toolDescriptionPlaceholder": "For example: run the project smoke test"
   }
 }
