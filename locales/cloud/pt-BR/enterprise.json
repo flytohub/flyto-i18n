@@ -7,7 +7,6 @@
         "enterprise.actions.notSupported": "Action not supported",
         "enterprise.errors.actionFailed": "Ação falhou",
         "enterprise.errors.loadFailed": "Failed to load",
-        "enterprise.robotsOnline": "Robôs Online",
         "enterprise.subtitle": "Ferramentas de automação empresarial",
         "enterprise.tabs.idp": "Processamento de Documentos",
         "enterprise.tabs.mining": "Mineração de Processos",

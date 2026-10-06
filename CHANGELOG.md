@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-10-06 — Closure 1006b: evidence time, provider-neutral names, retired copy
+
+- 30 cloud keys added in en, zh-TW and zh-CN, copied verbatim from the
+  flyto-cloud bundled locales (other locales fall back to English, as with the
+  earlier Mission Station copy):
+  - Evidence time on the task timeline: `spaces.timeline.stage.{evidence_admission,evidence_not_current}`,
+    `spaces.timeline.evidence.{admitted,missing,notCurrent,refused}` and
+    `spaces.timeline.evidence.reason.{expired,undated,historical_kind,undeclared_kind,observed_after_use,no_clock,not_recorded}`.
+  - Skipped steps: `spaces.narrative.step.{skipped,skippedUnobserved}`, `spaces.narrative.stepState.skipped`.
+  - `spaces.narrative.adapterReason.resourceBusy`.
+  - Provider-neutral renames: `orchestrator.robots.*` -> `orchestrator.runners.*`,
+    `orchestrator.stats.totalRobots` -> `totalRunners`, `enterprise.robotsOnline` -> `runnersOnline`,
+    `spaces.capability.family.robot` -> `equipment`,
+    `spaces.narrative.adapterReason.travelled` -> `stoppedAfter`. Other locales
+    drop the old robot-named key and fall back to English.
+- 10 values reworded to match flyto-cloud: `orchestrator.register.{title,name,namePlaceholder}`
+  (runner, not robot), `aiSpace.resources.coveragePlaceholder` (`zone-b, floor-2`),
+  `spaces.hud.sweep.{before,after}` (range scan, not a sensor brand) and
+  `spaces.narrative.adapterReason.{localizationError,noEscapeRoom,nearest,nearestSide}`.
+  Stale translations of these in other locales are removed so they fall back
+  to the new English.
+- 96 cloud keys removed from every locale, with no consumer left in flyto-cloud
+  or any other workspace repository: `aiSpace.delivery.*` (retired
+  guarded-delivery panel), `aiSpace.controls.runtime*`, `spaces.kind.robot`,
+  `spaces.hud.evidenceKind.robot.arrival` and the renamed keys above.
+  `locales/landing/` copies of the orchestrator and enterprise keys are untouched.
+
 ## 2026-10-06 — Readable adapter failure copy
 
 - 16 cloud keys flyto-cloud now uses, in en, zh-TW and zh-CN (other locales

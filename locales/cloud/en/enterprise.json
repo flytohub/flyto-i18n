@@ -7,7 +7,7 @@
     "enterprise.actions.notSupported": "This action is not supported by the enterprise backend",
     "enterprise.errors.actionFailed": "Action failed",
     "enterprise.errors.loadFailed": "Failed to load enterprise data",
-    "enterprise.robotsOnline": "workers online",
+    "enterprise.runnersOnline": "workers online",
     "enterprise.subtitle": "Enterprise automation tools",
     "enterprise.tabs.idp": "Document Processing",
     "enterprise.tabs.mining": "Process Mining",
