@@ -714,12 +714,17 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.narrative.task.registryMoved`,
     # `spaces.narrative.problem.registry_snapshot_stale`,
     # `spaces.timeline.{stage,plain}.registry_moved`.
+    # +56: another system hands a Space a goal (flyto-cloud 2026-10-07):
+    # `spaces.triggers.*` (47, the Triggers & events tab, its inbound
+    # triggers and the shown-once secret), `spaces.tasks.submittedBy.*` (4),
+    # `spaces.tasks.holdUnattended`, `aiSpace.workspace.tabs.triggers`,
+    # `auth.oauthConsent.scopes.{spacesSubmit,spacesRead}.{title,description}`.
     # +62: a Space's task lifecycle events sent to another system
     # (flyto-cloud 2026-10-07): `spaces.triggers.events.*` (41),
     # `spaces.triggers.delivery.*` (19),
     # `spaces.tasks.{eventDelivered,eventDeliveries}`. The tab and its title
     # are the inbound-triggers copy's keys.
-    assert english_total == 13_512
+    assert english_total == 13_568
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
