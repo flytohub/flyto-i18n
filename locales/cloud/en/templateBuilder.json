@@ -20,7 +20,7 @@
     "templateBuilder.aiChat.quickLoginFlow": "Login flow",
     "templateBuilder.aiChat.quickScraper": "Scraper",
     "templateBuilder.aiChat.quickValidation": "Validation",
-    "templateBuilder.aiChat.setupDesc": "Setup Desc",
+    "templateBuilder.aiChat.setupDesc": "Connect an AI provider in Settings so the assistant can help you build and adjust workflows.",
     "templateBuilder.aiChat.setupTitle": "Setup Title",
     "templateBuilder.aiChat.space": "AI Space",
     "templateBuilder.aiChat.suggestionApplied": "Applied workflow: {name}",
@@ -381,6 +381,8 @@
     "templateBuilder.aiChat.approval.alreadyAnswered": "This request was already answered or no longer matches.",
     "templateBuilder.aiChat.approval.expired": "This request expired. Ask again to get a new one.",
     "templateBuilder.aiChat.approval.failed": "Could not send the approval. Try again.",
-    "templateBuilder.aiChat.approval.continue": "Approved. Run {tool} once with exactly the same inputs."
+    "templateBuilder.aiChat.approval.continue": "Approved. Run {tool} once with exactly the same inputs.",
+    "templateBuilder.nodeProperties.allFileTypes": "* (all files)",
+    "templateBuilder.nodeProperties.optionPairsPlaceholder": "value:label (one per line)"
   }
 }

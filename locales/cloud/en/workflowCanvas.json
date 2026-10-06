@@ -32,6 +32,16 @@
     "workflowCanvas.reconnect.cancel": "Cancel",
     "workflowCanvas.reconnect.connect": "Connect",
     "workflowCanvas.reconnect.dontConnect": "Don't Connect",
-    "workflowCanvas.stickyNoteCreated": "Sticky note created"
+    "workflowCanvas.stickyNoteCreated": "Sticky note created",
+    "workflowCanvas.node.addLoopBody": "Add a step to the loop",
+    "workflowCanvas.node.afterLoop": "After the loop",
+    "workflowCanvas.node.branchFalse": "When false",
+    "workflowCanvas.node.branchTrue": "When true",
+    "workflowCanvas.node.loopBody": "Loop steps",
+    "workflowCanvas.node.loopDone": "Done",
+    "workflowCanvas.node.memory": "Memory",
+    "workflowCanvas.node.model": "Model",
+    "workflowCanvas.node.saveAsTemplate": "Save as template",
+    "workflowCanvas.node.tools": "Tools"
   }
 }

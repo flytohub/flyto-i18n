@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "dashboardPage.devices.allOffline": "全部離線",
-    "dashboardPage.devices.confirmRemove": "確認移除",
+    "dashboardPage.devices.confirmRemove": "要移除此裝置嗎？",
     "dashboardPage.devices.equipment": "連結設備",
     "dashboardPage.devices.infrastructure": "系統自動註冊",
     "dashboardPage.devices.machines": "執行 Flyto2 的機器",
@@ -14,8 +14,8 @@
     "dashboardPage.devices.noEquipment": "目前沒有連結任何設備",
     "dashboardPage.devices.noJobs": "尚無執行記錄",
     "dashboardPage.devices.recentJobs": "最近執行",
-    "dashboardPage.devices.removeFailed": "移除失敗",
-    "dashboardPage.devices.removed": "已移除",
+    "dashboardPage.devices.removeFailed": "無法移除裝置",
+    "dashboardPage.devices.removed": "已移除裝置",
     "dashboardPage.devices.title": "裝置",
     "dashboardPage.devices.voiceArmed": "已上線 {armed} 個詞，拒絕 {refused} 個",
     "dashboardPage.devices.voiceArmedNothing": "有在聆聽，但沒有任何詞上線",
@@ -77,6 +77,13 @@
     "dashboardPage.devices.presence.offline": "離線",
     "dashboardPage.devices.presence.neverConnected": "從未連線",
     "dashboardPage.devices.presence.dormant": "已閒置 · 最後上線 {date}",
-    "dashboardPage.devices.confirmRemoveMessage": "要從你的裝置中移除「{name}」嗎？它會從這個清單消失，之後要重新配對才會回來。"
+    "dashboardPage.devices.confirmRemoveMessage": "要從你的裝置中移除「{name}」嗎？它會從這個清單消失，之後要重新配對才會回來。",
+    "dashboardPage.devices.jobsCount": "{n} 個工作 | {n} 個工作",
+    "dashboardPage.devices.jobsFailed": "無法載入最近的工作，請檢查連線後再試一次。",
+    "dashboardPage.devices.jobsUnreadable": "工作清單的回應格式此版本無法讀取。",
+    "dashboardPage.devices.listFailed": "無法載入裝置，請檢查連線後再試一次。",
+    "dashboardPage.devices.listUnreadable": "裝置清單的回應格式此版本無法讀取。",
+    "dashboardPage.devices.voiceFailed": "無法讀取語音服務狀態。",
+    "dashboardPage.devices.voiceUnreadable": "語音服務狀態的回應格式此版本無法讀取。"
   }
 }

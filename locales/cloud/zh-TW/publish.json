@@ -63,6 +63,7 @@
     "publish.visibility.private": "私有",
     "publish.visibility.privateDesc": "僅可透過邀請碼存取",
     "publish.visibility.public": "公開",
-    "publish.visibility.publicDesc": "在市場中可見，任何人都可以找到並安裝"
+    "publish.visibility.publicDesc": "在市場中可見，任何人都可以找到並安裝",
+    "publish.pricing.customAmount": "自訂金額"
   }
 }

@@ -63,6 +63,7 @@
     "publish.visibility.private": "Private",
     "publish.visibility.privateDesc": "Only accessible via invite key",
     "publish.visibility.public": "Public",
-    "publish.visibility.publicDesc": "Visible in marketplace, anyone can find and install"
+    "publish.visibility.publicDesc": "Visible in marketplace, anyone can find and install",
+    "publish.pricing.customAmount": "Custom amount"
   }
 }

@@ -9,14 +9,14 @@
     "browser.controlling": "控制中",
     "browser.deny": "拒絕",
     "browser.grant": "授權",
-    "browser.idleWarning": "閒置警告",
-    "browser.interactToKeep": "操作以保持連線",
+    "browser.idleWarning": "瀏覽器即將關閉，剩餘",
+    "browser.interactToKeep": "操作畫面即可重設計時",
     "browser.liveView": "即時預覽",
     "browser.releaseControl": "釋放控制",
     "browser.requestControl": "請求控制",
     "browser.requestsControl": "請求控制中",
     "browser.viewOnly": "僅檢視",
     "browser.viewing": "檢視中",
-    "browser.waitingForStream": "等待串流中"
+    "browser.waitingForStream": "等待瀏覽器串流中…"
   }
 }

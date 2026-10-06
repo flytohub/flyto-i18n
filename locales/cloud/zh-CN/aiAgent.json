@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "translations": {
     "aiAgent.advancedOptions": "",
-    "aiAgent.apiKey": "Api Key",
-    "aiAgent.apiKeyHint": "Api Key Hint",
-    "aiAgent.apiKeyPlaceholder": "Api Key Placeholder",
+    "aiAgent.apiKey": "API 密钥",
+    "aiAgent.apiKeyHint": "留空时会使用 OPENAI_API_KEY 或 ANTHROPIC_API_KEY 环境变量。",
+    "aiAgent.apiKeyPlaceholder": "留空以使用环境变量",
     "aiAgent.fromInput": "从输入取得",
     "aiAgent.manual": "手动输入",
     "aiAgent.maxIterations": "",
@@ -19,10 +19,10 @@
     "aiAgent.selectVariable": "选择变量",
     "aiAgent.shellInfo": "Shell 信息",
     "aiAgent.shellInfoDesc": "查看 Shell 环境和运行上下文",
-    "aiAgent.systemPrompt": "System Prompt",
-    "aiAgent.systemPromptPlaceholder": "System Prompt Placeholder",
+    "aiAgent.systemPrompt": "系统提示",
+    "aiAgent.systemPromptPlaceholder": "你是一个乐于协助的 AI 代理…",
     "aiAgent.task": "任务",
     "aiAgent.taskPlaceholder": "描述代理应该完成的任务...",
-    "aiAgent.temperature": "Temperature"
+    "aiAgent.temperature": "温度"
   }
 }

@@ -17,6 +17,8 @@
         "preview.ready": "就绪",
         "preview.running": "运行中",
         "preview.steps": "个步骤",
-        "preview.untitledTemplate": "未命名模板"
+        "preview.untitledTemplate": "未命名模板",
+        "preview.selectOption": "请选择一个选项",
+        "preview.typeAndEnter": "输入后按 Enter"
     }
 }

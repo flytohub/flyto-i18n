@@ -4,19 +4,19 @@
   "category": "cloud.browser",
   "version": "1.0.0",
   "translations": {
-    "browser.closeBrowser": "Close Browser",
-    "browser.connecting": "Connecting",
+    "browser.closeBrowser": "Close browser",
+    "browser.connecting": "Connecting...",
     "browser.controlling": "Controlling",
     "browser.deny": "Deny",
     "browser.grant": "Grant",
-    "browser.idleWarning": "Idle Warning",
-    "browser.interactToKeep": "Interact To Keep",
-    "browser.liveView": "Live View",
-    "browser.releaseControl": "Release Control",
-    "browser.requestControl": "Request Control",
-    "browser.requestsControl": "Requests Control",
-    "browser.viewOnly": "View Only",
+    "browser.idleWarning": "Browser will close in",
+    "browser.interactToKeep": "Interact to reset the timer",
+    "browser.liveView": "Live browser",
+    "browser.releaseControl": "Release control",
+    "browser.requestControl": "Request control",
+    "browser.requestsControl": "requests control",
+    "browser.viewOnly": "View only",
     "browser.viewing": "Viewing",
-    "browser.waitingForStream": "Waiting For Stream"
+    "browser.waitingForStream": "Waiting for the browser stream..."
   }
 }

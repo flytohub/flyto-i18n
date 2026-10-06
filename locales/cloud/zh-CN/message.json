@@ -4,6 +4,13 @@
     "category": "cloud.message",
     "version": "1.0.0",
     "translations": {
-        "message.replayCompleted": "重播成功完成！"
+        "message.replayCompleted": "重播成功完成！",
+        "message.addedToLibrary": "已添加到你的资料库",
+        "message.alertAcknowledged": "已确认警报",
+        "message.alertMuted": "已将警报设为静音",
+        "message.followedUser": "已关注此用户",
+        "message.passwordUpdated": "密码已更新",
+        "message.rollbackSuccessful": "已回滚到所选版本",
+        "message.unfollowedUser": "已取消关注此用户"
     }
 }

@@ -4,7 +4,7 @@
   "category": "cloud.templateBuilder",
   "version": "1.0.0",
   "translations": {
-    "templateBuilder.aiChat.botName": "Flyto2AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "清除對話",
     "templateBuilder.aiChat.close": "關閉",
     "templateBuilder.aiChat.configureFirst": "請先完成 AI 設定",
@@ -381,6 +381,8 @@
     "templateBuilder.aiChat.approval.alreadyAnswered": "這個請求已回覆過，或已不相符。",
     "templateBuilder.aiChat.approval.expired": "這個請求已過期，請再問一次以取得新的請求。",
     "templateBuilder.aiChat.approval.failed": "無法送出核准，請再試一次。",
-    "templateBuilder.aiChat.approval.continue": "已核准。請以完全相同的輸入執行 {tool} 一次。"
+    "templateBuilder.aiChat.approval.continue": "已核准。請以完全相同的輸入執行 {tool} 一次。",
+    "templateBuilder.nodeProperties.allFileTypes": "*（所有檔案）",
+    "templateBuilder.nodeProperties.optionPairsPlaceholder": "值:標籤（每行一個）"
   }
 }

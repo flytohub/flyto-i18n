@@ -21,6 +21,8 @@
     "vectorStore.scoreThreshold": "Score Threshold",
     "vectorStore.scoreThresholdHint": "Minimum similarity score (0-1)",
     "vectorStore.selectCollection": "Select collection...",
-    "vectorStore.topK": "Top K Results"
+    "vectorStore.topK": "Top K Results",
+    "vectorStore.deleteIdsPlaceholder": "Enter document IDs, one per line…",
+    "vectorStore.documentIdGenerated": "Generated when left empty"
   }
 }

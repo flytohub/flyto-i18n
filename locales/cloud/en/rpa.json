@@ -27,6 +27,14 @@
     "rpa.stats.agents": "Connected Agents",
     "rpa.stats.executions": "Total Executions",
     "rpa.stats.recordings": "Recordings",
-    "rpa.stats.success": "Success Rate"
+    "rpa.stats.success": "Success Rate",
+    "rpa.quickActions.click": "Click element",
+    "rpa.quickActions.clickHint": "Click on an element on screen",
+    "rpa.quickActions.screenshot": "Take screenshot",
+    "rpa.quickActions.screenshotHint": "Capture an image of the screen",
+    "rpa.quickActions.type": "Type text",
+    "rpa.quickActions.typeHint": "Type text into a field",
+    "rpa.quickActions.wait": "Wait",
+    "rpa.quickActions.waitHint": "Wait for an element or a set time"
   }
 }

@@ -4,6 +4,13 @@
   "category": "cloud.message",
   "version": "1.0.0",
   "translations": {
-    "message.replayCompleted": "Replay completed successfully!"
+    "message.replayCompleted": "Replay completed successfully!",
+    "message.addedToLibrary": "Added to your library",
+    "message.alertAcknowledged": "Alert acknowledged",
+    "message.alertMuted": "Alert muted",
+    "message.followedUser": "You are now following this user",
+    "message.passwordUpdated": "Password updated",
+    "message.rollbackSuccessful": "Rolled back to the selected version",
+    "message.unfollowedUser": "You no longer follow this user"
   }
 }

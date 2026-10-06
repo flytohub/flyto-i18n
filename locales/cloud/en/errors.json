@@ -8,6 +8,9 @@
     "errors.somethingWentWrong": "Something went wrong",
     "errors.technicalDetails": "Technical details",
     "errors.timeout": "Request timed out. Please try again.",
-    "errors.unexpectedError": "An unexpected error occurred"
+    "errors.unexpectedError": "An unexpected error occurred",
+    "errors.requestFailed": "The server could not complete this request. Please try again.",
+    "errors.requestRefused": "The server declined this request.",
+    "errors.responseUnreadable": "The server answered in a shape this page cannot read."
   }
 }

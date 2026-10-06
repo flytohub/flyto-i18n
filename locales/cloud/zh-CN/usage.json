@@ -26,10 +26,10 @@
     "usage.quota.unlimited": "无限制",
     "usage.quota.upgrade": "升级以获得无限访问",
     "usage.quota.used": "{current} / {limit}",
-    "usage.status.limitReached": "Limit Reached",
-    "usage.status.nearLimit": "Near Limit",
-    "usage.status.normal": "Normal",
-    "usage.status.unlimited": "Unlimited",
+    "usage.status.limitReached": "已达上限",
+    "usage.status.nearLimit": "接近上限",
+    "usage.status.normal": "正常",
+    "usage.status.unlimited": "无上限",
     "usage.title": "使用量详情",
     "usage.unit.countPerMonth": "次 / 月",
     "usage.unit.countTotal": "次",
@@ -41,6 +41,10 @@
     "usage.warning.resetDate": "重置日期",
     "usage.warning.upgradePlan": "升级方案",
     "usage.warning.whatHappens": "会发生什么事",
-    "usage.warning.whatNow": "接下来怎么办"
+    "usage.warning.whatNow": "接下来怎么办",
+    "usage.dashboard.chartBar": "柱状图",
+    "usage.dashboard.chartLine": "折线图",
+    "usage.dashboard.pointsUsed": "使用点数",
+    "usage.dashboard.pointsValue": "{value} 点"
   }
 }

@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "templateBuilder.aiChat.addNewAccount": "添加账号",
-    "templateBuilder.aiChat.botName": "Flyto2AI",
+    "templateBuilder.aiChat.botName": "Flyto2 AI",
     "templateBuilder.aiChat.clearChat": "清除对话",
     "templateBuilder.aiChat.close": "关闭",
     "templateBuilder.aiChat.configureFirst": "请先完成 AI 设置",
@@ -381,6 +381,8 @@
     "templateBuilder.aiChat.approval.alreadyAnswered": "这个请求已回复过，或已不相符。",
     "templateBuilder.aiChat.approval.expired": "这个请求已过期，请再问一次以获取新的请求。",
     "templateBuilder.aiChat.approval.failed": "无法发送批准，请再试一次。",
-    "templateBuilder.aiChat.approval.continue": "已批准。请以完全相同的输入执行 {tool} 一次。"
+    "templateBuilder.aiChat.approval.continue": "已批准。请以完全相同的输入执行 {tool} 一次。",
+    "templateBuilder.nodeProperties.allFileTypes": "*（所有文件）",
+    "templateBuilder.nodeProperties.optionPairsPlaceholder": "值:标签（每行一个）"
   }
 }

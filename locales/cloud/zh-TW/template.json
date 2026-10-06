@@ -43,7 +43,7 @@
     "cloud.template.title": "模板",
     "cloud.template.type": "模板類型",
     "cloud.template.updateSuccess": "模板更新成功",
-    "cloud.templateBuilder.aiChat.botName": "Flyto2AI",
+    "cloud.templateBuilder.aiChat.botName": "Flyto2 AI",
     "cloud.templateBuilder.aiChat.clearChat": "清除對話",
     "cloud.templateBuilder.aiChat.close": "關閉",
     "cloud.templateBuilder.aiChat.errorConnection": "無法連接 AI 服務，請檢查網路連線。",

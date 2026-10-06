@@ -727,7 +727,19 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +1: the two slices merged (flyto-cloud 2026-10-07): a Cloud-route
     # subscription nothing is sending says so
     # (`spaces.triggers.events.cloudWaiting`).
-    assert english_total == 13_569
+    # +428 / -75: flyto-cloud sweep 1007 (2026-10-07). Added: the
+    # `messaging.*` integration screen (new category), `accessibility.*`
+    # control names, decision-timeline stages and sources
+    # (`spaces.timeline.*`), Mission Station refusals (`spaces.ops.*`),
+    # `spaces.guide.*`, `messaging.testFailure.*` (the stable Test connection
+    # failure codes), `spaces.narrative.task.reviewRunning`, credential type
+    # hints (`variables.credentialTypes.*`),
+    # lineage categories/decisions/storyline, `templateCollaboration.*`,
+    # `workflowCanvas.node.*`, `aiSpace.capabilities.*` and smaller screens.
+    # Removed with no consumer left in any repository: 71 key-shaped
+    # `admin.*` leaves ("Subtitle", "Last30Days"), `dashboard.evolution.subtitle`
+    # and the interpolated fragments `scheduler.{lastRun,runs,times}`.
+    assert english_total == 13_922
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
@@ -748,7 +760,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
         # is what would let `dispatched` be read as a state a run passes
         # through rather than as "nobody confirmed anything".
         # 264: `modulePacks.json` is the marketplace's own namespace.
-        assert record["files_merged"] == 264
+        # 265: `messaging.json` is the messaging integration screen's own
+        # namespace (flyto-cloud sweep 1007).
+        assert record["files_merged"] == 265
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_root = Path(temp_dir)

@@ -8,6 +8,9 @@
     "errors.somethingWentWrong": "發生錯誤",
     "errors.technicalDetails": "技術詳情",
     "errors.timeout": "請求逾時，請重試。",
-    "errors.unexpectedError": "發生未預期的錯誤"
+    "errors.unexpectedError": "發生未預期的錯誤",
+    "errors.requestFailed": "伺服器無法完成這個請求，請再試一次。",
+    "errors.requestRefused": "伺服器拒絕了這個請求。",
+    "errors.responseUnreadable": "伺服器回傳的資料格式無法在此頁面讀取。"
   }
 }

@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-10-07 — flyto-cloud sweep 1007: every key the code reads, none it dropped
+
+- 428 cloud keys added in en and zh-TW (429 in zh-CN), copied verbatim from
+  the flyto-cloud `claude/sweep-1007` bundled locales (other locales fall back
+  to English). A new `cloud.messaging` category holds the messaging
+  integration screen (`messaging.*`, including `messaging.testFailure.*`, one
+  sentence per stable Test connection failure code); the rest extend
+  existing categories: `accessibility.*`, `spaces.timeline.*`, `spaces.ops.*`, `spaces.guide.*`,
+  `variables.credentialTypes.*`, `lineage.*`, `templateCollaboration.*`,
+  `workflowCanvas.node.*`, `aiSpace.*`, `spaces.narrative.task.reviewRunning`
+  (a done task whose independent review is still checking) and smaller
+  screens.
+- 50 en, 47 zh-TW and 115 zh-CN values replaced: English left in the Chinese
+  catalogs and labels generated from their own keys.
+- 5 zh-TW and zh-CN Discord/Slack/Telegram parameter descriptions in the
+  modules scope (`locales/modules/*/notification.json`) say Bot instead of
+  機器人, which flyto-cloud's check-i18n reads as equipment vocabulary.
+- 75 keys removed from every locale, with no consumer left in any repository:
+  71 key-shaped `admin.*` leaves, `dashboard.evolution.subtitle` and the
+  interpolated fragments `scheduler.{lastRun,runs,times}`.
+- The cumulative key count moves from 13,569 to 13,922.
+
 ## 2026-10-07 — Triggers & events: both directions, and a route nothing is sending
 
 - 1 cloud key added and 2 changed in en, zh-TW and zh-CN, copied verbatim from

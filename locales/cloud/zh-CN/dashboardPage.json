@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "dashboardPage.devices.allOffline": "全部脱机",
-    "dashboardPage.devices.confirmRemove": "Confirm Remove",
+    "dashboardPage.devices.confirmRemove": "要移除此设备吗？",
     "dashboardPage.devices.equipment": "连接设备",
     "dashboardPage.devices.infrastructure": "系统自动注册",
     "dashboardPage.devices.machines": "运行 Flyto2 的机器",
@@ -14,8 +14,8 @@
     "dashboardPage.devices.noEquipment": "目前没有连接任何设备",
     "dashboardPage.devices.noJobs": "尚无运行记录",
     "dashboardPage.devices.recentJobs": "最近运行",
-    "dashboardPage.devices.removeFailed": "Remove Failed",
-    "dashboardPage.devices.removed": "Removed",
+    "dashboardPage.devices.removeFailed": "无法移除设备",
+    "dashboardPage.devices.removed": "已移除设备",
     "dashboardPage.devices.title": "设备",
     "dashboardPage.devices.voiceArmed": "已上线 {armed} 个词，拒绝 {refused} 个",
     "dashboardPage.devices.voiceArmedNothing": "有在聆听，但没有任何词上线",
@@ -77,6 +77,13 @@
     "dashboardPage.devices.presence.offline": "离线",
     "dashboardPage.devices.presence.neverConnected": "从未连接",
     "dashboardPage.devices.presence.dormant": "已闲置 · 最后上线 {date}",
-    "dashboardPage.devices.confirmRemoveMessage": "要从你的设备中移除“{name}”吗？它会从这个列表消失，之后要重新配对才会回来。"
+    "dashboardPage.devices.confirmRemoveMessage": "要从你的设备中移除“{name}”吗？它会从这个列表消失，之后要重新配对才会回来。",
+    "dashboardPage.devices.jobsCount": "{n} 个任务 | {n} 个任务",
+    "dashboardPage.devices.jobsFailed": "无法加载最近的任务，请检查网络连接后重试。",
+    "dashboardPage.devices.jobsUnreadable": "任务列表的响应格式此版本无法读取。",
+    "dashboardPage.devices.listFailed": "无法加载设备，请检查网络连接后重试。",
+    "dashboardPage.devices.listUnreadable": "设备列表的响应格式此版本无法读取。",
+    "dashboardPage.devices.voiceFailed": "无法读取语音服务状态。",
+    "dashboardPage.devices.voiceUnreadable": "语音服务状态的响应格式此版本无法读取。"
   }
 }

@@ -5,10 +5,10 @@
   "version": "1.0.0",
   "translations": {
     "cloudTrial.daysRemaining": "剩 {days} 天",
-    "cloudTrial.expired": "Expired",
+    "cloudTrial.expired": "已过期",
     "cloudTrial.navBadge": "试用剩 {days} 天",
     "cloudTrial.planLabel": "方案",
     "cloudTrial.trialActive": "免费试用中",
-    "cloudTrial.upgrade": "Upgrade"
+    "cloudTrial.upgrade": "升级"
   }
 }

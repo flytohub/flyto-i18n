@@ -29,7 +29,7 @@
     "myTemplates.moreActions": "More",
     "myTemplates.forkFailed": "Failed to fork workflow",
     "myTemplates.forkSuccess": "Workflow forked successfully",
-    "myTemplates.importSuccess": "Import Success",
+    "myTemplates.importSuccess": "Template imported",
     "myTemplates.join.subtitle": "Enter the invite code to collaborate in real-time",
     "myTemplates.join.success": "Joined successfully! Redirecting...",
     "myTemplates.joinCollaboration": "Join Collaboration",

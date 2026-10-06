@@ -25,6 +25,7 @@
     "purchases.requestRefund": "Request Refund",
     "purchases.subtitle": "View your purchased workflows and manage refunds",
     "purchases.title": "Purchase History",
-    "purchases.viewTemplate": "View Workflow"
+    "purchases.viewTemplate": "View Workflow",
+    "purchases.loadFailed": "Could not load your purchases"
   }
 }

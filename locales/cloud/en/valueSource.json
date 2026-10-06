@@ -6,7 +6,7 @@
   "translations": {
     "valueSource.booleanFalse": "No / False",
     "valueSource.booleanTrue": "Yes / True",
-    "valueSource.browsePath": "Browse Path",
+    "valueSource.browsePath": "Browse",
     "valueSource.changeSource": "Change value source",
     "valueSource.defaultPlaceholder": "Enter value...",
     "valueSource.expressionHint": "Available: steps.{id}.result, ui.{field}, env.{var}",

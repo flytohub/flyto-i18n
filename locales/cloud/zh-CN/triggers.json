@@ -71,7 +71,7 @@
     "triggers.payload": "载荷",
     "triggers.payloadReceived": "已收到数据",
     "triggers.pending": "等待中",
-    "triggers.presets": "Presets",
+    "triggers.presets": "预设模板",
     "triggers.presets.daily": "每天",
     "triggers.presets.everyMinute": "每分钟",
     "triggers.presets.hourly": "每小时",
@@ -95,7 +95,7 @@
     "triggers.secretHint": "使用此密钥验证 Webhook 签章",
     "triggers.secretRegenerated": "密钥已重新产生",
     "triggers.selectWorkflow": "选择工作流程",
-    "triggers.startTest": "Start Test",
+    "triggers.startTest": "开始测试",
     "triggers.status": "状态",
     "triggers.status.active": "运行中",
     "triggers.status.disabled": "已停用",
@@ -131,6 +131,7 @@
     "triggers.webhookTestDesc": "向 Webhook 网址发送请求，查看收到的内容。",
     "triggers.webhookUrl": "Webhook 网址",
     "triggers.webhooks": "Webhook",
-    "triggers.workflow": "工作流程"
+    "triggers.workflow": "工作流程",
+    "triggers.toolDescriptionPlaceholder": "例如：运行项目冒烟测试"
   }
 }
