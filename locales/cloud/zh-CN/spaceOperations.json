@@ -975,7 +975,23 @@
     "spaces.narrative.sideName.ahead": "前",
     "spaces.narrative.sideName.left": "左",
     "spaces.narrative.sideName.behind": "后",
-    "spaces.narrative.sideName.right": "右"
+    "spaces.narrative.sideName.right": "右",
+    "spaces.narrative.technicalDetails": "技术细节",
+    "spaces.narrative.adapterReason.noPath": "它找不到能过去的路",
+    "spaces.narrative.adapterReason.obstacleBlocked": "有东西挡住了它",
+    "spaces.narrative.adapterReason.sensorStale": "它的传感器没有回报，所以停下来了",
+    "spaces.narrative.adapterReason.timeout": "超过了时间限制",
+    "spaces.narrative.adapterReason.localizationError": "它无法确定自己在哪里",
+    "spaces.narrative.adapterReason.noProgress": "它没有再前进",
+    "spaces.narrative.adapterReason.abortedByServer": "它的控制器放弃了，没有说明原因",
+    "spaces.narrative.adapterReason.cancelled": "还没完成就被停止了",
+    "spaces.narrative.adapterReason.noEscapeRoom": "它没有移动：附近没有空间可以退开",
+    "spaces.narrative.adapterReason.safeStopUnconfirmed": "无法确认它已停止",
+    "spaces.narrative.adapterReason.stoppedSafely": "它已安全停下",
+    "spaces.narrative.adapterReason.stopUnconfirmed": "无法确认它已停下 — 再试之前请先检查设备",
+    "spaces.narrative.adapterReason.travelled": "它移动了 {distance} 米",
+    "spaces.narrative.adapterReason.nearestSide": "最近的障碍物在{side} {distance} 米",
+    "spaces.narrative.adapterReason.nearest": "最近的障碍物 {distance} 米"
   },
   "total_keys": 576
 }

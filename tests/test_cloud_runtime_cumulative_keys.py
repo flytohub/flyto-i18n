@@ -683,7 +683,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # (`dashboardPage.devices.*`), replans in words (`spaces.hud.replan*`),
     # equipment Reconnect (`spaces.equipment.connection.*`) and adapter refusal
     # reasons (`spaces.narrative.adapterReason/side/sideName.*`).
-    assert english_total == 13_461
+    # +16: readable adapter failures (flyto-cloud 2026-10-06): why equipment
+    # stopped in the operator's words (`spaces.narrative.adapterReason.*` for
+    # no path, blocked, stale sensors, timeout, lost position, no progress,
+    # controller abort, cancel, no room to back away, stop confirmation,
+    # distance travelled and nearest obstacle) and the collapsed
+    # `spaces.narrative.technicalDetails` disclosure.
+    assert english_total == 13_477
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

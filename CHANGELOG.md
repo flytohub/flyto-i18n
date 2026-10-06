@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-06 — Readable adapter failure copy
+
+- 16 cloud keys flyto-cloud now uses, in en, zh-TW and zh-CN (other locales
+  fall back to English, as with the earlier Mission Station copy):
+  - Why equipment stopped, in the operator's words:
+    `spaces.narrative.adapterReason.{noPath,obstacleBlocked,sensorStale,timeout,localizationError,noProgress,abortedByServer,cancelled,noEscapeRoom}`.
+  - Stop confirmation: `spaces.narrative.adapterReason.{safeStopUnconfirmed,stoppedSafely,stopUnconfirmed}`.
+  - What it did before stopping: `spaces.narrative.adapterReason.{travelled,nearestSide,nearest}`.
+  - The collapsed raw-detail disclosure: `spaces.narrative.technicalDetails`.
+
 ## 2026-10-06 — Mission Station replans, equipment Reconnect and device presence copy
 
 - 101 cloud keys flyto-cloud now uses, in en, zh-TW and zh-CN (other locales
