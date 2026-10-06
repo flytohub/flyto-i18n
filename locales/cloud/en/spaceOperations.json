@@ -975,7 +975,23 @@
     "spaces.narrative.sideName.ahead": "Ahead",
     "spaces.narrative.sideName.left": "Left",
     "spaces.narrative.sideName.behind": "Behind",
-    "spaces.narrative.sideName.right": "Right"
+    "spaces.narrative.sideName.right": "Right",
+    "spaces.narrative.technicalDetails": "Technical details",
+    "spaces.narrative.adapterReason.noPath": "It could not find a way there",
+    "spaces.narrative.adapterReason.obstacleBlocked": "Something was in its way",
+    "spaces.narrative.adapterReason.sensorStale": "Its sensors stopped reporting, so it stopped",
+    "spaces.narrative.adapterReason.timeout": "It ran out of time",
+    "spaces.narrative.adapterReason.localizationError": "It lost track of where it is",
+    "spaces.narrative.adapterReason.noProgress": "It stopped making progress",
+    "spaces.narrative.adapterReason.abortedByServer": "Its controller gave up without saying why",
+    "spaces.narrative.adapterReason.cancelled": "It was stopped before it finished",
+    "spaces.narrative.adapterReason.noEscapeRoom": "It did not move: there was no room to back away from what is near it",
+    "spaces.narrative.adapterReason.safeStopUnconfirmed": "It could not be confirmed stopped",
+    "spaces.narrative.adapterReason.stoppedSafely": "It stopped safely",
+    "spaces.narrative.adapterReason.stopUnconfirmed": "Its stop was not confirmed — check the equipment before trying again",
+    "spaces.narrative.adapterReason.travelled": "It travelled {distance} m",
+    "spaces.narrative.adapterReason.nearestSide": "Nearest obstacle {distance} m {side}",
+    "spaces.narrative.adapterReason.nearest": "Nearest obstacle {distance} m"
   },
   "total_keys": 576
 }
