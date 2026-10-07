@@ -242,6 +242,10 @@ def generate_locale_file(
         # Every key is held elsewhere: a new namespace file would hold nothing
         # and still count as one more file merged into the runtime catalog.
         print(f"    Skipped {file_path.name}: no keys of its own{change_str}")
+    elif file_path.exists() and not new_count and not removed_count:
+        # Nothing to add or remove. Rewriting would only restyle a catalog
+        # someone formatted by hand, and that diff is not a key change.
+        print(f"    Unchanged {file_path.name}: {len(translations)} keys{change_str}")
     elif dry_run:
         print(f"    Would write {file_path.name}: {len(translations)} keys{change_str}")
     else:

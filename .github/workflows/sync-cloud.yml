@@ -46,32 +46,50 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install validation dependencies
-        working-directory: flyto-i18n
-        run: python -m pip install --disable-pip-version-check -r requirements.txt
-
-      - name: Sync Cloud keys
-        working-directory: flyto-i18n
-        run: |
-          python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud
-          python scripts/sync-locales.py
-          npm run docs:write
-
-      - name: Validate source and generated bundles
-        working-directory: flyto-i18n
-        run: npm run verify
-
-      - name: Check for changes
+      # The same gate the Cloud side runs. A pull request is opened only when a
+      # Cloud key has no catalog entry; anything else the sync tools would
+      # write (restyled files, empty placeholders for every locale) is not a
+      # key change and must not open one.
+      - name: Detect Cloud keys missing from the catalogs
         id: changes
         working-directory: flyto-i18n
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "Cloud keys and generated bundles are already current"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            git status --short
-          fi
+          set +e
+          python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud --check
+          status=$?
+          set -e
+          case "$status" in
+            0) echo "changed=false" >> "$GITHUB_OUTPUT" ;;
+            1) echo "changed=true" >> "$GITHUB_OUTPUT" ;;
+            *) echo "::error::Cloud key check failed with status $status"; exit "$status" ;;
+          esac
+
+      - name: Install validation dependencies
+        if: steps.changes.outputs.changed == 'true'
+        working-directory: flyto-i18n
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      # Only the scanned keys are written: English, plus the zh-TW catalog
+      # sync-from-cloud already maintains. Other locales fall back to English
+      # until their copy lands, so no placeholder files are generated.
+      - name: Sync Cloud keys
+        if: steps.changes.outputs.changed == 'true'
+        working-directory: flyto-i18n
+        run: |
+          python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud
+          npm run docs:write
+
+      - name: Validate source and generated bundles
+        if: steps.changes.outputs.changed == 'true'
+        working-directory: flyto-i18n
+        run: npm run verify
+
+      - name: Confirm the catalogs now hold every Cloud key
+        if: steps.changes.outputs.changed == 'true'
+        working-directory: flyto-i18n
+        run: |
+          python scripts/sync-from-cloud.py --cloud-path ../flyto-cloud --check
+          git status --short
 
       - name: Create reviewed synchronization pull request
         id: cpr
@@ -88,7 +106,7 @@ jobs:
 
             ### Validation
             - Scanned the private Cloud frontend without copying its source
-            - Synchronized every locale against the canonical English catalog
+            - Added only the Cloud keys `sync-from-cloud.py --check` reported missing
             - Rebuilt deterministic distribution and SEO artifacts
             - Passed the complete flyto-i18n verification suite
 
