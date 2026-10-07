@@ -321,3 +321,17 @@ def build_locale_meta(locales: list[str]) -> dict:
         },
         "regionMap": REGION_MAP,
     }
+
+
+# A catalog key may carry the `cloud.` prefix it had before the Cloud catalog
+# was split into one file per namespace (`template.json` still holds
+# `cloud.templateDebugger.*`). build-dist strips it, so `cloud.a.b` and `a.b`
+# are the same key at runtime. Every tool that asks "does this key exist?"
+# answers with this one rule, or a key the runtime already resolves is
+# written a second time as an empty duplicate under a new namespace file.
+STRIPPED_KEY_PREFIX = "cloud."
+
+
+def runtime_key(key: str) -> str:
+    """The key a runtime catalog resolves for a catalog-source key."""
+    return key.removeprefix(STRIPPED_KEY_PREFIX)

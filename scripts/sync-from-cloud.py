@@ -11,6 +11,8 @@ Usage:
 Options:
     --cloud-path    Path to flyto-cloud (default: ../flyto-cloud)
     --dry-run       Show changes without writing files
+    --check         Write nothing; exit 1 if any Cloud key is missing from
+                    the catalogs (what the Cloud-side gate runs)
 """
 
 import argparse
@@ -20,6 +22,12 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 from typing import Dict, Set, Tuple
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from i18n_contract import runtime_key  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -118,7 +126,12 @@ def load_existing_translations(locale: str, category: str) -> Dict[str, str]:
 
 
 def load_keys_owned_elsewhere(target_path: Path) -> Set[str]:
-    """Return keys owned by another catalog in the English source layout."""
+    """Return runtime keys owned by another catalog in the English source layout.
+
+    Keys are compared as the runtime resolves them (`runtime_key`): a file
+    that still holds `cloud.templateDebugger.logs.duration` owns
+    `templateDebugger.logs.duration`.
+    """
     owned_keys = set()
     english_target = target_path.parent.parent / "en" / target_path.name
     resolved_target = english_target.resolve()
@@ -137,9 +150,42 @@ def load_keys_owned_elsewhere(target_path: Path) -> Set[str]:
 
         translations = data.get("translations")
         if isinstance(translations, dict):
-            owned_keys.update(translations)
+            owned_keys.update(runtime_key(key) for key in translations)
 
     return owned_keys
+
+
+def missing_catalog_keys(categories: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
+    """Scanned keys no English catalog holds, by the category file they would create or extend.
+
+    The same rule `generate_locale_file` applies, without writing: a key is
+    present when its own category file or any other English catalog holds it
+    as the runtime resolves it.
+    """
+    missing: Dict[str, Set[str]] = {}
+    for category, keys in categories.items():
+        existing = {runtime_key(key) for key in load_existing_translations("en", category)}
+        owned = load_keys_owned_elsewhere(CLOUD_DIR / "en" / f"{category}.json")
+        absent = {key for key in keys if runtime_key(key) not in existing and runtime_key(key) not in owned}
+        if absent:
+            missing[category] = absent
+    return missing
+
+
+def check_cloud_keys(cloud_path: str) -> int:
+    """Exit status for the Cloud-side gate: 1 when a Cloud key has no catalog entry."""
+    categories = extract_all_keys(Path(cloud_path).resolve())
+    missing = missing_catalog_keys(categories)
+    if not missing:
+        print("OK - every Cloud key is held by a catalog")
+        return 0
+    for category in sorted(missing):
+        new_file = not (CLOUD_DIR / "en" / f"{category}.json").exists()
+        label = " (new namespace file)" if new_file else ""
+        print(f"[MISSING] {category}.json{label}:")
+        for key in sorted(missing[category]):
+            print(f"  - {key}")
+    return 1
 
 
 def generate_locale_file(
@@ -154,6 +200,7 @@ def generate_locale_file(
     file_path = locale_dir / f"{category}.json"
 
     existing = load_existing_translations(locale, category)
+    existing_runtime = {runtime_key(key) for key in existing}
     owned_elsewhere = load_keys_owned_elsewhere(file_path)
 
     translations = {} if delete_stale else dict(existing)
@@ -165,7 +212,7 @@ def generate_locale_file(
         if key in existing:
             translations[key] = existing[key]
             preserved_count += 1
-        elif key in owned_elsewhere:
+        elif runtime_key(key) in existing_runtime or runtime_key(key) in owned_elsewhere:
             owned_count += 1
         else:
             translations[key] = ""
@@ -191,7 +238,11 @@ def generate_locale_file(
         change_info.append(f"{owned_count} owned elsewhere")
     change_str = f" ({', '.join(change_info)})" if change_info else ""
 
-    if dry_run:
+    if not translations and not file_path.exists():
+        # Every key is held elsewhere: a new namespace file would hold nothing
+        # and still count as one more file merged into the runtime catalog.
+        print(f"    Skipped {file_path.name}: no keys of its own{change_str}")
+    elif dry_run:
         print(f"    Would write {file_path.name}: {len(translations)} keys{change_str}")
     else:
         locale_dir.mkdir(parents=True, exist_ok=True)
@@ -288,7 +339,15 @@ def main():
         help='Delete existing keys absent from the scanner result (destructive)'
     )
 
+    parser.add_argument(
+        '--check',
+        action='store_true',
+        help='Write nothing; exit 1 when a Cloud key is missing from every catalog'
+    )
+
     args = parser.parse_args()
+    if args.check:
+        sys.exit(check_cloud_keys(args.cloud_path))
     sync_from_cloud(args.cloud_path, args.dry_run, args.delete_stale)
 
 

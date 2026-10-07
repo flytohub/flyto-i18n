@@ -44,7 +44,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import LANGUAGE_META, PROJECT_DIRS, build_locale_meta  # noqa: E402
+from i18n_contract import LANGUAGE_META, PROJECT_DIRS, build_locale_meta, runtime_key  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -167,8 +167,7 @@ def flat_to_nested(flat_dict: dict) -> dict:
     for key in sorted_keys:
         value = flat_dict[key]
 
-        # Strip "cloud." prefix for cloud keys
-        normalized_key = key[6:] if key.startswith('cloud.') else key
+        normalized_key = runtime_key(key)
 
         parts = normalized_key.split('.')
         current = result
