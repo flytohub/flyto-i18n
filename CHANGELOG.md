@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-07 — A step held until its computer guarantees one action per resource
+
+- 1 cloud key added in en, zh-TW and zh-CN, copied verbatim from the
+  flyto-cloud `claude/host-guarantees` bundled locales (other locales fall
+  back to English): `spaces.ops.dispatchRefusal.host_single_actuation_required`,
+  the Start refusal for a step whose job can send two actions to one resource
+  at once while its computer's release does not guarantee one action at a time
+  per resource.
+- The cumulative key count moves from 13,922 to 13,923.
+
 ## 2026-10-07 — flyto-cloud sweep 1007: every key the code reads, none it dropped
 
 - 428 cloud keys added in en and zh-TW (429 in zh-CN), copied verbatim from
