@@ -747,7 +747,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # (flyto-cloud 2026-10-07, presence-time): `aiSpace.resources.freshness`,
     # `aiSpace.resources.freshness{Follow,Custom}`,
     # `spaces.hud.followReporter{,Failed}`.
-    assert english_total == 13_929
+    # +4: what a self-hosted edition says when it does not offer a feature
+    # or a delivery route (flyto-cloud 2026-10-08, self-host WP15):
+    # `spaces.editionRefusal.{edition_capability_absent,unavailable_in_this_edition}`,
+    # `spaces.triggers.events.routeNotInEdition` and
+    # `spaces.triggers.events.refused.ROUTE_UNAVAILABLE_IN_EDITION`.
+    assert english_total == 13_933
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
