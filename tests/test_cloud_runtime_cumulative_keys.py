@@ -742,7 +742,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +1: a health window the resource's reporter cannot keep is its own
     # refusal (flyto-cloud 2026-10-07, presence-time):
     # `spaces.hud.refusal.health_unenforceable`.
-    assert english_total == 13_923
+    # +5: a health window follows the equipment's reporting cadence unless
+    # the operator sets one, and the station offers that as a one-click fix
+    # (flyto-cloud 2026-10-07, presence-time): `aiSpace.resources.freshness`,
+    # `aiSpace.resources.freshness{Follow,Custom}`,
+    # `spaces.hud.followReporter{,Failed}`.
+    assert english_total == 13_928
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
