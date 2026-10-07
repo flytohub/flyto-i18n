@@ -76,6 +76,9 @@
     "scheduler.upcoming.empty": "No upcoming runs",
     "scheduler.upcoming.title": "Upcoming Runs",
     "scheduler.webhooks.empty": "No webhooks yet",
-    "scheduler.webhooks.emptyDesc": "Webhooks are created when you configure workflow triggers."
+    "scheduler.webhooks.emptyDesc": "Webhooks are created when you configure workflow triggers.",
+    "scheduler.lastRun": "",
+    "scheduler.runs": "",
+    "scheduler.times": ""
   }
 }

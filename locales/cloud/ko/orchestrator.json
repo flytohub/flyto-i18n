@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "ko",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "작업 없음",
-        "orchestrator.jobs.title": "작업",
-        "orchestrator.register.capabilities": "기능",
-        "orchestrator.register.machineName": "기계 이름",
-        "orchestrator.register.machineNamePlaceholder": "기계 이름을 입력하세요",
-        "orchestrator.register.osType": "OS 유형",
-        "orchestrator.register.submit": "등록",
-        "orchestrator.stats.available": "사용 가능",
-        "orchestrator.stats.busy": "사용 중",
-        "orchestrator.stats.offline": "오프라인"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "ko",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "작업 없음",
+    "orchestrator.jobs.title": "작업",
+    "orchestrator.register.capabilities": "기능",
+    "orchestrator.register.machineName": "기계 이름",
+    "orchestrator.register.machineNamePlaceholder": "기계 이름을 입력하세요",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "OS 유형",
+    "orchestrator.register.submit": "등록",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "사용 가능",
+    "orchestrator.stats.busy": "사용 중",
+    "orchestrator.stats.offline": "오프라인",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

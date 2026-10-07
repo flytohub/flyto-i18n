@@ -9,10 +9,23 @@
     "orchestrator.register.capabilities": "Capabilities",
     "orchestrator.register.machineName": "Machine Tên",
     "orchestrator.register.machineNamePlaceholder": "Enter machine Tên",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
     "orchestrator.register.osType": "OS Loại",
     "orchestrator.register.submit": "Register",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
     "orchestrator.stats.available": "Available",
     "orchestrator.stats.busy": "Busy",
-    "orchestrator.stats.offline": "Ngoại tuyến"
+    "orchestrator.stats.offline": "Ngoại tuyến",
+    "orchestrator.stats.totalRunners": ""
   }
 }

@@ -31,6 +31,7 @@
     "payoutSettings.pendingVerification": "Verificacao Pendente",
     "payoutSettings.pendingVerificationDesc": "Sua conta esta sendo revisada pelo Stripe",
     "payoutSettings.pendingVerificationInfo": "Por favor, complete seu onboarding do Stripe para comecar a receber pagamentos. Isso geralmente leva alguns minutos.",
+    "payoutSettings.platformConfigError": "",
     "payoutSettings.platformFees": "Taxas da Plataforma",
     "payoutSettings.poweredByStripe": "Powered by Stripe. Seus dados estao seguros.",
     "payoutSettings.recentSales": "Vendas Recentes",

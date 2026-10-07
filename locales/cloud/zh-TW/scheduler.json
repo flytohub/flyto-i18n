@@ -76,6 +76,9 @@
     "scheduler.upcoming.empty": "沒有即將到來的排程",
     "scheduler.upcoming.title": "即將到來的排程",
     "scheduler.webhooks.empty": "尚無 Webhook",
-    "scheduler.webhooks.emptyDesc": "設定工作流程觸發條件時，會自動建立 Webhook。"
+    "scheduler.webhooks.emptyDesc": "設定工作流程觸發條件時，會自動建立 Webhook。",
+    "scheduler.lastRun": "",
+    "scheduler.runs": "",
+    "scheduler.times": ""
   }
 }

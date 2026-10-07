@@ -12,6 +12,7 @@
     "purchases.filterAll": "ทั้งหมด",
     "purchases.filterCompleted": "เสร็จสิ้น",
     "purchases.filterRefunded": "คืนเงินแล้ว",
+    "purchases.loadFailed": "",
     "purchases.loadMore": "โหลดเพิ่มเติม",
     "purchases.loading": "กำลังโหลด...",
     "purchases.noPurchases": "ยังไม่มีการซื้อ",

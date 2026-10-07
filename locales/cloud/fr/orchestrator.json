@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "fr",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "Aucun travail",
-        "orchestrator.jobs.title": "Travaux",
-        "orchestrator.register.capabilities": "Capacités",
-        "orchestrator.register.machineName": "Nom de la machine",
-        "orchestrator.register.machineNamePlaceholder": "Entrez le nom de la machine",
-        "orchestrator.register.osType": "Type de système d'exploitation",
-        "orchestrator.register.submit": "Enregistrer",
-        "orchestrator.stats.available": "Disponible",
-        "orchestrator.stats.busy": "Occupé",
-        "orchestrator.stats.offline": "Hors ligne"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "fr",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "Aucun travail",
+    "orchestrator.jobs.title": "Travaux",
+    "orchestrator.register.capabilities": "Capacités",
+    "orchestrator.register.machineName": "Nom de la machine",
+    "orchestrator.register.machineNamePlaceholder": "Entrez le nom de la machine",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "Type de système d'exploitation",
+    "orchestrator.register.submit": "Enregistrer",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "Disponible",
+    "orchestrator.stats.busy": "Occupé",
+    "orchestrator.stats.offline": "Hors ligne",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

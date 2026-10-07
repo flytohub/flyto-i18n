@@ -13,6 +13,7 @@
     "publish.inviteKey.usageLimit": "Kullanım limiti",
     "publish.pricing.creditsPerCall": "Çalıştırma başına kredi",
     "publish.pricing.currency": "Para Birimi",
+    "publish.pricing.customAmount": "",
     "publish.pricing.free": "Ücretsiz",
     "publish.pricing.freeDesc": "Yükleme ücretsiz",
     "publish.pricing.label": "Fiyatlandırma",

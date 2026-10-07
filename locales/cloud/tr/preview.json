@@ -16,7 +16,9 @@
     "preview.output": "Çıktı",
     "preview.ready": "Hazır",
     "preview.running": "Çalışıyor",
+    "preview.selectOption": "",
     "preview.steps": "adım",
+    "preview.typeAndEnter": "",
     "preview.untitledTemplate": "Adsız Şablon"
   }
 }

@@ -21,6 +21,7 @@
     "flow.switch.case": "Caso",
     "flow.switch.cases": "Casos do Switch",
     "flow.switch.default": "Padrao",
+    "flow.switch.defaultCase": "",
     "flow.switch.defaultInfo": "Valores nao correspondidos vao para saida Padrao",
     "flow.switch.expression": "Expressao",
     "flow.switch.expressionHint": "Valor para comparar com os casos",

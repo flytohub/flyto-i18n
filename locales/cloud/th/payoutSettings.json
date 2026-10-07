@@ -31,6 +31,7 @@
     "payoutSettings.pendingVerification": "รอการยืนยัน",
     "payoutSettings.pendingVerificationDesc": "บัญชีของคุณกำลังถูกตรวจสอบโดย Stripe",
     "payoutSettings.pendingVerificationInfo": "กรุณาลงทะเบียน Stripe ให้เสร็จสิ้นเพื่อเริ่มรับการจ่ายเงิน โดยปกติใช้เวลาไม่กี่นาที",
+    "payoutSettings.platformConfigError": "",
     "payoutSettings.platformFees": "ค่าธรรมเนียมแพลตฟอร์ม",
     "payoutSettings.poweredByStripe": "ขับเคลื่อนโดย Stripe ข้อมูลของคุณปลอดภัย",
     "payoutSettings.recentSales": "ยอดขายล่าสุด",

@@ -1,9 +1,16 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "de",
-    "category": "cloud.message",
-    "version": "1.0.0",
-    "translations": {
-        "message.replayCompleted": "Wiedergabe erfolgreich abgeschlossen!"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "de",
+  "category": "cloud.message",
+  "version": "1.0.0",
+  "translations": {
+    "message.addedToLibrary": "",
+    "message.alertAcknowledged": "",
+    "message.alertMuted": "",
+    "message.followedUser": "",
+    "message.passwordUpdated": "",
+    "message.replayCompleted": "Wiedergabe erfolgreich abgeschlossen!",
+    "message.rollbackSuccessful": "",
+    "message.unfollowedUser": ""
+  }
 }

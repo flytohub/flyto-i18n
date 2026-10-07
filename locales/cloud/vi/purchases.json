@@ -12,6 +12,7 @@
     "purchases.filterAll": "Tất cả",
     "purchases.filterCompleted": "Đã hoàn thành",
     "purchases.filterRefunded": "Đã hoàn tiền",
+    "purchases.loadFailed": "",
     "purchases.loadMore": "Tải thêm",
     "purchases.loading": "Đang tải...",
     "purchases.noPurchases": "Chưa có giao dịch",

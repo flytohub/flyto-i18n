@@ -383,6 +383,7 @@
     "templateBuilder.aiChat.approval.failed": "Could not send the approval. Try again.",
     "templateBuilder.aiChat.approval.continue": "Approved. Run {tool} once with exactly the same inputs.",
     "templateBuilder.nodeProperties.allFileTypes": "* (all files)",
-    "templateBuilder.nodeProperties.optionPairsPlaceholder": "value:label (one per line)"
+    "templateBuilder.nodeProperties.optionPairsPlaceholder": "value:label (one per line)",
+    "templateBuilder.settings.label": ""
   }
 }

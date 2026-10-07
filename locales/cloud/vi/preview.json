@@ -16,7 +16,9 @@
     "preview.output": "Đầu ra",
     "preview.ready": "Sẵn sàng",
     "preview.running": "Đang chạy",
+    "preview.selectOption": "",
     "preview.steps": "bước",
+    "preview.typeAndEnter": "",
     "preview.untitledTemplate": "Mẫu chưa đặt tên"
   }
 }

@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "pl",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "No jobs",
-        "orchestrator.jobs.title": "Jobs",
-        "orchestrator.register.capabilities": "Capabilities",
-        "orchestrator.register.machineName": "Machine Nazwa",
-        "orchestrator.register.machineNamePlaceholder": "Enter machine Nazwa",
-        "orchestrator.register.osType": "OS Typ",
-        "orchestrator.register.submit": "Register",
-        "orchestrator.stats.available": "Available",
-        "orchestrator.stats.busy": "Busy",
-        "orchestrator.stats.offline": "Offline"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "pl",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "No jobs",
+    "orchestrator.jobs.title": "Jobs",
+    "orchestrator.register.capabilities": "Capabilities",
+    "orchestrator.register.machineName": "Machine Nazwa",
+    "orchestrator.register.machineNamePlaceholder": "Enter machine Nazwa",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "OS Typ",
+    "orchestrator.register.submit": "Register",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "Available",
+    "orchestrator.stats.busy": "Busy",
+    "orchestrator.stats.offline": "Offline",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

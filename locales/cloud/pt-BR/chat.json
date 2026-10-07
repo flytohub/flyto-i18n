@@ -5,6 +5,9 @@
   "version": "1.0.0",
   "translations": {
     "chat.attachFile": "Anexar arquivo",
+    "chat.backToConversations": "",
+    "chat.loadConversationsFailed": "",
+    "chat.loadMessagesFailed": "",
     "chat.messageUser": "Mensagem",
     "chat.messages": "Mensagens",
     "chat.noConversations": "Nenhuma conversa ainda",
@@ -13,6 +16,7 @@
     "chat.searchConversations": "Pesquisar conversas...",
     "chat.selectConversation": "Selecione uma conversa para comecar a conversar",
     "chat.send": "Enviar",
+    "chat.sendFailed": "",
     "chat.startChat": "Iniciar Chat",
     "chat.startChatFailed": "Falha ao iniciar chat",
     "chat.typePlaceholder": "Digite uma mensagem...",

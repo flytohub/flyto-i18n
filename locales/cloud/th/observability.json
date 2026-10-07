@@ -4,6 +4,7 @@
   "category": "cloud.observability",
   "version": "1.0.0",
   "translations": {
+    "observability.loadFailed": "",
     "observability.subtitle": "ติดตามการดำเนินการ workflow และประสิทธิภาพ",
     "observability.tabs.alerts": "การแจ้งเตือน",
     "observability.tabs.metrics": "Metrics",

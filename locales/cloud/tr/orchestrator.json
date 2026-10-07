@@ -9,10 +9,23 @@
     "orchestrator.register.capabilities": "Capabilities",
     "orchestrator.register.machineName": "Machine Ad",
     "orchestrator.register.machineNamePlaceholder": "Enter machine Ad",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
     "orchestrator.register.osType": "OS Tür",
     "orchestrator.register.submit": "Register",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
     "orchestrator.stats.available": "Available",
     "orchestrator.stats.busy": "Busy",
-    "orchestrator.stats.offline": "Çevrimdışı"
+    "orchestrator.stats.offline": "Çevrimdışı",
+    "orchestrator.stats.totalRunners": ""
   }
 }
