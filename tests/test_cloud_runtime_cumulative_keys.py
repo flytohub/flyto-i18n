@@ -739,7 +739,7 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # Removed with no consumer left in any repository: 71 key-shaped
     # `admin.*` leaves ("Subtitle", "Last30Days"), `dashboard.evolution.subtitle`
     # and the interpolated fragments `scheduler.{lastRun,runs,times}`.
-    assert english_total == 13_922
+    assert english_total == 13_923
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

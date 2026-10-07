@@ -1182,6 +1182,7 @@
     "spaces.ops.dispatchRefusal.device_unknown": "This resource has never connected, so the step cannot be sent to it.",
     "spaces.ops.dispatchRefusal.dispatch_unclassified": "The step could not be sent. The task's record has the details.",
     "spaces.ops.dispatchRefusal.effect_manifest_changed": "What the computer says this step will do changed after the step was checked. Press Start to send it as described now.",
+    "spaces.ops.dispatchRefusal.host_single_actuation_required": "This step can send two actions to one resource at once, and the computer that runs it has a release that does not guarantee one action at a time per resource. Update the computer to the latest Flyto2 release; the step is sent once it reconnects.",
     "spaces.ops.dispatchRefusal.evidence_not_current": "A reading this step depends on is no longer current. Take it again, then press Start.",
     "spaces.ops.dispatchRefusal.execution_host_offline": "The computer that runs this step is not connected right now.",
     "spaces.ops.dispatchRefusal.execution_host_unbound": "No computer in this Space is set up to run this step for this resource.",

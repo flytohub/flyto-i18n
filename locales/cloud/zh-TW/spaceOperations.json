@@ -1182,6 +1182,7 @@
     "spaces.ops.dispatchRefusal.device_unknown": "這個資源從未連線過，因此無法把步驟送給它。",
     "spaces.ops.dispatchRefusal.dispatch_unclassified": "這個步驟無法送出。詳細原因記錄在任務紀錄中。",
     "spaces.ops.dispatchRefusal.effect_manifest_changed": "檢查此步驟後，電腦回報的步驟效果已經改變。請按開始，依目前的描述送出。",
+    "spaces.ops.dispatchRefusal.host_single_actuation_required": "這個步驟可能同時對同一個資源送出兩個動作，而執行它的電腦所用的版本無法保證每個資源一次只執行一個動作。請將電腦更新到最新的 Flyto2 版本；重新連線後就會送出這個步驟。",
     "spaces.ops.dispatchRefusal.evidence_not_current": "這個步驟依賴的讀數已經不是最新的。請重新取得後再按開始。",
     "spaces.ops.dispatchRefusal.execution_host_offline": "負責執行這個步驟的電腦目前沒有連線。",
     "spaces.ops.dispatchRefusal.execution_host_unbound": "這個 Space 裡沒有電腦被設定為替此資源執行這個步驟。",
