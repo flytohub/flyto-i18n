@@ -1182,6 +1182,7 @@
     "spaces.ops.dispatchRefusal.device_unknown": "这个资源从未连接过，因此无法把步骤发送给它。",
     "spaces.ops.dispatchRefusal.dispatch_unclassified": "这个步骤无法发送。详细原因记录在任务记录中。",
     "spaces.ops.dispatchRefusal.effect_manifest_changed": "检查此步骤后，电脑报告的步骤效果已经改变。请按开始，按当前的描述发送。",
+    "spaces.ops.dispatchRefusal.host_single_actuation_required": "这个步骤可能同时对同一个资源发送两个动作，而执行它的电脑所用的版本无法保证每个资源一次只执行一个动作。请将电脑更新到最新的 Flyto2 版本；重新连接后就会发送这个步骤。",
     "spaces.ops.dispatchRefusal.evidence_not_current": "这个步骤依赖的读数已经不是最新的。请重新获取后再按开始。",
     "spaces.ops.dispatchRefusal.execution_host_offline": "负责执行这个步骤的电脑当前没有连接。",
     "spaces.ops.dispatchRefusal.execution_host_unbound": "这个 Space 里没有电脑被设置为替此资源执行这个步骤。",
