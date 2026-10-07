@@ -9,10 +9,23 @@
     "orchestrator.register.capabilities": "Capabilities",
     "orchestrator.register.machineName": "Machine Nome",
     "orchestrator.register.machineNamePlaceholder": "Enter machine Nome",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
     "orchestrator.register.osType": "OS Tipo",
     "orchestrator.register.submit": "Register",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
     "orchestrator.stats.available": "Available",
     "orchestrator.stats.busy": "Busy",
-    "orchestrator.stats.offline": "Offline"
+    "orchestrator.stats.offline": "Offline",
+    "orchestrator.stats.totalRunners": ""
   }
 }

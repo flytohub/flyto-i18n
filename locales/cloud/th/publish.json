@@ -13,6 +13,7 @@
     "publish.inviteKey.usageLimit": "จำกัดการใช้งาน",
     "publish.pricing.creditsPerCall": "เครดิตต่อครั้ง",
     "publish.pricing.currency": "สกุลเงิน",
+    "publish.pricing.customAmount": "",
     "publish.pricing.free": "ฟรี",
     "publish.pricing.freeDesc": "ไม่เสียค่าใช้จ่ายในการติดตั้ง",
     "publish.pricing.label": "การตั้งราคา",

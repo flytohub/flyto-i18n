@@ -1,9 +1,16 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "tr",
-    "category": "cloud.message",
-    "version": "1.0.0",
-    "translations": {
-        "message.replayCompleted": "Tekrar başarıyla tamamlandı!"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "tr",
+  "category": "cloud.message",
+  "version": "1.0.0",
+  "translations": {
+    "message.addedToLibrary": "",
+    "message.alertAcknowledged": "",
+    "message.alertMuted": "",
+    "message.followedUser": "",
+    "message.passwordUpdated": "",
+    "message.replayCompleted": "Tekrar başarıyla tamamlandı!",
+    "message.rollbackSuccessful": "",
+    "message.unfollowedUser": ""
+  }
 }

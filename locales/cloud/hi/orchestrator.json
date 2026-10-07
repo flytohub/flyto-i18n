@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "hi",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "कोई काम नहीं",
-        "orchestrator.jobs.title": "काम",
-        "orchestrator.register.capabilities": "क्षमताएं",
-        "orchestrator.register.machineName": "मशीन का नाम",
-        "orchestrator.register.machineNamePlaceholder": "मशीन का नाम दर्ज करें",
-        "orchestrator.register.osType": "OS प्रकार",
-        "orchestrator.register.submit": "रजिस्टर करें",
-        "orchestrator.stats.available": "उपलब्ध",
-        "orchestrator.stats.busy": "व्यस्त",
-        "orchestrator.stats.offline": "ऑफ़लाइन"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "hi",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "कोई काम नहीं",
+    "orchestrator.jobs.title": "काम",
+    "orchestrator.register.capabilities": "क्षमताएं",
+    "orchestrator.register.machineName": "मशीन का नाम",
+    "orchestrator.register.machineNamePlaceholder": "मशीन का नाम दर्ज करें",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "OS प्रकार",
+    "orchestrator.register.submit": "रजिस्टर करें",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "उपलब्ध",
+    "orchestrator.stats.busy": "व्यस्त",
+    "orchestrator.stats.offline": "ऑफ़लाइन",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

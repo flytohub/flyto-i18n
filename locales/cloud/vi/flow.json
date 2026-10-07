@@ -21,6 +21,7 @@
     "flow.switch.case": "Trường hợp",
     "flow.switch.cases": "Các trường hợp Switch",
     "flow.switch.default": "Mặc định",
+    "flow.switch.defaultCase": "",
     "flow.switch.defaultInfo": "Các giá trị không khớp đi đến đầu ra Mặc định",
     "flow.switch.expression": "Biểu thức",
     "flow.switch.expressionHint": "Giá trị để so khớp với các trường hợp",

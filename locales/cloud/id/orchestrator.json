@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "id",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "Tidak ada pekerjaan",
-        "orchestrator.jobs.title": "Pekerjaan",
-        "orchestrator.register.capabilities": "Kemampuan",
-        "orchestrator.register.machineName": "Nama Mesin",
-        "orchestrator.register.machineNamePlaceholder": "Masukkan nama mesin",
-        "orchestrator.register.osType": "Tipe OS",
-        "orchestrator.register.submit": "Daftar",
-        "orchestrator.stats.available": "Tersedia",
-        "orchestrator.stats.busy": "Sibuk",
-        "orchestrator.stats.offline": "Offline"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "id",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "Tidak ada pekerjaan",
+    "orchestrator.jobs.title": "Pekerjaan",
+    "orchestrator.register.capabilities": "Kemampuan",
+    "orchestrator.register.machineName": "Nama Mesin",
+    "orchestrator.register.machineNamePlaceholder": "Masukkan nama mesin",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "Tipe OS",
+    "orchestrator.register.submit": "Daftar",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "Tersedia",
+    "orchestrator.stats.busy": "Sibuk",
+    "orchestrator.stats.offline": "Offline",
+    "orchestrator.stats.totalRunners": ""
+  }
 }
