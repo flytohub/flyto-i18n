@@ -12,6 +12,7 @@
     "purchases.filterAll": "Tümü",
     "purchases.filterCompleted": "Tamamlandı",
     "purchases.filterRefunded": "İade Edildi",
+    "purchases.loadFailed": "",
     "purchases.loadMore": "Daha Fazla Yükle",
     "purchases.loading": "Yükleniyor...",
     "purchases.noPurchases": "Henüz satın alma yok",

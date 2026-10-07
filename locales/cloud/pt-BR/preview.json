@@ -16,7 +16,9 @@
     "preview.output": "Saida",
     "preview.ready": "Pronto",
     "preview.running": "Executando",
+    "preview.selectOption": "",
     "preview.steps": "etapas",
+    "preview.typeAndEnter": "",
     "preview.untitledTemplate": "Template Sem Titulo"
   }
 }

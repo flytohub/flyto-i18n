@@ -43,6 +43,8 @@
     "audit.filter.allActions": "การดำเนินการทั้งหมด",
     "audit.filter.allResources": "ทรัพยากรทั้งหมด",
     "audit.filter.searchPlaceholder": "ค้นหา logs...",
+    "audit.loadFailed": "",
+    "audit.noOrganization": "",
     "audit.resource.execution": "การดำเนินการ",
     "audit.resource.setting": "การตั้งค่า",
     "audit.resource.template": "เทมเพลต",

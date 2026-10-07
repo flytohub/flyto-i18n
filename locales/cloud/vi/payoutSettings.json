@@ -31,6 +31,7 @@
     "payoutSettings.pendingVerification": "Đang chờ xác minh",
     "payoutSettings.pendingVerificationDesc": "Tài khoản của bạn đang được Stripe xem xét",
     "payoutSettings.pendingVerificationInfo": "Vui lòng hoàn tất đăng ký Stripe để bắt đầu nhận thanh toán. Thường mất vài phút.",
+    "payoutSettings.platformConfigError": "",
     "payoutSettings.platformFees": "Phí nền tảng",
     "payoutSettings.poweredByStripe": "Được cung cấp bởi Stripe. Dữ liệu của bạn được bảo mật.",
     "payoutSettings.recentSales": "Doanh số gần đây",

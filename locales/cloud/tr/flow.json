@@ -21,6 +21,7 @@
     "flow.switch.case": "Durum",
     "flow.switch.cases": "Switch Durumları",
     "flow.switch.default": "Varsayılan",
+    "flow.switch.defaultCase": "",
     "flow.switch.defaultInfo": "Eşleşmeyen değerler Varsayılan çıkışa gider",
     "flow.switch.expression": "İfade",
     "flow.switch.expressionHint": "Durumlarla eşleştirilecek değer",

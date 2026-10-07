@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "it",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "Nessun lavoro",
-        "orchestrator.jobs.title": "Lavori",
-        "orchestrator.register.capabilities": "Capacità",
-        "orchestrator.register.machineName": "Nome della macchina",
-        "orchestrator.register.machineNamePlaceholder": "Inserisci il nome della macchina",
-        "orchestrator.register.osType": "Tipo di OS",
-        "orchestrator.register.submit": "Registrati",
-        "orchestrator.stats.available": "Disponibile",
-        "orchestrator.stats.busy": "Occupato",
-        "orchestrator.stats.offline": "Offline"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "it",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "Nessun lavoro",
+    "orchestrator.jobs.title": "Lavori",
+    "orchestrator.register.capabilities": "Capacità",
+    "orchestrator.register.machineName": "Nome della macchina",
+    "orchestrator.register.machineNamePlaceholder": "Inserisci il nome della macchina",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "Tipo di OS",
+    "orchestrator.register.submit": "Registrati",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "Disponibile",
+    "orchestrator.stats.busy": "Occupato",
+    "orchestrator.stats.offline": "Offline",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

@@ -13,6 +13,7 @@
     "publish.inviteKey.usageLimit": "Limite de uso",
     "publish.pricing.creditsPerCall": "Créditos por execução",
     "publish.pricing.currency": "Moeda",
+    "publish.pricing.customAmount": "",
     "publish.pricing.free": "Gratuito",
     "publish.pricing.freeDesc": "Sem custo para instalar",
     "publish.pricing.label": "Preco",

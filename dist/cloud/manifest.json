@@ -8,7 +8,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "en": {
       "name": "English",
@@ -26,7 +26,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "fr": {
       "name": "French",
@@ -35,7 +35,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "hi": {
       "name": "Hindi",
@@ -44,7 +44,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "id": {
       "name": "Indonesian",
@@ -53,7 +53,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "it": {
       "name": "Italian",
@@ -62,7 +62,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "ja": {
       "name": "Japanese",
@@ -71,7 +71,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "ko": {
       "name": "Korean",
@@ -80,7 +80,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "pl": {
       "name": "Polish",
@@ -89,7 +89,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "pt-BR": {
       "name": "Portuguese (Brazil)",
@@ -98,7 +98,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "th": {
       "name": "Thai",
@@ -107,7 +107,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "tr": {
       "name": "Turkish",
@@ -116,7 +116,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "vi": {
       "name": "Vietnamese",
@@ -125,7 +125,7 @@
       "total_keys": 10971,
       "translated_keys": 10965,
       "completion": 99.9,
-      "files_merged": 264
+      "files_merged": 265
     },
     "zh-CN": {
       "name": "Simplified Chinese",

@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "th",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "ไม่มีงาน",
-        "orchestrator.jobs.title": "งาน",
-        "orchestrator.register.capabilities": "ความสามารถ",
-        "orchestrator.register.machineName": "ชื่อเครื่อง",
-        "orchestrator.register.machineNamePlaceholder": "กรอกชื่อเครื่อง",
-        "orchestrator.register.osType": "ประเภท OS",
-        "orchestrator.register.submit": "ลงทะเบียน",
-        "orchestrator.stats.available": "พร้อมใช้งาน",
-        "orchestrator.stats.busy": "ไม่ว่าง",
-        "orchestrator.stats.offline": "ออฟไลน์"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "th",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "ไม่มีงาน",
+    "orchestrator.jobs.title": "งาน",
+    "orchestrator.register.capabilities": "ความสามารถ",
+    "orchestrator.register.machineName": "ชื่อเครื่อง",
+    "orchestrator.register.machineNamePlaceholder": "กรอกชื่อเครื่อง",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "ประเภท OS",
+    "orchestrator.register.submit": "ลงทะเบียน",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "พร้อมใช้งาน",
+    "orchestrator.stats.busy": "ไม่ว่าง",
+    "orchestrator.stats.offline": "ออฟไลน์",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

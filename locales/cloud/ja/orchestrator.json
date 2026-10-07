@@ -1,18 +1,31 @@
 {
-    "$schema": "../../../schema/locale.schema.json",
-    "locale": "ja",
-    "category": "cloud.orchestrator",
-    "version": "1.0.0",
-    "translations": {
-        "orchestrator.jobs.empty": "ジョブなし",
-        "orchestrator.jobs.title": "ジョブ",
-        "orchestrator.register.capabilities": "機能",
-        "orchestrator.register.machineName": "マシン名",
-        "orchestrator.register.machineNamePlaceholder": "マシン名を入力",
-        "orchestrator.register.osType": "OSタイプ",
-        "orchestrator.register.submit": "登録",
-        "orchestrator.stats.available": "利用可能",
-        "orchestrator.stats.busy": "使用中",
-        "orchestrator.stats.offline": "オフライン"
-    }
+  "$schema": "../../../schema/locale.schema.json",
+  "locale": "ja",
+  "category": "cloud.orchestrator",
+  "version": "1.0.0",
+  "translations": {
+    "orchestrator.jobs.empty": "ジョブなし",
+    "orchestrator.jobs.title": "ジョブ",
+    "orchestrator.register.capabilities": "機能",
+    "orchestrator.register.machineName": "マシン名",
+    "orchestrator.register.machineNamePlaceholder": "マシン名を入力",
+    "orchestrator.register.name": "",
+    "orchestrator.register.namePlaceholder": "",
+    "orchestrator.register.osType": "OSタイプ",
+    "orchestrator.register.submit": "登録",
+    "orchestrator.register.title": "",
+    "orchestrator.runners.empty": "",
+    "orchestrator.runners.emptyDesc": "",
+    "orchestrator.runners.lastSeen": "",
+    "orchestrator.runners.maxJobs": "",
+    "orchestrator.runners.platform": "",
+    "orchestrator.runners.register": "",
+    "orchestrator.runners.registerFirst": "",
+    "orchestrator.runners.runJob": "",
+    "orchestrator.runners.title": "",
+    "orchestrator.stats.available": "利用可能",
+    "orchestrator.stats.busy": "使用中",
+    "orchestrator.stats.offline": "オフライン",
+    "orchestrator.stats.totalRunners": ""
+  }
 }

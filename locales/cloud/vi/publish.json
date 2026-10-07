@@ -13,6 +13,7 @@
     "publish.inviteKey.usageLimit": "Giới hạn sử dụng",
     "publish.pricing.creditsPerCall": "Credit mỗi lượt",
     "publish.pricing.currency": "Tiền tệ",
+    "publish.pricing.customAmount": "",
     "publish.pricing.free": "Miễn phí",
     "publish.pricing.freeDesc": "Không tốn phí để cài đặt",
     "publish.pricing.label": "Định giá",
