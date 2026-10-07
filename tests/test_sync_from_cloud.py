@@ -48,6 +48,18 @@ class CloudSyncDeletionTests(unittest.TestCase):
         self.assertEqual(translations["common.stale"], "Stale")
         self.assertEqual(translations["common.new"], "")
 
+    def test_leaves_a_catalog_without_key_changes_byte_for_byte(self):
+        """A sync that adds and removes nothing must not restyle the file."""
+        original = json.dumps(
+            {"translations": {"common.keep": "Keep", "common.stale": "Stale"}},
+            indent=4,
+        )
+        self.path.write_text(original, encoding="utf-8")
+
+        self.module.generate_locale_file("common", {"common.keep"}, "en")
+
+        self.assertEqual(self.path.read_text(encoding="utf-8"), original)
+
     def test_deletes_only_with_explicit_flag(self):
         """Remove an unscanned key only when destructive mode is explicit."""
         self.module.generate_locale_file(
