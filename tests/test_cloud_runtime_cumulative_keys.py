@@ -739,7 +739,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # Removed with no consumer left in any repository: 71 key-shaped
     # `admin.*` leaves ("Subtitle", "Last30Days"), `dashboard.evolution.subtitle`
     # and the interpolated fragments `scheduler.{lastRun,runs,times}`.
-    assert english_total == 13_922
+    # +1: a health window the resource's reporter cannot keep is its own
+    # refusal (flyto-cloud 2026-10-07, presence-time):
+    # `spaces.hud.refusal.health_unenforceable`.
+    assert english_total == 13_923
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

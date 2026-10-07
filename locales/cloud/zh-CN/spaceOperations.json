@@ -744,6 +744,7 @@
     "spaces.hud.refusal.pair_not_in_registry": "尚未判定",
     "spaces.hud.refusal.space_not_allowed": "Space 不允许",
     "spaces.hud.refusal.health_stale": "太久没回报",
+    "spaces.hud.refusal.health_unenforceable": "回报频率跟不上时限",
     "spaces.hud.refusal.lease_conflict": "已被租用",
     "spaces.hud.refusal.priority": "优先级较低",
     "spaces.hud.refusal.already_attempted": "已尝试过",

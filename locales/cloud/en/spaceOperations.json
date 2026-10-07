@@ -744,6 +744,7 @@
     "spaces.hud.refusal.pair_not_in_registry": "never decided",
     "spaces.hud.refusal.space_not_allowed": "not allowed in Space",
     "spaces.hud.refusal.health_stale": "not reported recently",
+    "spaces.hud.refusal.health_unenforceable": "reports less often than its window",
     "spaces.hud.refusal.lease_conflict": "already leased",
     "spaces.hud.refusal.priority": "lower priority",
     "spaces.hud.refusal.already_attempted": "already tried",
