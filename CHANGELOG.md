@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-08 — What a self-hosted edition says about a feature it does not offer
+
+- 4 cloud keys added in en, zh-TW and zh-CN for flyto-cloud's self-host
+  WP15 (other locales fall back to English):
+  `spaces.editionRefusal.edition_capability_absent` and
+  `spaces.editionRefusal.unavailable_in_this_edition` (the two typed edition
+  refusals a Space or device route answers with),
+  `spaces.triggers.events.routeNotInEdition` (a subscription whose delivery
+  route has no sender in this edition) and
+  `spaces.triggers.events.refused.ROUTE_UNAVAILABLE_IN_EDITION` (saving one is
+  refused for that reason).
+- The cumulative key count moves from 13,929 to 13,933.
+
 ## 2026-10-07 — A step held until its computer guarantees one action per resource
 
 - 1 cloud key added in en, zh-TW and zh-CN, copied verbatim from the
