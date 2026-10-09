@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-09 — The Mission Station's simple view: receipt, progress, "Needs you"
+
+- 12 cloud keys added in en, zh-TW and zh-CN for flyto-cloud's simple Mission
+  Station view (other locales fall back to English): the Mission Receipt
+  (`spaces.receipt.title`, `requested`, `observed`, `rule`, `executedBy`,
+  `duration`, `viewEvidence`, `viewDecisions`, `outcomeUnknown`), the progress
+  stepper label (`spaces.lifecycle.label`), the "?" hint button
+  (`spaces.hud.moreInfo`) and the paused-for-reply line that now points at
+  the "Needs you" card (`spaces.narrative.continuation.awaitingReplyNeedsYou`).
+  The older `awaitingReply` key stays for released clients.
+- The cumulative key count moves from 13,933 to 13,945.
+
 ## 2026-10-08 — What a self-hosted edition says about a feature it does not offer
 
 - 4 cloud keys added in en, zh-TW and zh-CN for flyto-cloud's self-host

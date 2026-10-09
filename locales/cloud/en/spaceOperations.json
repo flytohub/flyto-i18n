@@ -1233,7 +1233,19 @@
     "spaces.timeline.stage.next_step_truncated": "Extra actions left for the next decision",
     "spaces.timeline.stage.next_step_unavailable": "No next step could be decided",
     "spaces.timeline.stage.recovery_limit_reached": "Recovery attempts used up",
-    "spaces.timeline.stage.step_skipped": "Step skipped"
+    "spaces.timeline.stage.step_skipped": "Step skipped",
+    "spaces.receipt.title": "Mission receipt",
+    "spaces.receipt.requested": "Requested",
+    "spaces.receipt.observed": "Observed",
+    "spaces.receipt.rule": "Rule",
+    "spaces.receipt.executedBy": "Run by",
+    "spaces.receipt.duration": "Duration",
+    "spaces.receipt.viewEvidence": "View evidence",
+    "spaces.receipt.viewDecisions": "View decision trail",
+    "spaces.receipt.outcomeUnknown": "Outcome unknown",
+    "spaces.lifecycle.label": "Mission progress",
+    "spaces.hud.moreInfo": "What is this?",
+    "spaces.narrative.continuation.awaitingReplyNeedsYou": "Waiting for your reply under Needs you; execution is paused"
   },
   "total_keys": 1222
 }
