@@ -1233,7 +1233,19 @@
     "spaces.timeline.stage.next_step_truncated": "多出的动作留待下次决定",
     "spaces.timeline.stage.next_step_unavailable": "无法决定下一步",
     "spaces.timeline.stage.recovery_limit_reached": "恢复尝试次数已用完",
-    "spaces.timeline.stage.step_skipped": "已跳过此步骤"
+    "spaces.timeline.stage.step_skipped": "已跳过此步骤",
+    "spaces.receipt.title": "任务证明",
+    "spaces.receipt.requested": "要求",
+    "spaces.receipt.observed": "实际观测",
+    "spaces.receipt.rule": "规则",
+    "spaces.receipt.executedBy": "执行者",
+    "spaces.receipt.duration": "耗时",
+    "spaces.receipt.viewEvidence": "查看证据",
+    "spaces.receipt.viewDecisions": "查看决策过程",
+    "spaces.receipt.outcomeUnknown": "结果未知",
+    "spaces.lifecycle.label": "任务进度",
+    "spaces.hud.moreInfo": "这是什么？",
+    "spaces.narrative.continuation.awaitingReplyNeedsYou": "等待你在上方「需要你」回复；执行已暂停"
   },
   "total_keys": 1222
 }

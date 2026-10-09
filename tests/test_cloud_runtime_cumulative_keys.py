@@ -752,7 +752,12 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.editionRefusal.{edition_capability_absent,unavailable_in_this_edition}`,
     # `spaces.triggers.events.routeNotInEdition` and
     # `spaces.triggers.events.refused.ROUTE_UNAVAILABLE_IN_EDITION`.
-    assert english_total == 13_933
+    # +12: the Mission Station simple view (flyto-cloud 2026-10-09,
+    # station-simple): `spaces.receipt.{title,requested,observed,rule,
+    # executedBy,duration,viewEvidence,viewDecisions,outcomeUnknown}`,
+    # `spaces.lifecycle.label`, `spaces.hud.moreInfo` and
+    # `spaces.narrative.continuation.awaitingReplyNeedsYou`.
+    assert english_total == 13_945
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

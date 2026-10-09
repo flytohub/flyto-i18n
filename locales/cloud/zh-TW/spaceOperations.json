@@ -1233,7 +1233,19 @@
     "spaces.timeline.stage.next_step_truncated": "多出的動作留待下次決定",
     "spaces.timeline.stage.next_step_unavailable": "無法決定下一步",
     "spaces.timeline.stage.recovery_limit_reached": "復原嘗試次數已用完",
-    "spaces.timeline.stage.step_skipped": "已略過此步驟"
+    "spaces.timeline.stage.step_skipped": "已略過此步驟",
+    "spaces.receipt.title": "任務證明",
+    "spaces.receipt.requested": "要求",
+    "spaces.receipt.observed": "實際觀測",
+    "spaces.receipt.rule": "規則",
+    "spaces.receipt.executedBy": "執行者",
+    "spaces.receipt.duration": "耗時",
+    "spaces.receipt.viewEvidence": "查看證據",
+    "spaces.receipt.viewDecisions": "查看決策過程",
+    "spaces.receipt.outcomeUnknown": "結果未知",
+    "spaces.lifecycle.label": "任務進度",
+    "spaces.hud.moreInfo": "這是什麼？",
+    "spaces.narrative.continuation.awaitingReplyNeedsYou": "等待你在上方「需要你」回覆；執行已暫停"
   },
   "total_keys": 1222
 }
