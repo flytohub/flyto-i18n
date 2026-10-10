@@ -1246,6 +1246,11 @@
     "spaces.receipt.viewEvidence": "查看證據",
     "spaces.receipt.viewDecisions": "查看決策過程",
     "spaces.receipt.outcomeUnknown": "結果未知",
+    "spaces.receipt.erpAckMissing": "流程回報已寫入，但外部系統尚未獨立確認成功。",
+    "spaces.receipt.sourcesCorrelated": "證據已關聯至執行工作，但尚未驗證設備來源真實性。",
+    "spaces.receipt.sourcesUnavailable": "無法確認證據來源，因此結果尚未通過驗證。",
+    "spaces.receipt.sourcesChecking": "正在確認證據來源…",
+    "spaces.receipt.sourcesUnproven": "證據尚未完整關聯至已完成的工作，因此結果尚未通過驗證。",
     "spaces.lifecycle.label": "任務進度",
     "spaces.hud.moreInfo": "這是什麼？",
     "spaces.narrative.continuation.awaitingReplyNeedsYou": "等待你在上方「需要你」回覆；執行已暫停"

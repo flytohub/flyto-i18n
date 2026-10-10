@@ -12,6 +12,10 @@
   and manifest; updated the cumulative Cloud locale contract by one key.
 - `npm run verify`: 131 tests passed, 1 skipped; strict validation 4,915
   files / 0 errors. No Cloud main merge or production CDN deployment implied.
+- Added the five independent Mission Receipt proof-source/ERP acknowledgement
+  labels under `spaces.receipt.*` in all three official Cloud catalogs. The
+  Cloud bundled source formerly carried these without canonical catalog
+  ownership; the Cloud source/parity gate can now check their exact keys.
 
 
 ## 2026-10-10 — Clear private Space data after access revocation
