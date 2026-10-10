@@ -1097,6 +1097,8 @@
     "spaces.ops.send.stepRefused": "The step was refused",
     "spaces.ops.send.commandNotDispatched": "The command could not be handed to a machine. Try again.",
     "spaces.ops.send.goalRefused": "The Space did not accept the goal. Try again.",
+    "spaces.ops.send.goalOutcomeUnknown": "The request may have created a task. Check recent tasks before sending it again to avoid duplicate actions.",
+    "spaces.ops.send.goalOutcomeUnknown": "The request may have created a task. Check recent tasks before sending it again to avoid duplicate actions.",
     "spaces.ops.send.commandNotRun": "The command could not be run. Try again.",
     "spaces.ops.send.commandRejected": "The Space refused to run this command.",
     "spaces.registryChange.resource_added": "{resource} was added",

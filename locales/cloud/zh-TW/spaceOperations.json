@@ -1097,6 +1097,8 @@
     "spaces.ops.send.stepRefused": "這個步驟被拒絕了",
     "spaces.ops.send.commandNotDispatched": "指令沒能交給機器，請再試一次。",
     "spaces.ops.send.goalRefused": "這個 Space 沒有接受這個目標，請再試一次。",
+    "spaces.ops.send.goalOutcomeUnknown": "這次請求可能已建立任務。重新送出前，請先檢查最近任務，以免重複執行。",
+    "spaces.ops.send.goalOutcomeUnknown": "這次請求可能已建立任務。重新送出前，請先檢查最近任務，以免重複執行。",
     "spaces.ops.send.commandNotRun": "指令沒能執行，請再試一次。",
     "spaces.ops.send.commandRejected": "這個 Space 拒絕執行這個指令。",
     "spaces.registryChange.resource_added": "新增了 {resource}",

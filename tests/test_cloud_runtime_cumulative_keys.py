@@ -727,7 +727,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # labels now have source owners in all three official Cloud locales.
     # +1: an explicit permission-revocation state clears previously shown
     # private task/evidence data instead of leaving the old Space on screen.
-    assert english_total == 13_951
+    # +1: an uncertain create response must direct operators to check their
+    # task history, not invite a blind retry that could duplicate effects.
+    assert english_total == 13_952
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

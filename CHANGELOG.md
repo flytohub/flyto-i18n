@@ -4,6 +4,7 @@
 
 - Added `spaces.ops.spaceAccessLost` to the canonical Cloud catalog in English, Traditional Chinese and Simplified Chinese. A Mission Station whose task or registry read loses authorization no longer keeps the previous user's mission, resource or evidence details visible.
 - Rebuilt the tracked locale distributions from source. This is source/contract verification, not a production deployment or App/HMI implementation.
+- Added `spaces.ops.send.goalOutcomeUnknown` in all three official Cloud locales: after an ambiguous task-submit timeout/server error, the operator is instructed to inspect existing tasks before attempting a new send. A definitive refusal keeps its existing wording. This prevents misleading "just retry" copy while the server-side durable submit-idempotency contract remains a separate P0.
 
 ## 2026-10-10 — i18n lint and official Cloud parity on the current main
 
