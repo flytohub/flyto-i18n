@@ -1,0 +1,4 @@
+# CLI entrypoints keep established hyphenated filenames, which cannot be
+# imported as Python modules. Suppress only the module-name lint for them.
+[lint.per-file-ignores]
+"scripts/*-*.py" = ["N999"]

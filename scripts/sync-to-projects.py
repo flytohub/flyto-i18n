@@ -19,6 +19,8 @@ Options:
     --project NAME  Only sync to a specific project (cloud, code, app)
 """
 
+from __future__ import annotations
+
 import argparse
 import subprocess
 import sys
@@ -112,7 +114,7 @@ def get_dist_locales(scope: str) -> list:
     ])
 
 
-def get_target_locales(scope: str, locales_filter: list = None) -> list:
+def get_target_locales(scope: str, locales_filter: list | None = None) -> list:
     """Resolve the locale list to sync for a scope."""
     available_locales = get_dist_locales(scope)
     if locales_filter:
@@ -204,7 +206,7 @@ def sync_manifest(source_dir: Path, dest_dir: Path, dry_run: bool) -> bool:
 def sync_single_scope(
     scope: str,
     dest_dir: Path,
-    locales_filter: list = None,
+    locales_filter: list | None = None,
     dry_run: bool = False,
     copy_manifest: bool = False,
 ) -> dict:

@@ -383,6 +383,9 @@
     "templateBuilder.aiChat.approval.failed": "无法发送批准，请再试一次。",
     "templateBuilder.aiChat.approval.continue": "已批准。请以完全相同的输入执行 {tool} 一次。",
     "templateBuilder.nodeProperties.allFileTypes": "*（所有文件）",
-    "templateBuilder.nodeProperties.optionPairsPlaceholder": "值:标签（每行一个）"
+    "templateBuilder.nodeProperties.optionPairsPlaceholder": "值:标签（每行一个）",
+    "templateBuilder.header.saved": "已保存",
+    "templateBuilder.header.saving": "保存中…",
+    "templateBuilder.header.unsaved": "有未保存的更改"
   }
 }

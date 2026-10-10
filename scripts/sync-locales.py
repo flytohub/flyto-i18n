@@ -17,13 +17,12 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS  # noqa: E402
+from i18n_contract import PROJECT_DIRS
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -41,7 +40,7 @@ def get_locales() -> list:
     return sorted(locales)
 
 
-def load_locale_keys(locale_dir: Path) -> Dict[str, Dict[str, str]]:
+def load_locale_keys(locale_dir: Path) -> dict[str, dict[str, str]]:
     """Load all keys from a locale directory, grouped by file."""
     result = {}
 
@@ -55,7 +54,7 @@ def load_locale_keys(locale_dir: Path) -> Dict[str, Dict[str, str]]:
     return result
 
 
-def sync_locale_in_project(project: str, locale: str, dry_run: bool = False) -> Dict[str, int]:
+def sync_locale_in_project(project: str, locale: str, dry_run: bool = False) -> dict[str, int]:
     """Sync a locale with English base within a specific project."""
     en_dir = LOCALES_DIR / project / 'en'
     locale_dir = LOCALES_DIR / project / locale
@@ -95,7 +94,7 @@ def sync_locale_in_project(project: str, locale: str, dry_run: bool = False) -> 
             continue
 
         new_translations = {}
-        for key in en_translations.keys():
+        for key in en_translations:
             if key in target_translations:
                 new_translations[key] = target_translations[key]
             else:

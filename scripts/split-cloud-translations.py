@@ -13,7 +13,6 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict, List
 
 # Grouping by page/feature
 TRANSLATION_GROUPS = {
@@ -83,7 +82,7 @@ TRANSLATION_GROUPS = {
 }
 
 
-def split_translations(data: Dict, groups: Dict[str, List[str]]) -> Dict[str, Dict]:
+def split_translations(data: dict, groups: dict[str, list[str]]) -> dict[str, dict]:
     """Split translation data into groups."""
     result = {}
     assigned = set()

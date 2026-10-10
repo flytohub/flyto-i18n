@@ -19,7 +19,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import build_locale_meta, language_meta, locale_sort_key  # noqa: E402
+from i18n_contract import (
+    build_locale_meta,
+    language_meta,
+    locale_sort_key,
+)
 
 PROJECT_ROOT = Path(__file__).parent.parent
 CONTRACT_FILE = PROJECT_ROOT / "seo" / "public-surfaces.json"

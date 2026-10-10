@@ -259,6 +259,8 @@
     "userSettings.warroom.saved": "已保存 Warroom 连接",
     "userSettings.warroom.subtitle": "连接 Flyto2 Warroom 实例,让由 ChatGPT 触发的工作流执行,在真正执行前先经过您的 Agent Firewall 策略检查。Flyto2 Cloud 不会替您生成此密钥——请从您自己 Warroom 实例的 API 密钥设置中复制(mcp:invoke 范围)。",
     "userSettings.warroom.title": "Warroom 连接",
-    "userSettings.yourApiKey": "您的 API 密钥"
+    "userSettings.yourApiKey": "您的 API 密钥",
+    "userSettings.aiSourceOllama": "Ollama 本地模型",
+    "userSettings.aiSourceOpenAICompatible": "兼容 OpenAI 的服务"
   }
 }

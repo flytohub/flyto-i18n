@@ -4,7 +4,6 @@ import json
 import re
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ("en", "zh-TW", "zh-CN")
 
@@ -138,16 +137,7 @@ def test_runner_binding_contract_has_exact_additive_key_set() -> None:
         actual = {
             key
             for key in source
-            if key.startswith("aiSpace.resources.machineBindings.")
-            or key.startswith("aiSpace.workspace.machineBinding")
-            or key
-            in {
-                "aiSpace.missions.dispatchable",
-                "aiSpace.missions.dispatchableHint",
-                "aiSpace.missions.dispatchableNone",
-                "aiSpace.missions.dispatchableUnreadable",
-                "aiSpace.missions.notDispatchable",
-            }
+            if key.startswith(("aiSpace.resources.machineBindings.", "aiSpace.workspace.machineBinding")) or key in {"aiSpace.missions.dispatchable", "aiSpace.missions.dispatchableHint", "aiSpace.missions.dispatchableNone", "aiSpace.missions.dispatchableUnreadable", "aiSpace.missions.notDispatchable"}
         }
         assert actual == RUNNER_BINDING_KEYS
 

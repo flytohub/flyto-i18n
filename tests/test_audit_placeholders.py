@@ -4,7 +4,6 @@ import importlib.util
 import unittest
 from pathlib import Path
 
-
 SCRIPT_PATH = Path(__file__).resolve().parents[1] / "scripts" / "audit-placeholders.py"
 FOOTPRINT_METRIC_PLACEHOLDERS = {
     "footprint.connector.outputLatency": {"outputs", "latency"},

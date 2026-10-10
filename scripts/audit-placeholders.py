@@ -9,13 +9,11 @@ import re
 import sys
 from pathlib import Path
 
-
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS  # noqa: E402
-
+from i18n_contract import PROJECT_DIRS
 
 ROOT = SCRIPT_DIR.parent
 LOCALES_DIR = ROOT / "locales"

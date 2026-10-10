@@ -11,17 +11,18 @@ Options:
     --json      Output as JSON
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS  # noqa: E402
+from i18n_contract import PROJECT_DIRS
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -39,7 +40,7 @@ def get_locales() -> list:
     return sorted(locales)
 
 
-def load_locale_keys(locale: str, projects: list = None) -> Dict[str, set]:
+def load_locale_keys(locale: str, projects: list | None = None) -> dict[str, set]:
     """Load all keys for a locale, grouped by category."""
     keys_by_category = {}
     dirs = projects or PROJECT_DIRS
@@ -56,13 +57,13 @@ def load_locale_keys(locale: str, projects: list = None) -> Dict[str, set]:
                     category = data.get('category', 'unknown')
                     translations = data.get('translations', {})
                     keys_by_category[category] = set(translations.keys())
-            except Exception as e:
+            except (OSError, ValueError, TypeError) as e:
                 print(f"Warning: Could not load {json_file}: {e}")
 
     return keys_by_category
 
 
-def calculate_coverage(base_keys: Dict[str, set], locale_keys: Dict[str, set]) -> Dict:
+def calculate_coverage(base_keys: dict[str, set], locale_keys: dict[str, set]) -> dict:
     """Calculate coverage statistics."""
     total_base = sum(len(keys) for keys in base_keys.values())
     total_translated = 0
@@ -95,7 +96,7 @@ def calculate_coverage(base_keys: Dict[str, set], locale_keys: Dict[str, set]) -
     }
 
 
-def print_coverage_report(locale: str, stats: Dict):
+def print_coverage_report(locale: str, stats: dict):
     """Print human-readable coverage report."""
     print(f"\n{'=' * 60}")
     print(f"Translation Coverage Report: {locale}")

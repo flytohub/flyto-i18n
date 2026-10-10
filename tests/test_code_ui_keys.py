@@ -2,7 +2,6 @@ import json
 import unittest
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_CODE_UI_KEYS = {
     "code.agentFirewall.downloadBrowserExtension",
@@ -318,14 +317,14 @@ class CodeUIKeyContractTests(unittest.TestCase):
         expected = {
             "en": (
                 "Attack validation closure",
-                "Active checks require owned scope and unexpired authorization. "
+                ("Active checks require owned scope and unexpired authorization. "
                 "Credential validation is canary-only; TLS uses controlled probes, "
-                "never third-party interception.",
+                "never third-party interception."),
             ),
             "zh-TW": (
                 "攻擊驗證閉環",
-                "主動檢查必須限定在自有範圍且授權尚未到期。帳密驗證僅限金絲雀帳號；"
-                "TLS 只執行受控探測，絕不攔截第三方流量。",
+                ("主動檢查必須限定在自有範圍且授權尚未到期。帳密驗證僅限金絲雀帳號；"
+                "TLS 只執行受控探測，絕不攔截第三方流量。"),
             ),
         }
         for locale, (title, safety) in expected.items():

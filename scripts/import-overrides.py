@@ -119,7 +119,7 @@ def update_locale_files(locale: str, translations: dict, dry_run: bool = False) 
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-        except Exception as e:
+        except (OSError, ValueError, TypeError) as e:
             print(f"    Error reading {file_path}: {e}")
             continue
 
@@ -129,13 +129,7 @@ def update_locale_files(locale: str, translations: dict, dry_run: bool = False) 
         for key, value in cat_translations.items():
             if not value:
                 continue
-            if key not in existing:
-                existing[key] = value
-                changes += 1
-            elif existing[key] == '':
-                existing[key] = value
-                changes += 1
-            elif existing[key] != value:
+            if key not in existing or existing[key] == '' or existing[key] != value:
                 existing[key] = value
                 changes += 1
 

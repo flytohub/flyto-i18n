@@ -383,6 +383,9 @@
     "templateBuilder.aiChat.approval.failed": "無法送出核准，請再試一次。",
     "templateBuilder.aiChat.approval.continue": "已核准。請以完全相同的輸入執行 {tool} 一次。",
     "templateBuilder.nodeProperties.allFileTypes": "*（所有檔案）",
-    "templateBuilder.nodeProperties.optionPairsPlaceholder": "值:標籤（每行一個）"
+    "templateBuilder.nodeProperties.optionPairsPlaceholder": "值:標籤（每行一個）",
+    "templateBuilder.header.saved": "已儲存",
+    "templateBuilder.header.saving": "儲存中…",
+    "templateBuilder.header.unsaved": "有未儲存的變更"
   }
 }

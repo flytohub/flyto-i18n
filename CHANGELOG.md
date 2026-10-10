@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-10 — i18n lint and official Cloud parity on the current main
+
+- Brought the latest-main Ruff baseline from 221 issues to zero while keeping Python 3.9 support and preserving established hyphenated CLI names.
+- Added the Editor saved/saving/unsaved states and Ollama/OpenAI-compatible source labels in English, Traditional Chinese and Simplified Chinese, increasing the cumulative English source-key count from 13,945 to 13,950.
+- Regenerated the Cloud, aggregate and SEO manifests from source. Three official Cloud dictionaries now match approved Cloud runtime bundles exactly, without reviving historical or experimental UI labels.
+- Main/remote branch cleanup requires verified fast-forward and audit evidence; this change does not claim production/CDN acceptance.
+
 ## 2026-10-09 — The Mission Station's simple view: receipt, progress, "Needs you"
 
 - 12 cloud keys added in en, zh-TW and zh-CN for flyto-cloud's simple Mission

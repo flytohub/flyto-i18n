@@ -10,13 +10,13 @@ Declarations: **385**
 | --- | --- | --- | --- |
 | function | `flatten` | [`scripts/add-cloud-keys.py:31`](../../scripts/add-cloud-keys.py#L31) | Flatten nested translation values into dotted keys. |
 | function | `extract_keys` | [`scripts/add-cloud-keys.py:43`](../../scripts/add-cloud-keys.py#L43) | Extract all translation keys from flyto-cloud frontend. |
-| function | `key_to_english` | [`scripts/add-cloud-keys.py:67`](../../scripts/add-cloud-keys.py#L67) | Convert key name to readable English. |
-| function | `main` | [`scripts/add-cloud-keys.py:76`](../../scripts/add-cloud-keys.py#L76) | Scan Flyto2 Cloud sources and append missing English keys. |
+| function | `key_to_english` | [`scripts/add-cloud-keys.py:68`](../../scripts/add-cloud-keys.py#L68) | Convert key name to readable English. |
+| function | `main` | [`scripts/add-cloud-keys.py:77`](../../scripts/add-cloud-keys.py#L77) | Scan Flyto2 Cloud sources and append missing English keys. |
 | function | `flatten` | [`scripts/add-code-keys.py:38`](../../scripts/add-code-keys.py#L38) | Flatten nested dict to dot-separated keys. |
 | function | `extract_keys_from_code` | [`scripts/add-code-keys.py:50`](../../scripts/add-code-keys.py#L50) | Extract all t()/tOr() calls from flyto-code source. |
-| function | `key_to_english` | [`scripts/add-code-keys.py:93`](../../scripts/add-code-keys.py#L93) | Convert a key name to English text. |
-| function | `get_existing_keys` | [`scripts/add-code-keys.py:108`](../../scripts/add-code-keys.py#L108) | Get keys already in dist. |
-| function | `main` | [`scripts/add-code-keys.py:121`](../../scripts/add-code-keys.py#L121) | Scan Flyto2 Code sources and append reviewable missing keys. |
+| function | `key_to_english` | [`scripts/add-code-keys.py:94`](../../scripts/add-code-keys.py#L94) | Convert a key name to English text. |
+| function | `get_existing_keys` | [`scripts/add-code-keys.py:109`](../../scripts/add-code-keys.py#L109) | Get keys already in dist. |
+| function | `main` | [`scripts/add-code-keys.py:122`](../../scripts/add-code-keys.py#L122) | Scan Flyto2 Code sources and append reviewable missing keys. |
 | function | `get_locales` | [`scripts/add-locale.py:31`](../../scripts/add-locale.py#L31) | Get available locales by scanning project directories. |
 | function | `add_locale` | [`scripts/add-locale.py:43`](../../scripts/add-locale.py#L43) | Add a new locale based on English. |
 | function | `count_locale_translations` | [`scripts/add-locale.py:93`](../../scripts/add-locale.py#L93) | Count translated and total keys for a locale. |
@@ -25,69 +25,69 @@ Declarations: **385**
 | function | `main` | [`scripts/add-locale.py:138`](../../scripts/add-locale.py#L138) | Parse CLI arguments and create or list locale source trees. |
 | function | `update_locale` | [`scripts/add_upstream_keys.py:188`](../../scripts/add_upstream_keys.py#L188) | Returns (added, already_present). |
 | function | `main` | [`scripts/add_upstream_keys.py:215`](../../scripts/add_upstream_keys.py#L215) | Apply the idempotent upstream-key migration to supported locales. |
-| function | `placeholder_names` | [`scripts/audit-placeholders.py:25`](../../scripts/audit-placeholders.py#L25) | Extract named single- or double-brace placeholders from a value. |
-| function | `load_translations` | [`scripts/audit-placeholders.py:30`](../../scripts/audit-placeholders.py#L30) | Merge one project's locale catalogs for placeholder comparison. |
-| function | `audit_placeholders` | [`scripts/audit-placeholders.py:42`](../../scripts/audit-placeholders.py#L42) | Return non-empty translations whose placeholder set differs from English. |
-| function | `main` | [`scripts/audit-placeholders.py:71`](../../scripts/audit-placeholders.py#L71) | Report placeholder drift and optionally fail for remediation work. |
+| function | `placeholder_names` | [`scripts/audit-placeholders.py:23`](../../scripts/audit-placeholders.py#L23) | Extract named single- or double-brace placeholders from a value. |
+| function | `load_translations` | [`scripts/audit-placeholders.py:28`](../../scripts/audit-placeholders.py#L28) | Merge one project's locale catalogs for placeholder comparison. |
+| function | `audit_placeholders` | [`scripts/audit-placeholders.py:40`](../../scripts/audit-placeholders.py#L40) | Return non-empty translations whose placeholder set differs from English. |
+| function | `main` | [`scripts/audit-placeholders.py:69`](../../scripts/audit-placeholders.py#L69) | Report placeholder drift and optionally fail for remediation work. |
 | function | `build_app_locale` | [`scripts/build-app.py:31`](../../scripts/build-app.py#L31) | Build flat merged translations for a locale. |
 | function | `main` | [`scripts/build-app.py:58`](../../scripts/build-app.py#L58) | Build supported Flutter locale bundles in the sibling app checkout. |
-| function | `available_scopes` | [`scripts/build-dist.py:133`](../../scripts/build-dist.py#L133) | List every selectable scope, including the aggregate `all` bundle. |
-| function | `get_locales` | [`scripts/build-dist.py:138`](../../scripts/build-dist.py#L138) | Discover available locales from the cloud project (primary). |
-| function | `flat_to_nested` | [`scripts/build-dist.py:146`](../../scripts/build-dist.py#L146) | Convert flat keys to nested object for vue-i18n compatibility. |
-| function | `collect_files` | [`scripts/build-dist.py:196`](../../scripts/build-dist.py#L196) | Get translation files for a locale from a specific project directory. |
-| function | `load_translations` | [`scripts/build-dist.py:216`](../../scripts/build-dist.py#L216) | Load and merge translations from files, restoring the original key prefix. |
-| function | `build_locale` | [`scripts/build-dist.py:243`](../../scripts/build-dist.py#L243) | Build merged translations for a locale. |
-| function | `build_manifest` | [`scripts/build-dist.py:313`](../../scripts/build-dist.py#L313) | Build manifest with locale metadata. |
-| function | `count_translated` | [`scripts/build-dist.py:350`](../../scripts/build-dist.py#L350) | Count non-empty unique translations for a locale after merge semantics. |
-| function | `sync_repository_manifest` | [`scripts/build-dist.py:372`](../../scripts/build-dist.py#L372) | Synchronize root locale coverage from the aggregate distribution manifest. |
-| function | `parse_args` | [`scripts/build-dist.py:391`](../../scripts/build-dist.py#L391) | Parse the repeatable closed-set --scope/--locale distribution filters. |
-| function | `select_ordered` | [`scripts/build-dist.py:425`](../../scripts/build-dist.py#L425) | Return requested values in canonical order, defaulting to all of them. |
-| function | `write_bundle` | [`scripts/build-dist.py:433`](../../scripts/build-dist.py#L433) | Write one compact locale bundle exactly as the CDN serves it. |
-| function | `write_manifest` | [`scripts/build-dist.py:439`](../../scripts/build-dist.py#L439) | Write one indented manifest document. |
-| function | `build_scope` | [`scripts/build-dist.py:445`](../../scripts/build-dist.py#L445) | Build one scope: bundles for selected locales, manifest for all locales. |
-| function | `build_aggregate` | [`scripts/build-dist.py:476`](../../scripts/build-dist.py#L476) | Build the aggregate bundle plus the always-complete global manifests. |
-| function | `print_summary` | [`scripts/build-dist.py:511`](../../scripts/build-dist.py#L511) | Print per-scope completion for every scope this build touched. |
-| function | `main` | [`scripts/build-dist.py:526`](../../scripts/build-dist.py#L526) | Build the selected deterministic translation bundles and manifests. |
-| function | `load_json` | [`scripts/build-seo-manifest.py:40`](../../scripts/build-seo-manifest.py#L40) | Load a JSON file with UTF-8 encoding. |
-| function | `discover_locales` | [`scripts/build-seo-manifest.py:46`](../../scripts/build-seo-manifest.py#L46) | Discover public locales from locales/cloud, the broadest shipped scope. |
-| function | `stable_hash` | [`scripts/build-seo-manifest.py:54`](../../scripts/build-seo-manifest.py#L54) | Create a stable content hash for generated SEO manifests. |
-| function | `locale_prefix` | [`scripts/build-seo-manifest.py:60`](../../scripts/build-seo-manifest.py#L60) | Return the public path prefix for a locale. |
-| function | `build_alternates` | [`scripts/build-seo-manifest.py:67`](../../scripts/build-seo-manifest.py#L67) | Build URL templates for localized alternates. |
-| function | `validate_contract` | [`scripts/build-seo-manifest.py:77`](../../scripts/build-seo-manifest.py#L77) | Return contract validation errors. |
-| function | `build_seo_manifest` | [`scripts/build-seo-manifest.py:114`](../../scripts/build-seo-manifest.py#L114) | Build the distributable SEO manifest. |
-| function | `render_json` | [`scripts/build-seo-manifest.py:151`](../../scripts/build-seo-manifest.py#L151) | Render JSON exactly as tracked in dist. |
-| function | `main` | [`scripts/build-seo-manifest.py:156`](../../scripts/build-seo-manifest.py#L156) | Build or freshness-check the multilingual SEO manifest. |
-| function | `get_locales` | [`scripts/build.py:30`](../../scripts/build.py#L30) | Get available locales by scanning project directories. |
-| function | `merge_locale_files` | [`scripts/build.py:42`](../../scripts/build.py#L42) | Merge all translation files for a locale into a single dict. |
-| function | `build_locale` | [`scripts/build.py:63`](../../scripts/build.py#L63) | Build a single merged locale file. |
-| function | `get_manifest_version` | [`scripts/build.py:87`](../../scripts/build.py#L87) | Get version from manifest.json. |
-| function | `main` | [`scripts/build.py:97`](../../scripts/build.py#L97) | Run the legacy aggregate locale builder from CLI arguments. |
+| function | `available_scopes` | [`scripts/build-dist.py:140`](../../scripts/build-dist.py#L140) | List every selectable scope, including the aggregate `all` bundle. |
+| function | `get_locales` | [`scripts/build-dist.py:145`](../../scripts/build-dist.py#L145) | Discover available locales from the cloud project (primary). |
+| function | `flat_to_nested` | [`scripts/build-dist.py:153`](../../scripts/build-dist.py#L153) | Convert flat keys to nested object for vue-i18n compatibility. |
+| function | `collect_files` | [`scripts/build-dist.py:200`](../../scripts/build-dist.py#L200) | Get translation files for a locale from a specific project directory. |
+| function | `load_translations` | [`scripts/build-dist.py:220`](../../scripts/build-dist.py#L220) | Load and merge translations from files, restoring the original key prefix. |
+| function | `build_locale` | [`scripts/build-dist.py:247`](../../scripts/build-dist.py#L247) | Build merged translations for a locale. |
+| function | `build_manifest` | [`scripts/build-dist.py:317`](../../scripts/build-dist.py#L317) | Build manifest with locale metadata. |
+| function | `count_translated` | [`scripts/build-dist.py:354`](../../scripts/build-dist.py#L354) | Count non-empty unique translations for a locale after merge semantics. |
+| function | `sync_repository_manifest` | [`scripts/build-dist.py:376`](../../scripts/build-dist.py#L376) | Synchronize root locale coverage from the aggregate distribution manifest. |
+| function | `parse_args` | [`scripts/build-dist.py:395`](../../scripts/build-dist.py#L395) | Parse the repeatable closed-set --scope/--locale distribution filters. |
+| function | `select_ordered` | [`scripts/build-dist.py:429`](../../scripts/build-dist.py#L429) | Return requested values in canonical order, defaulting to all of them. |
+| function | `write_bundle` | [`scripts/build-dist.py:437`](../../scripts/build-dist.py#L437) | Write one compact locale bundle exactly as the CDN serves it. |
+| function | `write_manifest` | [`scripts/build-dist.py:443`](../../scripts/build-dist.py#L443) | Write one indented manifest document. |
+| function | `build_scope` | [`scripts/build-dist.py:449`](../../scripts/build-dist.py#L449) | Build one scope: bundles for selected locales, manifest for all locales. |
+| function | `build_aggregate` | [`scripts/build-dist.py:480`](../../scripts/build-dist.py#L480) | Build the aggregate bundle plus the always-complete global manifests. |
+| function | `print_summary` | [`scripts/build-dist.py:515`](../../scripts/build-dist.py#L515) | Print per-scope completion for every scope this build touched. |
+| function | `main` | [`scripts/build-dist.py:530`](../../scripts/build-dist.py#L530) | Build the selected deterministic translation bundles and manifests. |
+| function | `load_json` | [`scripts/build-seo-manifest.py:44`](../../scripts/build-seo-manifest.py#L44) | Load a JSON file with UTF-8 encoding. |
+| function | `discover_locales` | [`scripts/build-seo-manifest.py:50`](../../scripts/build-seo-manifest.py#L50) | Discover public locales from locales/cloud, the broadest shipped scope. |
+| function | `stable_hash` | [`scripts/build-seo-manifest.py:58`](../../scripts/build-seo-manifest.py#L58) | Create a stable content hash for generated SEO manifests. |
+| function | `locale_prefix` | [`scripts/build-seo-manifest.py:64`](../../scripts/build-seo-manifest.py#L64) | Return the public path prefix for a locale. |
+| function | `build_alternates` | [`scripts/build-seo-manifest.py:71`](../../scripts/build-seo-manifest.py#L71) | Build URL templates for localized alternates. |
+| function | `validate_contract` | [`scripts/build-seo-manifest.py:81`](../../scripts/build-seo-manifest.py#L81) | Return contract validation errors. |
+| function | `build_seo_manifest` | [`scripts/build-seo-manifest.py:118`](../../scripts/build-seo-manifest.py#L118) | Build the distributable SEO manifest. |
+| function | `render_json` | [`scripts/build-seo-manifest.py:155`](../../scripts/build-seo-manifest.py#L155) | Render JSON exactly as tracked in dist. |
+| function | `main` | [`scripts/build-seo-manifest.py:160`](../../scripts/build-seo-manifest.py#L160) | Build or freshness-check the multilingual SEO manifest. |
+| function | `get_locales` | [`scripts/build.py:29`](../../scripts/build.py#L29) | Get available locales by scanning project directories. |
+| function | `merge_locale_files` | [`scripts/build.py:41`](../../scripts/build.py#L41) | Merge all translation files for a locale into a single dict. |
+| function | `build_locale` | [`scripts/build.py:62`](../../scripts/build.py#L62) | Build a single merged locale file. |
+| function | `get_manifest_version` | [`scripts/build.py:86`](../../scripts/build.py#L86) | Get version from manifest.json. |
+| function | `main` | [`scripts/build.py:96`](../../scripts/build.py#L96) | Run the legacy aggregate locale builder from CLI arguments. |
 | function | `collect` | [`scripts/check_coverage.py:15`](../../scripts/check_coverage.py#L15) | Collect namespaced translation values for one locale. |
-| function | `main` | [`scripts/check_coverage.py:33`](../../scripts/check_coverage.py#L33) | Report legacy translation coverage and enforce an optional threshold. |
+| function | `main` | [`scripts/check_coverage.py:35`](../../scripts/check_coverage.py#L35) | Report legacy translation coverage and enforce an optional threshold. |
 | function | `apply_vocab_fixes` | [`scripts/convert-tw-to-cn.py:48`](../../scripts/convert-tw-to-cn.py#L48) | Apply post-OpenCC vocabulary replacements. |
 | function | `convert_value` | [`scripts/convert-tw-to-cn.py:55`](../../scripts/convert-tw-to-cn.py#L55) | Recursively convert string values. |
 | function | `main` | [`scripts/convert-tw-to-cn.py:66`](../../scripts/convert-tw-to-cn.py#L66) | Convert selected zh-TW catalogs to reviewed zh-CN source files. |
-| function | `get_locales` | [`scripts/coverage.py:30`](../../scripts/coverage.py#L30) | Get available locales by scanning project directories. |
-| function | `load_locale_keys` | [`scripts/coverage.py:42`](../../scripts/coverage.py#L42) | Load all keys for a locale, grouped by category. |
-| function | `calculate_coverage` | [`scripts/coverage.py:65`](../../scripts/coverage.py#L65) | Calculate coverage statistics. |
-| function | `print_coverage_report` | [`scripts/coverage.py:98`](../../scripts/coverage.py#L98) | Print human-readable coverage report. |
-| function | `main` | [`scripts/coverage.py:123`](../../scripts/coverage.py#L123) | Render locale coverage as a table or machine-readable JSON. |
-| class | `Declaration` | [`scripts/generate-reference.py:18`](../../scripts/generate-reference.py#L18) | Describe one documented Python class, function, or method. |
-| function | `source_files` | [`scripts/generate-reference.py:28`](../../scripts/generate-reference.py#L28) | Return every maintained, historical, and test Python source file. |
-| function | `declaration_kind` | [`scripts/generate-reference.py:38`](../../scripts/generate-reference.py#L38) | Classify an AST declaration for the generated table. |
-| function | `first_sentence` | [`scripts/generate-reference.py:49`](../../scripts/generate-reference.py#L49) | Collapse a docstring into a Markdown-table-safe summary. |
-| function | `walk_declarations` | [`scripts/generate-reference.py:58`](../../scripts/generate-reference.py#L58) | Recursively collect declarations while preserving qualified names. |
-| function | `collect_declarations` | [`scripts/generate-reference.py:94`](../../scripts/generate-reference.py#L94) | Parse every source file and return sorted documented declarations. |
-| function | `render_reference` | [`scripts/generate-reference.py:103`](../../scripts/generate-reference.py#L103) | Render a deterministic Markdown table for all Python declarations. |
-| function | `main` | [`scripts/generate-reference.py:125`](../../scripts/generate-reference.py#L125) | Write the reference or fail when the tracked output is stale. |
-| function | `language_meta` | [`scripts/i18n_contract.py:283`](../../scripts/i18n_contract.py#L283) | Return a complete metadata record for a locale. |
-| function | `locale_sort_key` | [`scripts/i18n_contract.py:301`](../../scripts/i18n_contract.py#L301) | Sort known locales by Flyto2 launch priority, then unknown locales by code. |
-| function | `build_locale_meta` | [`scripts/i18n_contract.py:308`](../../scripts/i18n_contract.py#L308) | Build the CDN locale metadata document consumed by public surfaces. |
-| function | `runtime_key` | [`scripts/i18n_contract.py:335`](../../scripts/i18n_contract.py#L335) | The key a runtime catalog resolves for a catalog-source key. |
+| function | `get_locales` | [`scripts/coverage.py:31`](../../scripts/coverage.py#L31) | Get available locales by scanning project directories. |
+| function | `load_locale_keys` | [`scripts/coverage.py:43`](../../scripts/coverage.py#L43) | Load all keys for a locale, grouped by category. |
+| function | `calculate_coverage` | [`scripts/coverage.py:66`](../../scripts/coverage.py#L66) | Calculate coverage statistics. |
+| function | `print_coverage_report` | [`scripts/coverage.py:99`](../../scripts/coverage.py#L99) | Print human-readable coverage report. |
+| function | `main` | [`scripts/coverage.py:124`](../../scripts/coverage.py#L124) | Render locale coverage as a table or machine-readable JSON. |
+| class | `Declaration` | [`scripts/generate-reference.py:17`](../../scripts/generate-reference.py#L17) | Describe one documented Python class, function, or method. |
+| function | `source_files` | [`scripts/generate-reference.py:27`](../../scripts/generate-reference.py#L27) | Return every maintained, historical, and test Python source file. |
+| function | `declaration_kind` | [`scripts/generate-reference.py:37`](../../scripts/generate-reference.py#L37) | Classify an AST declaration for the generated table. |
+| function | `first_sentence` | [`scripts/generate-reference.py:48`](../../scripts/generate-reference.py#L48) | Collapse a docstring into a Markdown-table-safe summary. |
+| function | `walk_declarations` | [`scripts/generate-reference.py:57`](../../scripts/generate-reference.py#L57) | Recursively collect declarations while preserving qualified names. |
+| function | `collect_declarations` | [`scripts/generate-reference.py:93`](../../scripts/generate-reference.py#L93) | Parse every source file and return sorted documented declarations. |
+| function | `render_reference` | [`scripts/generate-reference.py:102`](../../scripts/generate-reference.py#L102) | Render a deterministic Markdown table for all Python declarations. |
+| function | `main` | [`scripts/generate-reference.py:124`](../../scripts/generate-reference.py#L124) | Write the reference or fail when the tracked output is stale. |
+| function | `language_meta` | [`scripts/i18n_contract.py:282`](../../scripts/i18n_contract.py#L282) | Return a complete metadata record for a locale. |
+| function | `locale_sort_key` | [`scripts/i18n_contract.py:300`](../../scripts/i18n_contract.py#L300) | Sort known locales by Flyto2 launch priority, then unknown locales by code. |
+| function | `build_locale_meta` | [`scripts/i18n_contract.py:307`](../../scripts/i18n_contract.py#L307) | Build the CDN locale metadata document consumed by public surfaces. |
+| function | `runtime_key` | [`scripts/i18n_contract.py:334`](../../scripts/i18n_contract.py#L334) | The key a runtime catalog resolves for a catalog-source key. |
 | function | `parse_js_object` | [`scripts/import-overrides.py:23`](../../scripts/import-overrides.py#L23) | Parse JavaScript object from local-overrides.js content. |
 | function | `flatten_dict` | [`scripts/import-overrides.py:80`](../../scripts/import-overrides.py#L80) | Flatten nested dict to dot-separated keys. |
 | function | `update_locale_files` | [`scripts/import-overrides.py:92`](../../scripts/import-overrides.py#L92) | Update locale files with translations. |
-| function | `main` | [`scripts/import-overrides.py:158`](../../scripts/import-overrides.py#L158) | Import selected Cloud override values into locale source catalogs. |
+| function | `main` | [`scripts/import-overrides.py:152`](../../scripts/import-overrides.py#L152) | Import selected Cloud override values into locale source catalogs. |
 | function | `key_to_english` | [`scripts/one-off/_fill_all_gaps.py:15`](../../scripts/one-off/_fill_all_gaps.py#L15) | Generate English text from a translation key name. |
 | function | `get_en_value` | [`scripts/one-off/_fill_all_gaps.py:27`](../../scripts/one-off/_fill_all_gaps.py#L27) | Get English value for a key from the en locale file. |
 | function | `load_en_cache` | [`scripts/one-off/_fill_all_gaps.py:44`](../../scripts/one-off/_fill_all_gaps.py#L44) | Load and cache non-empty English values for one historical scope. |
@@ -100,296 +100,296 @@ Declarations: **385**
 | function | `main` | [`scripts/one-off/fill-ja-code-gaps.py:588`](../../scripts/one-off/fill-ja-code-gaps.py#L588) | Append the fixed historical Japanese translation dictionary. |
 | function | `fix` | [`scripts/one-off/fill-zh-cn-gaps.py:29`](../../scripts/one-off/fill-zh-cn-gaps.py#L29) | Apply the historical Traditional-to-Simplified vocabulary overrides. |
 | function | `fill` | [`scripts/one-off/fill-zh-cn-gaps.py:36`](../../scripts/one-off/fill-zh-cn-gaps.py#L36) | Append missing zh-CN values derived from the selected zh-TW catalog. |
-| function | `split_translations` | [`scripts/split-cloud-translations.py:86`](../../scripts/split-cloud-translations.py#L86) | Split translation data into groups. |
-| function | `main` | [`scripts/split-cloud-translations.py:108`](../../scripts/split-cloud-translations.py#L108) | Split supported Cloud source bundles into category catalogs. |
-| function | `find_source_files` | [`scripts/sync-from-cloud.py:49`](../../scripts/sync-from-cloud.py#L49) | Find all Vue and JS files in the frontend source. |
-| function | `extract_keys_from_file` | [`scripts/sync-from-cloud.py:63`](../../scripts/sync-from-cloud.py#L63) | Extract all translation keys from a single file. |
-| function | `extract_all_keys` | [`scripts/sync-from-cloud.py:85`](../../scripts/sync-from-cloud.py#L85) | Extract all translation keys grouped by category. |
-| function | `load_existing_translations` | [`scripts/sync-from-cloud.py:112`](../../scripts/sync-from-cloud.py#L112) | Load existing translations for a category. |
-| function | `load_keys_owned_elsewhere` | [`scripts/sync-from-cloud.py:128`](../../scripts/sync-from-cloud.py#L128) | Return runtime keys owned by another catalog in the English source layout. |
-| function | `missing_catalog_keys` | [`scripts/sync-from-cloud.py:158`](../../scripts/sync-from-cloud.py#L158) | Scanned keys no English catalog holds, by the category file they would create or extend. |
-| function | `check_cloud_keys` | [`scripts/sync-from-cloud.py:175`](../../scripts/sync-from-cloud.py#L175) | Exit status for the Cloud-side gate: 1 when a Cloud key has no catalog entry. |
-| function | `generate_locale_file` | [`scripts/sync-from-cloud.py:191`](../../scripts/sync-from-cloud.py#L191) | Generate one category while preserving unscanned keys by default. |
-| function | `sync_from_cloud` | [`scripts/sync-from-cloud.py:261`](../../scripts/sync-from-cloud.py#L261) | Synchronize scanned Cloud keys with explicit opt-in deletion. |
-| function | `main` | [`scripts/sync-from-cloud.py:325`](../../scripts/sync-from-cloud.py#L325) | Parse CLI options and synchronize keys from a Cloud checkout. |
+| function | `split_translations` | [`scripts/split-cloud-translations.py:85`](../../scripts/split-cloud-translations.py#L85) | Split translation data into groups. |
+| function | `main` | [`scripts/split-cloud-translations.py:107`](../../scripts/split-cloud-translations.py#L107) | Split supported Cloud source bundles into category catalogs. |
+| function | `find_source_files` | [`scripts/sync-from-cloud.py:48`](../../scripts/sync-from-cloud.py#L48) | Find all Vue and JS files in the frontend source. |
+| function | `extract_keys_from_file` | [`scripts/sync-from-cloud.py:62`](../../scripts/sync-from-cloud.py#L62) | Extract all translation keys from a single file. |
+| function | `extract_all_keys` | [`scripts/sync-from-cloud.py:84`](../../scripts/sync-from-cloud.py#L84) | Extract all translation keys grouped by category. |
+| function | `load_existing_translations` | [`scripts/sync-from-cloud.py:111`](../../scripts/sync-from-cloud.py#L111) | Load existing translations for a category. |
+| function | `load_keys_owned_elsewhere` | [`scripts/sync-from-cloud.py:127`](../../scripts/sync-from-cloud.py#L127) | Return runtime keys owned by another catalog in the English source layout. |
+| function | `missing_catalog_keys` | [`scripts/sync-from-cloud.py:157`](../../scripts/sync-from-cloud.py#L157) | Scanned keys no English catalog holds, by the category file they would create or extend. |
+| function | `check_cloud_keys` | [`scripts/sync-from-cloud.py:174`](../../scripts/sync-from-cloud.py#L174) | Exit status for the Cloud-side gate: 1 when a Cloud key has no catalog entry. |
+| function | `generate_locale_file` | [`scripts/sync-from-cloud.py:190`](../../scripts/sync-from-cloud.py#L190) | Generate one category while preserving unscanned keys by default. |
+| function | `sync_from_cloud` | [`scripts/sync-from-cloud.py:260`](../../scripts/sync-from-cloud.py#L260) | Synchronize scanned Cloud keys with explicit opt-in deletion. |
+| function | `main` | [`scripts/sync-from-cloud.py:324`](../../scripts/sync-from-cloud.py#L324) | Parse CLI options and synchronize keys from a Cloud checkout. |
 | function | `extract_keys_from_file` | [`scripts/sync-from-core.py:41`](../../scripts/sync-from-core.py#L41) | Extract i18n keys from a Python file. |
 | function | `extract_params_schema_keys` | [`scripts/sync-from-core.py:108`](../../scripts/sync-from-core.py#L108) | Extract i18n keys from params_schema definitions. |
 | function | `is_enum_like_array` | [`scripts/sync-from-core.py:171`](../../scripts/sync-from-core.py#L171) | Check if array values look like enum options vs example data. |
-| function | `extract_params_schema_dict` | [`scripts/sync-from-core.py:198`](../../scripts/sync-from-core.py#L198) | Try to extract params_schema as a Python dict. |
-| function | `format_label` | [`scripts/sync-from-core.py:228`](../../scripts/sync-from-core.py#L228) | Convert snake_case or kebab-case to Title Case. |
-| function | `scan_core_modules` | [`scripts/sync-from-core.py:237`](../../scripts/sync-from-core.py#L237) | Scan all modules in flyto-core and extract keys. |
-| function | `group_by_category` | [`scripts/sync-from-core.py:262`](../../scripts/sync-from-core.py#L262) | Group keys by category for separate files. |
-| function | `load_existing_keys` | [`scripts/sync-from-core.py:285`](../../scripts/sync-from-core.py#L285) | Load existing English values from module and shared locale files. |
-| function | `write_locale_files` | [`scripts/sync-from-core.py:314`](../../scripts/sync-from-core.py#L314) | Write grouped keys while preserving unscanned values by default. |
-| function | `main` | [`scripts/sync-from-core.py:419`](../../scripts/sync-from-core.py#L419) | Parse CLI options and synchronize module keys from a Core checkout. |
-| function | `get_locales` | [`scripts/sync-locales.py:32`](../../scripts/sync-locales.py#L32) | Get available locales by scanning project directories. |
-| function | `load_locale_keys` | [`scripts/sync-locales.py:44`](../../scripts/sync-locales.py#L44) | Load all keys from a locale directory, grouped by file. |
-| function | `sync_locale_in_project` | [`scripts/sync-locales.py:58`](../../scripts/sync-locales.py#L58) | Sync a locale with English base within a specific project. |
-| function | `main` | [`scripts/sync-locales.py:127`](../../scripts/sync-locales.py#L127) | Synchronize selected locale catalogs against the English baseline. |
-| function | `new_stats` | [`scripts/sync-to-projects.py:93`](../../scripts/sync-to-projects.py#L93) | Create a sync stats accumulator. |
-| function | `merge_stats` | [`scripts/sync-to-projects.py:98`](../../scripts/sync-to-projects.py#L98) | Add per-target stats into a project total. |
-| function | `get_dist_locales` | [`scripts/sync-to-projects.py:104`](../../scripts/sync-to-projects.py#L104) | Get available locales for a scope from dist/. |
-| function | `get_target_locales` | [`scripts/sync-to-projects.py:115`](../../scripts/sync-to-projects.py#L115) | Resolve the locale list to sync for a scope. |
-| function | `sync_locale_file` | [`scripts/sync-to-projects.py:123`](../../scripts/sync-to-projects.py#L123) | Sync one locale file and return its stats delta. |
-| function | `is_deletable_locale_file` | [`scripts/sync-to-projects.py:149`](../../scripts/sync-to-projects.py#L149) | Return true when a target JSON file is a stale locale file. |
-| function | `delete_stale_locale_files` | [`scripts/sync-to-projects.py:159`](../../scripts/sync-to-projects.py#L159) | Delete target locale JSON files that no longer exist in dist. |
-| function | `sync_manifest` | [`scripts/sync-to-projects.py:183`](../../scripts/sync-to-projects.py#L183) | Sync manifest.json if it exists. |
-| function | `sync_single_scope` | [`scripts/sync-to-projects.py:204`](../../scripts/sync-to-projects.py#L204) | Sync a single scope's dist files to a destination directory. |
-| function | `run_build_app` | [`scripts/sync-to-projects.py:247`](../../scripts/sync-to-projects.py#L247) | Run build-app.py for flyto-app targets. |
-| function | `sync_code_manifests` | [`scripts/sync-to-projects.py:265`](../../scripts/sync-to-projects.py#L265) | Sync dist manifest files to flyto-code public i18n directories. |
-| function | `print_summary` | [`scripts/sync-to-projects.py:283`](../../scripts/sync-to-projects.py#L283) | Print a project sync summary. |
-| function | `sync_project` | [`scripts/sync-to-projects.py:300`](../../scripts/sync-to-projects.py#L300) | Sync all targets for a project. |
-| function | `main` | [`scripts/sync-to-projects.py:337`](../../scripts/sync-to-projects.py#L337) | Copy built bundles into selected sibling consumer repositories. |
+| function | `extract_params_schema_dict` | [`scripts/sync-from-core.py:197`](../../scripts/sync-from-core.py#L197) | Try to extract params_schema as a Python dict. |
+| function | `format_label` | [`scripts/sync-from-core.py:227`](../../scripts/sync-from-core.py#L227) | Convert snake_case or kebab-case to Title Case. |
+| function | `scan_core_modules` | [`scripts/sync-from-core.py:236`](../../scripts/sync-from-core.py#L236) | Scan all modules in flyto-core and extract keys. |
+| function | `group_by_category` | [`scripts/sync-from-core.py:261`](../../scripts/sync-from-core.py#L261) | Group keys by category for separate files. |
+| function | `load_existing_keys` | [`scripts/sync-from-core.py:284`](../../scripts/sync-from-core.py#L284) | Load existing English values from module and shared locale files. |
+| function | `write_locale_files` | [`scripts/sync-from-core.py:313`](../../scripts/sync-from-core.py#L313) | Write grouped keys while preserving unscanned values by default. |
+| function | `main` | [`scripts/sync-from-core.py:418`](../../scripts/sync-from-core.py#L418) | Parse CLI options and synchronize module keys from a Core checkout. |
+| function | `get_locales` | [`scripts/sync-locales.py:31`](../../scripts/sync-locales.py#L31) | Get available locales by scanning project directories. |
+| function | `load_locale_keys` | [`scripts/sync-locales.py:43`](../../scripts/sync-locales.py#L43) | Load all keys from a locale directory, grouped by file. |
+| function | `sync_locale_in_project` | [`scripts/sync-locales.py:57`](../../scripts/sync-locales.py#L57) | Sync a locale with English base within a specific project. |
+| function | `main` | [`scripts/sync-locales.py:126`](../../scripts/sync-locales.py#L126) | Synchronize selected locale catalogs against the English baseline. |
+| function | `new_stats` | [`scripts/sync-to-projects.py:95`](../../scripts/sync-to-projects.py#L95) | Create a sync stats accumulator. |
+| function | `merge_stats` | [`scripts/sync-to-projects.py:100`](../../scripts/sync-to-projects.py#L100) | Add per-target stats into a project total. |
+| function | `get_dist_locales` | [`scripts/sync-to-projects.py:106`](../../scripts/sync-to-projects.py#L106) | Get available locales for a scope from dist/. |
+| function | `get_target_locales` | [`scripts/sync-to-projects.py:117`](../../scripts/sync-to-projects.py#L117) | Resolve the locale list to sync for a scope. |
+| function | `sync_locale_file` | [`scripts/sync-to-projects.py:125`](../../scripts/sync-to-projects.py#L125) | Sync one locale file and return its stats delta. |
+| function | `is_deletable_locale_file` | [`scripts/sync-to-projects.py:151`](../../scripts/sync-to-projects.py#L151) | Return true when a target JSON file is a stale locale file. |
+| function | `delete_stale_locale_files` | [`scripts/sync-to-projects.py:161`](../../scripts/sync-to-projects.py#L161) | Delete target locale JSON files that no longer exist in dist. |
+| function | `sync_manifest` | [`scripts/sync-to-projects.py:185`](../../scripts/sync-to-projects.py#L185) | Sync manifest.json if it exists. |
+| function | `sync_single_scope` | [`scripts/sync-to-projects.py:206`](../../scripts/sync-to-projects.py#L206) | Sync a single scope's dist files to a destination directory. |
+| function | `run_build_app` | [`scripts/sync-to-projects.py:249`](../../scripts/sync-to-projects.py#L249) | Run build-app.py for flyto-app targets. |
+| function | `sync_code_manifests` | [`scripts/sync-to-projects.py:267`](../../scripts/sync-to-projects.py#L267) | Sync dist manifest files to flyto-code public i18n directories. |
+| function | `print_summary` | [`scripts/sync-to-projects.py:285`](../../scripts/sync-to-projects.py#L285) | Print a project sync summary. |
+| function | `sync_project` | [`scripts/sync-to-projects.py:302`](../../scripts/sync-to-projects.py#L302) | Sync all targets for a project. |
+| function | `main` | [`scripts/sync-to-projects.py:339`](../../scripts/sync-to-projects.py#L339) | Copy built bundles into selected sibling consumer repositories. |
 | function | `get_system_prompt` | [`scripts/translate-with-openai.py:278`](../../scripts/translate-with-openai.py#L278) | Generate system prompt for translation. |
 | function | `translate_batch` | [`scripts/translate-with-openai.py:326`](../../scripts/translate-with-openai.py#L326) | Translate a batch of texts using OpenAI. |
 | function | `_is_untranslated` | [`scripts/translate-with-openai.py:363`](../../scripts/translate-with-openai.py#L363) | Check if a translation is just a copy of the English value. |
-| function | `translate_file` | [`scripts/translate-with-openai.py:377`](../../scripts/translate-with-openai.py#L377) | Translate a single file. |
-| function | `main` | [`scripts/translate-with-openai.py:445`](../../scripts/translate-with-openai.py#L445) | Translate selected public strings as drafts using the OpenAI API. |
-| function | `load_schema` | [`scripts/validate.py:40`](../../scripts/validate.py#L40) | Load and validate the Draft-07 locale source schema. |
-| function | `load_manifest_schema` | [`scripts/validate.py:49`](../../scripts/validate.py#L49) | Load and validate the repository manifest schema. |
-| function | `schema_errors` | [`scripts/validate.py:58`](../../scripts/validate.py#L58) | Convert sorted JSON Schema violations into validation findings. |
-| function | `get_locales` | [`scripts/validate.py:73`](../../scripts/validate.py#L73) | Get available locales by scanning project directories. |
-| function | `load_base_keys` | [`scripts/validate.py:86`](../../scripts/validate.py#L86) | Load all keys from English base locale across all projects. |
-| function | `validate_file` | [`scripts/validate.py:101`](../../scripts/validate.py#L101) | Validate one locale catalog against schema and business rules. |
-| function | `validate_locale` | [`scripts/validate.py:172`](../../scripts/validate.py#L172) | Validate all files for a locale across project directories. |
-| function | `count_files` | [`scripts/validate.py:188`](../../scripts/validate.py#L188) | Count translation files for a locale. |
-| function | `main` | [`scripts/validate.py:199`](../../scripts/validate.py#L199) | Validate selected catalogs and return a strict-mode exit status. |
-| function | `load_add_locale_module` | [`tests/test_add_locale.py:13`](../../tests/test_add_locale.py#L13) | Load the hyphenated add-locale script as an isolated test module. |
-| class | `AddLocaleTests` | [`tests/test_add_locale.py:22`](../../tests/test_add_locale.py#L22) | Verify locale creation statistics without touching repository catalogs. |
-| method | `AddLocaleTests.setUp` | [`tests/test_add_locale.py:25`](../../tests/test_add_locale.py#L25) | Redirect locale roots to a temporary two-project fixture. |
-| method | `AddLocaleTests.tearDown` | [`tests/test_add_locale.py:33`](../../tests/test_add_locale.py#L33) | Remove the temporary catalog fixture. |
-| method | `AddLocaleTests.write_locale_file` | [`tests/test_add_locale.py:37`](../../tests/test_add_locale.py#L37) | Write one minimal locale fixture under the temporary root. |
-| method | `AddLocaleTests.test_count_locale_translations_across_projects` | [`tests/test_add_locale.py:46`](../../tests/test_add_locale.py#L46) | Count translated and total keys across all configured projects. |
-| method | `AddLocaleTests.test_locale_status_labels_completion_states` | [`tests/test_add_locale.py:56`](../../tests/test_add_locale.py#L56) | Map empty, partial, and complete counts to stable status labels. |
-| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:89`](../../tests/test_ai_space_catalog.py#L89) | Load the authoritative AI Space source catalog for one locale. |
-| function | `load_cloud_catalog` | [`tests/test_ai_space_catalog.py:99`](../../tests/test_ai_space_catalog.py#L99) | Load one authoritative Flyto Cloud source catalog. |
-| function | `load_generated_cloud_catalog` | [`tests/test_ai_space_catalog.py:105`](../../tests/test_ai_space_catalog.py#L105) | Load one generated nested Cloud runtime bundle. |
-| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:111`](../../tests/test_ai_space_catalog.py#L111) | Keep official AI Space catalogs complete, aligned, and non-empty. |
-| function | `test_reviewed_cloud_copy_preserves_the_workflow_first_hierarchy` | [`tests/test_ai_space_catalog.py:131`](../../tests/test_ai_space_catalog.py#L131) | Pin workflow-first copy and keep its legacy namespace mirror aligned. |
-| function | `_translations` | [`tests/test_ai_space_dependency_contract.py:59`](../../tests/test_ai_space_dependency_contract.py#L59) | Load flat source keys or flatten one generated nested runtime bundle. |
-| function | `_translations.walk` | [`tests/test_ai_space_dependency_contract.py:67`](../../tests/test_ai_space_dependency_contract.py#L67) | Collect nested runtime values under their dot-delimited key. |
-| function | `test_reviewed_dependency_catalogs_are_complete_and_non_empty` | [`tests/test_ai_space_dependency_contract.py:79`](../../tests/test_ai_space_dependency_contract.py#L79) | Keep all reviewed locales on the exact operator-facing contract. |
-| function | `test_dependency_copy_is_identical_in_cloud_and_aggregate_dist` | [`tests/test_ai_space_dependency_contract.py:95`](../../tests/test_ai_space_dependency_contract.py#L95) | Prove generated runtime bundles contain the reviewed source values. |
-| function | `_translations` | [`tests/test_ai_space_identity_voice_catalog.py:163`](../../tests/test_ai_space_identity_voice_catalog.py#L163) | Load translations from one source or generated catalog. |
-| function | `_generated_flat_count` | [`tests/test_ai_space_identity_voice_catalog.py:168`](../../tests/test_ai_space_identity_voice_catalog.py#L168) | Read the generated pre-nesting flattened translation count. |
-| function | `_flatten` | [`tests/test_ai_space_identity_voice_catalog.py:173`](../../tests/test_ai_space_identity_voice_catalog.py#L173) | Flatten either supported generated distribution shape. |
-| function | `_identity_voice` | [`tests/test_ai_space_identity_voice_catalog.py:184`](../../tests/test_ai_space_identity_voice_catalog.py#L184) | Select the new settings contract and return suffix-keyed values. |
-| function | `test_identity_voice_has_one_source_owner_in_every_locale` | [`tests/test_ai_space_identity_voice_catalog.py:194`](../../tests/test_ai_space_identity_voice_catalog.py#L194) | Require complete, non-empty, uniquely owned source copy in all locales. |
-| function | `test_reviewed_identity_voice_values_are_exact` | [`tests/test_ai_space_identity_voice_catalog.py:224`](../../tests/test_ai_space_identity_voice_catalog.py#L224) | Pin the owner-reviewed English and Chinese copy exactly. |
-| function | `test_identity_voice_matches_both_generated_dist_shapes` | [`tests/test_ai_space_identity_voice_catalog.py:231`](../../tests/test_ai_space_identity_voice_catalog.py#L231) | Keep Cloud and aggregate runtime bundles identical to their source owner. |
-| function | `test_generated_manifests_match_flattened_distribution_counts` | [`tests/test_ai_space_identity_voice_catalog.py:245`](../../tests/test_ai_space_identity_voice_catalog.py#L245) | Keep both generated manifests and repository coverage synchronized. |
-| class | `IdentityVoiceCatalogTests` | [`tests/test_ai_space_identity_voice_catalog.py:279`](../../tests/test_ai_space_identity_voice_catalog.py#L279) | Expose the focused contract through the repository's unittest runner. |
-| method | `IdentityVoiceCatalogTests.test_source_ownership_and_localization` | [`tests/test_ai_space_identity_voice_catalog.py:282`](../../tests/test_ai_space_identity_voice_catalog.py#L282) | Exercise exact suffixes, ownership, and localized source values. |
-| method | `IdentityVoiceCatalogTests.test_reviewed_values` | [`tests/test_ai_space_identity_voice_catalog.py:286`](../../tests/test_ai_space_identity_voice_catalog.py#L286) | Exercise the exact reviewed English and Chinese values. |
-| method | `IdentityVoiceCatalogTests.test_generated_distribution_shapes` | [`tests/test_ai_space_identity_voice_catalog.py:290`](../../tests/test_ai_space_identity_voice_catalog.py#L290) | Exercise source equality in Cloud and aggregate distributions. |
-| method | `IdentityVoiceCatalogTests.test_generated_manifest_counts` | [`tests/test_ai_space_identity_voice_catalog.py:294`](../../tests/test_ai_space_identity_voice_catalog.py#L294) | Exercise generated totals and repository coverage synchronization. |
-| function | `_translations` | [`tests/test_ai_space_room_closure.py:48`](../../tests/test_ai_space_room_closure.py#L48) | Read a source catalog or generated translation object. |
-| function | `_nested_value` | [`tests/test_ai_space_room_closure.py:53`](../../tests/test_ai_space_room_closure.py#L53) | Resolve a canonical dotted key in a generated nested bundle. |
-| function | `test_task_copy_has_one_source_owner_and_placeholder_parity` | [`tests/test_ai_space_room_closure.py:62`](../../tests/test_ai_space_room_closure.py#L62) | Reject duplicate ownership, empty values and mismatched placeholders. |
-| function | `test_task_copy_survives_cloud_and_aggregate_distribution` | [`tests/test_ai_space_room_closure.py:84`](../../tests/test_ai_space_room_closure.py#L84) | Keep synchronized runtime copy identical to the reviewed source. |
-| function | `test_task_copy_distinguishes_computer_execution_and_verification` | [`tests/test_ai_space_room_closure.py:94`](../../tests/test_ai_space_room_closure.py#L94) | Pin computer-local authority and honest verification wording. |
-| function | `_flatten` | [`tests/test_ai_space_runner_binding_catalog.py:94`](../../tests/test_ai_space_runner_binding_catalog.py#L94) | Flatten one generated nested translation object. |
-| function | `_source_catalog` | [`tests/test_ai_space_runner_binding_catalog.py:106`](../../tests/test_ai_space_runner_binding_catalog.py#L106) | Load the source-owned AI Space catalog for one locale. |
-| function | `_source_owners` | [`tests/test_ai_space_runner_binding_catalog.py:112`](../../tests/test_ai_space_runner_binding_catalog.py#L112) | Return each Cloud source catalog that declares one key. |
-| function | `_dist` | [`tests/test_ai_space_runner_binding_catalog.py:122`](../../tests/test_ai_space_runner_binding_catalog.py#L122) | Load one generated distribution bundle as a flat key map. |
-| function | `_placeholders` | [`tests/test_ai_space_runner_binding_catalog.py:128`](../../tests/test_ai_space_runner_binding_catalog.py#L128) | Return the interpolation placeholders declared by one value. |
-| function | `test_runner_binding_contract_has_exact_additive_key_set` | [`tests/test_ai_space_runner_binding_catalog.py:133`](../../tests/test_ai_space_runner_binding_catalog.py#L133) | Pin every new placement, dispatch, and save-state key. |
-| function | `test_runner_binding_copy_is_reviewed_nonempty_and_uniquely_owned` | [`tests/test_ai_space_runner_binding_catalog.py:155`](../../tests/test_ai_space_runner_binding_catalog.py#L155) | Keep visible copy reviewed, non-empty, and owned by AI Space. |
-| function | `test_runner_binding_placeholder_parity_and_existing_elsewhere_copy` | [`tests/test_ai_space_runner_binding_catalog.py:165`](../../tests/test_ai_space_runner_binding_catalog.py#L165) | Preserve placeholder parity and the prior remote-machine count label. |
-| function | `test_runner_binding_source_matches_cloud_and_aggregate_dist` | [`tests/test_ai_space_runner_binding_catalog.py:175`](../../tests/test_ai_space_runner_binding_catalog.py#L175) | Publish identical copy in Cloud and aggregate distributions. |
-| function | `load_audit_module` | [`tests/test_audit_placeholders.py:19`](../../tests/test_audit_placeholders.py#L19) | Load the hyphenated placeholder auditor as an isolated module. |
-| class | `PlaceholderAuditTests` | [`tests/test_audit_placeholders.py:28`](../../tests/test_audit_placeholders.py#L28) | Verify placeholder extraction across supported brace styles. |
-| method | `PlaceholderAuditTests.setUp` | [`tests/test_audit_placeholders.py:31`](../../tests/test_audit_placeholders.py#L31) | Load a fresh placeholder-audit module for each test. |
-| method | `PlaceholderAuditTests.test_extracts_single_and_double_brace_names` | [`tests/test_audit_placeholders.py:35`](../../tests/test_audit_placeholders.py#L35) | Normalize single- and double-brace placeholders to name sets. |
-| method | `PlaceholderAuditTests.test_ignores_plain_braces_without_identifiers` | [`tests/test_audit_placeholders.py:43`](../../tests/test_audit_placeholders.py#L43) | Ignore incomplete or non-identifier brace content. |
-| method | `PlaceholderAuditTests.test_footprint_metrics_are_localized_with_placeholder_parity` | [`tests/test_audit_placeholders.py:47`](../../tests/test_audit_placeholders.py#L47) | Keep execution metrics usable and interpolatable in every Code locale. |
-| function | `load_build_module` | [`tests/test_build_dist.py:22`](../../tests/test_build_dist.py#L22) | Load the hyphenated distribution builder as an isolated module. |
-| function | `write_fixture_tree` | [`tests/test_build_dist.py:31`](../../tests/test_build_dist.py#L31) | Create a minimal locales/ tree covering several project directories. |
-| class | `RepositoryManifestSyncTests` | [`tests/test_build_dist.py:41`](../../tests/test_build_dist.py#L41) | Verify root coverage follows aggregate distribution evidence. |
-| method | `RepositoryManifestSyncTests.setUp` | [`tests/test_build_dist.py:44`](../../tests/test_build_dist.py#L44) | Load a fresh builder module for each test. |
-| method | `RepositoryManifestSyncTests.test_updates_known_locale_coverage_and_preserves_metadata` | [`tests/test_build_dist.py:48`](../../tests/test_build_dist.py#L48) | Update derived coverage without replacing hand-maintained fields. |
-| method | `RepositoryManifestSyncTests.test_flow_scope_includes_mcp_studio_catalog` | [`tests/test_build_dist.py:76`](../../tests/test_build_dist.py#L76) | Keep the shared MCP surface available to the self-hosted UI. |
-| class | `SelectionArgumentTests` | [`tests/test_build_dist.py:83`](../../tests/test_build_dist.py#L83) | Verify the closed-set, repeatable --scope/--locale filters. |
-| method | `SelectionArgumentTests.setUp` | [`tests/test_build_dist.py:86`](../../tests/test_build_dist.py#L86) | Load a fresh builder module for each test. |
-| method | `SelectionArgumentTests.test_defaults_select_every_scope_and_locale` | [`tests/test_build_dist.py:90`](../../tests/test_build_dist.py#L90) | No arguments means the full build, exactly as before. |
-| method | `SelectionArgumentTests.test_flags_are_repeatable` | [`tests/test_build_dist.py:102`](../../tests/test_build_dist.py#L102) | Repeat --scope/--locale to accumulate several selections. |
-| method | `SelectionArgumentTests.test_selection_is_deduplicated_and_canonically_ordered` | [`tests/test_build_dist.py:112`](../../tests/test_build_dist.py#L112) | Repeated or out-of-order values collapse to the canonical order. |
-| method | `SelectionArgumentTests.test_rejects_unknown_scope` | [`tests/test_build_dist.py:119`](../../tests/test_build_dist.py#L119) | An unknown scope aborts the build instead of silently building all. |
-| method | `SelectionArgumentTests.test_rejects_unknown_locale` | [`tests/test_build_dist.py:128`](../../tests/test_build_dist.py#L128) | An unknown locale aborts the build instead of emitting nothing. |
-| method | `SelectionArgumentTests.test_aggregate_scope_is_selectable` | [`tests/test_build_dist.py:137`](../../tests/test_build_dist.py#L137) | `all` names the aggregate dist/{locale}.json bundle. |
-| class | `FilteredBuildTests` | [`tests/test_build_dist.py:145`](../../tests/test_build_dist.py#L145) | Verify filtered builds emit fewer files but complete manifests. |
-| method | `FilteredBuildTests.setUp` | [`tests/test_build_dist.py:148`](../../tests/test_build_dist.py#L148) | Point a fresh builder module at a temporary locales/dist tree. |
-| method | `FilteredBuildTests.run_build` | [`tests/test_build_dist.py:166`](../../tests/test_build_dist.py#L166) | Run the builder quietly and return its captured stdout. |
-| method | `FilteredBuildTests.read_json` | [`tests/test_build_dist.py:174`](../../tests/test_build_dist.py#L174) | Read one JSON document from the temporary dist tree. |
-| method | `FilteredBuildTests.test_no_arguments_builds_every_scope_and_locale` | [`tests/test_build_dist.py:178`](../../tests/test_build_dist.py#L178) | The unfiltered build still writes every bundle it always wrote. |
-| method | `FilteredBuildTests.test_scope_filter_emits_only_requested_scopes` | [`tests/test_build_dist.py:191`](../../tests/test_build_dist.py#L191) | A scoped build skips other scope directories and the aggregate. |
-| method | `FilteredBuildTests.test_locale_filter_emits_only_requested_locales` | [`tests/test_build_dist.py:200`](../../tests/test_build_dist.py#L200) | A locale-filtered build writes bundles only for those locales. |
-| method | `FilteredBuildTests.test_filtered_build_keeps_global_manifests_complete` | [`tests/test_build_dist.py:209`](../../tests/test_build_dist.py#L209) | Manifests and coverage cover every locale even when filtered. |
-| method | `FilteredBuildTests.test_filtered_manifests_match_the_full_build` | [`tests/test_build_dist.py:223`](../../tests/test_build_dist.py#L223) | Filtering bundles never changes manifest content. |
-| method | `FilteredBuildTests.test_filtered_run_reports_the_active_selection` | [`tests/test_build_dist.py:234`](../../tests/test_build_dist.py#L234) | The filtered run states which scopes and locales it emitted. |
-| function | `load_seo_module` | [`tests/test_build_seo_manifest.py:11`](../../tests/test_build_seo_manifest.py#L11) | Load the hyphenated SEO builder as an isolated test module. |
-| class | `BuildSeoManifestTests` | [`tests/test_build_seo_manifest.py:20`](../../tests/test_build_seo_manifest.py#L20) | Verify SEO surface expansion and source-contract rejection paths. |
-| method | `BuildSeoManifestTests.setUp` | [`tests/test_build_seo_manifest.py:23`](../../tests/test_build_seo_manifest.py#L23) | Create a valid three-surface SEO source contract. |
-| method | `BuildSeoManifestTests.surface` | [`tests/test_build_seo_manifest.py:48`](../../tests/test_build_seo_manifest.py#L48) | Build one valid public-surface fixture for an origin. |
-| method | `BuildSeoManifestTests.test_builds_three_public_surfaces_with_x_default` | [`tests/test_build_seo_manifest.py:72`](../../tests/test_build_seo_manifest.py#L72) | Generate locale alternates, x-default, and Open Graph metadata. |
-| method | `BuildSeoManifestTests.test_rejects_missing_public_surface` | [`tests/test_build_seo_manifest.py:84`](../../tests/test_build_seo_manifest.py#L84) | Reject a source contract missing a required public surface. |
-| method | `BuildSeoManifestTests.test_rejects_keyword_cluster_without_evidence_source` | [`tests/test_build_seo_manifest.py:93`](../../tests/test_build_seo_manifest.py#L93) | Reject keyword research without a named evidence source. |
-| function | `_translations` | [`tests/test_cloud_runtime_copy.py:19`](../../tests/test_cloud_runtime_copy.py#L19) | Load one Cloud locale category's translation mapping. |
-| function | `test_cloud_runtime_copy_is_complete_for_bundled_locales` | [`tests/test_cloud_runtime_copy.py:27`](../../tests/test_cloud_runtime_copy.py#L27) | Require complete reviewed runtime copy in each bundled Cloud locale. |
-| function | `_flatten` | [`tests/test_cloud_runtime_cumulative_keys.py:192`](../../tests/test_cloud_runtime_cumulative_keys.py#L192) | Flatten a generated nested translation object. |
-| function | `_source` | [`tests/test_cloud_runtime_cumulative_keys.py:204`](../../tests/test_cloud_runtime_cumulative_keys.py#L204) | Merge one official Cloud source locale. |
-| function | `_catalogs` | [`tests/test_cloud_runtime_cumulative_keys.py:212`](../../tests/test_cloud_runtime_cumulative_keys.py#L212) | Load each official Cloud source catalog without merge shadowing. |
-| function | `_runtime_digest` | [`tests/test_cloud_runtime_cumulative_keys.py:222`](../../tests/test_cloud_runtime_cumulative_keys.py#L222) | Hash the canonical sorted 134-key runtime value map. |
-| function | `_dist` | [`tests/test_cloud_runtime_cumulative_keys.py:231`](../../tests/test_cloud_runtime_cumulative_keys.py#L231) | Load and flatten one generated Cloud bundle. |
-| function | `_aggregate_dist` | [`tests/test_cloud_runtime_cumulative_keys.py:237`](../../tests/test_cloud_runtime_cumulative_keys.py#L237) | Load and flatten one generated repository aggregate bundle. |
-| function | `_placeholders` | [`tests/test_cloud_runtime_cumulative_keys.py:243`](../../tests/test_cloud_runtime_cumulative_keys.py#L243) | Return the named interpolation placeholders in a translation. |
-| function | `test_exact_cumulative_runtime_namespace_contract_and_counts` | [`tests/test_cloud_runtime_cumulative_keys.py:248`](../../tests/test_cloud_runtime_cumulative_keys.py#L248) | Pin the reviewed 134-key import contract by namespace. |
-| function | `test_runtime_keys_have_one_designated_source_catalog_owner` | [`tests/test_cloud_runtime_cumulative_keys.py:256`](../../tests/test_cloud_runtime_cumulative_keys.py#L256) | Reject imported keys duplicated or shadowed across source catalogs. |
-| function | `test_runtime_values_match_accepted_cloud_provenance` | [`tests/test_cloud_runtime_cumulative_keys.py:268`](../../tests/test_cloud_runtime_cumulative_keys.py#L268) | Pin official-locale values to the accepted bundled Cloud provenance. |
-| function | `test_open_operations_uses_pinned_product_copy_in_all_outputs` | [`tests/test_cloud_runtime_cumulative_keys.py:274`](../../tests/test_cloud_runtime_cumulative_keys.py#L274) | Pin the accepted label across source, Cloud, and aggregate output. |
-| function | `test_local_camera_copy_is_truthful_owned_and_identical_in_all_outputs` | [`tests/test_cloud_runtime_cumulative_keys.py:283`](../../tests/test_cloud_runtime_cumulative_keys.py#L283) | Pin reviewed local-camera truth across its sole source and outputs. |
-| function | `test_operation_room_controls_are_reviewed_and_identical_in_all_outputs` | [`tests/test_cloud_runtime_cumulative_keys.py:324`](../../tests/test_cloud_runtime_cumulative_keys.py#L324) | Keep visible output-wall controls localized through both bundles. |
-| function | `test_official_sources_and_dist_publish_non_empty_placeholder_safe_union` | [`tests/test_cloud_runtime_cumulative_keys.py:358`](../../tests/test_cloud_runtime_cumulative_keys.py#L358) | Require three-locale parity, source-to-dist identity, and placeholders. |
-| function | `test_generated_cloud_union_is_current_and_deterministic` | [`tests/test_cloud_runtime_cumulative_keys.py:383`](../../tests/test_cloud_runtime_cumulative_keys.py#L383) | Keep tracked Cloud output equal to two deterministic source builds. |
-| function | `test_complete_cloud_manifest_survives_selective_build` | [`tests/test_cloud_runtime_cumulative_keys.py:401`](../../tests/test_cloud_runtime_cumulative_keys.py#L401) | Seal the complete tracked Cloud manifest across a filtered build. |
-| function | `flatten` | [`tests/test_cloud_runtime_keys.py:20`](../../tests/test_cloud_runtime_keys.py#L20) | Flatten nested distribution translations to dotted runtime keys. |
-| class | `CloudRuntimeTranslationTests` | [`tests/test_cloud_runtime_keys.py:32`](../../tests/test_cloud_runtime_keys.py#L32) | Keep dev and CDN consumers free from missing-key fallback warnings. |
-| method | `CloudRuntimeTranslationTests.test_required_source_keys_are_non_empty_in_every_cloud_locale` | [`tests/test_cloud_runtime_keys.py:35`](../../tests/test_cloud_runtime_keys.py#L35) | Reject present-but-empty source values filtered out by the loader. |
-| method | `CloudRuntimeTranslationTests.test_required_keys_are_non_empty_in_every_cloud_distribution` | [`tests/test_cloud_runtime_keys.py:58`](../../tests/test_cloud_runtime_keys.py#L58) | Ensure generated CDN bundles preserve every required runtime key. |
+| function | `translate_file` | [`scripts/translate-with-openai.py:375`](../../scripts/translate-with-openai.py#L375) | Translate a single file. |
+| function | `main` | [`scripts/translate-with-openai.py:441`](../../scripts/translate-with-openai.py#L441) | Translate selected public strings as drafts using the OpenAI API. |
+| function | `load_schema` | [`scripts/validate.py:41`](../../scripts/validate.py#L41) | Load and validate the Draft-07 locale source schema. |
+| function | `load_manifest_schema` | [`scripts/validate.py:50`](../../scripts/validate.py#L50) | Load and validate the repository manifest schema. |
+| function | `schema_errors` | [`scripts/validate.py:59`](../../scripts/validate.py#L59) | Convert sorted JSON Schema violations into validation findings. |
+| function | `get_locales` | [`scripts/validate.py:74`](../../scripts/validate.py#L74) | Get available locales by scanning project directories. |
+| function | `load_base_keys` | [`scripts/validate.py:87`](../../scripts/validate.py#L87) | Load all keys from English base locale across all projects. |
+| function | `validate_file` | [`scripts/validate.py:102`](../../scripts/validate.py#L102) | Validate one locale catalog against schema and business rules. |
+| function | `validate_locale` | [`scripts/validate.py:173`](../../scripts/validate.py#L173) | Validate all files for a locale across project directories. |
+| function | `count_files` | [`scripts/validate.py:189`](../../scripts/validate.py#L189) | Count translation files for a locale. |
+| function | `main` | [`scripts/validate.py:200`](../../scripts/validate.py#L200) | Validate selected catalogs and return a strict-mode exit status. |
+| function | `load_add_locale_module` | [`tests/test_add_locale.py:12`](../../tests/test_add_locale.py#L12) | Load the hyphenated add-locale script as an isolated test module. |
+| class | `AddLocaleTests` | [`tests/test_add_locale.py:21`](../../tests/test_add_locale.py#L21) | Verify locale creation statistics without touching repository catalogs. |
+| method | `AddLocaleTests.setUp` | [`tests/test_add_locale.py:24`](../../tests/test_add_locale.py#L24) | Redirect locale roots to a temporary two-project fixture. |
+| method | `AddLocaleTests.tearDown` | [`tests/test_add_locale.py:32`](../../tests/test_add_locale.py#L32) | Remove the temporary catalog fixture. |
+| method | `AddLocaleTests.write_locale_file` | [`tests/test_add_locale.py:36`](../../tests/test_add_locale.py#L36) | Write one minimal locale fixture under the temporary root. |
+| method | `AddLocaleTests.test_count_locale_translations_across_projects` | [`tests/test_add_locale.py:45`](../../tests/test_add_locale.py#L45) | Count translated and total keys across all configured projects. |
+| method | `AddLocaleTests.test_locale_status_labels_completion_states` | [`tests/test_add_locale.py:55`](../../tests/test_add_locale.py#L55) | Map empty, partial, and complete counts to stable status labels. |
+| function | `load_ai_space_catalog` | [`tests/test_ai_space_catalog.py:88`](../../tests/test_ai_space_catalog.py#L88) | Load the authoritative AI Space source catalog for one locale. |
+| function | `load_cloud_catalog` | [`tests/test_ai_space_catalog.py:98`](../../tests/test_ai_space_catalog.py#L98) | Load one authoritative Flyto Cloud source catalog. |
+| function | `load_generated_cloud_catalog` | [`tests/test_ai_space_catalog.py:104`](../../tests/test_ai_space_catalog.py#L104) | Load one generated nested Cloud runtime bundle. |
+| function | `test_official_ai_space_catalogs_have_parity_and_no_empty_values` | [`tests/test_ai_space_catalog.py:110`](../../tests/test_ai_space_catalog.py#L110) | Keep official AI Space catalogs complete, aligned, and non-empty. |
+| function | `test_reviewed_cloud_copy_preserves_the_workflow_first_hierarchy` | [`tests/test_ai_space_catalog.py:130`](../../tests/test_ai_space_catalog.py#L130) | Pin workflow-first copy and keep its legacy namespace mirror aligned. |
+| function | `_translations` | [`tests/test_ai_space_dependency_contract.py:58`](../../tests/test_ai_space_dependency_contract.py#L58) | Load flat source keys or flatten one generated nested runtime bundle. |
+| function | `_translations.walk` | [`tests/test_ai_space_dependency_contract.py:66`](../../tests/test_ai_space_dependency_contract.py#L66) | Collect nested runtime values under their dot-delimited key. |
+| function | `test_reviewed_dependency_catalogs_are_complete_and_non_empty` | [`tests/test_ai_space_dependency_contract.py:78`](../../tests/test_ai_space_dependency_contract.py#L78) | Keep all reviewed locales on the exact operator-facing contract. |
+| function | `test_dependency_copy_is_identical_in_cloud_and_aggregate_dist` | [`tests/test_ai_space_dependency_contract.py:94`](../../tests/test_ai_space_dependency_contract.py#L94) | Prove generated runtime bundles contain the reviewed source values. |
+| function | `_translations` | [`tests/test_ai_space_identity_voice_catalog.py:162`](../../tests/test_ai_space_identity_voice_catalog.py#L162) | Load translations from one source or generated catalog. |
+| function | `_generated_flat_count` | [`tests/test_ai_space_identity_voice_catalog.py:167`](../../tests/test_ai_space_identity_voice_catalog.py#L167) | Read the generated pre-nesting flattened translation count. |
+| function | `_flatten` | [`tests/test_ai_space_identity_voice_catalog.py:172`](../../tests/test_ai_space_identity_voice_catalog.py#L172) | Flatten either supported generated distribution shape. |
+| function | `_identity_voice` | [`tests/test_ai_space_identity_voice_catalog.py:183`](../../tests/test_ai_space_identity_voice_catalog.py#L183) | Select the new settings contract and return suffix-keyed values. |
+| function | `test_identity_voice_has_one_source_owner_in_every_locale` | [`tests/test_ai_space_identity_voice_catalog.py:193`](../../tests/test_ai_space_identity_voice_catalog.py#L193) | Require complete, non-empty, uniquely owned source copy in all locales. |
+| function | `test_reviewed_identity_voice_values_are_exact` | [`tests/test_ai_space_identity_voice_catalog.py:223`](../../tests/test_ai_space_identity_voice_catalog.py#L223) | Pin the owner-reviewed English and Chinese copy exactly. |
+| function | `test_identity_voice_matches_both_generated_dist_shapes` | [`tests/test_ai_space_identity_voice_catalog.py:230`](../../tests/test_ai_space_identity_voice_catalog.py#L230) | Keep Cloud and aggregate runtime bundles identical to their source owner. |
+| function | `test_generated_manifests_match_flattened_distribution_counts` | [`tests/test_ai_space_identity_voice_catalog.py:244`](../../tests/test_ai_space_identity_voice_catalog.py#L244) | Keep both generated manifests and repository coverage synchronized. |
+| class | `IdentityVoiceCatalogTests` | [`tests/test_ai_space_identity_voice_catalog.py:278`](../../tests/test_ai_space_identity_voice_catalog.py#L278) | Expose the focused contract through the repository's unittest runner. |
+| method | `IdentityVoiceCatalogTests.test_source_ownership_and_localization` | [`tests/test_ai_space_identity_voice_catalog.py:281`](../../tests/test_ai_space_identity_voice_catalog.py#L281) | Exercise exact suffixes, ownership, and localized source values. |
+| method | `IdentityVoiceCatalogTests.test_reviewed_values` | [`tests/test_ai_space_identity_voice_catalog.py:285`](../../tests/test_ai_space_identity_voice_catalog.py#L285) | Exercise the exact reviewed English and Chinese values. |
+| method | `IdentityVoiceCatalogTests.test_generated_distribution_shapes` | [`tests/test_ai_space_identity_voice_catalog.py:289`](../../tests/test_ai_space_identity_voice_catalog.py#L289) | Exercise source equality in Cloud and aggregate distributions. |
+| method | `IdentityVoiceCatalogTests.test_generated_manifest_counts` | [`tests/test_ai_space_identity_voice_catalog.py:293`](../../tests/test_ai_space_identity_voice_catalog.py#L293) | Exercise generated totals and repository coverage synchronization. |
+| function | `_translations` | [`tests/test_ai_space_room_closure.py:47`](../../tests/test_ai_space_room_closure.py#L47) | Read a source catalog or generated translation object. |
+| function | `_nested_value` | [`tests/test_ai_space_room_closure.py:52`](../../tests/test_ai_space_room_closure.py#L52) | Resolve a canonical dotted key in a generated nested bundle. |
+| function | `test_task_copy_has_one_source_owner_and_placeholder_parity` | [`tests/test_ai_space_room_closure.py:61`](../../tests/test_ai_space_room_closure.py#L61) | Reject duplicate ownership, empty values and mismatched placeholders. |
+| function | `test_task_copy_survives_cloud_and_aggregate_distribution` | [`tests/test_ai_space_room_closure.py:83`](../../tests/test_ai_space_room_closure.py#L83) | Keep synchronized runtime copy identical to the reviewed source. |
+| function | `test_task_copy_distinguishes_computer_execution_and_verification` | [`tests/test_ai_space_room_closure.py:93`](../../tests/test_ai_space_room_closure.py#L93) | Pin computer-local authority and honest verification wording. |
+| function | `_flatten` | [`tests/test_ai_space_runner_binding_catalog.py:93`](../../tests/test_ai_space_runner_binding_catalog.py#L93) | Flatten one generated nested translation object. |
+| function | `_source_catalog` | [`tests/test_ai_space_runner_binding_catalog.py:105`](../../tests/test_ai_space_runner_binding_catalog.py#L105) | Load the source-owned AI Space catalog for one locale. |
+| function | `_source_owners` | [`tests/test_ai_space_runner_binding_catalog.py:111`](../../tests/test_ai_space_runner_binding_catalog.py#L111) | Return each Cloud source catalog that declares one key. |
+| function | `_dist` | [`tests/test_ai_space_runner_binding_catalog.py:121`](../../tests/test_ai_space_runner_binding_catalog.py#L121) | Load one generated distribution bundle as a flat key map. |
+| function | `_placeholders` | [`tests/test_ai_space_runner_binding_catalog.py:127`](../../tests/test_ai_space_runner_binding_catalog.py#L127) | Return the interpolation placeholders declared by one value. |
+| function | `test_runner_binding_contract_has_exact_additive_key_set` | [`tests/test_ai_space_runner_binding_catalog.py:132`](../../tests/test_ai_space_runner_binding_catalog.py#L132) | Pin every new placement, dispatch, and save-state key. |
+| function | `test_runner_binding_copy_is_reviewed_nonempty_and_uniquely_owned` | [`tests/test_ai_space_runner_binding_catalog.py:145`](../../tests/test_ai_space_runner_binding_catalog.py#L145) | Keep visible copy reviewed, non-empty, and owned by AI Space. |
+| function | `test_runner_binding_placeholder_parity_and_existing_elsewhere_copy` | [`tests/test_ai_space_runner_binding_catalog.py:155`](../../tests/test_ai_space_runner_binding_catalog.py#L155) | Preserve placeholder parity and the prior remote-machine count label. |
+| function | `test_runner_binding_source_matches_cloud_and_aggregate_dist` | [`tests/test_ai_space_runner_binding_catalog.py:165`](../../tests/test_ai_space_runner_binding_catalog.py#L165) | Publish identical copy in Cloud and aggregate distributions. |
+| function | `load_audit_module` | [`tests/test_audit_placeholders.py:18`](../../tests/test_audit_placeholders.py#L18) | Load the hyphenated placeholder auditor as an isolated module. |
+| class | `PlaceholderAuditTests` | [`tests/test_audit_placeholders.py:27`](../../tests/test_audit_placeholders.py#L27) | Verify placeholder extraction across supported brace styles. |
+| method | `PlaceholderAuditTests.setUp` | [`tests/test_audit_placeholders.py:30`](../../tests/test_audit_placeholders.py#L30) | Load a fresh placeholder-audit module for each test. |
+| method | `PlaceholderAuditTests.test_extracts_single_and_double_brace_names` | [`tests/test_audit_placeholders.py:34`](../../tests/test_audit_placeholders.py#L34) | Normalize single- and double-brace placeholders to name sets. |
+| method | `PlaceholderAuditTests.test_ignores_plain_braces_without_identifiers` | [`tests/test_audit_placeholders.py:42`](../../tests/test_audit_placeholders.py#L42) | Ignore incomplete or non-identifier brace content. |
+| method | `PlaceholderAuditTests.test_footprint_metrics_are_localized_with_placeholder_parity` | [`tests/test_audit_placeholders.py:46`](../../tests/test_audit_placeholders.py#L46) | Keep execution metrics usable and interpolatable in every Code locale. |
+| function | `load_build_module` | [`tests/test_build_dist.py:21`](../../tests/test_build_dist.py#L21) | Load the hyphenated distribution builder as an isolated module. |
+| function | `write_fixture_tree` | [`tests/test_build_dist.py:30`](../../tests/test_build_dist.py#L30) | Create a minimal locales/ tree covering several project directories. |
+| class | `RepositoryManifestSyncTests` | [`tests/test_build_dist.py:40`](../../tests/test_build_dist.py#L40) | Verify root coverage follows aggregate distribution evidence. |
+| method | `RepositoryManifestSyncTests.setUp` | [`tests/test_build_dist.py:43`](../../tests/test_build_dist.py#L43) | Load a fresh builder module for each test. |
+| method | `RepositoryManifestSyncTests.test_updates_known_locale_coverage_and_preserves_metadata` | [`tests/test_build_dist.py:47`](../../tests/test_build_dist.py#L47) | Update derived coverage without replacing hand-maintained fields. |
+| method | `RepositoryManifestSyncTests.test_flow_scope_includes_mcp_studio_catalog` | [`tests/test_build_dist.py:75`](../../tests/test_build_dist.py#L75) | Keep the shared MCP surface available to the self-hosted UI. |
+| class | `SelectionArgumentTests` | [`tests/test_build_dist.py:82`](../../tests/test_build_dist.py#L82) | Verify the closed-set, repeatable --scope/--locale filters. |
+| method | `SelectionArgumentTests.setUp` | [`tests/test_build_dist.py:85`](../../tests/test_build_dist.py#L85) | Load a fresh builder module for each test. |
+| method | `SelectionArgumentTests.test_defaults_select_every_scope_and_locale` | [`tests/test_build_dist.py:89`](../../tests/test_build_dist.py#L89) | No arguments means the full build, exactly as before. |
+| method | `SelectionArgumentTests.test_flags_are_repeatable` | [`tests/test_build_dist.py:101`](../../tests/test_build_dist.py#L101) | Repeat --scope/--locale to accumulate several selections. |
+| method | `SelectionArgumentTests.test_selection_is_deduplicated_and_canonically_ordered` | [`tests/test_build_dist.py:111`](../../tests/test_build_dist.py#L111) | Repeated or out-of-order values collapse to the canonical order. |
+| method | `SelectionArgumentTests.test_rejects_unknown_scope` | [`tests/test_build_dist.py:118`](../../tests/test_build_dist.py#L118) | An unknown scope aborts the build instead of silently building all. |
+| method | `SelectionArgumentTests.test_rejects_unknown_locale` | [`tests/test_build_dist.py:127`](../../tests/test_build_dist.py#L127) | An unknown locale aborts the build instead of emitting nothing. |
+| method | `SelectionArgumentTests.test_aggregate_scope_is_selectable` | [`tests/test_build_dist.py:136`](../../tests/test_build_dist.py#L136) | `all` names the aggregate dist/{locale}.json bundle. |
+| class | `FilteredBuildTests` | [`tests/test_build_dist.py:144`](../../tests/test_build_dist.py#L144) | Verify filtered builds emit fewer files but complete manifests. |
+| method | `FilteredBuildTests.setUp` | [`tests/test_build_dist.py:147`](../../tests/test_build_dist.py#L147) | Point a fresh builder module at a temporary locales/dist tree. |
+| method | `FilteredBuildTests.run_build` | [`tests/test_build_dist.py:165`](../../tests/test_build_dist.py#L165) | Run the builder quietly and return its captured stdout. |
+| method | `FilteredBuildTests.read_json` | [`tests/test_build_dist.py:173`](../../tests/test_build_dist.py#L173) | Read one JSON document from the temporary dist tree. |
+| method | `FilteredBuildTests.test_no_arguments_builds_every_scope_and_locale` | [`tests/test_build_dist.py:177`](../../tests/test_build_dist.py#L177) | The unfiltered build still writes every bundle it always wrote. |
+| method | `FilteredBuildTests.test_scope_filter_emits_only_requested_scopes` | [`tests/test_build_dist.py:190`](../../tests/test_build_dist.py#L190) | A scoped build skips other scope directories and the aggregate. |
+| method | `FilteredBuildTests.test_locale_filter_emits_only_requested_locales` | [`tests/test_build_dist.py:199`](../../tests/test_build_dist.py#L199) | A locale-filtered build writes bundles only for those locales. |
+| method | `FilteredBuildTests.test_filtered_build_keeps_global_manifests_complete` | [`tests/test_build_dist.py:208`](../../tests/test_build_dist.py#L208) | Manifests and coverage cover every locale even when filtered. |
+| method | `FilteredBuildTests.test_filtered_manifests_match_the_full_build` | [`tests/test_build_dist.py:222`](../../tests/test_build_dist.py#L222) | Filtering bundles never changes manifest content. |
+| method | `FilteredBuildTests.test_filtered_run_reports_the_active_selection` | [`tests/test_build_dist.py:233`](../../tests/test_build_dist.py#L233) | The filtered run states which scopes and locales it emitted. |
+| function | `load_seo_module` | [`tests/test_build_seo_manifest.py:10`](../../tests/test_build_seo_manifest.py#L10) | Load the hyphenated SEO builder as an isolated test module. |
+| class | `BuildSeoManifestTests` | [`tests/test_build_seo_manifest.py:19`](../../tests/test_build_seo_manifest.py#L19) | Verify SEO surface expansion and source-contract rejection paths. |
+| method | `BuildSeoManifestTests.setUp` | [`tests/test_build_seo_manifest.py:22`](../../tests/test_build_seo_manifest.py#L22) | Create a valid three-surface SEO source contract. |
+| method | `BuildSeoManifestTests.surface` | [`tests/test_build_seo_manifest.py:47`](../../tests/test_build_seo_manifest.py#L47) | Build one valid public-surface fixture for an origin. |
+| method | `BuildSeoManifestTests.test_builds_three_public_surfaces_with_x_default` | [`tests/test_build_seo_manifest.py:71`](../../tests/test_build_seo_manifest.py#L71) | Generate locale alternates, x-default, and Open Graph metadata. |
+| method | `BuildSeoManifestTests.test_rejects_missing_public_surface` | [`tests/test_build_seo_manifest.py:83`](../../tests/test_build_seo_manifest.py#L83) | Reject a source contract missing a required public surface. |
+| method | `BuildSeoManifestTests.test_rejects_keyword_cluster_without_evidence_source` | [`tests/test_build_seo_manifest.py:92`](../../tests/test_build_seo_manifest.py#L92) | Reject keyword research without a named evidence source. |
+| function | `_translations` | [`tests/test_cloud_runtime_copy.py:18`](../../tests/test_cloud_runtime_copy.py#L18) | Load one Cloud locale category's translation mapping. |
+| function | `test_cloud_runtime_copy_is_complete_for_bundled_locales` | [`tests/test_cloud_runtime_copy.py:26`](../../tests/test_cloud_runtime_copy.py#L26) | Require complete reviewed runtime copy in each bundled Cloud locale. |
+| function | `_flatten` | [`tests/test_cloud_runtime_cumulative_keys.py:158`](../../tests/test_cloud_runtime_cumulative_keys.py#L158) | Flatten a generated nested translation object. |
+| function | `_source` | [`tests/test_cloud_runtime_cumulative_keys.py:170`](../../tests/test_cloud_runtime_cumulative_keys.py#L170) | Merge one official Cloud source locale. |
+| function | `_catalogs` | [`tests/test_cloud_runtime_cumulative_keys.py:178`](../../tests/test_cloud_runtime_cumulative_keys.py#L178) | Load each official Cloud source catalog without merge shadowing. |
+| function | `_runtime_digest` | [`tests/test_cloud_runtime_cumulative_keys.py:188`](../../tests/test_cloud_runtime_cumulative_keys.py#L188) | Hash the canonical sorted 134-key runtime value map. |
+| function | `_dist` | [`tests/test_cloud_runtime_cumulative_keys.py:197`](../../tests/test_cloud_runtime_cumulative_keys.py#L197) | Load and flatten one generated Cloud bundle. |
+| function | `_aggregate_dist` | [`tests/test_cloud_runtime_cumulative_keys.py:203`](../../tests/test_cloud_runtime_cumulative_keys.py#L203) | Load and flatten one generated repository aggregate bundle. |
+| function | `_placeholders` | [`tests/test_cloud_runtime_cumulative_keys.py:209`](../../tests/test_cloud_runtime_cumulative_keys.py#L209) | Return the named interpolation placeholders in a translation. |
+| function | `test_exact_cumulative_runtime_namespace_contract_and_counts` | [`tests/test_cloud_runtime_cumulative_keys.py:214`](../../tests/test_cloud_runtime_cumulative_keys.py#L214) | Pin the reviewed 134-key import contract by namespace. |
+| function | `test_runtime_keys_have_one_designated_source_catalog_owner` | [`tests/test_cloud_runtime_cumulative_keys.py:222`](../../tests/test_cloud_runtime_cumulative_keys.py#L222) | Reject imported keys duplicated or shadowed across source catalogs. |
+| function | `test_runtime_values_match_accepted_cloud_provenance` | [`tests/test_cloud_runtime_cumulative_keys.py:234`](../../tests/test_cloud_runtime_cumulative_keys.py#L234) | Pin official-locale values to the accepted bundled Cloud provenance. |
+| function | `test_open_operations_uses_pinned_product_copy_in_all_outputs` | [`tests/test_cloud_runtime_cumulative_keys.py:240`](../../tests/test_cloud_runtime_cumulative_keys.py#L240) | Pin the accepted label across source, Cloud, and aggregate output. |
+| function | `test_local_camera_copy_is_truthful_owned_and_identical_in_all_outputs` | [`tests/test_cloud_runtime_cumulative_keys.py:249`](../../tests/test_cloud_runtime_cumulative_keys.py#L249) | Pin reviewed local-camera truth across its sole source and outputs. |
+| function | `test_operation_room_controls_are_reviewed_and_identical_in_all_outputs` | [`tests/test_cloud_runtime_cumulative_keys.py:290`](../../tests/test_cloud_runtime_cumulative_keys.py#L290) | Keep visible output-wall controls localized through both bundles. |
+| function | `test_official_sources_and_dist_publish_non_empty_placeholder_safe_union` | [`tests/test_cloud_runtime_cumulative_keys.py:324`](../../tests/test_cloud_runtime_cumulative_keys.py#L324) | Require three-locale parity, source-to-dist identity, and placeholders. |
+| function | `test_generated_cloud_union_is_current_and_deterministic` | [`tests/test_cloud_runtime_cumulative_keys.py:349`](../../tests/test_cloud_runtime_cumulative_keys.py#L349) | Keep tracked Cloud output equal to two deterministic source builds. |
+| function | `test_complete_cloud_manifest_survives_selective_build` | [`tests/test_cloud_runtime_cumulative_keys.py:367`](../../tests/test_cloud_runtime_cumulative_keys.py#L367) | Seal the complete tracked Cloud manifest across a filtered build. |
+| function | `flatten` | [`tests/test_cloud_runtime_keys.py:19`](../../tests/test_cloud_runtime_keys.py#L19) | Flatten nested distribution translations to dotted runtime keys. |
+| class | `CloudRuntimeTranslationTests` | [`tests/test_cloud_runtime_keys.py:31`](../../tests/test_cloud_runtime_keys.py#L31) | Keep dev and CDN consumers free from missing-key fallback warnings. |
+| method | `CloudRuntimeTranslationTests.test_required_source_keys_are_non_empty_in_every_cloud_locale` | [`tests/test_cloud_runtime_keys.py:34`](../../tests/test_cloud_runtime_keys.py#L34) | Reject present-but-empty source values filtered out by the loader. |
+| method | `CloudRuntimeTranslationTests.test_required_keys_are_non_empty_in_every_cloud_distribution` | [`tests/test_cloud_runtime_keys.py:57`](../../tests/test_cloud_runtime_keys.py#L57) | Ensure generated CDN bundles preserve every required runtime key. |
 | function | `flatten` | [`tests/test_code_ai_firewall_workspace.py:10`](../../tests/test_code_ai_firewall_workspace.py#L10) | Return comparable dot keys from a generated distribution bundle. |
 | function | `test_workspace_sources_and_generated_distributions` | [`tests/test_code_ai_firewall_workspace.py:22`](../../tests/test_code_ai_firewall_workspace.py#L22) | All supported locales retain one source owner and exact generated copy. |
 | function | `test_workspace_evidence_and_placeholder_contract` | [`tests/test_code_ai_firewall_workspace.py:44`](../../tests/test_code_ai_firewall_workspace.py#L44) | Safety-critical distinctions and formatting slots survive localization. |
-| function | `flatten` | [`tests/test_code_ui_keys.py:131`](../../tests/test_code_ui_keys.py#L131) | Flatten a nested distribution translation object to dotted keys. |
-| class | `CodeUIKeyContractTests` | [`tests/test_code_ui_keys.py:143`](../../tests/test_code_ui_keys.py#L143) | Keep release-critical Code copy present in primary supported locales. |
-| method | `CodeUIKeyContractTests.test_primary_locales_publish_reviewed_code_ui_copy` | [`tests/test_code_ui_keys.py:146`](../../tests/test_code_ui_keys.py#L146) | Require reviewed, non-empty UI copy for each primary locale. |
-| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_attack_validation_contract` | [`tests/test_code_ui_keys.py:161`](../../tests/test_code_ui_keys.py#L161) | Keep every locale aligned so runtime English fallback can resolve. |
-| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_platform_scoring_labels` | [`tests/test_code_ui_keys.py:176`](../../tests/test_code_ui_keys.py#L176) | Keep the Engine's Cloud, Container, and MCP pillars localized. |
-| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_campaign_command_center` | [`tests/test_code_ui_keys.py:199`](../../tests/test_code_ui_keys.py#L199) | Keep the campaign-first execution contract non-empty everywhere. |
-| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_effectiveness_benchmark_v2` | [`tests/test_code_ui_keys.py:229`](../../tests/test_code_ui_keys.py#L229) | Keep measured outcomes, timing, coverage, and closure gaps publishable. |
-| method | `CodeUIKeyContractTests.test_reviewed_effectiveness_benchmark_copy_does_not_drift` | [`tests/test_code_ui_keys.py:249`](../../tests/test_code_ui_keys.py#L249) | Pin the primary proof-timing and closure promise in reviewed locales. |
-| method | `CodeUIKeyContractTests.test_reviewed_campaign_command_center_copy_does_not_drift` | [`tests/test_code_ui_keys.py:287`](../../tests/test_code_ui_keys.py#L287) | Pin the primary campaign-first product promise in reviewed locales. |
-| method | `CodeUIKeyContractTests.test_reviewed_attack_validation_safety_copy_does_not_drift` | [`tests/test_code_ui_keys.py:316`](../../tests/test_code_ui_keys.py#L316) | Protect the explicit authorization boundary in reviewed locales. |
-| method | `CodeUIKeyContractTests.test_local_admin_password_copy_matches_runtime_policy` | [`tests/test_code_ui_keys.py:338`](../../tests/test_code_ui_keys.py#L338) | Keep registration copy aligned with the 8-character/72-byte policy. |
-| function | `authored_locales` | [`tests/test_container_view_keys.py:75`](../../tests/test_container_view_keys.py#L75) | List every authored locale directory for the code project. |
-| function | `flatten` | [`tests/test_container_view_keys.py:80`](../../tests/test_container_view_keys.py#L80) | Flatten a nested dist bundle back to dotted catalog keys. |
-| function | `load_source` | [`tests/test_container_view_keys.py:94`](../../tests/test_container_view_keys.py#L94) | Read the authored code catalog for one locale. |
-| function | `load_dist` | [`tests/test_container_view_keys.py:100`](../../tests/test_container_view_keys.py#L100) | Read and flatten one published bundle. |
-| function | `catalogs` | [`tests/test_container_view_keys.py:106`](../../tests/test_container_view_keys.py#L106) | Yield the authored catalog plus both published dist shapes. |
-| function | `placeholders` | [`tests/test_container_view_keys.py:115`](../../tests/test_container_view_keys.py#L115) | Extract the placeholder names used by one translation value. |
-| class | `BoundedCatalogAssertions` | [`tests/test_container_view_keys.py:120`](../../tests/test_container_view_keys.py#L120) | Assertion helpers that never render a whole catalog on failure. |
-| method | `BoundedCatalogAssertions.assert_keys_present` | [`tests/test_container_view_keys.py:123`](../../tests/test_container_view_keys.py#L123) | Fail with a sorted key list — never with the catalog itself. |
-| method | `BoundedCatalogAssertions.present_items` | [`tests/test_container_view_keys.py:132`](../../tests/test_container_view_keys.py#L132) | Yield only the (key, value) pairs that exist, so indexing is safe. |
-| class | `ContainerViewKeyTests` | [`tests/test_container_view_keys.py:139`](../../tests/test_container_view_keys.py#L139) | Pin the container/module/domain copy across locales and bundles. |
-| method | `ContainerViewKeyTests.test_english_source_declares_the_expected_placeholders` | [`tests/test_container_view_keys.py:142`](../../tests/test_container_view_keys.py#L142) | English is the placeholder contract every locale must match. |
-| method | `ContainerViewKeyTests.test_every_authored_locale_defines_non_empty_values` | [`tests/test_container_view_keys.py:157`](../../tests/test_container_view_keys.py#L157) | No authored locale may leave one of these keys blank or missing. |
-| method | `ContainerViewKeyTests.test_every_authored_locale_matches_english_placeholders` | [`tests/test_container_view_keys.py:174`](../../tests/test_container_view_keys.py#L174) | Placeholder drift silently breaks interpolation at runtime. |
-| method | `ContainerViewKeyTests.test_both_dist_shapes_match_the_authored_source` | [`tests/test_container_view_keys.py:186`](../../tests/test_container_view_keys.py#L186) | Scoped and full CDN bundles must both be rebuilt from locales/. |
-| method | `ContainerViewKeyTests.test_both_dist_shapes_keep_placeholders_and_stay_non_empty` | [`tests/test_container_view_keys.py:203`](../../tests/test_container_view_keys.py#L203) | Published bundles are what consumers read — check them directly. |
-| method | `ContainerViewKeyTests.test_chinese_copy_is_translated_not_the_english_source` | [`tests/test_container_view_keys.py:222`](../../tests/test_container_view_keys.py#L222) | zh-TW and zh-CN must read as Chinese in source and both bundles. |
-| method | `ContainerViewKeyTests.test_traditional_and_simplified_chinese_are_distinct` | [`tests/test_container_view_keys.py:245`](../../tests/test_container_view_keys.py#L245) | Simplified copy must be converted, not copied from Traditional. |
-| method | `ContainerViewKeyTests.test_simplified_chinese_domain_label_uses_mainland_vocabulary` | [`tests/test_container_view_keys.py:257`](../../tests/test_container_view_keys.py#L257) | zh-CN says 域名/工程详情; zh-TW keeps 網域/工程細節. |
-| method | `ContainerViewKeyTests.test_chinese_feature_gate_copy_is_not_english_or_empty` | [`tests/test_container_view_keys.py:277`](../../tests/test_container_view_keys.py#L277) | Regression guard for the feature-gate work these keys ship beside. |
-| function | `load_build_module` | [`tests/test_core_module_label_contract.py:147`](../../tests/test_core_module_label_contract.py#L147) | Load the distribution builder for source-to-bundle assertions. |
-| function | `source_values` | [`tests/test_core_module_label_contract.py:156`](../../tests/test_core_module_label_contract.py#L156) | Return merged module copy and the files that own each key. |
-| function | `nested_value` | [`tests/test_core_module_label_contract.py:168`](../../tests/test_core_module_label_contract.py#L168) | Resolve one dotted source key in a generated Vue i18n bundle. |
-| function | `test_core_module_labels_are_reviewed_and_have_one_source_owner` | [`tests/test_core_module_label_contract.py:176`](../../tests/test_core_module_label_contract.py#L176) | Pin the missing-label closure in all three official locales. |
-| function | `test_core_module_labels_reach_the_cloud_distribution` | [`tests/test_core_module_label_contract.py:188`](../../tests/test_core_module_label_contract.py#L188) | Require generated Cloud bundles to publish every reviewed label. |
-| function | `flatten` | [`tests/test_feature_gate_keys.py:98`](../../tests/test_feature_gate_keys.py#L98) | Flatten a generated translation object to dotted catalog keys. |
-| function | `load_source` | [`tests/test_feature_gate_keys.py:110`](../../tests/test_feature_gate_keys.py#L110) | Read the authored catalog for one code locale. |
-| function | `load_published` | [`tests/test_feature_gate_keys.py:116`](../../tests/test_feature_gate_keys.py#L116) | Read the built dist bundle for one code locale. |
-| function | `gate_entries` | [`tests/test_feature_gate_keys.py:122`](../../tests/test_feature_gate_keys.py#L122) | Select every gate namespace entry from a catalog. |
-| function | `catalogs` | [`tests/test_feature_gate_keys.py:127`](../../tests/test_feature_gate_keys.py#L127) | Yield the authored and published catalogs for one locale. |
-| class | `FeatureGateTranslationTests` | [`tests/test_feature_gate_keys.py:132`](../../tests/test_feature_gate_keys.py#L132) | Keep the FeatureGate blocking states readable in Chinese locales. |
-| method | `FeatureGateTranslationTests.test_english_catalog_defines_the_expected_gate_keys` | [`tests/test_feature_gate_keys.py:135`](../../tests/test_feature_gate_keys.py#L135) | Pin the gate namespace so new keys get reviewed translations too. |
-| method | `FeatureGateTranslationTests.test_published_gate_bundles_match_authored_source` | [`tests/test_feature_gate_keys.py:139`](../../tests/test_feature_gate_keys.py#L139) | Require dist/ to be a faithful rebuild of locales/ for every pin. |
-| method | `FeatureGateTranslationTests.test_chinese_gate_namespaces_are_fully_translated` | [`tests/test_feature_gate_keys.py:149`](../../tests/test_feature_gate_keys.py#L149) | Require every gate string to be non-empty in source and dist. |
-| method | `FeatureGateTranslationTests.test_chinese_gate_copy_is_not_the_english_fallback` | [`tests/test_feature_gate_keys.py:166`](../../tests/test_feature_gate_keys.py#L166) | Catch copies of the English source leaking into Chinese catalogs. |
-| method | `FeatureGateTranslationTests.test_chinese_gate_copy_has_no_untranslated_latin_words` | [`tests/test_feature_gate_keys.py:192`](../../tests/test_feature_gate_keys.py#L192) | Only brand tokens may stay in Latin script once copy is localized. |
-| method | `FeatureGateTranslationTests.test_chinese_gate_copy_avoids_internal_engineering_jargon` | [`tests/test_feature_gate_keys.py:205`](../../tests/test_feature_gate_keys.py#L205) | Keep capability-snapshot / policy-check vocabulary out of the UI. |
-| method | `FeatureGateTranslationTests.test_unavailable_gate_headline_uses_reviewed_product_copy` | [`tests/test_feature_gate_keys.py:218`](../../tests/test_feature_gate_keys.py#L218) | Pin the exact headline that replaced the engineering wording. |
-| method | `FeatureGateTranslationTests.test_unavailable_gate_description_explains_the_blocked_state` | [`tests/test_feature_gate_keys.py:227`](../../tests/test_feature_gate_keys.py#L227) | The description must say what failed and that access stays closed. |
-| method | `FeatureGateTranslationTests.test_reviewed_chinese_gate_copy_does_not_drift` | [`tests/test_feature_gate_keys.py:240`](../../tests/test_feature_gate_keys.py#L240) | Pin the reviewed Traditional and Simplified Chinese wording. |
-| class | `FootprintDurableRunTranslationTests` | [`tests/test_footprint_durable_run_keys.py:18`](../../tests/test_footprint_durable_run_keys.py#L18) | Keep worker and queue state truthful in every supported locale. |
-| method | `FootprintDurableRunTranslationTests.test_required_keys_are_non_empty_in_every_code_locale` | [`tests/test_footprint_durable_run_keys.py:21`](../../tests/test_footprint_durable_run_keys.py#L21) | Require durable queue-state copy to be non-empty in every Code locale. |
+| function | `flatten` | [`tests/test_code_ui_keys.py:130`](../../tests/test_code_ui_keys.py#L130) | Flatten a nested distribution translation object to dotted keys. |
+| class | `CodeUIKeyContractTests` | [`tests/test_code_ui_keys.py:142`](../../tests/test_code_ui_keys.py#L142) | Keep release-critical Code copy present in primary supported locales. |
+| method | `CodeUIKeyContractTests.test_primary_locales_publish_reviewed_code_ui_copy` | [`tests/test_code_ui_keys.py:145`](../../tests/test_code_ui_keys.py#L145) | Require reviewed, non-empty UI copy for each primary locale. |
+| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_attack_validation_contract` | [`tests/test_code_ui_keys.py:160`](../../tests/test_code_ui_keys.py#L160) | Keep every locale aligned so runtime English fallback can resolve. |
+| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_platform_scoring_labels` | [`tests/test_code_ui_keys.py:175`](../../tests/test_code_ui_keys.py#L175) | Keep the Engine's Cloud, Container, and MCP pillars localized. |
+| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_campaign_command_center` | [`tests/test_code_ui_keys.py:198`](../../tests/test_code_ui_keys.py#L198) | Keep the campaign-first execution contract non-empty everywhere. |
+| method | `CodeUIKeyContractTests.test_every_code_locale_publishes_effectiveness_benchmark_v2` | [`tests/test_code_ui_keys.py:228`](../../tests/test_code_ui_keys.py#L228) | Keep measured outcomes, timing, coverage, and closure gaps publishable. |
+| method | `CodeUIKeyContractTests.test_reviewed_effectiveness_benchmark_copy_does_not_drift` | [`tests/test_code_ui_keys.py:248`](../../tests/test_code_ui_keys.py#L248) | Pin the primary proof-timing and closure promise in reviewed locales. |
+| method | `CodeUIKeyContractTests.test_reviewed_campaign_command_center_copy_does_not_drift` | [`tests/test_code_ui_keys.py:286`](../../tests/test_code_ui_keys.py#L286) | Pin the primary campaign-first product promise in reviewed locales. |
+| method | `CodeUIKeyContractTests.test_reviewed_attack_validation_safety_copy_does_not_drift` | [`tests/test_code_ui_keys.py:315`](../../tests/test_code_ui_keys.py#L315) | Protect the explicit authorization boundary in reviewed locales. |
+| method | `CodeUIKeyContractTests.test_local_admin_password_copy_matches_runtime_policy` | [`tests/test_code_ui_keys.py:337`](../../tests/test_code_ui_keys.py#L337) | Keep registration copy aligned with the 8-character/72-byte policy. |
+| function | `authored_locales` | [`tests/test_container_view_keys.py:74`](../../tests/test_container_view_keys.py#L74) | List every authored locale directory for the code project. |
+| function | `flatten` | [`tests/test_container_view_keys.py:79`](../../tests/test_container_view_keys.py#L79) | Flatten a nested dist bundle back to dotted catalog keys. |
+| function | `load_source` | [`tests/test_container_view_keys.py:93`](../../tests/test_container_view_keys.py#L93) | Read the authored code catalog for one locale. |
+| function | `load_dist` | [`tests/test_container_view_keys.py:99`](../../tests/test_container_view_keys.py#L99) | Read and flatten one published bundle. |
+| function | `catalogs` | [`tests/test_container_view_keys.py:105`](../../tests/test_container_view_keys.py#L105) | Yield the authored catalog plus both published dist shapes. |
+| function | `placeholders` | [`tests/test_container_view_keys.py:114`](../../tests/test_container_view_keys.py#L114) | Extract the placeholder names used by one translation value. |
+| class | `BoundedCatalogAssertions` | [`tests/test_container_view_keys.py:119`](../../tests/test_container_view_keys.py#L119) | Assertion helpers that never render a whole catalog on failure. |
+| method | `BoundedCatalogAssertions.assert_keys_present` | [`tests/test_container_view_keys.py:122`](../../tests/test_container_view_keys.py#L122) | Fail with a sorted key list — never with the catalog itself. |
+| method | `BoundedCatalogAssertions.present_items` | [`tests/test_container_view_keys.py:131`](../../tests/test_container_view_keys.py#L131) | Yield only the (key, value) pairs that exist, so indexing is safe. |
+| class | `ContainerViewKeyTests` | [`tests/test_container_view_keys.py:138`](../../tests/test_container_view_keys.py#L138) | Pin the container/module/domain copy across locales and bundles. |
+| method | `ContainerViewKeyTests.test_english_source_declares_the_expected_placeholders` | [`tests/test_container_view_keys.py:141`](../../tests/test_container_view_keys.py#L141) | English is the placeholder contract every locale must match. |
+| method | `ContainerViewKeyTests.test_every_authored_locale_defines_non_empty_values` | [`tests/test_container_view_keys.py:156`](../../tests/test_container_view_keys.py#L156) | No authored locale may leave one of these keys blank or missing. |
+| method | `ContainerViewKeyTests.test_every_authored_locale_matches_english_placeholders` | [`tests/test_container_view_keys.py:173`](../../tests/test_container_view_keys.py#L173) | Placeholder drift silently breaks interpolation at runtime. |
+| method | `ContainerViewKeyTests.test_both_dist_shapes_match_the_authored_source` | [`tests/test_container_view_keys.py:185`](../../tests/test_container_view_keys.py#L185) | Scoped and full CDN bundles must both be rebuilt from locales/. |
+| method | `ContainerViewKeyTests.test_both_dist_shapes_keep_placeholders_and_stay_non_empty` | [`tests/test_container_view_keys.py:202`](../../tests/test_container_view_keys.py#L202) | Published bundles are what consumers read — check them directly. |
+| method | `ContainerViewKeyTests.test_chinese_copy_is_translated_not_the_english_source` | [`tests/test_container_view_keys.py:221`](../../tests/test_container_view_keys.py#L221) | zh-TW and zh-CN must read as Chinese in source and both bundles. |
+| method | `ContainerViewKeyTests.test_traditional_and_simplified_chinese_are_distinct` | [`tests/test_container_view_keys.py:244`](../../tests/test_container_view_keys.py#L244) | Simplified copy must be converted, not copied from Traditional. |
+| method | `ContainerViewKeyTests.test_simplified_chinese_domain_label_uses_mainland_vocabulary` | [`tests/test_container_view_keys.py:256`](../../tests/test_container_view_keys.py#L256) | zh-CN says 域名/工程详情; zh-TW keeps 網域/工程細節. |
+| method | `ContainerViewKeyTests.test_chinese_feature_gate_copy_is_not_english_or_empty` | [`tests/test_container_view_keys.py:276`](../../tests/test_container_view_keys.py#L276) | Regression guard for the feature-gate work these keys ship beside. |
+| function | `load_build_module` | [`tests/test_core_module_label_contract.py:146`](../../tests/test_core_module_label_contract.py#L146) | Load the distribution builder for source-to-bundle assertions. |
+| function | `source_values` | [`tests/test_core_module_label_contract.py:155`](../../tests/test_core_module_label_contract.py#L155) | Return merged module copy and the files that own each key. |
+| function | `nested_value` | [`tests/test_core_module_label_contract.py:167`](../../tests/test_core_module_label_contract.py#L167) | Resolve one dotted source key in a generated Vue i18n bundle. |
+| function | `test_core_module_labels_are_reviewed_and_have_one_source_owner` | [`tests/test_core_module_label_contract.py:175`](../../tests/test_core_module_label_contract.py#L175) | Pin the missing-label closure in all three official locales. |
+| function | `test_core_module_labels_reach_the_cloud_distribution` | [`tests/test_core_module_label_contract.py:187`](../../tests/test_core_module_label_contract.py#L187) | Require generated Cloud bundles to publish every reviewed label. |
+| function | `flatten` | [`tests/test_feature_gate_keys.py:97`](../../tests/test_feature_gate_keys.py#L97) | Flatten a generated translation object to dotted catalog keys. |
+| function | `load_source` | [`tests/test_feature_gate_keys.py:109`](../../tests/test_feature_gate_keys.py#L109) | Read the authored catalog for one code locale. |
+| function | `load_published` | [`tests/test_feature_gate_keys.py:115`](../../tests/test_feature_gate_keys.py#L115) | Read the built dist bundle for one code locale. |
+| function | `gate_entries` | [`tests/test_feature_gate_keys.py:121`](../../tests/test_feature_gate_keys.py#L121) | Select every gate namespace entry from a catalog. |
+| function | `catalogs` | [`tests/test_feature_gate_keys.py:126`](../../tests/test_feature_gate_keys.py#L126) | Yield the authored and published catalogs for one locale. |
+| class | `FeatureGateTranslationTests` | [`tests/test_feature_gate_keys.py:131`](../../tests/test_feature_gate_keys.py#L131) | Keep the FeatureGate blocking states readable in Chinese locales. |
+| method | `FeatureGateTranslationTests.test_english_catalog_defines_the_expected_gate_keys` | [`tests/test_feature_gate_keys.py:134`](../../tests/test_feature_gate_keys.py#L134) | Pin the gate namespace so new keys get reviewed translations too. |
+| method | `FeatureGateTranslationTests.test_published_gate_bundles_match_authored_source` | [`tests/test_feature_gate_keys.py:138`](../../tests/test_feature_gate_keys.py#L138) | Require dist/ to be a faithful rebuild of locales/ for every pin. |
+| method | `FeatureGateTranslationTests.test_chinese_gate_namespaces_are_fully_translated` | [`tests/test_feature_gate_keys.py:148`](../../tests/test_feature_gate_keys.py#L148) | Require every gate string to be non-empty in source and dist. |
+| method | `FeatureGateTranslationTests.test_chinese_gate_copy_is_not_the_english_fallback` | [`tests/test_feature_gate_keys.py:165`](../../tests/test_feature_gate_keys.py#L165) | Catch copies of the English source leaking into Chinese catalogs. |
+| method | `FeatureGateTranslationTests.test_chinese_gate_copy_has_no_untranslated_latin_words` | [`tests/test_feature_gate_keys.py:191`](../../tests/test_feature_gate_keys.py#L191) | Only brand tokens may stay in Latin script once copy is localized. |
+| method | `FeatureGateTranslationTests.test_chinese_gate_copy_avoids_internal_engineering_jargon` | [`tests/test_feature_gate_keys.py:204`](../../tests/test_feature_gate_keys.py#L204) | Keep capability-snapshot / policy-check vocabulary out of the UI. |
+| method | `FeatureGateTranslationTests.test_unavailable_gate_headline_uses_reviewed_product_copy` | [`tests/test_feature_gate_keys.py:217`](../../tests/test_feature_gate_keys.py#L217) | Pin the exact headline that replaced the engineering wording. |
+| method | `FeatureGateTranslationTests.test_unavailable_gate_description_explains_the_blocked_state` | [`tests/test_feature_gate_keys.py:226`](../../tests/test_feature_gate_keys.py#L226) | The description must say what failed and that access stays closed. |
+| method | `FeatureGateTranslationTests.test_reviewed_chinese_gate_copy_does_not_drift` | [`tests/test_feature_gate_keys.py:239`](../../tests/test_feature_gate_keys.py#L239) | Pin the reviewed Traditional and Simplified Chinese wording. |
+| class | `FootprintDurableRunTranslationTests` | [`tests/test_footprint_durable_run_keys.py:17`](../../tests/test_footprint_durable_run_keys.py#L17) | Keep worker and queue state truthful in every supported locale. |
+| method | `FootprintDurableRunTranslationTests.test_required_keys_are_non_empty_in_every_code_locale` | [`tests/test_footprint_durable_run_keys.py:20`](../../tests/test_footprint_durable_run_keys.py#L20) | Require durable queue-state copy to be non-empty in every Code locale. |
 | function | `test_source_readiness_and_existing_api_labels_are_reviewed_and_bundled` | [`tests/test_local_cli_settings_copy.py:30`](../../tests/test_local_cli_settings_copy.py#L30) | Pin complete reviewed settings copy in each shipped baseline locale. |
 | function | `test_current_computer_settings_use_the_correct_brand` | [`tests/test_local_cli_settings_copy.py:47`](../../tests/test_local_cli_settings_copy.py#L47) | Keep the user's corrected brand in every current-computer source label. |
-| class | `CatalogNotFound` | [`tests/test_module_catalog_copy.py:37`](../../tests/test_module_catalog_copy.py#L37) | The engine catalog is required here but could not be located. |
-| function | `load_translations` | [`tests/test_module_catalog_copy.py:41`](../../tests/test_module_catalog_copy.py#L41) | Return the flat code translations for one locale. |
-| function | `find_engine_catalog` | [`tests/test_module_catalog_copy.py:47`](../../tests/test_module_catalog_copy.py#L47) | Locate the engine module catalog. |
-| function | `catalog_copy_keys` | [`tests/test_module_catalog_copy.py:68`](../../tests/test_module_catalog_copy.py#L68) | Extract every title_key / description_key value from catalog YAML text. |
-| class | `CatalogLocationTests` | [`tests/test_module_catalog_copy.py:73`](../../tests/test_module_catalog_copy.py#L73) | The catalog lookup fails loudly wherever enforcement is expected. |
-| method | `CatalogLocationTests.setUp` | [`tests/test_module_catalog_copy.py:76`](../../tests/test_module_catalog_copy.py#L76) | Create a fake workspace with an i18n worktree nested like an agent checkout. |
-| method | `CatalogLocationTests.write_catalog` | [`tests/test_module_catalog_copy.py:84`](../../tests/test_module_catalog_copy.py#L84) | Write a minimal catalog where a workspace keeps flyto-engine. |
-| method | `CatalogLocationTests.test_missing_catalog_skips_even_under_ci` | [`tests/test_module_catalog_copy.py:91`](../../tests/test_module_catalog_copy.py#L91) | This public repository's CI cannot read the internal engine; engine CI is the gate. |
-| method | `CatalogLocationTests.test_missing_catalog_is_optional_outside_ci` | [`tests/test_module_catalog_copy.py:95`](../../tests/test_module_catalog_copy.py#L95) | A contributor without flyto-engine can still run the suite locally. |
-| method | `CatalogLocationTests.test_explicit_path_must_exist` | [`tests/test_module_catalog_copy.py:99`](../../tests/test_module_catalog_copy.py#L99) | A misconfigured FLYTO_ENGINE_CATALOG is an error, not a fallback. |
-| method | `CatalogLocationTests.test_explicit_path_wins` | [`tests/test_module_catalog_copy.py:104`](../../tests/test_module_catalog_copy.py#L104) | FLYTO_ENGINE_CATALOG takes precedence over a workspace sibling. |
-| method | `CatalogLocationTests.test_worktree_finds_workspace_sibling` | [`tests/test_module_catalog_copy.py:111`](../../tests/test_module_catalog_copy.py#L111) | A worktree under .claude/worktrees finds the workspace's flyto-engine. |
-| class | `ModuleCatalogCopyTests` | [`tests/test_module_catalog_copy.py:117`](../../tests/test_module_catalog_copy.py#L117) | Keep module names and descriptions resolvable in every reviewed locale. |
-| method | `ModuleCatalogCopyTests.test_catalog_key_extraction` | [`tests/test_module_catalog_copy.py:120`](../../tests/test_module_catalog_copy.py#L120) | Read both key kinds and ignore unrelated fields. |
-| method | `ModuleCatalogCopyTests.test_every_engine_catalog_key_has_copy` | [`tests/test_module_catalog_copy.py:134`](../../tests/test_module_catalog_copy.py#L134) | Every catalog title_key / description_key resolves in every reviewed locale. |
-| class | `SharedProjectContractTests` | [`tests/test_project_contract.py:11`](../../tests/test_project_contract.py#L11) | Prevent supported project scope lists from diverging across tools. |
-| method | `SharedProjectContractTests.test_only_i18n_contract_assigns_project_dirs` | [`tests/test_project_contract.py:14`](../../tests/test_project_contract.py#L14) | Require operational scripts to import the canonical project list. |
-| function | `flatten` | [`tests/test_report_export_keys.py:33`](../../tests/test_report_export_keys.py#L33) | Flatten a generated translation object to dotted catalog keys. |
-| function | `load_published` | [`tests/test_report_export_keys.py:45`](../../tests/test_report_export_keys.py#L45) | Read the built dist bundle for one code locale. |
-| class | `ReportExportTranslationTests` | [`tests/test_report_export_keys.py:51`](../../tests/test_report_export_keys.py#L51) | Keep report export labels present in source and published bundles. |
-| method | `ReportExportTranslationTests.test_every_code_locale_publishes_non_empty_export_copy` | [`tests/test_report_export_keys.py:54`](../../tests/test_report_export_keys.py#L54) | Require the format menu to remain usable in every supported locale. |
-| method | `ReportExportTranslationTests.test_reviewed_primary_locale_copy_does_not_drift` | [`tests/test_report_export_keys.py:76`](../../tests/test_report_export_keys.py#L76) | Pin the reviewed English and Chinese product wording. |
-| function | `_flatten` | [`tests/test_space_operations_orphan_keys.py:52`](../../tests/test_space_operations_orphan_keys.py#L52) | Flatten a generated nested translation object. |
-| function | `_catalogs` | [`tests/test_space_operations_orphan_keys.py:64`](../../tests/test_space_operations_orphan_keys.py#L64) | Load every Cloud source catalog for one locale. |
-| function | `_cloud_dist` | [`tests/test_space_operations_orphan_keys.py:74`](../../tests/test_space_operations_orphan_keys.py#L74) | Load one generated Cloud bundle as a flat map. |
-| function | `test_operations_runtime_keys_have_reviewed_unique_source_ownership` | [`tests/test_space_operations_orphan_keys.py:80`](../../tests/test_space_operations_orphan_keys.py#L80) | Keep runtime labels reviewed and owned by one canonical catalog. |
-| function | `test_operations_runtime_keys_match_generated_cloud_bundles` | [`tests/test_space_operations_orphan_keys.py:90`](../../tests/test_space_operations_orphan_keys.py#L90) | Publish the exact reviewed values in generated Cloud bundles. |
-| function | `translations` | [`tests/test_space_pairing_catalog.py:17`](../../tests/test_space_pairing_catalog.py#L17) | Load one flat Cloud source catalog for a locale. |
-| class | `SpacePairingCatalogTest` | [`tests/test_space_pairing_catalog.py:23`](../../tests/test_space_pairing_catalog.py#L23) | Keep pairing labels localized and protected from legacy overrides. |
-| method | `SpacePairingCatalogTest.test_reviewed_labels_are_not_overridden_by_empty_legacy_values` | [`tests/test_space_pairing_catalog.py:26`](../../tests/test_space_pairing_catalog.py#L26) | Reject stale empty legacy values that shadow reviewed labels. |
-| method | `SpacePairingCatalogTest.test_complete_pairing_dialog_is_translated` | [`tests/test_space_pairing_catalog.py:38`](../../tests/test_space_pairing_catalog.py#L38) | Require the complete pairing dialog contract in official locales. |
-| function | `_flatten` | [`tests/test_space_verification_loop_catalog.py:64`](../../tests/test_space_verification_loop_catalog.py#L64) | Flatten a generated nested translation object. |
-| function | `_source_catalog` | [`tests/test_space_verification_loop_catalog.py:76`](../../tests/test_space_verification_loop_catalog.py#L76) | Load the owning Space Operations source catalog. |
-| function | `_source_owners` | [`tests/test_space_verification_loop_catalog.py:82`](../../tests/test_space_verification_loop_catalog.py#L82) | Return every Cloud source catalog that declares one key. |
-| function | `_dist` | [`tests/test_space_verification_loop_catalog.py:92`](../../tests/test_space_verification_loop_catalog.py#L92) | Load one generated distribution bundle as a flat key map. |
-| function | `test_verification_loop_contract_has_exact_additive_key_set` | [`tests/test_space_verification_loop_catalog.py:98`](../../tests/test_space_verification_loop_catalog.py#L98) | Pin all states, statuses, actions, stages, and the next-action label. |
-| function | `test_verification_loop_copy_is_reviewed_nonempty_and_uniquely_owned` | [`tests/test_space_verification_loop_catalog.py:116`](../../tests/test_space_verification_loop_catalog.py#L116) | Keep visible proof language reviewed and source-owned in one catalog. |
-| function | `test_completed_without_proof_is_not_presented_as_verified` | [`tests/test_space_verification_loop_catalog.py:127`](../../tests/test_space_verification_loop_catalog.py#L127) | Prevent a completed execution from collapsing into a verified verdict. |
-| function | `test_verification_loop_source_matches_cloud_and_aggregate_dist` | [`tests/test_space_verification_loop_catalog.py:139`](../../tests/test_space_verification_loop_catalog.py#L139) | Publish exactly the reviewed source copy in both generated bundles. |
-| function | `load_cloud_sync_module` | [`tests/test_sync_from_cloud.py:13`](../../tests/test_sync_from_cloud.py#L13) | Load the hyphenated Cloud sync script as an isolated module. |
-| class | `CloudSyncDeletionTests` | [`tests/test_sync_from_cloud.py:22`](../../tests/test_sync_from_cloud.py#L22) | Verify Cloud scanner omissions do not delete catalog keys by default. |
-| method | `CloudSyncDeletionTests.setUp` | [`tests/test_sync_from_cloud.py:25`](../../tests/test_sync_from_cloud.py#L25) | Redirect Cloud locale output to a temporary catalog tree. |
-| method | `CloudSyncDeletionTests.tearDown` | [`tests/test_sync_from_cloud.py:38`](../../tests/test_sync_from_cloud.py#L38) | Remove the temporary Cloud catalog tree. |
-| method | `CloudSyncDeletionTests.test_preserves_unscanned_keys_by_default` | [`tests/test_sync_from_cloud.py:42`](../../tests/test_sync_from_cloud.py#L42) | Merge scanned keys without deleting an existing scanner omission. |
-| method | `CloudSyncDeletionTests.test_leaves_a_catalog_without_key_changes_byte_for_byte` | [`tests/test_sync_from_cloud.py:51`](../../tests/test_sync_from_cloud.py#L51) | A sync that adds and removes nothing must not restyle the file. |
-| method | `CloudSyncDeletionTests.test_deletes_only_with_explicit_flag` | [`tests/test_sync_from_cloud.py:63`](../../tests/test_sync_from_cloud.py#L63) | Remove an unscanned key only when destructive mode is explicit. |
-| method | `CloudSyncDeletionTests.test_skips_keys_owned_by_another_catalog_across_locales` | [`tests/test_sync_from_cloud.py:75`](../../tests/test_sync_from_cloud.py#L75) | Use English catalog ownership even before another locale is translated. |
-| class | `CloudSyncRuntimeKeyTests` | [`tests/test_sync_from_cloud.py:103`](../../tests/test_sync_from_cloud.py#L103) | A key is the key the runtime resolves: `cloud.a.b` in a catalog is `a.b`. |
-| method | `CloudSyncRuntimeKeyTests.setUp` | [`tests/test_sync_from_cloud.py:114`](../../tests/test_sync_from_cloud.py#L114) | Hold one key under the stripped prefix in another English catalog. |
-| method | `CloudSyncRuntimeKeyTests.tearDown` | [`tests/test_sync_from_cloud.py:127`](../../tests/test_sync_from_cloud.py#L127) | Remove the temporary catalog tree. |
-| method | `CloudSyncRuntimeKeyTests.test_a_key_held_with_the_stripped_prefix_creates_no_namespace_file` | [`tests/test_sync_from_cloud.py:131`](../../tests/test_sync_from_cloud.py#L131) | Write no new namespace file for a key another catalog already holds. |
-| method | `CloudSyncRuntimeKeyTests.test_a_key_held_with_the_prefix_in_its_own_file_is_not_written_twice` | [`tests/test_sync_from_cloud.py:140`](../../tests/test_sync_from_cloud.py#L140) | Keep a prefixed key as it is instead of adding its unprefixed twin. |
-| method | `CloudSyncRuntimeKeyTests.test_check_names_only_keys_no_catalog_resolves` | [`tests/test_sync_from_cloud.py:151`](../../tests/test_sync_from_cloud.py#L151) | Report only keys no English catalog resolves. |
-| method | `CloudSyncRuntimeKeyTests.test_build_dist_and_the_sync_share_one_rule` | [`tests/test_sync_from_cloud.py:158`](../../tests/test_sync_from_cloud.py#L158) | Strip the prefix by the one contract rule in both tools. |
-| function | `load_core_sync_module` | [`tests/test_sync_from_core.py:13`](../../tests/test_sync_from_core.py#L13) | Load the hyphenated Core sync script as an isolated module. |
-| class | `CoreSyncDeletionTests` | [`tests/test_sync_from_core.py:22`](../../tests/test_sync_from_core.py#L22) | Verify Core synchronization preserves values unless deletion is explicit. |
-| method | `CoreSyncDeletionTests.setUp` | [`tests/test_sync_from_core.py:25`](../../tests/test_sync_from_core.py#L25) | Redirect Core synchronization output to temporary directories. |
-| method | `CoreSyncDeletionTests.tearDown` | [`tests/test_sync_from_core.py:34`](../../tests/test_sync_from_core.py#L34) | Remove the temporary Core synchronization tree. |
-| method | `CoreSyncDeletionTests.test_preserves_existing_values_by_default` | [`tests/test_sync_from_core.py:38`](../../tests/test_sync_from_core.py#L38) | Merge scanned values while retaining unscanned existing entries. |
-| method | `CoreSyncDeletionTests.test_deletes_only_when_no_delete_is_false` | [`tests/test_sync_from_core.py:55`](../../tests/test_sync_from_core.py#L55) | Drop unscanned values only in explicit destructive mode. |
-| function | `load_sync_module` | [`tests/test_sync_to_projects.py:12`](../../tests/test_sync_to_projects.py#L12) | Load the hyphenated consumer-sync script as an isolated module. |
-| class | `SyncToProjectsTests` | [`tests/test_sync_to_projects.py:21`](../../tests/test_sync_to_projects.py#L21) | Verify consumer writes, deletions, manifests, and dry-run isolation. |
-| method | `SyncToProjectsTests.setUp` | [`tests/test_sync_to_projects.py:24`](../../tests/test_sync_to_projects.py#L24) | Redirect generated and consumer paths to a temporary fixture. |
-| method | `SyncToProjectsTests.tearDown` | [`tests/test_sync_to_projects.py:32`](../../tests/test_sync_to_projects.py#L32) | Remove the temporary distribution and consumer fixture. |
-| method | `SyncToProjectsTests.write_dist_file` | [`tests/test_sync_to_projects.py:36`](../../tests/test_sync_to_projects.py#L36) | Write one generated bundle fixture and return its path. |
-| method | `SyncToProjectsTests.test_sync_single_scope_dry_run_does_not_write_or_delete` | [`tests/test_sync_to_projects.py:43`](../../tests/test_sync_to_projects.py#L43) | Report additions and deletions without mutating consumer files. |
-| method | `SyncToProjectsTests.test_sync_single_scope_writes_updates_and_deletes_stale_locale` | [`tests/test_sync_to_projects.py:58`](../../tests/test_sync_to_projects.py#L58) | Update changed bundles and remove only stale locale files. |
-| method | `SyncToProjectsTests.test_sync_manifest_updates_when_source_differs` | [`tests/test_sync_to_projects.py:75`](../../tests/test_sync_to_projects.py#L75) | Replace a consumer manifest only when generated content differs. |
-| method | `SyncToProjectsTests.test_flow_target_uses_static_flow_scope_and_manifest` | [`tests/test_sync_to_projects.py:92`](../../tests/test_sync_to_projects.py#L92) | Keep Flow on its static scope with the bundled manifest contract. |
-| class | `ThemePreferenceTranslationTests` | [`tests/test_theme_preferences.py:16`](../../tests/test_theme_preferences.py#L16) | Require every supported code locale to label all theme choices. |
-| method | `ThemePreferenceTranslationTests.test_theme_preference_labels_are_non_empty_in_every_code_locale` | [`tests/test_theme_preferences.py:19`](../../tests/test_theme_preferences.py#L19) | Prevent language switching from producing blank theme menu items. |
+| class | `CatalogNotFound` | [`tests/test_module_catalog_copy.py:36`](../../tests/test_module_catalog_copy.py#L36) | The engine catalog is required here but could not be located. |
+| function | `load_translations` | [`tests/test_module_catalog_copy.py:40`](../../tests/test_module_catalog_copy.py#L40) | Return the flat code translations for one locale. |
+| function | `find_engine_catalog` | [`tests/test_module_catalog_copy.py:46`](../../tests/test_module_catalog_copy.py#L46) | Locate the engine module catalog. |
+| function | `catalog_copy_keys` | [`tests/test_module_catalog_copy.py:67`](../../tests/test_module_catalog_copy.py#L67) | Extract every title_key / description_key value from catalog YAML text. |
+| class | `CatalogLocationTests` | [`tests/test_module_catalog_copy.py:72`](../../tests/test_module_catalog_copy.py#L72) | The catalog lookup fails loudly wherever enforcement is expected. |
+| method | `CatalogLocationTests.setUp` | [`tests/test_module_catalog_copy.py:75`](../../tests/test_module_catalog_copy.py#L75) | Create a fake workspace with an i18n worktree nested like an agent checkout. |
+| method | `CatalogLocationTests.write_catalog` | [`tests/test_module_catalog_copy.py:83`](../../tests/test_module_catalog_copy.py#L83) | Write a minimal catalog where a workspace keeps flyto-engine. |
+| method | `CatalogLocationTests.test_missing_catalog_skips_even_under_ci` | [`tests/test_module_catalog_copy.py:90`](../../tests/test_module_catalog_copy.py#L90) | This public repository's CI cannot read the internal engine; engine CI is the gate. |
+| method | `CatalogLocationTests.test_missing_catalog_is_optional_outside_ci` | [`tests/test_module_catalog_copy.py:94`](../../tests/test_module_catalog_copy.py#L94) | A contributor without flyto-engine can still run the suite locally. |
+| method | `CatalogLocationTests.test_explicit_path_must_exist` | [`tests/test_module_catalog_copy.py:98`](../../tests/test_module_catalog_copy.py#L98) | A misconfigured FLYTO_ENGINE_CATALOG is an error, not a fallback. |
+| method | `CatalogLocationTests.test_explicit_path_wins` | [`tests/test_module_catalog_copy.py:103`](../../tests/test_module_catalog_copy.py#L103) | FLYTO_ENGINE_CATALOG takes precedence over a workspace sibling. |
+| method | `CatalogLocationTests.test_worktree_finds_workspace_sibling` | [`tests/test_module_catalog_copy.py:110`](../../tests/test_module_catalog_copy.py#L110) | A worktree under .claude/worktrees finds the workspace's flyto-engine. |
+| class | `ModuleCatalogCopyTests` | [`tests/test_module_catalog_copy.py:116`](../../tests/test_module_catalog_copy.py#L116) | Keep module names and descriptions resolvable in every reviewed locale. |
+| method | `ModuleCatalogCopyTests.test_catalog_key_extraction` | [`tests/test_module_catalog_copy.py:119`](../../tests/test_module_catalog_copy.py#L119) | Read both key kinds and ignore unrelated fields. |
+| method | `ModuleCatalogCopyTests.test_every_engine_catalog_key_has_copy` | [`tests/test_module_catalog_copy.py:133`](../../tests/test_module_catalog_copy.py#L133) | Every catalog title_key / description_key resolves in every reviewed locale. |
+| class | `SharedProjectContractTests` | [`tests/test_project_contract.py:10`](../../tests/test_project_contract.py#L10) | Prevent supported project scope lists from diverging across tools. |
+| method | `SharedProjectContractTests.test_only_i18n_contract_assigns_project_dirs` | [`tests/test_project_contract.py:13`](../../tests/test_project_contract.py#L13) | Require operational scripts to import the canonical project list. |
+| function | `flatten` | [`tests/test_report_export_keys.py:32`](../../tests/test_report_export_keys.py#L32) | Flatten a generated translation object to dotted catalog keys. |
+| function | `load_published` | [`tests/test_report_export_keys.py:44`](../../tests/test_report_export_keys.py#L44) | Read the built dist bundle for one code locale. |
+| class | `ReportExportTranslationTests` | [`tests/test_report_export_keys.py:50`](../../tests/test_report_export_keys.py#L50) | Keep report export labels present in source and published bundles. |
+| method | `ReportExportTranslationTests.test_every_code_locale_publishes_non_empty_export_copy` | [`tests/test_report_export_keys.py:53`](../../tests/test_report_export_keys.py#L53) | Require the format menu to remain usable in every supported locale. |
+| method | `ReportExportTranslationTests.test_reviewed_primary_locale_copy_does_not_drift` | [`tests/test_report_export_keys.py:75`](../../tests/test_report_export_keys.py#L75) | Pin the reviewed English and Chinese product wording. |
+| function | `_flatten` | [`tests/test_space_operations_orphan_keys.py:51`](../../tests/test_space_operations_orphan_keys.py#L51) | Flatten a generated nested translation object. |
+| function | `_catalogs` | [`tests/test_space_operations_orphan_keys.py:63`](../../tests/test_space_operations_orphan_keys.py#L63) | Load every Cloud source catalog for one locale. |
+| function | `_cloud_dist` | [`tests/test_space_operations_orphan_keys.py:73`](../../tests/test_space_operations_orphan_keys.py#L73) | Load one generated Cloud bundle as a flat map. |
+| function | `test_operations_runtime_keys_have_reviewed_unique_source_ownership` | [`tests/test_space_operations_orphan_keys.py:79`](../../tests/test_space_operations_orphan_keys.py#L79) | Keep runtime labels reviewed and owned by one canonical catalog. |
+| function | `test_operations_runtime_keys_match_generated_cloud_bundles` | [`tests/test_space_operations_orphan_keys.py:89`](../../tests/test_space_operations_orphan_keys.py#L89) | Publish the exact reviewed values in generated Cloud bundles. |
+| function | `translations` | [`tests/test_space_pairing_catalog.py:16`](../../tests/test_space_pairing_catalog.py#L16) | Load one flat Cloud source catalog for a locale. |
+| class | `SpacePairingCatalogTest` | [`tests/test_space_pairing_catalog.py:22`](../../tests/test_space_pairing_catalog.py#L22) | Keep pairing labels localized and protected from legacy overrides. |
+| method | `SpacePairingCatalogTest.test_reviewed_labels_are_not_overridden_by_empty_legacy_values` | [`tests/test_space_pairing_catalog.py:25`](../../tests/test_space_pairing_catalog.py#L25) | Reject stale empty legacy values that shadow reviewed labels. |
+| method | `SpacePairingCatalogTest.test_complete_pairing_dialog_is_translated` | [`tests/test_space_pairing_catalog.py:37`](../../tests/test_space_pairing_catalog.py#L37) | Require the complete pairing dialog contract in official locales. |
+| function | `_flatten` | [`tests/test_space_verification_loop_catalog.py:54`](../../tests/test_space_verification_loop_catalog.py#L54) | Flatten a generated nested translation object. |
+| function | `_source_catalog` | [`tests/test_space_verification_loop_catalog.py:66`](../../tests/test_space_verification_loop_catalog.py#L66) | Load the owning Space Operations source catalog. |
+| function | `_source_owners` | [`tests/test_space_verification_loop_catalog.py:72`](../../tests/test_space_verification_loop_catalog.py#L72) | Return every Cloud source catalog that declares one key. |
+| function | `_dist` | [`tests/test_space_verification_loop_catalog.py:82`](../../tests/test_space_verification_loop_catalog.py#L82) | Load one generated distribution bundle as a flat key map. |
+| function | `test_verification_loop_contract_has_exact_additive_key_set` | [`tests/test_space_verification_loop_catalog.py:88`](../../tests/test_space_verification_loop_catalog.py#L88) | Pin all states, statuses, actions, stages, and the next-action label. |
+| function | `test_verification_loop_copy_is_reviewed_nonempty_and_uniquely_owned` | [`tests/test_space_verification_loop_catalog.py:106`](../../tests/test_space_verification_loop_catalog.py#L106) | Keep visible proof language reviewed and source-owned in one catalog. |
+| function | `test_completed_without_proof_is_not_presented_as_verified` | [`tests/test_space_verification_loop_catalog.py:117`](../../tests/test_space_verification_loop_catalog.py#L117) | Prevent a completed execution from collapsing into a verified verdict. |
+| function | `test_verification_loop_source_matches_cloud_and_aggregate_dist` | [`tests/test_space_verification_loop_catalog.py:129`](../../tests/test_space_verification_loop_catalog.py#L129) | Publish exactly the reviewed source copy in both generated bundles. |
+| function | `load_cloud_sync_module` | [`tests/test_sync_from_cloud.py:12`](../../tests/test_sync_from_cloud.py#L12) | Load the hyphenated Cloud sync script as an isolated module. |
+| class | `CloudSyncDeletionTests` | [`tests/test_sync_from_cloud.py:21`](../../tests/test_sync_from_cloud.py#L21) | Verify Cloud scanner omissions do not delete catalog keys by default. |
+| method | `CloudSyncDeletionTests.setUp` | [`tests/test_sync_from_cloud.py:24`](../../tests/test_sync_from_cloud.py#L24) | Redirect Cloud locale output to a temporary catalog tree. |
+| method | `CloudSyncDeletionTests.tearDown` | [`tests/test_sync_from_cloud.py:37`](../../tests/test_sync_from_cloud.py#L37) | Remove the temporary Cloud catalog tree. |
+| method | `CloudSyncDeletionTests.test_preserves_unscanned_keys_by_default` | [`tests/test_sync_from_cloud.py:41`](../../tests/test_sync_from_cloud.py#L41) | Merge scanned keys without deleting an existing scanner omission. |
+| method | `CloudSyncDeletionTests.test_leaves_a_catalog_without_key_changes_byte_for_byte` | [`tests/test_sync_from_cloud.py:50`](../../tests/test_sync_from_cloud.py#L50) | A sync that adds and removes nothing must not restyle the file. |
+| method | `CloudSyncDeletionTests.test_deletes_only_with_explicit_flag` | [`tests/test_sync_from_cloud.py:62`](../../tests/test_sync_from_cloud.py#L62) | Remove an unscanned key only when destructive mode is explicit. |
+| method | `CloudSyncDeletionTests.test_skips_keys_owned_by_another_catalog_across_locales` | [`tests/test_sync_from_cloud.py:74`](../../tests/test_sync_from_cloud.py#L74) | Use English catalog ownership even before another locale is translated. |
+| class | `CloudSyncRuntimeKeyTests` | [`tests/test_sync_from_cloud.py:102`](../../tests/test_sync_from_cloud.py#L102) | A key is the key the runtime resolves: `cloud.a.b` in a catalog is `a.b`. |
+| method | `CloudSyncRuntimeKeyTests.setUp` | [`tests/test_sync_from_cloud.py:113`](../../tests/test_sync_from_cloud.py#L113) | Hold one key under the stripped prefix in another English catalog. |
+| method | `CloudSyncRuntimeKeyTests.tearDown` | [`tests/test_sync_from_cloud.py:126`](../../tests/test_sync_from_cloud.py#L126) | Remove the temporary catalog tree. |
+| method | `CloudSyncRuntimeKeyTests.test_a_key_held_with_the_stripped_prefix_creates_no_namespace_file` | [`tests/test_sync_from_cloud.py:130`](../../tests/test_sync_from_cloud.py#L130) | Write no new namespace file for a key another catalog already holds. |
+| method | `CloudSyncRuntimeKeyTests.test_a_key_held_with_the_prefix_in_its_own_file_is_not_written_twice` | [`tests/test_sync_from_cloud.py:139`](../../tests/test_sync_from_cloud.py#L139) | Keep a prefixed key as it is instead of adding its unprefixed twin. |
+| method | `CloudSyncRuntimeKeyTests.test_check_names_only_keys_no_catalog_resolves` | [`tests/test_sync_from_cloud.py:150`](../../tests/test_sync_from_cloud.py#L150) | Report only keys no English catalog resolves. |
+| method | `CloudSyncRuntimeKeyTests.test_build_dist_and_the_sync_share_one_rule` | [`tests/test_sync_from_cloud.py:157`](../../tests/test_sync_from_cloud.py#L157) | Strip the prefix by the one contract rule in both tools. |
+| function | `load_core_sync_module` | [`tests/test_sync_from_core.py:12`](../../tests/test_sync_from_core.py#L12) | Load the hyphenated Core sync script as an isolated module. |
+| class | `CoreSyncDeletionTests` | [`tests/test_sync_from_core.py:21`](../../tests/test_sync_from_core.py#L21) | Verify Core synchronization preserves values unless deletion is explicit. |
+| method | `CoreSyncDeletionTests.setUp` | [`tests/test_sync_from_core.py:24`](../../tests/test_sync_from_core.py#L24) | Redirect Core synchronization output to temporary directories. |
+| method | `CoreSyncDeletionTests.tearDown` | [`tests/test_sync_from_core.py:33`](../../tests/test_sync_from_core.py#L33) | Remove the temporary Core synchronization tree. |
+| method | `CoreSyncDeletionTests.test_preserves_existing_values_by_default` | [`tests/test_sync_from_core.py:37`](../../tests/test_sync_from_core.py#L37) | Merge scanned values while retaining unscanned existing entries. |
+| method | `CoreSyncDeletionTests.test_deletes_only_when_no_delete_is_false` | [`tests/test_sync_from_core.py:54`](../../tests/test_sync_from_core.py#L54) | Drop unscanned values only in explicit destructive mode. |
+| function | `load_sync_module` | [`tests/test_sync_to_projects.py:11`](../../tests/test_sync_to_projects.py#L11) | Load the hyphenated consumer-sync script as an isolated module. |
+| class | `SyncToProjectsTests` | [`tests/test_sync_to_projects.py:20`](../../tests/test_sync_to_projects.py#L20) | Verify consumer writes, deletions, manifests, and dry-run isolation. |
+| method | `SyncToProjectsTests.setUp` | [`tests/test_sync_to_projects.py:23`](../../tests/test_sync_to_projects.py#L23) | Redirect generated and consumer paths to a temporary fixture. |
+| method | `SyncToProjectsTests.tearDown` | [`tests/test_sync_to_projects.py:31`](../../tests/test_sync_to_projects.py#L31) | Remove the temporary distribution and consumer fixture. |
+| method | `SyncToProjectsTests.write_dist_file` | [`tests/test_sync_to_projects.py:35`](../../tests/test_sync_to_projects.py#L35) | Write one generated bundle fixture and return its path. |
+| method | `SyncToProjectsTests.test_sync_single_scope_dry_run_does_not_write_or_delete` | [`tests/test_sync_to_projects.py:42`](../../tests/test_sync_to_projects.py#L42) | Report additions and deletions without mutating consumer files. |
+| method | `SyncToProjectsTests.test_sync_single_scope_writes_updates_and_deletes_stale_locale` | [`tests/test_sync_to_projects.py:57`](../../tests/test_sync_to_projects.py#L57) | Update changed bundles and remove only stale locale files. |
+| method | `SyncToProjectsTests.test_sync_manifest_updates_when_source_differs` | [`tests/test_sync_to_projects.py:74`](../../tests/test_sync_to_projects.py#L74) | Replace a consumer manifest only when generated content differs. |
+| method | `SyncToProjectsTests.test_flow_target_uses_static_flow_scope_and_manifest` | [`tests/test_sync_to_projects.py:91`](../../tests/test_sync_to_projects.py#L91) | Keep Flow on its static scope with the bundled manifest contract. |
+| class | `ThemePreferenceTranslationTests` | [`tests/test_theme_preferences.py:15`](../../tests/test_theme_preferences.py#L15) | Require every supported code locale to label all theme choices. |
+| method | `ThemePreferenceTranslationTests.test_theme_preference_labels_are_non_empty_in_every_code_locale` | [`tests/test_theme_preferences.py:18`](../../tests/test_theme_preferences.py#L18) | Prevent language switching from producing blank theme menu items. |
 | class | `ThaiBatchTests` | [`tests/test_translate_th.py:11`](../../tests/test_translate_th.py#L11) | Verify the historical Thai batch is path-safe and dry-run aware. |
 | method | `ThaiBatchTests.test_dry_run_reports_without_writing` | [`tests/test_translate_th.py:14`](../../tests/test_translate_th.py#L14) | Leave the selected catalog unchanged while reporting fillable keys. |
-| class | `ValidateCriticalTranslationsTests` | [`tests/test_validate.py:23`](../../tests/test_validate.py#L23) | Verify non-empty rules for critical Flyto2 Code copy. |
-| method | `ValidateCriticalTranslationsTests._validate` | [`tests/test_validate.py:26`](../../tests/test_validate.py#L26) | Validate one temporary critical translation value. |
-| method | `ValidateCriticalTranslationsTests.test_rejects_empty_community_product_loop_copy` | [`tests/test_validate.py:40`](../../tests/test_validate.py#L40) | Reject an empty critical community-loop translation. |
-| method | `ValidateCriticalTranslationsTests.test_accepts_translated_community_product_loop_copy` | [`tests/test_validate.py:46`](../../tests/test_validate.py#L46) | Accept a non-empty localized community-loop translation. |
-| method | `ValidateCriticalTranslationsTests.test_rejects_catalog_missing_schema_metadata` | [`tests/test_validate.py:50`](../../tests/test_validate.py#L50) | Reject a locale document that omits required schema metadata. |
+| class | `ValidateCriticalTranslationsTests` | [`tests/test_validate.py:22`](../../tests/test_validate.py#L22) | Verify non-empty rules for critical Flyto2 Code copy. |
+| method | `ValidateCriticalTranslationsTests._validate` | [`tests/test_validate.py:25`](../../tests/test_validate.py#L25) | Validate one temporary critical translation value. |
+| method | `ValidateCriticalTranslationsTests.test_rejects_empty_community_product_loop_copy` | [`tests/test_validate.py:39`](../../tests/test_validate.py#L39) | Reject an empty critical community-loop translation. |
+| method | `ValidateCriticalTranslationsTests.test_accepts_translated_community_product_loop_copy` | [`tests/test_validate.py:45`](../../tests/test_validate.py#L45) | Accept a non-empty localized community-loop translation. |
+| method | `ValidateCriticalTranslationsTests.test_rejects_catalog_missing_schema_metadata` | [`tests/test_validate.py:49`](../../tests/test_validate.py#L49) | Reject a locale document that omits required schema metadata. |
 | function | `apply_translations` | [`translate_th.py:416`](../../translate_th.py#L416) | Fill empty known keys and optionally write the reviewed Thai batch. |
 | function | `main` | [`translate_th.py:435`](../../translate_th.py#L435) | Parse a safe catalog path, report changes, and honor dry-run mode. |

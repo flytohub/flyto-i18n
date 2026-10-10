@@ -22,7 +22,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import LOCALE_NAMES, PROJECT_DIRS  # noqa: E402
+from i18n_contract import LOCALE_NAMES, PROJECT_DIRS
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -67,7 +67,7 @@ def add_locale(locale: str, use_english_values: bool = False):
 
             if 'translations' in data:
                 if not use_english_values:
-                    data['translations'] = {k: "" for k in data['translations'].keys()}
+                    data['translations'] = {k: "" for k in data['translations']}
                 total_keys += len(data['translations'])
 
             target_file = target_dir / en_file.name

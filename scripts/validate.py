@@ -11,12 +11,13 @@ Options:
     --strict    Exit with code 1 on any error
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List
 
 from jsonschema import Draft7Validator
 
@@ -24,7 +25,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS  # noqa: E402
+from i18n_contract import PROJECT_DIRS
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -37,7 +38,7 @@ CRITICAL_NON_EMPTY_PREFIXES = {
 }
 
 
-def load_schema() -> Dict:
+def load_schema() -> dict:
     """Load and validate the Draft-07 locale source schema."""
     schema_path = SCHEMA_DIR / 'locale.schema.json'
     with open(schema_path) as f:
@@ -46,7 +47,7 @@ def load_schema() -> Dict:
     return schema
 
 
-def load_manifest_schema() -> Dict:
+def load_manifest_schema() -> dict:
     """Load and validate the repository manifest schema."""
     schema_path = SCHEMA_DIR / 'manifest.schema.json'
     with open(schema_path) as f:
@@ -55,7 +56,7 @@ def load_manifest_schema() -> Dict:
     return schema
 
 
-def schema_errors(data: Dict, schema: Dict, file_path: Path) -> List[Dict]:
+def schema_errors(data: dict, schema: dict, file_path: Path) -> list[dict]:
     """Convert sorted JSON Schema violations into validation findings."""
     findings = []
     validator = Draft7Validator(schema)
@@ -70,7 +71,7 @@ def schema_errors(data: Dict, schema: Dict, file_path: Path) -> List[Dict]:
     return findings
 
 
-def get_locales(project: str = None) -> list:
+def get_locales(project: str | None = None) -> list:
     """Get available locales by scanning project directories."""
     locales = set()
     dirs = [project] if project else PROJECT_DIRS
@@ -98,7 +99,7 @@ def load_base_keys() -> set:
     return keys
 
 
-def validate_file(file_path: Path, base_keys: set, schema: Dict = None) -> List[Dict]:
+def validate_file(file_path: Path, base_keys: set, schema: dict | None = None) -> list[dict]:
     """Validate one locale catalog against schema and business rules."""
     errors = []
 
@@ -155,8 +156,8 @@ def validate_file(file_path: Path, base_keys: set, schema: Dict = None) -> List[
 
     # Check if keys exist in base (skip for 'en' and 'cloud.*' keys)
     if data.get('locale') != 'en' and base_keys:
-        for key in translations.keys():
-            if key.startswith('cloud.') or key.startswith('landing.'):
+        for key in translations:
+            if key.startswith(('cloud.', 'landing.')):
                 continue
             if key not in base_keys:
                 errors.append({
@@ -169,7 +170,7 @@ def validate_file(file_path: Path, base_keys: set, schema: Dict = None) -> List[
     return errors
 
 
-def validate_locale(locale: str, base_keys: set, projects: list = None, schema: Dict = None) -> List[Dict]:
+def validate_locale(locale: str, base_keys: set, projects: list | None = None, schema: dict | None = None) -> list[dict]:
     """Validate all files for a locale across project directories."""
     all_errors = []
     dirs = projects or PROJECT_DIRS
@@ -185,7 +186,7 @@ def validate_locale(locale: str, base_keys: set, projects: list = None, schema: 
     return all_errors
 
 
-def count_files(locale: str, projects: list = None) -> int:
+def count_files(locale: str, projects: list | None = None) -> int:
     """Count translation files for a locale."""
     count = 0
     dirs = projects or PROJECT_DIRS

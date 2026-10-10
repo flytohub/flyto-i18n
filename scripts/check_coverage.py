@@ -4,11 +4,11 @@
 退出碼: 任一語言低於 --min(預設不擋,只報告;給 --min N 則低於 N 時 exit 1)。
 這支腳本是 FLYA-152 的驗收尺:翻譯前後各跑一次,覆蓋率必須真的上升。
 """
-import json
+import argparse
 import glob
+import json
 import os
 import sys
-import argparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -19,8 +19,10 @@ def collect(lang):
         if lang not in f.split(os.sep):
             continue
         try:
-            d = json.load(open(f))
-        except Exception:
+            with open(f, encoding='utf-8') as stream:
+                d = json.load(stream)
+        except (OSError, ValueError) as exc:
+            print(f"Skipping unreadable catalog {f}: {exc}")
             continue
         tr = d.get('translations', {}) if isinstance(d, dict) else {}
         if not isinstance(tr, dict):
@@ -37,7 +39,8 @@ def main():
     ap.add_argument('--lang', default=None, help='只檢查單一語言')
     args = ap.parse_args()
 
-    man = json.load(open(os.path.join(ROOT, 'manifest.json')))
+    with open(os.path.join(ROOT, 'manifest.json'), encoding='utf-8') as stream:
+        man = json.load(stream)
     langs = list(man.get('locales', {}).keys())
     if args.lang:
         langs = [args.lang]

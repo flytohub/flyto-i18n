@@ -3,7 +3,6 @@
 import json
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ("en", "zh-TW", "zh-CN")
 
@@ -11,16 +10,7 @@ VERIFICATION_KEYS = frozenset(
     {"spaces.ops.nextAction"}
     | {
         f"spaces.ops.verification{suffix}"
-        for suffix in """
-ActionAwaitPerson ActionContinue ActionDefine ActionNone ActionOpen ActionRepeat ActionResolve
-ActionReview ActionShortfall ActionStart ActionWait Contract Empty Evidence
-Execution Loop LoopPlain StateActive StateBlocked StateCancelled StateComplete
-StateExecutionFailed StateFailed StateInsufficient StateMissing
-StateNotConfigured StateNotProven StatePending StateReady StateRefused
-StateUnverified StateVerified StatusBlocked StatusCancelled
-StatusExecutionFailed StatusInProgress StatusNotProven StatusRefused
-StatusUnverified StatusVerified Verdict
-""".split()
+        for suffix in ["ActionAwaitPerson", "ActionContinue", "ActionDefine", "ActionNone", "ActionOpen", "ActionRepeat", "ActionResolve", "ActionReview", "ActionShortfall", "ActionStart", "ActionWait", "Contract", "Empty", "Evidence", "Execution", "Loop", "LoopPlain", "StateActive", "StateBlocked", "StateCancelled", "StateComplete", "StateExecutionFailed", "StateFailed", "StateInsufficient", "StateMissing", "StateNotConfigured", "StateNotProven", "StatePending", "StateReady", "StateRefused", "StateUnverified", "StateVerified", "StatusBlocked", "StatusCancelled", "StatusExecutionFailed", "StatusInProgress", "StatusNotProven", "StatusRefused", "StatusUnverified", "StatusVerified", "Verdict"]
     }
 )
 

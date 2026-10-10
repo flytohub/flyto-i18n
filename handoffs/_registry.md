@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-10 | Latest main Ruff closure, Cloud runtime catalog parity and safe remote branch convergence | `2026-10-10-main-lint-parity-and-branch-cleanup.md` |
 | 2026-10-04 | Words for a recovery stopped by the computer's AI (Owner: claude, branch claude/recovery-failure-copy) | `2026-10-04-recovery-failure-copy.md` |
 | 2026-10-04 | Module editions copy: Basic/Full labels, purchase page, usage units (Owner: claude, branch claude/module-editions-copy, Active) | `2026-10-04-module-editions-copy.md` |
 | 2026-10-04 | Module catalog copy for core, vrm, supply chain (Owner: claude, branch claude/catalog-titles, Active) | `2026-10-04-module-catalog-copy.md` |

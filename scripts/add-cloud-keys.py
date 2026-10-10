@@ -7,11 +7,11 @@ finds keys not in the i18n source, and adds them with English
 translations generated from key names.
 """
 
-import re
 import json
+import re
 import sys
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 CLOUD_SRC = PROJECT_ROOT.parent / 'flyto-cloud' / 'src' / 'ui' / 'web' / 'frontend' / 'src'
@@ -50,7 +50,8 @@ def extract_keys():
                 continue
             try:
                 content = f.read_text(encoding='utf-8')
-            except Exception:
+            except (OSError, UnicodeError) as exc:
+                print(f"Skipping unreadable source {f}: {exc}")
                 continue
 
             for pattern in [PAT_DOLLAR_T, PAT_T]:

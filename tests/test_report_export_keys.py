@@ -4,7 +4,6 @@ import json
 import unittest
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 STALE_DIST_HINT = (
     "export copy differs between locales/ and dist/ — "

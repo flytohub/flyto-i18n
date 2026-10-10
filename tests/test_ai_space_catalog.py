@@ -3,7 +3,6 @@
 import json
 from pathlib import Path
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 CATALOG_ROOT = PROJECT_ROOT / "locales" / "cloud"
 DIST_ROOT = PROJECT_ROOT / "dist" / "cloud"

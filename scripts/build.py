@@ -14,13 +14,12 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS  # noqa: E402
+from i18n_contract import PROJECT_DIRS
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -39,7 +38,7 @@ def get_locales() -> list:
     return sorted(locales)
 
 
-def merge_locale_files(locale: str) -> Dict[str, str]:
+def merge_locale_files(locale: str) -> dict[str, str]:
     """Merge all translation files for a locale into a single dict."""
     merged = {}
 
@@ -54,7 +53,7 @@ def merge_locale_files(locale: str) -> Dict[str, str]:
                     data = json.load(f)
                     if 'translations' in data:
                         merged.update(data['translations'])
-            except Exception as e:
+            except (OSError, ValueError, TypeError) as e:
                 print(f"Warning: Could not load {json_file}: {e}")
 
     return merged

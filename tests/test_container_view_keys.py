@@ -18,7 +18,6 @@ import re
 import unittest
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "locales" / "code"
 SCOPED_DIST_DIR = ROOT / "dist" / "code"

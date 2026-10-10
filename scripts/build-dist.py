@@ -33,18 +33,25 @@ Scopes (output):
 - dist/{locale}.json          - all translations (admin/full access)
 """
 
+from __future__ import annotations
+
 import argparse
 import hashlib
 import json
 import sys
-from pathlib import Path
 from datetime import datetime  # noqa: F401  # kept for backward-compat callers
+from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import LANGUAGE_META, PROJECT_DIRS, build_locale_meta, runtime_key  # noqa: E402
+from i18n_contract import (
+    LANGUAGE_META,
+    PROJECT_DIRS,
+    build_locale_meta,
+    runtime_key,
+)
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -174,9 +181,7 @@ def flat_to_nested(flat_dict: dict) -> dict:
 
         # Navigate/create path to parent
         for part in parts[:-1]:
-            if part not in current:
-                current[part] = {}
-            elif not isinstance(current[part], dict):
+            if part not in current or not isinstance(current[part], dict):
                 current[part] = {}
             current = current[part]
 
@@ -184,16 +189,15 @@ def flat_to_nested(flat_dict: dict) -> dict:
         existing = current.get(final_key)
         if existing is None:
             current[final_key] = value
-        elif isinstance(existing, dict):
+        elif isinstance(existing, dict) and '_self' not in existing:
             # Collision: generic string vs children dict. Park at
             # _self instead of dropping the generic.
-            if '_self' not in existing:
-                existing['_self'] = value
+            existing['_self'] = value
 
     return result
 
 
-def collect_files(locale: str, project: str, file_filter: list = None) -> list:
+def collect_files(locale: str, project: str, file_filter: list | None = None) -> list:
     """Get translation files for a locale from a specific project directory.
 
     Args:
@@ -240,7 +244,7 @@ def load_translations(files: list, key_prefix: str) -> dict:
     return merged, count
 
 
-def build_locale(locale: str, scope: str = None) -> dict:
+def build_locale(locale: str, scope: str | None = None) -> dict:
     """Build merged translations for a locale.
 
     Args:
@@ -347,7 +351,7 @@ def build_manifest(locales_data: dict, flat_counts: dict) -> dict:
     return manifest
 
 
-def count_translated(locale: str, scope: str = None) -> int:
+def count_translated(locale: str, scope: str | None = None) -> int:
     """Count non-empty unique translations for a locale after merge semantics."""
     merged = {}
 
@@ -388,7 +392,7 @@ def sync_repository_manifest(distribution_manifest: dict, manifest_path: Path = 
     return changed
 
 
-def parse_args(argv: list = None, available_locales: list = None) -> argparse.Namespace:
+def parse_args(argv: list | None = None, available_locales: list | None = None) -> argparse.Namespace:
     """Parse the repeatable closed-set --scope/--locale distribution filters."""
     locale_choices = list(available_locales) if available_locales is not None else get_locales()
     scope_choices = available_scopes()
@@ -523,7 +527,7 @@ def print_summary(selected_scopes: list) -> None:
             print()
 
 
-def main(argv: list = None) -> int:
+def main(argv: list | None = None) -> int:
     """Build the selected deterministic translation bundles and manifests."""
     # Get all locales
     locales = get_locales()

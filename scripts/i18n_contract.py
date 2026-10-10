@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from copy import deepcopy
 
-
 PROJECT_DIRS = [
     "cloud",
     "modules",

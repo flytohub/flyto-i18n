@@ -26,7 +26,7 @@ import re
 import sys
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -38,14 +38,14 @@ SHARED_EN_DIR = LOCALES_DIR / 'shared' / 'en'
 # Key Extraction
 # ============================================
 
-def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
+def extract_keys_from_file(file_path: Path) -> list[dict[str, str]]:
     """Extract i18n keys from a Python file."""
     keys = []
 
     try:
         with open(file_path) as f:
             content = f.read()
-    except Exception as e:
+    except (OSError, UnicodeError, ValueError, TypeError) as e:
         print(f"Warning: Could not read {file_path}: {e}")
         return keys
 
@@ -105,7 +105,7 @@ def extract_keys_from_file(file_path: Path) -> List[Dict[str, str]]:
     return keys
 
 
-def extract_params_schema_keys(content: str, file_path: Path) -> List[Dict[str, str]]:
+def extract_params_schema_keys(content: str, file_path: Path) -> list[dict[str, str]]:
     """Extract i18n keys from params_schema definitions."""
     keys = []
 
@@ -168,7 +168,7 @@ SKIP_PARAM_NAMES = {
 }
 
 
-def is_enum_like_array(values: List[str]) -> bool:
+def is_enum_like_array(values: list[str]) -> bool:
     """Check if array values look like enum options vs example data."""
     if not values or len(values) < 2:
         return False
@@ -178,10 +178,9 @@ def is_enum_like_array(values: List[str]) -> bool:
     for val in values:
         if len(val) <= 1:
             return False
-        if val[0].isupper() and val[1:].islower() and len(val) < 10:
-            if val.lower() in COMMON_NAMES:
-                return False
-        if val.startswith('/') or val.startswith('.'):
+        if val[0].isupper() and val[1:].islower() and len(val) < 10 and val.lower() in COMMON_NAMES:
+            return False
+        if val.startswith(('/', '.')):
             return False
         if val.isdigit():
             return False
@@ -195,7 +194,7 @@ COMMON_NAMES = {
 }
 
 
-def extract_params_schema_dict(content: str) -> Dict[str, Any]:
+def extract_params_schema_dict(content: str) -> dict[str, Any]:
     """Try to extract params_schema as a Python dict."""
     patterns = [
         r"params_schema\s*=\s*(\{[^}]+\})",
@@ -234,7 +233,7 @@ def format_label(key: str) -> str:
 # Module Scanning
 # ============================================
 
-def scan_core_modules(core_path: Path) -> Dict[str, str]:
+def scan_core_modules(core_path: Path) -> dict[str, str]:
     """Scan all modules in flyto-core and extract keys."""
     modules_dir = core_path / 'src' / 'core' / 'modules'
 
@@ -259,7 +258,7 @@ def scan_core_modules(core_path: Path) -> Dict[str, str]:
 # File Organization
 # ============================================
 
-def group_by_category(keys: Dict[str, str]) -> Dict[str, Dict[str, str]]:
+def group_by_category(keys: dict[str, str]) -> dict[str, dict[str, str]]:
     """Group keys by category for separate files."""
     grouped = defaultdict(dict)
 
@@ -282,7 +281,7 @@ def group_by_category(keys: Dict[str, str]) -> Dict[str, Dict[str, str]]:
     return dict(grouped)
 
 
-def load_existing_keys() -> Dict[str, Dict[str, str]]:
+def load_existing_keys() -> dict[str, dict[str, str]]:
     """Load existing English values from module and shared locale files."""
     existing = defaultdict(dict)
 
@@ -295,7 +294,7 @@ def load_existing_keys() -> Dict[str, Dict[str, str]]:
                 category = data.get('category', 'other')
                 translations = data.get('translations', {})
                 existing[category] = translations
-            except Exception as e:
+            except (OSError, UnicodeError, ValueError, TypeError) as e:
                 print(f"Warning: Could not read {json_file}: {e}")
 
     # Load from shared/en/ (for common.json)
@@ -305,18 +304,18 @@ def load_existing_keys() -> Dict[str, Dict[str, str]]:
             with open(common_file) as f:
                 data = json.load(f)
             existing['common'] = data.get('translations', {})
-        except Exception as e:
+        except (OSError, UnicodeError, ValueError, TypeError) as e:
             print(f"Warning: Could not read {common_file}: {e}")
 
     return dict(existing)
 
 
 def write_locale_files(
-    grouped_keys: Dict[str, Dict[str, str]],
-    existing_keys: Dict[str, Dict[str, str]],
+    grouped_keys: dict[str, dict[str, str]],
+    existing_keys: dict[str, dict[str, str]],
     dry_run: bool = False,
     no_delete: bool = True,
-) -> Dict[str, Dict]:
+) -> dict[str, dict]:
     """Write grouped keys while preserving unscanned values by default."""
     MODULES_EN_DIR.mkdir(parents=True, exist_ok=True)
     SHARED_EN_DIR.mkdir(parents=True, exist_ok=True)

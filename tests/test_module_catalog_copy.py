@@ -24,7 +24,6 @@ import unittest
 from collections.abc import Mapping
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 # The locales flyto-engine's scripts/check-i18n-keys.py treats as primary.
 # Every other locale renders these keys through the consumer's English fallback.

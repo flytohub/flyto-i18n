@@ -259,6 +259,8 @@
     "userSettings.warroom.saved": "Warroom connection saved",
     "userSettings.warroom.subtitle": "Connect a Flyto2 Warroom instance so ChatGPT-triggered workflow runs are checked against your Agent Firewall policy before they execute. Flyto2 Cloud never generates this key for you — copy it from your own Warroom instance's API key settings (mcp:invoke scope).",
     "userSettings.warroom.title": "Warroom Connections",
-    "userSettings.yourApiKey": "Your API Key"
+    "userSettings.yourApiKey": "Your API Key",
+    "userSettings.aiSourceOllama": "Ollama",
+    "userSettings.aiSourceOpenAICompatible": "OpenAI-compatible"
   }
 }

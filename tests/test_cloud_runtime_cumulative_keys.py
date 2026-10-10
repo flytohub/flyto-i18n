@@ -9,55 +9,26 @@ import re
 import tempfile
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ("en", "zh-TW", "zh-CN")
 PLACEHOLDER_RE = re.compile(r"\{\{?([A-Za-z_][A-Za-z0-9_.-]*)\}?\}")
 
 AI_SPACE_KEYS = frozenset(
     f"aiSpace.memory.{key}"
-    for key in """
-approve approvedAt approvedBy approvedState contentHash createLifecycle creator
-editInvalidatesApproval indexVersion keepStatus revoke revokedAt revokedBy revokedState
-source sourceReference
-""".split()
+    for key in ["approve", "approvedAt", "approvedBy", "approvedState", "contentHash", "createLifecycle", "creator", "editInvalidatesApproval", "indexVersion", "keepStatus", "revoke", "revokedAt", "revokedBy", "revokedState", "source", "sourceReference"]
 ) | frozenset(
     f"aiSpace.missions.{key}"
-    for key in """
-activeMissions approvalRequired calibrateNext calibration calibrationUnavailable
-catalogCountLabels catalogCounts configurationComplete configurationError
-configurationHealth configurationHealthAriaLabel configurationLoadError configure
-configureNext configured evidenceRequirements loadingConfiguration
-loadingConfigurationDetail missing missionHint missionNext missions
-missionsNotConfigured monitorNext nextAction noConfigurationData noData noMissionData
-notConfigured openSetup overviewLabel overviewSubtitle partialConfiguration
-refreshingConfiguration refreshingConfigurationDetail retryConfiguration revision
-taskCount unknownStatus zoneSummary zones zonesNotConfigured
-""".split()
+    for key in ["activeMissions", "approvalRequired", "calibrateNext", "calibration", "calibrationUnavailable", "catalogCountLabels", "catalogCounts", "configurationComplete", "configurationError", "configurationHealth", "configurationHealthAriaLabel", "configurationLoadError", "configure", "configureNext", "configured", "evidenceRequirements", "loadingConfiguration", "loadingConfigurationDetail", "missing", "missionHint", "missionNext", "missions", "missionsNotConfigured", "monitorNext", "nextAction", "noConfigurationData", "noData", "noMissionData", "notConfigured", "openSetup", "overviewLabel", "overviewSubtitle", "partialConfiguration", "refreshingConfiguration", "refreshingConfigurationDetail", "retryConfiguration", "revision", "taskCount", "unknownStatus", "zoneSummary", "zones", "zonesNotConfigured"]
 ) | {"aiSpace.workspace.missionSpaceChanged"}
 
 MY_TEMPLATES_KEYS = {"myTemplates.join.close"} | frozenset(
     f"myTemplates.warroomImport.{key}"
-    for key in """
-action approveBundle assetCount baseUrl checking close credentialsPolicy description
-dryRun folderPlan importRecipes imported importing metrics.folders metrics.recipeAssets
-metrics.scenarios pendingBundle projectSlug scan scanning scenarios signedInbox title
-unknownProducer
-""".split()
+    for key in ["action", "approveBundle", "assetCount", "baseUrl", "checking", "close", "credentialsPolicy", "description", "dryRun", "folderPlan", "importRecipes", "imported", "importing", "metrics.folders", "metrics.recipeAssets", "metrics.scenarios", "pendingBundle", "projectSlug", "scan", "scanning", "scenarios", "signedInbox", "title", "unknownProducer"]
 )
 
 TEMPLATE_BUILDER_KEYS = frozenset(
     f"templateBuilder.missionSetup.{key}"
-    for key in """
-addObjective addZone cancel description discard discardAriaLabel discardMessage
-discardTitle duplicateObjective duplicateZone entryApproval evidenceRequirements
-invalidCapability invalidEndpoint invalidEvidence invalidObjective invalidStationKind
-invalidZone keepEditing markerId moveDown moveUp noObjectives noZones notes objectiveId
-objectiveNumber objectiveTitle objectiveVocabularyUnavailable objectives objectivesHint
-promptTemplate removeObjective removeZone requiredCapabilities resourceEndpoint save
-saveError saving stationKind summary title unbound unsaved zoneId zoneLabel zoneNumber
-zoneVocabularyUnavailable zones zonesHint
-""".split()
+    for key in ["addObjective", "addZone", "cancel", "description", "discard", "discardAriaLabel", "discardMessage", "discardTitle", "duplicateObjective", "duplicateZone", "entryApproval", "evidenceRequirements", "invalidCapability", "invalidEndpoint", "invalidEvidence", "invalidObjective", "invalidStationKind", "invalidZone", "keepEditing", "markerId", "moveDown", "moveUp", "noObjectives", "noZones", "notes", "objectiveId", "objectiveNumber", "objectiveTitle", "objectiveVocabularyUnavailable", "objectives", "objectivesHint", "promptTemplate", "removeObjective", "removeZone", "requiredCapabilities", "resourceEndpoint", "save", "saveError", "saving", "stationKind", "summary", "title", "unbound", "unsaved", "zoneId", "zoneLabel", "zoneNumber", "zoneVocabularyUnavailable", "zones", "zonesHint"]
 )
 
 RUNTIME_KEYS = AI_SPACE_KEYS | MY_TEMPLATES_KEYS | TEMPLATE_BUILDER_KEYS
@@ -82,15 +53,10 @@ RUNTIME_VALUE_DIGESTS = {
 }
 SPACE_OPERATIONS_KEYS = frozenset(
     f"spaces.draw.{key}"
-    for key in """
-choose empty explain incomplete loading objective requires retry title zone
-""".split()
+    for key in ["choose", "empty", "explain", "incomplete", "loading", "objective", "requires", "retry", "title", "zone"]
 ) | frozenset(
     f"spaces.voice.{key}"
-    for key in """
-blocked goal listening micDenied micFailed noSpeech placeholder placeholderTyped send
-startListening stopListening
-""".split()
+    for key in ["blocked", "goal", "listening", "micDenied", "micFailed", "noSpeech", "placeholder", "placeholderTyped", "send", "startListening", "stopListening"]
 )
 # Each Space's control room is its Mission Station. "War Room" is reserved for
 # the planned layer above all Spaces and does not appear in the UI yet.
@@ -757,7 +723,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # executedBy,duration,viewEvidence,viewDecisions,outcomeUnknown}`,
     # `spaces.lifecycle.label`, `spaces.hud.moreInfo` and
     # `spaces.narrative.continuation.awaitingReplyNeedsYou`.
-    assert english_total == 13_945
+    # +5: UI Editor saved/saving/unsaved and local Ollama/OpenAI-compatible
+    # labels now have source owners in all three official Cloud locales.
+    assert english_total == 13_950
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

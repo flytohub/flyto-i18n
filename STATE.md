@@ -1,3 +1,10 @@
+# 2026-10-10 — latest-main lint and Cloud source convergence
+
+- Latest remote main baseline `56d580871` was used for the consolidation, rather than overwriting its newer commits with an older Cloud parity feature branch.
+- Ruff now has zero findings. `npm run verify`: 131 tests passed, one skipped, 4,915 strict locale files valid. Official Cloud dictionaries match all key/value pairs in en/zh-TW/zh-CN after adding five missing keys per locale.
+- Remaining acceptance outside this source change: real CDN and UI locale testing. See `handoffs/2026-10-10-main-lint-parity-and-branch-cleanup.md`.
+- The older i18n checkout has 52 unrelated uncommitted changes and remains untouched. No force-push, deployment or cleanup of unrelated worktrees.
+
 # 2026-10-04 — Project wizard catalog fallback
 
 - Added the canonical Code translation for the project-creation wizard's

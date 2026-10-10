@@ -6,7 +6,6 @@ import json
 import unittest
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = ROOT / "locales" / "cloud"
 LOCALES = tuple(sorted(path.name for path in SOURCE_ROOT.iterdir() if path.is_dir()))

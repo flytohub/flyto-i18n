@@ -8,8 +8,8 @@ English translations extracted from tOr fallbacks or generated from
 key names.
 """
 
-import re
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -61,7 +61,8 @@ def extract_keys_from_code():
 
             try:
                 content = f.read_text(encoding='utf-8')
-            except Exception:
+            except (OSError, UnicodeError) as exc:
+                print(f"Skipping unreadable source {f}: {exc}")
                 continue
 
             # tOr first (has fallback text)

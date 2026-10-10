@@ -19,15 +19,14 @@ import argparse
 import json
 import re
 import sys
-from pathlib import Path
 from collections import defaultdict
-from typing import Dict, Set, Tuple
+from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import runtime_key  # noqa: E402
+from i18n_contract import runtime_key
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -60,13 +59,13 @@ def find_source_files(cloud_path: Path) -> list:
     return sorted(files)
 
 
-def extract_keys_from_file(file_path: Path) -> Set[str]:
+def extract_keys_from_file(file_path: Path) -> set[str]:
     """Extract all translation keys from a single file."""
     keys = set()
 
     try:
         content = file_path.read_text(encoding='utf-8')
-    except Exception as e:
+    except (OSError, UnicodeError, ValueError, TypeError) as e:
         print(f"  Warning: Could not read {file_path}: {e}")
         return keys
 
@@ -82,7 +81,7 @@ def extract_keys_from_file(file_path: Path) -> Set[str]:
     return keys
 
 
-def extract_all_keys(cloud_path: Path) -> Dict[str, Set[str]]:
+def extract_all_keys(cloud_path: Path) -> dict[str, set[str]]:
     """Extract all translation keys grouped by category."""
     files = find_source_files(cloud_path)
     print(f"Scanning {len(files)} files...")
@@ -109,7 +108,7 @@ def extract_all_keys(cloud_path: Path) -> Dict[str, Set[str]]:
     return dict(categories)
 
 
-def load_existing_translations(locale: str, category: str) -> Dict[str, str]:
+def load_existing_translations(locale: str, category: str) -> dict[str, str]:
     """Load existing translations for a category."""
     file_path = CLOUD_DIR / locale / f"{category}.json"
 
@@ -120,12 +119,12 @@ def load_existing_translations(locale: str, category: str) -> Dict[str, str]:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             return data.get('translations', {})
-    except Exception as e:
+    except (OSError, UnicodeError, ValueError, TypeError) as e:
         print(f"  Warning: Could not load {file_path}: {e}")
         return {}
 
 
-def load_keys_owned_elsewhere(target_path: Path) -> Set[str]:
+def load_keys_owned_elsewhere(target_path: Path) -> set[str]:
     """Return runtime keys owned by another catalog in the English source layout.
 
     Keys are compared as the runtime resolves them (`runtime_key`): a file
@@ -155,14 +154,14 @@ def load_keys_owned_elsewhere(target_path: Path) -> Set[str]:
     return owned_keys
 
 
-def missing_catalog_keys(categories: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
+def missing_catalog_keys(categories: dict[str, set[str]]) -> dict[str, set[str]]:
     """Scanned keys no English catalog holds, by the category file they would create or extend.
 
     The same rule `generate_locale_file` applies, without writing: a key is
     present when its own category file or any other English catalog holds it
     as the runtime resolves it.
     """
-    missing: Dict[str, Set[str]] = {}
+    missing: dict[str, set[str]] = {}
     for category, keys in categories.items():
         existing = {runtime_key(key) for key in load_existing_translations("en", category)}
         owned = load_keys_owned_elsewhere(CLOUD_DIR / "en" / f"{category}.json")
@@ -190,11 +189,11 @@ def check_cloud_keys(cloud_path: str) -> int:
 
 def generate_locale_file(
     category: str,
-    keys: Set[str],
+    keys: set[str],
     locale: str,
     dry_run: bool = False,
     delete_stale: bool = False,
-) -> Tuple[int, int, int]:
+) -> tuple[int, int, int]:
     """Generate one category while preserving unscanned keys by default."""
     locale_dir = CLOUD_DIR / locale
     file_path = locale_dir / f"{category}.json"

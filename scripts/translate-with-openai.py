@@ -23,7 +23,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import TYPE_CHECKING, Dict, Tuple
+from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from openai import OpenAI
@@ -32,7 +32,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS  # noqa: E402
+from i18n_contract import PROJECT_DIRS
 
 PROJECT_ROOT = Path(__file__).parent.parent
 LOCALES_DIR = PROJECT_ROOT / 'locales'
@@ -325,10 +325,10 @@ def get_system_prompt(target_locale: str) -> str:
 
 def translate_batch(
     client: OpenAI,
-    texts: Dict[str, str],
+    texts: dict[str, str],
     target_locale: str,
     model: str = "gpt-4o"
-) -> Dict[str, str]:
+) -> dict[str, str]:
     """Translate a batch of texts using OpenAI."""
 
     system_prompt = get_system_prompt(target_locale)
@@ -355,7 +355,7 @@ def translate_batch(
         result_text = response.choices[0].message.content
         return json.loads(result_text)
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - SDK errors are an intentional batch boundary.
         print(f"  Error during translation: {e}")
         return {}
 
@@ -369,9 +369,7 @@ def _is_untranslated(existing: str, en_value: str) -> bool:
     if len(en_value) <= 3 or en_value.isupper():
         return False
     stripped = en_value.strip()
-    if all(c in '0123456789.-+/%$€£¥:' for c in stripped):
-        return False
-    return True
+    return not all(c in '0123456789.-+/%$€£¥:' for c in stripped)
 
 
 def translate_file(
@@ -383,7 +381,7 @@ def translate_file(
     dry_run: bool = False,
     model: str = "gpt-4o",
     untranslated: bool = False,
-) -> Tuple[int, int]:
+) -> tuple[int, int]:
     """Translate a single file. Returns (translated_count, skipped_count)."""
     with open(en_file, encoding='utf-8') as f:
         en_data = json.load(f)
@@ -402,9 +400,7 @@ def translate_file(
     to_translate = {}
     for key, en_value in en_translations.items():
         existing = target_translations.get(key, "")
-        if force or not existing:
-            to_translate[key] = en_value
-        elif untranslated and _is_untranslated(existing, en_value):
+        if force or not existing or untranslated and _is_untranslated(existing, en_value):
             to_translate[key] = en_value
 
     if not to_translate:
