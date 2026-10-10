@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-10 — Clear private Space data after access revocation
+
+- Added `spaces.ops.spaceAccessLost` to the canonical Cloud catalog in English, Traditional Chinese and Simplified Chinese. A Mission Station whose task or registry read loses authorization no longer keeps the previous user's mission, resource or evidence details visible.
+- Rebuilt the tracked locale distributions from source. This is source/contract verification, not a production deployment or App/HMI implementation.
+
 ## 2026-10-10 — i18n lint and official Cloud parity on the current main
 
 - Brought the latest-main Ruff baseline from 221 issues to zero while keeping Python 3.9 support and preserving established hyphenated CLI names.

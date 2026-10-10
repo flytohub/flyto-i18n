@@ -1,5 +1,7 @@
 # 2026-10-10 — latest-main lint and Cloud source convergence
 
+- Follow-up: canonical three-locale `spaces.ops.spaceAccessLost` now names the fail-closed operator state when Space access is denied; Cloud-side tests verify that late successful reads cannot repopulate the old user's private data. No Android App/HMI modifications.
+
 - Latest remote main baseline `56d580871` was used for the consolidation, rather than overwriting its newer commits with an older Cloud parity feature branch.
 - Ruff now has zero findings. `npm run verify`: 131 tests passed, one skipped, 4,915 strict locale files valid. Official Cloud dictionaries match all key/value pairs in en/zh-TW/zh-CN after adding five missing keys per locale.
 - Remaining acceptance outside this source change: real CDN and UI locale testing. See `handoffs/2026-10-10-main-lint-parity-and-branch-cleanup.md`.

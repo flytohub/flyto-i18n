@@ -685,6 +685,7 @@
     "spaces.ops.learningReused": "已复用现有工作流程。",
     "spaces.ops.learningPending": "可重复使用的工作流程正在等待保存。",
     "spaces.ops.taskStoreUnreadable": "无法读取这个 Space 的任务记录，所以这份列表可能不完整。这里没出现的任务并没有被删除。",
+    "spaces.ops.spaceAccessLost": "您已无法访问这个 Space，画面中的任务详细信息已清除。",
     "spaces.hud.gate.registry": "登记",
     "spaces.hud.gate.space_allowlist": "允许清单",
     "spaces.hud.gate.health": "健康状态",

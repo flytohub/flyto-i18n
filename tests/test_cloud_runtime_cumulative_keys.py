@@ -725,7 +725,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.narrative.continuation.awaitingReplyNeedsYou`.
     # +5: UI Editor saved/saving/unsaved and local Ollama/OpenAI-compatible
     # labels now have source owners in all three official Cloud locales.
-    assert english_total == 13_950
+    # +1: an explicit permission-revocation state clears previously shown
+    # private task/evidence data instead of leaving the old Space on screen.
+    assert english_total == 13_951
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

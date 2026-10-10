@@ -685,6 +685,7 @@
     "spaces.ops.learningReused": "Reused a saved workflow.",
     "spaces.ops.learningPending": "Reusable workflow is waiting to be saved.",
     "spaces.ops.taskStoreUnreadable": "This Space's task records could not be read, so this list may be incomplete. A task missing here has not been deleted.",
+    "spaces.ops.spaceAccessLost": "Access to this Space is no longer available. Its task details have been cleared.",
     "spaces.hud.gate.registry": "Registry",
     "spaces.hud.gate.space_allowlist": "Allowlist",
     "spaces.hud.gate.health": "Health",
