@@ -733,7 +733,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # across tabs. Its no-new-command safe-stop has official three-locale copy.
     # +5: independently linked execution source, read-fault and external ERP
     # ACK status copy now have canonical official Cloud locale ownership.
-    assert english_total == 13_958
+    # +1: `spaces.narrative.action.starting`, the Needs you Start button's
+    # word while its request is in flight (flyto-cloud #513).
+    assert english_total == 13_959
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

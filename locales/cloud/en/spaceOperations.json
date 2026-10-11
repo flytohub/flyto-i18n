@@ -267,6 +267,7 @@
     "spaces.narrative.action.configure": "Add under Resources",
     "spaces.narrative.action.reply": "Reply and continue",
     "spaces.narrative.action.start": "Start",
+    "spaces.narrative.action.starting": "Starting…",
     "spaces.narrative.continuation.awaitingReply": "Waiting for your reply below; execution is paused",
     "spaces.narrative.continuation.gaveUp": "Gave up",
     "spaces.narrative.continuation.waiting": "Waiting for you to add it under Resources",

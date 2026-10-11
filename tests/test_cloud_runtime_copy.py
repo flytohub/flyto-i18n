@@ -37,3 +37,21 @@ def test_cloud_runtime_copy_is_complete_for_bundled_locales() -> None:
         tool_categories = _translations(locale, "toolCategory")
         assert template_categories["templateCategory.connector"].strip()
         assert tool_categories["toolCategory.connector"].strip()
+
+
+def test_needs_you_start_has_an_in_flight_word() -> None:
+    """The Start button says it is starting while its request is in flight."""
+    expected = {"en": "Starting\u2026", "zh-TW": "\u555f\u52d5\u4e2d\u2026", "zh-CN": "\u542f\u52a8\u4e2d\u2026"}
+    for locale, word in expected.items():
+        narrative = _translations(locale, "spaceOperations")
+        assert narrative["spaces.narrative.action.starting"] == word
+
+
+def test_recording_upload_names_the_first_published_desktop() -> None:
+    """Recording upload needs Desktop 0.7.13: v0.7.12 was tagged and never published."""
+    for locale in ("en", "zh-TW", "zh-CN"):
+        hint = _translations(locale, "aiSpace")[
+            "aiSpace.resources.dispatchRules.uploadRecordingsRequires"
+        ]
+        assert "Desktop 0.7.13" in hint
+        assert "0.7.12" not in hint

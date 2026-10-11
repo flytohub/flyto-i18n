@@ -267,6 +267,7 @@
     "spaces.narrative.action.configure": "到资源补",
     "spaces.narrative.action.reply": "回复并继续",
     "spaces.narrative.action.start": "启动",
+    "spaces.narrative.action.starting": "启动中…",
     "spaces.narrative.continuation.awaitingReply": "等待你在下方回复；执行已暂停",
     "spaces.narrative.continuation.gaveUp": "已放弃",
     "spaces.narrative.continuation.waiting": "等你到资源补上",
