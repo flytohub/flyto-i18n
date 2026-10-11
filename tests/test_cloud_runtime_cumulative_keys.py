@@ -744,7 +744,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # `spaces.timeline.stage.hmi_approval` -- a goal sent, and a step decided
     # (allowed or denied), from a resource's own panel; the decision timeline
     # printed both raw ids until they had words.
-    assert english_total == 13_963
+    # +121: flyto-cloud's decision-process view (97 `decisionProcess.*` keys,
+    # including the node and evidence captions the backend emits) and the
+    # station's lifecycle stages, receipt proof table and ready/recent cards
+    # (24 `spaces.*` keys).
+    assert english_total == 14_084
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
@@ -767,7 +771,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
         # 264: `modulePacks.json` is the marketplace's own namespace.
         # 265: `messaging.json` is the messaging integration screen's own
         # namespace (flyto-cloud sweep 1007).
-        assert record["files_merged"] == 265
+        # 266: `decisionProcess.json` is the decision-process view's own
+        # namespace (how a task was decided, drawn from its record).
+        assert record["files_merged"] == 266
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_root = Path(temp_dir)
