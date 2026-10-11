@@ -639,7 +639,7 @@
     "aiSpace.resources.autoRun.level3Example": "提交表单、发送邮件或消息、更新记录",
     "aiSpace.resources.autoRun.level4Example": "移动或驱动实体设备、变更正式运行中的系统",
     "aiSpace.resources.autoRun.level5Example": "删除、付款或转账、批量操作",
-    "aiSpace.resources.dispatchRules.uploadRecordingsRequires": "执行任务的电脑需要 Flyto2 Desktop 0.7.12 或更高版本；更早的版本不会报告也不会上传录像。",
+    "aiSpace.resources.dispatchRules.uploadRecordingsRequires": "执行任务的电脑需要 Flyto2 Desktop 0.7.13 或更高版本；更早的版本不会报告也不会上传录像。",
     "aiSpace.resources.autoRun.highTitle": "让第 {level} 级不询问就执行？",
     "aiSpace.resources.autoRun.highMessage4": "会移动或驱动实体设备、或变更正式运行系统的步骤，将不需要任何人按“启动”就开始，事前没有人逐一确认。你设为“先询问”的工作流程仍会询问。",
     "aiSpace.resources.autoRun.highMessage5": "所有步骤，包括删除、付款或转账、无法撤销的批量操作，都将不需要任何人按“启动”就开始，事前没有人逐一确认。你设为“先询问”的工作流程仍会询问。",

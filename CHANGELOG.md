@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-11 — The Start button's in-flight word; recording upload names Desktop 0.7.13
+
+- Added `spaces.narrative.action.starting` in English, Traditional Chinese and
+  Simplified Chinese ("Starting…" / 「啟動中…」 / 「启动中…」). flyto-cloud #513 shows
+  it on the Needs you Start button while its request is in flight and used an
+  English fallback until now. Cumulative English key count 13,958 -> 13,959.
+- `aiSpace.resources.dispatchRules.uploadRecordingsRequires` now names
+  Desktop 0.7.13. v0.7.12 was tagged but never published, so no computer runs
+  it; 0.7.13 is the first published release that uploads recordings.
+
 ## 2026-10-11 — Localized safe-stop for unsafe cross-tab task admission
 
 - Added official English, Traditional Chinese and Simplified Chinese
