@@ -132,6 +132,7 @@
     "triggers.webhookUrl": "Webhook 網址",
     "triggers.webhooks": "Webhook",
     "triggers.workflow": "工作流程",
-    "triggers.toolDescriptionPlaceholder": "例如：執行專案冒煙測試"
+    "triggers.toolDescriptionPlaceholder": "例如：執行專案冒煙測試",
+    "triggers.cronCheckFailed": "無法檢查此 Cron 表達式，請再試一次。"
   }
 }

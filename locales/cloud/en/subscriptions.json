@@ -53,6 +53,8 @@
     "subscriptions.status.past_due": "Payment overdue",
     "subscriptions.status.unpaid": "Unpaid",
     "subscriptions.status.incomplete": "Payment incomplete",
-    "subscriptions.status.paused": "Paused"
+    "subscriptions.status.paused": "Paused",
+    "subscriptions.cancelFailed": "Your plan was not cancelled. Try again.",
+    "subscriptions.upgradeFailed": "The upgrade could not be started. Try again."
   }
 }

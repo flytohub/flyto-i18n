@@ -1282,7 +1282,10 @@
     "spaces.station.result.stopped": "已停止",
     "spaces.station.result.unproven": "执行结束・尚未证明",
     "spaces.station.result.verified": "已完成且验证",
-    "spaces.station.viewCapabilities": "查看能力"
+    "spaces.station.viewCapabilities": "查看能力",
+    "spaces.triggers.inbound.actionFailed": "触发器未变更，请再试一次。",
+    "spaces.triggers.inbound.createFailed": "触发器未创建，请再试一次。",
+    "spaces.triggers.inbound.loadFailed": "无法读取触发器，请再试一次。"
   },
   "total_keys": 1222
 }

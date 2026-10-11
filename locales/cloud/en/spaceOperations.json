@@ -1282,7 +1282,10 @@
     "spaces.station.result.stopped": "Stopped",
     "spaces.station.result.unproven": "Done, not proven",
     "spaces.station.result.verified": "Verified",
-    "spaces.station.viewCapabilities": "Capabilities"
+    "spaces.station.viewCapabilities": "Capabilities",
+    "spaces.triggers.inbound.actionFailed": "The trigger was not changed. Try again.",
+    "spaces.triggers.inbound.createFailed": "The trigger was not created. Try again.",
+    "spaces.triggers.inbound.loadFailed": "The triggers could not be read. Try again."
   },
   "total_keys": 1222
 }

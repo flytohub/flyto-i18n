@@ -132,6 +132,7 @@
     "triggers.webhookUrl": "Webhook URL",
     "triggers.webhooks": "Webhooks",
     "triggers.workflow": "Workflow",
-    "triggers.toolDescriptionPlaceholder": "For example: run the project smoke test"
+    "triggers.toolDescriptionPlaceholder": "For example: run the project smoke test",
+    "triggers.cronCheckFailed": "The cron expression could not be checked. Try again."
   }
 }

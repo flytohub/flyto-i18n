@@ -11,6 +11,10 @@
         "errors.unexpectedError": "发生未预期的错误",
         "errors.requestFailed": "服务器无法完成这个请求，请再试一次。",
         "errors.requestRefused": "服务器拒绝了这个请求。",
-        "errors.responseUnreadable": "服务器返回的数据格式无法在此页面读取。"
+        "errors.responseUnreadable": "服务器返回的数据格式无法在此页面读取。",
+        "errors.code.FORBIDDEN": "你的账号没有执行此操作的权限。",
+        "errors.code.RATE_LIMITED": "请求过于频繁，请稍候再试。",
+        "errors.code.SERVICE_UNAVAILABLE": "服务暂时无法使用，请稍后再试。",
+        "errors.code.UNAUTHORIZED": "登录已失效，请重新登录。"
     }
 }

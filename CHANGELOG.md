@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-12 — UI-05 failure words
+
+- Added ten keys flyto-cloud's operator failure words read, in en, zh-TW and
+  zh-CN: `errors.code.FORBIDDEN`, `RATE_LIMITED`, `SERVICE_UNAVAILABLE`,
+  `UNAUTHORIZED`; `spaces.triggers.inbound.actionFailed`, `createFailed`,
+  `loadFailed`; `subscriptions.cancelFailed`, `upgradeFailed`;
+  `triggers.cronCheckFailed`.
+- Locale distributions rebuilt; the cumulative Cloud key contract grows by
+  10 (14,105).
+
 ## 2026-10-11 — Decision-process words for a clearance fact and rule code
 
 - Added `decisionProcess.fact.clearance_m` ("Clearance") and
