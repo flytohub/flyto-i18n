@@ -19,7 +19,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import (
+from i18n_contract import (  # noqa: E402 - after the script-dir sys.path insert
     build_locale_meta,
     language_meta,
     locale_sort_key,
