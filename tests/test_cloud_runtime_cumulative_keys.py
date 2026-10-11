@@ -740,7 +740,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # clearance floor, and the Mission Station states that reason.
     # +1: the external system's own signed read-back acknowledged the record
     # (flyto-cloud docs/record-readback.md), shown with its record id.
-    assert english_total == 13_961
+    # +2: `spaces.timeline.stage.hmi_submission` and
+    # `spaces.timeline.stage.hmi_approval` -- a goal sent, and a step decided
+    # (allowed or denied), from a resource's own panel; the decision timeline
+    # printed both raw ids until they had words.
+    assert english_total == 13_963
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -650,6 +650,8 @@
     "spaces.timeline.stage.abandoned": "Given up",
     "spaces.timeline.stage.task_reported": "Machine reported back",
     "spaces.timeline.stage.mission_review_needs_operator": "Review needs you",
+    "spaces.timeline.stage.hmi_submission": "Goal sent from the resource's panel",
+    "spaces.timeline.stage.hmi_approval": "Step decided on the resource's panel",
     "spaces.timeline.stageUnknown": "{stage}",
     "spaces.timeline.title": "Decision timeline",
     "spaces.voice.attach": "Attach files",

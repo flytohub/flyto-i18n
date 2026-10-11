@@ -650,6 +650,8 @@
     "spaces.timeline.stage.abandoned": "已放棄",
     "spaces.timeline.stage.task_reported": "機器回報結果",
     "spaces.timeline.stage.mission_review_needs_operator": "審查需要你決定",
+    "spaces.timeline.stage.hmi_submission": "由資源面板送出目標",
+    "spaces.timeline.stage.hmi_approval": "在資源面板決定步驟",
     "spaces.timeline.stageUnknown": "{stage}",
     "spaces.timeline.title": "決策時間軸",
     "spaces.voice.attach": "上傳附件",
