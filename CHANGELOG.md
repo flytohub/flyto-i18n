@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-11 — Timeline words for a resource's own panel
+
+- Added `spaces.timeline.stage.hmi_submission` ("Goal sent from the resource's
+  panel") and `spaces.timeline.stage.hmi_approval` ("Step decided on the
+  resource's panel") in English, Traditional Chinese and Simplified Chinese.
+  flyto-cloud records these stages when a goal is submitted, or a step is
+  allowed or denied, from a resource-scoped panel; the decision timeline
+  showed the raw ids until now. `hmi_approval` covers both outcomes, hence
+  "decided". Locale distributions rebuilt from source.
+
 ## 2026-10-11 — Mission Receipt: the external system acknowledged the write
 
 - Added `spaces.receipt.erpAcknowledged` (en, zh-TW, zh-CN): shown when the

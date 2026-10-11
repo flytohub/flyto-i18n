@@ -650,6 +650,8 @@
     "spaces.timeline.stage.abandoned": "已放弃",
     "spaces.timeline.stage.task_reported": "机器回报结果",
     "spaces.timeline.stage.mission_review_needs_operator": "审查需要你决定",
+    "spaces.timeline.stage.hmi_submission": "由资源面板发出目标",
+    "spaces.timeline.stage.hmi_approval": "在资源面板决定步骤",
     "spaces.timeline.stageUnknown": "{stage}",
     "spaces.timeline.title": "决策时间轴",
     "spaces.voice.attach": "上传附件",
