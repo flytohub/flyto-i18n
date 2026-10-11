@@ -1248,9 +1248,9 @@
     "spaces.receipt.outcomeUnknown": "Outcome unknown",
     "spaces.receipt.erpAckMissing": "The workflow reported a write, but the external system has not independently confirmed it.",
     "spaces.receipt.sourcesCorrelated": "Evidence is linked to an execution job; device authenticity is not verified.",
-    "spaces.receipt.sourcesUnavailable": "Evidence source check unavailable — the result is not verified.",
+    "spaces.receipt.sourcesUnavailable": "The evidence source check is unavailable right now.",
     "spaces.receipt.sourcesChecking": "Checking the evidence sources…",
-    "spaces.receipt.sourcesUnproven": "Evidence is not fully linked to a completed job — the result is not verified.",
+    "spaces.receipt.sourcesUnproven": "Some evidence is not linked to the execution job that produced it.",
     "spaces.lifecycle.label": "Mission progress",
     "spaces.hud.moreInfo": "What is this?",
     "spaces.narrative.continuation.awaitingReplyNeedsYou": "Waiting for your reply under Needs you; execution is paused"

@@ -1248,9 +1248,9 @@
     "spaces.receipt.outcomeUnknown": "结果未知",
     "spaces.receipt.erpAckMissing": "流程回报已写入，但外部系统尚未独立确认成功。",
     "spaces.receipt.sourcesCorrelated": "证据已关联至执行任务，但尚未验证设备来源真实性。",
-    "spaces.receipt.sourcesUnavailable": "无法确认证据来源，因此结果尚未通过验证。",
+    "spaces.receipt.sourcesUnavailable": "目前无法检查证据来源。",
     "spaces.receipt.sourcesChecking": "正在确认证据来源…",
-    "spaces.receipt.sourcesUnproven": "证据尚未完整关联至已完成的任务，因此结果尚未通过验证。",
+    "spaces.receipt.sourcesUnproven": "部分证据尚未关联到产生它的执行任务。",
     "spaces.lifecycle.label": "任务进度",
     "spaces.hud.moreInfo": "这是什么？",
     "spaces.narrative.continuation.awaitingReplyNeedsYou": "等待你在上方「需要你」回复；执行已暂停"
