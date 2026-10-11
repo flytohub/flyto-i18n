@@ -33,7 +33,7 @@ REVIEWED_VALUES = {
         "spaces.ops.verificationContract": "驗收條件",
         "spaces.ops.verificationStateUnverified": "已完成但未驗證",
         "spaces.ops.verificationStatusUnverified": "已完成，但未驗證",
-        "spaces.ops.verificationStatusVerified": "驗收已通過",
+        "spaces.ops.verificationStatusVerified": "已驗證",  # the award deck's one word for a verified result
         "spaces.ops.verificationActionDefine": "請先說明任務必須證明什麼。",
         "spaces.ops.verificationActionOpen": "先定義結果，再送出任務。",
     },
@@ -44,7 +44,7 @@ REVIEWED_VALUES = {
         "spaces.ops.verificationContract": "验收条件",
         "spaces.ops.verificationStateUnverified": "已完成但未验证",
         "spaces.ops.verificationStatusUnverified": "已完成，但未验证",
-        "spaces.ops.verificationStatusVerified": "验收已通过",
+        "spaces.ops.verificationStatusVerified": "已验证",
         "spaces.ops.verificationActionDefine": "请先说明任务必须证明什么。",
         "spaces.ops.verificationActionOpen": "先定义结果，再发送任务。",
     },

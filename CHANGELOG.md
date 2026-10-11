@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-12 — Mission Station deck words
+
+- Added twenty-two keys flyto-cloud's Mission Station reads, in en, zh-TW and
+  zh-CN (`locales/cloud/*/spaceOperations.json`): seven settled lifecycle
+  stages named by outcome (`spaces.lifecycle.stage.*`), the level and
+  submitter of a held step (`spaces.needsYou.*`), the station's equipment
+  roster (`spaces.station.equipmentLabel`, `.environment.*`), the receipt's
+  photos, and nine labels for measured facts and step arguments
+  (`spaces.hud.evidenceFact.*`).
+- One word per concept in zh-TW and zh-CN: 已驗證 / 已验证 for a verified result,
+  任務收據 / 任务收据, 執行失敗 / 执行失败, 受阻 instead of 卡住. English unchanged.
+- Locale distributions rebuilt; the cumulative Cloud key contract grows by
+  22 (14,157).
+
 ## 2026-10-12 — Live channel words
 
 - Added thirty `spaces.live.*` keys flyto-cloud's Live channels read, in en,
