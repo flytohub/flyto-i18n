@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-12 | Live channel words: 30 `spaces.live.*` keys (kinds, phases, reasons, alt text, view states) for flyto-cloud's Live channels (Owner: claude, branch claude/live-copy) | `2026-10-12-live-channel-words.md` |
 | 2026-10-12 | UI-05 failure words: 10 keys (`errors.code.*`, inbound-trigger, subscription and cron-check failures) from flyto-cloud bundles (Owner: claude, branch claude/w3-copy) | `2026-10-12-ui05-failure-words.md` |
 | 2026-10-11 | Decision-process words for a clearance fact and the minimum-clearance rule code (Owner: claude, branch claude/decision-labels) | `2026-10-11-decision-labels.md` |
 | 2026-10-11 | Decision-process view namespace (97 keys) and 24 station `spaces.*` keys (Owner: claude, branch claude/decision-process-copy, Active) | `2026-10-11-decision-process-copy.md` |
