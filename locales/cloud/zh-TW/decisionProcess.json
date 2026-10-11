@@ -102,6 +102,8 @@
     "decisionProcess.zoom": "縮放",
     "decisionProcess.zoomFit": "符合畫面",
     "decisionProcess.zoomIn": "放大",
-    "decisionProcess.zoomOut": "縮小"
+    "decisionProcess.zoomOut": "縮小",
+    "decisionProcess.fact.capability.chosen": "採用的能力",
+    "decisionProcess.fact.capability.offered": "可用的能力"
   }
 }

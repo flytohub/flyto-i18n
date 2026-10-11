@@ -754,7 +754,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +2: the decision-process view's words for a measured clearance fact
     # (`decisionProcess.fact.clearance_m`) and the minimum-clearance rule code
     # (`decisionProcess.code.clearance_minimum`), which it showed as raw ids.
-    assert english_total == 14_093
+    # +2: the decision process's chosen / offered capability facts, which read
+    # as "Capability · chosen" until they had words.
+    assert english_total == 14_095
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

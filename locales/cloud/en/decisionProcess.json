@@ -102,6 +102,8 @@
     "decisionProcess.zoom": "Zoom",
     "decisionProcess.zoomFit": "Fit to view",
     "decisionProcess.zoomIn": "Zoom in",
-    "decisionProcess.zoomOut": "Zoom out"
+    "decisionProcess.zoomOut": "Zoom out",
+    "decisionProcess.fact.capability.chosen": "Capability used",
+    "decisionProcess.fact.capability.offered": "Capability available"
   }
 }
