@@ -1249,6 +1249,7 @@
     "spaces.receipt.viewDecisions": "View decision trail",
     "spaces.receipt.outcomeUnknown": "Outcome unknown",
     "spaces.receipt.erpAckMissing": "The workflow reported a write, but the external system has not independently confirmed it.",
+    "spaces.receipt.erpAcknowledged": "The external system read back record {record}: every field written matches what it stored.",
     "spaces.receipt.sourcesCorrelated": "Evidence is linked to an execution job; device authenticity is not verified.",
     "spaces.receipt.sourcesUnavailable": "The evidence source check is unavailable right now.",
     "spaces.receipt.sourcesChecking": "Checking the evidence sources…",

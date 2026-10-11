@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-11 | Mission Receipt copy for an external write the system acknowledged by its signed read-back (Owner: claude, branch claude/erp-acknowledged) | `2026-10-11-erp-acknowledged-copy.md` |
 | 2026-10-11 | Start button in-flight word `spaces.narrative.action.starting`; recording upload copy names Desktop 0.7.13; #206 merged (Owner: claude, branch claude/narrative-starting-0713, Merged) | `2026-10-11-starting-word-and-recording-release.md` |
 | 2026-10-10 | Latest main Ruff closure, Cloud runtime catalog parity and safe remote branch convergence | `2026-10-10-main-lint-parity-and-branch-cleanup.md` |
 | 2026-10-04 | Words for a recovery stopped by the computer's AI (Owner: claude, branch claude/recovery-failure-copy) | `2026-10-04-recovery-failure-copy.md` |

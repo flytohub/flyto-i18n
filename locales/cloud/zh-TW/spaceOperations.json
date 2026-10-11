@@ -1249,6 +1249,7 @@
     "spaces.receipt.viewDecisions": "查看決策過程",
     "spaces.receipt.outcomeUnknown": "結果未知",
     "spaces.receipt.erpAckMissing": "流程回報已寫入，但外部系統尚未獨立確認成功。",
+    "spaces.receipt.erpAcknowledged": "外部系統已依編號讀回紀錄 {record}，寫入的每個欄位都與系統儲存的一致。",
     "spaces.receipt.sourcesCorrelated": "證據已關聯至執行工作，但尚未驗證設備來源真實性。",
     "spaces.receipt.sourcesUnavailable": "目前無法檢查證據來源。",
     "spaces.receipt.sourcesChecking": "正在確認證據來源…",
