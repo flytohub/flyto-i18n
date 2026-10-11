@@ -729,7 +729,11 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # private task/evidence data instead of leaving the old Space on screen.
     # +1: an uncertain create response must direct operators to check their
     # task history, not invite a blind retry that could duplicate effects.
-    assert english_total == 13_952
+    # +1: a Web-Locks-disabled browser cannot atomically reserve a task intent
+    # across tabs. Its no-new-command safe-stop has official three-locale copy.
+    # +5: independently linked execution source, read-fault and external ERP
+    # ACK status copy now have canonical official Cloud locale ownership.
+    assert english_total == 13_958
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

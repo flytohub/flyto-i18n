@@ -13,7 +13,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from i18n_contract import PROJECT_DIRS
+from i18n_contract import PROJECT_DIRS  # noqa: E402 - after the script-dir sys.path insert
 
 ROOT = SCRIPT_DIR.parent
 LOCALES_DIR = ROOT / "locales"
