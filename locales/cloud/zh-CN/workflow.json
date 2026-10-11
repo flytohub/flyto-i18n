@@ -92,7 +92,7 @@
         "workflow.executionDetail.input": "输入",
         "workflow.executionDetail.output": "输出",
         "workflow.executionDetail.empty": "（空）",
-        "workflow.addNodeMenu.filters.ai": "AI / LLM",
+        "workflow.addNodeMenu.filters.ai": "AI / 大语言模型",
         "workflow.addNodeMenu.filters.model": "模型",
         "workflow.addNodeMenu.filters.memory": "记忆",
         "workflow.addNodeMenu.filters.tools": "工具"
