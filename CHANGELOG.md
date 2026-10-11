@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-11 — Decision-process view and station copy
+
+- Added a `decisionProcess.json` namespace (97 keys, en / zh-TW / zh-CN) for
+  flyto-cloud's decision-process view: tab, legend, kind, status, source,
+  fact and omitted-part words, plus the node and evidence captions the
+  backend emits (`decisionProcess.node.*`, `decisionProcess.evidence.*`).
+- Added 24 `spaces.*` keys to `spaceOperations.json`: the five recorded
+  lifecycle stages, the receipt's proof table and three actions, and the
+  station's ready / recent-result cards.
+- Locale distributions rebuilt; the cumulative Cloud key contract grows by
+  121 (14,084) and the merged namespace count by one (266).
+
 ## 2026-10-11 — Timeline words for a resource's own panel
 
 - Added `spaces.timeline.stage.hmi_submission` ("Goal sent from the resource's
