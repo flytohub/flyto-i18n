@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "decisionProcess.canvas": "決策樹",
+    "decisionProcess.code.clearance_minimum": "最小淨空規則",
     "decisionProcess.detail": "節點詳情",
     "decisionProcess.empty": "這個任務沒有記錄任何決策",
     "decisionProcess.evidence.image": "影像",
@@ -14,6 +15,7 @@
     "decisionProcess.fact.admission": "准入結果",
     "decisionProcess.fact.arrival": "抵達誤差",
     "decisionProcess.fact.attempt": "嘗試次數",
+    "decisionProcess.fact.clearance_m": "淨空距離",
     "decisionProcess.fact.command": "指令",
     "decisionProcess.fact.displacement": "移動距離",
     "decisionProcess.fact.eligible": "符合資格",

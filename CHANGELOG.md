@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-11 — Decision-process words for a clearance fact and rule code
+
+- Added `decisionProcess.fact.clearance_m` ("Clearance") and
+  `decisionProcess.code.clearance_minimum` ("Minimum clearance rule") in en,
+  zh-TW and zh-CN. flyto-cloud's decision-process view printed both as raw
+  ids; it now reads unlabelled codes through `decisionProcess.code.*`.
+- Locale distributions rebuilt; the cumulative Cloud key contract grows by
+  2 (14,093).
+
 ## 2026-10-11 — Decision-process view and station copy
 
 - Added a `decisionProcess.json` namespace (97 keys, en / zh-TW / zh-CN) for

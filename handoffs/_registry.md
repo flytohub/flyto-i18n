@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-11 | Decision-process words for a clearance fact and the minimum-clearance rule code (Owner: claude, branch claude/decision-labels) | `2026-10-11-decision-labels.md` |
 | 2026-10-11 | Decision-process view namespace (97 keys) and 24 station `spaces.*` keys (Owner: claude, branch claude/decision-process-copy, Active) | `2026-10-11-decision-process-copy.md` |
 | 2026-10-11 | Timeline words for a goal sent or a step decided on a resource's panel (`hmi_submission`, `hmi_approval`); rebased on #209 (Owner: claude, branch claude/hmi-timeline-stages, Active, local) | `2026-10-11-hmi-timeline-stage-copy.md` |
 | 2026-10-11 | Mission Receipt copy for an external write the system acknowledged by its signed read-back (Owner: claude, branch claude/erp-acknowledged) | `2026-10-11-erp-acknowledged-copy.md` |
