@@ -11,6 +11,10 @@
     "errors.unexpectedError": "An unexpected error occurred",
     "errors.requestFailed": "The server could not complete this request. Please try again.",
     "errors.requestRefused": "The server declined this request.",
-    "errors.responseUnreadable": "The server answered in a shape this page cannot read."
+    "errors.responseUnreadable": "The server answered in a shape this page cannot read.",
+    "errors.code.FORBIDDEN": "Your account does not have permission to do this.",
+    "errors.code.RATE_LIMITED": "Too many requests. Wait a moment, then try again.",
+    "errors.code.SERVICE_UNAVAILABLE": "The service is temporarily unavailable. Try again shortly.",
+    "errors.code.UNAUTHORIZED": "Your session has ended. Sign in again."
   }
 }

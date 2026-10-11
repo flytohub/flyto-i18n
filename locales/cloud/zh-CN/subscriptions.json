@@ -53,6 +53,8 @@
     "subscriptions.status.past_due": "付款逾期",
     "subscriptions.status.unpaid": "未付款",
     "subscriptions.status.incomplete": "付款未完成",
-    "subscriptions.status.paused": "已暂停"
+    "subscriptions.status.paused": "已暂停",
+    "subscriptions.cancelFailed": "方案未取消，请再试一次。",
+    "subscriptions.upgradeFailed": "无法开始升级，请再试一次。"
   }
 }

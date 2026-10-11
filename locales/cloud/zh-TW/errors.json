@@ -11,6 +11,10 @@
     "errors.unexpectedError": "發生未預期的錯誤",
     "errors.requestFailed": "伺服器無法完成這個請求，請再試一次。",
     "errors.requestRefused": "伺服器拒絕了這個請求。",
-    "errors.responseUnreadable": "伺服器回傳的資料格式無法在此頁面讀取。"
+    "errors.responseUnreadable": "伺服器回傳的資料格式無法在此頁面讀取。",
+    "errors.code.FORBIDDEN": "你的帳號沒有執行此操作的權限。",
+    "errors.code.RATE_LIMITED": "請求過於頻繁，請稍候再試。",
+    "errors.code.SERVICE_UNAVAILABLE": "服務暫時無法使用，請稍後再試。",
+    "errors.code.UNAUTHORIZED": "登入已失效，請重新登入。"
   }
 }

@@ -756,7 +756,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # (`decisionProcess.code.clearance_minimum`), which it showed as raw ids.
     # +2: the decision process's chosen / offered capability facts, which read
     # as "Capability · chosen" until they had words.
-    assert english_total == 14_095
+    # +10: UI-05's operator words for failures -- four `errors.code.*` sentences
+    # for HTTP refusal codes, three inbound-trigger failures, two subscription
+    # failures and the cron check -- which flyto-cloud's bundles carried first.
+    assert english_total == 14_105
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
