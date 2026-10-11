@@ -751,7 +751,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +7: the add-node menu's filter names and the workflow canvas's AI
     # sub-node labels, which flyto-cloud rendered as hard-coded English until
     # their lookup tables named catalog keys.
-    assert english_total == 14_091
+    # +2: the decision-process view's words for a measured clearance fact
+    # (`decisionProcess.fact.clearance_m`) and the minimum-clearance rule code
+    # (`decisionProcess.code.clearance_minimum`), which it showed as raw ids.
+    assert english_total == 14_093
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

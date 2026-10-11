@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "decisionProcess.canvas": "Decision tree",
+    "decisionProcess.code.clearance_minimum": "Minimum clearance rule",
     "decisionProcess.detail": "Node detail",
     "decisionProcess.empty": "No decisions were recorded for this task",
     "decisionProcess.evidence.image": "Image",
@@ -14,6 +15,7 @@
     "decisionProcess.fact.admission": "Admission",
     "decisionProcess.fact.arrival": "Arrival offset",
     "decisionProcess.fact.attempt": "Attempt",
+    "decisionProcess.fact.clearance_m": "Clearance",
     "decisionProcess.fact.command": "Command",
     "decisionProcess.fact.displacement": "Distance moved",
     "decisionProcess.fact.eligible": "Eligible",
