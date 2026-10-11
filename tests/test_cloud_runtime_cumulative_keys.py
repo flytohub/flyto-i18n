@@ -748,7 +748,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # including the node and evidence captions the backend emits) and the
     # station's lifecycle stages, receipt proof table and ready/recent cards
     # (24 `spaces.*` keys).
-    assert english_total == 14_084
+    # +7: the add-node menu's filter names and the workflow canvas's AI
+    # sub-node labels, which flyto-cloud rendered as hard-coded English until
+    # their lookup tables named catalog keys.
+    assert english_total == 14_091
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

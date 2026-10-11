@@ -42,6 +42,9 @@
         "workflowCanvas.node.memory": "记忆",
         "workflowCanvas.node.model": "模型",
         "workflowCanvas.node.saveAsTemplate": "另存为模板",
-        "workflowCanvas.node.tools": "工具"
+        "workflowCanvas.node.tools": "工具",
+        "workflowCanvas.subNode.model": "模型",
+        "workflowCanvas.subNode.memory": "记忆",
+        "workflowCanvas.subNode.tool": "工具"
     }
 }
