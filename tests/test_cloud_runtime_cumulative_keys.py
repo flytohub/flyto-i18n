@@ -738,7 +738,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +1: `spaces.narrative.adapterReason.destinationBlocked` -- flyto-robotics
     # 0.6.7 refuses a navigation leg whose destination has returns inside the
     # clearance floor, and the Mission Station states that reason.
-    assert english_total == 13_960
+    # +1: the external system's own signed read-back acknowledged the record
+    # (flyto-cloud docs/record-readback.md), shown with its record id.
+    assert english_total == 13_961
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

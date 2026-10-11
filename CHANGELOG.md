@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-11 — Mission Receipt: the external system acknowledged the write
+
+- Added `spaces.receipt.erpAcknowledged` (en, zh-TW, zh-CN): shown when the
+  system of record's own signed read-back (flyto-cloud
+  `docs/record-readback.md`) holds every field the AI wrote, with the record
+  id in `{record}`. Rebuilt the tracked CDN dist and manifest; the cumulative
+  Cloud key contract grows by one (13,961).
+
 ## 2026-10-11 — Words for a leg refused at a blocked destination
 
 - Added `spaces.narrative.adapterReason.destinationBlocked` in English,
