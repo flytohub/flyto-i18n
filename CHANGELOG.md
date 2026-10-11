@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-12 — Live channel words
+
+- Added thirty `spaces.live.*` keys flyto-cloud's Live channels read, in en,
+  zh-TW and zh-CN (`locales/cloud/*/spaceOperations.json`): the four channel
+  kinds, five phases, ten reasons a channel is not drawn, the scan and
+  position alt text, waiting, retry, and the view's title, loading and empty
+  states.
+- Locale distributions rebuilt; the cumulative Cloud key contract grows by
+  30 (14,135).
+
 ## 2026-10-12 — UI-05 failure words
 
 - Added ten keys flyto-cloud's operator failure words read, in en, zh-TW and

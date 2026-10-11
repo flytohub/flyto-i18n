@@ -759,7 +759,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +10: UI-05's operator words for failures -- four `errors.code.*` sentences
     # for HTTP refusal codes, three inbound-trigger failures, two subscription
     # failures and the cron check -- which flyto-cloud's bundles carried first.
-    assert english_total == 14_105
+    # +30: Live channels on the station and resource detail
+    # (`spaces.live.kind.*`, `.phase.*`, `.reason.*`, the scan and position
+    # alt text, waiting, retry and the view's title and empty states).
+    assert english_total == 14_135
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
