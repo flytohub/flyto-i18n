@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-11 — Words for a leg refused at a blocked destination
+
+- Added `spaces.narrative.adapterReason.destinationBlocked` in English,
+  Traditional Chinese and Simplified Chinese for flyto-robotics 0.6.7's
+  `destination_blocked` reason (a navigation leg refused because its
+  destination has returns inside the clearance floor). flyto-cloud's Mission
+  Station states it as the stop reason. Locale distributions rebuilt from
+  source.
+
 ## 2026-10-11 — The Start button's in-flight word; recording upload names Desktop 0.7.13
 
 - Added `spaces.narrative.action.starting` in English, Traditional Chinese and

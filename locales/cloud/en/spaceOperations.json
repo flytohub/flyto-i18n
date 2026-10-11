@@ -1077,6 +1077,7 @@
     "spaces.narrative.adapterReason.abortedByServer": "Its controller gave up without saying why",
     "spaces.narrative.adapterReason.cancelled": "It was stopped before it finished",
     "spaces.narrative.adapterReason.noEscapeRoom": "It did not move: there was no clear room to move away",
+    "spaces.narrative.adapterReason.destinationBlocked": "Something is too close to where it was going, so it did not go there",
     "spaces.narrative.adapterReason.safeStopUnconfirmed": "It could not be confirmed stopped",
     "spaces.narrative.adapterReason.stoppedSafely": "It stopped safely",
     "spaces.narrative.adapterReason.stopUnconfirmed": "Its stop was not confirmed — check the equipment before trying again",

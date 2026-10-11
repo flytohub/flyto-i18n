@@ -1077,6 +1077,7 @@
     "spaces.narrative.adapterReason.abortedByServer": "它的控制器放弃了，没有说明原因",
     "spaces.narrative.adapterReason.cancelled": "还没完成就被停止了",
     "spaces.narrative.adapterReason.noEscapeRoom": "它没有移动：周围没有足够的净空可以移开",
+    "spaces.narrative.adapterReason.destinationBlocked": "有东西离它要去的位置太近，所以没有前往",
     "spaces.narrative.adapterReason.safeStopUnconfirmed": "无法确认它已停止",
     "spaces.narrative.adapterReason.stoppedSafely": "它已安全停下",
     "spaces.narrative.adapterReason.stopUnconfirmed": "无法确认它已停下 — 再试之前请先检查设备",

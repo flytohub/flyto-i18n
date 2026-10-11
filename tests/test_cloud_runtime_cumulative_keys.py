@@ -735,7 +735,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # ACK status copy now have canonical official Cloud locale ownership.
     # +1: `spaces.narrative.action.starting`, the Needs you Start button's
     # word while its request is in flight (flyto-cloud #513).
-    assert english_total == 13_959
+    # +1: `spaces.narrative.adapterReason.destinationBlocked` -- flyto-robotics
+    # 0.6.7 refuses a navigation leg whose destination has returns inside the
+    # clearance floor, and the Mission Station states that reason.
+    assert english_total == 13_960
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
