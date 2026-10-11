@@ -762,7 +762,13 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +30: Live channels on the station and resource detail
     # (`spaces.live.kind.*`, `.phase.*`, `.reason.*`, the scan and position
     # alt text, waiting, retry and the view's title and empty states).
-    assert english_total == 14_135
+    # +22: Mission Station words for the award deck -- a settled lifecycle
+    # stage named by its outcome (`spaces.lifecycle.stage.*`), what a held
+    # step asks a person to approve (`spaces.needsYou.level`, `.submittedBy`),
+    # the station's equipment roster (`spaces.station.equipmentLabel`,
+    # `.environment.*`), the receipt's photos, and the labels for measured
+    # facts and step arguments (`spaces.hud.evidenceFact.*`).
+    assert english_total == 14_157
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
