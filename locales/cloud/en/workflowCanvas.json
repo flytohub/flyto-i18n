@@ -42,6 +42,9 @@
     "workflowCanvas.node.memory": "Memory",
     "workflowCanvas.node.model": "Model",
     "workflowCanvas.node.saveAsTemplate": "Save as template",
-    "workflowCanvas.node.tools": "Tools"
+    "workflowCanvas.node.tools": "Tools",
+    "workflowCanvas.subNode.model": "Model",
+    "workflowCanvas.subNode.memory": "Memory",
+    "workflowCanvas.subNode.tool": "Tool"
   }
 }

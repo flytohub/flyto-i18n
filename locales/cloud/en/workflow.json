@@ -91,6 +91,10 @@
     "workflow.executionDetail.imageUnavailable": "Image data not available",
     "workflow.executionDetail.input": "Input",
     "workflow.executionDetail.output": "Output",
-    "workflow.executionDetail.empty": "(empty)"
+    "workflow.executionDetail.empty": "(empty)",
+    "workflow.addNodeMenu.filters.ai": "AI / LLM",
+    "workflow.addNodeMenu.filters.model": "Model",
+    "workflow.addNodeMenu.filters.memory": "Memory",
+    "workflow.addNodeMenu.filters.tools": "Tools"
   }
 }

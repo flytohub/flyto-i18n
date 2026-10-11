@@ -91,6 +91,10 @@
     "workflow.executionDetail.imageUnavailable": "無法取得圖片資料",
     "workflow.executionDetail.input": "輸入",
     "workflow.executionDetail.output": "輸出",
-    "workflow.executionDetail.empty": "（空白）"
+    "workflow.executionDetail.empty": "（空白）",
+    "workflow.addNodeMenu.filters.ai": "AI / LLM",
+    "workflow.addNodeMenu.filters.model": "模型",
+    "workflow.addNodeMenu.filters.memory": "記憶",
+    "workflow.addNodeMenu.filters.tools": "工具"
   }
 }
