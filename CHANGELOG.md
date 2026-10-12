@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-12 — Space statistics words
+
+- Added sixty-nine keys flyto-cloud's Space statistics view reads, in en,
+  zh-TW and zh-CN (`locales/cloud/*/spaceOperations.json`, `spaces.stats.*`):
+  title, time-range and goal filters, chart titles, list paging and the
+  counting-window notices, three refusal-rule names, and a label and a
+  definition for each of the sixteen metrics (`spaces.stats.metric.<id>.*`).
+  The English metric text is generated from flyto-cloud's backend metric table.
+
 ## 2026-10-12 — Mission Station deck words
 
 - Added twenty-two keys flyto-cloud's Mission Station reads, in en, zh-TW and
