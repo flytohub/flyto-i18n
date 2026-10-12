@@ -773,7 +773,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # label and definition for each of the sixteen counted metrics.
     # +1: the decision tree's omitted-section label for the routes the AI
     # rejected (`decisionProcess.omitted.rejected_routes`).
-    assert english_total == 14_227
+    # +7: a step refused because its equipment's computer reports it absent
+    # (`equipment_offline`): the refusal chip, the narrative sentence naming
+    # the equipment, its fallback name, and four reasons the computer gives.
+    assert english_total == 14_234
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

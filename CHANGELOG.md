@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-10-12 — Equipment its computer reports absent
+
+- Added seven keys flyto-cloud reads when a step is refused because the
+  computer that drives its equipment reports it absent, in en, zh-TW and
+  zh-CN (`locales/cloud/*/spaceOperations.json`):
+  `spaces.hud.refusal.equipment_offline` (the refusal chip),
+  `spaces.narrative.routing.equipment_offline` (the sentence naming the
+  equipment and the reason), `spaces.narrative.routing.equipmentUnnamed`, and
+  `spaces.narrative.routing.presenceReason.*` for not served, connection down,
+  computer offline and any other report. The cumulative ledger is 14,234.
+
+## 2026-10-12 — Receipt source line says what was checked
+
+- Reworded `spaces.receipt.sourcesCorrelated` in en, zh-TW and zh-CN
+  (`locales/cloud/*/spaceOperations.json`). Under a verified receipt it read
+  「證據已關聯至執行工作，但尚未驗證設備來源真實性」, which was ungrammatical and
+  read as doubting the verdict. It now states the two facts flyto-cloud's
+  `evidence_provenance` check establishes: each piece of evidence traces to
+  the job and step that produced it, and the equipment's own identity was not
+  independently attested. No key added or removed.
+
 ## 2026-10-12 — Rejected routes label
 
 - Added `decisionProcess.omitted.rejected_routes` in en, zh-TW and zh-CN
