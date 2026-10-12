@@ -776,7 +776,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +7: a step refused because its equipment's computer reports it absent
     # (`equipment_offline`): the refusal chip, the narrative sentence naming
     # the equipment, its fallback name, and four reasons the computer gives.
-    assert english_total == 14_234
+    # +3: the Mission Station's 10/12 fixes -- the information dialog counts
+    # computers by that name, a detected manifest says when its computer last
+    # reported it, and a zero streak says it opens the goal's tasks.
+    assert english_total == 14_237
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
