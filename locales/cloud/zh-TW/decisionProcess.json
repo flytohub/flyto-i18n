@@ -71,6 +71,7 @@
     "decisionProcess.omitted.observations": "觀測",
     "decisionProcess.omitted.planner_considerations": "規劃考量",
     "decisionProcess.omitted.poses": "位置與路徑",
+    "decisionProcess.omitted.rejected_routes": "未採用的路線",
     "decisionProcess.omitted.steps": "執行步驟",
     "decisionProcess.omitted.timeline": "時間軸",
     "decisionProcess.omitted.verification": "驗證",

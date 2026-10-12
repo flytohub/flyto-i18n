@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-12 — Rejected routes label
+
+- Added `decisionProcess.omitted.rejected_routes` in en, zh-TW and zh-CN
+  (`locales/cloud/*/decisionProcess.json`): the decision tree's label for the
+  routes the AI rejected, which flyto-cloud now records and draws as rejected
+  alternatives.
+
 ## 2026-10-12 — Space statistics words
 
 - Added sixty-nine keys flyto-cloud's Space statistics view reads, in en,

@@ -71,6 +71,7 @@
     "decisionProcess.omitted.observations": "Observations",
     "decisionProcess.omitted.planner_considerations": "Planner considerations",
     "decisionProcess.omitted.poses": "Positions and paths",
+    "decisionProcess.omitted.rejected_routes": "Rejected routes",
     "decisionProcess.omitted.steps": "Steps",
     "decisionProcess.omitted.timeline": "Timeline",
     "decisionProcess.omitted.verification": "Verification",

@@ -771,7 +771,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +69: the Space statistics view (`spaces.stats.*`) -- its title, filters,
     # chart titles, list and window notices, three refusal-rule names, and a
     # label and definition for each of the sixteen counted metrics.
-    assert english_total == 14_226
+    # +1: the decision tree's omitted-section label for the routes the AI
+    # rejected (`decisionProcess.omitted.rejected_routes`).
+    assert english_total == 14_227
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -2,6 +2,7 @@
 
 | Date | Topic | File |
 | --- | --- | --- |
+| 2026-10-12 | Rejected routes label: `decisionProcess.omitted.rejected_routes` in en/zh-TW/zh-CN, ledger 14,227 (Owner: claude, branch claude/one-merge-copy) | `2026-10-12-rejected-routes-word.md` |
 | 2026-10-12 | Space statistics words: 69 `spaces.stats.*` keys (filters, charts, refusal rules, a label and definition per metric) for flyto-cloud's statistics view (Owner: claude, branch claude/stats-copy) | `2026-10-12-space-stats-words.md` |
 | 2026-10-12 | Mission Station deck words: 22 new keys (lifecycle outcomes, needs-you level/submitter, equipment roster, receipt photos, evidence-fact labels) and 12 zh wording changes (Owner: claude, branch claude/polish-copy) | `2026-10-12-mission-station-deck-words.md` |
 | 2026-10-12 | Live channel words: 30 `spaces.live.*` keys (kinds, phases, reasons, alt text, view states) for flyto-cloud's Live channels (Owner: claude, branch claude/live-copy) | `2026-10-12-live-channel-words.md` |
