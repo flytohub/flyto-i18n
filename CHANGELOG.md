@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-12 — Equipment its computer reports absent
+
+- Added seven keys flyto-cloud reads when a step is refused because the
+  computer that drives its equipment reports it absent, in en, zh-TW and
+  zh-CN (`locales/cloud/*/spaceOperations.json`):
+  `spaces.hud.refusal.equipment_offline` (the refusal chip),
+  `spaces.narrative.routing.equipment_offline` (the sentence naming the
+  equipment and the reason), `spaces.narrative.routing.equipmentUnnamed`, and
+  `spaces.narrative.routing.presenceReason.*` for not served, connection down,
+  computer offline and any other report. The cumulative ledger is 14,234.
+
 ## 2026-10-12 — Receipt source line says what was checked
 
 - Reworded `spaces.receipt.sourcesCorrelated` in en, zh-TW and zh-CN
