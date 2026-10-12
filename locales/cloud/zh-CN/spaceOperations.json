@@ -1422,7 +1422,10 @@
     "spaces.stats.metric.streak_current.label": "连续验证",
     "spaces.stats.metric.streak_current.definition": "以该目标最新一个已结束任务为终点的连续已验证任务数。目标内每个已结束任务依建立顺序计算，除已验证以外的任何结果（未证实、执行失败、已取消或已拒绝）都会中断连续；进行中的任务不延长也不中断。",
     "spaces.stats.metric.streak_longest.label": "最长连续验证",
-    "spaces.stats.metric.streak_longest.definition": "此期间内最长的连续已验证任务数。目标内每个已结束任务依建立顺序计算，除已验证以外的任何结果（未证实、执行失败、已取消或已拒绝）都会中断连续；进行中的任务不延长也不中断。"
+    "spaces.stats.metric.streak_longest.definition": "此期间内最长的连续已验证任务数。目标内每个已结束任务依建立顺序计算，除已验证以外的任何结果（未证实、执行失败、已取消或已拒绝）都会中断连续；进行中的任务不延长也不中断。",
+    "spaces.schedule.closeAs.blocked": "以受阻结案",
+    "spaces.schedule.closeAs.failed": "以失败结案",
+    "spaces.schedule.closing": "正在结案…"
   },
   "total_keys": 1222
 }

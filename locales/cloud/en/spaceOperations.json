@@ -1422,7 +1422,10 @@
     "spaces.stats.metric.streak_current.label": "Verified in a row",
     "spaces.stats.metric.streak_current.definition": "The run of verified tasks ending at the group's newest closed task. Every closed task of the goal group counts in creation order, and anything but verified (not proven, failed, cancelled or refused) ends the run. Open tasks neither extend nor end it.",
     "spaces.stats.metric.streak_longest.label": "Longest verified run",
-    "spaces.stats.metric.streak_longest.definition": "The longest run of consecutive verified tasks in the range. Every closed task of the goal group counts in creation order, and anything but verified (not proven, failed, cancelled or refused) ends the run. Open tasks neither extend nor end it."
+    "spaces.stats.metric.streak_longest.definition": "The longest run of consecutive verified tasks in the range. Every closed task of the goal group counts in creation order, and anything but verified (not proven, failed, cancelled or refused) ends the run. Open tasks neither extend nor end it.",
+    "spaces.schedule.closeAs.blocked": "Close as blocked",
+    "spaces.schedule.closeAs.failed": "Close as failed",
+    "spaces.schedule.closing": "Closing the task…"
   },
   "total_keys": 1222
 }

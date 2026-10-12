@@ -782,7 +782,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +6: approving a resource for live watching from its tile
     # (`spaces.live.approval.*`: offer, confirm title and body, confirm,
     # cancel, withdraw).
-    assert english_total == 14_243
+    # +3: closing a task held for the operator on its stopped attempt
+    # (`spaces.schedule.closeAs.blocked` / `.failed`, and the busy word).
+    assert english_total == 14_246
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
