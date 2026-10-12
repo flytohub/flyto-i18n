@@ -1,13 +1,16 @@
 # Changelog
 
-## 2026-10-12 — Mission Station fixes from the live simulation
+## 2026-10-12 — Mission Station fixes from the live simulation, live-watch approval
 
 - Added three keys flyto-cloud reads, in en, zh-TW and zh-CN
   (`locales/cloud/*/spaceOperations.json`): `spaces.roomInfo.computers` (the
   information dialog counts computers and now says so),
   `spaces.detected.notReportedSince` (a detected manifest its computer stopped
   reporting, with when it last did) and `spaces.stats.streakZeroOpens` (a zero
-  verified streak opens the goal's tasks). The cumulative ledger is 14,237.
+  verified streak opens the goal's tasks).
+- Added six `spaces.live.approval.*` keys for approving a resource for live
+  watching from its live tile: the offer, the confirmation title and body,
+  confirm, cancel and withdraw. The cumulative ledger is 14,243.
 
 ## 2026-10-12 — Equipment its computer reports absent
 

@@ -779,7 +779,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +3: the Mission Station's 10/12 fixes -- the information dialog counts
     # computers by that name, a detected manifest says when its computer last
     # reported it, and a zero streak says it opens the goal's tasks.
-    assert english_total == 14_237
+    # +6: approving a resource for live watching from its tile
+    # (`spaces.live.approval.*`: offer, confirm title and body, confirm,
+    # cancel, withdraw).
+    assert english_total == 14_243
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
