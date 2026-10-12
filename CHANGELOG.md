@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-13 — Closing a held task on its stopped attempt
+
+- Added three keys flyto-cloud reads, in en, zh-TW and zh-CN
+  (`locales/cloud/*/spaceOperations.json`): `spaces.schedule.closeAs.blocked`
+  and `spaces.schedule.closeAs.failed` (the operator closes a task held after
+  a stopped step, in the outcome Cloud derives for it) and
+  `spaces.schedule.closing` (the button while the close is sent). The
+  cumulative ledger is 14,246.
+
 ## 2026-10-12 — Mission Station fixes from the live simulation, live-watch approval
 
 - Added three keys flyto-cloud reads, in en, zh-TW and zh-CN
