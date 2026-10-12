@@ -71,6 +71,7 @@
     "decisionProcess.omitted.observations": "观测",
     "decisionProcess.omitted.planner_considerations": "规划考量",
     "decisionProcess.omitted.poses": "位置与路径",
+    "decisionProcess.omitted.rejected_routes": "未采用的路线",
     "decisionProcess.omitted.steps": "执行步骤",
     "decisionProcess.omitted.timeline": "时间轴",
     "decisionProcess.omitted.verification": "验证",
