@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-12 — Receipt source line says what was checked
+
+- Reworded `spaces.receipt.sourcesCorrelated` in en, zh-TW and zh-CN
+  (`locales/cloud/*/spaceOperations.json`). Under a verified receipt it read
+  「證據已關聯至執行工作，但尚未驗證設備來源真實性」, which was ungrammatical and
+  read as doubting the verdict. It now states the two facts flyto-cloud's
+  `evidence_provenance` check establishes: each piece of evidence traces to
+  the job and step that produced it, and the equipment's own identity was not
+  independently attested. No key added or removed.
+
 ## 2026-10-12 — Rejected routes label
 
 - Added `decisionProcess.omitted.rejected_routes` in en, zh-TW and zh-CN

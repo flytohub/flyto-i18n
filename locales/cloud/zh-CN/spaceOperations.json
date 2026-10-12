@@ -1291,7 +1291,7 @@
     "spaces.receipt.outcomeUnknown": "结果未知",
     "spaces.receipt.erpAckMissing": "流程回报已写入，但外部系统尚未独立确认成功。",
     "spaces.receipt.erpAcknowledged": "外部系统已按编号读回记录 {record}，写入的每个字段都与系统存储的一致。",
-    "spaces.receipt.sourcesCorrelated": "证据已关联至执行任务，但尚未验证设备来源真实性。",
+    "spaces.receipt.sourcesCorrelated": "每条证据都追溯到产生它的任务与步骤；设备本身的身份未经独立认证。",
     "spaces.receipt.sourcesUnavailable": "目前无法检查证据来源。",
     "spaces.receipt.sourcesChecking": "正在确认证据来源…",
     "spaces.receipt.sourcesUnproven": "部分证据尚未关联到产生它的执行任务。",

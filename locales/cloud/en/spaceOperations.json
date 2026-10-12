@@ -1291,7 +1291,7 @@
     "spaces.receipt.outcomeUnknown": "Outcome unknown",
     "spaces.receipt.erpAckMissing": "The workflow reported a write, but the external system has not independently confirmed it.",
     "spaces.receipt.erpAcknowledged": "The external system read back record {record}: every field written matches what it stored.",
-    "spaces.receipt.sourcesCorrelated": "Evidence is linked to an execution job; device authenticity is not verified.",
+    "spaces.receipt.sourcesCorrelated": "Each piece of evidence traces to the job and step that produced it. The equipment's own identity was not independently attested.",
     "spaces.receipt.sourcesUnavailable": "The evidence source check is unavailable right now.",
     "spaces.receipt.sourcesChecking": "Checking the evidence sources…",
     "spaces.receipt.sourcesUnproven": "Some evidence is not linked to the execution job that produced it.",
