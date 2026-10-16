@@ -46,6 +46,8 @@ class SpacePairingCatalogTest(unittest.TestCase):
             "generate",
             "mostRegister",
             "pairWhen",
+            # The code's accessible name, so a screen reader says what it is.
+            "pairingCode",
             # The dialog says so when the Space it was opened for is gone.
             "spaceUnavailable",
             "subtitle",

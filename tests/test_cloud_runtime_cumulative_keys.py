@@ -798,7 +798,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # (`spaces.needsYou.asks`).
     # +1: the HTTP 503 message Cloud's error handling and top-up dialog read
     # (`errors.serviceUnavailable`).
-    assert english_total == 14_257
+    # +1: the pairing code's accessible name in the pair-device dialog
+    # (`spaces.pair.pairingCode`).
+    assert english_total == 14_258
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -495,6 +495,7 @@
     "spaces.ops.verificationStatusVerified": "Acceptance verified",
     "spaces.ops.verificationVerdict": "Verdict",
     "spaces.ops.watching": "Watching",
+    "spaces.pair.pairingCode": "Device pairing code",
     "spaces.pair.afterPairing": "The device appears in this Space after it claims the code.",
     "spaces.pair.copied": "Copied",
     "spaces.pair.copy": "Copy code",
