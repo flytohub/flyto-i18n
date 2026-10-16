@@ -1425,7 +1425,10 @@
     "spaces.stats.metric.streak_longest.definition": "The longest run of consecutive verified tasks in the range. Every closed task of the goal group counts in creation order, and anything but verified (not proven, failed, cancelled or refused) ends the run. Open tasks neither extend nor end it.",
     "spaces.schedule.closeAs.blocked": "Close as blocked",
     "spaces.schedule.closeAs.failed": "Close as failed",
-    "spaces.schedule.closing": "Closing the task…"
+    "spaces.schedule.closing": "Closing the task…",
+    "spaces.schedule.recordStepContinueEvidence": "Record stopped step — finish required evidence",
+    "spaces.schedule.recordingStoppedStep": "Recording stopped step…",
+    "spaces.schedule.pendingRequiredFollowups": "This records the stopped step, not completion of the task. Required evidence and dependent report steps still need to finish; sending a report does not prove external acknowledgement."
   },
   "total_keys": 1222
 }
