@@ -475,6 +475,7 @@
     "spaces.ops.verificationStateMissing": "尚未定義",
     "spaces.ops.verificationStateNotConfigured": "未要求證據",
     "spaces.ops.verificationStateNotProven": "未能證明",
+    "spaces.ops.verificationStateOwed": "合約要求，尚未核對",
     "spaces.ops.verificationStatePending": "等待中",
     "spaces.ops.verificationStateReady": "可執行",
     "spaces.ops.verificationStateRefused": "已拒絕",

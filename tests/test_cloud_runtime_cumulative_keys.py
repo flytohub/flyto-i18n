@@ -789,7 +789,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # recordStepContinueEvidence, recordingStoppedStep, pendingRequiredFollowups.
     # +1: a task another task's AI Space job proposed names that submitter
     # (`spaces.tasks.submittedBy.taskJob`).
-    assert english_total == 14_250
+    # +1: the evidence stage of a task whose frozen goal contract owes results
+    # no acceptance check assesses yet (`spaces.ops.verificationStateOwed`).
+    assert english_total == 14_251
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

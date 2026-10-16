@@ -475,6 +475,7 @@
     "spaces.ops.verificationStateMissing": "Not defined",
     "spaces.ops.verificationStateNotConfigured": "No proof requested",
     "spaces.ops.verificationStateNotProven": "Not proven",
+    "spaces.ops.verificationStateOwed": "Owed, not yet checked",
     "spaces.ops.verificationStatePending": "Pending",
     "spaces.ops.verificationStateReady": "Ready",
     "spaces.ops.verificationStateRefused": "Refused",
