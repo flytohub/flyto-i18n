@@ -787,7 +787,20 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +3: closing a held physical step does not complete owed photo evidence,
     # downstream reporting or independently acknowledged writeback:
     # recordStepContinueEvidence, recordingStoppedStep, pendingRequiredFollowups.
-    assert english_total == 14_249
+    # +1: a task another task's AI Space job proposed names that submitter
+    # (`spaces.tasks.submittedBy.taskJob`).
+    # +1: the evidence stage of a task whose frozen goal contract owes results
+    # no acceptance check assesses yet (`spaces.ops.verificationStateOwed`).
+    # +4: photo gallery delivery as the device reports it, in its own words
+    # (`spaces.ops.mediaDelivery{Attribution,Failed,Unverified,Verified}`),
+    # which the Cloud result viewer already referenced.
+    # +1: a Run hold names what the goal's frozen contract asks for
+    # (`spaces.needsYou.asks`).
+    # +1: the HTTP 503 message Cloud's error handling and top-up dialog read
+    # (`errors.serviceUnavailable`).
+    # +1: the pairing code's accessible name in the pair-device dialog
+    # (`spaces.pair.pairingCode`).
+    assert english_total == 14_258
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

@@ -10,7 +10,7 @@ VERIFICATION_KEYS = frozenset(
     {"spaces.ops.nextAction"}
     | {
         f"spaces.ops.verification{suffix}"
-        for suffix in ["ActionAwaitPerson", "ActionContinue", "ActionDefine", "ActionNone", "ActionOpen", "ActionRepeat", "ActionResolve", "ActionReview", "ActionShortfall", "ActionStart", "ActionWait", "Contract", "Empty", "Evidence", "Execution", "Loop", "LoopPlain", "StateActive", "StateBlocked", "StateCancelled", "StateComplete", "StateExecutionFailed", "StateFailed", "StateInsufficient", "StateMissing", "StateNotConfigured", "StateNotProven", "StatePending", "StateReady", "StateRefused", "StateUnverified", "StateVerified", "StatusBlocked", "StatusCancelled", "StatusExecutionFailed", "StatusInProgress", "StatusNotProven", "StatusRefused", "StatusUnverified", "StatusVerified", "Verdict"]
+        for suffix in ["ActionAwaitPerson", "ActionContinue", "ActionDefine", "ActionNone", "ActionOpen", "ActionRepeat", "ActionResolve", "ActionReview", "ActionShortfall", "ActionStart", "ActionWait", "Contract", "Empty", "Evidence", "Execution", "Loop", "LoopPlain", "StateActive", "StateBlocked", "StateCancelled", "StateComplete", "StateExecutionFailed", "StateFailed", "StateInsufficient", "StateMissing", "StateNotConfigured", "StateNotProven", "StateOwed", "StatePending", "StateReady", "StateRefused", "StateUnverified", "StateVerified", "StatusBlocked", "StatusCancelled", "StatusExecutionFailed", "StatusInProgress", "StatusNotProven", "StatusRefused", "StatusUnverified", "StatusVerified", "Verdict"]
     }
 )
 
@@ -92,7 +92,9 @@ def test_verification_loop_contract_has_exact_additive_key_set() -> None:
     # "resolve the blocked step" and the step was not the problem.
     # +1: LoopPlain. The panel is on screen in the operator's view too, where
     # it is named "Result check" rather than the engineer's "loop".
-    assert len(VERIFICATION_KEYS) == 42
+    # +1: StateOwed. A goal handed whole to an AI Space keeps its frozen
+    # contract; the evidence stage names what it owes, not "no proof requested".
+    assert len(VERIFICATION_KEYS) == 43
     for locale in LOCALES:
         actual = {
             key

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "errors.networkError": "無法連線至伺服器，請確認後端是否正在運行。",
+    "errors.serviceUnavailable": "服務暫時無法使用，請稍後再試。",
     "errors.somethingWentWrong": "發生錯誤",
     "errors.technicalDetails": "技術詳情",
     "errors.timeout": "請求逾時，請重試。",
