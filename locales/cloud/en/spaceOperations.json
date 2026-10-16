@@ -1358,6 +1358,7 @@
     "spaces.triggers.inbound.createFailed": "The trigger was not created. Try again.",
     "spaces.triggers.inbound.loadFailed": "The triggers could not be read. Try again.",
     "spaces.needsYou.level": "Level {level} · {name}",
+    "spaces.needsYou.asks": "Asks for {results}",
     "spaces.needsYou.submittedBy": "Submitted by {who}",
     "spaces.stats.title": "Statistics",
     "spaces.stats.back": "Back to the Mission Station",

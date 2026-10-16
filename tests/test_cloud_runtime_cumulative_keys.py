@@ -794,7 +794,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +4: photo gallery delivery as the device reports it, in its own words
     # (`spaces.ops.mediaDelivery{Attribution,Failed,Unverified,Verified}`),
     # which the Cloud result viewer already referenced.
-    assert english_total == 14_255
+    # +1: a Run hold names what the goal's frozen contract asks for
+    # (`spaces.needsYou.asks`).
+    assert english_total == 14_256
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

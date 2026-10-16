@@ -1358,6 +1358,7 @@
     "spaces.triggers.inbound.createFailed": "觸發器未建立，請再試一次。",
     "spaces.triggers.inbound.loadFailed": "無法讀取觸發器，請再試一次。",
     "spaces.needsYou.level": "第 {level} 級 · {name}",
+    "spaces.needsYou.asks": "要求：{results}",
     "spaces.needsYou.submittedBy": "提交者：{who}",
     "spaces.stats.title": "統計",
     "spaces.stats.back": "回到任務站點",
