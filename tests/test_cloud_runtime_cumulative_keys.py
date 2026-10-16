@@ -784,7 +784,10 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # cancel, withdraw).
     # +3: closing a task held for the operator on its stopped attempt
     # (`spaces.schedule.closeAs.blocked` / `.failed`, and the busy word).
-    assert english_total == 14_246
+    # +3: closing a held physical step does not complete owed photo evidence,
+    # downstream reporting or independently acknowledged writeback:
+    # recordStepContinueEvidence, recordingStoppedStep, pendingRequiredFollowups.
+    assert english_total == 14_249
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]
