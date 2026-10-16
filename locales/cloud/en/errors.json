@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "translations": {
     "errors.networkError": "Unable to connect to server. Please ensure the backend is running.",
+    "errors.serviceUnavailable": "The service is temporarily unavailable. Please try again shortly.",
     "errors.somethingWentWrong": "Something went wrong",
     "errors.technicalDetails": "Technical details",
     "errors.timeout": "Request timed out. Please try again.",
