@@ -1425,7 +1425,10 @@
     "spaces.stats.metric.streak_longest.definition": "此期間內最長的連續已驗證任務數。目標內每個已結束任務依建立順序計算，除已驗證以外的任何結果（未證實、執行失敗、已取消或已拒絕）都會中斷連續；進行中的任務不延長也不中斷。",
     "spaces.schedule.closeAs.blocked": "以受阻結案",
     "spaces.schedule.closeAs.failed": "以失敗結案",
-    "spaces.schedule.closing": "正在結案…"
+    "spaces.schedule.closing": "正在結案…",
+    "spaces.schedule.recordStepContinueEvidence": "記錄受阻步驟，繼續完成必要證據",
+    "spaces.schedule.recordingStoppedStep": "正在記錄受阻步驟…",
+    "spaces.schedule.pendingRequiredFollowups": "這只記錄受阻步驟，並非整個任務完成。必要的照片等證據與後續報告仍須完成；送出報告不代表外部系統已確認接收。"
   },
   "total_keys": 1222
 }
