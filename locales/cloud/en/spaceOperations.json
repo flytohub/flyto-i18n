@@ -1227,6 +1227,7 @@
     "spaces.tasks.submittedBy.trigger": "an inbound trigger",
     "spaces.tasks.submittedBy.schedule": "a schedule",
     "spaces.tasks.submittedBy.mcpClient": "an MCP client",
+    "spaces.tasks.submittedBy.taskJob": "another task's AI Space",
     "spaces.tasks.holdUnattended": "Waits for your Start: submitted by {who}, so consequence level {level} ({name}) does not start on its own",
     "spaces.guide.capabilityExample.audio.speak": "Announce that the job is done",
     "spaces.guide.capabilityExample.browser.download": "Download the latest report",

@@ -787,7 +787,9 @@ def test_complete_cloud_manifest_survives_selective_build() -> None:
     # +3: closing a held physical step does not complete owed photo evidence,
     # downstream reporting or independently acknowledged writeback:
     # recordStepContinueEvidence, recordingStoppedStep, pendingRequiredFollowups.
-    assert english_total == 14_249
+    # +1: a task another task's AI Space job proposed names that submitter
+    # (`spaces.tasks.submittedBy.taskJob`).
+    assert english_total == 14_250
 
     for locale in LOCALES:
         record = complete_manifest["locales"][locale]

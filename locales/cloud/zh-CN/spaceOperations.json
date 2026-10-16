@@ -1227,6 +1227,7 @@
     "spaces.tasks.submittedBy.trigger": "传入触发",
     "spaces.tasks.submittedBy.schedule": "排程",
     "spaces.tasks.submittedBy.mcpClient": "MCP 客户端",
+    "spaces.tasks.submittedBy.taskJob": "另一个任务的 AI Space",
     "spaces.tasks.holdUnattended": "等你按启动：由{who}提交，所以后果等级 {level}（{name}）不会自行开始",
     "spaces.guide.capabilityExample.audio.speak": "广播工作已完成",
     "spaces.guide.capabilityExample.browser.download": "下载最新的报表",
